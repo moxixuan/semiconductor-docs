@@ -101,6 +101,7 @@ module.exports = {
       collapsed: false,
       items: [
         'standards/intro',
+        'standards/secs-e5',
         {
           type: 'category',
           label: '总线协议',

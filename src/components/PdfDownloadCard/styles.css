@@ -1,0 +1,160 @@
+/* PDF下载卡片样式 */
+.pdf-download-card {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 24px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 暗色主题适配 */
+[data-theme='dark'] .pdf-download-card {
+  background: rgba(0, 164, 255, 0.05);
+  border-color: rgba(0, 164, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 164, 255, 0.1);
+}
+
+.pdf-download-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.pdf-download-card__icon {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.pdf-download-card__title h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.pdf-download-card__doc-title {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.4;
+}
+
+.pdf-download-card__info {
+  margin-bottom: 20px;
+}
+
+.pdf-download-card__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.pdf-download-card__label {
+  color: var(--ifm-color-emphasis-600);
+  font-weight: 500;
+}
+
+.pdf-download-card__value {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.pdf-download-card__description {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+.pdf-download-card__notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: rgba(63, 137, 255, 0.1);
+  border-left: 3px solid var(--ifm-color-info);
+  border-radius: 4px;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.pdf-download-card__notice-icon {
+  font-size: 16px;
+}
+
+.pdf-download-card__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pdf-download-card__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.pdf-download-card__button--primary {
+  background: linear-gradient(135deg, #00d4ff, #0891b2);
+  color: white;
+  border: none;
+}
+
+.pdf-download-card__button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
+}
+
+.pdf-download-card__button--secondary {
+  background: transparent;
+  color: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+}
+
+.pdf-download-card__button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+}
+
+.pdf-download-card__button-icon {
+  font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .pdf-download-card {
+    padding: 16px;
+  }
+
+  .pdf-download-card__header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pdf-download-card__icon {
+    font-size: 32px;
+  }
+
+  .pdf-download-card__actions {
+    flex-direction: column;
+  }
+
+  .pdf-download-card__button {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -33,3 +33,30 @@ yarn-error.log*
 
 # Meilisearch data
 meilisearch-data/
+
+# Environment variables
+.env
+.env.local
+
+# PDF processing data
+data/pdfs/raw/*
+data/pdfs/archive/*
+data/markdown/drafts/*
+data/markdown/rejected/*
+data/images/figures/*
+data/images/tables/*
+!data/**/.gitkeep
+
+# Meilisearch data
+meilisearch_data/
+
+# Processing logs
+*.log
+data/processing.log
+
+# Node modules (should already be there, but just in case)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

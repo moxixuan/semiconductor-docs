@@ -1,0 +1,21 @@
+# 忽略所有数据文件，但保留目录结构
+*
+!.gitignore
+
+# 允许特定目录
+!raw/
+!raw/.gitkeep
+!archive/
+!archive/.gitkeep
+!drafts/
+!drafts/.gitkeep
+!published/
+!published/.gitkeep
+!rejected/
+!rejected/.gitkeep
+!figures/
+!figures/.gitkeep
+!tables/
+!tables/.gitkeep
+!metadata/
+!metadata/.gitkeep

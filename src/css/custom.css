@@ -1,0 +1,380 @@
+/**
+ * 科技感深色主题 - Semiconductor Docs
+ */
+
+/* ===== 全局 CSS 变量 ===== */
+:root {
+  /* 主色调 - 霓虹青 */
+  --ifm-color-primary: #00d4ff;
+  --ifm-color-primary-dark: #00b8e6;
+  --ifm-color-primary-darker: #00a8d4;
+  --ifm-color-primary-darkest: #0096c8;
+  --ifm-color-primary-light: #26e0ff;
+  --ifm-color-primary-lighter: #4de6ff;
+  --ifm-color-primary-lightest: #80efff;
+
+  /* 辅助色 - 霓虹紫 */
+  --ifm-color-secondary: #a855f7;
+  --ifm-color-success: #10b981;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+  --ifm-color-info: #06b6d4;
+
+  /* 深色背景 */
+  --ifm-background-color: #0a0a0f;
+  --ifm-background-surface-color: #12121a;
+  --ifm-hover-overlay: rgba(0, 212, 255, 0.08);
+
+  /* 文字颜色 */
+  --ifm-font-color-base: #e4e4e7;
+  --ifm-font-color-secondary: #a1a1aa;
+  --ifm-font-color-emphasis: #ffffff;
+
+  /* 边框 */
+  --ifm-border-color: #27272a;
+  --ifm-toc-border-color: #27272a;
+
+  /* 代码字体 */
+  --ifm-code-font-size: 90%;
+
+  /* 自定义霓虹变量 */
+  --neon-cyan: #00d4ff;
+  --neon-purple: #a855f7;
+  --neon-blue: #3b82f6;
+  --dark-bg: #0a0a0f;
+  --dark-surface: #12121a;
+  --dark-card: #1a1a24;
+  --glow-cyan: 0 0 20px rgba(0, 212, 255, 0.3);
+  --glow-purple: 0 0 20px rgba(168, 85, 247, 0.3);
+}
+
+/* ===== 深色模式优化 ===== */
+html[data-theme='dark'] {
+  --ifm-background-color: #0a0a0f;
+  --ifm-background-surface-color: #12121a;
+  --ifm-font-color-base: #e4e4e7;
+  --ifm-border-color: #27272a;
+}
+
+/* ===== 全局样式 ===== */
+body {
+  background: var(--dark-bg);
+  color: var(--ifm-font-color-base);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+/* ===== 导航栏 - 科技感 ===== */
+.navbar {
+  background: rgba(10, 10, 15, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.2) !important;
+  box-shadow: 0 4px 30px rgba(0, 212, 255, 0.1);
+}
+
+.navbar__link {
+  color: var(--ifm-font-color-base) !important;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--neon-cyan) !important;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.navbar__title {
+  color: var(--neon-cyan) !important;
+  font-weight: 700;
+  text-shadow: var(--glow-cyan);
+}
+
+/* ===== 侧边栏 - 科技卡片 ===== */
+.sidebar {
+  background: var(--dark-surface) !important;
+  border-right: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.sidebar-item-title {
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+.menu__link {
+  color: var(--ifm-font-color-secondary) !important;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  margin: 2px 8px;
+}
+
+.menu__link:hover {
+  background: rgba(0, 212, 255, 0.1) !important;
+  color: var(--neon-cyan) !important;
+  transform: translateX(4px);
+}
+
+.menu__link--active {
+  background: linear-gradient(90deg, rgba(0, 212, 255, 0.2), transparent) !important;
+  color: var(--neon-cyan) !important;
+  border-left: 3px solid var(--neon-cyan);
+}
+
+.menu__list-item {
+  margin: 4px 0;
+}
+
+/* ===== 文档内容区域 ===== */
+.docMainContainer {
+  background: var(--dark-bg);
+}
+
+.markdown {
+  color: var(--ifm-font-color-base);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: var(--ifm-font-color-emphasis);
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.markdown h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.markdown p {
+  color: var(--ifm-font-color-base);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.markdown a {
+  color: var(--neon-cyan);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px dashed var(--neon-cyan);
+}
+
+.markdown a:hover {
+  color: var(--neon-purple);
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+  border-bottom-style: solid;
+}
+
+/* ===== 代码块 - 霓虹发光 ===== */
+.theme-code-block {
+  background: var(--dark-card) !important;
+  border: 1px solid rgba(0, 212, 255, 0.3) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(0, 212, 255, 0.05);
+  overflow: hidden;
+}
+
+.theme-code-block pre {
+  background: transparent !important;
+}
+
+code,
+.token.keyword,
+.token.string,
+.token.number {
+  color: var(--neon-cyan) !important;
+}
+
+.token.function,
+.token.class-name {
+  color: var(--neon-purple) !important;
+}
+
+.token.comment {
+  color: var(--ifm-font-color-secondary) !important;
+}
+
+/* ===== 表格 - 科技风格 ===== */
+.markdown table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.markdown table th {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.2), rgba(168, 85, 247, 0.2));
+  color: var(--neon-cyan);
+  font-weight: 700;
+  padding: 1rem;
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.markdown table td {
+  background: var(--dark-card);
+  color: var(--ifm-font-color-base);
+  padding: 1rem;
+  border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.markdown table tr:hover td {
+  background: rgba(0, 212, 255, 0.1);
+}
+
+/* ===== 提示框 - 霓虹效果 ===== */
+.admonition {
+  background: var(--dark-card) !important;
+  border: 1px solid rgba(0, 212, 255, 0.3) !important;
+  border-radius: 12px !important;
+  margin: 2rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.admonition-heading {
+  color: var(--neon-cyan) !important;
+  font-weight: 700;
+}
+
+.admonition-icon svg {
+  fill: var(--neon-cyan);
+  filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.5));
+}
+
+/* 不同类型的提示框 */
+.admonition-note {
+  border-color: var(--neon-blue) !important;
+}
+
+.admonition-tip {
+  border-color: var(--neon-cyan) !important;
+}
+
+.admonition-warning {
+  border-color: var(--ifm-color-warning) !important;
+}
+
+.admonition-danger {
+  border-color: var(--ifm-color-danger) !important;
+}
+
+/* ===== 卡片和按钮 ===== */
+.card {
+  background: var(--dark-card) !important;
+  border: 1px solid rgba(0, 212, 255, 0.2) !important;
+  border-radius: 16px !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  border-color: var(--neon-cyan) !important;
+  box-shadow: 0 8px 30px rgba(0, 212, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+.button {
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple)) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(0, 212, 255, 0.5);
+}
+
+/* ===== 页脚 ===== */
+.footer {
+  background: var(--dark-surface) !important;
+  border-top: 1px solid rgba(0, 212, 255, 0.2) !important;
+}
+
+.footer__link-item {
+  color: var(--ifm-font-color-secondary) !important;
+  transition: all 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--neon-cyan) !important;
+}
+
+/* ===== 滚动条 ===== */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--neon-cyan), var(--neon-purple));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon-cyan);
+}
+
+/* ===== 响应式设计 ===== */
+@media (max-width: 996px) {
+  .markdown h1 {
+    font-size: 2rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* ===== 动画效果 ===== */
+@keyframes glow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ===== 搜索框 ===== */
+.DocSearch-Button {
+  background: var(--dark-card) !important;
+  border: 1px solid rgba(0, 212, 255, 0.3) !important;
+}
+
+.DocSearch-Button:hover {
+  background: rgba(0, 212, 255, 0.1) !important;
+  border-color: var(--neon-cyan) !important;
+}

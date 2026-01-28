@@ -14,6 +14,7 @@ const PDFToMarkdownConverter = require('./converters/pdf-to-markdown');
 const MetadataExtractor = require('./extractors/metadata-extractor');
 const GitHubReleasesUploader = require('./uploaders/github-releases-uploader');
 const TierClassifier = require('./utils/tier-classifier');
+const PDFSplitter = require('./utils/pdf-splitter');
 
 const program = new Command();
 
@@ -376,6 +377,36 @@ program
 
       console.log(chalk.bold('处理建议:\n'));
       console.log(classifier.generateRecommendation(classification));
+
+    } catch (error) {
+      console.error(chalk.red(`❌ 错误: ${error.message}`));
+      process.exit(1);
+    }
+  });
+
+// ============================================================================
+// split 命令 - 分割大型PDF
+// ============================================================================
+
+program
+  .command('split <pdfFile>')
+  .description('按章节分割大型PDF并转换为Markdown')
+  .option('--pages-per-chapter <num>', '每章节页数', '50')
+  .option('--output-dir <dir>', 'PDF输出目录', './data/pdfs/split')
+  .option('--markdown-dir <dir>', 'Markdown输出目录', './data/markdown/split')
+  .action(async (pdfFile, options) => {
+    try {
+      console.log(chalk.blue.bold('\n✂️  PDF分割处理\n'));
+
+      const pdfPath = path.resolve(pdfFile);
+      await fs.access(pdfPath);
+
+      const splitter = new PDFSplitter({
+        outputDir: options.outputDir,
+        markdownDir: options.markdownDir,
+      });
+
+      await splitter.process(pdfPath);
 
     } catch (error) {
       console.error(chalk.red(`❌ 错误: ${error.message}`));

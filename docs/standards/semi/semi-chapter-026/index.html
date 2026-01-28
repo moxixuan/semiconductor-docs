@@ -1,0 +1,1480 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-standards/semi/semi-chapter-026">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v2.4.1">
+<title data-rh="true">E5-1104 - © SEMI 1982, 2004... | 半导体知识文档库</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-026"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="E5-1104 - © SEMI 1982, 2004... | 半导体知识文档库"><meta data-rh="true" name="description" content="SEMI标准文档"><meta data-rh="true" property="og:description" content="SEMI标准文档"><link data-rh="true" rel="canonical" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-026"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-026" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-026" hreflang="x-default"><link rel="stylesheet" href="/semiconductor-docs/assets/css/styles.488ea4dc.css">
+<link rel="preload" href="/semiconductor-docs/assets/js/runtime~main.ca6193db.js" as="script">
+<link rel="preload" href="/semiconductor-docs/assets/js/main.d89a018c.js" as="script">
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/semiconductor-docs/"><b class="navbar__title text--truncate">⚡ 半导体知识库</b></a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/process/intro">工艺制造</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/standards/intro">协议标准</a><a class="navbar__item navbar__link" href="/semiconductor-docs/blog">技术博客</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="searchBox_ZlJk"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docPage__5DB"><main class="docMainContainer_gTbr docMainContainerEnhanced_Uz_u"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="theme-doc-markdown markdown"><header><h1>E5-1104 - © SEMI 1982, 2004...</h1></header><p>PdfDownloadCard
+pdfLink=&quot;/pdfs/semi/026.pdf&quot;
+pdfSize=&quot;0.23MB&quot;
+title=&quot;E5-1104 - © SEMI 1982, 2004...&quot;
+description=&quot;SEMI标准文档，共50页&quot;
+/</p><h1>文档标题</h1><p>SEMI E5-1104 © SEMI 1982, 2004 193
+Stream,Function  Name (Mnemonic) Direction
+S14,F20  Generic Service Acknowledge (GSA) M,H&lt;-E
+Description
+The equipment acknowledges requested service or reports any error(s).  If the service is accepted and completed at once, (i.e.
+SVCACK = 0) then, the required parameters for the response are listed within this message.  If the service is accepted but the
+performance of the service takes a relatively longer time due to some physical reason, (i.e. SVCACK = 4) then, the service
+response will be sent with the required parameters when the service is completed (see S14,F21/F22).  The determination as to
+whether a delayed response is acceptable is dependent upon the implementation.  LINKID is set to a non-zero value if and only i
+f
+additional completion reports will be sent.  The data items are mapped to the service response parameter list of the applied object
+service.  Parameters that apply to the list are described in the standard that defines the application of the service.
+Structure
+L,4</p><ol><li><p>SVCACK</p></li><li><p>LINKID</p></li><li><p>L,n                          # of parameter groups</p></li><li><p>L,2</p></li><li><p>SPNAME
+1
+service parameter 1 name</p></li><li><p>SPVAL
+1
+service parameter 1 value</p></li><li><p>L,2</p></li><li><p>SPNAME
+2
+service parameter 2 name</p></li><li><p>SPVAL
+2
+service parameter 2 value
+.
+.
+n. L,2</p></li><li><p>SPNAME
+n
+service parameter n name</p></li><li><p>SPVAL
+n
+service parameter n value</p></li><li><p>L,2</p></li><li><p>SVCACK</p></li><li><p>L,p                      p = number of errors reported</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If p = 0, no errors were detected.  If n = 0 parameters are returned.  SVCACK is specified twice in the above structure for
+backward compatibility with the previous structure of this message, and for consistency with other stream 14 reply messages.
+The values of both SVCACK data items in this structure must be equal.  The above message structure (L,4) is the preferred
+structure for this message and must be used for new implementations.  The following message structure (L,3) is included for
+compatibility with previous implementations and must not be used for new implementations.
+Structure:
+L,3</p><ol><li>SVCACK</li><li>LINKID</li><li>L,n                          # of parameter groups</li><li>L,2</li><li>SPNAME
+1
+service parameter 1 name</li><li>SPVAL
+1
+service parameter 1 value</li><li>L,2</li><li>SPNAME
+2
+service parameter 2 name</li><li>SPVAL
+2
+service parameter 2 value
+.
+.
+n. L,2</li><li>SPNAME
+n
+service parameter n name</li><li>SPVAL
+n
+service parameter n value</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 194
+Stream,Function  Name (Mnemonic) Direction
+S14,F21  Generic Service Completion Information (GSCI) M,H&lt;-E,reply
+Description
+The equipment notifies the original service requestor when requested service on an object is completed, either successfully or
+unsuccessfully.  The equipment may send required information using reply parameters.  If the service was accepted and
+completed at once, the information was carried with the acknowledge message, that is secondary message of requesting one, and
+this message is not provided.
+OPID contains the value of OPID in the initial request, i.e. S14F19.  LINKID is set to a non-zero value if and only if additional
+completion reports with the same OPID will be sent.  If multi-block, it shall be preceded by the S14F23/F24 Multi-Block
+Inquire/Grant transaction.
+Structure
+L,5</p><ol><li><p>DATAID</p></li><li><p>OPID</p></li><li><p>LINKID</p></li><li><p>L,n                          n = of parameter groups</p></li><li><p>L,2</p></li><li><p>SPNAME
+1
+Service parameter 1 name</p></li><li><p>SPVAL
+1
+Service parameter 1 value</p></li><li><p>L,2</p></li><li><p>SPNAME
+2
+Service parameter 2 name</p></li><li><p>SPVAL
+2
+Service parameter 2 value
+.
+.
+n. L,2</p></li><li><p>SPNAME
+n
+Service parameter n name</p></li><li><p>SPVAL
+n
+Service parameter n value</p></li><li><p>L,2</p></li><li><p>SVCACK</p></li><li><p>L,p                      p = number of errors reported</p></li><li><p>L,2</p></li><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If p = 0, no errors were detected.  If n = 0 no parameters are returned.</p><p>Stream,Function  Name (Mnemonic) Direction
+S14,F22  Generic Service Completion Acknowledge (GSCA) S,H-&gt;E
+Description
+The acknowledgement of generic Object Service Completion Information, i.e. S14F21.
+Structure
+DATAACK
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 195
+Stream,Function  Name (Mnemonic) Direction
+S14,F23  Multi-block Generic Service Data Inquire (GSDI) S,H&lt;-&gt;E,reply
+Description
+If any of Object Service messages are larger than one block, then this transaction must precede that message.
+Structure
+L,2</p><ol><li>DATAID</li><li>DATALENGTH
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S14,F24  Multi-block Generic Service Data Grant (GSDG) S,H&lt;-&gt;E
+Description
+Message to indicate if permission is granted to transmit a multi-block Object Service message.
+Structure
+GRANT
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S14,F25  Get Service Name Request (GSNR) S,H-&gt;E
+Description
+This message is used to request to list  the services of specified types of owned objects.  This is an operation performed on an
+object type rather than on object instances.  Wild characters “?” and “*” may be used as a filter for object types.  Equipment is
+not required to support wild characters.
+Structure
+L,2</p><ol><li>OBJSPEC</li><li>L,n                          n = # of object types</li><li>OBJTYP
+1</li></ol><p>.
+.
+n. OBJTYP
+n</p><p>Exception
+If OBJSPEC is a zero-length item, no object specifier is provided.</p><p>SEMI E5-1104 © SEMI 1982, 2004 196
+Stream,Function  Name (Mnemonic) Direction
+S14,F26  Get Service Name Data (GSND) S,H&lt;-E
+Description
+This message contains a list of the services of the requested objects.
+Structure
+L,2</p><ol><li><p>L,n                          n = number of object types</p></li><li><p>L,2</p></li><li><p>OBJTYP
+1</p></li><li><p>L,a                a = number of attributes</p></li><li><p>SVCNAME
+1</p></li></ol><p>.
+.
+a. SVCNAME
+a</p><p>.
+.
+n. L,2</p><ol><li><p>OBJTYP
+n</p></li><li><p>L,b                b = number of attributes</p></li><li><p>SVCNAME
+1</p></li></ol><p>.
+.
+b. SVCNAME
+b</p><ol start="2"><li><p>L,2</p></li><li><p>L,2</p></li><li><p>OBJACK</p></li><li><p>L,p                p = number of errors reported</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If p = 0, no errors were detected.</p><p>Stream,Function  Name (Mnemonic) Direction
+S14,F27  Get Service Parameter Name Request (GPNR) S,H-&gt;E
+Description
+This message is used to request to list the parameters of specified services of owned object.  This is an operation performed on an
+object type rather than on object instances.
+Structure
+L,3</p><ol><li>OBJSPEC</li><li>OBJTYP</li><li>L,n                          n = # of interesting services</li><li>SVCNAME
+1</li></ol><p>.
+.
+n. SVCNAME
+n</p><p>Exception
+If OBJSPEC is a zero-length item, no object specifier is provided.</p><p>SEMI E5-1104 © SEMI 1982, 2004 197
+Stream,Function  Name (Mnemonic) Direction
+S14,F28  Get Service Parameter Name Data (GPND) S,H&lt;-E
+Description
+This message contains a list of the service parameters of the requested services for the specified object.
+Structure
+L,2</p><ol><li><p>L,n                          n = number of services of interest</p></li><li><p>L,2</p></li><li><p>SVCNAME
+1</p></li><li><p>L,a                a = number of parameter names</p></li><li><p>SPNAME
+1</p></li></ol><p>.
+.
+a. SPNAME
+a</p><p>.
+.
+n. L,2</p><ol><li><p>SVCNAME
+n</p></li><li><p>L,b                b = number of parameter names</p></li><li><p>SPNAME
+1</p></li></ol><p>.
+.
+b. SPNAME
+b</p><ol start="2"><li><p>L,2</p></li><li><p>OBJACK</p></li><li><p>L,p                      p = number of errors reported</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If p = 0, no errors were detected.</p><ol start="10"><li>19  Stream  15  Recipe  Management ⎯  The  functions  in  this  stream  are  used  requesting  information  and
+operations concerning recipes, recipe namespaces, and recipe executors.  A recipe is an object that is transferred in
+sections,  where  a  section  consists  of  either  recipe  attributes,  agent-specific  dataset  attributes,  or  the  body  of  the
+recipe.    An  attribute  is  information  concerning  the  recipe  body,  the  recipe  as  a  whole,  or  the  application  of  the
+recipe.  An attribute consists of an attribute name/attribute value pair.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F0  Abort Transaction (S15F0) S,H&lt;-&gt;E
+Description
+Same form as S1,F0.
+Structure</p><p>Exception</p><p>SEMI E5-1104 © SEMI 1982, 2004 198
+Stream,Function  Name (Mnemonic) Direction
+S15,F1  Recipe Management Multi-block Inquire S,H&lt;-&gt;E,reply
+Description
+This message requests permission to send a multi-block message based upon a maximum length of the total message.
+Structure
+L,3</p><ol><li>DATAID</li><li>RCPSPEC</li><li>RMDATASIZE
+Exception
+If RCPSPEC is zero-length, the multi-block message for which permission to send is requested does not contain a recipe.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F2  Recipe Management Multi-block Grant S,H&lt;-&gt;E
+Description
+This message grants or denies permission to send a multi-block message.
+Structure
+RMGRNT
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F3  Recipe Namespace Action Request S,H&lt;-&gt;E,reply
+Description
+This message requests that a recipe namespace be created or deleted.
+Structure
+L,2</p><ol><li>RMNSSPEC</li><li>RMNSCMD
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 199
+Stream,Function  Name (Mnemonic) Direction
+S15,F4  Recipe Namespace Action Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to confirm whether the requested action was completed successfully or to provide error information
+otherwise.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F5  Recipe Namespace Rename Request S,H&lt;-&gt;E,reply
+Description
+A request is made for a recipe namespace to be renamed.
+Structure
+L,2</p><ol><li>RMNSSPEC</li><li>RMNEWNS
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F6  Recipe Namespace Rename Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge or deny a request to rename a recipe namespace.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 200
+Stream,Function  Name (Mnemonic) Direction
+S15,F7  Recipe Space Request S,H&lt;-&gt;E,reply
+Description
+This message requests the amount of recipe storage available in the storage of a recipe namespace or recipe executor, as
+indicated by its object specifier OBJSPEC.
+Structure
+OBJSPEC
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F8  Recipe Space Data M,H&lt;-&gt;E
+Description
+This message contains the amount of storage available for recipes.
+Structure
+L,2</p><ol><li><p>RMSPACE</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F9  Recipe Status Request S,H&lt;-&gt;E,reply
+Description
+This message is used to request the status of a recipe and the next available numeric version for that recipe class and name.
+Structure
+RCPSPEC
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 201
+Stream,Function  Name (Mnemonic) Direction
+S15,F10  Recipe Status Data M,H&lt;-&gt;E
+Description
+This message contains the protected status of the recipe and the next available version number for that recipe class and name.
+Structure
+L,3</p><ol><li><p>RCPSTAT</p></li><li><p>RCPVERS</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+RCPVERS is a zero-length item if and only if the recipe does not exist.  p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F11  Recipe Version Request S,H&lt;-&gt;E,reply
+Description
+This message is used to request the best version of a recipe for the specified agent.
+Structure
+L,4</p><ol><li>RMNSSPEC</li><li>RCPCLASS</li><li>RCPNAME</li><li>AGENT
+Exception
+If item 2 is zero length, the recipe class PROCESS is indicated.  If item 4 is a zero-length item, no agent is specified.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 202
+Stream,Function  Name (Mnemonic) Direction
+S15,F12  Recipe Version Data M,H&lt;-&gt;E
+Description
+This message contains the recommended version.
+Structure
+L,3</p><ol><li><p>AGENT</p></li><li><p>RCPVERS</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If AGENT is a zero-length item in the request, it shall also be a zero-length item in the reply.  If it is not zero-length in the
+request, and it is of zero-length in the reply, then no qualifying recipe was found specific to that equipment.  p = 0 if and only if
+RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F13  Recipe Create Request M,H&lt;-&gt;E,reply
+Description
+This message is used to create or modify a recipe body.  If multi-block, it shall be preceded by the S15,F1/F2 inquire/grant
+transaction.
+Structure
+L,5</p><ol><li><p>DATAID</p></li><li><p>RCPUPDT</p></li><li><p>RCPSPEC</p></li><li><p>L,m</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPATTRID
+m</p></li><li><p>RCPATTRDATA
+m</p></li><li><p>RCPBODY
+Exception
+RCPBODY may be of zero length.</p></li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 203
+Stream,Function  Name (Mnemonic) Direction
+S15,F14  Recipe Create Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge that a recipe has been created or updated with the body sent in the request.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,2</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 204
+Stream,Function  Name (Mnemonic) Direction
+S15,F15  Recipe Store Request M,H&lt;-&gt;E,reply
+Description
+This message is used to send a recipe, or one or more recipe sections, to a recipe namespace.  If multi-block, it shall be preceded
+by the S15,F1/F2 inquire/grant transaction.
+Structure
+L,4</p><ol><li><p>DATAID</p></li><li><p>RCPSPEC</p></li><li><p>RCPSECCODE</p></li><li><p>L,q                          (q = 1,2,3)</p></li><li><p>L,r                      (r = 0 or 2)</p></li><li><p>RCPSECNM</p></li><li><p>L,g                (g = # generic attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+g. L,2</p><ol><li><p>RCPATTRID
+g</p></li><li><p>RCPATTRDATA
+g</p></li><li><p>RCPBODY</p></li><li><p>L,m                      (m = # agent-specific datasets)</p></li><li><p>L,2</p></li><li><p>RCPSECNM
+1</p></li><li><p>L,a</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+11</p></li><li><p>RCPATTRDATA
+11</p></li></ol><p>.
+.
+a. L,2</p><ol><li><p>RCPATTRID
+1a</p></li><li><p>RCPATTRDATA
+1a</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPSECNM
+m</p></li><li><p>L,b</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+m1</p></li><li><p>RCPATTRDATA
+m1</p></li></ol><p>.
+.
+b. L,2</p><ol><li><p>RCPATTRID
+mb</p></li><li><p>RCPATTRDATA
+mb</p></li></ol><p>Exception
+RCPBODY is a zero-length item when the body is omitted.  If g = 0, no generic attributes are transferred and RCPBODY shall
+be a zero-length item.  If m = 0, no agent-specific datasets are transferred.</p><p>SEMI E5-1104 © SEMI 1982, 2004 205
+Stream,Function  Name (Mnemonic) Direction
+S15,F16  Recipe Store Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge that the specified recipe has been stored as requested or to indicate the error(s).
+Structure
+L,2</p><ol><li><p>RECPSECCODE</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F17  Recipe Retrieve Request S,H&lt;-&gt;E,reply
+Description
+This message is used to get a recipe, or one or more recipe sections, from a recipe namespace.
+Structure
+L,2</p><ol><li>RCPSPEC</li><li>RCPSECCODE
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 206
+Stream,Function  Name (Mnemonic) Direction
+S15,F18  Recipe Retrieve Data M,H&lt;-&gt;E
+Description
+This message is used to acknowledge that the specified recipe, or recipe sections, have been set as requested, or to indicate the
+error(s).
+Structure
+L,2</p><ol><li><p>L,q                          (q = 1,2,3)</p></li><li><p>L,r                      (r = 0 or 2)</p></li><li><p>RCPSECNM</p></li><li><p>L,g                (g = # generic attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+g. L,2</p><ol><li><p>RCPATTRID
+g</p></li><li><p>RCPATTRDATA
+g</p></li><li><p>RCPBODY</p></li><li><p>L,m                      (m = # agent-specific datasets)</p></li><li><p>L,2</p></li><li><p>RCPSECNM
+1</p></li><li><p>L,a</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+11</p></li><li><p>RCPATTRDATA
+11</p></li></ol><p>.
+.
+a. L,2</p><ol><li><p>RCPATTRID
+1a</p></li><li><p>RCPATTRDATA
+1a</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPSECNM
+m</p></li><li><p>L,b</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+m1</p></li><li><p>RCPATTRDATA
+m1</p></li></ol><p>.
+.
+b. L,2</p><ol><li><p>RCPATTRID
+mb</p></li><li><p>RCPATTRDATA
+mb</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERROCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If r = 0, no generic attributes are transferred and RCPBODY shall be a zero-length item.  If m = 0, no agent-specific datasets are
+transferred.  p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 207
+Stream,Function  Name (Mnemonic) Direction
+S15,F19  Recipe Rename Request S,H&lt;-&gt;E,reply
+Description
+This message is used to request that a recipe be copied to, or renamed to, a recipe with a new identifier.
+Structure
+L,3</p><ol><li>RCPSPEC</li><li>RCPRENAME</li><li>RCPNEWID
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F20  Recipe Rename Acknowledge M,H&lt;-&gt;E
+Description
+This message acknowledges the request to copy or rename a recipe and indicates whether the action was successfully performed
+or errors that occurred.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F21  Recipe Action Request M,H&lt;-&gt;E,reply
+Description
+This message is used to acknowledge the request to perform an action in one or more recipes within a namespace.
+Structure
+L,6</p><ol><li>DATAID</li><li>RCPCMD</li><li>RMNSSPEC</li><li>OPID</li><li>AGENT</li><li>L,n</li><li>RCPID
+1</li></ol><p>.
+.
+n. RCPID
+n</p><p>Exception
+AGENT may be a zero-length item except for requests for certify, de-certify, download, and upload.</p><p>SEMI E5-1104 © SEMI 1982, 2004 208
+Stream,Function  Name (Mnemonic) Direction
+S15,F22  Recipe Action Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge the request to originate a new recipe.
+Structure
+L,4</p><ol><li><p>AGENT</p></li><li><p>LINKID</p></li><li><p>RCPCMD</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+LINKID is zero if and only if all requested actions have been completed.  p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F23  Recipe Descriptor Request M,H&lt;-&gt;E,reply
+Description
+This message is used to request the descriptors of a list of the specified recipes.  If multi-block, it must be preceded by the
+S15,F1/F2 inquire/grant transaction.  OBJSPEC is the object specifier of either a recipe namespace of a recipe executor.
+Structure
+L,3</p><ol><li>DATAID</li><li>OBJSPEC</li><li>L,n</li><li>RCPID
+1</li></ol><p>.
+.
+n. RCPID
+n</p><p>Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 209
+Stream,Function  Name (Mnemonic) Direction
+S15,F24  Recipe Descriptor Data M,H&lt;-&gt;E
+Description
+This message returns the requested descriptors in the same order as requested.
+Structure
+L,2</p><ol><li><p>L,n                          (n = number of recipes from request)</p></li><li><p>L,a                      (descriptors       for       recipe       #1)</p></li><li><p>L,r                (r = 0 or 3) (1st component descriptor)</p></li><li><p>RCPDESCNM
+11</p></li><li><p>RCPDESCTIME
+11</p></li><li><p>RCPDESCLTH
+11</p></li></ol><p>.
+.
+a. L,r                (r = 0 or 3)</p><ol><li><p>RCPDESCNM
+1a</p></li><li><p>RCPDESCTIME
+1a</p></li><li><p>RCPDESCLTH
+1a</p></li></ol><p>.
+.
+n. L,b                      (descriptors       for       recipe       #n)</p><ol><li><p>L,r                (r = 0 or 3) (1st component descriptor)</p></li><li><p>RCPDESCNM
+n1</p></li><li><p>RCPDESCTIME
+n1</p></li><li><p>RCPDESCLTH
+n1</p></li></ol><p>.
+.
+b. L,r                (r = 0 or 3)</p><ol><li><p>RCPDESCNM
+nb</p></li><li><p>RCPDESCTIME
+nb</p></li><li><p>RCPDESCLTH
+nb</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+A zero-length recipe descriptor (r = 0) means that the specified recipe does not exist (could not be located).  p = 0 if and only if
+RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 210
+Stream,Function  Name (Mnemonic) Direction
+S15,F25  Recipe Parameter Update Request M,H&lt;-&gt;E,reply
+Description
+This message is used to update the variable parameter definitions for a specific agent.  If multi-block, it must be preceded by the
+S15,F1/F2 inquire/grant transaction.
+Structure
+L,4</p><ol><li><p>DATAID</p></li><li><p>RMNSSPEC</p></li><li><p>AGENT</p></li><li><p>L,n</p></li><li><p>L,3</p></li><li><p>RCPPARNM
+1</p></li><li><p>RCPPARVAL
+1</p></li><li><p>RCPPARRULE
+1</p></li></ol><p>.
+.
+n. L,3</p><ol><li><p>RCPPARNM
+n</p></li><li><p>RCPPARVAL
+n</p></li><li><p>RCPPARRULE
+n</p></li></ol><p>Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F26  Recipe Parameter Update Acknowledge M, H&lt;-&gt;E
+Description
+This message indicates the successful performance of the request or otherwise indicates the nature of error(s) that occurred.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 211
+Stream,Function  Name (Mnemonic) Direction
+S15,F27  Recipe Download Request M,H-&gt;E,reply
+Description
+This message is used to send a recipe to a recipe executor.  If multi-block, it shall be preceded by the S15,F1/S15,F2
+inquire/grant transaction.
+Structure
+L,5</p><ol><li><p>DATAID</p></li><li><p>RCPOWCODE</p></li><li><p>RCPSPEC</p></li><li><p>L,m</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPATTRID
+m</p></li><li><p>RCPATTRDATA
+m</p></li><li><p>RCPBODY
+Exception
+None</p></li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F28  Recipe Download Acknowledge M,H&lt;-E
+Description
+This message is used to acknowledge that a recipe has been received by the recipe executor.  If the recipe was successfully
+verified, the results are returned to the sender.  RCPID contains the identifier of a derived object form recipe if created during
+verification.
+Structure
+L,3</p><ol><li><p>RCPID</p></li><li><p>L,n                          (n = # of attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>RCPATTRID
+n</p></li><li><p>RCPATTRDATA
+n</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If item is a zero length item, no derived object form recipe was originated.  n = 0 if and only if the recipe was not verified or
+failed verification.  p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 212
+Stream,Function  Name (Mnemonic) Direction
+S15,F29  Recipe Verify Request M,H-&gt;E,reply
+Description
+This message is used to request verification of one or more recipes by a recipe executor.  If multi-block, it shall be preceded by
+the S15F1,F2 inquire/grant transaction.  The operation identifier OPID, used where multiple verification requests may be
+outstanding, may be zero if no further verifications will be requested before all current verification requests are completed by the
+recipe executor.  Otherwise, OPID is generated to be unique for the requestor.  RESPEC is the object specifier for the recipe
+executor.
+Structure
+L,4</p><ol><li>DATAID</li><li>OPID</li><li>RESPEC</li><li>L,m</li><li>RCPID
+1</li></ol><p>.
+.
+m. RCPID
+m</p><p>Exception
+If RESPEC is a zero length item, the target is the recipient of the message.</p><p>SEMI E5-1104 © SEMI 1982, 2004 213
+Stream,Function  Name (Mnemonic) Direction
+S15,F30  Recipe Verify Acknowledge M,H&lt;-E
+Description
+This message is used to acknowledge the request to verify one or more recipes.  If a single recipe verification was requested and
+the recipe was successfully verified, the results are returned to the sender in this message, and RCPID contains the identifier of a
+derived object form recipe if created during verification.  If multiple recipe verifications were requested, then LINKID shall be
+non-zero.
+Structure
+L,5</p><ol><li><p>OPID</p></li><li><p>LINKID</p></li><li><p>RCPID</p></li><li><p>L,n                          (n = # attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>RCPATTRID
+n</p></li><li><p>RCPATTRDATA
+n</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+LINKID is zero if and only if a single recipe verification was requested and has been completed.  If item 3 is zero length item, no
+derived object form recipe was originated.  n = 0 if and only if the recipe was not verified or failed verification.  p = 0 if and only
+if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F31  Recipe Upload Request S,H-&gt;E,reply
+Description
+This message is used to request an execution recipe from a recipe executor.
+Structure
+RCPSPEC
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 214
+Stream,Function  Name (Mnemonic) Direction
+S15,F32  Recipe Upload Data M,H&lt;-E
+Description
+This message is used to send an execution recipe from a recipe executor.
+Structure
+L,4</p><ol><li><p>RCPSPEC</p></li><li><p>L,m                          (m = # attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPATTRID
+m</p></li><li><p>RCPATTRDATA
+m</p></li><li><p>RCPBODY</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 215
+Stream,Function  Name (Mnemonic) Direction
+S15,F33  Recipe Select Request M,H-&gt;E,reply
+Description
+This message is used to request the selection of one or more execution recipes.  If multi-block, it shall be preceded by the
+S15,F1/S15,F2 inquire/grant transaction.
+Structure
+L,3</p><ol><li><p>DATAID</p></li><li><p>RESPEC</p></li><li><p>L,r                          (r = # selections)</p></li><li><p>L,2</p></li><li><p>RCPID
+1
+(1st recipe selection)</p></li><li><p>L,p                (p = # parameter settings for 1st recipe)</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+11</p></li><li><p>RCPPARVAL
+11</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>RCPPARNM
+1p</p></li><li><p>RCPPARVAL
+1p</p></li></ol><p>.
+.
+r. L,2</p><ol><li><p>RCPID
+r
+(rth recipe selection)</p></li><li><p>L,s                (s = # parameter settings for rth recipe)</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+r1</p></li><li><p>RCPPARVAL
+r1</p></li></ol><p>.
+.
+s. L,2</p><ol><li><p>RCPPARNM
+rs</p></li><li><p>RCPPARVAL
+rs</p></li></ol><p>Exception
+If the list of parameter settings for a recipe selection is of zero length, then no parameter settings are specified for the
+corresponding recipe.</p><p>SEMI E5-1104 © SEMI 1982, 2004 216
+Stream,Function  Name (Mnemonic) Direction
+S15,F34  Recipe Select Acknowledge M,H&lt;-E
+Description
+This message is used to acknowledge the request for recipe selection.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F35  Recipe Delete Request M,H-&gt;E,reply
+Description
+This message is used to request that one or more recipes be deleted or deselected.  If multi-block, it shall be preceded by the
+S15,F1/S15,F2 inquire/grant transaction.
+Structure
+L,4</p><ol><li>DATAID</li><li>RESPEC</li><li>RCPDEL</li><li>L,n                          (n = # recipes deselected)</li><li>RCPID
+1</li></ol><p>.
+.
+n. RCPID
+n</p><p>Exception
+If n = 0 and recipes are to be deselected (RCPDEL = 1), then all currently-selected recipes are indicated.</p><p>SEMI E5-1104 © SEMI 1982, 2004 217
+Stream,Function  Name (Mnemonic) Direction
+S15,F36  Recipe Delete Acknowledge M,H&lt;-E
+Description
+This message is used to acknowledge the request that recipes be deleted or deselected.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F37  DRNS Segment Approve Action Request S,H&lt;-&gt;E,reply
+Description
+This message is sent by a distributed recipe namespace manager to an attached distributed recipe namespace segment to approve
+an action previously requested by the segment.  If multi-block, it shall be preceded by the S15,F1/S15,F2 inquire/grant
+transaction.
+Structure
+L,6</p><ol><li>RMSEGSPEC</li><li>OBJTOKEN</li><li>RMGRNT</li><li>OPID</li><li>RCPID</li><li>RMCHGTYPE
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 218
+Stream,Function  Name (Mnemonic) Direction
+S15,F38  DRNS Segment Approve Action Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge or deny the approve action request.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F39  DRNS Recorder Segment Request M,H&lt;-&gt;E,reply
+Description
+This message is used by the distributed recipe namespace manager to request that an attached recorder create or delete a segment
+specifier record.  If multi-block, it shall be preceded by the S15,F1/S15,F2 inquire/grant transaction.
+Structure
+L,5</p><ol><li>DATAID</li><li>RMNSCMD</li><li>RMRECSPEC</li><li>RMSEGSPEC</li><li>OBJTOKEN
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F40  DRNS Recorder Segment Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge the request to add or delete a segment specifier record.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 219
+Stream,Function  Name (Mnemonic) Direction
+S15,F41  DRNS Recorder Modify Request M,H&lt;-&gt;E,reply
+Description
+This message is used by a distributed recipe namespace manager to a recorder to store or delete a change request record.  If
+multi-block, it shall be preceded by the S15,F1/F2 inquire/grant transaction.
+Structure
+L,5</p><ol><li>DATAID</li><li>RMRECSPEC</li><li>OBJTOKEN</li><li>RMNSCMD</li><li>L,c                          (c = 1 or 7)</li><li>RCPID</li><li>RCPNEWID</li><li>RMSEGSPEC</li><li>RMCHGTYPE</li><li>OPID</li><li>TIMESTAMP</li><li>RMREQUESTOR
+Exception
+If RMNSCMD = create, then c = 7, otherwise c = 1.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F42  DRNS Recorder Modify Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge a request to store or delete a change request.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 220
+Stream,Function  Name (Mnemonic) Direction
+S15,F43  DRNS Get Change Request M,H&lt;-&gt;E,reply
+Description
+This message is used to request a distributed recipe namespace recorder or manager to return change requests records for a
+specific recipe or assigned to a specific segment.  If multi-block, it shall be preceded by the S15,F1/F2 inquire/grant transaction.
+Structure
+L,3</p><ol><li>DATAID</li><li>OBJSPEC</li><li>TARGETSPEC
+Exception
+If TARGETSPEC is omitted, OBJSPEC identifies a recipe.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F44  DRNS Get Change Request Data M,H&lt;-&gt;E
+Description
+This message is used to return the specified change request records.
+Structure
+L,2</p><ol><li><p>L,n                          n = # change requests</p></li><li><p>L,7</p></li><li><p>RCPID
+1</p></li><li><p>RCPNEWID
+1</p></li><li><p>RMSEGSPEC
+1</p></li><li><p>RMCHGTYPE
+1</p></li><li><p>OPID
+1</p></li><li><p>TIMESTAMP
+1</p></li><li><p>RMREQUESTOR
+1</p></li></ol><p>.
+.
+n. L,7</p><ol><li><p>RCPID
+n</p></li><li><p>RCPNEWID
+n</p></li><li><p>RMSEGSPEC
+n</p></li><li><p>RMCHGTYPE
+n</p></li><li><p>OPID
+n</p></li><li><p>TIMESTAMP
+n</p></li><li><p>RMREQUESTOR
+n</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+If n = 0, no change records were found matching the specification.  p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 221
+Stream,Function  Name (Mnemonic) Direction
+S15,F45  DRNS Manager Segment Change Approval Request M,H&lt;-&gt;E,reply
+Description
+This message is sent to a distributed recipe namespace manager by an attached distributed recipe namespace segment to request
+approval for a specific type of change to a recipe.  If multi-block, it shall be preceded by the S15,F1/F2 inquire/grant transaction.
+Structure
+L,4</p><ol><li>DATAID</li><li>RCPSPEC</li><li>RCPNEWID</li><li>RMCHGTYPE
+Exception
+RCPNEWID is a zero-length item except where RMCHGTYPE specifies a copy or rename change.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F46  DRNS Manager Segment Approval Acknowledge S,H&lt;-&gt;E
+Description
+This message is used to acknowledge the request to change a recipe.
+Structure
+L,3</p><ol><li>RMCHGTYPE</li><li>RMGRNT</li><li>OPID
+Exception
+OPID is zero if and only if RMGRNT indicates the change is denied.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F47  DRNS Manager Rebuild Request M,H&lt;-&gt;E,reply
+Description
+This message requests a distributed recipe namespace manager specified in OBJSPEC to rebuild a distributed recipe namespace.
+Either a distributed recipe namespace recorder or a list of distributed recipe namespace segment specifiers shall be provided.  If
+multi-block, it shall be preceded by the S15,F1/F2 inquire/grant transaction.
+Structure
+L,5</p><ol><li>DATAID</li><li>OBJSPEC</li><li>RMNSSPEC</li><li>RMRECSPEC</li><li>L,n</li><li>RMSEGSPEC
+1</li></ol><p>.
+.
+n. RMSEGSPEC
+n</p><p>Exception
+If RMRECSPEC is a non-zero length item, then n is zero.  If RMRECSPEC is a zero length item, then n is non-zero.</p><p>SEMI E5-1104 © SEMI 1982, 2004 222
+Stream,Function  Name (Mnemonic) Direction
+S15,F48  DRNS Manager Rebuild Acknowledge M,H&lt;-&gt;E
+Description
+This message is used to acknowledge the request to rebuild a distributed recipe namespace.
+Structure
+L,2</p><ol><li><p>RMACK</p></li><li><p>L,P</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+p = 0 if and only if RMACK indicates no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F49  Large Recipe Download Request (LRDR) S,H-&gt;E,reply
+Description
+This is a request by the host for the equipment to request the download of a recipe via the Stream 13 Data Set Transfer protocol.
+The Data Set name, DSNAME, is the text string identifier of the recipe, RCPSPEC.  The Data Set is subsequently transferred as
+a Stream with the following internal SECSII structured data:</p><p>L,4</p><ol><li><p>RCPSPEC</p></li><li><p>DATAID</p></li><li><p>L,m                          (m = # of attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPATTRID
+m</p></li><li><p>RCPATTRDATA
+m</p></li><li><p>RCPBODY
+Structure
+L,2</p></li><li><p>DSNAME</p></li><li><p>RCPOWCODE
+Exception
+None</p></li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 223
+Stream,Function  Name (Mnemonic) Direction
+S15,F50  Large Recipe Download Acknowledge (LRDA) S,H&lt;-E
+Description
+Acknowledge or error.  A returned status of “accepted” means only that the message is understood.  Upon completion of the
+large recipe download request (Stream 13 Data Set transfer scenario) the equipment initiates a separate verification transaction
+(S15,F53/S15,F54) that provides the result of the verification.
+Structure
+ACKC15
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F51  Large Recipe Upload Request (LRUR) S,H-&gt;E,reply
+Description
+This is a request by the host for the equipment to request the host to upload a recipe via the Stream 13 Data Set Transfer
+protocol.  The Data Set name, DSNAME, is the text string identifier of the recipe, RCPSPEC.  The Data Set is subsequently
+transferred as a Stream with the following internal SECSII structured data:</p><p>L,3</p><ol><li><p>RCPSPEC</p></li><li><p>L,m                          (m = # of attributes)</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPATTRID
+m</p></li><li><p>RCPATTRDATA
+m</p></li><li><p>RCPBODY
+Structure
+DSNAME
+Exception
+None</p></li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S15,F52  Large Recipe Upload Acknowledge (LRUA) S,H&lt;-E
+Description
+Acknowledge or error.  A returned status of “accepted” means only that the message is understood.  The completion of the
+request is signaled by an event report.
+Structure
+ACKC15
+Exception
+It is possible to use the ACKC15 code “command will be performed with completion signaled later” for this message.</p><p>SEMI E5-1104 © SEMI 1982, 2004 224
+Stream,Function  Name (Mnemonic) Direction
+S15,F53  Recipe Verification Send (RVS) M,H&lt;-E,reply
+Description
+This message indicates to the host that a large recipe that was transferred via Stream 13 Data Set Transfer Protocol had been
+received and checked by the equipment.  RCPID contains the identifier of a derived object form recipe if created during
+verification.  The result of the check is specified by the list of errors.  An empty error list indicates no errors were found in the
+recipe.  The equipment is responsible for sending a single copy of this message to the host after any reception of a recipe through
+S15,F49.
+Structure
+L,3</p><ol><li><p>RCPSPEC</p></li><li><p>RCPID</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,n                      (n = number of errors being reported)</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+n = 0 if and only if RMACK indicates no error.  If RCPSEPC is a zero length item, then the recipe was not verified or failed
+verification.  If RCPID is zero length, then no derived object form recipe was originated.</p><p>Stream,Function  Name (Mnemonic) Direction
+S15,F54  Recipe Verification Acknowledge (RVA) S,H-&gt;E
+Description
+Reply by host to equipment providing response to Recipe Verification Send (RVS).
+Structure
+Header only
+Exception
+None</p><ol start="10"><li>20  Steam  16  Processing  Management  —  This  stream  provides  protocol  for  a  set  of  messages  that  enable  the
+control  of  material  processing  at  equipment  and  equipment  resources.    Control  is  implemented  by  supporting  two
+job types; the control job and the process job.  A process job is a single unit of work that ensures that the appropriate
+processing is applied to a particular material by a processing resource.  The Process Job provides a widely applicable
+supervisory  control  capability  for  automated  processing  of  material  in  equipment,  irrespective  of  the  particular
+process  being  used.    The  Process  Job  creates  a  transient  link  between  the  three  elements  of  the  manufacturing
+process; the first is the material to be processed.  The second is the equipment on which the process will occur.  The
+third is the process specification, a Process Recipe.  When a Process Job has completed, it ceases to exist; its Process
+Job  ID  is  no  longer  valid.    The  control  job  is  used  to  group  a  set  of  related  process  jobs.    The  group  is  logically
+related from the host’s viewpoint.  For instance; if a carrier contains multiple lots, then the process jobs for each lot
+(in  the  carrier)  could  be  included  in  the  control  job  specification.    Control  jobs  also  provide  mechanisms  for
+specifying the destination for processed material.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 225
+Stream,Function  Name (Mnemonic) Direction
+S16,F0  Abort Transaction (S16F0) S,H&lt;-&gt;E
+Description
+Same form as S1F0
+Structure</p><p>Exception</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F1  Multi-block Process Job Data Inquire (PRJI) S,H-&gt;E,reply
+Description
+If any of Processing Management messages are larger than one block, then this transaction must precede that message.
+Structure
+L,2</p><ol><li>DATAID</li><li>DATALENGTH
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S16,F2  Multi-block Process Job Data Grant (PRJG) S,H&lt;-E
+Description
+Message to indicate if permission is granted to transmit a multi-block Job Data message.
+Structure
+GRANT
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 226
+Stream,Function  Name (Mnemonic) Direction
+S16,F3  Process Job Create Request (PRJCR) M,H-&gt;E,reply
+Description
+The purpose of this message is to request material to be processed on a Process Module.
+Structure
+L,5</p><ol><li>DATAID</li><li>MF</li><li>L,n</li><li>MID
+1</li></ol><p>.
+.
+n. MID
+n</p><ol start="4"><li><p>L,3</p></li><li><p>PRRECIPEMETHOD</p></li><li><p>RCPSPEC</p></li><li><p>L,m                      (m       =       {c,2})</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+1</p></li><li><p>RCPPARVAL
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPPARNM
+m</p></li><li><p>RCPPARVAL
+m</p></li><li><p>PRPROCESSSTART
+Exception
+For the m length list m = 0 may be allowed value depending on the value of PRRECIPEMETHOD.</p></li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S16,F4  Process Job Create Acknowledge (PRJCA) S,H&lt;-E
+Description
+Acknowledge or report error in the creation of a Process Job.
+Structure
+L,2</p><ol><li><p>PRJOBID</p></li><li><p>L,2</p></li><li><p>ACKA</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+This list may be zero length, generally the case when ACKA indicates success.  When ACKA indicates a create failure, the
+equipment may supply one or more ERRCODEs.</p><p>SEMI E5-1104 © SEMI 1982, 2004 227
+Stream,Function  Name (Mnemonic) Direction
+S16,F5  Process Job Command Request (PRJCMDR) M,H-&gt;E,reply
+Description
+Send a job control command to a processing job.
+Structure
+L,4</p><ol><li><p>DATAID</p></li><li><p>PRJOBID</p></li><li><p>PRCMDNAME</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>CPNAME
+1</p></li><li><p>CPVAL
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>CPNAME
+n</p></li><li><p>CPVAL
+n</p></li></ol><p>Exception
+The CPNAME, CPVAL pairs are command parameter identifiers and values; n = 0 is valid for some commands
+(PRCMDNAME).</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F6  Process Job Command Acknowledge (PRJCMDA) S,H&lt;-E
+Description
+The processing service sends its confirmation for receipt of a command request.
+Structure
+L,2</p><ol><li><p>PRJOBID</p></li><li><p>L,2</p></li><li><p>ACKA</p></li><li><p>L,n                    (n = {0,n})</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+This list n may be zero length.</p><p>SEMI E5-1104 © SEMI 1982, 2004 228
+Stream,Function  Name (Mnemonic) Direction
+S16,F7  Process Job Alert Notify (PRJA) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+The processing service may notify the controlling entity of important events.  The Process Job Milestones only assume small
+number of different values.  However, the conditions under which a process job meets one of these milestones may vary.  For
+instance, a Job may reach Job Complete because the Process was Aborted.  By using item 4, the status of the Alert
+(PRJOBMILESTONE) can be indicated.  See the list of Error Codes for Processing in Data Item Dictionary.
+Structure
+L,4</p><ol><li><p>TIMESTAMP</p></li><li><p>PRJOBID</p></li><li><p>PRJOBMILESTONE</p></li><li><p>L,2</p></li><li><p>ACKA</p></li><li><p>L,n                      (n       =       {0,n})</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+The list n may be zero length.</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F8  Process Job Alert Confirm (PRJAC) S,H-&gt;E
+Description
+Host confirms receipt of Process Job Alert message from the equipment.
+Structure
+Header only
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 229
+Stream,Function  Name (Mnemonic) Direction
+S16,F9  Process Job Event Notify (PRJE) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+Send Processing Job related event to the controlling entity.
+Structure
+L,4</p><ol><li><p>PREVENTID</p></li><li><p>TIMESTAMP</p></li><li><p>PRJOBID</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>VID
+1</p></li><li><p>V
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>VID
+n</p></li><li><p>V
+n</p></li></ol><p>Exception
+The VID, V pairs are variable data identifiers and values; exceptions n = 0 is valid for some events (PREVENTID).</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F10  Process Job Event Confirm (PRJEC) S,H-&gt;E
+Description
+Host confirms receipt of S16,F9 message to equipment.
+Structure
+Header only
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 230
+Stream,Function  Name (Mnemonic) Direction
+S16,F11  PRJobCreateEnh M,H-&gt;E,reply
+Description
+Request equipment to create a Process Job with the given PRJOBID.  If multi-block, this message must be preceded by the
+S16,F1/F2 transaction.
+Structure
+L,7</p><ol><li><p>DATAID</p></li><li><p>PRJOBID</p></li><li><p>MF
+4a. L,n                         <!-- -->[MF = carrier, n = # of carriers]</p></li><li><p>L,2</p></li><li><p>CARRIERID
+1</p></li><li><p>L,j               <!-- -->[j = # of slots, may be implemented as an array]</p></li><li><p>SLOTID
+1</p></li><li><p>SLOTID
+2</p></li></ol><p>.
+.
+j. SLOTID
+j</p><p>.
+.
+n. L,2</p><ol><li><p>CARRIERID
+n</p></li><li><p>L,j               <!-- -->[j = # of slots, may be implemented as an array]</p></li><li><p>SLOTID
+1</p></li><li><p>SLOTID
+2</p></li></ol><p>.
+.
+j. SLOTID
+j</p><p>4b. L,n                         <!-- -->[MF = substrate]</p><ol><li>MID
+1</li></ol><p>.
+.
+n. MID
+n</p><ol start="5"><li><p>L,3</p></li><li><p>PRRECIPEMETHOD</p></li><li><p>RCPSPEC</p></li><li><p>L,m                    <!-- -->[m = # recipe parameters]</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+1</p></li><li><p>RCPPARVAL
+1</p></li></ol><p>.
+m. L,2</p><ol><li><p>RCPPARNM
+m</p></li><li><p>RCPPARVAL
+m</p></li><li><p>PRPROCESSSTART</p></li><li><p>PRPAUSEEVENT
+Exception
+The list for specifying material (item 4a and 4b) is empty (L,0 instead of L,n), when no material is specified for the process job.
+The form of data item 4(a or b) depends on the value in MF.</p></li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 231
+Stream,Function  Name (Mnemonic) Direction
+S16,F12  PRJobCreateEnh Acknowledge S,H&lt;-E
+Description
+This message acknowledges the request and reports any errors in the creation of a process job.
+Structure
+L,2</p><ol><li><p>PRJOBID</p></li><li><p>L,2</p></li><li><p>ACKA</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If n = 0, no errors exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F13  PRJobDuplicateCreate M,H-&gt;E,reply
+Description
+Not used.
+Structure</p><p>Exception</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F14  PRJobDuplicateCreate Acknowledge S,H&lt;-E
+Description
+Not used.
+Structure</p><p>Exception</p><p>SEMI E5-1104 © SEMI 1982, 2004 232
+Stream,Function  Name (Mnemonic) Direction
+S16,F15  PRJobMultiCreate M,H-&gt;E,reply
+Description
+Use this single message to Create Multiple Process Jobs, each of which may be unique in its association of material to process
+recipe.  If multi-block, this message must be preceded by the S16,F1/F2 transaction.
+Structure
+L,2</p><ol><li><p>DATAID</p></li><li><p>L,p                          <!-- -->[p = # of process jobs being created]</p></li><li><p>L,6</p></li><li><p>PRJOBID
+1</p></li><li><p>MF
+1</p></li></ol><p>3a. L,n               <!-- -->[MF = carrier, n = # of carriers]</p><ol><li><p>L,2</p></li><li><p>CARRIERID
+1</p></li><li><p>L,j    <!-- -->[j = # of slots, may be implemented as an array]</p></li><li><p>SLOTID
+1</p></li><li><p>SLOTID
+2</p></li></ol><p>.
+.
+j. SLOTID
+j</p><p>.
+.
+n. L,2</p><ol><li><p>CARRIERID
+n</p></li><li><p>L,j    <!-- -->[j = # of slots, may be implemented as an array]</p></li><li><p>SLOTID
+1</p></li><li><p>SLOTID
+2</p></li></ol><p>.
+.
+j. SLOTID
+j</p><p>3b. L,n               <!-- -->[MF = substrate, n = # of MID]</p><ol><li>MID
+1</li></ol><p>.
+.
+n. MID
+n</p><ol start="4"><li><p>L,3</p></li><li><p>PRRECIPEMETHOD
+1</p></li><li><p>RCPSPEC
+1</p></li><li><p>L,m          <!-- -->[m = # recipe parameters]</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+1</p></li><li><p>RCPPARVAL
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPPARNM
+m</p></li><li><p>RCPPARVAL
+m</p></li><li><p>PRPROCESSSTART
+1</p></li><li><p>PRPAUSEEVENT
+1</p></li></ol><p>.
+.
+p. L,6</p><ol><li><p>PRJOBID
+p</p></li><li><p>MF
+p</p></li></ol><p>3a. L,n               <!-- -->[MF = carrier, n = # of carriers]</p><ol><li><p>L,2</p></li><li><p>CARRIERID
+1</p></li><li><p>L,j    <!-- -->[j = # of slots, may be implemented as an array]</p></li><li><p>SLOTID
+1</p></li><li><p>SLOTID
+2</p></li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 233
+.
+.
+j. SLOTID
+j</p><p>.
+.
+n. L,2</p><ol><li><p>CARRIERID
+n</p></li><li><p>L,j    <!-- -->[j = # of slots, may be implemented as an array]</p></li><li><p>SLOTID
+1</p></li><li><p>SLOTID
+2</p></li></ol><p>.
+.
+j. SLOTID
+j</p><p>3b. L,n               <!-- -->[MF = substrate, n = # of MID]</p><ol><li>MID
+1</li></ol><p>.
+.
+n. MID
+n</p><ol start="4"><li><p>L,3</p></li><li><p>PRRECIPEMETHOD
+p</p></li><li><p>RCPSPEC
+p</p></li><li><p>L,m          <!-- -->[m = # recipe parameters]</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+1</p></li><li><p>RCPPARVAL
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPPARNM
+m</p></li><li><p>RCPPARVAL
+m</p></li><li><p>PRPROCESSSTART
+p</p></li><li><p>PRPAUSEEVENT
+p</p></li></ol><p>Exception
+The list for specifying material (item 3a and 3b) is empty (L,0 instead of L,n), when no material is specified for the process job.
+The form of data item 3(a or b) depends on the value in MF.</p><p>SEMI E5-1104 © SEMI 1982, 2004 234
+Stream,Function  Name (Mnemonic) Direction
+S16,F16  PRJobMultiCreate Acknowledge S,H&lt;-E
+Description
+This message acknowledges the request and reports any errors in the creation of a process job.  ERRTEXT contains the identifier
+of process jobs that were not created.
+Structure
+L,2</p><ol><li>L,m                          <!-- -->[m = # jobs created]</li><li>PRJOBID
+1</li></ol><p>.
+.
+m. PRJOBID
+m</p><ol start="2"><li><p>L,2</p></li><li><p>ACKA</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If n = 0, no errors exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F17  PRJobDequeue S,H-&gt;E,reply
+Description
+Used to remove process jobs from the equipment for jobs that have not begun processing.
+Structure
+L,m                                <!-- -->[m = # jobs to remove]</p><ol><li>PRJOBID
+1</li></ol><p>.
+.
+m. PRJOBID
+m</p><p>Exception
+If m = 0, then de-queue all.</p><p>SEMI E5-1104 © SEMI 1982, 2004 235
+Stream,Function  Name (Mnemonic) Direction
+S16,F18  PRJobDequeue Acknowledge S,H&lt;-E
+Description
+Acknowledge the request to de-queue and report any errors.  ERRTEXT will contain the identifier of any jobs that were not de-
+queued.
+Structure
+L,2</p><ol><li>L,m                          <!-- -->[m = # jobs removed]</li><li>PRJOBID
+1</li></ol><p>.
+.
+m. PRJOBID
+m</p><ol start="2"><li><p>L,2</p></li><li><p>ACKA</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If n = 0, no errors exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F19  PRGetAllJobs S,H-&gt;E
+Description
+Requests the equipment to return a list of process jobs which have not completed.  They may be running or waiting to run.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F20  PRGetAllJobs Send S,H&lt;-E
+Description
+Returns the requested list of process jobs.
+Structure
+L,m                                <!-- -->[m = # jobs in the list]</p><ol><li><p>L,2</p></li><li><p>PRJOBID
+1</p></li><li><p>PRSTATE
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>PRJOBID
+m</p></li><li><p>PRSTATE
+m</p></li></ol><p>Exception
+If m = 0, then no process jobs are running or waiting to run.</p><p>SEMI E5-1104 © SEMI 1982, 2004 236
+Stream,Function  Name (Mnemonic) Direction
+S16,F21  PRGetSpace S,H-&gt;E
+Description
+Requests the equipment to return the number of process jobs it has space to create.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F22  PRGetSpace Send S,H&lt;-E
+Description
+Sends the host the number of process jobs which can be created.
+Structure
+PRJOBSPACE
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F23  PRJobSetRecipeVariable S,H-&gt;E
+Description
+Reset the value of recipe variable parameters for a specific process job.
+Structure
+L,2</p><ol><li><p>PRJOBID</p></li><li><p>L,m                          <!-- -->[m = # recipe variables]</p></li><li><p>L,2</p></li><li><p>RCPPARNM
+1</p></li><li><p>RCPPARVAL
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPPARNM
+m</p></li><li><p>RCPPARVAL
+m</p></li></ol><p>Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 237
+Stream,Function  Name (Mnemonic) Direction
+S16,F24  PRJobSetRecipeVariable Acknowledge S,H&lt;-E
+Description
+Indicate the status of the request to set recipe variables.  ERRTEXT will contain the RCPPARNM value for parameters that
+could not be reset.
+Structure
+L,2</p><ol><li><p>ACKA</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If n = 0, no errors exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F25  PRJobSetStartMethod S,H-&gt;E
+Description
+Used to request to change the start method (USERSTART or AUTO) for one or more process jobs.
+Structure
+L,2</p><ol><li>L,m                          <!-- -->[m = # of jobs]</li><li>PRJOBID
+1</li></ol><p>.
+.
+m. PRJOBID
+m</p><ol start="2"><li>PRPROCESSSTART
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 238
+Stream,Function  Name (Mnemonic) Direction
+S16,F26  PRJobSetStartMethod Acknowledge S,H&lt;-E
+Description
+Acknowledges request to set job start method and indicates any errors.  ERRTEXT will contain the identifiers of any process
+jobs that did not accept the new process start method.
+Structure
+L,2</p><ol><li>L,m                          <!-- -->[m = # of jobs]</li><li>PRJOBID
+1</li></ol><p>.
+.
+m. PRJOBID
+m</p><p>L,2</p><ol><li><p>ACKA</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F27  Control Job Command Request S,H-&gt;E
+Description
+Send a control job command to a control job.
+Structure
+L,3</p><ol><li>CTLJOBID</li><li>CTLJOBCMD</li><li>L,2</li><li>CPNAME</li><li>CPVAL
+Exception</li></ol><h1>3</h1><ol start="3"><li>L,2 IS L,0 for commands that do not need parameters.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 239
+Stream,Function  Name (Mnemonic) Direction
+S16,F28  Control Job Command Acknowledge S,H&lt;-E
+Description
+Indicates success or failure of command request to a control job.  If applicable ERRTEXT shall contain information on specific
+command parameter names or values that caused the error.
+Structure
+L,2</p><ol><li>ACKA</li><li>L,2</li><li>ERRCODE</li><li>ERRTEXT
+Exception</li></ol><h1>2</h1><ol start="2"><li>L,2 IS L,0 if no errors.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S16,F29  PRSetMtrlOrder (PRJSMO) S,H-&gt;E,reply
+Description
+This message requests the equipment’s Processing Management Service to use a specific strategy for the order in which
+materials are processed.
+Structure
+PRMTRLORDER
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S16,F30  PRSetMtrlOrder Acknowledge (PRJSMOA) S,H&lt;-E
+Description
+This message acknowledges the request for change to the material process strategy by reporting back the value requested, if
+correct.
+Structure
+ACKA
+Exception
+None</p><ol start="10"><li>21  Stream 17 Equipment Control and Diagnostics — This stream is a continuation of Stream 2.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S17,F0  Abort Transaction (S17F0) S,H&lt;-&gt;E
+Description
+Same form as S1F0
+Structure</p><p>Exception</p><p>SEMI E5-1104 © SEMI 1982, 2004 240
+Stream,Function  Name (Mnemonic) Direction
+S17,F1  Data Report Create Request (DRC) M,H-&gt;E,reply
+Description
+Create a Data Report definition.  This function allows the referencing of a Data Source for the items (variables or attributes)
+specified in the data report.
+Structure
+L,4</p><ol><li><p>DATAID</p></li><li><p>RPTID</p></li><li><p>DATASRC</p></li><li><p>L,n</p></li><li><p>VID
+1</p></li><li><p>VID
+2</p></li></ol><p>.
+.
+.
+n. VID
+n</p><p>Exception
+DATAID is a zero length item when the request can be sent in a single block.  If RPTID is a zero length item, then the equipment
+shall return a value in RPTID by which the host can then reference the report efinition.  If RPTID has a value, then the
+equipment shall retain this value by which the host can then reference the report definition.</p><p>Stream,Function  Name (Mnemonic) Direction
+S17,F2  Data Report Create Acknowledge (DRCA) S,H&lt;-E
+Description
+Equipment confirms creation of a Data Report and returns RPTID.
+Structure
+L,2</p><ol><li>RPTID</li><li>ERRCODE
+Exception
+If ERRCODE is a zero length item, then no error occurred.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S17,F3  Data Report Delete Request (DRD) S,H-&gt;E,reply
+Description
+Delete one or more data reports.  This shall cause those reports to be unlinked from any Event Reports to which they were
+linked.  This shall cause the report to be excluded from any Trace Reports for in which it had originally been included.
+Structure
+L,n</p><ol><li><p>RPTID
+1</p></li><li><p>RPTID
+2</p></li></ol><p>.
+.
+n. RPTID
+n</p><p>Exception
+If this message is sent with a zero length list, then all reports shall be deleted.</p><p>SEMI E5-1104 © SEMI 1982, 2004 241
+Stream,Function  Name (Mnemonic) Direction
+S17,F4  Data Report Delete Acknowledge (DRDA) S,H&lt;-E
+Description
+Equipment confirms or indicates any errors on the request to delete Data Reports.  All Data Reports which could be deleted shall
+be listed in the response and the associated error code shall be included in the list.
+Structure
+L,2</p><ol><li><p>ACKA</p></li><li><p>L,m</p></li><li><p>L,3</p></li><li><p>RPTID
+1</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+m. L,3</p><ol><li><p>RPTID
+m</p></li><li><p>ERRCODE
+m</p></li><li><p>ERRTEXT
+m</p></li></ol><p>Exception
+If ACKA is TRUE, then no errors were encountered, meaning all report requests were completed successfully and a zero-length
+list (m = 0) shall be sent.
+If some reports could not be deleted, then their RPTIDs shall be given in a space separated list in ERRTEXT.</p><p>Stream,Function  Name (Mnemonic) Direction
+S17,F5  Trace Create Request (TRC) M,H-&gt;E,reply
+Description
+Establish a Trace Report definition.
+Structure
+L,6</p><ol><li><p>DATAID</p></li><li><p>TRID</p></li><li><p>CEED</p></li><li><p>L,n</p></li><li><p>RPTID
+1</p></li><li><p>RPTID
+2</p></li></ol><p>.
+.
+n. RPTID
+n</p><ol start="5"><li>TRSPER</li><li>L,m                          (m = {0,8})</li><li>TOTSMP</li><li>REPGSZ</li><li>EVNTSRC               (Defines source for start Event)</li><li>CEID                  (Defines ID of the start Event)</li><li>EVNTSRC               (Defines source for stop Event)</li><li>CEID                  (Defines ID of the stop Event)</li><li>TRAUTOD</li><li>RPTOC
+Exception
+The list m can be zero-length, or it can contain all eight data items.  Since specifying values for each item is optional, each of the
+eight items can be zero-length.  If the item is zero-length, the format of the item shall be the same format used in other instances
+of the S17,F5 message where the value is not zero-length.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 242
+Stream,Function  Name (Mnemonic) Direction
+S17,F6  Trace Create Acknowledge (TRCA) S,H&lt;-E
+Description
+Equipment confirms creation of an Event Report and returns a TRID.
+Structure
+L,2</p><ol><li>TRID</li><li>ERRCODE
+Exception
+If ERRCODE is a zero length item, then no error occurred.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S17,F7  Trace Delete Request (TRD) S,H-&gt;E,reply
+Description
+The host requests to delete one or more Trace Reports.
+Structure
+L,n</p><ol><li><p>TRID
+1</p></li><li><p>TRID
+2</p></li></ol><p>.
+.
+n. TRID
+n</p><p>Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S17,F8  Trace Delete Acknowledge (TRDA) S,H&lt;-E
+Description
+This message is required to inform the host when a Trace Report could not be deleted.  This message does not need to be sent to
+confirm the successful deletion of a Trace Report.  If the report is sent for a successfully deleted Trace Report, then the
+ERRCODE item length shall be set to zero.
+Structure
+L,2</p><ol><li><p>ACKA</p></li><li><p>L,m</p></li><li><p>L,3</p></li><li><p>TRID
+1</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+m. L,3</p><ol><li><p>TRID
+m</p></li><li><p>ERRCODE
+m</p></li><li><p>ERRTEXT
+m</p></li></ol><p>Exception
+If ACKA is TRUE, then no errors were encountered, meaning all report requests were completed successfully and a zero-length
+list (m = 0) shall be sent.
+If some reports could not be deleted, then their TRIDs shall be provided in a space separated list in ERRTEXT.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/semi">SEMI</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/standard">Standard</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-org/semiconductor-docs/tree/main/docs/standards/semi/semi-chapter-026.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"></nav></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/process/intro">工艺制造</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/standards/intro">协议标准</a></li></ul></div><div class="col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">技术博客</a></li></ul></div><div class="col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">更新日志</a></li><li class="footer__item">
+                  <a href="#" target="_blank" rel="noreferrer noopener">
+                    <span style="margin-right: 8px;">AI 集成</span>
+                    <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">NEW</span>
+                  </a>
+                </li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">
+          <div style="text-align: center;">
+            <p style="margin: 0; opacity: 0.8;">Copyright © 2025 半导体知识文档库</p>
+            <p style="margin: 8px 0 0 0; opacity: 0.6; font-size: 0.9em;">
+              Built with <span style="color: #00d4ff;">❤</span> using Docusaurus •
+              <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">AI-Powered</span>
+            </p>
+          </div>
+        </div></div></div></footer></div>
+<script src="/semiconductor-docs/assets/js/runtime~main.ca6193db.js"></script>
+<script src="/semiconductor-docs/assets/js/main.d89a018c.js"></script>
+</body>
+</html>

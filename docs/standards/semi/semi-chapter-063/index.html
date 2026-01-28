@@ -1,0 +1,1854 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-standards/semi/semi-chapter-063">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v2.4.1">
+<title data-rh="true">E125-0305 - © SEMI 2003, 2005... | 半导体知识文档库</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-063"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="E125-0305 - © SEMI 2003, 2005... | 半导体知识文档库"><meta data-rh="true" name="description" content="SEMI标准文档"><meta data-rh="true" property="og:description" content="SEMI标准文档"><link data-rh="true" rel="canonical" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-063"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-063" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-063" hreflang="x-default"><link rel="stylesheet" href="/semiconductor-docs/assets/css/styles.488ea4dc.css">
+<link rel="preload" href="/semiconductor-docs/assets/js/runtime~main.ca6193db.js" as="script">
+<link rel="preload" href="/semiconductor-docs/assets/js/main.d89a018c.js" as="script">
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/semiconductor-docs/"><b class="navbar__title text--truncate">⚡ 半导体知识库</b></a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/process/intro">工艺制造</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/standards/intro">协议标准</a><a class="navbar__item navbar__link" href="/semiconductor-docs/blog">技术博客</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="searchBox_ZlJk"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docPage__5DB"><main class="docMainContainer_gTbr docMainContainerEnhanced_Uz_u"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="theme-doc-markdown markdown"><header><h1>E125-0305 - © SEMI 2003, 2005...</h1></header><p>PdfDownloadCard
+pdfLink=&quot;/pdfs/semi/063.pdf&quot;
+pdfSize=&quot;0.43MB&quot;
+title=&quot;E125-0305 - © SEMI 2003, 2005...&quot;
+description=&quot;SEMI标准文档，共50页&quot;
+/</p><h1>文档标题</h1><p>SEMI E125-0305 © SEMI 2003, 2005 9
+9. 1.2.3.1  GetStateMachines Operation Arguments
+Table 8  GetStateMachines Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+stateMachines All state machine metadata provided by
+the equipment.
+out Unordered list of elements of type StateMachine,
+described in Section 10.8 .</p><ol start="9"><li><p>1.2.4  GetSEMIObjTypes  —  Upon  receiving  this  request,  the  equipment  shall  return  all  OSS  ObjType  metadata
+provided by the equipment.</p></li><li><p>1.2.4.1  GetSEMIObjTypes Operation Arguments
+Table 9  GetSEMIObjTypes Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+objTypes All SEMI ObjType metadata provided by
+the equipment.
+out Unordered list of elements of type SEMIObjType,
+described in Section 10.8 .  If no SEMI ObjTypes are
+provided, this list shall be empty.</p></li><li><p>1.2.5  GetExceptions  —  Upon  receiving  this  request,  the  equipment  shall  return  all  exception  metadata  provided
+the equipment.</p></li><li><p>1.2.5.1  GetExceptions Operation Arguments
+Table 10  GetExceptions Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+exceptions All exception metadata provided by
+the equipment.
+out Unordered list of elements of type Exception,
+described in Section 10.7 .</p></li></ol><ol start="9"><li><p>1.2.6  GetEquipmentStructure — Upon receiving this request, the equipment shall return all equipment structural
+metadata provided by the equipment.</p></li><li><p>1.2.6.1  GetEquipmentStructure Operation Arguments
+Table 11  GetEquipmentStructure Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+equipmentStructure         All         equipment structural metadata
+provided by the equipment.
+out Structured data, of a type derived from the SEMI
+E120 type Link or EquipmentElement, that represents
+the equipment as a whole.</p></li><li><p>1.2.7  GetEquipmentNodeDescriptions  —  Upon  receiving  this  request,  the  equipment  shall  return  all  requested
+equipment  node  description  metadata  defined  for  the  equipment.    If  the  request  includes  unrecognized  equipment
+node  identifiers,  the  equipment  shall  return  only  node  descriptions  for  recognized  identifiers.    All  unrecognized
+identifiers shall be returned with the response.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 10
+9. 1.2.7.1  GetEquipmentNodeDescriptions Operation Arguments
+Table 12  GetEquipmentNodeDescriptions Argument Definitions
+Argument                                    Description                                    Kind                                    Form
+equipmentNodeIds The id’s of the requested equipment
+node descriptions
+in List of text, each entry equal to a valid SEMI E120
+Locator value (see E120, Related Information 2).  If
+an empty list is provided, the equipment shall return
+node descriptions for all equipment nodes.
+equipmentNodeDescriptions All equipment node description
+metadata.
+out Structured data of type NodeDescriptionResult.</p><p>Figure 4
+Interface for Accessing Equipment Metadata</p><ol start="9"><li><p>1.2.8  NodeDescriptionResult  —  This  class  provides  the  list  of  requested  EquipmentNodeDescription  elements
+and any unrecognized equipment node id’s that may have been provided with the request.</p></li><li><p>1.2.8.1  NodeDescriptionResult Attribute Definition Table
+Table 13  NodeDescriptionResult Attribute Definition
+Attribute Name Definition Form
+unrecognizedIds Any unrecognized equipment node identifiers
+provided in the original request.
+List of text, each entry equal to an unrecognized
+equipment node identifier provided in the
+GetEquipmentNodeDescriptions request.</p></li><li><p>1.2.8.2  NodeDescriptionResult Association Definition Table
+Table 14  NodeDescriptionResult Association Definition
+Association Role Name Definition Comments
+nodeDescriptions The requested equipment node description metadata. Zero or more elements of type
+EquipmentNodeDescription.  The
+equipment shall return node description
+metadata for all recognized equipment
+node identifiers.  If the same node
+identifier appears more than once in the
+request, the equipment shall return only
+one corresponding node description.</p></li><li><p>1.2.9  GetLatestRevision — Upon receiving this request, the equipment shall return the most recent date and time
+at  which  the  metadata  contents  were  changed.    The  equipment  shall  store  the  date  and  time  of  the  most  recent
+change in non-volatile memory.  The equipment shall not generate false revision dates, in which there is no change
+in the available metadata, but the latest revision date/time is changed.</p></li><li><p>1.2.9.1  GetLatestRevision Operation Arguments
+Table 15  GetLatestRevision Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+revision The most recent date and time at which the
+metadata was changed.
+out Structured data of type MetadataRevision, described
+in Section 9.1.2.11 .
+EquipmentNodeDescription
+1</p></li><li><p>.*
+nodeDescriptions
+NodeDescriptionResult</p></li></ol><p>unrecognizedIds</p><p>SEMI E125-0305 © SEMI 2003, 2005 11
+9. 1.2.10  NotifyOnRevisions  —  Upon  receiving  this  request,  the  equipment  shall  either  enable  or  disable  metadata
+revision  notices  to  the  requesting  client,  based  on  the  operation  arguments  provided  by  the  client.    The  equipment
+shall store the client’s preference in non-volatile memory.
+9. 1.2.10.1  NotifyOnRevisions Operation Arguments
+Table 16  NotifyOnRevisions Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+notification Specifies the client’s notification
+preference.
+in Structured data of type NotificationRequest,
+described in Section 9.1.2.12 .
+9. 1.2.10.2  Clients must invoke this operation with the ‘enable’ attribute of the notification argument set to ‘true’ in
+order  to  receive  notifications.    The  default  behavior  for  revision  notifications  for  a  given  client  is  disabled.    The
+equipment  shall  automatically  disable  notification  for  a  client  if  the  equipment  is  in  an  enabled  communications
+state and determines that the client is no longer accessible to receive such notifications.  In this case, the client must
+invoke this operation in order to re-enable notifications.
+9. 1.2.10.3  If  the  ‘enable’  attribute  of  the  notification  argument  provided  is  ‘true’,  the  equipment  shall  begin
+notifying  the  client  (if  it  is  not  already  doing  so)  whenever  a  change  in  the  metadata  is  detected,  starting  with  the
+first  detected  change  after  the  client  invokes  the  operation.    If  the  change  is  detected  while  the  equipment  is  in  a
+disabled  communications  state,  the  equipment  shall  notify  the  interested  clients  at  the  first  opportunity  when  its
+communication status permits.
+9. 1.2.10.4  If  the  ‘enable’  attribute  of  the  notification  argument  provided  is  ‘false’,  the  equipment  shall  cease
+sending  revision  notifications  to  the  client,  if  it  is  currently  doing  so.    The  equipment  shall  ignore  duplicate
+enable/disable requests from the same client (see limitations, Section 3 ).</p><p>Figure 5
+Metadata Revision</p><ol start="9"><li>1.2.11  MetadataRevision — This class describes the most recent metadata revision date and time.</li><li>1.2.11.1  MetadataRevision Attribute Definition Table
+Table 17  MetadataRevision Attribute Definition
+Attribute Name Definition Form
+revisionDate The most recent date and time at which the
+equipment metadata has changed.
+Text, formatted according to ISO 8601.
+Implementations may specify additional formatting
+restrictions within the 8601 specification.</li></ol><p>Figure 6
+Notification Request</p><p>MetadataRevision
+revisionDate
+NotificationRequest
+enable</p><p>SEMI E125-0305 © SEMI 2003, 2005 12
+9. 1.2.12  NotificationRequest — This class describes the notification preferences of the metadata client.
+9. 1.2.12.1  NotificationRequest Attribute Definition Table
+Table 18  NotificationRequest Attribute Definition
+Attribute Name Definition Form
+enable The client’s preference for revision notification.    Boolean.  If true, the client’s preference is to be
+notified of metadata revisions.  If false, the
+preference is to not be notified of metadata revisions.</p><ol start="9"><li>2  Metadata Client</li><li>2.1  Figure  7  shows  the  interface  and  argument  data  types  that  clients  must  support  in  order  to  receive  metadata
+revision notifications.</li></ol><p>Figure 7
+Metadata Client Interface</p><ol start="9"><li><p>2.2  MetadataClient Operations
+Table 19  MetadataClient Operation Definition
+Operation                                                                               Description                                                                               Type
+MetadataRevised Notifies the client that the metadata has recently changed. FF</p></li><li><p>2.2.1  MetadataRevised  —  The  equipment  shall  send  this  notification  whenever  it  detects  a  change  in  the
+metadata, if the client has requested to be notified through a prior invocation of the “NotifyOnRevisions” operation
+of the EquipmentMetadataManager interface.</p></li><li><p>2.2.1.1  MetadataRevised Operation Arguments
+Table 20  MetadataRevised Argument Definitions
+Argument                                  Description                                  Kind                                  Form
+revision The date and time at which the metadata
+change was detected by the equipment.
+in Structured data of type RevisionNotice, described in
+Section 9.2.2.2 .
+MetadataRevised(in newRevision : RevisionNotice)
+MetadataClient
+«interface»
+EquipmentElement
+CEM::
+equipment
+RevisionNotice</p></li></ol><p>11
+1</p><p>newRevision
+1
+MetadataRevision
+revisionDate</p><p>SEMI E125-0305 © SEMI 2003, 2005 13</p><ol start="9"><li><p>2.2.2  RevisionNotice — This class provides the date and time of any metadata revision, and the equipment whose
+metadata was changed.</p></li><li><p>2.2.2.1  RevisionNotice Association Definition Table
+Table 21  RevisionNotice Association Definition
+Association Role Name Definition Comments
+equipment The root equipment node that represents the equipment as a
+whole.
+One and only one element of a type
+derived from the SEMI E120 type
+EquipmentElement.
+newRevision The date and time at which the metadata was revised. Structured data, of type
+MetadataRevision</p></li><li><p>2.2.2.2  equipment — Providing the root equipment node with a RevisionNotice should not be interpreted to mean
+that  the  root  equipment  node’s  metadata  has  changed.    It  is  strictly  provided  as  a  means  for  clients  to  determine
+which equipment has undergone the change.
+10  Equipment Metadata</p></li><li><p>1  Management of Equipment Metadata</p></li><li><p>1.1  When equipment configuration changes result in a change to any information described using the classes in
+Section  9.1.2.9  of  this  document  or  by  the  SEMI  Common  Equipment  Model,  the  equipment  shall  update  the
+metadata  description  accordingly  at  the  time  of  the  change.    If  clients  have  requested  revision  notification  (see
+Sections 9.1.2.9 and 9.1.2.10 ), the equipment shall notify each interested client at the time of the change, or at the
+first  opportunity  when  its  communication  status  permits.    This  includes  reconfiguration  of  the  equipment  after  its
+introduction into the factory.  Ensuring that all aspects of equipment metadata are kept up-to-date and available to
+the factory is a critical aspect of maintaining equipment metadata.</p></li><li><p>2  Equipment Structure</p></li><li><p>2.1  The  physical  equipment  structure  shall  be  described  according  to  the  SEMI  Common  Equipment  Model.
+Suppliers  shall  provide  a  model  of  those  elements  of  their  equipment  for  which  it  is  necessary  and  practical  to
+facilitate (at least) utilization tracking, process control, and technical support objectives.</p></li><li><p>3  Equipment Nodes</p></li><li><p>3.1  Equipment Node Description</p></li><li><p>3.1.1  Figure  8  shows  how  to  describe  the  parameters,  events,  objTypes,  and  exceptions  available  from  an
+element (or node) of the equipment hierarchy.  Providing this descriptions indicates that the specified node acts as
+the source of all Events, Exceptions, ObjTypes, and Parameters that are included in the description.  All Parameters,
+Exceptions,  ObjTypes,  and  Events  associated  with  a  given  equipment  node  are  independent  of  the  Events,
+Exceptions, ObjTypes, and Parameters associated with other equipment nodes.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 14
+Eq ui pme ntN od eD escri p ti o n
+1
+parame te rs0..*</p><h1>1</h1><ol><li>.<em>
+ex cept ions0. .</em></li><li>.<em>
+ob jT ypes0. .</em>
+Par a meter
+CEM::Nameable
+no de1
+1
+SEMIObjTypeExce pti on
+StateMa chi n eI nstan ce
+s ta te Machines1</li></ol><h1>0</h1><ol start="0"><li>. *</li></ol><p>Figure 8
+Describing Equipment Nodes</p><ol start="10"><li>3.1.2  EquipmentNodeDescription — This class is used to identify a specific element of the equipment hierarchy,
+and  to  describe  the  Parameters,  Exceptions,  ObjTypes,  and  Events  for  which  this  node  is  the  source.    This  is
+achieved  through  the  StateMachineInstance  (Section  10.8.6),  SEMIObjType  (Section  10.8.5  ),  Exception  (Section</li><li>7  ),  and  Parameter  (Section  10.4  )  classes.    Only  one  EquipmentNodeDescription  shall  be  provided  for  a  given
+equipment node.  Equipment elements may be any concrete class derived from Nameable, as defined in the SEMI
+E120 specification, Common Equipment Model.</li><li>3.1.3  EquipmentNodeDescription Association Definition Table
+Table 22  EquipmentNodeDescription Association Definition
+Association Role Name Definition Comments
+stateMachines An unordered list of state machines that are supported by
+this equipment node.
+List of elements of type
+StateMachineInstance, described in
+Section 10.8.6. There shall be one map
+provided for each event that the node
+can generate, including events for which
+no Parameters are available.
+objTypes An unordered list of the SEMIObjTypes that are
+associated with this equipment node.
+List of elements of type SEMIObjType,
+describe in Section 10.8.5 .
+exceptions An unordered list of exceptions that can be reported by
+this equipment node.
+List of elements of type Exception
+described in Section 10.7 .
+parameters An unordered list of typed parameters provided by this
+equipment node.
+List of elements of type Parameter,
+described in Section 10.4 .  Any
+parameters that represent variables from
+SEMI standards shall be typed and
+named according to Sections 10.5.4  and</li><li>4.10 .  Each parameter name for this
+node shall be unique.  Parameter names
+need not be unique across equipment
+nodes.
+node The equipment node being described. Element of a type derived from the
+SEMI E120 Nameable class.</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 15
+10. 4  Parameters
+10. 4.1  Parameters  can  represent  any  concept  that  can  be  described  by  any  of  the  primitive  or  composite  types
+described  in  Section  10.5  .    A  parameter  can  generally  be  thought  of  as  a  named,  typed  field  that  has  a  specific
+meaning,  utility  or  other  information  value.    Examples  are  process  control  variables,  equipment  configuration
+settings,  measurement  results,  wafer  maps,  data  variables,  etc.    Parameters  can  only  be  defined  by  an  equipment
+node (Section 10.3 ), a SEMI ObjType (Section 10.9 ), or an exception (Section 10.7 ).
+10. 4.2  Figure 9 shows how to describe named, typed parameters with units, constraints, and associations with other
+parameters.    Type  and  units  information  is  provided  through  the  ParameterTypeDefinition  referred  to  by  the
+DefinedType class.  ParameterTypeDefinition is described in Section 10.5.1 .
+de scrip tion
+A sso ci ated Para meter
+name
+desc ript io n
+def in it io n
+Constraint
+name
+des cript ion
+Pa r ameter
+1
+ass ociat edParamet ers
+0. .<em>
+cons traint s1
+0. . </em>
+typeInformation0..<em>
+1
+Para meterTy peD efi ni ti on
+paramet er0. . </em>
+1
+Pa rameterC l assi fi cati on
+classification
+1
+1</p><p>Figure 9
+Describing Typed Parameters</p><ol start="10"><li>4.3  Suppliers  shall  provide  a  model  of  those  Parameters  for  which  it  is  necessary  and  practical  to  facilitate  (at
+least) utilization tracking, process control, and technical support objectives.</li><li>4.4  Parameter Attribute Definition Table
+Table 23  Parameter Attribute Definition
+Attribute Name Definition RequiredForm
+name The name of the parameter. Y Text.
+description A human-readable description of the purpose or
+usage of the Parameter.
+Y        Text.</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 16
+10. 4.5  Parameter Association Definition Table
+Table 24  Parameter Association Definition
+Association Role Name Definition Comments
+constraints A description of any restrictions associated with
+this parameter.
+List of structured data, of type Constraint,
+described in Table 26 .  Logical AND semantics
+apply between constraints if more than one is
+described.
+associatedParameters List of other parameters in the system that are
+related to this parameter.
+List of structured data, of type
+AssociatedParameter, described in Section 10.4.7
+.
+typeInformation Refers to a type definition that describes the type
+and units of this parameter.
+One and only one element of type
+ParameterTypeDefinition.
+classification Describes the nature of the Parameter One and only one element of any type derived
+from ParameterClassification, described in
+Section 10.4.11.2 .</p><ol start="10"><li><p>4.6  Each parameter can provide a list of zero or more associated parameters, and a human-readable description
+of the meaning of the relationship.</p></li><li><p>4.7  AssociatedParameter  —  This  class  can  be  used  to  describe  a  generic  association  with  another  parameter
+anywhere  in  the  equipment  hierarchy.    If  such  an  association  is  created,  this  indicates  that  the  Parameter  being
+defined  is  related  in  some  way  to  the  parameter  referenced  by  this  class.    The  meaning  of  the  relationship  is
+documented in the description attribute of the AssociatedParameter class.  More specific meaning can be attributed
+to an associated Parameter via the classification types described in Section 10.4.11 .</p></li><li><p>4.7.1  AssociatedParameter Attribute Definition Table
+Table 25  AssociatedParameter Attribute Definition
+Attribute Name Definition RequiredForm
+description                       Description                       of                       the relationship between the
+defined parameter and the parameter identified
+by this association.
+Y         Text.</p></li><li><p>4.7.2  AssociatedParameter Association Definition Table
+Table 26  AssociatedParameter Association Definition
+Association Role Name Definition Comments
+associatedParameters A list of parameters that are associated with this
+parameter.
+Unordered list of structured data, of type
+Parameter.</p></li><li><p>4.8  Constraint — Represents a constraint associated with this parameter.  A constraint can be used to describe
+limitations on the valid values of a parameter, the rate at which the parameter can be collected for off-tool reporting,
+or any other similar restriction on the value or usage of the parameter.</p></li><li><p>4.8.1  Constraint Attribute Definition Table
+Table 27  Constraint Attribute Definition
+Attribute Name Definition RequiredForm
+name The name of the constraint. Y Text.
+description A description of the purpose or meaning of the
+constraint.
+Y        Text.
+definition The definition of the constraint. Y Text, formatted according to Section</p></li><li><p>4.9 .</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 17
+10. 4.9  Constraint Definition
+10. 4.9.1  Parameter constraints describe restrictions on the valid values of Parameters.  A constraint is documented
+as  a  propositional  formula,  which  evaluates  TRUE  with  valid  parameter  values.    Relational  algebra  defines  a  rich
+syntax  for  propositional  formulas;  however,  this  syntax  is  not  commonly  used  for  commercial  applications.
+Standard  Query  Language  (SQL)  is  a  well-documented  commercial  application  of  relational  algebra  well  suited  to
+this  application.  Specifically,  the  syntax  of  the  WHERE  clause  (of  the  SQL  SELECT  statement)  is  suitable  for
+describing constraints on Parameter values.  The WHERE clause of the SQL SELECT statement is a propositional-
+expression that consists of one or more comparisons of values with constants. It has the following form.
+WHERE propositional-expression <!-- -->[nested-propositional-expression]<!-- -->;
+For  the  purposes  of  this  specification,  a  subset  of  the  SQL  WHERE  syntax  (the  complete  syntax  is  discussed  in
+Related  Information,  Section  R2-1)  shall  be  used  to  define  constraints.    Specifically,  the  IN,  BETWEEN,  and  IS
+operators are not supported in constraint definitions.
+10. 4.9.2  For  example,  a  Parameter  named  “TemperatureSetpoint”  that  represents  a  temperature  set  point  that  may
+not be less than 100 or greater than 200 may be described using the following SQL WHERE clause.
+WHERE TemperatureSetpoint &gt; 100 AND TemperatureSetpoint &lt; 200;
+10. 4.9.3  Describing Reporting Frequency Constraints
+10. 4.9.3.1  To  describe  the  rates  at  which  a  given  Parameter  can  be  reported  for  data  acquisition,  a  specific
+convention using the subset of the SQL WHERE clause described in Section 10.4.9.1 shall be used.  For Parameters
+where  this  is  a  consideration,  a  constraint  must  be  provided  named  “ReportingPeriod”.    The  definition  of  the
+ReportingPeriod constraint shall take the following form:
+WHERE parameterName.ReportingPeriod comparison;
+10. 4.9.3.2  Here, parameterName  is  the  name  of  the  Parameter  to  which  the  constraint  applies,  and  comparison  is
+any  legal  combination  of  terms,  operators,  or  constants  necessary  to  describe  the  constraint  on  valid  reporting
+periods for the Parameter.  The time division for any constants that refer to the reporting period shall be in seconds.
+If the constraint definition is used to express an integer multiple of a fundamental reporting period, the variable ‘n’
+shall be used to represent the multiplier.
+10. 4.9.3.3  For   example,   the   constraint   definition   below   specifies   that   the   supported   reporting   period   for
+“Temperature” is any continuous value between 0.01 seconds and 60 seconds.  Additional examples are provided in
+Related Information, Section R4-1.
+WHERE Temperature.ReportingPeriod &gt;.01 AND Temperature.ReportingPeriod  &lt; 60;
+10. 4.10  Describing SEMI Standard Variables and/or Attributes
+10. 4.10.1  If the supplier is using a Parameter to represent variables or attributes that have been defined in a SEMI
+standard, the name attribute of the Parameter class shall be equal to the name of the variable or attribute exactly as it
+is spelled, using the same case convention as found in the corresponding standard.  The type mapping described in
+Section 10.5.4  shall determine the type assigned to the Parameter.</p><p>SEMI E125-0305 © SEMI 2003, 2005 18
+10. 4.11  Classifying Parameters
+Parameter
+isTransient
+ParameterClassification
+ReadWriteReadOnly
+Configuration
+Control
+classification1
+1
+affectedParameters
+1
+0. .<em>
+Data
+AssociatedParameter
+1
+associatedParameters0..</em></p><p>Figure 10
+Parameter Classifications
+10. 4.11.1  Figure 10 shows the classification scheme used to describe the characteristics of a Parameter.  There are
+two primary classifications, read-only and read-write, that specify whether or not the parameter’s value can be set by
+an external entity.  If read-only, the Parameter is classified as data.  If read-write, there are several subclasses that
+can be used to further refine the description of the Parameter’s function.
+10. 4.11.2  ParameterClassification — This class is the abstract base class for all Parameter classifications.
+10. 4.11.3  ParameterClassification Attribute Definition Table
+Table 28  ParameterClassification Attribute Definition
+Attribute Name Definition Form
+isTransient Whether or not the Parameter’s value is only
+accessible or meaningful under certain
+conditions.
+Boolean.  See Section 10.4.11.3.1.</p><ol start="10"><li>4.11.3.1  isTransient</li><li>4.11.3.1.1  If  false,  the  Parameter’s  value  is  guaranteed  to  be  accessible  and  meaningful  at  all  times  that  the
+equipment is available and in a state in which it is possible to communicate with external entities.  Parameters that
+correspond to SEMI E30 equipment constants and status variables, for example, are non-transient.</li><li>4.11.3.1.2  If true, the Parameter is said to be “transient”.  The value of a transient Parameter is not guaranteed to
+be accessible or meaningful except under certain conditions.  For example, Parameters that correspond to SEMI E30
+“data values” are transient.  Additionally, a Parameter may represent an attribute of a transient SEMI E39 ObjType,
+in which case its accessibility is determined by the lifecycle of the ObjType.  The Parameter may provide data that is
+only available when the equipment (or SEMI E39 ObjType) is in a specific state or states.  If a transient Parameter is
+available for reporting with a specific event, its value may only be meaningful while the equipment is in the target
+state  for  which  the  event  was  reported.    Or,  the  Parameter’s  value  may  only  be  meaningful  at  the  time  the  event</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 19
+occurs.  Providing a mechanism to describe the lifecycle for transient Parameters using metadata is beyond the scope
+of this specification.
+10. 4.11.4  ReadWrite  —  This  abstract  class  identifies  a  Parameter  as  being  settable  by  an  external  entity.    The
+settings  for  such  Parameters  may  influence  the  values  or  dynamics  of  other  Parameters.    For  example,  Parameters
+corresponding  to  E30  “equipment  constants”  may  be  set  by  an  external  entity,  and  so  would  be  classified  as
+ReadWrite.  Parameters corresponding to E30 “status variables” or “data values” cannot be set by external entities,
+so would not be classified as ReadWrite.
+10. 4.11.5  ReadWrite Association Definition Table
+Table 29  ReadWrite Association Definition
+Association Role Name Definition Comments
+affectedParameters A list of associated Parameters that are affected
+by the settings of this Parameter.
+Unordered list of structured data, of type
+AssociatedParameter.</p><ol start="10"><li>4.11.5.1  affectedParameters</li><li>4.11.5.1.1  If the Parameter’s settings directly affect the values or dynamics of other Parameters elsewhere in the
+metadata,  an  AssociatedParameter  instance  must  be  provided  and  described  for  each  such  relationship  for  the
+Parameter being defined.  Other generic associations may exist for the Parameter, but the specific associations that
+arise  from  the  settings  of  the  Parameter’s  value  must  be  accessible  through  the  affectedParameters  association
+provided by this base class unless otherwise specified in this document.</li><li>4.11.6  ReadOnly  —  This  abstract  class  identifies  a  Parameter  as  being  un-settable  by  an  external  entity.    Its
+value,  however,  is  accessible  to  external  entities.    This  class  has  no  attributes  or  associations.    For  example,
+Parameters  corresponding  to  E30  “status  variables”  or  “data  values”  cannot  be  set  by  an  external  entity,  and  so
+would  be  classified  as  ReadOnly.    Parameters  corresponding  to  E30  “equipment  constants”  can  be  set  by  external
+entities, so could not be classified as ReadOnly.</li><li>4.11.7  Data — This class is derived from ReadOnly, and identifies a Parameter as providing data values.  If non-
+transient,  (for  example,  Parameters  corresponding  to  E30  “status  values”),  the  data  values  are  accessible  and
+meaningful at all times.  If transient, (for example, Parameters corresponding to E30 “data values”), the data values
+are not guaranteed to be meaningful except when they are explicitly provided with the occurrence of specific events
+or,  if  they  represent  attributes  of  an  SEMI  E39  ObjType,  when  the  corresponding  ObjType  has  at  least  one  active
+instance.  This class defines no attributes or associations.</li><li>4.11.8  Control  —  This  is  derived  from  ReadWrite,  and  identifies  a  Parameter  as  being  settable  by  an  external
+entity  (for  example,  Parameters  corresponding  to  recipe  settings).  Changes  in  the  values  of  a  Control  Parameter
+affect  the  way  in  which  the  equipment  processes,  measures,  or  tests  material  and  may  affect  the  values  of  other
+Parameters.  This class defines no attributes or associations.</li><li>4.11.8.1  If  other  Parameters  are  affected  by  this  Parameter’s  settings,  all  such  affected  Parameters  shall  have  a
+corresponding   AssociatedParameter   instance   provided   with   the   Control   Parameter’s   definition.      Each   such
+AssociatedParameter  instance  shall  be  accessible  via  the  “affectedParameters”  association  of  this  class  (inherited
+from ReadWrite).</li><li>4.11.8.2  If non-transient, the values of this Parameter are accessible and meaningful at all times, and can be set
+by an external entity under conditions determined by the equipment.</li><li>4.11.8.3  If transient, the values of this Parameter are not guaranteed to be meaningful or settable at all times.  If
+the  Parameter  represents  an  attribute  of  an  SEMI  E39  ObjType,  the  Parameter  will  only  be  settable  when  the
+corresponding ObjType has at least one active instance.</li><li>4.11.9  Configuration — This class is derived from ReadWrite, and identifies a Parameter as being settable by an
+external  entity,  and  in  some  way  influencing  equipment  behavior  and/or  the  values  of  other  Parameters,  but  is  not
+considered   a   control   Parameter   (for   example,   E30   “equipment   constants”   used   for   configuring   equipment
+communication timeouts, etc.).  This class defines no attributes or associations.</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 20
+10. 4.11.9.1  If  other  Parameters  are  affected  by  this  Parameter’s  settings,  all  such  affected  Parameters  shall  have  a
+corresponding  AssociatedParameter  instance  provided  with  the  Configuration  Parameter’s  definition.    Each  such
+AssociatedParameter  instance  shall  be  accessible  via  the  “affectedParameters”  association  of  this  class  (inherited
+from ReadWrite).
+10. 4.11.9.2  If non-transient, the values of this Parameter are accessible and meaningful at all times, and can be set
+by an external entity under conditions determined by the equipment.
+10. 4.11.9.3  If transient, the values of this Parameter are not guaranteed to be meaningful or settable at all times.  If
+the  Parameter  represents  an  attribute  of  an  SEMI  E39  ObjType,  the  Parameter  will  only  be  settable  when  the
+corresponding ObjType has at least one active instance.  This class defines no attributes or associations.
+10. 5  Parameter Types
+10. 5.1  Parameter Type Definitions
+10. 5.1.1  Figure  11  shows  a  class  that  can  be  used  to  describe  re-usable  Parameter  data  types.    Parameter  type
+definitions  can  be  re-used  elsewhere  in  the  metadata  wherever  a  Parameter’s  type  can  be  declared.    See  Related
+Information Section R5-1 for some examples using the ParameterTypeDefinition class.
+ParameterType
+nam e
+des cript ion
+ParameterTypeDefinition
+t ypeInformation
+11</p><p>Figure 11
+Describing Type Definitions</p><ol start="10"><li>5.1.2  Parameter  TypeDefinition  —  Serves  as  a  class  for  naming  and  providing  a  re-usable  description  of  a
+primitive  or  composite  type.    For  example,  a  Parameter  TypeDefinition  could  define  a  re-usable  Parameter  type
+named “KelvinTemperature” of type RealType, with Kelvin units and 4 digits of precision.  A composite parameter
+TypeDefinition can be a named Array, Enumeration, or Structure.  Each kind of primitive and composite Parameter
+type  is  described  fully  in  subsequent  sections  of  this  document.    ParameterTypeDefinition  can  be  re-used  in  the
+definition  of  other  ParameterTypeDefinitions,  recursively  within  the  same  ParameterTypeDefinition,  and  in  the
+definition of Parameters (see Section 10.4 ).</li><li>5.1.3  The primitive Parameter type description classes are defined in Section 10.5.2 ; composite type description
+classes are defined in Section 10.5.3 .</li><li>5.1.3.1  ParameterTypeDefinition Attribute Definition Table
+Table 30  ParameterTypeDefinition Attribute Definition
+Attribute Name Definition RequiredForm
+name The name for the re-usable type definition. Y Text, must be unique across all
+ParameterTypeDefinitions.
+description A description of the meaning or purpose of the
+type definition.
+Y         Text.</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 21
+10. 5.1.4  ParameterTypeDefinition Association Definition Table
+Table 31  ParameterTypeDefinition Association Definition
+Association Role Name Definition Comments
+typeInformation The type description. One and only one element of any type description
+class derived from ParameterType.</p><ol start="10"><li>5.1.5  ParameterType — An abstract base class from which all type description classes are derived.  This class
+has no attributes or associations.</li><li>5.2  Primitive Parameter Type Descriptions</li><li>5.2.1  Metadata describing types must include a mechanism for describing primitive or single-valued, types such
+as integers and strings in the type system being used.  The specific simple or primitive types that should be provided
+are typically determined by the implementation technology that will be used to communicate values of the declared
+type  (for  example,  SECS-II,  XML,  OMG  IDL,  etc.).    The  primitive  types  described  here  should  be  considered  a
+minimum  set  that  could  be  refined  and  extended  to  work  best  with  the  type  system  in  use.    Any  specification  that
+translates  these  types  into  a  specific  type  system  shall  define  how  it  has  mapped  these  primitive  types  into  the
+technology-specific  type  system,  and  shall  fully  specify  any  additional  primitive  type  description  classes  beyond
+those defined here.
+ParameterType
+In tegerTyp e
+dig it sOf Precision
+R eal T ype
+langu age
+maxCharacters
+String TypeBo oleanT ypeBinaryType
+Unit
+units</li><li>.*1
+units</li><li>.*1
+UnitConfig
+units1</li><li>.*
+unit s1</li></ol><h1>2</h1><ol start="2"><li>. *
+{XOR}
+{XOR}</li></ol><p>Figure 12
+Describing Primitive Parameter Types</p><ol start="10"><li>5.2.2  Figure 12 shows a basic set of classes that can be used to describe primitive Parameter types.  The numeric
+classes representing integer and real numbers can specify their associated units, and real number types can specify
+the  number  of  digits  of  precision.    Strings  can  describe  the  associated  language  and  a  maximum  number  of
+characters, if applicable.</li><li>5.2.3  IntegerType — Represents an integer type, and associated units.</li><li>5.2.4  IntegerType Association Definition Table
+Table 32  IntegerType Association Definition
+Association Role Name Definition Comments
+units The available units specified for this type. Either:
+One and only one element of type Unit
+or:
+Two or more elements of type UnitConfig, if the
+type supports configurable units.</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 22
+10. 5.2.5  RealType — Represents a real (for example, floating point) number type, and associated units.
+10. 5.2.6  RealType Attribute Definition Table
+Table 33  RealType Attribute Definition
+Attribute Name Definition Required Form
+digitsOfPrecision The maximum number of digits that can be
+provided after the decimal point by variables of
+this type.
+N            Integer            ≥ 0.  If 0, there is no
+restriction on the number of digits of
+precision.</p><ol start="10"><li>5.2.7  RealType Association Definition Table
+Table 34  RealType Association Definition
+Association Role Name Definition Comments
+units The available units specified for this type. Either:
+One and only one element of type Unit
+or:
+Two or more elements of type UnitConfig, if the
+type supports configurable units.</li></ol><p>Figure 13
+Describing Configurable Units</p><ol start="10"><li>5.2.8  Some  equipment  may  support  the  ability  to  provide  Parameter  values  in  more  than  one  set  of  units.    For
+each  independently  configurable  set  of  units  available,  the  equipment  shall  support  one  non-transient  unit
+configuration Parameter to control which units are used when communicating the values of such Parameters.  The
+ParameterType of such unit configuration Parameters shall be a string-based enumeration (see Section 10.5.4.1.3 ).
+Each value in the enumeration shall correspond to a different unit configuration.  Figure 13 shows the classes used
+to describe configurable units.  Not all associations and attributes of the Unit, Parameter, ParameterTypeDefinition,
+ParameterType, and EnumerationType classes are shown for clarity.
+NOTE 2:  The equipment is not required to support configurable units in order to comply with E125; however if the equipment
+does  support  configurable  units,  it  shall  describe  the  available  units  and  their  configuration  using  the  classes  defined  in  this
+section.</li><li>5.2.9  The UnitConfig class (shown in Figure 13) is used to provide a mapping from each possible unit choice for
+a  given  numeric  ParameterType  to  the  enumeration  Parameter  setting  that  selects  that  unit.    For  example,  the
+equipment  may  provide  a  single  unit  configuration  Parameter  to  select  between  meter-kilogram-seconds  (mks),
+centimeter-gram-seconds  (cgs),  and  English  units.    In  that  case,  every  numeric  type  with  configurable  units
+appearing  in  a  ParameterTypeDefinition  would  provide  3  UnitConfig  instances  –  one  for  each  of  the  3  possible
+enumeration settings available from the unit configuration Parameter.
+1
+1
+1
+Unit
+1</li><li>.1
+unit
+configParameter
+UnitConfig</li><li>.1 setting
+EnumeratedString
+value
+description</li><li>.1</li></ol><p>1
+Parameter
+0. .*</p><ol><li>.*
+values
+1
+1
+typeInformation
+ParameterTypeDefinition
+typeInformation
+ParameterType</li></ol><p>EnumerationType</p><p>SEMI E125-0305 © SEMI 2003, 2005 23
+10. 5.2.10  Because  the  mapping  from  an  available  unit  to  the  Configuration  Parameter  setting  that  selects  it  is
+described  by  the  UnitConfig  class,  it  is  not  required  to  use  the  “affectedParameters”  attribute  (see  Section
+10. 4.11.5.1) to refer to the Parameters whose units are changed by the Configuration Parameter when describing its
+classification.
+10. 5.2.11  If a ParameterTypeDefinition includes numeric types with configurable units, then all Parameters that are
+declared to be of that type shall support the configurable units described in the ParameterTypeDefinition.
+10. 5.2.12  UnitConfig  —  This  class  describes  a  configurable  unit  setting  available  for  a  numeric  ParameterType.
+UnitConfig provides a mapping between the available unit, the non-transient configuration Parameter used to change
+the selected unit, and the enumeration value of that configuration Parameter that results in the selection of the unit.
+This class has no attributes.
+10. 5.2.13  UnitConfig Association Definition Table
+Table 35  UnitConfig Association Definition
+Association Role Name Definition Comments
+unit An available unit supported by this type. One and only one element of type Unit.
+configParameter The unit configuration Parameter whose value
+selects the unit.
+One and only one element of type Parameter.
+The Parameter must have a string-based
+enumeration ParameterTypeDefinition.
+setting The enumeration value which, when set on the
+corresponding configParameter, results in the
+available unit being selected.
+One and only one element of type
+EnumeratedString.</p><ol start="10"><li><p>5.2.14  StringType — Represents a string type.</p></li><li><p>5.2.15  StringType Attribute Definition Table
+Table 36  StringType Attribute Definition
+Attribute Name Definition Required Form
+language Identifies the language used to represent the string. Y Text, must be equal to an IETF RFC
+1766 language tag, using ISO 3166 to
+name countries and subdivisions, and
+ISO 639 to name languages.
+maxCharacters The maximum number of characters that this string
+can contain.
+N            Integer            ≥ 0.  If 0, there is no restriction
+on the number of characters.</p></li><li><p>5.2.16  BooleanType — Represents a Boolean type.</p></li><li><p>5.2.17  BinaryType — Represents a binary type.</p></li><li><p>5.3  Composite Type Description</p></li><li><p>5.3.1  Describing Arrays</p></li><li><p>5.3.1.1  Arrays are container types that can hold one or more values that are of the same type.  Figure 14 shows
+how  to  describe  the  type  of  the  elements  in  a  given  array.    An  array  can  refer  to  only  one  of  the  primitive  or
+composite types, and can declare that it has a maximum number of elements.  For example, an array description that
+has  a  maxElements  value  of  0  and  refers  to  the  RealType  primitive  type  represents  an  array  of  real  numbers  (for
+example, float or double) that has no limitation on the number of values it can contain.</p></li><li><p>5.3.1.2  Each  element  of  an  array  must  represent  the  same  physical  concept.    For  example,  an  array  of  real
+numbers must not be used to represent a repeating sequence of a measured value in odd-numbered elements and the
+uncertainty for the measurement in even-numbered elements.  In such cases, an array of StructureType elements is
+the  correct  representation,  where  the  different  concepts  appear  as  different  fields  in  the  structure  (for  example,  a
+measurement field and an uncertainty field).  A human-readable description of the meaning of the array elements is
+required.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 24</p><ol start="0"><li>.*
+typeInformation
+1
+{XOR}
+minElements
+maxElements
+element D esc ript io n
+ArrayType
+1
+typeInformation
+1
+ParameterTypeDefinition
+ParameterType</li></ol><p>Figure 14
+Describing Arrays</p><ol start="10"><li><p>5.3.1.3  ArrayType Attribute Definition Table
+Table 37  ArrayType Attribute Definition
+Attribute Name Definition Form
+minElements                             The                             minimum number of elements that can be held
+in the array.
+Positive integer, with 0 representing no
+restriction on the minimum number of
+elements.  If this attribute and
+maxElements are both non-zero, the value
+of this attribute must be less than
+maxElements.
+maxElements                            The                            maximum number of elements that can be held
+in the array.
+Positive integer, with 0 representing an
+unlimited number of elements.  If this
+attribute and minElements are both non-
+zero, the value of this attribute must be
+greater than minElements.
+elementDescription                   A                   human-readable                   description of the purpose of the
+elements in the array.
+Text.</p></li><li><p>5.3.1.4  ArrayType Association Definition Table
+Table 38  ArrayType Association Definition
+Association Role Name Definition Comments
+typeInformation Describes the data type of each element
+contained in the array.
+Structured data, must be one and only one of the
+following: any type derived from
+ParameterType, or a ParameterTypeDefinition
+(can be a recursive reference from within the
+same ParameterTypeDefinition).</p></li><li><p>5.3.2  Describing Structures</p></li><li><p>5.3.2.1  Structures  are  composite  types  that  can  hold  one  or  more  fields  that  are  of  differing  primitive  or
+composite types.  Figure 15 shows how a structure is described as a collection of one or more typed field’s.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 25
+10. 5.3.2.2  StructureType Attribute Definition Table
+Table 39  StructureType Attribute Definition
+Attribute Name Definition Form
+description A human-readable description of the meaning or
+purpose of the structure.
+Text.</p><ol start="10"><li><p>5.3.2.3  StructureType Association Definition Table
+Table 40  StructureType Association Definition
+Association Role Name Definition Comments
+fields The fields that comprise this data structure. Ordered list of one or more structured data
+elements of type Field.</p></li><li><p>5.3.2.4  Field — Represents a named field that has one and only one type, primitive or composite.  This class is
+used for describing fields within structures.  See Section 10.5.1.2  for a description of the ParameterTypeDefinition
+class.</p></li><li><p>5.3.2.4.1  Field Attribute Definition Table
+Table 41  Field Attribute Definition
+Attribute Name Definition Required Form
+name The name of the field. Y Text.
+description A description of the meaning or purpose of the field. Y Text.
+canBeNull Whether or not the field’s value may be omitted.  Boolean.  True if the field’s value is
+not always provided for all values of
+the structure.</p></li></ol><p>name
+description
+canBeNull
+Field
+des cript ion
+Stru ctur eT yp e
+fields
+11. .<em>
+ParameterType
+1
+typeInformation
+1
+ParameterTypeDefinition
+0. .</em>
+typeInformation
+1
+{XOR}</p><p>Figure 15
+Describing a Structure</p><p>SEMI E125-0305 © SEMI 2003, 2005 26
+10. 5.3.2.4.2  Field Association Definition Table
+Table 42  Field Association Definition
+Association Role Name Definition Comments
+typeInformation Describes the data type of this field. Structured data, must be one and only one of the
+following: any type derived from
+ParameterType, or a ParameterTypeDefinition
+(can be a recursive reference from within the
+same ParameterTypeDefinition).</p><ol start="10"><li>5.3.3  Describing Enumerations</li><li>5.3.3.1  Enumerations are single-valued types whose possible values are restricted to one of a set of pre-defined
+values.  Figure 16 shows how to describe the valid settings for an enumeration as an ordered collection of integer or
+string values.  For both integer and string enumerations, each value in the enumeration represents a legal value for
+the type being described.
+de scrip tion
+Enu merati on Typ e
+des cript ion
+value
+En umeratedIn teger
+des cript ion
+value
+En ume r atedS tr in g
+values1</li><li>. *
+values1</li><li>. *
+{XOR}
+Pa r ameter T ype</li></ol><p>Figure 16
+Describing an Enumeration</p><ol start="10"><li><p>5.3.3.2  EnumerationType  —  Represents  an  enumeration.    EnumerationType  may  consist  of  either  a  set  of
+integers, described by the EnumeratedInteger class, or a set of strings, described by the EnumeratedString class.</p></li><li><p>5.3.3.3  EnumerationType Attribute Definition Table
+Table 43  EnumerationType Attribute Definition
+Attribute Name Definition Form
+description A description of the meaning or purpose of the
+enumeration as a whole.
+Text.</p></li><li><p>5.3.3.4  EnumerationType Association Definition Table
+Table 44  EnumerationType Association Definition
+Association Role Name Definition Comments
+values The set of values that comprise this enumeration.  One of the following:</p></li></ol><p>ordered list of one or more elements of type
+EnumeratedInteger</p><p>ordered list of one or more elements of type
+EnumeratedString</p><p>SEMI E125-0305 © SEMI 2003, 2005 27
+10. 5.3.3.5  EnumeratedInteger — Represents a legal value for an integer enumeration.
+10. 5.3.3.6  EnumeratedInteger Attribute Definition Table
+Table 45  EnumeratedInteger Attribute Definition
+Attribute Name Definition Required Form
+value A legal value for the enumeration. Y Integer, must be unique across all
+values for this enumeration.
+description A description of the meaning or purpose of this
+enumeration value.
+Y            Text.</p><ol start="10"><li><p>5.3.3.7  EnumeratedString — Represents a legal value for a string enumeration.</p></li><li><p>5.3.3.8  EnumeratedString Attribute Definition Table
+Table 46  EnumeratedString Attribute Definition
+Attribute Name Definition Required Form
+value A legal value for the enumeration. Y Text, must be unique across all values
+for this enumeration.
+description A description of the meaning or purpose of this
+enumeration value.
+Y            Text.</p></li><li><p>5.4  SEMI Standard Type Mapping</p></li><li><p>5.4.1  The following table describes how to map SEMI type terminology to the various primitive and composite
+types  defined  in  this  document.    This  convention  shall  be  followed  when  describing  types  that  represent  types
+defined in a SEMI standard that is described by metadata.
+Table 47  SEMI Type Mapping
+SEMI Type Name Type Description to useComments
+integer, positive integer,
+negative integer, non-
+negative integer, non-
+positive integer
+IntegerType
+float, floating point, real RealType
+binary, bit string, byte          BinaryType
+boolean                                BooleanType
+text StringType If a limitation on the number of characters is specified, the maxCharacters
+attribute of the StringType class shall be set equal to the number of
+characters that is supported by the supplier.
+enumerated EnumeratedInteger Each enumeration shall start at value 0, and is sequenced in increments of 1
+according to the order in which the enumerated values are listed in the
+corresponding standard.  The description field for each enumerated value
+shall be equal to the text name provided for the enumerated value in the
+corresponding standard.
+structure StructureType Each field within the structure shall be named exactly as written in the
+corresponding standard.  The type of each field shall be mapped using the
+conventions described in this table.
+list ArrayType Lists of integers, floats, binaries, enumerateds, or structures are described as
+arrays of the corresponding primitives or composite types.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 28
+10. 5.5  Parameter Values
+10. 5.5.1  Any equipment interface used in conjunction with this specification must provide a means to communicate
+Parameter values corresponding to the primitive and composite type definitions described in this section.  Since this
+representation  will  depend  on  the  technology  used,  the  technology-specific  specifications  for  such  systems  shall
+provide  a  mapping  between  the  type  descriptions  supported  by  this  specification  and  the  representation  of  their
+corresponding values.
+10. 6  Units
+10. 6.1  Figure  17  shows  the  Unit  class  that  describes  a  specific  unit  used  by  the  equipment.    Any  unit  that  can  be
+used for numeric data can be described with this class.  This specification does not define a system of units, though
+suppliers shall describe at least one unit that represents pure numbers (a “unit-less” unit).</p><p>Figure 17
+Describing Units</p><ol start="10"><li><p>6.2  Unit Attribute Definition Table
+Table 48  Unit Attribute Definition
+Attribute Name Definition Required Form
+id The identifier for this unit. Y Text, unique across all units defined
+for this equipment.
+name The human-readable name for this unit. Y Text.
+description A description of the unit, its dimensionality and/or
+conversion factors, etc.
+Y            Text.
+symbol The abbreviation used to represent the unit. N Text.</p></li><li><p>7  Exceptions</p></li><li><p>7.1  Figure  18  shows  how  to  describe  implemented  exceptions  and  their  associated  data.    The  attributes  and
+associations  of  the  Parameter  class  are  not  shown  for  clarity  (see  Section  10.4    for  more  information  about
+Parameters).
+id
+desc ript io n
+severity
+Exc epti on
+setData1</p></li><li><p>.*
+clearData0. .1</p></li><li><p>.*
+Parameter</p></li></ol><p>Figure 18
+Describing Exceptions</p><p>SEMI E125-0305 © SEMI 2003, 2005 29
+10. 7.2  Exception —  This  class  can  be  used  to  represent  a  warning,  alarm,  error,  or  other  abnormal  condition  that
+can  be  communicated  by  the  equipment.    Note  that  the  Exception  class  can  represent  abnormal  conditions  whose
+set/clear  states  are  not  tracked  by  the  equipment,  as  well  as  those  that  are  (for  example,  SEMI  E30  alarms).  For
+Exceptions whose set/clear states are not tracked, no clearData is provided.
+10. 7.2.1  Exception Attribute Definition Table
+Table 49  Exception Attribute Definition
+Attribute Name Definition Required Form
+id Unique identifier for this exception. Y Text, unique across all exceptions
+described by metadata.
+description A description of the meaning of the exception when
+it occurs.
+Y            Text.
+severity Identifies the severity of this exception if it occurs. N Text, alpha characters only, no spaces.
+Some examples are: “Informational”,
+“Warning”, “Error”, or “Fatal”.  If no
+severity is defined, this attribute shall
+be an empty string.</p><ol start="10"><li><p>7.3  Exception Association Definition Table
+Table 50  Exception Association Definition
+Association Role Name Definition Comments
+setData An ordered list of data items communicated with
+the exception when it is detected.
+Ordered list of zero or more elements of type
+Parameter (see Section 10.4 ).
+clearData An ordered list of data items communicated when
+the exception has been cleared.
+Ordered list of zero or more elements of type
+Parameter (see Section 10.4 ).</p></li><li><p>8  StateMachines</p></li><li><p>8.1  State Machine Descriptions</p></li><li><p>8.1.1  Figure 19 shows how to describe the definition of a StateMachine (and its associated states and transitions)
+that is implemented by the equipment.  These classes can be used to describe standardized state machines, such as
+those originating from SEMI standards, as well as non-standardized equipment-specific state  machines.    Examples
+of state machines are provided in Related Information, Section R7-1.</p></li><li><p>8.1.1.1  The state machine description classes specified here are intended for descriptive purposes in facilitating
+end-user  understanding  of  equipment  behavior  that  results  in  the  generation  of  events.    They  are  not  intended  to
+provide  comprehensive  modeling  of  all  semantics  defined  by  standard  state  machine  formalisms  such  as  Harel  or
+UML.  Events generated by the equipment must be defined within the context of these state machine descriptions,
+even  if  the  described  state  machine  has  not  been  literally  implemented  by  the  supplier.    Further,  this  specification
+does not require the supplier to provide a literal implementation of the state machines described by these classes.</p></li><li><p>8.1.2  A StateMachine that defines behavior that is implemented by many equipment components (for example)
+need only be defined once.  Each component that implements the behavior described by that StateMachine can then
+refer  to  the  events  it  defines  through  the  use  of  the  StateMachineInstance  class  (see  Section  10.8.6).    It  is  not
+necessary  to  define  multiple  StateMachines  to  accommodate  multiple  components  that  each  exhibit  the  same
+behavior and generate the same events.  For example, if the equipment being described has four pump components
+that  exhibit  the  same  behavior,  have  the  same  underlying  StateMachine,  and  generate  the  same  set  of  events,  only
+one  StateMachine  description  is  necessary.    Each  pump  component  can  then  act  as  a  different  source  (see  Section</p></li><li><p>3.1  )  of  the  same  set  of  events  defined  for  that  StateMachine,  each  pump  executing  the  StateMachine
+independently of the other pumps.</p></li><li><p>8.2  StateMachine —  This  class  represents  a  collection  of  states  and  transitions  that  together  comprise  a  non-
+concurrent finite state machine.  All StateMachines refer to a single top-level state.  The top-level state can contain
+zero or more substates and/or StateMachines.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 30
+10. 8.2.1  The top-level StateMachine instance in a complete state model description represents the state model as a
+whole.  When appearing as a member of the ‘stateMachines’ association of the State class, the StateMachine class
+can  be  used  to  describe  2  or  more  concurrent  state  machines  belonging  to  that  State  instance.  For  example,  the
+SEMI  E87  Carrier  state  model  defines  three  such  concurrent  state  machines:  Carrier  ID  Status,  Carrier  Slot  Map
+Status, and Carrier Accessing Status.
+name
+id
+des cript ion
+State
+substates1
+0. .<em>
+name
+id
+des cript ion
+StateMa chi n e
+top1
+1
+st at eMachines1
+0. .</em>
+name
+id
+descrip tion
+Transition
+transitions
+1</p><ol><li>.*
+sourc e</li><li>.<em>1
+target0..</em>
+1
+name
+id
+desc ript io n
+Ev ent
+events10..*
+transitions</li><li>.1</li><li>. *
+{XOR}</li></ol><p>Figure 19
+Describing State Machines</p><ol start="10"><li><p>8.2.2  StateMachine Attribute Definition Table
+Table 51  StateMachine Attribute Definition
+Attribute Name Definition Required Form
+name A human-readable name for this StateMachine. Y Text.
+id A unique identifier for this StateMachine. Y Text, unique across all state machines.
+description A description of the meaning or purpose of this state
+model.
+Y            Text.</p></li><li><p>8.2.3  SEMI Standard State Machines</p></li><li><p>8.2.3.1  name — If the StateMachine represents a SEMI standard state machine, the value of this attribute shall
+be a URN of the form: “urn:semi-org:stateMachine:standard id:state machine”.</p></li><li><p>8.2.3.1.1  standard  id  shall  be  a  string  formatted  according  to  the  SEMI  standard  form  for  representing  a
+specific version of a standard document (for example, “E87-1101”), no spaces, upper-case alphanumeric characters
+and hyphens only.</p></li><li><p>8.2.3.1.2  state machine shall be the name of the state machine as it appears in the standard, with each word in
+the name concatenated.  The state machine name shall use the camel case capitalization convention (that is, only the
+first  letter  of  each  word  in  the  state  machine  name  is  capitalized).    For  example,  the  state  machine  name  for  the
+SEMI E87 LOAD PORT TRANSFER state machine would be “LoadPortTransfer”.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 31
+10. 8.2.4  StateMachine Association Definition Table
+Table 52  StateMachine Association Definition
+Association Role Name Definition Comments
+top The top-level state for this state model. One and only one element of type State.
+transitions A list of zero or more transitions between the
+states and substates that comprise this state
+machine.
+List of one or more elements of type Transition.
+events The events that the equipment generates when a
+transition between states occurs
+List of zero or more elements of type Event.</p><ol start="10"><li><p>8.3  State — This class represents a single state contained within a state machine.  Each State can contain zero or
+more  substates,  or  zero  or  more  StateMachines,  but  cannot  contain  both  substates  and  StateMachines.    A  substate
+represents a state-within-a-state.  A StateMachine represents a state-machine-within-a-state.  For example, if a given
+state  contained  2  concurrently  executing  state  machines,  each  concurrent  state  machine  would  be  represented  as  a
+stateMachine within the containing state.  Initial states shall have a name attribute equal to “Initial”, final states shall
+have a name attribute equal to “Final”.</p></li><li><p>8.3.1  State Attribute Definition Table
+Table 53  State Attribute Definition
+Attribute Name Definition Required Form
+name A human-readable name for this state. Y Text.
+id A unique identifier for this state. Y Text, unique across all states in this
+StateMachine.
+description A description of the meaning or purpose of this state. Y Text.</p></li><li><p>8.3.2  SEMI Standard States</p></li><li><p>8.3.2.1  name — If the State represents a SEMI standard  state,  the  value  of  this attribute shall be a URN of the
+form: “urn:semi-org:state:standard id:state machine:state path name”.</p></li><li><p>8.3.2.1.1  standard  id  shall  be  a  string  formatted  according  to  the  SEMI  standard  form  for  representing  a
+specific version of a standard document (for example, “E87-1101”), no spaces, upper-case alphanumeric characters
+and hyphens only.</p></li><li><p>8.3.2.1.2  state  machine  shall  be  the  name  of  the  state  machine  in  which  the  transition  is  defined.    This  field
+shall  be  equal  to  the  state  machine  name  as  it  appears  in  the  standard,  with  each  word  in  the  name  concatenated.
+The state machine name shall use the camel case capitalization convention (that is, only the first letter of each word
+in  the  state  machine  name  is  capitalized).    For  example,  the  state  machine  name  for  the  SEMI  E87  LOAD  PORT
+TRANSFER state machine would be “LoadPortTransfer”.</p></li><li><p>8.3.2.1.3  state path name shall be formed by concatenating the names of all states from the top level state in
+the state machine to the state being described, including any substates in between.  Each state name in the path shall
+be separated by the ‘.’ character.  State names shall have no spaces, use alphanumeric characters only, and use camel
+case capitalization.  For example, the E87 “SLOT MAP NOT READ” state of the Carrier state machine would have
+a state path name equal to “Carrier.CarrierSlotMapStatus.SlotMapNotRead”.</p></li><li><p>8.3.3  State Association Definition Table
+Table 54  State Association Definition
+Association Role Name Definition Comments
+substates A list of zero or more substates that comprise this
+state.
+List of zero or more elements of type State.
+stateMachines A list of zero or more concurrently-executing
+state models that comprise this state.
+List of zero or more elements of type
+StateMachine.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 32
+10. 8.4  Transition —  This  class  represents  a  transition  between  any  two  states  contained  within  the  same
+StateMachine, including  substates.    Each  transition  references  one  “source”,  or  “from”  state,  and  one  “target”,  or
+“to” state, representing the originating and ending states.  There must be one Transition defined for all possible state
+transitions  in  the  StateMachine  instance.    History  or  conditional  transitions  are  described  by  providing  as  many
+transitions  as  there  are  possible  conditional  or  history-based  outcomes.    True  Harel  history  transitions  can  be
+accommodated by mapping all such transitions to a single event.  The ‘description’ attribute can be used to provide a
+human-readable description of the condition under which the transition takes place.
+10. 8.4.1  Transition Attribute Definition Table
+Table 55  Transition Attribute Definition
+Attribute Name Definition Required Form
+id A unique identifier for this transition. Y Text, unique across all transitions in
+this StateMachine.
+name A human-readable name for this transition. N Text.
+description A description of the meaning or purpose of this
+transition.
+Y            Text.</p><ol start="10"><li>8.4.2  SEMI Standard Transitions</li><li>8.4.2.1  name  —  If  the  Transition  represents  a  SEMI  standard  transition,  the  value  of  this  attribute  shall  be  a
+URN of the form: “urn:semi-org:transition:standard id:state machine:transition number:transition name”.</li><li>8.4.2.1.1  standard  id  shall  be  a  string  formatted  according  to  the  SEMI  standard  form  for  representing  a
+specific version of a standard document (for example, “E87-1101”), no spaces, upper-case alphanumeric characters
+and hyphens only.</li><li>8.4.2.1.2  state  machine  shall  be  the  name  of  the  state  machine  in  which  the  transition  is  defined.    This  field
+shall  be  equal  to  the  state  machine  name  as  it  appears  in  the  standard,  with  each  word  in  the  name  concatenated.
+The state machine name shall use the camel case capitalization convention (that is, only the first letter of each word
+in  the  state  machine  name  is  capitalized).    For  example,  the  state  machine  name  for  the  SEMI  E87  LOAD  PORT
+TRANSFER state machine would be “LoadPortTransfer”.</li><li>8.4.2.1.3  transition number shall be a string representation of the transition number as it appears in the state
+machine definition.</li><li>8.4.2.1.4  transition  name  shall  be  formed  by  concatenating  the  names  of  the  source  and  target  states  for  the
+transition  number,  separated  by  a  hyphen.    The  state  names  shall  have  no  spaces,  use  alphanumeric  characters
+only, and use camel case capitalization. If either of these states is an “initial” or “final” state, the words “Initial” or
+“Final”, respectively, shall be used for the state name.  For example, the event name for the E87 load port transfer
+history transition from the initial state to “OUT OF SERVICE” would be “Initial-OutOfService”.</li><li>8.4.3  Transition Association Definition Table
+Table 56  Transition Association Definition
+Association Role Name Definition Comments
+source The state of origin for this transition. References one and only one state within this
+StateMachine.
+target The transitioned-to state. References one and only one state within this
+StateMachine.</li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 33
+10. 8.5  Event — This class defines an event that the equipment generates as a result of a transition between any two
+states  contained  within  the  same  StateMachine, including  substates.    Each  Event  can  reference  one  or  more
+transitions.    This  is  in  support  of  systems  or  standards  that  use  the  same  event  id  to  communicate  different
+transitions.    Such  implementations  typically  make  additional  data  available  with  the  event  occurrence  for
+distinguishing between the different transitions.  Note that it is not possible for two different events to be defined for
+the same transition.
+10. 8.6  State Machine Instances
+10. 8.6.1  State machines are intended to be defined once and re-used wherever there is an equipment component or
+other  entity  that  can  generate  the  same  set  of  events  defined  by  that  state  machine.    However,  each  entity  that
+supports a given state machine may report different data for those events.  Figure 20 shows the classes that are used
+to describe the Parameters available for reporting with the events from a given state machine supported by a given
+entity.</p><p>Figure 20
+Describing State Machine Instances</p><ol start="10"><li>8.6.2  StateMachineInstance  —  This  class  is  used  to  declare  that  an  equipment  node  or  other  entity  supports  a
+specific state machine described in the metadata.  It provides a way to describe the data such entities provide with
+the  events  from  that  state  machine  as  well  as  the  Parameters  used  to  determine  the  current  state  of  the  entity  that
+supports  the  state  machine.    The  class  can  be  used  to  describe  the  events  and  data  available  from  top-level  state
+machines as well as any nested state machines defined within the top level state machine.</li><li>8.6.3  StateMachineInstance Attribute Definition Table
+Table 57  StateMachineInstance Attribute Definition
+Attribute Name Definition Form
+stateMachineId Identifies a top level or nested state machine. Text, equal to a valid ‘id’ attribute of
+the StateMachine class.</li></ol><p>eventId
+nestedStateMachines
+0. .*
+1
+stateMachineId
+StateMachineInstance
+1</p><p>1
+1
+eventMaps</p><ol><li><p>.*
+description
+EventToParameterMap</p></li><li><p>.*</p></li><li><p>.*availableParameters</p></li><li><p>.1
+currentStateName</p></li><li><p>.1previousStateName</p></li></ol><p>Parameter</p><p>SEMI E125-0305 © SEMI 2003, 2005 34
+10. 8.6.4  StateMachineInstance Association Definition Table
+Table 58  StateMachineInstance Association Definition
+Association Role Name Definition Comments
+currentStateName The Parameter, if any, that can be accessed to determine
+the current state within the identified StateMachine.
+Zero or one element of type Parameter,
+described in Section 10.4 .
+previousStateName The Parameter, if any, that can be accessed to determine
+the previous state within the identified StateMachine.
+Zero or one element of type Parameter,
+described in Section 10.4 .
+eventMaps The events defined by this StateMachine, and the
+Parameters that are available for reporting with those
+events.
+One or more elements of type
+EventToParameterMap, described in
+Section 10.8.6.5 .  There shall be one
+such map for each event defined in the
+identified StateMachine.
+nestedStateMachines Any nested state machines defined within the identified
+StateMachine.
+One or more elements of type
+StateMachineInstance.  Although it is
+possible to create more, only one level
+of nesting of the StateMachineInstance
+class is required to describe arbitrary
+levels of nesting described by the
+referenced top-level StateMachine.</p><ol start="10"><li><p>8.6.5  EventToParameterMap  —  This  class  is  used  to  provide  a  list  of  the  Parameters  available  for  a  specific
+event from a given StateMachine.</p></li><li><p>8.6.6  EventToParameterMap Attribute Definition Table
+Table 59  EventToParameterMap Attribute Definition
+Attribute Name Definition Form
+eventId The StateMachine Event for which Parameters are available    Text, must be equal to a valid ‘id’
+attribute of the Event class within a
+StateMachine.
+description Provides any description necessary for humans to understand
+the parameters that are available for reporting with the event.
+Text.</p></li><li><p>8.6.7  EventToParameterMap Association Definition Table
+Table 60  EventToParameterMap Association Definition
+Association Role Name Definition Comments
+availableParameters The Parameters that are available for reporting with this
+event.
+Structured data of type Parameter,
+described in Section 10.4.</p></li><li><p>8.6.7.1  availableParameters  —  All  transient  Parameters  (see  Section  10.4.11)  that  are  available  for  reporting
+with  an  event  generated  by  the  entity  providing  the  EventToParameter  map  shall  be  provided  in  this  list.    It  is  not
+necessary to list any non-transient Parameters via this association.  Non-transient Parameters are implicitly available
+for reporting with any event.</p></li><li><p>8.6.8  Events may only be defined within the context of a Transition between two States within a StateMachine.
+All events that the equipment can generate must have a StateMachine defined for them.  It is not necessary to define
+multiple StateMachines for a situation in which the same kind of events are generated by multiple sources.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 35
+10. 8.6.9  Event Attribute Definition Table
+Table 61  Event Attribute Definition
+Attribute Name Definition Form
+name A human-readable name for the event. Text.
+id A unique identifier for the event. Text, unique across all events in all StateMachines.
+description A human-readable description of the meaning or
+purpose of the event.
+Text.</p><ol start="10"><li><p>8.6.10  SEMI Standard Events</p></li><li><p>8.6.10.1  name — If the Event represents a SEMI standard event, the value of this attribute shall be a URN of the
+form: “urn:semi-org:event:standard id:state machine:transition number:event name”.</p></li><li><p>8.6.10.1.1  standard  id  shall  be  a  string  formatted  according  to  the  SEMI  standard  form  for  representing  a
+specific version of a standard document (for example, “E87-1101”), no spaces, upper-case alphanumeric characters
+and hyphens only.</p></li><li><p>8.6.10.1.2  state machine shall be the name of the state machine in which the event is defined.  If no such state
+machine is defined, this field shall be equal to the text “None”.  If there is a defined state machine, the name shall be
+equal to the state machine name as it appears in the standard, with each word in the name concatenated.  The state
+machine  name  shall  use  the  camel  case  capitalization  convention  (that  is,  only  the  first  letter  of  each  word  in  the
+state  machine  name  is  capitalized).    For  example,  the  state  machine  name  for  the  SEMI  E87  LOAD  PORT
+TRANSFER state machine would be “LoadPortTransfer”.</p></li><li><p>8.6.10.1.3  transition number shall be a string representation of the transition number as it appears in the state
+machine definition.  If no state machine or transition number is defined in the standard, this field shall be equal to
+the text “None”.</p></li><li><p>8.6.10.1.4  event  name  shall  be  the  name  of  the  event  as  it  appears  in  the  standard  with  no  spaces,
+alphanumeric  characters  only,  using  camel  case  capitalization.    If  no  event  name  is  defined,  this  field  shall  be
+formed  by  concatenating  the  names  of  the  source  and  target  states  for  the  transition  id,  separated  by  a  hyphen.
+The state names shall have no spaces, alphanumeric characters only, and use camel case capitalization. If either of
+these  states  is  an  “initial”  or  “final”  state,  the  words  “Initial”  or  “Final”,  respectively,  shall  be  used  for  the  state
+name.  For example, the event name for the E87 load port transfer history transition from the initial state to “OUT
+OF SERVICE” would be “Initial-OutOfService”.</p></li><li><p>8.6.11  Event Association Definition Table
+Table 62  Event Association Definition
+Association Role Name Definition Comments
+transitions The transitions to which this event is mapped. One or more elements of type Transition.</p></li><li><p>9  ObjTypes</p></li><li><p>9.1  Figure 21 shows how to describe SEMI ObjTypes (for example, the “Carrier” ObjType from SEMI E87) that
+have been implemented by the equipment.  An ObjType is similar to a class in that it describes attributes and state
+machines that are common to all instances of the ObjType.  Each ObjType instance maintains its attributes and state
+machines independently of all other instances of the same ObjType.  See Related Information 6 for examples using
+the SEMIObjType class.</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 36
+standardVersion
+objType
+SEMIObjType
+1
+attributes2..<em>
+Parameter
+1
+stateMachine
+0. .1
+StateMachineInstance
+1
+eventData0..</em></p><p>Figure 21
+Describing Implemented SEMI ObjTypes</p><ol start="10"><li><p>9.1.1  SEMIObjType  —  This  class  describes  the  attributes  and  events  for  a  SEMI  ObjType  that  has  been
+implemented  by  the  equipment.    If  it  is  a  SEMI  standard  ObjType  then  it  is  identified  by  the  name  of  the  SEMI
+standard  within  which  it  was  defined,  and  the  name  of  the  ObjType  specified  in  that  standard.    Each  ObjType
+includes at least two attributes, corresponding to its type name and its instance id (see SEMI E39).</p></li><li><p>9.1.2  SEMIObjType Attribute Definition Table
+Table 63  SEMIObjType Attribute Definition
+Attribute Name Definition RequiredForm
+standardVersion              The              complete              SEMI standard version number for
+the document where the ObjType is defined, if
+applicable.
+Y Text, using the SEMI standard form for
+representing a specific version of a
+standard document (for example, “E87-
+1101”), no spaces, upper-case
+alphanumeric characters and hyphens
+only.  If not a SEMI standard ObjType,
+then this attribute shall be empty.
+objType The name of the SEMI objType. Y Text.  Named using identical spelling and
+case as the documented objType in the
+corresponding standard.</p></li><li><p>9.1.3  SEMIObjType Association Definition Table
+Table 64  SEMIObjType Association Definition
+Association Role Name Definition Comments
+attributes Attributes defined for this ObjType.  Unordered list of elements of type Parameter, described in
+Section 10.4 .  Each Parameter shall be typed and named
+according to Sections 10.5.4  and 10.4.10 .  All attributes
+belonging to an ObjType are maintained independently in each
+ObjType instance.
+eventData Parameters that are not formal
+attributes that this ObjType provides
+with generated events.
+List of zero or more elements of type Parameter, described in
+Section 10.4 .
+stateMachine The state machine (if any)
+supported by this ObjType.
+Zero or one element of type StateMachineInstance, described
+in Section 10.8.6 .</p></li></ol><p>SEMI E125-0305 © SEMI 2003, 2005 37
+11  Requirements for Compliance
+11. 1  Compliance to Equipment Self-Description
+11. 2  Table 55 provides a checklist for Equipment Self Description compliance.
+Table 65  Equipment Self-Description Compliance Statement
+Fundamental Requirements Section      Implemented      using
+SEMI technology
+mapping
+Implementation complies
+with ESD specification
+and technology mapping
+ESD data associated with all
+information sources and items
+accessible via data
+acquisition are described
+Metadata Access 9.1
+  Yes      No    Yes      No
+N/A
+Management of Equipment Metadata 10.1
+  Yes      No    Yes      No
+N/A
+Equipment Physical Structure 10.2
+  Yes      No    Yes      No    Yes      No
+Equipment Node Description 10.3
+  Yes      No    Yes      No    Yes      No
+Parameters                                                    10.4
+  Yes      No    Yes      No    Yes      No
+Types                                                            10.5
+  Yes      No    Yes      No    Yes      No
+Units                                                             10.6
+  Yes      No    Yes      No    Yes      No
+Exceptions                                                    10.7
+  Yes      No    Yes      No    Yes      No
+State Machines 10.8
+  Yes      No    Yes      No    Yes      No
+ObjTypes                                                      10.9
+  Yes      No    Yes      No    Yes      No</p><p>SEMI E125-0305 © SEMI 2003, 2005 38
+RELATED INFORMATION 1
+TYPICAL USE CASES
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R1-1  Example Use Cases
+R1-1.1  Figure R1-1 shows an example of some typical use cases that this specification supports.  The actors shown
+represent  some  of  the  possible  applications  that  could  make  use  of  the  information  provided  by  this  specification,
+and are only examples.  In an actual factory, other applications/actors not shown here may make use of equipment
+metadata.  The system boundary in this diagram represents all entities that comprise or represent a single equipment
+installation.
+R1-2  Example Actors
+R1-2.1  EquipmentDiagnosticsClient — This actor represents an application that helps factory or supplier personnel
+troubleshoot mechanical, electrical, chemical, or other problems identified with the equipment.
+R1-2.2  UtilizationTrackingClient  —  This  actor  represents  an  application  that  collects  performance  information
+from the equipment to calculate relevant utilization metrics.
+R1-2.3  ProcessControlClient   —   This   actor   represents   an   application   that   orchestrates   material   processing,
+measurement, or testing performed by the equipment.</p><p>Figure R1-1
+Typical Equipment Metadata Use Cases</p><p>SEMI E125-0305 © SEMI 2003, 2005 39
+R1-3  Use Case Descriptions
+R1-3.1  Retrieve  State  Machine  Descriptions  —  This  use  case  provides  a  way  for  an  application  to  request  a
+description  of  all  of  the  state  machines  supported  by  the  equipment,  and  to  determine  which  state  machines  are
+implemented by which components of the equipment.  This supports automated usage, so that applications that are
+looking  for  standardized  or  well-known  equipment-specific  state  models  can  discover  their  existence  on  a  specific
+tool, as well as the supplier-specific event id’s used to communicate standardized state transitions.  It also supports
+any  manual  application  in  which  a  human  user  would  like  to  understand  equipment-specific  behavior  that  has  not
+been standardized.  Figure R1-2 shows one example of how this use case can be realized using messages from the
+interface defined in this specification (see Section 9).
+:   U t il iz at ion Track ing Cl ie nt
+Eq uip m ent
+Get   all  st at e  m ach ine   d ef init ion s
+in  use   b y  equipm en t
+Get Equipment N ode De scrip tions ()
+Get  a ll e quipm ent   nod es,   det ermin e
+w hic h  node s  implemen t  t he  st at e
+mach ine s  of   int erest ,   and  t he  pa ra met ers
+that can be reported with each event.
+Get  a ll  t yp e  def in it io ns  in  u s e
+by  t he  eq uip ment ,   look   f or  t he
+t ype  de finitions   u sed  by   p aram et ers.
+GetStateMachines()
+Ge tT y pe s ( )
+GetUnits()
+Get all units  in  use
+by  t he  eq uip ment ,   look   f or  t he
+unit s  re fe rred   t o  by   t he   t yp e  def in it io ns.</p><p>Figure R1-2
+Use Case Realization for “Retrieve State Machine Descriptions”</p><p>SEMI E125-0305 © SEMI 2003, 2005 40
+R1-3.2  Retrieve  SEMIObjType  Descriptions  —  This  use  case  provides  a  way  for  an  application  to  request  a
+description of all of the SEMI standard OSS ObjTypes supported by the equipment.  This supports automated usage,
+so  that  applications  that  are  written  to  work  with  OSS  ObjTypes  can  discover  which  ObjTypes  are  in  use  on  a
+specific equipment installation, and can learn the event id’s that the supplier uses for standardized state transitions.
+Figure R1-3 shows one example of how this use case can be realized using messages from the interface defined in
+this specification (see Section 9).
+:   Proc essC on trolC lient
+Equ ipm e nt
+GetStateMachines()
+GetSEMIObjTypes()
+GetEquipmentNodeDescriptions()
+GetTypes()
+GetUnits ()
+Ge t  all  st at e  mac hin e  def in it io ns  in   u se  by  eq uip ment ,
+look for state machines specific to the ObjTypes of
+interest,  and determine the supplier-specific event id&#x27;s
+Get  all  ObjTypes  in   u se  by  t he  eq uipment ,
+look for the ObjTypes of interest, and their
+asso cia te d  at tribut es.
+Ge t  all  eq uip ment   node s,   d et ermine
+which nodes provide  the  ObjTypes
+of  int erest
+Ge t  all  t ype   d ef init ion s  in  us e
+by  t he  equ ipme nt ,  look  f or  th e
+ty pe  def init ions  us ed  by  ObjTyp e
+at tribut es.
+Ge t  all  un it s  in   u se
+by  t he  equ ipme nt ,  look  f or  th e
+units   ref erred  t o  by  t he  ObjTyp e
+at tribut es</p><p>Figure R1-3
+Use Case Realization for “Retrieve ObjType Descriptions”</p><p>SEMI E125-0305 © SEMI 2003, 2005 41
+R1-3.3  Retrieve Exception Descriptions — This use case provides a way for an application to request a description
+of all of the exceptions generated by the equipment, and to determine which components of the equipment generate
+which  exceptions.    This  supports  automated  usage,  so  that  applications  that  are  looking  for  standardized  or  well-
+known  equipment  specific  exceptions  can  discover  their  existence  on  a  specific  tool.    It  also  supports  any  manual
+usage in which a human user would like to understand available equipment-specific exceptions.  Figure R1-4 shows
+one example of how this use case can be realized using messages from the interface defined in this specification (see
+Section 9).
+:  Eq uip ment D iag nost icsC lient
+Eq uip m ent
+GetExceptions()
+Get T ypes ()
+GetUnits()
+Get Eq uip ment N odeD es cript ions()
+Get Equipment Struc tu re()
+Get   all  exce pt ion   d ef init ions
+in  use  by   t he   e quipm ent
+Get   all  ty pe  def init ions  in  use  by
+t he  eq uip ment ,   look   f or  t ypes
+us ed  by  ex cept ion  param ete rs .
+Get   all  unit  definitions ,  de te rmine
+unit s  use d  by  exc ept io n  paramet er
+t ype  d ef init ions
+Get   all  equipm en t  no des,   det ermine  t he
+nodes  prov iding  t he  ex cept ions  of
+interest
+Get   th e  equipmen t  st ruct ure  t o  underst and
+t he  role  of   e ach  eq uip ment   node  in  t he  ove ra ll
+equipm ent   st ru ct ure</p><p>Figure R1-4
+Use Case Realization for “Retrieve Exception Descriptions”</p><p>SEMI E125-0305 © SEMI 2003, 2005 42
+R1-3.4  Retrieve Equipment Parameter Descriptions — This use case provides a way for an application to request a
+description of all of the data items provided by the equipment, and to determine which components of the equipment
+provide  that  data.    This  supports  automated  usage,  so  that  applications  that  are  looking  for  standardized  or  well-
+known  equipment-specific  data  items  can  discover  their  existence  on  a  specific  tool.    It  also  supports  any  manual
+usage  in  which  a  human  user  would  like  to  browse  and  understand  equipment-specific  data  that  has  not  been
+standardized.    Figure  R1-5  shows  one  example  of  how  this  use  case  can  be  realized  using  messages  from  the
+interface defined in this specification (see Section 9).
+:   Proc essC on trolC lient
+Equipmen t
+GetEquipmentNodeDescriptions()
+GetTypes()
+GetUnits ()
+Get Equipme nt St ruct ure()
+Get all equipment nodes, look for
+paramet ers  def ined  f or  each   n ode
+Get   all  t ype  de finitions   in  use   by
+this equipment, look for types
+used  by   p aramet ers
+Get all unit definitions, determine
+used  by   p aramet er  ty pe  def init ions
+Get the equipment structure to
+underst an d  th e  ro le  of   eac h  equipment
+node  in  th e  overall  eq uip ment   st ru ct ure</p><p>Figure R1-5
+Use Case Realization for “Retrieve Equipment Parameter Descriptions”</p><p>SEMI E125-0305 © SEMI 2003, 2005 43
+R1-3.5  Retrieve Equipment Configuration — This use case is directly supported by this specification, and provides
+a way for an application to request a description of the physical and logical equipment configuration.  Figure R1-6
+shows  one  example  of  how  this  use  case  can  be  realized  using  messages  from  the  interface  defined  in  this
+specification (see Section 9).
+:   Eq uip ment D iag nost icsC lient
+Eq uip ment
+Get Eq uipment N odeD es cript ions()
+Get Equipment Struc tu re ()
+Get  a ll e quipment   nod es,   det ermin e
+nod es  t hat   re fe r  t o  sof t w are  modules
+of interest
+Get  t he  e quipment   st ruct ure  t o
+und erst and  t he  role  of   e ach  no de
+in  t he  o verall  equ ipme nt</p><p>Figure R1-6
+Use Case Realization for “Retrieve Equipment Configuration”</p><p>SEMI E125-0305 © SEMI 2003, 2005 44
+RELATED INFORMATION 2
+SQL WHERE CLAUSE
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R2-1  Syntax
+R2-1.1  The WHERE  clause  of  the  SQL  SELECT  statement  is  a  propositional-expression  that  consists  of  one  or
+more comparisons of values with constants. It has the following form.
+WHERE propositional-expression <!-- -->[nested-propositional-expression]<!-- -->;
+R2-1.2  Syntax
+R2-1.2.1  propositional-expression — Specifies a comparison. It takes one of the following forms:
+• <!-- -->[NOT]<!-- --> term operator term
+• parameter <!-- -->[NOT]<!-- --> IN (constant
+1
+,... constant
+n
+)
+• parameter <!-- -->[NOT]<!-- --> BETWEEN ( term
+1
+AND term
+2
+)  (inclusive)
+• term IS <!-- -->[NOT]<!-- --> NULL | TRUE | FALSE
+• parameter <!-- -->[NOT]<!-- --> LIKE “string%”
+R2-1.2.2  <!-- -->[ ]<!-- --> — An optional equation item.
+R2-1.2.3  term  —  Specifies  a  parameter,  a  constant  or  an  arithmetic  expression  of  parameters  and  constants.  The
+allowed arithmetic operations are addition (+), subtraction (-), multiplication (*) and division (/).
+R2-1.2.4  parameter — Specifies the name of the parameter value to use in the comparison operation.
+R2-1.2.5  Constant
+1) Specifies a number or a string enclosed by quotation marks.
+2) Specifies a conditional.  A conditional has the following form.
+DECODE( term, constant
+1
+, return
+1
+, ... constant
+n
+, return
+n
+, default )
+return
+i</p><p>The value of the conditional if term equals constant
+i
+.
+default
+The value of the conditional if parameter does not equal any constant
+i
+.
+R2-1.2.6  operator — Specifies the operator to use in the comparison.  It can be one of the following operators.</p><p>Operator                     Description                                          Operator                     Description
+=           Equal                       Not           equal</p><blockquote><p>Greater than  &lt; Less than
+= Greater than or equal to  &lt;= Less than or equal to</p></blockquote><p>R2-1.3  IN — List Inclusion test (enumeration comparison).
+R2-1.4  BETWEEN — Bounds test (limits comparison).
+R2-1.5  IS — Equality test.
+R2-1.6  LIKE — Pattern matching (string comparison) test. (LIKE only works with ASCII data types).
+R2-1.6.1  A | B | ... N — One of the listed items is required.</p><p>SEMI E125-0305 © SEMI 2003, 2005 45
+R2-1.6.2  String% — String constant followed by the “%” or “*” wild character.  A wildcard character can also be
+used by itself to match everything.  Use a wildcard character only at the end of the string constant.
+R2-1.6.3  nested-propositional-expression — AND|OR propositional-formula <!-- -->[nested-propositional-formula]<!-- -->
+NOTE 1: A semicolon is required at the end of SQL statements.  The ‘;’ indicates the SQL statement is complete.
+NOTE 2: Parentheses can be used in the usual way to group expressions and establish precedence.
+NOTE 3: Floating-point comparisons are approximate.  Testing for equality with floating point values is not recommended.</p><p>SEMI E125-0305 © SEMI 2003, 2005 46
+RELATED INFORMATION 3
+PARAMETER CONSTRAINTS
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R3-1  Examples
+R3-1.1  This clause specifies that all values of “voltage” that are less than or equal to 50 are valid (i.e., it evaluates
+true for all values of voltage less than or equal to 50).
+WHERE voltage &lt;= 50;
+R3-1.2  The following clauses specifies that all values of “voltage” that are between 0 and 50 (inclusive) are valid.
+WHERE voltage &gt;= 0 AND voltage &lt;= 50;
+R3-1.3  The clause specifies that all values of “voltage” that are 50 and less or 100 and greater (inclusive) are valid.
+WHERE voltage &lt;= 50 OR voltage &gt;= 100;
+R3-1.4  The following clause specifies that only “voltage” values of 1, 2, 4, 8 and 16 are valid.
+WHERE voltage = 1 OR voltage = 2 OR voltage = 4 OR voltage = 8 OR voltage = 16;
+R3-1.5  The following clause specifies that any “voltage” value that is not 1, 2, 4, 8 or 16 is valid.
+WHERE voltage 1 AND voltage 2 AND voltage 4 AND voltage 8 AND voltage 16;</p><p>SEMI E125-0305 © SEMI 2003, 2005 47
+RELATED INFORMATION 4
+PARAMETER REPORTING PERIOD CONSTRAINTS
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R4-1  Examples
+R4-1.1  The constraint definition below specifies that the supported reporting period for “voltage” is any continuous
+value between 0.01 seconds and 60 seconds.
+WHERE voltage.ReportingPeriod &gt; .01 AND voltage.ReportingPeriod &lt; 60;
+R4-1.2  The  constraint  definition  below  specifies  that  the  supported  reporting  period  for  “voltage”  is  any  integer
+multiple (from 1 to 6000) of a fundamental period of 0.01 seconds.
+WHERE voltage.ReportingPeriod = ( n*.01) AND n &gt; 1 AND n &lt; 6000;
+R4-1.3  The  constraint  definition  below  specifies  that  the  supported  reporting  period  for  “voltage”  is  any  of  the
+discrete values 0.05 seconds, 0.07 seconds, 0.1 seconds, or 1.5 seconds.
+WHERE voltage.ReportingPeriod = .05 OR  voltage.ReportingPeriod =.07 OR voltage.ReportingPeriod =
+.1 OR voltage.ReportingPeriod = 1.5</p><p>SEMI E125-0305 © SEMI 2003, 2005 48
+RELATED INFORMATION 5
+TYPE DEFINITIONS
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R5-1  Examples
+R5-1.1  Figure  R5-1  shows  an  example  set  of  type  definitions  using  the  classes  described  in  Section  10.5.    These
+types could be used for Parameters used to represent the SEMI standard ObjType, ObjId, and ContentMap attributes
+of  the  SEMI  E87  Carrier  ObjType,  as  well  as  re-usable  type  definitions  for  the  strings  used  for  the  ObjID  and
+ObjType  attributes  defined  in  SEMI  E39.    Note  that  the  type  descriptions  conform  to  the  SEMI  type  mapping
+described in Section 10.5.7.
+name  = u rn :s emi-org: t ype Na me: E39 :ObjTy peString
+des cript ion  =  Th is  is  a  st ring  t ype   f or  providing  t he  t ype  na me  fo r  ObjTyp es
+:   T ype s: :Paramet erT ypeD ef init ion
+la ngua ge  =  en-U S
+maxCharacters = 40
+:  T ypes :: StringT ype
+la ngua ge  =  en-U S
+maxCharacters = 80
+:  T ypes :: StringT ype
+des cript ion  =  R eprese nt s  th e  Co nt ent Map  da ta   s truc tu re   f rom  E8 7.
+:  Types::StructureType
+name = LotID
+des cript ion  =  Lot   id ent if ier
+can BeN ull  =  f alse
+:  Types::Field
+lan guag e  =  en-U S
+maxC harac te rs  = 8 0
+:  Types::StringType
+name  = Subs trat eI D
+des cript ion  =  Su bst rat e  ide nt if ie r
+can BeN ull  =  f alse
+:  T ypes :: F ield
+la ngua ge  =  en-U S
+maxCharacters = 80
+:  T ypes :: StringT ype
+minEle ment s  =  0
+maxElements = 0
+ele ment D escript ion  = Provides  su bst rat e-lot   ass ociat ion  p er s lot
+:  Types::ArrayType
+na me  =  urn: semi-o rg :t yp eN am e: E3 9: Ob jI D St ring
+de scrip tion  =  String  t ype  f or  Ob jI D s
+:   Typ es: : Parame te rT ype De finition
+ty peI nf orm at io n
+name  =  urn: se mi-org: t ypeN ame :E87: C ont en tMa pSt ruct
+desc ript io n  =  E87   C on te nt Map  st ruct ure
+:   T ype s: :Paramet erT ypeD ef init ion
+t ypeI nf ormat ion
+na me  =  urn: semi-o rg :t yp eN am e: E8 7: Co nt ent MapL ist
+de scrip tion  =  List   of   c ont ent   m aps
+:   Typ es: : Parame te rT ype De finition
+t ype In fo rmation
+fields
+typeInformation
+typeInformation
+ty peI nf ormat io n</p><p>Figure R5-1
+TypeDefinition Example</p><p>SEMI E125-0305 © SEMI 2003, 2005 49
+RELATED INFORMATION 6
+OBJTYPES
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R6-1  Examples
+R6-1.1  Figure  R6-1  shows  an  abbreviated  example  of  how  to  describe  the  E87  Carrier  ObjType  using  the  classes
+from Section 10.10.  Not all events and attributes available for the Carrier ObjType are shown for clarity, only the
+ObjType, ObjId, and ContentMap attributes, and the creation/destruction events for the Carrier.  Note that the names
+and  types  of  the  attributes  of  the  ObjType  conform  to  the  name  and  typing  conventions  described  in  Sections
+10. 4.11 and 10.5.7.  ParameterTypeDefinitions have been omitted for clarity.  See Related Information Section R5-1
+for an example of the corresponding ParameterTypeDefinitions.
+st andardVers ion = E87-1101
+objType = Carrier
+Carrier : SEMIObjType
+name  =  ObjTyp e
+description = The type name for this ObjType
+:  Parameters::Parameter
+name  =  ObjId
+description = The instance id for instances of this ObjType
+: Parameters::Parameter
+name  =  C ont en tMa p
+desc ript io n  =  E87   c ont ent   map  at t ribu te
+:  Parameters::Parameter
+desc ript io n  =  Sen t  w hen   a   c arrier  ins ta nt iat es
+:   As sociat io ns: : Eve nt ToParam et erMap
+desc ript io n  =  Sen t  w hen   a   c arrier  is  de st ro yed
+: Associations ::EventToParameterMap
+attributes
+eve nt s
+availableParamet ers
+availableParameters
+name = urn:semi-org:event:E87-1101:1:Initial-Carrier
+id = CarrierCreated
+:   St at eM ac hin es: : Eve nt
+name  =  urn: se mi-org: eve nt :E87-11 01: 21: C arrier-Final
+id = CarrierDestroyed
+:   St at eMa chines: : Ev ent
+ev ent
+event</p><p>Figure R6-1
+E87 Carrier ObjType Example</p><p>SEMI E125-0305 © SEMI 2003, 2005 50
+RELATED INFORMATION 7
+STATE MACHINES
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R7-1  Examples
+R7-1.1  Simple Pump
+R7-1.1.1  Figure  R7-1  shows  an  example  state  machine  that  could  be  described  by  the  StateMachine  mechanism
+described in Section 10.9.  The example is for a very simple vacuum pump that is either pumping down or idle.</p><p>Figure R7-1
+Example — Vacuum Pump State Machine</p><p>SEMI E125-0305 © SEMI 2003, 2005 51
+R7-1.1.2  Figure  R7-2  shows  how  the  example  state  machine  could  be  represented  using  the  StateMachine,  State,
+and Transition classes.  The top level state, Pump, is represented as a State that contains two substates corresponding
+to  Idle  and  PumpingDown.    Three  transitions  have  been  defined,  corresponding  to  the  three  transitions  shown  in
+Figure R7-2.
+name  =  Vacuu m Pump St at eM ac hin e
+id  =  urn: su pplier: st at e-m ach ine :Pump
+desc ript io n  =  De scrib es  t he  beh avior  o f  a  va cuum  pu mp.
+:   St at eMach ine
+na me  =  Pum p
+id = Pump
+de scrip tion  =  T he  t op  le vel  s ta te   f or  t he  vac uum  pump   s yst em
+: State
+top
+name = Idle
+id = Pump.Idle
+description = The devic e is idle
+: State
+nam e  = Pum pingD ow n
+id  = Pum p. Pum pingD ow n
+des cript ion  =  Th e  device  is  pum ping  do wn   t o  va cuum
+: State
+s ubst at es
+na m e  =  In it ia lize
+id = T1
+de scrip tion  =  Pump  is   p ow ered  up
+:   T ransit ion
+name = Activate
+id = T2
+d escript ion   =  T he  pu m p  has  st art ed  pu m pin g
+: T ransition
+name  =  Sto p
+id  =  T 3
+description = The pump has stopped
+: T ransition
+tran sit ions
+name = Initial
+id = Pump.Initial
+d escript ion   =  T he  init ial  st at e  f or  th e  vacu um  pum p.
+: State
+s ource
+ta rg et
+source
+target
+source
+target
+na m e  =  In it ia li zed
+id  =  pev-01
+: Event
+name = Active
+id  =  pev-02
+:   Ev ent
+name = Idle
+id  =  pev -0 3
+:  Event
+t rans it io ns
+tran sit ionstransitions
+events</p><p>Figure R7-2
+Example Representation of the Vacuum Pump State Machine</p><p>SEMI E125-0305 © SEMI 2003, 2005 52
+RELATED INFORMATION 8
+R8 UML TERMINOLOGY
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E125  and  was  derived  from  the  work  of  the
+originating committee.  This related information was approved for publication by full letter ballot procedures.
+R8-1  Glossary
+R8-1.1  In  order  to  help  with  understanding  terminology  used  in  conjunction  with  object  technology,  this  section
+shares excerpts from the glossary of the OMG standard for UML — the predominant modeling notation.
+R8-1.2  These definitions are taken from B.2 Glossary of Terms of version 1.4 of the OMG UML specification, 01-
+09-67, available from <a href="http://www.omg.org/technology/documents/modeling_spec_catalog.htm" target="_blank" rel="noopener noreferrer">http://www.omg.org/technology/documents/modeling_spec_catalog.htm</a>.
+R8-1.2.1  abstract class — a class that cannot be directly instantiated.  Contrast:  concrete class.
+R8-1.2.2  aggregate <!-- -->[class]<!-- --> — a class that represents the “whole” in an aggregation (whole-part) relationship.  See:
+aggregation.
+R8-1.2.3  aggregation — a special form of association that specifies a whole-part relationship between the aggregate
+(whole) and a component part.  See:  composition.
+R8-1.2.4  association — the semantic relationship between two or more classifiers that specifies connections among
+their instances.
+R8-1.2.5  attribute — a feature within a classifier that describes a range of values that instances of the classifier may
+hold.
+R8-1.2.6  cardinality — the number of elements in a set.  Contrast:  multiplicity.
+R8-1.2.7  child — in a generalization relationship, the specialization of another element, the parent.  See:  subclass,
+subtype.  Contrast:  parent.
+R8-1.2.8  class — a description of a set of objects that share the same attributes, operations, methods, relationships,
+and semantics.  A class may use a set of interfaces to specify collections of operations it provides to its environment.
+See:  interface.
+R8-1.2.9  classifier — a mechanism that describes behavioral and structural features.  Classifiers include interfaces,
+classes, datatypes, and components.
+R8-1.2.10  classification  —  the  assignment  of  an  object  to  a  classifier.    See:    dynamic  classification, multiple
+classification, static classification.
+R8-1.2.11  class  diagram  —  a  diagram  that  shows  a  collection  of  declarative  (static)  model  elements,  such  as
+classes, types, and their contents and relationships.
+R8-1.2.12  composition
+—  a  form  of  aggregation  which  requires  that  a  part  instance  be  included  in  at  most  one
+composite  at  a  time,  and  that  the  composite  object  is  responsible  for  the  creation  and  destruction  of  the  parts.
+Composition may be recursive.  Synonym:  composite aggregation.
+R8-1.2.13  concrete class — a class that can be directly instantiated.  Contrast:  abstract class.
+R8-1.2.14  constraint — a semantic condition or restriction.  Certain constraints are predefined in the UML, others
+may be user defined.  Constraints are one of three extensibility mechanisms in UML.  See:  tagged value, stereotype.
+R8-1.2.15  dependency  —  a  relationship  between  two  modeling  elements,  in  which  a  change  to  one  modeling
+element (the independent element) will affect the other modeling element (the dependent element).
+R8-1.2.16  diagram  —  a  graphical  presentation  of  a  collection  of  model  elements,  most  often  rendered  as  a
+connected graph of arcs (relationships) and vertices (other model elements).  UML supports the following diagrams:
+class  diagram,  object  diagram,  use  case  diagram,  sequence  diagram,  collaboration  diagram,  state  diagram,  activity
+diagram, component diagram, and deployment diagram.
+R8-1.2.17  element — an atomic constituent of a model.</p><p>SEMI E125-0305 © SEMI 2003, 2005 53
+R8-1.2.18  feature  —  a  property,  like  operation  or  attribute,  which  is  encapsulated  within  a  classifier,  such  as  an
+interface, a class, or a datatype.
+R8-1.2.19  generalization — a taxonomic relationship between a more general element and a more specific element.
+The  more  specific  element  is  fully  consistent  with  the  more  general  element  and  contains  additional  information.
+An  instance  of  the  more  specific  element  may  be  used  where  the  more  general  element  is  allowed.    See:
+inheritance.
+R8-1.2.20  inheritance  —  the  mechanism  by  which  more  specific  elements  incorporate  structure  and  behavior  of
+more general elements related by behavior.  See:  generalization.
+R8-1.2.21  instance — an entity that has unique identity, a set of operations that can be applied to it, and state that
+stores the effects of the operations.  See:  object.
+R8-1.2.22  interface — a named set of operations that characterize the behavior of an element.
+R8-1.2.23  interface  inheritance  —  the  inheritance  of  the  interface  of  a  more  general  element.    Does  not  include
+inheritance of the implementation.  Contrast:  implementation inheritance.
+R8-1.2.24  message  —  a  specification  of  the  conveyance  of  information  from  one  instance  to  another,  with  the
+expectation that activity will ensue.  A message may specify the raising of a signal or the call of an operation.
+R8-1.2.25  method — the implementation of an operation.  It specifies the algorithm or procedure associated with an
+operation.
+R8-1.2.26  model  <!-- -->[MOF]<!-- -->  —  an  abstraction  of  a  physical  system  with  a  certain  purpose.    See:    physical  system.
+Usage  note:    In  the  context  of  the  MOF  specification,  which  describes  a  meta-metamodel,  for  brevity  the
+metametamodel is frequently referred to as simply the model.
+R8-1.2.27  multiple inheritance — a semantic variation of generalization in which a type may have more than one
+supertype.  Contrast:  single inheritance.
+R8-1.2.28  multiplicity — a specification of the range of allowable cardinalities that a set may assume.  Multiplicity
+specifications  may  be  given  for  roles  within  associations,  parts  within  composites,  repetitions,  and  other  purposes.
+Essentially a multiplicity is a (possibly infinite) subset of the non-negative integers.  Contrast:  cardinality.
+R8-1.2.29  object — an entity with a well-defined boundary and identity that encapsulates state and behavior.  State
+is  represented  by  attributes  and  relationships,  behavior  is  represented  by  operations,  methods,  and  state  machines.
+An object is an instance of a class.  See:  class, instance.
+R8-1.2.30  object  diagram  —  a  diagram  that  encompasses  objects  and  their  relationships  at  a  point  in  time.    An
+object diagram may be considered a special case of a class diagram or a collaboration diagram.  See:
+class diagram,
+collaboration diagram.
+R8-1.2.31  operation  —  a  service  that  can  be  requested  from  an  object  to  effect  behavior.    An  operation  has  a
+signature, which may restrict the actual parameters that are possible.
+R8-1.2.32  parent  —  in  a  generalization  relationship,  the  generalization  of  another  element,  the  child.    See:
+subclass, subtype.  Contrast:  child.
+R8-1.2.33  package — a general purpose mechanism for organizing elements into groups.  Packages may be nested
+within other packages.
+R8-1.2.34  qualifier — an association attribute or tuple of attributes whose values partition the set of objects related
+to an object across an association.
+R8-1.2.35  relationship  —  a  semantic  connection  among  model  elements.    Examples  of  relationships  include
+associations and generalizations.
+R8-1.2.36  role — the named specific behavior of an entity participating in a particular context.  A role may be static
+(for example, an association end) or dynamic (for example, a collaboration role).
+R8-1.2.37  single  inheritance  —  a  semantic  variation  of  generalization  in  which  a  type  may  have  only  one
+supertype.  Synonym:  multiple inheritance <!-- -->[OMA]<!-- -->.  Contrast:  multiple inheritance.</p><p>SEMI E125-0305 © SEMI 2003, 2005 54
+R8-1.2.38  subclass  —  in  a  generalization  relationship,  the  specialization  of  another  class;  the  superclass.    See:
+generalization.  Contrast:  superclass.
+R8-1.2.39  subtype  —  in  a  generalization  relationship,  the  specialization  of  another  type;  the  supertype.    See:
+generalization.  Contrast:  supertype.
+R8-1.2.40  superclass  —  in  a  generalization  relationship,  the  generalization  of  another  class;  the  subclass.    See:
+generalization.  Contrast:  subclass.
+R8-1.2.41  supertype  —  in  a  generalization  relationship,  the  generalization  of  another  type;  the  subtype.    See:
+generalization.  Contrast:  subtype.
+R8-1.2.42  type — a stereotyped class that specifies a domain of objects  together  with  the  operations  applicable  to
+the  objects,  without  defining  the  physical  implementation  of  those  objects.    A  type  may  not  contain  any  methods,
+maintain  its  own  thread  of  control,  or  be  nested.    However,  it  may  have  attributes  and  associations.    Although  an
+object may have at most one implementation class, it may conform to multiple different types.  See:  implementation
+class. Contrast:  interface.
+R8-1.2.43  visibility — an enumeration whose value (public, protected, or private) denotes how the model element
+to which it refers may be seen outside its enclosing namespace.</p><p>NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer&#x27;s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E125.1-0305 © SEMI 2005 1
+SEMI E125.1-0305
+PROVISIONAL SPECIFICATION FOR SOAP BINDING FOR
+EQUIPMENT SELF DESCRIPTION (EqSD)
+This  provisional  specification  was  technically  approved  by  the  Global  Information  and  Control  Committee
+and is the direct responsibility of the North American Information and Control Committee.  Current edition
+approved by the North American Regional Standards Committee on December 10, 2005.  Initially available
+at <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a> February 2005; to be published March 2005.
+Table of Contents
+1 Purpose....................................................................................................................................................................4</p><ol><li>1 SOAP Implementation Mapping.......................................................................................................................4
+2 Scope.......................................................................................................................................................................4</li><li>1 Specification Scope...........................................................................................................................................4
+3 Limitations ..............................................................................................................................................................4</li><li>1 Provisional Specification..................................................................................................................................4
+4 Referenced Standards..............................................................................................................................................4</li><li>1 SEMI Standards................................................................................................................................................4</li><li>2 OMG Standards................................................................................................................................................4</li><li>3 W3C Standards.................................................................................................................................................4</li><li>4 Other Specifications.........................................................................................................................................5
+5 Terminology............................................................................................................................................................5</li><li>1 Abbreviations and Acronyms............................................................................................................................5</li><li>2 Definitions........................................................................................................................................................5
+6 Conventions ............................................................................................................................................................5</li><li>1 Translating UML to XML Schema....................................................................................................................5</li><li>2 Documenting XML Schema and WSDL Files...................................................................................................6</li><li>3 Documenting XML Schema with Diagrams......................................................................................................7</li><li>4 XML Schema Sample........................................................................................................................................7</li><li>5 Translating UML to WSDL...............................................................................................................................9
+7 Mapping of SEMI E125 UML to XML Schema and WSDL..................................................................................9</li><li>1 WSDL Organization.........................................................................................................................................9</li><li>2 EquipmentMetadataManager.........................................................................................................................10</li><li>3 MetadataClient...............................................................................................................................................42</li></ol><p>List of Figures
+Figure 1 XML Schema Example Diagram ....................................................................................................................8
+Figure 2 XML for Sample .............................................................................................................................................8
+Figure 3 XML Schema and WSDL File Organization ................................................................................................10
+Figure 4 WSDL and XML Schema Files for SEMI E125 ...........................................................................................10
+Figure 5 Mapping the EquipmentMetadataManager to a WSDL portType.................................................................12
+Figure 6 GetUnitsRequest Global Element .................................................................................................................13
+Figure 7 GetUnitsResponse Global Element ...............................................................................................................13
+Figure 8 GetTypeDefinitionsRequest Global Element ................................................................................................15
+Figure 9 GetTypeDefinitionsResponse Global Element..............................................................................................15
+Figure 10 ParameterTypeDefinitionType Global complexType .................................................................................16
+Figure 11 VariableTypeType Global complexType ....................................................................................................20
+Figure 12 ArrayTypeType Global complexType ........................................................................................................21
+Figure 13 StructureTypeType Global complexType ...................................................................................................22
+Figure 14 EnumeratedTypeType Global complexType...............................................................................................23
+Figure 15 GetStateMachinesRequest Global Element.................................................................................................24
+Figure 16 GetStateMachinesResponse Global Element ..............................................................................................25
+Figure 17 StateMachineType Global complexType ....................................................................................................25
+Figure 18 GetSEMIObjTypesRequest Global Element ...............................................................................................28
+Figure 19 GetSEMIObjTypesResponse Global Element.............................................................................................28</p><p>SEMI E125.1-0305 © SEMI 2005 2
+Figure 20 StateMachineInstanceType Global complexType .......................................................................................29
+Figure 21 GetExceptionsRequest Global Element ......................................................................................................31
+Figure 22 GetExceptionsResponse Global Element ....................................................................................................32
+Figure 23 GetEquipmentStructureRequest Global Element ........................................................................................33
+Figure 24 GetEquipmentStructureResponse Global Element......................................................................................33
+Figure 25 GetEquipmentNodeDescriptionsRequest Global Element ..........................................................................35
+Figure 26 GetEquipmentNodeDescriptionsResponse Global Element........................................................................35
+Figure 27 EquipmentNodeDescriptionType Global complexType .............................................................................36
+Figure 28 ParameterType Global complexType..........................................................................................................37
+Figure 29 GetLatestRevisionRequest ..........................................................................................................................40
+Figure 30 GetLatestRevisionResponse Global Element ..............................................................................................40
+Figure 31 NotifyOnRevisionsRequest Global Element ...............................................................................................41
+Figure 32 NotifyOnRevisionsResponse Global Element.............................................................................................42
+Figure 33 MetadataRevisedNotification Global Element ............................................................................................44</p><p>List of Tables
+Table 1 Example Translation Table...............................................................................................................................6
+Table 2 Example Translation Table for Operation Input/Output Arguments ................................................................6
+Table 3 Example Schema/WSDL Document Description Table ...................................................................................6
+Table 4 Altova XMLSPY Schema Diagram Symbols...................................................................................................7
+Table 5 Example Interface WSDL Port Type Table......................................................................................................9
+Table 6 Example Interface WSDL Binding Table.........................................................................................................9
+Table 7 Example Operation Binding Table ...................................................................................................................9
+Table 8 Example PortType Operation Table .................................................................................................................9
+Table 9 XML Schema..................................................................................................................................................11
+Table 10 EquipmentMetadataManager PortType Definitions .....................................................................................11
+Table 11 EquipmentMetadataManager Binding Definitions .......................................................................................11
+Table 12 EquipmentMetadataManager Port Type .......................................................................................................12
+Table 13 EquipmentMetadataManager Binding ..........................................................................................................12
+Table 14 GetUnits Operation Binding .........................................................................................................................13
+Table 15 GetUnits PortType Operation .......................................................................................................................13
+Table 16 EquipmentMetadataManager Binding ..........................................................................................................13
+Table 17 Translation Table for Output Arguments for the GetUnits Operation ..........................................................14
+Table 18 E125 Unit Æ UnitType Translation Table ...................................................................................................14
+Table 19 GetTypeDefinitions Operation Binding........................................................................................................14
+Table 20 GetUnits PortType Operation .......................................................................................................................14
+Table 21 EquipmentMetadataManager Binding ..........................................................................................................15
+Table 22 Translation Table for Output Arguments for the GetUnits Operation ..........................................................15
+Table 23 SEMI E125 ParameterTypeDefinition Æ ParameterTypeDefinitionType Translation Table ......................16
+Table 24 SEMI E125 Type Description Mapping Table .............................................................................................17
+Table 25 SECS-II Type Description Mapping Table...................................................................................................17
+Table 26 E125 StringType Æ StringTypeType Translation Table..............................................................................18
+Table 27 SEMI E125 BinaryType Æ Base64BinaryTypeType Translation Table .....................................................18
+Table 28 SEMI E125 IntegerType Æ
+ByteTypeType Translation Table ....................................................................18
+Table 29 SEMI E125 UnitConfig Æ UnitConfigArrayType Translation Table..........................................................18
+Table 30 SEMI E125 IntegerType Æ ShortTypeType Translation Table ...................................................................19
+Table 31 SEMI E125 IntegerType Æ IntTypeType Translation Table .......................................................................19
+Table 32 E125 IntegerType Æ LongTypeType Translation Table..............................................................................19
+Table 33 SEMI E125 RealType Æ FloatTypeType Translation Table .......................................................................20
+Table 34 E125 RealType Æ DoubleTypeType Translation Table ..............................................................................20
+Table 35 SEMI E125 ArrayType Æ ArrayTypeType Translation Table ....................................................................21
+Table 36 SEMI E125 StructureType Æ StructureTypeType Translation Table..........................................................23
+Table 37 SEMI E125 Field Æ FieldType Translation Table.......................................................................................23
+Table 38 SEMI E125 EnumerationType Æ EnumerationTypeType Translation Table..............................................23
+Table 39 SEMI E125 EnumeratedString Æ EnumeratedStringType Translation Table .............................................24</p><p>SEMI E125.1-0305 © SEMI 2005 3
+Table 40 SEMI E125 EnumeratedInteger Æ EnumeratedIntegerType Translation Table ..........................................24
+Table 41 GetStateMachines Operation Binding ..........................................................................................................24
+Table 42 GetStateMachines PortType Operation ........................................................................................................24
+Table 43 EquipmentMetadataManager Binding ..........................................................................................................24
+Table 44 Translation Table for Output Arguments for the GetStateMachines Operation ...........................................26
+Table 45 SEMI E125 StateMachine Æ StateMachineType Translation Table ...........................................................26
+Table 46 SEMI E125 State Æ StateType Translation Table .......................................................................................26
+Table 47 SEMI E125 Transition Æ TransitionType Translation Table ......................................................................26
+Table 48 SEMI E125 Event Æ EventType Translation Table ....................................................................................27
+Table 49 GetSEMIObjTypes Operation Binding ........................................................................................................27
+Table 50 GetSEMIObjTypes PortType Operation ......................................................................................................27
+Table 51 EquipmentMetadataManager Binding ..........................................................................................................27
+Table 52 Translation Table for Output Arguments for the GetSEMIObjTypes Operation .........................................28
+Table 53 SEMI E125 SEMIObjType Æ SEMIObjTypeType Translation Table ........................................................28
+Table 54 SEMI E125 StateMachineInstance Æ StateMachineInstanceType Translation Table .................................29
+Table 55 Example Parameter References ....................................................................................................................30
+Table 56 SEMI E125 EventToParameterMap Æ EventToParameterMapType Translation Table .............................30
+Table 57 GetExceptions Operation Binding ................................................................................................................31
+Table 58 GetExceptions PortType Operation ..............................................................................................................31
+Table 59 EquipmentMetadataManager Binding ..........................................................................................................31
+Table 60 Translation Table for Output Arguments for the GetExceptions Operation .................................................32
+Table 61 SEMI E125 EventToParameterMap Æ EventToParameterMapType Translation Table .............................32
+Table 62 GetEquipmentStructure Operation Binding..................................................................................................33
+Table 63 GetEquipmentStructure PortType Operation................................................................................................33
+Table 64 EquipmentMetadataManager Binding ..........................................................................................................33
+Table 65 Translation Table for Output Arguments for the GetEquipmentStructure Operation...................................34
+Table 66 GetEquipmentNodeDescriptions Operation Binding....................................................................................34
+Table 67 GetEquipmentNodeDescriptions PortType Operation.......................................................................
+...........34
+Table 68 EquipmentMetadataManager Binding ..........................................................................................................34
+Table 69 Translation Table for Input Arguments for the GetEquipmentNodeDescriptions Operation .......................35
+Table 70 Translation Table for Output Arguments for the GetEquipmentNodeDescriptions Operation ....................36
+Table 71 SEMI E125 EquipmentNodeDescription Æ EquipmentNodeDescriptionType Translation Table ..............37
+Table 72 SEMI E125 Parameter Æ ParameterType Translation Table .......................................................................38
+Table 73 SEMI E125 Constraint Æ ConstraintType Translation Table ......................................................................38
+Table 74 SEMI E125 AssociatedParameter Æ ParameterAssociationType Translation Table...................................38
+Table 75 SEMI E125 ParameterClassification Æ ParameterClassificationType Translation Table ...........................39
+Table 76 SEMI E125 ReadWrite Æ ReadWriteType Translation Table.....................................................................39
+Table 77 GetLatestRevision Operation Binding..........................................................................................................39
+Table 78 GetLatestRevision PortType Operation........................................................................................................39
+Table 79 EquipmentMetadataManager Binding ..........................................................................................................40
+Table 80 Translation Table for Output Arguments for the GetLatestRevision Operation...........................................40
+Table 81 NotifyOnRevisions Operation Binding ........................................................................................................41
+Table 82 NotifyOnRevisions PortType Operation ......................................................................................................41
+Table 83 EquipmentMetadataManager Binding ..........................................................................................................41
+Table 84 Translation Table for Input Arguments for the NotifyOnRevisions Operation ............................................42
+Table 85 Translation Table for Output Arguments for the GetUnits Operation ..........................................................42
+Table 86 XML Schema................................................................................................................................................42
+Table 87 MetadataClient PortType Definitions ...........................................................................................................43
+Table 88 EquipmentMetadataManager Binding Definitions .......................................................................................43
+Table 89 EquipmentMetadataManager Port Type .......................................................................................................43
+Table 90 EquipmentMetadataManager Binding ..........................................................................................................43
+Table 91 MetadataRevised Operation Binding............................................................................................................44
+Table 92 MetadataRevised PortType Operation..........................................................................................................44
+Table 93 EquipmentMetadataManager Binding ..........................................................................................................44
+Table 94 Translation Table for Input Arguments for the NotifyOnRevisions Operation ............................................44
+Table 95 SEMI E125 RevisionNotice Æ
+Revision Translation Table ........................................................................45</p><p>SEMI E125.1-0305 © SEMI 2005 4</p><p>1  Purpose</p><ol><li>1  SOAP Implementation Mapping</li><li>1.1  The purpose of this specification is to provide an implementation mapping of the SEMI E125 specification to
+the SOAP 1.1 protocol.  This document provides a description of the XML Schema data types used to support the
+UML classes defined in SEMI E125, and also describes the WSDL port type and binding definitions used to support
+the operations defined by the interfaces specified in SEMI E125.
+2  Scope</li><li>1  Specification Scope</li><li>1.1  The scope of this specification is the representation of the EqSD model in an XML Schema and corresponding
+WSDL port types and bindings.  It will not add new domain information or concepts to the SEMI E125 model.  The
+only additions made are those needed to render useful WSDL or XML Schema.</li><li>1.2  This specification requires SEMI E132 authentication, and defines requirements for the application of SEMI
+E132 concepts to the SEMI E125 specification.
+NOTICE:  This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Limitations</li><li>1  Provisional Specification</li><li>1.1  This  specification  is  provisional  pending  the  approval  of  the  SEMI  E138,  SEMI  E120.1  and  SEMI  E132.1.
+This  specification  relies  on  XML  Schema  types  defined  by  each  of  these  specifications,  and  cannot  be  fully
+implemented  without  these  types.    Finalization  of  these  specifications  is  a  condition  for  the  removal  of  the
+provisional status of this document.</li><li>1.2  This specification is provisional pending approval of the SEMI specification for Units for the Semiconductor
+Industry.  This specification relies on the unit of measure symbols defined in that specification.  Finalization of this
+specification is a condition for the removal of the provisional status of this document.
+4  Referenced Standards</li><li>1  SEMI Standards
+SEMI E121 — Guide for Style &amp; Usage of XML for Semiconductor Manufacturing Applications
+SEMI E120.1 — XML Schema for the Common Equipment Model
+SEMI E132.1 — Specification for SOAP Binding of Equipment Client Authentication and Authorization
+SEMI E125 — Specification for Equipment Self Description (EqSD)</li><li>2  OMG Standards
+1</li></ol><p>Unified     Modeling     Language     (UML)     Specification,     Version     1.4,     OMG     Specification     01-09-67,
+(<a href="http://www.omg.org/technology/documents/modeling_spec_catalog.htm" target="_blank" rel="noopener noreferrer">http://www.omg.org/technology/documents/modeling_spec_catalog.htm</a>)
+4. 3  W3C Standards
+2</p><p>Extensible      Markup      Language      (XML)      1.0      (Second      Edition)      — W3C,      6      October      2000
+(<a href="http://www.w3.org/TR/2000/REC-xml-20001006/" target="_blank" rel="noopener noreferrer">http://www.w3.org/TR/2000/REC-xml-20001006/</a>)</p><p>1 Object Management Group, Inc., 250 First Ave.  Suite 100, Needham, MA 02494, USA, Telephone:1.781.444.0404, Fax: 1.781.444.0320,
+website: <a href="http://www.omg.org." target="_blank" rel="noopener noreferrer">www.omg.org.</a>
+2 World Wide Consortium, Massachusetts Institute of Technology (MIT) Computer Science and Artificial Intelligence Laboratory (CSAIL), 32
+Vassar Street Room 32-G515, Cambridge, MA 02139, USA Telephone: 1.617.253.2613 Fax: 1.617.258.5999, website: <a href="http://www.w3c.org" target="_blank" rel="noopener noreferrer">www.w3c.org</a>.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/semi">SEMI</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/standard">Standard</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-org/semiconductor-docs/tree/main/docs/standards/semi/semi-chapter-063.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"></nav></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/process/intro">工艺制造</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/standards/intro">协议标准</a></li></ul></div><div class="col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">技术博客</a></li></ul></div><div class="col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">更新日志</a></li><li class="footer__item">
+                  <a href="#" target="_blank" rel="noreferrer noopener">
+                    <span style="margin-right: 8px;">AI 集成</span>
+                    <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">NEW</span>
+                  </a>
+                </li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">
+          <div style="text-align: center;">
+            <p style="margin: 0; opacity: 0.8;">Copyright © 2025 半导体知识文档库</p>
+            <p style="margin: 8px 0 0 0; opacity: 0.6; font-size: 0.9em;">
+              Built with <span style="color: #00d4ff;">❤</span> using Docusaurus •
+              <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">AI-Powered</span>
+            </p>
+          </div>
+        </div></div></div></footer></div>
+<script src="/semiconductor-docs/assets/js/runtime~main.ca6193db.js"></script>
+<script src="/semiconductor-docs/assets/js/main.d89a018c.js"></script>
+</body>
+</html>

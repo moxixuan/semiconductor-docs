@@ -1,0 +1,1400 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-standards/semi/semi-chapter-024">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v2.4.1">
+<title data-rh="true">E5-1104 - © SEMI 1982, 2004... | 半导体知识文档库</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-024"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="E5-1104 - © SEMI 1982, 2004... | 半导体知识文档库"><meta data-rh="true" name="description" content="SEMI标准文档"><meta data-rh="true" property="og:description" content="SEMI标准文档"><link data-rh="true" rel="canonical" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-024"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-024" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-024" hreflang="x-default"><link rel="stylesheet" href="/semiconductor-docs/assets/css/styles.488ea4dc.css">
+<link rel="preload" href="/semiconductor-docs/assets/js/runtime~main.ca6193db.js" as="script">
+<link rel="preload" href="/semiconductor-docs/assets/js/main.d89a018c.js" as="script">
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/semiconductor-docs/"><b class="navbar__title text--truncate">⚡ 半导体知识库</b></a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/process/intro">工艺制造</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/standards/intro">协议标准</a><a class="navbar__item navbar__link" href="/semiconductor-docs/blog">技术博客</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="searchBox_ZlJk"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docPage__5DB"><main class="docMainContainer_gTbr docMainContainerEnhanced_Uz_u"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="theme-doc-markdown markdown"><header><h1>E5-1104 - © SEMI 1982, 2004...</h1></header><p>PdfDownloadCard
+pdfLink=&quot;/pdfs/semi/024.pdf&quot;
+pdfSize=&quot;0.29MB&quot;
+title=&quot;E5-1104 - © SEMI 1982, 2004...&quot;
+description=&quot;SEMI标准文档，共50页&quot;
+/</p><h1>文档标题</h1><p>SEMI E5-1104 © SEMI 1982, 2004 93
+Stream,Function  Name (Mnemonic) Direction
+S3,F24  Port Group Action Acknowledge S,H&lt;-E
+Description
+This message acknowledges the port group action.
+Structure
+L,2</p><ol><li><p>CAACK</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If n = 0, no errors exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S3,F25  Port Action Request S,H-&gt;E, reply
+Description
+This message requests an action be performed for a port
+Structure
+L,3</p><ol><li><p>PORTACTION</p></li><li><p>PTN</p></li><li><p>L,m</p></li><li><p>L,2</p></li><li><p>PARAMNAME
+1</p></li><li><p>PARAMVAL
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>PARAMNAME
+m</p></li><li><p>PARAMVAL
+m</p></li></ol><p>Exception
+If m = 0, then no parameters are provided.</p><p>SEMI E5-1104 © SEMI 1982, 2004 94
+Stream,Function  Name (Mnemonic) Direction
+S3,F26  Port Action Acknowledge S,H&lt;-E
+Description
+This message acknowledges the port action request.
+Structure
+L,2</p><ol><li><p>CAACK</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2
+5. ERRCODE
+n</p><ol start="6"><li>ERRTEXT
+n</li></ol><p>Exception
+If n = 0, no errors exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S3,F27  Change Access S,H-&gt;E, reply
+Description
+The Host requests the Equipment to change the Access Mode for the specified Load Ports.  ACCESSMODE specifies the desired
+Access Mode.  PTN specifies a desired Load Port Number.
+Structure
+L,2</p><ol><li>ACCESSMODE</li><li>L,n</li><li>PTN
+1</li></ol><p>.
+.
+n. PTN
+n</p><p>Exception
+If n = 0, then the command applies to all Load Ports on the equipment.  If any specified port is already in the specified Access
+Mode, then the Equipment shall accept the command, and toggle all loadports to specified mode.  If the Equipment is unable to
+change one or more of specified Port(s) to the specified Access Mode, then the Equipment shall accept the command (with
+appropriate response acknowledgement), and shall change only the Access Mode of those Port(s) allowed by the equipment,
+supplying the host with an indication that not all ports were successfully changed.</p><p>SEMI E5-1104 © SEMI 1982, 2004 95
+Stream,Function  Name (Mnemonic) Direction
+S3,F28  Change Access Acknowledge S,H&lt;-E
+Description</p><p>Structure
+L,2</p><ol><li><p>CAACK</p></li><li><p>L,n</p></li><li><p>L,3</p></li><li><p>PTN
+1</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,3</p><ol><li><p>PTN
+n</p></li><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If the command is successful, CAACK = 0, and n = 0.  If the command was successful for some ports, CAACK  = 6, and n &gt; 0.</p><p>Stream,Function  Name (Mnemonic) Direction
+S3,F29  Carrier Tag Read Request S,H-&gt;E, reply
+Description
+The host requests the equipment to read data from the carrier tag of a carrier.  The carrier must be identified either by its location
+identifier or its carrier identifier, or both.  DATASEG may be used to indicate a specific section of data to be read.
+DATALENGTH is used to limit the amount of data for that section.
+Structure
+L,4</p><ol><li>LOCID</li><li>CARRIERSPEC</li><li>DATASEG</li><li>DATALENGTH
+Exception
+Either LOCID and CARRIERSPEC can omitted (zero length item), but not both.  If DATASEG and DATALENGTH are both
+omitted (are zero length items) then all data is requested.  If DATALENGTH only is omitted,  then all data within the indicated
+section is requested.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 96
+Stream,Function  Name (Mnemonic) Direction
+S3,F30  Carrier Tag Read Data (CTRD) S,H&lt;-E
+Description
+This message is used to return requested information from the carrier tag of the carrier indicated in the request and to
+acknowledge the results of the request.
+Structure
+L,2</p><ol><li><p>DATA</p></li><li><p>&lt;L,2&gt;</p></li><li><p>CAACK</p></li><li><p>L,s</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+s. L,2</p><ol><li><p>ERRCODE
+s</p></li><li><p>ERRTEXT
+s</p></li></ol><p>Exception
+If the carrier identifier or the carrier location originally specified is unknown, then DATA is zero length.  If CAACK is non-zero,
+then DATA is zero length.</p><p>Stream,Function  Name (Mnemonic) Direction
+S3,F31  Carrier Tag Write Data Request (CTWDR) S,H-&gt;E, reply
+Description
+The host requests the equipment to write data to a carrier tag.  The carrier must be indicated either by its location identifier or its
+carrier identifier, or both.  DATASEG may be used to indicate a specific section of data to be written or overwritten.
+DATALENGTH may be used to indicate the length of the data to be written.
+Structure
+L,5</p><ol><li>LOCID</li><li>CARRIERSPEC</li><li>DATASEG</li><li>DATALENGTH</li><li>DATA
+Exception
+Either LOCID and CARRIERSPEC can be omitted (zero length item), but not both.  If DATASEG and DATALENGTH are
+both omitted (are zero length items) then all data is to be overwritten.  If only DATALENGTH is omitted, then all data within
+the indicated section is to be written.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 97
+Stream,Function  Name (Mnemonic) Direction
+S3,F32  Carrier Tag Write Data Acknowledge (CTWDA) S,H&lt;-E
+Description
+This message acknowledges the success or failure of writing data to the carrier tag requested.
+Structure
+L,2</p><ol><li><p>CAACK</p></li><li><p>L,s</p></li><li><p>L,2</p></li><li><p>ERRORCODE
+1</p></li><li><p>ERRORTEXT
+1</p></li></ol><p>.
+.
+s. L,2</p><ol><li><p>ERRORCODE
+s</p></li><li><p>ERRORTEXT
+s</p></li></ol><p>Exception
+s = 0 if and only if there are no errors.</p><p>Stream,Function  Name (Mnemonic) Direction
+S3, F33  Cancel All Pod Out Request
+Description
+This message is used to cancel all pending pod out requests.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S3,F34  Cancel All Pod Out Acknowledge
+Description
+This message acknowledges the Cancel Pod Out request.
+Structure
+L,2</p><ol><li><p>CAACK</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRORCODE
+1</p></li><li><p>ERRORTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRORCODE
+n</p></li><li><p>ERRORTEXT
+n</p></li></ol><p>Exception
+If n = 0, no errors exist.</p><p>SEMI E5-1104 © SEMI 1982, 2004 98
+Stream,Function  Name (Mnemonic) Direction
+S3,F35  Reticle Transfer Job Request
+Description
+This message requests a reticle transfer job be performed (or cancelled) for a particular pod.
+Structure
+L,6</p><ol><li><p>JOBACTION</p></li><li><p>PODID</p></li><li><p>INPTN</p></li><li><p>OUTPTN</p></li><li><p>L,n                          n = number of attributes</p></li><li><p>L,2</p></li><li><p>ATTRID
+1</p></li><li><p>ATTRDATA
+1</p></li></ol><p>.
+.
+.
+n. L,2</p><ol><li><p>ATRRID
+n</p></li><li><p>ATTRDATA
+n</p></li><li><p>L,m                          m = capacity</p></li><li><p>L,3</p></li><li><p>RETICLEID
+1</p></li><li><p>RETREMOVEINSTR
+1</p></li><li><p>L,r                r = number of attributes</p></li><li><p>L,2</p></li><li><p>ATTRID</p></li><li><p>1</p></li><li><p>ATTRDATA</p></li><li><p>1</p></li></ol><p>.
+.
+r. L,2</p><ol><li><p>ATTRID</p></li><li><p>r</p></li><li><p>ATTRDATA</p></li><li><p>r</p></li></ol><p>.
+.
+m. L,3</p><ol><li><p>RETICLEID
+m</p></li><li><p>RETREMOVEINSTR
+m</p></li><li><p>L,r                r = number of attributes</p></li><li><p>L,2</p></li><li><p>ATTRID
+m.1</p></li><li><p>ATTRDATA
+m.1</p></li></ol><p>.
+.
+r. L,2</p><ol><li><p>ATTRID
+m.r</p></li><li><p>ATTRDATA
+m.r</p></li><li><p>L,m                          m = capacity</p></li><li><p>L,2</p></li><li><p>RETICLEID
+1</p></li><li><p>RETPLACEINSTR
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RETICLEID
+m</p></li><li><p>RETPLACEINSTR
+m</p></li></ol><p>Exception
+If JOBACTION = CancelReticleTransferJob, m and n may = 0</p><p>SEMI E5-1104 © SEMI 1982, 2004 99
+Stream,Function  Name (Mnemonic) Direction
+S3,F36  Reticle Transfer Job Request Acknowledgement
+Description
+This message acknowledges the ReticleTransferJobRequest.
+Structure
+L,2</p><ol><li><p>RPMACK</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+None</p><ol start="10"><li>8  Stream 4 Material Control — The material control stream contains the original material control protocol and
+the newer protocol which supports SEMI E32.</li><li>8.1  Original  Material  Control  Protocol  —  The  functions  in  the  material  control  stream  are  used  to  effect  the
+automatic transfer of material between equipment.  A simple handshake is achieved which provides for a variety of
+error  conditions  which  gracefully  terminate  the  handshake.    Separate  messages  advise  the  host  of  errors  and
+completed material transfers.</li><li>8.1.1  Since the handshake and host messages are separate, the handshake may be achieved transparently through
+the  host  or  by  direct  connection  between  equipment.    The  host  completes  the  handshake  by  relaying  messages
+between the equipment.  Only a single port is required on the equipment, and the equipment has a simple message
+handling requirement.  When a direct connection is desired, at least three ports are required, the receiving equipment
+must  look  like  the  host  with  respect  to  the  sending  equipment,  and  message  handling  in  the  equipment  is
+significantly  more  complicated  than  in  the  host-only  connection.    Nevertheless,  the  direct  connection  may  still  be
+chosen  in  an  attempt  to  provide  operation  without  a  host.    Since  the  host  is  reasonably  transparent  in  the  material
+handshake,  a  simple  explanation  of  the  handshake  may  be  achieved  by  just  considering  the  exchange  of  messages
+between the sender, the equipment wanting to get rid of material, and the receiver (the equipment able to accept the
+material).</li><li>8.1.2  Figure  4  shows  six  possible  handshake  situations  between  the  sender  and  the  receiver.    There  are  two
+normal  handshakes.    Figure  4(a)  shows  the  normal  three-message  exchange  when  material  is  passed  between
+equipment.    The  host  is  informed  of  a  complete  transfer  of  material.    Figure  4(b)  shows  an  alternative  message
+exchange  where  the  sender  changes  its  mind  and  decides  not  to  send  the  material.    Figures  4(c)  and  (d)  show  two
+situations where the material gets stuck during the transfer.  In each situation an error message is issued to the host
+from the equipment where the material is stuck.  The other equipment terminates normally.  When material is stuck,
+manual  intervention  is  required  to  move  the  material  towards  the  equipment  which  indicates  the  stuck  condition.
+The  manual  intervention  has  two  possible  outcomes.    One,  the  material  can  be  moved  to  a  position  where  the
+handshake can resume or, two, the material is broken or lost from the transfer.  Lost material causes a lost material
+error message to be sent to the host prior to resuming the operation.  The specific details of recovering front stuck
+material are equipment-dependent.  The stuck material condition is determined by the amount of time the material
+transfer mechanism is turned on.  The sender claims stuck material if the material is not clear of its sensor before a
+time t1.  The receiver claims stuck material if the material is not received before time t2.  Figures 4(e) and (f) show
+the  possible  error  conditions  in  the  unlikely  event  that  for  some  reason  a  handshake  message  is  lost.    Figure  4(e)
+shows  that  time  t3  is  the  longest  that  the  sender  will  wait  for  material  received  message.    Times  t2  and  t3  set  an
+upper limit on the amount of time either material transport mechanism will operate.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 100</p><p>Figure 4
+The Six Possible Handshakes</p><ol start="10"><li>8.1.3  Figure 5 summarizes the interaction of the timers, handshake messages, and the error messages in the form
+of a flow chart.  It also identifies specific states for the sender and the receiver.  These states are referred to in the
+messages.
+The ranges of timer values are as follows:
+tl — time to leave sender
+tl + 10 &lt;= t2 &lt;= 60 sec. — time to receive
+t2 + 10 &lt;= t3 &lt;= 70 sec. — time to complete send</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 101
+Default values, tl = 10 sec., t2 = 60 sec., t3 = 70 sec.
+NOTE 6:  t1, t2, t3 defined for Stream 4 are not to be confused with timeouts T1, T2, T3, and T4 defined in SEMI E4 (SECS-I).</p><p>Figure 5
+Material Control-Handshake Flowchart</p><p>SEMI E5-1104 © SEMI 1982, 2004 102
+Stream,Function  Name (Mnemonic) Direction
+S4,F0  Abort Transaction (S4F0) S,H-&gt;E
+Description
+Same form as S1,F0.
+Structure</p><p>Exception</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F1  Ready to Send Materials (RSN) S,H&lt;-&gt;E,reply
+Description
+The sender advises the receiver that some material is awaiting transfer.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S4,F2  Ready to Send Acknowledge (RSA) S,H&lt;-&gt;E
+Description
+Acknowledge or error
+Structure
+RSACK
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F3  Send Material (SMN) S,H&lt;-&gt;E
+Description
+The receiver advises the sender that it is ready to receive material and that its transfer mechanism is running.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F4 Not Used</p><p>SEMI E5-1104 © SEMI 1982, 2004 103
+Stream,Function  Name (Mnemonic) Direction
+S4,F5  Handshake Complete (HCN) S,H&lt;-&gt;E
+Description
+Receiver advises sender that the handshake is complete.  The sender may now stop its transfer mechanism.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F6 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F7  Not Ready to Send (ABN) S,H&lt;-&gt;E
+Description
+Sender advises receiver that no material is being sent.  The receiver may now stop its transfer mechanism.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F8 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F9  Stuck in Sender (SSN) S,H&lt;-E
+Description
+An error from the sender to the host.  The time between the receipt of Material (SMN) and the material leaving the sender’s
+sensor exceeds the sender’s t1 timeout.  The sender goes to a hold state until the disposition of the stuck material is determined.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F10 Not Used</p><p>SEMI E5-1104 © SEMI 1982, 2004 104
+Stream,Function  Name (Mnemonic) Direction
+S4,F11  Stuck in Receiver (SRN) S,H&lt;-E
+Description
+An error from the receiver to the host.  The time between Send Material (SMN) and detection of the material at the receiver
+exceeds the receiver’s t2 timeout.  The receiver goes to a hold state until the disposition of material is determined.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F12 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F13  Send Incomplete Timeout (SIN) S,H&lt;-E
+Description
+An error from the sender to the host.  The time between the receipt of the Send Material (SMN) and the receipt of Handshake-
+Complete (HCN) exceeds the sender’s t3 timeout.  There has been an error in the handshake and the transfer mechanism is
+turned off.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F14 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F15  Material Received (MRN) S,H&lt;-E
+Description
+A message from the receiver to the host.  Material has been transferred to the receiver.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+None</li></ol><p>S4,F16 Not Used</p><p>SEMI E5-1104 © SEMI 1982, 2004 105
+Stream,Function  Name (Mnemonic) Direction
+S4,F17  Request to Receive (RTR) S,H&lt;-&gt;E,reply
+Description
+Receiver requests the sender initiate a conversation to send the specified material to the specified port.
+Structure
+L,2</p><ol><li>PTN</li><li>MID
+Exception
+A zero-length MID means equipment doesn’t know MID.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S4,F18  Request to Receive Acknowledge (RRA) S,H&lt;-&gt;E
+Description
+Acknowledge or error
+Structure
+RRACK
+Exception
+None</p><ol start="10"><li>8.2  Support  for  Material  Movement  Management  Services  —  The  following  messages  were  defined  to  support
+SEMI E32.</li><li>8.2.1  Macro  Level  Messages  —  The  following  messages  support  the  host  supervised  macro  level  of  material
+movement  as  defined  in  SEMI  E32.    Stream  1  Macro  Level  Messages  can  be  found  in  Section  10.5:  S1F19,  Get
+Attribute (GA); S1F20, Attribute Data (AD).</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 106
+Stream,Function  Name (Mnemonic) Direction
+S4,F19  Transfer Job Create (TJ) M,H-&gt;E,reply
+Description
+The host requests that the equipment undertake one or more discrete (or atomic) transfers to achieve a host defined objective.
+The host provides the transfer specifications for each atomic transfer.  Atomic transfers on separate ports on the equipment are
+allowed to execute in parallel.  Atomic transfers for a port must be executed sequentially or in some cases concurrently.  Both
+equipment transfer partners for each atomic transfer must receive appropriate Transfer Job Request messages in order to execute
+a transfer.  If S4,F20 is multi-block, it must be preceded by the S4,F25/S4,F26 Inquire/Grant transaction.
+Structure
+L,2</p><ol><li>DATAID</li><li>L,2</li><li>TRJOBNAME</li><li>L,n                      <!-- -->[n = #atomic xfrs defined for this job]</li><li>L,12                <!-- -->[Specification for first atomic xfr]</li><li>TRLINK      <!-- -->[Atomic transfer identifier]</li><li>TRPORT      <!-- -->[Port to be used for transfer]</li><li>TROBJNAME   <!-- -->[Transfer object identifier]</li><li>TROBJTYPE   <!-- -->[Object type–what form is the material in]</li><li>TRROLE      <!-- -->[Role in transfer–primary/secondary]</li><li>TRRCP       <!-- -->[Transfer recipe identifier]</li><li>TRPTNR      <!-- -->[Identifier of transfer partner]</li><li>TRPTPORT    <!-- -->[Partner&#x27;s Port to be Used]</li><li>TRDIR       <!-- -->[Transfer direction-send or receive]</li><li>TRTYPE      <!-- -->[Active or Passive]</li><li>TRLOCATION  <!-- -->[Location to send/receive mtl]</li><li>TRAUTOSTART <!-- -->[Does eqp await host start command after setup?]<!-- -->
+.
+.
+n. L,12                <!-- -->[Specification for nth atomic xfr]</li><li>&lt;TRLINK]
+↓</li><li>TRAUTOSTART
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 107
+Stream,Function  Name (Mnemonic) Direction
+S4,F20  Transfer Job Acknowledge (TJA) S,H&lt;-E
+Description
+The equipment informs the host of its acceptance or rejection of the Transfer Job Request.
+Structure
+L,3</p><ol><li>TRJOBID</li><li>L,m                          <!-- -->[m = number of atomic transfers in the transfer job.]</li><li>TRATOMICID
+1</li></ol><p>.
+.
+m. TRATOMICID
+m</p><ol start="3"><li><p>L,2</p></li><li><p>TRACK                 <!-- -->[Accepted or rejected]</p></li><li><p>L,n                      <!-- -->[n = # errors reported]</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+A zero-length list (m = 0) is sent if the transfer job is rejected.  A zero-length list (n = 0) is sent if the transfer job is accepted.</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F21  Transfer Job Command (TC) S,H-&gt;E,reply
+Description
+This message is used by the host to modify a current transfer job on an equipment.
+Structure
+L,3</p><ol><li><p>TRJOBID</p></li><li><p>TRCMDNAME                  <!-- -->[identifier of the transfer command]</p></li><li><p>L,n                          <!-- -->[n = number of parameters = 0 if none]</p></li><li><p>L,2</p></li><li><p>CPNAME
+1
+<!-- -->[transfer parameter name]</p></li><li><p>CPVAL
+1
+<!-- -->[transfer parameter value]<!-- -->
+.
+.
+n. L,2</p></li><li><p>CPNAME
+n</p></li><li><p>CPVAL
+n</p></li></ol><p>Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 108
+Stream,Function  Name (Mnemonic) Direction
+S4,F22  Transfer Command Acknowledge (TCA) S,H&lt;-E
+Description
+Equipment accepts or rejects the transfer command.
+Structure
+L,2</p><ol><li><p>TRACK                       <!-- -->[Accepted or rejected]</p></li><li><p>L,n                          <!-- -->[n = # errors reported]</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If the command is accepted, n = 0.</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F23  Transfer Job Alert (TJA) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+Equipment informs the host that a transfer job milestone has been reached (e.g., job started or job complete).  If complete, all
+quipment resources originally reserved for the transfer have been released.
+Structure
+L,4</p><ol><li><p>TRJOBID</p></li><li><p>TRJOBNAME</p></li><li><p>TRJOBMS</p></li><li><p>L,2</p></li><li><p>TRACK                 <!-- -->[success or failure]</p></li><li><p>L,n                      <!-- -->[n = # errors reported]</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+If the transfer job is completed successfully, n = 0.</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F24  Transfer Alert Acknowledge (TLA) S,H-&gt;E
+Description
+Acknowledge receipt of the S4,F23 message.
+Structure
+Header only
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 109
+Stream,Function  Name (Mnemonic) Direction
+S4,F25  Multi-block Inquire (MB14) S,H-&gt;E,reply
+Description
+If a Stream 4 host-initiated message is more than a single block in length, this transaction must precede the message.
+Structure
+L,2</p><ol><li>DATAID</li><li>DATALENGTH
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S4,F26  Multi-block Grant (MBG4) S,H&lt;-E
+Description
+Grant (or deny) permission to send multi-block message.
+Structure
+GRANT
+Exception
+None</p><ol start="10"><li>8.2.2  Micro  Level  Messages  —  The  following  messages  support  the  equipment-to-equipment  micro  level
+handoff of material as defined in SEMI E32.</li><li>8.2.2.1  The messages which support the micro level are passed directly between the equipment.  For the purpose
+of  the  communication  link,  one  of  the  equipment  must  be  designated  the  host  and  the  other  the  equipment.    The
+choice is up to the implementer.  Equipment which are configurable to act as either host or equipment are suggested
+for ease of installation.</li><li>8.2.2.2  The  two  equipment  involved  in  a  micro  level  transfer  assume  different  roles.    One  equipment  is
+designated  the  “Primary  Transfer  Partner,”  and  the  other  is  the  “Secondary  Transfer  Partner”  (see  SEMI  E32  for
+more definition).  While some consistency of roles is expected, this designation is fluid and may change from one
+transfer  to  the  next.    The  Primary  Transfer  Partner  has  more  responsibility  and  thus  initiates  messages  which  the
+Secondary does not.</li><li>8.2.2.3  The  selection  of  “Host”  and  “Equipment”  for  the  communication  link  is  not  related  to  the  fluid
+relationship  of  Primary  and  Secondary  Transfer  Partner.    However,  it  is  the  designation  of  Primary  or  Secondary
+which determines the originator of certain messages.  It is for this reason that the designation P = Primary and S =
+Secondary Transfer Partner.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 110
+10. 8.2.2.4  Micro Level Messages
+Stream,Function  Name (Mnemonic) Direction
+S4,F27  Handoff Ready (HR) S,P&lt;-&gt;S
+Description
+Each transfer partner informs the other when they are ready to perform a specified atomic transfer.  The TRLINK values from
+the two partners must match.  The values contained in the atomic transfer specification pertain to the sender of the message
+(except where specified).
+Structure
+L,2</p><ol><li>EQNAME</li><li>L,11                         <!-- -->[Specification for atomic xfr]</li><li>TRLINK               <!-- -->[Atomic transfer identifier]</li><li>TRPORT               <!-- -->[Port to be used for transfer]</li><li>TROBJNAME            <!-- -->[Transfer object identifier]</li><li>TROBJTYPE            <!-- -->[Object type-what form the material is in]</li><li>TRROLE               <!-- -->[Role in transfer-primary/secondary]</li><li>TRPTNR               <!-- -->[Identifier of transfer partner]</li><li>TRPTPORT             <!-- -->[Partner&#x27;s Port to be Used]</li><li>TRDIR                <!-- -->[Transfer direction-send or receive]</li><li>TRTYPE               <!-- -->[Active or Passive]</li><li>TRLOCATION           <!-- -->[Location to send/receive mtl]<!-- -->
+Exception
+None</li></ol><p>S4,F28 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F29  Handoff Command (HC) S,P-&gt;S
+Description
+Command issued by the primary to the secondary transfer partner to  achieve some physical action.
+Structure
+L,4</p><ol><li><p>TRLINK                      <!-- -->[Atomic       Transfer       identifier]</p></li><li><p>MCINDEX                    <!-- -->[Identified this specific Micro Cmd request]</p></li><li><p>HOCMDNAME                  <!-- -->[Requested Micro Cmd]</p></li><li><p>L,n                          <!-- -->[n = number of parameters]</p></li><li><p>L,2</p></li><li><p>CPNAME
+1
+<!-- -->[Micro Cmd parameter name]</p></li><li><p>CPVAL
+1
+<!-- -->[Micro Cmd parameter value]<!-- -->
+.
+.
+n. L,2</p></li><li><p>CPNAME
+n</p></li><li><p>CPVAL
+n</p></li></ol><p>Exception
+N = 0 if no parameters are used.</p><p>S4,F30 Not Used</p><p>SEMI E5-1104 © SEMI 1982, 2004 111
+Stream,Function  Name (Mnemonic) Direction
+S4,F31  Handoff Command Complete (HCC) S,P&lt;-S
+Description
+Completion status of the micro command.  This is sent from the secondary to the primary transfer partner when the command is
+completed or terminated.
+Structure
+L,3</p><ol><li><p>TRLINK                      <!-- -->[Atomic       Transfer       identifier]</p></li><li><p>MCINDEX                    <!-- -->[Links to specific micro command (S4,F31)]</p></li><li><p>L,2</p></li><li><p>HOACK                 <!-- -->[success or failure]</p></li><li><p>L,n                      <!-- -->[n = # errors reported]</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+None</p><p>S4,F32 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F33  Handoff Verified (HV) P&lt;-&gt;S
+Description
+Sent by the primary transfer partner to inform the secondary that no more micro commands will be issued for this atomic transfer
+and to request a verification that the transfer is complete and successful.  Also sent by the secondary partner following the receipt
+of this message to verify that the transfer is complete and successful (or to report problems).
+Structure
+L,2</p><ol><li><p>TRLINK</p></li><li><p>L,2</p></li><li><p>HOACK                 <!-- -->[success or failure]</p></li><li><p>L,n                      <!-- -->[n = # errors reported]</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>ERRCODE
+n</p></li><li><p>ERRTEXT
+n</p></li></ol><p>Exception
+None</p><p>S4,F34 Not Used</p><p>SEMI E5-1104 © SEMI 1982, 2004 112
+Stream,Function  Name (Mnemonic) Direction
+S4,F35  Handoff Cancel Ready (HCR) P&lt;-&gt;S
+Description
+Sent by either transfer partner to cancel a previous Handoff Ready message.  This message is valid only before the handoff has
+begun.
+Structure
+TRLINK
+Exception
+None</p><p>S4,F36 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F37  Handoff Cancel Ready Acknowledge (HCA) P&lt;-&gt;S
+Description
+Sent by the receiver of the Handoff Cancel Ready message to accept or deny the cancel.  The cancel request is denied if the
+handoff process has begun.
+Structure
+L,2</p><ol><li>TRLINK</li><li>HOCANCELACK
+Exception
+None</li></ol><p>S4,F38 Not Used</p><p>Stream,Function  Name (Mnemonic) Direction
+S4,F39  Handoff Halt (HH) P&lt;-&gt;S
+Description
+Sent by either transfer partner to cause all transfer related activity of the other to cease immediately.  It is used when the
+equipment or material is at risk of damage.
+Structure
+TRLINK
+Exception
+None</p><p>S4,F40 Not Used</p><p>SEMI E5-1104 © SEMI 1982, 2004 113
+Stream,Function  Name (Mnemonic) Direction
+S4,F41  Handoff Halt Acknowledge (HHA) P&lt;-&gt;S
+Description
+Sent to equipment’s transfer partner following completion of halt activities resulting from a previously received S4,F39.
+Structure
+L,2</p><ol><li>TRLINK</li><li>HOHALTACK
+Exception
+None</li></ol><p>S4,F42 Not Used</p><ol start="10"><li>9  Stream  5  Exception Handling  —  This  stream  contains  messages  regarding  binary  and  analog  equipment
+exceptions.  Exceptions are classified into two categories: errors and alarms.  Messages S5,F1 through S5,F8 of this
+section  provide  basic  alarm  messages.    The  messages  S5,F9  through  S5,F18  provide  extended  capabilities  for
+Exception Handling.  When using messages F1–F8, alarms may be divided into categories as follows:</li></ol><h1>1</h1><ol><li>personal safety — Condition may be dangerous to people.</li></ol><h1>2</h1><ol start="2"><li>equipment safety — Condition may harm equipment.</li></ol><h1>3</h1><ol start="3"><li>parameter control warning — Parameter variation outside of preset limits — may harm product.</li></ol><h1>4</h1><ol start="4"><li>parameter  control  error  —  Parameter  variation  outside  of  reasonable  control  limits  —  may  indicate  an
+equipment malfunction.</li></ol><h1>5</h1><ol start="5"><li>irrecoverable error — Intervention required before normal use of equipment can resume.</li></ol><h1>6</h1><ol start="6"><li>equipment status warning — An unexpected condition has occurred, but operation can continue.</li></ol><h1>7</h1><ol start="7"><li>attention flags — A signal from a process program indicating that a particular step has been reached.</li></ol><h1>8</h1><ol start="8"><li>data integrity — A condition which may cause loss of data; usually related to Stream 6.</li><li>9.1  For messages F1 through F8, it will be the equipment’s responsibility to categorize the alarm.  Some alarm
+conditions  may  cause  more  than  one  type  of  alarm  to  be  issued.    For  example,  a  parameter  control  error  on  over
+temperature may also trip a protective device that makes the alarm irrecoverable without some intervention.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S5,F0  Abort Transaction (S5F0) S,H&lt;-&gt;E
+Description
+Same form as S1,F0.
+Structure</p><p>Exception</p><p>SEMI E5-1104 © SEMI 1982, 2004 114
+Stream,Function  Name (Mnemonic) Direction
+S5,F1  Alarm Report Send (ARS) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+This message reports a change in or presence of an alarm condition.  One message will be issued when the alarm is set and one
+message will be issued when the alarm is cleared.  Irrecoverable errors and attention flags may not have a corresponding clear
+message.
+Structure
+L,3</p><ol><li>ALCD</li><li>ALID</li><li>ALTX
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S5,F2  Alarm Report Acknowledge (ARA) S,H-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC5
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F3  Enable/Disable Alarm Send (EAS) S,H-&gt;E,<!-- -->[reply]<!-- -->
+Description
+This message will change the state of the enable bit in the equipment.  The enable bit determines if the alarm will be sent to the
+host.  Alarms which are not controllable in this way are unaffected by this message.
+Structure
+L,2</p><ol><li>ALED</li><li>ALID
+Exception
+A zero-length item for ALID means all alarms.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S5,F4  Enable/Disable Alarm Acknowledge (EAA) S,H&lt;-E
+Description
+Acknowledge or error
+Structure
+ACKC5
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 115
+Stream,Function  Name (Mnemonic) Direction
+S5,F5  List Alarms Request (LAR) S,H-&gt;E,reply
+Description
+This message requests the equipment to send binary and analog alarm information to the host.
+Structure
+ALID
+1
+, . . . ,ALID
+n</p><p>Exception
+A zero-length item means send all possible alarms regardless of the state of ALED.</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F6  List Alarm Data (LAD) M,H&lt;-E
+Description
+This message contains the alarm data known to the equipment.  There are “m” alarms in the list.
+Structure
+L,m</p><ol><li><p>L,3</p></li><li><p>ALCD
+1</p></li><li><p>ALID
+1</p></li><li><p>ALTX
+1</p></li><li><p>L,3
+.
+.
+m. L,3</p></li><li><p>ALCD
+m</p></li><li><p>ALID
+m</p></li><li><p>ALTX
+m</p></li></ol><p>Exception
+If m = 0, no response can be made.  A zero-length item returned for ALCD
+i
+or ALTX
+i
+means that value does not exist.</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F7  List Enabled Alarm Request (LEAR) S,H-&gt;E,reply
+Description
+List alarms which are enabled.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F8  List Enabled Alarm Data (LEAD) M,H&lt;-E
+Description
+This message is similar to S5,F6 except that it lists only alarms which are enabled.
+Structure
+Same as S5,F6
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 116
+Stream,Function  Name (Mnemonic) Direction
+S5,F9  Exception Post Notify (EXPN) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+This message provides the means to inform a host system that an exception condition is ‘set’.  Optionally, recovery actions for
+the exception may be sent.
+Structure
+L,5</p><ol><li>TIMESTAMP</li><li>EXID</li><li>EXTYPE</li><li>EXMESSAGE</li><li>L,n</li><li>EXRECVRA
+1</li></ol><p>.
+.
+.
+n. EXRECVRA
+n</p><p>Exception
+A zero-length list (n = 0) shall be sent when there are no possible recovery actions.
+This is a single block message.  The text in each of the EXRECVRA data items may need to be restricted in length to meet the
+single block requirement.</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F10  Exception Post Confirm (EXPC) S,H-&gt;E
+Description
+Host confirms receipt of S5,F9 message from the equipment.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F11  Exception Clear Notify (EXCN) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+This message provides the means to inform a host system that an exception/alarm condition is no longer active (set).
+Structure
+L,4</p><ol><li>TIMESTAMP</li><li>EXID</li><li>EXTYPE</li><li>EXMESSAGE
+Exception
+EXMESSAGE can be used to provide the reason that the exception cleared.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 117
+Stream,Function  Name (Mnemonic) Direction
+S5,F12  Exception Clear Confirm (EXCC) S,H-&gt;E
+Description
+Host confirms receipt of S5,F11 message from the equipment.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F13  Exception Recover Request (EXRR) S,H-&gt;E,reply
+Description
+Request that the entity which is experiencing an error execute a recovery action.
+Structure
+L,2</p><ol><li>EXID</li><li>EXRECVRA
+Exception</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S5,F14  Exception Recover Acknowledge (EXRA) S,H&lt;-E
+Description
+The entity indicates a response to the recovery request.
+Structure
+L,2</p><ol><li>EXID</li><li>L,2</li><li>ACKA</li><li>L,m                      (m       =       {0,2})</li><li>ERRCODE</li><li>ERRTEXT
+Exception
+The list m can be zero length, if the recovery request was accepted.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 118
+Stream,Function  Name (Mnemonic) Direction
+S5,F15  Exception Recovery Complete Notify (EXRCN) S,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+Allows the service provider to inform the controller/host that the recovery operation completed on a specific exception and an
+error code if the recovery terminated abnormally.
+Structure
+L,3</p><ol><li>TIMESTAMP</li><li>EXID</li><li>L,2</li><li>ACKA</li><li>L,m                      (m       =       {0,2})</li><li>ERRCODE</li><li>ERRTEXT
+Exception
+This list m can be of zero length if the recovery was successful.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S5,F16  Exception Recovery Complete Confirm (EXRCC) S,H-&gt;E
+Description
+Host confirms receipt of S5,F15 message from the equipment.
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S5,F17  Exception Recovery Abort Request (EXRAR) S,H-&gt;E,reply
+Description
+Stop the recovery procedure on a specific exception.
+Structure</p><ol><li>EXID
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S5,F18  Exception Recovery Abort Acknowledge (EXRAA) S,H&lt;-E
+Description
+Indicate the success of the request for Recovery Abort.
+Structure
+L,2</p><ol><li>EXID</li><li>L,2</li><li>ACKA</li><li>L,m                      (m       =       {0,2})</li><li>ERRCODE</li><li>ERRTEXT
+Exception
+The list m can be of zero length if the abort was successful.</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 119
+10. 10  Stream  6  Data  Collection  —  This  stream  is  intended  to  cover  the  needs  of  in-process  measurements  and
+equipment monitoring.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F0  Abort Transaction (S6F0) S,H&lt;-&gt;E
+Description
+Same form as S1,F0.
+Structure</p><p>Exception</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F1  Trace Data Send (TDS) M,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+This function sends samples to the host according to the trace setup done by S2,F23.  Trace is a time-driven form of equipment
+status.
+Even if S6,F1 is multi-block, it is not preceded by an Inquire/Grant transaction, because the Host S2,F23 is an implicit grant.
+Some equipment may support only single-block S6,F1, and may refuse an S2,F23 (Trace Initiate Send) message which would
+cause a multi-block S6,F1.
+Structure
+L,4</p><ol><li><p>TRID</p></li><li><p>SMPLN</p></li><li><p>STIME</p></li><li><p>L,n</p></li><li><p>SV
+1</p></li><li><p>SV
+2</p></li></ol><p>.
+.
+n. SV
+n</p><p>Exception
+A zero-length STIME means no value is given and that the time is to be derived from SMPLN along with knowledge of the
+request.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F2  Trace Data Acknowledge (TDA) S,H-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC6
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 120
+Stream,Function  Name (Mnemonic) Direction
+S6,F3  Discrete Variable Data Send (DVS) M,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+Any data report which is initiated by an event, such as the completion of a measurement, rather than passage of time is called a
+discrete variable.  Some equipment may have several possible events on which to send the data.  S2,F15 is used to select the
+desired reporting events.  Reports requiring only one block of data may report directly to the host with this message.  If S6,F3 is
+multi-block, it must be preceded by the S6,F5/S6,F6 Inquire/Grant transaction.
+Structure
+L,3</p><ol><li><p>DATAID</p></li><li><p>CEID</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>DSID
+1</p></li><li><p>L,m</p></li><li><p>L,2</p></li><li><p>DVNAME
+1</p></li><li><p>DVVAL
+1</p></li><li><p>L,2
+.
+.
+m. L,2</p></li><li><p>DVNAME
+m</p></li><li><p>DVVAL
+m</p></li><li><p>L,2
+.
+.
+n. L,2</p></li><li><p>DSID
+n</p></li><li><p>etc.
+Exception
+None</p></li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S6,F4  Discrete Variable Data Acknowledge (DVA) S,H-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC6
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F5 Multi-block Data Send Inquire (MBI) S,H&lt;-E,reply
+Description
+If the discrete data report S6F3, F9, F11, F13 can involve more than one block, this transaction must precede the transmission.
+Structure
+L,2</p><ol><li>DATAID</li><li>DATALENGTH
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 121
+Stream,Function  Name (Mnemonic) Direction
+S6,F6  Multi-block Grant (MBG) S,H-&gt;E
+Description
+Grant permission to send
+Structure
+GRANT6
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F7  Data Transfer Request (DDR) S,H-&gt;E,reply
+Description
+The host may initiate a data transfer of specified data stored in the equipment with this function.
+Structure
+DATAID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F8  Data Transfer Data (DDD) M,H&lt;-E
+Description
+Equipment sends data to the host.
+Structure
+Similar to the structure of S6,F3
+Exception
+A zero-length item returned means the requested data cannot be sent.</p><p>SEMI E5-1104 © SEMI 1982, 2004 122
+Stream,Function  Name (Mnemonic) Direction
+S6,F9  Formatted Variable Send (FVS) M,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+The same function as S6,F3 except that the DVNAMEs are supplied from a predefined form that is known to the host.  Thus, the
+data are more compact.  If S6,F9 is multi-block, it must be preceded by the S6,F5/S6,F6 Inquire/Grant transaction.
+Structure
+L,4</p><ol><li><p>PFCD</p></li><li><p>DATAID</p></li><li><p>CEID</p></li><li><p>L,n</p></li><li><p>L,2</p></li><li><p>DSID1
+1</p></li><li><p>L,m</p></li><li><p>DVVAL
+1</p></li></ol><p>.
+.
+m. DVVAL
+m</p><ol start="2"><li><p>L,2
+.
+.
+n. L,2</p></li><li><p>DSID
+n</p></li><li><p>etc.
+Exception
+None</p></li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S6,F10  Formatted Variable Acknowledge (FVA) S,H-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC6
+Exception</p><p>SEMI E5-1104 © SEMI 1982, 2004 123
+Stream,Function  Name (Mnemonic) Direction
+S6,F11  Event Report Send (ERS) M,H&lt;-E, reply
+Description
+The purpose of this message is for the equipment to send a defined, linked, and enabled group of reports to the host upon the
+occurrence of an event (CEID).
+If S6,F11 is Multi-block, it must be preceded by the S6,F5/S6,F6 Inquire/Grant transaction.
+Structure
+L,3</p><ol><li><p>DATAID</p></li><li><p>CEID</p></li><li><p>L,a</p></li><li><p>L,2</p></li><li><p>RPTID
+1</p></li><li><p>L,b</p></li><li><p>V
+1</p></li></ol><p>.
+.
+b. V
+b</p><p>.
+.
+a. L,2                      report a</p><ol><li>RPTIDa</li><li>L,c                #Vs this report</li><li>V
+1</li></ol><p>.
+.
+c. V
+c</p><p>Exception
+If there are no reports linked to the event a ‘null’ report is assumed.  A zero-length list for # of reports means there are no reports
+linked to the given CEID.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F12  Event Report Acknowledge (ERA) S,H-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC6
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 124
+Stream,Function  Name (Mnemonic) Direction
+S6,F13  Annotated Event Report Send (AERS) M,H&lt;-E,reply
+Description
+This message is the same as S6F11 with the exception that VID’s are sent with data.
+If S6,F13 is Multi-block, it must be preceded by the S6,F5/S6,F6 Inquire/Grant transaction.
+Structure
+L,3</p><ol><li><p>DATAID</p></li><li><p>CEID</p></li><li><p>L,a</p></li><li><p>L,2</p></li><li><p>RPTID
+1</p></li><li><p>L,b</p></li><li><p>L,2</p></li><li><p>VID
+1</p></li></ol><p>.
+.
+b. L,2</p><ol><li>VID
+b</li></ol><p>b. V
+b</p><p>.
+.
+a. L,2</p><ol><li><p>RPTID
+a</p></li><li><p>L,c</p></li><li><p>L,2</p></li><li><p>VID
+1</p></li><li><p>V
+1</p></li></ol><p>.
+.
+c. L,2</p><ol><li><p>VID
+c</p></li><li><p>V
+c</p></li></ol><p>Exception
+If there are no reports linked to the event a ‘null’ report is assumed.  A zero-length list for # of reports means there are no reports
+linked to the given CEID.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F14  Annotated Event Report Acknowledge (AERA) S,H-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC6
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 125
+Stream,Function  Name (Mnemonic) Direction
+S6,F15  Event Report Request (ERR) S,H-&gt;E, reply
+Description
+The purpose of this message is for the host to demand a given report group from the equipment.
+Structure
+CEID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F16  Event Report Data (ERD) M,H&lt;-E
+Description
+Equipment sends reports linked to given CEID to host.
+Structure
+Identical to structure of S6,F11.
+Exception
+A zero-length item means there are no reports linked to the given CEID.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F17  Annotated Event Report Request (AERR) S,H-&gt;E,reply
+Description
+Same as S6,F15, but requests annotated reports.
+Structure
+CEID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F18  Annotated Event Report Data (AERD) M,H&lt;-E
+Description
+Equipment sends annotated reports linked to given CEID.
+Structure
+Same as S6,F13.
+Exception
+A zero-length item means there are no reports linked to the given CEID.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F19  Individual Report Request (IRR) S,H-&gt;E,reply
+Description
+The purpose of this message is for the host to request a defined report from the equipment.
+Structure
+RPTID
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 126
+Stream,Function  Name (Mnemonic) Direction
+S6,F20  Individual Report Data (IRD) M,H&lt;-E
+Description
+Equipment sends variable data defined for the given RPTID to the host.
+Structure
+L,n                                   #       of       variable       data       items</p><ol><li>V
+1</li></ol><p>.
+.
+n. V
+n</p><p>Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F21  Annotated Individual Report Request (AIRR) S,H-&gt;E,reply
+Description
+The purpose of this message is for the host to request an annotated defined report from the equipment.
+Structure
+RPTID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F22  Annotated Individual Report Data (AIRD) M,H&lt;-E
+Description
+Equipment sends annotated variable data defined for the given RPTID to the host.
+Structure
+L,n                                   #       of       variable       data       items</p><ol><li><p>L,2</p></li><li><p>VID
+1</p></li><li><p>V
+1</p></li></ol><p>.
+.
+n. L,2</p><ol><li><p>VID
+n</p></li><li><p>V
+n</p></li></ol><p>Exception
+A zero-length list for # of variable data items means RPTID is not defined.</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F23  Request Spooled Data (RSD) S,H-&gt;E,reply
+Description
+The purpose of this message is for the host to request transmission or deletion of the messages currently spooled by the
+equipment.
+Structure
+RSDC
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 127
+Stream,Function  Name (Mnemonic) Direction
+S6,F24  Request Spooled Data Acknowledgement Send (RSDAS) S,H&lt;-E
+Description
+The purpose of this message is to acknowledge the receipt of the Request Spooled Data (S6,F23) and to respond with an
+appropriate acknowledge code.
+Structure
+RSDA
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F25  Notification Report Send M,H&lt;-&gt;E,<!-- -->[reply]<!-- -->
+Description
+This message is used for change notifications or confirmation reports.  A change notification is a report of an internal action and
+is not associated with a prior action requested by the host.
+A confirmation report is always associated with an earlier request for action.  A confirmation report is sent to the initial requestor
+of a delayed action at the time the action is completed.  A delayed action is an action that is any action not performed before the
+response to the initial request is sent.  OPID contains the value of OPID in the initial request.  LINKID is set to a non-zero value
+if and only if additional completion reports with the same OPID will be sent.  If S6,F25 is multiblock, it must be preceded by the
+S6,F5/S6,F6 Inquire Grant transaction.
+Structure
+L,7</p><ol><li><p>DATAID</p></li><li><p>OPID</p></li><li><p>LINKID</p></li><li><p>RCPSPEC</p></li><li><p>RMCHGSTAT</p></li><li><p>L,m</p></li><li><p>L,2</p></li><li><p>RCPATTRID
+1</p></li><li><p>RCPATTRDATA
+1</p></li></ol><p>.
+.
+m. L,2</p><ol><li><p>RCPATTRID
+m</p></li><li><p>RCPATTRDATA
+m</p></li><li><p>L,2</p></li><li><p>RMACK</p></li><li><p>L,p</p></li><li><p>L,2</p></li><li><p>ERRCODE
+1</p></li><li><p>ERRTEXT
+1</p></li></ol><p>.
+.
+p. L,2</p><ol><li><p>ERRCODE
+p</p></li><li><p>ERRTEXT
+p</p></li></ol><p>Exception
+OPID and LINKID are zero-length items when and only when S6,F25 is sent as a change notification rather than as a
+confirmation report.  p = 0 if and only if RMACK indicates no errors.</p><p>SEMI E5-1104 © SEMI 1982, 2004 128
+Stream,Function  Name (Mnemonic) Direction
+S6,F26  Notification Report Send Acknowledge S,H&lt;-&gt;E
+Description
+This message is used to acknowledge the confirmation report.  It is defined for completeness and as an aid to the user in
+identifying problems.
+Structure
+ACKC6
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 129
+Stream,Function  Name (Mnemonic) Direction
+S6,F27  Trace Report Send (TRS) M,H&lt;-E,<!-- -->[reply]<!-- -->
+Description
+The equipment sends a completed Trace Report to the host.
+Structure
+L,3</p><ol><li><p>DATAID</p></li><li><p>TRID</p></li><li><p>L,n                          (n cannot exceed group size specified by S2F53)</p></li><li><p>L,p                      (p is the number of reports for each trace sample)</p></li><li><p>L,2</p></li><li><p>RPTID
+1</p></li><li><p>L,m           (number of items in this data report)</p></li><li><p>V
+1</p></li></ol><p>.
+.
+m. V
+m</p><p>.
+.
+p. L,2</p><ol><li><p>RPTID
+p</p></li><li><p>L,m</p></li><li><p>V
+1</p></li></ol><p>.
+.
+m. V
+m</p><p>.
+.
+n. L,p                      (p is the number of reports for each trace sample)</p><ol><li><p>L,2</p></li><li><p>RPTID
+1</p></li><li><p>L,m           (number of items in this data report)</p></li><li><p>V
+1</p></li></ol><p>.
+.
+m. V
+m</p><p>.
+.
+p. L,2</p><ol><li><p>RPTID
+p</p></li><li><p>L,m</p></li><li><p>V
+1</p></li></ol><p>.
+.
+m. V
+m</p><p>Exception
+The lists of variables associated with a unique RPTID are also unique.  This structure illustrates the form of the message, so in
+general, V
+1
+for RPTID
+a
+and V
+1
+for RPTID
+b
+do not reference the same variable.</p><p>SEMI E5-1104 © SEMI 1982, 2004 130
+Stream,Function  Name (Mnemonic) Direction
+S6,F28  Trace Report Send Acknowledge S,H-&gt;E
+Description
+The host Acknowledges receipt of the Trace Report.
+Structure
+TRID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F29  Trace Report Request (TRR) S,H-&gt;E
+Description
+Request that the data reports assigned to the trace report be sampled and returned to the host.
+Structure
+TRID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S6,F30  Trace Report Data (TRD) M,H&lt;-E
+Description
+Message containing the requested data reports associated with the TRID of trace data report definition.
+Structure
+L,3</p><ol><li><p>TRID</p></li><li><p>L,n                          (n = number data reports defined for this TRID)</p></li><li><p>L,2</p></li><li><p>RPTID
+1</p></li><li><p>L,m                (m = number of items in this RPTID)</p></li><li><p>V
+1</p></li></ol><p>.
+.
+m. V
+m</p><p>.
+.
+n. L,2</p><ol><li><p>RPTID
+n</p></li><li><p>L,m                (m = number of items in this RPTID)</p></li><li><p>V
+1</p></li></ol><p>.
+.
+m. V
+m</p><ol start="3"><li><p>ERRCODE
+Exception
+If TRID is unknown, a zero-length list (n = 0) shall be sent.  Item 3 (ERRCODE) shall be set to zero length when there is no
+error.</p></li><li><p>11  Stream  7  Process  Program  Management  —  The  functions  in  this  stream  are  used  to  manage  and  transfer
+process  programs.    Process  programs  are  the  equipment-specific  descriptions  that  determine  the  procedure  to  be
+conducted  on  the  material  by  a  single  piece  of  equipment.    Methods  are  provided  to  transfer  programs  as  well  as
+establish the link between the process program and the material to be processed with that program.</p></li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 131</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F0  Abort Transaction (S7F0) S,H&lt;-&gt;E
+Description
+Same form as S1,F0
+Structure</p><p>Exception</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F1  Process Program Load Inquire (PPI) S,H&lt;-&gt;E,reply
+Description
+This message is used to initiate the transfer of a process program or to select from stored programs.  The message may be used to
+initiate the transfer of an unformatted process program (S7,F3/S7,F4) or a formatted process program
+(S7,F23/S7,F24),(S7,F31/S7,F32).
+Structure
+L,2</p><ol><li>PPID</li><li>LENGTH
+Exception
+None</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S7,F2  Process Program Load Grant (PPG) S,H&lt;-&gt;E
+Description
+This message gives permission for the process program to be loaded.
+Structure
+PPGNT
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F3  Process Program Send (PPS) M,H&lt;-&gt;E,reply
+Description
+The program is sent.  If S7,F3 is multi-block, it must be preceded by the S7,F1/S7,F2 Inquire/Grant transaction.
+Structure
+L,2</p><ol><li>PPID</li><li>PPBODY
+Exception
+None</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 132
+Stream,Function  Name (Mnemonic) Direction
+S7,F4  Process Program Acknowledge (PPA) S,H&lt;-&gt;E
+Description
+Acknowledge or error
+Structure
+ACKC7
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F5  Process Program Request (PPR) S,H&lt;-&gt;E,reply
+Description
+This message is used to request the transfer of a process program.
+Structure
+PPID
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F6  Process Program Data (PPD) M,H&lt;-&gt;E
+Description
+This message is used to transfer a process program.
+Structure
+L,2</p><ol><li>PPID</li><li>PPBODY
+Exception
+A zero-length list means request denied.</li></ol><p>NOTE 7:  The  equipment-to-host  transfer  of  the  process  program,  denoted  by  the  R  bit  in  the  header  (R  =  1),  provides  the
+mechanism  for  the  host  computer  to  receive  process  programs  created  on  the  equipment.    This  allows  use  of  the  equipment
+without having process program generation capabilities on the host.</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F7  Process Program ID Request (PIR) S,H&lt;-E,reply
+Description
+This message is used to request the PPID for use on the material identified.
+Structure
+MID
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 133
+Stream,Function  Name (Mnemonic) Direction
+S7,F8  Process Program ID Data (PID) S,H-&gt;E
+Description
+This message is used to transmit a single matrix entry in response to S7,F7.
+Structure
+L,2</p><ol><li>PPID</li><li>MID
+Exception
+A zero-length list returned means no such MID or other error.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S7,F9  M/P M Request (MMR) S,H&lt;-&gt;E,reply
+Description
+This message is used to request the transmission of the material/process matrix.  If the message is from the host, the response
+will be the current matrix in the equipment.  If the message is from the equipment, the response will be a new matrix to initialize
+the equipment.
+Structure
+Header only
+Exception
+None</p><p>NOTE 8:  M/PM  defines  the  Material/Process  Matrix.    The  Material/Process  Matrix  is  a  table  which  links  the  material  to  the
+process program to be used in processing the material.</p><p>SEMI E5-1104 © SEMI 1982, 2004 134
+Stream,Function  Name (Mnemonic) Direction
+S7,F10  M/P M Data (MMD) M,H&lt;-&gt;E
+Description
+In the response to S7,F9, the equipment will transmit the current matrix it contains.  The matrix will be the sum of all matrix
+updates transmitted since initialization less the completed material whose linkages have been deleted.  Programs with no pending
+material will be deleted from the matrix but not from the equipment program directory.
+Structure
+L,n                                   number       of       process       programs</p><ol><li><p>L,2</p></li><li><p>PPID
+1</p></li><li><p>L,a                   (number of MID for this PPID)</p></li><li><p>MID
+1</p></li></ol><p>.
+.
+a. MID
+a</p><ol start="2"><li><p>L,2
+.
+.
+n. L,2</p></li><li><p>PPID
+n</p></li><li><p>L,b</p></li><li><p>MID
+1</p></li></ol><p>.
+.
+b. MID
+b</p><p>Function 10     Example 2 process programs (1 and 3 MID, respectively)
+L,2
+L,2</p><ol><li><p>PPID
+1</p></li><li><p>L,1</p></li><li><p>MID
+a</p></li></ol><p>L,2</p><ol><li><p>PPID
+2</p></li><li><p>L,3</p></li><li><p>MID
+b</p></li><li><p>MID
+c</p></li><li><p>MID
+d</p></li></ol><p>Exception
+a = 0 indicates that this PPID will be used for all material processed.  The last default transmitted will be the one used; all other
+entries will be deleted from the active matrix.  A zero-length list returned means no such matrix.</p><p>SEMI E5-1104 © SEMI 1982, 2004 135
+Stream,Function  Name (Mnemonic) Direction
+S7,F11  M/P M Update Send (UMS) S,H-&gt;E,<!-- -->[reply]<!-- -->
+Description
+This message is used by the host to add to the M/PM in the equipment.
+Structure
+L,n                                   (number       of       process       programs)</p><ol><li><p>L,2</p></li><li><p>PPID
+1</p></li><li><p>L,a                    (number of MID&#x27;s using PPID1)</p></li><li><p>MID
+1</p></li></ol><p>.
+.
+a. MID
+a</p><ol start="2"><li><p>L,2
+.
+.
+n. L,2</p></li><li><p>PPID
+n</p></li><li><p>L,b</p></li><li><p>MID
+1</p></li></ol><p>.
+.
+b. MID
+b</p><p>Exception
+If a = 0, then the preceding PPID is to be used for all material processed.  All other entries will be deleted from the active matrix.</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F12  M/P M Update Acknowledge (UMA) S,H&lt;-E
+Description
+Acknowledge or error
+Structure
+ACKC7
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 136
+Stream,Function  Name (Mnemonic) Direction
+S7,F13  Delete M/P M Entry Send (DES) S,H-&gt;E,<!-- -->[reply]<!-- -->
+Description
+This message is used to delete program to material linkages in the M/PM of the equipment.
+Structure
+L,n                                   (number       of       process       programs)</p><ol><li>L,2</li><li>PPID
+1</li></ol><p>L,a                        (number of MID&#x27;s using PPID)</p><ol><li>MID
+1</li></ol><p>.
+.
+a. MID
+a</p><ol start="2"><li><p>L,2
+.
+.
+n. L,2</p></li><li><p>PPID
+n</p></li><li><p>L,b</p></li><li><p>MID
+1</p></li></ol><p>.
+.
+b. MID
+b</p><p>Exception
+A delete consisting of a zero-length means delete all entries and generate a S7,F9 request to initialize matrix.</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F14  Delete M/P M Entry Acknowledge (DEA) S,H&lt;-E
+Description
+Acknowledge or error
+Structure
+ACKC7
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F15  Matrix Mode Select Send (MMS) S,H-&gt;E,reply
+Description
+This message is used by the host to change the method of process program selection in the equipment which might not support
+all modes.
+Structure
+MMODE
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 137
+Stream,Function  Name (Mnemonic) Direction
+S7,F16  Matrix Mode Select Acknowledge (MMA) S,H&lt;-E
+Description
+Acknowledge or error
+Structure
+ACKC7
+Exception
+None</p><p>NOTE 9:  The  matrix  structure  allows  the  program  linkages  to  be  established  for  each  MID  or  the  multi-MID  production  plans
+for an extended period of time.  The host system makes the choice of operating mode.  By continuous updates to the equipment
+matrix, automatic system backup is achieved.</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F17  Delete Process Program Send (DPS) S,H-&gt;E,reply
+Description
+This message is used by the host to request the equipment to delete process programs from equipment storage.
+Structure
+L,n                                (Number of process programs to be deleted)</p><ol><li>PPID
+1</li></ol><p>.
+.
+n. PPID
+n</p><p>Exception
+If n = 0, then delete all.</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F18  Delete Process Program Acknowledge (DPA) S,H&lt;-E
+Description
+Acknowledge or error
+Structure
+ACKC7
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F19  Current EPPD Request (RER) S,H-&gt;E,reply
+Description
+This message is used to request the transmission of the current equipment process program directory (EPPD).  This is a list of all
+the PPIDs of the process programs stored in the equipment.
+Structure
+Header only
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 138
+Stream,Function  Name (Mnemonic) Direction
+S7,F20  Current EPPD Data (RED) M,H&lt;-E
+Description
+This message is used to transmit the current EPPD.
+Structure
+L,n                                (number of process programs in the directory)</p><ol><li>PPID
+1</li></ol><p>.
+.
+n. PPID
+n</p><p>Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F21  Equipment Process Capabilities Request (PCR) S,H-&gt;E,reply
+Description
+This message is used to request the Equipment Process Capabilities Data (PCD).
+Structure
+Header only
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 139
+Stream,Function  Name (Mnemonic) Direction
+S7,F22  Equipment Process Capabilities Data (PCD) M,H&lt;-E
+Description
+This equipment message provides the information necessary for the host to create and partially verify the contents of a new
+process program or display the object of a process program previously generated by a host or equipment.  The PCD defines the
+process program content acceptable to the originating equipment.
+Structure
+L,5</p><ol><li>MDLN</li><li>SOFTREV</li><li>CMDMAX</li><li>BYTMAX</li><li>L,c                          (c = Number of Possible Commands)</li><li>L,11</li><li>CCODE</li><li>CNAME</li><li>RQCMD</li><li>BLKDEF</li><li>BCDS</li><li>IBCDS</li><li>NBCDS</li><li>ACDS</li><li>IACDS</li><li>NACDS</li><li>L,p               (p = Number of Parameters)</li><li><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">         (parameter specification) (see below)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>.
+.
+p.              (parameter specification)</li><li>L,11
+.
+.
+c. L,11</li></ol><p>Parameter specifications depend on the data type of each parameter.  The structure of each of the possible three groups is as
+follows:</p><p>Numeric Data                 String Data                  Boolean Data
+L,9                          L,5                          L,4</p><ol><li>PNAME                   1. PNAME                   1. PNAME</li><li>RQPAR                   2. RQPAR                   2. RQPAR</li><li>PDFLT                   3. PDFLT                   3. PDFLT</li><li>PMAX                    4. PMAX                    4. PMAX</li><li>LLIM                    5. L,s</li><li>ULIM                         1. STEMP
+1</li></ol><ol start="7"><li>UNITS                        .</li><li>RESC                         .</li><li>RESV                         s. STEMP
+s</li></ol><p>Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 140
+Stream,Function  Name (Mnemonic) Direction
+S7,F23  Formatted Process Program Send (FPS) M,H&lt;-&gt;E,reply
+Description
+This message allows movement of formatted process programs between a piece of equipment and its host system.  The values of
+MDLN and SOFTREV are obtained from the PCD used to generate the process program.  If S7,F23 is multi-block, it must be
+preceded by the S7F1/F2 Inquire/Grant transaction.
+Structure
+L,4</p><ol><li>PPID</li><li>MDLN</li><li>SOFTREV</li><li>L,c                          (c = Number of Process Commands)</li><li>L,2</li><li>CCODE</li><li>L,p                (p = Number of Parameters)</li><li>PPARM
+1</li></ol><p>.
+.
+p. PPARMp
+2. L,2
+.
+.
+c. L,2
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F24  Formatted Process Program Acknowledge (FPA) S,H&lt;-&gt;E
+Description
+Acknowledges reception of a formatted process program at its destination and whether the process program was accepted by the
+interpreter.  A returned status of “accepted” by the interpreter means only that the message is understood.  The validity of the
+contents of the process program is determined through a separate transaction (S7,F27/S7,F28).
+Structure
+ACKC7
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F25  Formatted Process Program Request (FPR) S,H&lt;-&gt;E,reply
+Description
+This message is used by either equipment or host to request a particular process program from the other.
+Structure
+PPID
+Exception
+None</p><p>SEMI E5-1104 © SEMI 1982, 2004 141
+Stream,Function  Name (Mnemonic) Direction
+S7,F26  Formatted Process Program Data (FPD) M,H&lt;-&gt;E
+Description
+This message transfers a process program in response to a request for the PPID.  The values of MDLN and SOFTREV are
+obtained from the PCD used to generate the process program.
+Structure
+L,4</p><ol><li>PPID</li><li>MDLN</li><li>SOFTREV</li><li>L,c                          (c = Number of Process Commands)</li><li>L,2</li><li>CCODE</li><li>L,p                (p = Number of Parameters)</li><li>PPARM
+1</li></ol><p>.
+.
+p. PPARM
+p</p><ol start="2"><li>L,2
+.
+.
+c. L,2
+Exception
+A zero length list indicates the request was denied.</li></ol><p>Stream,Function  Name (Mnemonic) Direction
+S7,F27  Process Program Verification Send (PVS) S,H&lt;-E,reply
+Description
+This message indicates to the host that a process program has been received and checked by the equipment.  The result of the
+check is specified by the list of errors.  An empty error list (list of zero-length) or a one-element list with ACKC7A having a
+value of zero (0) indicates no errors were found in the process program.  The equipment may report as many errors as it seems
+appropriate.  The equipment is responsible for sending a single copy of this message to the host after any reception of a
+formatted process program (S7,F23; S7,F26; S7,F31) or a large process program that was transferred via Stream 13 Data set
+Transfer Protocol (S7,F37; S7,F39; S7,F41; S7,F43).  The verification of large unformatted process programs checks that the
+received process program is intact and was not corrupted by the Stream 13 transfer (e.g. by trying to load it).If S7,F27 is multi-
+block, it must be preceded by the S7,F29/S7,F30 Inquire/Grant Transaction.
+Structure
+L,2</p><ol><li>PPID</li><li>L,n                          (n = number of errors being reported)</li><li>L,3</li><li>ACKC7A</li><li>SEQNUM</li><li>ERRW7</li><li>L,3
+.
+.
+n. L,3
+Exception</li></ol><p>SEMI E5-1104 © SEMI 1982, 2004 142
+Stream,Function  Name (Mnemonic) Direction
+S7,F28  Process Program Verification Acknowledge (PVA) S,H-&gt;E
+Description
+Reply by host to equipment acknowledging reception of Process Program Verification Send (PVS).
+Structure
+Header only
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F29  Process Program Verification Inquire (PVI) S,H&lt;-E,reply
+Description
+This message allows a piece of equipment to ask a host for permission to send a multi-block PVS.
+Structure
+LENGTH
+Exception
+None</p><p>Stream,Function  Name (Mnemonic) Direction
+S7,F30  Process Program Verification Grant (PVG) S,H-&gt;E
+Description
+Reply by host to equipment providing response to Process Program Verification Inquire (PVI).
+Structure
+PPGNT
+Exception
+None</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/semi">SEMI</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/standard">Standard</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-org/semiconductor-docs/tree/main/docs/standards/semi/semi-chapter-024.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"></nav></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/process/intro">工艺制造</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/standards/intro">协议标准</a></li></ul></div><div class="col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">技术博客</a></li></ul></div><div class="col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">更新日志</a></li><li class="footer__item">
+                  <a href="#" target="_blank" rel="noreferrer noopener">
+                    <span style="margin-right: 8px;">AI 集成</span>
+                    <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">NEW</span>
+                  </a>
+                </li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">
+          <div style="text-align: center;">
+            <p style="margin: 0; opacity: 0.8;">Copyright © 2025 半导体知识文档库</p>
+            <p style="margin: 8px 0 0 0; opacity: 0.6; font-size: 0.9em;">
+              Built with <span style="color: #00d4ff;">❤</span> using Docusaurus •
+              <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">AI-Powered</span>
+            </p>
+          </div>
+        </div></div></div></footer></div>
+<script src="/semiconductor-docs/assets/js/runtime~main.ca6193db.js"></script>
+<script src="/semiconductor-docs/assets/js/main.d89a018c.js"></script>
+</body>
+</html>

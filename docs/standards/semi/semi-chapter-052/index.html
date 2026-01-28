@@ -1,0 +1,2694 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-standards/semi/semi-chapter-052">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v2.4.1">
+<title data-rh="true">E88-1104 - E © SEMI 1999,... | 半导体知识文档库</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-052"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="E88-1104 - E © SEMI 1999,... | 半导体知识文档库"><meta data-rh="true" name="description" content="SEMI标准文档"><meta data-rh="true" property="og:description" content="SEMI标准文档"><link data-rh="true" rel="canonical" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-052"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-052" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-052" hreflang="x-default"><link rel="stylesheet" href="/semiconductor-docs/assets/css/styles.488ea4dc.css">
+<link rel="preload" href="/semiconductor-docs/assets/js/runtime~main.ca6193db.js" as="script">
+<link rel="preload" href="/semiconductor-docs/assets/js/main.d89a018c.js" as="script">
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/semiconductor-docs/"><b class="navbar__title text--truncate">⚡ 半导体知识库</b></a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/process/intro">工艺制造</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/standards/intro">协议标准</a><a class="navbar__item navbar__link" href="/semiconductor-docs/blog">技术博客</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="searchBox_ZlJk"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docPage__5DB"><main class="docMainContainer_gTbr docMainContainerEnhanced_Uz_u"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="theme-doc-markdown markdown"><header><h1>E88-1104 - E © SEMI 1999,...</h1></header><p>PdfDownloadCard
+pdfLink=&quot;/pdfs/semi/052.pdf&quot;
+pdfSize=&quot;0.49MB&quot;
+title=&quot;E88-1104 - E © SEMI 1999,...&quot;
+description=&quot;SEMI标准文档，共50页&quot;
+/</p><h1>文档标题</h1><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 48
+ID Error Error Description Input Port Action Intrabay Output Port Action*
+Mismatch    The carrier ID read results in an ID
+that does not match any entries in
+the SC database.
+Example - Carrier 456 requested to
+ID reader but CarrierIDRead result
+is 123, but there is no SC database
+entry for a carrier with CarrierID</p><h1>123</h1><ol start="123"><li></li><li>CarrierWaitOut event for 456.</li></ol><h1>2</h1><ol start="2"><li>CarrierIDRead 123 event sent.</li></ol><h1>3</h1><ol start="3"><li>TransferComplete for 456 with
+mismatch    error.</li></ol><h1>4</h1><ol start="4"><li>SC automatically deletes
+carrier 456 from SC database
+and    send
+CarrierRemoveCompleted
+event.</li></ol><h1>5</h1><ol start="5"><li>SC automatically creates
+carrier 123 at the port and
+sends    CarrierWaitOut    event</li></ol><h1>6</h1><ol start="6"><li>Carrier continues to LP of this
+output port. (CarrierWaitOut
+for 123 at each position.)</li></ol><h1>7</h1><ol start="7"><li><p>IDReadError event sent when
+carrier arrives at the LP of this
+output    port.
+Note: Optionally step 3 may come
+after step 4 or 5.</p></li><li><p>2.3.2  The following scenario represents a carrier ID failure at the stocker input port with option 1 implemented.
+STEP             COMMENTS               HOST             SC                COMMENTS</p></li></ol><h1>1</h1><ol><li>The SC assigns an unknown
+CarrierID based on the
+failure. An example of such an
+unknown CarrierID would be
+“UNKNOWNSTK001”</li></ol><p>Note: IDReadStatus = 1 means
+that a Carrier ID Read failure
+occurred.</p><p>ÅS6,F11
+Event Report Send (ERS)
+CarrierIDRead
+·     CarrierID     =
+“UNKNOWNSTK001”
+·     PortID
+·     IDReadStatus = 1</p><ol start="2"><li><p>Event Report Acknowledge (ERA)
+S6,F12
+Æ</p></li><li><p>ÅS6,F11
+Event Report Send (ERS)
+CarrierWaitIn
+·     CarrierID =
+“UNKNOWNSTK001”
+·     CarrierLoc = SOURCE
+·     CarrierZoneName</p></li><li><p>Event Report Acknowledge (ERA)
+S6,F12
+Æ</p></li><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+ZoneCapacityChange
+6.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="7"><li>No TRANSFER command issued by
+Host since recovery is
+automatic.</li></ol><h1>8</h1><ol start="8"><li>ÅS6,F11
+Event Report Send (ERS)
+CarrierTransferring
+·     CarrierID =
+“UNKNOWNSTK001”
+·     CarrierLoc
+·     CarrierZoneName</li></ol><h1>9</h1><ol start="9"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+ZoneCapacityChange
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><h1>10</h1><ol start="10"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+CraneActive</p><h1>11</h1><ol start="11"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 49
+STEP             COMMENTS               HOST             SC                COMMENTS</p><h1>12</h1><ol start="12"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+CraneIdle</p><h1>13</h1><ol start="13"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><h1>14</h1><ol start="14"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+CarrierWaitOut
+·     CarrierID =
+“UNKNOWNSTK001”
+·     CarrierLoc = “LP1”
+·     PortType = “LP”
+·     CarrierZoneName</p><h1>15</h1><ol start="15"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+ZoneCapacityChange
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><h1>16</h1><ol start="16"><li>ÅS6,F11
+Event Report Send (ERS)
+IDReadError
+·     CarrierID =
+“UNKNOWNSTK001”
+·     CarrierLoc
+·     IDReadStatus = 1</li></ol><h1>17</h1><ol start="17"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><h1>18</h1><ol start="18"><li>Carrier leaves the domain of
+the stocker as it is acquired
+by a person(PGV)</li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+CarrierRemoved
+·     CarrierID
+·     HandoffType = MANUAL</p><h1>19</h1><ol start="19"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><h1>20</h1><ol start="20"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+ZoneCapacityChange</p><h1>21</h1><ol start="21"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><ol start="13"><li><p>2.4  Host Initiated CANCEL of a TRANSFER Command</p></li><li><p>2.4.1  The  Host  wishes  to  cancel  a  previously  issued  transfer  command.    The  assumption  is  that  the  carrier  is
+currently sitting on a stocker shelf and has not been picked up by the stocker crane.
+STEP             COMMENTS               HOST             SC                COMMENTS</p></li><li><p>Assumption is that a TRANSFER
+command(CommandID = 111111) is
+in the QUEUED state.</p></li><li><p>Host Command Send (HCS)
+CANCEL
+·     CARRIERID = “111111”
+S2,F41
+Æ</p></li><li></li></ol><p>ÅS2,F42
+Host Command Acknowledge (HCA)
+4.</p><p>ÅS6,F11
+Event Report Send (ERS)
+TransferCancelInitiated
+·     CommandID = “111111”
+·     CarrierID = “123456”
+·     CarrierLoc = “STORAGE”
+·     CarrierZoneName
+5.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="6"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+TransferCancelCompleted
+·     CommandID = “111111”
+·     CarrierID = “123456”
+·     CarrierLoc = “STORAGE”
+·     CarrierZoneName
+7.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="8"><li>Event Report Acknowledge (ERA)
+S6,F12
+Æ</li></ol><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 50
+13. 2.5  Host Initiated ABORT of a TRANSFER Command
+13. 2.5.1  The  Host  wishes  to  abort  a  previously  issued  transfer  command.  The  assumption  is  that  the  carrier  is
+currently in the ALTERNATE substate of STORED.
+STEP             COMMENTS               HOST             SC                COMMENTS</p><ol><li><p>Assumption is that a TRANSFER
+command (CommandID = 111111)
+is in the ACTIVE state.</p></li><li><p>Host Command Send (HCS)
+ABORT
+·     COMMANDID = “111111”
+S2,F41
+Æ</p></li><li></li></ol><p>ÅS2,F42
+Host Command Acknowledge (HCA)
+4.                                                    The stocker must abort the
+transfer command if the carrier
+was in the ALTERNATE sub-state.
+Other INSTALL stocker carrier
+states may cause ABORT command
+rejection.  The latter scenario
+is supplier specific.
+5.</p><p>ÅS6,F11
+Event Report Send (ERS)
+TransferAbortInitiated
+·     CommandID = “111111”
+·     CarrierID = “123456”
+·     CarrierLoc = “STOCKER
+CRANE”
+·     CarrierZoneName
+6.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="7"><li><p>ÅS6,F11
+Event Report Send (ERS)
+TransferAbortCompleted
+·     CommandID = “111111”
+·     CarrierID = “123456”
+·     CarrierLoc = “STOCKER
+CRANE”
+·     CarrierZoneName</p></li><li><p>Event Report Acknowledge (ERA)
+S6,F12
+Æ</p></li><li><p>Event Report Acknowledge (ERA)
+S6,F12
+Æ</p></li><li><p>Two options may be available
+for recovery:</p></li><li><p>Manual Recovery</p></li><li><p>Host Initiated Recovery
+The host would have to issue a
+TRANSFER command to dispose of
+the carrier on the stocker
+crane end-effector for the
+crane to be utilized for
+future transfers.
+This is a Supplier Option</p></li></ol><ol start="13"><li>2.6  Connection or Reconnection between SC and Host</li><li>2.6.1  The  Host  System  crashes  (or  loses  communication  with  the  SC  for  a  time  exceeding  all  time-outs  and
+retries)  and  must  re-synchronize  with  the  SC  with  the  possibility  of  several  events  completing  while  the
+communication link was lost.
+STEP             COMMENTS               HOST             SC                COMMENTS</li><li>Communication session between
+host and SC (re)established.</li></ol><p>Host establishes communication
+with the SC per the GEM
+standard scenario (e.
+g., S1F13,
+etc).</p><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 51
+STEP             COMMENTS               HOST             SC                COMMENTS
+2.
+Host Command Send (HCS)
+PAUSE
+S2,F41
+Æ</p><ol start="3"><li></li></ol><p>ÅS2,F42
+Host Command Acknowledge (HCA)
+4.</p><p>ÅS6,F11
+Event Report Send (ERS)
+SCPauseInitiated
+5.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="6"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+SCPauseCompleted
+7.</p><p>S6,F12
+Æ</p><ol start="8"><li>Selected Equipment Status
+Request (SSR)
+ActiveCarriers
+ActiveZones
+ActiveTransfers
+S1,F3
+Æ
+HOST asks for carrier, zone and
+transfer command information</li><li></li></ol><p>ÅS1,F4
+Selected Equipment Status Data
+(SSD)
+·   ActiveCarriers
+.
+.   (one CarrierInfo for each
+carrier)
+.
+·   ActiveZones
+.
+.   (one ZoneData for each
+zone)
+.
+·   ActiveTransfers
+.
+.   (one TransferCommand for
+each
+.   Active TRANSFER command)
+10.
+The HOST updates its model of
+the system with the information
+from the status data.</p><ol start="11"><li>Host Command Send (HCS)
+RESUME
+S2,F41
+Æ
+HOST enables the system to
+continue operations.</li><li></li></ol><p>ÅS2,F42
+Host Command Acknowledge (HCA)
+13.</p><p>ÅS6,F11
+Event Report Send (ERS)
+SCAutoInitiated
+14.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="15"><li></li></ol><p>ÅS6,F11
+Event Report Send (ERS)
+SCAutoCompleted
+16.
+Event Report Acknowledge (ERA)
+S6,F12
+Æ</p><ol start="17"><li>System continues processing all
+commands that were in process
+or queued before/during the
+Host crash or communication
+loss/initialization.  System
+will also now process new
+commands.</li></ol><p>14  GEM Capabilities
+14. 1  The  purpose  of  this  section  is  to  specify  any
+SEMI E30 additional capabilities that are required to be
+supported by this class of equipment.
+14. 2  Requirement
+14. 2.1  This   standard   requires   that   the   SEMI   E30
+fundamental  requirements  and  additional  capabilities
+have been implemented on the Stocker SEM equipment
+with  the  exception  of  Trace  Data  Collection,  Process
+Program     Management,     Remote     Control,     Limits
+Monitoring   and   Spooling.   If   these   capabilities   are
+implemented,  they  will  be  implemented  as  required  by
+the  SEMI  E30  document.  The  Stocker  SEM  Transfer
+Command   State   Model   serves   as   the   SEMI   E30
+Processing  State  Model.  The  SEMI  E30  additional
+capabilities required by Stocker SEM are:
+• Establish Communications,</p><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 52
+• Dynamic Event Report Configuration,
+• Variable Data Collection,
+• Status Data Collection,
+• Alarm Management,
+• Equipment Constants,
+• Equipment Terminal Services,
+• Clock, and
+• Control (host-initiated).</p><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 53
+RELATED INFORMATION 1
+STOCKER SEM UNIQUE CAPABILITIES
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E88,  but  was  approved  for  publication  by  full
+letter ballot procedures.
+R1-1  Transfer Command Message Example (SML Format)
+R1-1.1  Variable data values specified in the following example TRANSFER command have been chosen arbitrarily
+for the purpose of demonstrating message structure/content.</p><p>S2,F49
+L <!-- -->[4]<!-- -->
+U2       0                                                 /<em>       DATAID       </em>/
+&lt;A<!-- -->[0]<!-- -->       “”                                                 /<em>       OBJSPEC       </em>/
+&lt;A<!-- -->[8]<!-- -->       “TRANSFER”&gt;                                          /<em>       RCMD       </em>/
+L       <!-- -->[2]<!-- -->
+L       <!-- -->[2]<!-- -->
+&lt;A<!-- -->[11]<!-- -->       “COMMANDINFO”                     /<em>       CPNAME
+1
+</em>/
+&lt;L<!-- -->[2]<!-- -->
+&lt;L<!-- -->[2]<!-- -->
+&lt;A<!-- -->[9]<!-- -->       “COMMANDID”       /<em>       CPNAME       </em>/
+&lt;A<!-- -->[6]<!-- -->       “111111”&gt;              /<em>       CPVAL       </em>/</p><blockquote><p>&lt;L<!-- -->[2]<!-- -->
+&lt;A<!-- -->[8]<!-- -->       “PRIORITY”&gt;              /<em>       CPNAME       </em>/
+U2       5                     /<em>       CPVAL       </em>/</p><p>L       <!-- -->[2]<!-- -->
+&lt;A<!-- -->[12]<!-- -->       “TRANSFERINFO”                     /<em>       CPNAME
+2
+</em>/
+&lt;L<!-- -->[3]<!-- -->
+&lt;L<!-- -->[2]<!-- -->
+&lt;A<!-- -->[9]<!-- -->       “CARRIERID”&gt;              /<em>       CPNAME       </em>/
+&lt;A<!-- -->[6]<!-- -->       “123456”&gt;              /<em>       CPVAL       </em>/</p><p>&lt;L<!-- -->[2]<!-- -->
+&lt;A<!-- -->[6]<!-- -->       “SOURCE”&gt;              /<em>       CPNAME       </em>/
+&lt;A<!-- -->[0]<!-- -->       “”&gt;                     /<em>       CPVAL       </em>/</p><p>&lt;L<!-- -->[2]<!-- -->
+&lt;A<!-- -->[4]<!-- -->       “DEST”&gt;              /<em>       CPNAME       </em>/
+&lt;A<!-- -->[5]<!-- -->       “SHELF”&gt;              /<em>       CPVAL       </em>/</p></blockquote><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 54</p><blockquote></blockquote><p>R1-2  Parallel Interface for Carrier Handoff
+POD
+Ceiling
+Raised Floor
+Overhead Vehicle (OHV)
+Production
+or
+AMHS
+Equipment
+(Side View)
+Photocoupled Parallel
+I/O Devices
+Floor
+running
+AGV/RGV
+Automated or Rail
+Guided Vehicle (AGV/RGV)
+Female Connector Plug
+Photocoupled Parallel
+I/O Devices</p><p>A-1.1.1.2 Figure R1-1
+A-1.1.1.3 Carrier Handoff Example Diagram for OHV/AGV/RGV
+A-1.1.1.4
+A-1.1.1.5</p><p>A-1.1.1.6 Figure R1-2
+A-1.1.1.7 Carrier Handoff Example Diagram for DWC
+A-1.1.1.8</p><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 55
+A-1.1.1.9
+R1-3  Hardware Architecture
+Factory Host
+SC
+1
+Stocker
+Unit 1
+...
+Stocker SEM
+GEM
+HSMS-SS
+LAN
+...
+SC
+N
+...
+Key Characteristics
+• SC provides a single communication connection to Host
+• One-to-many(one or more) mapping of SC’s to stocker units
+• Interbay and Intrabay controls decoupled from Stocker controls
+SC
+Stocker Units
+Stocker
+Unit M
+Stocker
+Unit 1
+Stocker
+Unit M</p><p>A-1.1.1.10 Figure R1-3
+A-1.1.1.11 SC Architecture (Logical View)
+A-1.1.1.12</p><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 56
+R1-4  Stocker Command Scheduling Characteristics
+R1-4.1    At  a  minimum,  the  SC  must  offer  Priority-based  First-In-First-Out  (FIFO)  queuing  of  TRANSFER
+commands.  In other words, all TRANSFER commands which have yet to be processed by the SC must be serviced
+in the order in which they are received by the SC based on the priority given in the host command.  The minimum</p><p>priority levels required to be available on Stocker SEM equipment are “Normal” and “High” (refer to Figure R1-4
+for an example). “Normal” and “High” priorities will be denoted by U2 compatible numbers as per the definition of
+the  priority  in  the  Variable  Data  and  Remote  Command  sections  of  this  document.    Other  options  may  be
+implemented, but to be a Stocker SEM equipment it must at a minimum have the ability to be configured to perform
+Priority-based  FIFO  queuing  of  TRANSFER  commands.    Additionally,  the  command  priorities  are  to  be  utilized
+during  execution  of  the  commands  to  the  following  level:    any  “High”  priority  command  will  cause  all  other
+commands  that  are  not  “High”  priority  to  be  usurped.    That  is  to  say  that  all  other  commands  will  modify  the
+execution  steps  to  allow  the  “High”  priority  commands  to  be  completed  in  the  minimal  elapsed  time  possible.
+Multiple “High” priority commands will act upon each other according to the same rules as “Normal” commands act
+on each other.</p><p>The following TRANSFER commands are
+received by the SC in top to bottom order:
+TRANSFER Command
+Priority
+1Normal
+2Normal
+3High
+4Normal
+5High
+4    2    1    5    3
+head
+tail
+Corresponding SC processing queue
+for outstanding TRANSFER commands :
+Normal
+High</p><p>A-1.1.1.13 Figure R1-4
+A-1.1.1.14 SC Priority-Based FIFO TRANSFER Command Processing Example
+A-1.1.1.15
+R1-4.2  The SC must manage the resources so that TRANSFER requests are queued for later service if all resources
+are currently utilized.</p><p>SEMI E88-1104
+E
+© SEMI 1999, 2004 57
+RELATED INFORMATION 2
+REQUIREMENTS FOR COMPLIANCE
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E88,  but  was  approved  for  publication  by  full
+letter ballot procedures.
+Table R2-1 provides a checklist for Stocker SEM compliance.
+R2-1  Stocker SEM Compliance Statement
+Table R2-1  Stocker SEM Compliance Statement
+Fundamental Stocker SEM Requirements Implemented Stocker SEM Compliant
+SC State Model □ Yes   □ No □ Yes   □ No
+Transfer Command State Model  □ Yes   □ No □ Yes   □ No
+Stocker Crane State Model (optional, see section 8.5) □ Yes   □ No □ Yes   □ No
+Stocker Carrier State Model □ Yes   □ No □ Yes   □ No
+Collection Event List □ Yes   □ No □ Yes   □ No
+Collection Event Data Availability □ Yes   □ No □ Yes   □ No
+Variable Data Items □ Yes   □ No □ Yes   □ No
+Variable Data Availability □ Yes   □ No □ Yes   □ No
+Alarm List □ Yes   □ No □ Yes   □ No
+Remote Command List □ Yes   □ No □ Yes   □ No
+Remote Command Parameters □ Yes   □ No □ Yes   □ No
+Remote Command Mapping □ Yes   □ No □ Yes   □ No
+Transfer Command Format □ Yes   □ No □ Yes   □ No
+System Architecture □ Yes   □ No □ Yes   □ No
+Stocker Command Scheduling Characteristics □ Yes   □ No □ Yes   □ No</p><p>NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer&#x27;s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E90-0705 © SEMI 1999, 2005 1
+SEMI E90-0705
+SPECIFICATION FOR SUBSTRATE TRACKING
+This  specification  was  technically  approved  by  the  global  Information  &amp;  Control  Committee.    This  edition
+was  approved  for  publication  by  the  global  Audits  and  Reviews  Subcommittee  on  April  7,  2005.    It  was
+available   at   <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a>   in   June   2005   and   on   CD-ROM   in   July   2005.      Originally   published
+September 1999; previously published March 2004.
+1  Purpose</p><ol><li>1  The purpose of this standard is to provide the standard services of equipment to track substrates (manufactured
+product)  in  manufacturing  equipment.  This  standard  defines  the  concepts  and  behaviors  for  the  information
+management of substrates, as well as the messages/services.
+2  Scope</li><li>1  Essentially,  information  about  substrates  must  be  managed  by  the  factory  system,  while  the  equipment  is
+required to provide the services for the substrate information management. This standard addresses the requirement
+for the equipment services to manage information of substrates that reside in the equipment.</li><li>2  The scope of this standard is to define the information services of equipment that can be requested by the user.
+To  clarify  required  services,  the  concepts  and  behaviors  of  the  substrate,  the  substrate  location,  the  batch  and  the
+batch location are defined.</li><li>3  This  standard  is  applicable  to  any  manufacturing  equipment  that  handles  substrates.  To  implement  these
+services, the equipment and factory system must be integrated by means of a communication link.
+NOTICE:  This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Limitations</li><li>1  This  standard  assumes  that  the  substrate(s)  to  be  managed  has  been  resident  in  the  equipment  and  has  been
+given a substrate identifier.</li><li>2  The  service  for  a  substrate  is  valid  while  the  substrate  is  registered  in  the  equipment.  That  is,  the  service  is
+available from the moment that the substrate is registered into the equipment and, to the moment that the substrate is
+removed from the equipment.</li><li>3  This standard is only for information services.  It does not address any mechanism to read or write information
+from/to the substrate.
+4  Referenced Standards and Documents</li><li>1  SEMI Standards
+SEMI E30 — Generic Model for Communications and Control of Manufacturing Equipment (GEM)
+SEMI E39 — Object Services Standard: Concepts, Behavior, and Services
+SEMI E53 — Event Reporting
+SEMI E87 — Specification for Carrier Management (CMS)
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+5  Terminology</li><li>1  Definitions</li><li>1.1  batch — a group of substrates to be processed in a process resource simultaneously.</li><li>1.2  batch  location  —  locations  in  the  equipment  where  substrates  visit  as  a  group  of  substrates  for  storage  or
+processing.</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 2
+5. 1.3  batch  container  —  a  supporting  structure  that  is  used  to  hold  substrates  for  processing,  and  it  may  visit
+multiple locations in equipment with substrates in it. Whether a batch container is used or not depends on the type of
+equipment. Typical example for a batch container is a “boat” used in furnace equipment.
+5. 1.4  carrier ID — the name to identify a specific substrate carrier.
+5. 1.5  carrier slot — physical location capable of holding a substrate within cassette type carrier.
+5. 1.6  carrier slot map — the registry of substrates to the substrate carrier slots.
+5. 1.7  carrier substrate location — a substrate location within a substrate carrier capable of holding a substrate.
+5. 1.8  default  substrate  ID  (default  ID)  —  the  substrate  ID  assigned  to  the  substrate  when  no  substrate  ID
+information is given by the user but the carrier ID for the source carrier is known. The default ID is the combined
+text of the source carrier ID and the slot number.
+5. 1.9  equipment substrate location — a substrate location on a equipment resource.
+5. 1.10  location ID — the name of a material location.
+5. 1.11  lot — a group of one or more substrates of the same type. A lot must be organized by the user. The group
+may be referred to for tracking of substrates in the factory.
+5. 1.12  material location — an identifiable place within the equipment or carrier where material can be held.
+5. 1.13  register — an  operation  that  adds  the  substrate  object  to  the  equipment’s  database.    This  operation  is
+performed  automatically  when  the  equipment  receives  both  a  carrier  and  information  from  the  host  about  the
+contents of the carrier.  The operation is also performed automatically when the equipment detects the substrate ID.
+5. 1.14  remove — the operation that removes a substrate from the equipment.
+5. 1.15  service — represents a function offered to a user by a provider. A service consists of a sequence of service
+primitives, each described by a list of parameters.
+5. 1.16  substrate  —  the  basic  unit  of  material  on  which  work  is  performed  to  create  a  product.    Examples  include
+wafers, die, plates used for masks, flat panels, circuit boards, and leadframes.
+5. 1.17  substrate carrier — a carrier to hold substrates to be transferred to/from the equipment. A substrate carrier
+has one or more position to hold substrates (carrier substrate location).
+5. 1.18  substrate history — ordered set of information about the locations visited by the substrate.
+5. 1.19  substrate ID — identifier of a substrate.
+5. 1.20
+substrate  location  —  a  material  location  which  is  capable  of  holding  a  substrate.  For  example,  but  not
+limited to, process modules, transfer subsystems, wafer chucks, robot end effecter, and carrier slots.
+5. 1.21  substrate type — represents the type of the substrate, such as wafers, CDs, flat panels, or masks.
+5. 2  Data Type
+5. 2.1  Boolean — may take on one of two possible values, equating to TRUE or FALSE.
+5. 2.2  enumerated — may take on one of a limited set of possible values. These values may be given logical names,
+but they may be represented by any single-item data type except floating point.
+5. 2.3  floating point — may take on any single numeric value, positive or negative. Messaging protocol may impose
+a limit on the range of possible values.
+5. 2.4  form —  type  of  data:  positive  integer,  unsigned  integer,  integer,  floating  point,  enumerative,  Boolean,  text,
+formatted text, structure, list, and ordered list.
+5. 2.5  formatted text — text with an imposed format. This could be by position, by use of special characters, or both.
+5. 2.6  integer — may take on the value of any negative or unsigned integer.  Messaging protocol may impose a limit
+on the range of possible values.
+5. 2.7  list — a set of one or more items that are all of the same form (one of the above forms).</p><p>SEMI E90-0705 © SEMI 1999, 2005 3
+5. 2.8  ordered list — a list for which the order in which items appear is significant.
+5. 2.9  positive integer — may take the value of any positive whole number.  Messaging protocol may impose a limit
+on the range of possible values.
+5. 2.10  structure — a complex set of information consisting of specific sets of items of possibly mixed data types, in
+a specified arrangement.
+5. 2.11  text — a text string.  The message protocol restricts its length or ASCII representation. Messaging protocol
+may impose restrictions, such as length or ASCII representation.
+5. 2.12  unsigned integer  —  may  take  the  value  of  any  positive  integer  or  zero.    Messaging  protocol  may  impose  a
+limit on the range of possible values.
+6  Convention
+6. 1  Harel State Model
+6. 1.1  This document uses the Harel state chart convention for describing dynamic operation of defined objects.  The
+outline of this convention is described in an attachment of SEMI E30.  The official definition of this convention is
+described in “Statecharts: A Visual Formalism for Complex Systems” written by D. Harel in Science of Computer
+Programming 8, 1987.
+1</p><ol start="6"><li><p>1.2  A transition table is used with the state chart for clearly describing the character of each state transition.  The
+table contains the folllowing: a transition number, current state, trigger, new state, and operation in transition.</p></li><li><p>1.3  The  state  models  included  in  this  standard  are  a  requirement  for  Substrate  Tracking  compliance.    A  state
+model consists of a state model diagram, state definitions, and a state transition table.  When using collection events,
+all state transitions in this standard, unless otherwise specified, shall correspond to collection events.</p></li><li><p>1.4  A  state  model  represents  the  host’s  view  of  the  equipment  and  does  not  necessarily  describe  the  internal
+equipment operation.  When using collection events, all Substrate Tracking state model transitions shall be mapped
+sequentially  into  the  appropriate  internal  equipment  collection  events  that  satisfy  the  requirements  of  those
+transitions.    In  certain  implementations,  the  equipment  may  enter  a  state  and  have  already  satisfied  all  of  the
+conditions required by the Substrate Tracking state models for transition to another state.  In this case, the equipment
+makes the required transition without any additional actions.</p></li><li><p>2  OMT Object Information Model</p></li><li><p>2.1  The  object  models  are  represented  using  the  Object  Modeling  Technique  (OMT)  developed  by  Rumbaugh,
+James, et al, in Object Oriented Modeling Design, Prentice Hall, Englewood Cliffs, NJ, 1991.
+2</p></li><li><p>2.2  An overview of this notation is provided in the Appendix 1 of SEMI E39.</p></li><li><p>3  Object Attributes Representation</p></li><li><p>3.1  The object information model for standardized objects will be supported by an attribute definition table with
+the following column headings:</p></li></ol><p>Attribute Name Definition Access Reqmt Format
+The formal text name of the attributes. Description of
+information contained.
+RO or RWY or N Refer to the description
+below.</p><ol start="6"><li>3.1.1  The Access column uses RO (read only) or RW (read/write) to indicate the access that a service user has to
+the attribute.</li><li>3.1.2  A “Y” or “N” in the Requirement (Reqmt) column indicates if this attribute must be supported in order to
+meet the fundamental requirement for the service.</li><li>3.1.3  The Format column is used for showing the data type of the attribute. (See ¶5.2.)</li></ol><p>1  Elsevier Science, P.O. Box 945, New York, NY 10159-0945, <a href="http://www.elsevier.nl/homepage/browse.htt" target="_blank" rel="noopener noreferrer">http://www.elsevier.nl/homepage/browse.htt</a>
+2  Prentice Hall, Inc., Upper Saddle River, NJ 07458, <a href="http://www.prenhall.com/divisions/ecs/cscat.html" target="_blank" rel="noopener noreferrer">http://www.prenhall.com/divisions/ecs/cscat.html</a></p><p>SEMI E90-0705 © SEMI 1999, 2005 4
+6. 4  Service Message Representation
+6. 4.1  Service Resource Definition — A service resource definition table defines the specific sets of messages for a
+service group, as shown in the following table:</p><p>Message Service Name                                        Type                                        Description
+Message name N or R Purpose of the service.</p><ol start="6"><li>4.1.1  Type  can  be  either  N  =  Notification  or  R  =  Request.    Notification  type  messages  are  initiated  by  a  service
+provider and the provider does not expect to get the response from the service user or requester.</li><li>4.1.2  Request  messages  are  initiated  by  a  service  user  or  requester.    The  Request  message  asks  for  data  or  an
+activity from the provider.  Request messages expect a specific response message (no presumption on the message
+context).</li><li>4.2  Service Parameter Dictionary — A service parameter dictionary table defines the parameters for one or more
+services, as shown in the following table:</li></ol><p>Parameter                                               Form                                               Description
+Parameter X Data type The parameter called X is B in A.</p><ol start="6"><li>4.2.1  A row is provided in the table for each parameter of the service.  The first column contains the name of the
+parameter. This is followed by columns describing form and contents of the corresponding primitive.</li><li>4.2.2  The Form column is used to indicate the type of data contained in a parameter. (See ¶5.2 for definitions.)</li><li>4.2.3  The Description column in the Service Parameter Dictionary table describes the meaning of the parameter,
+the values it can assume, and any interrelationships with other parameters.</li><li>4.2.4  To prevent the definition of numerous parameters named “XxxList”, this document adopts the convention of
+referring to the list as “(List of) Xxxx”. In this case, the definition of the variable Xxx will be given, not of the list.
+The term “list” indicates a collection (or set) of zero or more items of the same data type.  Where a list is used in
+both the request and the response, the list order in the request is retained in the response.  A list must contain at least
+one element unless zero elements are specifically allowed.</li><li>4.3  Service Message Definition — A service message definition table defines the parameter used in a service, as
+shown in the following table:</li></ol><p>Parameter                                    Req/Ind                                    Rsp/Conf                                    Description
+Parameter X see below see below A description of the service.</p><ol start="6"><li>4.3.1  The  columns  labeled  Req/Ind  and  Rsp/Conf  link  the  parameters  to  the  direction  of  the  message.  The
+message sent by the initiator is called the “Request”. The receiver terms this message the “Indication”. The receiver
+may then send a “Response”, which the original sender terms the “Confirmation”.</li><li>4.3.2  The  following  codes  appear  in  the  Req/Ind  and  Rsp/Conf  columns,  and  are  used  in  the  definition  of  the
+parameters (e.g., how each parameter is used in each direction):
+“M” — Mandatory Parameter – must be given a valid value.
+“C” — Conditional Parameter – may be defined in some circumstances and undefined in others. Whether a value
+is given may be completely optional or may depend on the values of other parameters.
+“U” — User-Defined Parameter
+“-” — The parameter is not used.
+“=”—  (for  response  only)  Indicates  that  the  value  of  this  parameter  in  the  response  shall  match  the  value  in  the
+primary (if defined).</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 5
+7  Overview
+7. 1  Purpose of Substrate Tracking
+7. 1.1  Substrate tracking consists of the following capabilities, as described below:
+7. 1.2  Substrate Location Tracking — Substrate Location Tracking provides the capability to determine the current
+location of substrates in the equipment. The indication of the substrate location will help the user to understand the
+environment to which the substrate is exposed in the equipment.
+7. 1.3  Batch Location Tracking — Batch Location Tracking provides the capability to determine the current location
+of  a  group  of  substrates  in  the  equipment.  Typical  example  of  a  substrates  group  is  a  batch  in  batch  process
+equipment.
+7. 1.4  Substrate History Record — Substrate History Record provides the capability to read the history of substrates
+in the equipment. The user can inquire about the history of a particular substrate, substrate location, or batch location
+with  substrate  position  in  a  batch.    A  history  includes  the  series  of  locations  that  the  substrate  has  visited  in  the
+equipment.
+7. 1.5  Substrate  Process  Tracking  —  Substrate  Process  Tracking  provides  the  capability  of  tracking  current
+substrate  processing  state.  For  example,  the  user  may  determine  whether  a  substrate  is  processed  or  not  by
+requesting  its  state  when  the  process  has  been  completed  abnormally.  The  user  may  use  the  state  transitions  to
+trigger wafer level data collection.
+7. 2  View of Substrate Tracking
+7. 2.1  Figure 1 shows the view of Substrate Tracking using the OMT representation. It is assumed that substrates are
+available  before  usage  of  the  services.  Substrate  carriers  may  or  may  not  be  used  to  load  the  substrates  to  the
+equipment. Substrates are loaded into the equipment and travel through substrate locations and batch locations. The
+equipment must maintain all information necessary to track substrates in the equipment.
+7. 3  Substrate Location and Batch Location
+7. 3.1  A substrate location is a discrete position that can hold a substrate in the equipment. This document will not
+define  where  the  substrate  location  exists.  Substrate  locations  shall  be  determined  by  the  design  of  equipment  and
+the applications. For example, to track the order of process chambers that is applied to a substrate process in a multi-
+chamber single wafer process equipment, it is appropriate to designate process chambers for substrate locations.  On
+the  other  hand,  in  batch  process  equipment,  process  chambers  are  designated  for  batch  locations  and  substrate
+locations are not used to track the order of process chambers that is applied to the substrates of a batch.  All substrate
+locations shall be documented by the equipment supplier.
+7. 3.2  Batch  Location  indicates  the  physical  location  of  a  group  of  substrates  (e.g.,  batch)  on  the  equipment.
+Generally in batch process equipment, Batch Location is assigned to a process chamber and changed when a batch is
+transferred  from  one  chamber  to  another.  Individual  substrate  positions  in  a  batch  (e.g.,  slot  positions  of  a  batch
+container  or  a  process  carrier)  might  be  informed  with  Batch  Location.    Batch  Locations  and  notation  of  the
+substrate positions in a batch are defined and documented by the equipment supplier.
+7. 3.3  Figure  2  shows  the  concept  of  the  substrate  location  using  OMT  representation.  This  figure  is  provided  to
+clarify the definition of locations.</p><p>SEMI E90-0705 © SEMI 1999, 2005 6
+SubstrateLot
+belongs
+to
+Equipment
+Processes
+1+
+Substrate
+Location
+1+
+held
+Substrate
+Carrier
+1+
+Batch
+Location
+held
+provides
+provides</p><p>Figure 1
+Overview of Substrate Tracking</p><p>Car r ier
+Location
+Carrier
+holds
+Substrate
+Location
+Equipment
+Substrate
+Location
+Car r ier
+Substrate
+Location
+Ma t e r ia l
+Location
+Substrate
+has
+Batch
+Location
+held
+held</p><p>Figure 2
+Concept of Substrate Location</p><ol start="7"><li>3.4  Material  Location  is  classified  into  Substrate  Location,  Batch  Location,  and  Carrier  Location.  A  Carrier
+Location may hold a carrier, a Substrate Location may hold a substrate, and a Batch Location may hold a group of
+substrates. Typical example of a substrates group is a batch in batch process equipment.</li><li>3.5  Substrate Location is classified into Equipment Substrate Location and Carrier Substrate Location. Carrier has
+Carrier Substrate Locations. A Carrier Substrate Location is the location which can hold a substrate in a carrier. An
+Equipment Substrate Location is the location which can hold a substrate on the equipment resource.</li><li>3.6  Substrate travels on substrate locations and/or batch locations.</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 7
+7. 4  Identification of Substrate
+7. 4.1  Substrate shall be identified by substrate ID. There are options for assigning substrate ID to a substrate.
+• When a carrier is used for loading substrates and the carrier is given its carrier ID, substrate IDs can be obtained
+by  utilizing  the  carrier  ID  and  carrier  substrate  location.  This  standard  will  define  the  requirement  for  the
+substrate ID assignment to the substrates in a carrier.
+• Substrate ID may be read from the substrate directly by a substrate ID reader. The substrate ID read from the
+substrate can be used for the identification.
+• Substrate  ID  may  be  assigned  by  the  user  (i.e.,  host  or  operator).  The  substrate  ID  can  be  used  for  the
+identification. This standard will define the service for registering substrates.
+7. 4.2  The recommendation of a particular option for assigning substrate IDs is not within the scope of this standard.
+It must be selected based on the equipment design and applications.
+8  Substrate Tracking Requirement
+8. 1  Compliance  to  Substrate  Tracking  Service  (STS)  requires  that  an  implementation  also  provide  certain
+capabilities that are defined in other standards.
+• STS  requires  compliance  to  SEMI  E39  (OSS)  for  Substrate  objects.    The  attributes  of  these  objects  may  be
+accessed through use of the GetAttr and SetAttr services.
+• STS requires an event reporting capability. This capability may be satisfied by the Event Reporting capability in
+SEMI E30 (GEM) or by SEMI E53 (ERS).
+8. 2  STS compliant equipment must implement capabilities defined in the following sections of this document:
+• §9, Substrate Object Definition,
+• §10, Substrate Location Object Definition,
+• §12, Substrate Tracking Services,
+• §13, Variable Data, if SEMI E53 is not implemented, and
+• §11, Batch Location Object Definition, is an optional requirement.
+8. 3  When the equipment provides a substrate reader, the equipment shall implement an equipment constant to allow
+the host to choose between using or not using this capability. The equipment constant: “SubstrateReaderEnabled” is
+used  to  choose  whether  or  not  the  equipment  performs  the  reading  of  the  substrate  and  use  the  Substrate  Reading
+Status state model. The equipment is responsible for creating the substrate objects. The substrate ID assigned to the
+substrate object is the same as the one provided by the host in the ContentMap attribute or created by the equipment
+using  the  following  rule  when  the  SubstID  in  the  content  map  is  not  provided.  The  default  substrate  ID  shall  be
+represented in text as the carrierID, a period and the substrate slot location. For example, if CarrierID = “xyz” and
+substrate slot location = “5”, then the substrate ID would be = “xyz.05”.
+8. 4  All state transitions defined for the three state models specified in this document must be reportable via discrete
+collection events as defined in ¶6.1, Harel State Model.  The three state models are the Substrate Object State Model
+(Figure 3), the Substrate Location State Model (Figure 4) and the Batch Location State Model (Figure 5).
+8. 4.1
+The  data  in  Table  15  (Variables  Required  for  Substrate  Object  State  Model  Transitions) is  required  to  be
+available  for  the  Substrate  Object  State  Model  transition  collection  events.    Fixed  buffer  equipment  must  support
+discrete state transitions for Substrate.  Internal buffer equipment must support related state transitions that occur for
+a group of Substrate objects.  An equipment may support both discrete and related state transitions for Substrate.
+8. 4.2  The data in Table 16 (Variables Required for Substrate Location Object State Model Transitions) is required
+to be available for the Substrate Location Object State Model transition collection events.
+8. 4.3  The data in Table 17 (Variables Required for Batch Location Object State Model Transitions) is required to be
+available for the Batch Location Object State Model transition collection events.</p><p>SEMI E90-0705 © SEMI 1999, 2005 8
+8. 5  Each  Substrate  Object  instantiated  on  the  equipment  must  maintain  an  independent  instance  of  the  Substrate
+Object  State  Model.  When  discrete  and  unrelated  state  transitions  occur  for  Substrate  Object  models,  each  shall
+trigger  a  separate  collection  event.  However,  when  related  state  transitions  occur  for  a  group  of  Substrate  Object
+models (such as with internal buffer equipment material transfers), each model does not trigger a separate collection
+event. Instead, a single collection event shall be triggered (for all related Substrate Objects in the group). The data
+items  defined  in  Table  15  are  required  to  be  valid  for  collection  events  triggered  by  state  model  transitions  in  the
+following way:
+8. 5.1  These variables from Table 15 must be valid for collection events triggered by discrete state transitions:
+• AcquiredID (equipment with substrate ID readers only)
+• SubstID
+• SubstIDStatus (equipment with substrate ID readers only)
+• SubstBatchLocID (batch process equipment only)
+• SubstDestination
+• SubstHistory
+• SubstSubstLocID
+• SubstLotID
+• SubstMtrlStatus
+• SubstPosInBatch (batch process equipment only)
+• SubstProcState
+• SubstSource
+• SubstState
+• SubstType
+• SubstUsage
+8. 5.2  These  variables  from  Table  15  must  be  valid  for  collection  events  triggered  by  a  group  of  related  state
+transitions:
+• AcquiredIDList (equipment with substrate ID readers only)
+• SubstIDList
+• SubstIDStatusList (equipment with substrate ID readers only)
+• SubstBatchLocIDList (batch process equipment only)
+• SubstDestinationList
+• SubstHistoryList
+• SubstLocIDList
+• SubstLotIDList
+• SubstMtrlStatusList
+• SubstPosInBatchList (batch process equipment only)
+• SubstProcStateList
+• SubstSourceList
+• SubstStateList</p><p>SEMI E90-0705 © SEMI 1999, 2005 9
+• SubstTypeList
+• SubstUsageList
+8. 5.3  As an example of how the variables are constructed for related state transitions, the value of SubstIDList shall
+be the list of SubstID data items that identify the Substrate Objects related by the collection event.
+8. 6  Each  Substrate  Location  Object  instantiated  on  the  equipment  must  maintain  an  independent  instance  of  the
+appropriate  Substrate  Location  Object  State  Model.  Each  Substrate  Location  Object  shall  trigger  a  separate
+collection event for each state transition. The data items defined in Table 16 are required to be valid for collection
+events triggered by each state model transition.
+8. 7  Each Batch Location Object instantiated on the equipment must maintain an independent instance of the Batch
+Location  Object  State  Model.  Each  Batch  Location  Object  shall  trigger  a  separate  collection  event  for  each  state
+transition.  The  data  items  defined  in  Table  17  are  required  to  be  valid  for  collection  events  triggered  by  each  state
+model transition.
+9  Substrate Object Definition
+9. 1  A substrate is a base upon which a product unit is built in the manufacturing equipment. Wafers and flat panel
+displays  are  examples  of  substrates.    A  substrate  may  be  associated  with  a  lot,  which  the  factory  uses  for  tracking
+purposes.
+9. 1.1  The  substrate  object  shall  be  created  when  the  substrate  is  registered  by  the  equipment.    There  are  two
+possible ways of registering the substrate.
+(1)  The  substrate  is  registered  by  the  equipment  when  the  information  for  the  carrier  containing  the  substrate  is
+registered.  The  information  required  to  create  a  substrate  object  must  be  provided  with  the  carrier.  However,  the
+specification   of   carrier   management   services   is   outside   the   scope   of   this   standard.      Substrate   Tracking
+implementations shall be consistent with the Carrier Management standard.  For instance, if the Carrier Management
+standard specifies the method of identifying the substrates in a carrier, then Substrate Tracking shall recognize those
+identifiers.
+(2)  The  substrate  is  registered  when  the  substrate  is  transferred  directly  (not  in  a  carrier)  to  the  equipment  by  the
+Create service defined in SEMI E39 to inform the equipment of this event.
+9. 2  Substrate Object State Model
+9. 2.1  A  substrate  has  both  a  state  indicating  where  it  is  located  and  a  state  indicating  the  progress  of  processing.
+These  states  are  represented  by  the  SUBSTRATE  TRANSPORT  and  the  SUBSTRATE  PROCESSING  states,
+which are concurrent substates of the SUBSTRATE State Model shown in Figure 3.
+9. 2.2  If the equipment provides a mechanism for reading substrates, then, the equipment shall include a state model
+in  parallel  with  the  Substrate  Transport  and  Substrate  Processing  States  called  “Substrate  Reading  Status”  See
+Figure 3 and Table 1 for additional requirements.
+9. 3  Substrate Object State Definitions
+9. 3.1  ABORTED  —  The  process  has  been  aborted  during  the  processing.  The  substrate  will  require  special
+treatment.
+9. 3.2  AT  DESTINATION  —  The  substrate  has  been  placed  at  its  designated  destination  substrate  location.  The
+substrate may have been placed at a carrier substrate location when the carrier is used to unload the substrate from
+the  equipment,  or  at  an  equipment  substrate  location  when  the  substrate  is  to  be  removed  by  itself  from  the
+equipment.
+9. 3.3  AT SOURCE — The state which the substrate is originally received. The substrate is held at carrier substrate
+location when a carrier is used to supply the substrate.
+9. 3.4  AT  WORK  —  The  substrate  has  been  taken  from  the  original  substrate  location  or  destination  substrate
+location,  and  is  traveling  on  intermediate  equipment  substrate  locations.    The  substrate  has  been  taken  out  of  the
+carrier and placed into the equipment when a carrier is used to supply the substrate.</p><p>SEMI E90-0705 © SEMI 1999, 2005 10
+AT SOURCE
+AT
+DESTINATION
+1
+AT WORK
+8
+NEEDS
+PROCESSING
+PROCESSING COMPLETE
+10
+IN PROCESS
+14
+SUBSTRATE
+PROCESSEDABORTED
+REJECTED
+C
+LOST
+STOPPEDSKIPPED
+4
+NOT
+CONFIRMED
+WAITING FOR
+HOST
+CONFIRMED
+CONFIRMATION
+FAILED
+17
+2120
+16
+13
+7
+56
+32
+12
+11
+9
+1819
+SUBSTRATE TRANSPORTSUBSTRATE  PROCESSINGSUBSTRATE READING STATUS</p><p>Figure 3
+Substrate Object State Model
+A-1.1.1.1
+9. 3.5  IN  PROCESS  —  Substrate  is  being  processed.    One  or  more  substrate  properties  are  being  changed  by  the
+processing instructions or measurement of the substrate in the equipment.  The nature of the process depends upon
+the equipment processing capabilities.
+9. 3.6  LOST  —  The  terminal  state  when  the  substrate  has  been  broken  and/or  removed  from  the  equipment  by  an
+external entity and it no longer exists at the equipment.
+9. 3.7  NEEDS PROCESSING — Processing requirements exist that have not yet been fulfilled.  This is the default
+entry  state  when  the  substrate  is  originally  received.    In  some  cases,  the  substrate  may  return  to  this  state  while  it
+waits for additional processing to be performed.
+9. 3.8  PROCESSED  —  All  substrate  processing  has  successfully  completed.  No  further  processing  will  be
+performed by the equipment.
+9. 3.9  PROCESSING COMPLETE — The state in which the substrate has completed all processing associated with
+a recipe specification.  The substrate processing completed because the process requirement was aborted, stopped or
+successfully  completed.    The  substrate  is  no  longer  changed  by  the  recipe’s  processing  instructions  or  its
+measurment/inspection  requirements  completed.    This  state  is  a  super-state  of  the  terminal  states  of  the  substrate;
+PROCESSED, ABORTED, REJECTED, LOST, STOPPED, or SKIPPED.
+9. 3.10  REJECTED  —  The  state  which  the  substrate  has  been  processed  completely;  however,  the  result  of  the
+processing  may  have  a  problem.    The  substrate  will  require  special  treatment.    This  substate  is  not  required  for
+equipment that is unable to identify rejected substrates.
+9. 3.11  SKIPPED — As directed by an operator or a host, the substrate was not processed.
+9. 3.12  STOPPED  —  The  process  has  been  stopped  during  the  processing.  The  substrate  will  require  special
+treatment.
+9. 3.13  SUBSTRATE  —  The  superstate  of  the  SUBSTRATE  TRANSPORT  and  SUBSTRATE  PROCESSING.
+SUBSTRATE TRANSPORT and SUBSTRATE PROCESSING are concurrent substates. The state is created when
+the substrate is initially registered to the equipment, and deleted when the substrate is removed from the equipment.
+9. 3.14  SUBSTRATE PROCESSING — The superstate of NEEDS PROCESSING, IN PROCESS, PROCESSING
+COMPLETE which represents the processing state of the substrate.
+9. 3.15  SUBSTRATE  TRANSPORT  —  The  superstate  of  the  AT  SOURCE,  AT  WORK,  AT  DESTINATION
+which represents the transport state of the substrate within the equipment.</p><p>SEMI E90-0705 © SEMI 1999, 2005 11
+9. 3.16  SUBSTRATE  READING  STATUS  —  The  superstate  of  NOT  CONFIRMED,  WAITING  FOR  HOST,
+CONFIRMED  and  CONFIRMATION  FAILED  that  represents  the  status  of  the  substrate  ID  confirmation  by  the
+equipment.
+9. 3.17  NOT  CONFIRMED  —  This  is  the  entry  state  for  the  substrate  object  at  the  time  of  its  creation  when  a
+substrate reader is available and enabled in the equipment.
+9. 3.18  WAITING  FOR  HOST  —  The  status  of  the  substrate  when  the  substrate  ID  could  not  be  identified  by  the
+reader, was discovered to be at a wrong source location or there was no matching ID in the source set.
+9. 3.19  CONFIRMED — The state of the substrate when it’s substrate ID has been confirmed by the equipment or
+the host after it was read.
+9. 3.20  CONFIRMATION FAILED — The state of the substrate when the host decides to cancel the substrate.
+9. 4  Substrate State Transition
+Table 1  Substrate State Model Transition Table
+No.      Current      State      Trigger      New State Action Comment
+1    no state The substrate is registered. AT SOURCE
+2    AT SOURCE The substrate is taken from the
+source substrate location and
+placed into the equipment.
+AT WORK Update substrate
+location history.
+Substrate tracking through the
+equipment substrate locations
+begin.
+3    AT WORK The substrate has moved to the
+source substrate location.
+AT SOURCE Update substrate
+location history.
+This transition is not required
+for compliance to this standard.
+4    AT WORK The substrate has moved out
+from current equipment
+substrate location towards a new
+equipment substrate location.
+AT WORK Update substrate
+location history.
+The substrate has moved
+between equipment substrate
+locations. This transition is not
+required for compliance to this
+standard. This transition is not
+required if the equipment only
+provides a single Equipment
+Substrate Location.
+5    AT WORK The substrate is moved to the
+destination substrate location.
+AT
+DESTINATION
+Update substrate
+location history.</p><p>6    AT
+DESTINATION
+The substrate is taken from the
+destination substrate location
+and placed into the equipment.
+AT WORK Update substrate
+location history.
+This transition is not required
+for compliance to this standard.
+7    AT
+DESTINATION
+The substrate is removed from
+the equipment by a normal
+transfer sequence.
+(Extinction)             The             substrate
+object is deleted
+in the equipment.</p><p>8    AT
+DESTINATION
+The user informs or the
+equipment detects that the
+substrate is AT SOURCE.
+AT SOURCE Update substrate
+location history.
+This transition is not required
+for compliance to this standard.
+9    Any
+SUBSTRATE
+substate
+The equipment detects or is
+informed by the user that a
+substrate has been removed.
+(Extinction)             The             substrate
+object is deleted
+in the equipment.
+The removal may be detected
+by the equipment or informed
+by the user. This transition
+would not occur during normal
+wafer movement. So if
+transition 7 occurs, there is no
+need to report a transition 9.
+10   no state The substrate object is created.     NEEDS
+PROCESSING</p><p>11   NEEDS
+PROCESSING
+Substrate starts actual
+processing.  One or more
+substrate properties begin to be
+affected by the equipment recipe
+instructions or measurement of
+the substrate.
+IN PROCESS  The document for each
+equipment implementation
+shall describe the trigger for
+this transition.</p><p>SEMI E90-0705 © SEMI 1999, 2005 12
+No.      Current      State      Trigger      New State Action Comment
+12   IN PROCESS The processing completes
+because the processing activities
+were aborted, stopped or
+completed.  One or more
+substrate properties are no
+longer affected by the
+processing instructions or
+measurement of the substrate.
+PROCESSING
+COMPLETE
+One of the
+substates
+PROCESSED,
+ABORTED,
+STOPPED,
+REJECTED,
+LOST,
+SKIPPED is
+determined.
+This is a terminal state.  The
+substrate either returns to the
+specified destination or it is no
+longer at the equipment.
+13   IN PROCESS The process associated with the
+processing instructions
+completed and the substrate is to
+be processed again.
+NEEDS
+PROCESSING
+The documentation for each
+equipment implementation
+shall describe the trigger for
+this transition.  This transition
+is not required for compliance
+to this standard.
+14   NEED
+PROCESSING
+The substrate has been removed
+from the equipment by an
+external agent or it is physically
+missing (LOST) or the substrate
+has been not processed
+(SKIPPED).
+PROCESSING
+COMPLETE
+One of the
+substrates LOST,
+SKIPPED, is
+determined.</p><p>15               Not   used.
+16   no state The substrate object is created NOT
+CONFIRMED
+none This transition is not reported.
+17   NOT
+CONFIRMED
+Substrate was successfully read
+and SubstID provided in the
+ContentMap matched the
+AcquiredID read by the
+equipment.
+CONFIRMED Issue an event for
+transition 17.</p><p>Data required to be available
+for this event report:
+SubstID
+AcquiredID
+18   NOT
+CONFIRMED
+Substrate ID reading has failed
+after several retries
+WAITING FOR
+HOST
+Issue an event for
+transition 18.
+Wait for the host
+to issue either
+“ProceedWithSu
+bstrate” or
+“CancelSubstrate
+” services.
+Data required to be available
+for this event report:
+SubstID
+19   NOT
+CONFIRMED
+Substrate ID was successfully
+read but the acquired ID is
+different from the one the
+equipment used to instantiate the
+substrate object.
+WAITING FOR
+HOST
+Issue an event for
+transition 19.
+Wait for the host
+to issue either
+“ProceedWithSu
+bstrate” or
+“CancelSubstrate
+” services.
+Data required to be available
+for this event report:
+SubstID
+AcquiredID
+20   WAITING   FOR
+HOST
+Equipment has received a
+“ProceedWithSubstrate” service.
+CONFIRMED Issue an event for
+transition 20.
+Data required to be available
+for this event report:
+SubstID
+AcquiredID (if valid)</p><p>SEMI E90-0705 © SEMI 1999, 2005 13
+No.      Current      State      Trigger      New State Action Comment
+21   WAITING   FOR
+HOST
+Equipment has received a
+“CancelSubstrate” service.
+CONFIRMATION
+FAILED
+Issue an event for
+transition 21 and
+update the
+substrate
+processing status
+to SKIPPED
+taking the
+appropriate
+transition. The
+substrate is
+returned or
+placed into its
+destination
+location.</p><ol start="9"><li>5  Substrate Object Attribute Definition</li><li>5.1  Table 2 defines attributes for substrate objects. These attributes can be accessed by using GetAttr and SetAttr
+messages as defined in SEMI E39 (OSS).
+Table 2  Substrate Object Attribute Table
+Attribute Name Definition Access    Reqmt Format
+AcquiredID Contains the ID read from the substrate. Empty string before
+the substrate is read. The attribute shall be updated as soon
+the Substrate ID has been successfully read.
+<!-- -->[Equipment with substrate ID reader only]<!-- -->
+RO          N          Text
+BatchLocID Identifier for current batch location. RO N Text (batch process
+equipment only)
+LotID Identifier of the lot associated with the substrate by the user. RW N Text
+MaterialStatus Current status of the substrate that represents criteria of the
+processing quality. The criteria is equipment design
+dependent.
+RO          N          Enumerated:
+equipment dependent
+ObjID Object Identifier. RO Y Text equal to the Substrate
+ID
+ObjType Object type. RO Y Text = “Substrate”
+SubstDestination Identifier of the substrate location on which the substrate
+shall be finally restored.
+When a carrier is used for restoring the substrate, the value
+shall be the concatenation of carrier identifier (carrier ID)
+string and a numeric string representing the substrate position
+in the carrier to represent the carrier and position of the
+substrate restored.
+RO          Y          Text
+If empty string, then same
+as source substrate location
+SubstHistory History of locations visited. RO Y List of structures consisting
+of SubstLocID
+or
+BatchLocID+“.”+SubstPosI
+nBatch (batch process
+equipment only), TimeIn,
+TimeOut
+SubstIDStatus Status of the substrate ID. This attribute is mandatory only
+when the equipment provided a substrate reader.
+RO          N          Enumerated
+NOT CONFIRMED
+WAITING FOR HOST
+CONFIRMED
+CONFIRMATION
+FAILED</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 14
+Attribute Name Definition Access    Reqmt Format
+SubstLocID Identifier for current equipment substrate location. RO Y Text (If batch process
+equipment, this data is
+empty while the substrate
+belongs to a batch)
+SubstPosInBatch     Current     substrate position in a batch. RO N Text (batch process
+equipment only, and empty
+if substrate position in a
+batch is not informed)
+SubstProcState        Processing        state of the substrate.
+“NEEDS PROCESSING”: initial value to indicate that
+processing in the equpment is required and has not started.
+“IN PROCESS”: processing has started.
+“PROCESSED”: processing has completed normally.
+“ABORTED”: processing has terminated abnormally.
+“STOPPED”: processing has terminated at completion of
+certain processing step.
+“REJECTED”: the substrate has been identified as needing
+special treatment.
+“LOST”: the substrate has been removed from the equipment
+by an external agent or it is physically missing.
+“SKIPPED”: the substrate was not processed.
+RO          Y          Enumerated:
+NEEDS PROCESSING
+IN PROCESS
+PROCESSED
+ABORTED
+STOPPED
+REJECTED
+LOST
+SKIPPED
+SubstSource Identifier of the substrate location on which the substrate has
+been initially registered.
+When a carrier is used for registering the substrate, the value
+shall be the concatenation of carrier identifier (carrier ID)
+string and a numeric string representing the substrate position
+in the carrier to represent the carrier and position of the
+substrate registered.
+RO          Y          Text
+SubstState Transport state of the substrate. RO Y Enumerated:
+AT SOURCE
+AT WORK
+AT DESTINATION
+SubstType The type of the substrate. It includes wafers, flat panels, CD’s
+or masks.
+RW          N          Enumerated:
+WAFER
+FLAT PANEL
+CD
+MASK
+SubstUsage How the substrate is used, such as “product”, “test”, and
+“filler”.
+RW          N          Enumerated:
+PRODUCT
+TEST
+FILLER
+Additional types defined
+and added by the
+equipment.</p><ol start="9"><li>5.2  SubstHistory attribute is a composite data type. The constitute data is defined in Table 3.
+Table 3  Attribute Data Definition
+Data Identifier Description Form
+BatchLocID+“.”+Su
+bstPosInBatch
+Batch location, on which the group of substrates (e.g., batch) has
+visited, with substrate position information in a batch (recorded
+while the substrate belongs to a batch).
+For example, if BatchLocID = “Chamber-A” and
+SubstPosInBatch = “30”, then what is recorded is “Chamber-
+A.30”.
+Text (batch process equipment only,
+and if substrate position in a batch is
+not informed “.”+SubstPosInBatch
+portion is not recorded).</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 15
+Data Identifier Description Form
+SubstLocID Equipment substrate location on which the substrate has visited.
+Must be copied from SubstLocID of which the substrate has
+visited.  (If batch process equipment, this data is not recorded
+while the substrate belongs to a batch.)
+Text
+TimeIn Actual arrival time of the substrate on the substrate location. The format of the timestamp defined
+by the protocol for implementation.
+TimeOut Actual departure time of the substrate from the substrate location.  The format of the timestamp defined
+by the protocol for implementation.</p><p>10  Substrate Location Object Definition
+10. 1  A  Substrate  Location  Object  (SLO)  provides  a  model  for  identifying  substrate  locations.  Each  SLO  on  an
+equipment  is  assigned  a  substrate  location  ID  to  uniquely  identify  it.  The  assignment  shall  be  documented  by  the
+equipment  supplier.  There  are  two  types  of  substrate  locations:  carrier  substrate  location,  which  is  the  location  or
+position  (e.g.,  slot)  in  the  carrier,  and  equipment  substrate  location,  which  is  on  the  equipment  resource.  The
+equipment substrate location is a persistent object, while the carrier substrate locations are dynamic objects that shall
+be created or deleted by the placement or removal of carriers on the equipment.
+10. 1.1  Source  substrate  locations  and  Destination  substrate  locations  are  the  points  at  which  substrates  transfer
+to/from the equipment’s internal substrate locations (often locations at which processing occurs). A carrier substrate
+location is the Source or Destination substrate location when a carrier is used to transfer the substrate. An equipment
+substrate  location  can  be  the  Source  or  Destination  substrate  location  when  the  substrate  is  transferred  directly
+(without a carrier).
+10. 2  Substrate Location State Model
+Figure 4 shows the dynamic behavior of the substrate location using the Harel state chart representation.
+©
+UNOCCUPIED
+OCCUPIED
+SUBSTRATE LOCATION
+1
+2</p><p>Figure 4
+Dynamic Behavior Model of Substrate Location
+A-1.1.1.2
+10. 3  Substrate Location State Definitions
+10. 3.1  SUBSTRATE LOCATION — the superstate of UNOCCUPIED and OCCUPIED.
+10. 3.2  UNOCCUPIED — the state in which the substrate location does not hold or have a substrate.
+10. 3.3  OCCUPIED — the state in which the substrate location holds a substrate.
+10. 4  Substrate Location State Transition
+Table 4  Substrate Location State Model Transition Table
+No.        Current        State        Trigger        New State Action Comment
+1 UNOCCUPIED Substrate moves onto the substrate location. OCCUPIED None.
+2 OCCUPIED Substrate moves off the location.                       UNOCCUPIED                       Update                       substrate
+tracking history.</p><p>SEMI E90-0705 © SEMI 1999, 2005 16
+10. 5  Substrate Location Object Attributes
+10. 5.1  Table  5  defines  attributes  for  substrate  location  objects.  These  attributes  can  be  accessed  by  using  GetAttr
+and SetAttr messages as defined in SEMI E39 (OSS).
+Table 5  Substrate Location Object Attribute Table
+Attribute Name Definition Access Reqmt Format
+DisableEvents When set to TRUE, the transitions for this
+substrate location do not generate events to
+the host.
+RW           Y           Boolean
+TRUE   = Disable
+FALSE = Enable
+ObjID                   Object                   Identifier.                   RO                   Y                   Text                   equal to the Substrate Location ID
+ObjType Object type. RO Y Text = “SubstLoc”
+SubstID Substrate Identifier relevant to the location. RO Y Text
+SubstLocState      Substrate      Location      state.      RO      Y       Enumerated:
+UNOCCUPIED, OCCUPIED</p><p>11  Batch Location Object
+11. 1  A Batch Location Object (BLO) provides a model for identifying a group of substrates (e.g., batch) locations.
+Each  BLO  on  an  equipment  is  assigned  a  batch  location  ID  to  uniquely  identify  it.  The  assignment  shall  be
+documented by the equipment supplier. The batch location is a persistent object.
+11. 2  Batch Location State Model
+11. 2.1  Figure 5 shows the dynamic behavior of the batch location using the Harel state chart representation.</p><p>OCCUPIEDUNOCCUPIED
+BATCH LOCATION
+C
+2
+1</p><p>Figure 5
+Dynamic Behavior Model of Batch Location</p><ol start="11"><li>3  Batch Location State Definitions</li><li>3.1  BATCH LOCATION — the superstate of UNOCCUPIED and OCCUPIED.</li><li>3.2  UNOCCUPIED — the state in which the batch location does not hold or have any substrate of batch.</li><li>3.3  OCCUPIED — the state in which the batch location holds one or more substrates of batch.</li><li>4  Batch Location State Transition
+Table 6  Batch Location State Model Transition Table
+No.          Current          State          Trigger          New State Action Comment
+1 UNOCCUPIED A group of substrates (e.g.,
+batch), even if they are a part of
+group, moves onto the batch
+location.
+OCCUPIED             None.
+2      OCCUPIED      All      substrates of the group (e.g.,
+batch) moves off the location.
+UNOCCUPIED       Update       substrate
+tracking history.</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 17</p><ol start="11"><li>5  Batch Location Object Attributes</li><li>5.1  Table 7 defines attributes for batch location objects. These attributes can be accessed by using GetAttr and
+SetAttr messages as defined in SEMI E39 (OSS).
+Table 7  Batch Location Object Attribute Table
+Attribute Name Definition Access Reqmt Format
+ObjID Object Identifier. RO N Text equal to the Batch Location ID
+ObjType Object type. RO N Text = “BatchLoc”
+BatchLocState Batch Location state. RO N Enumerated:
+UNOCCUPIED, OCCUPIED
+BatchSubstIDMap Ordered list of substrate identifiers
+corresponding to the positions in a batch
+(e.g., slot positions of a batch container or
+a process carrier).
+RO N Ordered list of SubstID
+(Ordered list indicates position in the
+batch and SubstID can be actual
+substrate identifier, blank “” when
+location is empty or “filler” when
+such substrate is used.)
+This attribute is updated each time a
+substrate is moved into or out of the
+batch or as soon as the equipment
+has the information.
+DisableEvents When set to TRUE, the transitions for this
+substrate location do not generate events
+to the host.
+RW              Y              Boolean
+TRUE   = Disable
+FALSE = Enable
+12  Substrate Tracking Services</li><li>1  Creating and Deleting Substrate Objects</li><li>1.1  Equipment may create substrate objects as appropriate during equipment operation.  On some equipment (at
+the  option  of  the  equipment  designer),  substrate  objects  may  also  be  registered  (created)  at  the  equipment  through
+the host-initiated Create service defined in SEMI E39.  Equipment is not required to provide host-initiated Register
+(Create) Substrate or Remove Substrate services for fundamental compliance to STS.  Table 8 defines the attribute
+settings that may be initialized through this service.</li><li>1.2  In  general,  it  depends  on  the  application  whether  or  not  attributes  are  initialized  by  the  user  of  the  create
+service.    In  some  situation,  it  may  be  necessary  to  match  the  new  substrate  with  a  location,  for  example,  while  in
+other situations it would be unnecessary.  Each application must specify its own requirements.</li><li>1.3  ObjType is a required argument of the Create service and should not be reset by including it as an attribute
+setting.  In  the  table,  M  indicates  Mandatory,  O  indicates  Optional,  and  R  specifies  Restricted  (shall  be  ignored  if
+used).
+Table 8  Substrate Attributes Settable through Create
+Substrate Attribute Name Use as AttrSetting in Create Service
+LotID                                                                                                                               O
+MaterialStatus                                                                                                                 O
+ObjID                                                                                                                              M
+ObjType                                                                                                                          R
+SubstDestination                                                                                                             O
+SubstHistory                                                                                                                    O
+SubstLocID                                                                                                                     O
+SubstProcState                                                                                                                O
+SubstSource                                                                                                                     O
+SubstState                                                                                                                        O</li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 18
+Substrate Attribute Name Use as AttrSetting in Create Service
+SubstType                                                                                                                       O
+SubstUsage                                                                                                                      O</p><ol start="12"><li><p>1.4  Use of attribute settings for the Delete service are optional and specific to the application.</p></li><li><p>2  Table  9  defines  services  required  for  substrate  tracking.  These  services  must  be  supported  with  substrate
+object.
+Table 9  Substrate Tracking Service Message Definition Table
+Message Service Name      Type      Description
+CancelSubstrate R Request to the equipment to skip the substrate and move into its source location or
+destination location. Equipment instantiated substrate ID is required by this service. This
+service is only required when the equipment provides capabilities for reading substrate
+identifiers.
+Change substrate state R Request to change substrate state. This message can be used to inform the equipment that
+external intervention has occurred and the state of the substrate (SubstState) must be
+corrected. For example, changing from AT DESTINATION state to AT SOURCE state.
+ProceedWithSubstrate R Request to the equipment to accept the substrate. Equipment instantiated substrate ID is
+required by this service. This service is only required when the equipment provides
+capabilities for reading substrate identifiers.
+UpdateSubstrateObject            R            Request            to            create a substrate object or to continue updating existent substrate object
+attributes for the specified substrate identifier with the substrate information provided with
+the service.  If the substrate object was previously instantiated, the attribute(s) of the
+substrate are updated as specified with this service. If transfer is not completed or substrate
+is not at the equipment the service request fails. This service is used when substrates are
+moved directly between linked equipment without the use of a carrier. This is an optional
+service.</p></li><li><p>3  Substrate Tracking Service Parameter Dictionary
+Table 10  Substrate Tracking Service Parameter
+Dictionary Parameter Form                                                               Description
+ErrorCode                                     Enumerated                                     Contains                                     the                                     code for the specific error found.
+ErrorText Text Text in support of the error code.
+STAcknowledge                           Enumerated                           Acknowledge of request.
+Status A list of ErrorCode/ErrorText pairs Report any errors found.
+STStatus A structure consisting of STAcknowledge
+and Status
+Return information for a service.
+SubstID Text Identifier of a substrate.
+SubstLocID Text Identifier of substrate location.
+SubProcState Enumerated Processing State of a substrate.
+SubstState                                     Enumerated                                     Transport State of a substrate.</p></li></ol><p>SEMI E90-0705 © SEMI 1999, 2005 19
+Dictionary Parameter Form                                                               Description
+(List of)
+SubstrateObjectAttributes
+List of structure:
+Attribute name
+Attribute Value
+List of substrate attributes. Each substrate
+attributes is an attribute name/value pair. The
+UpdateSubstrateObject service requires some
+substrate object attributes to be specified. For
+example, SubstrateID, SubstType, and at least
+one of the following must be included:
+SubstState, SubstProcState. All other substrate
+object properties are optional as is in the case of
+LotID, SubstSource, SubstUsage, SubstHistory,
+etc. Supplier may define attributes to be
+included in the service that are equipment
+dependent as in the case of linked litho tools.
+ObjSpec See SEMI E39. Specifier of the object owner.
+ObjectActionStatus                       Structure
+ServiceAcknowledge
+Status</p><p>(List of)
+ObjectActionParameterResult
+List of structure:
+Attribute name
+Attribute Value
+List of return parameters regarding the result of
+the request as name/value pairs.
+ObjectAction                                Text                                “UpdateSubstrateObject”
+OperationID                                  Unsigned                                  Integer                                  Identifies                                  a specific request. See SEMI E39.
+ObjectLinkID Unsigned Integer Set to non-zero if and only if additional
+completion reports will be sent.
+ServiceAcknowledge                    Enumerated                    0                    -                    Acknowledge performed successful
+1 - Service does not exist
+2 - Cannot perform now
+3 - At least one parameter is invalid
+4 - Service will be performed later with
+notification
+5 - Service is not completed or prohibited
+6 - Not used
+7-63 - Reserved
+Status List of structure
+Errorcode
+Errortext</p><p>Table 11  Change Substrate State Message Pararmeter Table
+Parameter                     Req/Ind                     Rsp/Conf                     Description
+(list of) SubstID M =
+(list of) SubstState C
+(See NOTE 1.)
+— The order of SubstStates corresponds to the order of SubstID list.
+(list of) SubstProcState C
+(See NOTE 1.)
+— The order of SubstStates corresponds to the order of SubstID list.
+Status — M Information about the results.</p><p>Table 12  UpdateSubstrateObject Service Parameter
+Parameter                            Req/Ind                            Rsp/Conf                            Description
+ObjectAction                                                M                                                —                                                “UpdateSubstrateObject”
+ObjSpec C — The object specifier of the object owner. See SEMI E39.</p><p>SEMI E90-0705 © SEMI 1999, 2005 20
+Parameter                            Req/Ind                            Rsp/Conf                            Description
+SubstrateObjectAttributes M = SubstrateID, SubstType, and at least one of the following
+must be included: SubstState, SubstProcState. See
+UpdateSubstrateObject service message definition for
+additional requirements.
+OperationID C — Used if multiple requests will be linked to events. Set to
+zero otherwise.
+ObjectLinkID — C Set to non-zero if additional completion reports will be
+sent.
+ObjectActionStatus — M Acknowledge of the service acceptance and a list of error
+code and error text pairs if any.
+ObjectActionParameterResult — C List of return parameters regarding the result of the
+request as name/value pairs. Service returns the substrate
+object attributes updated that the request specified.</p><p>Table 13  ProceedWithSubstrate Service Parameter
+Parameter                           Req/Ind                           Rsp/Conf                           Description
+ObjectAction                                               M                                               -                                               “ProceedWithSubstrate”.
+ObjSpec M - The object specifier of the object owner. See SEMI E39.
+SubstrateObjectAttributes                           M                           =                           SubstID, and SubstLocID are required.
+OperationID M - Used if multiple requests will be linked events. Set to
+zero otherwise.
+ObjectLinkID - M Set to non-zero if additional completion reports will be
+sent.
+ObjectActionStatus - M Acknowledge of the service acceptance and a list of
+error code and error text pairs if any.
+ObjectActionParameterResult - M SubstID, and SubstLocID are required.</p><p>Table 14  CancelSubstrate Service Parameter
+Parameter                           Req/Ind                           Rsp/Conf                           Description
+ObjectAction                                               M                                               -                                               “CancelSubstrate”.
+ObjSpec M - The object specifier of the object owner. See SEMI
+E39.
+SubstrateObjectAttributes                           M                           =                           SubstID, and SubstLocID are required.
+OperationID M - Used if multiple requests will be linked events. Set to
+zero otherwise.
+ObjectLinkID - M Set to non-zero if additional completion reports will be
+sent.
+ObjectActionStatus - M Acknowledge of the service acceptance and a list of
+error code and error text pairs if any.
+ObjectActionParameterResult - M SubstID, and SubstLocID are required.</p><p>13  Variable Data
+13. 1  The host may inquire about any data related to specific Substrates, Substrate Locations and Batch Locations at
+any time by using the OSS service GetAttr.
+13. 2  Implementations of Specification for Substrate  Tracking  that  use  the  Event  Reporting  capability  specified  by
+SEMI E30 (GEM) have the following requirement: For the objects defined by Specification for Substrate Tracking,
+the  identifier  of  that  object  and  all  of  the  attributes  of  that  object  shall  be  available  for  inclusion  in  event  reports
+associated with that object.  The tables listed below specify the object attribute variables that must be available for
+state model transitions:</p><p>SEMI E90-0705 © SEMI 1999, 2005 21
+• Table 15 Variables Required for Substrate Object State Model Transitions
+• Table 16 Variables Required for Substrate Location Object State Model Transitions
+• Table 17 Variables Required for Batch Location Object State Model Transitions
+13. 3  Table 18 provides the definition of Status Variable Data that equipment shall support for the persistent objects
+defined by this standard, namely Substrate Location and Batch Location.
+13. 4  Variables in each table are presented in alphabetical order.
+Table 15  Variables Required for Substrate Object State Model Transitions
+Variable Name Description Access Form Comment
+AcquiredID Contains the ID read from the substrate.
+Empty string before the substrate ID is
+read.
+RO Text. Empty string if read
+failed.
+AcquiredIDList A list of AcquiredIDs related by the
+same Substrate Object State Model
+state transition that triggered a
+collection event.</p><p>RO         Ordered         list         of
+AcquiredID.</p><p>This variable is
+mandatory only
+when the
+equipment
+provides a
+substrate reader.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+The list length will
+be equal to the
+number of
+substrates
+involved in the
+related state model
+transition.</p><p>SubstBatchLocID Current BatchLocID for the substrate
+associated with the last event.
+RO      Text.      Batch      process
+equipment only.
+Empty if substrate is
+not part of a batch.
+SubstBatchLocIDList   A list of SubstBatchLocIDs related by
+the same Substrate Object State Model
+state transition that triggered a collection
+event.
+RO Ordered list of
+SubstBatchLocID.
+Batch process
+equipment only.</p><p>When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstDestination          Destination          Substrate Location for the
+substrate associated with the last event.
+RO Text. If empty string, then
+same as source
+Substrate Location.
+SubstDestinationList    A list of SubstDestinations related by the
+same Substrate Object State Model state
+transition that triggered a collection
+event.
+RO Ordered list of
+SubstDestination.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.</p><p>SEMI E90-0705 © SEMI 1999, 2005 22
+Variable Name Description Access Form Comment
+SubstHistory List of history of locations visited for the
+substrate associated with the last event.
+RO List of structures consisting
+of Location ID, Time In, and
+Time Out.</p><p>SubstHistoryList A list of  SubstHistorys related by the
+same Substrate Object State Model state
+transition that triggered a collection
+event.
+RO Ordered list of
+SubstHistory.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstID Identifier of substrate associated with last
+event.
+RO      Text.
+SubstIDList A list of substrate identifiers related by
+the same Substrate Object State Model or
+Substrate Location Object State Model
+state transition that triggered a collection
+event with which this variable was
+associated.
+RO Ordered list of
+SubstID.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstIDStatus Status of the substrate ID.
+RO           Enumerated:
+NOT CONFIRMED
+WAITING FOR HOST
+CONFIRMED
+CONFIRMATION FAILED
+This variable is
+mandatory only
+when the equipment
+provides a substrate
+reader.
+SubstIDStatusList
+A list of SubstIDStatuses related by the
+same Substrate Object State
+Model state transition that triggered a
+collection event.
+RO Ordered list of
+SubstIDStatus.
+This variable is
+mandatory only
+when the equipment
+provides a substrate
+reader.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+The list length will
+be equal to the
+number of substrates
+involved in the
+related state model
+transition.
+SubstSubstLocID          Current          substrate location for the
+substrate associated with the last event.
+RO Text. If batch process
+equipment, this data
+is empty while the
+substrate belongs to a
+batch.</p><p>SEMI E90-0705 © SEMI 1999, 2005 23
+Variable Name Description Access Form Comment
+SubstLocIDList A list of substrate location identifiers
+related by the same Substrate Object
+State Model state transition that triggered
+a collection event.
+RO Ordered list of
+SubstSubstLocID.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.</p><p>The list length will
+be equal to the
+number of substrates
+involved in the
+related state model
+transition.</p><p>If batch process
+equipment, this will
+be a list of empty
+strings while the
+substrate belongs to a
+batch.
+SubstLotID The LotID of the Substrate Object
+associated with last event.
+RO      Text.
+SubstLotIDList</p><p>A list of substrate LotIDs related by the
+same Substrate Object State Model state
+transition that triggered a collection
+event.</p><p>RO Ordered list of
+SubstLotID.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstMtrlStatus Processing quality criteria associated
+with the last event.
+RO      Enumerated      (equipment
+specific).</p><p>SubstMtrlStatusList A list of  MtrlStatus related by the same
+Substrate Object State Model state
+transition that triggered a collection
+event.
+RO</p><p>Ordered list of
+SubstMtrlStatus.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstPosInBatch          Current          substrate position in a batch for
+the substrate associated with the last
+event.
+RO      Text.      Batch      process
+equipment only.
+Empty if substrate
+position in a batch is
+not informed or the
+substrate is not part
+of a batch.
+SubstPosInBatchList    A list of SubstPosInBatchs related by
+same Substrate Object State Model state
+transition that triggered a collection
+event.
+RO Ordered list of
+SubstPosInBatch.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstProcState              Processing              state of the substrate
+associated with the last event.
+RO      Enumerated:
+NEEDS PROCESSING
+IN PROCESS
+PROCESSED
+ABORTED
+STOPPED
+REJECTED
+May not be
+implemented when
+the equipment does
+not have capability of
+process.</p><p>SEMI E90-0705 © SEMI 1999, 2005 24
+Variable Name Description Access Form Comment
+SubstProcStateList A list of substrate process states related
+by the same Substrate Object State
+Model state transition that triggered a
+collection event with which this variable
+was associated.
+RO Ordered list of
+SubstProcState.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstSource                  Source                  Substrate Location for the
+substrate associated with the last event.
+RO      Text.
+SubstSourceList A list of SubstSources related by the
+same Substrate Object State Model state
+transition that triggered a collection
+event.
+RO Ordered list of
+SubstSource.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstState The current state of the substrate
+associated with the last event.
+RO      Enumerated:
+AT SOURCE
+AT WORK
+AT DESTINATION</p><p>SubstStateList A list of substrate states related by the
+same Substrate Object State Model state
+transition that triggered a collection event
+with which this variable was associated.
+RO Ordered list of
+SubstState.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstType                     Substrate                     SubstType for the substrate
+associated with the last event.
+RO Enumerated: wafer, disc, flat
+panel, reticle
+SEMI E5, ¶9.2
+contains a dictionary
+of units.
+SubstTypeList A list of  SubstTypes related by the same
+Substrate Object State Model state
+transition that triggered a collection
+event.
+RO Ordered list of
+SubstType.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.
+SubstUsage Description of the substrate associated
+with the last event.
+RO      Enumerated:
+PRODUCT
+TEST
+FILLER</p><p>Indicates how the
+substrate is used.
+Additional types
+defined and added by
+the eqiupment.
+SubstUsageList A list of  SubstUsages related by the
+same Substrate Object State Model state
+transition that triggered a collection
+event.
+RO Ordered list of
+SubstUsage.
+When a group of
+substrates have a
+related state model
+transition, only one
+collection event is
+triggered.</p><p>Table 16  Variables Required for Substrate Location Object State Model Transitions
+Variable Name Description Access Form Comment
+SubstLocID Identifier for substrate location
+associated with the last event.
+RO      Text.
+SubstLocState State of substrate location associated with
+the last event.
+RO      Enumerated:
+OCCUPIED
+UNOCCUPIED</p><p>SubstLocSubstID  Substrate Identifier relevant to the
+location
+associated with last event.
+RO Text. Blank &quot;&quot; when
+location is
+UNOCCUPIED.</p><p>SEMI E90-0705 © SEMI 1999, 2005 25</p><p>Table 17  Variables Required for Batch Location Object State Model Transitions
+Variable Name Description Access Form Comment
+BatchLocID Identifier for batch location associated
+with the last event.
+RO      Text.
+BatchLocState State of batch location associated with
+the last event.
+RO      Enumerated:
+OCCUPIED
+UNOCCUPIED</p><p>BatchSubstIDMap Ordered list of substrate identifiers
+corresponding to the positions in a batch
+(e.g., slot positions of a batch container
+or a process carrier) associated with the
+last event.
+RO Ordered list of SubstID. Ordered list indicates
+position in the batch
+and SubstID can be
+actual substrate
+identifier, blank “”
+when location is
+empty or “filler”
+when such substrate
+is used.</p><p>Table 18  Status Variables Representing Object Attributes for Persistent Objects
+Variable Name Description Access Form Comment
+BatchLocID
+i
+Identifier of the ith batch location. RO Text.
+BatchLocState
+i
+State of ith batch location. RO Enumerated:
+OCCUPIED
+UNOCCUPIED</p><p>BatchSubstIDMap
+i
+Ordered list of substrate identifiers
+corresponding to the positions in the
+batch held at the ith batch location.
+RO Ordered list of SubstID.           Ordered           list           indicates
+position in the batch
+and SubstID can be
+actual substrate
+identifier, blank &quot;&quot;
+when  position is
+empty or &quot;filler&quot;
+when such substrate
+is used.
+SubstLocID
+i
+Identifier of the ith equipment substrate
+location.
+RO      Text.
+SubstLocState
+i
+State of ith equipment substrate location.RO Enumerated:
+OCCUPIED
+UNOCCUPIED</p><p>SubstrLocSubstrID
+i
+Substrate ID of the substrate at the ith
+equipment substrate location, when
+occupied.
+RO Text. Blank “” when
+location is
+UNOCCUPIED.</p><p>14  Additional Events (Equipment with substrate ID reader only)
+14. 1  SubstrateIDReaderAvailable Event
+14. 1.1  An event shall be generated whenever a substrate ID reader becomes available.
+14. 2  SubstrateIDReaderUnavailable Event
+14. 2.1  An event shall be generated whenever a substrate ID reader becomes unavailable.</p><p>SEMI E90-0705 © SEMI 1999, 2005 26
+15  Requirements for Compliance
+15. 1  Table 19 provides a checklist for Substrate Tracking (STS) compliance.
+Table 19  STS Compliance Statement
+Fundamental STS Requirements STS Section             Implemented             STS             Compliant
+Substrate Tracking 8 (except 8.4)  Yes    No  Yes    No
+Substrate Object and State Model 9  Yes    No  Yes    No
+Substrate Location Object and State Model 10  Yes    No  Yes    No
+Service Message Implementation (except host-initiated Register
+(Create) Substrate and Remove Substrate)
+12  Yes    No  Yes    No
+Variable Data 13  Yes    No  Yes    No
+Events                                                                                                            8.4                                                                                                             Yes    No  Yes    No
+Additional STS Capabilities STS Section             Implemented             STS             Compliant
+Host-Initiated Register (Create Substrate) 12.1.1  Yes    No  Yes    No
+Host-Initiated Remove Substrate   Yes    No  Yes    No
+Batch Location Object and State Model 11  Yes    No  Yes    No
+UpdateSubstrateObject service 12  Yes    No  Yes    No
+Substrate Reading Status  9.3  Yes    No  Yes    No
+&quot;SubstIDStatus&quot; substrate object attribute  9.5  Yes    No  Yes    No
+ProceedWithSubstrate service 12.2  Yes    No  Yes    No
+CancelSubstrate service 12.2  Yes    No  Yes    No
+Additional Events 14  Yes    No  Yes    No</p><p>SEMI E90-0705 © SEMI 1999, 2005 27
+RELATED INFORMATION 1
+NOTICE: This related information is not an official part of SEMI E90.  This related information was approved for
+publication by full letter ballot procedures on January 14, 2000.
+R1-1  Substrate State Model Implementation
+R1-1.1    The  Substrate  Object  State  Model  defined  in  ¶9.1  is  a  generic  representation  of  the  substrate  object  state
+model that includes standard transitions for various equipment types.
+R1-1.2  Some equipment may not be able to implement all of the transitions defined in this model. For example, the
+transition from AT WORK to AT SOURCE (Transition Number 3) represents the case where the substrate returns to
+the original (source) location, typically for further processing.  If the equipment is unable to implement this return,
+then the transition would never occur, and it should be omitted from the implemented state model.
+R1-1.3    The  state  model  shall  be  implemented  based  on  the  definition  of  the  state  model;  however,  substates  and
+transitions that cannot occur for a particular equipment design may be omitted where the model allows.
+R1-2  Example of Substrate Object State Model for Simple Equipment
+R1-2.1  This section shows an example of Substrate Object State Model for simple equipment. (See Figure R1-1.)
+R1-2.2  The equipment transports the substrate only in a forward direction, so that the Substrate Transport Substate
+takes straight forward transitions from AT SOURCE to AT WORK and then to AT DESTINATION.  For example,
+the  wirebonder  removes  leadframes  from  a  magazine  and  carries  them  on  a  transport  mechanism  but  is  unable  to
+return them to the magazine.
+R1-2.3  Also, the equipment processes the substrate only in forward steps so that the Substrate Processing Substate
+takes  straight  forward  transitions  from  NEED  PROCESSING  to  IN  PROCESS  and  then  to  PROCESSING
+COMPLETE. The REJECTED state is not applied to this equipment.
+SUBSTRATE
+IN PROCESS
+NEEDS PROCESSING
+PROCESSED
+C
+ABORTED
+STOPPED
+AT SOURCE
+AT WORK
+AT DESTINATION
+PROCESSING COMPLETE
+1
+9
+7
+5
+2
+10
+12
+11
+SUBSTRATE PROCESSING
+SUBSTRATE TRANSPORT
+4</p><p>Figure R1-1
+Substrate State Model for Simple Equipment</p><p>SEMI E90-0705 © SEMI 1999, 2005 28
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer&#x27;s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E90.1-0705 © SEMI 2001, 2005 1
+SEMI E90.1-0705
+PROVISIONAL SPECIFICATION FOR SECS-II PROTOCOL
+SUBSTRATE TRACKING
+This  specification  was  technically  approved  by  the  global  Information  &amp;  Control  Committee.    This  edition
+was  approved  for  publication  by  the  global  Audits  and  Reviews  Subcommittee  on  April  7,  2005.    It  was
+available at <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a> in June 2005 and on CD-ROM in July 2005.  Originally published March 2001;
+previously published July 2003.
+1  Purpose</p><ol><li>1  This document maps the services and data of SEMI E90 to SECS-II streams and functions, and data definitions.
+2  Scope</li><li>1  This is a specification covering equipment supporting automated substrate tracking.</li><li>2  This document applies to all implementations of SEMI E90 that use the SECS-II message protocol (SEMI E5).
+Compliance to this standard requires compliance to both SEMI E90 and SEMI E5.</li><li>3  This standard does not purport to address safety issues, if any, associated with its use.  It is the responsibility of
+the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the  applicability  of
+regulatory limitations prior to use.</li><li>4  This standard is provisional.  To have the provisional status removed, the following must be completed:
+• Table 1, Services Message Mapping Table
+• Table 3, Services Parameters to SECS-II Data Items Mapping
+NOTICE: This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Referenced Standards and Documents</li><li>1  SEMI Standards
+SEMI E5 — SEMI Equipment Communications Standard 2 Message Content (SECS-II)
+SEMI E30 — Generic Model for Communications and Control of Manufacturing Equipment (GEM)
+SEMI E39.1 — SECS-II Protocol for Object Services Standard (OSS)
+SEMI E53 — Event Reporting
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+4  Mapping</li><li>1  This section shows the specific SECS-II streams and functions that shall be used for SECS-II implementation of
+the services defined in SEMI E90, as well as the parameter mapping for data attached to services.</li><li>2  Message Mapping</li><li>2.1  Services  Message  Mapping  —  Table  1  defines  the  relationships  between  SEMI  E90  services  and  SECS-II
+messages.</li><li>2.2  Event Message Mapping — Table 2 defines the relationships between SEMI E90 collection events and SECS-
+II messages.</li></ol><p>SEMI E90.1-0705 © SEMI 2001, 2005 2
+Table 1  Services Message Mapping Table
+Service Name Stream, Function SECS-II Message Name
+change substrate state (not yet defined) (not yet defined)
+register substrate S14,F9/10 Create Object Request/Acknowledge (SEMI E39.1)
+remove substrate S14,F11/12 Delete Object Request/Acknowledge (SEMI E39.1)
+UpdateSubstrateObject       S14F19/F20                      Generic                      Service Request/Acknowledge
+ProceedWithSubstrate        S14F19/F20        Generic        Service        Request/Acknowledge
+CancelSubstrate                  S14F19/F20                  Generic Service Request/Acknowledge</p><p>Table 2  Event Message Mapping Table
+Event Name Stream, Function SECS-II Message Name
+All state model
+transitions
+If SEMI E30 style events:
+S6F11/12
+If SEMI E53 style events:
+S6F11/12
+S6F13/14
+If SEMI E30 style events:
+Event Report Send/Acknowledge
+If SEMI E53 style events:
+Event Report Send/Acknowledge
+Annotated Event Report Send/Ack</p><ol start="4"><li><p>3  Parameter  Mapping  —  Table  3  defines  the  relationships  between  SEMI  E90  service  parameters  and  SECS-II
+data definitions.
+Table 3  Service Parameters to SECS-II Data Items Mapping
+Parameter Name Range SECS-II Data Item
+ErrorCode                         Enumerated.                         ERRCODE
+ErrorText 1 to 80 characters. ERRTEXT
+ObjectAction                    “UpdateSubstrateObject”.                                                  SVCNAME
+ObjectActionStatus List of service acknowledge and status. L,2</p></li><li><p>SVCACK</p></li><li><p>Status
+ObjectAction-
+ParameterResult
+(List of) name value pairs providing information about
+the attributes successfully set.
+L,n</p></li><li><p>L,2</p></li><li><p>SPNAME
+1</p></li><li><p>SPVAL
+1
+:
+n. L,2</p></li><li><p>SPNAME
+n</p></li><li><p>SPVAL
+n</p></li></ol><p>ObjectLinkID                    51.                    LINKID
+OperationID                      51.                      OPID
+STAcknowledge 0 if success;  1 if error
+(Conforms to ObjAck in SEMI E39.1)
+OBJACK
+Status  List of error information.  L,n       n = number of errors</p><ol><li><p>L,2</p></li><li><p>ErrorCode
+1</p></li><li><p>ErrorText
+1</p></li></ol><p>.
+.
+n.  L,2</p><ol><li><p>ErrorCode
+n</p></li><li><p>ErrorText
+n</p></li></ol><p>SEMI E90.1-0705 © SEMI 2001, 2005 3
+Parameter Name Range SECS-II Data Item
+STStatus STAcknowledge and Status. L,2</p><ol><li>STAcknowledge</li><li>Status
+SubstID 1–80 characters (Conforms to ObjID in SEMI E39.1) OBJID
+SubstIDList
+(ordered list of)
+List of Substrate IDs. L,n  n = number of substrate identifiers</li><li>SubstID
+1</li></ol><p>.
+.
+n. SubstID
+n</p><p>SubstLocID 1–80 characters (Conforms to ObjID in SEMI E39.1) OBJID
+SubstLocIDList
+(ordered list of)
+List of Substrate Location ID’s corresponding to the
+SubstIDList (ordered list of).
+L,n   n = number of substrate identifiers in
+SubstIDList (ordered list of)</p><ol><li>SubstLocID
+1</li></ol><p>.
+.
+n. SubstLocID
+n</p><p>SubstProcState Enumerated per Variable SubstProcState. U1
+SubstProcStateList
+(ordered list of)
+List of Substrate Processing States corresponding to the
+SubstIDList (ordered list of).
+L,n   n = number of substrate identifiers in
+SubstIDList (ordered list of)</p><ol><li>SubstProcState
+1</li></ol><p>.
+.
+n. SubstProcState
+n</p><p>SubstrateObject-
+Attributes
+(List of) substrate object attribute names and values. L,n</p><ol><li><p>L,2</p></li><li><p>SPNAME
+1</p></li><li><p>SPVAL
+1</p></li></ol><p>:
+n.  L,2</p><ol><li><p>SPNAME
+n</p></li><li><p>SPVAL
+n</p></li></ol><p>SubstState                         Enumerated                         per                         Variable SubstState. U1
+SubstStateList
+(ordered list of)
+List of Substrate Transport States corresponding to the
+SubstIDList (ordered list of).
+L,n   n = number of substrate identifers in
+SubstIDList (ordered list of)</p><ol><li>SubstState
+1</li></ol><p>.
+.
+n. SubstState
+n</p><ol start="4"><li>4  SECS-II Data Items without Corresponding SEMI E90 Parameters — Table 4 contains the SECS-II data items
+that do not correspond to SEMI E90’s service parameter.
+Table 4  Additional Data Item Requirements Table
+Function SECS-II Data Item
+“TimeIn” from SubstHistory variable data definition TIMESTAMP
+“TimeOut” from SubstHistory variable data definition TIMESTAMP</li></ol><p>5  Variable Data Item Mapping
+5. 1  Table  5  shows  the  specific  SECS-II  data  classes,  and  formats  needed  for  SECS-II  implementations  of  SEMI
+E90 variable data items.</p><p>SEMI E90.1-0705 © SEMI 2001, 2005 4
+Table 5  Variable Data Item Mapping
+Variable Name Class Format
+BatchLocID DVVAL A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+BatchLocID
+i
+SV A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+BatchLocState                  DVVAL                  51(U1)
+Enumerated as:
+0-UNOCCUPIED
+1-OCCUPIED
+BatchLocState
+i
+SV                   51(U1)
+Enumerated as:
+0-UNOCCUPIED
+1-OCCUPIED
+BatchSubstIDMap DVVAL L,n  n = number of positions in a batch</p><ol><li>SubstID
+1</li></ol><p>.
+.
+n. SubstID
+n</p><p>BatchSubstIDMap
+i
+SV L,n  n = number of positions in a batch</p><ol><li>SubstID
+1</li></ol><p>.
+.
+n. SubstID
+n</p><p>SubstBatchLocID             DVVAL             A<!-- -->[1..80]<!-- -->             (Conforms to ObjID in SEMI E39.1.)
+SubstDestination DVVAL A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstHistory DVVAL L,n   n = number of substrate locations visited by the substrate</p><ol><li><p>L,3</p></li><li><p>SubstLocID
+1</p></li><li><p>TimeIn
+1</p></li><li><p>TimeOut
+1</p></li></ol><p>.
+.
+n. L,3</p><ol><li><p>SubstLocID
+n</p></li><li><p>TimeIn
+n</p></li><li><p>TimeOut
+n</p></li></ol><p>SubstID DVVAL A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstLocID DVVAL A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstLocID
+i
+SV A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstLocState DVVAL 51 (U1 )
+Enumerated as:
+0 – UNOCCUPIED
+1 – OCCUPIED
+SubstLocState
+i
+SV                   51                  (U1)
+Enumerated as:
+0 – UNOCCUPIED
+1 – OCCUPIED
+SubstLocSubstID              DVVAL              A<!-- -->[1..80]<!-- -->              (Conforms to ObjID in SEMI E39.1.)
+SubstLocSubstrID
+i
+SV A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstLotID DVVAL A<!-- -->[1..80]<!-- -->
+SubstMtrlStatus                DVVAL                U1                (equipment dependent enumeration)</p><p>SEMI E90.1-0705 © SEMI 2001, 2005 5
+Variable Name Class Format
+SubstPosInBatch               DVVAL               A               (range               is equipment dependent)
+SubstProcState DVVAL 51 (U1 )
+Enumerated as:
+0 – NEEDS PROCESSING
+1 – IN PROCESS
+2 – PROCESSED
+3 – ABORTED
+4 – STOPPED
+5 – REJECTED
+6 – LOST
+7 – SKIPPED
+SubstrateReaderEnabled           EC           Binary
+0 = Disabled
+1 = Enabled
+SubstSource DVVAL A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstState DVVAL 51 (U1 )
+Enumerated as:
+0 – AT SOURCE
+1 – AT WORK
+2 – AT DESTINATION
+SubstSubstLocID DVVAL A<!-- -->[1..80]<!-- --> (Conforms to ObjID in SEMI E39.1.)
+SubstType DVVAL 51 (U1 )
+Enumerated as:
+0 – WAFER
+1 – FLAT PANEL
+2 – CD
+3 – MASK
+SubstUsage                       DVVAL                       51                       (U1)
+Enumerated as:
+0 – PRODUCT
+1 – TEST
+2 – FILLER</p><p>6  SECS-II Attribute Definitions
+6. 1  Substrate Object SECS-II Attributes Definitions — The following are the SECS-II structure definitions for the
+SEMI E90 Substrate Object.
+Table 6  Substrate Object SECS-II Attribute Definitions
+Attribute Name Attribute Date Form: SECS-II Structure
+“BatchLocID” OBJID BatchLocID
+“ObjType”                                            “Substrate”
+“ObjID” OBJID  SubstID  (Conforms to the restrictions of ObjID as specified in SEMI E39.1,
+§6.)
+“LotID” 20 (A) LotID
+“MaterialStatus”                                   51                                   (U1) MaterialStatus
+MaterialStatus is an equipment specific enumerated value
+“SubstDestination”                               OBJID SubstLocID</p><p>SEMI E90.1-0705 © SEMI 2001, 2005 6
+Attribute Name Attribute Date Form: SECS-II Structure
+“SubstHistory” L,n                 n = number of substrate locations visited by the substrate</p><ol><li><p>L,3</p></li><li><p>OBJID
+1
+SubstLocID
+1</p></li><li><p>TIMESTAMP
+1
+TimeIn
+1</p></li><li><p>TIMESTAMP
+1
+TimeOut
+1</p></li></ol><p>.
+.
+n.  L,3</p><ol><li><p>OBJID
+n
+SubstLocID
+n</p></li><li><p>TIMESTAMP
+n
+TimeIn
+n</p></li><li><p>TIMESTAMP
+n
+TimeOut
+n</p></li></ol><p>“SubstLocID”                                       OBJID SubstLocID
+“SubstPosInBatch”                               20(A)                               SubstPosInBatch
+“SubstProcState”                                  51                                  (U1) SubstProcState
+SubstProcState enumerated per Variable SubstProcState.
+“SubstSource”                                       OBJID                                       SubstLocID
+“SubstState”                                          51                                          (U1) SubstState
+SubstState enumerated per Variable SubstState.
+“SubstType” 51 (U1) SubstType
+SubstType enumerated per Variable SubstType.
+“SubstUsage” 51 (U1) SubstUsage
+SubstUsage enumerated per Variable SubstUsage.
+“SubstIDStatus” 51 (U1) Enumerated
+0 = NOT CONFIRMED
+1 = WAITING FOR HOST
+2 = CONFIRMED
+3 = CONFIRMATION FAILED
+“AcquiredID”                                        A<!-- -->[0,80]</p><ol start="6"><li><p>2  Substrate Location Object SECS-II Attributes Definitions — The following are the SECS-II structure definitions
+for the E90 Substrate Location Object.
+Table 7  Substrate Location Object Attribute Definitions
+Attribute Name Attribute Data Form: SECS-II Structure
+“DisableEvents”                                    11                                    (Boolean)
+“ObjType”                                            “SubstLoc”
+“ObjID” OBJID  SubstLocID  (Conforms to the restrictions of ObjID as specified in SEMI
+E39.1, §6.)
+“SubstID”                                              OBJID                                              SubstID
+“SubstLocState” 51 (U1) SubstLocState
+SubstLocState enumerated per Variable SubstLocState.</p></li><li><p>3  Batch Location Object SECS-II Attributes Definitions — The following are the SECS-II structure definitions for
+the SEMI E90 Batch Location Object.
+Table 8  Batch Location Object Attribute Definitions
+Attribute Name Attribute Data Form: SECS-II Structure
+“ObjID” OBJID BatchLocID (Conforms to the restrictions of ObjID as specified in SEMI E39.1, §6.)
+“ObjType”                             &quot;BatchLoc&quot;</p></li></ol><p>SEMI E90.1-0705 © SEMI 2001, 2005 7
+Attribute Name Attribute Data Form: SECS-II Structure
+“BatchLocState” 51(U1) BatchLocState
+BatchLocState enumerated per Variable BatchLocState.
+“BatchSubstIDMap” L,n  n = number of positions in a batch</p><ol><li>OBJID
+1
+SubstID
+1</li></ol><p>.
+.
+n. OBJID
+n
+SubstID
+n</p><p>“DisableEvents”                    11                    (Boolean)</p><p>NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer&#x27;s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E91-0600 © SEMI 1999, 20001
+SEMI E91-0600
+SPECIFICATION FOR PROBER SPECIFIC EQUIPMENT MODEL
+(PSEM)
+This specification was technically approved by the Global Information &amp; Control Committee and is the direct
+responsibility  of  the  Japanese  Communications  Committee.  Current  edition  approved  by  the  Japanese
+Regional Standards Committee on January 14, 2000.  Initially available at <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a> March 2000; to be
+published June 2000. Originally published September 1999.
+1  Purpose</p><ol><li>1   This  document  establishes  a  S pecific  Equipment
+Model  for  prober  equipment  (PSEM).    The  PSEM
+consists of equipment characteristics and behaviors that
+apply  to  this  class  of  equipment  and  are  required  to  be
+implemented     in     addition     to     the     fundamental
+requirements  and  additional  capabilities  specified  in
+SEMI  E30  (GEM).    The  intent  of  this  document  is  to
+facilitate  the  integration  of  prober  equipment  into  an
+automated    semiconductor    factory.    This    document
+accomplishes this by defining an operational model for
+prober  equipment  as  viewed  by  a  factory  automation
+controller.   This   definition   provides   a   standard   host
+interface and equipment operational behavior.
+2  Scope</li><li>1   The  scope  of  this  document  is   limited  to  the
+definition  of  prober  equipment  behavior  as  perceived
+by    a    Semiconductor    Equipment    Communications
+Standard (SECS-II) (SEMI E5) host that complies with
+GEM. The document defines the view of the equipment
+through  the  SECS  communications  link,  but  does  not
+define   the   internal   operation   of   the   equipment.   It
+includes  a  specific  processing  state  model  as  the  basis
+for the behavior of all equipment of this class.</li><li>2  This document requires that th e GEM fundamental
+requirements and applicable additional capabilities have
+been  implemented  on  the  prober  equipment.    This
+document  expands  GEM  Standard  requirements  and
+capabilities  in  the  areas  of  the  processing  state  model,
+collection    events,    remote    commands,    data    item
+variables  and  process  program  management,  and  adds
+Prober  Job  state  model  to  GEM  Standard  requirements
+and  capabilities.  This  document  does  not  include  the
+definition of the treatment of Multiple Stage.</li><li>3   This  document  applies  to  the  c lass  of  prober
+equipment  in  which  the  wafer  is  unloaded  from  the
+same  slot  in  the  same  carrier  which  loaded  the  wafer
+after processing.</li><li>4   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Referenced Standards</li><li>1  SEMI Standards
+SEMI    E5    —    SEMI    Equipment    Communications
+Standard 2 Message Content (SECS-II)
+SEMI E30 — Generic Model for Communications and
+Control of Manufacturing Equipment (GEM)
+SEMI  M20  ―  Specification  for  Establishing  a  Wafer
+Coordinate System
+SEMI M21 ― Specification for Assigning Addresses to
+Rectangular Elements in a Cartesian Array</li><li>2  Other Documents
+Harel,    D.,    “Statechart:    A    Visual    Formalism    for
+Complex Systems”, Science of Computer Programming
+8 (1987) 231-274.
+1
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+4  Terminology</li><li>1   alignment  —  a  procedure  in  w hich  a  coordinate
+system is established on a substrate.</li><li>2   bin  —  categorized  data  of  die   as  a  result  of
+measurement.</li><li>3   cassette  —  a  physical  object  c ontaining  one  or
+more  substrate  locations  (see  slot).    For  example,  a
+SEMI  standard  cassette  is  a  carrier  with  25  substrate
+slot locations.</li><li>4  die — 1. A field sub-unit.  2. A n area of substrate
+that contains the device being manufactured.</li><li>5   execution  area  —  the  area  from   which  a  current
+copy of the process program instructions are executed.</li><li>6    inker   —   a   resource   of   the   prob er.      The
+electromechanical units to put ink mark on die.</li><li>7  instruction data — the Result  Data to refer on the
+inspection process.</li></ol><p>1 Elsevier Science, P.O. Box 945, New York, NY  10159-0945,
+<a href="http://www.elsevier.nl/homepage/browse.htt" target="_blank" rel="noopener noreferrer">http://www.elsevier.nl/homepage/browse.htt</a></p><p>SEMI E91-0600 © SEMI 1999, 20002
+4. 8   job  —  a  lot,  processed  with  a  s ingle  process
+program on PSEM equipment.
+4. 9   load  —  move  material  to  the  p robing  or  marking
+location from the cassette.
+4. 10   lot  —  a  group  of  one  or  more  s ubstrates  of  the
+same type (e.g., wafers, masks, CDs).
+4. 11   map  —  a  list  of  coordinate  pos itions  of  die  on  a
+substrate.    MAP  is  defined  in  accordance  with  SEMI
+M21 in this document.
+4. 12   map  data  —  the  categorized  d ata  of  die  as  a
+result   of   measurement   associated   with   coordinates.
+Map data also have an information that identifies origin
+die.
+4. 13  marking — the process of the  prober that making
+an ink mark on a die using the inker.
+4. 14    material   —   1.   The   basic   unit   o f   process,
+physically a cassette or some cassettes.  2. A lot.
+4. 15   measurement  —  making  a  test ,  contacting  the
+probe card and the die.  The tester sends to the prober a
+categorized data as a result of test.
+4. 16   probe  card  —  the  electromech anical  interface
+necessary    to    enable    temporary    electrical    contact
+between   the   substrate   to   be   tested   and   the   tester
+resource.  May consist of multiple components.
+4. 17    re-inspection   —   a   process   whe re   the   same
+substrate  is  tested  again  by  using  the  inspected  map
+data.
+4. 18   slot  —  a  physical  location  with in  a  cassette
+capable of containing a substrate. (Also referred to as a
+carrier location).
+4. 19   state  —  1.  A  static  set  of  cond itions.  If  the
+conditions are met, the state is current (SEMI E30).  2.
+A state reacts predictably to specific stimuli.
+4. 20    substrate   —   1.   The   basic   unit    of   material,
+processed by PSEM equipment such as wafers.
+4. 21     testing    equipment    —    an    equipm ent    class
+generally   consisting   of   integrated   mechanisms   and
+controls  for  performing  electrical  tests  of  packaged
+devices  and  or  wafer  die  during  the  manufacturing
+process.
+4. 22   unload  —  remove  materials  to   the  cassette  slots
+from the probing or marking location.
+4. 23   wafer  end  —  the  end  of  measu ring  process  of  a
+wafer.
+5  State Model
+5. 1   The  purpose  is  to  define  the  eq uipment-specific
+processing  state  model  and  Prober  Job  state  models
+necessary  to  portray  the  expected  operational  states  of
+the  equipment  to  enable  host  tracking  and  control  in
+place of a local operator.
+5. 1.1  The processing state models in  this document are
+required  for  implementing  an  PSEM-compliant  prober,
+in addition to the required state models in SEMI E30. A
+state  model  consists  of  a  state  model  diagram,  state
+definitions, and a state transitions’ table.  A state model
+represents   the   host’s   view   of   the   prober,   but   not
+necessarily  the  actual  prober  operations.  All  PSEM
+state  model  transitions  shall  be  mapped  sequentially
+into   the   actual   equipment   events   that   satisfy   the
+requirements     of     those     transitions.     In     certain
+implementations,  the  prober  may  enter  a  state  and  has
+already  satisfied  all  of  the  conditions  required  by  the
+PSEM state model for transition to another state. In this
+situation,   the   prober   makes   the   required   transition
+without any additional actions.
+5. 1.1.1   Various  symbols  used  in  a  stat e  diagram  are
+described in Figure 1.
+a) State
+b) Transition
+c) Default Entry Point
+H
+d) History
+C
+e) Conditional Selector
+f) Terminator
+Figure 1
+Various Symbols Used in a State Diagram</p><p>SEMI E91-0600 © SEMI 1999, 20003
+5. 1.2  Some equipment may need to  include additional
+states.  However,  any  additional  states  must  not  change
+the   PSEM-defined   state   transitions.   All   expected
+transitions between PSEM states must occur.
+5. 2  PSEM Processing State Model
+5. 2.1  Purpose
+5. 2.1.1   The  purpose  of  the  PSEM  Proc essing  State
+Model is to make an accurate model for the behavior of
+the PSEM prober from Processing State Model defined
+in SEMI E30.
+5. 2.2  PSEM Processing State Model  Diagram
+INIT
+IDLE with
+Alarms
+IDLE
+EXECUTING
+(PROBING)
+MAINTENANCE
+ABORTING
+CHECKING
+PAUSED
+SETTING UP
+PAUSING
+PAUSED
+ALARM PAUSED
+STOPPING
+2
+3
+4
+7
+8
+9
+C
+10
+11
+12
+6
+21
+13
+18
+17
+16
+19
+15
+14
+20
+23
+24
+25
+26
+PROCESS PAUSE
+PAUSE
+PROCESSING ACTIVE
+PROCESS
+SETTING UP
+22
+5
+1
+Figure 2
+PSEM Processing State Model Diagram</p><p>SEMI E91-0600 © SEMI 1999, 20004
+5. 2.3  Description of Prober Process ing States
+5. 2.3.1  ABORTING   (PROCESSING   A CTIVE   Sub-
+state) —  The  prober  has  received  ABORT  command.
+All  activities  are  suspended.    The  prober  is  taking  an
+appropriate  action  to  ensure  possible  safe  state  for  the
+prober  itself  and  materials.  Wafer  data  or  lot  data  may
+be unavailable.
+5. 2.3.2   ALARM  PAUSED  (PAUSE  Su b-state)  —  An
+alarm has occurred in PROCESS or PROCESS PAUSE
+state.  The prober is waiting for the alarm to be cleared.
+5. 2.3.3  CHECKING (PROCESS PAU SE Sub-state) —
+The  prober  verifies  that  a  process  program  update
+performed is valid.  This is a procedure same with that
+taken  in  SETTING  UP  state  before  the  prober  is  ready
+to   transit   to   READY   state.   Upon   completion   of
+verification,  an  event  will  be  created  if  the  verification
+is  successfully  ended.  A  transition  is  made  to  the
+process  state,  based  on  the  process  model  condition
+table.
+5. 2.3.4   EXECUTING  (PROCESS  Sub -state)  —  The
+prober  is  processing  material  automatically  and  can
+continue  to  do  so  without  external  intervention.  This
+state may include interaction with the host or operator.
+5. 2.3.5    IDLE   —   The   prober   is   waiting    for   an
+instruction.   IDLE   is   free   of   ALARMS   and   error
+conditions.
+5. 2.3.6  IDLE with ALARMS — An ala rm has occurred
+in  the  IDLE  state  and  the  prober  is  waiting  for  all
+alarms to be cleared.
+5. 2.3.7  INIT — Prober is in the course  of initialization.
+5. 2.3.8  MAINTENANCE
+5. 2.3.8.1  The   operator’s   instruction   has    disabled
+production by the prober.
+5. 2.3.8.2  Maintenance and inspection of  the prober are
+executed in this state.
+5. 2.3.9  PAUSE (PROCESSING ACTIV E Sub-state) —
+PROCESS state is interrupted when the processing can
+be  paused.    An  action  to  ensure  safety  of  the  prober  is
+taken.  The  prober  waits  for  a  command  (RESUME,
+STOP or ABORT) or the alarm to be cleared.
+5. 2.3.10   PAUSED  (PROCESS  PAUSE   Sub-state)  —
+In this state an operator can correct an error as far as the
+current   process   program   selection   is   not   affected.
+PROCESS state is suspended and the prober waits for a
+command (RESUME, STOP or ABORT).  In this state,
+the  operator  is  allowed  to  correct  an  error  conditions
+that   does   not   affect   the   current   process   program
+selected.  One  of  such  corrective  actions  that  can  be
+taken by the operator is manual alignment of the wafer
+in process.
+5. 2.3.11   PAUSED  SETTING  UP  (PRO CESS  PAUSE
+Sub-state) —  When  PROCESS  state  is  suspended,  the
+prober  is  made  to  perform  simple  set-up  operations.
+Probe card replacing work and inker replacing work are
+included in those operations.
+5. 2.3.12   PAUSING  (PROCESS  PAUSE   Sub-state)  —
+PROCESS state is interrupted when the processing can
+be paused.  The prober cannot transit to PAUSED state
+until safe state is ensured.
+5. 2.3.13    PROCESS   (PROCESSING   AC TIVE   Sub-
+state) — This state is the parent of those sub-states that
+refer  to  the  preparation  and  execution  of  a  process
+program.
+5. 2.3.14   PROCESS  PAUSE  (PAUSE  Su b-state)  —
+The  prober  is  free  of  alarm  conditions  in  the  PAUSE
+state.
+5. 2.3.15  PROCESSING ACTIVE — Th e state in which
+the prober is processing materials.
+5. 2.3.16   SETTING  UP  (PROCESS  Sub -state)  —  The
+prober  is  trying  to  satisfy  requirements  to  be  able  to
+start  processing.    This  is  the  state  under  which  the
+prober  has  already  received  a  process  program  and
+materials  to  be  processed,  then  has  received  START
+command  from  the  host  or  the  operator  and  is  making
+preparation  for  the  processing  according  to  the  process
+program.
+5. 2.3.17    STOPPING   (PROCESSING   A CTIVE   Sub-
+state) — The prober has received STOP command and
+sets up for the stop.  All necessary cleanup is completed
+within  this  state  with  regard  to  material,  data,  control
+system,  etc.  Data  is  preserved.  Any  error  condition  is
+cleared before exiting from this state.</p><p>SEMI E91-0600 © SEMI 1999, 20005
+5. 2.4  PSEM Processing State Trans ition Table
+Table 1  Processing State Transition Table
+No.Current StateTriggerNew StateActionComment
+1UndefinedAfter turning the power
+on, the operator has
+commanded the prober to
+perform initialization.
+INITThe prober executes
+initialization.
+None
+2INITInitialization of all
+probers completes without
+an alarm or error.
+IDLEThe prober is waiting for
+a command by the host or
+the operator.
+None
+3IDLEProber Job has been
+created, and the prober
+has already received a
+process program and
+materials, then has
+received START
+command from the host or
+the operator.
+SETTING UPThe prober is set up
+according to the process
+program.
+None
+4SETTING UPAll set-up performance
+has completed.
+EXECUTINGThe prober executes
+wafer transfer and
+measuring.
+None
+5EXECUTINGMaterial processing
+completes.
+IDLENoneNone
+6PROCESSThe prober received
+STOP command.
+STOPPINGThe prober completes the
+current wafer or the
+current die under
+EXECUTING state and
+unloads it in accordance
+with the setting of ECV
+“StopUnit”.
+The prober starts clearing
+data. Whether or not
+unloading is executed after
+the completion of the
+current wafer or the
+current die depends on the
+specification.
+7PROCESSThe prober received
+ABORT command from
+operator, host or self
+generated.
+ABORTINGThe prober is placed in a
+safe state.
+Wafer data or lot data may
+be invalid or not available.
+8PROCESSAn alarm occurs.ALARM
+PAUSED
+PROCESS activity is
+suspended, the prober is
+waiting for all alarms to
+be cleared, STOP or
+ABORT command.
+ALARM PAUSED is
+PAUSE sub-state.
+9PROCESSThe prober received
+PAUSE command from
+the host or the operator.
+PAUSINGPROCESS state is
+suspended when the
+processing can be
+stopped.
+All operations required to
+put the prober in safe
+condition are performed.
+PAUSING is PROCESS
+PAUSE sub-state.
+10CHECKINGParameter checking ends
+normally.
+Previous
+PROCESS
+state.
+Processing re-starts from
+the previously suspended
+state.
+None</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/semi">SEMI</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/standard">Standard</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-org/semiconductor-docs/tree/main/docs/standards/semi/semi-chapter-052.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"></nav></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/process/intro">工艺制造</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/standards/intro">协议标准</a></li></ul></div><div class="col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">技术博客</a></li></ul></div><div class="col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">更新日志</a></li><li class="footer__item">
+                  <a href="#" target="_blank" rel="noreferrer noopener">
+                    <span style="margin-right: 8px;">AI 集成</span>
+                    <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">NEW</span>
+                  </a>
+                </li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">
+          <div style="text-align: center;">
+            <p style="margin: 0; opacity: 0.8;">Copyright © 2025 半导体知识文档库</p>
+            <p style="margin: 8px 0 0 0; opacity: 0.6; font-size: 0.9em;">
+              Built with <span style="color: #00d4ff;">❤</span> using Docusaurus •
+              <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">AI-Powered</span>
+            </p>
+          </div>
+        </div></div></div></footer></div>
+<script src="/semiconductor-docs/assets/js/runtime~main.ca6193db.js"></script>
+<script src="/semiconductor-docs/assets/js/main.d89a018c.js"></script>
+</body>
+</html>

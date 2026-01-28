@@ -24,6 +24,20 @@ function PdfDownloadCard({ pdfLink, pdfSize, title, description }) {
   // 判断是否为外部链接
   const isExternal = pdfLink.startsWith('http');
 
+  // 提取文件名（用于下载属性）
+  const getFileName = (url) => {
+    if (!url) return null;
+    try {
+      const urlObj = new URL(url, isExternal ? undefined : window.location.origin);
+      const pathname = urlObj.pathname;
+      return pathname.split('/').pop();
+    } catch {
+      return url.split('/').pop();
+    }
+  };
+
+  const fileName = getFileName(pdfLink);
+
   return (
     <div className="pdf-download-card">
       <div className="pdf-download-card__header">
@@ -58,7 +72,7 @@ function PdfDownloadCard({ pdfLink, pdfSize, title, description }) {
         <a
           href={pdfLink}
           className="pdf-download-card__button pdf-download-card__button--primary"
-          download={isExternal ? undefined : true}
+          download={isExternal ? undefined : fileName}
           target={isExternal ? '_blank' : undefined}
           rel={isExternal ? 'noopener noreferrer' : undefined}
         >

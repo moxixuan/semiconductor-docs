@@ -1343,19 +1343,19 @@ Where Used: S5F14, F15, F18; S16F2, F4, F6, F12, F14, F16, F18, F24, F26, F28, F
 ACKC3 Format: 10
 Acknowledge code, 1 byte
 0   =   Accepted
->0  =   Error, not accepted
+\>0  =   Error, not accepted
 1-63 Reserved
 Where Used; S3F6, F8, F10
 ACKC5 Format: 10
 Acknowledge code, 1 byte
 0   =   Accepted
->0  =   Error, not accepted
+\>0  =   Error, not accepted
 1-63 Reserved
 Where Used; S5F2, F4
 ACKC6 Format: 10
 Acknowledge code, 1 byte
 0   =   Accepted
->0  =   Error, not accepted
+\>0  =   Error, not accepted
 1-63 Reserved
 Where Used; S6F2, F4, F10, F12, F14
 
@@ -1368,7 +1368,7 @@ Acknowledge code, 1 byte
 3   =   Matrix overflow
 4   =   PPID not found
 5   =   Mode unsupported
->5  =   Other error
+\>5  =   Other error
 6-63 Reserved
 Where Used:  S7F4, F12, F14, F16, F18, F24, F32
 ACKC7A Format: 31, 51
@@ -1400,7 +1400,7 @@ Return code for secondary messages 1 byte.
 7   =   ERROR: Cannot continue
 8   =   ERROR: End of Data
 9   =   ERROR: Handle in Use
->10 =   ERROR: Pending Transaction
+\>10 =   ERROR: Pending Transaction
 11-127 Reserved
 Where Used: S13F2, F4, F6, F8
 
@@ -1421,7 +1421,7 @@ bit 7-1 is alarm category
 6   =   Equipment status warning
 7   =   Attention flags
 8   =   Data integrity
->8  =   Other categories
+\>8  =   Other categories
 9-63 Reserved
 Where Used: S5F1, F6
 ALEDFormat: 10
@@ -1458,7 +1458,7 @@ interest,
 of interest,
 7   =   The qualifying value is absent (not contained in the set of) the
 value of interest,
->7  =   Reserved.
+\>7  =   Reserved.
 Where Used:  S14F1
 BCDS Format: 32, 52
 Before Command Codes
@@ -1568,7 +1568,7 @@ Command acknowledge code
 0   =   Completed or done
 1   =   Command does not exist
 2   =   Cannot perform now
->2  =   Other equipment-specific error
+\>2  =   Other equipment-specific error
 3-63 Reserved
 Where Used:  S2F22, F28
 CMDMAXFormat: 3(), 5()
@@ -1600,7 +1600,7 @@ Command Parameter Acknowledge Code, 1 byte
 1   =   Parameter Name (CPNAME) does not exist
 2   =   Illegal Value specified for CPVAL
 3   =   Illegal Format specified for CPVAL
->3  =   Other equipment-specific error
+\>3  =   Other equipment-specific error
 4-63 Reserved
 Where Used: S2F42
 CPNAMEFormat: 20, 3(), 5()
@@ -1617,7 +1617,7 @@ Equipment Acknowledgement code, 1 byte
 1   =   Busy
 2   =   Invalid SPID
 3   =   Invalid data
->3  =   Equipment-specific error
+\>3  =   Equipment-specific error
 4-63 Reserved
 Where Used: S2F8
 CTLJOBCMDFormat: 51
@@ -1664,7 +1664,7 @@ Define Report Acknowledge Code, 1 byte
 2   =   Denied. Invalid format
 3   =   Denied. At least one RPTID already defined
 4   =   Denied. At least VID does not exist
->4  =   Other errors
+\>4  =   Other errors
 5-63 Reserved
 Where Used: S2F34
 DSIDFormat: 20, 3(), 5()
@@ -1704,7 +1704,7 @@ Equipment acknowledge code, 1 byte
 1   =   Denied. At least one constant does not exist
 2   =   Denied. Busy
 3   =   Denied. At least one constant out of range
->3  =   Other equipment-specific error
+\>3  =   Other equipment-specific error
 4-63 Reserved
 Where Used: S2F16
 ECDEFFormat: 10, 11, 20, 21, 3(), 4(), 5()
@@ -1731,9 +1731,9 @@ EDID Format: 10, 20, 3(), 5()
 Expected data Identification
 Three possible responses.
 MEXP     EDID    EDID
-S02F03, <SPID>   A[6]
-S03Fl3, <PTN>    B[1]
-S07F03, <PPID>   A[80], B[80]
+S02F03, \<SPID\>   A[6]
+S03Fl3, \<PTN\>    B[1]
+S07F03, \<PPID\>   A[80], B[80]
 Where Used: S9F13
 EMID Format: 10, 20
 Equivalent material ID (16 bytes maximum)
@@ -1752,7 +1752,7 @@ Enable/Disable Event Report
 Acknowledge Code, 1 byte
 0   =   Accepted
 1   =   Denied. At least one CEID does not exist
->1  =   Other Errors
+\>1  =   Other Errors
 2-63 Reserved
 Where Used: S2F38
 
@@ -1869,7 +1869,7 @@ Grant code, 1 byte
 1   =   Busy, Try Again
 2   =   No Space Available
 3   =   Duplicate DATAID
->3  =   Equipment Specific Error Code
+\>3  =   Equipment Specific Error Code
 4-63 Reserved
 Where Used: S2F2, F40; S3F16; S4F26; S13F12; S16F2, F12
 GRANT6Format: 10
@@ -1877,7 +1877,7 @@ Permission to send, 1 byte
 0   =   Permission granted
 1   =   Busy, try again
 2   =   Not interested
->2  =   Other errors
+\>2  =   Other errors
 3-63 Reserved
 Where Used: S6F6
 
@@ -1891,7 +1891,7 @@ Grant code, 1 byte
 4   =   Duplicate ID
 5   =   Material ID not found
 6   =   Unknown map format
->6  =   Error
+\>6  =   Error
 7-63 Reserved
 Where Used: S12F6
 HANDLEFormat: 3(), 5()
@@ -1944,7 +1944,7 @@ Id type
 0   =   Wafer ID
 1   =   Wafer Cassette ID
 2   =   Film Frame ID
->2  =   Error
+\>2  =   Error
 3-63 Reserved
 Where Used: S12F1, F3, F4, F5, F7, F9, F11, F13, F14, F15, F16, F17, F18
 LENGTHFormat: 3(), 5()
@@ -1955,13 +1955,13 @@ SEMI E5-1000 © SEMI 1982, 200033
 LIMITACK Format: 10
 Acknowledgment code for variable limit attribute set, 1 byte
 1   =   LIMITID does not exist
-2   =   UPPERDB > LIMITMAX
-3   =   LOWERDB < LIMITMIN
-4   =   UPPERDB < LOWERDB
+2   =   UPPERDB \> LIMITMAX
+3   =   LOWERDB \< LIMITMIN
+4   =   UPPERDB \< LOWERDB
 5   =   Illegal format specified for UPPERDB or LOWERDB
 6   =   ASCII value cannot be translated to numeric
 7   =   Duplicate limit definition for this variable
->7  =   Other equipment-specific error
+\>7  =   Other equipment-specific error
 8-63 Reserved
 Where Used: S2F46
 LIMITIDFormat: 10
@@ -2002,7 +2002,7 @@ Link Report Acknowledge Code, 1 byte
 3   =   Denied. At least one CEID link already defined
 4   =   Denied. At least one CEID does not exist
 5   =   Denied. At least one RPTID does not exist
->5  =   Other errors
+\>5  =   Other errors
 6-63 Reserved
 Where Used: S2F36
 LVACKFormat: 10
@@ -2018,7 +2018,7 @@ Map Error
 0   =   ID not found
 1   =   Invalid Data
 2   =   Format Error
->2  =   Invalid error
+\>2  =   Invalid error
 3-63 Reserved
 Where Used: S12F19
 
@@ -2028,7 +2028,7 @@ Map data format type
 0   =   Row format
 1   =   Array format
 2   =   Coordinate format
->2  =   Error
+\>2  =   Error
 3-63 Reserved
 Where Used: S12F3, F5
 MCINDEX Format: 5()
@@ -2041,7 +2041,7 @@ Map data acknowledge
 1   =   Format error
 2   =   No ID match
 3   =   Abort/discard map
->3  =   Error
+\>3  =   Error
 4-63 Reserved
 Where Used: S12F8, F10, F12
 MDLNFormat: 20
@@ -2087,7 +2087,7 @@ Material ID Acknowledge Code, 1 byte
 0   =   Accepted
 1   =   Invalid port number
 2   =   Material is not present at identified port
->2  =   Error
+\>2  =   Error
 3-63 Reserved
 Where Used: S3F14
 
@@ -2141,7 +2141,7 @@ OBJACKFormat: 51
 Acknowledge code:
 0   =   Successful completion of requested data
 1   =   Error
->1 Reserved
+\>1 Reserved
 Where Used: S14F2, F4, F6, F8, F10, F12, F14, F16, F18
 OBJCMDFormat: 51
 Specifies an action to be performed by an object:
@@ -2150,7 +2150,7 @@ Specifies an action to be performed by an object:
 2   =   Detach from requestor (requires authorization token)
 3   =   Reattach to requestor
 4   =   Set attributes (requires authorization token)
->4 Reserved
+\>4 Reserved
 OBJID Format: 20, 5()
 Identifier for an object
 Where Used: S1F19; S14F1, F2, F3, F4
@@ -2158,10 +2158,10 @@ OBJSPECFormat: 20
 A text string that has an internal format and that is used to point to a specific object instance. The string is formed
 out of a sequence of formatted substrings, each specifying an objectís type and identifier. The substring format has
 the following four fields:
-object type, colon character “:”, object identifier, greater-than symbol “>”
-where  the  colon  character  ì:î  is  used  to  terminate  an  object  type  and  the  ìgreater  thanî  symbol  ì>î  is  used  to
+object type, colon character “:”, object identifier, greater-than symbol “\>”
+where  the  colon  character  ì:î  is  used  to  terminate  an  object  type  and  the  ìgreater  thanî  symbol  ì\>î  is  used  to
 terminate an identifier field. The object type field may be omitted where it may be otherwise determined. The final
-ì>î is optional.
+ì\>î is optional.
 Where Used: S2F49; S13F11, F13, F15; S14F1, F3, F5, F7, F9, F10, F11, F13, F15, F16, F17; S15F43, F47
 OBJTOKENFormat: 54
 Token used for authorization.
@@ -2199,7 +2199,7 @@ truncated)
 2   =   Upper left
 3   =   Lower left
 4   =   Lower right
->4  =   Error
+\>4  =   Error
 5-63 Reserved
 Zero length indicates not available
 Where Used: S12F1, F3, F4
@@ -2226,7 +2226,7 @@ default item has L entries, no default value will be provided for the
 L+1,...,PMAX parameter entries.
 If RQPAR is true:
 The length of the default vector (L) specifies the minimum number of
-entries which must be entered for the parameter. If > PMAX, only PMAX
+entries which must be entered for the parameter. If \> PMAX, only PMAX
 entries are required.
 Where Used: S7F22
 PFCD Format: 10
@@ -2243,15 +2243,15 @@ Maximum amount of data to be accepted by the host for this parameter. When a
 conflict arises between value of PMAX and length of PDFLT, PMAX takes
 precedence.
 For numeric and Boolean parameters:
-PMAX < 0 invalid
+PMAX \< 0 invalid
 PMAX = 0 specifies there is no upper bound
 PMAX = 1 specified a single value is expected
-PMAX > 1 specifies a vector of values is expected with a maximum of PMAX
+PMAX \> 1 specifies a vector of values is expected with a maximum of PMAX
 entries
 For string parameters:
-PMAX < 0 invalid
+PMAX \< 0 invalid
 PMAX = 0 specifies there is no upper bound
-PMAX > 0 maximum length of parameter string
+PMAX \> 0 maximum length of parameter string
 Where Used: S7F22
 PNAMEFormat: 20
 Parameter Name ≤ 16 characters
@@ -2285,7 +2285,7 @@ Process program grant status, 1 byte
 3   =   Invalid PPID
 4   =   Busy, try later
 5   =   Will not accept
->5  =   Other error
+\>5  =   Other error
 6-63 Reserved
 Where Used: S7F2, F30
 PPIDFormat: 10, 20
@@ -2307,7 +2307,7 @@ Process axis.
 5   =   Columns (Y-axis), left, decreasing
 6   =   Columns (Y-axis), right, increasing
 7   =   Columns (Y-axis), right, decreasing
->7  =   Error
+\>7  =   Error
 8-63 Reserved
 Where Used: S12F1, F3
 
@@ -2380,7 +2380,7 @@ RAC Format: 31, 51
 Reset acknowledge, 1 byte
 0   =   Reset to be done
 1   =   Reset denied
->1  =   Other errors
+\>1  =   Other errors
 2-63 Reserved
 Where Used: S2F20
 RCMDFormat: 20, 31, 51
@@ -2417,7 +2417,7 @@ Where Used: S15F21, F22
 RCPDELFormat: 51
 0   =   Delete
 1   =   Deselect
->1 Reserved
+\>1 Reserved
 Where Used: S15F35
 RCPDESCLTHFormat: 5()
 The length in bytes of a recipe section.
@@ -2515,7 +2515,7 @@ RICFormat: 31, 51
 Reset code, 1 byte
 0   =   Not used
 1   =   Power up reset
->1 Other reset conditions
+\>1 Other reset conditions
 2-63 Reserved
 Where Used: S2F19
 RMACKFormat: 51
@@ -2689,14 +2689,14 @@ Where Used: S13F4
 SDACKFormat: 10
 Map set-up data acknowledge
 0   =   Received data
->1  =   Error
+\>1  =   Error
 1-63 Reserved
 Where Used: S12F2
 SDBINFormat: 10
 Send bin information flag
 0   =   Sent bin information
 1   =   Don't send bin information
->1  =   Error
+\>1  =   Error
 2-63 Reserved
 Where Used: S12F17
 SEQNUMFormat: 3(), 5()
@@ -2727,7 +2727,7 @@ SPAACK Format: 10
 Equipment acknowledgement code, 1 byte
 0   = Everything correct
 1   = Invalid data
->1  = Equipment-specific error
+\>1  = Equipment-specific error
 2-63 Reserved
 Where Used: S2F4
 SPDFormat: 10
@@ -2754,13 +2754,13 @@ Where Used: See STATUSLIST.
 STATUSLISTFormat: 0
 A list of STATUS data sent in a fixed order. STATUSLIST has the following form:
 L,s
-1. <STATUS
+1. \<STATUS
 1
->
+\>
 .
-s. <STATUS
+s. \<STATUS
 s
->
+\>
 Where used: S18F4, F8, F10, F12, F14
 STEMP Format: 20
 String template. ASCII text string acceptable to equipment as a parameter
@@ -2858,7 +2858,7 @@ Equipment acknowledgement code, 1 byte
 1   =   Too many SVIDs
 2   =   No more traces allowed
 3   =   Invalid period
->3  =   Equipment-specified error
+\>3  =   Equipment-specified error
 4-63 Reserved
 Where Used: S2F24
 TIACKFormat: 10
@@ -2870,7 +2870,7 @@ Where Used: S2F32
 TIDFormat: 10
 Terminal number, 1 byte
 0   =   Single or main terminal
->0  =   Additional terminals at the same equipment
+\>0  =   Additional terminals at the same equipment
 Where Used: S10F1, F3, F5, F7
 
 SEMI E5-1000 © SEMI 1982, 200060
@@ -3053,7 +3053,7 @@ Variable Limit Attribute Acknowledge Code, 1 byte
 0   =   Acknowledge, command will be performed
 1   =   Limit attribute definition error
 2   =   Cannot perform now
->2  =   Other equipment-specific error
+\>2  =   Other equipment-specific error
 3-63 Reserved
 Where Used: S2F46
 XDIESFormat: 4(), 5()
@@ -3085,23 +3085,23 @@ AlarmsEnabledFormat: 0
 Class: SV
 Contains the list of alarms (ALIDs) enabled for reporting (via Stream 5).
 Structure: L,n n= # of alarms enabled
-1. <ALID1>
+1. \<ALID1\>
 .
 .
-n.<ALIDn>
+n.\<ALIDn\>
 AlarmsSet Format: 0
 Class: SV
 Contents  of  this  variable  is  a  list  of  alarms  (ALIDs)  currently  in  the  UNSAFE  (alarm  set)  state,  regardless  of
 whether the alarms are enabled for reporting.
 Structure: L,n n= # of alarms set
-1. <ALID
+1. \<ALID
 1
->
+\>
 .
 .
-n.<ALID
+n.\<ALID
 n
->
+\>
 ARAMSAccumResetFormat: 20
 Class: SV
 The  timestamp  of  when  the  set  of  accumulators  EngTime,  InterruptionCtr,  PrdTime,  NSTime,  SbyTime,  SDTime,
@@ -3181,10 +3181,10 @@ EventsEnabledFormat: 0
 Class: SV
 Contains the list of events (CEIDs) enabled for reporting (via Stream 6).
 Structure: L,n n= # of events enabled
-1. <CEID1>
+1. \<CEID1\>
 .
 .
-n.<CEIDn>
+n.\<CEIDn\>
 EventLimitFormat: 0, 10, 11, 20, 21, 3(), 4(), 5()
 Class: DVVAL
 Used  with  the  Limits  Monitoring  capability,  it  contains  the  LIMITID  of  the  limit  reached  or  crossed  by
@@ -3258,7 +3258,7 @@ Indicates the type or types of process programs and recipes that are supported.
 2   =   Formatted process programs
 3   =   Both unformatted and formatted process programs
 4   =   Execution Recipes
->4 Reserved
+\>4 Reserved
 PrdRecoveryFormat: 11
 Class: ECV
 A  boolean  value  that  enables  (TRUE)  or  disables  (FALSE)  the  equipment-initiated  return  to  PRODUCTIVE  from
@@ -3297,7 +3297,7 @@ The type of change that occurred for the recipe indicated in RcpChangeName
 6   =   Copied
 7   =   Renamed
 8,9 Reserved
->10 Reserved
+\>10 Reserved
 RcpExecNameFormat: 0, 20
 Class: SV
 The identifier, or a list of identifiers, of currently selected recipes. A zero-length item or list indicates no recipes are
@@ -3346,7 +3346,7 @@ NOTE 6: The setting of this ECV controls whether the equipment shall send the Da
 format.
 0   =   12-byte format
 1   =   16-byte format
->1 Reserved
+\>1 Reserved
 TransitionTypeFormat: 10
 Class: DVVAL
 Used with the Limits Monitoring capability, it defines the direction of the zone transition which has occurred.
@@ -3431,13 +3431,13 @@ RO51Enumerated.
 identifiers, corresponding to slot
 1, 2, Ö,n.
 RO0L,n
-1. <MID
+1. \<MID
 1
->
+\>
 ...
-n. <MID
+n. \<MID
 n
->
+\>
 ìCarrierProcessingStatusî    The current processing state of
 the material contained in the
 carrier.
@@ -3452,14 +3452,14 @@ the equipment.
 RO0List of 1 to n where n is less than or equal to
 the value of ìCapacityî:
 L,n
-1. <Slot Status
+1. \<Slot Status
 1
->
+\>
 .
 .
-n. <Slot Status
+n. \<Slot Status
 n
->
+\>
 where ìSlot Statusî is enumerated as:
 0 = UNDEFINED
 1 = EMPTY
@@ -3636,7 +3636,7 @@ ROYEnumerated unsigned
 integer:
 0 = source,
 1 = object,
-> 1 reserved.
+\> 1 reserved.
 0
 ìVerifiedîIndicates whether the recipeís body is
 syntactically correct.
@@ -3775,7 +3775,7 @@ RO20Timestamp format:
 Default is zero.
 RO520 = source,
 1 = object,
->1   reserved.
+\>1   reserved.
 ìVerifiedîIndicates whether the recipeís body is syntactically
 correct. Reset when the recipe is created or
 updated. Default is FALSE.
@@ -4061,7 +4061,7 @@ denoted by a capital L followed by the length separated by a comma.
 The individual elements in the list are numbered on separate lines.
 Nested lists are indented to emphasize the structure. The detailed
 form of the items is given in the define section at the beginning
-of the transaction. The symbols "<" and ">" are used to enclose
+of the transaction. The symbols "\<" and "\>" are used to enclose
 each item in the structure data and imply that there is an item
 header. A detailed description of each data item as well as a list of
 the allowable data formats can be found in the Data Item Dictionary.
@@ -4095,58 +4095,58 @@ other reason, respond with the expected reply. It is not a requirement that the 
 transaction.
 7. 5  Stream 1 Equipment Status ó  T his stream provides a means for exchanging information about the status of the
 equipment, including its current mode, depletion of various consumable items, and the status of transfer operations.
-S1,F0 Abort Transaction (S1F0) S,H<->E
+S1,F0 Abort Transaction (S1F0) S,H\<-\>E
 Description:   Used in lieu of an expected reply to abort a transaction. Function 0
 is defined in every stream and has the same meaning in every stream.
 Structure:     Header only
 
 SEMI E5-1000 © SEMI 1982, 200086
-S1,F1 Are You There Request (R) S,H<->E,reply
+S1,F1 Are You There Request (R) S,H\<-\>E,reply
 Description:   Establishes if the equipment is on-line. A function 0 response to
 this message means the communication is inoperative. In the
 equipment, a function 0 is equivalent to a timeout on the receive
 timer after issuing S1,F1 to the host.
 Structure:     Header only
-S1,F2 On Line Data (D) S,H<->E
+S1,F2 On Line Data (D) S,H\<-\>E
 Description:   Data signifying that the equipment is alive.
 Structure:     L,2
-1. <MDLN>
-2. <SOFTREV>
+1. \<MDLN\>
+2. \<SOFTREV\>
 Exception:     The host sends a zero-length list to the equipment.
-S1,F3 Selected Equipment Status Request (SSR)S,H->E,reply
+S1,F3 Selected Equipment Status Request (SSR)S,H-\>E,reply
 Description:   A request to the equipment to report selected values of its status.
 Structure:     The following structure is approved for all item formats and should
 be used by all new implementations:
 L,n
-1. <SVID
+1. \<SVID
 1
->
+\>
 .
 .
-n. <SVID
+n. \<SVID
 n
->
+\>
 The following structure is included for compatibility with previous
 implementations and may only be used for items of format 3() and 5():
-<SVID
+\<SVID
 1
 ,...,SVID
 n
->
+\>
 Exception:     A zero-length list (structure 1) or item (structure 2) means report
 all SVIDs.
-S1,F4 Selected Equipment Status Data (SSD) M,H<-E
+S1,F4 Selected Equipment Status Data (SSD) M,H\<-E
 Description:   The equipment reports the value of each SVID requested in the order
 requested. The host remembers the names of values requested.
 Structure:     L,n
-1. <SV
+1. \<SV
 1
->
+\>
 .
 .
-n. <SV
+n. \<SV
 n
->
+\>
 Exceptions:    A zero-length list item for SV
 i
 means that SVID
@@ -4154,91 +4154,91 @@ i
 does not exist.
 
 SEMI E5-1000 © SEMI 1982, 200087
-S1,F5 Formatted Status Request (FSR)S,H->E,reply
+S1,F5 Formatted Status Request (FSR)S,H-\>E,reply
 Description:   A request for the equipment to report the status according to a pre-
 defined fixed format.
-Structure:     <SFCD>
-S1,F6 Formatted Status Data (FSD)M,H<-E
+Structure:     \<SFCD\>
+S1,F6 Formatted Status Data (FSD)M,H\<-E
 Description:   The equipment reports the value of status variables according to the
 SFCD.
 Structure:     Depends upon the structure specified by the status form.
 Exception:     A zero-length item means that no report can be made.
-S1,F7 Fixed Form Request (FFR) S,H->E,reply
+S1,F7 Fixed Form Request (FFR) S,H-\>E,reply
 Description:   A request for the form used in S1,F6.
-Structure:     <SFCD>
-S1,F8 Fixed Form Data (FFD) M,H<-E
+Structure:     \<SFCD\>
+S1,F8 Fixed Form Data (FFD) M,H\<-E
 Description:   The form is returned with the name of each value and the
 data format item having a zero length as a two-element list in the
 place of each single item to be returned in S1,F6.
 Structure:     Depends upon the form being specified.
 Exception:     A zero-length item means the form is unavailable.
-S1,F9 Material Transfer Status Request (TSR) S,H->E,reply
+S1,F9 Material Transfer Status Request (TSR) S,H-\>E,reply
 Description:   A request to report the status of all material ports to the host.
 Structure:     Header only
-S1,F10 Material Transfer Status Data (TSD) M,H<-E
+S1,F10 Material Transfer Status Data (TSD) M,H\<-E
 Description:   The equipment reports to the host the transfer status of all material
 ports.
 Structure:     L,2
-1. <TSIP
+1. \<TSIP
 1
 ,...,TSIP
 n
->
-2. <TSOP
+\>
+2. \<TSOP
 1
 ,...,TSOP
 n
->
+\>
 Exception:     A zero-length item means there are no such ports. A zero-length list
 means there are no ports.
 
 SEMI E5-1000 © SEMI 1982, 200088
-S1,F11 Status Variable Namelist Request (SVNR) S,H->E,reply
+S1,F11 Status Variable Namelist Request (SVNR) S,H-\>E,reply
 Description:   A request to the equipment to identify certain status variables.
 Structure:     L,n
-1. <SVID
+1. \<SVID
 1
->
+\>
 .
 .
-n. <SVID
+n. \<SVID
 n
->
+\>
 Exception:     A zero length means report all SVIDs.
-S1,F12 Status Variable Namelist Reply (SVNRR) M,H<-E
+S1,F12 Status Variable Namelist Reply (SVNRR) M,H\<-E
 Description:   The equipment reports to the host the name and units of the requested
 SVs.
 Structure:       L,n
 1. L,3
-1. <SVID
+1. \<SVID
 1
->
-2. <SVNAME
+\>
+2. \<SVNAME
 1
->
-3. <UNITS
+\>
+3. \<UNITS
 1
->
+\>
 2. L,3
 .
 .
 n. L,3
-1. <SVID
+1. \<SVID
 n
->
-2. <SVNAME
+\>
+2. \<SVNAME
 n
->
-3. <UNITS
+\>
+3. \<UNITS
 n
->
+\>
 Exceptions:    Zero-length ASCII items for both SVNAME
 i
 and UNITS
 i
 indicates that
 the SVID does not exist.
-S1,F13 Establish Communications Request (CR) S,H<->E,reply
+S1,F13 Establish Communications Request (CR) S,H\<-\>E,reply
 Description:   The purpose of this message is to provide a formal means of
 initializing communications at a logical application level both on
 power-up and following a break in communications. It should be the
@@ -4249,60 +4249,60 @@ an Establish Communications Acknowledge(S1,F14) is received within
 the transaction timeout period with an acknowledgement code accepting
 the establishment.
 Structure:     L,2
-1. <MDLN>
-2. <SOFTREV>
+1. \<MDLN\>
+2. \<SOFTREV\>
 Exception:     The host sends a zero-length list to the equipment.
 
 SEMI E5-1000 © SEMI 1982, 200089
-S1,F14 Establish Communications Request Acknowledge (CRA) S,H<->E
+S1,F14 Establish Communications Request Acknowledge (CRA) S,H\<-\>E
 Description:   Accept or deny Establish Communications Request (S1,F13). MDLN and
 SOFTREV are on-line data and are valid only if COMMACK = 0.
 Structure:     L,2
-1. <COMMACK>
+1. \<COMMACK\>
 2. L,2
-1. <MDLN>
-2. <SOFTREV>
+1. \<MDLN\>
+2. \<SOFTREV\>
 Exception:     The host sends a zero-length list for item 2 to the equipment.
-S1,F15 Request OFF-LINE (ROFL) S,H->E,reply
+S1,F15 Request OFF-LINE (ROFL) S,H-\>E,reply
 Description:   The host requests that the equipment transition to the OFF-LINE
 state.
 Structure:     Header only
-S1,F16 OFF-LINE Acknowledge (OFLA) S,H<-E
+S1,F16 OFF-LINE Acknowledge (OFLA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <OFLACK>.
-S1,F17 Request ON-LINE (RONL) S,H->E,reply
+Structure:     \<OFLACK\>.
+S1,F17 Request ON-LINE (RONL) S,H-\>E,reply
 Description:   The host requests that the equipment transition to the ON-LINE state.
 Structure:     Header only
-S1,F18 ON-LINE Acknowledge (ONLA) S,H<-E
+S1,F18 ON-LINE Acknowledge (ONLA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ONLACK>.
+Structure:     \<ONLACK\>.
 
 SEMI E5-1000 © SEMI 1982, 200090
 Macro Level Messages
-S1,F19 Get Attribute (GA) S,H<ó>E,reply
+S1,F19 Get Attribute (GA) S,H\<ó\>E,reply
 5
 Description:   Request for attribute data relating to the specified object or entity
 within the equipment.
 Structure:     L,3
-1. <OBJTYPE>
+1. \<OBJTYPE\>
 2. L,m         [m=number of objects for which attributes requested]
-1. <OBJID
+1. \<OBJID
 1
->
+\>
 .
 .
-m.<OBJID
+m.\<OBJID
 m
->
+\>
 3. L,n         [n=number of attributes requested for each object]
-1. <ATTRID
+1. \<ATTRID
 1
->
+\>
 .
 .
-n.<ATTRID
+n.\<ATTRID
 n
->
+\>
 Exception:     A zero-length list (m=0) is a request for attributes of all objects
 of the specified type.
 A zero-length list (n=0) is a request for all attributes of the
@@ -4312,7 +4312,7 @@ object(s)to be returned in a predefined order.
 compatibility with Recipe Management and other future services.
 
 SEMI E5-1000 © SEMI 1982, 200091
-S1,F20 Attribute Data (AD)M,H<ó>E
+S1,F20 Attribute Data (AD)M,H\<ó\>E
 Description:   This message is used to transfer the requested set of object
 attributes. The order of requested objects and attributes is retained
 from the primary message.
@@ -4320,43 +4320,43 @@ Structure:     L,2
 1. L,m        [m=number of objects for which data is sent]
 1. L,n      [n= number of attributes returned for OBJID
 1]
-1. <ATTRDATA
+1. \<ATTRDATA
 1
->
+\>
 .
 .
-n.<ATTRDATA
+n.\<ATTRDATA
 n
->
+\>
 .
 .
 m.L,n      [n= number of attributes returned for OBJID
 m]
-1. <ATTRDATA
+1. \<ATTRDATA
 1
->
+\>
 .
 .
-n.<ATTRDATA
+n.\<ATTRDATA
 n
->
+\>
 2. L,p        [p=# errors reported]
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p.L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If m=0, it indicates that the specified OBJTYPE is unknown.
 If any n=0, it indicates that the corresponding object was not found.
 If any ATTRDATA item is reported as a zero-length item, it indicates
@@ -4366,105 +4366,105 @@ If no errors were found, p=0.
 host. This includes all remote operations and equipment self-diagnostics and calibration but specifically excludes the
 control  operations  which  are  associated  with  material  transfer  (see  Stream  4),  loading  of  executive  and  boot
 programs (Stream 8), and all file and operating system calls (Streams 10, 13). See also continuations in Stream 17.
-S2,F0 Abort Transaction (S2F0) S,H<->E
+S2,F0 Abort Transaction (S2F0) S,H\<-\>E
 Description:   Same form as S1,F0
-S2,F1 Service Program Load Inquire (SPI) S,H<->E,reply
+S2,F1 Service Program Load Inquire (SPI) S,H\<-\>E,reply
 Description:   Either the host or equipment wants to send the specified program.
 Structure:     L,2
-1. <SPID>
-2. <LENGTH>
+1. \<SPID\>
+2. \<LENGTH\>
 
 SEMI E5-1000 © SEMI 1982, 200092
-S2,F2 Service Program Load Grant (SPG) S,H<->E
+S2,F2 Service Program Load Grant (SPG) S,H\<-\>E
 Description:   Provides permission to load
-Structure:     <GRANT>
-S2,F3 Service Program Send (SPS) M,H<->E, reply
+Structure:     \<GRANT\>
+S2,F3 Service Program Send (SPS) M,H\<-\>E, reply
 Description:   The data associated with the S2,F1 inquire is sent. If S2,F3 is
 multi-block, it must be preceded by the S2,F1/S2,F2 Inquire/Grant
 transaction.
-Structure:     <SPD>
-S2,F4 Service Program Send Acknowledge (SPA) S,H<->E
+Structure:     \<SPD\>
+S2,F4 Service Program Send Acknowledge (SPA) S,H\<-\>E
 Description:   Acknowledge or error
-Structure:     <SPAACK>
-S2,F5 Service Program Load Request (SPR) S,H<->E,reply
+Structure:     \<SPAACK\>
+S2,F5 Service Program Load Request (SPR) S,H\<-\>E,reply
 Description:   A service program is requested.
-Structure:     <SPID>
-S2,F6 Service Program Load Data (SPD) M,H<->E
+Structure:     \<SPID\>
+S2,F6 Service Program Load Data (SPD) M,H\<-\>E
 Description:   A service program is sent.
-Structure:     <SPD>
+Structure:     \<SPD\>
 Exception:     A zero-length item means that the requested program cannot be
 returned.
-S2,F7 Service Program Run Send (CSS) S,H->E,reply
+S2,F7 Service Program Run Send (CSS) S,H-\>E,reply
 Description:   Start the requested program
-Structure:     <SPID>
-S2,F8 Service Program Run Acknowledge (CSA) S,H<-E
+Structure:     \<SPID\>
+S2,F8 Service Program Run Acknowledge (CSA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <CSAACK>
-S2,F9 Service Program Results Request (SRR) S,H->E,reply
+Structure:     \<CSAACK\>
+S2,F9 Service Program Results Request (SRR) S,H-\>E,reply
 Description:   Ask for results of service program
-Structure:     <SPID>
+Structure:     \<SPID\>
 
 SEMI E5-1000 © SEMI 1982, 200093
-S2,F10 Service Program Results Data (SRD)M,H<-E
+S2,F10 Service Program Results Data (SRD)M,H\<-E
 Description:   Get the results back
-Structure:     <SPR>
+Structure:     \<SPR\>
 Exception:     A zero-length item means SPR does not exist.
-S2,F11 Service Program Directory Request (SDR) S,H<->E,reply
+S2,F11 Service Program Directory Request (SDR) S,H\<-\>E,reply
 Description:   There may be more than one service program.
 Structure:     Header only
-S2,F12 Service Program Directory Data (SDD) S,H<->E
+S2,F12 Service Program Directory Data (SDD) S,H\<-\>E
 Description:   A list of service program names.
 Structure:     L,n
-1. <SPID
+1. \<SPID
 1
->
+\>
 .
 .
-n. <SPID
+n. \<SPID
 n
->
+\>
 Exception:     If n = 0, there are no service programs.
-S2,F13 Equipment Constant Request (ECR) S,H->E,reply
+S2,F13 Equipment Constant Request (ECR) S,H-\>E,reply
 Description:   Constants such as for calibration, servo gain, alarm limits, data
 collection mode, and other values that are changed infrequently can
 be obtained using this message.
 Structure:     The following structure is approved for all item formats and should
 be used by all new implementations:
 L,n
-1. <ECID
+1. \<ECID
 1
->
+\>
 .
 .
-n. <ECID
+n. \<ECID
 n
->
+\>
 The following structure is included for compatibility with previous
 implementations and may only be used for items of format 3() and
 5():
-<ECID
+\<ECID
 1
 , . . . , ECID
 n
->
+\>
 Exception:     A zero-length list (structure1) or item (structure2) means report all
 ECV's according to a predefined order.
 
 SEMI E5-1000 © SEMI 1982, 200094
-S2,F14 Equipment Constant Data (ECD) M,H<-E
+S2,F14 Equipment Constant Data (ECD) M,H\<-E
 Description:   Data Response to S2,F13 in the order requested.
 Structure:     L,n
-1. <ECV
+1. \<ECV
 1
->
-2. <ECV
+\>
+2. \<ECV
 2
->
+\>
 .
 .
-n. <ECV
+n. \<ECV
 n
->
+\>
 Exceptions:    A zero-length list item for ECV
 i
 means that ECID
@@ -4472,57 +4472,57 @@ i
 does not exist.
 The list format for this data item is not allowed, except in this
 case.
-S2,F15 New Equipment Constant Send (ECS) S,H->E,reply
+S2,F15 New Equipment Constant Send (ECS) S,H-\>E,reply
 Description:   Change one or more equipment constants.
 Structure:     L,n
 1. L,2
-1. <ECID
+1. \<ECID
 1
->
-2. <ECV
+\>
+2. \<ECV
 1
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <ECID
+1. \<ECID
 n
->
-2. <ECV
+\>
+2. \<ECV
 n
->
-S2,F16 New Equipment Constant Acknowledge (ECA) S,H<-E
+\>
+S2,F16 New Equipment Constant Acknowledge (ECA) S,H\<-E
 Description:   Acknowledge or error If EAC contains a non-zero error code, the
 equipment should not change any of the ECIDs specified in S2F15.
-Structure:     <EAC>
-S2,F17 Date and Time Request (DTR) S,H<->E,reply
+Structure:     \<EAC\>
+S2,F17 Date and Time Request (DTR) S,H\<-\>E,reply
 Description:   Useful to check equipment time base or for equipment to synchronize
 with the host time base.
 Structure:     Header only
-S2,F18 Date and Time Data (DTD) S,H<->E
+S2,F18 Date and Time Data (DTD) S,H\<-\>E
 Description:   Actual time data
-Structure:     <TIME>
+Structure:     \<TIME\>
 Exception:     A zero-length item means no time exists.
-S2,F19 Reset/Initialize Send (RIS)S,H->E,reply
+S2,F19 Reset/Initialize Send (RIS)S,H-\>E,reply
 Description:   Causes equipment to reach one of several predetermined initialized
 conditions.
-Structure:     <RIC>
+Structure:     \<RIC\>
 
 SEMI E5-1000 © SEMI 1982, 200095
-S2,F20 Reset Acknowledge (RIA) S,H<-E
+S2,F20 Reset Acknowledge (RIA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <RAC>
-S2,F21 Remote Command Send (RCS) S,H->E,[reply]
+Structure:     \<RAC\>
+S2,F21 Remote Command Send (RCS) S,H-\>E,[reply]
 Description:   Similar to pressing buttons on the front panel or causes some
 equipment activity to commence or to cease.
-Structure:     <RCMD>
-S2,F22 Remote Command Acknowledge (RCA)  S,H<-E
+Structure:     \<RCMD\>
+S2,F22 Remote Command Acknowledge (RCA)  S,H\<-E
 Description:   Acknowledge or error
-Structure:     <CMDA>
+Structure:     \<CMDA\>
 
 SEMI E5-1000 © SEMI 1982, 200096
-S2,F23 Trace Initialize Send (TIS) M,H->E,reply
+S2,F23 Trace Initialize Send (TIS) M,H-\>E,reply
 Description:   Status variables exist at all times. This function provides a way to
 sample a subset of those status variables as a function of time. The
 trace data is returned on S6,F1 and is related to the original
@@ -4542,127 +4542,127 @@ performance limits, or the equipment may operate incorrectly.
 Structure:     The following structure is approved for all item formats and should
 be used by all new implementations:
 L,5
-1. <TRID>
-2. <DSPER>
-3. <TOTSMP>
-4. <REPGSZ>
+1. \<TRID\>
+2. \<DSPER\>
+3. \<TOTSMP\>
+4. \<REPGSZ\>
 5. L,n
-1. <SVID
+1. \<SVID
 1
->
+\>
 .
 .
-n. <SVID
+n. \<SVID
 n
->
+\>
 The following structure is included for compatibility with previous
 implementations and may only be used for items whose SVID is format
 3() and 5():
 L,5
-1. <TRID>
-2. <DSPER>
-3. <TOTSMP>
-4. <REPGSZ>
-5. <SVID
+1. \<TRID\>
+2. \<DSPER\>
+3. \<TOTSMP\>
+4. \<REPGSZ\>
+5. \<SVID
 1
 , . . . , SVID
 n
->
-S2,F24 Trace Initialize Acknowledge (TIA)S,H<-E
+\>
+S2,F24 Trace Initialize Acknowledge (TIA)S,H\<-E
 Description:   Acknowledge or error
-Structure:     <TIAACK>
-S2,F25 Loopback Diagnostic Request (LDR) S,H<->E,reply
+Structure:     \<TIAACK\>
+S2,F25 Loopback Diagnostic Request (LDR) S,H\<-\>E,reply
 Description:   A diagnostic message for checkout of protocol and communication
 circuits. The binary string sent is echoed back.
-Structure:     <ABS>
+Structure:     \<ABS\>
 
 SEMI E5-1000 © SEMI 1982, 200097
-S2,F26 Loopback Diagnostic Data (LDD) S,H<->E
+S2,F26 Loopback Diagnostic Data (LDD) S,H\<-\>E
 Description:   The echoed binary string
-Structure:     <ABS>
-S2,F27 Initiate Processing Request (IPR) S,H->E,reply
+Structure:     \<ABS\>
+S2,F27 Initiate Processing Request (IPR) S,H-\>E,reply
 Description:   Host requests equipment to initiate processing of the identified
 material at the specified location in the machine using the specified
 process program.
 Structure:     L,3
-1. <LOC>
-2. <PPID>
+1. \<LOC\>
+2. \<PPID\>
 3. L,n
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-n. <MID
+n. \<MID
 n
->
+\>
 Exception:    A zero-length PPID indicates no process program is being specified
 and the equipment is to take whatever action is appropriate for it to
 determine the proper program to use. A zero-length MID list indicates
 no MID is to be associated with the material to be processed.
-S2,F28 Initiate Processing Acknowledge (IPA) S,H<-E
+S2,F28 Initiate Processing Acknowledge (IPA) S,H\<-E
 Description:   Response by equipment to Initiate Processing Request. Returned status
 indicates whether or not the request was honored by the equipment.
-Structure:     <CMDA>
-S2,F29 Equipment Constant Namelist Request (ECNR) S,H->E,reply
+Structure:     \<CMDA\>
+S2,F29 Equipment Constant Namelist Request (ECNR) S,H-\>E,reply
 Description:   This function allows the host to retrieve basic information about
 what equipment constants are available in the equipment.
 Structure:     L,n
-1. <ECID
+1. \<ECID
 1
->
+\>
 .
 .
-n. <ECID
+n. \<ECID
 n
->
+\>
 Exception:     A zero-length list means send information for all ECIDs.
 
 SEMI E5-1000 © SEMI 1982, 200098
-S2,F30 Equipment Constant Namelist (ECN) M,H<-E
+S2,F30 Equipment Constant Namelist (ECN) M,H\<-E
 Description:   Data Response
 Structure:     L,n (number of equipment constants)
 1. L,6
-1. <ECID
+1. \<ECID
 1
->
-2. <ECNAME
+\>
+2. \<ECNAME
 1
->
-3. <ECMIN
+\>
+3. \<ECMIN
 1
->
-4. <ECMAX
+\>
+4. \<ECMAX
 1
->
-5. <ECDEF
+\>
+5. \<ECDEF
 1
->
-6. <UNITS
+\>
+6. \<UNITS
 1
->
+\>
 2. L,6
 .
 .
 n. L,6
-1. <ECID
+1. \<ECID
 n
->
-2. <ECNAME
+\>
+2. \<ECNAME
 n
->
-3. <ECMIN
+\>
+3. \<ECMIN
 n
->
-4. <ECMAX
+\>
+4. \<ECMAX
 n
->
-5. <ECDEF
+\>
+5. \<ECDEF
 n
->
-6. <UNITS
+\>
+6. \<UNITS
 n
->
+\>
 Exceptions:    Zero-length ASCII items for  ECNAME
 i
 , ECMIN
@@ -4675,15 +4675,15 @@ i
 UNITS
 i
 indicates that the ECID does not exist.
-S2,F31 Date and Time Set Request (DTS) S,H->E,reply
+S2,F31 Date and Time Set Request (DTS) S,H-\>E,reply
 Description:   Useful to synchronize the equipment time with the host time base.
-Structure:     <TIME>
-S2,F32 Date and Time Set Acknowledge (DTA) S,H<-E
+Structure:     \<TIME\>
+S2,F32 Date and Time Set Acknowledge (DTA) S,H\<-E
 Description:   Acknowledge the receipt of time and date.
-Structure:     <TIACK>
+Structure:     \<TIACK\>
 
 SEMI E5-1000 © SEMI 1982, 200099
-S2,F33 Define Report (DR) M,H->E,reply
+S2,F33 Define Report (DR) M,H-\>E,reply
 Description:   The purpose of this message is for the host to define a group of
 reports for the equipment.
 The type of report to be transmitted is designated by a Boolean
@@ -4693,41 +4693,41 @@ means that an "Annotated Event Report"(S6,F13) will be sent.
 If S2,F33 is Multi-block, it must be preceded by the S2,F39/S2,F40
 Inquire/Grant transaction.
 Structure:     L,2
-1. <DATAID>
+1. \<DATAID\>
 2. L,a                                      # reports
 1. L,2                                   report 1
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 2. L,b                        #VIDs this report
-1. <VID
+1. \<VID
 1
->
+\>
 .
 .
-b.<VID
+b.\<VID
 b
->
+\>
 a. L,2                                   report a
-1. <RPTIDa>
+1. \<RPTIDa\>
 2. L,c                        #VIDs this report
-1. <VID
+1. \<VID
 1
->
+\>
 .
 .
-c. <VIDc>
-Exceptions:    1. A list of zero-length following <DATAID> deletes all report defi-
+c. \<VIDc\>
+Exceptions:    1. A list of zero-length following \<DATAID\> deletes all report defi-
 nitions and associated links. See S2,F35 (Link Event/Report).
-2. A list of zero-length following <RPTID> deletes report type RPTID.
+2. A list of zero-length following \<RPTID\> deletes report type RPTID.
 All CEID links to this RPTID are also deleted.
-S2,F34 Define Report Acknowledge (DRA) S,H<-E
+S2,F34 Define Report Acknowledge (DRA) S,H\<-E
 Description:   Acknowledge or error If an error condition is detected the entire
 message is rejected (i.e., partial changes are not allowed).
-Structure:     <DRACK>
+Structure:     \<DRACK\>
 
 SEMI E5-1000 © SEMI 1982, 2000100
-S2,F35 Link Event Report (LER) M,H->E,reply
+S2,F35 Link Event Report (LER) M,H-\>E,reply
 Description:   The purpose of this message is for the host to link n reports to an
 event (CEID). These linked event reports will default to 'disabled'
 upon linking. That is, the occurrence of an event would not cause the
@@ -4735,154 +4735,154 @@ report to be sent until enabled. See S2,F37 for enabling reports.
 If S2,F35 is Multi-block, it must be preceded by the S2,F39/S2,F40
 Inquire/Grant transaction.
 Structure:     L,2
-1. <DATAID>
+1. \<DATAID\>
 2. L,a                                      # events
 1. L,2                                   event 1
-1. <CEID
+1. \<CEID
 1
->
+\>
 2. L,b
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 .
 .
-b. <RPTID
+b. \<RPTID
 b
->
+\>
 .
 .
 a. L,2                                   event a
-1. <CEID
+1. \<CEID
 a
->                 # RPTIDS this event
+\>                 # RPTIDS this event
 2. L,c
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 .
 .
-c. <RPTID
+c. \<RPTID
 c
->
+\>
 Exception:     A list of zero length following CEID deletes all report links to that
 event.
-S2,F36 Link Event Report Acknowledge (LERA) S,H<-E
+S2,F36 Link Event Report Acknowledge (LERA) S,H\<-E
 Description:   Acknowledge or error If an error condition is detected the entire
 message is rejected (i.e., partial changes are not allowed).
-Structure:     <LRACK>
-S2,F37 Enable/Disable Event Report (EDER) S,H- >E,reply
+Structure:     \<LRACK\>
+S2,F37 Enable/Disable Event Report (EDER) S,H- \>E,reply
 Description:   The purpose of this message is for the host to enable or disable
 reporting for a group of events (CEIDs).
 Structure:     L,2
-1. <CEED>                                     enable/disable
+1. \<CEED\>                                     enable/disable
 2. L,n   #CEIDs
-1. <CEID
+1. \<CEID
 1
->
+\>
 .
 .
-n. <CEID
+n. \<CEID
 n
->
-Exception:     A list of zero length following <CEED> means all CEIDs.
+\>
+Exception:     A list of zero length following \<CEED\> means all CEIDs.
 
 SEMI E5-1000 © SEMI 1982, 2000101
-S2,F38 Enable/Disable Event Report Acknowledge (EERA) S,H<-E
+S2,F38 Enable/Disable Event Report Acknowledge (EERA) S,H\<-E
 Description:   Acknowledge or error If an error condition is detected the entire
 message is rejected, i.e., partial changes are not allowed.
-Structure:     <ERACK>
-S2,F39 Multi-block Inquire (DMBI) S,H->E,reply
+Structure:     \<ERACK\>
+S2,F39 Multi-block Inquire (DMBI) S,H-\>E,reply
 Description:   If a S2,F23 S2,F33, S2,F35, S2,F45, or S2,F49 message is more than
 one block, this transaction must precede the message.
 Structure:     L,2
-1. <DATAID>
-2. <DATALENGTH>
-S2,F40 Multi-block Grant (DMBG) S,H<-E
+1. \<DATAID\>
+2. \<DATALENGTH\>
+S2,F40 Multi-block Grant (DMBG) S,H\<-E
 Description:   Grant permission to send multi-block message.
-Structure:     <GRANT>
-S2,F41 Host Command Send (HCS) S,H->E,reply
+Structure:     \<GRANT\>
+S2,F41 Host Command Send (HCS) S,H-\>E,reply
 Description:   The Host requests the Equipment perform the specified remote command
 with the associated parameters.
 Structure:     L,2
-1. <RCMD>
+1. \<RCMD\>
 2. L,n # of parameters
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
-> parameter 1 name
-2. <CPVAL
+\> parameter 1 name
+2. \<CPVAL
 1
-> parameter 1 value
+\> parameter 1 value
 .
 .
 n. L,2
-1. <CPNAME
+1. \<CPNAME
 n
->parameter n name
-2. <CPVAL
+\>parameter n name
+2. \<CPVAL
 n
->parameter n value
+\>parameter n value
 
 SEMI E5-1000 © SEMI 1982, 2000102
-S2,F42 Host Command Acknowledge (HCA) S,H<-E
+S2,F42 Host Command Acknowledge (HCA) S,H\<-E
 Description:   Acknowledge Host command or error. If command is not accepted due to
 one or more invalid parameters (i.e., HCACK=3), then a list of
 invalid parameters will be returned containing the parameter name and
 reason for being invalid.
 Structure:     L,2
-1. <HCACK>
+1. \<HCACK\>
 2. L,n # of parameters
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
-> parameter 1 name
-2. <CPACK
+\> parameter 1 name
+2. \<CPACK
 1
-> parameter 1 reason
+\> parameter 1 reason
 .
 .
 n. L,2
-1. <CPNAME
+1. \<CPNAME
 n
->parameter n name
-2. <CPACK
+\>parameter n name
+2. \<CPACK
 n
->parameter n reason
+\>parameter n reason
 Exception:     If there are no invalid parameters, then a list of zero length will
 be sent for item 2.
-S2,F43 Reset Spooling Streams and Functions (RSSF) S,H->E,reply
+S2,F43 Reset Spooling Streams and Functions (RSSF) S,H-\>E,reply
 Description:   This message allows the host to select specific streams and functions
 to be spooled whenever spooling is active.
 Structure:     L,m
 1. L,2
-1. <STRID
+1. \<STRID
 1
->
+\>
 2. L,n
-1. <FCNID
+1. \<FCNID
 1
->
+\>
 .
 .
-n. <FCNID
+n. \<FCNID
 n
->
+\>
 .
 .
 m. L,2
-1. <STRID
+1. \<STRID
 m
->
+\>
 2. L,n
-1. <FCNID
+1. \<FCNID
 1
->
+\>
 .
 .
-. <FCNID
+. \<FCNID
 n
->
+\>
 Exceptions:    1. A zero-length list, m=0, turns off spooling for all streams and
 functions.
 2. A zero-length list, n=0, turns on spooling for all functions for
@@ -4896,119 +4896,119 @@ stream (except Stream 1).
 replace any previously selected functions.
 
 SEMI E5-1000 © SEMI 1982, 2000103
-S2,F44 Reset Spooling Acknowledge (RSA) M,H<-E
+S2,F44 Reset Spooling Acknowledge (RSA) M,H\<-E
 Description:   Acknowledge or error
 Structure:     L,2
-1. <RSPACK>                    (accept or reject)
+1. \<RSPACK\>                    (accept or reject)
 2. L,m                        (m = number of streams with errors)
 1. L,3
-1. <STRID
+1. \<STRID
 1
->
-2. <STRACK
+\>
+2. \<STRACK
 1
->        (error in stream)
+\>        (error in stream)
 3. L,n              (n = number of functions in error)
-1. <FCNID
+1. \<FCNID
 1
->
+\>
 .
 .
-n. <FCNID
+n. \<FCNID
 n
->
+\>
 .
 .
 m. L,3
-1. <STRID
+1. \<STRID
 m
->
-2. <STRACK
+\>
+2. \<STRACK
 m
->        (error in stream)
+\>        (error in stream)
 3. L,n              (n = number of functions in error)
-1. <FCNID
+1. \<FCNID
 1
->
+\>
 .
 .
-n. <FCNID
+n. \<FCNID
 n
->
+\>
 Exceptions:    1. If RSPACK=0, a zero-length list, m=0, is given, indicating no
 streams or functions in error.
 2. A zero-length list, n=0, indicates no functions in error for
 specified stream.
 
 SEMI E5-1000 © SEMI 1982, 2000104
-S2,F45 Define Variable Limit Attributes (DVLA) M,H->E,reply
+S2,F45 Define Variable Limit Attributes (DVLA) M,H-\>E,reply
 Structure:     L,2
-1. <DATAID>
+1. \<DATAID\>
 2. L,m (m=# of variables in this definition)
 1. L,2
-1. <VID
+1. \<VID
 1
->
+\>
 2. L,n (n=# of limits being defined/changed for VID
 1
 )
 1. L,2
-1. <LIMITID
+1. \<LIMITID
 1
->
+\>
 2. L,p (p={0,2})
-1. <UPPERDB
+1. \<UPPERDB
 1
->
-2. <LOWERDB
+\>
+2. \<LOWERDB
 1
->
+\>
 .
 .
 n. L,2
-1. <LIMITID
+1. \<LIMITID
 n
->
+\>
 2. L,p (p={0,2})
-1. <UPPERDB
+1. \<UPPERDB
 n
->
-2. <LOWERDB
+\>
+2. \<LOWERDB
 n
->
+\>
 .
 .
 m.L,2
-1. <VID
+1. \<VID
 m
->
+\>
 2. L,n (n=# of limits being defined/changed for VID
 m
 )
 1. L,2
-1. <LIMITID
+1. \<LIMITID
 1
->
+\>
 2. L,p (p={0,2})
-1. <UPPERDB
+1. \<UPPERDB
 1
->
-2. <LOWERDB
+\>
+2. \<LOWERDB
 1
->
+\>
 .
 .
 n. L,2
-1. <LIMITID
+1. \<LIMITID
 n
->
+\>
 2. L,p (p={0,2})
-1. <UPPERDB
+1. \<UPPERDB
 n
->
-2. <LOWERDB
+\>
+2. \<LOWERDB
 n
->
+\>
 Exceptions:    1. A zero-length list, m=0, sets all limit values for all monitored
 VIDs to "undefined.”
 2. A zero-length list, n=0, sets all limits values for that VID to
@@ -5016,7 +5016,7 @@ VIDs to "undefined.”
 3. A zero-length list, p=0, sets that limit to "undefined."
 
 SEMI E5-1000 © SEMI 1982, 2000105
-S2,F46 Variable Limit Attribute Acknowledge (VLAA) M,H<-E
+S2,F46 Variable Limit Attribute Acknowledge (VLAA) M,H\<-E
 Description:   Acknowledge definition of variable limit attributes or report error.
 If DVLA is not accepted due to one or more invalid parameters
 (e.g., LIMITACK=3), then a list of invalid parameters is returned
@@ -5024,182 +5024,182 @@ containing the variable limit attribute and reason for rejection. If
 an error condition is detected, the entire message is rejected (i.e.,
 partial changes are not allowed).
 Structure:     L,2
-1. <VLAACK>
+1. \<VLAACK\>
 2. L,m                            (m=number of invalid parameters)
 1. L,3
-1. <VID
+1. \<VID
 1
->               (VID with error)
-2. <LVACK
+\>               (VID with error)
+2. \<LVACK
 p
->              (reason)
+\>              (reason)
 3. L,n {n=0,2}
-1. <LIMITID
+1. \<LIMITID
 1
->       (1st limit in error for VID
+\>       (1st limit in error for VID
 p
 )
-2. <LIMITACK
+2. \<LIMITACK
 1
->      (reason)
+\>      (reason)
 .
 .
 m. L,3
-1. <VID
+1. \<VID
 m
->               (VID with error)
-2. <LVACK
+\>               (VID with error)
+2. \<LVACK
 m
->             (reason)
+\>             (reason)
 3. L,n {n=0,2}
-1. <LIMITID
+1. \<LIMITID
 1
->      (1st limit in error for VID
+\>      (1st limit in error for VID
 x
 )
-2. <LIMITACK
+2. \<LIMITACK
 1
->     (reason)
+\>     (reason)
 Exceptions:    1. A zero-length list, m=0 indicates no invalid variable limit
 attributes.
 2. A zero-length list, n=0 indicates no invalid limit values for that
 VID.
-S2,F47 Variable Limit Attribute Request (VLAR) S,H->E,reply
+S2,F47 Variable Limit Attribute Request (VLAR) S,H-\>E,reply
 Description:   This message allows the host to query the equipment for current
 variable limit attribute definitions.
 Structure:     L,m                                 (m=# of VIDs this request)
-1. <VID
+1. \<VID
 1
->
+\>
 .
 .
-m. <VID
+m. \<VID
 m
->
+\>
 Exception:     A zero-length list, m=0, requests a list of all VID values that can
 have variable limit attributes.
 
 SEMI E5-1000 © SEMI 1982, 2000106
-S2,F48 Variable Limit Attributes Send (VLAS)M,H<-E
+S2,F48 Variable Limit Attributes Send (VLAS)M,H\<-E
 Description:   Equipment sends values of requested variable limit attribute
 definitions in the order requested.
 Structure:     L,m                             (m=# of VIDs this request)
 1. L,2
-1. <VID
+1. \<VID
 1
->
+\>
 2. L,p {p=0,4}
-1. <UNITS
+1. \<UNITS
 1
->
-2. <LIMITMIN
+\>
+2. \<LIMITMIN
 1
->
-3. <LIMITMAX
+\>
+3. \<LIMITMAX
 1
->
+\>
 4. L,n               (n=# of limits defined for this VID)
 1. L,3
-1. <LIMITID
+1. \<LIMITID
 1
->
-2. <UPPERDB
+\>
+2. \<UPPERDB
 1
->
-3. <LOWERDB
+\>
+3. \<LOWERDB
 1
->
+\>
 .
 .
 n. L,3
-1. <LIMITID
+1. \<LIMITID
 n
->
-2. <UPPERDB
+\>
+2. \<UPPERDB
 n
->
-3. <LOWERDB
+\>
+3. \<LOWERDB
 n
->
+\>
 .
 .
 m.L,2
-1. <VID
+1. \<VID
 m
->
+\>
 2. L,p {p=0,4}
-1. <UNITS
+1. \<UNITS
 m
->
-2. <LIMITMIN
+\>
+2. \<LIMITMIN
 m
->
-3. <LIMITMAX
+\>
+3. \<LIMITMAX
 m
->
+\>
 4. L,n               (n=# of limits defined for this VID)
 1. L,3
-1. <LIMITID
+1. \<LIMITID
 1
->
-2. <UPPERDB
+\>
+2. \<UPPERDB
 1
->
-3. <LOWERDB
+\>
+3. \<LOWERDB
 1
->
+\>
 .
 .
 n. L,3
-1. <LIMITID
+1. \<LIMITID
 n
->
-2. <UPPERDB
+\>
+2. \<UPPERDB
 n
->
-3. <LOWERDB
+\>
+3. \<LOWERDB
 n
->
+\>
 Exceptions:    1. A zero-length list, p=0, indicates that limits are not supported
 for the VID.
 2. A zero-length list, n=0, means no limits are currently defined for
 the specified variable.
 
 SEMI E5-1000 © SEMI 1982, 2000107
-S2,F49 Enhanced Remote CommandM,H->E
+S2,F49 Enhanced Remote CommandM,H-\>E
 Description:   The host requests an object to perform the specified remote command
 with its associated parameters. If multi-block, it shall be preceded
 by the S2,F39/S2,F40 Multi-Block Inquire/Grant transaction.
 Structure:     L,4
-1. <DATAID>
-2. <OBJSPEC>
-3. <RCMD>
+1. \<DATAID\>
+2. \<OBJSPEC\>
+3. \<RCMD\>
 4. L,m # of parameter groups
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
-> command parameter 1 name
-2. <CEPVAL
+\> command parameter 1 name
+2. \<CEPVAL
 1
-> command-enhanced parameter 1 value
+\> command-enhanced parameter 1 value
 2. L,2
-1. <CPNAME
+1. \<CPNAME
 2
-> command parameter 2 name
-2. <CEPVAL
+\> command parameter 2 name
+2. \<CEPVAL
 2
-> command-enhanced parameter 2 value
+\> command-enhanced parameter 2 value
 .
 .
 .
 .
 m. L,2
-1. <CPNAME
+1. \<CPNAME
 m
-> command parameter m name
-2. <CEPVAL
+\> command parameter m name
+2. \<CEPVAL
 m
-> command enhanced parameter m value
+\> command enhanced parameter m value
 If a specific value of CPNAME is defined to have a CEPVAL defined as
 a LIST, it shall always be a LIST. If the CEPVAL that is associated
 to that specific value of CPNAME is defined to be anything other than
@@ -5210,171 +5210,171 @@ Notes:         1. If CEPVAL is a LIST, the items that make up that list shall ta
 on one of the following forms: (1) a list of items with an identical
 format, (2) a LIST of CPNAME, CEPVAL pairs, as illustrated below.
 A) L,2                                 B) L,2
-1. <CPNAME
+1. \<CPNAME
 a
->                           1. <CPNAME
+\>                           1. \<CPNAME
 b
->
+\>
 2. L,m                                 2. L,n
-1. <CPVAL
+1. \<CPVAL
 a1
->                           1. L,2
-2. <CPVAL
+\>                           1. L,2
+2. \<CPVAL
 a2
->                                1. <CPNAME
+\>                                1. \<CPNAME
 b1
->
-.                                           2. <CEPVAL
+\>
+.                                           2. \<CEPVAL
 b1
->
+\>
 .                                      .
 .                                      .
 .                                      n. L,2
-.                                           1. <CPNAME
+.                                           1. \<CPNAME
 bn
->
-.                                           2. <CEPVAL
+\>
+.                                           2. \<CEPVAL
 bn
->
-m. <CPVAL
+\>
+m. \<CPVAL
 am
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000108
-S2,F50 Enhanced Remote Command AcknowledgeM,H<-E
+S2,F50 Enhanced Remote Command AcknowledgeM,H\<-E
 Description:   The equipment acknowledges Enhanced Remote Command or reports any
 error(s). If the command is not accepted due to one or more invalid
 parameters, (i.e. HCACK = 3), then a list of invalid parameters will
 be returned containing the parameter name and reason for being
 invalid.
 Structure:     L,2
-1. <HCACK>
+1. \<HCACK\>
 2. L,n            # of parameter groups
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
->
-2. <CEPACK
+\>
+2. \<CEPACK
 1
->
+\>
 .
 .
 n. L,2
-1. <CPNAME
+1. \<CPNAME
 n
->
-2. <CEPACK
+\>
+2. \<CEPACK
 n
->
+\>
 7. 7  Stream 3 Materials Status ó Th e functions of the material status stream are used to communicate information
 and  actions  related  to  material,  including  carriers  and  material-in-process,  time-to-completion  information,  and
 extraordinary material occurrences.
-S3,F0 Abort Transaction (S3F0) S,H<->E
+S3,F0 Abort Transaction (S3F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S3,F1 Material Status Request (MSR) S,H->E,reply
+S3,F1 Material Status Request (MSR) S,H-\>E,reply
 Description:   Host requests the device to send the status of all material in
 process.
 Structure:     Header only
-S3,F2 Material Status Data (MSD) M,H<-E
+S3,F2 Material Status Data (MSD) M,H\<-E
 Description:   Material-in-process information is sent from the equipment to the
 host. There are m locations.
 Structure:     L,2
-1. <MF>
+1. \<MF\>
 2. L,m
 1. L,3
-1. <LOC
+1. \<LOC
 1
->
-2. <QUA
+\>
+2. \<QUA
 1
->
-3. <MID
+\>
+3. \<MID
 1
->
+\>
 2. L,3
 .
 .
 m. L,3
-1. <LOC
+1. \<LOC
 m
->
-2. <QUA
+\>
+2. \<QUA
 m
->
-3. <MID
+\>
+3. \<MID
 m
->
+\>
 Exception:     A zero-length list returned means no such data exists.
 
 SEMI E5-1000 © SEMI 1982, 2000109
-S3,F3 Time to Completion Request (TCR) S,H->E,reply
+S3,F3 Time to Completion Request (TCR) S,H-\>E,reply
 Description:   Host requests the equipment to send the time-to-completion of
 operations on all material in possession.
 Structure:     Header only
-S3,F4 Time to Completion Data (TCD) M,H<-E
+S3,F4 Time to Completion Data (TCD) M,H\<-E
 Description:   Time-to-completion information is sent by the equipment to the host.
 Structure:     L,2
-1. <MF>
+1. \<MF\>
 2. L,m
 1. L,3
-1. <TTC
+1. \<TTC
 1
->
-2. <QUA
+\>
+2. \<QUA
 1
->
-3. <MID
+\>
+3. \<MID
 1
->
+\>
 2. L,3
 .
 .
 m. L,3
-1. <TTC
+1. \<TTC
 m
->
-2. <QUA
+\>
+2. \<QUA
 m
->
-3. <MID
+\>
+3. \<MID
 m
->
+\>
 Exception:     A zero-length list header returned means no such data exists.
-S3,F5 Material Found Send (MFS) S,H<-E,[reply]
+S3,F5 Material Found Send (MFS) S,H\<-E,[reply]
 Description:   The equipment advises the host that unsolicited material has appeared
 at one of its sensors.
 Structure:     L,2
-1. <MF>
-2. <QUA>
-S3,F6 Material Found Acknowledge (MFA) S,H->E
+1. \<MF\>
+2. \<QUA\>
+S3,F6 Material Found Acknowledge (MFA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC3>
-S3,F7 Material Lost Send (MLS) S,H<-E,[reply]
+Structure:     \<ACKC3\>
+S3,F7 Material Lost Send (MLS) S,H\<-E,[reply]
 Description:   The equipment advises the host that material has disappeared from its
 sensors.
 Structure:     L,3
-1. <MF>
-2. <QUA>
-3. <MID>
-S3,F8 Material Lost Acknowledge (MLA) S,H->E
+1. \<MF\>
+2. \<QUA\>
+3. \<MID\>
+S3,F8 Material Lost Acknowledge (MLA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC3>
+Structure:     \<ACKC3\>
 
 SEMI E5-1000 © SEMI 1982, 2000110
-S3,F9 Material ID Equate Send (IES) S,H<-E,reply
+S3,F9 Material ID Equate Send (IES) S,H\<-E,reply
 Description:   Provide an alternative name to be used as equivalent to the original
 material ID.
 Structure:     L,2
-1. <MID>
-2. <EMID>
-S3,F10 Material ID Equate Acknowledge (IEA) S,H->E
+1. \<MID\>
+2. \<EMID\>
+S3,F10 Material ID Equate Acknowledge (IEA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC3>
-S3,F11 Material ID Request (MIDR) S,H<-E,reply
+Structure:     \<ACKC3\>
+S3,F11 Material ID Request (MIDR) S,H\<-E,reply
 Description:   The equipment requests the Material ID of the material at the
 specified port.
-Structure:     <PTN>
-S3,F12 Material ID Request Acknowledge (MIRA) S,H->E
+Structure:     \<PTN\>
+S3,F12 Material ID Request Acknowledge (MIRA) S,H-\>E
 Description:   The host acknowledges the request for the Material ID. If the use of
 a request/acknowledge/send/acknowledge conversation is required, it
 indicated by the acknowledge code MIDRA=2. In this case, the send/
@@ -5382,245 +5382,245 @@ acknowledge transaction is S3,F13, S3,Fl4. A timeout when electing
 S3,F13 is indicated by S9,F13 or a restart of the conversation, with
 S3,F11.
 Structure:     L,3
-1. <PTN>
-2. <MIDRA>
-3. <MID>
-Note:          For all cases except MIDRA=0 (accepted, <MID> follows), the <MID>
+1. \<PTN\>
+2. \<MIDRA\>
+3. \<MID\>
+Note:          For all cases except MIDRA=0 (accepted, \<MID\> follows), the \<MID\>
 will be ignored by the receiver of message S3,F12. When MIDRA=0, a
 zero-length MID indicates that no MID is available.
-S3,F13 Material ID Send (MIS)S,H->E,reply
+S3,F13 Material ID Send (MIS)S,H-\>E,reply
 Description:   The host sends the Material ID of the material at the specified port.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 Note:          A zero-length MID indicates that no MID is available.
-S3,F14 Material ID Acknowledge (MIA)S,H<-E
+S3,F14 Material ID Acknowledge (MIA)S,H\<-E
 Description:   Acknowledge or error
-Structure:     <MIDAC>
+Structure:     \<MIDAC\>
 
 SEMI E5-1000 © SEMI 1982, 2000111
-S3,F15 Materials Multi-Block Inquire (MMBI)S,H->E,reply
+S3,F15 Materials Multi-Block Inquire (MMBI)S,H-\>E,reply
 Description:   This message requests permission to send a multi-block message based
 upon a maximum length of the total message.  It must be sent prior to
 sending any multi-block primary message in Stream 3.
 Structure:     L,2
-1.  <DATAID>
-2.  <DATALENGTH>
-S3,F16 Materials Multi-Block Grant (MMBG)S,H< - E
+1.  \<DATAID\>
+2.  \<DATALENGTH\>
+S3,F16 Materials Multi-Block Grant (MMBG)S,H\< - E
 Description:   This message grants or denies permission to send a multi-block
 primary message in Stream 3.
-Structure:     <GRANT>
-S3,F17 Carrier Action RequestM,H->E,reply
+Structure:     \<GRANT\>
+S3,F17 Carrier Action RequestM,H-\>E,reply
 Description:   This message requests an action to be performed for a specified
 carrier.  If multi-block, this message must be preceded by the
 S3,F11/F12 transaction.
 Structure:     L,5
-1.  <DATAID>
-2.  <CARRIERACTION>
-3.  <CARRIERSPEC>
-4.  <PTN>
+1.  \<DATAID\>
+2.  \<CARRIERACTION\>
+3.  \<CARRIERSPEC\>
+4.  \<PTN\>
 5.  L,n                       n = number of carrier attributes
 1.  L,2
-1.  <CATTRID
+1.  \<CATTRID
 1
->
-2.  <CATTRDATA
+\>
+2.  \<CATTRDATA
 1
->
+\>
 .
 .
 n.  L,2
-1.  <CATTRID
+1.  \<CATTRID
 n
->
-2.  <CATTRDATA
+\>
+2.  \<CATTRDATA
 n
->
+\>
 Exception:     If n = 0, then no carrier attributes are included.  If CARRIERSPEC is
 not a zero-length item, then PTN may be omitted (a zero-length item).
-S3,F18 Carrier Action AcknowledgeS,H<-E
+S3,F18 Carrier Action AcknowledgeS,H\<-E
 Description:   This message acknowledges the carrier action request.
 Structure:     L,2
-1.  <CAACK>
+1.  \<CAACK\>
 2.  L,n
 1.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 1
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 1
->
+\>
 .
 .
 n.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 n
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 n
->
+\>
 Exception:   If n = 0, no errors exist.
 
 SEMI E5-1000 © SEMI 1982, 2000112
-S3,F19 Cancel All Carrier Out RequestS,H->E, reply
+S3,F19 Cancel All Carrier Out RequestS,H-\>E, reply
 Description:   This message is used to cancel all pending carrier out requests.
 Structure:     Header only.
-S3,F20 Cancel All Carrier Out AcknowledgeS,H<-E
+S3,F20 Cancel All Carrier Out AcknowledgeS,H\<-E
 Description:   This message acknowledges the Cancel Carrier Out request.
 Structure:     L,2
-1.  <CAACK>
+1.  \<CAACK\>
 2.  L,n
 1.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 1
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 1
->
+\>
 .
 .
 n.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 n
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 n
->
+\>
 Exception:   If n = 0, no errors exist.
-S3,F21 Port Group DefinitionS,H->E, reply
+S3,F21 Port Group DefinitionS,H-\>E, reply
 Description:   This message defines the port in a port group and provides the
 initial port access.
 Structure:     L,3
-1.  <PORTGRPNAME>
-2.  <PORTACCESS>
+1.  \<PORTGRPNAME\>
+2.  \<PORTACCESS\>
 3.  L,n
-1.  <PTN
+1.  \<PTN
 1
->
+\>
 .
 .
-n.  <PTN
+n.  \<PTN
 n
->
-S3,F22 Port Group Definition AcknowledgeS,H<-E
+\>
+S3,F22 Port Group Definition AcknowledgeS,H\<-E
 Description:   This message acknowledges the port group definition.
 Structure:     L,2
-1.  <CAACK>
+1.  \<CAACK\>
 2.  L,n
 1.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 1
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 1
->
+\>
 .
 .
 n.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 n
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 n
->
+\>
 Exception: If n = 0, no errors exist.
 
 SEMI E5-1000 © SEMI 1982, 2000113
-S3,F23 Port Group Action RequestS,H->E, reply
+S3,F23 Port Group Action RequestS,H-\>E, reply
 Description:   This message requests an action be performed for a port group.  The
 access mode may be changed or the port group may be deleted.
 Structure:     L,3
-1.  <PGRPACTION>
-2.  <PORTGRPNAME>
+1.  \<PGRPACTION\>
+2.  \<PORTGRPNAME\>
 3.  L,m
 1.  L,2
-1.  <PARAMNAME
+1.  \<PARAMNAME
 1
->
-2.  <PARAMVAL
+\>
+2.  \<PARAMVAL
 1
->
+\>
 .
 .
 m.  L,2
-3.  <PARAMNAME
+3.  \<PARAMNAME
 1
->
-4.  <PARAMVAL
+\>
+4.  \<PARAMVAL
 1
->
+\>
 Exception:  If m = 0, then no parameters are provided.
-S3,F24 Port Group Action AcknowledgeS,H<-E
+S3,F24 Port Group Action AcknowledgeS,H\<-E
 Description:   This message acknowledges the port group action.
 Structure:     L,2
-1.  <CAACK>
+1.  \<CAACK\>
 2.  L,n
 1.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 1
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 1
->
+\>
 .
 .
 n.  L,2
-1.  <ERRCODE
+1.  \<ERRCODE
 n
->
-2.  <ERRTEXT
+\>
+2.  \<ERRTEXT
 n
->
+\>
 Exception:     If n = 0, no errors exist.
-S3,F25 Port Action RequestS,H->E, reply
+S3,F25 Port Action RequestS,H-\>E, reply
 Description:   This message requests an action be performed for a port.
 Structure:     L,2
-1. <PORTACTION>
-2. <PTN>
+1. \<PORTACTION\>
+2. \<PTN\>
 4.  L,m
 2.  L,2
-5.  <PARAMNAME
+5.  \<PARAMNAME
 1
->
-6.  <PARAMVAL
+\>
+6.  \<PARAMVAL
 1
->
+\>
 .
 .
 m.  L,2
-7.  <PARAMNAME
+7.  \<PARAMNAME
 1
->
+\>
 
 # 8
 
-8.  <PARAMVAL
+8.  \<PARAMVAL
 1
->
+\>
 Exception:     If m = 0, then no parameters are provided.
 
 SEMI E5-1000 © SEMI 1982, 2000114
-S3,F26 Port Action AcknowledgeS,H<-E
+S3,F26 Port Action AcknowledgeS,H\<-E
 Description:   This message acknowledges the port action request.
 Structure:     L,2
-1. <CAACK>
+1. \<CAACK\>
 2. L,n
 1. L,2
-3. <ERRCODE
+3. \<ERRCODE
 1
->
-4. <ERRTEXT
+\>
+4. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If n = 0, no errors exist.
 7. 8  Stream 4 Material Control ó  T he material control stream contains the original material control protocol and
 the newer protocol which supports SEMI E32.
@@ -5661,8 +5661,8 @@ The ranges of timer values are as follows:
 
 SEMI E5-1000 © SEMI 1982, 2000115
 tl ó time to leave sender
-tl+10<= t2<= 60sec.---time to receive
-t2+10<= t3<= 70sec.---time to complete send
+tl+10\<= t2\<= 60sec.---time to receive
+t2+10\<= t3\<= 70sec.---time to complete send
 Default values, tl= 10 sec., t2= 60 sec., t3= 70 sec.
 NOTE 7: t1, t2, t3 defined for Stream 4 are not to be confused with timeouts T1, T2, T3, and T4 defined in SEMI E4 (SECS-I).
 Figure S4.1
@@ -5673,86 +5673,86 @@ Figure S4.2
 Material Control-Handshake Flowchart
 
 SEMI E5-1000 © SEMI 1982, 2000117
-S4,F0 Abort Transaction (S4F0) S,H->E
+S4,F0 Abort Transaction (S4F0) S,H-\>E
 Description:   Same form as S1,F0.
-S4,F1 Ready to Send Materials (RSN) S,H<->E,reply
+S4,F1 Ready to Send Materials (RSN) S,H\<-\>E,reply
 Description:   The sender advises the receiver that some material is awaiting
 transfer.
 Structure:     L,2
-1. <PTN>
-2. <MID>
-S4,F2 Ready to Send Acknowledge (RSA) S,H<->E
+1. \<PTN\>
+2. \<MID\>
+S4,F2 Ready to Send Acknowledge (RSA) S,H\<-\>E
 Description:   Acknowledge or error
-Structure:     <RSACK>
-S4,F3 Send Material (SMN) S,H<->E
+Structure:     \<RSACK\>
+S4,F3 Send Material (SMN) S,H\<-\>E
 Description:   The receiver advises the sender that it is ready to receive material
 and that its transfer mechanism is running.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F4 Not Used
-S4,F5 Handshake Complete (HCN) S,H<->E
+S4,F5 Handshake Complete (HCN) S,H\<-\>E
 Description:   Receiver advises sender that the handshake is complete. The sender
 may now stop its transfer mechanism.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F6 Not Used
-S4,F7 Not Ready to Send (ABN) S,H<->E
+S4,F7 Not Ready to Send (ABN) S,H\<-\>E
 Description:   Sender advises receiver that no material is being sent. The receiver
 may now stop its transfer mechanism.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F8 Not Used
 
 SEMI E5-1000 © SEMI 1982, 2000118
-S4,F9 Stuck in Sender (SSN) S,H<-E
+S4,F9 Stuck in Sender (SSN) S,H\<-E
 Description:   An error from the sender to the host. The time between the receipt of
 Material (SMN) and the material leaving the sender's sensor exceeds
 the sender's t1 timeout. The sender goes to a hold state until the
 disposition of the stuck material is determined.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F10 Not Used
-S4,F11 Stuck in Receiver (SRN) S,H<-E
+S4,F11 Stuck in Receiver (SRN) S,H\<-E
 Description:   An error from the receiver to the host. The time between Send
 Material (SMN) and detection of the material at the receiver exceeds
 the receiver's t2 timeout. The receiver goes to a hold state until
 the disposition of material is determined.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F12 Not Used
-S4,F13 Send Incomplete Timeout (SIN) S,H<-E
+S4,F13 Send Incomplete Timeout (SIN) S,H\<-E
 Description:   An error from the sender to the host. The time between the receipt of
 the Send Material (SMN) and the receipt of Handshake-Complete (HCN)
 exceeds the sender's t3 timeout. There has been an error in the
 handshake and the transfer mechanism is turned off.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F14 Not Used
-S4,F15 Material Received (MRN) S,H<-E
+S4,F15 Material Received (MRN) S,H\<-E
 Description:   A message from the receiver to the host. Material has been
 transferred to the receiver.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 S4,F16 Not Used
 
 SEMI E5-1000 © SEMI 1982, 2000119
-S4,F17 Request to Receive (RTR) S,H<->E,reply
+S4,F17 Request to Receive (RTR) S,H\<-\>E,reply
 Description:   Receiver requests the sender initiate a conversation to send the
 specified material to the specified port.
 Structure:     L,2
-1. <PTN>
-2. <MID>
+1. \<PTN\>
+2. \<MID\>
 Exceptions:    A zero-length MID means equipment doesn't know MID.
-S4,F18 Request to Receive Acknowledge (RRA) S,H<->E
+S4,F18 Request to Receive Acknowledge (RRA) S,H\<-\>E
 Description:   Acknowledge or error
-Structure:     <RRACK>
+Structure:     \<RRACK\>
 7. 8.2   Support  for  Material  Movemen t  Management  Services  ó  The  following  messages  were  defined  to  support
 SEMI E32.
 7. 8.2.1   Macro  Level  Messages  ó  The   following  messages  support  the  host  supervised  macro  level  of  material
@@ -5760,7 +5760,7 @@ movement  as  defined  in  SEMI  E32.  Stream  1  Macro  Level  Messages  can  b
 Attribute (GA); S1F20, Attribute Data (AD).
 
 SEMI E5-1000 © SEMI 1982, 2000120
-S4,F19 Transfer Job Create (TJ)M,Hó>E,reply
+S4,F19 Transfer Job Create (TJ)M,Hó\>E,reply
 Description:   The host requests that the equipment undertake one or more discrete
 (or atomic) transfers to achieve a host defined objective. The host
 provides the transfer specifications for each atomic transfer. Atomic
@@ -5772,158 +5772,158 @@ Job Request messages in order to execute a transfer. If S4,F20 is
 multi-block, it must be preceded by the S4,F25/S4,F26 Inquire/Grant
 transaction.
 Structure:     L,2
-1. <DATAID>
+1. \<DATAID\>
 2. L,2
-1. <TRJOBNAME>
+1. \<TRJOBNAME\>
 2. L,n                    [n=#atomic xfrs defined for this job]
 1. L,12               [Specification for first atomic xfr]
-1. <TRLINK>      [Atomic transfer identifier]
-2. <TRPORT>      [Port to be used for transfer]
-3. <TROBJNAME>   [Transfer object identifier]
-4. <TROBJTYPE>   [Object type–what form is the material
+1. \<TRLINK\>      [Atomic transfer identifier]
+2. \<TRPORT\>      [Port to be used for transfer]
+3. \<TROBJNAME\>   [Transfer object identifier]
+4. \<TROBJTYPE\>   [Object type–what form is the material
 in]
-5. <TRROLE>      [Role in transfer–primary/secondary]
-6. <TRRCP>       [Transfer recipe identifier]
-7. <TRPTNR>      [Identifier of transfer partner]
-8. <TRPTPORT>    [Partner's Port to be Used]
-9. <TRDIR>       [Transfer direction-send or receive]
-10. <TRTYPE>      [Active or Passive]
-11. <TRLOCATION>  [Location to send/receive mtl]
-12. <TRAUTOSTART> [Does eqp await host start command
+5. \<TRROLE\>      [Role in transfer–primary/secondary]
+6. \<TRRCP\>       [Transfer recipe identifier]
+7. \<TRPTNR\>      [Identifier of transfer partner]
+8. \<TRPTPORT\>    [Partner's Port to be Used]
+9. \<TRDIR\>       [Transfer direction-send or receive]
+10. \<TRTYPE\>      [Active or Passive]
+11. \<TRLOCATION\>  [Location to send/receive mtl]
+12. \<TRAUTOSTART\> [Does eqp await host start command
 after setup?]
 .
 .
 n.L,12               [Specification for nth atomic xfr]
-1. <TRLINK]
+1. \<TRLINK]
 ↓
-12. <TRAUTOSTART>
+12. \<TRAUTOSTART\>
 
 SEMI E5-1000 © SEMI 1982, 2000121
-S4,F20 Transfer Job Acknowledge (TJA) S,H<óE
+S4,F20 Transfer Job Acknowledge (TJA) S,H\<óE
 Description:   The equipment informs the host of its acceptance or rejection of the
 Transfer Job Request.
 Structure:     L,3
-1. <TRJOBID>
+1. \<TRJOBID\>
 2. L,m          [m=number of atomic transfers in the transfer job.]
-1. <TRATOMICID
+1. \<TRATOMICID
 1
->
+\>
 .
 .
-m.<TRATOMICID
+m.\<TRATOMICID
 m
->
+\>
 3. L,2
-1. <TRACK>  [Accepted or rejected]
+1. \<TRACK\>  [Accepted or rejected]
 2. L,n     [n=# errors reported]
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     A zero-length list (m=0) is sent if the transfer job is rejected.
 A zero-length list (n=0) is sent if the transfer job is accepted.
-S4,F21 Transfer Job Command (TC) S,Hó>E,reply
+S4,F21 Transfer Job Command (TC) S,Hó\>E,reply
 Description:   This message is used by the host to modify a current transfer job on
 an equipment.
 Structure:     L,3
-1. <TRJOBID>
-2. <TRCMDNAME>             [identifier of the transfer command]
+1. \<TRJOBID\>
+2. \<TRCMDNAME\>             [identifier of the transfer command]
 3. L,n                     [n=number of parameters=0 if none]
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
->       [transfer parameter name]
-2. <CPVAL
+\>       [transfer parameter name]
+2. \<CPVAL
 1
->        [transfer parameter value]
+\>        [transfer parameter value]
 .
 .
 n. L,2
-1. <CPNAME
+1. \<CPNAME
 n
->
-2. <CPVAL
+\>
+2. \<CPVAL
 n
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000122
-S4,F22 Transfer Command Acknowledge (TCA) S,H<óE
+S4,F22 Transfer Command Acknowledge (TCA) S,H\<óE
 Description:   Equipment accepts or rejects the transfer command.
 Structure:     L,2
-1. <TRACK>                 [Accepted or rejected]
+1. \<TRACK\>                 [Accepted or rejected]
 2. L,n                    [n=# errors reported]
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If the command is accepted, n=0.
-S4,F23 Transfer Job Alert (TJA) S,H<óE,[reply]
+S4,F23 Transfer Job Alert (TJA) S,H\<óE,[reply]
 Description:   Equipment informs the host that a transfer job milestone has been
 reached (e.g., job started or job complete). If complete, all
 equipment resources originally reserved for the transfer have been
 released.
 Structure:     L,4
-1. <TRJOBID>
-2. <TRJOBNAME>
-3. <TRJOBMS>
+1. \<TRJOBID\>
+2. \<TRJOBNAME\>
+3. \<TRJOBMS\>
 4. L,2
-1. <TRACK>            [success or failure]
+1. \<TRACK\>            [success or failure]
 2. L,n               [n=# errors reported]
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If the transfer job is completed successfully, n=0.
-S4,F24 Transfer Alert Acknowledge (TLA) S,Hó>E
+S4,F24 Transfer Alert Acknowledge (TLA) S,Hó\>E
 Description:   Acknowledge receipt of the S4,F23 message.
 Structure:     Header Only
 
 SEMI E5-1000 © SEMI 1982, 2000123
-S4,F25 Multi-block Inquire (MB14) S,Hó>E,reply
+S4,F25 Multi-block Inquire (MB14) S,Hó\>E,reply
 Description:   If a Stream 4 host-initiated message is more than a single block in
 length, this transaction must precede the message.
 Structure:     L,2
-1. <DATAID>
-2. <DATALENGTH>
-S4,F26 Multi-block Grant (MBG4) S,H<óE
+1. \<DATAID\>
+2. \<DATALENGTH\>
+S4,F26 Multi-block Grant (MBG4) S,H\<óE
 Description:   Grant (or deny) permission to send multi-block message.
-Structure:     <GRANT>
+Structure:     \<GRANT\>
 7. 8.2.2  Micro Level Messages ó The  following messages support the equipment-to-equipment micro level handoff
 of material as defined in SEMI E32.
 7. 8.2.2.1  The messages which support t he micro level are passed directly between the equipment. For the purpose
@@ -5940,84 +5940,84 @@ relationship  of  Primary  and  Secondary  Transfer  Partner.  However,  it  is 
 which determines the originator of certain messages. It is for this reason that the designation P = Primary and S =
 Secondary Transfer Partner.
 Micro Level Messages
-S4,F27 Handoff Ready (HR) S,P<ó>S
+S4,F27 Handoff Ready (HR) S,P\<ó\>S
 Description:   Each transfer partner informs the other when they are ready to
 perform a specified atomic transfer. The TRLINK values from the two
 partners must match. The values contained in the atomic transfer
 specification pertain to the sender of the message (except where
 specified).
 Structure:     L,2
-1. <EQNAME>
+1. \<EQNAME\>
 2. L,11                [Specification for atomic xfr]
-1. <TRLINK>       [Atomic transfer identifier]
-2. <TRPORT>       [Port to be used for transfer]
-3. <TROBJNAME>    [Transfer object identifier]
-4. <TROBJTYPE>    [Object type-what form the material is in]
-5. <TRROLE>       [Role in transfer-primary/secondary]
-7. <TRPTNR>       [Identifier of transfer partner]
-8. <TRPTPORT>     [Partner's Port to be Used]
-9. <TRDIR>        [Transfer direction-send or receive]
-10. <TRTYPE>       [Active or Passive]
-11. <TRLOCATION>   [Location to send/receive mtl]
+1. \<TRLINK\>       [Atomic transfer identifier]
+2. \<TRPORT\>       [Port to be used for transfer]
+3. \<TROBJNAME\>    [Transfer object identifier]
+4. \<TROBJTYPE\>    [Object type-what form the material is in]
+5. \<TRROLE\>       [Role in transfer-primary/secondary]
+7. \<TRPTNR\>       [Identifier of transfer partner]
+8. \<TRPTPORT\>     [Partner's Port to be Used]
+9. \<TRDIR\>        [Transfer direction-send or receive]
+10. \<TRTYPE\>       [Active or Passive]
+11. \<TRLOCATION\>   [Location to send/receive mtl]
 
 SEMI E5-1000 © SEMI 1982, 2000124
 S4,F28 Not Used
-S4,F29 Handoff Command (HC) S,Pó>S
+S4,F29 Handoff Command (HC) S,Pó\>S
 Description:   Command issued by the primary to the secondary transfer partner to
 achieve some physical action.
 Structure:     L,4
-1. <TRLINK>           [Atomic Transfer identifier]
-2. <MCINDEX>          [Identified this specific Micro Cmd request]
-3. <HOCMDNAME>        [Requested Micro Cmd]
+1. \<TRLINK\>           [Atomic Transfer identifier]
+2. \<MCINDEX\>          [Identified this specific Micro Cmd request]
+3. \<HOCMDNAME\>        [Requested Micro Cmd]
 4. L,n                [n=number of parameters]
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
->  [Micro Cmd parameter name]
-2. <CPVAL
+\>  [Micro Cmd parameter name]
+2. \<CPVAL
 1
->   [Micro Cmd parameter value]
+\>   [Micro Cmd parameter value]
 .
 .
 n.L,2
-1. <CPNAME
+1. \<CPNAME
 n
->
-2. <CPVAL
+\>
+2. \<CPVAL
 n
->
+\>
 Exception:     n=0 if no parameters are used.
 S4,F30 Not Used
-S4,F31 Handoff Command Complete (HCC)S,P<óS
+S4,F31 Handoff Command Complete (HCC)S,P\<óS
 Description:   Completion status of the micro command. This is sent from the
 secondary to the primary transfer partner when the command is
 completed or terminated.
 Structure:     L,3
-1. <TRLINK>            [Atomic Transfer identifier]
-2. <MCINDEX>           [Links to specific micro command (S4,F31)]
+1. \<TRLINK\>            [Atomic Transfer identifier]
+2. \<MCINDEX\>           [Links to specific micro command (S4,F31)]
 3. L,2
-1. <HOACK>         [success or failure]
+1. \<HOACK\>         [success or failure]
 2. L,n             [n=# errors reported]
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n.L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 S4,F32 Not Used
 
 SEMI E5-1000 © SEMI 1982, 2000125
-S4,F33 Handoff Verified (HV)P<ó>S
+S4,F33 Handoff Verified (HV)P\<ó\>S
 Description:   Sent by the primary transfer partner to inform the secondary that no
 more micro commands will be issued for this atomic transfer and to
 request a verification that the transfer is complete and successful.
@@ -6025,54 +6025,54 @@ Also sent by the secondary partner following the receipt of this
 message to verify that the transfer is complete and successful (or to
 report problems).
 Structure:     L,2
-1. <TRLINK>
+1. \<TRLINK\>
 2. L,2
-1. <HOACK>                     [success or failure]
+1. \<HOACK\>                     [success or failure]
 2. L,n                         [n=# errors reported]
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n.L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 S4,F34 Not Used
-S4,F35 Handoff Cancel Ready (HCR) P<ó>S
+S4,F35 Handoff Cancel Ready (HCR) P\<ó\>S
 Description:   Sent by either transfer partner to cancel a previous Handoff Ready
 message. This message is valid only before the handoff has begun.
-Structure:     <TRLINK>
+Structure:     \<TRLINK\>
 S4,F36 Not Used
-S4,F37 Handoff Cancel Ready Acknowledge (HCA) P<ó>S
+S4,F37 Handoff Cancel Ready Acknowledge (HCA) P\<ó\>S
 Description:   Sent by the receiver of the Handoff Cancel Ready message to accept or
 deny the cancel. The cancel request is denied if the handoff process
 has begun.
 Structure:     L,2
-1. <TRLINK>
-2. <HOCANCELACK>
+1. \<TRLINK\>
+2. \<HOCANCELACK\>
 S4,F38 Not Used
-S4,F39 Handoff Halt (HH)P<ó>S
+S4,F39 Handoff Halt (HH)P\<ó\>S
 Description:   Sent by either transfer partner to cause all transfer related
 activity of the other to cease immediately. It is used when the
 equipment or material is at risk of damage.
-Structure:     <TRLINK>
+Structure:     \<TRLINK\>
 
 SEMI E5-1000 © SEMI 1982, 2000126
 S4,F40 Not Used
-S4,F41 Handoff Halt Acknowledge (HHA)P<ó>S
+S4,F41 Handoff Halt Acknowledge (HHA)P\<ó\>S
 Description:   Sent to equipment's transfer partner following completion of halt
 activities resulting from a previously received S4,F39.
 Structure:     L,2
-1. <TRLINK>
-2. <HOHALTACK>
+1. \<TRLINK\>
+2. \<HOHALTACK\>
 S4,F42 Not Used
 7. 9   Stream  5  Exception Handling   ó  This  stream  contains  messages  regarding  binary  and  analog  equipment
 exceptions. Exceptions are classified into two categories: errors and alarms. Messages S5,F1 through S5,F8 of this
@@ -6090,71 +6090,71 @@ equipment malfunction.
 7. 9.1   For  messages  F1  through  F8,  i t  will  be  the  equipment's  responsibility  to  categorize  the  alarm.  Some  alarm
 conditions  may  cause  more  than  one  type  of  alarm  to  be  issued.  For  example,  a  parameter  control  error  on  over
 temperature may also trip a protective device that makes the alarm irrecoverable without some intervention.
-S5,F0 Abort Transaction (S5F0) S,H<->E
+S5,F0 Abort Transaction (S5F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S5,F1 Alarm Report Send (ARS) S,H<-E,[reply]
+S5,F1 Alarm Report Send (ARS) S,H\<-E,[reply]
 Description:   This message reports a change in or presence of an alarm condition.
 One message will be issued when the alarm is set and one message will
 be issued when the alarm is cleared. Irrecoverable errors and
 attention flags may not have a corresponding clear message.
 Structure:     L,3
-1. <ALCD>
-2. <ALID>
-3. <ALTX>
+1. \<ALCD\>
+2. \<ALID\>
+3. \<ALTX\>
 
 SEMI E5-1000 © SEMI 1982, 2000127
-S5,F2 Alarm Report Acknowledge (ARA) S,H->E
+S5,F2 Alarm Report Acknowledge (ARA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC5>
-S5,F3 Enable/Disable Alarm Send (EAS) S,H->E,[reply]
+Structure:     \<ACKC5\>
+S5,F3 Enable/Disable Alarm Send (EAS) S,H-\>E,[reply]
 Description:   This message will change the state of the enable bit in the
 equipment. The enable bit determines if the alarm will be sent to the
 host. Alarms which are not controllable in this way are unaffected by
 this message.
 Structure:     L,2
-1. <ALED>
-2. <ALID>
+1. \<ALED\>
+2. \<ALID\>
 Exception:     A zero-length item for ALID means all alarms.
-S5,F4 Enable/Disable Alarm Acknowledge (EAA) S,H<-E
+S5,F4 Enable/Disable Alarm Acknowledge (EAA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC5>
-S5,F5 List Alarms Request (LAR) S,H->E,reply
+Structure:     \<ACKC5\>
+S5,F5 List Alarms Request (LAR) S,H-\>E,reply
 Description:   This message requests the equipment to send binary and analog alarm
 information to the host.
-Structure:     <ALID
+Structure:     \<ALID
 1
 , . . . ,ALID
 n
->
+\>
 Exception:     A zero-length item means send all possible alarms regardless of the
 state of ALED.
-S5,F6 List Alarm Data (LAD) M,H<-E
+S5,F6 List Alarm Data (LAD) M,H\<-E
 Description:   This message contains the alarm data known to the equipment. There
 are “m” alarms in the list.
 Structure:     L,m
 1. L,3
-1. <ALCD
+1. \<ALCD
 1
->
-2. <ALID
+\>
+2. \<ALID
 1
->
-3. <ALTX
+\>
+3. \<ALTX
 1
->
+\>
 2. L,3
 .
 .
 m. L,3
-1. <ALCD
+1. \<ALCD
 m
->
-2. <ALID
+\>
+2. \<ALID
 m
->
-3. <ALTX
+\>
+3. \<ALTX
 m
->
+\>
 Exception:     If m=0, no response can be made. A zero-length item returned for
 ALCD
 i
@@ -6163,107 +6163,107 @@ i
 means that value does not exist.
 
 SEMI E5-1000 © SEMI 1982, 2000128
-S5,F7 List Enabled Alarm Request (LEAR) S,H->E,reply
+S5,F7 List Enabled Alarm Request (LEAR) S,H-\>E,reply
 Description:   List alarms which are enabled.
 Structure:     Header only
-S5,F8 List Enabled Alarm Data (LEAD) M,H<-E
+S5,F8 List Enabled Alarm Data (LEAD) M,H\<-E
 Description:   This message is similar to S5,F6 except that it lists only alarms
 which are enabled.
 Structure:     Same as S5,F6
-S5,F9 Exception Post Notify (EXPN)S,H<-E,[reply]
+S5,F9 Exception Post Notify (EXPN)S,H\<-E,[reply]
 Description:   This message provides the means to inform a host system that an
 exception condition is 'set'. Optionally, recovery actions for the
 exception may be sent.
 Structure:     L,5
-1. <TIMESTAMP>
-2. <EXID>
-3. <EXTYPE>
-4. <EXMESSAGE>
+1. \<TIMESTAMP\>
+2. \<EXID\>
+3. \<EXTYPE\>
+4. \<EXMESSAGE\>
 5. L,n
-1. <EXRECVRA
+1. \<EXRECVRA
 1
->
+\>
 .
 .
 .
-n. <EXRECVRA
+n. \<EXRECVRA
 n
->
+\>
 Exception:     A zero-length list (n = 0) shall be sent when there are no possible
 recovery actions.
 Exception:     This is a single block message. The text in each of the EXRECVRA
 data items may need to be restricted in length to meet the single
 block requirement.
-S5,F10 Exception Post Confirm (EXPC)S,H->E
+S5,F10 Exception Post Confirm (EXPC)S,H-\>E
 Description:   Host confirms receipt of S5,F9 message from the equipment.
 Structure:     Header only
-S5,F11 Exception Clear Notify (EXCN)S,H <-E,[reply]
+S5,F11 Exception Clear Notify (EXCN)S,H \<-E,[reply]
 Description:   This message provides the means to inform a host system that an
 exception/alarm condition is no longer active (set).
 Structure:     L,4
-1. <TIMESTAMP>
-2. <EXID>
-3. <EXTYPE>
-4. <EXMESSAGE>
+1. \<TIMESTAMP\>
+2. \<EXID\>
+3. \<EXTYPE\>
+4. \<EXMESSAGE\>
 Exception:     EXMESSAGE can be used to provide the reason that the exception
 cleared.
 
 SEMI E5-1000 © SEMI 1982, 2000129
-S5,F12 Exception Clear Confirm (EXCC)S,H->E
+S5,F12 Exception Clear Confirm (EXCC)S,H-\>E
 Description:   Host confirms receipt of S5,F11 message from the equipment.
 Structure:     Header only
-S5,F13 Exception Recover Request (EXRR)S,H->E,reply
+S5,F13 Exception Recover Request (EXRR)S,H-\>E,reply
 Description:   Request that the entity which is experiencing an error execute a
 recovery action.
 Structure:     L,2
-1. <EXID>
-2. <EXRECVRA>
-S5,F14 Exception Recover Acknowledge (EXRA)S,H<-E
+1. \<EXID\>
+2. \<EXRECVRA\>
+S5,F14 Exception Recover Acknowledge (EXRA)S,H\<-E
 Description:   The entity indicates a response to the recovery request.
 Structure:     L,2
-1. <EXID>
+1. \<EXID\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,m (m = {0,2})
-1. <ERRCODE>
-2. <ERRTEXT>
+1. \<ERRCODE\>
+2. \<ERRTEXT\>
 Exception:     The list m can be zero length, if the recovery request was accepted.
-S5,F15 Exception Recovery Complete Notify (EXRCN)S,H<-E,[reply]
+S5,F15 Exception Recovery Complete Notify (EXRCN)S,H\<-E,[reply]
 Description:   Allows the service provider to inform the controller/host that the
 recovery operation completed on a specific exception and an error
 code if the recovery terminated abnormally.
 Structure:     L,3
-1. <TIMESTAMP>
-2. <EXID>
+1. \<TIMESTAMP\>
+2. \<EXID\>
 3. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,m (m = {0,2})
-1. <ERRCODE>
-2. <ERRTEXT>
+1. \<ERRCODE\>
+2. \<ERRTEXT\>
 Exception:     This list m can be of zero length if the recovery was successful.
-S5,F16 Exception Recovery Complete Confirm (EXRCC)S,H->E
+S5,F16 Exception Recovery Complete Confirm (EXRCC)S,H-\>E
 Description:   Host confirms receipt of S5,F15 message from the equipment.
 Structure:     Header only
-S5,F17 Exception Recovery Abort Request (EXRAR)S,H->E,reply
+S5,F17 Exception Recovery Abort Request (EXRAR)S,H-\>E,reply
 Description:   Stop the recovery procedure on a specific exception.
-Structure:     1. <EXID>
+Structure:     1. \<EXID\>
 
 SEMI E5-1000 © SEMI 1982, 2000130
-S5,F18 Exception Recovery Abort Acknowledge (EXRAA)S,H<-E
+S5,F18 Exception Recovery Abort Acknowledge (EXRAA)S,H\<-E
 Description:   Indicate the success of the request for Recovery Abort.
 Structure:     L,2
-1. <EXID>
+1. \<EXID\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,m (m = {0,2})
-1. <ERRCODE>
-2. <ERRTEXT>
+1. \<ERRCODE\>
+2. \<ERRTEXT\>
 Exception:     The list m can be of zero length if the abort was successful.
 7. 10   Stream  6  Data  Collection  ó  T his  stream  is  intended  to  cover  the  needs  of  in-process  measurements  and
 equipment monitoring.
-S6,F0 Abort Transaction (S6F0) S,H<->E
+S6,F0 Abort Transaction (S6F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S6,F1 Trace Data Send (TDS) M,H<-E,[reply]
+S6,F1 Trace Data Send (TDS) M,H\<-E,[reply]
 Description:   This function sends samples to the host according to the trace setup
 done by S2,F23. Trace is a time-driven form of equipment status.
 Even if S6,F1 is multi-block, it is not preceded by an Inquire/Grant
@@ -6272,29 +6272,29 @@ equipment may support only single-block S6,F1, and may refuse an
 S2,F23 (Trace Initiate Send) message which would cause a multi-block
 S6,F1.
 Structure:     L,4
-1. <TRID>
-2. <SMPLN>
-3. <STIME>
+1. \<TRID\>
+2. \<SMPLN\>
+3. \<STIME\>
 4. L,n
-1. <SV
+1. \<SV
 1
->
-2. <SV
+\>
+2. \<SV
 2
->
+\>
 .
 .
-n. <SV
+n. \<SV
 n
->
+\>
 Exception:     A zero-length STIME means no value is given and that the time is to
 be derived from SMPLN along with knowledge of the request.
-S6,F2 Trace Data Acknowledge (TDA) S,H->E
+S6,F2 Trace Data Acknowledge (TDA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC6>
+Structure:     \<ACKC6\>
 
 SEMI E5-1000 © SEMI 1982, 2000131
-S6,F3 Discrete Variable Data Send (DVS) M,H<-E,[reply]
+S6,F3 Discrete Variable Data Send (DVS) M,H\<-E,[reply]
 Description:   Any data report which is initiated by an event, such as the
 completion of a measurement, rather than passage of time is called a
 discrete variable. Some equipment may have several possible events on
@@ -6303,269 +6303,269 @@ reporting events. Reports requiring only one block of data may report
 directly to the host with this message. If S6,F3 is multi-block, it
 must be preceded by the S6,F5/S6,F6 Inquire/Grant transaction.
 Structure:     L,3
-1. <DATAID>
-2. <CEID>
+1. \<DATAID\>
+2. \<CEID\>
 3. L,n
 1. L,2
-1. <DSID
+1. \<DSID
 1
->
+\>
 2. L,m
 1. L,2
-1. <DVNAME
+1. \<DVNAME
 1
->
-2. <DVVAL
+\>
+2. \<DVVAL
 1
->
+\>
 2. L,2
 .
 .
 m. L,2
-1. <DVNAME
+1. \<DVNAME
 m
->
-2. <DVVAL
+\>
+2. \<DVVAL
 m
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <DSID
+1. \<DSID
 n
->
+\>
 2. etc.
-S6,F4 Discrete Variable Data Acknowledge (DVA) S,H->E
+S6,F4 Discrete Variable Data Acknowledge (DVA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC6>
-S6,F5 Multi-block Data Send Inquire (MBI) S,H<-E,reply
+Structure:     \<ACKC6\>
+S6,F5 Multi-block Data Send Inquire (MBI) S,H\<-E,reply
 Description:   If the discrete data report S6F3, F9, F11, F13 can involve more than
 one block, this transaction must precede the transmission.
 Structure:     L,2
-1. <DATAID>
-2. <DATALENGTH>
-S6,F6 Multi-block Grant (MBG)S,H->E
+1. \<DATAID\>
+2. \<DATALENGTH\>
+S6,F6 Multi-block Grant (MBG)S,H-\>E
 Description:   Grant permission to send
-Structure:     <GRANT6>
+Structure:     \<GRANT6\>
 
 SEMI E5-1000 © SEMI 1982, 2000132
-S6,F7 Data Transfer Request (DDR) S,H->E,reply
+S6,F7 Data Transfer Request (DDR) S,H-\>E,reply
 Description:   The host may initiate a data transfer of specified data stored in the
 equipment with this function.
-Structure:     <DATAID>
-S6,F8 Data Transfer Data (DDD) M,H<-E
+Structure:     \<DATAID\>
+S6,F8 Data Transfer Data (DDD) M,H\<-E
 Description:   Equipment sends data to the host.
 Structure:     Similar to the structure of S6,F3
 Exception:     A zero-length item returned means the requested data cannot be sent.
-S6,F9 Formatted Variable Send (FVS) M,H<-E,[reply]
+S6,F9 Formatted Variable Send (FVS) M,H\<-E,[reply]
 Description:   The same function as S6,F3 except that the DVNAMEs are supplied from
 a predefined form that is known to the host. Thus, the data are more
 compact. If S6,F9 is multi-block, it must be preceded by the
 S6,F5/S6, F6 Inquire/Grant transaction.
 Structure:     L,4
-1. <PFCD>
-2. <DATAID>
-3. <CEID>
+1. \<PFCD\>
+2. \<DATAID\>
+3. \<CEID\>
 4. L,n
 1. L,2
-1. <DSID1
+1. \<DSID1
 1
->
+\>
 2. L,m
-1. <DVVAL
+1. \<DVVAL
 1
->
+\>
 .
 .
-m. <DVVAL
+m. \<DVVAL
 m
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <DSID
+1. \<DSID
 n
->
+\>
 2. etc.
-S6,F10 Formatted Variable Acknowledge (FVA) S,H->E
+S6,F10 Formatted Variable Acknowledge (FVA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC6>
+Structure:     \<ACKC6\>
 
 SEMI E5-1000 © SEMI 1982, 2000133
-S6,F11 Event Report Send (ERS) M,H<-E, reply
+S6,F11 Event Report Send (ERS) M,H\<-E, reply
 Description:   The purpose of this message is for the equipment to send a defined,
 linked, and enabled group of reports to the host upon the occurrence
 of an event (CEID).
 If S6,F11 is Multi-block, it must be preceded by the S6,F5/S6,F6
 Inquire/Grant transaction.
 Structure:     L,3
-1. <DATAID>
-2. <CEID>
+1. \<DATAID\>
+2. \<CEID\>
 3. L,a
 1. L,2
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 2. L,b
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-b.<Vb>
+b.\<Vb\>
 .
 .
 a.L,2                  report a
-1. <RPTIDa>
+1. \<RPTIDa\>
 2. L,c#Vs          this report
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-c.<V
+c.\<V
 c
->
+\>
 Exceptions:    If there are no reports linked to the event a 'null' report is
 assumed. A zero-length list for # of reports means there are no
 reports linked to the given CEID.
-S6,F12 Event Report Acknowledge (ERA) S,H->E
+S6,F12 Event Report Acknowledge (ERA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC6>
+Structure:     \<ACKC6\>
 
 SEMI E5-1000 © SEMI 1982, 2000134
-S6,F13 Annotated Event Report Send (AERS) M,H<-E,reply
+S6,F13 Annotated Event Report Send (AERS) M,H\<-E,reply
 Description:   This message is the same as S6F11 with the exception that VID's are
 sent with data.
 If S6,F13 is Multi-block, it must be preceded by the S6,F5/S6,F6
 Inquire/Grant transaction.
 Structure:     L,3
-1. <DATAID>
-2. <CEID>
+1. \<DATAID\>
+2. \<CEID\>
 3. L,a
 1. L,2
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 2. L,b
 1. L,2
-1. <VID
+1. \<VID
 1
->
+\>
 .
 .
 b. L,2
-1. <VID
+1. \<VID
 b
->
-b.<V
+\>
+b.\<V
 b
->
+\>
 .
 .
 a. L,2
-1. <RPTIDa>
+1. \<RPTIDa\>
 2. L,c
 1. L,2
-1. <VID
+1. \<VID
 1
->
-2. <V
+\>
+2. \<V
 1
->
+\>
 .
 .
 c. L,2
-1. <VID
+1. \<VID
 c
->
-2. <V
+\>
+2. \<V
 c
->
+\>
 Exception:     If there are no reports linked to the event a 'null' report is
 assumed. A zero-length list for # of reports means there are no
 reports linked to the given CEID.
-S6,F14 Annotated Event Report Acknowledge (AERA) S,H->E
+S6,F14 Annotated Event Report Acknowledge (AERA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC6>
-S6,F15 Event Report Request (ERR) S,H->E, reply
+Structure:     \<ACKC6\>
+S6,F15 Event Report Request (ERR) S,H-\>E, reply
 Description:   The purpose of this message is for the host to demand a given report
 group from the equipment.
-Structure:     <CEID>
+Structure:     \<CEID\>
 
 SEMI E5-1000 © SEMI 1982, 2000135
-S6,F16 Event Report Data (ERD) M,H<-E
+S6,F16 Event Report Data (ERD) M,H\<-E
 Description:   Equipment sends reports linked to given CEID to host.
 Structure:     Identical to structure of S6,F11.
 Exceptions:    A zero-length item means there are no reports linked to the given
 CEID.
-S6,F17 Annotated Event Report Request (AERR) S,H->E,reply
+S6,F17 Annotated Event Report Request (AERR) S,H-\>E,reply
 Description:    Same as S6,F15, but requests annotated reports.
-Structure:      <CEID>
-S6,F18 Annotated Event Report Data (AERD) M,H<-E
+Structure:      \<CEID\>
+S6,F18 Annotated Event Report Data (AERD) M,H\<-E
 Description:   Equipment sends annotated reports linked to given CEID.
 Structure:     Same as S6,F13.
 Exceptions:    A zero-length item means there are no reports linked to the given
 CEID.
-S6,F19 Individual Report Request (IRR) S,H->E,reply
+S6,F19 Individual Report Request (IRR) S,H-\>E,reply
 Description:   The purpose of this message is for the host to request a defined
 report from the equipment.
-Structure:     <RPTID>
-S6,F20 Individual Report Data (IRD) M,H<-E
+Structure:     \<RPTID\>
+S6,F20 Individual Report Data (IRD) M,H\<-E
 Description:   Equipment sends variable data defined for the given RPTID to the
 host.
 Structure:     L,n # of variable data items
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-n. <V
+n. \<V
 n
->
+\>
 Exceptions:    A zero length list means RPTID is not defined.
-S6,F21 Annotated Individual Report Request (AIRR) S,H->E,reply
+S6,F21 Annotated Individual Report Request (AIRR) S,H-\>E,reply
 Description:   The purpose of this message is for the host to request an annotated
 defined report from the equipment.
-Structure:     <RPTID>
+Structure:     \<RPTID\>
 
 SEMI E5-1000 © SEMI 1982, 2000136
-S6,F22 Annotated Individual Report Data (AIRD) M,H<-E
+S6,F22 Annotated Individual Report Data (AIRD) M,H\<-E
 Description:   Equipment sends annotated variable data defined for the given RPTID
 to the host.
 Structure:     L,n # of variable data items
 1. L,2
-1. <VID
+1. \<VID
 1
->
-2. <V
+\>
+2. \<V
 1
->
+\>
 .
 .
 n. L,2
-1. <VID
+1. \<VID
 n
->
-2. <V
+\>
+2. \<V
 n
->
+\>
 Exceptions:     A zero-length list for # of variable data items means RPTID is not
 defined.
-S6,F23 Request Spooled Data (RSD) S,H->E,reply
+S6,F23 Request Spooled Data (RSD) S,H-\>E,reply
 Description:   The purpose of this message is for the host to request transmission
 or deletion of the messages currently spooled by the equipment.
-Structure:   <RSDC>
-S6,F24 Request Spooled Data Acknowledgement Send (RSDAS) S,H<-E
+Structure:   \<RSDC\>
+S6,F24 Request Spooled Data Acknowledgement Send (RSDAS) S,H\<-E
 Description:   The purpose of this message is to acknowledge the receipt of the
 Request Spooled Data (S6,F23) and to respond with an appropriate
 acknowledge code.
-Structure:    <RSDA>
+Structure:    \<RSDA\>
 
 SEMI E5-1000 © SEMI 1982, 2000137
-S6,F25 Notification Report SendM, H<->E,[reply]
+S6,F25 Notification Report SendM, H\<-\>E,[reply]
 Description:   This message is used for change notifications or confirmation
 reports. A change notification is a report of an internal action and
 is not associated with a prior action requested by the host.
@@ -6577,124 +6577,124 @@ value of OPID in the initial request. LINKID is set to a non-zero value if and o
 if additional completion reports with the same OPID will be sent. If S6,F25 is
 multiblock, it must be preceded by the S6,F5/S6,F6 Inquire Grant transaction.
 Structure:     L,7
-1. <DATAID>
-2. <OPID>
-3. <LINKID>
-4. <RCPSPEC>
-5. <RMCHGSTAT>
+1. \<DATAID\>
+2. \<OPID\>
+3. \<LINKID\>
+4. \<RCPSPEC\>
+5. \<RMCHGSTAT\>
 6. L,m
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 m. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 m
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 m
->
+\>
 7. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     OPID and LINKID are zero-length items when and only when S6,F25 is
 sent as a change notification rather than as a confirmation report.
 p = 0 if and only if RMACK indicates no errors.
-S6,F26 Notification Report Send AcknowledgeS, H<->E
+S6,F26 Notification Report Send AcknowledgeS, H\<-\>E
 Description:   This message is used to acknowledge the confirmation report. It is
 defined for completeness and as an aid to the user in identifying
 problems.
-Structure:     <ACKC6>
+Structure:     \<ACKC6\>
 Exception:     None
 
 SEMI E5-1000 © SEMI 1982, 2000138
-S6,F27 Trace Report Send (TRS)M,H <-E,[reply]
+S6,F27 Trace Report Send (TRS)M,H \<-E,[reply]
 Description:   The equipment sends a completed Trace Report to the host.
 Structure:     L,3
-1. <DATAID>
-2. <TRID>
+1. \<DATAID\>
+2. \<TRID\>
 3. L,n           (n cannot exceed group size specified by S2F53)
 1. L,p      (p is the number of reports for each trace sample)
 1. L,2
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 2. L,m (number of items in this data report)
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-m. <V
+m. \<V
 m
->
+\>
 .
 .
 p. L,2
-1. <RPTID
+1. \<RPTID
 p
->
+\>
 2. L,m
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-m. <V
+m. \<V
 m
->
+\>
 .
 .
 n. L,p      (p is the number of reports for each trace sample)
 1. L,2
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 2. L,m (number of items in this data report)
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-m. <V
+m. \<V
 m
->
+\>
 .
 .
 p. L,2
-1. <RPTID
+1. \<RPTID
 p
->
+\>
 2. L,m
-1. <V
+1. \<V
 1
->
+\>
 .
 .
-m. <V
+m. \<V
 m
->
+\>
 Exception:     The lists of variables associated with a unique RPTID are also
 unique. This structure illustrates the form of the message, so in
 general, V
@@ -6707,104 +6707,104 @@ for RPTID
 b
 do not reference the same
 variable.
-S6,F28 Trace Report Send AcknowledgeS,H ->E
+S6,F28 Trace Report Send AcknowledgeS,H -\>E
 Description:   The host Acknowledges receipt of the Trace Report.
-Structure:     <TRID>
+Structure:     \<TRID\>
 
 SEMI E5-1000 © SEMI 1982, 2000139
-S6,F29 Trace Report Request (TRR)S,H->E
+S6,F29 Trace Report Request (TRR)S,H-\>E
 Description:   Request that the data reports assigned to the trace report be
 sampled and returned to the host.
-Structure:     <TRID>
-S6,F30 Trace Report Data (TRD)M,H<-E
+Structure:     \<TRID\>
+S6,F30 Trace Report Data (TRD)M,H\<-E
 Description:   Message containing the requested data reports associated with the
 TRID of trace data report definition.
 Structure:     L,3
-1. <TRID>
+1. \<TRID\>
 2. L,n        (n = number data reports defined for this TRID)
 1. L,2
-1. <RPTID
+1. \<RPTID
 1
->
+\>
 2. L,m      (m = number of items in this RPTID)
-1. <V
+1. \<V
 1
->
+\>
 .
-m. <V
+m. \<V
 m
->
+\>
 .
 .
 n. L,2
-1. <RPTID
+1. \<RPTID
 n
->
+\>
 2. L,m      (m = number of items in this RPTID)
-1. <V
+1. \<V
 1
->
+\>
 .
-m. <V
+m. \<V
 m
->
-3. <ERRCODE>
+\>
+3. \<ERRCODE\>
 Exception:      If TRID is unknown, a zero-length list (n = 0) shall be sent. Item 3
 (ERRCODE) shall be set to zero length when there is no error.
 7. 11   Stream  7  Process  Program  Ma nagement  ó  The  functions  in  this  stream  are  used  to  manage  and  transfer
 process  programs.  Process  programs  are  the  equipment-specific  descriptions  that  determine  the  procedure  to  be
 conducted  on  the  material  by  a  single  piece  of  equipment.  Methods  are  provided  to  transfer  programs  as  well  as
 establish the link between the process program and the material to be processed with that program.
-S7,F0 Abort Transaction (S7F0) S,H<->E
+S7,F0 Abort Transaction (S7F0) S,H\<-\>E
 Description:   Same form as S1,F0
-S7,F1 Process Program Load Inquire (PPI) S,H<->E,reply
+S7,F1 Process Program Load Inquire (PPI) S,H\<-\>E,reply
 Description:   This message is used to initiate the transfer of a process program or
 to select from stored programs. The message may be used to initiate
 the transfer of an unformatted process program (S7,F3/S7,F4) or a
 formatted process program (S7,F23/S7,F24),(S7,F31/S7,F32).
 Structure:     L,2
-1. <PPID>
-2. <LENGTH>
+1. \<PPID\>
+2. \<LENGTH\>
 
 SEMI E5-1000 © SEMI 1982, 2000140
-S7,F2 Process Program Load Grant (PPG) S,H<->E
+S7,F2 Process Program Load Grant (PPG) S,H\<-\>E
 Description:    This message gives permission for the process program to be loaded.
-Structure:      <PPGNT>
-S7,F3 Process Program Send (PPS) M,H<->E,reply
+Structure:      \<PPGNT\>
+S7,F3 Process Program Send (PPS) M,H\<-\>E,reply
 Description:    The program is sent. If S7,F3 is multi-block, it must be preceded by
 the S7,F1/S7,F2 Inquire/Grant transaction.
 Structure:      L,2
-1. <PPID>
-2. <PPBODY>
-S7,F4 Process Program Acknowledge (PPA) S,H<->E
+1. \<PPID\>
+2. \<PPBODY\>
+S7,F4 Process Program Acknowledge (PPA) S,H\<-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC7>
-S7,F5 Process Program Request (PPR) S,H<->E,reply
+Structure:     \<ACKC7\>
+S7,F5 Process Program Request (PPR) S,H\<-\>E,reply
 Description:   This message is used to request the transfer of a process program.
-Structure:     <PPID>
-S7,F6 Process Program Data (PPD) M,H<->E
+Structure:     \<PPID\>
+S7,F6 Process Program Data (PPD) M,H\<-\>E
 Description:   This message is used to transfer a process program.
 Structure:     L,2
-1. <PPID>
-2. <PPBODY>
+1. \<PPID\>
+2. \<PPBODY\>
 Exception:     A zero-length list means request denied.
 NOTE 8: The  equipment-to-host  transfer  of  the  process  program,  denoted  by  the  R  bit  in  the  header  (R=1),  provides  the
 mechanism  for  the  host  computer  to  receive  process  programs  created  on  the  equipment.  This  allows  use  of  the  equipment
 without having process program generation capabilities on the host.
-S7,F7 Process Program ID Request (PIR) S,H<-E,reply
+S7,F7 Process Program ID Request (PIR) S,H\<-E,reply
 Description:   This message is used to request the PPID for use on the material
 identified.
-Structure:     <MID>
+Structure:     \<MID\>
 
 SEMI E5-1000 © SEMI 1982, 2000141
-S7,F8 Process Program ID Data (PID) S,H->E
+S7,F8 Process Program ID Data (PID) S,H-\>E
 Description:   This message is used to transmit a single matrix entry in response to
 S7,F7.
 Structure:     L,2
-1. <PPID>
-2. <MID>
+1. \<PPID\>
+2. \<MID\>
 Exception:     A zero-length list returned means no such MID or other error.
-S7,F9 M/P M Request (MMR) S,H<->E,reply
+S7,F9 M/P M Request (MMR) S,H\<-\>E,reply
 Description:   This message is used to request the transmission of the material/
 process matrix. If the message is from the host, the response will be
 the current matrix in the equipment. If the message is from the
@@ -6815,7 +6815,7 @@ NOTE 9: M/PM  defines  the  Material/Process  Matrix.  The  Material/Process  Ma
 process program to be used in processing the material.
 
 SEMI E5-1000 © SEMI 1982, 2000142
-S7,F10 M/P M Data (MMD) M,H<->E
+S7,F10 M/P M Data (MMD) M,H\<-\>E
 Description:   In the response to S7,F9, the equipment will transmit the current
 matrix it contains. The matrix will be the sum of all matrix updates
 transmitted since initialization less the completed material whose
@@ -6823,34 +6823,34 @@ linkages have been deleted. Programs with no pending material will be
 deleted from the matrix but not from the equipment program directory.
 Structure:      L,n number of process programs
 1. L,2
-1. <PPID
+1. \<PPID
 1
->
+\>
 2. L,a (number of MID for this PPID)
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-a. <MID
+a. \<MID
 a
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <PPID
+1. \<PPID
 n
->
+\>
 2. L,b
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-b. <MID
+b. \<MID
 b
->
+\>
 Exception:     a=0 indicates that this PPID will be used for all material processed.
 The last default transmitted will be the one used; all other entries
 will be deleted from the active matrix. A zero-length list returned
@@ -6858,183 +6858,183 @@ means no such matrix.
 Function 10    Example 2 process programs (1 and 3 MID, respectively)
 L,2
 L,2
-1. <PPID
+1. \<PPID
 1
->
+\>
 2. L,1
-1. <MID
+1. \<MID
 a
->
+\>
 L,2
-1. <PPID
+1. \<PPID
 2
->
+\>
 2. L,3
-1. <MID
+1. \<MID
 b
->
-2. <MID
+\>
+2. \<MID
 c
->
-3. <MID
+\>
+3. \<MID
 d
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000143
-S7,F11 M/P M Update Send(UMS) S,H->E,[reply]
+S7,F11 M/P M Update Send(UMS) S,H-\>E,[reply]
 Description:   This message is used by the host to add to the M/PM in the equipment.
 Structure:      L,n (number of process programs)
 1. L,2
-1. <PPID
+1. \<PPID
 1
->
+\>
 2. L,a (number of MID's using PPID1)
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-a. <MID
+a. \<MID
 a
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <PPID
+1. \<PPID
 n
->
+\>
 2. L,b
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-b. <MID
+b. \<MID
 b
->
+\>
 Exception:     If a=0, then the preceding PPID is to be used for all material
 processed. All other entries will be deleted from the active matrix.
-S7,F12 M/P M Update Acknowledge (UMA) S,H<-E
+S7,F12 M/P M Update Acknowledge (UMA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC7>
-S7,F13 Delete M/P M Entry Send (DES) S,H->E,[reply]
+Structure:     \<ACKC7\>
+S7,F13 Delete M/P M Entry Send (DES) S,H-\>E,[reply]
 Description:   This message is used to delete program to material linkages in the
 M/PM of the equipment.
 Structure:     L,n (number of process programs)
 1. L,2
-1. <PPID
+1. \<PPID
 1
->
+\>
 L,a (number of MID's using PPID)
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-a. <MID
+a. \<MID
 a
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <PPID
+1. \<PPID
 n
->
+\>
 2. L,b
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-b. <MID
+b. \<MID
 b
->
+\>
 Exception:     A delete consisting of a zero-length means delete all entries and
 generate a S7,F9 request to initialize matrix.
 
 SEMI E5-1000 © SEMI 1982, 2000144
-S7,F14 Delete M/P M Entry Acknowledge (DEA) S,H<-E
+S7,F14 Delete M/P M Entry Acknowledge (DEA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC7>
-S7,F15 Matrix Mode Select Send (MMS) S,H->E,reply
+Structure:     \<ACKC7\>
+S7,F15 Matrix Mode Select Send (MMS) S,H-\>E,reply
 Description:   This message is used by the host to change the method of process
 program selection in the equipment which might not support all modes.
-Structure:     <MMODE>
-S7,F16 Matrix Mode Select Acknowledge (MMA) S,H<-E
+Structure:     \<MMODE\>
+S7,F16 Matrix Mode Select Acknowledge (MMA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC7>
+Structure:     \<ACKC7\>
 NOTE 10: The matrix structure allows the program linkages to be established for each MID or the multi-MID production plans
 for  an  extended  period  of  time.  The  host  system  makes  the  choice  of  operating  mode.  By  continuous  updates  to  the  equipment
 matrix, automatic system backup is achieved.
-S7,F17 Delete Process Program Send (DPS) S,H->E,reply
+S7,F17 Delete Process Program Send (DPS) S,H-\>E,reply
 Description:   This message is used by the host to request the equipment to delete
 process programs from equipment storage.
 Structure:     L,n (Number of process programs to be deleted)
-1. <PPID
+1. \<PPID
 1
->
+\>
 .
 .
-n. <PPID
+n. \<PPID
 n
->
+\>
 Exception:     If n=0, then delete all.
-S7,F18 Delete Process Program Acknowledge (DPA)S,H<-E
+S7,F18 Delete Process Program Acknowledge (DPA)S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC7>
-S7,F19 Current EPPD Request (RER) S,H->E,reply
+Structure:     \<ACKC7\>
+S7,F19 Current EPPD Request (RER) S,H-\>E,reply
 Description:   This message is used to request the transmission of the current
 equipment process program directory (EPPD). This is a list of all the
 PPIDs of the process programs stored in the equipment.
 Structure:     Header only
 
 SEMI E5-1000 © SEMI 1982, 2000145
-S7,F20 Current EPPD Data (RED) M,H<-E
+S7,F20 Current EPPD Data (RED) M,H\<-E
 Description:   This message is used to transmit the current EPPD.
 Structure:      L,n (number of process programs in the directory)
-1. <PPID
+1. \<PPID
 1
->
+\>
 .
 .
-n. <PPID
+n. \<PPID
 n
->
-S7,F21 Equipment Process Capabilities Request (PCR)S,H->E,reply
+\>
+S7,F21 Equipment Process Capabilities Request (PCR)S,H-\>E,reply
 Description:   This message is used to request the Equipment Process Capabilities
 Data(PCD).
 Structure:     Header only
-S7,F22 Equipment Process Capabilities Data (PCD) M,H<-E
+S7,F22 Equipment Process Capabilities Data (PCD) M,H\<-E
 Description:   This equipment message provides the information necessary for the
 host to create and partially verify the contents of a new process
 program or display the object of a process program previously
 generated by a host or equipment. The PCD defines the process program
 content acceptable to the originating equipment.
 Structure:     L,5
-1. <MDLN>
-2. <SOFTREV>
-3. <CMDMAX>
-4. <BYTMAX>
+1. \<MDLN\>
+2. \<SOFTREV\>
+3. \<CMDMAX\>
+4. \<BYTMAX\>
 5. L,c (c=Number of Possible Commands)
 1. L,11
-1. <CCODE>
-2. <CNAME>
-3. <RQCMD>
-4. <BLKDEF>
-5. <BCDS>
-6. <IBCDS>
-7. <NBCDS>
-8. <ACDS>
+1. \<CCODE\>
+2. \<CNAME\>
+3. \<RQCMD\>
+4. \<BLKDEF\>
+5. \<BCDS\>
+6. \<IBCDS\>
+7. \<NBCDS\>
+8. \<ACDS\>
 
 # 9
 
-9. <IACDS>
+9. \<IACDS\>
 
 # 10
 
-10. <NACDS>
+10. \<NACDS\>
 
 # 11
 
@@ -7054,83 +7054,83 @@ Parameter  specifications  depend  on  the  data  type  of  each  parameter.  Th
 groups is as follows:
 Numeric DataString DataBoolean Data
 L,9L,5L,4
-1. <PNAME>1. <PNAME>1. <PNAME>
-2. <RQPAR>2. <RQPAR>2. <RQPAR>
-3. <PDFLT>3. <PDFLT>3. <PDFLT>
-4. <PMAX>4. <PMAX>4. <PMAX>
-5. <LLIM>5. L,s
-6. <ULIM>   1. <STEMP
+1. \<PNAME\>1. \<PNAME\>1. \<PNAME\>
+2. \<RQPAR\>2. \<RQPAR\>2. \<RQPAR\>
+3. \<PDFLT\>3. \<PDFLT\>3. \<PDFLT\>
+4. \<PMAX\>4. \<PMAX\>4. \<PMAX\>
+5. \<LLIM\>5. L,s
+6. \<ULIM\>   1. \<STEMP
 1
->
-7. <UNITS>   .
-8. <RESC>   .
-9. <RESV>   s. <STEMP
+\>
+7. \<UNITS\>   .
+8. \<RESC\>   .
+9. \<RESV\>   s. \<STEMP
 s
->
-S7,F23 Formatted Process Program Send (FPS) M,H<->E,reply
+\>
+S7,F23 Formatted Process Program Send (FPS) M,H\<-\>E,reply
 Description:   This message allows movement of formatted process programs between a
 piece of equipment and its host system. The values of MDLN and
 SOFTREV are obtained from the PCD used to generate the process
 program. If S7,F23 is multi-block, it must be preceded by the S7F1/F2
 Inquire/Grant transaction.
 Structure:     L,4
-1. <PPID>
-2. <MDLN>
-3. <SOFTREV>
+1. \<PPID\>
+2. \<MDLN\>
+3. \<SOFTREV\>
 4. L,c (c=Number of Process Commands)
 1. L,2
-1. <CCODE>
+1. \<CCODE\>
 2. L,p (p=Number of Parameters)
-1. <PPARM
+1. \<PPARM
 1
->
+\>
 .
 .
-p. <PPARMp>
+p. \<PPARMp\>
 2. L,2
 .
 .
 c. L,2
-S7,F24 Formatted Process Program Acknowledge (FPA)S,H<->E
+S7,F24 Formatted Process Program Acknowledge (FPA)S,H\<-\>E
 Description:   Acknowledges reception of a formatted process program at its
 destination and whether the process program was accepted by the
 interpreter. A returned status of "accepted" by the interpreter means
 only that the message is understood. The validity of the contents of
 the process program is determined through a separate transaction
 (S7,F27/S7,F28).
-Structure:     <ACKC7>
+Structure:     \<ACKC7\>
 
 SEMI E5-1000 © SEMI 1982, 2000147
-S7,F25 Formatted Process Program Request (FPR) S,H<->E,reply
+S7,F25 Formatted Process Program Request (FPR) S,H\<-\>E,reply
 Description:   This message is used by either equipment or host to request a
 particular process program from the other.
-Structure:     <PPID>
-S7,F26 Formatted Process Program Data (FPD) M,H<->E
+Structure:     \<PPID\>
+S7,F26 Formatted Process Program Data (FPD) M,H\<-\>E
 Description:   This message transfers a process program in response to a request for
 the PPID. The values of MDLN and SOFTREV are obtained from the PCD
 used to generate the process program.
 Structure:     L,4
-1. <PPID>
-2. <MDLN>
-3. <SOFTREV>
+1. \<PPID\>
+2. \<MDLN\>
+3. \<SOFTREV\>
 4. L,c (c=Number of Process Commands)
 1. L,2
-1. <CCODE>
+1. \<CCODE\>
 2. L,p (p=Number of Parameters)
-1. <PPARM
+1. \<PPARM
 1
->
+\>
 .
 .
-p. <PPARM
+p. \<PPARM
 p
->
+\>
 2. L,2
 .
 .
 c. L,2
 Exception:     A zero length list indicates the request was denied.
-S7,F27 Process Program Verification Send (PVS) S,H<-E,reply
+S7,F27 Process Program Verification Send (PVS) S,H\<-E,reply
 Description:   This message indicates to the host that a process program has been
 received and checked by the equipment. The result of the check is
 specified by the list of errors. An empty error list (list of zero-
@@ -7142,31 +7142,31 @@ after any reception of a formatted process program (S7,F23 or S7,F26
 or S7,F31). If S7,F27 is multi-block, it must be preceded by the
 S7,F29/S7,F30 Inquire/Grant Transaction.
 Structure:     L,2
-1. <PPID>
+1. \<PPID\>
 2. L,n (n=number of errors being reported)
 1. L,3
-1. <ACKC7A>
-2. <SEQNUM>
-3. <ERRW7>
+1. \<ACKC7A\>
+2. \<SEQNUM\>
+3. \<ERRW7\>
 2. L,3
 .
 .
 n. L,3
 
 SEMI E5-1000 © SEMI 1982, 2000148
-S7,F28 Process Program Verification Acknowledge (PVA) S,H->E
+S7,F28 Process Program Verification Acknowledge (PVA) S,H-\>E
 Description:   Reply by host to equipment acknowledging reception of Process Program
 Verification Send (PVS).
 Structure:     Header only
-S7,F29 Process Program Verification Inquire (PVI) S,H<-E,reply
+S7,F29 Process Program Verification Inquire (PVI) S,H\<-E,reply
 Description:   This message allows a piece of equipment to ask a host for permission
 to send a multi-block PVS.
-Structure:     <LENGTH>
-S7,F30 Process Program Verification Grant (PVG) S,H->E
+Structure:     \<LENGTH\>
+S7,F30 Process Program Verification Grant (PVG) S,H-\>E
 Description:   Reply by host to equipment providing response to Process Program
 Verification Inquire (PVI).
-Structure:     <PPGNT>
-S7,F31 Verification Request Send (VRS) M,H->E,reply
+Structure:     \<PPGNT\>
+S7,F31 Verification Request Send (VRS) M,H-\>E,reply
 Description:   This message requests the interpreting equipment to check the
 contents of the provided process program and inform the host whether
 or not the process program is acceptable for processing at the
@@ -7174,87 +7174,87 @@ machine. The values of MDLN and SOFTREV are obtained from the PCD
 used to generate the process program. If S7,F31 is multi-block, it
 must be preceded by the S7,F1/S7,F2 Inquire/Grant transaction.
 Structure:     L,4
-1. <PPID>
-2. <MDLN>
-3. <SOFTREV>
+1. \<PPID\>
+2. \<MDLN\>
+3. \<SOFTREV\>
 4. L,c (c=Number of Process Commands)
 1. L,2
-1. <CCODE>
+1. \<CCODE\>
 2. L,p (p=Number of Parameters)
-1. <PPARM
+1. \<PPARM
 1
->
+\>
 .
 .
-p. <PPARM
+p. \<PPARM
 p
->
+\>
 2. L,2
 .
 .
 c. L,2
-S7,F32 Verification Request Acknowledge (VRA) S,H<-E
+S7,F32 Verification Request Acknowledge (VRA) S,H\<-E
 Description:   Acknowledges reception of a formatted process program verification
 request at its destination and whether the process program was
 accepted by the equipment. A returned status of accepted by the
 interpreter means only that the message is understood. The validity
 of the contents of the process program is specified through a
 separate transaction (S7,F27/S7,F28).
-Structure:     <ACKC7>
+Structure:     \<ACKC7\>
 
 SEMI E5-1000 © SEMI 1982, 2000149
-S7,F33 Process Program Available Request (PAR) S,H<->E,reply
+S7,F33 Process Program Available Request (PAR) S,H\<-\>E,reply
 Description:   This message requests the interpreting host or equipment to check its
 process program library and tell the requester if the PPID will be
 supplied if requested.
-Structure:     <PPID>
-S7,F34 Process Program Availability Data (PAD) S,H<->E
+Structure:     \<PPID\>
+S7,F34 Process Program Availability Data (PAD) S,H\<-\>E
 Description:   This message allows originator to tell requester whether it can
 provide the specified process program and whether it can provide it
 formatted, unformatted, or both.
 Structure:     L,3
-1. <PPID>
-2. <UNFLEN>
-3. <FRMLEN>
-S7,F35 Process Program for MID Request (PPMR) S,H<->E,reply
+1. \<PPID\>
+2. \<UNFLEN\>
+3. \<FRMLEN\>
+S7,F35 Process Program for MID Request (PPMR) S,H\<-\>E,reply
 Description:   This message is used to request the transfer of the process program
 to be used for the material identified.
-Structure:     <MID>
-S7,F36 Process Program for MID Data (PPMD) M,H<->E
+Structure:     \<MID\>
+S7,F36 Process Program for MID Data (PPMD) M,H\<-\>E
 Description:   This message is used to transfer the process program for the material
 identified.
 Structure:     L,3
-1. <MID>
-2. <PPID>
-3. <PPBODY>
+1. \<MID\>
+2. \<PPID\>
+3. \<PPBODY\>
 Exception:     A zero-length list returned means no such MID or other error.
 7. 12  Stream 8 Control Program Tra nsfer ó The purpose of this stream is to provide the method for transmitting
 the programs used in the equipment to perform the control function or to execute the transmitted process program.
-S8,F0 Abort Transaction (S8F0) S,H<->E
+S8,F0 Abort Transaction (S8F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S8,F1 Boot Program Request (BPR) S,H<->E,reply
+S8,F1 Boot Program Request (BPR) S,H\<-\>E,reply
 Description:   This message is used to request the transmission of the boot program.
 It is assumed that there is only one boot program associated with any
 given equipment.
 Structure:     Header only
 
 SEMI E5-1000 © SEMI 1982, 2000150
-S8,F2 Boot Program Data (BPD) M,H<->E
+S8,F2 Boot Program Data (BPD) M,H\<-\>E
 Description:   The boot program is required by some systems as a precursor to
 loading an operating system or executive program.
-Structure:     <BPD>
+Structure:     \<BPD\>
 Exception:     A zero-length item means no boot.
-S8,F3 Executive Program Request (EPR) S,H<->E,reply
+S8,F3 Executive Program Request (EPR) S,H\<-\>E,reply
 Description:   This message is used to request the executive program. It is assumed
 that there is only one executive program associated with any given
 equipment.
 Structure:     Header only
-S8,F4 Executive Program Data (EPD) M,H<->E
+S8,F4 Executive Program Data (EPD) M,H\<-\>E
 Description:   The executive program is the master control program of the equipment.
 The executive may contain all the program required or it may contain
 the information required to request the rest of the program it needs
 on Stream 13.
-Structure:     <EPD>
+Structure:     \<EPD\>
 7. 13   Stream  9  System  Errors  ó  Th is  stream  provides  a  method  of  informing  the  host  that  a  message  block  has
 been received which cannot be handled or that a timeout on a transaction (receive) timer has occurred. The messages
 indicate  either  a  Message  Fault  or  a  Communications  Fault  has  occurred  but  do  not  indicate  a  Communications
@@ -7266,107 +7266,107 @@ NOTE 11: In the event of a Communications Failure, no Stream 9 message is sent.
 expected message (when a transaction timer or a conversation timer has expired).
 7. 13.3  Message Fault ó A Message  Fault occurs when the equipment receives a message which it cannot process
 because of a fault that arises from the content, context, or length of the message.
-S9,F0 Abort Transaction (S9F0) S,H<->E
+S9,F0 Abort Transaction (S9F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S9,F1 Unrecognized Device ID (UDN) S,H<-E
+S9,F1 Unrecognized Device ID (UDN) S,H\<-E
 Description:   The device ID in the message block header did not correspond to any
 known device ID in the node detecting the error.
-Structure:     <MHEAD>
+Structure:     \<MHEAD\>
 S9,F2 Not used
 
 SEMI E5-1000 © SEMI 1982, 2000151
-S9,F3 Unrecognized Stream Type (USN) S,H<-E
+S9,F3 Unrecognized Stream Type (USN) S,H\<-E
 Description:   The equipment does not recognize the stream type in the message block
 header.
-Structure:     <MHEAD>
+Structure:     \<MHEAD\>
 S9,F4 Not Used
-S9,F5 Unrecognized Function Type (UFN) S,H<-E
+S9,F5 Unrecognized Function Type (UFN) S,H\<-E
 Description:   This message indicates that the function in the message ID is not
 recognized by the receiver.
-Structure:     <MHEAD>
+Structure:     \<MHEAD\>
 S9,F6 Not Used
-S9,F7 Illegal Data (IDN) S,H<-E
+S9,F7 Illegal Data (IDN) S,H\<-E
 Description:   This message indicates that the stream and function were recognized,
 but the associated data format could not be interpreted.
-Structure:     <MHEAD>
+Structure:     \<MHEAD\>
 S9,F8 Not Used
-S9,F9 Transaction Timer Timeout (TTN) S,H<-E
+S9,F9 Transaction Timer Timeout (TTN) S,H\<-E
 Description:   This message indicates that a transaction (receive) timer has timed
 out and that the corresponding transaction has been aborted. It is up
 to the host to respond to this error in an appropriate manner to keep
 the system operational.
-Structure:     <SHEAD>
+Structure:     \<SHEAD\>
 S9,F10 Not Used
-S9,F11 Data Too Long (DLN) S,H<-E
+S9,F11 Data Too Long (DLN) S,H\<-E
 Description:   This message to the host indicates that the equipment has been sent
 more data than it can handle.
-Structure:     <MHEAD>
+Structure:     \<MHEAD\>
 S9,F12 Not Used
 
 SEMI E5-1000 © SEMI 1982, 2000152
-S9,F13 Conversation Timeout (CTN) S,H<-E
+S9,F13 Conversation Timeout (CTN) S,H\<-E
 Description:   Data were expected but none were received within a reasonable length
 of time. Resources have been cleared.
 Structure:     L,2
-1. <MEXP>
-2. <EDID>
+1. \<MEXP\>
+2. \<EDID\>
 S9,F14 Not Used
 7. 14   Stream  10  Terminal  Services  ó   T he  functions  of  this  stream  is  to  pass  textual  messages  between  operator
 terminals attached to processing and/or testing equipment and the host. The equipment makes no attempt to interpret
 the text of the message, but merely passes it from terminal keyboard to the host or from the host to the display of the
 terminal.  Management  of  human  response  times  to  information  displayed  on  terminals  is  the  responsibility  of  the
 host.
-S10,F0 Abort Transaction (S10F0) S,H<->E
+S10,F0 Abort Transaction (S10F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S10,F1 Terminal Request (TRN) S,H<-E,[reply]
+S10,F1 Terminal Request (TRN) S,H\<-E,[reply]
 Description:   A terminal text message to the host.
 Structure:     L,2
-1. <TID>
-2. <TEXT>
-S10,F2 Terminal Request Acknowledge (TRA) S,H->E
+1. \<TID\>
+2. \<TEXT\>
+S10,F2 Terminal Request Acknowledge (TRA) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <ACKC10>
-S10,F3 Terminal Display, Single (VTN) S,H->E, [reply]
+Structure:     \<ACKC10\>
+S10,F3 Terminal Display, Single (VTN) S,H-\>E, [reply]
 Description:   Data to be displayed.
 Structure:     L,2
-1. <TID>
-2. <TEXT>
-S10,F4 Terminal Display, Single Acknowledge (VTA) S,H<-E
+1. \<TID\>
+2. \<TEXT\>
+S10,F4 Terminal Display, Single Acknowledge (VTA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC10>
+Structure:     \<ACKC10\>
 
 SEMI E5-1000 © SEMI 1982, 2000153
-S10,F5 Terminal Display, Multi-Block (VTN) M,H->E,[reply]
+S10,F5 Terminal Display, Multi-Block (VTN) M,H-\>E,[reply]
 Description:   Data to be displayed on the equipment's terminal.
 Structure:     L,2
-1. <TID>
+1. \<TID\>
 2. L,N
-1. <TEXT
+1. \<TEXT
 1
->
+\>
 .
 .
-n.<TEXT
+n.\<TEXT
 n
->
-S10,F6 Terminal Display, Multi-block Acknowledge (VMA) S,H<-E
+\>
+S10,F6 Terminal Display, Multi-block Acknowledge (VMA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC10>
-S10,F7 Multi-block Not Allowed (MNN) S,H<-E
+Structure:     \<ACKC10\>
+S10,F7 Multi-block Not Allowed (MNN) S,H\<-E
 Description:   An error message from a terminal that cannot handle a multi-block
 message from S10,F5.
-Structure:     <TID>
+Structure:     \<TID\>
 S10,F8 Not Used
-S10,F9 Broadcast (BCN) S,H->E,[reply]
+S10,F9 Broadcast (BCN) S,H-\>E,[reply]
 Description:   This function is generally the same as S10,F3 except that specific
 TID in each equipment need not be specified. Instead, the text is
 directed to each terminal in the equipment when the function is
 received. This function assumes that this feature exists on all
 equipment, otherwise repeated S10,F3 messages should be used.
-Structure:     <TEXT>
-S10,F10 Broadcast Acknowledge (BCA) S,H<-E
+Structure:     \<TEXT\>
+S10,F10 Broadcast Acknowledge (BCA) S,H\<-E
 Description:   Acknowledge or error
-Structure:     <ACKC10>
+Structure:     \<ACKC10\>
 
 SEMI E5-1000 © SEMI 1982, 2000154
 7. 15   Stream  11  has  been  deleted  an d  will  not  appear
@@ -7584,277 +7584,277 @@ transmit  inquire/grant  can  be  used  for  one  of  three  message  function  
 MAPFT, is received as part of the map setup data to determine the appropriate function to follow. If the appropriate
 function is not transmitted, the conversation is aborted and the error is reported using the appropriate error reporting
 stream and function.
-S12,F0 Abort Transaction (S12F0)S,H<->E
+S12,F0 Abort Transaction (S12F0)S,H\<-\>E
 Description:   Same form as S1F0.
-S12,F1 Map Set-up Data Send (MSDS) S,H<-E,reply
+S12,F1 Map Set-up Data Send (MSDS) S,H\<-E,reply
 Description:   Used to send all of the map set-up data common to all formats and
 required to link the data map with the physical wafer.
 Structure:     L,15
-1. <MID>
-2. <IDTYP>
-3. <FNLOC>
-4. <FFROT>
-5. <ORLOC>
-6. <RPSEL>
+1. \<MID\>
+2. \<IDTYP\>
+3. \<FNLOC\>
+4. \<FFROT\>
+5. \<ORLOC\>
+6. \<RPSEL\>
 7. L,n
-1. <REFP
+1. \<REFP
 x
 REFP
 y
->
+\>
 .
 .
-n. <REFP
+n. \<REFP
 x
 REFP
 y
->
-8. <DUTMS>
-9. <XDIES>
-10. <YDIES>
-11. <ROWCT>
-12. <COLCT>
-13. <NULBC>
+\>
+8. \<DUTMS\>
+9. \<XDIES\>
+10. \<YDIES\>
+11. \<ROWCT\>
+12. \<COLCT\>
+13. \<NULBC\>
 
 # 14
 
-14. <PRDCT>
+14. \<PRDCT\>
 
 # 15
 
-15. <PRAXI>
-S12,F2 Map Set-up Data Acknowledge (MSDA) S,H->E
+15. \<PRAXI\>
+S12,F2 Map Set-up Data Acknowledge (MSDA) S,H-\>E
 Description:   Acknowledgment of receipt of complete set of map set-up parameters.
-Structure:     <SDACK>
-S12,F3 Map Set-up Data Request (MSDR) S,H<-E,reply
+Structure:     \<SDACK\>
+S12,F3 Map Set-up Data Request (MSDR) S,H\<-E,reply
 Description:   Used to request set-up data from the host for the product ready to be
 processed at the equipment (common to all formats).
 Structure:     L,9
-1. <MID>
-2. <IDTYP>
-3. <MAPFT>
-4. <FNLOC>
-5. <FFROT>
-6. <ORLOC>
-7. <PRAXI>
-8. <BCEQU...>
-9. <NULBC>
+1. \<MID\>
+2. \<IDTYP\>
+3. \<MAPFT\>
+4. \<FNLOC\>
+5. \<FFROT\>
+6. \<ORLOC\>
+7. \<PRAXI\>
+8. \<BCEQU...\>
+9. \<NULBC\>
 
 SEMI E5-1000 © SEMI 1982, 2000157
-S12,F4 Map Set-up Data (MSD) S,H->E
+S12,F4 Map Set-up Data (MSD) S,H-\>E
 Description:   Used to send all of the map set-up data required to link the data map
 with the physical wafer.
 Structure:     L,15
-1.   <MID>
-2.   <IDTYP>
-3.   <FNLOC>
-4.   <ORLOC>
-5.   <RPSEL>
+1.   \<MID\>
+2.   \<IDTYP\>
+3.   \<FNLOC\>
+4.   \<ORLOC\>
+5.   \<RPSEL\>
 6.   L,n
-1. <REFP
+1. \<REFP
 x
 REFP
 y
->
+\>
 .
 .
-n. <REFP
+n. \<REFP
 x
 REFP
 y
->
-7.   <DUTMS>
-8.   <XDIES>
-9.   <YDIES>
-10.   <ROWCT>
-11.   <COLCT>
-12.   <PRDCT>
-13.   <BCEQU>
-14.   <NULBC>
-15.   <MLCL>
+\>
+7.   \<DUTMS\>
+8.   \<XDIES\>
+9.   \<YDIES\>
+10.   \<ROWCT\>
+11.   \<COLCT\>
+12.   \<PRDCT\>
+13.   \<BCEQU\>
+14.   \<NULBC\>
+15.   \<MLCL\>
 Exception:      A zero-length list returned means no such MID.
-S12,F5 Map Transmit Inquire (MAPTI) S,H<-E,reply
+S12,F5 Map Transmit Inquire (MAPTI) S,H\<-E,reply
 Description:   Used to prepare the host for map transmission. S12,F5 must precede
 all S12,F7-8,F9-10, & F11-12 transactions.
 Structure:     L,4
-1. <MID>
-2. <IDTYP>
-3. <MAPFT>
-4. <MLCL>
-S12,F6 Map Transmit Grant (MAPTG) S,H->E
+1. \<MID\>
+2. \<IDTYP\>
+3. \<MAPFT\>
+4. \<MLCL\>
+S12,F6 Map Transmit Grant (MAPTG) S,H-\>E
 Description:   Provides permission to transfer.
-Structure:     <GRNT1>
+Structure:     \<GRNT1\>
 
 SEMI E5-1000 © SEMI 1982, 2000158
-S12,F7 Map Data Send Type 1 (MDS1)M,H<-E,reply
+S12,F7 Map Data Send Type 1 (MDS1)M,H\<-E,reply
 Description:    Used to send map data from the equipment to the host in row or
 column compressed format. If S12,F7 is multi-block, it must be
 preceded by the S12,F5/S12,F6 Inquire/Grant transaction.
 Structure:      L,3
-1. <MID>
-2. <IDTYP>
+1. \<MID\>
+2. \<IDTYP\>
 3. L,n
 1. L,2
-1. <RSINF
+1. \<RSINF
 1
->
-2. <BINLT
+\>
+2. \<BINLT
 1
->
+\>
 2. L,2
 .
 .
 n. L,2
-1. <RSINF
+1. \<RSINF
 n
->
-2. <BINLT
+\>
+2. \<BINLT
 n
->
-S12,F8 Map Data Acknowledge Type 1 (MDA1) S,H->E
+\>
+S12,F8 Map Data Acknowledge Type 1 (MDA1) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <MDACK>
-S12,F9 Map Data Send Type 2 (MDS2) M,H<-E,reply
+Structure:     \<MDACK\>
+S12,F9 Map Data Send Type 2 (MDS2) M,H\<-E,reply
 Description:   Used to send map data from the equipment in array format. If S12,F9
 is multi-block, it must be preceded by the S12,F5/S12,F6
 Inquire/Grant transaction.
 Structure:     L,4
-1. <MID>
-2. <IDTYP>
-3. <STRP
+1. \<MID\>
+2. \<IDTYP\>
+3. \<STRP
 x
 STRP
 y
->
-4. <BINLT...>
-S12,F10 Map Data Acknowledge Type 2 (MDA2) S,H->E
+\>
+4. \<BINLT...\>
+S12,F10 Map Data Acknowledge Type 2 (MDA2) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <MDACK>
+Structure:     \<MDACK\>
 
 SEMI E5-1000 © SEMI 1982, 2000159
-S12,F11 Map Data Send Type 3 (MDS3)M,H<-E,reply
+S12,F11 Map Data Send Type 3 (MDS3)M,H\<-E,reply
 Description:   Used to send map data from the equipment in cartesian coordinate
 format. Bin values may or may not be included in the message. If
 S12F11 is multi-block, it must be preceded by the S12,F5/S12,F6
 Inquire/Grant transaction.
 Structure:     L,3
-1. <MID>
-2. <IDTYP>
+1. \<MID\>
+2. \<IDTYP\>
 3. L,n
 1. L,2
-1. <XYPOS1
+1. \<XYPOS1
 x
 XYPOS1
 y
->
-2. <BINLT1...>
+\>
+2. \<BINLT1...\>
 2. L,2
 .
 .
 n. L,2
-1. <XYPOS
+1. \<XYPOS
 n
->
-2. <BINLT
+\>
+2. \<BINLT
 n
->
-S12,F12 Map Data Acknowledge Type 3 (MDA3) S,H->E
+\>
+S12,F12 Map Data Acknowledge Type 3 (MDA3) S,H-\>E
 Description:   Acknowledge or error
-Structure:     <MDACK>
-S12,F13 Map Data Request Type 1 (MDR1) S,H<-E,reply
+Structure:     \<MDACK\>
+S12,F13 Map Data Request Type 1 (MDR1) S,H\<-E,reply
 Description:   Used to request map data for product at equipment process station in
 row or column format.
 Structure:     L,2
-1. <MID>
-2. <IDTYP>
-S12,F14 Map Data Type 1 (MD1) M,H->E
+1. \<MID\>
+2. \<IDTYP\>
+S12,F14 Map Data Type 1 (MD1) M,H-\>E
 Description:   Used to send map data from the host to the equipment in row or column
 format.
 Structure:     L,3
-1. <MID>
-2. <IDTYP>
+1. \<MID\>
+2. \<IDTYP\>
 3. L,n
 1. L,2
-1. <RSINF
+1. \<RSINF
 x1
 RSINF
 y1
 RSIN
 d
->
-2. <BINLT...>
+\>
+2. \<BINLT...\>
 2. L,2
 .
 .
 n. L,2
-1. <RSINF
+1. \<RSINF
 n
->
-2. <BINLT
+\>
+2. \<BINLT
 n
->
+\>
 Exception:     A zero-length list returned means no such MID.
 
 SEMI E5-1000 © SEMI 1982, 2000160
-S12,F15 Map Data Request Type 2 (MDR2) S,H<-E,reply
+S12,F15 Map Data Request Type 2 (MDR2) S,H\<-E,reply
 Description:   Used to request map data for product at an equipment process station,
 in array format.
 Structure:     L,2
-1. <MID>
-2. <IDTYP>
-S12,F16 Map Data Type 2 (MD2) M,H->E
+1. \<MID\>
+2. \<IDTYP\>
+S12,F16 Map Data Type 2 (MD2) M,H-\>E
 Description:   Used to send map data from the host to the equipment in array format.
 Structure:     L,4
-1. <MID>
-2. <IDTYP>
-3. <STRP
+1. \<MID\>
+2. \<IDTYP\>
+3. \<STRP
 x
 STRP
 y
->
-4. <BINLT...>
+\>
+4. \<BINLT...\>
 Exception:     A zero-length list returned means no such MID.
-S12,F17 Map Data Request Type 3 (MDR3) S,H<-E,reply
+S12,F17 Map Data Request Type 3 (MDR3) S,H\<-E,reply
 Description:   Used to request map data for product at an equipment process station
 in cartesian coordinate format.
 Structure:     L,3
-1. <MID>
-2. <IDTYP>
-3. <SDBIN>
-S12,F18 Map Data Type 3 (MD3) M,H->E
+1. \<MID\>
+2. \<IDTYP\>
+3. \<SDBIN\>
+S12,F18 Map Data Type 3 (MD3) M,H-\>E
 Description:   Used to send map data from the host to the equipment in cartesian
 coordinate format. Bin values may or may not be included.
 Structure:     L,3
-1. <MID>
-2. <IDTYP>
+1. \<MID\>
+2. \<IDTYP\>
 3. L,n
 1. L,2
-1. <XYPOS
+1. \<XYPOS
 x1
 XYPOS
 y1
->
-2. <BINLT
+\>
+2. \<BINLT
 1
-...>
+...\>
 2. L,2
 .
 .
 n. L,2
-1. <XYPOS
+1. \<XYPOS
 n
->
-2. <BINLT
+\>
+2. \<BINLT
 n
->
+\>
 Exception:      A zero-length list returned means no such MID.
 
 SEMI E5-1000 © SEMI 1982, 2000161
-S12,F19 Map Error Report Send (MERS) S,H<->E
+S12,F19 Map Error Report Send (MERS) S,H\<-\>E
 Description:   Used to transmit map related errors.
 Structure:     L,2
-1. <MAPER>
-2. <DATLC>
+1. \<MAPER\>
+2. \<DATLC\>
 S12,F20 Not Used
 Figure S12.1
 Wafer Rotation Position in Degrees
@@ -8248,35 +8248,35 @@ string as a column header. The table elements in the 1st
 column position are used as an identifier for the row.
 
 SEMI E5-1000 © SEMI 1982, 2000168
-S13,F0 Abort Transaction (S13F0) S,H<->E
+S13,F0 Abort Transaction (S13F0) S,H\<-\>E
 Description:   Same form as S1,F0
-S13,F1 Send Data Set Send (DSSS) S,H<->E,reply
+S13,F1 Send Data Set Send (DSSS) S,H\<-\>E,reply
 Description:   Sent by the sending system to request that the other system read a
 dataset.
 Structure:     L,1
-1. <DSNAME>
-S13,F2 Send Data Set Acknowledge (DSSA) S,H<->E
+1. \<DSNAME\>
+S13,F2 Send Data Set Acknowledge (DSSA) S,H\<-\>E
 Description:   Sent by the receiving system in response to Send Data Set Send.
-1. <DSNAME>
-2. <ACKC13>
+1. \<DSNAME\>
+2. \<ACKC13\>
 Exceptions:    The possible ACKC13 codes for this message are:
 0=O.K.
 1=ERROR:Try later.
 2=ERROR:Unknown Data Set Name.
-S13,F3 Open Data Set Request (DSOR) S,H<->E,reply
+S13,F3 Open Data Set Request (DSOR) S,H\<-\>E,reply
 Description:   Sent by the receiving system to open a data set for reading.
 Structure:     L,3
-1. <HANDLE>
-2. <DSNAME>
-3. <CKPNT>
-S13,F4 Open Data Set Data (DSOD) S,H<->E
+1. \<HANDLE\>
+2. \<DSNAME\>
+3. \<CKPNT\>
+S13,F4 Open Data Set Data (DSOD) S,H\<-\>E
 Description:   Sent by the sending system in response to Open Data Set Request.
 Structure:     L,5
-1. <HANDLE>
-2. <DSNAME>
-3. <ACKC13>
-4. <RTYPE>
-5. <RECLEN>
+1. \<HANDLE\>
+2. \<DSNAME\>
+3. \<ACKC13\>
+4. \<RTYPE\>
+5. \<RECLEN\>
 Exceptions:    The possible ACKC13 codes for this message are:
 0=O.K.
 1=ERROR:Try later.
@@ -8288,22 +8288,22 @@ Exceptions:    The possible ACKC13 codes for this message are:
 10=ERROR:Pending Transaction.
 
 SEMI E5-1000 © SEMI 1982, 2000169
-S13,F5 Read Data Set Request (DSRR) S,H<->E,reply
+S13,F5 Read Data Set Request (DSRR) S,H\<-\>E,reply
 Description:   Sent by the receiving system to read data from an open data set.
 Structure:     L,2
-1. <HANDLE>
-2. <READLN>
-S13,F6 Read Data Set Data (DSRD)M,H<->E
+1. \<HANDLE\>
+2. \<READLN\>
+S13,F6 Read Data Set Data (DSRD)M,H\<-\>E
 Description:   Sent by the sending system in response to Read Data Set Request.
 Structure:     L,4
-1. <HANDLE>
-2. <ACKC13>
-3. <CKPNT>
+1. \<HANDLE\>
+2. \<ACKC13\>
+3. \<CKPNT\>
 4. L,n
-1. <FILDAT>
+1. \<FILDAT\>
 .
 .
-n. <FILDAT>
+n. \<FILDAT\>
 Exceptions:    The possible item formats, number of items (n), and length of each
 FILDAT item (|th) are given by the following table. MaxItems is
 defined in Section 7.17.10.2.
@@ -8321,28 +8321,28 @@ The possible ACKC13 codes for this message are:
 7 = ERROR: Cannot Continue
 8 = ERROR: End of Data
 10= ERROR: Pending Transaction
-S13,F7 Close Data Set Send (DSCS) S,H<->E,reply
+S13,F7 Close Data Set Send (DSCS) S,H\<-\>E,reply
 Description:   Sent by the receiving system to close an open data set.
 Structure:     L,1
-1. <HANDLE>
+1. \<HANDLE\>
 
 SEMI E5-1000 © SEMI 1982, 2000170
-S13,F8 Close Data Set Acknowledge (DSCA) S,H<->E
+S13,F8 Close Data Set Acknowledge (DSCA) S,H\<-\>E
 Description:   Sent by the sending system in response to Close Data Set Send (DSCS).
 Structure:     L,2
-1. <HANDLE>
-2. <ACKC13>
+1. \<HANDLE\>
+2. \<ACKC13\>
 The possible ACKC13 codes for this message are:
 0 = O.K.
 6 = ERROR:No open Data Set.
 10= ERROR:Pending Transaction.
-S13,F9 Reset Data Set Send (DSRS) S,H<->E,reply
+S13,F9 Reset Data Set Send (DSRS) S,H\<-\>E,reply
 Description:   Sent by either system to close all open data sets.
 Structure:     Header only
-S13,F10 Reset Data Set Acknowledge (DSRA) S,H<->E
+S13,F10 Reset Data Set Acknowledge (DSRA) S,H\<-\>E
 Description:   Sent in response to Reset Data Set Send.
 Structure:     Header only
-S13,F11 Data Set Object Multi-Block Inquire (DSOMGI)S,H<->E,reply
+S13,F11 Data Set Object Multi-Block Inquire (DSOMGI)S,H\<-\>E,reply
 Description:   This message requests permission to send a multi-block data set. If
 the receiving system does not grant permission in the reply, the
 multi-block data set may not be sent. OBJSPEC is used to identify the
@@ -8350,52 +8350,52 @@ data set object type and identifier and may include a destination.
 DATALENGTH represents the total message length, not the length of the
 data set.
 Structure:     L,3
-1. <DATAID>
-2. <OBJSPEC>
-3. <DATALENGTH>
-S13,F12 Data Set Object Multi-Block Grant (DSOMBG)S,H<->E
+1. \<DATAID\>
+2. \<OBJSPEC\>
+3. \<DATALENGTH\>
+S13,F12 Data Set Object Multi-Block Grant (DSOMBG)S,H\<-\>E
 Description:   This message grants or denies permission to send a multi-block data
 set.
-Structure:     <GRANT>
+Structure:     \<GRANT\>
 
 SEMI E5-1000 © SEMI 1982, 2000171
-S13,F13 Table Data Send (TDS)M,H<->E,reply
+S13,F13 Table Data Send (TDS)M,H\<-\>E,reply
 Description:   This message allows the host and the equipment to exchange predefined
 datasets in a tabular format. The first element of every row is used
 to reference that row for all other elements. If S13,F13 is Multi-
 block, it must be preceded by the S13,F11/S13,F12 Inquire/Grant
 transaction.
 Structure:     L,8
-1. <DATAID>
-2. <OBJSPEC>
-3. <TBLTYP>
-4. <TBLID>
-5. <TBLCMD>
+1. \<DATAID\>
+2. \<OBJSPEC\>
+3. \<TBLTYP\>
+4. \<TBLID\>
+5. \<TBLCMD\>
 6. L,n                     # of table attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <ATTRID
+1. \<ATTRID
 n
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 n
->
+\>
 7. L,c                     # of column definitions
-1. <COLHDR
+1. \<COLHDR
 1
->          1st column element description
+\>          1st column element description
 .
-c. <COLHDR
+c. \<COLHDR
 c
->          cth column element description
+\>          cth column element description
 8. L,r                     # of row definitions
 1. L,c
 1
@@ -8403,24 +8403,24 @@ c
 # #
 
 # of entries per definition
-1. <TBLELT
+1. \<TBLELT
 11
->     1st table element, 1st row
+\>     1st table element, 1st row
 .
-m. <TBLELT
+m. \<TBLELT
 1c1
->    mth table element, 1st row
+\>    mth table element, 1st row
 .
 r. L,c
 r
 rth row definition
-1. <TBLELT
+1. \<TBLELT
 r1
->     1st table element, rth row
+\>     1st table element, rth row
 .
-m. <TBLELT
+m. \<TBLELT
 rcr
->    mth table element, rth row
+\>    mth table element, rth row
 Exception:     If OBJSPEC is a zero-length item, then the owner of the table is the
 receiver of the message. If r is zero, any existing table definition
 of the given type and id is to be deleted. Otherwise, c
@@ -8432,133 +8432,133 @@ shall be less than or equal to the value of
 c.
 
 SEMI E5-1000 © SEMI 1982, 2000172
-S13,F14 Table Data Acknowledge (TDA)S,H<->E
+S13,F14 Table Data Acknowledge (TDA)S,H\<-\>E
 Description:   This message is used to acknowledge the receipt of a table and to
 indicate any errors.
 Structure:     L,2
-1. <TBLACK>
+1. \<TBLACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 P. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if TBLACK indicates no errors.
-S13,F15 Table Data Request (TDR)M,H<->E,reply
+S13,F15 Table Data Request (TDR)M,H\<-\>E,reply
 Description:   This message allows the host or the equipment to request part or all
 of a specific table. Either specific columns or specific rows may be
 requested, but not both at the same time. If S13,F15 is Multi-block,
 it must be preceded by the S13,F11/S13,F12 Inquire/Grant transaction.
 Structure:     L,7
-1. <DATAID>
-2. <OBJSPEC>
-3. <TBLTYP>
-4. <TBLID>
-5. <TBLCMD>
+1. \<DATAID\>
+2. \<OBJSPEC\>
+3. \<TBLTYP\>
+4. \<TBLID\>
+5. \<TBLCMD\>
 6. L,p                   # of column definitions
-1. <COLHDR
+1. \<COLHDR
 1
->        1st column element description
+\>        1st column element description
 .
-p. <COLHDR
+p. \<COLHDR
 p
->        pth column element description
+\>        pth column element description
 7. L,q
-1. <TBLELT
+1. \<TBLELT
 1
->        1st row identifier
+\>        1st row identifier
 .
 .
-q. <TBLELT
+q. \<TBLELT
 q
->
+\>
 Exception:     If OBJSPEC is a zero-length item, then the owner of the table is the
 receiver of the message. Either p or q, or both, must be zero. If p =
 0 and q = 0, all rows are requested; otherwise, only the specified
 columns, or the rows referenced by TBLELT, are requested.
 
 SEMI E5-1000 © SEMI 1982, 2000173
-S13,F16 Table Data (TD)M,H<->E
+S13,F16 Table Data (TD)M,H\<-\>E
 Description:   This message is used to return data from the requested table.
 Structure:     L,6
-1. <TBLTYP>
-2. <TBLID>
+1. \<TBLTYP\>
+2. \<TBLID\>
 3. L,n                     # of table attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <ATTRID
+1. \<ATTRID
 n
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 n
->
+\>
 4. L,c                     # of column definitions
-1. <COLHDR
+1. \<COLHDR
 1
->          1st column element description
+\>          1st column element description
 .
-c. <COLHDR
+c. \<COLHDR
 c
->          cth column element description
+\>          cth column element description
 5. L,r                     # of row definitions
 1. L,c
 1
 # of entries per definition
-1. <TBLELT
+1. \<TBLELT
 11
->     1st table element, 1st row
+\>     1st table element, 1st row
 .
-m. <TBLELT
+m. \<TBLELT
 1c1
->    last table element, 1st row
+\>    last table element, 1st row
 .
 r. L,c
 r
 rth row definition
-1. <TBLELT
+1. \<TBLELT
 r1
->     1st table element, rth row
+\>     1st table element, rth row
 .
-m. <TBLELT
+m. \<TBLELT
 rcr
->    mth table element, rth row
+\>    mth table element, rth row
 6. L,2
-1. <TBLACK>
+1. \<TBLACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 11
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 12
->
+\>
 .
 P. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p2
->
+\>
 Exceptions:    p = 0 if, and only if, TBLACK indicates no errors. The length c
 11
 of
@@ -8573,9 +8573,9 @@ message with the error code for "Pending Transaction."
 SEMI E5-1000 © SEMI 1982, 2000175
 7. 18  Stream 14 Object Services   The functions in this stream are used for generic functions concerning objects,
 including obtaining information about objects and setting values for an object.
-S14,F0 Abort Transaction (S14F0) S,H<->E
+S14,F0 Abort Transaction (S14F0) S,H\<-\>E
 Description:   Same form as S1,F0.
-S14,F1 GetAttr Request (GAR)S,H<->E,reply
+S14,F1 GetAttr Request (GAR)S,H\<-\>E,reply
 Description:   This message is used to request a set of specified attributes for
 one or more objects. It consists of an "object specifier" for the
 owner of the target objects (the objects of interest), the target
@@ -8635,168 +8635,168 @@ or attribute filters in general.
 
 SEMI E5-1000 © SEMI 1982, 2000176
 Structure:     L,5
-1. <OBJSPEC>
-2. <OBJTYPE>
+1. \<OBJSPEC\>
+2. \<OBJTYPE\>
 3. L,i        i = identifiers of the object instances requested
-1. <OBJID
+1. \<OBJID
 1
->
+\>
 .
 .
-i. <OBJID
+i. \<OBJID
 i
->
+\>
 4. L,q        q = # object qualifiers to match
 1. L,3
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
-3. <ATTRRELN
+\>
+3. \<ATTRRELN
 1
->
+\>
 .
 .
 q. L,3
-1. <ATTRID
+1. \<ATTRID
 q
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 q
->
-3. <ATTRRELN
+\>
+3. \<ATTRRELN
 q
->
+\>
 5. L,a        a = # attributes requested
-1. <ATTRID
+1. \<ATTRID
 1
->
+\>
 .
 .
-a. <ATTRID
+a. \<ATTRID
 a
->
+\>
 Exception:     If OBJSPEC is a zero-length item, no object specifier is provided. If
 i = 0,only the filter is to be applied. If q = 0, no filter is
 specified. If both i and q = 0, information for all instances of the
 objects are requested. If a = 0, all attributes are requested.
 
 SEMI E5-1000 © SEMI 1982, 2000177
-S14,F2 GetAttr Data (GAD) M,H<->E
+S14,F2 GetAttr Data (GAD) M,H\<-\>E
 Description:   This message is used to transfer the set of requested attributes for
 the specified object(s). The order of attributes is retained from the
 primary message.
 Structure:     L,2
 1. L,n                n = number of objects
 1. L,2
-1. <OBJID
+1. \<OBJID
 1
->
+\>
 2. L,a      a = number of attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 a. L,2
-1. <ATTRID
+1. \<ATTRID
 a
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 a
->
+\>
 .
 .
 n. L,2
-1. <OBJID
+1. \<OBJID
 n
->
+\>
 2. L,b      b = number of attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 b. L,2
-1. <ATTRID
+1. \<ATTRID
 b
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 b
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If OBJSPEC is a zero-length item, no object specifier is provided.
 If n = 0, no objects matched the specified filter. If p = 0, no
 errors were detected.
 
 SEMI E5-1000 © SEMI 1982, 2000178
-S14,F3 SetAttr Request (SAR) S,H<->E, reply
+S14,F3 SetAttr Request (SAR) S,H\<-\>E, reply
 Description:   This message is used to request that a given set of attributes be
 assigned specified values for all objects of the specified type and
 exactly matching the specified attribute requirements. Certain
 attributes may not be changed through the interface. For a
 description of filters, see S14,F1.
 Structure:     L,4
-1. <OBJSPEC>
-2. <OBJTYPE>
+1. \<OBJSPEC\>
+2. \<OBJTYPE\>
 3. L,i                i = number of object instances requested
-1. <OBJID
+1. \<OBJID
 1
->
+\>
 .
 .
-i. <OBJID
+i. \<OBJID
 i
->
+\>
 4. L,n                n = # attribute settings
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <ATTRID
+1. \<ATTRID
 n
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 n
->
+\>
 Exception:     If OBJSPEC is a zero-length item, no object specifier is provided.
 
 SEMI E5-1000 © SEMI 1982, 2000179
-S14,F4 SetAttr Data (SAD) M,H<->E
+S14,F4 SetAttr Data (SAD) M,H\<-\>E
 Description:   This message is used to acknowledge that the attributes for the
 specified objects have been set as requested or to indicate an error
 for each attribute value that was not set as requested. The order of
@@ -8804,536 +8804,536 @@ attributes is retained from the primary message.
 Structure:     L,2
 1. L,i                i = number of objects requested
 1. L,2
-1. <OBJID
+1. \<OBJID
 1
->
+\>
 2. L,n      n = number of attributes set.
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <ATTRID
+1. \<ATTRID
 n
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 n
->
+\>
 .
 .
 i. L,2
-1. <OBJID
+1. \<OBJID
 i
->
+\>
 2. L,n
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <ATTRID
+1. \<ATTRID
 n
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 n
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If n = 0 for any object, the object was not found.
 If p = 0, no errors were detected.
-S14,F5    GetType Request (GTR)S,H<->E,reply
+S14,F5    GetType Request (GTR)S,H\<-\>E,reply
 Description:   This message is used to request the types of objects owned by an
 object. This is an operation performed on an object type rather than
 on object instances. Wild characters "?" and "*" may be used as a
 filter for object types. Equipment is not required to support wild
 characters.
-Structure:     <OBJSPEC>
+Structure:     \<OBJSPEC\>
 Exception:     If OBJSPEC is a zero-length item, no object specifier is provided.
 
 SEMI E5-1000 © SEMI 1982, 2000180
 S14,F6    GetType Data (GTD)
 Structure:     L,2
 1. L,n              n = number of object types
-1. <OBJTYP
+1. \<OBJTYP
 1
->
+\>
 .
 .
-n. <OBJTYP
+n. \<OBJTYP
 n
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p         p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If n = 0, there are no owned object types. If p = 0, no errors were
 detected.
-S14,F7    GetAttrName Request (GANR)S,H<->E,reply
+S14,F7    GetAttrName Request (GANR)S,H\<-\>E,reply
 Description:   This message is used to request the names of the attributes of
 specified types of owned objects. This is an operation performed on
 an object type rather than on object instances. Wild characters "?"
 and "*" may be used as a filter for object types. Equipment is not
 required to support wild characters.
 Structure:     L,2
-1. <OBJSPEC>
+1. \<OBJSPEC\>
 2. L,n              n = # of object types
-1. <OBJTYP
+1. \<OBJTYP
 1
->
+\>
 .
 .
-n. <OBJTYP
+n. \<OBJTYP
 n
->
+\>
 Exception:     If OBJSPEC is a zero-length item, no object specifier is provided.
 
 SEMI E5-1000 © SEMI 1982, 2000181
-S14,F8    GetAttrName Data (GAND)M,H<->E
+S14,F8    GetAttrName Data (GAND)M,H\<-\>E
 Description:   This message contains the names of the attributes of the requested
 objects.
 Structure:     L,2
 1. L,n                n = number of object types
 1. L,2
-1. <OBJTYP
+1. \<OBJTYP
 1
->
+\>
 2. L,a      a = number of attributes
-1. <ATTRID
+1. \<ATTRID
 1
->
+\>
 .
 .
-a. <ATTRID
+a. \<ATTRID
 a
->
+\>
 .
 .
 n. L,2
-1. <OBJTYP
+1. \<OBJTYP
 n
->
+\>
 2. L,b      b = number of attributes
-1. <ATTRID
+1. \<ATTRID
 1
->
+\>
 .
 .
-b. <ATTRID
+b. \<ATTRID
 b
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If OBJSPEC is a zero-length item, no objects matched the specified
 filter.
 If p = 0, no errors were detected.
 
 SEMI E5-1000 © SEMI 1982, 2000182
-S14,F9 Create Object Request (COR)M,H<->E,reply
+S14,F9 Create Object Request (COR)M,H\<-\>E,reply
 Description:   This message is used to request an object owner to create an object
 instance. OBJSPEC specifies the object owner.
 Structure:     L,3
-1. <OBJSPEC>
-2. <OBJTYPE>
+1. \<OBJSPEC\>
+2. \<OBJTYPE\>
 3. L,a                a = # attributes requested
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 a. L,2
-1. <ATTRID
+1. \<ATTRID
 a
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 a
->
+\>
 Exception:      If OBJSPEC is a null-length item, no object specifier is provided.
 If a = 0, no specific attribute settings are requested for the new
 object.
-S14,F10 Create Object Acknowledge (CAO)M,H<->E
+S14,F10 Create Object Acknowledge (CAO)M,H\<-\>E
 Description:   This message is used to acknowledge the success or failure of
 creating the new object specified. If successful, OBJSPEC is the
 object specifier of the new object. The list of attributes returned
 is dependent upon the type of object specified.
 Structure:     L,3
-1. <OBJSPEC>
+1. \<OBJSPEC\>
 2. L,b                b = number of attributes returned
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 b. L,2
-1. <ATTRID
+1. \<ATTRID
 b
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 b
->
+\>
 3. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If OBJSPEC is a null-length item, no object was created. If b = 0, no
 attributes of the new object are returned. If p = 0, no errors were
 detected.
 
 SEMI E5-1000 © SEMI 1982, 2000183
-S14,F11 Delete Object RequestS,H<->E,reply
+S14,F11 Delete Object RequestS,H\<-\>E,reply
 Description:   This message is used to request that the object specified in OBJSPEC
 be deleted. The list of attribute settings depends upon the type of
 object to be deleted.
 Structure:     L,2
-1. <OBJSPEC>
+1. \<OBJSPEC\>
 2. L,a                n = # attribute settings
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 a. L,2
-1. <ATTRID
+1. \<ATTRID
 a
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 a
->
+\>
 Exception:     If n = 0, no attribute settings are provided.
-S14,F12 Delete Object Acknowledge (DOA)M,H<->E
+S14,F12 Delete Object Acknowledge (DOA)M,H\<-\>E
 Description:   This message is used to acknowledge the success or failure of
 deleting the object specified. The list of attributes returned is
 dependent upon the type of object to be deleted.
 Structure:     L,2
 1. L,b                n = number of attributes returned
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 b. L,2
-1. <ATTRID
+1. \<ATTRID
 b
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 b
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:      If n = 0, no attribute values are returned. If p = 0, no errors were
 detected.
 
 SEMI E5-1000 © SEMI 1982, 2000184
-S14,F13 Object Attach Request (OAR)M,H<->E,reply
+S14,F13 Object Attach Request (OAR)M,H\<-\>E,reply
 Description:   This message is sent by a supervisor to request the object specified
 in OBJSPEC to attach or reattach itself to the requestor.
 Structure:     L,2
-1. <OBJSPEC>
+1. \<OBJSPEC\>
 2. L,a                a = # attribute settings
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 a. L,2
-1. <ATTRID
+1. \<ATTRID
 a
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 a
->
+\>
 Exception:     If a = 0, no attribute settings are provided.
-S14,F14 Object Attach Acknowledge (OAA)M,H<->E
+S14,F14 Object Attach Acknowledge (OAA)M,H\<-\>E
 Description:   This message is used to acknowledge the success or failure of the
 requested attachment. If successful, a non-zero token shall be
 returned for the supervisor’s use in subsequent communications with
 the attached object.
 Structure:     L,3
-1. <OBJTOKEN>
+1. \<OBJTOKEN\>
 2. L,b                b = number of attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 b. L,2
-1. <ATTRID
+1. \<ATTRID
 b
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 b
->
+\>
 3. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     OBJTOKEN is zero if and only if p is non-zero. If b = 0, no attribute
 values are returned. If p = 0, no errors were detected.
 
 SEMI E5-1000 © SEMI 1982, 2000185
-S14,F15 Attached Object Action Request (AOAR)M,H<->E,reply
+S14,F15 Attached Object Action Request (AOAR)M,H\<-\>E,reply
 Description:   This message is used by a supervisor (only) to request an attached
 object to perform an action.
 Structure:     L,4
-1. <OBJSPEC>
-2. <OBJCMD>
-3. <OBJTOKEN>
+1. \<OBJSPEC\>
+2. \<OBJCMD\>
+3. \<OBJTOKEN\>
 4. L,a                a = # attribute settings
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 a. L,2
-1. <ATTRID
+1. \<ATTRID
 a
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 a
->
+\>
 Exception:     If a = 0, no attribute settings are provided.
-S14,F16 Attached Object Action Acknowledge (AOAA)M,H<->E
+S14,F16 Attached Object Action Acknowledge (AOAA)M,H\<-\>E
 Description:   This message is used to acknowledge the success or failure of an
 action requested by a supervisor.
 Structure:     L,2
 1. L,b                b = number of attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 b. L,2
-1. <ATTRID
+1. \<ATTRID
 b
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 b
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p           p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:      If p = 0, no errors were detected.
 
 SEMI E5-1000 © SEMI 1982, 2000186
-S14,F17 Supervised Object Action Request (SOAR)S,H<->E,reply
+S14,F17 Supervised Object Action Request (SOAR)S,H\<-\>E,reply
 Description:   This message is used to request a supervisor to have a supervised
 attached object perform an action. OBJSPEC specifies the supervisor,
 and TARGETSPEC specifies the attached object.
 Structure:     L,4
-1. <OBJSPEC>
-2. <OBJCMD>
-3. <TARGETSPEC>
+1. \<OBJSPEC\>
+2. \<OBJCMD\>
+3. \<TARGETSPEC\>
 4. L,a                a = number of attribute settings
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 a. L,2
-1. <ATTRID
+1. \<ATTRID
 a
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 a
->
+\>
 Exception:     If a = 0, no attribute settings are provided.
-S14,F18 Supervised Object Action Acknowledge (SOAA)M,H<->E
+S14,F18 Supervised Object Action Acknowledge (SOAA)M,H\<-\>E
 Description:   This message is used to acknowledge the success or failure of an
 action requested of a supervisor.
 Structure:      L,2
 1. L,b               b = number of attributes
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 .
 b. L,2
-1. <ATTRID
+1. \<ATTRID
 b
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 b
->
+\>
 2. L,2
-1. <OBJACK>
+1. \<OBJACK\>
 2. L,p          p = number of errors reported
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If b = 0, no attributes are returned. If p = 0, no errors were
 detected.
 
@@ -9343,757 +9343,757 @@ concerning  recipes,  recipe  namespaces,  and  recipe  executors.  A  recipe  i
 where  a  section  consists  of  either  recipe  attributes,  agent-specific  dataset  attributes,  or  the  body  of  the  recipe.  An
 attribute  is  information  concerning  the  recipe  body,  the  recipe  as  a  whole,  or  the  application  of  the  recipe.  An
 attribute consists of an attribute name/attribute value pair.
-S15,F0 Abort Transaction (S15F0)S,H<->E
+S15,F0 Abort Transaction (S15F0)S,H\<-\>E
 Description:   Same form as S1,F0.
-S15,F1 Recipe Management Multi-block InquireS,H<->E, reply
+S15,F1 Recipe Management Multi-block InquireS,H\<-\>E, reply
 Description:   This message requests permission to send a multi-block message based
 upon a maximum length of the total message.
 Structure:     L,3
-1. <DATAID>
-2. <RCPSPEC>
-3. <RMDATASIZE>
+1. \<DATAID\>
+2. \<RCPSPEC\>
+3. \<RMDATASIZE\>
 Exception:    If RCPSPEC is zero-length, the multi-block message for which
 permission to send is requested does not contain a recipe.
-S15,F2 Recipe Management Multi-block GrantS,H<->E
+S15,F2 Recipe Management Multi-block GrantS,H\<-\>E
 Description:   This message grants or denies permission to send a multi-block
 message.
-Structure:     <RMGRNT>
-S15,F3 Recipe Namespace Action RequestS,H<->E, reply
+Structure:     \<RMGRNT\>
+S15,F3 Recipe Namespace Action RequestS,H\<-\>E, reply
 Description:   This message requests that a recipe namespace be created or deleted.
 Structure:     L,2
-1. <RMNSSPEC>
-2. <RMNSCMD>
-S15,F4 Recipe Namespace Action AcknowledgeM,H<->E
+1. \<RMNSSPEC\>
+2. \<RMNSCMD\>
+S15,F4 Recipe Namespace Action AcknowledgeM,H\<-\>E
 Description:   This message is used to confirm whether the requested action was
 completed successfully or to provide error information otherwise.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000188
-S15,F5 Recipe Namespace Rename RequestS,H<->E, reply
+S15,F5 Recipe Namespace Rename RequestS,H\<-\>E, reply
 Description:   A request is made for a recipe namespace to be renamed.
 Structure:     L,2
-1. <RMNSSPEC>
-2. <RMNEWNS>
-S15,F6 Recipe Namespace Rename AcknowledgeM,H<->E
+1. \<RMNSSPEC\>
+2. \<RMNEWNS\>
+S15,F6 Recipe Namespace Rename AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge or deny a request to rename a
 recipe namespace.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
-S15,F7 Recipe Space RequestS,H<->E, reply
+S15,F7 Recipe Space RequestS,H\<-\>E, reply
 Description:   This message requests the amount of recipe storage available in the
 storage of a recipe namespace or recipe executor, as indicated by
 its object specifier OBJSPEC.
-Structure:     <OBJSPEC>
+Structure:     \<OBJSPEC\>
 Exception:     None.
-S15,F8 Recipe Space DataM,H<->E
+S15,F8 Recipe Space DataM,H\<-\>E
 Description:   This message contains the amount of storage available for recipes.
 Structure:     L,2
-1. <RMSPACE>
+1. \<RMSPACE\>
 2. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000189
-S15,F9 Recipe Status RequestS,H<->E, reply
+S15,F9 Recipe Status RequestS,H\<-\>E, reply
 Description:   This message is used to request the status of a recipe and the next
 available numeric version for that recipe class and name.
-Structure:     <RCPSPEC>
+Structure:     \<RCPSPEC\>
 Exception:     None.
-S15,F10 Recipe Status DataM,H<->E
+S15,F10 Recipe Status DataM,H\<-\>E
 Description:   This message contains the protected status of the recipe and the
 next available version number for that recipe class and name.
 Structure:     L,3
-1. <RCPSTAT>
-2. <RCPVERS>
+1. \<RCPSTAT\>
+2. \<RCPVERS\>
 3. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     RCPVERS is a zero-length item if and only if the recipe does not
 exist. p = 0 if and only if RMACK indicates no errors.
-S15,F11 Recipe Version RequestS,H<->E, reply
+S15,F11 Recipe Version RequestS,H\<-\>E, reply
 Description:   This message is used to request the best version of a recipe for the
 specified agent.
 Structure:     L,4
-1. <RMNSSPEC>
-2. <RCPCLASS>
-3. <RCPNAME>
-4. <AGENT>
+1. \<RMNSSPEC\>
+2. \<RCPCLASS\>
+3. \<RCPNAME\>
+4. \<AGENT\>
 Exception:     If item 2 is zero length, the recipe class PROCESS is indicated. If
 item 4 is a zero-length item, no agent is specified.
 
 SEMI E5-1000 © SEMI 1982, 2000190
-S15,F12 Recipe Version DataM,H<->E
+S15,F12 Recipe Version DataM,H\<-\>E
 Description:   This message contains the recommended version.
 Structure:     L,3
-1. <AGENT>
-2. <RCPVERS>
+1. \<AGENT\>
+2. \<RCPVERS\>
 3. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If AGENT is a zero-length item in the request, it shall also be a
 zero-length item in the reply. If it is not zero-length in the
 request, and it is of zero-length in the reply, then no qualifying
 recipe was found specific to that equipment. p = 0 if and only if
 RMACK indicates no errors.
-S15,F13 Recipe Create RequestM,H<->E, reply
+S15,F13 Recipe Create RequestM,H\<-\>E, reply
 Description:   This message is used to create or modify a recipe body. If multi-
 block, it shall be preceded by the S15,F1/F2 inquire/grant
 transaction.
 Structure:     L,5
-1. <DATAID>
-2. <RCPUPDT>
-3. <RCPSPEC>
+1. \<DATAID\>
+2. \<RCPUPDT\>
+3. \<RCPSPEC\>
 4. L,m
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 m. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 m
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 m
->
-5. <RCPBODY>
+\>
+5. \<RCPBODY\>
 Exception:     RCPBODY may be of zero length.
 
 SEMI E5-1000 © SEMI 1982, 2000191
-S15,F14 Recipe Create AcknowledgeM,H<->E
+S15,F14 Recipe Create AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge that a recipe has been created or
 updated with the body sent in the request.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,2
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000192
-S15,F15 Recipe Store RequestM,H<->E, reply
+S15,F15 Recipe Store RequestM,H\<-\>E, reply
 Description:   This message is used to send a recipe, or one or more recipe
 sections, to a recipe namespace. If multi-block, it shall be
 preceded by the S15,F1/F2 inquire/grant transaction.
 Structure:     L,4
-1. <DATAID>
-2. <RCPSPEC>
-3. <RCPSECCODE>
+1. \<DATAID\>
+2. \<RCPSPEC\>
+3. \<RCPSECCODE\>
 4. L,q                (q = 1,2,3)
 1. L,r           (r = 0 or 2)
-1. <RCPSECNM>
+1. \<RCPSECNM\>
 2. L,g      (g = # generic attributes)
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 g. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 g
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 g
->
-2. <RCPBODY>
+\>
+2. \<RCPBODY\>
 3. L,m           (m = # agent-specific datasets)
 1. L,2
-1. <RCPSECNM
+1. \<RCPSECNM
 1
->
+\>
 2. L,a
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 11
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 11
->
+\>
 .
 .
 a. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1a
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1a
->
+\>
 .
 .
 m. L,2
-1. <RCPSECNM
+1. \<RCPSECNM
 m
->
+\>
 2. L,b
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 m1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 m1
->
+\>
 .
 .
 b. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 mb
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 mb
->
+\>
 Exception:     RCPBODY is a zero-length item when the body is omitted. If g = 0, no
 generic attributes are transferred and RCPBODY shall be a zero-length
 item. If m = 0, no agent-specific datasets are transferred.
 
 SEMI E5-1000 © SEMI 1982, 2000193
-S15,F16 Recipe Store AcknowledgeM,H<->E
+S15,F16 Recipe Store AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge that the specified recipe has
 been stored as requested or to indicate the error(s).
 Structure:     L,2
-1. <RECPSECCODE>
+1. \<RECPSECCODE\>
 2. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
-S15,F17 Recipe Retrieve RequestS,H<->E, reply
+S15,F17 Recipe Retrieve RequestS,H\<-\>E, reply
 Description:   This message is used to get a recipe, or one or more recipe sections,
 from a recipe namespace.
 Structure:     L,2
-1. <RCPSPEC>
-2. <RCPSECCODE>
+1. \<RCPSPEC\>
+2. \<RCPSECCODE\>
 Exception:     None.
 
 SEMI E5-1000 © SEMI 1982, 2000194
-S15,F18 Recipe Retrieve DataM,H<->E
+S15,F18 Recipe Retrieve DataM,H\<-\>E
 Description:   This message is used to acknowledge that the specified recipe, or
 recipe sections, have been set as requested, or to indicate the
 error(s).
 Structure:     L,2
 1. L,q                (q = 1,2,3)
 1. L,r           (r = 0 or 2)
-1. <RCPSECNM>
+1. \<RCPSECNM\>
 2. L,g      (g = # generic attributes)
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 g. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 g
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 g
->
-2. <RCPBODY>
+\>
+2. \<RCPBODY\>
 3. L,m           (m = # agent-specific datasets)
 1. L,2
-1. <RCPSECNM
+1. \<RCPSECNM
 1
->
+\>
 2. L,a
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 11
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 11
->
+\>
 .
 .
 a. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1a
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1a
->
+\>
 .
 .
 m. L,2
-1. <RCPSECNM>
+1. \<RCPSECNM\>
 m
->
+\>
 2. L,b
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 m1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 m1
->
+\>
 .
 .
 b. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 mb
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 mb
->
+\>
 2. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERROCODE
+1. \<ERROCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If r = 0, no generic attributes are transferred and RCPBODY shall be
 a zero-length item. If m = 0, no agent-specific datasets are
 transferred. p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000195
-S15,F19 Recipe Rename RequestS,H<->E, reply
+S15,F19 Recipe Rename RequestS,H\<-\>E, reply
 Description:   This message is used to request that a recipe be copied to, or
 renamed to, a recipe with a new identifier.
 Structure:     L,3
-1. <RCPSPEC>
-2. <RCPRENAME>
-3. <RCPNEWID>
+1. \<RCPSPEC\>
+2. \<RCPRENAME\>
+3. \<RCPNEWID\>
 Exception:     None.
-S15,F20 Recipe Rename AcknowledgeM,H<->E
+S15,F20 Recipe Rename AcknowledgeM,H\<-\>E
 Description:   This message acknowledges the request to copy or rename a recipe and
 indicates whether the action was successfully performed or errors
 that occurred.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
-S15,F21 Recipe Action RequestM,H<->E, reply
+S15,F21 Recipe Action RequestM,H\<-\>E, reply
 Description:   This message is used to acknowledge the request to perform an action
 on one or more recipes within a namespace.
 Structure:     L,6
-1. <DATAID>
-2. <RCPCMD>
-3. <RMNSSPEC>
-4. <OPID>
-5. <AGENT>
+1. \<DATAID\>
+2. \<RCPCMD\>
+3. \<RMNSSPEC\>
+4. \<OPID\>
+5. \<AGENT\>
 6. L,n
-1. <RCPID
+1. \<RCPID
 1
->
+\>
 .
 .
-n. <RCPID
+n. \<RCPID
 n
->
+\>
 Exception:   AGENT may be a zero-length item except for requests for certify,
 de-certify, download, and upload.
 
 SEMI E5-1000 © SEMI 1982, 2000196
-S15,F22 Recipe Action AcknowledgeM,H<->E
+S15,F22 Recipe Action AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge the request to originate a new
 recipe.
 Structure:     L,4
-1. <AGENT>
-2. <LINKID>
-3. <RCPCMD>
+1. \<AGENT\>
+2. \<LINKID\>
+3. \<RCPCMD\>
 4. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:   LINKID is zero if and only if all requested actions have been
 completed. p = 0 if and only if RMACK indicates no errors.
-S15,F23 Recipe Descriptor RequestM,H<->E, reply
+S15,F23 Recipe Descriptor RequestM,H\<-\>E, reply
 Description:   This message is used to request the descriptors of a list of the
 specified recipes. If multi-block, it must be preceded by the
 S15,F1/F2 inquire/grant transaction. OBJSPEC is the object specifier
 of either a recipe namespace of a recipe executor.
 Structure:   L,3
-1. <DATAID>
-2. <OBJSPEC>
+1. \<DATAID\>
+2. \<OBJSPEC\>
 3. L,n
-1. <RCPID
+1. \<RCPID
 1
->
+\>
 .
 .
-n. <RCPID
+n. \<RCPID
 n
->
+\>
 Exception:   None.
 
 SEMI E5-1000 © SEMI 1982, 2000197
-S15,F24 Recipe Descriptor DataM,H<->E
+S15,F24 Recipe Descriptor DataM,H\<-\>E
 Description:   This message returns the requested descriptors in the same order as
 requested.
 Structure:     L,2
 1. L,n                (n = number of recipes from request)
 1. L,a           (descriptors for recipe #1)
 1. L,r      (r = 0 or 3) (1st component descriptor)
-1. <RCPDESCNM
+1. \<RCPDESCNM
 11
->
-2. <RCPDESCTIME
+\>
+2. \<RCPDESCTIME
 11
->
-3. <RCPDESCLTH
+\>
+3. \<RCPDESCLTH
 11
->
+\>
 .
 .
 a. L,r      (r = 0 or 3)
-1. <RCPDESCNM
+1. \<RCPDESCNM
 1a
->
-2. <RCPDESCTIME
+\>
+2. \<RCPDESCTIME
 1a
->
-3. <RCPDESCLTH
+\>
+3. \<RCPDESCLTH
 1a
->
+\>
 .
 .
 n. L,b           (descriptors for recipe #n)
 1. L,r      (r = 0 or 3) (1st component descriptor)
-1. <RCPDESCNM
+1. \<RCPDESCNM
 n1
->
-2. <RCPDESCTIME
+\>
+2. \<RCPDESCTIME
 n1
->
-3. <RCPDESCLTH
+\>
+3. \<RCPDESCLTH
 n1
->
+\>
 .
 .
 b. L,r      (r = 0 or 3)
-1. <RCPDESCNM
+1. \<RCPDESCNM
 nb
->
-2. <RCPDESCTIME
+\>
+2. \<RCPDESCTIME
 nb
->
-3. <RCPDESCLTH
+\>
+3. \<RCPDESCLTH
 nb
->
+\>
 2. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:   A zero-length recipe descriptor (r = 0) means that the specified
 recipe does not exist (could not be located). p = 0 if and only if
 RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000198
-S15,F25 Recipe Parameter Update RequestM,H<->E, reply
+S15,F25 Recipe Parameter Update RequestM,H\<-\>E, reply
 Description:   This message is used to update the variable parameter definitions
 for a specific agent. If multi-block, it must be preceded by the
 S15,F1/F2 inquire/grant transaction.
 Structure:     L,4
-1. <DATAID>
-2. <RMNSSPEC>
-3. <AGENT>
+1. \<DATAID\>
+2. \<RMNSSPEC\>
+3. \<AGENT\>
 4. L,n
 1. L,3
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
-3. <RCPPARRULE
+\>
+3. \<RCPPARRULE
 1
->
+\>
 .
 .
 n. L,3
-1. <RCPPARNM
+1. \<RCPPARNM
 n
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 n
->
-3. <RCPPARRULE
+\>
+3. \<RCPPARRULE
 n
->
+\>
 Exception:     None.
-S15,F26 Recipe Parameter Update AcknowledgeM, H<->E
+S15,F26 Recipe Parameter Update AcknowledgeM, H\<-\>E
 Description:   This message indicates the successful performance of the request or
 otherwise indicates the nature of error(s) that occurred.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:   p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000199
-S15,F27 Recipe Download RequestM,H->E,reply
+S15,F27 Recipe Download RequestM,H-\>E,reply
 Description:   This message is used to send a recipe to a recipe executor. If multi-
 block, it shall be preceded by the S15,F1/S15,F2 inquire/grant
 transaction.
 Structure:     L,5
-1. <DATAID>
-2. <RCPOWCODE>
-3. <RCPSPEC>
+1. \<DATAID\>
+2. \<RCPOWCODE\>
+3. \<RCPSPEC\>
 4. L,m
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 m. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 m
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 m
->
-5. <RCPBODY>
+\>
+5. \<RCPBODY\>
 Exception:     None.
-S15,F28 Recipe Download AcknowledgeM,H<-E
+S15,F28 Recipe Download AcknowledgeM,H\<-E
 Description:   This message is used to acknowledge that a recipe has been received
 by the recipe executor. If the recipe was successfully verified, the
 results are returned to the sender. RCPID contains the identifier of
 a derived object form recipe if created during verification.
 Structure:     L,3
-1. <RCPID>
+1. \<RCPID\>
 2. L,n (n = # of attributes)
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 n
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 n
->
+\>
 3. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If item is a zero length item, no derived object form recipe was
 originated. n = 0 if and only if the recipe was not verified or
 failed verification. p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000200
-S15,F29 Recipe Verify RequestM,H->E, reply
+S15,F29 Recipe Verify RequestM,H-\>E, reply
 Description:   This message is used to request verification of one or more recipes
 by a recipe executor. If multi-block, it shall be preceded by the
 S15F1, F2 inquire/grant transaction. The operation identifier OPID,
@@ -10103,23 +10103,23 @@ current verification requests are completed by the recipe executor.
 Otherwise, OPID is generated to be unique for the requestor. RESPEC
 is the object specifier for the recipe executor.
 Structure:     L,4
-1. <DATAID>
-2. <OPID>
-3. <RESPEC>
+1. \<DATAID\>
+2. \<OPID\>
+3. \<RESPEC\>
 4. L,m
-1. <RCPID
+1. \<RCPID
 1
->
+\>
 .
 .
-m. <RCPID
+m. \<RCPID
 m
->
+\>
 Exception:     If RESPEC is a zero length item, the target is the recipient of the
 message.
 
 SEMI E5-1000 © SEMI 1982, 2000201
-S15,F30 Recipe Verify AcknowledgeM,H<-E
+S15,F30 Recipe Verify AcknowledgeM,H\<-E
 Description:   This message is used to acknowledge the request to verify one or
 more recipes. If a single recipe verification was requested and the
 recipe was successfully verified, the results are returned to the
@@ -10128,446 +10128,446 @@ derived object form recipe if created during verification. If
 multiple recipe verifications were requested, then LINKID shall be
 non-zero.
 Structure:     L,5
-1. <OPID>
-2. <LINKID>
-3. <RCPID>
+1. \<OPID\>
+2. \<LINKID\>
+3. \<RCPID\>
 4. L,n (n = # attributes)
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 n. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 n
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 n
->
+\>
 5. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     LINKID is zero if and only if a single recipe verification was
 requested and has been completed. If item 3 is zero length item, no
 derived object form recipe was originated. n = 0 if and only if the
 recipe was not verified or failed verification. p = 0 if and only if
 RMACK indicates no errors.
-S15,F31 Recipe Upload RequestS,H->E,reply
+S15,F31 Recipe Upload RequestS,H-\>E,reply
 Description:   This message is used to request an execution recipe from a recipe
 executor.
-Structure:     <RCPSPEC>
+Structure:     \<RCPSPEC\>
 Exception:     None.
 
 SEMI E5-1000 © SEMI 1982, 2000202
-S15,F32 Recipe Upload DataM,H<-E
+S15,F32 Recipe Upload DataM,H\<-E
 Description:   This message is used to send an execution recipe from a recipe
 executor.
 Structure:     L,4
-1. <RCPSPEC>
+1. \<RCPSPEC\>
 2. L,m (m = # attributes)
 1. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 1
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 1
->
+\>
 .
 .
 m. L,2
-1. <RCPATTRID
+1. \<RCPATTRID
 m
->
-2. <RCPATTRDATA
+\>
+2. \<RCPATTRDATA
 m
->
-3. <RCPBODY>
+\>
+3. \<RCPBODY\>
 4. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000203
-S15,F33 Recipe Select RequestM,H->E,reply
+S15,F33 Recipe Select RequestM,H-\>E,reply
 Description:   This message is used to request the selection of one or more
 execution recipes. If multi-block, it shall be preceded by the
 S15,F1/S15,F2 inquire/grant transaction.
 Structure:     L,3
-1. <DATAID>
-2. <RESPEC>
+1. \<DATAID\>
+2. \<RESPEC\>
 3. L,r            (r = # selections)
 1. L,2
-1. <RCPID
+1. \<RCPID
 1
-> (1st recipe selection)
+\> (1st recipe selection)
 2. L,p      (p = # parameter settings for 1st recipe)
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 11
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 11
->
+\>
 .
 .
 p. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1p
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1p
->
+\>
 .
 .
 r. L,2
-1. <RCPID
+1. \<RCPID
 r
-> (rth recipe selection)
+\> (rth recipe selection)
 2. L,s      (s = # parameter settings for rth recipe)
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 r1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 r1
->
+\>
 .
 .
 s. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 rs
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 rs
->
+\>
 Exception:     If the list of parameter settings for a recipe selection is of zero
 length, then no parameter settings are specified for the
 corresponding recipe.
-S15,F34 Recipe Select AcknowledgeM,H<-E
+S15,F34 Recipe Select AcknowledgeM,H\<-E
 Description:   This message is used to acknowledge the request for recipe
 selection.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000204
-S15,F35 Recipe Delete RequestM,H->E,reply
+S15,F35 Recipe Delete RequestM,H-\>E,reply
 Description:   This message is used to request that one or more recipes be deleted
 or deselected. If multi-block, it shall be preceded by the S15,F1/
 S15,F2 inquire/grant transaction.
 Structure:     L,4
-1. <DATAID>
-2. <RESPEC>
-3. <RCPDEL>
+1. \<DATAID\>
+2. \<RESPEC\>
+3. \<RCPDEL\>
 4. L,n (n = # recipes deselected)
-1. <RCPID
+1. \<RCPID
 1
->
+\>
 .
 .
-n. <RCPID
+n. \<RCPID
 n
->
+\>
 Exception:     If n = 0 and recipes are to be deselected (RCPDEL = 1), then all
 currently-selected recipes are indicated.
-S15,F36 Recipe Delete AcknowledgeM,H<-E
+S15,F36 Recipe Delete AcknowledgeM,H\<-E
 Description:   This message is used to acknowledge the request that recipes be
 deleted or deselected.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
-S15,F37 DRNS Segment Approve Action RequestS,H<->E,reply
+S15,F37 DRNS Segment Approve Action RequestS,H\<-\>E,reply
 Description:   This message is sent by a distributed recipe namespace manager to an
 attached distributed recipe namespace segment to approve an action
 previously requested by the segment. If multi-block, it shall be
 preceded by the S15,F1/S15,F2 inquire/grant transaction.
 Structure:     L,6
-1. <RMSEGSPEC>
-2. <OBJTOKEN>
-3. <RMGRNT>
-4. <OPID>
-5. <RCPID>
-6. <RMCHGTYPE>
+1. \<RMSEGSPEC\>
+2. \<OBJTOKEN\>
+3. \<RMGRNT\>
+4. \<OPID\>
+5. \<RCPID\>
+6. \<RMCHGTYPE\>
 Exception:   None.
 
 SEMI E5-1000 © SEMI 1982, 2000205
-S15,F38 DRNS Segment Approve Action AcknowledgeM,H<->E
+S15,F38 DRNS Segment Approve Action AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge or deny the approve action
 request.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:   p = 0 if and only if RMACK indicates no errors.
-S15,F39 DRNS Recorder Segment RequestM,H<->E,reply
+S15,F39 DRNS Recorder Segment RequestM,H\<-\>E,reply
 Description:   This message is used by the distributed recipe namespace manager to
 request that an attached recorder create or delete a segment
 specifier record. If multi-block, it shall be preceded by the S15,F1/
 S15,F2 inquire/grant transaction.
 Structure:     L,5
-1. <DATAID>
-2. <RMNSCMD>
-3. <RMRECSPEC>
-4. <RMSEGSPEC>
-5. <OBJTOKEN>
+1. \<DATAID\>
+2. \<RMNSCMD\>
+3. \<RMRECSPEC\>
+4. \<RMSEGSPEC\>
+5. \<OBJTOKEN\>
 Exception:   None.
-S15,F40 DRNS Recorder Segment AcknowledgeM,H<->E
+S15,F40 DRNS Recorder Segment AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge the request to add or delete a
 segment specifier record.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000206
-S15,F41 DRNS Recorder Modify RequestM,H<->E,reply
+S15,F41 DRNS Recorder Modify RequestM,H\<-\>E,reply
 Description:   This message is used by a distributed recipe namespace manager to
 a recorder to store or delete a change request record. If multi-
 block, it shall be preceded by the S15,F1/F2 inquire/grant
 transaction.
 Structure:     L,5
-1. <DATAID>
-2. <RMRECSPEC>
-3. <OBJTOKEN>
-4. <RMNSCMD>
+1. \<DATAID\>
+2. \<RMRECSPEC\>
+3. \<OBJTOKEN\>
+4. \<RMNSCMD\>
 5. L,c      (c = 1 or 7)
-1. <RCPID>
-2. <RCPNEWID>
-3. <RMSEGSPEC>
-4. <RMCHGTYPE>
-5. <OPID>
-6. <TIMESTAMP>
-7. <RMREQUESTOR>
+1. \<RCPID\>
+2. \<RCPNEWID\>
+3. \<RMSEGSPEC\>
+4. \<RMCHGTYPE\>
+5. \<OPID\>
+6. \<TIMESTAMP\>
+7. \<RMREQUESTOR\>
 Exception:     If RMNSCMD = create, then c = 7, otherwise c = 1.
-S15,F42 DRNS Recorder Modify AcknowledgeM,H<->E
+S15,F42 DRNS Recorder Modify AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge a request to store or delete a
 change request.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     p = 0 if and only if RMACK indicates no errors.
-S15,F43 DRNS Get Change RequestM,H<->E,reply
+S15,F43 DRNS Get Change RequestM,H\<-\>E,reply
 Description:   This message is used to request a distributed recipe namespace
 recorder or manager to return change requests records for a specific
 recipe or assigned to a specific segment. If multi-block, it shall be
 preceded by the S15,F1/F2 inquire/grant transaction.
 Structure:     L,3
-1. <DATAID>
-2. <OBJSPEC>
-3. <TARGETSPEC>
+1. \<DATAID\>
+2. \<OBJSPEC\>
+3. \<TARGETSPEC\>
 Exception:     If TARGETSPEC is omitted, OBJSPEC identifies a recipe.
 
 SEMI E5-1000 © SEMI 1982, 2000207
-S15,F44 DRNS Get Change Request DataM,H<->E
+S15,F44 DRNS Get Change Request DataM,H\<-\>E
 Description:   This message is used to return the specified change request records.
 Structure:     L,2
 1. L,n      n = # change requests
 1. L,7
-1. <RCPID
+1. \<RCPID
 1
->
-2. <RCPNEWID
+\>
+2. \<RCPNEWID
 1
->
-3. <RMSEGSPEC
+\>
+3. \<RMSEGSPEC
 1
->
-4. <RMCHGTYPE
+\>
+4. \<RMCHGTYPE
 1
->
-5. <OPID
+\>
+5. \<OPID
 1
->
-6. <TIMESTAMP
+\>
+6. \<TIMESTAMP
 1
->
-7. <RMREQUESTOR
+\>
+7. \<RMREQUESTOR
 1
->
+\>
 .
 .
 n. L,7
-1. <RCPID
+1. \<RCPID
 n
->
-2. <RCPNEWID
+\>
+2. \<RCPNEWID
 n
->
-3. <RMSEGSPEC
+\>
+3. \<RMSEGSPEC
 n
->
-4. <RMCHGTYPE
+\>
+4. \<RMCHGTYPE
 n
->
-5. <OPID
+\>
+5. \<OPID
 n
->
-6. <TIMESTAMP
+\>
+6. \<TIMESTAMP
 n
->
-7. <RMREQUESTOR
+\>
+7. \<RMREQUESTOR
 n
->
+\>
 2. L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,p
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:     If n = 0, no change records were found matching the specification.
 p = 0 if and only if RMACK indicates no errors.
-S15,F45 DRNS Manager Segment Change Approval RequestM,H<->E,reply
+S15,F45 DRNS Manager Segment Change Approval RequestM,H\<-\>E,reply
 Description:   This message is sent to a distributed recipe namespace manager by an
 attached distributed recipe namespace segment to request approval
 for a specific type of change to a recipe. If multi-block, it shall
 be preceded by the S15,F1/F2 inquire/grant transaction.
 Structure:     L,4
-1. <DATAID>
-2. <RCPSPEC>
-3. <RCPNEWID>
-4. <RMCHGTYPE>
+1. \<DATAID\>
+2. \<RCPSPEC\>
+3. \<RCPNEWID\>
+4. \<RMCHGTYPE\>
 Exception:     RCPNEWID is a zero-length item except where RMCHGTYPE specifies a
 copy or rename change.
 
 SEMI E5-1000 © SEMI 1982, 2000208
-S15,F46 DRNS Manager Segment Approval AcknowledgeS,H<->E
+S15,F46 DRNS Manager Segment Approval AcknowledgeS,H\<-\>E
 Description:   This message is used to acknowledge the request to change a recipe.
 Structure:     L,3
-1. <RMCHGTYPE>
-2. <RMGRNT>
-3. <OPID>
+1. \<RMCHGTYPE\>
+2. \<RMGRNT\>
+3. \<OPID\>
 Exception:   OPID is zero if and only if RMGRNT indicates the change is denied.
-S15,F47 DRNS Manager Rebuild RequestM,H<->E, reply
+S15,F47 DRNS Manager Rebuild RequestM,H\<-\>E, reply
 Description:   This message requests a distributed recipe namespace manager speci-
 fied in OBJSPEC to rebuild a distributed recipe namespace. Either a
 distributed recipe namespace recorder or a list of distributed
@@ -10575,43 +10575,43 @@ recipe namespace segment specifiers shall be provided.If multi-
 block, it shall be preceded by the S15,F1/F2 inquire/grant
 transaction.
 Structure:     L,5
-1. <DATAID>
-2. <OBJSPEC>
-3. <RMNSSPEC>
-4. <RMRECSPEC>
+1. \<DATAID\>
+2. \<OBJSPEC\>
+3. \<RMNSSPEC\>
+4. \<RMRECSPEC\>
 5. L,n
-1. <RMSEGSPEC
+1. \<RMSEGSPEC
 1
->
+\>
 .
 .
-n. <RMSEGSPEC
+n. \<RMSEGSPEC
 n
->
+\>
 Exception:     If RMRECSPEC is a non-zero length item, then n is zero. If RMRECSPEC
 is a zero length item, then n is non-zero.
-S15,F48 DRNS Manager Rebuild AcknowledgeM,H<->E
+S15,F48 DRNS Manager Rebuild AcknowledgeM,H\<-\>E
 Description:   This message is used to acknowledge the request to rebuild a
 distributed recipe namespace.
 Structure:     L,2
-1. <RMACK>
+1. \<RMACK\>
 2. L,P
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 p. L,2
-1. <ERRCODE
+1. \<ERRCODE
 p
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 p
->
+\>
 Exception:   p = 0 if and only if RMACK indicates no errors.
 
 SEMI E5-1000 © SEMI 1982, 2000209
@@ -10627,143 +10627,143 @@ Job  ID  is  no  longer  valid.    The  control  job  is  used  to  group  a  se
 related from the hostís viewpoint.  For instance; if a carrier contains multiple lots, then the process jobs for each lot
 (in  the  carrier)  could  be  included  in  the  control  job  specification.    Control  jobs  also  provide  mechanisms  for
 specifying the destination for processed material.
-S16,F0 Abort Transaction (S16F0)S,H<->E
+S16,F0 Abort Transaction (S16F0)S,H\<-\>E
 Description:   Same form as S1F0.
-S16,F1 Multi-block Process Job Data Inquire (PRJI)S,H->E,reply
+S16,F1 Multi-block Process Job Data Inquire (PRJI)S,H-\>E,reply
 Description:   If any of Processing Management messages are larger than one block,
 then this transaction must precede that message.
 Structure:     L,2
-1. <DATAID>
-2. <DATALENGTH>
-S16,F2 Multi-block Process Job Data Grant (PRJG)S,H<-E
+1. \<DATAID\>
+2. \<DATALENGTH\>
+S16,F2 Multi-block Process Job Data Grant (PRJG)S,H\<-E
 Description:   Message to indicate if permission is granted to transmit a multi-
 block Job Data message.
-Structure:   <GRANT>
+Structure:   \<GRANT\>
 
 SEMI E5-1000 © SEMI 1982, 2000210
-S16,F3 Process Job Create Request (PRJCR)M,H->E,reply
+S16,F3 Process Job Create Request (PRJCR)M,H-\>E,reply
 Description:   The purpose of this message is to request material to be processed
 on a Process Module.
 Structure:     L,5
-1. <DATAID>
-2. <MF>
+1. \<DATAID\>
+2. \<MF\>
 3. L,n
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-n. <MID
+n. \<MID
 n
->
+\>
 4. L,3
-1. <PRRECIPEMETHOD>
-2. <RCPSPEC>
+1. \<PRRECIPEMETHOD\>
+2. \<RCPSPEC\>
 3. L,m (m = {c,2})
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
+\>
 .
 .
 .
 m. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 m
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 m
->
-5. <PRPROCESSSTART>
+\>
+5. \<PRPROCESSSTART\>
 Exception:     For the m length list m = 0 may be allowed value depending on
 the value of PRRECIPEMETHOD.
-S16,F4 Process Job Create Acknowledge (PRJCA)S,H<-E
+S16,F4 Process Job Create Acknowledge (PRJCA)S,H\<-E
 Description:   Acknowledge or report error in the creation of a Process Job.
 Structure:     L,2
-1. <PRJOBID>
+1. \<PRJOBID\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     This list may be zero length, generally the case when ACKA indicates
 success. When ACKA indicates a create failure, the equipment
 may supply one or more ERRCODE’s.
 
 SEMI E5-1000 © SEMI 1982, 2000211
-S16,F5 Process Job Command Request (PRJCMDR)M,H->E,reply
+S16,F5 Process Job Command Request (PRJCMDR)M,H-\>E,reply
 Description:   Send a job control command to a processing job.
 Structure:     L,4
-1. <DATAID>
-2. <PRJOBID>
-3. <PRCMDNAME>
+1. \<DATAID\>
+2. \<PRJOBID\>
+3. \<PRCMDNAME\>
 4. L,n
 1. L,2
-1. <CPNAME
+1. \<CPNAME
 1
->
-2. <CPVAL
+\>
+2. \<CPVAL
 1
->
+\>
 .
 .
 .
 n. L,2
-1. <CPNAME
+1. \<CPNAME
 n
->
-2. <CPVAL
+\>
+2. \<CPVAL
 n
->
+\>
 Exception:      The CPNAME, CPVAL pairs are command parameter identifiers and
 values; n = 0 is valid for some commands (PRCMDNAME).
-S16,F6 Process Job Command Acknowledge (PRJCMDA)S,H<-E
+S16,F6 Process Job Command Acknowledge (PRJCMDA)S,H\<-E
 Description:   The processing service sends its confirmation for receipt of a
 command request.
 Structure:      L,2
-1. <PRJOBID>
+1. \<PRJOBID\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n          (n = {0,n})
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     This list n may be zero length.
 
 SEMI E5-1000 © SEMI 1982, 2000212
-S16,F7 Process Job Alert Notify (PRJA)S,H<-E,[reply]
+S16,F7 Process Job Alert Notify (PRJA)S,H\<-E,[reply]
 Description:   The processing service may notify the controlling entity of
 important events. The Process Job Milestones only assume small
 number of different values. However, the conditions under which a
@@ -10772,837 +10772,837 @@ Job may reach Job Complete because the Process was Aborted. By using
 item 4, the status of the Alert (PRJOBMILESTONE) can be indicated.
 See the list of Error Codes for Processing in Data Item Dictionary.
 Structure:     L,4
-1. <TIMESTAMP>
-2. <PRJOBID>
-3. <PRJOBMILESTONE>
+1. \<TIMESTAMP\>
+2. \<PRJOBID\>
+3. \<PRJOBMILESTONE\>
 4. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n           (n = {0,n})
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:      The list n may be zero length.
-S16,F8 Process Job Alert Confirm (PRJAC)S,H->E
+S16,F8 Process Job Alert Confirm (PRJAC)S,H-\>E
 Description:   Host confirms receipt of Process Job Alert message from the
 equipment.
 Structure:     Header only
-S16,F9 Process Job Event Notify (PRJE)S,H<-E,[reply]
+S16,F9 Process Job Event Notify (PRJE)S,H\<-E,[reply]
 Description:   Send Processing Job related event to the controlling entity.
 Structure:     L,4
-1. <PREVENTID>
-2. <TIMESTAMP>
-3. <PRJOBID>
+1. \<PREVENTID\>
+2. \<TIMESTAMP\>
+3. \<PRJOBID\>
 4. L,n
 1. L,2
-1. <VID
+1. \<VID
 1
->
-2. <V
+\>
+2. \<V
 1
->
+\>
 .
 .
 .
 n. L,2
-1. <VID
+1. \<VID
 n
->
-2. <V
+\>
+2. \<V
 n
->
+\>
 Exception:     The VID, V pairs are variable data identifiers and values; exceptions
 n = 0 is valid for some events (PREVENTID).
 
 SEMI E5-1000 © SEMI 1982, 2000213
-S16,F10 Process Job Event Confirm (PRJEC)S,H->E
+S16,F10 Process Job Event Confirm (PRJEC)S,H-\>E
 Description:   Host confirms receipt of S16,F9 message to equipment.
 Structure:     Header only.
-S16,F11 PRJobCreateEnhM,H->E,reply
+S16,F11 PRJobCreateEnhM,H-\>E,reply
 Description:   Request equipment to create a Process Job with the given PRJOBID. If
 multi-block, this message must be preceded by the S16,F1/F2
 transaction.
 Structure:     L,7
-1. <DATAID>
-2. <PRJOBID>
-3. <MF>
+1. \<DATAID\>
+2. \<PRJOBID\>
+3. \<MF\>
 4a. L,n                   [MF = carrier, n = # of carriers]
 1. L,2
-1. <CARRIERID
+1. \<CARRIERID
 1
->
+\>
 2. L,j         [j = # of slots, may be implemented as an
 array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 .
 .
 n. L,2
-1. <CARRIERID
+1. \<CARRIERID
 n
->
+\>
 2. L,j         [j = # of slots, may be implemented as an
 array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 4b. L,n                   [MF = substrate]
-1. <MID
+1. \<MID
 1
->
+\>
 .
 .
-n. <MID
+n. \<MID
 n
->
+\>
 5.  L,3
-1. <PRRECIPEMETHOD>
-2. <RCPSPEC>
+1. \<PRRECIPEMETHOD\>
+2. \<RCPSPEC\>
 3. L,m              [m = # recipe parameters]
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
+\>
 .
 m. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 m
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 m
->
-6. <PRPROCESSSTART>
-7. <PRPAUSEEVENT>
+\>
+6. \<PRPROCESSSTART\>
+7. \<PRPAUSEEVENT\>
 Exception:     The list for specifying material (item 4a and 4b) is empty (L,0
 instead of L,n), when no material is specified for the process job.
 The form of data item 4(a or b) depends on the value in MF.
 
 SEMI E5-1000 © SEMI 1982, 2000214
-S16,F12 PRJobCreateEnh AcknowledgeS,H<-E
+S16,F12 PRJobCreateEnh AcknowledgeS,H\<-E
 Description:   This message acknowledges the request and reports any errors in the
 creation of a process job.
 Structure:     L,2
-1. <PRJOBID>
+1. \<PRJOBID\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If n = 0, no errors exist.
-S16,F13 PRJobDuplicateCreateM,H->E,reply
+S16,F13 PRJobDuplicateCreateM,H-\>E,reply
 Description:   This function creates multiple process jobs.  The same recipe and
 value of PRProcessStart are applied to each process job created. If
 multi-block, this message must be preceded by the S16,F1/F2
 transaction.
 Structure:     L,5
-1. <DATAID>
+1. \<DATAID\>
 2. L,p                    [p = # of process jobs being created]
 1. L,3
-1. <PRJOBID
+1. \<PRJOBID
 1
->
-2. <MF
+\>
+2. \<MF
 1
->
+\>
 3a. L,n         [MF = carrier, n = # of carriers]
 1. L,2
-1. <CARRIERID
+1. \<CARRIERID
 1
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 .
 .
 n. L,2
-1. <CARRIERID
+1. \<CARRIERID
 n
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 3b. L,n             [MF = substrate, n = # of MID]
-1. <MID
+1. \<MID
 1
->
+\>
 .
-n. <MID
+n. \<MID
 n
->
+\>
 .
 .
 
 SEMI E5-1000 © SEMI 1982, 2000215
 p. L,3
-1. <PRJOBID
+1. \<PRJOBID
 p
->
-2. <MF
+\>
+2. \<MF
 p
->
+\>
 3a. L,n             [MF = carrier, n = # of carriers]
 1. L,2
-1. <CARRIERID
+1. \<CARRIERID
 1
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 .
 .
 n. L,2
-1. <CARRIERID
+1. \<CARRIERID
 n
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 3b. L,n             [MF = substrate, n = # of MID]
-1. <MID
+1. \<MID
 1
->
+\>
 .
-n. <MID
+n. \<MID
 n
->
+\>
 3. L,3
-1. <PRRECIPEMETHOD>
-2. <RCPSPEC>
+1. \<PRRECIPEMETHOD\>
+2. \<RCPSPEC\>
 3. L,m                   [m = # recipe parameters]
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
+\>
 .
 m. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 m
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 m
->
-4. <PRPROCESSSTART>
-5. <PRPAUSEEVENT>
+\>
+4. \<PRPROCESSSTART\>
+5. \<PRPAUSEEVENT\>
 Exception:     The list for specifying material (item 3a and 3b) is empty (L,0
 instead of L,n), when no material is specified for the process job.
 The form of data item 3(a or b) depends on the value in MF.
 
 SEMI E5-1000 © SEMI 1982, 2000216
-S16,F14 PRJobDuplicateCreate AcknowledgeS,H<-E
+S16,F14 PRJobDuplicateCreate AcknowledgeS,H\<-E
 Description:   This message acknowledges the request and reports any errors in the
 creation of a process job. ERRTEXT contains the identifier of process
 jobs that were not created.
 Structure:     L,2
 1. L,m                        [m = # of jobs created]
-1. <PRJOBID
+1. \<PRJOBID
 1
->
+\>
 .
-m. <PRJOBID
+m. \<PRJOBID
 m
->
+\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If n = 0, no errors exist.
-S16,F15 PRJobMultiCreateM,H->E,reply
+S16,F15 PRJobMultiCreateM,H-\>E,reply
 Description:   Use this single message to Create Multiple Process Jobs, each of
 which may be unique in its association of material to process
 recipe. If multi-block, this message must be preceded by the
 S16,F1/F2 transaction.
 Structure:     L,2
-1. <DATAID>
+1. \<DATAID\>
 2. L,p                        [p = # of process jobs being created]
 1. L,6
-1. <PRJOBID
+1. \<PRJOBID
 1
->
-2. <MF
+\>
+2. \<MF
 1
->
+\>
 3a. L,n             [MF = carrier, n = # of carriers]
 1. L,2
-1. <CARRIERID
+1. \<CARRIERID
 1
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 .
 .
 n. L,2
-1. <CARRIERID
+1. \<CARRIERID
 n
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000217
 3b. L,n             [MF = substrate, n = # of MID]
-1. <MID
+1. \<MID
 1
->
+\>
 .
-n. <MID
+n. \<MID
 n
->
+\>
 4. L,3
-1. <PRRECIPEMETHOD
+1. \<PRRECIPEMETHOD
 1
->
-2. <RCPSPEC
+\>
+2. \<RCPSPEC
 1
->
+\>
 3. L,m         [m = # recipe parameters]
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
+\>
 .
 m. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 m
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 m
->
-5. <PRPROCESSSTART
+\>
+5. \<PRPROCESSSTART
 1
->
-6. <PRPAUSEEVENT
+\>
+6. \<PRPAUSEEVENT
 1
->
+\>
 .
 .
 p. L,6
-1. <PRJOBID
+1. \<PRJOBID
 p
->
-2. <MF
+\>
+2. \<MF
 p
->
+\>
 3a. L,n             [MF = carrier, n = # of carriers]
 1. L,2
-1. <CARRIERID
+1. \<CARRIERID
 1
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 .
 .
 n. L,2
-1. <CARRIERID
+1. \<CARRIERID
 n
->
+\>
 2. L,j   [j = # of slots, may be implemented
 as an array]
-1. <SLOTID
+1. \<SLOTID
 1
->
-2. <SLOTID
+\>
+2. \<SLOTID
 2
->
+\>
 .
-j. <SLOTID
+j. \<SLOTID
 j
->
+\>
 3b. L,n             [MF = substrate, n = # of MID]
-1. <MID
+1. \<MID
 1
->
+\>
 .
-n. <MID
+n. \<MID
 n
->
+\>
 4. L,3
-1. <PRRECIPEMETHOD
+1. \<PRRECIPEMETHOD
 p
->
-2. <RCPSPEC
+\>
+2. \<RCPSPEC
 p
->
+\>
 3. L,m         [m = # recipe parameters]
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
+\>
 .
 m. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 m
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 m
->
-5. <PRPROCESSSTART
+\>
+5. \<PRPROCESSSTART
 p
->
-6. <PRPAUSEEVENT
+\>
+6. \<PRPAUSEEVENT
 p
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000218
 Exception:     The list for specifying material (item 3a and 3b) is empty (L,0
 instead of L,n), when no material is specified for the process job.
 The form of data item 3(a or b) depends on the value in MF.
-S16,F16 PRJobMultiCreate AcknowledgeS,H<-E
+S16,F16 PRJobMultiCreate AcknowledgeS,H\<-E
 Description:   This message acknowledges the request and reports any errors in the
 creation of a process job. ERRTEXT contains the identifier of process
 jobs that were not created.
 Structure:     L,2
 1. L,m                        [m = # jobs created]
-1. <PRJOBID
+1. \<PRJOBID
 1
->
+\>
 .
-m. <PRJOBID
+m. \<PRJOBID
 m
->
+\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If n = 0, no errors exist.
-S16,F17 PRJobDequeueS,H->E,reply
+S16,F17 PRJobDequeueS,H-\>E,reply
 Description:   Used to remove process jobs from the equipment for jobs that have not
 begun processing.
 Structure:     L,m                             [m = # jobs to remove]
-1. <PRJOBID
+1. \<PRJOBID
 1
->
+\>
 .
-m. <PRJOBID
+m. \<PRJOBID
 m
->
+\>
 Exception:     If m = 0, then de-queue all.
 
 SEMI E5-1000 © SEMI 1982, 2000219
-S16,F18 PRJobDequeue AcknowledgeS,H<-E
+S16,F18 PRJobDequeue AcknowledgeS,H\<-E
 Description:   Acknowledge the request to de-queue and report any errors.  ERRTEXT
 will contain the identifier of any jobs that were not de-queued.
 Structure:     L,2
 1. L,m                        [m = # jobs removed]
-1. <PRJOBID
+1. \<PRJOBID
 1
->
+\>
 .
-m. <PRJOBID
+m. \<PRJOBID
 m
->
+\>
 2. L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:     If n = 0, no errors exist.
-S16,F19 PRGetAllJobsS,H->E
+S16,F19 PRGetAllJobsS,H-\>E
 Description:   Requests the equipment to return a list of process jobs which have
 not completed.  They may be running or waiting to run.
 Structure:     header only
-S16,F20 PRGetAllJobs SendS,H<-E
+S16,F20 PRGetAllJobs SendS,H\<-E
 Description:   Returns the requested list of process jobs.
 Structure:     L,m                             [m = # jobs in the list]
 1. L,2
-1. <PRJOBID
+1. \<PRJOBID
 1
->
-2. <PRSTATE
+\>
+2. \<PRSTATE
 1
->
+\>
 .
 m. L,2
-1. <PRJOBID
+1. \<PRJOBID
 m
->
-2. <PRSTATE
+\>
+2. \<PRSTATE
 m
->
+\>
 Exception:     If m = 0, then no process jobs are running or waiting to run.
-S16,F21 PRGetSpaceS,H->E
+S16,F21 PRGetSpaceS,H-\>E
 Description:   Requests the equipment to return the number of process jobs it has
 space to create.
 Structure:     header only
 
 SEMI E5-1000 © SEMI 1982, 2000220
-S16,F22 PRGetSpace SendS,H<-E
+S16,F22 PRGetSpace SendS,H\<-E
 Description:   Sends the host the number of process jobs which can be created.
-Structure:     <PRJOBSPACE>
-S16,F23 PRJobSetRecipeVariableS,H->E
+Structure:     \<PRJOBSPACE\>
+S16,F23 PRJobSetRecipeVariableS,H-\>E
 Description:   Reset the value of recipe variable parameters for a specific process
 job.
 Structure:     L,2
-1. <PRJOBID>
+1. \<PRJOBID\>
 2. L,m                        [m = # recipe variables]
 1. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 1
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 1
->
+\>
 .
 .
 m. L,2
-1. <RCPPARNM
+1. \<RCPPARNM
 m
->
-2. <RCPPARVAL
+\>
+2. \<RCPPARVAL
 m
->
-S16,F24 PRJobSetRecipeVariable AcknowledgeS,H<-E
+\>
+S16,F24 PRJobSetRecipeVariable AcknowledgeS,H\<-E
 Description:   Indicate the status of the request to set recipe variables.  ERRTEXT
 will contain the RCPPARNM value for parameters that could not be
 reset.
 Structure:     L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
+\>
 Exception:    If n = 0, no errors exist.
-S16,F25 PRJobSetStartMethodS,H->E
+S16,F25 PRJobSetStartMethodS,H-\>E
 Description:   Used to request to change the start method (USERSTART or AUTO) for
 one or more process jobs.
 Structure:     L,2
 1. L,m                        [m = # of jobs]
-1. <PRJOBID
+1. \<PRJOBID
 1
->
+\>
 .
 .
-m. <PRJOBID
+m. \<PRJOBID
 m
->
-2. <PRPROCESSSTART>
+\>
+2. \<PRPROCESSSTART\>
 
 SEMI E5-1000 © SEMI 1982, 2000221
-S16,F26 PRJobSetStartMethod AcknowledgeS,H<-E
+S16,F26 PRJobSetStartMethod AcknowledgeS,H\<-E
 Description:   Acknowledges request to set job start method and indicates any
 errors.  ERRTEXT will contain the identifiers of any process jobs
 that did not accept the new process start method.
 Structure:     L,2
 1. L,m                        [m = # of jobs]
-1. <PRJOBID
+1. \<PRJOBID
 1
->
+\>
 .
-m. <PRJOBID
+m. \<PRJOBID
 m
->
+\>
 L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,n
 1. L,2
-1. <ERRCODE
+1. \<ERRCODE
 1
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 1
->
+\>
 .
 .
 n. L,2
-1. <ERRCODE
+1. \<ERRCODE
 n
->
-2. <ERRTEXT
+\>
+2. \<ERRTEXT
 n
->
-S16,F27 Control Job Command RequestS,H->E
+\>
+S16,F27 Control Job Command RequestS,H-\>E
 Description:   Send a control job command to a control job.
 Structure:     L,3
-1. <CTLJOBID>
-2. <CTLJOBCMD>
+1. \<CTLJOBID\>
+2. \<CTLJOBCMD\>
 3. L,2
-1. <CPNAME>
-2. <CPVAL>
+1. \<CPNAME\>
+2. \<CPVAL\>
 Exception:     3. L,2 IS L,0 for commands that do not need parameters.
-S16,F28 Control Job Command AcknowledgeS,H<-E
+S16,F28 Control Job Command AcknowledgeS,H\<-E
 Description:   Indicates success or failure of command request to a control job.  If
 applicable ERRTEXT shall contain information on specific command
 parameter names or values that caused the error.
 Structure:     L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,2
-1. <ERRCODE>
-2. <ERRTEXT>
+1. \<ERRCODE\>
+2. \<ERRTEXT\>
 Exception:     2. L,2 IS L,0 if no errors.
-S16,F29 PRSetMtrlOrder (PRJSMO)S,H -> E,reply
+S16,F29 PRSetMtrlOrder (PRJSMO)S,H -\> E,reply
 Description:   This message requests the equipment’s Processing Management Service
 to use a specific strategy for the order in which materials are
 processed.
-Structure:     <PRMTRLORDER>
+Structure:     \<PRMTRLORDER\>
 
 SEMI E5-1000 © SEMI 1982, 2000222
-S16,F30 PRSetMtrlOrder Acknowledge (PRJSMOA)S,H <- E
+S16,F30 PRSetMtrlOrder Acknowledge (PRJSMOA)S,H \<- E
 Description:   This message acknowledges the request for change to the material
 process strategy by reporting back the value requested, if correct.
-Structure:     <ACKA>
+Structure:     \<ACKA\>
 7. 21  Stream 17 Equipment Control  and  Diagnostics  ó This stream is a continuation of Stream 2.
-S17,F0 Abort Transaction (S17F0)S,H<->E
+S17,F0 Abort Transaction (S17F0)S,H\<-\>E
 Description:   Same form as S1F0.
-S17,F1 Data Report Create Request (DRC)M,H->E,reply
+S17,F1 Data Report Create Request (DRC)M,H-\>E,reply
 Description:   Create a Data Report definition. This function allows the
 referencing of a Data Source for the items (variables or attributes)
 specified in the data report.
 Structure:     L,4
-1. <DATAID>
-2. <RPTID>
-3. <DATASRC>
+1. \<DATAID\>
+2. \<RPTID\>
+3. \<DATASRC\>
 4. L,n
-1. <VID
+1. \<VID
 1
->
-2. <VID
+\>
+2. \<VID
 2
->
+\>
 .
 .
 .
-n. <VID
+n. \<VID
 n
->
+\>
 Exception:     DATAID is a zero length item when the request can be sent in a single
 block. If RPTID is a zero length item, then the equipment shall
 return a value in RPTID by which the host can then reference the
 report efinition. If RPTID has a value, then the equipment shall
 retain this value by which the host can then reference the report
 definition.
-S17,F2 Data Report Create Acknowledge (DRCA)S,H<-E
+S17,F2 Data Report Create Acknowledge (DRCA)S,H\<-E
 Description:   Equipment confirms creation of a Data Report and returns RPTID.
 Structure:     L,2
-1. <RPTID>
-2. <ERRCODE>
+1. \<RPTID\>
+2. \<ERRCODE\>
 Exception:     If ERRCODE is a zero length item, then no error occurred.
 
 SEMI E5-1000 © SEMI 1982, 2000223
-S17,F3 Data Report Delete Request (DRD)S,H->E,reply
+S17,F3 Data Report Delete Request (DRD)S,H-\>E,reply
 Description:   Delete one or more data reports. This shall cause those reports to
 be unlinked from any Event Reports to which they were linked. This
 shall cause the report to be excluded from any Trace Reports for in
 which it had originally been included.
 Structure:     L,n
-1. <RPTID
+1. \<RPTID
 1
->
-2. <RPTID
+\>
+2. \<RPTID
 2
->
+\>
 .
 .
 .
-n. <RPTID
+n. \<RPTID
 n
->
+\>
 Exception:     If this message is sent with a zero length list, then all reports
 shall be deleted.
-S17,F4 Data Report Delete Acknowledge (DRDA)S,H<-E
+S17,F4 Data Report Delete Acknowledge (DRDA)S,H\<-E
 Description:   Equipment confirms or indicates any errors on the request to delete
 Data Reports. All Data Reports which could be deleted shall be
 listed in the response and the associated error code shall be
 included in the list.
 Structure:     L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,m
 1. L,3
-1. <RPTID
+1. \<RPTID
 1
->
-2. <ERRCODE
+\>
+2. \<ERRCODE
 1
->
-3. <ERRTEXT
+\>
+3. \<ERRTEXT
 1
->
+\>
 .
 .
 m. L,3
-1. <RPTID
+1. \<RPTID
 m
->
-2. <ERRCODE
+\>
+2. \<ERRCODE
 m
->
-3. <ERRTEXT
+\>
+3. \<ERRTEXT
 m
->
+\>
 Exception:     If ACKA is TRUE, then no errors were encountered, meaning all report
 requests were completed successfully and a zero-length list (m = 0)
 shall be sent.
@@ -11610,191 +11610,191 @@ Exception:     If some reports could not be deleted, then their RPTID’s shall 
 given in a space separated list in ERRTEXT.
 
 SEMI E5-1000 © SEMI 1982, 2000224
-S17,F5 Trace Create Request (TRC)M,H->E,reply
+S17,F5 Trace Create Request (TRC)M,H-\>E,reply
 Description:   Establish a Trace Report definition.
 Structure:     L,6
-1. <DATAID>
-2. <TRID>
-3. <CEED>
+1. \<DATAID\>
+2. \<TRID\>
+3. \<CEED\>
 4. L,n
-1. <RPTID
+1. \<RPTID
 1
->
-2. <RPTID
+\>
+2. \<RPTID
 2
->
+\>
 .
 .
-n. <RPTID
+n. \<RPTID
 n
->
-5. <TRSPER>
+\>
+5. \<TRSPER\>
 6. L,m                (m = {0,8})
-1. <TOTSMP>
-2. <REPGSZ>
-3. <EVNTSRC>     (Defines source for start Event)
-4. <CEID>        (Defines ID of the start Event)
-5. <EVNTSRC>     (Defines source for stop Event)
-6. <CEID>        (Defines ID of the stop Event)
-7. <TRAUTOD>
-8. <RPTOC>
+1. \<TOTSMP\>
+2. \<REPGSZ\>
+3. \<EVNTSRC\>     (Defines source for start Event)
+4. \<CEID\>        (Defines ID of the start Event)
+5. \<EVNTSRC\>     (Defines source for stop Event)
+6. \<CEID\>        (Defines ID of the stop Event)
+7. \<TRAUTOD\>
+8. \<RPTOC\>
 Exception:     The list
 mcan be zero-length, or it can contain all eight data
 items.  Since specifying values for each item is optional, each of
 the eight items can be zero-length.  If the item is zero-length, the
 format of the item shall be the same format used in other instances
 of the S17,F5 message where the value is not zero-length.
-S17,F6 Trace Create Acknowledge (TRCA)S,H<-E
+S17,F6 Trace Create Acknowledge (TRCA)S,H\<-E
 Description:   Equipment confirms creation of an Event Report and returns a TRID.
 Structure:      L,2
-1. <TRID>
-2. <ERRCODE>
+1. \<TRID\>
+2. \<ERRCODE\>
 Exception:     If ERRCODE is a zero length item, then no error occurred.
-S17,F7 Trace Delete Request (TRD)S,H->E,reply
+S17,F7 Trace Delete Request (TRD)S,H-\>E,reply
 Description:   The host requests to delete one or more Trace Reports.
 Structure:     L,n
-1. <TRID
+1. \<TRID
 1
->
-2. <TRID
+\>
+2. \<TRID
 2
->
+\>
 .
 .
-n. <TRID
+n. \<TRID
 n
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000225
-S17,F8 Trace Delete Acknowledge (TRDA)S,H<-E
+S17,F8 Trace Delete Acknowledge (TRDA)S,H\<-E
 Description:   This message is required to inform the host when a Trace Report
 could not be deleted. This message does not need to be sent to
 confirm the successful deletion of a Trace Report. If the report is
 sent for a successfully deleted Trace Report, then the ERRCODE item
 length shall be set to zero.
 Structure:     L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,m
 1. L,3
-1. <TRID
+1. \<TRID
 1
->
-2. <ERRCODE
+\>
+2. \<ERRCODE
 1
->
-3. <ERRTEXT
+\>
+3. \<ERRTEXT
 1
->
+\>
 .
 .
 m. L,3
-1. <TRID
+1. \<TRID
 m
->
-2. <ERRCODE
+\>
+2. \<ERRCODE
 m
->
-3. <ERRTEXT
+\>
+3. \<ERRTEXT
 m
->
+\>
 Exception:     If ACKA is TRUE, then no errors were encountered, meaning all report
 requests were completed successfully and a zero-length list (m = 0)
 shall be sent.
 Exception:     If some reports could not be deleted, then their TRID’s shall be
 provided in a space separated list in ERRTEXT.
-S17,F9 Collection Event Link Request (CELR)M,H->E,reply
+S17,F9 Collection Event Link Request (CELR)M,H-\>E,reply
 Description:   Establish a Collection Event Report definition with respect to a
 specific Event Source.
 Structure:     L,4
-1. <DATAID>
-2. <EVNTSRC>
-3. <CEID>
+1. \<DATAID\>
+2. \<EVNTSRC\>
+3. \<CEID\>
 4. L,n                (n is the number of Reports to be linked)
-1. <RPTID
+1. \<RPTID
 1
->
-2. <RPTID
+\>
+2. \<RPTID
 2
->
+\>
 .
 .
-n. <RPTID
+n. \<RPTID
 n
->
-S17,F10 Collection Event Link Acknowledge (CELA)S,H<-E
+\>
+S17,F10 Collection Event Link Acknowledge (CELA)S,H\<-E
 Description:   Indicate the success or failure of a Collection Event Link Request.
 Structure:     L,3
-1. <EVNTSRC>
-2. <CEID>
-3. <ERRCODE>
+1. \<EVNTSRC\>
+2. \<CEID\>
+3. \<ERRCODE\>
 Exception:     Item 3 should be set to zero length to indicate success.
 
 SEMI E5-1000 © SEMI 1982, 2000226
-S17,F11 Collection Event Unlink Request (CEUR)S,H->E,reply
+S17,F11 Collection Event Unlink Request (CEUR)S,H-\>E,reply
 Description:   Request to unlink a specific Data Report from a Collection Event
 Report.
 Structure:     L,3
-1. <EVNTSRC>
-2. <CEID>
-3. <RPTID>
+1. \<EVNTSRC\>
+2. \<CEID\>
+3. \<RPTID\>
 Exception:     Item one can be zero length, in which case the default event source
 is assumed.
-S17,F12 Collection Event Unlink Acknowledge (CEUA)S,H<-E
+S17,F12 Collection Event Unlink Acknowledge (CEUA)S,H\<-E
 Description:   Indicates success or failure of a requested Unlink.
 Structure:     L,4
-1. <EVNTSRC>
-2. <CEID>
-3. <RPTID>
-4. <ERRCODE>
+1. \<EVNTSRC\>
+2. \<CEID\>
+3. \<RPTID\>
+4. \<ERRCODE\>
 Exception:     Item one can be zero length to indicate the default event source.
 Item 4 is set to zero length if the primary request was successful.
-S17,F13 Trace Reset Request (TRR)S,H->E,reply
+S17,F13 Trace Reset Request (TRR)S,H-\>E,reply
 Description:   The Host requests the equipment to clear the data and reset the
 specified trace reports. If n = 0, then all defined Trace Objects
 will be reset.
 Structure:     L,n
-1. <TRID
+1. \<TRID
 1
->
-2. <TRID
+\>
+2. \<TRID
 2
->
+\>
 .
 .
-n. <TRID
+n. \<TRID
 n
->
+\>
 
 SEMI E5-1000 © SEMI 1982, 2000227
-S17,F14 Trace Report Reset Acknowledge (TRRA)S,H<-E
+S17,F14 Trace Report Reset Acknowledge (TRRA)S,H\<-E
 Description:   This list in item 1 contains the identifiers of all the Trace
 Objects which were reset. If all Trace Objects are successfully
 reset, then ACKA shall be set to TRUE.
 Structure:     L,2
-1. <ACKA>
+1. \<ACKA\>
 2. L,m
 1. L,3
-1. <TRID
+1. \<TRID
 1
->
-2. <ERRCODE
+\>
+2. \<ERRCODE
 1
->
-3. <ERRTEXT
+\>
+3. \<ERRTEXT
 1
->
+\>
 .
 .
 m. L,3
-1. <TRID
+1. \<TRID
 m
->
-2. <ERRCODE
+\>
+2. \<ERRCODE
 m
->
-3. <ERRTEXT
+\>
+3. \<ERRTEXT
 m
->
+\>
 Exception:     If ACKA is TRUE, then no errors were encountered, meaning all report
 requests were completed successfully and a zero-length list (m = 0)
 shall be sent.
@@ -11803,166 +11803,166 @@ in a space separated list in ERRTEXT.
 7. 22  Stream 18 Subsystem Control  and Data ó Messages  exchanged  between  component  subsystems  and  higher
 level  controllers.    Compared  to  similar  messages  exchanged  between  equipment  and  host,  subsystem  messages  are
 less complex.
-S18,F1 Read Attribute Request (RAR)S,H->E,reply
+S18,F1 Read Attribute Request (RAR)S,H-\>E,reply
 Description:   This message requests the current values of specified attributes of
 the subsystem component indicated in TARGETID.
 Structure:     L,2
-1. <TARGETID>
+1. \<TARGETID\>
 2. L,n                n = # attribute identifiers
-1. <ATTRID
+1. \<ATTRID
 1
->
+\>
 .
-n. <ATTRID
+n. \<ATTRID
 n
->
+\>
 Exceptions:    If n = 0, then all attributes of the target component are requested.
 
 SEMI E5-1000 © SEMI 1982, 2000228
-S18,F2 Read Attribute Data (RAD)S,H<-E
+S18,F2 Read Attribute Data (RAD)S,H\<-E
 Description:   This message returns the current values of requested attributes and
 the current status of the requested component indicated in TARGETID.
 Attributes are returned in the order requested.
 Structure:     L,3
-1. <TARGETID>
-2. <SSACK>
+1. \<TARGETID\>
+2. \<SSACK\>
 3. L,n
-1. <ATTRDATA
+1. \<ATTRDATA
 1
->
+\>
 .
-n. <ATTRDATA
+n. \<ATTRDATA
 n
->
+\>
 Exceptions:    Both n = 0 and s = 0 if the target component is unknown.
-S18,F3 Write Attribute Request (WAR)S,H->E,reply
+S18,F3 Write Attribute Request (WAR)S,H-\>E,reply
 Description:   This message requests the subsystem to set the value of read/write
 attributes of the component specified in TARGETID.
 Structure:     L,2
-1. <TARGETID>
+1. \<TARGETID\>
 2. L,n
 1. L,2
-1. <ATTRID
+1. \<ATTRID
 1
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 1
->
+\>
 .
 n. L,2
-1. <ATTRID
+1. \<ATTRID
 n
->
-2. <ATTRDATA
+\>
+2. \<ATTRDATA
 n
->
-S18,F4 Write Attribute Acknowledge (WAA)S,H<-E
+\>
+S18,F4 Write Attribute Acknowledge (WAA)S,H\<-E
 Description:   This message acknowledges the success of failure of the request to
 write attribute data to the subsystem indicated in TARGETID.
 Structure:     L, 3
-1. <TARGETID>
-2. <SSACK>
-3. <STATUSLIST>
+1. \<TARGETID\>
+2. \<SSACK\>
+3. \<STATUSLIST\>
 Exceptions:    s = 0 if the target component is unknown.
 
 SEMI E5-1000 © SEMI 1982, 2000229
-S18,F5 Read Request (RR)S,H->E,reply
+S18,F5 Read Request (RR)S,H-\>E,reply
 Description:   The host requests the subsystem indicated in TARGETID to read
 information.  DATASEG may be used to indicate a specific section of
 data to be read.  DATALENGTH is used to limit the amount of data for
 that section.
 Structure:     L,3
-1. <TARGETID>
-2. <DATASEG>
-3. <DATALENGTH>
+1. \<TARGETID\>
+2. \<DATASEG\>
+3. \<DATALENGTH\>
 Exceptions:    If DATASEG and DATALENGTH are both omitted (are zero length items)
 then all data is requested.  If DATALENGTH only is omitted, then all
 data within the indicated section is requested.
-S18,F6 Read Data (RD)S,H<-E
+S18,F6 Read Data (RD)S,H\<-E
 Description:   This message is used to return requested information from the
 subsystem indicated in TARGETID or to acknowledge the results of the
 request.
 Structure:     L,3
-1. <TARGETID>
-2. <SSACK>
-3. <DATA>
+1. \<TARGETID\>
+2. \<SSACK\>
+3. \<DATA\>
 Exceptions:    If TARGETID is unknown, then DATA is zero length.
-S18,F7 Write Data Request (WDR)S,H->E,reply
+S18,F7 Write Data Request (WDR)S,H-\>E,reply
 Description:   This message requests to write data to the subsystem component
 indicated in TARGETID.  DATASEG may be used to indicate a specific
 section of data to be written or overwritten.
 Structure:     L,4
-1. <TARGETID>
-2. <DATASEG>
-3. <DATALENGTH>
-4. <DATA>
+1. \<TARGETID\>
+2. \<DATASEG\>
+3. \<DATALENGTH\>
+4. \<DATA\>
 Exceptions:    If DATASEG and DATALENGTH are both omitted (are zero length items)
 then all data is to be overwritten.  If only DATALENGTH is omitted
 or if DATALENGTH has a value of zero, then all data within the
 indicated section is to be written.
-S18,F8 Write Data Acknowledge (WDA)S,H<-E
+S18,F8 Write Data Acknowledge (WDA)S,H\<-E
 Description:   This message acknowledges the success or failure of writing data to
 the subsystem indicated in TARGETID.
 Structure:     L,3
-1. <TARGETID>
-2. <SSACK>
-3. <STATUSLIST>
+1. \<TARGETID\>
+2. \<SSACK\>
+3. \<STATUSLIST\>
 Exceptions:    s = 0 if and only if TARGETID is unknown.
 
 SEMI E5-1000 © SEMI 1982, 2000230
-S18,F9 Read ID Request (RIR)S,H->E,reply
+S18,F9 Read ID Request (RIR)S,H-\>E,reply
 Description:   This message is used to request the subsystem indicated by TARGETID
 to read an identifier.
-Structure:     <TARGETID>
+Structure:     \<TARGETID\>
 Exceptions:    None.
-S18,F10 Read ID Data (RID)S,H<-E
+S18,F10 Read ID Data (RID)S,H\<-E
 Description:   This message returns a requested material identifier MID as read by
 the subsystem indicated in TARGETID.
 Structure:     L,4
-1. <TARGETID>
-2. <SSACK>
-3. <MID>
-4. <STATUSLIST>
+1. \<TARGETID\>
+2. \<SSACK\>
+3. \<MID\>
+4. \<STATUSLIST\>
 Exceptions:    s = 0 if and only if TARGETID is unknown.
-S18,F11 Write ID Request (WIR)S,H->E,reply
+S18,F11 Write ID Request (WIR)S,H-\>E,reply
 Description:   This message is used to request the subsystem indicated by TARGETID
 to write an identifier.
 Structure:     L,2
-1. <TARGETID>
-2. <MID>
+1. \<TARGETID\>
+2. \<MID\>
 Exceptions:    None.
-S18,F12 Write ID Acknowledge (WIA)S,H<-E
+S18,F12 Write ID Acknowledge (WIA)S,H\<-E
 Description:   This message acknowledges the success or failure of the subsystem
 specified in TARGETID in writing the ID.
 Structure:     L,3
-1. <TARGETID>
-2. <SSACK>
-3. <STATUSLIST>
+1. \<TARGETID\>
+2. \<SSACK\>
+3. \<STATUSLIST\>
 Exceptions:    s = 0 if and only if TARGETID is unknown.
 
 SEMI E5-1000 © SEMI 1982, 2000231
-S18,F13 Subsystem Command Request (SCR)S,H->E,reply
+S18,F13 Subsystem Command Request (SCR)S,H-\>E,reply
 Description:   This message is used to request the subsystem indicated in TARGETID
 to perform a specific action.
 Structure:     L,3
-1. <TARGETID>
-2. <SSCMD>
+1. \<TARGETID\>
+2. \<SSCMD\>
 3.  L,n
-1. <CPVAL
+1. \<CPVAL
 1
->
+\>
 .
-n.  <CPVAL
+n.  \<CPVAL
 n
->
+\>
 Exceptions:    If n = 0, no parameters are provided.
-S18,F14 Subsystem Command Acknowledge (SCA)S,H<-E
+S18,F14 Subsystem Command Acknowledge (SCA)S,H\<-E
 Description:   This message reports the results from the subsystem specified in
 TARGETID for the requested action.
 Structure:     L,3
-1. <TARGETID>
-2. <SSACK>
-3. <STATUSLIST>
+1. \<TARGETID\>
+2. \<SSACK\>
+3. \<STATUSLIST\>
 Exceptions:    s = 0 if and only if TARGETID is unknown.
 8  Message Documentation
 8. 1  Intent ó Equipment makers u sing SECS-II messages must communicate the equipment-specific details of each
@@ -13072,21 +13072,21 @@ V
 x
 L,n                       Format 0
 1. L,2
-1. <VID
+1. \<VID
 1
->
-2. <V
+\>
+2. \<V
 1
->
+\>
 .
 .
 n. L,2
-1. <VID
+1. \<VID
 n
->
-2. <V
+\>
+2. \<V
 n
->
+\>
 Any V in a list may also be a list (for nesting).
 A3.4.4   In  a  typical  initialization  seque nce,  the  host
 would define all the desired programmable data reports

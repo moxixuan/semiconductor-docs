@@ -1,158 +1,132 @@
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
-function Feature({Icon, title, description}) {
+function KnowledgeCategory({icon, title, count, items, to, color}) {
   return (
-    <div className={clsx('col col--4', styles.feature)}>
-      <div className={styles.featureCard}>
-        <div className={styles.featureIconWrapper}>
-          <span className={styles.featureIcon}>{Icon}</span>
-        </div>
-        <h3 className={styles.featureTitle}>{title}</h3>
-        <p className={styles.featureDescription}>{description}</p>
-        <div className={styles.featureGlow}></div>
+    <Link to={to} className={styles.categoryCard}>
+      <div className={styles.categoryHeader} style={{background: color}}>
+        <span className={styles.categoryIcon}>{icon}</span>
+        <h2 className={styles.categoryTitle}>{title}</h2>
+        <span className={styles.categoryCount}>{count} 篇文档</span>
       </div>
-    </div>
+      <ul className={styles.categoryItems}>
+        {items.map((item, index) => (
+          <li key={index} className={styles.categoryItem}>
+            <span className={styles.itemBullet}>▸</span>
+            {item}
+          </li>
+        ))}
+      </ul>
+      <div className={styles.categoryFooter}>
+        <span>浏览全部</span>
+        <svg className={styles.arrowIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </Link>
   );
 }
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+function QuickAccess() {
+  const quickLinks = [
+    {title: 'IC 设计概述', to: '/docs/ic-design/intro', tag: '入门'},
+    {title: '工艺技术节点', to: '/docs/process/nodes/7nm-5nm', tag: '热门'},
+    {title: 'Virtuoso 教程', to: '/docs/eda-tools/cadence/virtuoso', tag: '工具'},
+    {title: 'AMBA 总线协议', to: '/docs/standards/bus/amba-axi', tag: '协议'},
+  ];
+
   return (
-    <header className={clsx(styles.heroBanner)}>
-      <div className={styles.heroBackground}>
-        <div className={styles.gridOverlay}></div>
-        <div className={styles.particleContainer}>
-          {[...Array(20)].map((_, i) => (
-            <div key={i} className={styles.particle} style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${3 + Math.random() * 2}s`
-            }}></div>
+    <section className={styles.quickAccess}>
+      <div className="container">
+        <h2 className={styles.sectionTitle}>📚 快速访问</h2>
+        <div className={styles.quickLinks}>
+          {quickLinks.map((link, index) => (
+            <Link key={index} to={link.to} className={styles.quickLink}>
+              <span className={styles.linkTitle}>{link.title}</span>
+              <span className={styles.linkTag} style={{
+                background: index === 0 ? '#00d4ff' :
+                           index === 1 ? '#a855f7' :
+                           index === 2 ? '#3b82f6' : '#10b981'
+              }}>{link.tag}</span>
+            </Link>
           ))}
         </div>
       </div>
-      <div className="container" style={{position: 'relative', zIndex: 2}}>
-        <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>
-            <span className={styles.titleText}>{siteConfig.title}</span>
-            <div className={styles.titleGlow}></div>
-          </h1>
-          <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
-          <div className={styles.heroCta}>
-            <Link className={styles.primaryButton} to="/docs/intro">
-              <span>开始浏览文档</span>
-              <svg className={styles.buttonArrow} viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </Link>
-            <Link className={styles.secondaryButton} to="/blog">
-              技术博客
-            </Link>
-          </div>
-        </div>
-        <div className={styles.stats}>
-          <div className={styles.statItem}>
-            <div className={styles.statNumber}>50+</div>
-            <div className={styles.statLabel}>文档页面</div>
-          </div>
-          <div className={styles.statDivider}></div>
-          <div className={styles.statItem}>
-            <div className={styles.statNumber}>4</div>
-            <div className={styles.statLabel}>主要领域</div>
-          </div>
-          <div className={styles.statDivider}></div>
-          <div className={styles.statItem}>
-            <div className={styles.statNumber}>AI</div>
-            <div className={styles.statLabel}>智能检索</div>
-          </div>
-        </div>
-      </div>
-    </header>
+    </section>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`欢迎来到 ${siteConfig.title}`}
-      description="专业的半导体技术文档检索平台">
-      <HomepageHeader />
+    <Layout title="半导体知识库" description="专业的半导体技术文档知识库">
       <main className={styles.mainContent}>
-        <section className={styles.features}>
+        {/* Hero Section */}
+        <section className={styles.hero}>
           <div className="container">
-            <div className={styles.sectionHeader}>
-              <h2 className={styles.sectionTitle}>核心功能</h2>
-              <p className={styles.sectionSubtitle}>探索半导体技术的全方位知识库</p>
+            <div className={styles.heroContent}>
+              <h1 className={styles.heroTitle}>
+                <span className={styles.titleGradient}>半导体知识库</span>
+              </h1>
+              <p className={styles.heroDescription}>
+                系统化的半导体技术文档，涵盖芯片设计、工艺制造、EDA 工具、协议标准
+              </p>
             </div>
-            <div className="row">
-              <Feature
-                Icon="⚡"
+          </div>
+        </section>
+
+        {/* Knowledge Categories */}
+        <section className={styles.categories}>
+          <div className="container">
+            <div className={styles.categoryGrid}>
+              <KnowledgeCategory
+                icon="⚡"
                 title="芯片设计"
-                description="涵盖数字、模拟、FPGA/ASIC设计的完整技术文档，从基础理论到实践案例"
+                count={3}
+                color="linear-gradient(135deg, #00d4ff, #0891b2)"
+                to="/docs/ic-design/intro"
+                items={['数字电路设计', '设计规则与约束', '时序分析', 'IP 核概述']}
               />
-              <Feature
-                Icon="🏭"
+              <KnowledgeCategory
+                icon="🏭"
                 title="工艺制造"
-                description="从7nm到成熟工艺节点的制造技术详解，深入了解半导体工艺演进"
+                count={4}
+                color="linear-gradient(135deg, #a855f7, #7c3aed)"
+                to="/docs/process/intro"
+                items={['工艺技术节点', 'FinFET 工艺', '7nm/5nm 先进工艺', 'SiP 封装技术']}
               />
-              <Feature
-                Icon="🛠️"
-                title="EDA工具"
-                description="Cadence、Synopsys及开源工具使用指南，提升设计效率"
+              <KnowledgeCategory
+                icon="🛠️"
+                title="EDA 工具"
+                count={4}
+                color="linear-gradient(135deg, #3b82f6, #2563eb)"
+                to="/docs/eda-tools/intro"
+                items={['Cadence Virtuoso', 'Synopsys DC', 'PrimeTime', 'OpenROAD']}
               />
-            </div>
-            <div className="row" style={{marginTop: '2rem'}}>
-              <Feature
-                Icon="📚"
+              <KnowledgeCategory
+                icon="📡"
                 title="协议标准"
-                description="AMBA、PCIe、DDR等主流接口协议文档，快速查找技术规范"
-              />
-              <Feature
-                Icon="🔍"
-                title="智能检索"
-                description="基于Meilisearch的毫秒级全文检索，精准定位所需信息"
-              />
-              <Feature
-                Icon="🤖"
-                title="AI集成"
-                description="支持AI助手通过API和MCP协议访问，智能问答更便捷"
+                count={4}
+                color="linear-gradient(135deg, #10b981, #059669)"
+                to="/docs/standards/intro"
+                items={['AMBA AXI 总线', 'I2C/SPI 接口', 'DDR4/DDR5', 'PCIe 总线']}
               />
             </div>
           </div>
         </section>
 
-        <section className={styles.techStack}>
+        {/* Quick Access */}
+        <QuickAccess />
+
+        {/* Search Hint */}
+        <section className={styles.searchHint}>
           <div className="container">
-            <div className={styles.sectionHeader}>
-              <h2 className={styles.sectionTitle}>技术亮点</h2>
-              <p className={styles.sectionSubtitle}>现代化的文档平台架构</p>
-            </div>
-            <div className={styles.techGrid}>
-              <div className={styles.techCard}>
-                <div className={styles.techIcon}>⚛️</div>
-                <h3>Docusaurus</h3>
-                <p>基于 React 的现代文档框架</p>
-              </div>
-              <div className={styles.techCard}>
-                <div className={styles.techIcon}>🔎</div>
-                <h3>Meilisearch</h3>
-                <p>高性能全文搜索引擎</p>
-              </div>
-              <div className={styles.techCard}>
-                <div className={styles.techIcon}>🐳</div>
-                <h3>Docker</h3>
-                <p>容器化部署方案</p>
-              </div>
-              <div className={styles.techCard}>
-                <div className={styles.techIcon}>🤖</div>
-                <h3>MCP Protocol</h3>
-                <p>AI 模型上下文协议集成</p>
+            <div className={styles.searchBox}>
+              <span className={styles.searchIcon}>🔍</span>
+              <div className={styles.searchText}>
+                <strong>快速搜索</strong>
+                <p>使用搜索功能快速定位你需要的半导体技术文档</p>
               </div>
             </div>
           </div>

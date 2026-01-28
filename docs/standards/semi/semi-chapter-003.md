@@ -1,0 +1,3393 @@
+---
+title: "文档标题"
+description: "SEMI E10-0304 E © SEMI 1986, 2004 15 APPENDIX 2 RELIABILITY GROWTH OR DEGRADATION MODELS NOTICE:  This  appendix  was  approved  as  an  official  part  of  SEMI  E10  by  full  letter  ballot  pro..."
+sidebar_label: "Chapter 3"
+sidebar_position: 30
+tags: ['SEMI', 'Standard', 'Chapter 3']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-003.pdf'
+  chapter: 3
+  page_count: 50
+  file_size_mb: 0.81
+  processing_date: '2026-01-28T09:17:23.422Z'
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+<PdfDownloadCard
+  pdfLink="/pdfs/semi/semi-chapter-003.pdf"
+  pdfSize="0.81MB"
+  title="Chapter 3"
+  description="SEMI标准文档 - Chapter 3，共50页"
+/>
+
+# 文档标题
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 15
+APPENDIX 2
+RELIABILITY GROWTH OR DEGRADATION MODELS
+NOTICE:  This  appendix  was  approved  as  an  official  part  of  SEMI  E10  by  full  letter  ballot  procedure.    It  offers  detailed
+information related to Section 8.
+A2-1  Introduction
+A2-1.1  E-MTBF
+p
+may be substituted for MTBF
+p
+in all
+calculations in this section.
+A2-1.2      If   the   times   between   failures   (known   as
+ìinterarrival  timesî)  of  a  repairable  system  or  piece  of
+equipment are independent random times sampled from
+the same exponential distribution, then the (theoretical)
+rate of occurrence of failures (ìROCOFî) is a constant
+λ and the MTBF
+p
+is just 1/λ.  This situation is known in
+the   reliability   literature   as   a   homogeneous   poisson
+process  (HPP).    An  HPP  assumption  underlies  the
+definition   of   MTBF
+p
+given   in   Section   6,   and   the
+confidence  limit  factors  described  in  Section  7  and
+Appendix  1.    These  concepts  are  described  in  detail  in
+Ascher and Feingold [1] and Tobias and Trindade [2].
+A2-1.3    If  reliability  is  either  improving  or  degrading
+with time, then the ROCOF is no longer a constant and
+a MTBF
+p
+calculation will be misleading.
+A2-1.4    This  appendix  contains  a  simple  test  for  trend
+that   may   be   applied   if   a   time-varying   ROCOF   is
+suspected, as well as a description of a well known and
+powerful  model  that  may  be  used  when  reliability
+improvement   trends   are   evident   in   the   equipment
+failure time data.
+A2-2  Testing for Trends
+A2-2.1  A   non-parametric reverse   arrangement   test
+(RAT)  devised  by  Kendall  [3]  and  further  developed
+into  a  table  by  Mann  [4]  will  be  described.  Begin  by
+writing the interarrival times in the order they occurred.
+For a period with r failures, these might be X
+1
+, X
+2
+, Ö,
+X
+r
+.  Starting from left to right, define a reversal as any
+instance  in  which  a  lesser  value  occurs  before  any
+subsequent  greater  value  in  the  sequence.    In  other
+words, any time we have X
+i
+< X
+j
+and i < j, we count it
+as   a   reversal.      For   example,   suppose   a   piece   of
+equipment  has  r  =  4  failures  at  30,  160,  220,  and  360
+hours of productive time. The interarrival times are 30,
+130, 60, and 140.  The total number of reversals is 3 + 1
++ 1 = 5.
+A2-2.2    A  larger  than  expected  number  of  reversals
+indicates  an  improving  trend;  a  smaller  number  of
+reversals than expected indicates a degradation trend.
+A2-2.3  For r up to 12, use Table A2-1 below (adapted
+from  [2])  to  determine  whether  a  given  number  of
+reversals, R, is statistically significant at the 100 ◊ (1 ñ
+α) confidence level.
+A2-2.4  For r greater   than   12,   approximate   critical
+values  for  the  number  of  reversals  (based  on  Kendallís
+normal approximation) can be calculated from:
+R
+(r; 1-α)
+=z
+critical
+(2r+5)(r−1)r
+72
++
+r(r
+−1)
+4
+−
+1
+2
+
+
+Table A2-1  Critical Values R
+r;1-α
+the Number of Reversals for the Reverse Arrangement Test at a Given
+Confidence Level
+Sample Size Single-Sided Lower Critical Value (Too Few
+Reversals Provide Evidence of Degradation)
+Single-Sided Upper Critical Value (Too Many
+Reversals Provide Evidence of Improvement)
+r 99%                      95%                      90%                      90%                      95%                      99%
+4                                                         0                           0                           6                           6
+5                            0                           1                           1                           9                           9                           10
+6                            1                           2                           3                           12                           13                           14
+7                            2                           4                           5                           16                           17                           19
+8                            4                           6                           8                           20                           22                           24
+9                            6                           9                          11                         25                         27                         30
+10                           9                          12                         14                         31                         33                         36
+11                          12                         16                         18                         37                         39                         43
+12                          16                         20                         23                         43                         46                         50
+
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 16
+A2-2.5    In  this  equation  z
+critical
+comes  from  the  critical
+values  of  the  standard  normal  distribution  (for  90%
+significance, z
+critical
+= 1.282, for 95% significance, z
+critical
+
+= 1.645, and for 99% significance, z
+critical
+= 2.33).  The
+formula  calculates  the  critical  value  for  detecting  an
+improvement  trend.    For  degradation  trends  (a  small
+number of reversals) use (r)(r − 1)/2 minus R
+r;1-α
+as the
+critical  value.    Note  that  (r)(r −  1)/2  just  the  total
+possible number of reversals when there are r failures.
+A2-2.6    For  example,  with  17  failures,  the  formula  for
+R
+r;1-α,
+using 95% significance, gives a critical number of
+reversals  of  R
+17,95
+=  88.    The  maximum  number  of
+reversals is 17 ◊ 16/2 = 136.  That means that observing
+88  or  more  reversals  signals  a  likely  improvement
+trend,  while  observing  136  −  88  =  48  or  less  reversals
+signals a likely degradation trend.
+A2-2.7  The example given in the next section shows an
+application for the reverse arrangement test using Table
+A2-1.
+A2-2.8  The AMSAA    Reliability    Growth    Model:
+Assume  the  sequence  of  interarrival  time  indicates  an
+improvement  trend.    This  will  typically  be  the  case
+during  reliability  improvement  testing,  where  failures
+are analyzed down to root causes and actions are taken
+to  improve  the  equipmentís  reliability.    Duane  [5]
+observed  that  a  plot  of  t
+k
+/k  versus  t
+k
+,  where  t
+k
+is  the
+system  age  at  the  time  of  kth  failure,  typically  appears
+linear  on  log  versus  log  graph  paper.    The  slope  β  of
+this line measures the rate of reliability growth.  Typical
+empirical values of β lie between 0.3 and 0.6. Crow [6]
+developed  this  empirical  observation  into  the  power
+relationship  model  used  by  the  U.S.  Army  Materials
+Systems  Analysis  Activity  (AMSAA  model).    This
+model   has   proved   successful   in   a   wide   range   of
+applications.
+A2-2.9      The   AMSAA   model   assumes   that   during
+reliability improvement testing the MTBF
+p
+is improving
+with  time  and  has  an  instantaneous  value  denoted  by
+MTBF
+I
+(t).    When  the  test  ends  at  time  T,  the  MTBF
+p
+
+becomes  a  constant  with  the  value  MTBF
+I
+(T).    An
+estimate  of  the  MTBF
+p
+after  a  test  of  T  hours  with  r
+failures is given by:
+
+MTBF
+I
+(T)
+=
+T
+r×(1 -
+β
+)
+(1)
+A2-2.10  In    this    equation, β    is    the    reliability
+improvement (Duane) slope, β is estimated by
+
+β=
+1-
+r
+−
+1
+∑
+i=1
+r
+1n
+T
+t
+i
+(2)
+using the modified maximum likelihood estimates given
+by  Crow  [6].    Crow  developed  confidence  limits  for
+MTBF
+I
+
+(T ) that are described in [2] and [6].
+A2-2.11  Example: During a calendar quarter a tool has
+550  hours  of  productive  time.    Eleven  failures  were
+recorded at the following points of productive time: 18,
+20, 35, 41, 67, 180, 252, 287, 390, 410, and 511 hours.
+Determine whether there appears to be an improvement
+trend  and  use  the  AMSAA  model  to  estimate  the
+achieved MTBF
+I
+at the end of the quarter.
+A2-2.12
+Solution: The interarrival times are: 18, 2, 15,
+6,  26,  113,  72,  35,  103,  20,  and  101.    The  number  of
+reversals is 7 + 9 + 7 + 7 + 5 + 0 + 2 + 2 + 0 + 1 = 40.
+Using Table A2-1, this is significant at greater than the
+95% confidence level, indicating an improvement trend
+is  likely.    Figure  A2-1  shows  the  Duane  plot,  which
+appears to show a linear improvement trend on log-log
+paper.      The   AMSAA   model   equations   give   an
+improvement     slope     estimate     of     0.43     and     an
+instantaneous  MTBF
+P
+estimate  at  550  hours  of  87.2.
+Note    that    a    standard    calculation    ignoring    the
+improvement  trend
+
+would  yield  an  MTBF
+P
+estimate  of
+550/11 = 50, which is a 43% underestimate.
+
+A2-2.13  Figure  A2-2  summarizes  the  recommended
+procedure    to    follow    when    analyzing    system    or
+equipment  reliability  data,  with  appropriate  references
+to SEMI E10 sections or appendices.
+A2-3  References
+
+# 1
+
+1.    Ascher,  H.  and  H.  Feingold,  Repairable  Systems
+Reliability, Marcel Dekkar, Inc., New York, 1984
+
+# 2
+
+2.    Tobias,    P.A.    and    D.C.    Trindade,    Applied
+Reliability,     Second     Edition,     Van     Nostrand
+Reinhold, Inc., New York, 1995
+
+# 3
+
+3.     Kendall,    M.G.,    ìA    New    Measure    of    Rank
+Correlationî, Biometrika,  1938,  volume  30,  pages
+81-93
+
+# 4
+
+4.     Mann,  H.B.,  ìNonparametric  Test  Against  Trendî
+Econometrica, 1945, volume 13, pages 245-25
+
+# 5
+
+5.     Duane,    J.T.,    ìLearning    Curve    Approach    to
+Reliability   Monitoring,î   IEEE   Transactions   on
+Aerospace, 1964, volume 2, pages 563-566
+
+# 6
+
+6.     Crow,   L.H.,   ìReliability   Analysis   for   Complex
+Repairable  Systems,î  Reliability  and  Biometry,  F.
+Proschan     and     R.J.,     Serfling,     eds.,     SIAM,
+Philadelphia, 1974; pp. 126-134
+
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 17
+p
+
+Figure A2-1
+Duane Plot of CUM MTBF
+p
+vs. Time
+
+Trend
+No Trend
+Sections 8.1-8.3/Appendix 2
+Estimate the achieved
+MTBF
+p
+at the end of
+the period
+Sections 6.2.1-6.2.2
+Use standard MTBF
+p
+definition
+Section 7.6/Appendix 1
+Compute confidence
+bounds for MTBF
+p
+Analyze the data for trends
+Duane Plots
+Trend Test
+Section 8.3/Appendix 2
+Fit AMSAA model
+
+Figure A2-2
+Flow Chart for Reliability Data Analysis
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturerís  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 18
+RELATED INFORMATION 1
+MULTI-PATH CLUSTER TOOL RAM METRICS
+NOTICE:  This  related  information  is  not  an  official  part  of  SEMI  E10  and  was  derived  from  work  done  by  the
+SEMI  NA  Cluster  Tool  RAM  Metrics  Task  Force.    This  related  information  was  approved  for  publication  by  full
+letter ballot on October 15, 2003.
+R1-1  Introduction
+R1-1.1      This   related   information   presents   tracking
+requirements and standard metrics for evaluating multi-
+path     cluster     tool     reliability,     availability,     and
+maintainability  (RAM)  performance.    The  metrics  in
+the  main  body  of  SEMI  E10  apply  to  non-cluster  or
+single-path  cluster  tools  and  individual  modules  in  a
+straightforward manner.  While these entities are either
+entirely  ìupî  (i.e.,  in  one  of  the  SEMI  E10  uptime
+states) or entirely ìdownî (i.e., in one of the SEMI E10
+downtime  states),  multi-path  cluster  tools  may  still  be
+capable   of   processing   with   some   modules   in   an
+unscheduled downtime state.  Furthermore, the effect of
+module  unscheduled  downtime  on  multi-path  cluster
+tool  performance  depends  on  the  specific  multi-path
+cluster   tool   configuration   and   the   combination   of
+modules  in  an  unscheduled  downtime  state  at  each
+point in time.
+R1-1.2        Because    module    performance    provides    a
+sufficient  lowest  common  denominator  for  evaluating
+multi-path  cluster  tool  performance,  all  metrics  in  this
+related   information   are   calculated   as   functions   of
+module-level   data   only.      Specific   module   tracking
+requirements are presented.  The metrics, Total Failure
+Rate  (TFR)  and  Cluster-Tool  Mean  Time  to  Repair
+(MTTR
+CT
+),  provide  simple  evaluations  of  aggregate
+module reliability and maintainability.
+R1-1.3      Other   metrics   are   based   on   the   specific
+combinations  of  modules  and  process  paths,  defined
+here as process flows.
+R1-1.3.1  A process  path  is  a  specific  set  of  modules
+for which each module is unique and has no alternative
+modules.
+R1-1.3.2  A process  flow  is  a  defined  set  of  modules
+that is used to achieve a process, where any multi-path
+cluster  tool  may  have  one  or  more  such  process  flows.
+A process flow may include alternative modules at one
+or  more  steps  of  the  process.    A  process  flow  may
+therefore contain one or many process paths.
+R1-1.4  A method of temporal mapping, defined in this
+related  information,  is  used  to  generate  a  history  of
+process  flow  and  multi-path  cluster  tool  states  from
+individual   module   states.      Multi-path   cluster   tool
+availability  is  then  evaluated  as  the  aggregate  process
+flow  availability.    Multi-path  cluster  tool  reliability  is
+evaluated  as  the  expected,  or  mean,  productive  time
+between   all   process   flows   being   in   unscheduled
+downtime.
+R1-2  Module Tracking Requirements
+R1-2.1      Multi-path   cluster   tool   metrics   require   the
+tracking of SEMI E10 state data from all of the modules
+that  impact  the  RAM  or  productivity  of  a  multi-path
+cluster  tool  or  its  process  flows.    This  set  of  modules
+includes processing and non-processing modules.
+R1-2.1.1  processing     module     ó     an     indivisible
+production  entity  within  an  equipment  system,  e.g.,  a
+processing  chamber  or  station  within  a  cluster  tool.
+(SEMI E79)
+R1-2.1.2  non-processing   module   ó   an   equipment
+entity  that  supports  the  movement  or  conditioning  of
+units  through  the  system,  such  as,  robotic  handler,
+load/unload lock, pre-aligner.
+R1-2.2    Multi-path  cluster  tool  metrics  require  tracking
+at   the   module   level   of   at   least   productive   states,
+unscheduled   downtime   states,   scheduled   downtime
+states,  and  other  neutral  states  that  are  not  in  the  first
+three categories.  Tracking of these states at the level of
+the multi-path cluster tool as a whole is insufficient for
+accurate    evaluation    of    performance.        Specific
+requirements  for  tracking  these  states  at  the  module
+level,  as  well  as  requirements  for  handling  the  other
+SEMI E10 states, are presented here.
+R1-2.2.1  Productive  state shall  be  tracked  for  each
+module.  For process modules, the productive time shall
+include  time  for  active  loading  and  unloading  of  the
+process   module.      Waiting   times   or   inactive   times,
+including  waiting  for  load,  waiting  for  unload,  and
+process  suspend  times  shall  be  specifically  excluded
+from  productive  time.    Times  for  heating,  cooling,
+purging,  cleaning,  etc.,  that  are  specified  as  part  of
+process  recipes  shall  be  tracked  as  productive  time.
+However, similar times that are not specified as part of
+process  recipes  shall  be  specifically  excluded  from
+productive time.
+NOTE 1:  Productive state events may be derived from SEMI
+E58  (ARAMS)  state  change  data  or  the  SEMI  E116  (EPT)
+module BUSY state events where the module or whole multi-
+path  cluster  tool  is  known  to  be  in  a  ìmanufacturingî  state
+and   the   SEMI   E116   task   type   is   either   ìProcessî   or
+ìSupport.î
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 19
+R1-2.2.2    Unscheduled  downtime  state  shall  be  tracked
+for  each  module.    Tracking  of  unscheduled  downtime
+state  for  the  multi-path  cluster  tool  as  a  whole  is  not
+sufficient.    A  module  cannot  be  in  productive  and
+unscheduled  downtime  states  at  the  same  time.    Each
+contiguous  instance  of  unscheduled  downtime  state  for
+a  module  is  a  module  failure.    Subsequent  substate
+events   within   the   same   instance   of   unscheduled
+downtime  state  shall  not  to  be  counted  as  additional
+failures.
+R1-2.2.3  Scheduled downtime state shall be tracked for
+each  module.    Tracking  of  scheduled  downtime  state
+for   the   multi-path   cluster   tool   as   a   whole   is   not
+sufficient.    A  module  cannot  be  in  productive  and
+scheduled downtime states at the same time.  Instances
+of  scheduled  downtime  shall  not  to  be  counted  as
+failures.
+R1-2.2.4    Time  in  standby  and  engineering  states  shall
+not  be  considered  as  either  productive  time,  scheduled
+downtime,  or  unscheduled  downtime  at  the  module
+level.    For  the  purpose  of  tracking  multi-path  cluster
+tool  states  and  calculating  multi-path  cluster  tool  and
+process   flow   metrics,   modules   in   these   states   are
+considered as being in a neutral state.
+R1-2.2.5    Non-scheduled  time  that  is  tracked  for  the
+multi-path  cluster  tool  as  a  whole  is  omitted  from
+operations  time  in  calculating  multi-path  cluster  tool
+and  process  flow  RAM  metrics,  as  it  is  with  the  other
+SEMI   E10   metrics   from   the   main   body   of   the
+specification.    Non-scheduled  time  that  is  allocated  to
+some  modules  but  not  other  modules,  if  any,  shall  be
+handled differently, as follows.
+R1-2.2.5.1    For  new  modules  under  installation  that
+have not yet been used for their intended function, those
+modules  shall  be  considered  as  non-existent  in  the
+cluster-tool configuration.
+R1-2.2.5.2    For  installed  modules  that  have  been  used,
+non-scheduled  time  state  shall  be  treated  as  a  neutral
+state.
+R1-2.3  To   calculate   these   metrics,   an   observation
+period  shall  be  defined  and  agreed  upon  by  the  user
+and/or  the  supplier.    Section  A1-1.3  provides  some
+guidance  on  establishing  the  observation  period  time
+needed  to  demonstrate  a  desired  MTBF
+p
+at  a  given
+confidence level.
+R1-2.3.1  observation  period  time  ó  elapsed  calendar
+time   (e.g.,   weeks,   months,   quarters)   observing   and
+tracking  tool  performance.    No  allowance  is  made  for
+the number of modules in a cluster tool.
+R1-3  Total Failure Rate and Cluster-Tool Mean
+Time to Repair
+R1-3.1  Total  Failure  Rate  (TFR)  ó  total  count  of
+module-level  failure  onsets,  tracked  according  to  the
+requirements    in    Section    R1-2,    divided    by    the
+observation  period  time.    This  metric  characterizes  the
+frequency of repairs where failures on separate modules
+are  presumed  to  require  independent  repair  actions.
+TFR  is  an  indicator  of  reliability  and  maintainability.
+TFR is defined as:
+
+TFR =
+Σ
+all modules
+count of module failure onset events
+observation
+period time
+
+
+NOTE    2:        For    different    multi-path    cluster    tools    with
+comparable  module  failure  rates,  a  multi-path  cluster  tool
+with  fewer  modules  is  expected  to  have  better  performance
+according   to   this   metric   than   one   with   more   modules.
+However, the multi-path cluster tool with more modules may
+have   a   better   aggregate   intended   process   flow   uptime
+(Uptime
+CT-IPF
+), as defined in Section R1-7.3.
+R1-3.2  Cluster-Tool  Mean  Time  to  Repair  (MTTR
+CT
+)
+ó  mean  time  to  correct  a  module-level  failure  and
+return  the  module  to  a  condition  where  it  can  perform
+its  intended  function;  the  sum  of  all  repair  time  on  all
+modules  (elapsed  module  time,  not  necessarily  total
+work-hours)  incurred  during  a  specified  observation
+period time (including equipment and process test time,
+but   not   including   maintenance   delay   downtime),
+divided  by  the  total  number  of  failure  onset  events
+during that period.
+
+MTTR
+CT
+=
+Σ
+all modules
+
+repair time
+Σ
+all modules
+
+count of module failure onset events
+
+
+NOTE 3:  This is the same equation as MTTR for non-cluster
+and single-path cluster tools.  However, because a multi-path
+cluster-tool  may  have  repairs  occurring  simultaneously,  the
+sum  of  repair  time  is  not  constrained  to  the  duration  of  the
+observation period.
+R1-3.3  For any module, a failure onset event is the first
+chronological   event   of   a   contiguous   instance   of
+unscheduled  downtime.    To  ensure  that  over  multiple
+observation  periods,  neither  failure  onset  events  nor
+repair  time  is  ever  double-counted,  the  following  rules
+shall be followed.
+R1-3.3.1    Failure  onset  events  that  occur  during  the
+observation  period  are  counted  in  TFR  and  MTTR
+CT
+regardless of when those failures are resolved.
+R1-3.3.2    Failure  onset  events  that  occur  before  the
+observation   period   are   not   counted   in   TFR   and
+MTTR
+CT
+,  even  if  those  failures  are  not  resolved  until
+during or after the observation period.
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 20
+R1-3.3.3    For  a  failure  whose  onset  occurs  outside  of
+the observation period, the portion of its repair time that
+occurs  within  the  observation  period  is  still  counted  in
+MTTR
+CT
+.
+NOTE 4:  These metrics also may be calculated for any multi-
+module  tool  even  if  that  tool  is  not  a  multi-path  cluster  tool.
+For a system failure that arises from multiple module failures,
+the  additional  severity  of  this  case  and  the  independence  of
+module repair efforts are reflected in this metric.  For standard
+evaluation of a non-multi-path cluster tool, however, the tool
+is   considered   to   be   either   entirely   in   the   unscheduled
+downtime state or not in the unscheduled downtime state.
+R1-3.4        These    metrics    are    not    compatible    with
+approaches   based   on   renewal   cycle   models   where
+uptime  and  downtime  are  assumed  to  be  mutually
+exclusive.    As  such,  subsequent  module  failures  may
+occur  even  while  failures  are  already  in  progress  on
+other  modules.    Other  renewal  cycle  results  (e.g.,  the
+limiting  probability  of  finding  the  system  ìupî  (or
+ìdownî)   when   approaching   the   system   at   random)
+similarly may not apply.
+R1-4  Temporal Mapping
+R1-4.1    Temporal  mapping  provides  an  output  state
+history as a function of constituent input state histories.
+For  each  event  when  at  least  one  of  the  modules
+changes  state,  the  states  of  the  process  flows  and/or
+cluster tool may change.  For the metrics in this related
+information,     cluster-tool     and     process-flow     state
+histories  are  generated  as  functions  of  module  state
+histories  on  an  event-by-event  basis  in  temporal,  or
+chronological,   order.      The   metrics   themselves   are
+calculated  as  functions  of  these  output  state  histories.
+For   reference,   this   technique   may   be   regarded   as
+generating  a  type  of  convolution  of  constituent  state
+models.
+R1-4.2    Figure  R1-1  presents  an  example  of  temporal
+mapping.  The constituent input states for two modules,
+M1 and M2, are shown over the observation period t =
+0 to t = 10.  An output state is mapped temporally as a
+function of the module states, where if either module is
+ìdownî or both modules are ìdown,î the output state is
+ìdown.î  Note that transition events for the output state
+history are the union set of the transition events for the
+constituent input state histories.
+R1-4.3  In  a  near-real-time  tracking  system,  temporal
+mapping  may  be  performed  as  each  event  is  generated
+and   received   by   the   tracking   system.      Temporal
+mapping  also  may  be  performed  afterwards  as  a  batch
+process.  Regardless,  the  logical  process  is  the  same.
+Depending on the mapping to be performed, a different
+logic  function  is  applied  at  each  input  state  transition
+event to derive an output state value as a function of the
+constituent  input  state  values.    Two  specific  temporal
+mapping  functions  are  used  in  metrics  in  this  related
+information:
+R1-4.3.1          Process     flow     ìup/scheduled     downtime/
+unscheduled      downtimeî      states      from      module
+ìup/scheduled downtime/unscheduled downtimeî states
+as  a  function  of  supplier-defined  and/or  user-defined
+process flows.
+R1-4.3.2      Multi-path   cluster   tool   ìproductive/neutral/
+unscheduled    downtimeî    as    a    standard    function,
+presented     herein,     of     module     ìproductive/not-
+productiveî   states   and   process-flow   ìup/scheduled
+downtime/unscheduled downtimeî states.
+NOTE 5:  While it may be theoretically possible to model the
+desired   output   states   using   Harel   notation   and   modeling
+concepts,  output  state  complexity  may  be  confounded  by  the
+combinatorial  nature  of  multi-path  cluster  tools  and  their
+process  flows.    For  this  application,  the  temporal  mapping
+approach is much more straightforward.
+5
+100
+M1
+M2
+time
+Constituent
+Input
+States
+Output
+State
+=Down
+=Up
+
+Figure R1-1
+An Example Of Temporal Mapping
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 21
+R1-5  Modeling Process Flows
+R1-5.1      In   order   to   evaluate   multi-path   cluster   tool
+availability and reliability, the set of process flows shall
+be   defined   for   the   multi-path   cluster   tool.      It   is
+important to differentiate between all the process flows
+that  are  theoretically  possible  on  a  given  multi-path
+cluster  tool  configuration  and  those  intended  process
+flows  (IPF)  that  are  actually  intended  for  operational
+use   (i.e.,   performing   its   intended   function).      For
+meaningful  agreement  between  any  two  parties  on  the
+metrics presented in this related information, first there
+shall be documented agreement on the set of IPFs used
+for evaluation, so that any analyst with the module state
+histories  can  calculate  the  same  values  for  the  metrics.
+First, the general case of ìup/downî states for an IPF is
+presented,   and   then   later   the   distinction   between
+unscheduled  downtime  and  total  (i.e.,  scheduled  and
+unscheduled) downtime for an IPF is presented.
+R1-5.2      An   IPF   ìup/downî   state   is   modeled   as   a
+network  flow  through  the  modules  that  make  up  that
+IPF.  If there is ìconnectivityî through the IPF network,
+then  the  IPF  is  ìup;î  otherwise  it  is  ìdown.î    The
+modules  in  an  IPF  network  have  series  and  parallel
+relationships  that  determine  the  connectivity  through
+the  network.    Mathematically,  each  module  and  each
+IPF  has  a  state  value  equal  to  1  when  the  state  is  ìupî
+and 0 when the state is ìdown.î For example,
+
+M
+i
+
+=
+1, if module i is up
+0, if module i is down
+
+
+R1-5.3  The general process steps within an IPF have a
+mutually  serial  relationship  (i.e.,  if  connectivity  is  not
+possible  through  any  single  step,  then  connectivity  is
+not possible through the network).  This is illustrated in
+Figure R1-2.  The IPF state value for serial constituents
+is  calculated  as  the  product  of  the  constituent  state
+values (e.g., IPF = Π
+i=1 to 4
+Si = S1 × S2 × S3 × S4).
+
+S1S2S3S4
+
+
+Figure R1-2
+Serial Process Steps Within An IPF
+
+R1-5.4    At  any  general  process  step,  S
+x
+,  the  set  of
+alternative  modules,  Ai  (if  any  are  present),  have  a
+mutually  parallel  relationship  (i.e.,  if  any  one  of  the
+alternative  modules  is  up,  then  connectivity  through
+that  step  is  still  possible).  This  is  illustrated  in  Figure
+R1-3.  The state value through this step is calculated as:
+IPF = 1 - Π
+i=1 to 3
+(1 − Ai)
+= 1 − [(1 − A1)
+× (1 − A2) × (1 − A3)]
+
+If any alternative module is ìup,î the expression in the
+square  brackets  evaluates  to  zero,  and  the  IPF  state
+value  evaluates  to  1,  or  ìup.î    If  all  of  the  alternative
+modules   are   ìdown,î   the   expression   in   the   square
+brackets   evaluates   to   1,   and   the   IPF   state   value
+evaluates to 0, or ìdown.î
+A2
+A3
+A1
+S
+x
+
+
+Figure R1-3
+Parallel Alternative Modules At A Process Step
+
+NOTE 6:  In general network modeling, it is possible to have
+complicated multi-constituent structures in parallel with other
+multi-constituent  structures.    At  the  time  of  this  writing,  the
+need  for  such  structures  in  evaluating  multi-path  cluster  tool
+RAM is not anticipated.  Therefore, this exposition is limited
+to  serial  relationships  amongst  the  process  steps  and  single-
+constituent  parallel  relationships  for  alternatives  within  any
+one  step.    To  model  multi-path  cluster  tool  systems  that
+exceed these limitations, the modeler is encouraged to consult
+any text on the modeling of coherent systems for reliability.
+R1-5.5  For almost all systems, there will be a subset of
+modules that will appear in every IPF regardless of any
+process  differentiation,  called  the  key  group.    The  key
+group  includes  support  modules  (e.g.,  transport,  load
+locks), common process modules that are used by every
+IPF,  and  the  platform  itself.    A  key  group  may  include
+alternative  modules  such  as  multiple  load  locks  or
+multiple cooling stations.  The key groupís relationship
+to all IPFs is such that if the key group is down, all IPFs
+are   down.      Therefore,   the   key   group   has   a   serial
+relationship to each IPF.  By modeling a key group and
+leveraging   it   in   calculations,   substantial   redundant
+calculations  are  avoided.    Furthermore,  understanding
+which  modules  belong  to  the  key  group  also  helps  in
+understanding and improving overall system reliability.
+R1-5.6    Two  examples  are  now  presented  to  illustrate
+how  to  model  IPFs,  including  modeling  of  the  key
+group and of IPF state functions.
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 22
+R1-5.6.1  Example 1 ó This example, shown in Figure
+R1-4,   is   of   a   multi-path   cluster   tool   with   seven
+modules. L1 and L2 are load lock modules that are used
+to  load  units  into  the  tool.    A  single  transport  arm,  T,
+performs  all  point-to-point  transportation.    The  first
+process  module  visited  by  any  unit  is  either  PM1  or
+PM2, after which every unit visits PM3.  Lastly, L3 is a
+load  lock  that  is  used  to  unload  units  from  the  multi-
+path cluster tool.
+R1-5.6.1.1  The key group, K, as shown in Figure R1-5,
+is  made  up  of  the  three  load  locks  and  the  transport,
+which  are  the  common  support  modules  for  this  multi-
+path  cluster  tool  used  by  any  unit.    Since  all  modules
+visit PM3 regardless of any IPF distinction, PM3 also is
+included   in   the   key   group   in   order   to   simplify
+calculation.    Any  other  system-level  failure  issues  may
+be allocated to the abstract platform module, P.
+
+Li
+= Load Lock i, i = 1, 2, 3
+PMj = Process Module j, j = 1, 2, 3
+T = Transport Module
+T
+L1
+L2
+PM1
+PM2
+PM3L3
+
+
+Figure R1-4
+Multi-Path Cluster Tool Modules, Example 1
+L1
+L2
+TL3
+K
+=
+P
+PM3
+
+
+Figure R1-5
+Key Group, Example 1
+
+R1-5.6.1.2  The state value function for the key group is
+K = P
+× [1 − (1 − L1) × (1 − L2)] × T × L3 × PM3.
+For reference, the equivalent truth table for this logic is
+shown in Table R1-1:
+Table R1-1  Truth Table for Key Group, Example 1
+P          L1          L2          T          L3          PM3          K
+1            1            1            1            1            1            1
+1            1            0            1            1            1            1
+1            0            1            1            1            1            1
+else                                            0
+
+R1-5.6.1.3    IPF1  is  a  general  IPF  that  uses  the  key
+group  and  either  process  module  PM1  or  PM2,  as
+shown in Figure R1-6.
+PM1
+PM2
+K
+
+
+Figure R1-6
+IPF1, Example 1
+R1-5.6.1.4  The state value function for IPF1 = K
+× [1
+− (1 − PM1)
+× (1 − PM2)].  The equivalent truth table
+is shown in Table R1-2:
+Table R1-2  Truth Table for the State Function,
+Example 1
+K           PM1           PM2           IPF1
+1              1              1              1
+1              1              0              1
+1              0              1              1
+else                            0
+
+R1-5.6.1.5  IPF2 represents a process engineering issue
+where  PM2  is  not  sufficiently  matched  in  performance
+to  PM1.    Therefore  for  certain  processes,  all  units  are
+restricted  to  go  through  PM1  only  as  shown  in  Figure
+R1-7.
+PM1
+K
+
+
+Figure R1-7
+IPF2, Example 1
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 23
+R1-5.6.1.6    The  state  value  function  for  IPF1  =  K  ×
+PM1.    The  equivalent  truth  table  is  trivial  and  is
+therefore not shown.
+R1-5.6.2  Example  2  ó  This  example,  as  shown  in
+Figure  R1-8,  is  of  a  more  complicated  coat/develop
+system  that  has  56  total  modules,  including  four  load
+locks  (L1-L4),  four  common  transport  robots  (R1-R4),
+four coat stations, four develop stations, and four arrays
+of heat/chill plates with ten modules in each array.
+R1-5.6.2.1    The  key  group,  K,  contains  the  platform,
+the  four  load  locks,  and  the  four  transport  robots,  as
+shown  in  Figure  R1-9.    There  are  no  process  modules
+that are used in every IPF, therefore no process modules
+appear in K.
+
+R1
+R2
+R3
+R4
+10X Heat /
+Chill
+10X Heat /
+Chill
+10X Heat /
+Chill
+10X Heat /
+Chill
+Coat
+1,2
+Coat
+3,4
+Develop
+1,2
+Develop
+3,4
+L
+1, 2, 3, 4
+To
+Exposure
+
+Figure R1-8
+Modules For A Coat/Develop System
+
+L1
+L2
+L3
+L4
+R1R2R3R4
+K=
+P
+
+
+Figure R1-9
+Key Group Modules, Example 2
+
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 24
+R1-5.6.2.2  The state value function for the key group is K = P × [1 − Π
+i = 1 to 4
+(1 − Li)] × Π
+j=1 to 4
+Rj, which can be
+expanded to:
+K = P
+× [1 − (1 − L1) × (1 − L2) × (1 − L3) × (1 − L4)] × R1 × R2 ×R3 ×R4
+
+R1-5.6.2.3  The equivalent truth table is shown in Table R1-3:
+Table R1-3  Truth Table for State Function, Example 2
+P             L1            L2            L3            L4            R1            R2            R3            R4             K
+0            any          any          any          any          any          any          any          any            0
+1              0              0              0              0              any              any              any              any              0
+any          any          any          any          any            0            any          any          any            0
+any          any          any          any          any          any            0            any          any            0
+any          any          any          any          any          any          any            0            any            0
+any          any          any          any          any          any          any          any            0              0
+else                                                                            1
+
+NOTE  7:    This  truth  table  emphasizes  the  subsets  that  bring  the  key  group  ìdown,î  which  are  called  minimum  cut  sets,  rather
+than the subsets that keep the key group ìup,î called minimum path sets.
+R1-5.6.2.4  IPF1 has 13 steps and each step has two alternative modules, as shown in Figure R1-10.
+
+K
+step 1step 2step 3step 4step 5
+step 6
+step 7step 8step 9step 10step 11step 12
+step 13
+
+Figure R1-10
+Module Configuration For IPF1, Example 2
+
+R1-5.6.2.5  The state value function for IPF1 = K
+× Π
+i=1 to 13
+[1 − (1 − PM
+i,1
+) × (1 − PM
+i,2
+)].  The equivalent truth
+table is highly redundant and is therefore omitted.
+R1-5.6.2.6  IPF2 has the same 13 steps as IPF1.  However due to process matching issues, all units are restricted to a
+single process module at steps 1, 5, 9, and 13, as shown in Figure R1-11.
+
+K
+step 1
+step 2step 3step 4
+step 5
+step 6
+step 7step 8
+step 9
+step 10step 11step 12
+step 13
+
+Figure R1-11
+Module Configuration For IPF2, Example 2
+
+R1-5.6.2.7  The state value function for IPF2 = K
+× PM
+1,1
+× PM
+5,1
+× PM
+9,1
+× PM
+13,1
+× Π
+i={2-4, 6-8, 10-12}
+[1 − (1 −
+PM
+i,1
+) × (1 − PM
+i,2
+)]
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 25
+R1-5.6.2.8    The  coat/develop  system  is  likely  to  have
+several   more   IPFs   defined   essentially   in   the   same
+manner as IPF1 and IPF2, shown above.
+R1-5.7  Unscheduled Downtime versus Total Downtime
+ó In order to make a distinction between unscheduled
+downtime  and  total  downtime  for  an  IPF,  the  IPF
+function  discussed  thus  far  shall  be  executed  twice:
+once to determine an unscheduled downtime state and a
+second time to determine a general downtime state.
+R1-5.7.1    The  first  time  the  function  is  executed,  each
+module  variable  is  set  to  zero  if  the  module  is  in  an
+unscheduled  downtime  state  and  set  to  one  otherwise.
+If   the   function   evaluates   to   0,   the   IPF   is   in   an
+unscheduled downtime state.  Each contiguous instance
+of  process-flow  unscheduled  downtime  is  a  process-
+flow failure. If the function evaluates to 1, the IPF may
+be in either a general downtime state or an up state.
+
+
+M
+i-UD
+=
+
+0, if module i is in an unscheduled down state
+1, otherwise
+
+R1-5.7.2    The  second  time  the  function  is  executed,
+each  module  variable  is  set  to  zero  if  the  module  is  in
+either  a  scheduled  downtime  state  OR
+an  unscheduled
+downtime state and set to one otherwise.  If the function
+evaluates to 0, the IPF is in a general downtime state. If
+the function evaluates to 1, the IPF is a neutral state.
+
+
+M
+i-GD
+=
+
+0, if module i is in scheduled down state
+OR an unscheduled down state
+1, otherwise
+
+
+
+R1-5.7.3    To  summarize,  if  IPF(M
+UD
+)  =  0,  the  process-
+flow state is unscheduled downtime (UD). Otherwise, if
+IPF(M
+GD
+)   =   0   the   process-flow   state   is   general
+downtime  (GD),  and  if  IPF(M
+GD
+)  =  1,  the  IPF  state  is
+uptime.
+NOTE  8:    The  process-flow  state  for  an  IPF  that  has  at  least
+one  module  in  an  unscheduled  downtime  state  may  be  either
+(1)  unscheduled  downtime,  (2)  general  downtime,  or  (3)
+neutral. Condition (1) occurs when the unscheduled downtime
+module is serial within the IPF. Condition (2) occurs when the
+unscheduled  downtime  module  is  not  serial  within  the  IPF,
+but  a  module  (or  set  of  modules)  that  is  serial  within the IPF
+is in a scheduled downtime state.  Condition (3) occurs when
+none  of  the  downtime  modules  are  serial  within  the  IPF
+regardless of being in a scheduled or unscheduled state.
+R1-6  Determining Multi-Path Cluster Tool
+States
+R1-6.1    The  temporal  mapping  rules  for  determining
+multi-path     cluster     tool     ìproductive/unscheduled
+downtime/neutralî states from module ìproductive/not-
+productiveî states and IPF ìup/downtime/unscheduledî
+states is as follows:
+R1-6.1.1    If  any  module  is  in  the  ìproductiveî  state,
+then the cluster tool is in the ìproductiveî state.
+R1-6.1.2      Otherwise,   if   all   of   the   IPFs   are   in   the
+ìunscheduled   downtimeî   state,   then   the   multi-path
+cluster tool is in the ìunscheduled downtimeî state.
+R1-6.1.3  Otherwise, the multi-path cluster tool is in the
+ìneutralî state.
+R1-6.2  Each   contiguous   instance   of   a   multi-path
+cluster tool unscheduled downtime state is a multi-path
+cluster tool failure.
+NOTE  9:    This  logic  is  similar  to  the  relationship  between
+module states and the equipment states in SEMI E116, where
+the  SEMI  E116  ìbusyî  state  is  analogous  to  the  multi-path
+cluster  tool  ìproductive  state,î  the  SEMI  E116  ìblockedî
+state  is  analogous  to  the  ìunscheduled  downtimeî  state,  and
+the SEMI E116 ìidleî state is analogous to the ìneutralî state.
+However,  the  actual  relationship  between  these  two  sets  of
+states is neither trivial, nor direct.
+NOTE  10:    Productive  time  may  not  be  easily  allocated  to
+IPFs in the general case. It is expected that some modules will
+belong to more than one IPF and that it will be prohibitive to
+ascertain  the  specific  flow  for  each  module  from  moment  to
+moment. Hence, metrics that depend on productive time may
+not be calculated for IPFs.
+NOTE  11:    For  the  metrics  presented  in  this  document,  it  is
+not   necessary   to   calculate   downtime   states   other   than
+unscheduled  downtime  at  the  multi-path  cluster  tool  level.
+The  effect  of  states  other  than  productive  and  unscheduled
+downtime  on  the  multi-path  cluster  tool  is  evaluated  as  the
+aggregate effect of such states on the IPFs.
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 26
+R1-6.3  Example  3 — A  simplified  example  with  a
+discrete  timeline  is  shown  in  Figure  R1-12.    In  this
+example there are three modules (i.e., M1, M2, M3) and
+three  IPFs  (i.e.,  IPF1,  IPF2,  IPF3).  IPF1  uses  all  three
+modules, whereas IPF2 does not use M3, and IPF3 does
+not  use  M2.  The  state  value  functions  for  the  IPFs  are
+IPF1 = M1
+× M2 × M3, IPF2 = M1 × M2, and IPF3
+=  M1
+×  M3,  respectively.  Temporal  mapping  of  the
+IPFs  and  the  multi-path  cluster  tool  is  described  in
+Table R1-4.
+NOTE 12:  The condition between time t = 4 and t = 5, where
+the multi-path cluster tool is productive but all of its IPFs are
+down,  is  expected  only  as  a  transient  condition  in  actual
+practice.  Once  the  productive  module  finishes  its  task  in
+progress,  the  multi-path  cluster  tool  would  be  expected  to  go
+down.    However,  while  the  module  is  productive,  it  also  is
+accruing  theoretical  processing  time  used  in  the  SEMI  E79
+metric,   rate   efficiency.   The   allocation   of   this   transient
+condition to productive time is necessary in order to guarantee
+that  rate  efficiency  evaluated  over  any  interval  is  never
+greater than 100%.
+
+5
+100
+M1
+M2
+M3
+IPF2
+IPF3
+IPF1
+time
+Cluster Tool
+Module
+SEMI E10
+States
+Process
+Flow
+Up/Down
+States
+=Productive =Unscheduled Down =Not-Productive
+
+Figure R1-12
+Mapping Cluster-Tool States, Example 3
+
+Table R1-4  Temporal Mapping of Example 3
+Time Module Events IPF Events Cluster Tool State
+t = 0 M1 is productive. All IPFs are up. Productive
+t = 2 M2 goes down.
+M1 is still productive.
+IPF1 and IPF2 go to unscheduled
+downtime.
+Productive
+t = 4 M3 goes down.
+M1 is still productive.
+All IPFs are in unscheduled downtime. Productive
+t = 5 M1 exits productive state.
+No modules are productive.
+All IPFs are still in unscheduled downtime.  Unscheduled Downtime
+t = 7 M2 come back up.
+M3 transitions into scheduled
+downtime.
+IPF2 is up. At least one IPF is up.
+IPF1 and IPF3 are down, but not in
+unscheduled downtime
+Neutral
+t = 9 M3 comes back up.
+All modules are up.
+All IPFs are up. Neutral
+
+
+
+
+SEMI E10-0304
+E
+© SEMI 1986, 2004 27
+R1-7  Intended Process-Flow and Multi-Path
+Cluster-Tool Metrics
+R1-7.1    Once  the  IPF  and  multi-path  cluster  tool  state
+histories have been prepared, evaluation of metrics may
+be  performed  in  a  similar  manner  to  that  used  for
+evaluating  non-cluster  or  single-path  cluster  tools  or
+modules.    The  metrics  are  defined  below  with  sample
+calculations based on Example 3 from Section R1-6.
+NOTE 13:  The multi-path cluster tool metrics presented here
+reflect the reliability of the multi-path cluster tool against total
+failure  rather  than  partial  failure.    It  is  recognized  that  these
+metrics proposed here will reflect more favorably on systems
+with  higher  levels  of  redundancy  at  each  process  step.    The
+cost or ìtrade-offî of this redundancy may be evaluated using
+other metrics from SEMI E10, SEMI E79, SEMI E35, or from
+non-standard  evaluations.    It  also  is  recognized  that  these
+metrics  will  not  reflect  the  partial  loss  of  throughput  for  an
+IPF  that  is  ìup,î  but  some  of  its  alternative  modules  are
+ìdown.î Once again the analyst is encouraged to consult other
+metrics  from  SEMI  E10,  SEMI  E79,  or  from  non-standard
+evaluations.
+R1-7.2  Multi-Path Cluster Tool Reliability
+R1-7.2.1  Multi-Path   Cluster   Tool   Mean   Productive
+Time  Between  Failure  (MTBF
+p-CT
+)  ó  mean  productive
+time  between  failure  where  productive  time  occurs
+when at least one module is in the productive state, and
+a  failure  occurs  when  there  are  no  available  IPFs
+through the multi-path cluster tool due to module-level
+unscheduled downtime.
+
+MTBF
+p-CT
+=
+
+=
+
+
+=
+5 hours
+Number of Multi–Path Cluster Tool Failures
+Multi–Path Cluster Tool Productive Time
+5 hours
+1 failure
+
+R1-7.2.2  Multi-Path    Cluster    Tool    Failure    Time
+(MFT
+CT
+) ó mean time when there are no available IPFs
+through the multi-path cluster tool due to module-level
+unscheduled downtime.
+
+MFT
+CT
+=
+
+=
+
+=
+2 hours
+Number of Multi–Path Cluster Tool Failures
+Multi–Path Cluster Tool Unscheduled Downtime
+2 hours
+1 failure
+
+NOTE  14:    Since  multi-path  cluster  tool  productive  time  and
+multi-path  cluster  tool  unscheduled  downtime  are  mutually
+exclusive; they may be compatible with approaches based on
+renewal  cycle  models.    Other  renewal  cycle  results  (e.g.,  the
+limiting  probability  of  finding  the  cluster-tool  productive  or
+failed when approaching it at random) similarly may apply, as
+determined by the analyst.
+R1-7.3  Multi-Path Cluster Tool Availability
+R1-7.3.1  Multi-Path    Cluster    Tool    Aggregate    IPF
+Uptime  (Uptime
+CT-IPF
+)  ó  availability  of  the  multi-path
+cluster       tool       as       a       function       of       module
+ìup/downtime/unscheduled downtimeî   states   and   is
+evaluated as the aggregate uptimes of all IPFs.
+
+43. 3%
+10 + 10 + 10
+3 + 5 + 5
+13
+30
+×
+100
+×
+100
+Σ
+all IPFs
+
+IPF Uptime
+Uptime
+CT-IPF
+=
+
+=
+
+=
+
+≈
+Σ
+all IPFs
+IPF Operations Time
+×
+100
+
+NOTE    15:        For    reference,    the    value    of    the    aggregate
+availability  efficiency  metric  from  SEMI  E79  for  the  same
+example   is   20/30   or   66.7%.      This   difference   clearly
+demonstrates   that   depending   on   which   combination   of
+modules is ìdown,î the effect on the multi-path cluster toolís
+availability  may  be  substantially  different  than  the  aggregate
+module availability.
+
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturerís   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E12-0303 © SEMI 1986, 2003 1
+SEMI E12-0303
+STANDARD FOR STANDARD PRESSURE, TEMPERATURE, DENSITY,
+AND FLOW UNITS USED IN MASS FLOW METERS AND MASS FLOW
+CONTROLLERS
+This standard was technically approved by the Global Gases Committee and is the direct responsibility of the
+North  American  Gases  Committee.  Current  edition  approved  by  the  North  American  Regional  Standards
+Committee on October 25, 2002. Initially available at www.semi.org December 2002; to be published March
+
+# 2003
+
+2003. Originally published in 1986, previously published in 1996.
+1  Purpose
+1. 1    In  the  past,  confusion  has  existed  in  the  values  of
+standard  temperature  and  standard  pressure  when  gas
+flow  is  expressed  in  “standard”  volumetric  units.  To
+eliminate  this  confusion,  the  Mass  Flow  Controllers
+Committee has established this standard.
+2  Scope
+2. 1      This   standard   provides   a   common   basis   for
+communication between manufacturers and users.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standard
+3. 1  ASTM Standard
+1
+
+
+E   380-89a   —   Standard   Practice   for   Use   of   the
+International  System  of  Units  (the  Modernized  Metric
+System)
+NOTICE: Unless otherwise indicated, all documents
+cited shall be the latest published versions.
+4  Terminology
+None.
+5  Standard Temperature
+5. 1      Standard   temperature   is   defined   as   273.15   K
+(0.0°C).
+
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, Pennsylvania 19428-2959, USA.
+Telephone: 610.832.9585, Fax: 610.832.9555 Website:
+www.astm.org
+
+6  Standard Pressure
+6. 1    Standard  pressure  is  defined  as  101,325  pascals  (1
+atm, 760 Torr).
+7  Standard Density
+7. 1    The  standard  density  is  defined  as  Mw/22,413.6
+grams per standard cubic centimeter (g/scc), where Mw
+is  the  molecular  weight  of  the  gas  in  grams  per  mole
+(g/mol),  and  22,413.6  is  the  standard  molar  volume  in
+cubic  centimeters  (scc/mol)  (i.e.,  the  volume  of  one
+mole  of  a  perfect  gas  at  standard  temperature  and
+standard pressure).
+8  Standard Flow Rate
+8. 1  Standard flow rate is the volumetric flow rate of the
+gas at the standard density defined in Section 7.1.
+9  Units
+9. 1    Units  for  standard  flow  rate  may  be  expressed  as
+standard cubic centimeters per minute (sccm), standard
+liters  per  minute  (slm),  standard  cubic  decimeters  per
+minute  (scdm),  or  as  standard  cubic  meters  per  minute
+(scmm).
+1 sccm = 1 × 10
+-3
+* slm
+
+= 1 × 10
+-3
+* scdm
+
+= 1 × 10
+-6
+* scmm
+
+NOTE   1:   Units   in   this   document   have   been   editorially
+changed   to   sccm,   slm,   scdm,   and   scmm   in   line   with
+international standards which require all units to be expressed
+in SI terms. While neither “minute” nor “liter” is a primary SI
+unit, each is acceptable under the system, and eliminating the
+use of these units in this standard would seriously diminish its
+acceptability.
+10  Background
+10. 1  In the absence of this specification, there has been
+confusion   in   the   definition   of   standard   conditions.
+“Standard” temperature in particular has been variously
+defined as 59°F, 68°F, 70°F, 20°C, 22°C, etc. to reflect
+“normal” test conditions. The scientific community has
+
+
+SEMI E12-0303 © SEMI 1986, 2003 2
+generally   accepted   0°C,   as   has   the   semiconductor
+industry, in its definition of sccm. Standard pressure has
+almost  universally  been  accepted  as  one  atmosphere,
+except for rounding errors in different units.
+10. 2    Further  confusion  has  existed  in  the  definition  of
+standard  density  when  extended  to  vapors.  For  perfect
+gases (most light gases are nearly perfect), the standard
+density  can  be  defined  as  the  density  of  the  gas  at
+standard  temperature  and  pressure.  Since  one  gram
+mole of a perfect gas occupies 22,414 cubic centimeters
+at   standard   pressure   and   standard   temperature,   it
+follows  that  a  flow  rate  of  22,414  sccm  of  any  perfect
+gas is one mole per minute.
+10. 3  By defining standard density as in Section 7.1, the
+correlation between sccm and moles/minute is retained,
+even for vapors. If standard density were defined as the
+actual density of the vapor at standard temperature and
+pressure,  then  the  correlation  with  moles  per  minute
+would  differ  by  the  vapor's  compressibility  factor  (Z).
+This   is   not   an   acceptable   alternative   because   the
+compressibility   of   many   vapors   is   not   accurately
+known,  and,  in  fact,  does  not  exist  for  those  materials
+that are liquid at standard temperature and pressure.
+11  Implications for Calibration
+11. 1    Since  the  standard  flow  units  are  defined  at  a
+standard  density,  they  represent  units  of  mass  flow
+rather than volumetric flow.
+11. 2      Gravimetric   calibration   readings   in   grams   per
+minute  (g/min)  can  be  converted  to  standard  cubic
+centimeters   per   minute   (sccm)   by   dividing   by   the
+standard density (g/scc) as defined in Section 7.1.
+11. 3      Rate-of-rise   (ROR)   data   will   generally   have
+negligible  compressibility  error  when  operated  over  a
+low  absolute  pressure  range.  If  compressibility  errors
+are  significant,  they  will  cause  the  rate  of  pressure  rise
+to  be  reduced  and  become  pressure-dependent  as  the
+pressure increases. In this case, the pressure range must
+be reduced, or correction made, for compressibility.
+11. 4    Volumetric  flow  data  must  be  corrected  from
+actual density of the real gas at the test conditions to the
+standard     density.     The     actual     density     can     be
+approximated   for   near-perfect   gases   by   ratios   of
+absolute   pressure   and   temperature   to   the   standard
+density.   For   vapors,   the   actual   density   at   the   test
+conditions must be known from other data.
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E15-0698
+E2
+© SEMI 1990, 2003 1
+SEMI E15-0698
+E2
+(Reapproved 0703)
+SPECIFICATION FOR TOOL LOAD PORT
+This standard was technically reapproved by the Global Physical Insterfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  March  12,  2003.    Initially  available  at
+www.semi.org  May  2003;  to  be  published  July  2003.  Originally  published  in  1990;  previously  published
+March 2003.
+E
+This specification was editorially modified in November 2004 to correct an editorial error.  Changes were
+made to Table 1.
+1  Purpose
+1. 1  This  standard  is  intended  to  unify  the  interface
+between  process/inspection  tools  and  automated  wafer
+carrier      transport      systems      while      maintaining
+compatibility with human transport.
+2  Scope
+2. 1  This   specification   deals   with   the   mechanical
+interface  (load  port)  for  wafer  carrier  transfer  between
+wafer   carrier   material   transport   systems,   including
+humans,  and  wafer  fabrication/inspection  equipment
+(tools).    The    concept    defines    the    placement    and
+orientation   of   a   wafer   carrier   on   a   tool   to   allow
+reasonable    interfacing    with    mechanized    material
+movement    systems    without    compromising    human
+access to perform the material exchange function.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Impact
+3. 1  Compliance  with  this  specification  requires  the
+placement  of  load  ports  on  tools  to  specific  heights,
+orientations,   and   load   depths.   Restrictions   are   also
+placed  on  clearances  to  obstructions  which  may  be
+adjacent to such ports.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  E1  —  Specification  for  3  inch,  100  mm,  125
+mm, and 150 mm Plastic and Metal Wafer Carriers
+SEMI E19 — Standard Mechanical Interface (SMIF)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions
+5. 1.1  box — A protective portable carrier for a cassette
+and/or substrate(s).
+5. 1.2  cassette  —  An  open  structure  that  holds  one  or
+more substrates.
+5. 1.3  cassette  centroid  —  A  datum  representing  the
+theoretical  center  of  a  stack  of  wafers  in  a  cassette
+formed by the pocket centerline and the “center” pocket
+as  defined  by  the  location  associated  with  dividing
+dimension B3 by two (see SEMI E1, Figure 1).
+5. 1.4  cassette  envelope  —  A  rectangular  volume  with
+vertical  sides  which  completely  contains  a  cassette,
+even if the cassette is tilted (see Figure 1).
+5. 1.5  enclosed  load  port  —  A  load  port  with  overhead
+clearance obstructed by the tool.
+5. 1.6  global orientation — The general orientation of a
+wafer carrier in a tool; may be vertical or horizontal.
+5. 1.7  load  depth  —  The  horizontal  distance  from  the
+load  face  plane  to  cassette  centroid  or  carrier  centroid
+(see Figures 2 and 3 (D)).
+5. 1.8  load  face  plane  —  The  furthest  physical  vertical
+boundary   plane   from   cassette   centroid   or   carrier
+centroid on the side (or sides) of the tool where loading
+of the tool is intended (see Figures 2 and 3).
+5. 1.9
+load  height  —  The  distance  from  the  bottom  of
+the cassette or carrier to the floor at the load face plane
+(see Figure 3 (H)).
+5. 1.10  load  port  —  The  interface  location  on  a  tool
+where  wafer  carriers  are  delivered.  It  is  possible  that
+wafers  are  not  removed  from,  or  inserted  into,  the
+carrier at this location.
+5. 1.11  open  load  port  —  A  load  port  with  overhead
+clearance unobstructed by the tool.
+5. 1.12  pod  —  A  box  having  a  Standard  Mechanical
+Interface (SMIF) per SEMI E19.
+
+
+
+SEMI E15-0698
+E2
+© SEMI 1990, 2003 2
+5. 1.13  spacing   —   The   minimum   spacing   between
+centroids (see Figure 2, S).
+5. 1.14  tool  —  Any  piece  of  semiconductor  fabrication
+or  inspection  equipment  designed  to  process  wafers
+delivered in wafer carriers.
+5. 1.15  tilt  —  A  small  angle  of  offset  from  the  normal
+horizontal  or  vertical  orientation  of  a  cassette  or  wafer
+carrier designed to preferentially align or keep wafers in
+their  intended  place  within  the  carrier/cassette  (see
+Figure 1, T).
+5. 1.16  wafer carrier — Any cassette, box, pod, or boat
+that contains wafers.
+5. 1.17  wafer  carrier  centroid  —  A  datum  representing
+the theoretical location of the center of a stack of wafers
+in the carrier.
+5. 1.18  wafer carrier envelope — A rectangular volume
+with vertical sides which completely contains a carrier,
+even if the carrier is tilted (see Figure 1).
+5. 2  Description of Terms Specific to this Standard
+5. 2.1  carrier — Wafer carrier.
+6  Ordering Information
+6. 1  The    following    items    require    communication
+between the tool supplier and user and shall be included
+in  any  request  for  quotation,  quotation,  or  purchase
+order:
+6. 1.1  If  the  tool  has  multiple  load  ports,  provide  the
+spacing, S, between carrier centroids (see Section 7.8).
+6. 1.2  Specify    what    carrier    (e.g.,    SEMI    standard
+cassette, pod) is to be accommodated by the load port.
+6. 1.3  Specify   whether   the   load   port   is   open   or
+enclosed.
+6. 1.4  Specify    whether    the    wafer    orientation    is
+horizontal  (per  Section  7.3.1)  or  vertical  (per  Section
+7. 3.2).
+7  Requirements
+7. 1  The   dimensions   for   the   placement   of   a   wafer
+carrier on the load port of a tool are given in Table 1.
+7. 2  The  standard  is  based  upon  the  concept  that  any
+wafer  carrier  can  be  used.  Dimensions  are  usually
+specified  as  clearances  to  wafer  carrier  envelopes  (see
+envelope concept in Figure 1).
+7. 3  The  global  orientation  of  the  cassette  or  wafer
+carrier  is  constrained  to  be  parallel  or  perpendicular  to
+the load face plane. Allowable cassette orientations are:
+7. 3.1  For wafers horizontal, the opening of the cassette
+must  be  opposite  the  load  face  plane,  and  the  front
+surface of the wafer must face up (see Figure 4);
+7. 3.2  For  wafers  vertical,  the  opening  of  the  cassette
+must  face  up,  and  the  front  surface  of  the  wafer  must
+face the load face plane (see Figure 5).
+7. 3.3  This   requirement   also   applies   to   cassettes   in
+pods.
+7. 4
+The maximum tilt is 10 degrees.
+7. 5  The load height is specified as follows (see Figure
+3):
+7. 5.1  Dimension   H   is   900   mm   (~35.4   in.),   fully
+adjustable over ± 10 mm (~0.4 in.).
+7. 6  The  maximum  height  above  H  of  an  obstruction
+between  the  load  face  plane  and  the  carrier  envelope
+(such  as  for  an  alignment  device  or  identification  tag
+reader) is 50 mm (~2 in.) (see Dimension H1 in Figure
+3).
+7. 7  Clearances  (C1,  C2,  and  C3)  are  defined  with
+respect  to  the  largest  carrier  envelope  required.  For
+cassettes,    envelopes    are    defined    using    cassette
+dimensions  from  SEMI  E1.  For  pods  or  other  wafer
+carriers,   envelopes   are   defined   using   the   carrier
+standard    (if    any)    or    the    carrier    manufacturer's
+specifications  (see  Figure  1  for  concept  and  Figures  2
+and 3 for use).
+7. 8  Dimension S specifies the recommended minimum
+spacing between cassette/wafer carrier centroids. In any
+case, if S violates clearance C1 in any application, then
+C1 prevails (see Figure 2).
+7. 9  Tools   with   enclosed   load   ports   shall   have   a
+minimum  vertical  clearance,  C3,  above  the  cassette  or
+carrier  at  the  load  port.  Open  load  ports  shall  have  a
+vertical   clearance   above   the   load   port   which   is
+unrestricted by the tool.
+Table 1  Dimension Requirements, mm (inches)
+Dimension Application Value, mm (in.) Notes
+C1                                   minimum                                   75                                   (3)
+C2                                   minimum                                   30                                   (1.2)
+C3 minimum 225 (9) See Note 1
+D                                   maximum                                   250                                   (9.8)
+
+
+
+SEMI E15-0698
+E2
+© SEMI 1990, 2003 3
+Dimension Application Value, mm (in.) Notes
+H range 900 (35.4) ± 10 (.4) See Note 2
+H1                                  maximum                                  50                                  (2.0)
+S ≤ 150 mm carriers
+200 mm carriers
+350 (13.8)
+400 (15.7)
+See Section 7.8.
+T                                    maximum                                    10                                    degrees
+NOTE 1: Applies to tools with enclosed port; otherwise, clearance above the port must be unrestricted by the tool (see Section 5.8).
+NOTE 2: Fully adjustable over ± 10 mm (~0.4 in.) range.
+Table 2  Dimension Definitions
+Dimension                                                                                      Description
+C1  Minimum side clearance between one carrier envelope and another, or to vertical obstruction.
+C2  Minimum rear clearance from carrier envelope to vertical obstruction.
+C3  Minimum clearance above carrier envelope to horizontal obstruction on the tool.
+D  Maximum load depth to carrier centroid.
+H  Allowable load height to bottom of carrier envelope.
+H1  Maximum height of horizontal obstruction above load height between load face plane and carrier envelope.
+S  Recommended minimum spacing between carrier centroids.
+T  Maximum cassette or wafer carrier tilt.
+
+
+
+Figure 1
+Envelope Concept
+
+
+
+SEMI E15-0698
+E2
+© SEMI 1990, 2003 4
+
+Figure 2
+Load Port Requirements, Plan View
+
+
+Figure 3
+Load Port Requirements, Elevation View
+
+
+
+SEMI E15-0698
+E2
+© SEMI 1990, 2003 5
+
+Figure 4
+Wafer and Cassette Orientation, Wafers Horizontal
+
+
+Figure 5
+Wafer and Cassette Orientation, Wafers Vertical
+8  Related Documents
+8. 1  SEMI Documents
+SEMI E47 — Specification for 150 mm/200 mm Pod Handles
+SEMI E48 — Specification for SMIF Indexer Volume Requirement
+SEMI S8 — Safety Guidelines for Ergonomics Engineering of Semiconductor Manufacturing Equipment
+SEMI T4 — Specification for 150 mm and 200 mm Pod Identification Dimensions
+SEMI Compilation of Terms
+
+
+
+
+SEMI E15-0698
+E2
+© SEMI 1990, 2003 6
+APPENDIX 1
+APPLICATION NOTES
+NOTICE: This appendix was approved as an official part of SEMI E15 by full letter ballot procedure.
+A1-1  Material  transport  automation  can  come  in  a  number  of  forms,  including  AGV’s  (automated  guided
+vehicles)  and  tracks  (conveyers),  which  operate  anywhere  from  tool  loading  level  to  ceiling  level.  Wafers  may  be
+transported in cassettes or in carriers (such as cassettes in pods). Automation provides flexibility with regard to the
+range of interface coordinates it can accommodate. On the other hand, it is clear that humans will continue to load
+carriers  on  tools  in  many  fabs.  SEMI  E15  is  an  attempt  to  satisfy  all  of  these  needs,  including  continued  human
+compatibility.  In  fact,  compatibility  of  automation  and  human  ergonomics  has  been  considered  of  primary
+importance in the rewrite of this standard.
+A1-2  The  increased  value  for  C1,  of  75  mm,  over  the  previous  value  in  this  standard  is  determined  by  the
+ergonomic  requirement  to  accommodate  a  95th  percentile  human  male  hand  carrying  a  pod  by  its  handles.
+Limitation  of  the  load  port  height  to  900  mm  was,  again,  driven  by  ergonomic  considerations,  as  the  previously
+allowed value of up to 1300 mm was clearly “user unfriendly.”
+A1-3  Equipment  suppliers  must  consider  the  dimension,  S,  in  order  to  ensure  that  their  tool  will  be  compatible
+with  automation  systems  and  pods.  This  fact  applies  to  tools  with  more  than  one  load  port  per  tool.  In  order  to
+enable space for two pods on side-by-side load ports, the dimension, S, must be greater than or equal to 350 mm for
+tools processing 150 mm or smaller wafers, and 400 mm for 200 mm wafer tools. The dimension, S, is defined as
+the distance between wafer carrier centroids. Driving factors for S are that the size of a pod is larger than a cassette
+and that ergonomic guidelines suggest a clearance of at least 75 mm between the box and an adjacent object in order
+to provide space for the human hands to grasp and pick up the box by its handles.
+A1-4  A  global  horizontal  placement  tolerance  of  15  mm  of  the  carrier  centroid  should  be  allowed  by  the
+alignment means of the load port. (That is, a misalignment by up to ± 7.5 mm in both the x and y directions of the
+carrier centroid will still allow the alignment means to guide the carrier to its correct final location on the load port).
+The  misplacement  dimension  is  made  large  to  be  consistent  with  the  tactile/visual  capabilities  of  humans  and  the
+placement  accuracy  of  AGV’s.  This  requires  that  the  load  port  provide  some  alignment  aid  to  bring  the  carrier
+centroid  to  within  the  final  registration  tolerance  (generally  0.5  mm)  required  by  the  automated  wafer  handling  of
+the tool. Standards for this registration tolerance will generally be found in the SMIF documents.
+A1-5  The  standard  purposely  does  not  address  vacuum  load  locks.  Since  minimization  of  volume  is  usually  a
+design requirement for a vacuum load lock, the minimum clearances (C1 – C3) of this standard are not compatible
+with optimum load lock design. It is not intended that vacuum load locks would be the load port of a tool in which
+vacuum  processing  is  performed.  Simple  solutions  exist  today  for  transportation  of  a  cassette,  or  of  individual
+wafers, from a SEMI E15-compatible load port to a vacuum load lock. Open load ports are intended to be specified
+for use with overhead transport systems for automation.
+A1-6 It is not easy to formulate a standard which allows compatibility with such a wide range of requirements.
+Nor  is  it  easy  to  design  equipment  compatible  with  a  number  of  different  standards  affecting  the  same  hardware.
+SEMI E15 covers a wide range of applications without causing undue compromise in any particular implementation,
+while remembering that most of our fabs will continue to use human transport in the immediate future. We hope this
+short discussion of key issues aids in your understanding of the intent and details of the standard.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E16-90 © SEMI 1990, 2004 1
+SEMI E16-90 (Reapproved 1104)
+GUIDELINE FOR DETERMINING AND DESCRIBING MASS FLOW
+CONTROLLER LEAK RATES
+This  guideline  was  technically  approved  by  the  Global  Gases  Committee  and  is  the  direct  responsibility  of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  July  11,  2004.    Initially  available  at  www.semi.org  September  2004;  to  be  published
+November 2004. Originally published in 1990, last published June 1999.
+1  Purpose
+1. 1  The  purpose  of  this  guideline  is  to  establish  a
+uniform,    worldwide    means    for    describing    and
+measuring leak rates of mass flow controllers.  The leak
+integrity   of   a   gas   delivery   system   is   important   to
+maintaining  product  quality  and  performance.    This
+guideline    is    intended    to    prevent    confusion    and
+misunderstanding  between  manufacturers  and  users.  In
+particular,   it   distinguishes   between   mechanical   and
+diffusion leak rates.
+2  Scope
+2. 1  This  guideline  contains  definitions  of  terms  and
+procedures for determining the Leak Rates of mass flow
+controllers as used in the semiconductor industry.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Terminology
+3. 1  Definitions
+3. 1.1  leak ⎯ a path or paths in a sealed system which
+will  pass  helium  when  a  partial  pressure  differential
+exists.    A  partial  pressure  differential  can  exist  for
+helium even though a total gas pressure differential may
+not  exist.    There  are  two  major  leak  mechanisms,  a
+mechanical passage or a material through which gas can
+diffuse or permeate.  In a real system, a leak may have
+both mechanisms operating in parallel.
+3. 1.1.1  A mechanical leak may be a physical crack, pit,
+scratch  or  other  imperfection  in  a  sealing  surface,  or
+contamination  or  debris  on  the  seals.    A  diffusion  or
+permeation  leak  is  caused  by  the  movement  of  helium
+through  gaskets,  O-rings,  polymers,  or  other  materials
+through which helium can diffuse.
+3. 1.2  measured  leak  rate ⎯  the  leak  rate  of  a  given
+system    measured    under    specified   conditions   and
+employing   a   specified   test   gas   (helium).      For   the
+purposes of comparison with rates determined by other
+methods   of   testing,   measured   leak   rates   must   be
+converted to equivalent standard leak rates.
+3. 1.3  sensitivity  (minimum  detectable  leak  rate) ⎯  the
+smallest  standard  leak  rate  that  an  instrument,  method
+or  system  is  capable  of  measuring  under  specified
+conditions.
+3. 1.3.1  For    the    purposes    of    this    document,    the
+Measured  Leak  Rate  shall  be  corrected  to  Standard
+Leak Rate by multiplying by the ratio of 101.32 kPa to
+the  absolute  value  of  the  pressurizing  helium  unless
+otherwise called for by the MFC specifications.
+RateLeak  Standard
+Pressure Actual He
+kPa32101RateLeak  Measure
+=
+× .
+
+3. 1.4  standard  leak  rate ⎯  the  quantity  of  helium  at
+25°C  and  101.3  kPa  (760  Torr)  flowing  through  a  leak
+when  the  high  pressure  side  is  at  101.32  kPa  and  the
+low  pressure  side  is  below  100  Pa  (approximately  1
+Torr).    Standard  Leak  Rate  shall  be  expressed  in  the
+following units:
+Pa-m
+3
+/s   (He)   =   “Pascal   cubic   meters   per   second,
+helium”
+or, alternatively,
+atm-cc/s  (He)  =  “atmospheric  cubic  centimeters  per
+second, helium”
+3. 1.4.1  The  “mass  spectrometer  helium  leak  detector”
+is  generally  used  for  leak  rate  testing  of  high  and
+medium  level  vacuum  apparatus.    Units  of  sccs,  Torr-
+L/s,  and  m  bar-L/s,  have  been  used  in  the  past  but  are
+not   encouraged.      Reference   materials   include   MIL
+STD-202E, C-1.
+NOTE 1:  The  Pascal  (1Pa  =  1  N/m
+2
+)  is  defined  as  the
+pressure  unit  of  the  international  unit  system  SI.    Therefore,
+the SI units above are preferred.  Atm-cc/s is acceptable, as it
+is widely used in the semiconductor industry.
+4  Testing
+4. 1  General Requirements
+4. 1.1  Leak  Detector ⎯  The  leak  detector  shall  be  of
+the  helium  mass  spectrometer  type.    It  shall  have
+sensitivity at least equal to or smaller than the specified
+leak  rating  of  the  mass  flow  controller  to  be  tested.    If
+
+
+
+SEMI E16-90 © SEMI 1990, 2004 2
+the actual leak rate is to be reported, the sensitivity shall
+be  five  times  smaller  than  the  leak  to  be  measured.    If
+the  sensitivity  is  not  five  times  smaller,  the  actual  leak
+rate may be reported if the sensitivity of the detector is
+also reported.
+4. 1.2  Helium must have access to all primary seals.
+4. 1.3  Connections   between   the   MFC   and   the   leak
+detector must be leak-tight.
+4. 1.4  The  ambient  temperature  of  the  MFC  should  be
+25°  ±  5°C  unless  otherwise  specified.    If  another  test
+temperature is used, it must be recorded during the test.
+4. 2  Test  Procedures ⎯  There  are  two  basic  setups
+which  may  be  used  to  measure  the  leak  rate  from  the
+external environment to the internal gas passages of the
+MFC  or  from  the  internal  passages  to  the  external
+environment.    Results  for  either  test  method  may  be
+reported.  The method used must be reported as well.  A
+third  test,  the  through-the-valve  setup,  is  intended  to
+measure the quality of the valve seat shutoff.
+4. 2.1  Internally-Pressurized  Leak  Test  ⎯  The  purpose
+of  this  test  set-up  is  to  simulate  operation  of  the  MFC
+under  conditions  where  the  internal  pressure  is  above
+ambient.    The  recommended  internal  pressure  is  300
+kPa absolute (30 psig) of helium (see Figure 1).
+
+Regulator
+Pressure Gauge
+Helium
+Temp
+MFC
+Leak Tight Enclosure
+Pressure
+Leak Rate
+Mass Spec.
+Gauges and
+Vacuum Pumps
+Leak Detector
+
+Figure 1
+Internally-Pressurized Leak Test
+
+4. 2.2  Externally-Pressurized Leak Test ⎯ The purpose
+of  this  test  is  to  simulate  operation  of  the  MFC  under
+conditions  where  the  internal  pressure  is  at  vacuum.
+The  external  pressure  should  be  equal  to  atmospheric
+pressure.  The internal pressure should be less than 100
+kPa (see Figure 2).
+Regulator
+Pressure Gauge
+Helium
+Temp
+MFC
+Leak Tight Enclosure
+Pressure
+Leak Rate
+Mass Spec.
+Gauges and
+Vacuum Pumps
+Leak Detector
+
+Figure 2
+Externally-Pressurized Leak Test
+
+4. 2.3  Control  Valve  Seat  Leak  Test  ⎯  The  purpose  of
+this test is to determine the leakage through the control
+valve  under  simulated  operation  in  the  closed  control
+mode.    The  MFC  should  be  electrically  energized  for
+normal  operation  and  placed  in  the  closed  position  as
+specified  for  the  operation  of  the  MFC.    The  input
+pressure  to  the  MFC  should  be  100  kPa  ±  20%.    The
+outlet  should  be  connected  directly  to  the  helium  leak
+detector,  and  pressure  should  be  as  low  as  possible
+using good leak detector practice (see Figure 3).
+
+Regulator
+Pressure Gauge
+MFC
+Pressure
+Leak Rate
+Mass Spec.
+Gauges and
+Vacuum Pumps
+Leak Detector
+Helium
+
+Figure 3
+Control Valve Seat Leak Test
+
+4. 2.3.1  In the case of MFCs which are not designed for
+positive   shutoff   at   the   control   valve,   alternative
+methods may be employed if documented and reported.
+4. 3  Reporting Results ⎯ The example shown in Figure
+4  is  a  plot  of  leak  detector  output  value  vs.  time  for  a
+representative elastomer-sealed MFC.  This curve is the
+sum of mechanical and permeation leak components.
+NOTE 2:  All  times  are  from  application  of  helium,  starting
+with a leak detection system pumped down to base reading.
+
+
+SEMI E16-90 © SEMI 1990, 2004 3
+
+
+Interval                    Rate                    Example
+t1 Initial System Response  Less than 10 seconds
+t2 Leak Prior to Onset of
+Permeation
+w1 10 seconds to 1 minute
+t3 Increasing Permeation  1 minute to 30 minutes
+t4 Total Saturation w2 Beyond 30 minutes
+
+Figure 4
+Leak Detector Output Value vs. Time
+
+4. 3.1  The   actual   shape   of   these   curves   and   time
+intervals  is  dependent  on  the  design  of  the  MFC  under
+test,  the  elastomer  used,  if  any,  and  the  characteristics
+of the leak detection system.  These time intervals must
+be   determined   using   sound   engineering   judgment
+following  qualification  testing  of  the  specific  MFC
+model   and   test   set-up.      Once   determined,   it   is
+recommended   that   receiving   inspection   consist   of
+measuring  for  leak  rate  value  w1  at  the  end  of  interval
+t2.
+4. 3.2  Following   qualification   testing,   report   typical
+values for t1 through t4 and w1 and w2. w1 is primarily
+the   mechanical   portion   of   the   leak,   and   w2   is
+mechanical  plus  permeation.  In  the  case  where  w2  is
+significantly    greater    than    w1, w2    is    primarily
+permeation.  In the case of a gross mechanical leak, w1
+could greatly exceed, and thereby mask, w2.
+NOTE 3:  This  test  must  be  performed  with  elastomers  that
+are  devoid  of  helium.    Such  elastomers  have  either  not  been
+previously   exposed   to   helium   or   have   been   degassed
+following  exposure.    Once  this  test  has  been  performed,  the
+elastomers  must  be  purged  of  helium  by  the  passage  of  time
+and/or baking.
+4. 3.3  In  good  leak  testing  practice,  the  background
+level should be verified before the application of helium
+to  ensure  that  the  elastomers  are  in  a  helium  degassed
+state  and  that  the  leak  detecting  system  is  in  proper
+operation.
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E17-0600 © SEMI 1991, 20001
+SEMI E17-0600
+GUIDELINE FOR MASS FLOW CONTROLLER TRANSIENT
+CHARACTERISTICS TESTS
+This guideline was technically approved by the Global Facilities Committee and is the direct responsibility of
+the  North  American  Facilities  Committee.    Current  edition  approved  by  the  North  American  Regional
+Standards  Committee  on  April  10,  2000.    Initially  available  at  www.semi.org  April  2000;  to  be  published
+June 2000.  Originally published in 1991.
+1  Scope
+1. 1   This  guideline  is  intended  to  e stablish  a  common
+basis for communication between users and suppliers of
+semiconductor  equipment.  It  provides  terminology  and
+methodology  aimed  at  eliminating  confusion  regarding
+what previously has been referred to as MFC “response
+time.”  The  conditions  and  procedures  are  given  for
+determining and expressing the transient characteristics
+of a mass flow controller (MFC) to a step change in set
+point.  This  guideline  applies  to  mass  flow  controllers
+for gases used in semiconductor fabrication equipment.
+1. 2   This  guideline  does  not  purpor t  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  guideline  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+2  Definitions (Figures 1 and  2)
+2. 1   Actual  Flow  —  For  the  purpos e  of  this  standard,
+the output value of the master reference standard.
+2. 2  Dead Time — The interval of  time between the set
+point   step   change   and   the   start   of   the   resulting
+observable response.
+2. 3  Final Steady State Value — Th e average value of
+the  actual  flow,  after  the  effects  of  the  input  transient
+have  expired  to  a  value  equal  to  or  below  the  intrinsic
+drift and noise.
+2. 4   Settling  Time  —  The  time  betw een  the  set  point
+step  change  and  when  the  actual  flow  remains  within
+the specified band.
+2. 5   Step  Response  Time  —  The  tim e  between  the
+setpoint  step  change  and  when  the  actual  flow  first
+enters the specified band.
+2. 6   Transient  Overshoot  —  The  m aximum  change  in
+actual  flow  minus  the  steady  state  change  in  actual
+flow,  expressed  as  a  percentage  of  the  set  point  step
+change.
+2. 7   Transient  Undershoot  —  The   maximum  amount
+that  the  actual  flow  passes  the  final  steady  state  value,
+in  the  opposite  direction  of  overshoot,  expressed  as  a
+percentage of the set point step change.
+2. 8  Set Point — The electrical inp ut signal to the MFC
+which sets the desired value of the controlled flow.
+2. 9  Specified Band — The region  between ± 2% of the
+final   steady   state   value   or   ±   0.5%   of   full   scale,
+whichever is greater.
+3  Test Setup
+3. 1   The  purpose  of  the  flow  system    is  to  furnish  the
+mass flow controller under test with a constant pressure
+supply  of  suitable  gas.  It  must  also  provide  a  means  of
+determining  the  gas  flow  rate  through  the  mass  flow
+controller   that   responds   to   changes   in   gas   flow
+significantly  faster  than  the  device  under  test.  The
+recommended  flow  system  for  testing  the  speed  of
+response of MFCs is shown in Figure 3a.
+3. 2  The flow system shall have str aight tubing or pipe
+connecting  the  MFC  to  the  master  reference  standard.
+The  inside  diameter  of  the  interconnecting  tubing  or
+pipe shall be of sufficient size to preclude any pressure
+drop that would affect the performance of the MFC.
+3. 3   The  pneumatic  time  constant,  T au,  should  be
+minimized. (See Section 3.7.)
+Tau =(V*DPm) / (Qm*Pa)
+Where:
+V =Internal volume of the flow system between the
+MFC under test and the master reference standard,
+including tubing, fittings and the side of the master
+reference standard that is connected to the MFC
+under test.
+Qm =    Maximum volumetric flow expected during the test.
+DPm =  Pressure drop of the master reference standard at
+flow Qm.
+Pa =The absolute pressure present at the outlet of the
+master reference standard at final steady state value.
+3. 4   The  source  of  the  test  gas  shal l  be  capable  of
+delivering  an  essentially  constant  upstream  pressure  to
+the  mass  flow  controller  under  test  during  the  transient
+characterization.  A  maximum  variation  of  ±  2%  from
+
+SEMI E17-0600 © SEMI 1991, 20002
+the median absolute pressure is considered adequate for
+most mass flow controllers.
+3. 5  Nitrogen is the recommended  gas for the standard
+test  shown  in  Figure  3a.  The  inlet  pressure  is  25  psig
+(1.75   kg/cm
+2
+G).   Outlet   pressure   is   the   prevailing
+atmospheric   pressure.   The   temperature   of   the   gas
+entering   the   flow   controller   and   the   temperature
+surrounding   the   flow   controller   shall   be   the   same.
+Neither  shall  vary  during  the  test  so  as  to  have  a
+significant effect.
+3. 5.1   The  preceding  conditions  are  r ecommendations.
+Deviations  may  be  made  to  more  accurately  reproduce
+the  conditions  that  the  MFC  will  experience  in  use,
+such as the variation shown in Figure 3b. Any deviation
+from  the  above  gas  and  pressure  conditions  and/or  test
+setup must be noted with the test results.
+3. 6  The master reference standard  is used to provide a
+representation  of  the  instantaneous  actual  flow.  It  is
+customary to refer to the output of the master reference
+standard as the actual flow. It shall have an accuracy of
+± 5% of reading (including linearity), or better, over the
+flow  range  for  which  results  will  be  reported.  The
+pressure  drop  across  the  master  reference  standard  at
+the  test  flow  shall  be  small  enough  to  not  effect  the
+response of the MFC under test.
+3. 6.1  Typical master reference stand ards are Hot-Wire
+flow   meters   (or   similar   immersible   thermal   flow
+sensors),   laminar   flow   elements   with   a   differential
+pressure transducer, and Rate of Rise (RoR) systems.
+3. 7  The measuring system respons e time is the sum of
+the pneumatic time constant, master reference response
+time  and  the  recording  system  response  time.  The
+measuring  system  response  time  shall  be  less  than  1/5
+of any reported transient characteristic. If the measuring
+system  response  time  is  greater  than  1/5  of  a  specific
+transient   characteristic,   that   characteristic   may   be
+reported  if  the  measuring  system  response  time  is  also
+reported.
+3. 8   The  test  setup  shall  provide  a  s tep  change  in  the
+setpoint to the mass flow controller, along with a time-
+zero cue to the data acquisition system. The step change
+transient time shall be less than 1% of the step response
+time of the MFC under test.
+3. 9  The test setup is recommended  for MFC full scale
+flow rates above 10 sccm. In those cases where the flow
+rate  is  below  10  sccm  and  the  pneumatic  time  constant
+is  not  less  than  1/5  of  the  step  response  time  of  the
+MFC the pneumatic time constant shall be reported.
+3. 10   The  MFC  shall  be  electrically   energized  for  the
+supplier recommended “warm up” time prior to the start
+of the test.
+Figure 1
+Definitions of MFC Transient Characteristics Terminology in the Case
+Where the Final Set Point Is Higher than the Initial Set Point
+
+SEMI E17-0600 © SEMI 1991, 20003
+Dead Time (seconds)
+Initial Set Point
+Transient Undershoot
+(% of Set Point Step Change)
+Transient Overshoot
+(% of Set Point Change)
+Step Response Time (seconds)
+Settling Time (seconds)
+* ± 2% of the Final Steady State Value or
+0. 5% of Full Scale, whichever is greater
+Final Steady State Flow
+Specified Band
+-5
+t
+0
+5
+10
+Time (seconds)
+Mass Flow Rate
+(sccm or slsm)
+Figure 2
+Definitions of MFC Transient Characteristics Terminology in the Case
+Where the Final Set Point Is Lower than the Initial Set Point
+Set Point
+Pressure
+Gauge
+Pressure
+Regulator
+Gas Supply
+Mass Flow
+Controller
+Master Reference
+Standard
+Strip Chart
+Recorder, or other
+data acquisition
+system
+MFC Output Signal Optional
+Figure 3a
+MFC Transient Characteristics Test Setup with Outlet at Atmospheric Pressure
+
+SEMI E17-0600 © SEMI 1991, 20004
+Figure 3b
+MFC Transient Characteristics Test Setup with Outlet at Vacuum
+Figure 3c
+VFC Transient Characteristics Test Setup with Rate of Rise (RoR) System
+4  Test Procedure
+4. 1  Evaluate the transient characte ristics from “OFF” to a flowing condition at final set point by a transition in set
+point voltage only.
+4. 1.1  Apply a set point voltage suffi cient to close the control valve following the manufacturer’s recommendation.
+This may be a voltage other than zero, either positive or negative. Allow the output of the mass flow controller and
+the actual flow, if any, to stabilize.
+4. 1.2  Apply the final set point value  as shown in Table 1.
+
+SEMI E17-0600 © SEMI 1991, 20005
+4. 2  Evaluate the transient characte ristics from “OFF” to a flowing condition at final set point by using an auxiliary
+input to an MFC designed for the purpose.
+4. 2.1  Establish an “OFF” condition  following the manufacturer’s recommendation. The setpoint should be applied
+as shown in Table 1. Allow the output of the mass flow controller and the actual flow, if any, to stabilize.
+4. 2.2  Change the state of the auxilia r y input to achieve control.
+4. 3  Evaluate the testing transient c haracteristics between two non-zero set point controlled flows.
+4. 3.1  Adjust the command to the “in itial set point” in Table 1, and allow the actual flow (as measured by the master
+reference standard) to stabilize.
+4. 3.2  Apply final set point as shown  in Table 1.
+4. 4   Refer  to  Figures  3  and  4  to  det ermine  the  dead  time,  step  response  time,  settling  time,  overshoot,  and
+undershoot. Record the results in Table 1.
+5  Test Results
+5. 1  Transient characteristics test re sults shall be presented as follows:
+(1) “OFF” means the MFC set point is zero or the lowest value permitted.
+(2) The control valve leak rate at shut-off shall be recorded.
+(3) Other initial and final set points may be tested and reported.
+(4) The transient characteristics of the MFC electrical output signal shall also be recorded during the above testing
+for purposes such as comparison with the actual flow.
+Table 1
+Initial Set Point
+(% of Full Scale)
+OFF
+(1)
+OFF
+(1)
+2575
+OTHER
+(3)
+Final Set Point
+(% of Full Scale)
+100257525OTHER(3)
+Dead Time
+(Seconds)
+Step Response Time
+(Seconds)
+Settling Time
+(Seconds)
+Transient Overshoot
+(Percent of set point
+step change)
+Transient Undershoot
+(Percent of set point
+step change)
+NOTICE: SEMI makes no warranties or representations as to the suitability of the guideline set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  guideline  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  These guidelines are subject to change without notice.
+The user’s attention is called to the possibility that compliance with this guideline may require use of copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  guideline,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+guideline.  Users of this guideline are expressly advised that determination of any such patent rights or copyrights,
+and the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E18-91 (Reapproved 1104)
+GUIDELINE FOR TEMPERATURE SPECIFICATIONS OF THE MASS
+FLOW CONTROLLER
+This  guideline  was  technically  approved  by  the  Global  Gases  Committee  and  is  the  direct  responsibility  of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  July  11,  2004.    Initially  available  at  www.semi.org  September  2004;  to  be  published
+November 2004. Originally published, in 1991; last published February 1999.
+1  Purpose
+1. 1  The  purpose  of  this  guideline  is  to  establish  a
+uniform,  worldwide  means  to  describe  the  temperature
+parameters   which   are   characteristic   of   mass   flow
+controllers.  It  is  intended  to  prevent  confusion  and
+misunderstanding between manufacturers and users.
+2  Scope
+2. 1  This  guideline  contains  definitions  of  terms  which
+describe  the  effects  of  temperature  upon  mass  flow
+controllers as used in the semiconductor industry.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standard
+SEMI    E12    —    Standard    for    Standard    Pressure,
+Temperature,  Density,  and  Flow  Units  Used  in  Mass
+Flow Meters and Mass Flow Controllers
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Definitions (see Figure 1)
+4. 1.1  ambient  temperature  —  the  temperature  of  the
+medium surrounding the device.
+NOTE 1:  The    ambient    temperature    assumes    that    the
+instrument   is   not   exposed   to   significant   radiant   energy
+sources.
+4. 1.2  calibration     temperature     —     the     ambient
+temperature  at  which  the  mass  flow  controller  was
+calibrated.
+4. 1.2.1  Description Form: ___°C
+CAUTION  —  Calibration  Temperature  is  not  to  be
+confused     with     Gas     Temperature     or     Standard
+Temperature.
+4. 1.3  gas temperature — the actual temperature of the
+flowing gas at the primary flow standard.
+4. 1.4  maximum   baking   temperature   —   the   highest
+temperature  to  which  the  Mass  Flow  Controller  or  its
+components  in  contact  with  the  gas  can  be  heated  in
+accordance  with  a  specified  baking  procedure.  The
+specified    baking    process    will    not    impair    the
+performance   characteristics   per   the   manufacturers
+specifications. (“Baking” is a process whereby a device
+is  heated  to  accelerate  the  removal  of  adsorbed  gases
+and/or other volatile material).
+4. 1.4.1  Description Form: MAX. ___°C
+4. 1.5  normal operating temperature — the temperature
+range    within    which    the    influence    of    ambient
+temperature on the performance is stated.
+4. 1.5.1  Description Form: ___°C – ___°C
+4. 1.6  operating   temperature   limits   —   operation   is
+permitted  within  this  range  but  performance  is  not
+specified  beyond  the  Normal  Operating  Temperature.
+If   the   instrument   is   operated   outside   these   limits
+damage may occur.
+4. 1.6.1  Description Form: ___°C – ___°C
+4. 1.7  reference  operating  temperature  —  the  range
+within    which    accuracy    statements    apply    without
+requiring   correction   for   Temperature   Effects   (see
+Section 4.1.10).
+4. 1.7.1  Description Form: ___°C – ___°C
+4. 1.8  standard   temperature   —   the   temperature   to
+which  a  volumetric  flow  rate  (measured  at  the  Gas
+Temperature)  is  referenced  through  the  ideal  gas  law
+(PV = nRT).  SEMI E12 defines Standard Temperature
+as 0.0°C.
+CAUTION — Standard Temperature is not the same as
+the Gas Temperature or Calibration Temperature.
+4. 1.9  storage  temperature  limits  —  the  temperature
+limits   to   which   the   mass   flow   controller   may   be
+subjected  in  an  unpowered  condition.  No  permanent
+impairment     shall     take     place,     however     minor
+adjustments  may  be  needed  to  restore  performance  to
+normal.
+SEMI E18-91 © SEMI 1991, 2004 1
+
+
+4. 1.9.1  Description form: ___°C – ___°C
+
+Figure 1
+
+4. 1.10  temperature effects — See Figure 2.
+NOTE 2:  This  section  requires  that  Gas  Temperature  be  the
+same as Ambient Temperature.
+4. 1.10.1  span  effect  —  the  change  in  span  due  to  a
+change   in   ambient   temperature   from   one   normal
+operating  temperature  to  a  second  normal  operating
+temperature.    All  other  conditions  must  be  held  within
+the limits of reference operating conditions.
+4. 1.10.1.1  The  effect  of  temperature  change  on  span
+may be expressed as a coefficient calculated as the ratio
+of   percent   of   reading   change   in   output   to   the
+corresponding  change  in  temperature.    The  change  in
+ambient   temperature   should   be   specified.      This
+coefficient is defined as the “temperature coefficient of
+span.”
+Example:   Temperature   coefficient   of   span   may   be
+expressed as:
+
+NOTE 3:  If  the  relation  between  temperature  and  change  in
+output is linear, one coefficient will suffice.
+4. 1.10.1.2  If  the  temperature  influence  is  non-linear  a
+different  method  of  expression  may  be  used.    Two
+examples:
+1.
+The  percent  of  span  change  in  output  will  not
+exceed    a    specified    value    for    any    value    of
+temperature within a specified temperature range.
+Example:  “±  1.0%  of  reading  maximum  error  over
+10°C to 50°C”
+2.   It  may  be  desirable  to  state  a  series  of  coefficients
+for  successive  increments  of  temperature  within  a
+specified temperature range.
+
+
+Figure 2
+Span and Zero Shift
+
+4. 1.10.2  total  effect  —  the  change  in  output,  including
+zero and span, due to a change in Ambient Temperature
+from  one  normal  operating  temperature  to  a  second
+normal  operating  temperature.    All  other  conditions
+must  be  held  within  the  limits  of  reference  operating
+conditions.
+4. 1.10.3  zero  effect  —  the  change  in  zero  due  to  a
+change   in   ambient   temperature   from   one   normal
+operating  temperature  to  a  second  normal  operating
+temperature.    All  other  conditions  must  be  held  within
+the limits of reference operating conditions.
+4. 1.10.3.1  The  effect  of  temperature  change  on  zero
+may be expressed as a coefficient calculated as the ratio
+of    full    scale    percent    change    in    output    to    the
+corresponding  change  in  temperature.    The  change  in
+ambient   temperature   should   be   specified.      This
+coefficient is defined as the “temperature coefficient of
+zero.”
+Example:   Temperature   coefficient   of   zero   may   be
+expressed as:
+
+NOTE 4:  If  the  relation  between  temperature  and  change  in
+output is linear, one coefficient will suffice.
+4. 1.10.3.2  If  the  temperature  influence  is  non-linear  a
+different  method  of  expression  may  be  used.    Two
+examples:
+SEMI E18-91 © SEMI 1991, 2004 2
+
+
+1.   The  percent  of  full  scale  change  in  output  will  not
+exceed    a    specified    value    for    any    value    of
+temperature within a specified temperature range.
+Example:  “±  1.5%  of  full  scale  maximum  error  over
+10°C to 50°C”
+2.   It  may  be  desirable  to  state  a  series  of  coefficients
+for  successive  increments  of  temperature  within  a
+specified temperature range.
+4. 1.11  units  —  degrees  Celsius  (C)  is  used  as  the
+temperature unit.
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+SEMI E18-91 © SEMI 1991, 2004 3
+
+
+
+SEMI E19-0697 © SEMI 1991, 2002 1
+SEMI E19-0697 (Reapproved 0702)
+STANDARD MECHANICAL INTERFACE (SMIF)
+This  standard  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is  the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  March  17,  2002.    Initially  available  at
+www.semi.org June 2002, to be published July 2002. Originally published in 1991; previously published June
+
+# 1997
+
+1997.
+NOTE:  This  standard  has  been  purposely  restricted  to  100
+mm  (4  in.),  125  mm  (5  in.),  and  150  mm  (6  in.)  versions  of
+the  SMIF  port.  This  has  been  done  to  establish  a  base  for
+SMIF  port  standardization.  Aspects  of  the  200  mm  (8  in.)
+version   have   been   negotiated   by   interested   parties   and
+published as SEMI E19.4.
+1   Purpose
+1. 1      A   standard   interface   is   required   for   containers
+intended   to   control   the   transport   environment   of
+cassettes containing wafers or disks. The interface must
+address  the  proper  container  orientation  for  material
+transfer  and  maintain  continuity  between  the  container
+and    equipment    environment    in    order    to    control
+particulate matter.
+2   Scope
+2. 1      This   specification   describes   one   approach   to
+interfacing  a  clean  cassette  transport  box  to  a  clean
+environmental  housing  on  a  piece  of  semiconductor
+processing  equipment  or  to  other  clean  environments.
+The   system   concept   involves   mating   a   door   on   a
+cassette  container  to  a  door  on  an  equipment  canopy
+and   transferring   the   cassette   into,   and   out   of,   the
+equipment  without  exposing  the  cassette  and  wafers  to
+outside contamination.
+2. 2    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Impact
+3. 1        The    incorporation    of    this    standard    requires
+equipment  designers  to  include  the  features  of  the
+interface  into  the  tool  design.  Spacing  between  open
+cassette  ports  is  inadequate  for  incorporation  of  this
+interface.       Designers       are       directed       to       the
+recommendations made in SEMI E15 in this regard.
+4  Limitations
+4. 1      This   standard   is   specific   to   the   size   of   the
+designated  wafer  and  references  the  appropriate  SEMI
+cassette  and  wafer  diameter.  A  single  numerical  suffix
+is  assigned  to  this  base  standard  number  or  each  wafer
+diameter.  This  specification  focuses  on  applications  in
+which the interface port is positioned horizontally. The
+standard  is  focused  exclusively  on  the  box-to-canopy
+interface.  Other  considerations  of  box  and  equipment
+design are purposely excluded.
+NOTE  1:  Hewlett-Packard  has  stated  that  it  is  seeking  patent
+coverage for this design and is offering non-exclusive licenses
+on  an  equal  basis  to  any  company.  Companies  intending  to
+manufacture  products  to  this  standard  should  be  aware  of
+Hewlett-Packard’s position.
+NOTE  2:  The  user’s  attention  is  called  to  the  possibility  that
+compliance with this standard may require use of an invention
+covered  by  patent  rights.  By  publication  of  this  standard,
+Semiconductor    Equipment    and    Materials    International
+(SEMI)  takes  no  position  with  respect  to  the  validity  of  any
+patent  rights  asserted  in  connection  with  any  item  mentioned
+in   this   document.   Users   of   this   document   are   expressly
+advised  that  determination  of  any  such  patent  rights  and  the
+risk  of  infringement  of  such  rights  are  entirely  their  own
+responsibility.
+5   Referenced Standards
+5. 1   SEMI Standards
+SEMI  E1  —  Specification  for  3  inch,  100  mm,  125
+mm, and 150 mm Plastic and Metal Wafer Carriers
+SEMI E15 — Specification for Tool Load Port
+6   Terminology
+(See Figure 1 for a pictorial depiction of most terms.)
+6. 1  Definitions
+6. 1.1   box  —  an  environmentally  controlled  enclosure
+for  a  cassette  containing  wafers  or  disks.  For  purposes
+of this standard, a box has features that conform to the
+specified interface. A box includes a box door and box
+latches. (A box is also referred to as a container.)
+6. 1.2   box door — a removable bottom for the box that
+contains   a   means   (such   as   registration   holes)   for
+properly positioning the wafer cassette.
+6. 1.3   box  latches  —  mechanical  latches  that  hold  the
+box  door  in  position  until  activated  by  the  latch  pins.
+Upon  activation,  a  portion  of  each  box  latch  engages  a
+latch cavity and smaller, thereby locking the box to the
+port plate.
+
+
+SEMI E19-0697 © SEMI 1991, 2002 2
+6. 1.4   guide  rail  —  a  component  of  a  port  plate  that
+provides coarse location for placing the box on the port
+assembly.
+6. 1.5   latch   cavities   —   spaces   located   in   the   port
+assembly  guide  rails  that  accommodate  the  box  latches
+in the open position of the box door.
+6. 1.6   latch  pins  —  pins  that  engage  the  box  latches
+and  accomplish  the  lock/unlock  functions.  Latch  pins
+are on the port plate.
+6. 1.7   port  —  a  port  assembly  appropriately  sized  for
+the wafers or disks that are to be transferred. Three port
+sizes are specified for the purposes of this standard: 100
+mm (4 in.) for 100 mm (4 in.) wafer cassettes, 125 mm
+(5 in.) for 125 mm (5 in.) wafer cassettes, and 150 mm
+(6 in.) for 150 mm (6 in.) wafer cassettes.
+6. 1.8   port  assembly  —  an  assembly  of  the  port  plate
+and  port  door  that  includes  the  guide  rails,  registration
+pins, latch pins, and latch cavities.
+6. 1.9   port  door  —  a  door  for  the  port  plate  opening
+that provides a mating surface for the bottom of the box
+door when the box is in place on the port plate. The port
+door contains the registration pins.
+6. 1.10   port plate — a horizontal mating surface for the
+base  of  the  box  that  provides  a  seal  surface  to  the
+bottom  surface  of  the  box  perimeter.  The  port  plate
+contains the guide rails and the latch pins.
+6. 1.11   registration holes — holes in the bottom of the
+box door that fit over registration pins in the top of the
+port door when the box is placed on the port door.
+6. 1.12   registration  pins  —  pins  that  provide  fixed
+position and orientation between the port door and box
+door  and  assist  in  final  positioning  of  the  box  on  the
+port   assembly.   The   registration   pins   fit   into   the
+registration holes in the bottom of the box door.
+7   Requirements
+7. 1   Cassette     Sizes     —     The     requirements     and
+dimensions   for   the   design   of   mechanical   interface
+standard  ports  and  boxes  are  given  in  this  section.  All
+dimensions  of  the  interface  between  box  and  port  are
+specified in reference to the port. Different sets of port
+dimensions   are   standardized   to   accommodate   the
+following three cassette sizes:
+
+100 mm (4 in.)     per SEMI E1.2
+125 mm (5 in.)     per SEMI E1.3 and E.4
+150 mm (6 in.)     per SEMI E1.5
+
+7. 2   Port  Design  Requirements  —  The  general  design
+of  the  port  is  shown  in  Figures  2  and  3.  Specific
+dimensions  for  the  different  cassette  sizes  are  given  in
+SEMI  E19.1,  SEMI  E19.2,  and  SEMI  E19.3.  Design
+requirements for the interface components are provided
+in  Sections  7.2.1  through  7.2.5.  The  general  design  of
+the   port   is   shown   in   Figures   2   and   3.   Specific
+dimensions  for  the  different  cassette  sizes  are  given  in
+SEMI  E19.1,  SEMI  E19.2,  and  SEMI  E19.3.  Design
+requirements for the interface components are provided
+in Sections 7.2.1 through 7.2.5.
+7. 2.1   Port   Door   —   Dimensions   A1   through   A3
+specify  the  port  door  top  view.  The  gap  between  port
+door and port plate is not specified, but should be kept
+to a minimum distance to restrict particle movement.
+7. 2.2   Guide  Rails  —  The  inside  distance  of  the  guide
+rails  on  the  four  sides  of  the  port  is  specified  (B1  and
+B2). The guide rail can be continuous or in sections. If
+connected  at  the  corners,  the  inside  radius  shall  not
+exceed B9. The maximum height of the rail is given by
+B5.  The  guide  rails  include  cavities.  Two  cavities  are
+provided  for  the  100  mm  (4  in.)  port  size  or  four
+cavities  for  the  the  125  mm  (5  in.)  and  150  mm  (6  in.)
+port sizes.
+7. 2.3   Latch  Pins  —  The  100  mm  (4  in.)  port  requires
+two latch pins (C5), located on the port center line at a
+distance  specified  by  C1  in  the  unactivated  position.
+The  125  mm  (5  in.)  and  150  mm  (6  in.)  ports  require
+four   latch   pins,   positioned   by   C1   and   C3.   The
+displacement    to    move    the    latch    pins    from    the
+unactivated (box door closed) to the activated (box door
+unlatched) position is specified by the linear dimension
+C2  .  The  minimum  available  force  per  pin  to  unlatch
+and  latch  the  box  door  is  specified  by  F1  and  F2.  The
+latch  pins  can  move  in  a  linear  or  circular  motion  as
+long as the position of the activated pins falls within the
+target area dimensioned by C8.
+7. 2.4   Registration  Pins  —  The  three  registration  pins
+on the port door are located asymmetrically, and spaced
+by  dimensions  D1  through  D4.  The  size  of  the  pins  is
+specified by D5 through D7.
+7. 2.5   The Box — The bottom surfaces of the box body
+and   box   door   shall   conform   to   the   specified   port
+dimensions.  The  upper  part  of  the  box  body  and  top
+surface  of  the  box  door  must  fit  and  hold  in  place  the
+wafer  cassette  specified  by  SEMI  E1,  for  100  mm  (4
+in.),  125  mm  (5  in.),  and  150  mm  (6  in.)  cassettes.
+Although   the   box   dimensions   are   not   explicitly
+specified  by  this  standard,  the  following  requirements
+apply:
+7. 2.5.1   The  bottom  surface of  the  box  door  at  its
+perimeter  shall  match  the  dimensions  of  the  port  door
+top (A1 through A3). The tolerances shall be chosen so
+that the box door does not extend over the port door in
+any  instance,  even  when  the  port  door  is  built  to  its
+minimal  acceptable  dimensions  and  potential  variance
+
+
+SEMI E19-0697 © SEMI 1991, 2002 3
+between  registration  pins  and  holes  is  considered.  This
+is  to  ensure  interference  free  passage  of  the  box  door
+through the port opening.
+7. 2.5.2      The  base  of  the  box  body  shall  fit  freely  but
+with  close  tolerance  between  the  guide  rails  (B1,  B2,
+and B9), which not only hold the box in place while the
+port  is  open,  but  also  provide  proper  alignment  for  the
+closure of the box at the end of the open/shut cycle.
+7. 2.5.3   The  bottom  surface of  the  box  requires  three
+registration holes to engage with the registration pins on
+the port. The registration pins shall be positioned in the
+door bottom so that the registration pins prevent seating
+of  the  box  with  the  port  in  the  event  that  the  box  is
+improperly  rotated  by  180  degrees  from  the  correct
+orientation.   The   correct   orientation   is   illustrated   in
+Figure 2.
+7. 2.5.4   The perimeter of the bottom surface of the box
+body  shall  be  continuous  (except  possibly  at  the  latch
+locations)   and   shall   be   positioned   against   the   port
+surface.  This  positioning  assures  the  activation  of  an
+optional  limit  switch  placed  in  an  unspecified  location
+along  the  port  perimeter  for  the  sensing  of  proper  box
+placement.
+7. 2.5.5      Each  box  door  latch  requires  a  hole  to  engage
+its  corresponding  port  latch  pin.  The  hole  shall  be
+elongated  to  provide  a  target  area  for  the  activated  pin
+(box   door   open)   as   shown   by   dimension   C8.   A
+protrusion   from   each   latch   shall   engage   with   its
+corresponding  cavity  in  the  guide  rail  to  prevent  the
+removal of the box while the port is open.
+7. 2.5.6         The   center   of   the   cassette   crossbar   shall
+coincide  with  the  center  of  the  box  door,  with  the
+cassette  orientated  as  shown  in  Figure  2.  The  top
+surface  of  the  box  door  requires  registration  bars  that
+hold   the   cassette   in   place.   The   horizontal   cassette
+movement is limited by the tolerances G2. The vertical
+position of the cassette while located on the box door is
+specified by the distance G1 between the top of the port
+surface and the bottom surface of the cassette.
+7. 2.5.7      The  external  top  of  the  box  shall  not  exceed
+the top of the cassette by more than two inches. This is
+to  prevent  possible  interference  between  the  box  and
+the equipment.
+8   References
+The following articles describe the standard mechanical
+interface concept:
+8. 1         “The   Challenge   to   Control   Contamination:   A
+Novel  Technique  for  the  IC  Process,”  The  Journal  of
+Environmental Sciences (May/June 1984) , page 23.
+8. 2   “SMIF, A Technology for Wafer Cassette Transfer
+in  VLSI  Manufacturing,”  Solid  State  Technology  (July
+1984), page 111.
+
+
+
+SEMI E19-0697 © SEMI 1991, 2002 4
+Box
+Cassette
+Bo
+x
+Guide
+Rail
+Latch
+Cavity
+Registration
+Pin
+Port
+Door
+Port
+Plate
+Latch
+Pin
+Box
+Latch
+
+Figure 1
+Port Terminology
+
+
+SEMI E19-0697 © SEMI 1991, 2002 5
+
+Figure 2
+
+
+SEMI E19-0697 © SEMI 1991, 2002 6
+
+Figure 3
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E19.1-0697 © SEMI 1991, 2002 1
+SEMI E19.1-0697 (Reapproved 0702)
+PORT STANDARD FOR MECHANICAL INTERFACE OF WAFER
+CASSETTE TRANSFER, 100 mm (4 inch) PORT
+This  standard  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is  the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  March  17,  2002.    Initially  available  at
+www.semi.org June 2002, to be published July 2002. Originally published in 1991; previously published June
+1997.
+The complete specification for this interface includes all general requirements of SEMI E19.
+Table 1   Port Dimensions for 100 mm (4 in.) Wafer Cassette
+A1 73.02 mm ± 0.13 mm (2.875 in. ± 0.005 in.)
+A2 73.02 mm ± 0.13 mm (2.875 in. ± 0.005 in.)
+Port Door
+A3 9.53 mm ± 0.25 mm (0.375 in. ± 0.010 in.)
+B1 90.17 mm ± 0.13 mm (3.550 in. ± 0.005 in.)
+B2 82.55 mm ± 0.13 mm (3.250 in. ± 0.005 in.)
+B3 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+B4 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+B5 17.78 mm (0.700 in.) maximum
+B6 12.70 mm (0.500 in.) minimum
+B7
+B8 3.18 mm ± 0.25 mm minimum
+Guide Rails
+B9 6.35 mm (0.250 in.)                                                maximum                                                radius
+C1 81.25 mm ± 0.13 mm (3.200 in. ± 0.005 in.)
+C2 6.35 mm ± 0.13 mm (0.250 in. ± 0.005 in.)
+C3
+C4
+C5 3.18 mm ± 0.05 mm (0.125 in. ± 0.002 in.)
+C6 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+C7 Full spherical radius
+Latch Pins
+C8 4.44 mm (0.175 in.) minimum
+D1 101.60 mm ± 0.13 mm (4.000 in. ± 0.005 in.)
+D2 50.80 mm ± 0.13 mm (2.000 in. ± 0.005 in.)
+D3 114.30 mm ± 0.13 mm (4.500 in. ± 0.005 in.)
+D4 57.15 mm ± 0.13 mm (2.250 in. ± 0.005 in.)
+D5 6.35 mm ± 0.08 mm (0.250 in. ± 0.003 in.)
+D6 10.16 mm ± 0.25 mm (0.400 in. ± 0.010 in.)
+Registration Pins
+D7 Full spherical radius
+F1 1.36 kg (3 lb) minimum Latch Pin Force each
+F2 1.36 kg (3 lb) minimum
+G1 12.70 mm ± 0.25 mm (0.500 in. ± 0.010 in.) Position of Cassette
+G2 0.50 mm (0.020 in.) maximum
+
+
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+
+
+SEMI E19.1-0697 © SEMI 1991, 2002 2
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E19.2-0697 © SEMI 1991, 2002 1
+SEMI E19.2-0697 (Reapproved 0702)
+PORT STANDARD FOR MECHANICAL INTERFACE OF WAFER
+CASSETTE TRANSFER, 125 mm (5 inch) PORT
+This  standard  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is  the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  March  17,  2002.    Initially  available  at
+www.semi.org June 2002, to be published July 2002. Originally published in 1991; previously published June
+1997.
+The complete specification for this interface includes all general requirements of SEMI E19.
+Table 1    Port Dimensions for 125 mm (5 in.) Wafer Cassette
+A1 85.72 mm ± 0.13 mm (3.375 in. ± 0.005 in.)
+A2 85.72 mm ± 0.13 mm (3.375 in. ± 0.005 in.)
+Port Door
+A3 9.53 mm ± 0.25 mm (0.375 in. ± 0.010 in.)
+B1 102.87 mm ± 0.13 mm (4.050 in. ± 0.005 in.)
+B2 95.25 mm ± 0.13 mm (3.750 in. ± 0.005 in.)
+B3 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+B4 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+B5 17.78 mm (0.700 in.) maximum
+B6
+B7 12.70 mm (0.500 in.) minimum
+B8 3.18 mm ± 0.25 mm (0.125 in. ± 0.010 in.)
+Guide Rails
+B9 6.35 mm (0.250 in.)                                                 maximum                                                 radius
+C1 93.98 mm ± 0.13 mm (3.700 in. ± 0.005 in.)
+C2 6.35 mm ± 0.13 mm (0.250 in. ± 0.005 in.)
+C3 63.50 mm ± 0.13 mm (2.500 in. ± 0.005 in.)
+C4 3.18 mm ± 0.05 mm (0.125 in. ± 0.002 in.) diameter
+C5
+C6 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+C7 Full spherical radius
+Latch Pins
+C8 4.44 mm (0.175 in.) minimum
+D1 127.20 mm ± 0.13 mm (5.000 in. ± 0.005 in.)
+D2 63.50 mm ± 0.13 mm (2.500 in. ± 0.005 in.)
+D3 139.70 mm ± 0.13 mm (5.500 in. ± 0.005 in.)
+D4 69.85 mm ± 0.13 mm (2.750 in. ± 0.005 in.)
+D5 6.35 mm ± 0.08 mm (0.250 in. ± 0.003 in.)
+D6 10.16 mm ± 0.25 mm (0.400 in. ± 0.010 in.)
+Registration Pins
+D7 Full spherical radius
+F1 1.36 kg (3 lb) minimum Latch Pin Force each
+F2 1.36 kg (3 lb) minimum
+G1 12.70 mm ± 0.25 mm (0.500 in. ± 0.010 in.) Position of Cassette
+G2 0.50 mm (0.020 in.) maximum
+
+
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+
+
+SEMI E19.2-0697 © SEMI 1991, 2002 2
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E19.3-0697 © SEMI 1991, 2002 1
+SEMI E19.3-0697 (Reapproved 0702)
+PORT STANDARD FOR MECHANICAL INTERFACE OF WAFER
+CASSETTE TRANSFER, 150 mm (6 inch) PORT
+This  standard  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is  the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carrier  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  March  17,  2002.    Initially  available  at
+www.semi.org June 2002, to be published July 2002. Originally published in 1991; previously published June
+1997.
+The complete specification for this interface includes all general requirements of SEMI E19.
+Table 1   Port Dimensions for 150 mm (6 in.) Wafer Cassette
+A1 98.48 mm ± 0.13 mm (3.875 in. ± 0.005 in.)
+A2 98.48 mm ± 0.13 mm (3.875 in. ± 0.005 in.)
+Port Door
+A3 9.53 mm ± 0.25 mm (0.375 in. ± 0.010 in.)
+B1 115.57 mm ± 0.13 mm (4.550 in. ± 0.005 in.)
+B2 107.95 mm ± 0.13 mm (4.250 in. ± 0.005 in.)
+B3 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+B4 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+B5 17.78 mm (0.700 in.) maximum
+B6
+B7 12.70 mm (0.500 in.) minimum
+B8 3.18 mm ± 0.25 mm (0.125 in. ± 0.010 in.)
+Guide Rails
+B9 6.35 mm (0.250 in.)                                                maximum                                                radius
+C1 106.68 mm ± 0.13 mm (4.200 in. ± 0.005 in.)
+C2 6.35 mm ± 0.13 mm (0.250 in. ± 0.005 in.)
+C3 63.50 mm ± 0.13 mm (2.500 in. ± 0.005 in.)
+C4 3.18 mm ± 0.05 mm (0.125 in. ± 0.002 in.) diameter
+C5
+C6 6.35 mm ± 0.25 mm (0.250 in. ± 0.010 in.)
+C7 Full spherical radius
+Latch Pins
+C8 4.44 mm (0.175 in.) minimum
+D1 152.40 mm ± 0.13 mm (6.000 in. ± 0.005 in.)
+D2 76.20 mm ± 0.13 mm (3.000 in. ± 0.005 in.)
+D3 165.10 mm ± 0.13 mm (6.500 in. ± 0.005 in.)
+D4 82.55 mm ± 0.13 mm (3.250 in. ± 0.005 in.)
+D5 6.35 mm ± 0.08 mm (0.250 in. ± 0.003 in.)
+D6 10.16 mm ± 0.25 mm (0.400 in. ± 0.010 in.)
+Registration
+D7 Full spherical radius
+F1 1.36 kg (3 lb) minimum Latch Pin Force each
+F2 1.36 kg (3 lb) minimum
+G1 12.70 mm ± 0.25 mm (0.500 in. ± 0.010 in.) Position of Cassette
+G2 0.50 mm (0.020 in.) maximum
+
+
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+
+
+SEMI E19.3-0697 © SEMI 1991, 2002 2
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 1
+SEMI E19.4-0998
+E
+(Reapproved 0703)
+200 mm STANDARD MECHANICAL INTERFACE (SMIF)
+This standard was technically reapproved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  March  12,  2003.    Initially  available  at
+www.semi.org  May  2003;  to  be  published  July  2003.  Originally  published  in  1992;  previously  published
+March 2003.
+NOTICE:   The   user’s   attention   is   called   to   the
+possibility   that   compliance   with   this   standard   may
+require use of an invention covered by patent rights. By
+publication of this standard, Semiconductor Equipment
+and  Materials  International  (SEMI)  takes  no  position
+with respect to the validity of any patent rights asserted
+in   connection   with   any   item   mentioned   in   this
+document. Users of this document are expressly advised
+that  determination  of  any  such  patent  rights,  and  the
+risk  of  infringement  of  such  rights,  are  entirely  their
+own responsibility.
+1  Purpose
+1. 1      A   standard   interface   is   required   for   containers
+intended   to   control   the   transport   environment   of
+cassettes   containing   substrates.   The   interface   must
+address  the  proper  container  orientation  for  material
+transfer  and  maintain  continuity  between  the  container
+and    equipment    environment    in    order    to    control
+particulate matter.
+2  Scope
+2. 1      This   specification   describes   one   approach   to
+interfacing  a  clean  cassette  transport  box  to  a  clean
+environmental  housing  on  a  piece  of  semiconductor
+processing  equipment  or  to  other  clean  environments.
+The   system   concept   involves   mating   a   door   on   a
+cassette  container  to  a  door  on  an  equipment  enclosure
+and   transferring   the   cassette   into,   and   out   of,   the
+equipment without exposing the cassette and substrates
+to outside contamination.
+2. 2    The  incorporation  of  this  standard  may  require
+equipment  designers  to  include  the  features  of  the
+interface  into  the  tool  design.  Spacing  between  open
+cassette  ports  must  be  considered  when  incorporating
+this     interface.     Designers     are     directed     to     the
+specifications and recommendations made in SEMI E15
+in this regard.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1    This  standard  is  specific  to  200  mm  wafers.  This
+specification   focuses   on   applications   in   which   the
+interface port is positioned horizontally. The standard is
+focused  exclusively  on  the  box-to-canopy  interface.
+Other  considerations  of  box  and  equipment  design  are
+purposely excluded.
+NOTE 1: Hewlett   Packard   has patent   coverage   for   this
+concept  and  is  offering  non-exclusive  licenses  on  an  equal
+basis  to  any  company.  Companies  intending  to  manufacture
+products   to   this   standard   should   be   aware   of   Hewlett
+Packard's position.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI E15 — Specification for Tool Load Port
+SEMI E19 — Standard Mechanical Interface (SMIF)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1    (See  Figure  1  for  a  pictorial  depiction  of  most
+terms.)
+5. 2  Definitions
+5. 2.1  box   —   a   protective   portable   container   for   a
+cassette and/or substrate(s).
+5. 2.2  cassette  —  an  open  structure  that  holds  one  or
+more substrates (wafers, masks, etc.).
+5. 2.3  guide  rail  —  a  component  of  a  port  plate  that
+provides coarse location for placing the pod on the port
+assembly.
+5. 2.4  hold-down  latch  —  a  mechanism  for  locking  the
+pod to the port plate.
+5. 2.5  latch pins — pins that engage the pod door latch
+and  accomplish  the  pod  door  lock/unlock  functions.
+Latch pins are carried by the port door.
+5. 2.6  pod  —  a  box  having  a  Standard  Mechanical
+Interface per SEMI E19.
+
+
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 2
+5. 2.7  pod door — a removable bottom for the pod that
+contains a means for properly positioning the cassette.
+5. 2.8  pod  latch  —  a  mechanical  latch  that  holds  the
+pod   door   to   the   pod   until   activated   by   the   latch
+mechanism   pins.   Upon   activation,   the   pod   door   is
+released from the pod.
+5. 2.9  pod  latch  holes  —  holes  near  the  center  of  the
+pod door bottom which accept the latch pins.
+5. 2.10  port  assembly  —  an  assembly  of  the  port  plate
+and  port  door  that  includes  the  guide  rails,  registration
+pins, latch pins, and pod hold-down latches.
+5. 2.11  port  door  —  a  door  for  the  port  plate  opening
+that provides a mating surface for the bottom of the pod
+door when the pod is in place on the port plate. The port
+door  contains  the  registration  pins  and  the  pod  door
+latch pins.
+5. 2.12  port plate — a horizontal mating surface for the
+base  of  the  pod  that  provides  a  seal  surface  for  the
+bottom  surface  of  the  pod  perimeter.  The  port  plate
+contains the guide rails and the pod hold-down latches.
+5. 2.13  registration  holes  —  holes  in  the  bottom  of  the
+pod door that fit over registration pins in the top of the
+port door when the pod is placed on the port door.
+5. 2.14  registration   pins   —   pins   that   provide   fixed
+position and orientation between the port door and pod
+door and assist in the final positioning of the pod on the
+port   assembly.   The   registration   pins   fit   into   the
+registration holes in the bottom of the pod door.
+6  Requirements
+NOTE  2:  The  requirements  and  dimensions  for  the  design  of
+mechanical interface standard ports and pods are given in this
+section. See Table 1 for 200 mm (8 inch) Port Dimensions.
+6. 1  Cassette  Sizes  —  All  specifications  are  related  to
+200  mm  wafers  held  in  an  appropriate  cassette.  It  is
+understood   that   smaller   diameter   wafers   and   other
+substrates   may   be   contained   in   pods   which   are
+compatible with this standard.
+6. 2  Port  Design  Requirements  —  The  general  design
+of  the  port  is  shown  in  Figures  2  and  3.  Design
+requirements for the interface components are provided
+in Sections 6.2.1 through 6.2.5.
+6. 2.1  Port Door — Dimensions A1 through A3 specify
+the port door top view. The gap between port door and
+port  plate  is  not  specified,  but  should  be  kept  to  a
+minimum distance to restrict particle movement.
+6. 2.2  Pod  Guide  —  The  inside  distance  of  the  corner
+guides of the port is specified by B1 and B2. The length
+of  the  corner  is  specified  by  B12.  The  corner  guides
+may be connected by guide rails if desired.
+6. 2.3  Latch  Pins  —  Two  latch  pins  are  located  around
+the  port  door  center.  For  location  of  the  pins,  see  C1,
+C2, and C3.
+6. 2.4  Registration  Pins  —  The  three  registration  pins
+on the port door are located asymmetrically, and spaced
+by  dimensions  D1  through  D4.  The  size  of  the  pins  is
+specified by D5 through D7.
+6. 2.5  Pod — The bottom surfaces of the pod body and
+pod    door    shall    conform    to    the    specified    port
+dimensions.  The  upper  part  of  the  pod  body  and  top
+surface  of  the  pod  door  must  fit  and  hold  in  place  the
+cassette for 200 mm (8 inch) wafers. Although the pod
+dimensions are not explicitly specified by this standard,
+the following requirements apply:
+6. 2.5.1    The  bottom  surfaces  of  the  pod  door  at  its
+perimeter  shall  match  the  dimensions  of  the  port  door
+top (A1 through A3). The tolerances shall be chosen so
+that the pod door does not extend over the port door in
+any  instance,  even  when  the  port  door  is  built  to  its
+minimal  acceptable  dimensions  and  potential  variance
+between  registration  pins  and  holes  is  considered.  This
+is to ensure an interference-free passage of the pod door
+through the port opening.
+6. 2.5.2    The  base  of  the  pod  body  shall  fit  freely  but
+with  close  tolerance  between  the  guide  rails  (B1,  B2,
+and B9), which not only hold the pod in place while the
+port  is  open,  but  also  provide  proper  alignment  for
+closure of the pod at the end of the open/shut cycle.
+6. 2.5.3    The  bottom  surface  of  the  pod  requires  three
+registration holes to engage with the registration pins on
+the port. The registration pins shall be positioned in the
+door bottom so that the registration pins prevent seating
+of  the  pod  with  the  port  in  the  event  that  the  pod  is
+improperly  rotated  by  180  degrees  from  the  correct
+orientation.   The   correct   orientation   is   illustrated   in
+Figure 2.
+6. 2.5.4  The perimeter of the bottom surface of the pod
+body shall be continuous and shall be positioned against
+the port surface. This positioning assures the activation
+of  an  optional  limit  switch,  placed  in  an  unspecified
+location  along  the  port  perimeter,  for  the  sensing  of
+proper pod placement.
+6. 2.5.5      The   center   of   the   cassette   crossbar   shall
+coincide  with  the  center  of  the  pod  door,  with  the
+cassette oriented as shown in Figure 2. The top surface
+of  the  pod  door  requires  the  registration  bars  that  hold
+the cassette in place. The horizontal cassette movement
+is limited by the tolerances G2. The vertical position of
+the  cassette  while  located  on  the  pod  door  is  specified
+by  the  distance  G1  between  the  top  of  the  port  surface
+and the bottom surface of the cassette.
+
+
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 3
+6. 2.5.6  A pod hold-down latch is required. The available latch area is specified by dimension B11 in Figure 2. Latch
+detail dimensions are specified in Figure 3.
+6. 2.5.7  The pod latch holes have a dimension of I1 perpendicular to the plane connecting both holes.
+6. 2.5.8    Positions  for  latches  are  identified  in  Figure  2  by  positions  1,  2,  3,  and  4.  The  following  options  for  hold-
+down latch positions are defined by this specification:
+
+Option A Positions 1 and 2
+Option B Positions 3 and 4
+Option C Positions 1, 2, 3, and 4
+7  References
+The following articles describe the standard mechanical interface concept:
+“The Challenge to Control Contamination: A Novel Technique for the IC Process,” The Journal of Environmental
+Sciences (May/June 1984), page 23.
+“SMIF,  A  Technology  for  Wafer  Cassette  Transfer  in  VLSI  Manufacturing,”  Solid  State  Technology  (July  1984),
+page 111.
+The complete specification for this interface includes all general requirements of SEMI E19.
+Table 1  Port Dimensions for 200 mm (8 inch) Wafer Cassette
+Feature                    Dimension                    Label                                 Metric                                 English
+Port Door A1 135.84 mm ± 0.13 mm (5.348 in. ± 0.005 in.)
+A2 131.06 mm ± 0.13 mm (5.160 in. ± 0.005 in.)
+A3 13.08 mm ± 0.25 mm (0.515 in. radius ± 0.010 in.)
+A4 0.38 mm ± 0.13 mm (0.015 in. ± 0.005 in.)
+Guide Rails B1 146.48 mm ± 0.13 mm (5.767 in. ± 0.005 in.)
+B2 141.71 mm ± 0.13 mm (5.579 in. ± 0.005 in.)
+B3
+B4
+B5 29.97 mm maximum (1.18 in. maximum)
+B6
+B7 16 mm minimum (0.630 in. minimum)
+B8 45° maximum (45° maximum)
+B9 22.22 mm radius maximum (0.875 in. radius maximum)
+B10
+B11 50.8 mm maximum (2.00 in. maximum)
+B12 26.9 mm minimum (1.06 in. minimum)
+Latch Pins C1 16° ± 0° 30' (16° ± 0° 30')
+C2 86° ± 0° 30' (86° ± 0° 30')
+C3 26.72 mm ± 0.05 mm (1.052 in. diameter ± 0.002 in.)
+C4 3.175 mm ± 0.025 mm (0.125 in. diameter ± 0.001 in.)
+C5
+C6 9.14 mm ± 0.25 mm (0.360 in. ± 0.010 in.)
+C7 Full Spherical Radius Full Spherical Radius
+C8
+Registration Pins D1 183.39 mm ± 0.25 mm (7.22 in. ± 0.010 in.)
+D2 91.69 mm ± 0.13 mm (3.610 in. ± 0.005 in.)
+D3 231.78 mm ± 0.25 mm (9.125 in. ± 0.010 in.)
+D4 116.59 mm ± 0.13 mm (4.590 in. ± 0.005 in.)
+
+
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 4
+Feature                    Dimension                    Label                                 Metric                                 English
+D5 6.35 mm ± 0.025 mm (0.250 in. diameter ± 0.001 in.)
+D6 16.26 mm ± 0.25 mm (0.640 in. ± 0.010 in.)
+D7 Full Spherical Radius Full Spherical Radius
+Latch Pin F1 0.8 Nm minimum (7 in. lbf. minimum)
+Force (Torque)  1.7 Nm maximum (15 in. lbf. maximum)
+Position of Cassette G1 20.70 mm ± 0.25 mm (0.815 in. ± 0.010 in.)
+G2 H-Bar Centered ± 0.51 mm (H-Bar Centered ± 0.020 in.)
+Pod Latch Holes I1 3.4 mm ± 0.1 mm (0.135 in. ± 0.004 in.)
+
+
+Figure 1
+Port Terminology
+
+
+
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 5
+
+Figure 2
+Port Dimensions
+
+
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 6
+
+Figure 3
+Dimensions of Pod Hold Down Latches
+
+
+Figure 4
+Dimensions of Pod Latch Hole

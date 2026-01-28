@@ -1,0 +1,2629 @@
+---
+title: "文档标题"
+description: "SEMI E19.4-0998 E © SEMI 1992, 2003 7 APPENDIX 1 APPLICATION NOTES NOTICE:   This   appendix   was   approved   as   an   official   part   of   SEMI   E19.4   by   full   letter   ballot   procedu..."
+sidebar_label: "Chapter 4"
+sidebar_position: 40
+tags: ['SEMI', 'Standard', 'Chapter 4']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-004.pdf'
+  chapter: 4
+  page_count: 50
+  file_size_mb: 0.75
+  processing_date: '2026-01-28T09:17:24.061Z'
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+<PdfDownloadCard
+  pdfLink="/pdfs/semi/semi-chapter-004.pdf"
+  pdfSize="0.75MB"
+  title="Chapter 4"
+  description="SEMI标准文档 - Chapter 4，共50页"
+/>
+
+# 文档标题
+
+SEMI E19.4-0998
+E
+© SEMI 1992, 2003 7
+APPENDIX 1
+APPLICATION NOTES
+NOTICE:   This   appendix   was   approved   as   an   official   part   of   SEMI   E19.4   by   full   letter   ballot   procedure,   but   the
+recommendations in this appendix are optional and are not required to conform to this standard.
+A1-1  Notes
+A1-1.1  Automated pod transfer between load port and
+automated  material  handling  system  (AMHS)  might
+require  a  lead-in  capability  of  more  than  5  mm.  This
+can  be  achieved  by  increasing  the  height  of  the  guide
+rails  (dimension  B5).  SEMI  standard  E15  limits  this
+height  to  50  mm  (1.97  inches)  maximum  (see  Figure
+A1-1). The capture range can be increased to more than
+15  mm  (0.6  inches)  if  supplier  and  customer  agree  to
+increase  the  guide  rail  height  without  violating  SEMI
+E15.
+
+Figure A1-1
+Optional Rail Dimensions
+A1-1.2    The  dimensions  of  the  pod  bottom  are  not
+specified  in  this  standard  (see  Section  6.2.5.1).  It  is
+recommended  that  these  dimensions  should  not  exceed
+282. 0  mm  (11.14  inches)  in  one  direction  and  292.6
+mm   (11.52   inches)   in   the   other   direction.   These
+maximum  outer  dimensions  ensure  a  sufficient  gap
+around the pod and the guide rails in relation to B1 and
+B2    to  allow  a  reliable  motion  of  the  pod  onto  the  port
+plate.
+A1-1.3    It  is  important  that  the  external  top  of  the  pod
+does not exceed the top of the cassette by more than 50
+mm    (1.97    inches).    This    is    to    prevent    possible
+interference between the pod and the equipment.
+
+NOTICE:    By    publication    of    these    standards,
+Semiconductor  Equipment  and  Materials  International
+(SEMI) takes no position respecting the validity of any
+patent  rights  or  copyrights  asserted  in  connection  with
+any   item   mentioned   in   these   standards.   Under   the
+current  law  of  the  United  States  and  numerous  other
+countries, the use of a copyright notice is not necessary
+in  order  for  a  work  to  have  copyright  protection.  Such
+protection  is  available  to  all  subject  matter  entitled  to
+copyright  protection  from  the  moment  it  is  “fixed  in  a
+tangible  medium  of  expression.”  Therefore,  unless  the
+work  has  been  published  with  a  statement  from  the
+author  that  it  may  be  freely  reproduced,  it  should  be
+assumed   that   all   referenced   works   have   copyright
+protection.   Users   of   these   standards   are   expressly
+advised  that  determination  of  any  such  patent  rights  or
+copyrights,  and  the  risk  of  infringement  of  such  rights
+are entirely their own responsibility.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E19.5-0996 © SEMI 1978, 2003 1
+SEMI E19.5-0996 (Withdrawn 1103)
+SPECIFICATION FOR 300-mm BOTTOM-OPENING STANDARD
+MECHANICAL INTERFACE (SMIF)
+NOTICE:  This  document  was  balloted  and  approved
+for withdrawal in 2003.
+NOTICE:   Hewlett-Packard   has   patent   coverage   for   this
+concept  and  is  offering  non-exclusive  licenses  on  an  equal
+basis  to  any  company.  Companies  intending  to  manufacture
+products   to   this   standard   should   be   aware   of   Hewlett-
+Packard's position.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  standard  may  require  use  of  an
+invention  covered  by  patent  rights.  By  publication  of
+this  standard,  Semiconductor  Equipment  and  Materials
+International  (SEMI)  takes  no  position  with  respect  to
+the  validity  of  any  patent  rights  asserted  in  connection
+with any item mentioned in this document. Users of this
+document  are  expressly  advised  that  determination  of
+any  such  patent  rights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+1  Purpose
+This    standard    specifies    a    standard    interface    for
+containers intended to control the transport environment
+of  contained  wafers.  The  interface  must  address  the
+proper  container  orientation  for  material  transfer  and
+maintain    continuity    between    the    container    and
+equipment  environment  in  order  to  control  particulate
+and non-particulate contamination.
+2  Scope
+This  specification  describes  an  approach  to  interfacing
+a    clean    transport    container    (pod)    to    a    clean
+environmental  housing  on  a  piece  of  semiconductor
+processing  equipment  or  to  other  clean  environments.
+The  system  concept  involves  mating  a  pod  door  to  a
+port door in an equipment interface and transferring the
+wafers into, and out of, the equipment without exposing
+the wafers to outside contamination.
+The    incorporation    of    this    standard    may    require
+equipment  designers  to  include  the  features  of  the
+interface   into   the   tool   design.   Spacing   between
+equipment  interface  ports  must  be  considered  when
+incorporating  this  interface.  Designers  are  directed  to
+the  recommendations  made  in  SEMI  E15.1  in  this
+regard.
+This  standard  is  specific  to  the  size  of  the  designated
+wafer  and  references  the  appropriate  Semiconductor
+Equipment and Materials International (SEMI) cassette
+and   wafer   diameter.   This   specification   focuses   on
+applications  in  which  the  interface  port  is  positioned
+horizontally.
+3  Referenced Documents
+3. 1  SEMI Standard
+SEMI  E15.1  —  Provisional  Specification  for  300-mm
+Tool Load Port
+4  Terminology
+(See Figure 1 for a pictorial depiction of most terms.)
+
+Figure 1
+Port Terminology
+
+
+
+SEMI E19.5-0996 © SEMI 1978, 2003 2
+4. 1  box   — A   protective   portable   container   for   a
+cassette and/or substrate(s) (as defined in SEMI E44).
+4. 2  cassette  — An  open  structure  that  holds  one  or
+more substrates (as defined in SEMI E44).
+4. 3   horizontal  datum  plane  —  A  plane  that  is  parallel
+to   the   floor   and   coincides   with   the   tool   interface
+surface. A more detailed definition will be included in a
+companion document currently under development.
+4. 4  guide  rail  —  A  component  of  a  port  plate  that
+provides  coarse  and  final  location  for  placing  the  pod
+on the port assembly.
+4. 5   hold-down  latch  —  A  mechanism  for  securing  the
+pod to the port plate.
+4. 6   kinematic  socket    (pod  door)  —  Grooves  in  the
+bottom  of  the  pod  door  that  fit  over  kinematic  pins  on
+the  top  of  the  port  door  when  the  pod  is  placed  on  the
+port door.
+4. 7   kinematic  pins  (port  door)  —  Pins  that  provide
+fixed position and orientation between the port door and
+pod  door.  The  kinematic  pins  fit  into  the  kinematic
+sockets in the bottom of the pod door.
+4. 8   latch  pins  —  Pins  that  engage  the  pod  door  latch
+and  accomplish  the  pod  door  lock/unlock  functions.
+Latch pins are carried by the port door.
+4. 9  pod   — A   box   having   a   Standard   Mechanical
+Interface (as defined in SEMI E19, SEMI E44).
+4. 10  pod door — A removable bottom for the pod that
+contains  a  means  for  properly  positioning  the  wafer
+cassette.
+4. 11  pod lock — A mechanical latch that holds the pod
+door  to  the  pod  until  activated  by  the  latch  mechanism
+pins. Upon activation, the pod door is released from the
+pod.
+4. 12  port  assembly  — An  assembly  of  the  port  plate
+and port door.
+4. 13  port door — A door for the port plate opening that
+provides  a  mating  surface  for  the  bottom  of  the  pod
+door when the pod is in place on the port plate. The port
+door  contains  the  kinematic  location  pins  and  the  pod
+door latch pins.
+4. 14   port  plate  —  A  horizontal  mating  surface  for  the
+base  of  the  pod  that  provides  a  seal  surface  for  the
+bottom  surface  of  the  pod  perimeter.  The  port  plate
+contains the guide rails and the pod hold-down latches.
+5  Requirements
+(See Table 1 for 300 mm (12-inch) port dimensions.)
+
+Table 1  Port Dimensions for 300 mm (12-inch) Wafer Cassette
+Port Door: A1 185.00 mm rad. ± 0.13 mm (7.283 in. rad. ± 0.005 in.)
+Guide Rails: B1 208.71 mm rad. ± 0.13 mm (8.217 in. rad. ± 0.005 in.)
+B2 106.00 mm ± 0.13 mm (4.190 in. ± 0.005 in.)
+B3 119.00 mm ± 0.13 mm (4.690 in. ± 0.005 in.)
+B4 25.00 mm max. (0.984 in. max.)
+B5 70.0 mm max. (2.75 in. max.)
+Latch Pins: C1 16 deg. ± 0 deg. 30 min. (16 deg. ± 0 deg. 30 min.)
+C2 86 deg. ± 0 deg. 30 min. (86 deg. ± 0 deg. 30 min.)
+C3 26.72 mm dia. ± 0.05 mm (1.052 in. dia. ± 0.002 in.)
+C4 3.175 mm dia. ± 0.025 mm (0.125 in. dia. ± 0.001 in.)
+C5                              -----------                              ----------
+C6 9.14 mm ± 0.25 mm (0.360 in. ± 0.010 in.)
+C7 Full Spherical Radius Full Spherical Radius
+Pod Hold-Down Latches: D1 22.10 mm ± 0.25 mm (0.870 in. ± 0.010 in.)
+D2 10 deg. ± 0 deg. 30 min. (10 deg. ± 0 deg. 30 min.)
+Pod in Place Sensor: E1 26.92 mm ± 0.25 mm (1.060 in. ± 0.010 in.)
+E2 12.70 mm ± 0.25 mm (0.500 in. ± 0.010 in.)
+Activation Height: E3 4.32 mm min. (0.170 in. min.)
+Latch Pin Force (Torque): F1 8.08 kg cm min. (7 lbs. in. min.)
+17. 27 kg cm max. (15 lbs. in. max.)
+
+
+
+
+SEMI E19.5-0996 © SEMI 1978, 2003 3
+The requirements and dimensions for the design of 300 mm standard mechanical interface ports and pods are given
+in this section. All external dimensions of the interface between a pod and port are specified in SEMI E15.1.
+5. 1  Port Design Requirements — The general design of the port is shown in Figures 2 and 3. Design requirements
+for the interface components are provided in Sections 5.1.1 through 5.1.6.
+
+
+Figure 2
+Port Dimensions
+
+
+Figure 3
+Port Detail
+
+
+
+
+SEMI E19.5-0996 © SEMI 1978, 2003 4
+5. 1.1  Port  Door  —  Dimension  Al  specifies  the  port
+door radius. The gap between port door and port plate is
+not specified, but should be kept to a minimum distance
+to restrict particle transport.
+5. 1.2  Pod Guide Rails — The inside feature of the pod
+guides rails of the port are specified by B1, B2, and B3.
+The features provide alignment for the pod top.
+5. 1.3   Pod  Hold-Down  Latches  —  The  available  latch
+area  is  specified  by  dimensions  B1,  B4,  and  B5  in
+Figure  2.  Latch  detail  dimensions  are  specified  by  D1
+and D2 in Figure 3.
+5. 1.4   Pod  Door  Latch  Pins  —  Two  latch  pins  are
+located around the port door center and are specified by
+C1, C2, and C3.
+5. 1.5   Kinematic  Pins  —  Three  kinematic  pins  provide
+registration  of  the  pod  door  to  port  plate.  Details  and
+locations  of  the  kinematic  pins  are  not  specified  in  this
+standard.   They   are   being   addressed   in   a   separate
+document currently under development.
+5. 1.6   Pod  in  Place  Sensor  —  An  optional  sensor,  for
+the sensing of proper pod placement shall be located on
+the  port  door  as  specified  by  E1  and  E2.  The  sensor
+shall  have  a  minimum  activation  height  of  E3  and  full
+travel to the port plate.
+5. 2  Pod  — The  bottom  surfaces  of  the  pod  body  and
+pod    door    shall    conform    to    the    specified    port
+dimensions.   Although   the   pod   dimensions   are   not
+explicitly   specified   by   this   standard,   the   following
+requirements    apply.    (Pod    dimensions    are    being
+addressed   in   a   separate   document   currently   under
+development.)
+5. 2.1    The  upper  part  of  the  pod  body  and  the  top
+surface  of  the  pod  door  must  fit  and  hold  in  place  the
+wafer  cassette,  which  will  be  specified  in  a  separate
+document currently under development.
+5. 2.2    The  center  of  the  wafers  and  pod  door  shall
+coincide.  The  top  surface  of  the  pod  door  incorporates
+kinematic  features  that  position  the  cassette  on  the  pod
+door.
+5. 2.3  The   bottom   surface of   the   pod   door   at   its
+perimeter  shall  match  the  radius  of  the  port  door  top
+(dimension  Al).  The  tolerances  shall  be  chosen  so  that
+the pod door does not extend over the port door in any
+instance, even when the port door is built to its minimal
+acceptable  dimensions  and  potential  variance  between
+kinematic  pins  and  socket  is  considered.  This  is  to
+ensure  an  interference-free  passage  of  the  pod  door
+through the port opening.
+5. 2.4  The base of the pod body shall fit freely but with
+close  tolerance  between  the  pod  guide  rails,  which  not
+only  hold  the  pod  in  place  while  the  port  is  open,  but
+also provide proper alignment for closure of the pod at
+the end of the open/close cycle.
+6  Related Documents
+The following articles describe the standard mechanical
+interface concept:
+6. 1      “The   Challenge   to   Control   Contamination:   A
+Novel  Technique  for  the  IC  Process,”  The  Journal  of
+Environmental Sciences, (May/June, 1984), page 23.
+6. 2  “SMIF, A Technology for Wafer Cassette Transfer
+in   VLSI   Manufacturing,”   Solid   State   Technology,
+(July, 1984), page l11.
+
+NOTICE:    These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E20-0697 © SEMI 1991, 2002 1
+SEMI E20-0697 (Reapproved 1102)
+CLUSTER TOOL MODULE INTERFACE: ELECTRICAL POWER AND
+EMERGENCY OFF STANDARD
+This standard was technically approved by the Global Physical Interfaces and Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  and  Carriers  Committee.    Current  edition
+approved  by  the  North  American  Physical  Interfaces  and  Carriers  Committee  on  July  21,  2002.    Initially
+available  at  www.semi.org    October  2002;  to  be  published  November  2002.    Orignally  published  in  1991;
+previously published June 1997.
+1  Purpose
+1. 1      The   purpose   of   the   standard   is   to   specify   the
+Emergency  Off  capability  to  the  modules  of  a  cluster
+tool;  to  allow  module  Emergency  Off  disconnect  and
+reconnect  in  a  safe  manner  without  removing  power
+from  the  rest  of  the  tool;  and  to  prevent  power  from
+being  applied  to  a  module  when  its  Emergency  Off  is
+non-functional.
+2  Scope
+2. 1        The    standard    deals    with    the    delivery    and
+emergency   interruption   of   electrical   power   to   the
+modules of a cluster tool.
+2. 2    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Impact
+3. 1    The  standard  requires  that  power  can  be  delivered
+to  an  individual  module  only  if  its  Emergency  Off  is
+functional.  This  does  not  preclude  removal  of  power
+from the module by non-emergency means.
+3. 2  The  standard  specifies  the  Emergency  Off  circuit
+functions  that  must  be  provided  at  the  Emergency  Off
+interfaces   of   a   cluster   tool,   including   the   plug,
+momentary  bypass  switch  and  bypass  jumper  plug.
+Pinouts for the Emergency Off plug and bypass jumper
+plug are specified.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI    E21    —    Cluster    Tool    Module    Interface:
+Mechanical Interface and Wafer Transport Standard
+4. 2  Military Standards
+1
+
+
+
+
+1 Available through the Naval Publications and Forms Center, 5801
+Tabor Avenue, Philadelphia, PA 19120-5099, USA. Telephone:
+215. 697.3321
+MIL-C-26500E      —      General      Specification      for
+Connectors  —  General  Purpose,  Electrical,  Miniature,
+Circular, Environmental Resisting
+5  Terminology
+5. 1  Definitions
+5. 1.1  daisy-chained  —  Connected  so  that  the  removal
+of  one  component  causes  the  interruption  of  the  circuit
+to another component.
+5. 1.2  emergency off (EMO) — Fail-safe control switch
+or   circuit   which,   when   de-energized,   will   stop   the
+operation  of  associated  equipment  and  will  shut  off  all
+potential hazards outside the main power enclosure.
+5. 1.3  EMO   interface   —   The   location   at   which   a
+process  or  cassette  module  EMO  cable  is  connected
+into the cluster tool circuit.
+6  Requirements
+6. 1  Power Distribution
+6. 1.1  Mains  —  Each  cluster  tool  (as  defined  in  SEMI
+E21)  shall  have  its  power  provided  by  one  or  more
+contactors  enabled  by  the  EMO.  The  power  is  to  be
+delivered to one or more power distribution enclosures,
+where  voltage  transformation  may  take  place  before
+distribution to the module (as defined in SEMI E21).
+6. 1.2  Module   Power   Distribution   —   The   power
+distribution   to   each   module   is   provided   through   a
+dedicated   circuit   breaker   in   the   power   distribution
+enclosure. The rated current and voltage in each circuit
+is determined by the tool configuration. A discussion of
+how  this  standard  may  be  implemented  is  given  in
+Related Information R1-1.
+6. 1.3  Operation of the EMO — Activation of the EMO
+shall  not  cause  or  allow  an  unsafe  condition  to  exist
+(see Related Information R1-2).
+6. 2  EMO Circuit
+6. 2.1  Description   —   Each   module   attached   to   the
+cluster   tool   is   to   have   at   least   one   EMO   button
+operating an EMO switch (see Related Information R1-
+3).  The  switches  are  daisy  chained  into  a  circuit,  or
+circuits, that disconnect the main power and any backup
+
+
+
+SEMI E20-0697 © SEMI 1991, 2002 2
+power  sources.  The  24  VAC  power  to  energize  this
+circuit is provided from within a main power enclosure,
+so  that  the  EMO  circuit  is  independent  of  module
+power. Each module EMO is connected to the chain at
+its  EMO  interface.  A  momentary  bypass  switch,  also
+located    at    each    module    EMO    interface,    allows
+separation  of  the  module  from  the  cluster  tool  without
+tripping  the  EMO,  provided  that  electrical  power  is
+removed  from  the  module  by  turning  off  the  dedicated
+circuit breaker (see Related Information R1-4). Jumpers
+in  the  bypass  jumper  plug  connect  the  EMO  circuit  in
+series  with  contacts  that  open  if  the  dedicated  circuit
+breaker is turned on.
+6. 2.2  Wiring — Copper wire used in the EMO circuits
+shall be 0.82 mm
+2
+cross-section (#18 AWG) or larger.
+6. 2.3  Labeling — A label with the following legend is
+to  be  affixed  to  the  power  distribution  enclosure  near
+each  module  circuit  breaker:  Caution:  Energizing  this
+circuit  with  the  associated  EMO  bypass  jumper  plug
+installed will interrupt power to the entire cluster tool.
+6. 3  Connection at EMO Interface
+6. 3.1  EMO  Connector  —  The  connector  at  the  EMO
+interface  is  reserved  for  EMO  functions  only.  Metal
+shell bayonet-type connectors are specified per MIL-C-
+26500E  as  follows:  MS24265R16B10SN  on  the  panel,
+and MS24266R16B10PN on the cable and on the EMO
+bypass jumper plug. The receptacle is panel mounted at
+the  EMO  interface  and  the  plug  is  mounted  on  the
+module EMO cable.
+6. 3.2  Module EMO Connector Pinouts — Pins 1 and 2
+of  the  EMO  cable  plug  connect  across  contacts  in  the
+module  EMO  switch.  In  the  receptacle,  pins  1  and  2
+connect  to  the  EMO  circuit  and  pins  3  and  4  connect
+across the contacts specified in Section 6.2.1.
+6. 3.3  EMO  Bypass  Jumper  Plug  —  Pin  1  is  jumpered
+to pin 4 and pin 2 is jumpered to pin 3 in the plug. This
+will  result  in  placing  the  contacts  specified  in  Section
+6. 2.1 into the EMO circuit when the plug is installed.
+
+NOTICE: The   user’s   attention   is   called   to   the
+possibility   that   compliance   with   this   standard   may
+require use of an invention covered by patent rights. By
+publication of this standard, Semiconductor Equipment
+and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  asserted  in
+connection with any item mentioned in this standard. In
+particular,  users  of  the  specification  should  be  aware
+that Drytek, Inc., A Unit of General Signal, 16 Jonspin
+Road, Wilmington, MA 01887-1087, Phone: (508) 657-
+3933,    has    neither    claimed    nor    disclaimed    that
+compliance with this specification would require use of
+an  invention  covered  by  one  or  more  of  its  patents.
+Users   of   this   standard   are   expressly   advised   that
+determination of any such patent rights, and the risk of
+the  infringement  of  such  rights,  are  entirely  their  own
+responsibility.
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+
+
+
+SEMI E20-0697 © SEMI 1991, 2002 3
+RELATED INFORMATION 1
+NOTE:  The  material  contained  in  these  application  notes  is  not  an  official  part  of  SEMI  E20  and  is  not  meant  to  modify  or
+supersede  it  in  anyway.  Rather,  these  notes  are  provided  primarily  as  a  source  of  information  to  aid  in  the  application  of  the
+standard. As such, they are to be considered as reference material only. The standard should be referred to in all cases.
+R1-1  AC Power Distribution
+R1-1.1   One  method  of  providing  power  and  EMO
+functions to a cluster tool is shown in Figure R1-1 (see
+Section   6.1.2).   A   standby   power   supply   (SPS)   or
+uninterruptible   power   supply   (UPS)   is   included   to
+maintain EMO and selected cluster tool functions in the
+event  of  main  power  failure.  It  may  be  desirable  to
+include  additional  circuit  breakers  in  the  main  power
+enclosure  if  individual  module  disconnects  are  needed
+at  level  I  in  Figure  R1-1.  Disconnect  at  level  II  in
+Figure  R1-1  is  made  possible  by  the  module  circuit
+breakers;       SEMI       E7,       “Electrical       Interfaces
+Specification,”  should  be  used  for  loads  up  to  10  kW.
+Additional  main  power  enclosures  could  be  provided
+for  modules  with  heavy  AC  loads,  provided  that  each
+main   contactor   is   operated   by   one   common   EMO
+circuit, however, some user’s safety codes may demand
+a single source of supply.
+R1-2  Operation of Remote Equipment
+R1-2.1    Activation  of  the  EMO  shall  stop,  by  fail-safe
+means at the tool, the delivery of potentially hazardous
+energy  (e.g.,  high  voltage,  laser)  or  hazardous  material
+(e.g., toxic process gas, coolant) to the cluster tool (see
+Section 6.1.3).
+R1-3  EMO Switch Placement
+R1-3.1    The   EMO   switches   on   each   module   (see
+Section  6.2.1)  need  to  be  placed  so  that  they  are
+accessible  to  any  person  in  the  vicinity  of  the  cluster
+tool. Local safety codes may take precedence in matters
+of  EMO  switch  placement.  The  standard  ensures  that
+each  module  has  at  least  one  EMO  switch  and  that  its
+operation, when the module is attached, removes power
+from the entire cluster tool.
+R1-4  EMO Bypass
+R1-4.1 Implementation  —  The  functions,  specified  in
+Section  4.2.1,  to  allow  EMO  bypass  and  to  ensure  that
+module  power  is  off  when  the  EMO  is  removed  from
+the  cluster  tool  EMO  circuit,  can  be  implemented  as
+shown  in  Figure  R1-2.  A  relay  or  switch,  operated  in
+parallel  with  the  dedicated  circuit  breaker  specified  in
+Section  6.1.2  for  the  module,  provides  24  VAC  to  the
+coil  of  a  double  pole  relay  when  the  circuit  breaker  is
+de-energized. An indicator light in parallel with the coil
+illuminates  when  the  bypass  is  enabled  and  the  power
+to the module is off. One set of contacts of this relay is
+used to enable the momentary EMO bypass switch. The
+other  set  is  connected  across  pins  3  and  4  of  the  EMO
+receptacle  at  the  EMO  interface  and  is  in  the  EMO
+circuit  when  the  EMO  bypass  jumper  plug  is  installed.
+Both sets of contacts are wired to open when voltage is
+removed  from  the  relay  coil,  i.e.,  when  the  circuit
+breaker is closed.
+R1-4.2 Module  Disconnect  —  The  dedicated  circuit
+breaker  (see  Section  6.2.1)  to  the  module  must  be
+turned  off  prior  to  disconnect.  This  causes  the  contacts
+in  series  with  the  momentary  EMO  bypass  switch  to
+close,  rendering  it  operational.  At  this  point,  the  EMO
+switch  on  the  module  is  still  in  the  cluster  tool  EMO
+circuit.  To  disconnect,  the  operator  holds  in  the  EMO
+bypass  switch  while  removing  the  module  EMO  plug
+from  the  EMO  interface  and  then  connecting  the  EMO
+bypass jumper plug. The momentary bypass switch can
+then be released.
+R1-4.3 Module  Connect  —  To  connect  a  module,  the
+dedicated circuit breaker (see Section 6.2.1) must be off
+at  the  power  distribution  point  to  the  module.  The
+power cable may be attached to the module at this time.
+The  operator  holds  in  the  momentary  bypass  switch
+while disconnecting the EMO bypass jumper plug from
+the  EMO  interface  and  connecting  the  module  EMO
+Plug.   The   momentary   bypass   switch   can   then   be
+released. Power cannot be applied to the module unless
+the EMO is connected (as shown in Figure R1-2).
+R1-5  Additional Documents and References
+In  implementing  the  standard,  documents  that  may
+provide additional guidance include:
+R1-5.1  SEMI Document
+SEMI   S2   —   Safety   Guidelines   for   Semiconductor
+Manufacturing Equipment
+R1-5.2  Other Documents
+International Electrotechnical Commission (IEC)
+Standard 204, Sections 1, 2 and 3.
+(U.S.) National Electrical Code (NEC).
+2
+
+
+
+
+2 National Fire Protection Association, Batterymarch, Quincy, MA
+
+# 02269
+
+02269.
+
+
+
+SEMI E20-0697 © SEMI 1991, 2002 4
+
+Figure R1-1
+Example: AC Distribution/EMO Block Diagram
+
+
+SEMI E20-0697 © SEMI 1991, 2002 5
+
+Figure R1-2
+Example: EMO Connect/Disconnect Circuit(Module Power is “off,” as drawn.)
+
+
+NOTICE: The user’s attention is called to the possibility that compliance with this standard may require use of an
+invention  covered  by  patent  rights.  By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials
+International  (SEMI)  takes  no  position  respecting  the  validity  of  any  patent  rights  asserted  in  connection  with  any
+item mentioned in this standard. In particular, users of the specification should be aware that Drytek, Inc., A Unit of
+General  Signal,  16  Jonspin  Road,  Wilmington,  MA  01887-1087,  Phone:  (508)  657-3933,  has  neither  claimed  nor
+disclaimed that compliance with this specification would require use of an invention covered by one or more of its
+patents. Users of this standard are expressly advised that determination of any such patent rights, and the risk of the
+infringement of such rights, are entirely their own responsibility.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 1
+SEMI E21-94 (Reapproved 1102)
+CLUSTER TOOL MODULE INTERFACE: MECHANICAL INTERFACE
+AND WAFER TRANSPORT STANDARD
+This standard was technically reapproved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+reapproved  by  the  North  American  Regional  Standards  Committee  on  July  21,  2002.    Initially  available  at
+www.semi.org  October  2002;  to  be  published  November  2002.    Originally  published  in  1991;  previously
+published in June 1999.
+1  Purpose
+1. 1    The  purpose  of  the  standard  is  to  simplify  cluster
+tool implementation in the fab. Equipment suppliers are
+required to provide modules that can be connected into
+any   cluster   tool   using   the   specifications   contained
+herein.
+1. 1.1    Process  and  cassette  modules  accept  wafers  at
+locations  that  may  vary  substantially  from  one  module
+to  another.  This  places  a  burden  on  the  capabilities  of
+transport  modules  to  move  wafers  to  and  from  various
+modules  in  a  cluster  tool.  This  specification  defines
+wafer   transport   planes   within   cassette   and   process
+modules. This obviates the wafer transport problem to a
+large   extent,   but   does   not   unduly   restrict   module
+content.
+2  Scope
+2. 1    The  standard  defines  the  interface  plane  between
+modules  in  a  cluster  tool.  It  provides  the  mechanical
+specifications  at  the  interface  that  allow  modules  from
+different   suppliers   to   be   connected   together;   no
+requirements are imposed on the module content.
+2. 1.1    The  standard  is  limited  to  wafers  which  are  200
+mm (~8 in.) in diameter or smaller and to the interface
+between   cluster   tool   modules,   with   the   following
+exception.  The  transport  module  operates  across  the
+interface plane; thus, a definition of the wafer transport
+plane within cassette and process modules is required.
+2. 2    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Impact
+3. 1    The  adoption  of  the  standard  requires  cluster  tool
+equipment  designers  to  limit  the  wafer  transport  height
+to  a  nominal  value  at  the  interface  plane  between  two
+modules. It also requires equipment designers to assure
+that  wafer  transport  planes  within  cassette  and  process
+modules  be  clear  for  wafer  transport.  The  transport
+module  requires  the  capability  for  a  minimum  reach
+outside  the  module  across  the  interface  plane.  Modules
+may  be  connected  using  a  quick  connect/disconnect
+clamping  system.  Constraints  are  placed  on  sealing
+surfaces.
+4  Referenced Standards
+ISO 1609-1986 (E)
+1
+— “Vacuum Technology — Flange
+Dimensions,”       International       Organization       for
+Standardization (ISO).
+5  Terminology
+5. 1  Definitions
+5. 1.1  cassette  module  —  a  two-port  module.  One  port
+accepts  or  presents  a  cassette  of  wafers  or  possibly,  in
+an  automated  factory,  an  individual  wafer  for  intertool
+transport;  the  second  port  accepts  or  presents  a  single
+wafer within the module for intratool transport.
+5. 1.2  cluster  tool  —  an  integrated,  environmentally
+isolated  manufacturing  system  consisting  of  process,
+transport,  and  cassette  modules  mechanically  linked
+together.  The  modules  may  or  may  not  come  from  the
+same supplier.
+5. 1.3  environmental  isolation  —  separated  from  the
+ambient atmospheric environment.
+5. 1.4  interface plane — the vertical surface defined by
+the mating surfaces of two joined modules.
+5. 1.5  interface seal zone — an absolute surface or face
+reserved for establishing an environmental seal between
+modules.
+5. 1.6  intertool     transport     —     wafer     or     cassette
+movement between independent tools.
+5. 1.7  intratool  transport  —  wafer  movement  inside  a
+cluster tool.
+5. 1.8  module  —  an  independently-operable  unit  that  is
+part of a tool or system.
+
+
+1 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 2
+5. 1.9  process  module  —  a  module  that  accepts  or
+presents  a  single  wafer  inside  the  module  for  intratool
+transport.
+5. 1.10  reach   —   the   distance   measured   from   the
+interface plane to the wafer centroid within a process or
+cassette module.
+5. 1.11  transport  module  —  a  module  that  accepts  or
+presents  a  single  wafer  outside  the  module  across  the
+interface plane for intratool transport.
+5. 1.12  wafer  transport  plane  —  the  horizontal  surface
+a wafer traverses between modules.
+5. 1.13  wafer transport zone — the area of the interface
+plane  free  of  physical  obstructions,  reserved  for  wafer
+movement between modules.
+6  Requirements
+6. 1  Wafer Transport and Placement
+6. 1.1  Horizontal  Transport  Plane  —  The  dimensions
+for    wafer    placement    during    wafer    transport    are
+referenced  from  the  interface  plane  in  the  plan  view
+shown in Figure 1. The transport module is required to
+present or accept a horizontal wafer outside the module
+anywhere along  an  axis  perpendicular  to  the  center  of
+the interface plane to a maximum 305 mm (12 in.) from
+the interface plane. Thus, a transport module is required
+to have the capability to reach 305 mm (12 in.) beyond
+its  interface  plane  to  a  wafer  centroid  (see  Section  R1-
+1).  However,  location  of  the  wafer  at  a  distance  less
+than  305  mm  (12  in.)  from  the  interface  plane  requires
+that  the  transport  module  be  capable  of  addressing  the
+intermediate  location.  Similarly,  a  cassette  module  or
+process  module  accepts  a  horizontal  wafer  inside  the
+module anywhere along  an  axis  perpendicular  to  the
+center  of  its  interface  plane  up  to  a  maximum  305  mm
+(12  in.)  from  the  interface  plane  as  required  by  the
+application.
+6. 1.1.1  Placement  Accuracy  —  The  requirements  for
+placement  accuracy  of  a  wafer  in  the  horizontal  plane
+within  a  module  are  1.0  mm  (0.04  in.)  true  position,  ±
+0. 5 mm (± 0.020 in.) radially, with less than one degree
+angular    rotation    for    every    module-to-transport-to-
+module wafer transport (B
+n
+:A:B
+n
++ 1as shown in Figure
+1).  If  the  wafer  is  displaced  in  the  process  module,  it
+must be returned to the original position within the non-
+culmulative  placement  accuracy  of  1.0  mm  (0.04  in.)
+true position, ± 0.5 mm (± 0.020 in.) radially.
+6. 1.2  Vertical   Position   of   Transport   Plane   —   The
+elevation of the wafer transport plane is measured from
+the  facility  floor  as  shown  in  Figure  2.  The  transport
+module  is  required  to  present  or  accept  a  horizontal
+wafer  outside  the  module  at  a  nominal  wafer  transport
+height  of  1100  mm  (43.307  in.)  from  the  facility  floor
+(see Section R1-2).
+6. 1.2.1  Vertical  Motion  —  The  transport  module  is
+required  to  move  the  wafer  to  within  ±  0.5  mm  (0.020
+in.)  in  the  wafer  transport  plane.  The  transport  module
+is also required to posess a vertical motion capability to
+a second plane 6.0 mm ± 0.5 mm (0.236 in. ± 0.020 in.)
+below the wafer transport plane in order to allow wafer
+handoff to or from passive cassette or process modules
+(see Figure 2 and Section R1-3).
+6. 1.2.2  Reference    Plane    —    The    interface    plane
+alignment  pins  define  a  reference  plane  9.5  mm  (0.374
+in.) below the wafer transport plane (see Figure 2).
+6. 2  Interface Plane — The interface plane contains the
+interface seal zone and the wafer transport zone, which
+do  not  overlap,  and  the  location  of  the  interface  plane
+alignment pins (see Figures 3 and 4).
+6. 2.1  Interface Seal Zone — The interface seal zone is
+rectangular    and    symmetrically    referenced    to    the
+interface  plane  alignment  pins.  The  inside  boundary
+dimension  of  the  interface  seal  zone  is  46  mm  (1.811
+in.) by 236 mm (9.291 in.). The outside boundary is 76
+mm (2.992 in.) by 266 mm (10.472 in.). A seal zone is
+either a seal surface or an O-ring face. All interface seal
+zones   facing   toward   a   transport   module   are   seal
+surfaces polished to a surface finish less than or equal to
+0. 8   micrometer   (32   microinches)   parallel   to   the
+circumference  (see  Section  R1-4).  All  interface  seal
+zones facing toward a cassette or process module are O-
+ring faces equipped with the appropriate capture groove
+for  the  sealing  method  employed  (see  Figure  3  and
+Section R1-4.1).
+6. 2.2  Wafer  Transport  Zone  —  The  wafer  transport
+zone  is  the  area  within  the  interface  seal  zone  reserved
+for  moving  the  wafer  between  modules.  The  wafer
+transport  zone  which  cannot  be  compromised  by  any
+module is defined as the area at least 16 mm (0.630 in.)
+above and below the alignment pin centerlines, and 111
+mm  (4.370  in.)  to  the  left  and  right  of  the  centerline
+between  the  two  alignment  pins  (see  Figure  3  and
+Section R1-5).
+6. 2.3  Interface Plane Alignment Pins — Provisions are
+made for two 10 mm (0.394 in.) diameter locating pins
+(see  Figure  4)  to  be  used  as  alignment  aids  between
+modules. Under no circumstances should the flanges at
+the interface plane and the alignment pins be subject to
+a  total  load  exceeding  500N  (112  lbf)  in  shear.  The
+alignment pins have an absolute centerline separation of
+300. 0 mm (11.811 in.) in the horizontal plane. The pins
+reside   in   the   seal   surface   side   of   the   flange   pair,
+opposite   the   O-ring,   facing   toward   the   transport
+module.  Mild  press  fit  holes  are  provided  in  the  seal
+surface  flange  face.  A  clearance  hole  and  a  slot  are
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 3
+provided in the O-ring flange face as shown in Figure 1
+and  specified  in  Figure  3.  Alignment  pin  height  above
+the  flange  face  is  6  mm  (0.24  in.)  minimum  to  8  mm
+(0.31 in.) maximum (see Section R1-6).
+6. 2.4  Isolation   Valves   —   The   transport   module   is
+always   equipped   with   a   valve   for   environmental
+isolation  at  each  module  interface  plane.  The  intratool
+transport  port  on  a  process  or  cassette  module  may  be
+equipped  with  an  environmental  isolation  valve  (see
+Section R1-7).
+6. 3  Flange  —  A  flange  is  specified  as  162  mm  (6.378
+in.)  by  340  mm  (13.386  in.).  One  horizontal  edge  is
+specified  to  be  50  mm  (1.969  in.)  from  the  alignment
+pins’ centerline (see Figure 4).
+6. 3.1  Clamping  —  Clamping  grooves  as  specified  in
+the   International   Standards   Organization   document,
+Vacuum  Technology,  Flange  Dimensions  (ISO  1609-
+1986),  Table  2,  nominal  bores  40  mm-250  mm  (1.575
+in.Ð9.843  in.)  are  located  at  the  flange  perimeter  (see
+groove  detail  in  Figure  4).  Clamps  for  ISO  flanges  can
+be  used  to  generate  the  force  necessary  to  produce  an
+environmental seal (see Section R1-8).
+6. 3.2  Non-Flanged  Surfaces  —  A  non-flanged  surface
+may   be   used   to   join   with   a   flanged   surface.   An
+attachment   means   to   engage   the   flange   must   be
+provided. If a flanged adaptor piece is necessary to join
+two  non-flanged  surfaces,  then  the  adaptor  piece  shall
+be   located   on   the   process   or   cassette   side   of   the
+interface plane.
+LIST OF FIGURES
+Figure 1 — Module Interface with Wafer Transport and
+Placement Detail (Plan View)
+Figure 2 — Wafer Transport Plane Elevation
+Figure 3 — Interface Plane
+Figure 4 — Flange Specification
+
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 4
+
+Figure 1
+Module Interface with Wafer Transport and Placement Detail (Plan View)
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 5
+
+Figure 2
+Wafer Transport Plane Elevation
+
+
+Figure 3
+Interface Plane
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 6
+
+Figure 4
+Flange Specification
+
+
+
+SEMI E21-94 © SEMI 1991, 2002 7
+RELATED INFORMATION 1
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  E21  but  was  reapproved  for  publication  by  full  letter  ballot
+procedures on July 21, 2002.
+R1-1  Transport Module Reach
+R1-1.1  The reach (see Section 4.1.1) permits a wafer of
+200  mm  (8  in.)  diameter  or  smaller  to  be  placed  on  a
+wafer  support  platform  in  a  process  chamber  with
+allowance   for   the   optional   isolation   valve   on   the
+process  module  and  the  chamber  wall  thickness.  The
+substantial   clearance   between   the   wafer   and   the
+chamber  wall  is  to  allow  freedom  for  process-specific
+design requirements.
+R1-1.2    Individual  process  chamber  designs  may  place
+the wafer closer to the interface plane than 305 mm (12
+in.) and still conform to the standard.
+R1-1.3      Wafers   are   transported   individually   in   a
+horizontal  attitude.  Modules  may  contain  any  number
+of wafers. For example, batch processing is allowed.
+R1-2  Vertical Position of Transport Plane
+R1-2.1    The  transport  plane  elevation  of  1100  mm
+(43.307 in.) (see Section 4.1.2) is positioned within the
+constraints  placed  on  the  cluster  tool  by  the  Inter-
+Equipment    Automation    requirement    for    cassette
+placement  (SEMI  E15).  SEMI  E15  specifies  the  load
+height for cassettes to be 900 mm (35.46 in.) ± 10 mm
+(0.394 in.) outside an environmental load-lock.
+R1-2.2    The  vertical  position  of  the  transport  plane  is
+derived from the following contributions:
+• 910  mm  (35.854  in.)  is  a  worst-case  cassette  load
+height position.
+• 12 mm (0.473 in.) is a nominal pickup clearance to
+zero  a  wafer  elevator  indexer  after  the  cassette  is
+drawn into the environmental load-lock.
+• 178 mm (7.01 in.) is the location of the top slot in a
+standard 200 mm (8 in.) wafer carrier (SEMI E1.7).
+R1-2.3    These  additive  contributions  assure  that  the
+transport  plane  elevation  allows   as   much   space   as
+possible  for  location  of  support  equipment  such  as
+pumps,   electronics,   and   power   supplies   below   the
+process chamber. The 1100 mm (43.307 in.) “nominal”
+dimension  could  be  adjustable  by  the  module(s)  to
+within ± 25 mm (1 in.).
+R1-3  Vertical Motion
+R1-3.1  The standard (see Section 4.1.2.1) requires that
+the  transport  module  be  capable  of  moving  in  two
+planes. An ability to move in other planes is optional.
+R1-3.2    The  transport  module  moves  the  wafer  in  the
+horizontal  wafer  transport  plane  (see  Definition  3.12).
+The  transport  module  has  a  vertical  motion  capability
+for  wafer  handoff  or  pickup.  It  is  assumed  that  the
+transport  module  moves  in  the  lower  plane  after  wafer
+handoff or prior to wafer pickup.
+R1-4  Interface Seal Zone
+R1-4.1    The  interface  seal  zone  (see  Section  4.2.1)  is
+sufficiently    wide    to    permit    double    seals    with
+intermediate pumping.
+R1-4.2  Blank-Off Plates — The location of the seals on
+the transport module allows plain blank-off plates to be
+used for environmental sealing.
+R1-5  Wafer Transport Zone
+R1-5.1    The  minimum  specified  height  of  32  mm
+(1.184   in.)   (see   Section   4.2.2)   provides   sufficient
+clearance  for  passage  of  a  knuckle  joint  or  pivot  point
+in  the  transport  module  end  effector  (see  SEMI  E22,
+"Cluster Tool Module Interface: Transport Module End
+Effector  Exclusion  Volume  Standard")  and  for  6  mm
+(0.238 in.) of vertical motion. The wafer transport zone
+may  be  expanded  up  to  the  boundary  of  the  interface
+seal zone when a module requires a larger opening (see
+Section 4.2.1 and Figure 3).
+R1-6  Interface Plane Alignment Pins
+R1-6.1    The  standard  (see  Section  4.2.3)  implies  the
+normal engineering practice of chamfering pin ends and
+countersinking  pin  locating  holes.  Actual  dimensions
+for  this  have  been  specified  or  recommended  by  other
+authorities.
+R1-6.2    Pins  reside  in  the  sealing  surface  to  avoid
+accidental damage to the surface finish during assembly
+and  disassembly.  With  centrally  placed  pins,  valves
+may  be  mounted  in  either  orientation  if  this  simplifies
+servicing or accessibility.
+R1-6.3    A  clearance  hole  and  slot  arrangement  allows
+use of dissimilar flange materials in a dynamic thermal
+environment.
+R1-7  Isolation Valves
+R1-7.1    The  standard  (see  Section  4.2.4)  allows  the
+valves   to   be   integral   to   the   modules   or   discrete
+separable units.
+
+
+SEMI E21-94 © SEMI 1991, 2002 8
+R1-8  Clamping
+R1-8.1    The  standard  (see  Section  4.3.1)  allows  a
+universal   clamping   scheme   to   be   employed.   Claw
+clamps   designed   for   use   with   ISO   flanges   are
+accommodated by the use of a perimeter groove around
+the flange.
+R1-8.2  The clamping scheme provides several benefits:
+• Independence from any hole pattern requirements.
+• Flanges may be connected to flat plates or to other
+flanges.
+• The  number  of  clamps  and  the  number  of  sides
+used to draw the flanges together may be varied as
+required  by  the  compression  forces  necessary  for
+the sealing method used. For example, clamps may
+be  spaced  on  30  mm  (1.191  in.)  centers  for  metal
+seals and on 150 mm (6 in.) centers for elastomeric
+seals.
+• Any type of clamp may be used that accommodates
+the perimeter groove.
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E21.1-1296 © SEMI 1992, 2002 1
+SEMI E21.1-1296 (Reapproved 1102)
+CLUSTER TOOL MODULE INTERFACE 300 mm: MECHANICAL
+INTERFACE AND WAFER TRANSPORT STANDARD
+This standard was technically reapproved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+reapproved  by  the  North  American  Regional  Standards  Committee  on  July  21,  2002.    Initially  available  at
+www.semi.org  October  2002;  to  be  published  November  2002.    Originally  published  in  1992;  previously
+published December 1996.
+1  Introduction
+1. 1    The  standard  provides  the  requirements  to  extend
+the  limits  of  SEMI  E21  from  200  mm  diameter  wafers
+or smaller to 300 mm diameter wafers or smaller.
+2  Referenced Standards
+2. 1  SEMI Standards
+SEMI    E21    —    Cluster    Tool    Module    Interface:
+Mechanical Interface and Wafer Transport Standard
+3  Requirements
+3. 1      The   standard   is   identical   to   E21   (see   Related
+Infornation  R1-1)  except  for  the  requirements  listed  in
+Table 1 and Figures 1 and 2.
+Table 1  Mechanical Interface Requirements for 300
+mm Diameter Wafers
+E21
+Requirements
+300 mm Wafer
+Requirements
+Transport Maximum
+Reach
+1
+
+305. 0 mm
+(12.01 in.)
+380. 0 mm
+(14.96 in.)
+Inside Boundary Width-
+Interface Seal Zone
+2
+
+236. 0 mm (9.29
+in.)
+336. 0 mm
+(13.23 in.)
+Outside Boundary Width-
+Interface Seal Zone
+2
+
+266. 0 mm
+(10.47 in.)
+366. 0 mm
+(14.41 in.)
+Wafer Transfer Zone
+Minimum Width
+2
+
+222. 0 mm
+(8.74 in.)
+322. 0 mm
+(12.68 in.)
+Alignment Pins Centerline
+Separation
+2
+
+300. 0 mm
+(11.81 in.)
+400. 0 mm
+(15.75 in.)
+Flange Width
+2
+340. 0                mm
+(13.39 in.)
+440. 0 mm
+(17.32 in.)
+Vertical Slot Opening
+(Inner boundary of Seal
+Zone)
+46 mm
+(1.811 in.)
+Maximum
+50 mm
+(1.969 in.)
+Distance of Wafer Transfer
+Plane above Alignment Pin
+Datum Line (see Figure 1)
+9. 5 ± 0.5 mm
+(0.37 ± 0.02 in.)
+15. 5 ± 0.5 mm
+(0.61 ± 0.02 in.)
+Vertical Motion Capability
+(see Figure 1)
+6 ± 0.5 mm
+(0.24 ± 0.02 in.)
+10 ± 0.5 mm
+(0.39 ± 0.02 in.)
+Minimum Distance of Slot
+Top above Alignment Pin
+Datum on Attached
+Modules
+(13 mm) 23 mm
+(0.906 in.)
+Minimum Distance of Slot
+Bottom below Alignment
+Pin Datum on Attached
+Modules
+(13 mm) 13 mm
+(0.512 in.)
+
+# 1
+
+1. See Related Information R1-2.
+
+# 2
+
+2. See Related Information R1-3.
+
+
+
+SEMI E21.1-1296 © SEMI 1992, 2002 2
+
+
+Figure 1
+Proposed 300 mm Wafer Transport Plane Elevation
+
+
+
+SEMI E21.1-1296 © SEMI 1992, 2002 3
+
+Figure 2
+Proposed 300 mm Interface Plane
+
+
+
+SEMI E21.1-1296 © SEMI 1992, 2002 4
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  an  invention
+covered  by  patent  rights.  By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International
+(SEMI) takes no position respecting the validity of any patent rights asserted in connection with any item mentioned
+in this standard. In particular, users of the specification should be aware that Drytek, Inc., A Unit of General Signal,
+16  Jonspin  Road,  Wilmington,  MA  01887-1087,  Phone:  (508)  657-3933,  has  neither  claimed  nor  disclaimed  that
+compliance with this specification would require use of an invention covered by one or more of its patents. Users of
+this standard are expressly advised that determination of any such patent rights, and the risk of the infringement of
+such rights, are entirely their own responsibility.
+
+
+
+SEMI E21.1-1296 © SEMI 1992, 2002 5
+RELATED INFORMATION 1
+NOTE: The material contained in this related information is not an official part of SEMI E21.1, and is not meant to
+modify or supersede it in any way. Rather, these notes are provided primarily as a source of information to aid in the
+application  of  the  standard.  As  such  they  are  to  be  considered  as  reference  material  only.  The  standard  should  be
+referred to in all cases.
+R1-1  Vertical Requirements
+R1-1.1  Changes in vertical requirements are made because of the need to provide adequate transport arm stiffness
+(thickness) for the longer reach specified for 300 mm. However, for many processes, it is desirable to limit the slot
+size as far as possible. An option is now allowed to reduce the vertical slot opening on the Attached Modules side of
+the  Interface  Plane  (see  Figure  1,  E21),  but  any  such  reduction  will  compromise  the  space  otherwise  available  for
+transport arm vertical thickness and/or movement. Specification of the extent of this option will be needed in each
+case it is used.
+R1-2  Transport Maximum Reach
+A1-2.1    The  maximum  reach  beyond  the  interface  plane  (see  Table  1)  is  increased  by  75  mm  (from  305.0  mm  to
+380. 0 mm); a 50 mm increase in wafer radius (from 100 mm to 150 mm) and a 25 mm increase in clearance between
+the wafer and the chamber walls.
+R1-3  Width Requirements
+R1-3.1  The increase in wafer diameter from 200 mm to 300 mm necessitates a 100 mm increase in all width values
+(see Table 1) specified in SEMI E21.
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  an  invention
+covered  by  patent  rights.  By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International
+(SEMI) takes no position respecting the validity of any patent rights asserted in connection with any item mentioned
+in this standard. In particular, users of the specification should be aware that Drytek, Inc., A Unit of General Signal,
+16  Jonspin  Road,  Wilmington,  MA  01887-1087,  Phone:  (508)  657-3933,  has  neither  claimed  nor  disclaimed  that
+compliance with this specification would require use of an invention covered by one or more of its patents. Users of
+this standard are expressly advised that determination of any such patent rights, and the risk of the infringement of
+such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E22-0697 © SEMI 1991, 2002 1
+SEMI E22-0697 (Reapproved 1102)
+CLUSTER TOOL MODULE INTERFACE: TRANSPORT MODULE END
+EFFECTOR EXCLUSION VOLUME STANDARD
+This standard was technically reapproved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+reapproved  by  the  North  American  Regional  Standards  Committee  on  July  21,  2002.    Initially  available  at
+www.semi.org  October  2002;  to  be  published  November  2002.    Originally  published  in  1991;  previously
+published June 1997.
+1  Purpose
+1. 1  The purpose of the standard is to provide sufficient
+detail  to  allow  the  transport  module  end  effector  to
+move wafers to and from process and cassette modules
+in a cluster tool without mechanical interference.
+2  Scope
+2. 1      The   standard   describes   the   volume   within   any
+process or cassette module which shall be accessible to
+the transport module end effector in a cluster tool. The
+standard  is  limited  to  modules  which  accommodate
+wafer sizes from 100 mm up to and including 200 mm
+in diameter.
+2. 2    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Impact
+3. 1    The  adoption  of  the  standard  requires  equipment
+designers to allow specific unobstructed volumes within
+process  and  cassette  modules  for  wafer  transport  and
+places restrictions on the design of the transport module
+end  effector.  Some  restrictions  are  dependent  on  the
+wafer size.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  E1  —  Specification  for  3  inch,  100  mm,  125
+mm, and 150 mm Plastic and Metal Wafer Carriers
+SEMI    E21    —    Cluster    Tool    Module    Interface:
+Mechanical Interface and Wafer Transport Standard
+5  Terminology
+5. 1  Definitions
+5. 1.1  exclusion  zone  —  A  restricted  area  within  a
+process  or  cassette  module  reserved  for  access  by  the
+transport module end effector during wafer handling.
+5. 1.2  fork   —   A   two-prong   transport   module   end
+effector   designed   to   hold   the   wafer   around   its
+periphery.
+5. 1.3  paddle — A blade transport module end effector
+designed to support the wafer.
+5. 1.4  pedestal — A support pillar axially symmetric to
+the  wafer  transport  position  in  a  process  or  cassette
+module.
+5. 1.5  slot  —  A  two-sided  support,  for  example  as
+defined  for  a  standard  wafer  carrier  in  SEMI  E1  when
+the carrier is oriented with its axis in a vertical attitude.
+5. 1.6  transport module end effector — That part of the
+transport module that supports the wafer and can extend
+beyond the interface plane (defined in SEMI E21).
+5. 1.7  wafer support platform — A slot, pedestal, or set
+of pins used to hold a wafer in a horizontal attitude.
+5. 1.8  wafer   transport   axis   —   The   centerline   of
+transport module end effector motion. This centerline is
+symmetric with the wafer transport zone as described in
+SEMI E21.
+5. 1.9  wafer  transport  position  —  A  location  within  a
+process or cassette module where the wafer is accepted
+or presented by the transport module end effector. This
+is also the location of the wafer centroid.
+6  Requirements
+6. 1  Wafer Transport  —  The  wafer  is  to  be  transported
+in a horizontal attitude (see Related Information R1-1).
+6. 2  Wafer  Transport  Plane  Exclusion  Zone  —  The
+exclusion   zone   is   illustrated   in   Figure   1,   and   the
+variables are defined in Table 1 and specified in Table 2
+(see   Related   Information   R1-2).   The   clear   areas
+between B and C and along the wafer transport axis are
+specified  to  allow  the  transport  module  end  effector  to
+be  retracted  after  the  wafer  has  been  placed  on  the
+support platform in the process or cassette module. The
+right-hatched  (////)  area  denotes  the  exclusion  zone
+which could be occupied by a paddle. The left-hatched
+(\\\\)  area  denotes  the  additional  exclusion  zone  which
+could   be   occupied   by   a   fork.   The   cross-hatched
+(XXXX)  area  denotes  the  reduction  in  the  dimensions
+
+
+
+
+SEMI E22-0697 © SEMI 1991, 2002 2
+of the paddle exclusion zone to accommodate a pedestal
+and  or  pin(s)  in  a  process  or  cassette  module  (referred
+to as a pedestal or pin exclusion zone).
+6. 3  Maximum  Pedestal  Diameter  —  The  diameter  is
+not to exceed dimension H given in Table 2.
+6. 4  Pin  Location  —  Wafer  support  pins  to  be  located
+relative  to  the  wafer  transport  plane  exclusion  zone.
+The pins are to be located at radii dependent upon wafer
+diameter as specified in Table 2.
+6. 5  Vertical Plane Exclusion Zone — The extent of the
+exclusion  zone  in  the  vertical  plane  is  indicated  by  the
+hatched  area  and  the  dashed  outline  in  Figure  2.  The
+maximum   extent   of   the   exclusion   zone   allows   the
+transport  module  end  effector  to  clear  the  minimum
+wafer transport zone at the interface plane (see Related
+Information R1-3). The vertical plane exclusion zone is
+decreased in height in the vicinity of the wafer transport
+position  to  allow  the  presence  of  shields,  electrodes,
+etc. in the process or cassette module.
+6. 6  Transport  Module  End  Effector  Exclusion  Volume
+—  The  exclusion  volume  within  a  process  or  cassette
+module reserved for access by the transport module end
+effector   is   defined   by   the   intersection   of   the   two
+orthogonal  exclusion  zones  described  in  Sections  6.2
+and  6.5.  This  exclusion  volume  allows  the  transport
+module end effector to accept or present a wafer at the
+wafer  transport  position  within  a  process  or  cassette
+module (see Related Information R1-4).
+LIST OF FIGURES
+Figure  1.  Wafer  Transport  Plane  Exclusion  Zone  (Plan
+View)
+Figure  2.  Vertical  Plane  Exclusion  Zone  (Elevation
+View)
+Table 1  Wafer Transport Plane Exclusion Zone
+Variables
+A Maximum width of the wafer transport plane
+exclusion zone
+B Minimum outside clearance for support pins
+C Maximum inside clearance for support pins
+and/or slot
+D         Minimum         radial         clearance for support pins
+E Outermost radius of wafer transport plane
+exclusion zone
+F Minimum clearance for entry into SEMI
+Standard Wafer Carrier
+G Maximum clearance for support pins
+H Maximum clearance for support pedestal
+Table 2  Wafer Transport Plane Exclusion Zone
+Dimensions
+Wafer Size
+
+
+Variables
+100 mm
+(4 in.)
+125 mm
+(5 in.)
+150 mm
+(6 in.)
+200 mm
+(8 in.)
+A            120            mm
+(4.72 in.)
+145 mm
+(5.71 in.)
+170 mm
+(6.69 in.)
+220 mm
+(8.66 in.)
+B              86              mm
+(3.39 in.)
+107 mm
+(4.21 in.)
+129 mm
+(5.08 in.)
+172 mm
+(6.77 in.)
+C              50              mm
+(1.97 in.)
+66 mm
+(2.60 in.)
+78 mm
+(3.07 in.)
+104 mm
+(4.09 in.)
+D             47             mm
+(1.85 in.)
+60 mm
+(2.36 in.)
+72 mm
+(2.83 in.)
+97 mm
+(3.82 in.)
+E              60              mm
+(2.36 in.)
+72 mm
+(2.83 in.)
+85 mm
+(3.35 in.)
+110 mm
+(4.33 in.)
+F              70              mm
+(2.76 in.)
+82 mm
+(3.23 in.)
+95 mm
+(3.74 in.)
+120 mm
+(4.72 in.)
+G             47             mm
+(1.85 in.)
+60 mm
+(2.36 in.)
+72 mm
+(2.83 in.)
+97 mm
+(3.82 in.)
+H             30             mm
+(1.18 in.)
+38 mm
+(1.50 in.)
+45 mm
+(1.77 in.)
+60 mm
+(2.36 in.)
+
+
+
+SEMI E22-0697 © SEMI 1991, 2002 3
+
+5. 1.9)
+10
+(0.39)
+10
+(0.39)
+25
+(0.98)
+
+Figure 1
+Wafer Transport Plane Exclusion Zone (Plan View)
+
+
+
+
+SEMI E22-0697 © SEMI 1991, 2002 4
+
+(0.26)
+(0.06)
+(0.49)
+5. 9.1)
+(0.12)
+(0.28)
+(0.236)
+(0.238)
+(0.91)
+(0.06)
+6. 0 (0.236)
+Capability see SEMI E21
+
+Figure 2
+Vertical Plane Exclusion Zone (Elevation View)
+
+NOTICE: The user’s attention is called to the possibility that compliance with this standard may require use of an
+invention  covered  by  patent  rights.  By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials
+International  (SEMI)  takes  no  position  respecting  the  validity  of  any  patent  rights  asserted  in  connection  with  any
+item mentioned in this standard. In particular, users of the specification should be aware that Drytek, Inc., A Unit of
+General  Signal,  16  Jonspin  Road,  Wilmington,  MA  01887-1087,  Phone:  (508)  657-3933,  has  neither  claimed  nor
+disclaimed that compliance with this specification would require use of an invention covered by one or more of its
+patents. Users of this standard are expressly advised that determination of any such patent rights, and the risk of the
+infringement of such rights, are entirely their own responsibility.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+.
+
+
+
+SEMI E22-0697 © SEMI 1991, 2002 5
+RELATED INFORMATION 1
+NOTE:  The  material  contained  in  these  application  notes  is  not  an  official  part  of  SEMI  E22,  and  it  is  not  meant  to  modify  or
+supersede  it  in  any  way.  Rather,  these  notes  are  provided  primarily  as  a  source  of  information  to  aid  in  the  application  of  the
+standard. As such, they are to be considered as reference material only. The standard should be referred to in all cases.
+R1-1  Wafer Transport
+R1-1.1   The standard (see Section 6.1) does not require
+that  the  entire  transport  module  end  effector  move  in  a
+horizontal   attitude   while   the   wafer   does   have   this
+requirement.  For  example,  the  transport  module  end
+effector  may  have  a  component  of  motion  in  a  plane
+other  than  the  horizontal  during  wafer  transport  across
+the interface plane.
+R1-2  Variables — Definitions and Dimensions
+R1-2.1   The function of Table 2 (see Section 6.2) is to
+list   the   numerical   values   for   the   wafer   dependent
+variables used in Figures 1 and 2. The values are wafer
+size  dependent  so  as  not  to  penalize  the  design  of  a
+transport module end effector when handling only small
+diameter  wafers.  For  example,  the  physical  size  of  a
+transport  module  end  effector  for  a  100  mm  diameter
+wafer may be smaller than that for a 200 mm diameter
+wafer.
+R1-3  Vertical Plane Exclusion Zone
+R1-3.1   The   development   of   the   numeric   values
+specified in the standard (see Section 6.5) and given in
+Figure 2 are described below.
+R1-3.2   The  3  mm  height  above  the  wafer  transport
+plane   (defined   in   SEMI   E21)   allows   for   transport
+module  end  effectors  which  use  contraints  (e.g.,  a
+cupped  device  or  pins)  to  ensure  the  wafer  does  not
+slide.  Also,  this  may  be  necessary  if  the  wafer  is
+transported with the circuit side facing down.
+R1-3.3    The  7  mm  value  allows  for  a  4  mm  thickness
+below  the  wafer  transport  plane  to  accommodate  a
+structurally  and  thermally  strong  transport  module  end
+effector design.
+R1-3.4    The  12.5  mm  thickness  allows  for  process  or
+cassette modules with a minimum slot opening value of
+less than 32 mm (see SEMI E21).
+R1-3.5   The  200  mm  minimum  length  part  of  the
+exclusion   zone   allows   for   a   transport   module   end
+effector of limited reach to pass into modules with slot
+openings smaller than the minimum value of 32 mm.
+R1-3.6    The  23  mm  thickness  allows  for  the  presence
+of  a  “wrist”  joint  or  for  additional  rigidity  in  the
+transport module end effector.
+R1-3.7   The  120  mm  length  is  specified  as  a  fixed
+number   to   ensure   that   multiple   wafer   sizes   (and
+transport   module   end   effectors)   do   not   necessarily
+demand  a  change  in  geometry  of  the  receiving  module
+around the wafer transport position.
+R1-3.8   The  minimum  nominal  clearance  above  and
+below the exclusion zone is 1.5 mm on both sides of the
+transport  module  end  effector  when  it  passes  through
+the  minimum  slot  opening.  This  takes  into  account  the
+exclusion   zone   size   due   to   the   vertical   travel   the
+transport module end effector may experience.
+R1-3.9    A  subset  of  the  vertical  plane  exclusion  zone
+(see Figure R1-1) is required by a transport module end
+effector  which  must  access  wafers  directly  from  SEMI
+standard  or  equivalent  cassettes.  The  vertical  plane
+exclusion zone described in the standard (see Figure 2)
+was  not  subject  to  these  restrictions  since  a  single
+generic transport module end effector design was found
+not to be practical.
+R1-4  Transport Module End Effector Exclusion
+Volume
+R1-4.1   This  volume  as  described  in  Section  6.6  is
+intended  to  be  the  volume  within  which  the  transport
+module end effector has complete autonomy. Therefore,
+process and cassette modules are not allowed to violate
+this   volume   during   wafer   transport.   This   prevents
+mechanical  interference  between  the  transport  module
+end effector and the process or cassette module.
+
+
+SEMI E22-0697 © SEMI 1991, 2002 6
+
+Figure R1-1
+Vertical Plane Exclusion Zone (Elevation View)
+(Restricted Case for SEMI Standard Cassette Access)
+
+NOTICE: The user’s attention is called to the possibility that compliance with this standard may require use of an
+invention  covered  by  patent  rights.  By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials
+International  (SEMI)  takes  no  position  respecting  the  validity  of  any  patent  rights  asserted  in  connection  with  any
+item mentioned in this standard. In particular, users of the specification should be aware that Drytek, Inc., A Unit of
+General  Signal,  16  Jonspin  Road,  Wilmington,  MA  01887-1087,  Phone:  (508)  657-3933,  has  neither  claimed  nor
+disclaimed that compliance with this specification would require use of an invention covered by one or more of its
+patents. Users of this standard are expressly advised that determination of any such patent rights, and the risk of the
+infringement of such rights, are entirely their own responsibility.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E22.1-1296 © SEMI 1992, 2002 1
+SEMI E22.1-1296 (Reapproved 1102)
+CLUSTER TOOL MODULE INTERFACE 300 mm: TRANSPORT
+MODULE END EFFECTOR EXCLUSION VOLUME STANDARD
+This standard was technically reapproved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+reapproved  by  the  North  American  Regional  Standards  Committee  on  July  21,  2002.    Initially  available  at
+www.semi.org  October  2002;  to  be  published  November  2002.    Originally  published  in  1992;  previously
+published December 1996.
+1  Introduction
+1. 1    The  standard  provides  the  requirements  to  change
+the limits of applicability of SEMI E22 from 100 mm to
+200 mm diameter wafers to 300 mm diameter wafers.
+2  Referenced Standards
+2. 1  SEMI Standards
+SEMI  E1.9  —  Mechanical  Specification  for  Cassettes
+Used to Transport and Store 300 mm Wafers
+SEMI E22 — Cluster Tool Module Interface: Transport
+Module End Effector Exclusion Volume Standard
+3  Requirements
+3. 1  Wafer  Transport  Plane  Exclusion  Zone  —  All
+fixed  dimensions  remain  the  same  as  for  SEMI  E22
+with  the  following  exception.  The  25  mm  and  10  mm
+dimenions  for  the  rectangular  space  excluded  from  the
+front  of  the  Paddle  Exclusion  Zone  are  expanded  and
+defined   by   Variables   I   and   H   respectively.   These
+variables are shown in Figure 1. Variables for 250 mm
+and 300 mm diameter wafers are specified in Table 1.
+Table 1  Wafer Transport Plane Exclusion Zone
+Dimensions for 250 mm and 300 mm Diameter
+Wafers
+Wafer Size
+
+Vbl
+250 mm (10 in. nom.) 300 mm (12 in. nom.)
+A 270 mm (10.63 in.) 320 mm (12.60 in.)
+B 215 mm (8.46 in.) 250 mm (9.84 in.)
+C 130 mm (5.12 in.) 225 mm (8.86 in.)
+D 122 mm (4.80 in.) 147 mm (5.79 in.)
+E 135 mm (5.31 in.) 160 mm (6.30 in.)
+F 145 mm (5.71 in.) 170 mm (6.69 in.)
+G 122 mm (4.80 in.) 147 mm (5.79 in.)
+H 75 mm (2.95 in.) 154 mm (6.06 in.)
+I  117 mm (4.61 in.)
+
+
+F
+GI
+Wafer
+
+Transport
+
+Position
+
+Wafer
+
+Transport
+
+Axis
+
+Fork Exclusion Zone
+
+Paddle Exclusion Zone
+
+Pedestal or Pin
+
+Exclusion Zone
+
+C
+
+H
+
+B
+
+A
+
+Transport
+
+Module
+
+D
+E
+10 (0.39)
+
+Figure 1
+New Wafer Transport Plane Exclusion Zone Dimensions
+
+
+
+SEMI E22.1-1296 © SEMI 1992, 2002 2
+3. 2  Vertical Plane Exclusion Zone — This zone is illustrated in Figure 2, which defines dimensional values.
+
+Figure 2
+Proposed 300 mm Vertical Plane Exclusion Zone (Elevation View)
+
+
+
+SEMI E22.1-1296 © SEMI 1992, 2002 3
+RELATED INFORMATION 1
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  E22.1,  and  is  not  meant  to  modify  or  supersede  it  in  any  way.
+Rather, these notes are provided primarily as a source of information to aid in the application of the standard. As such they are to
+be considered as reference material only. The standard should be referred to in all cases.
+R1-1
+R1-1.1  The standard applies to both attached modules and wafer carriers; there is no special subset for carriers. The
+extreme  end  of  the  exclusion  zone  should  allow  adequate  stiffness  for  end  effectors  and  also  permit  insertion  into
+carriers (with a 10 mm pitch).
+
+NOTICE: The user’s attention is called to the possibility that compliance with this standard may require use of an
+invention  covered  by  patent  rights.  By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials
+International  (SEMI)  takes  no  position  respecting  the  validity  of  any  patent  rights  asserted  in  connection  with  any
+item mentioned in this standard. In particular, users of the specification should be aware that Drytek, Inc., A Unit of
+General  Signal,  16  Jonspin  Road,  Wilmington,  MA  01887-1087,  Phone:  (508)  657-3933,  has  neither  claimed  nor
+disclaimed that compliance with this specification would require use of an invention covered by one or more of its
+patents. Users of this standard are expressly advised that determination of any such patent rights, and the risk of the
+infringement of such rights, are entirely their own responsibility.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 1
+SEMI E23-1104
+SPECIFICATION FOR CASSETTE TRANSFER PARALLEL I/O
+INTERFACE
+This specification was technically approved by the Global Physical Interfaces and Carriers Committee and is
+the direct responsibility of the North American Physical Interfaces and Carriers Committee. Current edition
+approved  by  the  North  American  Regional  Standards  Committee  on  August  16,  2004.    Initially  available  at
+www.semi.org
+September 2004; to be published November 2004.  Originally published in 1991; previously
+published in 2002.
+1  Purpose
+1. 1  Cassette  transfer  between  process  equipment  and
+transport   equipment   is   performed   by   means   of   a
+mechanical   operation   in   the   interactive   area   and
+requires quick response and reliable interlock signals.
+1. 2  The  purpose  of  this  specification  is  to  provide  a
+cassette transfer parallel input/output (I/O) interface for
+control of the interface mechanism that supplements the
+SECS standard for material movement.
+2  Scope
+2. 1  This   specification   deals   with   the   parallel   I/O
+interface for the cassette transfer between two pieces of
+equipment, such as a piece of process equipment and a
+piece of transport equipment.
+2. 2  This  standard  defines  the  wire-connected  parallel
+I/O  interface  between  two  pieces  of  equipment  and  the
+photo-coupled   parallel   I/O   interface   between   the
+process equipment and the transport equipment.
+2. 3  The  application  of  the  parallel  I/O  interface  to  the
+cassette transport is as follows.
+2. 4  Each piece of equipment is connected to the HOST
+at  the  SECS  interface,  and  each  of  the  two  pieces  of
+equipment  between  which  the  cassette  transfer  will  be
+made is connected at the parallel I/O interface as shown
+in Figure 1.
+2. 5  The   cassette   transfer   request,   or   load/unload
+command,  is  notified  by  the  SECS-II  message.  The
+actual  cassette  transfer  action  is  executed  using  the
+parallel  I/O  interface,  interlocking  each  mechanism.
+(An example of a cassette transfer transaction using the
+parallel  I/O  interface  is  shown  in  Related  Information
+1. )
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+
+Figure 1
+Application of Parallel I/O Interface to Cassette
+Transport
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI  E1  —  Specification  for  3  inch,  100  mm,  125
+mm, and 150 mm Plastic and Metal Wafer Carriers
+SEMI   E4   —   SEMI   Equipment   Communications
+Standard 1 Message Transfer (SECS-I)
+SEMI   E5   —   SEMI   Equipment   Communications
+Standard 2 Message Content (SECS-II)
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 2
+3. 2  ISO Standards
+1
+
+
+ISO    4902    —    Information    Technology    —    Data
+Communication    —    37-pole    DTE/DCE    Interface
+Connector and Contact Number Assignments
+3. 3  Japanese Industrial Standards Committees
+2
+
+
+JIS-X-5103  —  The  Interface  Between  Data  Circuit
+Terminating   Equipment   (DCE)   and   Data   Terminal
+Equipment (DTE) (37/9-Pin Interface)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Definitions
+4. 1.1  active   equipment   —   Equipment   that   loads   a
+cassette  onto  the  cassette  stage  of  another  piece  of
+equipment or unloads a cassette from the cassette stage
+of another piece of equipment.
+4. 1.2  cassette  —  A  plastic  or  metal  wafer  carrier  as
+defined in SEMI E1.
+4. 1.3  cassette stage — A stage on a piece of equipment
+on  which  a  cassette  is  placed  or  from  which  it  is
+removed that allows the cassette transfer.
+4. 1.4  cassette  transfer  robot  —  A  robot  that  transfers
+cassettes (see Figure 2).
+4. 1.5  passive equipment — Equipment that is loaded or
+unloaded by the active equipment.
+4. 1.6  photo-coupled    interface    —    A    parallel    I/O
+interface  connected  without  contact  by  means  of  a
+photo-coupled device.
+4. 1.7  process   equipment   —   Fabrication   equipment,
+inspection  equipment,  and  cassette  stage  equipment
+used in semiconductor manufacturing.
+4. 1.8  robot  vehicle  —  A  piece  of  equipment  having  a
+cassette  transfer  robot  on  the  vehicle  that  moves  to
+another  piece  of  equipment  and  transfers  cassettes  (see
+Figure 2).
+4. 1.9  transfer — To either load or unload.
+4. 1.10  transport  equipment  —  A  piece  of  equipment
+(or  system)  which  transports  or  transfers  cassettes.  It
+
+
+1 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+2 Japanese Industrial Standards, Available through the Japanese
+Standards Association, 1-24, Akasaka 4-Chome, Minato-ku, Tokyo
+107-8440, Japan. Telephone: 81.3.3583.8005; Fax: 81.3.3586.2014
+Website: www.jsa.or.jp
+mainly  consists  of  a  transport  vehicle,  a  robot  vehicle,
+and a cassette transfer robot.
+4. 1.11  transport  vehicle  (see  Figure  2)  —  A  vehicle
+which transports cassettes but which has no mechanism
+for cassette transfer.
+4. 1.12  wire-connected   interface   —   A   parallel   I/O
+interface connected by means of wire and a connector.
+
+Figure 2
+Cassette Transfer between Active Equipment
+and Passive Equipment
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 3
+5  Parallel I/O Interface Specification
+5. 1  This standard refers only to the cassette transfer between active and passive equipment.
+5. 2  Wire-Connected Parallel I/O Interface Specification — The equipment is to have a parallel I/O interface for the
+passive mode when it becomes passive, and the parallel I/O interface for the active mode when it becomes active.
+5. 2.1  Signals for Each Cassette Stage — The cassette stage is to have the input/output signal lines listed in Table 1.
+
+Table 1  Signals for Each Cassette Stage (Wire-Connected Interface)
+Signal Type P/A Description
+L_REQ (LOAD
+REQUEST)
+P->A This signal means that the CS can be loaded. The signal turns OFF when the
+cassette is detected on the CS. (The CS is a cassette stage.)
+U_REQ (UNLOAD
+REQUEST)
+P->A This signal means that the CS can be unloaded. The signal turns OFF when it is
+detected that the cassette has been removed from the CS.
+READY P->A This signal means that the CS is in a state where it can be accessed by the active
+equipment. It turns ON when the CS is in the READY state after the TR_REQ
+signal from the active turns ON. The signal turns OFF by handshakes with the
+COMPT signal.
+TR_REQ (TRANSFER
+REQUEST)
+A->P This signal turns ON when the active equipment is going to start transferring the
+cassette. It turns OFF when the BUSY signal is OFF. (Active equipment starts
+transferring the cassette with the BUSY ON after recognizing the READY ON.)
+5. 2.2  Common  Signals  —  The  signals  in  Table  2  show  the  status  of  the  cassette  transfer  action  of  the  active
+equipment. The CS’s are allowed to input these signals commonly from active equipment.
+Table 2  Common Signals (Wire-Connected Interface)
+Signal Type P/A Description
+BUSY A->P This signal turns ON when the active equipment starts transferring the cassette to
+the CS while it is in READY and turns OFF after the robot has loaded or unloaded
+a cassette and has moved away from the interactive zone. The passive equipment
+does not perform any mechanical action in the interactive zone while this signal is
+ON.
+COMPT (COMPLETE) A->P This signal means the active equipment has completed the transfer action. It turns
+OFF after handshaking with the READY signal.
+NOTE 1:  It  is  recommended  that  the  BUSY  signal  turn  OFF  after  the  active  equipment  has  confirmed  L_REQ  (or  U_REQ)  is
+OFF.
+5. 2.3  Cassette Transfer Sequence — Time charts for the cassette transfer sequence are shown in Figures 3 (a) and
+(b).
+5. 2.3.1  The TR_REQ from the active equipment initiates the cassette transfer sequence. The active equipment starts
+carrying out the transfer action with the BUSY ON as soon as it recognizes that the READY signal of the passive
+equipment is ON. The handshake is finished after the cassette transfer action has been completed.
+5. 3  Photo-Coupled Parallel I/O Interface Specification — This interface is concerned only with the cassette transfer
+between  the  process  equipment  and  the  transport  robot  vehicle.  The  robot  vehicle  is  active  and  the  process
+equipment is passive.
+5. 3.1  This interface is defined between the robot and the cassette stages to which the robot can transfer a cassette at
+the same stopping position.
+5. 3.2  Signals — The signals for the photo-coupled parallel I/O interface are listed in Table 3. The CS_0, CS_1, and
+CS_2  signals  specifying  the  CS  to  or  from  which  the  active  equipment  transfers  and  the  VALID  signal  indicating
+effectiveness of the data of CS_0~CS_2, are newly added to the signals defined in the wire-connected parallel I/O
+interface.
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 4
+Table 3  Signals for the Photo-Coupled Parallel I/O Interface
+Signal Type P/A
+Description
+VALID A->P This signal remains high (ON) while the data of CS_0, CS_1, CS_2 is effective.
+(The data of CS_0, CS_1, CS_2 is not effective when VALID signal is OFF.)
+CS_0 (LSB) CS_1 CS_2
+(MSB)
+A->P The 3-bit signals specify the cassette stage number (0 ~ 7) of the passive equip-
+ment, to or from which the active equipment (robot vehicle) is going to transfer a
+cassette.  They are set before the VALID signal turns ON.  VALID and
+CS_0~CS_2 signal.
+
+TR_REQ A->P This is the same in the wire-connected parallel I/O specification and is valid for
+the specified CS.
+L_REQ P->A This is the same in the wire-connected parallel I/O specification and is valid for
+the specified CS.
+U_REQ P->A This is the same in the wire-connected parallel I/O specification and is valid for
+the specified CS.
+READY P->A This is the same in the wire-connected parallel I/O specification and is valid for
+the specified CS.
+BUSY A->P This is the same in the wire-connected parallel I/O specification.
+COMPT A->P This is the same in the wire-connected parallel I/O specification.
+5. 3.3  Cassette Transfer Sequence — Time charts for the cassette transfer sequence in the case of the photo-coupled
+interface  are  shown  in  Figure  4  (a)  and  (b).  After  the  active  equipment  (robot  vehicle)  reaches  the  process
+equipment,  it  sets  the  CS_0,  CS_1,  CS_2  3-bit-signals  to  specify  the  CS  number  of  the  passive  equipment,  to  or
+from  which  the  active  equipment  (robot  vehicle)  is  going  to  transfer  a  cassette.  Then  the  robot  vehicle  turns  the
+VALID  signal  ON,  which  shows  the  date  of  the  CS_0,  CS_1,  CS_2  signal  is  effective.  After  the  cassette  stage  is
+specified,  cassette  transfer  sequence  is  the  same  as  in  the  wire-connected  parallel  I/O  specification.  TR_REQ,
+L_REQ,U_REQ, READY signals show the data for the specified CS while the VALID signal is ON, and the CS_0,
+CS_1, CS_2 signals are inhibited to change their data while the VALID signal is ON.
+5. 4  Error Detection and Recovery — The cassette transfer using this interface in the practical manufacturing lines
+will  need  handshake  time  interval  control,  cassette  misalignment  detection,  and  report  of  alarm  or  error  to  find  an
+error or abnormal termination in the cassette transfer. An error recovery procedure with appropriate assist by human
+operators  will  be  also  required.  This  standard,  however,  does  not  define  the  specifications  related  to  the  error
+detection  and  recovery  because  of  difference  in  process  time,  failure  mode,  and  error  recovery  procedure  of
+individual equipment and system.
+5. 4.1  The  recommendation  for  basic  error  detection  is  that  the  active  equipment  should  control  handshake  time
+intervals, and at least the interval time T between the beginning of the cassette transfer and the end of the transfer
+should  be  controlled  —  see  the  time  chart  of  the  cassette  transfer  sequence  shown  in  Figures  3(a),  3(b),  4(a),  and
+4(b), describing the time chart of the cassette transfer sequence.
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 5
+
+
+
+
+
+Figure 3A
+Cassette Load Sequence
+(Wire-Connected Interface)
+
+
+
+Figure 3B
+Cassette Unload Sequence
+(Wire-Connected Interface)
+
+Figure 4A
+Cassette Load Sequence
+(Photo-Coupled Interface)
+
+
+Figure 4B
+Cassette Load Sequence
+(Photo-Coupled Interface)
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 6
+6  Connector and Interface Circuit
+6. 1  Wire-Connected Interface — One set of connectors
+is  provided  for  the  CS’s  that  commonly  input  the
+BUSY and COMPT signals.
+6. 1.1  Connector and Pin Assignment
+1.   Connector   JIS-X-5103   (D-SUB   type)   ISO-4902
+Every  piece  of  equipment  is  to  have  female  type
+connectors.
+2. Pin  Assignment — The  connector  with  37  pins  is
+used.  One  connector  is  used  for  1  to  4  cassette
+stages  and  another  connector  is  used  for  5  to  7
+cassette  stages.  The  pin  assignment  is  listed  in
+Tables   4a   and   4b.   Figure   5   shows   the   pin
+assignment of the connector for 4 cassette stages.
+Table 4  Pin Assignment for Wire-Connected Parallel
+I/O Interface (Connector 2)
+Pin No. Signal Pin No. Signal
+1 CS1 L_REQ 20 CS1 L_REQ*
+2 CS1 U_REQ 21 CS1 U_REQ*
+3 CS1 READY 22 CS1 READY*
+4 CS2 L_REQ 23 CS2 L_REQ*
+5 CS2 U_REQ 24 CS2 U_REQ*
+6 CS2 READY 25 CS2 READY*
+7 CS3 L_REQ 26 CS3 L_REQ*
+8 CS3 U_REQ 27 CS3 U_REQ*
+9 CS3 READY 28 CS3 READY*
+10       CS4       L_REQ       29       CS4       L_REQ*
+11       CS4       U_REQ       30       CS4       U_REQ*
+12       CS4       READY       31       CS4       READY*
+13       CS1       TR_REQ       32       CS1       TR_REQ*
+14       CS2       TR_REQ       33       CS2       TR_REQ*
+15       CS3       TR_REQ       34       CS3       TR_REQ*
+16       CS4       TR_REQ       35       CS4       TR_REQ*
+17       COMPT       36       COMPT*
+18       BUSY       37       BUSY*
+19              38
+*Vcc side (power source) for the current-driven type circuit. Common
+side for the voltage-driven type circuit.
+6. 1.1.1  When   one   connector   is   used   for   only   one
+cassette stage, the connector with 15 pins may be used.
+The pin assignment is listed in the Table 5.
+6. 1.2    Interface  Circuit  —  The  following  two  types  of
+interface  circuits  are  used.  (Interface  circuit  examples
+are shown in Related Information 3.)
+1.  Voltage-driven  Type  Circuit  —  Driving  voltage:
+DC24 ± 2 V
+2.  Current-driven Type Circuit — Driving current:  10
+mA ~ 20 mA
+
+Figure 5
+Pin Assignment for Wire-Connected Parallel I/O
+Interface
+Table 5  Pin  Assignment for Wire-Connected
+Parallel I/O Interface (Connector 1)
+Pin No. Signal Pin No. Signal
+1 CS5 L_REQ 20 CS5 L_REQ*
+2 CS5 U_REQ 21 CS5 U_REQ*
+3 CS5 READY 22 CS5 READY*
+4 CS6 L_REQ 23 CS6 L_REQ*
+5 CS6 U_REQ 24 CS6 U_REQ*
+6 CS6 READY 25 CS6 READY*
+7 CS7 L_REQ 26 CS7 L_REQ*
+8 CS7 U_REQ 27 CS7 U_REQ*
+9 CS7 READY 28 CS7 READY*
+10              29
+11              30
+12              31
+13       CS5       TR_REQ       32       CS5       TR_REQ*
+14       CS6       TR_REQ       33       CS6       TR_REQ*
+15       CS7       TR_REQ       34       CS7       TR_REQ*
+16              35
+17              36
+18              37
+19
+*Vcc side (power source) for the current-driven type circuit. Common
+side for the voltage-driven type circuit.
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 7
+Table 6  Pin Assignment for Wire-Connected Parallel
+I/O Interface 15 Pins Connector
+Pin No. Signal Pin No. Signal
+1 CS1 L_REQ 9 CS1 L_REQ*
+2 CS1 U_REQ 10 CS1 U_REQ*
+3 CS1 READY 11 CS1 READY*
+4                12
+5 CS1 TR_REQ 13 CS1 TR_REQ*
+6        COMPT        14        COMPT*
+7        BUSY        15        BUSY*
+8
+*Vcc side (power source) for the current-driven type circuit. Common
+side for the voltage-driven type circuit.
+6. 2   Photo-Coupled Interface
+6. 2.1   Photo-Coupled Device and Bit Assignment — To
+date,  there  is  no  applicable  documentor  standard  for
+photo-coupled  devices.  This  defines  the  usage  of  a
+photo-coupled  device  of  8  bit-input/8  bit-output  two-
+way communications type. The bit assignment is shown
+in Figure 6.
+
+Figure 6
+Bit Assignment of Photo-Coupled Device for the
+Photo-Coupled Parallel I/O Interface
+7  Installation Space
+7. 1  Wire-Connected Interface — Not specified.
+7. 2  Photo-Coupled I/O Interface — The photo-coupled
+I/O  interface  must  be  located  within  the  hatched  area
+indicated in Figure 7.
+
+
+Figure 7
+Installation Space of Photo-Coupled I/O inter-
+face
+
+Figure 8
+Maximum Size of Photo-Coupled I/O Interface
+
+
+SEMI E23-1104 © SEMI 1991, 2004 8
+RELATED INFORMATION 1
+EXAMPLE OF A CASSETTE TRANSFER TRANSACTION USING THE
+PARALLEL I/O INTERFACE
+NOTICE: This example of a cassette transfer transaction using the parallel I/O interface is not an official part of this document
+and  is  not  intended  to  modify  or  supercede  the  official  standard.  Determination  of  the  suitability  of  the  material  is  solely  the
+responsibility of the user.
+
+Figure R1-1
+Example of a Cassette Transfer Transaction Using the Parallel I/O Interface
+R1-1  NOTES
+R1-1.1  LD = load, ULD = unload.
+R1-1.2  The load/unload request (Smm, Fnn) may be eliminated if the material transfer request (Smm, Fnn) issued
+after  the  materials  have  been  prepared  on  the  specified  port  for  unloading  or  specified  port  has  been  readied  for
+loading.
+R1-1.3  Multiple  PIO  handshakings  may  be  required  if  material transfer request message (Smm, Fnn) has multiple
+MID’s and PIN’s for multiple material transfers. MID:  Material ID, PIN:  Port number.
+R1-1.4  The dotted line means optional message.
+R1-1.5  In  the  future,  the  appropriate  specific  SECS-II  message  may  be  assigned  for  above  Smm,  Fnn  message,
+respectively.
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 9
+RELATED INFORMATION 2
+APPLICATION EXAMPLES OF INTERFACING
+NOTICE:  This  application  example  of  interfacing  is  not  an  official  part  of  this  document  and  is  not  intended  to  modify  or
+supercede the official standard. Determination of the suitability of the material is solely the responsibility of the user.
+R2-1
+R2-1.1  Figure  R2-1  shows  some  application  examples  for  the  wire-connected  parallel  I/O  interface.  One  set  of
+connectors is provided for the CS’s that commonly input the BUSY and COMPT signals.
+
+Figure R2-1
+Application Example of the Wire-Connected Parallel I/O Interface
+
+
+SEMI E23-1104 © SEMI 1991, 2004 10
+R2-2
+R2-2.1  Figure R2-2 shows some application examples for the photo-coupled parallel I/O interface. One connector is
+provided for the CS’s to or from which the robot vehicle transfers a cassette at the same stopping position.
+
+
+Figure R2-2
+Application Example of the Photo-Coupled I/O Interface
+
+
+
+
+SEMI E23-1104 © SEMI 1991, 2004 11
+RELATED INFORMATION 3
+INTERFACING CIRCUIT EXAMPLES
+NOTICE: These examples of interfacing circuit examples are not an official part of this document and is not intended to modify
+or supercede the official standard. Determination of the suitability of the material is solely the responsibility of the user.
+R3-1
+R3-1.1  Figure  R3-1  shows  typical  examples  of  the  two  types  of  the  interface  circuits  for  the  wire-connected
+interface.
+
+Figure R3-1
+Interface Circuit Examples for Wire-Connected Interface
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  some  implementations  of  this  standard  may  involve  use  of
+inventions  covered  by  U.S.  patents  4,306,292  and  other  patents  issued  or  pending,  held  by  Texas  Instruments
+Incorporated.  By  publication  of  this  standard,  SEMI  takes  no  position  respecting  either  the  applicability  or  the
+validity of these or other patent rights asserted in connection with any item mentioned in this standard. Users of this
+standard  are  expressly  advised  that  determination  of  any  such  patent  rights,  and  the  risk  of  infringement  of  such
+rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E24-92 © SEMI 1992, 2004 1
+SEMI E24-92 (Reapproved 0704)
+CLUSTER TOOL MODULE INTERFACE: ISOLATION VALVE
+INTERLOCKS STANDARD
+This standard was technically reapproved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+reapproved  by  the  North  American  Regional  Standards  Committee  on  April  22,  2004.    Initially available at
+www.semi.org June 2004; to be published July 2004.  Originally published in 1992.
+1  Purpose
+1. 1    The  purpose  of  this  standard  is  to  prevent  any
+opening  or  closing  of  the  isolation  valve(s)  which
+would result in an unsafe condition or possible damage
+to material or equipment.
+1. 2  Impact   —   This   standard   requires   cluster   tool
+module  suppliers  to  implement  the  interlock  and  to
+define the conditions that trip the interlock.
+2  Scope
+2. 1    This  standard  requires  hardware  inter-locks  that
+govern  the  opening  and  closing  of  the  environmental
+isolation  valve(s)  at  the  interface  planes  of  a  cluster
+tool.  This  standard  applies  to  all  modules  of  a  cluster
+tool (as defined in SEMI E21).
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI    E21    —    Cluster    Tool    Module    Interface:
+Mechanical Interface and Wafer Transport Standard
+3. 2  Other Documents
+MIL-C-26500E
+1
+
+—     General     Specification     for
+Connectors  —  General  Purpose,  Electrical,  Miniature,
+Circular, Environmental Resisting
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Requirements
+4. 1  Interlock   Provision   and   Use   —   Each   module
+joined  to  another  module,  across  a  common  interface
+plane  (as  defined  in  SEMI  E21),  must  provide  a  fail-
+
+
+1 United States Military Standards, Available through the Naval
+Publications and Forms Center, 5801 Tabor Avenue, Philadelphia,
+PA 19120-5099, USA. Telephone: 215.697.3321
+safe  interlock  that  enables  opening  and  closing  of  the
+isolation  valve  of  the  other  module.  Each  module  that
+has  an  isolation  valve  must  use  the  interlock  provided
+by  the  module  it  is  joined  to  across  their  common
+interface plane.
+4. 2  Interlock  Trip  —  Conditions  that  trip  the  interlock
+must  be  defined  by  the  module  supplier.  (See  Section
+R1-1.)
+4. 3  Interlock  Logic  —  The  interlock  is  to  consist  of
+two   normally   open   relays   and   associated   actuation
+circuitry in each module. (See Section R1-2.)
+4. 3.1  First  Relay  —  One  relay  enables  opening  of  the
+isolation valve of the attached module. Contact closure
+indicates   a   safe   condition,   enabling   valve   opening.
+Contact  opening  disables  valve  opening  if  the  valve  is
+closed.  Contact  opening  does  not  cause  the  valve  to
+close if the valve is open. (See Section R1-3.)
+4. 3.2  Second  Relay  —  The  other  relay  enables  closure
+of  the  isolation  valve  of  the  attached  module.  Contact
+closure   indicates   a   safe   condition,   enabling   valve
+closure.  Contact  opening  disables  valve  closure  if  the
+valve is open. Contact opening does not cause the valve
+to open if the valve is closed.
+4. 3.3  Monitoring  —  Situations  can  arise  where  the
+module A interlock inhibits an operation of the valve on
+module  B,  when  that  valve  is  already  in  the  inhibited
+condition.  This  potential  conflict  must  be  detected  and
+resolved within module B. (See Section R1-3.)
+4. 4  Contact Rating — The relay contacts shall be rated
+for a minimum of 1 A at 24 VDC.
+4. 5  Wiring — Copper wire used in the interlock circuit
+shall be 0.82 mm
+2
+cross section (18 AWG) or larger.
+4. 6  Interlock  Connectors  —  Metal  shell  bayonet-type
+connectors are specified per MIL-C-26500E as follows:
+MS24265R18B11SN   panel   mounted   receptacles   on
+each  of  the  modules  and  MS24266R18B11PN  plugs
+terminating  each  end  of  the  cable  which  interconnects
+the interlock receptacles of two connected modules.
+4. 7  Interlock Connector Pinouts
+4. 7.1  Receptacle  —  Pins  2  and  3  of  the  receptacle  are
+connected  across  the  contacts  of  the  relay  specified  in
+
+
+
+SEMI E24-92 © SEMI 1992, 2004 2
+Section 4.3.1. Pins 5 and 6 are connected to the circuit
+which  enables  opening  of  the  module's  isolation  valve
+at  that  interface.  Pins  7  and  8  are  connected  across  the
+contacts  of  the  relay  specified  in  Section  4.3.2.  Pins  9
+and  10  are  connected  to  the  circuit  which  enables
+closure of the module's isolation valve at that interface.
+4. 7.2   Cable and Plugs — Pins 2 and 3 of each plug on
+the  interlock  cable  are  connected  to  pins  5  and  6
+respectively of the other plug. Pins 7 and 8 of each plug
+on  the  interlock  cable  are  connected  to  pins  9  and  10
+respectively  of  the  other  plug.  The  resulting  interlock
+cable is symmetric.
+
+
+
+
+SEMI E24-92 © SEMI 1992, 2004 3
+RELATED INFORMATION 1
+NOTICE: This related information is not an official part of SEMI E24 but was reapproved for publication by full
+letter ballot procedures on February 28, 1999.
+R1-1  Interlock Situations
+R1-1.1    Examples  are  given  below,  for  the  different
+types  of  modules,  of  situations  in  which  it  might  be
+considered   hazardous   for   a   connected   module   to
+operate  its  isolation  valve.  Note  that  some  of  these
+conditions  prevent  opening  and  others  prevent  closing
+of  the  valves.  (See  Section  4.1.).  Module  types  are
+defined  in  SEMI  E21.  SEMI  S2  provides  guidance  in
+defining potential safety hazards. It is common practice
+to  detect  valve  positions  and  so  verify  operation,  but
+this is not an interface matter.
+R1-1.2  Transport  Module  Examples  —  The  transport
+module   end   effector   (see   SEMI   E22)   is   extended
+beyond   the   interface   plane.   The   connected   module
+should not close its isolation valve, as such an operation
+could damage the end effector.
+R1-1.2.1    The  transport  module  is  not  at  an  acceptable
+transfer  pressure.  Opening  the  isolation  valve  of  the
+connected  module  could  result  in  damage  to  the  valve
+or wafer.
+R1-1.3  Process  Module  Examples  —  The  transport
+module end effector exclusion volume (see SEMI E22)
+is obstructed. The transport module should not open its
+isolation valve and attempt to extend its end effector.
+R1-1.3.1    The  process  module  is  not  at  an  acceptable
+transfer  pressure.  For  instance,  the  module  may  be  at
+atmospheric  pressure  for  preventive  maintenance.  The
+transport module should not open its isolation valve.
+R1-1.3.2  An unsafe partial pressure of a hazardous gas
+exists  in  the  process  module.  The  transport  module
+should not attempt to open its isolation valve.
+R1-1.4  Cassette  Module  Example  —  The  cassette  port
+(loading  door)  is  open,  indicating  the  possibility  of  a
+person's  hand  in  the  cassette  module.  The  transport
+module  should  not  operate  its  isolation  valve  to  avoid
+the possibility of injury to personnel.
+R1-2  Illustration of Logic
+R1-2.1    The  interlock  logic  is  illustrated  in  Figure  A1
+and described in Section 4.2. In the figure, the contacts
+in  module  B  are  closed,  enabling  operation  of  the
+isolation  valve  controlled  by  module  A,  while  one  of
+the contacts in module A is open, preventing closure of
+the isolation valve controlled by module B.
+R1-3  Interlock Example
+R1-3.1    This  example  elucidates  some  of  the  interlock
+logic  described  in  Section  4.2.  In  the  case  described
+here,   the   Transport   Module   (TM)   end   effector   is
+extended   into   a   Process   Module   (PM),   which   is
+equipped with an isolation valve. This valve is inhibited
+from closing by the interlock in the TM.
+R1-3.2  A situation arises in the PM which results in its
+interlock  inhibiting  the  opening  of  the  isolation  valve
+(which  is  already  open)  on  the  TM.  As  specified  in
+Section  4.3.3,  the  TM  detects  the  interlock  change  and
+immediately  withdraws  its  end  effector  from  the  PM.
+The   TM   interlock   enables   the   closure   of   the   PM
+isolation  valve  (which  the  PM  may  do  if  that  is  the
+appropriate  response  to  the  situation)  and  the  TM  can
+close its isolation valve.
+
+
+
+SEMI E24-92 © SEMI 1992, 2004 4
+
+Figure R1-1
+Illustration of Isolation Valve Interlock Standard
+
+
+
+NOTICE:   The   user’s   attention   is   called   to   the
+possibility   that   compliance   with   this   standard   may
+require use of an invention covered by patent rights. By
+publication of this standard, Semiconductor Equipment
+and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  asserted  in
+connection with any item mentioned in this standard. In
+particular,  users  of  the  specification  should  be  aware
+that Drytek, Inc., A Unit of General Signal, 16 Jonspin
+Road, Wilmington, MA 01887-1087, Phone: (508) 657-
+3933,    has    neither    claimed    nor    disclaimed    that
+compliance with this specification would require use of
+an  invention  covered  by  one  or  more  of  its  patents.
+Users   of   this   standard   are   expressly   advised   that
+determination of any such patent rights, and the risk of
+the  infringement  of  such  rights,  are  entirely  their  own
+responsibility.
+These standards do not purport to address safety issues,
+if  any,  associated  with  their  use.  It  is  the  responsibility
+of  the  user  of  these  standards  to  establish  appropriate
+safety    and    health    practices    and    determine    the
+applicability   of   regulatory   limitations   prior   to   use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E25-92 © SEMI 1992, 2004 1
+SEMI E25-92 (Withdrawn 1104)
+CLUSTER TOOL MODULE INTERFACE: MODULE ACCESS
+GUIDELINE
+This guideline was technically approved by the Global Physical Interfaces & Carriers Committee and is the
+direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+reapproved by the North American Regional Standards Committee on August 16, 2004.  Initially available at
+www.semi.org  September  2004;  to  be  published  November  2004.    Originally  published  in  1992;  last
+published June 1999.
+Minor editorial changes were made to this document to conform to editorial guidelines.
+NOTICE:  This  document  was  balloted  and  approved
+for withdrawal in 2004.
+1 Introduction
+1. 1  Scope   —   This   guideline   specifies   an   envelope
+within  which  a  cluster  tool  module  is  situated.  Entry
+and exit locations through the envelope and connection
+locations to the module for utilities and facility services
+are recommended.
+1. 2  Purpose — The purpose of the cluster tool module
+access  guideline  is  to  provide  assistance  in  the  place-
+ment  of  utilities  and  facility  services  to  cluster  tool
+modules  in  order  to  improve  access  for  maintenance
+and service and to simplify cluster tool installation.
+1. 3  Impact  —  This  guideline  recommends  that  equip-
+ment  designs  limit  the  placement  of  utility  lines  and
+facility  services  to  specific  portions  of  the  module
+envelope.
+1. 4  Exceptions — Local safety regulations must always
+take  precedence  over  this  guideline.  Local  conditions
+may justify exceptions to this guideline.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+2  Referenced Documents
+2. 1  SEMI Documents
+SEMI E20 — Cluster Tool Module Interface: Electrical
+Power and Emergency Off Standard
+SEMI    E21    —    Cluster    Tool    Module    Interface:
+Mechanical Interface and Wafer Transport Standard
+SEMI E24 — Cluster Tool Module Interface: Isolation
+Valve Interlocks Standard
+SEMI   S2   —   Safety   Guidelines   for   Semiconductor
+Manufacturing Equipment
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+3  Module Envelope
+3. 1  For the purpose of this guideline, the module enve-
+lope is taken to be a set of six surfaces that completely
+encloses  a  module.  Individual  module  envelopes  may
+contact  but  not  penetrate  adjacent  module  envelopes.
+The  six  surfaces  are  the  inboard  and  outboard  planes,
+the two sides, the bottom and the top.
+3. 2   The  inboard  plane  is  the interface plane between a
+transport  module  and  any  other  module  as  defined  in
+SEMI E21; thus, a transport module possesses multiple
+inboard  planes.  The  outboard  surface  is  parallel  to  the
+interface plane and normally coincides with that part of
+the  module  which  is  farthest  from  the  interface  plane.
+Each  side  of  the  module  envelope  consists  of  several
+vertical planes. The bottom surface generally coincides
+with the floor, and the top is a horizontal plane that con-
+tains the highest point of the module.
+3. 3   In  the  sections  that  follow,  the  distinction  between
+the  physical  module  and  the  space  reserved  for  the
+module within the envelope must be kept in mind. Sec-
+tion  4  refers  to  where  utility  lines  penetrate  the  enve-
+lope, and Section 5 refers to constraints on where these
+lines connect to the physical module.
+4  Allocation of Module Envelope Surfaces
+4. 1  The allocation of surfaces is subject to the need for
+access to the interface plane, module movement, main-
+tenance access space, and protection of module compo-
+nents  (particularly  electrical  components)  from  liquid
+leaks.
+4. 2  Inboard  Plane  —  To  allow  access  to  the  isolation
+valve(s),  no  utilities  or  facility  services  should  be  rout-
+ed   through   the   inboard   surface   close   to   the   valve
+boundary. ( See SEMI E21) The inboard surface is pre-
+ferred  for  intra-tool  communications,  EMO  (see  SEMI
+E20)  and  the  interlock  interface  between  the  transport
+module and the attached modules. (See SEMI E24.)
+
+
+
+SEMI E25-92 © SEMI 1992, 2004 2
+4. 3  Outboard Plane — The outboard surface should be
+limited   to   non-rigid   lines.   To   minimize   potential
+mechanical  damage,  chemical  utilities  should  not  enter
+through the lower half of this surface.
+4. 4  Sides  —  In  order  to  facilitate  maintenance  access,
+utilities  and  facility  services  should  not  penetrate  the
+module envelope sides.
+4. 5  Top  Surface  —  The  top  surface  is  preferred  for
+power,   exhaust,   process   gases   and   make-up   air.
+Communications and electronic control harnesses could
+also enter through this surface.
+4. 6  Bottom Surface — The bottom surface is preferred
+for  vacuum  lines  and  all  liquid  supplies,  returns  and
+drains.  The  location  of  all  lines  should  not  restrict  the
+removal of the module.
+5  Module Considerations
+5. 1    The   locations   of   utility   and   facility   lines   and
+connections  to  the  module,  which  is  located  within  the
+module envelope, are given below.
+5. 2   Exhaust,  Vacuum  and  Make-up  Air  —  The  size  of
+piping  for  exhaust,  vacuum  and  make-up  air  suggests
+that  the  module  sides  are  undesirable  locations  for
+connections.
+5. 3  Maintenance  Access  —  Utility  and  facility  lines
+and  connections  to  the  module  sides  should  not  com-
+promise  maintenance  access  to  the  module.  Connect-
+ions  should  be  located  above  or  below  areas  requiring
+periodic maintenance access.
+5. 4  Liquids   —   Liquid   supply   connections   to   the
+module sides should be as low as practical.
+5. 5  Electrical  Components  —  Electrical  components
+that   need   to   be   accessible   for   maintenance   while
+energized  should  not  be  located  at  the  sides  of  the
+module. (See SEMI S2.)
+5. 6  Remote  Equipment  —  For  ease  of  maintenance
+access, some pieces of equipment (for example, coolant
+chiller  and  RF  power  supplies)  may  be  located  outside
+the  module  envelope.  In  such  cases,  the  lines  and
+connections  between  the  remote  equipment  and  the
+module should follow this guideline.
+6  Examples
+6. 1   The  relationship  between  the  location  of  specific
+utility  and  facility  lines  entering  the  module  envelope
+and  their  subsequent  routing  and  connection  to  the
+module within the module envelope is illustrated by the
+following examples.
+6. 2  Liquid  Connections  —  Two  suggested  methods  of
+providing  liquid  connections  are  shown  in  Figures  1
+and  2.  The  liquid  lines  enter  through  the  bottom  of  the
+module  envelope  (see  Section  4.5)  then  connect  to
+either  the  side  of  the  module  or  the  bottom  of  the
+module (see Section 5.3).
+6. 3  Gas  Connections  —  Two  suggested  methods  of
+providing  gas  connections  are  shown  in  Figure  2.  The
+gas  lines  pass  through  the  top  of  the  module  envelope
+(see Section 4.4), and then connect to the module either
+at the top or at the side.
+6. 4   Exhaust  and/or  Make-Up  Air  —  Two  suggested
+methods   of   providing   exhaust   and/or   make-up   air
+connections  are  shown  in  Figure  2.  The  exhaust  line
+passes  through  the  top  of  the  module  envelope  (see
+Section 4.4) and then connects to the module at or near
+the   top.   Exhaust   and   make-up   air   connections   are
+flanged in Figure 2.
+
+
+
+
+SEMI E25-92 © SEMI 1992, 2004 3
+
+
+Figure 1
+
+
+Figure 2
+
+7  Related Documents
+7. 1  SEMI Documents
+SEMI  E6  —  SEMI  Facilities  Interface  Specifications
+Guideline and Format

@@ -1,0 +1,4158 @@
+---
+title: "文档标题"
+description: "SEMI E35.1-95 © SEMI 1995, 2004 1 SEMI E35.1-95 (Withdrawn 0304) GUIDE FOR COST OF EQUIPMENT OWNERSHIP COMPARISON METRIC NOTICE:  This document was balloted and approved for withdrawal in 2004. 1  ..."
+sidebar_label: "Chapter 6"
+sidebar_position: 60
+tags: ['SEMI', 'Standard', 'Chapter 6']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-006.pdf'
+  chapter: 6
+  page_count: 50
+  file_size_mb: 0.80
+  processing_date: '2026-01-28T09:17:26.303Z'
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+<PdfDownloadCard
+  pdfLink="/pdfs/semi/semi-chapter-006.pdf"
+  pdfSize="0.80MB"
+  title="Chapter 6"
+  description="SEMI标准文档 - Chapter 6，共50页"
+/>
+
+# 文档标题
+
+SEMI E35.1-95 © SEMI 1995, 2004 1
+SEMI E35.1-95 (Withdrawn 0304)
+GUIDE FOR COST OF EQUIPMENT OWNERSHIP COMPARISON
+METRIC
+NOTICE:  This document was balloted and approved for withdrawal in 2004.
+1  Purpose
+1. 1    The  purpose  of  this  guide  is  to  provide  a  standard
+constrained   version   of   the   Cost   of   Ownership   for
+Semiconductor    Manufacturing    Equipment    Metrics
+Guide  to  provide  a  baseline  metric  for  comparing  cost
+effectiveness     of     competitive     factory     equipment
+subsystems  in  the  semiconductor  industry.  The  major
+constraints  are  the  inclusion  of  only  Equipment  Yield
+and  the  exclusion  of  the  Cost  of  Yield  Loss  consisting
+of defect limited yield and parametric yield.
+1. 2      The   guide   establishes   well-defined   practice   to
+facilitate   cost   comparisons   of   equipment   by   using
+definitions,  classifications  and  methods  necessary  to
+build a useful cost of equipment ownership comparator
+as a constraint version of SEMI E35. The guide should
+facilitate communication about cost of ownership.
+2  Scope
+2. 1  This  guide  is  a  subset  of  a  full  COO  calculator  as
+presented   in   SEMI   E35   and   constitutes   a   fully
+conforming  standard  constraint  version.  The  baseline
+metric is meant to reflect those equipment aspects over
+which  an  equipment  supplier  has  responsibility  and
+seeks   to   minimize   aspects   which   couple   costs   for
+individual  equipment  to  the  entire  factory  system.  The
+use  of  the  metric  is  for  competitive  evaluation  of
+equipment sets to be used for a specific process step.
+2. 2    Effective  use  of  the  metric  to  build  a  COO  model
+requires   identification   of   the   constraints,   parameter
+values  within  the  adopted  category  classification.  The
+primary  calculators  should,  where  possible,  use  direct
+values   for   inputs   rather   than   deriving   them   from
+secondary  models  or  using  the  default  values  provided
+in  Related  Information  1  and  2  in  SEMI  E35.  A  COO
+model  requires  data  for  many  parameters.  Default  data
+for the COO is provided within this document and may
+be updated periodically through support documents.
+3  Referenced Documents
+3. 1  SEMI Documents
+SEMI     E10     —     Guideline     for     Definition     and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability
+SEMI  E35  —  Guideline  for  Cost  of  Ownership  for
+Semiconductor Manufacturing Equipment Metrics
+SEMI Compilation of Terms
+4  Terminology
+All  terminology  in  this  guideline  is  defined  in  SEMI
+E35.
+5  Cost of Equipment Ownership Comparator
+The    Cost    of    Equipment    Ownership    Comparator
+(CEOC) metric is the incremental cost added to a good
+wafer  or  IC  device  flowing  through  a  volume  sized
+process  system  embedded  in  a  factory  environment  for
+a specified lifetime. The metric is expressed as Cost per
+Good   Wafer   Equivalent   for   one   pass   through   the
+system. CEOC should reflect the full cost of embedding
+and   operating   in   a   factory   environment   a   process
+system  needed  to  accommodate  a  specified  number  of
+wafers  but  does  not  include  defect  yield  or  parametric
+yield loss.
+5. 1  CEOC: Fixed and Recurring Costs — Determining
+the  Cost  of  Ownership  requires  enumerating  all  of  the
+Fixed   and   Recurring   costs.   Fixed   costs   are   those
+incurred   once   and   are   usually   associated   with   the
+acquisition  and  incorporation  of  equipment  into  the
+factory.  Recurring  costs  are  those  which  arise  on  an
+annual basis from the operation and maintenance of the
+equipment.
+5. 2  Yield
+5. 2.1    Production  yield  (PY)  is  often  tied  to  a  large
+number    of    factors    which    are    principally    the
+responsibility  of  the  IC  manufacturer  and  equipment
+comparisons   for   production   yield   should   be   done
+directly in the context of the production flow. Yield is a
+metric  of  the  percentage  of  the  wafer  volume  that
+results  in  good  wafers  and  enters  the  picture  in  a
+number  of  ways  which  can  complicate  comparisons.
+Yield-related comparisons of equipment should be dealt
+with directly rather than lumping them into the CEO.
+COST of
+Embedding + Operating
+CEO =
+annualized
+Fixed Costs
+per system
+annualized
+Recurring Costs
+per system
++
+(
+)
+*
+Volume Required
+# Systems
+Good Units
+Per Year
+
+5. 2.2  Particles  additions  for  example  are  often  used  as
+a   predictor   of   yield   loss.   Equipment   should   be
+
+
+
+SEMI E35.1-95 © SEMI 1995, 2004 2
+compared  directly  on  the  basis  of  particles  or  other
+direct metrics such as uniformity.
+5. 2.3    The  Cost  of  Equipment  Ownership  should  only
+reflect  Equipment  Yield.  The  percentage  of  wafers
+which  can  be  passed  to  the  next  step  can  be  based  on
+any    criteria,    such    as    broken    wafers    or    wafers
+determined to be defective by inspection or test.
+5. 3  Life  —  Time  over  which  the  fixed  and  recurring
+costs  are  spread  for  the  annualized  basis.  Tax  Life  is
+customarily    used    in    COO    based    upon    standard
+accounting practice.
+COO Lifetimes
+1.  Tax Lifetime - Depreciation
+2.  Equipment Production Lifetime
+5. 4  System  Throughput  —  Wafers  per  hour  capability
+for the process system.
+5. 5  Volume Requirement
+5. 5.1  The volume requirement is the wafer or IC (unit)
+flow  to  be  processed.  The  volume  requirement  can  be
+derived  from  specification  of  the  product  wafers  or  IC
+devices  needed  corrected  for  yield  and  the  required
+number  of  other  wafers  which  might  be  designated  as
+test,  dummy,  or  monitor  wafers.  One  complication  in
+accurately  dealing  with  the  volume  requirement  is  that
+the  volume  of  wafers  actually  reaching  the  equipment
+will  depend  on  the  volume  loss  from  equipment  yield
+for all the prior steps.
+5. 5.2        For    CEOC,    volume    should    be    dealt    with
+parametrically  based  upon  factory  wafer  starts.  For
+multi-chamber    equipment,    the    impact    of    added
+chambers  to  increase  capacity  should  be  included  as
+well as the impact of adding whole systems.
+5. 6    Good   Wafer   Equivalents   (GWE)   —   GWE   is
+derived  from  the  number  of  good  product  die  at  wafer
+probe and is expressed as completely good wafers.
+5. 7  Systems Required — See SEMI E35.
+6  Reporting Results
+Conform to SEMI E35.
+7  Limitations
+7. 1    Certain  factors  are  more  difficult  than  others  to
+accurately  determine.  Thus,  the  accuracy  of  a  COO
+calculation  may  be  prone  to  a  variety  of  errors  or
+omissions.  In  addition,  line  balance  considerations  are
+not included in cost of ownership calculation.
+7. 2    A  COO  calculation  may  have  more  detail  than
+presented  explicitly  in  this  guide.  The  structure  of  the
+guide  however  allows  for  the  proper  handling  of  these
+situations.
+8  Procedures
+8. 1    The  CEOC  algorithm  requires  the  specification  of
+the  volume  level  and  the  enumeration  of  appropriate
+fixed  and  recurring  costs  associated  with  processing
+that volume. The CEOC metric is a function expressed
+as the sum of a number of categories which constitute a
+classification system as given in SEMI E35. Each item
+in the classification system should be defined, a method
+for  evaluating  its  expression  given,  and  default  values
+or handling specified. The cost of equipment ownership
+is  a  sum  over  the  elements  in  the  Category  Table  as
+expressed in Equation 2 and defined in SEMI E35.
+8. 2  Each item in the classification system is defined, a
+method for evaluating its expression given, and default
+values or handling specified. All costs must be assigned
+through  the  classification  system  and  calculated  per
+system for the number of production hours.
+CEOC
+=
+F
+0j
+j
+∑
++
+R
+0k
+k
+∑
+
+
+
+
+
+
+
+
+*
+Volume
+Required
+
+# #
+
+# Systems
+# Good Units
+per year
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+F
+ij
+ij
+∑
++
+R
+kl
+kl
+∑
+
+
+
+
+
+
+
+
+*
+Volume
+Required
+# Systems
+# Good Units
+per year
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(2)
+
+NOTICE:    These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E43-0301 © SEMI 1995, 20011
+SEMI E43-0301
+GUIDE FOR MEASURING STATIC CHARGE ON OBJECTS AND
+SURFACES
+This guide was technically approved by the Global Metrics Committee and is the direct responsibility of the
+North  American  Metrics  Committee.  Current  edition  approved  by  the  North  American  Regional  Standards
+Committee  on  November  22,  2000.    Initially  available  at  www.semi.org  December  2000;  to  be  published
+March 2001. Originally published in 1995.
+This document was entirely rewritten in 2001.
+1  Purpose
+1. 1     The    purpose    is    to    establish    a    g uide    for
+reproducible  measurement  of  electrostatic  charge(s)  on
+any  surface  or  object,  consistent  with  the  scope  and
+limitations set forth below.
+2  Scope
+2. 1  The measurement methods des cribed herein can be
+applied  to  characterize  the  general  electrostatic  charge
+level(s)  on  objects  and  surfaces  in  all  environments.
+Acceptable  instrumentation,  calibration,  and  measure-
+ment   techniques   are   described   in   this   document.
+Appendices   include   background   information   on   the
+equipment  specified  and  calibration  procedure,  as  well
+as   information   and   advice   on   performing   a   useful
+general static survey.
+2. 2   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Limitations
+3. 1  Direct measurement of charge  usually requires the
+use   of   a   coulombmeter.      Charges   on   an   isolated
+conductor  can  be  measured  by  transferring  the  charge
+into   the   coulombmeter   by   contacting   the   isolated
+conductor with the coulombmeter input probe.  Charges
+on  isolated  conductors  and  insulators  can  be  measured
+by   transferring   the   charged   object   into   a   Faraday
+enclosure that is connected to the coulombmeter.  These
+measurements  can  be  relatively  precise  if  care  is  taken
+in  the  transfer  process  to  avoid  changing  the  charge
+level when making the measurements.
+3. 2  Direct measurement of charge  is often impractical.
+In  these  instances,  charge  is  indirectly  evaluated  by
+detecting  the  electrostatic  field  from  a  charged  surface
+using   an   electrostatic   fieldmeter   or   an   electrostatic
+voltmeter.
+3. 3   This  guide  does  not  describe  in strumentation  and
+techniques     capable     of     making     highly     precise
+measurement  of  electrostatic  charge.  It  is  not  suitable
+for   measurement   of   electrostatic   charge   on   small
+objects,   such   as   packaged   devices   (i.e.,   reading(s)
+obtained  are  indicative/general  area  and  not  precise/
+minute).  No  methods  of  preconditioning  the  surface
+prior  to  measurements  and  no  methods  of  character-
+izing  the  basic  electrostatic  performance  of  materials,
+such  as  tribocharging,  resistance,  and  decay  rate  are  a
+part  of  this  document.  Measurements  made  using  this
+guide  on  the  same  surface  or  object  may  differ  due  to
+differences in the environment or history of the surface
+or object between the times any two measurements are
+made.
+4  Referenced Standards
+4. 1  None.
+5  Terminology
+5. 1    electrostatic   discharge   (ESD)    —    the    rapid
+spontaneous  transfer  of  electrostatic  charge  induced  by
+a high electrostatic field.
+5. 2   ground  —  a  conducting  conne ction  between  an
+object,  electrical  equipment,  and  earth,  such  as  the
+portion  of  an  electrical  circuit  of  the  same  electrical
+potential as earth.
+5. 3   grounded  —   connected  to  eart h  or  some  other
+conducting body that serves in the place of earth.
+6  Safety
+6. 1   Measurements  of  Very  High  St atic  Potentials  (>
+30,000  Volts)  —   Measurements  of  very  high  static
+potentials  (>  30,000  V)  may  need  to  be  done  at  larger
+distances to avoid exceeding the measurement range of
+the meter and/or an ESD event to the meter.
+6. 2   Measurements  on  Moving  Obj ects  or  Surfaces  —
+Care   should   be   taken,   when   attempting   to   read
+electrostatic  charges  on  moving  objects  or  surfaces,  to
+maintain correct distance and avoid any contact; this is
+to  assure  “good”  readings  with  no  mechanical  damage
+or personal injury.
+6. 3  Measurements  Using  Electros tatic  Voltmeters  —
+Avoid  handling  electrostatic  voltmeter  probes  during
+
+SEMI E43-0301 © SEMI 1995, 20012
+operation as their surfaces may be at elevated potentials
+that represent a shock hazard to the operator.
+7  Equipment and Performan ce Verification
+Methods
+7. 1  Equipment
+7. 1.1   Electrostatic  Locator/Field  Se nsor/Field  Meter
+— An electrostatic fieldmeter measures the value of the
+electrostatic field at its sensor. Electrostatic fieldmeters
+are  calibrated  and  recommended  for  use  at  a  particular
+distance  from  the  charged  object.    Fieldmeters  are  best
+suited for making general surveys or audits, for making
+measurements   of   surfaces   at   very   high   potentials
+(charge  levels),  and  for  making  measurements  when
+long-term  stability  is  not  important.    They  are  not  well
+suited  for  measurements  of  surfaces  with  very  low
+potentials or when high spatial resolution of the surface
+potential is needed.
+7. 1.1.1    The   electrostatic   locator/field   s ensor/field
+meter will henceforth be referred to as “the fieldmeter.”
+Note that for measurements to be taken in the presence
+of  air  ionization,  a  chopper  stabilized  fieldmeter  is
+required.  The  fieldmeter  must  be  capable  of  making
+field  measurements  at  a  distance  of  2.54  centimeters
+(cm) = 1 inch or less, from the field source to the sensor
+for  this  guide,  as  written.  However,  see  Section  7.2.5
+for  fieldmeters  that  are  operated  at  fixed  distance(s),
+and adjust values in this document where applicable.
+7. 1.2    Electrostatic   Voltmeter   —    An    electrostatic
+voltmeter   nulls   the   electrostatic   field   at   its   sensor
+(probe).    An    electrostatic    voltmeter    indicates    the
+presence   and   approximate   level   of   the   charge(s)
+creating   the   electrostatic   field.      Under   appropriate
+conditions,   electrostatic   voltmeters   provide   a   better
+approximation   of   the   charge   level   as   compared   to
+electrostatic  fieldmeters.  Electrostatic  voltmeters  are
+relatively free of drift and more environmentally stable
+as compared to fieldmeters.
+7. 1.2.1   Electrostatic  voltmeters  are  we ll  suited  for
+fixed installation in equipment.  Electrostatic voltmeters
+exhibit a high degree of accuracy that is independent of
+the distance from the charge.  Thus, they are considered
+better  suited  for  making  more  accurate  and  repeatable
+measurements  as  compared  to  fieldmeters.    The  probe
+can  be  located  very  close  to  a  charged  surface  without
+arc-over, and, under appropriate conditions, can resolve
+a small spatial area on a surface.
+7. 1.2.2   Electrostatic  voltmeters  are  be st  suited  for
+making  measurements  of  surfaces  at  potentials  below
+20kV,  or  when  a  calibrated  or  fixed  distance  from  the
+probe  to  the  surface  cannot  be  maintained.    They  are
+also best suited for measuring low surface potentials, or
+when it is desired to resolve a small area on the surface.
+Electrostatic  voltmeters  are  unsuitable  for  measuring
+surfaces at very high potentials, such as above 20kV.
+7. 1.2.3   The  electrostatic  voltmeter  wil l  henceforth  be
+referred to as “the voltmeter.”
+7. 1.3   Electrometer  —   An  electromet er  is  a  contact
+voltmeter  with  a  very  high  input  impedance.  Ideally,
+this input impedance would be infinite. In practice, it is
+limited  by  intrinsic  physical  materials  properties  of
+insulators and by stray leakage paths between the input
+terminals.  Low  voltage  electrometers  (below  200  Volt)
+have  typical  input  resistances  of  10
+14
+ohms,  accuracies
+better   than   0.1%,   and   can   resolve   microVolt   type
+potentials.    High    voltage    electrometers    (Kilovolts)
+usually  rely  on  resistive  voltage  dividers  and  have
+typical  input  resistances  in  the  10
+11
+ohms  range  with
+accuracies  in  the  1%  range.  It  is  important  to  evaluate
+and  understand  the  burden  that  the  input  impedance  of
+an   electrometer   represents   when   measuring   voltage
+potentials on very small charged structures.
+7. 1.4   Charged  Plate  Monitor  —   A   c harged   plate
+monitor  is  an  instrument  typically  used  to  monitor  the
+performance of air ionization equipment. Monitoring is
+done  with  an  electrically  isolated  15  cm  ×  15  cm  (6
+inches × 6 inches) metal plate, henceforth referred to as
+“the  plate.”  The  instrument  typically  provides  a  means
+to  charge  the  plate  to  a  known  voltage  (1000  or  5000
+volts of either polarity), a plate sensor to determine the
+voltage  on  the  plate,  and  timing  circuitry  to  determine
+the time required to discharge the plate to a percentage
+of  its  initial  charge.  For  the  purposes  of  this  guide,  the
+charged  plate  monitor,  or  a  separate  isolated  plate
+assembly,  can  be  used  for  performance  verification
+purposes as explained in Section 7.2.
+7. 2   Equipment  Performance  Verif ication  (Confidence
+Test)
+7. 2.1  Performance Verification of a C oulombmeter —
+Refer to Figure 1.
+7. 2.1.1     Zero    the    coulombmeter    prior    t o    each
+measurement.
+7. 2.1.2   Maintain  a  reference  calibratio n  capacitor.    It
+should   be   a   polystyrene   or   polypropylene   10   nF
+capacitor (Mallory SX-110 or equivalent).  Measure the
+value of the capacitor to better than 1%.  It is important
+to   handle   the   reference   calibration   capacitor   very
+carefully.    Do  not  hold  the  capacitor  by  its  body  or
+discharge  it  by  touching  both  leads  with  the  fingers.
+Hold  the  capacitor  by  one  lead  only.    Use  a  clip  lead
+connected between ground and this lead of the capacitor
+to maneuver the other lead of the capacitor between the
+“hot” side of the charging source and the input terminal
+of the coulombmeter.
+
+SEMI E43-0301 © SEMI 1995, 20013
+7. 2.1.3  Charge the reference calibratio n capacitor to 1
+volt  with  a  charging  source  (power  supply).    Calculate
+the  amount  of  charge  on  the  capacitor  by  multiplying
+the voltage by the value of the capacitor.  Example: 1V
+x 10 nF = 10 nC of charge.
+7. 2.1.4    Disconnect   the   charging   sourc e   from   the
+capacitor.
+7. 2.1.5   Connect  the  coulombmeter  inp ut  probe  to  the
+capacitor    and    discharge    the    capacitor    into    the
+coulombmeter.    The  coulombmeter  should  indicate  the
+calculated value.
+7. 2.2   Performance  Verification  of  F ieldmeters  and
+Voltmeters —  Refer to Figure 2.
+7. 2.2.1   Choosing  Test  Voltage(s)  —   C hoose  one  or
+more  test  voltage(s)  from  Table  1,  based  upon  the
+electrostatic field level of concern:
+Table 1  Test Voltages
+Field of ConcernTest Voltage
+Under 4,000 volts/meter or
+100 volts/2.5 cm
+100 volts
+Under 40,000 volts/meter or
+1000 volts/2.5 cm
+1,000 volts
+Over 200,000 volts/meter or
+5,000 volts/2.5 cm (See NOTE 1.)
+5,000 volts
+NOTE  1:  If  fieldmeter  or  voltmeter  performance  verification  is
+needed  above  5,000  volts,  it  is  left  to  the  user  to  select  values  using
+the table as guide.
+7. 2.2.2     Instrument    Performance    Verif ication    —
+Charge    a    conductive    test    plate    to    the    desired
+verification voltage. Use of a suitable power supply or a
+charged     plate     monitor     for     test     purposes     is
+recommended.
+7. 2.2.3   Assuring  Meters  and  Operator   Are  Grounded
+— Assure  that  the  fieldmeter,  voltmeter  and  operator
+are grounded. Turn on the meter and zero it as required
+according to manufacturer's instructions.
+7. 2.2.4  Directing or Pointing the Sens e Head —  Direct
+or point the sense head of the fieldmeter or voltmeter at
+the  center  and  parallel  to  the  surface  of  the  plate  at  a
+distance at least twice the manufacturer’s recommended
+measurement.  Slowly  move  the  sense  head  toward  the
+center  of  the  charged  plate  until  a  reading  equal  to  the
+voltage  applied  to  the  plate  in  Section  7.2.2.1  above  is
+displayed   by   the   meter.   Measure   and   record   the
+distance from the sense head to the surface to the plate.
+Using the plate voltage from Section 7.2.2.1 above and
+the recorded distance, compute the field strength for the
+fieldmeter.  See  Figure  2,  Fieldmeter  and  Voltmeter
+Verification Check.
+7. 2.2.5     Alternative    to    Section    7.2.2.4    —     Take
+measurements    at    a    specified/fixed    distance    per
+manufacturer's  instructions.  Locate  the  sense  head  of
+the fieldmeter or voltmeter as in Section 7.2.2.4, but, at
+specified distance; reading displayed (on meter) should
+be within 5% of applied voltage to plate.
+NOTE 1: Section  7.2.2.4  or  7.2.2.5  should  be  applicable  to
+most   meters.   However,   in   every   case,   the   electrostatic
+fieldmeter  or  voltmeter  manufacturer's  instructions  should  be
+read, understood, and followed.
+7. 2.2.6    Other   Desired   Test   Voltages   —    Repeat
+Sections  7.2.2.4  and  7.2.2.5  for  any  other  desired  test
+voltages.
+7. 2.3  Performance  Verification  of  an   Electrometer —
+It    is    good    practice    to    occasionally    check    the
+performance  of  the  electrometer  by  connecting  it  to  a
+known voltage source, and comparing its readings with
+readings taken by another reference voltmeter.
+7. 2.4    Meter   Stability   —    All   measure ment   devices
+should  be  turned  on  and  pre-conditioned  for  as  long  a
+warm-up period as recommended by the manufacturer
+7. 2.4.1   Reset  (zero)  the  coulombmeter   prior  to  each
+measurement.
+7. 2.4.2   Check  the  zero  on  the  fieldmet er  or  voltmeter
+as  specified  by  the  manufacturer.  Usually  this  is  done
+while   the   probe   is   positioned   to   view   a   grounded
+surface.  If  the  zero  of  the  meter  has  drifted  by  more
+than  5%  of  the  test  voltage  for  any  range  contained  in
+Table   1,   the   meter   is   not   suitable   for   use   for
+measurements  over  that  range.  It  may  be  suitable  for
+use over other ranges contained in Table 1, using other
+test  voltages.    Reverify  the  meter’s  calibration  at  the
+selected test voltage.
+7. 2.4.3   Zeroing  an  Electrometer  —  Ex cept  on  some
+older analog models, there are usually no provisions to
+zero  an  electrometer.  Some  electrometers  with  analog
+or  digital  read-outs  do  allow  offsetting  of  a  reading,  as
+well  as  relative  (delta)  measurements.    However,  the
+electronic zero of the electrometer is usually set by the
+manufacturer,   and   should   be   part   of   the   normal
+calibration. It is good practice to occasionally check the
+zero   by   shorting   the   input   terminals   together   and
+verifying    that    the    zero    reading    is    within    the
+manufacturer’s specifications.
+7. 2.4.4    See   Related   Information   1   for    notes   on
+equipment accuracy and limitations.
+8  Sampling
+8. 1    Sampling   methods   for   this   gui de   should   be
+determined  by  the  requirements  of  the  user's  appli-
+cation. Electrostatic surveys can be repeated at different
+times to make them more representative of actual static
+charge conditions in the surveyed area. The results will
+vary    due    to    environment    (e.g.,    humidity)    and
+
+SEMI E43-0301 © SEMI 1995, 20014
+workstation  setup/conditions.  However,  any  measure-
+ment  that  is  in  excess  of  a  (user)  defined  maximum  or
+that is a benchmark value, should be repeated more than
+once,  after  performing  a  zero  check  of  the  measuring
+equipment.   This   is   to   validate   previous   reading(s)
+and/or  establish  a  range/bounds  in  the  case  of  varying-
+moving fields on previous reading(s).
+9  Test Methods & Measurem ents
+9. 1  Coulombmeter Measurements
+9. 1.1    Verifying   the   Coulombmeter   —    Verify   the
+performance   of   the   coulombmeter   as   in   Section   7
+above.  Check/reset  the  zero  before  each  measurement
+and/or  per  manufacturer's  instructions.  Assure  that  the
+coulombmeter and operator are grounded.
+9. 1.2  Equipment Selection —  Use a c oulombmeter for
+direct    measurement    of    charge.    A    feedback-type
+coulombmeter       is       recommended       for       charge
+measurements for the most complete transfer of charge.
+Shunt-type  coulombmeters  do  not  completely  transfer
+charge   and   are   not   as   straightforward   to   use   as
+feedback-type  coulombmeters.    When  using  a  Faraday
+enclosure,  the  Faraday  enclosure  must  be  large  enough
+to   hold   the   objects   to   be   measured.   The   Faraday
+enclosure   is   used   to   measure   charge   on   insulating
+materials as well as on conductors.
+9. 1.3  Measurements —  Best results  are achieved when
+all   surfaces   surrounding   the   measurement   area   are
+grounded (to minimize the effects of stray fields on the
+measurement)   and   when   a   consistent,   systematic
+handling   method   is   used   during   the   measurement
+process.    The  operator  should  be  grounded  using  a
+grounded wrist strap.
+9. 1.3.1  Isolated Conductors — To me asure the charge
+on  an  isolated  conductor,  touch  the  lead  from  the
+coulombmeter to the isolated conductor.
+9. 1.3.2  Faraday Enclosure Measurem ents  —  Refer  to
+Figure 3. To measure the charge on an object, carefully
+pick  up  the  object  with  an  insulated  tool  and  place  the
+charged   object   into   the   Faraday   enclosure.   Special
+handling   considerations:   Be   careful   not   to   add   or
+subtract   any   charge   in   the   process   of   moving   the
+charged object into the Faraday enclosure.  Don’t let the
+charged object rub or slide against any other surface, as
+this may add or subtract charge from the object.
+9. 1.4    Limitations   —    Do   not   attempt    to   measure
+charges  of  magnitudes  that  are  below  the  drift  rate  of
+the coulombmeter.
+9. 2  Electrostatic Fieldmeter Meas u rements
+9. 2.1     Verifying    the    Fieldmeter    —     Ve rify    the
+performance  of  the  fieldmeter  as  in  Section  7  above.
+Check/reset     the     zero     periodically     and/or     per
+manufacturer's  instructions.  Assure  that  the  fieldmeter
+and operator are grounded.
+9. 2.2   Measurements  —   Measuremen ts  made  to  this
+guide should be taken/reported in units that conform to
+the  customer  specifications.  Most  common  fieldmeters
+manufactured  to  date  have  operating  instructions  that
+reflect    the    user    doing    calibration    and    taking
+measurements in English units of volts/inch or volts at a
+fixed  distance  in  inch(es)  and  in  these  cases,  raw  data
+are      reported/listed      directly.      The      international
+community specifies that units shall be in SI (Standard
+International) Metric units and the SI conversion factor
+in  Section  7.1.1.1  will  apply.  However,  by  definition,
+electric  field  is  expressed  in  volts  per  meter,  and  thus
+would be expressed according to Table 2.
+9. 2.2.1   For  instance,  when  using  a  me ter  calibrated
+only  at  100  volts,  measurements  under  4,000  volts/m
+would   be   expressed   to   the   nearest   400   volts/m.
+Measurements  over  4,000  volts/m  would  be  expressed
+as  >  4,000  volts/m.  For  a  meter  calibrated  to  all  three
+voltages,  measurements  under  4,000  volts/m  would  be
+expressed  to  the  nearest  400  volts/m,  measurements
+between  4,000  and  40,000  volts/m  would  be  expressed
+to  the  nearest  4,000  volts/m,  and  measurements  over
+40,000   volts/m   would   be   expressed   to   the   nearest
+40,000 volts/m.
+Table 2  Measurement Units
+Test VoltageFor Readings ofExpress in Multiples ofFor Readings ofExpress as
+100 V< 4,000 V/m400 V/m> 4,000 V/m> 4,000 V/m
+1,000 V< 40,000 V/m4,000 V/m> 40,000 V/m> 40,000 V/m
+5,000 V< 200,000 V/m20,000 V/m> 200,000 V/mmultiples of 200,000 V/m
+Note:  Measurements above 1000 volts/2.54 cm may be made based on verification of the meter at 1000 volts where less precision is acceptable
+due to safety concerns with verification equipment/setup or availability of such equipment.
+
+SEMI E43-0301 © SEMI 1995, 20015
+9. 2.3    Measurement   Limitations   —    Measurements
+made  to  this  guide  are  only  valid  for  surfaces  that  are
+flat  to  a  radius  of  1.5  times  the  measurement  distance
+from   a   point   directly   below   the   sensor   head.   For
+surfaces that are not flat, measurements should be made
+by  moving  the  sensor  over  the  surface  such  that  the
+specified measurement distance is maintained as closely
+as possible. These measurements may only be stated as
+a  range,  with  rounding  as  applicable  to  the  meter's
+measurement  range  according  to  Section  9.2.2.  See
+Figure   4,   Example   of   a   Survey   of   a   Carrier   of
+Semiconductor  Wafers.  See  Related  Information  2  for
+notes on test methods environment and measurements.
+9. 3  Electrostatic Voltmeter Measu rements — Refer to
+Figure 4.
+9. 3.1     Verifying    the    Voltmeter    —     Ver ify    the
+performance  of  the  voltmeter  as  in  Section  7  above.
+Check/reset  the  zero  periodically  per  manufacturer's
+instructions. Assure that the voltmeter and operator are
+grounded.
+9. 3.2  Selecting the Voltmeter —  Sele ct an electrostatic
+voltmeter with a measurement range consistent with the
+anticipated   levels   of   charge   on   the   objects   to   be
+measured.    The  selection  of  too  high  a  measurement
+range  will  sacrifice  voltage  resolution,  while  selection
+of  too  low  a  range  will  cause  out-of-range  operation
+(saturation).
+9. 3.2.1     To    measure    moving    objects,    se lect    an
+electrostatic   voltmeter   with   a   response   speed   fast
+enough to detect the objects when they are moving past
+the    electrostatic    voltmeter    probe    at    the    highest
+anticipated velocity.
+9. 3.2.2   Select  a  side-  or  end-viewing  p robe  for  the
+electrostatic  voltmeter  as  is  best  suited  to  view  the
+target object or surface when the probe is installed in an
+apparatus.
+9. 3.3   Measurements  —   Position  the   probe  in  front  of
+the  surface  to  be  measured.    Best  results  are  obtained
+when the probe is placed less than two (probe) aperture
+diameters  from  the  object  or  surface  to  be  measured.
+At these closer spacings, the effects of extraneous fields
+are minimized.
+9. 3.3.1   To  resolve  a  small  surface  area ,  the  distance
+between  the  probe  and  the  surface-under-measurement
+must  be  less  than  1/5
+th
+of  the  diameter  of  the  surface
+area to be measured. At wider spacings the surface area
+resolved  by  the  probe  will  exceed  the  surface  area  of
+interest,  and  measurement  accuracy  may  be  reduced
+together  with  the  possibility  of  introducing  effects  of
+extraneous fields to the measurement.
+9. 3.4   Measurement  Limitations  —   Voltage  levels  on
+isolated conductors can be measured.  Insulators do not
+have  a  uniform  surface  charge  distribution.    Therefore,
+it   is   considered   that   voltage   levels   measured   on
+insulators  indicate  an  electrostatic  field  strength  in  a
+particular area.
+9. 4  Electrometer Measurements —  Measuring with an
+Electrometer  is  very  similar  to  measuring  with  any
+other voltmeter or multimeter.
+9. 4.1     Connect    the    “common”    termin al    of    the
+electrometer  through  a  test  lead  to  the  reference  plane
+or ground. Connect the “hot” or signal lead to the object
+or     test     point     of     interest.     Some     electrometer
+measurements   will   use   a   separate   wire   or   shield
+connected  to  the  electrical  ground  or  a  guard  ring.
+Connect  this  as  recommended  by  the  manufacturer  of
+the equipment.
+9. 4.2    The   major   difference   between    the   ordinary
+voltmeter   and   the   electrometer   is   the   orders   of
+magnitude  higher  input  impedance  of  the  electrometer.
+An  electrometer  will  therefore  pick  up  voltage  signals
+produced  by  stray  electric  fields,  potentials  associated
+with  noise  currents,  and  artifacts  caused  by  intentional
+or  unintentional  ionization  of  the  ambient  air  when
+measuring   high   voltages.   An   electrometer   can,   for
+example,  be  used  to  measure  the  triboelectric  and  the
+piezoelectric  properties  of  a  piece  of  coaxial  cable:
+connect  the  cable  under  test  to  the  electrometer,  and
+flex  it  or  tap  on  it  with  a  finger.  The  voltages  induced
+on   the   center   conductor   can   be   measured   by   the
+electrometer.
+10  Certification
+10. 1   Certification  to  survey  areas  to   this  guide  is  for
+the  person  doing  the  certification  (certifier)  to  assure
+that  the  person  being  certified  (certifyee)  can  calibrate
+the  meter  and  make  acceptable  measurement  of  known
+static  field(s)  per  Section  7  and  applicable  example(s)
+per  Section  9.  The  certifier  shall  be  someone  qualified
+by  education  and/or  training  to  calibrate  and  make
+measurements  with  the  equipment  called  out  in  this
+guide   or   someone   previously   certified.   The   ESD
+Association  conducts  such  training  programs  and  the
+National    Association    of    Radio    and    Television
+Engineers  (NARTE)  administers  an  ESD  Engineer  and
+ESD technician certification program.
+10. 2   Demonstrating  Ability  to  Verif y  the  Performance
+of  the  Meter  Against  Known  Source  —   The  certifyee
+shall  charge  the  test  plate,  zero  the  meter,  and  perform
+the  measurement  a  minimum  of  two  times  per  Section
+7; record values per Section 11. Readings obtained shall
+be within 5% of expected values.
+
+SEMI E43-0301 © SEMI 1995, 20016
+10. 3  Demonstrating Ability to Meas ure Example Item(s) Acceptably — The certifier will have charged/uncharged
+example(s) of items/objects for measurement of static field(s) by certifyee(s) a minimum of two times per Section 9;
+record values per Section 11.
+10. 4  Certifying —  Readings obtaine d per Section 10.2 shall be within 12% of expected values and methodology of
+obtaining readings shall be acceptable per certifier observation(s). A permanent record of certification is realized by
+certifyee when certifier signs record sheet(s) for file in personnel records and/or when certifier issues a certificate.
+Refer to Section R1-3.
+11  Documentation
+11. 1   Meter  calibration  check(s),  ben chmark  or  laboratory  measurements,  items/areas  surveys,  and/or  any  other
+electrostatic   field   measurements   should   be   recorded   in   permanent   records.   Recorded   are   initial   reading,
+second/validation  reading,  and  any  subsequent  readings  taken  to  acceptable  range/bound  levels  observed.  Record
+sheet(s)  should  show  meter  used,  area  (name),  location,  date,  and  items  listed  opposite  readings,  name  of  person
+who took readings, and space for comments.
+Charging
+Source
+STEP 1
+Charge
+Capacitor
+Charging
+Source
+STEP 2
+Disconnect
+Charging
+Source from
+Capacitor
+Coulombmeter
+STEP 3
+Connect
+Coulombmeter
+to Capacitor
+Figure 1
+Verifying Performance of the Coulombmeter
+
+SEMI E43-0301 © SEMI 1995, 20017
+A) Connect meter directly to charged plate ground reference.
+B) Meter approximately 2.54 cm and parallel to charge plate.
+C) Meter reading should be within 5% of voltage applied to plate.
+D) Assure that both the meter and the operator are properly grounded.
+Meter
+Field emanating from charge plate
+Plate
+Ground Plane
+Insulators
+Charged Plate monitor
+or power supply
+Figure 2
+Fieldmeter and Voltmeter Verification Check
+Coulombmeter
+Place object into
+Faraday
+enclosure.
+Faraday Enclosure
+Figure 3
+Measurement With a Coulombmeter and Faraday Enclosure
+
+SEMI E43-0301 © SEMI 1995, 20018
+A) Make sure meter is properly grounded according to manufacturer's
+instructions.
+B) Scan approximately 2.54 cm along both sides and ends of carrier.
+C) Scan approximately 2.54 cm length of carrier and top-center of
+wafers with meter.
+D) Note high-low values for B) & C).
+E) Assure that the operator is properly grounded.
+Meter
+Field emanating from carrier of charge
+semiconductor wafers.
+Wafers
+Ground Plane
+Carrier
+Figure 4
+Example of a Survey of a Carrier of Semiconductor Wafers
+12  Related Documents
+NOTE 2: These  documents  are  for  information  only;  in  the
+case of conflict, this document takes precedence. Also read/be
+aware of appendices to this document before use.
+12. 1  ESD Association Standards
+1
+ANSI  EOS/ESD  S3.1:  Ionization.  Test  methods  and
+procedures  for  evaluating  and  selecting  air-ionization
+equipment  and  systems  are  provided  in  this  standard,
+which establishes measurement techniques to determine
+ion balance and charge-neutralization time for ionizers.
+ESD   STM4.2:   Worksurfaces   —    Charge   Dissipation
+Characteristics. This  standard  test  method  prescribes  a
+procedure    for    measuring    the    electrostatic-charge-
+dissipation  characteristics  or  work  surfaces  used  for
+ESD control.
+
+1 ESD Association, 7900 Turin Rd., Bldg. 3, Suite 2, Rome, NY
+13440-2069, website: www.esda.org
+ESD  STM5.1:  ESD  Sensitivity  Testing  —   Human  Body
+Model. This  standard  test  methods  defines  procedures
+for   testing,   evaluating,   and   classifying   the   ESD
+sensitivity  of  components  to  the  defined  Human  Body
+Model (HBM).
+ESD  S5.2:  ESD  Sensitivity  Testing  —   Machine  Model.
+This    standard    established    a    test    procedure    for
+evaluating  the  ESD  sensitivity  of  components  to  a
+defined Machine Model, and outlines a system whereby
+the sensitivity of such components may be classified.
+ESD  STM5.3.1:  ESD  Sensitivity  Testing  —   Charged
+Device   Model. This   standard   is   a   test   method   for
+evaluating    active    and    passive    components’    ESD
+sensitivity to a defined Charged Device Model.
+ANSI/ESD    S20.20:    ESD    Control    Program. This
+standard   specifies   the   requirements   that   must   be
+satisfied  in  designing,  establishing,  implementing,  and
+maintaining  ESD  control  programs  for  ESD-sensitive
+
+SEMI E43-0301 © SEMI 1995, 20019
+items  susceptible  to  discharges  equal  to  or  greater  than
+100 V HBM.
+ESD  SP10.1  —   Automated  Handling  Equipment. This
+document  covers  test  methods  for  evaluating  the  ESD
+ground  integrity  of  automated  handling  equipment  as
+well  as  charge  generation,  and  charge  accumulation  on
+devices in automated handling equipment.
+12. 2  ESD Association Advisory Doc uments
+ESD  ADV1.0  —   Glossary  of  Terms. Definitions  and
+explanations   of   various   terms   used   in   Association
+Standards  and  documents  are  covered  in  this  advisory.
+It also includes other terms commonly used in the ESD
+industry.
+ESD ADV2.0 —  ESD Handbook. The ESD Handbook is
+a  complete  guide  to  static  control  in  the  work  place.
+Nineteen     chapters     cover     ESD     basics,     control
+procedures,   auditing,   symbols,   device   testing,   and
+standards.
+ESD  ADV11.2  —   Triboelectric  Charge  Accumulation
+Testing. The   complex   phenomenon   of   triboelectric
+charging  is  discussed  in  this  Advisory.  It  covers  the
+theory    and    effects    of    tribocharging.    It    reviews
+procedures  and  problems  associated  with  various  test
+methods      that      are      often      used      to      evaluate
+triboelectrification characteristics.
+12. 3  Other Related Documents
+12. 3.1  Military Standards
+2
+MIL-STD-1686C: ESD Control Program for Protection
+of  Electrical  and  Electronic  Parts,  Assemblies  and
+Equipment  (Excluding  Electrically  Initiated  Devices).
+This military standard establishes requirements for ESD
+control  programs.  It  applies  to  U.S.  military  agencies,
+contractors,  subcontractors,  suppliers,  and  vendors.  It
+requires    the    establishment,    implementation,    and
+documentation  of  ESD  control  programs  for  static-
+sensitive  devices  but  does  not  mandate  or  preclude  the
+use of any specific ESD control materials, products, or
+procedures.
+MIL-HDBK-263B:     ESD     Control     Handbook     for
+Protection    of    Electrical    and    Electronic    Parts,
+Assemblies   and   Equipment   (excluding   Electrically
+Initiated  Explosive  Devices).  This  reference  provides
+guidance,   but   not   mandatory   requirements,   for   the
+establishment  and  implementation  of  an  ESD  control
+program  in  accordance  with  the  requirements  of  MIL-
+STD-1686.
+
+2 Naval Publication and Forms Center, 5801 Tabor Avenue,
+Philadelphia PA 19120 U.S.A
+12. 3.2  JEDEC Standards
+3
+JESD625A:  Requirements  for  Handling  ESD-Sensitive
+Devices.  This  voluntary  standard  establishes  minimum
+requirements  for  ESD  control  methods  and  materials
+designed  to  protect  electronic  devices  having  Human
+Body Model (HBM) sensitivities of 200 V or greater. It
+is   intended   for   use   by   semiconductor   distributors,
+semiconductor   processing   and   testing   facilities,   and
+semiconductor end users.
+12. 3.3  EIA Standards
+4
+EIA  541  –  Packaging  Material  Standards  for  ESD
+Sensitive  Items  —  This  standard  presents  requirements
+and  tests  methods  for  selecting  packaging  materials  to
+be used with ESD sensitive devices.
+EIA  583  –  Packaging  Material  Standards  for  Moisture
+Sensitive  Items  —  This  standard  contains  information
+regarding packaging materials used for the protection of
+ESD  sensitive  items  when  moisture  levels  are  also
+important.
+EN100015:  Protection  of  Electrostatic  Sensitive. This
+European  Norm  covers  ESD  handling  practices  for
+electronic devices.
+12. 3.4 IEC Standards
+5
+IEC  61000-4-2  –  Transient  Immunity  Standard.  This
+IEC  document  provides  requirements  and  test  methods
+for ESD transient immunity.
+IEC     61340-5-1:1998,     Electrostatics,     Part     5-1:
+Protection   of   Electronic   Devices   from   Electrostatic
+Phenomena-General       Requirements.       This       IEC
+(International  Electrotechnical  Commission)  document
+provides   guidance   for   establishing   a   static   control
+program.
+IEC  61340-5-2:1999,  Protection  of  Electronic  Devices
+from  Electrostatic  Phenomena-Users  Guide.  This  IEC
+handbook supplement the information contained in Part
+5-1 above.
+
+3 Joint Electron Device Engineering Council, 2500 Wilson Blvd.,
+Arlington, VA 22201, website: www.jedec.org
+4 EIA Engineering Department, Standards Sales Office, 2001 Eye
+Street, NW, Washington, D.C. 20006, website: www.eia.org
+5 International Electrotechnical Commission, 3, rue de Varembé,
+Case postale 131, CH-1211 Genève 20, Switzerland, website:
+www.iec.ch
+
+SEMI E43-0301 © SEMI 1995, 200110
+APPENDIX 1
+MEASUREMENT SELECTION MATRIX
+NOTE: This appendix offers information related to selecting the appropriate measurement methods from those contained in this
+document. It was approved as an official part of SEMI E43 by full letter ballot procedure.
+A1-1    The  matrix  contained  in  Table  A1-1  is  intended  to  assist  in  the  selection  of  an  appropriate  measurement
+method  for  static  charge.  Users  should  note  that  a  variety  of  measurement  methods  is  available  for  any  given
+situation.  Consult  manufacturers  of  the  equipment  for  additional  information  concerning  its  proper  use  and
+applicability.
+Table A1-1 Measurement Method Recommendations
+ObjectElectrostatic
+Fieldmeter
+Charged Plate
+Monitor
+Electrostatic
+Voltmeter
+ElectrometerCoulombmeterOscilloscopeEMI
+Detector
+Small
+object/device
+charge
+XX X
+Surface chargeXX
+Ionization system
+charge
+neutralization
+XXX
+ESD event
+detection
+XXX
+Human body
+voltage
+XXX
+Product cart
+charge level
+XXX
+Chair charge levelXXX
+Charge decayXXXX
+Product material
+handling
+XXX
+Ionizer Offset
+Voltage (Balance)
+XX
+Wafer chargeXXX
+Process
+equipment –
+Charge and ESD
+generation
+XXXX
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacture's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publications  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+SEMI E43-0301 © SEMI 1995, 200111
+RELATED INFORMATION 1
+NOTES ON EQUIPMENT
+NOTE:  This related information is not an official part of this standard. However, it contains relevant information for using the
+standard in situations commonly encountered with semiconductor manufacturing facilities and equipment. Determination of the
+suitability of the material is solely the responsibility of the user.
+R1-1  A charged conductive plate establishes a uniform
+electrostatic field as long as measurements are not made
+close  to  the  edges  and  the  measurement  distance  is
+small  relative  to  the  dimensions  of  the  plate.    This
+specification  requires  meters  capable  of  making  field
+measurements  at  a  distance  of  2.54  cm  (1  inch)  or  less
+from a 15 cm (6 inch) square plate as a practical means
+to ensure performance verification to a known field.
+R1-2  Charged plate monitors using 15 cm square plates
+with  a  20  picofarad  capacitance  are  commonly  used  to
+determine  the  performance  of  air  ionization  systems.
+Isolators are used to assure minimal leakage to ground.
+A 15 cm square plate of any metal approximately 1 mm
+thick    and    isolated    from    adjacent    surfaces    using
+insulative standoffs is a perfectly acceptable substitute.
+R1-3    The  verification  procedure  is  intended  to  ensure
+that the meter used does not drift excessively (less than
+5% in 5 minutes) and can repeatedly measure a known
+field to within 5%. When actually using the meter to do
+a field survey, maintaining the correct distance from the
+sensor  head  to  the  surface  or  object  being  measured
+becomes the greatest source of error. If the ability of the
+meter operator to maintain the correct distance is within
+10%, then the total error of the measurement would be
+within   about   12%   using   this   calibration   procedure
+(RMS  of  the  5%  drift,  5%  repeatability,  and  10%
+distance errors).
+R1-4    If  two  operators  using  two  different  meters
+follow  the  verification  procedure,  and  they  both  are
+able  to  maintain  the  correct  distance  to  within  10%  as
+above, then they both would be within 12% of the true
+field  strength  when  measuring  the  same  surface  or
+object.   Taking   the   RMS   of   these   errors,   the   two
+operators  using  two  meters  should  be  within  17%  of
+each other.
+R1-5      Many   meters   read   out   in   volts/inch.      100
+volts/inch is about 4,000 volts/m.
+
+SEMI E43-0301 © SEMI 1995, 200112
+RELATED INFORMATION 2
+NOTES ON TEST METHODS
+NOTE:  This related information is not an official part of this standard. However, it contains relevant information for using the
+standard in situations commonly encountered with semiconductor manufacturing facilities and equipment. Determination of the
+suitability of the material is solely the responsibility of the user.
+R2-1  Prior handling and environmental conditions will
+significantly  impact  the  field  strength  to  be  measured.
+Below are a number of these considerations:
+• The presence of nearby grounded surface or object
+will  tend  to  reduce  the  measured  field  strength.
+This phenomena is known as field suppression and
+is illustrated in Figure R2-1.
+• Ionization   of   the   surrounding   air   will   tend   to
+reduce  the  measured  field  strength  by  neutralizing
+the static charge on the surface of the object.
+• Rubbing  or  contacting  the  surface  being  measured
+with another object or surface will tend to increase
+the  measured  field  strength  depending  upon  the
+tendency   of   the   two   materials   in   question   to
+tribocharge.
+• Increasing  humidity  will  tend  to  reduce  the  field
+strength  to  be  measured  because  it  in  turn  will
+reduce  the  magnitude  of  the  charge  generated  on
+objects  and,  over  time,  assist  in  the  neutralization
+of charge on objects.
+• Projections  and  sharp  protrusions  on  the  object
+being  measured,  or  nearby  objects,  will  increase
+the field strength.
+• Insulating  objects  may  have  very  irregular  charge
+distributions.
+• As   a   result   of   these   considerations,   a   static
+measurement or survey made using this standard is
+only useful if these factors are taken into account in
+a realistic manner.  For example:
+• If  a  surface  is  only  used  in  a  humidity  or
+temperature    controlled    environment,    field
+strength    measurements    made    under    these
+conditions   are   the   main   ones   of   interest.
+Measurements   made   at   different   humidities
+may be irrelevant.
+• An object may present close to zero field in an
+ionized  environment,  yet  when  contacted  by
+another  object  may  become  highly  charged.
+This charge may persist for a period of seconds
+or minutes while it is neutralized by the ionized
+environment.  The  time  required  to  return  the
+object  to  its  original  state  may  be  a  parameter
+of interest.
+• An  object  resting  on  a  grounded  metal  surface
+may  have  very  low  external  field  strength.  If
+the  object  is  picked  up  and  measured  the  field
+may be much higher.
+• Objects  of  irregular  shape  and  size  will  give
+highly   variable   readings,   depending   on   the
+position of the sensor relative to the object.
+• Dielectric   objects   may   give   highly   variable
+readings,  depending  upon  the  position  of  the
+sensor relative to the charge distribution on the
+object.
+• The  simple  act  of  handling  an  object  while
+performing   a   static   survey   can   change   the
+charge  on  the  object.  The  best  results  will
+derive   from   making   sure   that   objects   and
+surfaces  are  treated  and  handled  within  the
+bounds of their actual use.
+• During     equipment     verification,     maintaining
+constant/steady  voltage  is  important.  If  the  plate  is
+initially  charged  and  allowed  to  float,  its  voltage
+will change as the meter is moved close to it.
+
+SEMI E43-0301 © SEMI 1995, 200113
++  +  +  +  +  +  +  +  +  +  +  +  +
+Grounded Surface
+Field Lines Terminate on Ground
+and Do Not Accurately
+Represent Charge on the Surface
+Charged Surface
+Field Lines Due to Static Charge
++  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +
+Figure R2-1
+Field Suppression
+
+SEMI E43-0301 © SEMI 1995, 200114
+RELATED INFORMATION 3
+ESD DAMAGE SIMULATORS
+NOTE:  This related information is not an official part of this standard. However, it contains relevant information for using the
+standard in situations commonly encountered with semiconductor manufacturing facilities and equipment. Determination of the
+suitability of the material is solely the responsibility of the user.
+R3-1  ESD Damage Simulators
+R3-1.1    ESD  Simulators  are  used  to  replicate  ESD
+events.        Common    types    used    to    characterize
+semiconductor devices and equipment include:
+• Component Level HBM ESD Simulator.
+• Component Level MM ESD Simulator.
+• Component Level CDM ESD Simulator
+• System Level HBM/metal ESD Simulator
+R3-1.2    The  component  level  HBM  ESD  Simulator
+represents  the  parameters  agreed  upon  for  a  standard,
+which  represents  the  discharge  from  a  typical  human
+body.  These parameters are 1500 ohms and 100 pF for
+the      representative      resistance      and      capacitance
+respectively of the human body.
+R3-1.3    The  component  level  MM  ESD  Simulator
+represents  the  parameters  agreed  upon  for  a  standard,
+which represents the discharge from a charged metallic
+arm  of  a  machine  (automatic  handler  etc).    These
+parameters  are  200  pF  and  zero  resistance  for  the
+representative     capacitance     and     DC     resistance
+respectively  of  the  machine.    We  note  here  that  the
+resulting  waveform  is  dependent  on  the  impedance  of
+the circuity.
+R3-1.4    The  component  level  CDM  ESD  Simulator
+represents  the  parameters  agreed  upon  for  a  standard,
+which  represents  the  discharge  from  a  charged  device.
+These    parameters    are    defined    by    the    resulting
+waveform   and   depend   almost   exclusively   on   the
+capacitance,  resistance  and  inductance  of  each  device
+relative  to  ground.    These  parameters  must  not  be
+confused with the equipment parameters, which affects
+the resulting waveform.
+R3-1.5    The  system  level  HBM/metal  ESD  Simulator
+represents  the  parameters  agreed  upon  for  a  standard,
+which represents the discharge from a human holding a
+metallic  instrument.  These  parameters  are  the  lower
+resistance  350  ohms  and  150  pF  for  the  representative
+resistance  and  capacitance  respectively  of  the  human
+holding  a  metallic  instrument.    Note  here  that  the
+waveform    is    greatly    affected    by    the    equipment
+parasitics.
+R3.1.6    The  above  component  level  ESD  simulators
+have  also  been  used  in  simulating  ESD  damage  to
+tooling,   such   as   reticles   and   photomasks.      This
+simulation is left to user discretion.
+R3-2  Summary of procedures
+R3-2.1    HBM  ESD  Simulator-component  level  —  The
+procedure  for  using  this  simulator  to  stress  test  devices
+or  wafers  is  based  upon  the  standard  requirements.
+ANSI  and  the  ESD  Association  approved  the  HBM
+standard,   ESD   STM5.1,   which   contains   a   specific
+device  pin  combination  sequence  for  stress  testing.
+This  test  procedure  is  generally  referred  to  as  a  Pin  to
+Ground test since one pin is always grounded while the
+selected  second  pin  is  stressed.    Calibration  before  use
+requires  added  equipment  components  like  a  current
+probe,  high  bandpass  cable,  a  short  wire,  a  500  ohm
+resistor   and   a   very   high   band   width   waveform
+recorder/digitizer.
+R3-2.2    MM  ESD  Simulator-component  level  —  The
+procedure  for  using  this  simulator  to  stress  test  devices
+or wafers is based upon the standard requirements.  The
+ESD  S5.2  approved  MM  standard  specifies  a  specific
+device  pin  combination  sequence  for  stress  testing.
+This test procedure is also generally referred to as a Pin
+to  Ground  test  since  one  pin  is  always  grounded  while
+the  selected  second  pin  is  stressed.      This  procedure  is
+exactly  the  same  as  for  HBM.  Calibration  before  use
+requires  added  equipment  components  like  a  current
+probe,  high  bandpass  cable,  short  wire,  a  500  ohm
+resistor   and   a   very   high   band   width   waveform
+recorder/digitizer.
+R3-2.3    CDM  ESD  Simulator-component  level  —  The
+procedure  for  using  this  simulator  to  stress  test  devices
+or wafers is based upon the standard requirements.  The
+ESD STM 5.3.1 approved CDM standard does not use a
+pin  combination  procedure.    Here  the  device  sits  on  a
+charge plate (CP) “dead-bug” style (package on CP and
+leads/pins    vertical)    and    each    pin    is    discharged
+successively  after  each  charge  to  the  device  package.
+This procedure is different from that of HBM and MM.
+Calibration   before   use   requires   added   equipment
+components  like  a  capacitance/inductance  calibrator,
+high   bandpass   cable   and   a   very   high   band   width
+waveform recorder/digitizer.
+R3-2.4    HBM-metal  Simulator-  system  level  —  The
+procedure for using this hand-held simulator for testing
+systems  (ATE  testers,  Automatic  handlers,  computers,
+printers,   ESD   Simulators   etc)   is   based   upon   the
+
+SEMI E43-0301 © SEMI 1995, 200115
+standard   requirements.   The   IEC   61000-4-2,   1996
+(formally-801-2,1992)  standard  uses  direct  contact  or
+air discharge to the system under test and is a different
+procedure  from  the  other  three  procedures  mentioned
+above.  Calibration before use requires the use of a very
+large vertical ground plane (at least 4 ft by 4 ft square),
+a  high  BW  current  probe,  cables  and  high  bandwidth
+waveform recorder/digitizer.
+R3-3  Industry Classifications
+R3-3.1  HBM classification
+
+# 1
+
+1. < 250 volts
+
+# 2
+
+2. 250 to < 500
+
+# 3
+
+3. 500 to < 1000
+
+# 4
+
+4. 1000 to < 2000
+
+# 5
+
+5. 2000 to < 4000
+
+# 6
+
+6. 4000 to < 8000
+
+# 7
+
+7. = or > 8000
+R3-3.2  MM classification
+1. M1  < 100
+2. M2  100 to < 200
+3. M3  200 to < 400
+4. M4  400 to < 800
+5. M5  =  or  >  800
+R3-3.3  CDM classification
+1. C1   < 125
+2. C2   125 to < 250
+3. C3   250 to < 500
+4. C4   500 to < 1000
+5. C5   1000 to < 2000
+6. C6   =  or  >  2000
+R3-3.4  Hand-Held Metal HBM classification
+Direct Contact Discharge
+VoltageCurrent
+1. 2,000                           12.0                           amps
+2. 4,000                           24.0
+3. 6,000                           36.0
+4. 8,000                           48.0
+Air Discharge
+Voltage                       Current
+1. 2,00015.0 amps
+2. 4,000                           25.0
+3. 6,00030.0
+4. 10,00035.0
+5. 15,00052.0
+Note that the currents for the same voltage level are not
+the same for contact versus air discharge.
+
+SEMI E43-0301 © SEMI 1995, 200116
+RELATED INFORMATION 4
+OTHER METHODS FOR DETECTING STATIC CHARGE AND ESD
+EVENTS IN EQUIPMENT
+NOTE:  This related information is not an official part of this standard. However, it contains relevant information for using the
+standard in situations commonly encountered with semiconductor manufacturing facilities and equipment. Determination of the
+suitability of the material is solely the responsibility of the user.
+R4-1  Introduction
+R4-1.1      Static   charge   generation   is   unavoidable
+whenever  materials  come  in  contact.    Without  a  static
+control  program,  the  problems  caused  by  static  charge
+are   also   unavoidable.   The   most   common   problem
+caused by static charge is electrostatic discharge (ESD).
+ESD results in damaged semiconductor ICs, photomask
+defects,  magneto-resistive  (MR)  read  head  defects  in
+disk  drives,  and  failures  of  the  drive  circuits  for  flat
+panel  displays  (FPD).  ESD  also  creates  a  significant
+amount  of  electromagnetic  interference  (EMI).  Often
+mistaken  for  software  errors,  EMI  resulting  from  ESD
+interrupts  the  operation  of  production  equipment.  This
+is  particularly  true  of  equipment  depending  on  high-
+speed   microprocessors   for   control.   Results   include
+unscheduled      downtime,      increased      maintenance
+requirements,      and      frequently,      product      scrap.
+Technology  trends  to  smaller  device  geometries,  faster
+operating  speeds,  and  increased  circuit  density  make
+ESD problems worse.
+6
+R4-1.2      For   many   years   static   control   programs
+concentrated on protecting components from the charge
+generated  on  the  personnel  that  handled  them.  Many
+static   control   methods   were   devised   to   control   the
+charge   on   people   including   wrist   and   heel   straps,
+dissipative     shoes     and     flooring,     and     garments.
+Increasingly,   however,   the   production   of   electronic
+components   is   done   by   automated   equipment,   and
+personnel  never  come  into  contact  with  the  static-
+sensitive  devices.  Solving  the  ESD  problem  means
+assuring that ESD events do not occur in the equipment
+used to manufacture and test electronic components.
+R4.2  Static Control in Equipment
+R4-2.1      An   effective   static   control   program   in
+equipment starts with grounding all materials that might
+come  close  to,  or  in  contact  with  the  static  sensitive
+components.   This   prevents   the   generation   of   static
+charge on machine components and eliminates them as
+a  source  of  the  charge  creating  ESD  events.  Care  must
+be taken in a grounding program to assure that moving
+equipment  parts  remain  grounded  when  they  are  in
+
+6 Levit, L. et al, “It’s the Hardware. No, Software. No, It’s ESD!”,
+Solid State Technology, May 1999, Pennwell Publishing Company,
+98 Spit Brook Road, Nashua NH 03062.
+motion.  In  some  cases,  static  dissipative  materials  may
+be     substituted     for     conductive     materials     where
+flexibility,  thermal  insulation,  or  other  properties  not
+available   in   conductive   materials   are   needed.   If
+charging    of    components    is    unavoidable,    static
+dissipative  materials  may  be  used  to  slow  the  resulting
+discharges and prevent component damage.
+R4-2.2    Most  semiconductors  use  insulating  packaging
+materials  such  as  ceramics  and  epoxy.  Handling  these
+insulating  materials  inevitably  generates  static  charge,
+and  this  charge  cannot  be  removed  by  grounding  the
+materials. If charge generation is unavoidable, the only
+effective    method    of    neutralizing    the    charge    on
+insulators or isolated conductors is to use air ionization.
+Ionizers  are  typically  mounted  in  the  load  stations  and
+process   chambers   of   the   automated   equipment   to
+neutralize the static charge.
+R4-3  Verifying Equipment Static Control
+R4-3.1    A  static  control  program  begins  when  the
+automated equipment is designed by the OEM, and then
+continues  throughout  the  lifetime  of  the  equipment.
+Two basic issues need to be demonstrated. First, are all
+components  in  the  product-handling  path  connected  to
+ground?  Second,  as  the  product  passes  through  the
+equipment, is it handled in a way that does not generate
+static   charge   above   an   acceptable   level   on   the
+component?    ESD    Association    Standard    Practice,
+EOS/ESD  SP  10.1-1999
+7
+.  This  document  contains  test
+methods  to  verify  the  integrity  of  the  ground  path  to
+equipment  parts,  as  well  as  to  determine  if  the  product
+is   being   charged   during   its   passage   through   the
+equipment.  The  test  methods  are  applicable  during  the
+original design of the equipment and during acceptance
+testing by the end user.
+R4-3.2    While  the  test  methods  of  EOS/ESD  SP10.1-
+1999  can  also  be  used  for  periodic  verification  of  the
+equipment  performance,  they  have  one  drawback.  The
+automated  equipment  must  be  taken  off-line  to  do  the
+testing.  This  means  that  there  is  lost  production  time,
+and  often  the  periodic  testing  is  eliminated  to  maintain
+product  throughput.  Other  test  methods  are  available
+
+7 EOS/ESD SP10.1 - 1999 “Standard Practice for Protection of
+Electrostatic Discharge Susceptible Items - Automated Handling
+Equipment”, ESD Association, 700 Turin Road, Rome NY 13440.
+
+SEMI E43-0301 © SEMI 1995, 200117
+that can be performed with the equipment operating on-
+line, without altering or disturbing its operation.
+R4-4  ESD and EMI
+R4-4.1      When   ESD   occurs,   the   discharge   time   is
+usually  10  nanoseconds  or  less.  Discharging  energy  in
+this  short  time  interval  results  in  the  generation  of
+broadband  electromagnetic  radiation
+8
+,  as  well  as  the
+heat  that  damages  semiconductor  components.  This
+electromagnetic  radiation,  especially  in  the  10  MHz  to
+2  GHz  frequency  range,  is  the  EMI  that  can  affect  the
+operation  of  production  equipment.  In  addition  to  ESD
+damage  to  semiconductor  devices  and  reticles,  ESD-
+caused EMI results in a variety of equipment operating
+problems  including  stoppages,  software  errors,  testing
+and  calibration  inaccuracies,  and  mishandling  causing
+physical component damage.
+R4-4.2  EMI Locators
+R4-4.2.1      When   component   damage   or   equipment
+problems due to ESD are suspected, it may be useful to
+detect the electromagnetic interference (EMI) generated
+by the ESD event. This type of testing is both a starting
+point   for   determining   that   static   charge   has   been
+generated,  and  it  is  a  measurement  point  to  ascertain
+that  any  static  control  methods  have  been  successful.
+EMI locators measure dynamic operating conditions, as
+it   is   usually   not   necessary   to   interrupt   equipment
+operations to make measurements.
+R4-4.3  Types of EMI Locators
+R4-4.3.1    EMI  locators  are  available  in  a  number  of
+different  forms.  In  its  simplest  form,  it  consists  of  an
+AM  radio  tuned  off  station.  A  popping  noise  will  be
+heard when an ESD event occurs. At the most complex
+it  consists  of  a  wideband  (greater  than  1  GHz)  digital
+storage  oscilloscope  with  a  set  of  appropriate  antennas,
+probes,    and    software.    Measurements    of    radiated
+interference  can  be  made  using  antennas  while  probes
+can be connected to equipment parts or electronics and
+power lines.
+R4-4.3.2    An  oscilloscope  attached  to  a  single  antenna
+can assist in pinpointing the actual location of the ESD
+event.
+8, 9, 10, 11
+A set of antennas can be used to not only
+
+8 Tonoya, Watanabe and Honda, “Impulsive EMI Effects from ESD
+on Raised Floor,” 1994 EOS/ESD Symposium,  pp. 164-169, ESD
+Association.
+9 Takai, Kaneko and Honda, “One of the Methods of Observing ESD
+Around Electronic Equipments,” 1996 EOS/ESD Symposium, pp.
+186-192, ESD Association.
+10 Greason, Bulach and Flatley, “Non-Invasive Detection and
+Characterization of ESD Induced Phenomena in Electronic Systems,”
+1996 EOS/ESD Symposium, pp. 193-202, ESD Association.
+11 Smith, “A New Type of Furniture ESD and Its Implications,” 1993
+EOS/ESD Symposium, pp. 3-7, ESD Association.
+detect  the  presence  of  an  ESD  event,  but  to  determine
+the location of the pulse in 3 dimensions.
+12, 13
+Using the
+same concept as a global positioning system (GPS), the
+difference  in  the  arrival  times  of  the  signal  to  multiple
+antennas  is  directly  related  to  the  difference  in  the
+distance of each antenna from the ESD source. With the
+time deltas and the locations of the antennas known, the
+location   of   the   spark   can   be   uniquely   identified
+employing the appropriate analysis program.
+R4-4.3.3      Several   other   types   of   EMI   locating
+equipment  are  currently  in  use.  Most  consist  of  high
+frequency    receiving    circuitry    followed    by    level
+detectors to determine the magnitude of the signal. For
+the  purpose  of  detecting  EMI  from  ESD  events,  the
+equipment should have some way of differentiating the
+short  impulse  of  EMI  from  the  ESD  event  from  the
+continuous   high   frequency   radiation   of   other   EMI
+sources.    Some  instruments  contain  a  counter  to  total
+the  number  of  ESD  events  above  the  threshold,  or
+alarms  to  indicate  when  the  number  of  ESD  events
+exceeds a preset number. This type of instrument can be
+placed  near  a  piece  of  equipment  that  is  suspected  of
+causing ESD events and left in place to monitor.
+R4-4.3.4    Several  EMI  Locators  are  battery-operated
+handheld  devices  that  can  be  easily  carried  around  a
+facility  or  placed  directly  in  equipment  to  check  for
+ESD  events.  This  allows  the  Locator  to  detect  signals
+that  might  otherwise  be  shielded  by  the  equipment’s
+cover  panels.  (Note  that  EMI  shielding  is  usually  an
+important   part   of   the   design   of   most   production
+equipment  to  prevent  radiation  from  the  equipment.
+This  makes  the  detection  of  ESD  events  outside  the
+equipment more difficult.)  It allows pinpointing of the
+location of an ESD event, which can then be correlated
+to particular machine operations.
+8, 14
+R4-4.4  Limitation in Using EMI Locators
+R4-4.4.1  One caution needs to be observed when using
+EMI    locators    to    detect    ESD    events    that    cause
+component   damage.   The   signal   received   by   these
+devices  is  generated  in  areas  usually  surrounded  by
+grounded   metal   components.   It   may   have   to   pass
+through  equipment  panels  and  travel  some  distance
+through the air before it reaches the detector. There may
+
+12 Bernier, Croft, and Lowther “ESD Sources Pinpointed by Analysis
+of Radio Wave Emissions,” Journal of Electrostatics (44) pp. 149-
+157, Nov. 1998, Elsevier Science B.V., P.O. Box 211, 1000 AE
+Amsterdam Netherlands.
+13 Lin, DeChiaro and Jon, “A Robust ESD Event Locator System
+with Event Characterization,” 1997 EOS/ESD Symposium, pp. 88-98,
+ESD Association.
+14 Fujie, A., “Pinpointing Sources of Static Electricity with EMI
+Locator”, Parts 1 and 2, Nikkei Electronics Asia, December 1992 and
+January 1993, Nikkei Business Publications Asia Ltd., 533 Hennessy
+Road, Causeway Bay, Hong Kong.
+
+SEMI E43-0301 © SEMI 1995, 200118
+be  other  radio  frequency  sources  and  reflecting  or
+absorbing  materials  in  the  area.  The  actual  location  of
+the ESD event may be a considerable distance from the
+EMI   locator.   It   will   be   difficult   to   establish   any
+correlation between the amplitude of the signal received
+by  the  EMI  locator  and  the  energy  in  the  ESD  event
+that  produced  the  signal.  The  EMI  locator  primarily
+indicates  the  occurrence  of  an  ESD  event  and  can  be
+used  to  illustrate  that  a  particular  static  control  method
+has  eliminated  it.  It  should  not  be  assumed  that  every
+ESD event detected results in damage to components or
+equipment  problems.  Additional  testing  will  be  needed
+to establish that connection.
+R4-5  Static Event Detectors
+R4-5.1    Static  event  detectors  (SED)  are  devices  that
+are installed directly on products to detect the presence
+of an ESD event. They may be attached in proximity to
+an ESD-sensitive component, connected to the external
+device  leads,  or  integrated  into  the  device  package.
+Typically they detect the current pulse of an ESD event
+through  an  antenna  or  direct  connection  to  the  device
+circuitry.
+R4-5.2      SEDs   can   be   useful   in   determining   the
+occurrence   of   ESD   events   in   operating   production
+equipment.  The  SED  has  the  ability  to  indicate  ESD
+events  of  a  known  level,  aiding  in  the  design  and
+performance   verification   of   automated   equipment.
+While costly analysis of failed devices can also provide
+this  information,  correlation  to  machine  operations  is
+usually   difficult.   An   SED   that   can   be   monitored
+optically   as   it   passes   through   operating   equipment
+provides  a  convenient  method  to  verify  that  automated
+equipment  is  not  generating  levels  of  static  charge  that
+result in ESD damage.
+R4-5.3  Types of SED Devices
+R4-5.3.1  In some SED devices, the signal is amplified
+and  processed  to  produce  a  reflectance  change  in  the
+built-in  Liquid  Crystal  Display  (LCD).  The  SED  is
+designed  to  trip  at  a  predetermined  threshold  voltage,
+detecting  ESD  transients  above  the  selected  amplitude.
+Some  devices  can  be  reset  magnetically  or  optically
+making them reusable.
+R4-5.3.2      Other   devices   use   the   controllable   ESD
+damage  threshold  of  metal  oxide  semiconductor  field
+effect  transistors  (MOSFET).  The  test  methodology  is
+to  amplify  an  ESD  transient  to  create  sufficient  energy
+to destroy the gate oxide. The device may be used until
+the  specified  ESD  level  is  achieved,  and  then  the  SED
+fails.  A  similar  device  is  based  on  the  metal  oxide
+semiconductor    capacitor    (MOSCAP).    The    current
+leakage through the device significantly increases if the
+ESD   amplitude   is   sufficient   to   damage   the   MOS
+structure. Both of these types of SED must be removed
+from  where  they  are  installed  and  require  additional
+instrumentation to determine their status.
+R4-5.3.3    Another  type  of  SED  employs  the  magnetic
+fields from a current flow to affect a series of magneto-
+optic  thin  films.  The  magnetic  field  from  the  ESD
+current  alters  the  film’s  magnetic  state  and  affects  the
+degree of polarization of visible light reflected from the
+film.  Varying  the  distance  between  the  film  and  the
+ESD   current-carrying   conductor   indicates   different
+thresholds.  This  SED  can  be  read  using  a  microscope
+equipped  with  a  polarizing  element  and  does  not  need
+to  be  removed  from  the  circuitry  to  be  read.  It  can  be
+reset with a magnet.
+15
+R4-6  Conclusion
+R4-6.1      There   is   little   question   that   static   charge
+problems continue to result in significant losses in high
+technology  manufacturing.  Increasingly,  static  control
+methods   must   be   applied   in   the   equipment   that
+produces  the  product.  It  will  be  important  to  develop
+and    utilize    a    range    of    diagnostic    methods    and
+measurement equipment for ESD in equipment.
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacture's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publications    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+15 Jackson, Tan, and Boehm, “Magneto Optical Static Event
+Detector,” 1998 EOS/ESD Symposium, pp.233-244, ESD
+Association.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E45-1101 © SEMI 1995, 20011
+SEMI E45-1101
+TEST METHOD FOR THE DETERMINATION OF INORGANIC
+CONTAMINATION FROM MINIENVIRONMENTS USING VAPOR PHASE
+DECOMPOSITION-TOTAL REFLECTION X-RAY SPECTROSCOPY
+(VPD/TXRF), VPD-ATOMIC ABSORPTION SPECTROSCOPY
+(VPD/AAS), OR VPD/INDUCTIVELY COUPLED PLASMA-MASS
+SPECTROMETRY (VPD/ICP-MS)
+This test method was technically approved by the Global Metrics Committee and is the direct responsibility
+of  the  European  Equipment  Automation  Committee.  Current  edition  approved  by  the  North  American
+Regional Standards Committee on August 27, 2001.  Initially available at www.semi.org September 2001; to
+be published November 2001. Originally published in 1995; previously published March 2001.
+1  Purpose
+1. 1  This test method provides the analytical procedures
+to determine the level of inorganic contamination from
+a minienvironment.
+2  Scope
+2. 1  This   document   relates   to   inorganic   impurities,
+which  includes  metallic  contaminants,  whether  they
+occur as atoms, molecules, or particles. The number of
+metals  to  be  analyzed  is  restricted  to  the  four  elements
+sodium  (Na),  calcium  (Ca),  iron  (Fe),  and  copper  (Cu)
+in order to rapidly characterize minienvironments from
+a  practicable  point  of  view.  While  Na,  Ca,  and  Fe
+represent one ensemble of highly detrimental impurities
+with   respect   to   contamination   from   human   sources
+(Na),  the  environment  (Ca),  or  from  equipment  and
+corrosive   effects   (Fe),   Cu   is   analyzed   due   to   its
+increasing importance in semiconductor manufacturing.
+Additionally,  they  are  easily  analyzed  with  sufficiently
+low  detection  limits.  It  is  up  to  the  user  of  this  test
+method   to   quantify   additional   elements.   A   list   of
+suggested  polished  wafer  surface  metal  contamination
+inappropriate  to  circuits  and  devices  is  shown  in  Table
+1  (based  on  SEMI  M1).  The  inorganic  contamination
+on silicon wafer surfaces is collected by VPD.
+2. 2  To quantify Ca and Fe, VPD/TXRF is used due to
+its  sufficiently  low  detection  limits.  Na  and  Cu  are
+quantified   by   VPD/GFAAS   or   VPD/ICP-MS.   All
+analytical     methods     are     widely     used     for     the
+characterization of surface cleanliness.
+2. 3  This  measurement  technique  can  also  be  used  to
+check   the   influence   of   certain   process   steps   on
+minienvironments.
+2. 4  This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+Table 1  Suggested Polished Wafer Surface Metal
+Contamination Inappropriate to Circuits and
+Devices
+ElementTest Method
+NaVPD/(AAS or ICP-MS)
+AlVPD/(AAS or ICP-MS)
+KVPD/(AAS or ICP-MS or TXRF)
+CrVPD/(AAS or ICP-MS or TXRF)
+FeVPD/(AAS or ICP-MS or TXRF)
+NiVPD/(AAS or ICP-MS or TXRF)
+CuVPD/(AAS or ICP-MS or TXRF)
+ZnVPD/(AAS or ICP-MS or TXRF)
+CaVPD/(AAS or ICP-MS or TXRF)
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI   C28   —   Specifications   and   Guidelines   for
+Hydrofluoric Acid
+SEMI  C35  —  Specifications  and  Guidelines  for  Nitric
+Acid
+SEMI E19 — Standard Mechanical Interface (SMIF)
+SEMI      M1      —      Specification      for      Polished
+Monocrystalline Silicon Wafers
+3. 2  ISO Standards
+1
+ISO   9001   —   Quality   Systems—Model   for   Quality
+Assurance    in    Design,    Development,    Production,
+Installation, and Servicing
+ISO     14644-1     —     Cleanrooms     and     associated
+environments – Classification of air cleanliness
+
+1  International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Website: http://www.iso.ch
+
+SEMI E45-1101 © SEMI 1995, 20012
+3. 3  DIN Standards
+2
+DIN   12650   Part   6   —   Mechanical,   physical   and
+electrical     laboratory     apparatus;     Piston     operated
+volumetric    apparatus;    Gravimetric    assessment    of
+metrological reliability
+NOTE 1: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+4  Terminology
+4. 1  Abbreviations and Acronyms
+4. 1.1  GFAAS  —  Graphite  Furnace  Atomic  Absorption
+Spectroscopy
+4. 1.2  ICP-MS  —  Inductively  Coupled  Plasma  –  Mass
+Spectroscopy
+4. 1.3  PFA — Perfluoroalkoxy
+4. 1.4  PTFE — Polytetrafluoroethylene
+4. 1.5  PVDF — Polyvinylidene fluoride
+4. 1.6  TXRF  —  Total  Reflection  X-Ray  Fluorescence
+Spectroscopy
+4. 1.7  ULSI — Ultra Large Scale Integration
+4. 1.8  VPD — Vapor Phase Decomposition
+4. 2  Definitions
+4. 2.1  box   —   a   protective   portable   container   for   a
+cassette and/or substrates.
+4. 2.2  cassette  —  an  open  structure  that  holds  one  or
+more substrates (e.g., wafer, masks).
+4. 2.3  DI   water   —   deionized   water   (specified   with
+specific resistivity ≥ 18 MΩcm, cations: Na, Cu, Fe, Ca
+≤ 0.2 μg/L).
+4. 2.4  minienvironment   —   a   localized   environment
+created  by  an  enclosure  to  isolate  the  product  from
+contamination and people.
+4. 2.5  pod  —  a  box  having  a  Standard  Mechanical
+Interface (SMIF) (See SEMI E19).
+4. 2.6  reference  wafer  —  a  cleaned  wafer  (see  Section
+8. 2).
+4. 2.7  sampling  wafer  —  a  cleaned  wafer  (see  Section
+8. 2),    which    will    be    or    was    exposed    to    the
+minienvironment for a certain time.
+4. 2.8  standard  mechanical  interface  (SMIF)  —   the
+interface     plane     between     a     pod     and     another
+minienvironment (see SEMI E19).
+
+2  Available from Deutches Institut für Normung e.V., Beuth Verlag
+GmbH, Burggrafenstrasse 4-10, D-10787 Berlin, Germany. Website:
+http://www.din.de
+4. 2.9  vapor phase decomposition — a method in which
+impurities  on  the  surface  are  collected  by  the  so-called
+VPD  procedure,  i.e.,  the  non-volatile  products  formed
+by acid decomposition of the oxide at the wafer surface
+are  collected  by  a  droplet  of  collecting  agent,  usually
+ultra-pure    hydrofluoric    acid    or    other    reagent    or
+combination  of  reagents,  and  the  droplet  subsequently
+being  analyzed  by  AAS  or  ICP-MS,  or  dried  in  a
+manner     which     gives     the     least     environmental
+contamination,     the     residue     from     the     droplet
+subsequently being analyzed by TXRF.
+5  Interferences
+5. 1  For  worst  cases,  preconditioning  of  wafers  can
+result   in   different   surface   properties   indicated   by
+different sensitivities for contamination absorption.
+5. 2  Non-linearity  effects  of  the  TXRF  detector  are
+significant   at   higher   concentration   levels   (>   10
+13
+atoms/cm
+2
+under the detector area).
+5. 3  The collection efficiency of VPD depends on:
+• the chemistry of the collecting solution
+• the  bonding  of  the  metal  impurities  to  the  silicon
+surface
+• the  speed  of  the  droplet,  which  is  rolled  over  the
+wafer surface
+5. 3.1  Careful  control  of  contamination  and  all  other
+factors    affecting    the    results    such    as    solution
+concentrations, scanning methods and other procedures
+are necessary to obtain reproducible analytical results.
+5. 4  The   measured   TXRF   intensity   depends   on   the
+accuracy  of  the  procedure  to  localize  and  to  adjust  to
+the sampled residue. It also depends on the distribution
+of different elements in and around the residue.
+5. 5  The  detection  of  Fe  or  Ca  using  ICP-MS  can  be
+interfered with by background ions originated from the
+plasma  unless  some  controlled  measures  are  taken  to
+minimize these interferences to acceptable levels.
+6  Safety Precautions
+6. 1  Handling  hydrofluoric  acid  is  dangerous  and  shall
+be   performed   according   to   local   regulations   for
+laboratories.  Operators  shall  be  trained  to  deal  with
+dangerous      chemicals      and      vapors,      especially
+hydrofluoric acid and HF vapor. Protective clothes and
+glasses must be worn when handling hydrofluoric acid.
+7  Apparatus
+7. 1  The  VPD  treatment  and  contamination  collection
+particularly,  but  also  the  handling  and  measurement  of
+the  specimen  wafer  is  to  be  carried  out  in  a  specified
+
+SEMI E45-1101 © SEMI 1995, 20013
+and controlled ambient (e.g., ISO Class 4 (as defined in
+ISO 14644-1)).
+7. 2  The VPD and the advisable drying chamber(s) shall
+have opening(s) made of PVDF, PFA, PTFE or similar
+resistant   and   pure   polymer   materials   that   are   not
+attacked  by  HF.  The  chamber(s)  may  contain  one  or
+more wafer stacks. After evacuation, the chamber shall
+be flushed with filtered N
+2
+until the complete drying of
+the microdroplet residue is achieved.
+7. 3  For  the  aliquots  of  standard  stock  and  scanning
+solutions,  validated  micropipettes  shall  be  used.  DIN
+12650    Part    6    provides    an    applicable    validation
+procedure.
+8  Procedure
+These  procedures  show  the  determination  of  Na,  Ca,
+Cu,    and    Fe    on    a    silicon    wafer    surface    with
+VPD/GFAAS,   VPD/ICP-MS   and   VPD/TXRF.   For
+achieving   best   detection   limits,   VPD/GFAAS   and
+VPD/ICP-MS  shall  be  used  for  NA  and  Cu  whereas
+VPD/TXRF shall be used for Ca and Fe.
+8. 1  Test   Requirements   —   The   evaluation   of   the
+minienvironment  and  the  analysis  shall  be  carried  out
+under  appropriate  clean  conditions.  Any  potential  for
+cross   contamination   shall   be   checked   in   advance.
+Possible contamination sources are:
+• VPD preparation
+• storage
+• contaminated GFAAS or ICP-MS vessels
+• environment
+• measurement  methods  and  collection  efficiency  of
+VPD
+• handling
+8. 1.1  The  capability  of  the  analytical  lab  has  to  be
+checked  carefully  for  compliance  with  Sections  8.2,
+8. 6, and 9.
+8. 2  Surface  Conditions  and  Cleaning  Procedure —
+Polished      silicon      wafers      with      the      following
+specifications must be used:
+• Specific resistivity = 1–100 Ωcm
+• CZ crystal growth method
+• Cleaned  to  leave  a  native  oxide  with  hydrophilic
+surface  conditions  and  with  Na,  Ca,  Cu,  and  Fe
+concentrations lower than 1 × 10
+10
+atoms/cm
+2
+8. 2.1  Wafer   cleaning   must   be   done   less   than   ten
+minutes  before  any  further  processing.  This  restricted
+time     limitation     is     necessary     to     ensure     cross
+contamination avoidance.
+8. 3  VPD Preparation  —  The  vessel  for  (opening  >  25
+cm
+2
+) inside the VPD box is filled with 25 vol-% HF by
+mixing    DI    water    with    50    vol-%    VLSI-grade
+hydrofluoric     acid     (see     SEMI     C28)     allowing
+hydrofluoric acid of between 25 to 50 wt % to be used.
+The  wafers  are  then  exposed  to  the  hydrofluoric  acid
+vapor.  Allow  wafers  exposure  to  hydrofluoric  acid
+vapor  for  15  to  30  minutes,  at  which  time  the  wafer
+should become hydrophobic due to oxide removal. The
+liquid  reaction  products  are  collected  by  rolling  a  DI
+water droplet over the whole wafer surface using up to
+100   μL   for   advisable   machine   operation   or   an
+appropriate  volume  for  manual  operation.  Any  cross
+contamination   is   minimized   by   using   DI   water   as
+solvent.
+8. 4  Collection  Procedure  —  An  automatic  scanning
+procedure  is  preferable,  but  if  the  collection  procedure
+is manual the following procedure should be used.
+8. 4.1  Use  appropriate  method  to  exclude  the  wafer
+edge.
+8. 4.2  A  droplet  of  collecting  agent,  usually  ultra-pure
+hydrofluoric  acid  or  another  reagent  or  a  combination
+of  reagents,  is  rolled  over  the  whole  surface  of  the
+wafer in a parallel pattern.
+8. 4.3  The  same  droplet  is  then  moved  over  the  whole
+surface, this time in a pattern orthogonal to the first.
+8. 4.4  Finally,  the  droplet  is  rolled  in  a  spiral  pattern
+from the wafer periphery to its center.
+8. 5  Pre-analysis Procedure
+8. 5.1  GFAAS  Analysis  —  The  wafer  droplet  is  diluted
+to 500 μL.
+8. 5.2  TXRF  Analysis  —  The  droplet  is  evaporated  on
+the  wafer  surface  in  a  clean  environment  at  room
+temperature under a nitrogen purge.
+8. 5.3  ICP-MS Analysis  —  The  wafer  droplet  is  diluted
+to 500 μL.
+8. 6  Sodium and Copper Analysis by GFAAS
+8. 6.1  Calibration Standards — 1 μg/L for Na.
+8. 6.2  The calibration frequency and procedures shall be
+in  accordance  with  the  requirements  of  the  ISO  9001
+quality   system.   The   temperature   program   for   the
+graphite  furnace  (dry,  ash,  atomize)  is  optimized  for
+maximum  sensitivity.  Volatility  (e.g.,  NaF)  should  be
+avoided  by  spiking  the  liquid  samples  with  nitric  acid
+(VLSI  grade—see  SEMI  C35).  Prior  to  analysis  of  the
+liquid  sample,  a  three-point  calibration  of  the  element
+
+SEMI E45-1101 © SEMI 1995, 20014
+with  an  elemental  standard  is  carried  out  (blank  —  0.5
+μg/L – 1 μg/L).
+8. 6.3  A  detection  limit  for  sodium  and  copper  better
+than  5  ×  10
+9
+atoms/cm
+2
+(approximately  0.1  μg/L  for
+GFAAS analysis) is recommended.
+8. 6.4  The  detection  limit  is  defined  by  3  •  σ  •  R  (σ =
+standard   deviation,   R   =   reciprocal   slope   of   the
+calibration curve).
+8. 6.5  The    surface    concentration    is    calculated    as
+follows:
+C
+s
+= C
+1
+×
+
+V × NA × 10
+
+-9
+/(W × A)
+with:
+C
+s
+(atoms/cm
+2
+):  surface concentration
+C
+1
+(μg/L):  analyzed concentration
+V(mL):  volume of diluted sample
+NA = 6.023 × 10
+23
+mol
+–1
+: Avogadro number
+A (cm
+2
+):  wafer surface area
+W  (g/mol):  atomic  weight  of  element  (22.99  for
+sodium, 86.54 for copper)
+8. 7  Sodium and Copper Analysis by ICP-MS
+8. 7.1  Calibration Standards — 1 μg/L for both sodium
+and copper.
+8. 7.2  A  detection  limit  for  sodium  and  copper  better
+than 5 × 10
+9
+atoms/cm
+2
+(e.g., for 200–300 mm wafers)
+is recommended.
+8. 7.3  The  detection  limit  is  defined  by  3  •  σ  •  R  (σ =
+standard   deviation,   R   =   reciprocal   slope   of   the
+calibration curve).
+8. 7.4  The    surface    concentration    is    calculated    as
+follows:
+C
+s
+= C
+1
+×
+
+V × NA × 10
+
+-9
+/(W×A)
+with:
+C
+s
+(atoms/cm
+2
+):  surface concentration
+C
+1
+(μg/L):  analyzed concentration
+V(ml):  volume of diluted sample
+NA = 6.023 × 10
+23
+/mol : Avogadro number
+A (cm
+2
+):  wafer surface area
+W  (g/mol):  atomic  weight  of  element  (22.99  for
+Na, 86.54 for copper)
+8. 8  Calcium and Iron Analysis by TXRF
+8. 8.1  Calibration  Standards  —  The  ISO  9001  quality
+system   shall   be   applied   to   the   calibration.   The
+instrument  is  calibrated  by  analyzing  the  calibration
+wafer.  The  calibration  wafer  is  prepared  by  dropping  a
+solution  of  metal  standard  (e.g.,  Ni  or  Co)  on  a  clean
+wafer surface. The volume of the droplet is the same as
+used  for  VPD  preparation  (up  to  100  μL),  and  the
+resulting  surface  concentration  must  be  in  the  lower
+10
+11
+atoms/cm
+2
+range. The droplet is then evaporated on
+the  wafer  surface  at  room  temperature  under  nitrogen
+purge  until  the  liquid  matrix  is  removed.  Its  residue  is
+analyzed by TXRF. The detection limit is defined by 3 •
+σ  •  R    (σ  =  standard  deviation,  R  =  reciprocal  slope  of
+the  calibration  curve).  Note  that  the  droplet  area  must
+be smaller than the spot area of the detector.
+8. 8.2  Reproducibility     shall     be     first     established
+following the procedure below.
+8. 8.3  Define  a  grid  of  3  ×  3  measurement  points  with
+an inter distance of 3 mm. The reside position, found by
+optical  inspection,  shall  be  located  at  the  center  of  the
+matrix.
+8. 8.4  Determine the intensity by short analyses of each
+of the nine measurement locations. The analysis area is
+at  maximum  intensity  for  the  standard  element  of  the
+calibration wafer.
+8. 8.4.1  Calibration  shall  be  checked  weekly  and  after
+each  equipment  service  (e.g.,  after  an  exchange  of
+filament,  anode,  or  repair  of  anode)  with  the  same
+calibration wafer.
+8. 8.4.2  The   surface   concentration   is   calculated   as
+follows:
+C
+s
+= RSF
+m
+× (C
+0
+/I
+0
+) × I
+with:
+C
+s
+(atoms/cm
+2
+):  surface concentration of analyzed
+metal M
+I (counts/s):  analyzed intensity of metal M
+C
+0
+(atoms
+/
+cm
+2
+
+):  surface concentration of standard
+metal S (Ni or Co) on calibration wafer
+I
+0
+(counts/s):    analyzed  intensity  of  standard  metal
+S on calibration wafer
+RSF
+m
+:    relative  sensitivity  factor  of  investigated
+metal M to standard metal S
+8. 8.4.3  The  constants  RSF
+m
+are  implemented  in  the
+software of the TXRF equipment.
+8. 9  Sampling  Procedure  —  If  the  average  elemental
+concentration for the sampling wafers is higher than the
+average  elemental  concentration  plus  three  standard
+deviations  for  the  analyzed  reference  wafers,  then  the
+sampled   minienvironment   is   considered   to   cause
+significant contamination.
+
+SEMI E45-1101 © SEMI 1995, 20015
+8. 9.1  Minienvironment   Exposure   —    The   following
+exposure  time  for  sampling  specific  minienvironments
+shall be used:
+Minienvironments used to store wafers:  168 h
+Minienvironments  as  an  interface  to  process  tools:
+24 h
+8. 9.2  Minienvironments  for  Storing  Wafers  —  Fill  the
+minienvironment  with  six  wafers.  Measure  wafers  by
+VPD/GFAAS   or   VPD/ICP-MS   in   front,   back,   and
+center slots. Use the adjacent wafers for VPD/TXRF.
+8. 9.3  Minienvironments   for   Introducing   Wafers   to
+Process   Tools   —   Introduce   six   wafers   into   the
+minienvironment.     Measure     three     wafers     with
+VPD/GFAAS   or   VPD/ICP-MS,   one   in   the   center
+position and two at the edge positions opposite to each
+other.  Use  the  adjacent  wafers  for  VPD/TXRF.  In  the
+case   of   single   wafer   minienvironments,   wafers   are
+processed   sequentially.   To   ensure   that   no   cross
+contamination  is  introduced  from  conditions  prevailing
+in   storing,   transportation,   or   any   of   the   handling
+processes, precautions must be adhered to at all times.
+9  Results
+9. 1  The     investigated     minienvironment     must     be
+described in detail (e.g., construction, materials, history,
+process,  cleaning  procedures,  storage  conditions).  All
+surface concentrations must be fully reported.
+9. 2  The   number   of   tested   sampling   and   reference
+wafers,  average  elemental  concentration,  and  standard
+deviation   of   the   reference   wafers,   slot   positions,
+position   in   the   minienvironment,   and   number   of
+repeated     experiments     (if     applicable)     must     be
+documented.
+9. 3  All  equipment,  tools,  and  chemicals  used  must  be
+specified within the report.
+10  Related Documents
+10. 1  SEMI Standards
+SEMI   C30   —   Specifications   and   Guidelines   for
+Hydrogen Peroxide
+NOTE 2: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+10. 2  Other Documents
+A.  Shimazaki,  H.  Hiratsuka,  Y.  Matsushita,  S.  Yoshii,
+Ext.  Abs.  16th  Conference  on  Solid  State  Devices  and
+Materials, Kobe, 281 (1984).
+M.  Hourai,  T.  Nakidomi,  Y.  Oka,  K.  Murakami,  S.
+Sumita,   N.   Fujino,   T.   Shiraiwa,   Japan   Journal   of
+Applied Physics 27, 12 (1988) L2361.
+A. Huber, H.J. Rath, P. Eichinger, T. Bauer, L. Kotz, R.
+Staudigl, Diagnostic   Techniques   for   Semiconductor
+Materials  and  Devices,  ed.  by  T.J.  Shaffner,  D.K.
+Schroder, ECS Proc. Vol. 88-20, 109 (1988).
+P.  Eichinger,  H.J.  Rath,  H.  Schwenke,  Semiconductor
+Fabrication:  Technology  and  Metrology,  ASTM  STP
+990,  ed.  by  D.C.  Gupta,  American  Society  for  Testing
+and Materials, 305 (1989).
+C.  Neumann,  P.  Eichinger,  Spectrochim. Acta  46B,
+1369 (1991).
+A. Shimazaki, Defects in Silicon II, ed. by W.M. Bullis,
+U.  Gösele,  and  F.  Shimura,  ECS  Proc.  Vol.  91-9,  47
+(1991).
+W.  Hub,  V.  Penka,  Microcontamination  Conference
+Proceedings, San Jose, Oct. 1991, 266.
+N.  Streckfuss,  L.  Frey,  G.  Zielonka,  F.  Kroninger,  C.
+Ryzlewicz,  H.  Ryssel,  Fresenius  Journal  Analytical
+Chemistry 343, 765 (1992).
+R.S.    Hockett,    S.    Ikeda,    T.    Taniguchi,    Cleaning
+Technology  in  Semiconductor  Device  Manufacturing,
+ed.  by  J.  Ruzyllo,  R.E.  Novak,  ECS  Proc.  Vol.  92-12,
+324 (1992).
+L. Fabry, S. Pahlke, L. Kotz, E. Schemmel, Crystalline
+Defects  and  Contamination:  Their  Impact  and  Control
+in  Device  Manufacturing,  ed.  by  B.O.  Kolbesen,  C.
+Claeys,  P.  Stallhofer,  F.  Tardif,  ECS  Proc.  Vol.  93-15,
+232 (1993).
+S.  Tan,  Nuclear  Instruments  and  Materials  in  Physics
+Research B99, 458 (1995).
+NOTICE: SEMI  makes  no  warranties  or  representa-
+tions  as  to  the  suitability  of  the  standards  set  forth
+herein for any particular application. The determination
+of   the   suitability   of   the   standard   is   solely   the
+responsibility of the user. Users are cautioned to refer to
+manufacturer's instructions, product labels, product data
+sheets,  and  other  relevant  literature,  respecting  any
+materials    or    equipment    mentioned    herein.    These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent   rights.      By   publication   of   this   standard,
+Semiconductor  Equipment  and  Materials  International
+(SEMI) takes no position respecting the validity of any
+patent  rights  or  copyrights  asserted  in  connection  with
+any  items  mentioned  in  this  standard.  Users  of  this
+standard  are  expressly  advised  that  determination  of
+any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement   of   such   rights   are   entirely   their   own
+responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E46-0301 © SEMI 1995, 20011
+SEMI E46-0301
+TEST METHOD FOR THE DETERMINATION OF ORGANIC
+CONTAMINATION FROM MINIENVIRONMENTS USING ION MOBILITY
+SPECTROMETRY (IMS)
+This test method was technically approved by the Global Metrics Committee and is the direct responsibility
+of  the  European  Equipment  Automation  Committee.  Current  edition  approved  by  the  European  Regional
+Standards  Committee  on  December  20,  2000.    Initially  available  at  www.semi.org  February  2001;  to  be
+published March 2001. Originally published in 1995.
+1  Purpose
+1. 1   The  purpose  of  this  test  metho d  is  to  provide  an
+analytical     procedure—Ion     Mobility     Spectrometry
+(IMS)—for the determination of organic contamination
+from  minienvironments  which  has  the  capability  of
+testing their construction material.
+2  Scope
+2. 1    Silicon   wafers   passed   through    or   stored   in
+minienvironments    may    be    affected    by    organic
+contamination  originating  from  construction  materials.
+Knowledge  of  this  contamination  assists  the  decision
+about     the     application     of     minienvironments     in
+semiconductor manufacturing.
+2. 2   Ion  Mobility  Spectrometry  wa s  chosen  as  the
+method   to   determine   this   contamination   because   it
+provides  an  easy,  widely  applicable,  fast  and  sensitive
+way to measure organic contamination on surfaces.
+2. 3    Furthermore,   IMS   provides   the    possibility   of
+checking   the   contaminating   effects   of   processing,
+chemical  carryover,  and  the  characterization  of  future
+polymeric     materials     for     use     in     semiconductor
+technology.
+2. 4   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Referenced Documents
+3. 1  SEMI Documents
+SEMI E19 — Standard Mechanical Interface (SMIF)
+SEMI     Minienvironment     Terminology     Workshop
+Proceedings, April 2, 1993
+4  Terminology
+4. 1  Box/Cassette/Minienvironmen t/Pod
+4. 2  DOP — Dioctylphthalate
+4. 3   Headspace  —  The  volume  abo ve  the  sample
+containing the gas to be analyzed
+4. 4  HPB — Hexaphenylbenzene
+4. 5  IMS — Ion Mobility Spectrom etry
+4. 6    IMS/MS   —   Ion   Mobility   Spec trometry/Mass
+Spectrometry
+4. 7  NS — Standardized Ground Jo int
+4. 8   SMIF  (Standard  Mechanical  I nterface)  —  The
+interface     plane     between     a     pod     and     another
+minienvironment as per SEMI E19.
+4. 9  PFA — Polyfluoroalkoxy
+4. 10  PP — Polypropylene
+5  Summary of Method
+5. 1  This test method defines a fast , sensitive technique
+for  the  determination  of  organic  contamination  from
+minienvironments.   The   contamination   is   measured
+directly   from   the   silicon   surface.   Three   important
+aspects are covered:
+a.Contamination due to the minienvironment alone,
+b.Contamination  from  the  use  of  minienvironments
+for wafer processing, and
+c.Contamination  from  future  materials  to  be  used  in
+semiconductor technology.
+5. 2     Silicon    wafers    are    either    place d    in    the
+minienvironment   or   used   for   headspace   sampling
+experiments.    The  sample  is  heated  and  the  target
+compound   is   either   desorbed   or   outgassed.   These
+compounds  are  swept  by  the  carrier  gas  into  the  Ion
+Molecule  Reactor.  Here  the  molecules  are  chemically
+ionized under atmospheric pressure. The target ions are
+separated   in   a   drift   cell   by   electrophoreses   in   the
+gaseous    state    and    detected    by    an    electrometer.
+Additionally, a quadrupole mass spectrometer could be
+used  as  a  second  detector.  The  result  is  a  quantitative
+value    for    the    total    amount    of    organic    surface
+contamination.
+
+SEMI E46-0301 © SEMI 1995, 20012
+6  Interferences
+6. 1  To adequately measure organi c contaminants from
+minienvironments,  an  extremely  sensitive  method  for
+analyzing  volatiles  is  required.  At  this  time,  the  only
+analytical  method  meeting  these  requirements  is  IMS.
+The absolute determination of organic contamination by
+the   IMS   method   is   still   limited,   especially   in   the
+presence   of   many   analytes,   but   this   proposed   test
+method  permits  the  comparison  of  quantitative  results
+from different laboratories.
+7  Apparatus
+7. 1    Minimum   Requirements   for   the    Ion   Mobility
+Spectrometer —  For  the  successful  performance  of  the
+experiments  using  the  IMS  instrument,  the  following
+requirements are essential:
+—   minimum length of the drift cell:  4 cm
+—   sample   inlet   has   to   be   lockable   (no   sniffing
+devices)
+—   sample desorption oven must have a programmable
+temperature control
+—   the     electronics     must     guarantee     a     linear
+amplification of the observed signal
+—   intensity over at least five orders of magnitude
+—   documentation of all single measurement results.
+7. 2  Measuring Parameters —  For  measurements  with
+the ion mobility spectrometer, the following parameters
+have to be used:
+temperature of the desorption furnace: 200°C*
+temperature  of  the  drift  cell  and  IMS  detector:
+205°C*
+maximum  dwell  time  or  channel  length  corres-
+ponding to minimum time resolution: 80 μs**
+measuring time per spectrum: 40 ms*
+(for 200 V/cm and 10 cm length of drift cell)
+gatewidth: 200 μs**
+number of scans: 2000**
+drift gas and carrier gas: zero grade (synthetic) air*
+• approx. 10 ppm H
+2
+O*
+• max 0.1 ppmv total hydrocarbons*
+carrier  gas  flow:  100  mL/min*  (for  a  diameter  of
+3. 9 mm)
+drift  gas  flow:  500  mL/min**  (for  a  diameter  of
+4. 25 cm)
+*  specified;  **  suggested
+8  Reagents
+8. 1  The chemicals must be of the d escribed quality or
+better and supplied with a certificate of analysis.
+Benzene:  ultrapure  quality  for  trace  residue  analysis.
+Minimum quality:  pro analysi.
+• content of benzene: min. 99.8%
+• content of water: max. 0.02%
+• nonvolatile residue: max. 0.0005%
+Ethanol:  ultrapure  quality  for  trace  residue  analysis.
+Absolute.
+• content of ethanol: min. 99.8%
+• content of water: max. 0.1%
+• nonvolatile residue: max. 0.0005%
+DOP: normal pure quality.
+• content of DOP: better than 96%
+HPB: normal pure quality.
+• content of HPB: better than 96%
+9  Safety Precautions
+9. 1   All  preparation  and  measurem ent  work  has  to  be
+done according to local regulations for laboratories.
+10  Procedure
+10. 1    Preparation   Tools   and   Auxilia ries   —    The
+following  equipment  is  needed  for  the  preparation  of
+polymer headspace substrates:
+• protective eye wear
+• 1 fume cupboard
+• 1 butane burner
+• 2 pairs of crucible tongs made of stainless steel
+• scalpel with changeable blades
+• 4 pairs of cross tweezers with tips made of steel
+• 1 metal vernier calliper
+• Si-wafer-chips: formate 20 × 10 mm
+2
+• watch glass
+• weighing bottle with lid, both made of glass
+inner diameter: 80 mm
+height: 30 mm
+
+SEMI E46-0301 © SEMI 1995, 20013
+ground joint NS80
+• aluminum foil
+• 2 metal saws
+• table vice
+• finely toothed metal file
+• steel ruler (30 cm)
+10. 2         Preconditioning        Procedure        (T hermal
+Decontamination)   —    In   order   to   assure   that   all
+environmental  influences  are  eliminated,  all  thermal
+decontamination  procedures  described  in  the  following
+have  to  take  place  immediately  before  the  appropriate
+measurements or experiments are performed.
+10. 2.1   Preconditioning  of  Aluminum   Foil  —   Two
+cross  tweezers  are  flamed  with  a  butane  torch  in  the
+fume cupboard (1 min., red heat). A piece of aluminum
+foil  (20  ×  30  cm
+2
+)  is  folded  multiply  and,  by  using
+tweezers,  is  carefully  heated  in  the  flame  until  fully
+converted.  After  cooling  down,  the  foil  is  stored  on  a
+fire resistant surface (ceramics preferred).
+10. 2.2   Preconditioning  of  Weighing  B ottles  —  The
+jaws of the crucible tongs are heated in the butane torch
+until  they  are  red  hot  for  two  minutes.  After  a  short
+cooling period (15 s), the bottom of the weighing bottle
+is picked up. For several times, the inner and the outer
+surfaces  of  the  glass  are  heated  alternately  in  the  torch
+(2  minutes  for  each  run).  After  approximately  30  s  of
+cooling  down  -  held  in  air  by  the  tongs  -  the  flamed
+weighing  bottle  is  put  down  on  the  preconditioned
+aluminum  foil.  The  tongs  are  allowed  to  cool  for  15  s,
+then  the  lid  is  prepared  in  the  same  way.    After  10
+minutes   of   cooling,   the   lid   can   be   placed   on   the
+weighing bottle.
+10. 2.3   Preconditioning  of  Watch  Gla ss  —   The  watch
+glass  is  picked  up  with  preconditioned  cross  tweezers
+and  carefully  heated  in  the  butane  torch  for  30  s
+(without deformation by melting).
+10. 2.3.1   Simultaneously,  the  tips  of  a  s econd  pair  of
+cross  tweezers  are  heated  to  red  heat.  After  30  s,  the
+watch  glass  is  transferred  by  these  tweezers,  carefully
+heated for another 30 s to red heat (total heating time, 1
+min),  and  placed  on  the  preconditioned  aluminum  foil.
+After  a  cooling  period  of  5  minutes,  the  watch  glass  is
+picked  up  with  a  clean  pair  of  preconditioned  cross
+tweezers and placed inside the weighing bottle.
+10. 2.4    Preconditioning   of   Si-chips   —    Wafers,   as
+received, are cut into chips of 20 × 10 mm
+2
+in size. The
+use  of  cotton  gloves  is  recommended  to  avoid  organic
+contamination through fingerprints. Then one Si-chip is
+picked  up  with  a  pair  of  cross  tweezers  and  heated  to
+red hot in a butane torch (30 s). Simultaneously, the tips
+of a second pair of cross tweezers are heated to red hot.
+After  30  s,  the  Si-chip  is  transferred  to  these  tweezers
+and  heated  for  another  30  s  to  red  heat  (total  heating
+time,  1  min).  After  cooling,  the  Si-chip  is  transferred
+into  the  preconditioned  weighing  bottle.  The  weighing
+bottle   must   be   opened   and   closed   only   with   the
+thermally decontaminated crucible tongs.
+10. 2.4.1    The   lid   must   be   placed   only   on    the
+preconditioned  aluminum  foil.  Five  more  Si-chips  are
+preconditioned  as  described  above  and  placed  into  the
+weighing  bottle.    The  six  Si-chips  must  not  overlap  or
+touch  one  another.    The  Si-chips  should  be  placed  on
+the preconditioned watch glass.
+10. 2.5   Preparation  of  Polymer  Mater ial  —  The  table
+top  vice  is  mounted  on  a  clean  work-bench.  The  cross
+tweezers,  the  blade  of  a  metal  saw,  the  scalpel,  the
+metal vernier calliper (within the measuring range), the
+steel  ruler  (in  the  range  of  0  to  3  cm),  and  the  finely
+toothed    metal    file    are    thermally    decontaminated.
+Having   decontaminated   the   metal   saw,   an   area   of
+approximately 50 × 50 mm
+2
+is sawed off the polymeric
+material  and  fixed  with  the  clean  cross  tweezers.  This
+piece  of  polymer  material  is  then  clamped  vertically
+between  the  jaws  of  the  vice.  An  area  12  ×  20  mm
+2
+is
+carefully  marked  with  the  scalpel  and  cut  out  with  the
+metal  saw.  Before  total  separation,  the  polymer  sample
+is  clamped  with  cross  tweezers  while  the  jaws  of  the
+vice  are  covered  with  the  decontaminated  aluminum
+foil.  After  clamping  the  polymer  sample  between  the
+jaws  of  the  vice,  all  sides  of  the  polymer  sample  are
+carefully  filed  to  length  wit  ha  metal  file  (size  control
+with metal vernier caliper). Then the polymer sample is
+placed on a clean watch glass by cleaned tweezers. The
+watch  glass  is  positioned  on  the  thermally  cleaned
+aluminum   foil.   Both   parts   are   stored   inside   the
+preconditioned   weighing   bottle   which   is   carefully
+closed  with  its  lid.  The  weighing  bottle,  within  which
+the  Si-chips  are  stored,  is  wrapped  in  preconditioned
+aluminum foil for storage and transportation.
+10. 3  IMS Measurements Procedure
+10. 3.1   Blank  Measurement  —  The  ba ckground  signal
+level  (noise)  of  the  equipment  must  be  defined  by
+measuring   the   clean   and   stabilized   IMS-equipment,
+without sample, three times for each polarity.
+10. 3.2   Reference  Measurement  —  Al l  manipulations
+etc.  with  the  reference  chemicals  (Hexaphenylbenzene
+and  Dioctylphthalate)  have  to  take  place  entirely  in
+PFA containers etc. Following equipment is needed:
+2 narrow necked flasks (PFA), 250 mL
+2 weighing boats (PFA)
+!!low  weight,  diameter  smaller  than  diameter  of
+narrow necked flask!!
+
+SEMI E46-0301 © SEMI 1995, 20014
+2 pipettes (glass), 100 mL
+1 micro dropper with changeable tips of 2 μL (may
+be PP)
+1 micro spatula (metal)
+1  micro  balance,  measuring  range  10
+-6
+g  to  1  g  at
+least
+10. 3.2.1   Preparation  of  the  reference  m easurement
+with HPB:
+10. 3.2.1.1  Before the HPB is weighed, th e PFA-bottle
+and  the  weighing  boat  have  to  be  cleaned.  For  this  the
+weighing  boat  and  10  mL  benzene  are  given  into  the
+bottle. The bottle is closed and shaken well for approx.
+1  minute.  The  benzene  is  discarded.  This  procedure  is
+repeated  four  times.  After  the  last  cleaning  the  empty
+open   bottle   and   the   weighing   boat,   placed   on   a
+decontaminated aluminum foil (see Section 10.2.1). are
+allowed to dry at room temperature in a fume cupboard
+for ten minutes. Then the bottle is closed. The weighing
+boat  is  placed  onto  the  micro  balance  by  thermally
+decontaminated  cross  tweezers.  Approx.  5  mg  of  HPB
+are   weighed   into   the   weighing   boat   by   use   of   a
+thermally  decontaminated  micro  spatula.  The  weight  is
+recorded exactly for the later calculation. The weighing
+boat is placed into the PFA bottle by the cross tweezers.
+10. 3.2.1.2   The  volume  of  the  benzene  is   measured
+using  a  100  mL-pipette.  Before  use,  the  pipette  has  to
+be washed 5 times using 10 mL benzene each time. The
+100 mL benzene are filled into the PFA flask, which is
+closed immediately.
+10. 3.2.1.3   First  the  bottle,  now  containing   HPB  and
+benzene, is shaken well for three minutes.  Often this is
+not  sufficient  for  a  complete  dissolution  of  the  HPB
+(visible inspection). To assure complete dissolution, the
+PFA  flask  is  placed  into  an  ultrasonic  bath  for  5
+minutes  (not  longer,  because  solution  may  get  hot).
+Two minutes before the end of that time the preparation
+of  the  silicon  chip  is  started.  The  piece  of  silicon  is
+heated   to   red   heat   for   one   minute,   placed   on   the
+thermally  decontaminated  aluminum  foil  and  given  5
+minutes  to  cool.  When  the  treatment  in  the  ultrasonic
+bath  is  finished,  the  PFA  flask  is  shaken  for  three
+minutes again, then given 2 minutes for just standing.
+10. 3.2.1.4  The bottle is opened. By the m icro dropper
+2 μL are taken from near the surface (tip not more than
+1  mm  under  surface  of  liquid).  The  2  μL  are  spread
+onto the silicon chip in such a way that the liquid on the
+chip  covers  the  smallest  possible  area.  Care  is  to  be
+taken  to  prevent  large  spreading  or  even  dropping  off
+the  liquid  (e.g.,  the  Si  chip  has  to  be  positioned  flat).
+The  liquid  is  given  5  minutes  to  evaporate  (room
+temperature,  no  extensive  blowing  of  air).  Then  the
+measurement of the HPB reference can be started.
+10. 3.2.1.5   Before  each  following  HPB  m easurement
+the  flask  again  has  to  be  shaken  3  minutes,  5  minutes
+ultrasonic  bath,  shaking  3  minutes,  allow  two  minutes
+of resting. The solution of the HPB in benzene must not
+be kept longer than 10 days.
+10. 3.2.1.6   The  reproducibility  of  the  inte gral  value
+(see  calculation)  achieved  by  this  procedure  is  better
+than  4%.  Sample  measurements  shall  be  performed
+only,  if  the  reference  measurement  has  provided  a
+reproducibility equal to or better than 10%.
+NOTE 1: Hexaphenylbenzene has been chosen as a reference
+compound  because  its  signal  is  well-defined  and  its  mobility
+value  is  well  separated  from  the  peaks  of  nearly  all  other
+relevant  organic  contaminants.  It  provides  positive  ions  only.
+A different reference, Dioctylphthalate, is needed for negative
+ions.
+10. 3.2.1.7   DOP-reference  samples:  All  th e  same  as
+HPB,  except  replacing  the  benzene  by  ethanol.  The
+DOP is weighed using a micro dropper (not spatula).
+10. 3.2.1.8   The  mobility  spectrum  of  dioc tylphthalate
+is also well separated but there are several peaks due to
+thermal  decomposition  (phthalic  anhydride  etc.).  This
+compound is a frequently used plasticizer and therefore
+one of the most critical polymer additives.
+10. 3.3   Measurement  of  the  Headspac e  Samples  —
+Positive  and  negative  ions  are  detected  successively  in
+two    separate    runs.    At    least    two    independent
+measurements  are  carried  out  for  each  polarity.  Every
+measurement to be saved consists of 2000 single scans
+and is then repeated. Hence, an automated measurement
+is required.
+10. 3.3.1   The  silicon  chip  is  placed  in  th e  furnace  of
+the    IMS    using    thermally    decontaminated    cross
+tweezers.  The  measurement  of  the  drift  time  spectrum
+(positive   or   negative   polarity)   has   to   be   started
+immediately  after  loading  the  desorption  furnace  with
+the  sample  (time  delay  between  sample    introduction
+and  starting  of  the  measurement:  15 s).
+10. 3.4    Termination   of   the   Measureme nt   —   The
+measurement  is  terminated  when  the  signal  intensity
+has  decreased  to  about  10%  above  the  noise  of  the
+blank   measurement   spectrum.   If   this   point   is   not
+reached  after  two  hours,  the  measurement  should  be
+terminated;  in  this  case,  the  investigated  sample  does
+not show suitable material properties.
+10. 4   Headspace  Sampling  in  Minie nvironments —
+The  crucible  tongs  are  preconditioned  as  described  in
+Section  10.2,  and  the  preconditioned  aluminum  foil  is
+placed   beside   the   minienvironment   that   is   to   be
+examined.  After  opening  the  minienvironment,  the  lid
+of  the  weighing  bottle  is  picked  up  with  the  crucible
+tongs  and  carefully  placed  on  the  aluminum  foil.  Both
+
+SEMI E46-0301 © SEMI 1995, 20015
+the weighing bottle (holding the Si-chips) and its lid are
+separately  put  inside  the  minienvironment.  Then  the
+minienvironment is closed and kept closed for a defined
+period  of  time.  For  this  test  method,  one  week  (168  h)
+is   defined.   After   expiry   of   the   storage   time,   the
+weighing bottle is closed with its lid and removed from
+the minienvironment.
+10. 4.1   The  same  procedure  applies  to   standard  wafer
+boxes or to SMIF and similar boxes.
+10. 5   Headspace  Sampling  of  Polym er  Material  at
+Different   Temperatures   —   The   prepared   polymer
+material   inside   the   wrapped   weighing   bottle   (see
+Section 10.2.5) is stored:
+• either  under  clean  laboratory  conditions  at  room
+temperature for a defined period of time
+• or  in  a  suitable  oven  at  a  temperature  of  70°C  or
+120°C  for  exactly  1  hour  followed  by  a  cooling
+period of 1 hour.
+10. 5.1  The wrapped weighing bottle i s handled with a
+pair of crucible tongs only.
+10. 6  Testing Requirements (check f or device overload
+during measurement)
+10. 6.1  Positive Ions: Water Cluster S ignal Intensity —
+The water cluster signal intensity must not decrease by
+more  than  10%  of  the  blank  spectra  intensity  during
+measurement  time;  otherwise,  the  ion  molecule  reactor
+has  been  overloaded.  If  this  is  the  case,  the  polymer
+sample   is   not   likely   to   be   suitable   for   use   in
+semiconductor   processing   because   of   unacceptable
+properties.
+10. 6.2  Negative Ions: Oxygen Cluster  Signal Intensity
+—  The  same  procedure  as  that  in  Section  10.6.1  must
+be performed for negative ions; in this case, the oxygen
+cluster signal intensity must not decrease by more than
+20%.
+11  Calculation
+11. 1   Description  of  Mobility  Spectr a  Evaluation —
+The    signal    intensities    of    the    detected    sample
+contaminants  are  integrated  over  a  specific  interval  for
+both   polarities.   The   background   signal   intensity   is
+integrated,  outside  the  specific  measurement  interval,
+with  preference  to  spectral  region  prior  to  the  peaks  of
+the   reactant   ions.   The   total   background   intensity
+(integration   of   the   relevant   background   signal)   is
+subtracted  from  the  integrated  contamination  intensity
+(background   correction).   The   mean   value   of   the
+contamination   signal   from   the   blank   measurement
+(Section  10.3.1)  spectra  is  subtracted  accordingly.  This
+leads  to  individual  contamination  values  from  each
+sample spectrum.
+11. 2  Calculation of reduced mobilit y:
+K=E
+-1
+1
+d
+/t
+d
+and
+K
+0
+= K (p/p
+0
+) (T
+0
+/T)
+K :  ion mobility (cm
+2
+/Vs)
+K
+0
+:  reduced ion mobility (cm
+2
+/Vs)
+p :  pressure
+p
+0
+:  standard pressure
+T :  temperature
+T
+0
+:  standard temperature (273.15K)
+l
+d
+:  drift length (cm)
+t
+d
+:  drift time (s)
+E :  electric field strength (V/cm)
+K :  Kelvin
+11. 2.1
+Table  1  shows  the  specified  in tegration  range;
+all reduced mobility values are given in units of cm
+2
+/Vs.
+11. 2.2
+The  resulting  integrals  for  each   spectrum  are
+summed up for the whole desorption time. This value is
+compared  to  the  appropriate  value  of  the  reference
+sample (HPB or DOP).
+11. 2.3
+This  procedure  ensures  the  com parison  of  the
+evaluated    sample    contamination    values    between
+different laboratories and measurement equipments.
+12  Related Documents
+12. 1     K.    Budde,    “Application    of    Ion     Mobility
+Spectrometry      to      Semiconductor      Technology,”
+Proceedings  of  the  Satellite  Symposium  to  ESSDERC
+89    (Berlin)    of    the    Electrochemical    Society    (the
+Electrochemical  Society  Pennington,  1990)  PV  90-11,
+p.215.
+12. 2
+K. Budde, W. J. Holzapfel, “Measurement of
+Organic    Contamination    from    Silicon    Surfaces,”
+Proceedings,  38th  Meeting,  Institute  of  Environmental
+Sciences, 3.-8.5.1992, Nashville, TN, p.483.
+12. 3
+K. Budde, W. J. Holzapfel, “D etection of Volatile
+Organic  Surface  Contaminations  Arising  from  Wafer
+Boxes  and  Cleaning  Processes,”  Proceedings  of  the
+First    International    Symposium    on    Semiconductor
+Wafer     Bonding,     (the     Electrochemical     Society
+Pennington, 1992) PV 92-7, p. 271.
+12. 4
+Proposal:      SEMATECH   Test   M ethod   for
+Determining  Outgassing  Products  from  Semiconductor
+Product Carriers.
+12. 5
+S.N.   Ketkar,   S.M.   Penn,   and   W .L.   Fite,
+“Influence   of   Coexisting   Analytes   in   Atmospheric
+Pressure  Ionization  Mass  Spectrometry,”  Anal.  Chem.
+63, (1991) 924.
+
+SEMI E46-0301 © SEMI 1995, 20016
+12. 6   R.E.  Clement,  K.W.M.  Siu,  an d  H.H.  Hill  Jr.,
+“Instrumentation for Trace Organic Monitoring,” Lewin
+Publishers, Boca Raton 1991.
+Table 1  Integration Range for the Evaluation of Ion
+Mobility Spectra
+Polarity of
+Target IonsSampleBackground
+Signal Range
+(sample)
+positiveHPB42.10–5.810.86–0.77
+negativeDOP37.30–7.351.99–1.63
+positiveSample42.10–5.812.24–0.84
+negativeSample37.30–7.352.30–0.91
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E47-0301 © SEMI 1995, 20011
+SEMI E47-0301
+SPECIFICATION FOR 150 mm/200 mm POD HANDLES
+This  specification  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is
+the direct responsibility of the European Equipment Automation Committee. Current edition approved by the
+European Regional Standards Committee on October 26, 2000.  Initially available at www.semi.org January
+2001; to be published March 2001. Originally published in 1995; previously published October 2000.
+1  Purpose
+1. 1   This  specification  provides  a  u nified  form  and
+location   for   pod   handles   to   enable   automatic   pod
+handling.
+2  Scope
+2. 1    This   specification   defines   the   d imensions   and
+location  of  handles  on  150  mm/200  mm  pod.  These
+provide automatic handling and take into consideration
+manual   handling.   The   design   of   individual   manual
+handles   is   open   to   be   accomplished   within   the
+dimensional limitations of the standard.
+2. 2   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1    This   specification   applies   only    to   automatic
+handling  of  the  pod  with  a  SMIF  interface  in  the
+horizontal  plane  (see  limitations  of  SEMI  E19.3  and
+E19.4).  Dimensional  restrictions  for  manual  handling
+are given in SEMI E15 and SEMI T4.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI E15 — Specification for Tool Load Port
+SEMI E19.3 — 150 mm Standard Mechanical Interface
+(SMIF)
+SEMI E19.4 — 200 mm Standard Mechanical Interface
+(SMIF)
+SEMI  E47.1  —  Provisional  Mechanical  Specification
+for  Boxes  and  Pods  Used  to  Transport  and  Store  300
+mm Wafers
+SEMI  T4  —  Specification  for  150  mm  and  200  mm
+Pod Identification Dimensions
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1    standard   mechanical   interface    (SMIF)   —   the
+interface     plane     between     a     pod     and     another
+minienvironment per SEMI E19.
+5. 2   pod  —  a  box  having  a  Standar d  Mechanical
+Interface (SMIF) per SEMI E19.
+5. 3    box   —   a   protective   portable   co ntainer   for   a
+cassette and/or substrate(s).
+5. 4   cassette  —  an  open  structure  t hat  holds  one  or
+more substrates (wafer, masks, etc.).
+5. 5  handle of a pod  —  a  mechanic al  aid  designed  for
+automatic  handling  of  a  pod,  which  may  also  be  used
+for manual handling.
+5. 6   handling  area  —  minimum  fre e  space  around  the
+pod for automatic handling.
+5. 7    handling   of   a   pod   —   automati c   and   manual
+movement and/or placement of a pod.
+5. 8   orientation  notch  —  notch  loc ated  at  the  pod
+handles to allow sensing the orientation of the pod. See
+Figure 1.
+5. 9  position notch — notch locate d at the center lines
+of  the  pod  handles  to  allow  positioning.  See  Figure  1
+(PN1 to PN4).
+6  Requirements
+6. 1  Handling Dimensions: the han dling dimensions for
+150  mm  and  200  mm  pods  shall  be  per  Table  1  (see
+Figure 1 for dimensional locations).
+6. 2  A8 is given as a minimum and  can be extended up
+to A1.
+6. 3  Number of handles shall be:
+6. 3.1  four (H1–H4 in Figure 2) or
+6. 3.2  two (H1 and H3) in Figure 2.
+6. 4   The  handling  area  is  defined  b y  A5  (which  is  in
+reference   to   A1)   and   by   B2.   B1   is   the   minimum
+distance  between  the  interface  plane  and  the  nearest
+extension of the handle.
+6. 5  The orientation possibilities of  the pod are given in
+Figure 2 and Table 2.
+
+SEMI E47-0301 © SEMI 1995, 20012
+6. 6  An optional handle to be place d at the top of the pod is specified in SEMI E47.1 (Section 6.9, Figure 12, and
+Table  1).  If  used  for  150  mm  or  200  mm  pods,  this  “top  robotic  handling  flange”  has  to  meet  the  required
+dimensions as specified in SEMI E47.1 (see Figure 12 of SEMI E47.1). Its center is to be placed above the center of
+the cassette in the pod with the two orientation notches at the side where the cassette is accessed to remove wafers.
+The orientation possibilities of the pod are then the same as described in Section 6.5 above and Table 2.
+Figure 1
+Pod Handling Terminology and Dimensions
+
+SEMI E47-0301 © SEMI 1995, 20013
+Table 1
+Handling Dimensions for 150 mm (6 in.) PodHandling Dimensions for 200 mm (8 in.) Pod
+Handle:A1215.0 mm ± 0.5 mm (8.464" ± 0.019")305.0 mm ± 0.5 mm (12.008" ± 0.019")
+A2107.50 mm ± 0.25 mm (4.232" ± 0.01")152.50 mm ± 0.25 mm (6.004" ± 0.01")
+A36.0 mm ± 0.2 mm (0.236" ± 0.008")5.65 mm ± 0.2 mm (0.222" ± 0.008")
+A490° ± 0.2°90° ± 0.2° (90° ± 0.2°)
+A514 mm min. (0.551" min.)20 mm min. (0.787" min.)
+A630 mm ± 0.2 mm (1.181" ± 0.008")30.0 mm ± 0.2 mm (1.181" ± 0.008")
+A750 mm ± 0.2 mm (1.969" ± 0.008")50.0 mm ± 0.2 mm (1.969" ± 0.008")
+A8148 mm min., 215 mm max. (A1)
+(5.827" min., 8.464" max.)
+148 mm min., 305 mm max. (A1)
+(5.827" min., 12.008" max.)
+Handle Height:B1158 mm ± 1.0 mm (6.220" ± 0.039")150.4 mm ± 1.0 mm (5.921" ± 0.039")
+Handling Area:B230 mm min. (1.181" min.)30 mm min. (1.181" min.)
+Table 2
+Orientation #Orientation Notch
+1void
+2ON a
+3ON b
+4ON a+b
+
+SEMI E47-0301 © SEMI 1995, 20014
+Figure 2
+Orientation Possibilities
+NOTICE: SEMI makes no warranties or representa-tions as to the suitability of the specification set forth herein for
+any particular application.  The determination of the suitability of the specification is solely the responsibility of the
+user.    Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other
+relevant  literature  respecting  any  materials  mentioned  herein.    These  specifications  are  subject  to  change  without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  specification  may  require  use  of
+copyrighted material or of an invention covered by patent rights.  By publication of this specification, SEMI takes
+no position respecting the validity of any patent rights or copyrights asserted in connection with any item mentioned
+in this specification.  Users of this specification are expressly advised that determination of any such patent rights or
+copyrights, and the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 1
+SEMI E47.1-0305
+PROVISIONAL MECHANICAL SPECIFICATION FOR FOUPS USED TO
+TRANSPORT AND STORE 300 mm WAFERS
+This  specification  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is
+the  direct  responsibility  of  the  North  American  Physical  Interfaces  &  Carriers  Committee.  Current  edition
+approved by the North American Regional Standards Committee on December 10, 2004.  Initially available
+at  www.semi.org  February  2005;  to  be  published  March  2005.  Originally  published  in  1997;  previously
+published November 2004.
+1  Purpose
+1. 1  This standard partially specifies the FOUPs used to transport and store 300 mm wafers in an IC manufacturing
+facility.
+2  Scope
+2. 1  This  standard  is  intended  to  set  an  appropriate  level  of  specification  that  places  minimal  limits  on  innovation
+while  ensuring  modularity  and  interchange-ability  at  all  mechanical  interfaces.  Most  of  the  requirements  given  in
+this  specification  are  in  the  form  of  maximum  or  minimum  dimensions  with  very  few  required  surfaces.  Only  the
+physical interfaces (other than the door mechanism and kinematic couplings) for FOUPs are specified; no materials
+requirements  or  micro-contamination  limits  are  given.  The  enclosure  specified  in  this  standard  can  be  a  sealed
+minienvironment, but it could also just be a box with well-defined interfaces.
+2. 2  The FOUP has the following components and sub-components:
+Key:
+• Required feature
+◊ Optional feature
+
+• top
+• top handling flange
+• center hole on top handling flange
+◊ 3 kinematic grooves on top handling flange (optional)
+• interior
+• cassette (with supports for 13 or 25 wafers)
+• wafer capture mechanism
+• 2 end effector exclusion zones
+• sides
+◊ 2 side fork-lift flanges (optional)
+◊ ergonomic manual handles (optional)
+• door
+• holes for latch keys that lock the door to the FIMS interface when the door is unlatched from the FOUP
+• holes for registration pins
+• door sensing pads
+• bottom
+• 4  bottom  conveyor  rails  (with  the  bottom  of  the  front  seal  zone  acting  as  the  fourth  rail  and  the  rear  rail
+optional)
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 2
+• 2 fork-lift pin holes
+• 5 carrier sensing pads
+• center retaining feature
+• front retaining feature
+• 4 info pads
+• 2 advancing FOUP sensing pads
+• 3 features that mate with kinematic coupling pins and provide a 10 mm lead in
+◊ 3 features that mate with kinematic coupling pins and provide a 15 mm lead in (optional)
+◊ front conveyor surface
+2. 3  This standard is provisional because of concerns about the kinematic coupling pins causing excessive wear on
+carriers  and  the  usefulness  of  the  robotic  handling  flanges  and  conveyor  rails.  Once  FOUP  testing  is  done,  this
+standard should be modified and upgraded from provisional status.
+NOTICE:  This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI E1.9 ⎯ Mechanical Specification for Cassettes Used to Transport and Store 300 mm Wafers
+SEMI E15 — Specification for Tool Load Port
+SEMI E15.1 — Specification for 300 mm Tool Load Port
+SEMI E19 — Standard Mechanical Interface (SMIF)
+SEMI E47 — Specification for 150 mm/200 mm Pod Handles
+SEMI  E57  —  Mechanical  Specification  for  Kinematic  Couplings  Used  to  Align  and  Support  300  mm  Wafer
+Carriers
+SEMI E62 — Provisional Specification for 300 mm Front-Opening Interface Mechanical Standard (FIMS)
+SEMI S8 — Safety Guidelines for Ergonomics Engineering of Semiconductor Manufacturing Equipment
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+4  Terminology
+4. 1  Definitions
+4. 1.1  bilateral  datum  plane  —  a  vertical  plane  that  bi-sects  the  wafers  and  that  is  perpendicular  to  both  the
+horizontal and facial datum planes (as defined in SEMI E57).
+4. 1.2  box — a protective portable container for a cassette and/or substrate(s).
+4. 1.3  carrier capacity — the number of substrates that a carrier holds (as defined in SEMI E1.9).
+4. 1.4  cassette — an open structure that holds one or more substrates.
+4. 1.5  facial datum plane — a vertical plane that bisects the wafers and that is parallel to the front side of the carrier
+(where  wafers  are  removed  or  inserted).  On  tool  load  ports,  it  is  also  parallel  to  the  load  face  plane  specified  in
+SEMI E15 on the side of the tool where the carrier is loaded and unloaded (as defined in SEMI E57).
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 3
+4. 1.6  front-opening unified pod (FOUP) — a box (that complies with SEMI E47.1) with a non-removable cassette
+(so that its interior complies with SEMI E1.9) and with a front-opening interface (that mates with a FIMS port that
+complies with SEMI E62).
+4. 1.7  horizontal  datum  plane — a horizontal plane from which projects the kinematic-coupling pins on which the
+carrier sits. On tool load ports, it is at the load height specified in SEMI E15 and might not be physically realized as
+a surface (as defined in SEMI E57).
+4. 1.8  minienvironment — a localized environment created by an enclosure to isolate the product from contamination
+and people.
+4. 1.9  nominal wafer center line — the line that is defined by the intersection of the two vertical datum planes (facial
+and bilateral) and that passes through the nominal centers of the seated wafers (which must be horizontal when the
+carrier is placed on the coupling) (as defined in SEMI E57).
+4. 1.10  pod — a box having a Standard Mechanical Interface (SMIF) per SEMI E19.
+4. 1.11  robotic handling flanges — horizontal projec-tions on the top of the FOUP for lifting and rotating the FOUP.
+4. 1.12  wafer carrier — any cassette, box, pod, or boat that contains wafers (as defined in SEMI E15).
+5  Ordering Information
+5. 1  Intended Use — This standard is intended to specify 300 mm FOUPs over a reasonable lifetime of use, not just
+those in new condition. For this reason, the purchaser needs to specify a time period and the number and type of uses
+to  which  the  FOUPs  will  be  put.  It  is  under  these  conditions  that  the  FOUPs  must  remain  in  compliance  with  the
+requirements listed in §6.
+5. 2  Temperature Ranges  —  The  purchaser  of  300  mm  FOUPs  needs  to  specify  two  sets  of  temperatures  to  which
+the FOUPs might be exposed. An operating temperature range is the set of environmental temperatures in which the
+FOUPs  will  remain  in  compliance  with  the  requirements  listed  in  §6.  A  temporary  temperature  range  is  the  set  of
+environmental temperatures to which the FOUPs can be exposed such that when the FOUPs return to the operating
+temperature range, the FOUPs will be in compliance with the requirements listed in §6. Limits on exposure times to
+elevated  temperatures  should  be  specified.  Also,  the  purchaser  needs  to  specify  a  range  of  temperatures  for  the
+wafers that might be inserted in the FOUPs.
+5. 3  Fire Resistance — The purchaser of 300 mm FOUPs may need to consider the flammability of the FOUPs.
+5. 4  Info  Pad  Configurations  —  The  purchaser  of  300  mm  carriers  needs  to  specify  the  desired  info  pad
+configuration (up or down).
+6  Requirements
+6. 1  Kinematic Couplings — The physical alignment mechanism from the FOUP to the tool load-port (or a nest on a
+vehicle or in a stocker) consists of features (not specified in this standard) on the top entity that mate with three or
+six pins underneath as defined in SEMI E57. Most of the dimensions of the FOUP are determined with respect to the
+three orthogonal datum planes defined in that standard: the horizontal datum plane, the facial datum plane, and the
+bilateral  datum  plane.  All  of  the  dimensions  for  the  FOUP  are  bilaterally  symmetric  about  both  the  bilateral  and
+facial datum planes with the following exceptions:
+• The features that mate with the kinematic coupling pins and the FOUP sensing pads are symmetrical only about
+the bilateral datum plane.
+• The FOUP has a door only on the front and conveyor rails on the left and right sides that are required to extend
+all the way to the front.
+• The orientation notches on the robotic handling flange are different for each of the four sides.
+The three features that mate with the kinematic coupling pins must provide a lead-in capability that corrects a FOUP
+misalignment of up to r69 in any horizontal direction.
+6. 2  (This  section,  “Internal  Kinematic  Couplings”  is  no  longer  applicable,  and  is  intentionally  left  blank  so  as  to
+maintain paragraph numbering.)
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 4
+6. 3  Interior Dimensions — The interior of the FOUP must have the interior dimensions of the cassette specified in
+SEMI E1.9. Many of these dimensions are measured from a horizontal datum plane, so an internal horizontal datum
+plane is still specified to be z44 above the horizontal datum plane under the FOUP.
+6. 4  Door
+6. 4.1  (This  section  (6.4.1)  is  no  longer  applicable,  and  is  intentionally  left  blank  so  as  to  maintain  paragraph
+numbering.)
+6. 4.2  ,  The  FOUP  door  is  on  the  front  side  of  the  FOUP  (corresponding  to  the  front  side  of  the  cassette  where
+wafers are accessed so the door is perpendicular to the wafers and parallel to the facial datum plane), and the door
+and its frame must be designed to mate with a port that conforms to SEMI E62. Specifically, the FOUP door and its
+frame  must  have  surfaces  that  mate  with  the  seal  zones  and  the  reserved  spaces  for  vacuum  application  (which
+includes all of the circles bounded by r38 except for the holes for the registration pins at the center of each circle)
+defined  in  ¶¶5.3  and  5.6  of  SEMI  E62  (which  specifies  r38).  These  FOUP  door  and  frame  surfaces  must  be  a
+distance  of  y52  from  the  facial  datum  plane  and  must  have  a  flatness  of  y42.  No  surface  on  the  FOUP  door  may
+project further from the facial datum plane than the door seal zone and the reserved spaces for vacuum application.
+The door of the FOUP must also be designed so that when  the  FOUP  is  pressed  against  the  FIMS  port,  both  latch
+keys on the port are inserted to their full length.  Furthermore, when the latch keys are turned more than 45° toward
+the position that unlocks the FOUP door from the FOUP, the latch key holes on the door must be such that the door
+is not removable from the latch keys.
+6. 5  Wafer  Capture  and  Centering  —  When  the  FOUP  is  closed,  the  wafers  must  be  captured  in  the  FOUP  to
+prevent movement during transport. Wafer capture must include gently pushing the wafers to the rear of the cassette
+to center them.
+6. 6  Internal Dimensions —The interior of any FOUP must not intrude on the end effector exclusion zone, and the
+inside of the door must not intrude more that y51 toward the facial datum plane. The interior of the FOUP between
+y11 and the door opening must not protrude higher than z6 above the internal horizontal datum plane and lower than
+z15  above  the  top  nominal  wafer  plane.  Horizontally,  it  must  not  protrude  closer  to  the  bilateral  datum  plane  than
+x51  between  y11  and  y49  or  closer  than  x52  between  y49  and  y52  (as  shown  in  Figure  10).  Dimensions  x51, x52,
+y49, and y52 are specified in Table 1, and y11, z6, and
+z15 are specified in SEMI E1.9.
+6. 7  External Dimensions — Figures 5 through 8 show the side view, rear view, top view, and bottom view for the
+FOUP. Table 1 defines all of the dimensions. In this and following figures, the heaviest lines are used for surfaces
+that have tolerances (not surfaces that have only maximum or only minimum dimensions). If a FOUP identification
+tag is used, it must be located at the bottom rear centered on the bilateral datum plane and must be contained within
+the maximum outer dimensions of the FOUP.
+
+NOTE 1:  Figures 1 through 4 have been removed from this document.
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 5
+
+z
+67
+≥
+79. 5
+z
+66
+≤
+55. 5
+z
+68
+
+≤
+133. 5
+
+(253.5)
+z
+69
+≥
+157. 5
+(277.5)
+y
+60
+≤
+155
+facial
+datum plane
+horizontal datum plane of FOUP nest or load port
+horizontal datum plane inside FOUP
+z
+41
+≥
+0
+y
+53
+≤
+190
+y
+
+56 =189.75±0.25
+(at bottom rail)
+bottom conveyor rail
+z
+43 =2±1
+y
+58
+≥
+75
+y
+50
+≥
+130
+y
+51
+≥
+140
+z
+44 =11±0
+(numbers in parentheses are for 25-wafer FOUPs, if different)
+y
+57
+≤
+178
+y
+46
+=71±1
+y
+44
+≤
+53
+z
+49
+≤
+8
+z
+
+48
+≥
+15
+z
+47
+=210
+(330)
+±1
+y
+52 =165.5±0.5
+(at seal zones, etc.)
+≤
+166 (elsewhere)
+d
+65
+=10±0.5
+z
+65
+≥
+7
+z
+46
+=60±1
+z
+59
+≥
+72
+human
+handle
+(optional)
+side
+fork-lift
+flange
+(optional)
+y
+61 =3.5±0.5
+
+front clamp features
+y
+40 =122.5±2.5
+
+Figure 5
+Side View of FOUP
+
+
+
+z
+59
+≥
+72
+human
+handle
+(optional)
+side
+fork-
+lift
+flange
+(optional)
+bilateral datum plane
+z
+41
+≥
+0
+x
+57
+≤
+180
+(numbers in parentheses are for 25-wafer FOUPs, if different)
+z
+
+43 =2±1
+z
+44
+=11±0
+horizontal datum plane
+of FOUP nest or load port
+
+horizontal datum plane inside FOUP
+bottom conveyor rail
+x
+50 =214±1
+(at side fork-lift flange)
+x
+
+56 =194.75
+±0.25
+(at bottom rail)
+x
+53
+≤
+195
+(elsewhere)
+x
+46
+=71±1
+x
+44
+≤
+53
+z
+49
+≤
+
+8
+z
+48
+≥
+15
+z
+47
+=210
+(330)
+±1
+x
+58
+≥
+75
+d
+65 =10±0.5
+z 65
+≥
+7
+x
+65 =187.5
+z
+46
+=60±1
+x
+63 =199.3±1
+front clamp features
+
+Figure 6
+Rear View of FOUP
+
+
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 6
+
+y
+52 =165.5±0.5
+(at seal zones,
+etc.)
+≤
+166
+(elsewhere)
+x
+62
+≤
+188. 5 (front clamp flange)
+y
+53
+≤
+190
+robotic
+handling
+flange
+(see
+Figure
+12)
+bilateral
+datum plane
+front side of the cassette and FOUP where wafers are accessed
+y
+51
+≥
+140
+y
+50
+≥
+130
+x
+61
+≥
+190. 5 (front clamp flange)
+x
+
+53
+≤
+195 (elsewhere)
+x
+
+50
+≤
+215 (at side fork-lift flange
+and human handle)
+human
+handle
+(optional)
+side fork-
+lift flange
+(optional)
+y
+67
+=25
+r
+67
+≤
+240
+facial
+datum
+plane
+y
+40
+=122.5
+±2.5
+(to side
+fork-lift
+flange)
+y
+61 =3.5±0.5
+
+y
+60
+≤
+155
+(to front
+clamp
+feature)
+front clamp
+
+feature
+
+Figure 7
+Top View of FOUP
+
+
+
+y
+40
+=122.5
+±2.5
+facial
+datum
+plane
+bottom
+conveyor rail
+center
+retain-
+ing
+feature
+side
+fork-lift
+flange
+(optional)
+y
+62
+≤
+28
+x
+50 =214±1
+(at side fork-lift flange)
+x
+56 =194.75 ±0.25
+(at bottom rail)
+x
+
+53
+≤
+195 (elsewhere)
+y
+52 =165.5±0.5
+(at seal zones, etc.)
+≤
+166 (elsewhere)
+r
+60 =16
+±0.5
+r
+64
+≤
+9. 5
+x
+64
+≥
+35
+y
+58
+≥
+75
+bilateral
+datum
+plane
+x≤
+y
+53
+≤
+190
+y
+56
+=189.75±0.25
+(at rear
+conveyor rail)
+y
+57
+≤
+178
+front side of the cassette and/or FOUP where wafers are accessed
+y
+65
+≥
+104
+x
+60
+=8.0±0.5
+r
+61
+≥
+16
+front
+retaining
+feature
+x
+58
+≥
+75
+y
+67
+=25
+r
+67
+≤
+240
+y
+64
+=42.1
+±0.5
+y
+63
+=37.3
+±0.5
+d
+65 =10±0.5
+x
+65 =187.5
+x
+68
+≥
+25
+x
+63 =199.3±1
+(4x)
+θ
+=45
+±0.5°
+front clamp
+feature
+57
+180
+
+
+Figure 8
+Bottom View of FOUP
+
+
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 7
+
+z
+61
+≥
+15
+z
+60
+=8±0.5
+y64 =42.1 ±0.5
+z
+62
+
+≥
+18
+
+y 62
+≤
+28
+y
+65
+≥
+104
+facial
+datum plane
+horizontal datum plane
+of load port
+y63 =37.3 ±0.5
+φ
+=30
+±0.5°
+z63 =7.5
+±0.5
+r 61
+≥
+16 (above  z 60)
+r 60 =16±0.5 (below  z 60)
+front side of the FOUP
+where wafers are accessed
+
+Figure 9
+Side View of Retaining Features on Bottom of FOUP
+
+
+r1
+≥
+151
+(reference
+dimension
+from SEMI
+E1.9)
+y52
+≤
+166
+y49
+≤
+134
+y11
+≤
+85
+(from SEMI
+E1.9)
+x52
+≥
+170
+facial
+datum
+plane
+x51
+≥
+140
+x3
+≥
+125
+(from SEMI E1.9)
+bilateral
+datum
+plane
+r4
+≥
+170 (from
+SEMI E1.9)
+
+Figure 10
+Exclusion Volume Inside FOUP
+
+
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 8
+facial
+datum
+plane
+bilateral
+datum
+plane
+y
+64
+=42.1±0.5
+advancing
+
+box
+sensing
+pads
+y 66
+≥
+
+50
+x67
+≥
+34
+x66
+≤
+31
+carrier
+sensing
+pads
+kinematic
+pins
+info pad D
+(FEOL or BEOL)
+info pad B
+(box or cassette)
+info pad A
+info pad C
+
+Figure 11
+Sensing Pads on Bottom of FOUP
+
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 9
+x42 =50±1x41 =30±1
+y45
+=65.3±1
+y47
+≥58
+x44 ≤53
+facial
+datum
+plane
+bilateral
+datum
+plane
+front side of
+the carrier
+where wafers
+are accessed
+y41 =30±1
+y46
+=71±1
+x43 =50±1
+x47
+≥58
+(16x)
+θ =45
+±0.5°
+position
+notch
+orientation
+notch
+x46 =71±1
+x45 =
+65. 3±1
+y44 ≤53
+d63
+=35±0.1
+y68 ≤55
+x69 =7.6±0.1
+α =60°
+r63 ≤66
+
+
+top
+of box
+bilateral
+datum plane
+horizontal
+datum plane
+z
+47
+=210 (330)
+
+±1
+position notch
+d
+63
+=35±0.1
+cross-
+section
+above
+x
+69 =7.6±0.1
+β
+=45±1°
+γ
+=52±1°
+x
+45 =65.3±1
+x
+46 =71±1
+z49 ≤ 8
+z
+48
+≥
+15
+(numbers in parentheses are for 25-wafer FOUPs, if different)
+
+z
+50
+≥
+5
+r
+59
+≤
+6
+
+Figure 12
+Top Robotic Handling Flange
+
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 10
+HORIZONTAL DATUM PLANE
+z43=2±1
+FACIAL DATUM PLANE
+FOUP BOTTOM
+SURFACE
+THEORETICALLY POSSIBLE PROTRUSION
+RESULTING FROM TOLERANCE
+DIFFERENCE BETWEEN
+E47.1 AND E62
+OPTIONAL FRONT CONVEYOR
+SURFACE
+(MUST BE COPLANAR WITH THE
+BOTTOM OF THE FRONT SEAL ZONE
+OR FARTHER FROM THE HDP THAN
+THE BOTTOM OF THE FRONT SEAL
+ZONE. THE OPTIONAL FRONT
+CONVEYOR SURFACE  MUST BE
+COPLANAR WITH THE SIDE
+CONVEYOR RAILS.)
+z316
+≥
+7. 0
+Optional Conveyor
+Feature Placement
+Volume
+COPLANAR WITH THE LEFT AND
+RIGHT BOTTOM CONVEYOR
+RAILS.)
+
+Figure 13
+Side View of FOUP  Showing Optional Front Conveyor Surface Feature
+
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 11
+y242
+≤150
+y243
+(See Table1  )
+FACIAL DATUM
+PLANE
+x56=194.75 [204.75] ±0.25
+(at bottom rail)
+x53
+≤195 [205]
+(elsewhere)
+x57≤180
+OPTIONAL FRONT
+CONVEYOR SURFACE
+FEATURE
+BILATERAL  DATUM PLANE
+y244
+≥
+155. 0
+y245
+≥
+169. 0
+OPTIONAL CONVEYOR FEATURE
+PLACEMENT VOLUME
+
+Figure 14
+Bottom View of FOUP Showing Optional Conveyor Features
+
+x56 = 194.75± 0.25
+(at bottom rail)
+x53 ≤ 195
+(elsewhere)
+x57 ≤ 180
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 12
+Table 1  Dimensions for FOUP
+Symbol
+Used
+Value Specified
+Datum
+Measured From
+Feature Measured To
+α‡                                              60° bilateral datum plane  center line of the right and left
+kinematic grooves in the top robotic
+handling flange
+β 45 ± 1° nominal wafer center line  surface of the center hole in the top
+robotic handling flange
+γ‡ 52 ± 1° bilateral datum plane or
+vertical plane rotated α
+away from it about
+nominal wafer center line
+angled surface of the kinematic
+grooves in the top robotic handling
+flange
+θ‡
+45 ± 0.5° either vertical datum
+plane
+sides of notches in the top robotic
+handling flange and in the side fork-
+lift flanges
+φ
+30 ± 0.5° horizontal line on
+bilateral datum plane
+ramp of front retaining feature
+d63 35 ± 0.1 mm
+(1.378 ± 0.004 in.)
+diameter centered on the
+nominal wafer center line
+sides the center hole in the top robotic
+handling flange at height z47
+d65 10 ± 0.5 mm
+(0.39 ± 0.02 in.)
+diameter centered on the
+intersection of x65 and
+the facial datum plane
+surface of cylindrical fork-lift pin
+holes in left and right bottom
+conveyor rails
+f60 175 N (39.3 lbf.) minimum  not applicable force in any direction which both
+retaining features are able to
+withstand
+r59‡ 6 mm (0.24 in.) maximum not applicable radius on peak of kinematic grooves
+in the top robotic handling flange
+r60 16 ± 0.5 mm
+(0.63 ± 0.02 in.)
+nominal wafer center line ends of slot for center retaining
+feature
+r61 16 mm (0.63 in.) minimum nominal wafer center line  walls of chamber above slot in center
+retaining feature
+r63‡ 66 mm (2.60 in.) maximum nominal wafer center line  near end of the right and left
+kinematic grooves in the top robotic
+handling flange
+r64 9.5 mm (0.37 in.) maximum not applicable corners of front retaining feature
+r65 1 mm (0.04 in.) maximum not applicable all concave features (radius)
+r66 2 mm (0.08 in.) maximum not applicable all required convex features (radius)
+r67 240 mm (9.45 in.) maximum y67 in front of nominal
+wafer center line
+any part of FOUP
+r69 10 mm (0.4 in.) minimum (required)
+15 mm (0.6 in.)
+(recommended for ergonomic reasons)
+not applicable correctable FOUP misalignment in
+any horizontal direction
+x41 30 ± 1 mm (1.18 ± 0.04 in.) bilateral datum plane front right orientation notch on
+robotic handling flange
+x42 50 ± 1 mm (1.97 ± 0.04 in.) bilateral datum plane front left orientation notch on robotic
+handling flange
+x43 50 ± 1 mm (1.97 ± 0.04 in.) bilateral datum plane rear orientation notch on robotic
+handling flange
+x44 53 mm (2.09 in.) maximum bilateral datum plane encroachment of FOUP underneath
+robotic handling flange
+x45 65.3 ± 1 mm (2.57 ± 0.04 in.) bilateral datum plane nearest point of side position and
+orientation notches on robotic
+handling flange
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 13
+Symbol
+Used
+Value Specified
+Datum
+Measured From
+Feature Measured To
+x46 71 ± 1 mm (2.80 ± 0.04 in.) bilateral datum plane sides of robotic handling flange
+x47 58 mm (2.28 in.) minimum bilateral datum plane end of robotic handling flange front
+and rear
+x50‡ 214 ± 1 mm
+(8.43 ± 0.04 in.)
+bilateral datum plane outer edge of side fork-lift flanges
+and furthest reach of human handles
+x51 140 mm (5.51 in.) minimum bilateral datum plane interior of FOUP sides between y11
+and y49
+x52 170 mm (6.69 in.) minimum bilateral datum plane interior of FOUP sides between y49
+and y52
+x53 195 mm (7.68 in.) maximum bilateral datum plane FOUP sides (apart from human
+handles)
+x56 194.75 ± 0.25 mm
+(7.667 ± 0.010 in.)
+bilateral datum plane outside edge of bottom conveyor rails
+x57 180 mm (7.09 in.) maximum bilateral datum plane FOUP sides underneath bottom
+conveyor rails
+x58‡ 75 mm (2.95 in.) minimum bilateral datum plane end of rear conveyor rails
+x60 8 ± 0.5 mm
+(0.31 ± 0.02 in.)
+bilateral datum plane sides of slot for center retaining
+feature
+x61 190.5 mm (7.50 in.) minimum bilateral datum plane outer edge of front clamp flange
+x62 188.5 mm (7.42 in.) maximum bilateral datum plane encroachment of FOUP behind front
+clamp flange
+x63‡ 199.3 ± 1 mm
+(7.85 ± 0.04 in.)
+bilateral datum plane nearest point of notches in side fork-
+lift flanges
+x64 35 mm (1.38 in.) minimum bilateral datum plane sides of front retaining feature
+x65 187.5 mm (7.38 in.) bilateral datum plane vertical axis of cylindrical fork-lift pin
+holes in left and right bottom
+conveyor rails
+x66 31 mm (1.22 in.) maximum bilateral datum plane near side of advancing FOUP sensing
+pads
+x67 34 mm (1.34 in.) minimum bilateral datum plane far side of advancing FOUP sensing
+pads
+x68 25 mm (0.98 in.) minimum bilateral datum plane sides of volume above ramp on front
+retaining feature
+x69‡ 7.6 ± 0.1 mm
+(0.299 ± 0.004 in.)
+bilateral datum plane or
+vertical plane rotated α
+away from it about
+nominal wafer center line
+beginning of angled surface of the
+kinematic grooves in the top robotic
+handling flange
+y40 122.5 ± 2.5 mm
+(4.82 ± 0.10 in.)
+facial datum plane front of side fork-lift flanges and
+furthest reach of human handles
+toward the front
+y41 30 ± 1 mm
+(1.18 ± 0.04 in.)
+facial datum plane left orientation notch on robotic
+handling flange
+y42 ± 0.5 mm (± 0.02 in.) flatness over each area not applicable door and frame seal zones and the
+reserved spaces for vacuum
+application
+y44 53 mm (2.09 in.) maximum facial datum plane encroachment of FOUP underneath
+robotic handling flange
+y45 65.3 ± 1 mm (2.57 ± 0.04 in.) facial datum plane nearest point of front and rear
+position and orientation notches on
+robotic handling flange
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 14
+Symbol
+Used
+Value Specified
+Datum
+Measured From
+Feature Measured To
+y46 71 ± 1 mm (2.80 ± 0.04 in.) facial datum plane front and rear edge of robotic
+handling flange
+y47 58 mm (2.28 in.) minimum facial datum plane end of robotic handling flange sides
+y49 134 mm (5.28 in.) maximum facial datum plane interior of FOUP sides between x51
+and x52
+y50 130 mm (5.12 in.) minimum facial datum plane rear of upper door frame volume
+y51 140 mm (5.51 in.) minimum facial datum plane rear of door
+y52 165.5 ± 0.5 mm (6.52 ± 0.02 in.) at door and frame
+seal zones and at reserved spaces for vacuum
+application and 166 mm (6.54 in.) maximum
+elsewhere on door or FOUP shell
+facial datum plane FOUP front
+y53 190 mm (7.48 in.) maximum facial datum plane FOUP rear
+y56‡ 189.75± 0.25 mm (7.470 ± 0.010 in.) facial datum plane outside edge of front and rear bottom
+conveyor rails
+y57‡ 178 mm (7.01 in.) maximum facial datum plane encroachment of FOUP front and rear
+underneath bottom conveyor rails
+y58 75 mm (2.95 in.) minimum facial datum plane end of left and right conveyor rails
+y60 155 mm (6.10 in.) maximum facial datum plane encroachment of FOUP behind front
+clamp flange
+y61 3.5 ± 0.5 mm
+(0.14 ± 0.02 in.)
+front of front clamp
+flange at FOUP front
+rear of front clamp flange
+y62 28 mm (1.10 in.) maximum facial datum plane rear of front retaining feature
+y63 37.3 ± 0.5 mm
+(1.47 ± 0.02 in.)
+facial datum plane rear of ramp on front retaining feature
+y64 42.1 ± 0.5 mm
+(1.66 ± 0.02 in.)
+facial datum plane front of ramp on front retaining
+feature and front side of advancing
+FOUP sensing pads
+y65 104 mm (4.09 in.) minimum facial datum plane front of front retaining feature
+y66 50 mm (1.97 in.) minimum facial datum plane rear side of advancing FOUP sensing
+pads
+y67 25 mm (0.98 in.)
+
+facial datum plane origin of r67 on bilateral datum plane
+y68‡ 55 mm (2.17 in.) maximum facial datum plane near end of the front kinematic
+groove in the top robotic handling
+flange
+y242‡ 150 mm (5.75 in.) maximum facial datum plane front conveyor surface edge closest
+to facial datum plane
+y243‡   If the front conveyor surface is farther from HDP
+than the front conveyor rail (defined by bottom of
+front seal zone):
+161. 0 mm (1.0 mm
+(6.34 (0.04 in.)
+facial datum plane front conveyor surface edge furthest
+from facial datum plane
+If the front conveyor surface is coplanar with the
+front conveyor rail (defined by bottom of front seal
+zone):
+165. 5 mm (0.5 mm
+(6.52 (0.02 in.)
+
+y244‡ 155.0 mm maximum facial datum plane rear conveyor placement volume
+front boundary
+y245‡ 169.0 mm minimum facial datum plane rear conveyor placement volume rear
+boundary
+
+
+SEMI E47.1-0305 © SEMI 1997, 2005 15
+Symbol
+Used
+Value Specified
+Datum
+Measured From
+Feature Measured To
+z316‡ 7.0 mm minimum horizontal datum plane rear conveyor placement volume
+upper boundary
+z2 2 mm (0.08 in.) maximum horizontal datum plane bottom of carrier sensing pads and
+info pads (when down)
+z41 0 mm (0 in.) minimum external horizontal datum
+plane
+bottom of FOUP
+z43 2 ± 1 mm (0.08 ± 0.04 in.) external horizontal datum
+plane
+bottom conveyor rails
+z44 11 ± 0 mm
+(0.43 ± 0 in.)
+external horizontal datum
+plane
+internal horizontal datum plane
+z46‡ 60 ± 1 mm
+(2.36 ± 0.04 in.)
+external horizontal datum
+plane
+bottom of side fork-lift flanges
+z47 210 ± 1 mm
+(8.27 ± 0.04 in.)
+for 13-wafer FOUP and
+330 ± 1 mm
+(12.99 ± 0.04 in.)
+for 25-wafer FOUP
+external horizontal datum
+plane
+bottom of robotic handling flange
+z48 15 mm (0.59 in.) minimum bottom of robotic
+handling flange
+encroachment of FOUP top
+underneath robotic handling flange
+z49 8 mm (0.31 in.) maximum bottom of robotic
+handling flange
+top of robotic handling flange and
+upper door frame volume
+z50 5 mm (0.20 in.) minimum bottom of robotic
+handling flange
+encroachment of FOUP top
+underneath the center hole in the top
+robotic handling flange
+z59 72 mm (0.31 in.) minimum external horizontal datum
+plane
+top of notches in side fork-lift flanges
+z60 8.0 ± 0.5 mm
+(0.31 ± 0.02 in.)
+external horizontal datum
+plane
+top of slot in center retaining feature
+z61 15 mm (0.59 in.) minimum external horizontal datum
+plane
+top of chamber above slot in center
+retaining feature
+z62 18 mm (0.71 in.) minimum external horizontal datum
+plane
+top of front retaining feature
+z63 7.5 ± 0.5 mm
+(0.30 ± 0.02 in.)
+external horizontal datum
+plane
+top of ramp on front retaining feature
+z65 7 mm (0.28 in.) minimum horizontal datum plane upper boundary of cylindrical fork-lift
+pin holes in left and right bottom
+conveyor rails
+z66 55.5 mm (2.19 in.) maximum external horizontal datum
+plane
+encroachment of FOUP behind
+bottom front clamp flange
+z67 79.5 mm (3.13 in.) minimum external horizontal datum
+plane
+encroachment of FOUP behind
+bottom front clamp flange
+z68 133.5 mm (5.26 in.) maximum
+for 13-wafer FOUP and
+253. 5 mm (9.98 in.) maximum
+for 25-wafer FOUP
+external horizontal datum
+plane
+encroachment of FOUP behind top
+front clamp flange
+z69 157.5 mm (6.20 in.) minimum
+for 13-wafer FOUP and
+277. 5 mm (10.93 in.) minimum
+for 25-wafer FOUP
+external horizontal datum
+plane
+encroachment of FOUP behind top
+front clamp flange
+‡  These dimensions define optional features.

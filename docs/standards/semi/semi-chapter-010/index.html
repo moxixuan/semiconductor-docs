@@ -1,0 +1,2368 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-standards/semi/semi-chapter-010">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v2.4.1">
+<title data-rh="true">文档标题 | 半导体知识文档库</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-010"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="文档标题 | 半导体知识文档库"><meta data-rh="true" name="description" content="SEMI E64-0600 © SEMI 1997, 2005 6 NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any particular  application.  The  determination  o..."><meta data-rh="true" property="og:description" content="SEMI E64-0600 © SEMI 1997, 2005 6 NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any particular  application.  The  determination  o..."><link data-rh="true" rel="canonical" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-010"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-010" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://moxixuan.github.io/semiconductor-docs/docs/standards/semi/semi-chapter-010" hreflang="x-default"><link rel="stylesheet" href="/semiconductor-docs/assets/css/styles.bfb47696.css">
+<link rel="preload" href="/semiconductor-docs/assets/js/runtime~main.d8edb667.js" as="script">
+<link rel="preload" href="/semiconductor-docs/assets/js/main.3df90eb6.js" as="script">
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/semiconductor-docs/"><b class="navbar__title text--truncate">⚡ 半导体知识库</b></a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/process/intro">工艺制造</a><a class="navbar__item navbar__link" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/semiconductor-docs/docs/standards/intro">协议标准</a><a class="navbar__item navbar__link" href="/semiconductor-docs/blog">技术博客</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="searchBox_ZlJk"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docPage__5DB"><aside class="theme-doc-sidebar-container docSidebarContainer_b6E3"><div class="sidebarViewport_Xe31"><div class="sidebar_njMd"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" href="/semiconductor-docs/docs/standards/intro">协议与标准</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/intro">协议与标准概述</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/secs-e5">SECS-II 标准</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-001">SEMI标准合集</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-001">Chapter 1</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-002">Chapter 2</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-003">Chapter 3</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-004">Chapter 4</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-005">Chapter 5</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-006">Chapter 6</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-007">Chapter 7</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-008">Chapter 8</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-009">Chapter 9</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/semiconductor-docs/docs/standards/semi/semi-chapter-010">Chapter 10</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/semiconductor-docs/docs/standards/bus/amba-axi">总线协议</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/semiconductor-docs/docs/standards/memory/ddr4-ddr5">存储协议</a></div></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_gTbr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="页面路径"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/semiconductor-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">协议与标准</span><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">SEMI标准合集</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Chapter 10</span><meta itemprop="position" content="3"></li></ul></nav><div class="theme-doc-markdown markdown"><header><h1>文档标题</h1></header><div class="pdf-download-card"><div class="pdf-download-card__header"><div class="pdf-download-card__icon">📥</div><div class="pdf-download-card__title"><h3>下载完整PDF</h3><p class="pdf-download-card__doc-title">Chapter 10</p></div></div><div class="pdf-download-card__info"><div class="pdf-download-card__meta"><span class="pdf-download-card__label">文件大小:</span><span class="pdf-download-card__value">0.57MB</span></div><div class="pdf-download-card__description">SEMI标准文档 - Chapter 10，共50页</div></div><div class="pdf-download-card__actions"><a href="/pdfs/semi/semi-chapter-010.pdf" class="pdf-download-card__button pdf-download-card__button--primary" download="semi-chapter-010.pdf"><span class="pdf-download-card__button-icon">⬇️</span>下载PDF</a></div></div><h1>文档标题</h1><p>SEMI E64-0600 © SEMI 1997, 2005 6
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer&#x27;s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E66-1103 © SEMI 1997, 2003 1
+SEMI E66-1103
+TEST METHOD FOR DETERMINING PARTICLE CONTRIBUTION BY
+MASS FLOW CONTROLLERS
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee on July 27, 2003.  Initially available at <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a> October 2003; to be published November</p><h1>2003</h1><ol start="2003"><li>Originally published September 1997.
+1  Purpose</li><li>1    The  purpose  of  this  test  is  to  measure  particle
+contribution  by  mass  flow  controllers  (MFCs)  in  high-
+purity gas systems.
+2  Scope</li><li>1    This  document  describes  a  test  method  that  yields
+statistically     significant     comparisons     of     particle
+contribution  among  mass  flow  controllers  under  test
+conditions.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations</li><li>1    This  document  is  not  intended  as  a  method  for
+monitoring   in   situ   particulate   performance   once   a
+particular MFC has been tested.</li><li>2    The  test  medium  is  limited  to  nitrogen.  Actual
+performance  under  normal  operating  conditions  may
+differ.</li><li>3  The accuracy of the data generated by this method
+is  limited  to  the  accuracy  of  the  particle  measuring
+instruments used.</li><li>4    This  test  method  is  intended  for  use  by  operators
+who  understand  the  use  of  the  apparatus  at  a  level
+equivalent to one year of experience.</li><li>5    This  test  method  should  not  be  expected  to  yield
+comparable results from one test set up to another, due
+to    the    limitations    of    current    particle    counting
+technology.</li><li>6  Results may be compromised by the methods used
+to construct the apparatus.
+4  Referenced Standards</li><li>1  SEMI Standards
+SEMI E29 — Standard Terminology for the Calibration
+of Mass Flow Controllers and Mass Flow Meters
+SEMI  F1  —  Specification  for  Leak  Integrity  of  High-
+Purity Gas Piping Systems and Components</li><li>2  ANSI Standards
+1</li></ol><p>ANSI  B46.1  —  Surface  Texture  (Surface  Roughness,
+Waviness, and Lay)
+4. 3  ISO Standards
+2</p><p>ISO  14644-1  —  Cleanrooms  and  associated  controlled
+environments Part 1:  Classification of air cleanliness.
+ISO  14644-2  —  Cleanrooms  and  associated  controlled
+environments  Part  2:    Specifications  for  testing  and
+monitoring  to  prove  continued  compliance  with  ISO
+14644-1
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  CNC — condensation nucleus counter
+5. 1.2  dof — degrees of freedom
+5. 1.3  DUT — device under test
+5. 1.4  FS — full scale
+5. 1.5  IKS — isokinetic sampler
+5. 1.6  kPa — kiloPascal
+5. 1.7  LPC — laser particle counter
+5. 1.8  ppm — parts per million
+5. 1.9  psia — pounds per square inch absolute
+5. 1.10  psid — pounds per square inch differential</p><p>1 American National Standards Institute, Headquarters: 1819 L
+Street, NW, Washington, DC 20036, USA. Telephone: 202.293.8020;
+Fax: 202.293.9287, New York Office: 11 West 42nd Street, New
+York, NY 10036, USA. Telephone: 212.642.4900; Fax:
+212. 398.0023, Website: <a href="http://www.ansi.org" target="_blank" rel="noopener noreferrer">www.ansi.org</a>
+2 International Organization for Standardization
+ISO Central Secretariat, 1, rue de Varembé, Case postale 56, CH-
+1211 Geneva 20, Switzerland. Telephone: 41.22.749.01.11; Fax:
+41. 22.733.34.30 Website: <a href="http://www.iso.ch" target="_blank" rel="noopener noreferrer">www.iso.ch</a></p><p>SEMI E66-1103 © SEMI 1997, 2003 2
+5. 1.11  psig — pounds per square inch gauge
+5. 1.12  Ra — roughness average per ANSI B46.1
+5. 1.13  RH — relative humidity per ANSI B46.1
+5. 1.14  Rmax — roughness maximum
+5. 1.15  scfm — standard cubic feet per meter
+5. 1.16  SFC — supply mass flow controller
+5. 1.17  slpm — standard liters per minute
+5. 1.18  SPC — statistical process control
+5. 2  Definitions
+5. 2.1  background  counts  —  Counts  contributed  by  the
+test  apparatus  (including  counter  electrical  noise)  with
+the spool piece in place of the test object.
+5. 2.2  condensation  nucleus  counter  (CNC)  —  A  light
+scattering instrument that detects particles in a gaseous
+stream   by   condensing   supersaturated   vapor   on   the
+particles.
+5. 2.3  dynamic control mode test — A test performed to
+determine  particle  contribution  as  a  result  of  test  flow
+variation  within  the  normal  range  of  MFC  operation
+(i.e., 0 to 100% flow).
+5. 2.4  impact  or  vibration  test  —  A  test  performed  to
+determine  particle  contribution  as  a  result  of  test  flow
+variation  within  the  normal  range  of  MFC  operation
+(i.e., 10 to 100% flow).
+5. 2.5  normal  statistical  distribution  —  Measurements
+that randomly fall about an average, within a range of ±
+3 standard deviations.
+5. 2.6  observation     —     A     10-minute     sample/data
+collection period.
+5. 2.7  purge mode — Control valve fully open.
+5. 2.8  sample flow — The volumetric flow drawn by the
+counter for particle detection.
+5. 2.9  sampling time — The time increment over which
+counts are recorded.
+5. 2.10  spool piece — A null component consisting of a
+straight piece of electropolished tubing and appropriate
+fittings used in place of the test component to establish
+the background.
+5. 2.11  stable  particle  level  —  Particle  level  that  has
+been consistent, as described in Appendix 1, for at least
+eight consecutive readings.
+5. 2.12  standard  reference  conditions  —  101.32  kPa,
+0. 0°C (14.7 psia, 32°F) (see SEMI E29)
+5. 2.13  statistical process control — A method used by
+this   standard   for   analyzing   experimental   data   that
+follows  a  normal  statistical  distribution  to  determine  if
+the test is stable.
+5. 2.14  steady   state   control   mode   test   —   A   test
+performed  to  determine  particle  contribution  during
+steady state test flow within the normal operating range
+of the MFC (i.e., 10 to 100% full scale).
+5. 2.15  supply    pressure    —    Pressure    immediately
+upstream of filter F1. (See Figures 1 and 2.)
+5. 2.16  test flow — Mass flow through the device under
+test.</p><p>SEMI E66-1103 © SEMI 1997, 2003 3
+Figure 1
+Test Set-Up when Test Flow &lt; Sample Flow</p><p>Figure 2
+Test Set-Up when Test Flow &gt; Sample Flow</p><p>6  Summary of Test Method
+6. 1    Background  count  is  determined  for  steady  state
+control,  dynamic  control,  and  impact  tests.  The  steady
+state control mode test, dynamic control mode test, and
+impact  test  are  run  by  counting  particles  for  the  time
+necessary to achieve a stable particle level. Background
+testing is performed again.
+7  Significance and Use
+7. 1    The  significance  of  this  test  method  is  that  it
+defines  a  procedure  for  testing  mass  flow  controllers
+intended  for  installation  into  a  high-purity  gas  system.
+It is intended for use by manufacturers and end users.
+8  Apparatus
+8. 1  Test  Gas  —  Nitrogen  of  minimum  dryness,  with  -
+40°C  (-40°F)  dew  point  at  790.57  kPa  (100  psig)  and
+with &lt; 10 ppm of total hydrocarbons.
+8. 2  Membrane  Filters  —  To  provide  filtered  test  gas,
+nine-log retentive to larger than 0.01 mm particles, with
+a pressure drop of less than 7.91 kPa (1 psid) at 283,170
+sccm  (10  scfm)  for  a  790.57  kPa  (100  psig)  inlet,  and
+capable  of  achieving  less  than  one  particle
+3
+0. 01  mm
+per cubic foot of test gas under test conditions.
+8. 3  Pressure  Regulator  —  Made  of  electropolished
+316L  stainless  steel,  with  an  internal  surface  finish  of
+0. 18  mm  (7  μin.)  R
+a
+and  0.25  mm  (10  μin.)  Rmax,  to
+maintain system test pressure.
+8. 4  Pressure   Gauge   or   Transducer   —   Made   of
+electropolished  316L  stainless  steel,  with  an  internal
+surface finish of 0.18 mm (7 μin.) R
+a
+and 0.25 mm (10
+μin.) Rmax, to monitor system test pressure.
+8. 5  Throttle  Valve  —  Made  of  electropolished  316L
+stainless  steel,  with  an  internal  surface  finish  of  0.18
+mm  (7  μin.)  R
+a
+and  0.25  mm  (10  μin.)  Rmax,  to
+proportion flow in test system.
+8. 6  Tubing  —  Made  of  electropolished  316L  stainless
+steel, with an internal surface finish of 0.18 mm (7 μin.)
+Ra and 0.25 mm (10 μin.) Rmax.
+8. 7  Supply  Flow  Controller  (SFC)  —  Metal-sealed,
+used to establish a flow rate through the spool piece in
+the absence of the DUT, with a settling time less than or
+equal  to  that  of  the  DUT.  More  than  one  range  SFC
+may be required to run all the tests.
+8. 8  Sampler  —  Constructed  according  to  the  drawing
+and  design  parameters  shown  in  Figure  3  and  Table  1,
+to  collect  gas  from  the  stream  exiting  the  test  device,
+where the sample is near-isokinetic in design.
+8. 9  Upstream Adapter — To connect 12.7 mm (1/2 in.)
+tubing  to  the  test  device.  For  12.7  mm  (1/2  in.)  test
+devices, the adapter is a simple face-seal connector. For
+6. 35  mm  (1/4  in.)  test  devices,  the  adapter  is  a  tapered</p><p>SEMI E66-1103 © SEMI 1997, 2003 4
+cone  between  6.35  mm  and  12.7  mm  (1/4  in.  and  1/2  in.)  face-seal  connections.</p><p>Figure 3
+Isokinetic Sampler Design</p><p>Table 1
+Maximum IKS Inlet Flow
+(liters/min.)</p><p>ID Probe D
+2
+(note)mm (inches)
+ID Sampler D
+1</p><ul><li>mm
+(inches)</li></ul><p>Worst-Case Dilution
+300 4.62 (0.180) 68.58 (2.700) 3:1
+100 4.62 (0.180) 39.62 (1.560) 3:1
+30 4.62 (0.180) 21.44 (0.844) 3:1
+10 4.62 (0.180) 11.99 (0.472) 3:1
+3 7.75 (0.305) 12.57 (0.495) 2:1
+NOTE 1: For 300,000 to 10,000 cc/min. test flow:
+• Constant sample velocity = 132 cm/sec.
+• D2 = 4.57 mm (0.180 in.) ID standard 6.35 mm (1/4 in.) tubing (see Figure 3)
+• For 1.41 l/min. CNC
+NOTE 2: For 3,000 cc/min. test flow:
+• Constant sample velocity = 49.9 cm/sec.
+• D
+2
+= 7.75 mm (0.305 in.) ID standard 9.53 mm (3/8 in.) tubing (see Figure 3)
+• For 1.41 l/min. CNC
+8. 10  Downstream Adapter — To connect 12.7 mm (1/2 in.) sampler tubing to the test device. For 12.7 mm (1/2 in.)
+test devices, the adapter is a simple face-seal connector. For 6.35 mm (1/4 in.) test devices, the adapter is a tapered
+cone between 6.35 mm and 12.7 mm (1/4 in. and 1/2 in.) face-seal connections.
+8. 11  Spool  Pieces  —  Of  the  same  inside  diameter  as  the  inside  diameter  fittings  on  the  test  piece  and  of  a  length
+representative  of  the  DUT,  to  be  installed  in  the  system  in  place  of  the  test  device  while  obtaining  background
+counts for the system.</p><p>SEMI E66-1103 © SEMI 1997, 2003 5
+8. 12  Fittings  —  Face  seal  connectors  or  compression  fittings,  depending  on  test  component  end  connections.  The
+end connection fittings of each DUT being compared must be of the same type.
+8. 13  Metal Gaskets — New gaskets should be used for each new connection.
+8. 14  Mechanical Shock Device — To provide mechanical shock by impact to the test device. (See Figure 4.)
+8. 15  Instrumentation  —  Condensation  nucleus  counter  (CNC)  or  laser  particle  counter  (LPC)  to  collect  particle
+count data.
+8. 16  Isokinetic  Sampler  (IKS)  —  A  static  device  used  to  collect  a  representative  sample  that  is  not  influenced  by
+flow characteristics and/or particle size (see Figure 3). Other designs of isokinetic samplers are permitted as long as
+they collect a representative sample of the flow.</p><p>Figure 4
+Mechanical Shock Test Device
+NOTE: Position the delivery ramp so that the position of impact is at the midpoint of the axial centerline of the device under test.
+9  Sampling, Test Specimens, and Test Units
+9. 1    MFCs  regulate  flows  greater  than  or  less  than  the  flow  requirements  of  particle  counters;  therefore,  two
+different sampling techniques have been defined, isokinetic sampling and direct sampling.
+9. 1.1  Direct Sampling — The direct sampling method is used when the test flow is less than or equal to the sample
+flow. (See Figure 1.)
+9. 1.1.1  In this case, gas exiting the DUT is introduced directly into the CNC. A tee, equipped with a filtered branch,
+is inserted between the DUT and the CNC to provide make-up flow to the CNC. The volume and overall length of
+the tubing connecting the DUT to the tee assembly should be minimized.</p><p>SEMI E66-1103 © SEMI 1997, 2003 6
+9. 1.2  Isokinetic  Sampling  —  Isokinetic  sampling  is
+used when the test flow is greater than the sample flow.
+(See Figure 2.)
+NOTE  1:    An  alternative  size  IKS  may  be  substituted  for  the
+IKS described in Sections 9.1.2.1 through 9.1.2.7 as long as it
+collects   a   representative   sample   of   particles   that   is   not
+influenced by flow characteristics and/or particle size.
+9. 1.2.1    Select  the  appropriate  IKS  (see  Figure  3)  from
+Table  1  for  the  test  flow.  This  is  the  smallest  IKS  that
+exceeds the flow of the DUT.
+9. 1.2.2    The  average  velocity  of  the  gas  through  the
+sampling  probe  shall  approximate  the  average  velocity
+in  the  tubing  in  which  the  sampling  probe  is  inserted.
+The  sample  flow  used  to  calculate  the  sampling  probe
+diameter is the total flow drawn by the counter.
+9. 1.2.3    The  tip  of  the  sampling  probe  is  to  have  a  30_
+taper on the outside diameter.
+9. 1.2.4    The  pick-off  point  is  to  be  centered  within  the
+flow stream.
+9. 1.2.5    The  pick-off  point  is  to  be  at  a  minimum
+distance  of  15  diameters  of  the  primary  flow  tube
+upstream or downstream from any connection.
+9. 1.2.6    Flow  stability  within  the  isokinetic  sampler  is
+maintained by the bypass MFC.
+9. 1.2.7    To  determine  the  dimensions  of  the  isokinetic
+sampler,  as  shown  in  Table  1,  the  following  equations
+and conditions are used:
+10  Preparation of Apparatus
+10. 1  Setup  and  Schematic  for  Direct  Sampling  —  See
+Figure 1.
+10. 1.1  Install the spool piece between points A and B.
+10. 1.2    Set  nominal  supply  pressure  to  308.10  kPa  (30
+psig).
+10. 1.3  Cycle the supply MFC, switching between a low
+flow   and   maximum   purge   flow   as   quickly   as   is
+reasonably  possible.  Cycle  every  five  seconds  for  at
+least  30  minutes.  The  maximum  purge  flow  should  be
+as high as possible and no less than twice the test rate.
+During  this  initial  cleanup,  the  particle  counter  should
+be off-line.
+10. 1.4      Moisture   from   an   inboard   leak   can   cause
+particle  counts  on  some  particle  counters.  Test  the
+system  for  leak  integrity  per  SEMI  F1  –  Subsystems
+Inboard Leak Test.
+10. 2  Setup  and  Schematic  for  Isokinetic  Sampling  —
+See Figure 2.
+10. 2.1  Install the spool piece between points A and B.
+10. 2.2    Set  nominal  supply  pressure  to  308.10  kPa  (30
+psig).
+10. 2.3  Cycle the supply MFC, switching between a low
+flow   and   maximum   purge   flow   as   quickly   as   is
+reasonably  possible.  Cycle  every  five  seconds  for  at
+least  30  minutes.  The  maximum  purge  flow  should  be
+as high as possible and no less than twice the test rate.
+During  this  initial  cleanup,  the  particle  counter  should
+be off-line.
+10. 2.4      Moisture   from   an   inboard   leak   can   cause
+particle  counts  on  some  particle  counters.    Test  the
+system  for  leak  integrity  per  SEMI  F1  –  Subsystems
+Inboard Leak Test.
+10. 3  Select the appropriate isokinetic sampler based on
+the maximum test flow of the DUT, using Table 1 and
+Figure 3. The size of the sampler should be equal to or
+greater than the maximum test flow.
+11  Calibration and Reference Standards
+11. 1  Calibrate  instruments  regularly  according  to  the
+manufacturer’s recommendations.
+12  Test Procedure
+The  test  apparatus  is  to  be  enclosed  in  a  Class  100
+environment  (in  accordance  with  ISO  14644).  Test
+must  be  performed  in  the  sequence  described  below.
+(See Figures 5 and 6.)
+Measure  DUT  in  purge  mode  to  determine  flow  or  use
+the   value   supplied   by   the   manufacturer.   This   will
+determine   which   apparatus   to   use,   direct   sampling
+(Figure 1) or IKS (Figure 2). Both of the test apparatus
+may  be  required  for  testing  a  wide  range  of  flow
+controllers.</p><p>SEMI E66-1103 © SEMI 1997, 2003 7</p><p>Figure 5
+Particle Test Flow Chart</p><p>SEMI E66-1103 © SEMI 1997, 2003 8</p><p>Figure 6
+Statistical Validity Subroutine</p><ol start="12"><li>1  Procedure  for  Direct  Sampling  —  See  Figures  5
+and 6.</li><li>1.1  Background   Count   Determination   —   Insert
+spool piece between points A and B (see Figure 1).</li><li>1.2  Steady State Control Mode Background Test —
+Set  supply  MFC  (SFC)  to  the  intended  test  flow  value
+of  the  DUT.  For  this  test,  the  100%  full  scale  value  is
+recommended.</li><li>1.2.1      Count   particles   for   the   time   necessary   to
+achieve a stable particle level.</li><li>1.3  Dynamic  Control  Mode  Background  Test  —
+Cycle  the  SFC  from  10%  to  100%  of  the  DUT’s  rated
+flow. The cycle period is equal to two times the settling
+time  of  the  DUT  with  the  longest  settling  time.  (This
+will ensure that all MFCs in a given test are tested at the
+same cycle time.)</li></ol><p>SEMI E66-1103 © SEMI 1997, 2003 9
+12. 1.3.1      Count   particles   for   the   time   necessary   to
+achieve a stable particle level.
+12. 1.4  Purge Mode Background Test — Set the SFC to
+100% of the rated flow of the DUT.
+12. 1.4.1      Count   particles   for   the   time   necessary   to
+achieve a stable particle level.
+12. 1.5  Impact  Background  Test  (optional)  —  Set  the
+SFC  to  the  intended  flow  value  of  the  DUT.  For  this
+test, the 100% full scale (FS) value is recommended.
+12. 1.5.1    Maintain  the  test  flow  in  the  spool  piece  to
+achieve a constant particle level. Strike the spool piece
+once a minute (using the mechanical shock device) until
+a constant particle level is achieved. (See Figure 4.)
+12. 1.5.2      Count   particles   for   the   time   necessary   to
+achieve a stable particle level.
+12. 1.6  Steady  State  Control  Mode  Test  —  Set  SFC  to
+10% setpoint of the DUT’s rated flow.
+12. 1.6.1    Remove  the  spool  piece  by  disconnecting  the
+downstream   fitting   and   then   the   upstream   fitting.
+Immediately  install  the  test  component  in  a  fully  open
+position by connecting the upstream fitting and then the
+downstream  fitting.  Take  extreme  care  to  minimize
+contamination    of    the    test    apparatus    during    this
+operation.
+12. 1.6.2  Set the SFC in purge mode (emulates tubing).
+12. 1.6.3  Set the DUT to the desired flow. For this test,
+the 100% full scale value is recommended.
+12. 1.6.4      Count   particles   for   the   time   necessary   to
+achieve a stable particle level.
+12. 1.7  Dynamic  Control  Mode  Test  —  Keep  the  SFC
+in purge mode (emulates tubing).
+12. 1.7.1    Cycle  the  DUT  from  10%  to  100%  of  the
+DUT’s  rated  flow.  The  cycle  period  is  equal  to  two
+times  the  settling  time  of  the  DUT  with  the  longest
+settling time. (This will ensure that all MFCs in a given
+test are tested at the same cycle time.)
+12. 1.7.2      Count   particles   for   the   time   necessary   to
+achieve a stable particle level.
+12. 1.8  Purge  Mode  Test  —  Set  SFC  to  100%  of  the
+DUT’s rated flow.
+12. 1.8.1  Operate DUT in the purge mode until a stable
+particle level is achieved.
+12. 1.9  Impact   Test   (optional)   —   This   test   is   to
+immediately follow the purge mode test.
+12. 1.9.1    Keep  the  SFC  set  to  100%  of  the  DUT’s  rate
+flow.
+12. 1.9.2    Operate  the  DUT  in  the  purge  mode  until  a
+stable particle level is achieved.
+12. 1.9.3  Strike the DUT once a minute until consistent
+particle  transients  are  achieved  using  the  mechanical
+shock device. (See Figure 4.)
+12. 1.10  Background  Test  —  Repeat  all  background
+tests performed in Section 12.1.1.
+12. 1.10.1  Procedure for Isokinetic Sampling — Follow
+the  procedures  described  in  Section  12.1,  with  the
+following exceptions:
+12. 1.10.2    To  establish  the  background,  see  Figure  2
+and  the  example  below.  With  the  spool  piece  in  place,
+the throttle valve V1 fully open, and the bypass MFC in
+purge mode, set the SFC to the maximum inlet flow of
+the  IKS.  Adjust  V1  and  monitor  the  flow  through  the
+bypass MFC until the difference between the SFC flow
+and  the  bypass  MFC  flow  is  equal  to  the  intended  test
+flow  of  the  DUT.  The  throttle  valve  V1  should  remain
+fully  open  for  all  other  tests  that  use  the  test  set-up  in
+Figure 2.</p><p>Example
+Given Test
+Flow:
+Set SFC
+Flow:
+Adjust V1 for Bypass
+MFC Flow:
+25 slpm 30 slpm 5 slpm
+50 slpm 100 slpm 50 slpm
+12. 1.10.3    During  steady  state  and  dynamic  testing  of
+the   DUT,   use   the   bypass   MFC   to   make   up   the
+difference between the intended flow value of the DUT
+and  the  maximum  inlet  flow  of  the  sampler  selected
+from Table 1.
+13  Data Analysis
+13. 1    Appendix  1  contains  information  on  statistical
+process    control    charting.    Appendix    2    contains
+information   on   performing   the   t-test,   a   statistical
+method  of  comparing  the  mean  background  particle
+count with the mean device particle count.
+14  Data Presentation
+14. 1  The following test conditions are to be reported in
+the data presentation:
+14. 1.1  Date and time of test
+14. 1.2  Operator
+14. 1.3  Test flow rate (sccm)
+14. 1.4  Test pressure (kPa)
+14. 1.5  Ambient temperature (°C)
+14. 1.6  MFC orientation</p><p>SEMI E66-1103 © SEMI 1997, 2003 10
+14. 1.7  MFC location in test bed if multiple station test
+set-up used.
+14. 1.8  Cleanroom or environment classification
+14. 1.9  MFC type, manufacturer, serial number, sample
+flow  rate  (sccm),  model  number,  calibration  date,  and
+particle range
+14. 1.10  Test gas type and dew point (°C)
+14. 1.11    A  schematic  of  the  test  apparatus,  including
+manufacturers  and  model  numbers  of  all  test  apparatus
+components
+14. 1.12  Calibration dates for the flow meters
+14. 2    Refer  to  Figure  A1-2  as  an  example  of  a  typical
+cleanup  curve.  Graph  the  static,  dynamic,  and  impact
+portions   of   the   test   separately   as   counts/minute
+(measured  by  the  counter)  versus  time.  Include  the
+appropriate background (measured with the spool piece
+in  place)  for  each.  Also  graph  the  entire  data  set  as
+counts per minute versus time. If different MFCs are to
+be compared, graph their entire data sets together.
+14. 3      Present  the  entire  raw  data  set  in  tabular  form
+(see Table A2-1).
+15  Precision and Bias
+15. 1    The  precision  and  bias  of  the  data  generated  by
+this  test  method  is  limited  to  the  precision  and  bias  of
+the particle measuring instruments used.
+16  Related Documents
+16. 1  SEMI Standards
+SEMI  F78  —  Practice  For  Gas  Tungsten  Arc  (GTA)
+Welding      Of      Fluid      Distribution      Systems      In
+Semiconductor Manufacturing Applications
+SEMI  F81  —  Specification  For  Visual  Inspection  And
+Acceptance  Of  Gas  Tungsten  Arc  (GTA)  Welds  In
+Fluid     Distribution     Systems     In     Semiconductor
+Manufacturing Applications
+16. 2  Manufacturer’s Document
+16. 2.1  Manufacturers    Operating    Manual    —    The
+appropriate  particle  counters  manufacturer  operating
+and  maintenance  manuals  should  be  consulted  when
+using this test method.
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.</p><p>SEMI E66-1103 © SEMI 1997, 2003 11
+APPENDIX 1
+STATISTICAL PROCESS CONTROL CHARTING
+NOTE: This appendix was approved as an official part of SEMI E66 by full letter ballot procedure.
+A1-1
+A1-1.1  The following rules should be used to interpret the statistical process control chart, Figure A1-1:</p><h1>1</h1><ol><li><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">If one observation is outside UCL/LCL, the process is out of control.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></li></ol><h1>2</h1><ol start="2"><li><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">If two consecutive observations are &gt; halfway, the process is out of control.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></li></ol><h1>3</h1><ol start="3"><li><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">If at least eight successive points are in control, the process is stable.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>A1-1.2    It  has  been  assumed  that  the  data  is  approximately  normal  under  log  transform  and  that  samples  are
+independent.</li></ol><p>Figure A1-1
+Statistical Process Control Chart
+S=
+(x
+i
+−x )
+2
+1
+n
+∑
+n−1
+where n=  #  of observations</p><p>SEMI E66-1103 © SEMI 1997, 2003 12
+A1-1.3      Figure   A1-2   gives   an   overall   picture   of   the   data   collection   specified   by   Table   A2-1   for   both
+“BACKGROUND” and “DEVICE”. There are three phases of data collection:</p><ol><li>Cleanup</li><li>Steady-state performance</li><li>Statistical process control (SPC)</li></ol><p>Figure A1-2
+Graphical Representation of Data Collection</p><p>SEMI E66-1103 © SEMI 1997, 2003 13
+APPENDIX 2
+t-TESTING; COMPARISON OF BACKGROUND MEAN AND DEVICE
+MEAN
+NOTE: This appendix was approved as an official part of SEMI E66 by full letter ballot procedure.
+A2-1
+A2-1.1  The background and DUT are expected to have low particle counts. Therefore, a statistical method is needed
+to  determine  if  there  is  a  difference  between  background  and  DUT  particle  counts.  The  t-test  is  a  method  of
+determining  the  actual  statistical  difference  between  the  mean  background  particle  count  and  the  mean  device
+particle count. It can be used to characterize the particle contribution by the MFC Record results in Table A2-1.
+Table A2-1  Test Worksheet</p><h1>Observation                             log                             Observation                             Remarks</h1><p>Spool Cleanup 1 ... Nx   All computations are in the logs of
+original observations.
+Stable Level  X1 ... X25  Compute X
+1, S1, UCL, LCL.</p><p>SPC  X26 ... X334  Use all 8 values to recompute new
+values (X
+1,S1
+).
+Connect Device
+Device Cleanup  X34 ... X35 + n
+Stable Level  X34 + n + 1 ... X34 + n + 25  Compute X
+2, S2, UCL, LCL
+.
+SPC  X34 + n + 26 ... X34 + n + 34 Use all 8 values to recompute new
+values (X
+2, S2
+).
+NOTE: Use t-test to compare X’s. (See Appendix 2.)</p><p>A2-1.2  Calculate pooled standard deviation using the following equation:
+S</p><h1>pooled</h1><p>(n
+1
+−1)S
+1
+2
++(n
+2
+−1)S
+2
+2
+n
+1
++n
+2
+−2
+where :
+S
+1
+=background standard deviation
+S
+2
+=device standard deviation
+n
+1
+=background sample size
+n
+2
+=device sample size</p><p>A2-1.3  Calculate the value of T (the t-test’s namesake) as follows:
+t=
+X
+1
+−X
+2
+S
+pooled
+1
+n
+1</p><ul><li>1
+n
+2
+where :
+1 = background mean
+2 = device mean</li></ul><p>SEMI E66-1103 © SEMI 1997, 2003 14
+A2-1.4  The degrees of freedom (dof) is n
+1</p><ul><li>n
+2</li></ul><ul><li><ol start="2"><li>For example, if n
+1
+= n
+2
+= 8, then dof = 14.
+A2-2  Interpretation
+A2-2.1  If |t| &gt; t
+.975
+, then the two means are significantly different at the 95% level. If  |t| &gt; t
+.995
+, then the two means
+are significantly different at the 99% level (e.g., by “95% confidence,” it is meant that the difference/no-difference
+decision based on the t-test will be correct 95% of the time).
+t
+.975
+= 2.145 (2-sided)
+t
+.995
+= 2.977 (2-sided)
+NOTE:
+• All readings are log particle counts, not particle counts.
+• Since logs are used, zeros have to be replaced by positive values (e.g., 1/2).
+• To determine t value for a particular confidence level and (dof), refer to any statistical reference book.</li></ol></li></ul><p>NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringment of such rights, are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E67-0304 © SEMI 1997, 2004 1
+SEMI E67-0304
+TEST METHOD FOR DETERMINING RELIABILITY OF MASS FLOW
+CONTROLLER
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee on December 4, 2004.  Initially available at <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a> February 2004; to be published March</p><h1>2004</h1><ol start="2004"><li>Originally published September 1997.
+1  Purpose</li><li>1        This    document    describes    a    method    to    help
+determine   the   ability   of   an   MFC   to   meet   the
+manufacturer’s  published  specifications  over  its  life
+time.  The  results  of  the  test  will  also  be  useful  in  the
+comparison of MFCs.
+2  Scope</li><li>1        This    procedure    applies    to    MFCs    used    in
+semiconductor gas systems.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations</li><li>1    This  procedure  is  to  be  used  only  in  conjunction
+with  another  existing  parametric  test  for  mass  flow
+controllers   to   obtain   the   reliability   data   for   that
+particular parametric test.</li><li>2  New MFCs shall be used for reliability testing. An
+MFC that has been put through this test method may be
+tested for reliability again.</li><li>3    In  addition  to  this  procedure,  the  parametric  test
+may  also  cycle  the  valve.  These  cycles  should  be
+ignored  for  determining  the  cumulative  cycles  that  are
+described in the data table.</li><li>4    This  test  will  not  address  root  cause  analysis  of
+failures.</li><li>5      Read   points   have   been   selected   for   this   test
+procedure  so  that  the  test  will  take  approximately  six
+months  to  complete.  The  read  point  schedule  given  is
+only  a  suggested  schedule  and  if  the  user  feels  that  a
+different   read   point   schedule   would   better   suit   his
+needs,  this  test  method  can  still  be  used  to  obtain
+reliability data.
+4  Referenced Standards</li><li>1  SEMI Standards
+SEMI  E17  —  Guideline  for  Mass  Flow  Controller
+Transient Characteristics Tests
+SEMI  E66  —  Test  Method  for  Determining  Particle
+Contribution by Mass Flow Controllers
+SEMI    E69    —    Test    Method    for    Determining
+Reproducibility and Zero Drift for Thermal Mass Flow
+Controllers
+SEMI  F1  —  Specification  for  Leak  Integrity  of  High-
+Purity Gas Piping Systems and Components</li><li>2  SEMASPECs
+1</li></ol><p>NOTE 1:  The SEMASPECs noted here will be superceded by
+the comparable SEMI documents when available.
+90120391B-STD  —  SEMATECH  Test  Method  for  the
+Determination   of   the   Helium   Leak   Rate   for   Gas
+Distribution System Components
+92071220B-STD — SEMATECH Guide to Provisional
+Test Methods for Mass Flow Controllers
+4. 3  Other Document
+Nelson,   Wayne,   Applied   Life   Data   Analysis,   New
+York, NY Wiley, 1982 (see Annex)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Acronyms and Abbreviations
+5. 1.1  MFC — Mass flow controller
+5. 1.2  UHP — Ultra-high purity
+5. 2  Definitions
+5. 2.1  cycle — a repeating sequence of setpoints applied
+to the MFC.
+5. 2.2  hard  failure  —  a  catastrophic  mechanical  failure
+or  electrical  failure  that  results  in  an  inoperable  MFC,</p><p>1 SEMATECH, 2706 Montopolis Drive, Austin, TX 78741, USA
+website: <a href="http://www.sematech.org" target="_blank" rel="noopener noreferrer">www.sematech.org</a>.</p><p>SEMI E67-0304 © SEMI 1997, 2004 2
+or  a  deviation  from  a  user-defined  specification  that
+results  in  a  condition  that  makes  the  MFC  inadequate
+for the user’s process.
+5. 2.3  parametric  test  —  the  test  method  that  deter-
+mines  the  data  for  which  reliability  information  is
+sought (e.g., accuracy test or particle test, SEMI E66).
+5. 2.4  readpoint  —  cumulative  cycles  applied  to  the
+MFC.
+5. 2.5  reliability  —  the  probability  that  the  equipment
+will   perform   its   intended   function,   within   stated
+conditions, for a specified period of time.
+5. 2.6  soft  failure  —  failure  that  occurs  when  an  MFC
+no longer meets the manufacturer&#x27;s specification for the
+parameter under test.
+6  Summary of Test Method
+6. 1      The   MFC   is   installed   in   a   fixture   capable   of
+applying and recording a number of flow cycles. When
+the number of cycles specified in the readpoint schedule
+is  reached,  cycling  is  suspended,  parametric  tests  are
+per-formed,  and  the  cycling  is  resumed  until  either  the
+next  readpoint  is  reached,  or  the  MFC  experiences  a
+hard   failure.   After   the   cycling   is   completed,   the
+parametric   test   data   is   analyzed   to   determine   the
+reliability of each parameter.
+7  Significance and Use
+7. 1  This test provides an estimate of the reliability of a
+mass flow controller. The results of the test will also be
+useful  in  the  comparison  of  MFCs.  The  data  provided
+by  this  test  can  help  end  users  determine  the  reliability
+of equipment that uses MFCs.
+7. 2      The   following   parameters   and   associated   test
+methods should be tested with this test method to obtain
+reliability data:</p><p>Parameter                               Test                               Method
+Particle Contribution SEMI E66
+Reproducibility &amp; Zero Drift SEMI E69
+Helium Leak Rate SEMASPEC
+90120391B-STD
+Step Response SEMI E17</p><ol start="7"><li>3  The following modifications to the preceding para-
+metric test methods are suggested to abbreviate the time
+required to complete the reliability test:</li><li>3.1  SEMI E66 (Particle Contribution)  —  Abbreviate
+this  test  method  to  perform  only  the  dynamic  control
+mode  test.  Perform  Sections  12.1.3  and  12.1.7,  and
+eliminate Sections 12.1.2, 12.1.4, 12.1.5, 12.1.6, 12.1.8,</li><li>1.9,    and    12.1.10.    Refer    to    Sections    5.2.1
+(Background),  5.2.3  (Dynamic),  and  Figure  5  (Particle
+Test Flow Chart).</li><li>3.2  SEMI  E69  (Reproducibility  &amp;  Zero  Drift)  —
+Omit Sections 12.1 and 12.2.</li><li>3.3  SEMI  F1  (Leak  Integrity)  —  The  intent  of  the
+reliability  test  method  is  to  detect  the  development  of
+gross  leaks  in  the  DUT  due  to  cycling  of  the  DUT
+valve.  The  inboard  component  leak  test  portion  of  this
+standard should be performed.</li><li>3.4  SEMI E17 (Step Response) — No abbreviation is
+necessary  for  this  test.  However,  perform  this  test  with
+the  modifications  noted  in  the  SEMATECH  Guide  to
+Provisional  Test  Methods  for  Mass  Flow  Controllers,
+SEMASPEC 92071220B-STD.</li><li>4    Change  in  the  performance  characteristics  of  the
+MFC,  as  measured  by  the  above  tests,  may  also  be
+monitored and analyzed as indicative of drift.
+8  Apparatus</li><li>1    In  addition  to  the  apparatus  listed  below,  the  user
+must also acquire any apparatus required to perform the
+parametric test for which reliability data is needed. (See
+documents cited in Section 7.2.)</li><li>1.1  Power supply</li><li>1.2  NIST    (or    equivalent    recognized    standards
+agency) — traceable flow calibration system</li><li>1.3    MFC  control  cables,  as  many  as  required  in
+Section 8.1.4</li><li>1.4  Mass flow controllers for controlling test flows in
+addition to the DUT MFCs, as many as required for the
+test setup</li><li>1.5  Cycling fixture
+9  Materials</li><li>1    In  addition  to  the  materials  listed  below,  the  user
+must also acquire any materials required to perform the
+parametric test for which reliability data is needed. (See
+documents  cited  in  Section  7.2.)  Since  reliability  data
+for leak integrity is being sought, helium cannot be used
+during the cycling procedure.</li><li>1.1  Source of nitrogen (99.999%)
+10  Sampling, Test Specimens, and Test Units</li><li>1    Three  MFCs  are  required  for  meaningful  data
+analysis. However, 20 to 30 MFCs are a recommended
+minimum. A larger sample size provides a more precise
+estimate of reliability.</li></ol><p>SEMI E67-0304 © SEMI 1997, 2004 3
+11  Preparation of Apparatus
+11. 1  The setup for the parameter under test is described
+in   the   document   for   that   particular   parameter   (see
+Section 7.2).
+12  Calibration and Reference Standards
+12. 1    Any  required  instrument  calibration  or  use  of
+reference  standards  must  be  done  in  accordance  with
+the  particular  parametric  test  for  which  reliability  data
+is needed.
+13  Conditioning
+13. 1      Conditioning   requirements   are   those   of   the
+particular  parametric  test  for  which  reliability  data  is
+needed.
+14  Procedure
+14. 1  Connect all MFCs under test in parallel.
+14. 2    Perform  the  parametric  test  before  any  cycling  is
+done  and  note  the  resulting  data  on  the  data  sheet
+(Table 1). This is the first readpoint (see Figure 1).
+Table 1  Data Sheet for Reliability Testing
+READPOINT
+(Cumulative cycles
+applied to the MFC)
+FAILURE
+TYPE
+— SOFT
+OR HARD
+SOFT
+FAILURE
+TYPE<em>
+0 (baseline)
+10,000
+40,000
+100,000
+200,000
+300,000
+450,000
+600,000
+750,000
+875,000
+1,000,000
+</em>Use the following soft failure types:
+A = Accuracy/Repeatability
+P = Particles
+S = Step Response
+L = Leakage</p><p>SEMI E67-0304 © SEMI 1997, 2004 4</p><p>Figure 1
+Flowchart for Reliability Test Procedure</p><p>NOTE: Do not count the cycles that occur during the parametric test.
+14. 3  Cycle the MFCs to the next readpoint in Table 1. Two types of cycles are applied to the MFC to simulate more
+realistically  the  MFC’s  field  environment.  Alternate  between  the  two  types  of  cycles  as  illustrated  in  Figure  2.
+Maintain each setpoint for a fixed period of time. Use one of the following times based upon the settling time of the
+slowest  DUT.  If  the  settling  time  is  less  than  or  equal  to  1.25  seconds,  use  a  time  period  of  2.5  seconds.  If  the
+settling time is less than or equal to 2.5 seconds and greater than 1.25 seconds, use a time period of 5 seconds. If the
+settling time is greater than 2.5 seconds, use a time period of twice the settling time.</p><p>SEMI E67-0304 © SEMI 1997, 2004 5</p><p>Figure 2
+Types of Cycles</p><ol start="14"><li>4    Discontinue  cycling.  Perform  the  parametric  tests
+on all MFCs and record the results on the data sheet. If
+any MFC experiences a soft failure, record the data but
+do not stop the cycling procedure. However, if an MFC
+experiences  a  hard  failure,  record  the  data,  discontinue
+testing   this   MFC,   and   take   appropriate   action   to
+maintain system integrity.
+NOTE  2:    The  test  does  not  require  mention  of  the  cause  for
+hard failure, as it is beyond the scope of this document.</li><li>5    The  parametric  tests  should  be  performed  in  the
+following order: particle, accuracy, response, and leak.</li><li>6    Perform  all  of  the  parametric  tests  on  a  single
+MFC  before  proceeding  to  the  next  one.  Record  the
+order  of  the  MFCs  tested  and  the  time  since  the  test
+stand was idled.</li><li>7  If the readpoint is reached during a time when it is
+not  possible  to  start  the  parametric  testing,  continue
+cycling until it is possible to begin. Record the number
+of cycles that occurred before beginning testing.</li><li>8  Average the particle count information over a 10-
+minute   interval.   Count   particles   for   six   10-minute
+intervals.  Record  the  data  from  only  the  last  three  10-
+minute intervals.</li><li>9    Repeat  Sections  14.4  through  14.8  until  all  the
+readpoints have been completed or until all MFCs have
+experienced hard failures.
+15  Data Analysis</li><li>1  Calculations  —  See  Appendix  1  for  a  discussion
+on reliability calculation.</li><li>2  Interpretation   of   Results   —   The   readpoints
+included  in  Table  1  are  approximately  equidistant  on  a
+log  scale,  and  as  data  is  collected,  the  number  of
+readpoints needed to show trends and estimate life will
+decrease significantly.
+16  Data Presentation</li><li>1    Plot  each  performance  measure  over  number  of
+cycles to look for trends and shifts as a function of use
+(see   Figure   3).   This   gives   a   picture   of   dynamic
+performance vs. use.</li></ol><p>SEMI E67-0304 © SEMI 1997, 2004 6</p><p>Figure 3
+Typical Performance Measure vs. Number of Cycles</p><ol start="16"><li>2    Record  time  to  failure  and  plot  failure  times  on  lognormal  or  Weibull  probability  scales  (see  Figure  4).  This
+plot gives an estimate of the useful life of an MFC (see Sections A1-1.1.4 – A1-1.1.5). Record data for the parameter
+tested in the data sheet given within the parametric test method.</li></ol><p>Figure 4
+Time to Fail vs. Failure Percentage</p><p>SEMI E67-0304 © SEMI 1997, 2004 7
+16. 3    Record  data  for  the  parameter  tested  in  the  data
+sheet given within the parametric test method.
+16. 4  The following test conditions are to be reported in
+the data presentation:
+16. 4.1  date and time of test
+16. 4.2  operator
+16. 4.3  test flow rate (SLM)
+16. 4.4   test pressure (kPa)
+16. 4.5  ambient temperature (°C)
+16. 4.6  MFC orientation
+16. 4.7  MFC location in test bed
+16. 4.8  cleanroom or environment classification
+16. 4.9      MFC   type,   manufacturer,   serial   number,   lot
+number, and model number
+16. 4.10          LPC/CNC     manufacturer,     serial     number,
+sample  flow  rate  (SLM),  model  number,  calibration
+date, particle range, and efficiency
+16. 4.11  test gas type and dew point (°C)
+16. 4.12    a  schematic  of  the  test  apparatus,  including
+manufacturers  and  model  numbers  of  all  test  apparatus
+components
+16. 4.13  calibration dates for the flow meters
+16. 4.14  cycle time used for test
+17  Precision and Bias
+17. 1  Precision and bias in this test are a function of the
+uncertainty  of  the  measurement  equipment  used.  The
+tester  or  end  user  is  responsible  for  determining  the
+precision and bias of a particular setup and test.</p><p>SEMI E67-0304 © SEMI 1997, 2004 8
+APPENDIX 1
+RELIABILITY ANALYSIS
+NOTICE: This appendix was approved as an official part of SEMI E67 by full letter ballot procedure.
+NOTE 1: The method for reliability analysis provided herein is one of many possible methods which may be used. It is up to the
+user to determine if this method or another (e.g., Weibull) is to be used for determination of MFC reliability.
+A1-1  Reliability Analysis
+A1-1.1    Almost  all  reliability  studies  of  entities  whose  failure  is  unplanned,  focus  on  the  time  until  a  small
+percentage has failed (time until 10% of the population has failed, for example). Focus is on the left tail of the time-
+to-failure probability distribution. Nelson’s book, Applied Life Data Analysis, (Wiley, 1982) gives a simple method
+for  estimating  the  time  to  10%  failure  for  a  lognormal  distribution  (n  =  2  to  10)  from  units  put  on  test.  Table  A1
+(from page 272 of Nelson’s book) can be used as follows:
+A1-1.1.1  Calculate the % failed from the following equation:
+Plot % failed vs. # cycles to failure for each MFC that failed on lognormal probability paper (see Figure 4).
+A1-1.1.2  Estimate the mean, μ<em>, and the standard deviation, σ</em>, from the plot with the following equations:
+A1-1.1.3  Calculate a 90% lower confidence limit for the (log of) 10% failure percentile (y
+10
+,
+lcl
+) from the following
+equations:
+y<em> = LOG (y
+10, lcl
+)=μ</em>+ t<em> <!-- -->[δ= 0.10,  P = 0.10, n =#  tested,r=#  failed]<!-- -->×σ</em>
+where t <em>  is found from Applied Life Data Analysis,  Table A1
+y
+10,  lcl
+=10
+y</em></p><p>A1-1.1.4  Here is a sample set of data to illustrate the procedure.</p><p>i Cycles to Failure % Failed
+1                                                          6.3                                                          K                                                          8.3
+2                                                         15.8                                                         K                                                         25.0
+3                                                         25.1                                                         K                                                         41.7
+4                                                          40                                                          K                                                          58.3
+5                                                          63                                                          K                                                          75.0
+6 did not fail did not fail
+The % failed column was calculated from the equation in Section A1-1.1.1.</p><p>A1-1.1.5  See Figure 4 for a plot of this data.
+A1-1.1.6  Use Figure 4 to calculate μ<em> and σ</em>.</p><p>SEMI E67-0304 © SEMI 1997, 2004 9</p><h1></h1><h1>of cycles to 50% failure = 3000 from graph</h1><p>μ<em> = LOG (#  of cycles to 50% failure)
+μ</em> = LOG (30000)
+μ* = 4.477</p><h1>of cycles to 16% failure = 11000 from graph</h1><p>σ<em>=μ</em>− LOG (#  of cycles to 16% failure)
+σ<em> = 4.477− LOG (11000)
+σ</em> = 4.477−4.041
+σ* = 0.436</p><p>A1-1.1.7  From Table A1 (from page 272 of Nelson’s book), look up t<em>:
+This data indicates, with a 90% confidence limit, that 10% of the devices will fail by 2443 cycles.
+A1-1.1.8  Table A1 percentiles t</em> (d: 10, n, r) for limits for y
+.10
+.</p><p>nφ rφ
+pÆ 0.005 0.01          0.025          0.05            0.1             0.5          0.9            0.95          0.975          0.99          0.995
+2     2       -183.9        -88.09         -36.3     -16.4         -7.869       -1.405       -0.327       -0.118        0.083        0.444        0.888
+3       2       -117.6       -59.41       -26.14       -13.45       -6.786       -1.38        -0.495        -0.256        -0.0715        0.898        2.072
+3       2       -17.6        -12.28       -7.761       -5.497       -3.691       -1.326       -0.473       -0.305       -0.154       0.047`        0.172
+4       2       -113.5       -56.59        -21.5        -11.55       -5.934       -1.348       -0.537        -0.28         0.236        1.864        4.305
+4       3       -15.58       -11.52       -7.112       -5.071       -3.503       -1.313       -0.558       -0.399       -0.252       -0.0573       0.107
+4       4       -9.617       -7.008       -4.985       -3.792       -2.921        -1.29        -0.559       -0.409       -0.265       -0.124       -0.0141
+5       2       -112.9       -48.61       -18.13        -9.49        -4.988       -1.322       -0.567       -0.182        0.519        2.436        5.585
+5       3       -13.33       -9.911       -6.294       -4.598       -3.208       -1.306       -0.622       -0.463       -0.285       -0.004050.271
+5       4       -7.956       -6.415       -4.652       -3.636       -2.778       -1.292       -0.624       -0.475        0.335        -0.173       -0.0587
+5       5       -5.565       -4.871       -3.892       -3.184       -2.585       -1.287       -0.622       -0.472       -0.344       -0.202       -0.109
+6       2       -76.15       -37.64       -17.14       -8.573       -4.669       -1.313        -0.57       -0.0928       0.779        3.427        6.336
+6       3       -14.2        -10.33       -6.289       -4.393       -3.107       -1.303        -0667        -0.503        -0.323        -0.0332        0.375
+6       4       -7.414        -5.87        -4.386       -3.487       -2.721       -1.302       -0.673       -0.546       -0.427       -0.286       -0.197
+6       5       -5.45        -4.681       -3.746       -3.083       -2.498       -1.297       -0.673       -0.547        -0.44        -0.309       -0.219
+6       6       -4.663       -4.012       -3.336       -2.826       -2.371         -1.3         -0.678       -0.546       -0.438       -0.322       -0.246
+7       2       -68.12       -32.41       -15.19       -8.208        -4.34        -1.303       -0.561       -0.016        0.989        4.067         9.64
+7       3       -12.82       -9.162       -5.602       -4.099       -3.005       -1.301        -0.71        -0.529         0.33        -0.0654        0.292
+7       4       -7.571       -5.812       -4.171       -3.346       -2.622       -1.298       -0.722       -0.587       -0.464       -0.289        -0.12
+7       5       -5.523       -4.604       -3.705       -3.034       -2.417       -1.295       -0.723       -0.595       -0.495       -0.361       -0.243
+7       6       -4.636       -4.112       -3.351       -2.791        -2.32        -1.288       -0.722       -0.597       -0.501       -0.381       -0.294
+7       7       -4.282       -3.693       -3.041       -2.641       -2.228       -1.285       -0.725       -0.595       -0.501       -0.376       -0.287
+8       2       -63.58       -29.95       -13.34       -6.948       -3.728       -1.293       -0.472        0.226        1.645        6.157         14.5
+8       3       -10.54       -7.628       -4.967       -3.637       -2.756       -1.297       -0.732       -0.549       -0.309         0.13          0.54
+8       4       -6.59        -5.172       -3.937       -3.119       -2.484       -1.286       -0.752       -0.609       -0.468       -0.266        -0.11
+8       5       -5.363       -4.296       -3.443       -2.885       -2.361       -1.287       -0.757       -0.629       -0.507       -0.358       -0.242
+8       6       -4.515       -3.855        -3.22        -2.756       -2.282       -1.287       -0.758       -0.633       -0.514       -0.386       -0.306
+8       7       -4.086       -3.583       -3.019       -2.602       -2.205       -1.284       -0.755       -0.632       -0.514       -0.399       -0.336
+8       8       -3.781       -3.414       -2.851       -2.485       -2.162        -1.29        -0.757        -0.63        -0.514        -0.404        -0.338
+9       2       -56.28       -30.29       -11.44       -6.353        -3.55         -1.314         -0.465         0.353         2.089         6.581         11.57</p><p>SEMI E67-0304 © SEMI 1997, 2004 10
+nφ rφ
+pÆ 0.005 0.01          0.025          0.05            0.1             0.5          0.9            0.95          0.975          0.99          0.995
+9       3       -11.84       -8.048       -5.062       -3.693       -2.704       -1.312       -0.739       -0.551       -0.304        0.209        0.744
+9       4       -6.562       -5.165       -3.775       -3.043       -2.457        -1.31        -0.772        -0.64        -0.505         -0.3         -0.167
+9       5       -5.034       -4.316       -3.446       -2.851       -2.318       -1.307        -0.777        -0.66        -0.548        -0.427        -0.326
+9       6       -4.437       -3.901        -3.21        -2.714       -2.232       -1.305       -0.779       -0.663       -0.566       -0.444       -0.365
+9       7       -4.103       -3.651        -3.08        -2.605       -2.177       -1.303        -0.78        -0.665        -0.57        -0.457        -0.373
+9       8       -3.813       -3.408       -2.878        -2.49        -2.135         -1.3         -0.776       -0.665       -0.572       -0.459       -0.381
+9       9       -3.624       -3.228       -2.752       -2.413       -2.067       -1.298        -0.78        -0.666       -0.571       -0.458       -0.396
+10       2       -60.81       -27.39       -10.07       -5.683       -3.326       -1.299        -0.34          0.77         2.744        7.973        15.67
+10        3        -9.675        -6.99        -4.618        -3.42        -2.572        -1.301       -0.758       -0.532       -0.255        0.306        1.018
+10       4       -6.389       -5.028       -3.792       -2.993       -2.353       -1.297       -0.798       -0.657       -0.528       -0.332       -0.134
+10       5       -5.258       -4.324       -3.357       -2.749       -2.257       -1.297       -0.801       -0.684       -0.581       -0.426       -0.315
+10       6       -4.559       -3.701       -3.029       -2.569       -2.182       -1.294       -0.802       -0.689        -0.59        -0.488       -0.405
+10       7       -3.838        -3.43        -2.853       -2.497       -2.121       -1.293       -0.803       -0.689       -0.593       -0.497       -0.428
+10       8       -3.706       -3.173       -2.752       -2.401       -2.091       -1.292       -0.803       -0.688       -0.598       -0.502       -0.431
+10       9       -3.458       -3.118       -2.636       -2.353       -2.046       -1.288       -0.804       -0.689       -0.598       -0.502       -0.438
+10       10       -3.297       -2.996       -2.561       -2.284        -2.02         -1.29        -0.804       -0.693       -0.598       -0.501       -0.437
+NOTE: Reprinted with permission from The American Statistician © 1979 by the American Statistical Association. All rights reserved.</p><p>NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.</p><p>Copyright   by   SEMIÆ   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E68-0997 © SEMI 1997, 2003 1
+SEMI E68-0997 (Reapproved 1103)
+TEST METHOD FOR DETERMINING WARM-UP TIME OF MASS FLOW
+CONTROLLERS
+This test method was technically reapproved by the Global Gases Committee and is the direct responsibility
+of  the  North  American  Gases  Committee.  Current  edition  approved  by  the  North  American  Regional
+Standards  Committee  on  July  27,  2003.    Initially  available  at  <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a>  October  2003;  to  be  published
+November 2003.  Originally published September 1997.
+1  Purpose</p><ol><li>1      The   purpose   of   this   method   is   to   provide   a
+standardized  method  for  quantifying  the  warm-up  time
+of an MFC.
+NOTE  1:    Warm-up  times  affect  the  initial  performance  of  a
+mass  flow  controller  (MFC).  Warm-up  time  is  necessary
+information  in  deciding  if  a  process  tool  is  ready  to  be  put
+back into service. In addition, warm-up data will be useful in
+calibration labs.
+2  Scope</li><li>1    The  test  conditions  in  this  method  are  intended  to
+simulate  bench  top  warm-up,  with  an  MFC  that  has
+been  equalized  to  ambient  conditions  for  24  hours
+before the application of power.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations</li><li>1      Conditions   in   the   lab   may   be   different   from
+conditions  found  in  the  field  and  may  influence  test
+results. This test is intended to measure warm-up under
+a controlled condition.</li><li>2    The  MFC  is  to  be  at  ambient  temperature  before
+the beginning of the test.</li><li>3    Due  to  manufacturing  variability,  warm-up  times
+may    vary    for    the    same    model    of    MFC.    This
+specification  addresses  a  method  for  taking  a  single
+data  point  repetitively  from  the  same  MFC.  Resulting
+data will show exactly how warm-up effects change the
+delivered  flow  of  that  particular  MFC.  To  statistically
+quantify  warm-up  time  for  a  particular  model  of  MFC,
+multiple samples should be tested.
+4  Referenced Documents
+None.
+5  Terminology</li><li>1  Abbreviations and Acronyms</li><li>1.1  DUT — Device under test</li><li>1.2  FS — Full scale</li><li>1.3  MFC — Mass flow controller</li><li>2  Definitions</li><li>2.1  device  under  test  —  the  MFC  being  tested  for
+warm-up time.</li><li>2.2  indicated  flow  —  flow  indicated  by  the  MFC
+under test. Electrical output of the DUT.</li><li>2.3  stability — a condition that exhibits only natural,
+random    variations    in    the    absence    of    unnatural,
+assignable-cause variations. For the several purposes of
+this test, stability is defined as ±10% of the accuracy of
+the DUT at full scale.</li><li>2.4  steady  state  —  state  at  which  the  indicated  flow
+is stable for a 15-minute time period.</li><li>2.5  warm-up — a process where the MFC goes from
+an unpowered condition to a condition where the output
+is within ±1% full scale, of the final steady state output.
+6  Summary of Test Method</li><li>1      The   DUT   is   connected   in   series   with   shut-off
+valves on either side of the DUT. With no gas flow and
+the  DUT  powered,  indicated  flow  is  monitored  until
+steady  state  is  achieved.  Power  is  briefly  disconnected
+then reconnected and indicated flow is again monitored
+until steady state is achieved.
+7  Significance and Use</li><li>1    Data  generated  by  this  method  is  used  to  estimate
+the amount of time an MFC should be powered up in a
+process    tool    before    resuming    production.    When
+calibrating  an  MFC,  the  warm-up  time  can  be  used  to
+estimate the waiting time before calibration. For power
+interruptions, the power interruption warm-up time may
+be  used  to  determine  the  time  required  following  a
+power interruption to resume production or calibration.</li></ol><p>SEMI E68-0997 © SEMI 1997, 2003 2
+8  Apparatus
+8. 1  See Figure 1.</p><p>Figure 1
+Test Set Up
+8. 2  Time-Keeping   Apparatus  —  Capable  of  keeping  accurate  records   within   ±   10   seconds.   Time-keeping
+requirements are not stringent, and almost any apparatus is acceptable.
+8. 3  Data Acquisition System — Having a resolution of one mV or better and a sample rate of one Hz.
+9  Conditioning
+9. 1    Ambient  temperature  must  be  controlled  and  stable  between  20°C  and  25°C  during  testing  for  all  tests.  The
+DUT  must  be  exposed  to  the  ambient  environment  for  24  hours  before  the  beginning  of  the  test  so  that  it  is  in
+equilibrium.  The  gas  temperature  must  be  measured  and  verified  to  be  at  equilibrium  with  both  the  DUT  and  with
+ambient temperature. Temperatures are in equilibrium if they are within 1°C of each other. Lab temperature may not
+change more than 1°C during test.
+10  Procedure
+10. 1  Connect the DUT in series with the two shut-off valves, one upstream of the DUT and the other downstream.
+Electronically connect the DUT to a data acquisition system capable of recording indicated flow from the DUT.  The
+test set-up should be set to give appropriate signals to the DUT so the DUT control valve will not dissipate power.
+For  normally  closed  MFC’s,  the  setpoint  should  be  zero,  and  for  normally  open  MFC’s,  the  setpoint  should  be
+100%.  Suggested  orientation  of  the  DUT  is  horizontal  (base  down).  If  the  DUT  is  positioned  otherwise,  the
+orientation should be reported in the test data (see Figure 1). Valves are to be opened in a downstream-to-upstream
+sequence and closed in reverse fashion. The data acquisition system must be warmed up as per the manufacturer’s
+instructions.
+10. 2  Close shut-off valves.
+10. 3    In  Table  1,  record  the  time  of  day  when  power  was  applied  to  the  DUT.  Begin  recording  the  indicated  flow
+from the DUT at one sample per second.</p><p>SEMI E68-0997 © SEMI 1997, 2003 3
+Table 1  Format for Data Presentation
+Warm-up Time Date:<strong><strong>____</strong></strong>
+± 1% FS Time to
+Achieve
+Steady State
+Steady State
+Value
+Cold Start
+Power Interruption
+10. 4  Cold  Start  —  Apply  power  to  the  DUT  and
+continue   collecting   data   until   the   indicated   flow
+achieves a steady state value.
+10. 5  Power  Interruption  —  Continue  to  collect  data
+while disconnecting power from the test unit for 120 ±
+10  seconds.  Reconnect  power  to  the  DUT  and  monitor
+indicated flow until steady state is again achieved.
+11  Data Analysis
+11. 1      Graph   the   data   collected   from   the   six   test
+scenarios as directed in Section 10.
+11. 2  The time required for the DUT to achieve a steady
+state  value  can  be  visually  determined  from  the  graph
+of  each  test  scenario.  This  data  can  be  used  to  predict
+the warm-up times required by an MFC experiencing a
+field condition similar to the test scenario.
+12  Data Presentation
+12. 1      For   the   two   tests   in   Section   10,   plot   DUT
+indicated flow vs. time as illustrated in Figures 2 and 3.
+Note the following on these graphs and in Table 1.</p><p>Figure 2
+Cold Start Warm-Up Time</p><p>SEMI E68-0997 © SEMI 1997, 2003 4</p><p>Figure 3
+Two-Minute Power Interruption Warm-Up Time
+12. 1.1  Final steady-state value of the DUT.
+12. 1.2  Time to achieve a steady state value.
+12. 1.3  Use Table 1 to summarize warm-up times associated with each of the test scenarios.
+13  Precision and Bias
+13. 1  Precision and bias in this test are a function of the uncertainty of the measurement equipment used. The tester
+or end user is responsible for determining the precision and bias of a particular setup and test.</p><p>NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E69-0298 © SEMI 1998, 2003 1
+SEMI E69-0298 (Reapproved 1103)
+TEST METHOD FOR DETERMINING REPRODUCIBILITY AND ZERO
+DRIFT FOR THERMAL MASS FLOW CONTROLLERS
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee on July 27, 2003.  Initially available at <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a> October 2003; to be published November
+2003.  Originally published February 1998.
+1  Purpose</p><ol><li>1    The  purpose  of  this  document  is  to  provide  a
+standardized method to quantify the reproducibility and
+zero drift of a thermal mass flow controller.</li><li>2    The  intent  of  this  document  is  not  to  suggest  any
+specific  testing  program  but  to  specify  the  test  method
+to be used when testing for parameters that are covered
+by  this  method.  The  user  might  use  this  document  to
+check  significant  performance  characteristics,  such  as
+reproducibility  and  zero  drift,  under  a  set  of  closely
+controlled test conditions.</li><li>3  The significance of the accuracy calculations in this
+method  is  to  allow  an  MFC  user  to  transfer  a  process
+from   one   manufacturing   tool   to   another   and   to
+exchange  MFCs  within  a  single  manufacturing  tool
+while maintaining process control.
+2  Scope</li><li>1        This    document    describes    the    conditions    and
+procedures for testing the reproducibility and zero drift
+of  thermal  mass  flow  controllers  (MFCs).  Because  of
+the   generic   nature   of   this   document,   not   all   test
+procedures apply to all types of MFCs.</li><li>2      This   document   provides   a   common   basis   for
+communication between manufacturers and users.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations</li><li>1  It is not practical to evaluate performance under all
+possible combinations of operating conditions. This test
+procedure    should    be    applied    under    laboratory
+conditions; its intent is to collect sufficient data to form
+a judgement of the field performance of the MFC being
+tested.
+4  Referenced Standards</li><li>1  SEMI Standard
+SEMI  E28  ó  Guideline  for  Pressure  Specifications  of
+the Mass Flow Controller</li><li>2  ANSI Standards
+1</li></ol><p>ANSI C39.5 ó Safety Requirements for Electrical and
+Electronic Measuring and Controlling Instrumentation
+ANSI    C42.100    ó    Dictionary    of    Electrical    and
+Electronics Terms
+ANSI MC4.1 ó Dynamic Response Testing of Process
+Control Instrumentation
+4. 3  ASME Document
+2</p><p>ASME  MFC-1M  ó  Glossary  of  Terms  Used  in  the
+Measurement of Fluid Flow in Pipes
+4. 4  IEC Standards
+3</p><p>IEC  160  ó  Standard  Atmospheric  Conditions  for  Test
+Purposes
+IEC 546 ó Methods of Evaluating the Performance of
+Controllers  with  Analogue  <!-- -->[sic]<!-- -->  Signals  for  Use  in
+Industrial Process Control
+4. 5  ISA Documents
+4</p><p>ISA S7.3 ó Quality Standards for Instrument Air
+ISA  S51.1  ó  Process  Instrumentation  Terminology
+ANSI/ISA-1 979 (reaffirmed 1993)</p><p>1 American National Standards Institute, Headquarters: 1819 L
+Street, NW, Washington, DC 20036, USA. Telephone: 202.293.8020;
+Fax: 202.293.9287, New York Office: 11 West 42nd Street, New
+York, NY 10036, USA. Telephone: 212.642.4900; Fax:
+212. 398.0023, Website: <a href="http://www.ansi.org" target="_blank" rel="noopener noreferrer">www.ansi.org</a>
+2 American Society of Mechanical Engineers, Three Park Avenue,
+New York, NY 10016-5990, USA. Telephone: 800.843.2763
+(U.S./Canada), 95.800.843.2763 (Mexico), 973.882.1167 (outside
+North America), Website: <a href="http://www.asme.org" target="_blank" rel="noopener noreferrer">www.asme.org</a>
+3 International Electrotechnical Commission, 3, rue de VarembÈ,
+Case Postale 131, CH-1211 Geneva 20, Switzerland. Telephone:
+41. 22.919.02.11; Fax: 41.22.919.03.00, Website: <a href="http://www.iec.ch" target="_blank" rel="noopener noreferrer">www.iec.ch</a>
+4 Instrument Society of America, 67 Alexander Drive, Research
+Triangle Park, NC 27709. Telephone: 919.549.8411, Fax:
+919. 549.8288, Website: <a href="http://www.isa.org" target="_blank" rel="noopener noreferrer">www.isa.org</a></p><p>SEMI E69-0298 © SEMI 1998, 2003 2
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  FS ó Full scale
+5. 1.2  kPa ó Kilopascal
+5. 1.3  MFC ó Mass flow controller
+5. 1.4  NC ó Normally closed
+5. 1.5  NO ó Normally open
+5. 1.6  psia ó Pounds per square inch absolute
+5. 1.7  sccm ó Standard cubic centimeters per minute
+5. 1.8  slm ó Standard liters per minute
+5. 2  Definitions
+5. 2.1  accuracy  ó  the  closeness  of  agreement  between
+an   observed   value   and   the   true   value;   the   total
+uncertainty   of   an   observed   value,   including   both
+precision and bias.
+5. 2.2  accuracy  curve  ó  the  curve  fitted  through  the
+average measured values over the specified range of the
+device under test (DUT).
+5. 2.3  accuracy,  device  ó  the  total  uncertainty  over  a
+specified  range  of  the  device.  Device  accuracy  over  a
+range is stated as the worst case accuracy taken over all
+tested setpoints in this range.
+5. 2.4  bias  ó  the  difference,  at  a  setpoint,  between  the
+measured  value  and  the  sum  of  the  setpoint  value  and
+the zero offset. The measured values of a flow standard
+include its total uncertainty.
+5. 2.5  cardinal  setpoint  ó  a  specific  setpoint  to  assess
+the  accuracy  of  the  device  under  test.  For  this  test
+method, the cardinal setpoints are 10%, 50%, and 100%
+of full scale.
+5. 2.6  deadband  ó  the  range  through  which  a  setpoint
+may  be  varied,  upon  reversal  of  direction,  without
+initiating an observable change in output signal.
+5. 2.7  downscale reading ó a reading approached from
+a  setpoint  greater  than  the  current  setpoint  and  beyond
+the deadband.
+5. 2.8  downscale   value,   average   ó   the   sum   of   all
+downscale  readings,  in  one  cycle,  at  a  single  setpoint,
+divided by the number of these values.
+5. 2.9  flow  standard  ó  a  device  used  to  measure  the
+actual mass flow through the DUT.
+5. 2.10  linearity  ó  the  closeness  to  which  a  curve
+approximates  a  straight  line.  It  is  measured  as  a  non-
+linearity and expressed as a linearity.
+5. 2.11  linearity,    terminal-based    ó    the    maximum
+absolute  value  of  the  deviation  of  the  accuracy  curve
+(average  of  upscale  and  downscale  values)  from  a
+straight line through the upper and lower setpoint limits
+of the accuracy curve (see Figure 1).
+5. 2.12  measured  value  ó  the  actual  flow  through  a
+device   under   test,   expressed   in   sccm   or   slm,   as
+measured by a standard, preferably primary.
+5. 2.13  measured  value,  average  ó  the  sum  of  all
+readings (both upscale and downscale) for all cycles, at
+a   single   setpoint,   divided   by   the   number   of   these
+readings.
+5. 2.14  operating  conditions,  normal  ó  the  range  of
+operating conditions within which a device is designed
+to operate and for which operating influences are stated
+<!-- -->[ISA S51.1]<!-- -->.
+5. 2.15  operating  conditions,  reference  ó  the  range  of
+operating conditions of a device within which operating
+influences are negligible <!-- -->[ISA S51.1]<!-- -->.
+5. 2.16  operating    influence    ó    the    change    in    a
+performance  characteristic  caused  by  a  change  in  a
+specified  operating  condition  from  reference  operating
+conditions,  all  other  conditions  being  held  within  the
+limits of reference operating conditions <!-- -->[ISA S51.1]<!-- -->.
+5. 2.17  precision  ó  the  closeness  of  agreement  among
+the  measured  values  at  a  setpoint.  It  is  often  expressed
+as a standard deviation.
+5. 2.18  repeatability   ó   the   closeness   of   agreement
+among  a  number  of  measured  values  at  a  setpoint,
+under    the    same    operating    conditions,    operator,
+apparatus,  laboratory,  and  short  intervals  of  time.  It  is
+usually measured as a nonrepeatability and expressed as
+a repeatability in percent of reading <!-- -->[ISA S51.1]<!-- -->.
+5. 2.19  reproducibility  ó  the  closeness  of  agreement
+among  repeated  measured  values  at  a  setpoint,  within
+the specified reference operating conditions, made over
+a   specified   period   of   time,   approached   from   both
+directions.    It    is    usually    measured    as    a    non-
+reproducibility  and  expressed  as  a  reproducibility  in
+percent  of  average  reading.  Reproducibility  includes
+hysteresis,  deadband,  long-term  drift,  and  short-term
+reproducibility <!-- -->[ISA S51.1]<!-- -->.
+NOTE  1:    Between  repeated  measurements,  the  input  may
+vary over the range, and operating conditions may vary within
+normal operating conditions.</p><p>SEMI E69-0298 © SEMI 1998, 2003 3</p><p>Figure 2
+Terminal-Based Linearity for Mass Flow Controller</p><ol start="5"><li>2.20  reproducibility,  short-term  ó  the  closeness  of
+agreement  among  a  number  of  measured  values  at  a
+setpoint, under the same operating conditions, operator,
+apparatus,   laboratory,   and   short   intervals   of   time,
+approached from both directions. The approach must be
+from  beyond  the  deadband.  It  is  usually  measured  as  a
+nonreproducibility and expressed as a reproducibility in
+percent  of  reading.  Short-term  reproducibility  includes
+repeatability, hysteresis, deadband, and shortterm drift.</li><li>2.21  setpoint ó the input signal provided to achieve
+a  desired  flow,  reported  as  sccm,  slm,  or  percent-full
+scale.</li><li>2.22  setpoint  limit,  lower  ó  the  lowest  setpoint  at
+which the instrument is specified to operate.</li><li>2.23  setpoint  limit,  upper  ó  the  highest  setpoint  at
+which the instrument is specified to operate, usually full
+scale.</li><li>2.24  span ó the full-scale range of the DUT.</li><li>2.25  stability  ó  the  ability  of  a  condition  to  exhibit
+only   natural,   random   variation   in   the   absence   of
+unnatural, assignable-cause variation.</li><li>2.26  standard conditions ó 101.32 kPa, 0.0∞C (14.7
+psia, 32∞F)</li><li>2.27  uncertainty, total ó the range within which the
+true  value  of  the  measured  quantity  can  be  expected  to
+fit;  an  indication  of  the  variability  associated  with  a
+measured  value  that  takes  into  account  the  two  major
+components  of  error  ó  bias  and  the  random  error
+attributed   to   the   imprecision   of   the   measurement
+process.</li><li>2.28  upscale reading ó a reading approached from a
+setpoint  less  than  the  current  setpoint  and  beyond  the
+deadband.</li><li>2.29  upscale value, average ó the sum of all upscale
+readings,  in  one  cycle,  at  a  single  setpoint,  divided  by
+the number of these values.</li><li>2.30  zero  drift  ó  the  undesired  change  in  electrical
+output,  at  a  no-flow  condition,  over  a  specified  time
+period, reported in sccm or slm.</li><li>2.31  zero  offset  ó  the  deviation  from  zero,  at  a  no-
+flow condition, reported in sccm or slm.
+6  Summary of Test Method</li><li>1    Specific  procedures  are  given  for  characterizing
+MFCs  discharging  to  atmospheric  pressure  or  into  a
+vacuum    using    accepted    reference    standards    to
+determine reproducibility and zero drift (see Figure 2).</li></ol><p>SEMI E69-0298 © SEMI 1998, 2003 4</p><p>Figure 3
+Test Flowchart</p><p>SEMI E69-0298 © SEMI 1998, 2003 5
+7  Interferences
+7. 1    The  accuracy  rating  of  the  measuring  equipment
+must     include     superior     measurement     capability
+compared  with  that  of  the  DUT.  In  no  instance  should
+the accuracy rating of the measuring equipment be less
+than twice that of the  DUT  (e.g.,  if  the  accuracy  of  the
+DUT  is  ±  1  sccm,  then  the  accuracy  of  the  measuring
+device  must  be  better  than,  or  equal  to,  ±  1/2  sccm).
+The    traceability    of    all    the    pertinent    measuring
+instruments    and    devices    should    be    realistically
+established and quantified.
+7. 1.1  In addition, take care when using test instruments
+with  a  specified  accuracy  expressed  in  percent  of  full
+scale.  For  example,  if  an  instrument  with  a  specified
+accuracy of ± 0.1% of full scale is used to measure the
+output  of  the  DUT,  but  this  output  signal  falls  only
+within the lower third of the scale of the instrument, the
+effective  accuracy  over  the  range  of  the  instrument
+being  used  may  be  ±  0.3%,  which  is  unsuitable  for
+many applications.
+7. 1.2    Use  special  precautions  to  ensure  that  minimum
+effects   result   from   pneumatic   noise   in   flow   lines.
+Monitor pressure both upstream and downstream of the
+MFC to ensure that pneumatic noise is minimized.
+7. 1.3    The  DUT  should  be  installed  so  that  the  inlet
+flow  can  be  fully  developed,  pulsation-free,  for  the
+specific conditions. This can be achieved by plumbing a
+straight length of tubing 40ñ50 diameters long upstream
+and    another    straight    length    5    diameters    long
+downstream  of  the  DUT.  (For  additional  information
+about inlet effects, refer to ASME MFC-1M.)
+7. 1.4    At  regular  calibration  intervals,  verify  electrical
+signals  directly  at  the  MFC  connector  to  ensure  that
+there are no unacceptable line losses in the cables.
+8  Apparatus
+8. 1  back pressure regulator
+8. 2  digital voltmeter
+8. 3  flow standard
+8. 4  heat exchanger
+8. 5  power supply
+8. 6  pressure transducer
+8. 7  setpoint generator
+8. 8  temperature probe
+9  Precautions
+9. 1  Technical Precautions
+9. 1.1    Many  analog-to-digital  converter  cards  do  not
+differentiate  between  measurements  of  less  than  zero
+and zero. It may be necessary to use a digital voltmeter
+to  record  measurements  below  zero  volts.  Some  MFCs
+do not differentiate between measurements of less than
+zero and zero. This may bias the results.
+9. 1.2  The manufacturerís       specifications       and
+instructions   for   installation   and   operation   must   be
+applied during all testing.
+9. 1.3  All  electrical  measurements  should  be  read  on
+devices  with  at  least  4.5  digits  of  resolution.  These
+devices must have valid calibration certifications.
+9. 1.4    The  mounting  position  of  the  device  must  be  in
+accordance  with  the  manufacturerís  specifications.  No
+external      mechanical      constraints      beyond      the
+manufacturerís  recommended  mounting  position  shall
+be permitted.
+10  Preparation of Apparatus
+10. 1    Figure  3  is  a  representation  of  a  recommended
+generic  testing  apparatus.  The  flow  standard  is  shown
+downstream  of  the  device  under  test  (DUT).  It  may  be
+placed upstream of the DUT if the flow standard cannot
+be exposed to a low pressure environment. In this case,
+the  user  should  be  aware  of  possible  back  pressure
+effects on the flow standard.</p><p>SEMI E69-0298 © SEMI 1998, 2003 6</p><p>Figure 3
+Mass Flow Controller Test Fixture</p><p>11  Calibration Standardization
+11. 1        All    measurement    devices    must    have    valid
+calibration certificates.
+12  Conditioning
+12. 1      Place   the   MFC   to   be   tested   in   the   testing
+environment. Apply power to the MFC for the 24 hours
+prior    to    initiating    warm-up    as    defined    by    the
+manufacturer.  The  valve  should  be  in  its  ìoffî  position
+(closed for an NC valve, open for an NO valve).
+12. 2      Following   the   conditioning   period,   install   and
+warm   up   the   device   according   to   manufacturerís
+specifications.
+12. 3    Purge  the  MFC  with  nitrogen  or  argon  following
+the warm up period.
+12. 4  Allow the test gas to flow through the DUT for a
+minimum of 10 minutes at 100% of flow.
+12. 5  Apply a 100% full-scale setpoint to the DUT and
+wait for the flow to stabilize for 10 seconds. Apply the
+lower setpoint limit to the DUT and wait for the flow to
+stabilize  for  10  seconds.  Repeat  this  cycle  two  more
+times.   This   process   exercises   the   device   before
+initiating the test.
+12. 6  Test Conditions
+12. 6.1    The  reference  operating  conditions  shall  be  as
+follows if the downstream pressure is atmospheric:
+Ambient temperature 23 ± 2∞C
+Gas temperature Same as actual ambient
+Ambient pressure 101.3 kPa (+ 4.7 or − 15.3 kPa)
+Gas pressure P
+1
+, Inlet 274 ± 34 kPa
+Gas pressure P
+3
+, Outlet   101.3 kPa (+ 4.7 kPa or − 15.3 kPa)
+Relative humidity 40% ± 10%, noncondensing
+Magnetic field ≤ 50 μT
+Electromagnetic field &lt; 100 μV/m
+Vibration &lt; 0.5 m/s
+Shock ≤ 3 g</p><ol start="12"><li><p>6.2    The  reference  operating  conditions  shall  be  as
+follows if the downstream pressure is at vacuum:
+Ambient temperature 23 ± 2∞C
+Gas temperature Same as actual ambient
+Ambient pressure 101.3 kPa (+ 4.7 or − 15.3 kPa)
+Gas pressure P
+1
+, Inlet 172 ± 34 kPa
+Gas pressure P
+3
+, Outlet &lt; 0.13 kPa
+Relative humidity 40% ± 10%, noncondensing
+Magnetic field ≤ 50 μT
+Electromagnetic field &lt; 100 μV/m
+Vibration &lt; 0.5 m/s
+Shock ≤ 3 g</p></li><li><p>7  Power Supply Conditions</p></li><li><p>7.1    The  reference  power  supply  conditions  used
+shall    be    the    reference    values    specified    by    the
+manufacturer.  For  those  instances  when  a  range  of
+values  is  specified  rather  than  a  reference  value,  the
+midpoint of the range shall be taken to be the reference
+value.</p></li></ol><p>SEMI E69-0298 © SEMI 1998, 2003 7
+12. 7.2  The reference power supply must be sufficiently
+rated  for  the  DUT.  In  addition,  the  following  supply
+conditions and tolerances shall apply:
+DC supply reference voltage ± 0.1% of operating voltage
+Noise and ripple of DC supply ≤ 0.1% rms</p><p>13  Procedure
+13. 1  Zero Offset
+13. 1.1    Close  the  gas  shut-off  valve  upstream  of  the
+device under test and apply a 100% setpoint to the DUT
+to equilibrate the pressure across the MFC. Wait for the
+flow  to  stabilize  at  a  value  near  zero,  then  close  the
+downstream   shut-off   valve.   Deactivate   the   MFCís
+control  valve  (open  for  (NO)  valves,  closed  for  (NC)
+valves),  and  disable  the  MFC  to  auto  zero  if  an  auto-
+zero  disable  option  is  available.  After  the  electrical
+output  signal  has  stabilized  for  at  least  three  minutes,
+record  the  MFC  zero  offset  on  Table  1.  (Consult  the
+manufacturerís  specifications  for  the  stabilization  time
+and report this time on Table 2.)</p><p>Table 1  Data Tabulation
+Week #<strong><strong>___</strong></strong>
+Date<strong><strong><strong>__</strong></strong></strong>            Technician<strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong>            MFC<strong><strong><strong>___</strong></strong></strong>
+Input % Set Point (sccm) Indicated Flow (sccm) Actual Flow (sccm)
+0                                                                             0           0           0           0           0
+50
+100
+50
+10
+5 Wait 10 minutes Record no data
+10
+50
+100
+50
+10
+5 Wait 10 minutes Record no data
+10
+50
+100
+50
+10
+5 Wait 10 minutes Record no data
+10</p><p>SEMI E69-0298 © SEMI 1998, 2003 8
+Table 2  Test Data Cover Sheet
+MFC
+Manufacturer<strong><strong>__</strong></strong>                      Model<strong><strong>__</strong></strong>                      Serial                      Number<strong><strong>__</strong></strong>                      Attitude<strong><strong>__</strong></strong>
+Nameplate Gas<strong><strong>__</strong></strong> Seal Type<strong><strong>__</strong></strong> Valve Seat Matl.<strong><strong>__</strong></strong>    Full Scale Range<strong><strong>__</strong></strong></p><p>Environment
+Ambient Temp. (∞C)<strong><strong>_</strong></strong>  Ambient Press. (kPa)<strong>____</strong>   Humidity (%)<strong><strong>__</strong></strong>
+Test Gas<strong><strong>__</strong></strong> Inlet Gas Pres. (kPa)<strong><strong>_</strong></strong>  Outlet Gas Press.<strong><strong>__</strong></strong>   Gas Temp. (∞C)<strong><strong>__</strong></strong>
+Test Facility
+Name<strong><strong>__</strong></strong>                       City/State<strong><strong>__</strong></strong>                       Telephone                       (                          )<strong><strong>__</strong></strong> Fax (     )<strong><strong>__</strong></strong>
+Standard Used<strong><strong>__</strong></strong> Standard Accuracy<strong><strong>__</strong></strong>Facility Bias<strong><strong>__</strong></strong> Certification Date<strong><strong>__</strong></strong>
+Other Equipment<strong><strong>__</strong></strong> Accuracy<strong><strong>__</strong></strong>                  Certification                  Date<strong><strong>__</strong></strong>
+Other Equipment<strong><strong>__</strong></strong> Accuracy<strong><strong>__</strong></strong>                  Certification                  Date<strong><strong>__</strong></strong>
+Other Equipment<strong><strong>__</strong></strong> Accuracy<strong><strong>__</strong></strong>                  Certification                  Date<strong><strong>__</strong></strong>
+Other Equipment<strong><strong>__</strong></strong> Accuracy<strong><strong>__</strong></strong>                  Certification                  Date<strong><strong>__</strong></strong>
+Comments or Special Instructions:</p><p>Technician<strong><strong>__</strong></strong>
+Date<strong><strong>__</strong></strong></p><ol start="13"><li>1.2      Use   the   cardinal   setpoints   and   any   other
+setpoints  of  specific  interest.  These  setpoints  will  be
+used  to  determine  the  reproducibility  of  the  MFC.  The
+setpoint    increments    should    exceed    the    expected
+deadband of the DUT.</li><li>1.3    At  each  setpoint  under  test,  maintain  the  input
+signal until the output of the DUT becomes stabilized at
+its  apparent  final  value.  Observe  and  record  the  output
+values in Table 1 for each input value.</li><li>1.4  Record  five  readings  at  each  setpoint  during
+testing.
+NOTE  2:    If  the  data  points  show  a  trend  in  one  direction,
+either up or down, the DUT is not stable enough for the test to
+proceed  to  the  next  setpoint.  Record  another  five  readings  at
+this setpoint. If the results continue to show a trend, repeat the
+measurements  at  the  previous  setpoint.  If  the  results  are  not
+satisfactory  at  this  setpoint,  stop  the  test  for  this  MFC.  If  the
+results   are   not   satisfactory,   halt   the   test   and   verify   the
+performance of the testing apparatus.</li><li>1.5    At  each  point  under  test,  maintain  the  input
+signal until the output of the device under test becomes
+stabilized   at   its   apparent   final   value.   Observe   and
+record the output values for each input value.</li><li>2  Reproducibility and Zero Drift Test</li><li>2.1    Apply  a  50%  setpoint  to  the  MFC  and  record
+data.</li><li>2.2  Move the setpoint to 100% and record data.</li><li>2.3  Move the setpoint to 50% and record data.</li><li>2.4  Move the setpoint to 10% and record data.</li><li>2.5      After   recording   data   at   10%,   apply   a   5%
+setpoint  for  10  minutes,  but  do  not  record  any  data  at
+this setpoint.</li><li>2.6    Move  the  setpoint  back  up  to  10%  and  record
+data.</li></ol><p>SEMI E69-0298 © SEMI 1998, 2003 9
+13. 3  Repeat Sections 13.2.1ñ13.2.6, for a total of three
+times, until at least six sets of data have been collected
+at each setpoint (with the exception of 100%).
+13. 4    Repeat  Sections  13.1.1ñ13.3  weekly  for  a  period
+of  at  least  12  weeks.  During  the  idle  time,  the  MFC
+should  be  continuously  powered,  with  any  exceptions
+so noted. Gas flow is not required during the idle time,
+but  any  gas  flow  shall  be  recorded.  Finally,  record  all
+details about the conditions of the MFC during the idle
+time.
+14  Data Analysis
+14. 1  Calculations
+14. 1.1      Determine   the   precision   at   a   setpoint   by
+calculating  the  standard  deviation  of  all  the  measured
+values  (both  upscale  and  downscale)  for  that  setpoint.
+Perform this calculation at each setpoint:
+P=
+(V
+i
+−
+A
+a
+)
+2
+∑
+()
+j
+∑
+n
+j
+P = Precision
+V</p><h1>i</h1><p>The i
+th
+reading at a setpoint for a given cycle
+A</p><h1>a</h1><p>Average measured value
+n</p><h1>j</h1><p>Number of readings at a setpoint for a given cycle</p><ol start="14"><li><p>1.2    Determine  the  short-term  reproducibilty  at  a
+setpoint by dividing the precision of the setpoint by the
+average  setpoint.  This  is  expressed  as  a  percentage  of
+setpoint. Perform this calculation at each point:
+SRS% =
+P
+S
+a
+×100</p></li><li><p>1.3  The long term reproducibility at a setpoint is the
+greatest absolute weekly reproducibility at a setpoint.</p></li><li><p>1.4  Determine the precision over the test period at a
+setpoint by calculating the standard deviation of all the
+measured  values  (both  upscale  and  downscale)  for  that
+setpoint. Perform this calculation at each setpoint:</p></li></ol><p>P</p><h1>L</h1><p>( V
+i
+−</p><p>A
+a
+)
+2
+∑</p><p>(</p><p>)</p><p>j
+∑</p><p>( )
+w
+∑</p><p>n
+j
+∑</p><p>(</p><p>)</p><p>w
+∑</p><p>P
+L
+= Precision over the test period
+V</p><h1>i</h1><p>The i
+th
+reading at a setpoint for a given cycle
+A</p><h1>a</h1><p>Average measured
+l
+n</p><h1>j</h1><p>Number of readings at a setpoint for a given cycle
+w =
+Number of weeks</p><ol start="14"><li><p>1.5    Determine  the  reproducibility  at  a  setpoint  by
+dividing   the   precision   over   the   test   period   at   this
+setpoint by the average setpoint. This is expressed as a
+percentage of setpoint. Perform this calculation at each
+setpoint:
+RS% =
+P
+L
+S
+a
+×100</p></li><li><p>1.6    The  overall  reproducibility  of  the  DUT  is  the
+maximum value calculated in Section 14.1.4:
+±RD% = RS
+max
+RD=Reproducibility of the device</p></li><li><p>1.7  Calculate zero drift by subtracting the minimum
+zero  value  from  the  maximum  zero  value  and  dividing
+by two. This number is reported as ± sccm or slm over
+the specified time period.
+15  Data Presentation</p></li><li><p>1    Plot  the  average  measured  value  of  each  setpoint
+(10%,  50%,  100%)  for  each  measurement  period  on  a
+graph, with the x-axis representing time, and the y-axis
+showing the actual flow output in sccm or slm.</p></li><li><p>2  Plot   the   measured   value   at   zero   for   each
+measurement   period   on   a   graph,   with   the   x-axis
+representing  time  and  the  y-axis  showing  flow  output
+signal in sccm or slm.</p></li><li><p>3  Reproducibility  ó  Report  a  single  number,  as
+calculated above, as a percentage of reading stated, with
+the time period of the test.</p></li><li><p>4  Zero   Drift   ó   Report   a   single   number,   as
+calculated above, stated with the time period of the test.
+16  Related Documents</p></li><li><p>1  SEMI</p></li></ol><p>Standard
+SEMI E67 ó Test Method for Determining Reliability
+of  Mass  Flow  Controller  (Refer  to  this  standard  if
+reliability  data  is  needed  for  some  of  the  parameters
+tested in this method.)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.</p><p>SEMI E69-0298 © SEMI 1998, 2003 10
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturerís   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E70-1103 © SEMI 1998, 2003 1
+SEMI E70-1103
+GUIDE FOR TOOL ACCOMMODATION PROCESS
+This guide was technically approved by the Global Facilities Committee and is the direct responsibility of the
+North American Facilities Committee. Current edition approved by the North American Regional Standards
+Committee  on  September  3,  2003.    Initially  available  at  <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a>  September  2003;  to  be  published
+November 2003. Originally published June 1998.
+1  Purpose</p><ol><li>1    This  document  will  provide  an  overview  of  the
+various     elements     of     Tool     Accommodation,     a
+methodology    by    which    semiconductor    processing
+equipment  is  installed  in  a  cost-effective  and  timely
+manner.     This     addition     to     the     SEMI     Tool
+Accommodation Standards set describes the process by
+which    the    referenced    SEMI    documents    can    be
+effectively  used  to  achieve  tool  installation  cost  and
+schedule goals.
+2  Scope</li><li>1      This   overview   document   will   provide   process
+development,    facilities,    manufacturing,    and    sales
+engineers  (as  well  as  purchasing  agents  and  managers)
+with a basic understanding of the various elements in a
+Tool    Accommodation    methodology.    This    process
+emphasizes quality, completeness, timeliness, and cost-
+effectiveness  as  key  elements  of  successfully  installing
+semiconductor    processing    equipment    into    wafer
+fabrication  facilities.  By  describing  a  generic  process
+flow,  this  document  identifies  a  road  map  for  using
+published standards that comprehend all the procedures
+involved   in   tool   accommodation   from   procurement
+through    acceptance.    As    a    common    ground    for
+communication  and  comparison,  terms  and  definitions
+are also included.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards</li><li>1  SEMI Standards
+SEMI   E6   —   Guide   for   Semiconductor   Equipment
+Installation Documentation
+SEMI    E10    —    Specification    for    Definition    and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability (RAM)
+SEMI  E45  —  Test  Method  for  the  Determination  of
+Inorganic Contamination from Minienvironments Using
+Vapor  Phase  Decomposition-Total  Reflection  X-Ray
+Spectroscopy  (VPD-TXRF),  VPD-Atomic  Absorption
+Spectroscopy      (VPD-AAS),      or      VPD/Inductively
+Coupled Plasma-Mass Spectrometry (VPD/ICP-MS
+SEMI   E49   —   Guide   for   Standard   Performance,
+Practices,  and  Sub-Assembly  for  High  Purity  Piping
+Systems    and    Final    Assembly    for    Semiconductor
+Manufacturing Equipment
+SEMI   E49.1   —   Guide   for   Tool   Final   Assembly,
+Packaging and Delivery
+SEMI E49.2 — Guide for High Purity Deionized Water
+and  Chemical  Distribution  Systems  in  Semiconductor
+Manufacturing Equipment
+SEMI  E49.3  —  Guide  for  Ultrahigh  Purity  Deionized
+Water     and     Chemical     Distribution     Systems     in
+Semiconductor Manufacturing Equipment
+SEMI   E49.4   —   Guide   for   High   Purity   Solvent
+Distribution  Systems  in  Semiconductor  Manufacturing
+Equipment
+SEMI  E49.5  —  Guide  for  Ultrahigh  Purity  Solvent
+Distribution  Systems  in  Semiconductor  Manufacturing
+Equipment
+SEMI  E49.6 —  Guide  for  Subsystem  Assembly  and
+Testing Procedures - Stainless Steel Systems
+SEMI   E49.7   —   Purity   Guide   for   the   Design   and
+Manufacture  of  Ultrapure  Water  and  Liquid  Chemical
+Systems in Semiconductor Process Equipment
+SEMI  E49.8  —  Guide  for  High  Purity  and  Ultrahigh
+Purity   Gas   Distribution   Systems   in   Semiconductor
+Manufacturing Equipment
+SEMI E51 — Guide for Typical Facilities Services and
+Termination Matrix
+SEMI      S4      —      Safety      Guideline      for      the
+Segregation/Separation  of  Gas  Cylinders  Contained  in
+Cabinets</li><li>2  ISO Standards
+1</li></ol><p>ISO  14644-1  —  Cleanrooms  and  associated  controlled
+environments  Part 1:  Classification of air cleanliness.</p><p>1 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30,
+Website: <a href="http://www.iso.ch" target="_blank" rel="noopener noreferrer">www.iso.ch</a></p><p>SEMI E70-1103 © SEMI 1998, 2003 2
+ISO  14644-2  —  Cleanrooms  and  associated  controlled  environments  Part  2:    Specifications  for  testing  and
+monitoring to prove continued compliance with ISO 14644-1.
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+4  Summary of Referenced Standards
+4. 1  SEMI E6 — Guide for Semiconductor Equipment Installation Documentation
+4. 1.1    Purpose  of  SEMI  E6  is  to  communicate  from  supplier  to  user  the  facilities  requirements  of  semiconductor
+equipment.
+4. 1.2  Benefits of SEMI E6 include assurance of effective communication of process tool installation requirements.
+4. 1.3  Roles and Responsibilities for SEMI E6 — Tool supplier submits information requested in SEMI E6, facilities
+interface  specification.  Equipment  engineer,  facilities  engineer,  and  installation  manager  use  tool  requirements
+information provided by supplier to prepare facility and efficiently install the tool.
+Table 1  SEMI Tool Accommodation Standards</p><p>Facility
+Services</p><p>Process
+Tool
+Process Tool Subsystems
+(internal distribution system for)
+Guideline for
+General                      Water                      &amp;
+Chemical
+Solvent             Gas
+Facility Services Matrix defines utilities
+available for tool
+SEMI                      E51
+Facilities Interface Specification defines tool
+requirements of facilities
+SEMI               E6
+Subsystem terms and references   SEMI E49
+High purity (HP) subsystem requirements    SEMI E49.2  SEMI E49.4  SEMI E49.8
+Ultrahigh purity (UHP) subsystem
+requirements
+SEMI E49.3  SEMI E49.5  SEMI E49.8
+Subsystem assembly and testing    SEMI E49.7  SEMI E49.6  SEMI E49.6
+Tool packaging and delivery  SEMI E49.1</p><ol start="4"><li>2  SEMI  E49  —  Guide  for  Standard  Performance,  Practices,  and  Sub-Assembly  for  High  Purity  Piping  Systems
+and Final Assembly for Semiconductor Manufacturing Equipment</li><li>2.1    Purpose  of  SEMI  E49  is  to  specify  requirements  for  process  distribution  systems  located  inside  of,  and
+provided with, semiconductor processing tools. (SEMI E49 acts as a reference document for the series of SEMI E49
+standards, SEMI E49.1 through SEMI E49.8. See Table 1, SEMI Tool Accommodation Standards for an explanation
+of the ten documents included in the SEMI E49 series.)</li><li>2.2    Benefits  of  the  SEMI  E49  series  include  assurance  of  compatibility  in  purity  and  performance  between  the
+tool and facility distribution systems.</li><li>2.3  Roles  and  Responsibilities  for  SEMI  E49  Series  —  Facilities  engineer  and  installation  manager  submit
+appropriate  SEMI  E49  requirements,  either  HP  or  UHP.  Tool  supplier  uses  information  provided  to  ensure
+distribution system compatibility.</li><li>3  SEMI E51 — Guide for Typical Facilities Services and Termination Matrix</li><li>3.1    Purpose  of  SEMI  E51  is  to  communicate  from  customer  to  supplier  factory  facilities  available  at  the  utility
+point of connection (UPOC) for a semiconductor tool.</li><li>3.2  Benefits of SEMI E51 include assurance of cost-effective and timely tool installation with minimum retrofit to
+customer site.</li></ol><p>SEMI E70-1103 © SEMI 1998, 2003 3
+4. 3.3  Roles   and   Responsibilities   for   SEMI   E51   —
+Facilities   engineer   and   installation   manager   submit
+utility  specifications  requested  in  SEMI  E51  matrixes,
+either   typical   or   site-specific.   Tool   supplier   uses
+information    provided    about    facility    to    assist    in
+configuration of the process tool.
+5  Terminology
+5. 1  Definitions
+5. 1.1  acceleration  cost  —  additional  costs  incurred  to
+complete the project sooner than the original scheduled
+baseline plan.
+5. 1.2  as-built  drawings  —  documentation  describing
+the  actual  configuration  and  dimensions  at  the  end  of
+construction.
+5. 1.3  base   build   —   installation   of   base   building,
+services,    and    equipment    to    establish    functional
+environmental    controls    and    utilities    to    support
+production equipment installation.
+5. 1.4  bidding  —  obtaining  sealed  quotes  for  a  defined
+scope of work.
+5. 1.5  burdened/unburdened  —  identification  of  costs
+included or excluded from contractual labor rates.
+5. 1.6  capital     equipment     —     equipment     that     is
+depreciated  according  to  tax  guidelines  for  durable
+goods. Generally has a value greater than $1,000.00 and
+a useful life greater than 5 years.
+5. 1.7  change  order  —  a  document  defining  a  formal
+change  in  drawings,  specifications,  and/or  scope  of
+work.
+5. 1.8  cleanroom   —   confined   area   in   which   the
+humidity,     temperature,     particulate     matter,     and
+contamination  are  precisely  controlled  within  specified
+parameters.    Cleanroom    classes    are    defined    in
+ISO 14644.
+5. 1.9  conditioned  power  —  electrical  power  that  is
+manipulated to maintain specified tolerances.
+5. 1.10  construction   —   the   set   of   activities   that
+transforms   plans   and   specifications   into   functional
+systems capable of performing to specification.
+5. 1.11  construction  consumable  —  any  material  used
+up during construction.
+5. 1.12  construction management — the set of activities
+that  define,  direct,  monitor,  and  report  construction
+activities  such  as  workmanship,  adherence  to  design,
+cost, and schedule conformance.
+5. 1.13  contingency  —  a  reserve  of  funds,  time,  and/or
+material  that  is  allocated  to  maintain  schedule  and
+budget.  A  reserve  for  scope  changes,  unforeseen  site
+conditions,  change  in  material  prices,  or  unanticipated
+events.
+5. 1.14  contract award — notification to the successful
+bidder and subsequent signing of contract documents.
+5. 1.15  contractor   —   a   licensed   company   hired   to
+accomplish a contractually specified scope of work.
+5. 1.16  cost  of  ownership  (COO)  —  the  total  lifetime
+cost   associated   with   acquisition,   installation,   and
+operation of fabrication equipment <!-- -->[SEMI E35]<!-- -->.
+5. 1.17  cycle  time,  gross  installation  —  total  time  to
+install  and  commission  process  equipment,  typically
+starting from dock date to release for vendor startup.
+5. 1.18  cycle   time,   net   installation   —   actual   time
+devoted to construction activities related to tool hookup
+from dock date to ready for inspection.
+5. 1.19  damage     —     destruction     or     unintentional
+alteration resulting in a liability.
+5. 1.20  dedicated   truck   —   exclusive   drayage   of   a
+shipment.
+5. 1.21  design  build  —  a  contract  method  whereby  the
+contractor  assumes  responsibility  for  design  generation
+and construction to accomplish a specified performance
+criteria.
+5. 1.22  design start — a milestone event that designates
+the  initial  conversion  of  equipment  specifications  and
+design     concepts     into     engineering     plans     and
+specifications.
+5. 1.23  detailing  —  generation  of  dimensioned  shop
+fabrication  plans  based  on  process  and  instrumentation
+drawings   (P&amp;ID),   field   surveys,   and   configuration
+verifications.
+5. 1.24  direct/indirect cost — direct costs are the cost of
+anything  physically  associated  with  the  installation,
+removal,  or  modification  of  equipment.  Indirect  costs
+cannot be associated with a specific piece of equipment.
+Profit,  overhead,  and  administrative  costs  are  typically
+considered indirect.
+5. 1.25  distribution    system    —    the    collection    of
+subsystems  and  components  used  in  a  semiconductor
+manufacturing  facility  to  control  and  deliver  process
+chemicals   from   source   to   point   of   use   for   wafer
+manufacturing processes.
+5. 1.26  dock  date  —  the  date  when  the  fab  equipment,
+including  all  ancillary  components,  is  on-site  at  the
+loading dock.
+5. 1.27  emergency  power  —  electrical  power  supplied
+by alternate sources or backup systems, like generators</p><p>SEMI E70-1103 © SEMI 1998, 2003 4
+that  come  on  line  when  the  main  utility  power  supply
+fails.
+5. 1.28  equipment  engineering  —  a  group  that  focuses
+primarily     upon     the     electrical,     electronic,     and
+mechanical   characteristics   of   production   equipment.
+Depending  upon  the  site  and  the  fab  area,  Equipment
+Engineering  may  be  a  distinct  organization,  or  the
+equipment  engineering  responsibilities  may  be  handled
+by   other   groups,   such   as   Process   Engineering   or
+Manufacturing  Engineering.  Equipment  Engineering  is
+typically    responsible    for    selection    and    physical
+configuration of production equipment.
+5. 2  facilities  interface  specification  —  Documentation
+provided   by   a   tool   supplier   that   contains   the   tool
+requirements  for  utilities  and  installation  as  defined  in
+SEMI  E6.  So-called  equipment  data  sheets  are  one
+section of this document that also includes requirements
+for  safety,  facilities  services,  shipping  and  receiving,
+install, startup, acceptance, and training.
+5. 2.1  fast track — a scheduling method that eliminates
+float and maximizes parallel activities, thereby reducing
+overall  project  duration.  Selective  use  of  overtime  is
+typically  used  to  reduce  the  duration  of  critical  path
+activities.
+5. 2.2   field  change  order  —  a  document  defining  a
+formal change in drawings, specifications, and/or scope
+of   work   generated   after   contract   award   by   on-site
+personnel  to  incorporate  conditions  identified  during
+construction.
+5. 2.3  field fabrication — assembly and/or modification
+of  components  on  the  job  site  to  accommodate  site-
+specific conditions.
+5. 2.4  float  —  unallocated  time  created  when  tasks  are
+completed ahead of schedule or a task’s duration is less
+than the allotted amount.
+5. 2.5  free on board (FOB)  —  goods  placed  on  a  truck
+or other means of transportation at a point specified by
+the  seller  without  charge  to  the  buyer,  but  with  all
+further transportation at the buyer’s expense.
+5. 2.6  gas cabinet — a metal enclosure that is intended
+to  provide  local  exhaust  ventilation,  protection  for  the
+gas  cylinder  from  fire  from  without  the  cabinet,  and
+protection  for  the  surroundings  from  fire  from  within
+<!-- -->[SEMI S4]<!-- -->.
+5. 2.7  gas  interface  box  (GIB)  —  an  enclosure  located
+between   the   tool   mainframe   and   facility   services
+containing   components   for   pressure   regulation   and
+filtration. Functions to consolidate all gas requirements
+to  single  points  of  connection.  Provides  location  and
+ability  to  pre-facilitate  tool  hookups  in  advance  of  tool
+delivery.
+5. 2.8  grounding — electrical wiring system to provide
+earth ground.
+5. 2.9  hookup  —  the  set  of  activities  and  organization
+required to accept incoming process equipment, move it
+into  place,  connect  the  equipment  to  all  facilities,  and
+test  the  connections.  The  connection  of  all  necessary
+facilities   and   interconnects   required   to   make   the
+equipment   package   fully   operational.   The   hookup
+activity is complete when all of the following are met.
+• The  equipment  positioning  and  bolting  down  is
+complete.
+• The    final    equipment    utility    connections    and
+interconnects are complete, tested, and certified.
+• The  process  piping  certification  is  complete.  The
+wall  system,  including  bulkheads  as  required,  is
+complete.
+• The final decontamination is complete.
+• Government  inspections  have  been  conducted  as
+required.
+5. 2.10  inertia  base  —  a  structural  unit  using  mass
+damping    to    attenuate    vibration    for    production
+equipment.
+5. 2.11  interconnect    —    connections    between    tool
+mainframe  and  peripheral  tool  subsystem  equipment
+<!-- -->[SEMI E6]<!-- -->.
+5. 2.12  issue  for  construction  (IFC)  —  a  milestone
+event  that  identifies  when  drawings  and  specifications
+are released to subcontractors for construction.
+5. 2.13  labor rate — the contractually stipulated cost of
+labor.
+5. 2.14  laterals/sublaterals    —    intermediate    facility
+service  distribution  lines  that  run  between  mains  and
+equipment-specific isolation valves.
+5. 2.15  layout  fixed  —  the  milestone  date  when  the
+physical  layout  of  equipment  and  components  is  fixed
+and all stockholders complete approval sign-off.
+5. 2.16  local abatement — treatment of emissions at the
+point of generation at the tool.
+5. 2.17  long  lead  materials  —  material  requiring  early
+ordering due to availability or long manufacturing time.
+5. 2.18  mains/submains   —   central   distribution   lines
+from  a  facility  services  source  to  which  laterals  are
+connected.   Individual   equipment   is   not   connected
+directly to mains.
+5. 2.19  minienvironment   —   a   localized   environment
+created  by  an  enclosure  to  isolate  the  product  from
+contamination and people <!-- -->[SEMI E45]<!-- -->.</p><p>SEMI E70-1103 © SEMI 1998, 2003 5
+5. 2.20  mobilization  —  initial  assignment  of  resources
+to   a   project   resulting   in   measurable   work   being
+accomplished.
+5. 2.21  move-in   —   the   movement   of   the   process
+equipment from the loading dock into the fab area, and
+into the final taped position. The piece of equipment is
+defined  as  the  main  body  of  the  equipment  and  all  its
+subsystems, assemblies, and components, excluding the
+hookup.  If  major  subsystems  such  as  pumps  or  chillers
+are  missing,  move-in  will  not  be  considered  complete
+until they arrive.
+5. 2.22  move-in   date   —   milestone   date   indicating
+completion   of   step   when   processing   equipment   is
+moved into designated location in fab.
+5. 2.23  not-to-exceed    (NTE)    —    an    agreement    to
+guarantee that the charges for a service or services will
+not be greater than a specified amount.
+5. 2.24  on-the-job  training  (OJT)  —  the  instruction  of
+personnel  in  the  operation  or  maintenance,  or  both,  of
+equipment  done  during  the  course  of  normal  work
+functions.    On-the-job    training    typically    does    not
+interrupt   operation   or   maintenance   activities   and,
+therefore,   can   be   included   in   any   equipment   state
+without special categorization <!-- -->[SEMI E10]<!-- -->.
+5. 2.25  overtime  —  time  spent  in  excess  of  normal
+working hours.
+5. 2.26  owner buys — material purchased by the owner
+and consigned to subcontractors for use in construction.
+5. 2.27  pedestal   —   structural   support   element   upon
+which equipment or raised floor rests.
+5. 2.28  permits    —    legal    governmental    documents
+granting permission for specific construction activities.
+5. 2.29  prefacilitation   —   a   stage   in   the   equipment
+installation process that follows base build and precedes
+tool hookup. Prefacilitation brings the various facilities
+services close to the new equipment location, including
+new   facilities   services   and   structural   modifications
+required to prepare the facility to accept the equipment.
+Also  known  as  rough-in,  this  step  is  performed  as  a
+time-saving    operation.    The    activity    requires    the
+following conditions to be met:
+• The raised floor is in (if required).
+• The ceiling is in.
+• The seismic or isolation frame is in.
+• All  utilities  are  within  1.8  meters  (6  feet)  of  the
+equipment or terminated in a utility box.
+• The floor is taped with the equipment location.
+5. 2.30  prepurchase   —   purchase   of   materials   and
+equipment   in   advance   of   total   scope   definition   to
+accommodate long lead times.
+5. 2.31  process  and  instrumentation  drawing  (P&amp;ID)
+—  a  diagram  using  graphic  engineering  symbols  to
+represent  the  components,  flows,  and  functions  that
+make up a process delivery system.
+5. 2.32  project management  —  the  set  of  activities  that
+design,  define,  direct,  monitor,  and  report  on  factory
+building construction.
+5. 2.33  protocol — description of procedures, materials,
+and   practices   used   to   define   a   methodology   for
+accomplishing   a   specific   task.   Typically   refers   to
+material and personnel handling to maintain cleanroom
+integrity.
+5. 2.34  punch list — a list of corrective actions required
+to fulfill contractual obligations.
+5. 2.35  purchase order (P.O.) — a document used by a
+buyer  to  acquire  a  product  or  service  that  usually
+contains  the  terms  and  conditions  (including  price)
+governing the sale.
+5. 2.36  qualification — certification of compliance with
+contractual stipulations before release to manufacturing
+production use.
+5. 2.37  quality  assurance/quality  control  (QA/QC)  —
+activities    performed    to    ensure    compliance    with
+contractually stipulated conditions.
+5. 2.38  raised   floor   —   the   removable   floor   system
+installed    above    the    actual    building    floor    within
+cleanroom  environments  to  control  air  flow  and  allow
+access for utility routing and connection.
+5. 2.39  request for information (RFI) — documentation
+from contractor to request clarification.
+5. 2.40  request  for  proposal  (RFP)  —  documentation
+from  purchasing  agent  to  vendor  to  request  a  proposal
+to provide product and/or services.
+5. 2.41  request for quote (RFQ) — documentation from
+purchasing  agent  to  vendor  to  request  a  firm  price  to
+provide product and/or services.
+5. 2.42  seismic  bracing  —  structural  reinforcement  to
+minimize damage due to earthquakes.
+5. 2.43  shifts — duration of routine work day, typically
+an 8, 10, or 12 hour as required to accrue a minimum of
+40 equivalent hours (or local equivalent) within a 7-day
+(one week) period.
+5. 2.44  single  line  drop  —  a  hookup  strategy  where  a
+piece  of  processing  equipment  has  only  one  point  of
+connection  per  facility  service.  All  manifolding  for  an
+individual service is handled with in the tool.</p><p>SEMI E70-1103 © SEMI 1998, 2003 6
+5. 2.45  site-specific  facilities  services  and  termination
+matrix  —  a  compilation  of  service  types,  quality,  and
+capacity  available  for  use  at  utility  point  of  connection
+for a tool (see SEMI E51).
+5. 2.46  slurry system — a distribution system to convey
+abrasive   slurries   for   use   in   chemical   mechanical
+polishing (CMP) systems.
+5. 2.47  source     inspection     —     inspection     at     the
+equipment     manufacturer’s     factory     to     confirm
+configuration    details,    review    modifications,    and
+confirm   installation   designs   prior   to   shipment   of
+equipment.
+5. 2.48  specialty    gas    —    non-bulk    process    gases
+typically  stored  in  cylinders  and  used  to  supply  one  or
+more process tools through specialized manifolds.
+5. 2.49  subfab   —   the   area   within   the   cleanroom
+boundaries directly below the production level.
+5. 2.50  submittal  —  a  written  presentation  for  signed
+acceptance  of  a  proposal  in  response  to  a  request  for
+services.
+5. 2.51  support  equipment  —  ancillary  equipment  not
+part of the main chassis.
+5. 2.52  time  and  materials  (T&amp;M)  —  a  contracting
+method   whereby   cost   is   determined   by   the   actual
+requirements  of  the  project  as  opposed  to  an  estimate
+and a fixed cost system.
+5. 2.53  tool  —  any  piece  of  semiconductor  fabrication
+or  inspection  equipment  designed  to  process  wafers.
+Often used synonymously with equipment in the silicon
+wafer processing industry.
+5. 2.54  tool   accommodation   —   a   methodology   by
+which semiconductor processing equipment is installed
+in a cost-effective and timely manner.
+5. 2.55  turnkey  —  delivery  of  a  fully  functional  and
+tested system.
+5. 2.56  utility point of connection (UPOC)/tool point of
+connection  (TPOC)  —  UPOC  is  a  fitting  typically
+located  at  a  valve  on  a  lateral  to  provide  service  for  a
+tool, the facilities end/termination of the hookup. TPOC
+is  a  fitting  typically  at  a  valve  on  a  processing  tool
+(either  external  or  internal),  the  tool  end/termination  of
+the hookup.
+5. 2.57  uninterruptable power supply (UPS) — a power
+supply  that  provides  an  uninterrupted  or  continuous
+supply  of  electrical  power  even  during  a  failure  in  the
+main utility power supply.
+5. 2.58  union  labor  —  a  group  of  trained  craftpersons
+that are represented by a single bargaining organization.
+A labor bargaining unit.
+5. 2.59  value   engineering   —   a   set   of   reviews   to
+determine minimum requirements at a minimum cost.
+5. 2.60  valve manifold box (VMB)/valve manifold panel
+(VMP)  —  a  metal  enclosure  and/or  panel  including
+distribution    valves    and    components    required    to
+distribute gases or liquids to multiple points of use from
+a single source.
+6  Roles and Responsibilities
+6. 1  Definition and responsibility assignment are critical
+to  a  successful  project.  Communications  mechanisms
+must  be  established  as  early  as  possible.  SEMI  E6
+provides   a   template   for   establishing   a   format   for
+administrative    interface.    Using    this    format    for
+establishing interfaces will improve communication and
+avoid  cost  and  schedule  impacts  that  might  arise  from
+equipment    or    facilities    modifications    during    the
+procurement cycle. (See Figure 1.)
+Tool
+Supplier
+Equipment
+Engineer
+Purchasing
+Agent
+Equipment
+Installation
+Manager</p><p>Figure 1
+Information Exchange Relationships
+7  Process
+7. 1    The  following  15  steps  describe  a  generic  process
+flow for using published tool accommodation standards
+to   achieve   cost   and   schedule   goals   in   a   cycle   of
+procurement through acceptance for a particular process
+tool. (See Figure 2.)
+7. 1.1  Process  Requirement  Defined  by  Customer  —
+Process parameters are defined and documented by the
+process   engineer   and   equipment   engineer.   Specific
+performance  targets  are  established  that  are  consistent
+with  production  requirements  and  cost  of  ownership
+expectations.
+7. 1.2  Process Tool Location Identified by Customer —
+Physical    location    is    determined    by    collaboration</p><p>SEMI E70-1103 © SEMI 1998, 2003 7
+between      production,      industrial,      and      facilities
+engineering.   The   location   is   typically   selected   to
+optimize   production   flow   within   the   facility   while
+minimizing    accommodation    costs    and    production
+interruptions. A layout document of record is generated
+and approved by all affected parties.
+7. 1.3  Customer  Generates  Facilities  Services  Matrix
+—  Equipment  and  facilities  engineering  establish  site-
+specific  parameters  by  using  the  SEMI  E51  format  to
+define  the  available  utilities  and  physical  environment
+within  which  the  production  tool  will  have  to  function.
+Local   jurisdictional   and   code   requirement   will   be
+comprehended by site specific parameters.
+7. 1.4  Customer   Specifies   Internal   Tool   Piping   and
+Distribution   System   Requirements   —   Site-specific
+exceptions  to  SEMI  E49  through  SEMI  E49.8  are
+identified  and  reviewed  with  equipment  suppliers  to
+determine    the    most    cost-    and    schedule-efficient
+configuration.
+7. 1.5  Customer Issues Formal Request for Quote — A
+formal  request  for  quotation  (RFQ)  is  generated  by  the
+customer’s      procurement      department      soliciting
+quotations  from  qualified  manufacturers.  SEMI  E49
+and  SEMI  E51  data  are  included  with  request  for
+quotation.
+7. 1.6  Supplier  Submits  Quote  Including  the  Facilities
+Interface   Specification   in   SEMI   E6   Format   —   A
+“Statement  of  Conformance”  to  specified  standards  is
+normally  required  for  a  quotation  to  be  considered
+valid. Exceptions to performance specifications must be
+thoroughly   documented   and   resolved.   Multiple   re-
+quotation    is    sometimes    required    to    establish    a
+contractually valid agreement.
+7. 1.7  Contractual Terms Finalized and Order is Placed
+by  Customer  —  Terms  and  conditions  of  the  purchase
+agreement   based   upon   the   finalized   quotation   are
+negotiated and approved by all stakeholders.
+7. 1.8  Supplier  Manufactures  Equipment  —  Equipment
+is  manufactured  per  purchasing  agreement.  To  prevent
+errors  and  omissions  during  installation,  change  orders
+are documented, approved prior to implementation, and
+copies  are  distributed  per  administrative  interfaces  as
+defined in SEMI E6.
+7. 1.9  Installation      Detailed      and      Prefacilitation
+Performed    by    Customer    —    Installation    design
+documentation  is  generated,  approved,  and  distributed
+to  subcontractors  for  pricing.  Long  lead-time  hookup
+materials       are       identified       and       prepurchased.
+Prefacilitation is performed to insure accurate and quick
+hookup of tool on arrival.
+7. 1.10  Customer Source Inspects Equipment — Source
+inspection  is  the  final  validation  of  all  designs  and
+capabilities  of  the  specific  tool.  Functionality  testing  is
+performed  and  documented.  Physical  configuration  is
+confirmed.     Modifications     to     configurations     are
+documented so that installation pricing can be adjusted
+accordingly.
+7. 1.11  Supplier   Ships   Equipment   to   Customer   —
+Equipment is packaged per SEMI E49.1 and shipped as
+defined   in   SEMI   E6.   Equipment   is   shipped   per
+purchase   order   stipulations.   Customs   clearance   is
+obtained as required.
+7. 1.12  Customer  Verifies  Equipment  Matches  Supplier
+Provided  Facilities  Interface  Specification  —  Upon
+arrival  at  the  customer  site,  verification  of  compliance
+to   purchase   order   is   determined.   Verification   of
+physical dimensions, point of connections, and interface
+cabling and tubing is performed.
+7. 1.13  Equipment Hookup by Customer — Mechanical,
+electrical,   process   piping,   and   life   safety   system
+hookups   are   done,   and   all   functional   testing   is
+completed.  Equipment  is  ready  for  vendor  startup  and
+commissioning.  Final  payment  to  hookup  contractor  is
+authorized,  and  upon  payment,  construction  liens  are
+released.  As-built  drawings  showing  newly  installed
+tool are updated and submitted to owner for inclusion in
+permanent records.
+7. 1.14  Equipment  Is  Qualified  and  Customer  Verifies
+Contract Completion — Equipment startup is complete
+and functional testing to verify compliance to purchase
+agreement is complete and documented. Final payment
+to equipment vendor is released.
+7. 1.15  Actual  Cost  and  Schedules  Are  Reviewed  —
+Final accounting is performed to determine actual costs
+associated   with   the   project.   Actual   duration   of   all
+activities is compared to original schedule to determine
+areas  for  improvement.  Estimating  models  for  future
+installations are updated to reflect new information.</p><p>SEMI E70-1103 © SEMI 1998, 2003 8</p><p>P</p><p>r</p><p>o</p><p>c</p><p>e</p><p>s</p><p>s</p><p>R e q u i r e m e n t
+D e f i n e d</p><p>b y
+C</p><p>u</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>C</p><p>u</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>G</p><p>e</p><p>n</p><p>e</p><p>r</p><p>a</p><p>t</p><p>e</p><p>s</p><p>F</p><p>a</p><p>c</p><p>i</p><p>l</p><p>i</p><p>t</p><p>i</p><p>e</p><p>s</p><p>S</p><p>e</p><p>r</p><p>v</p><p>i</p><p>c</p><p>e</p><p>s</p><p>M</p><p>a</p><p>t</p><p>r</p><p>i</p><p>x</p><p>(</p><p>S</p><p>E</p><p>M</p><p>I</p><p>E</p><p>5</p><p>1</p><p>)</p><p>C</p><p>u</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>S</p><p>p</p><p>e</p><p>c</p><p>i</p><p>f</p><p>i</p><p>e</p><p>s</p><p>I</p><p>n</p><p>t</p><p>e</p><p>r</p><p>n</p><p>a</p><p>l</p><p>T</p><p>o</p><p>o</p><p>l</p><p>P</p><p>i</p><p>p</p><p>i</p><p>n</p><p>g</p><p>a</p><p>n</p><p>d</p><p>D</p><p>i</p><p>s</p><p>t</p><p>r</p><p>i</p><p>b</p><p>u</p><p>t</p><p>i</p><p>o</p><p>n</p><p>S</p><p>y</p><p>s</p><p>t</p><p>e</p><p>m</p><p>R</p><p>e</p><p>q</p><p>u</p><p>i</p><p>r</p><p>e</p><p>m</p><p>e</p><p>n</p><p>t</p><p>s</p><p>(</p><p>S</p><p>E</p><p>M</p><p>I</p><p>E</p><p>4</p><p>9</p><ul><li></li></ul><p>E</p><p>4</p><p>9</p><p>.</p><p>8</p><p>)</p><p>S u p p l i e r</p><p>S u b m i t s
+Q</p><p>u</p><p>o</p><p>t</p><p>e</p><p>i</p><p>n</p><p>c</p><p>l</p><p>u</p><p>d</p><p>i</p><p>n</p><p>g</p><p>F</p><p>a</p><p>c</p><p>i</p><p>l</p><p>i</p><p>t</p><p>i</p><p>e</p><p>s</p><p>I</p><p>n</p><p>t</p><p>e</p><p>r</p><p>f</p><p>a</p><p>c</p><p>e</p><p>S</p><p>p</p><p>e</p><p>c</p><p>i</p><p>f</p><p>i</p><p>c</p><p>a</p><p>t</p><p>i</p><p>o</p><p>n</p><p>(</p><p>S</p><p>E</p><p>M</p><p>I</p><p>E</p><p>6</p><p>)</p><p>C</p><p>u</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>I</p><p>s</p><p>s</p><p>u</p><p>e</p><p>s</p><p>F</p><p>o</p><p>r</p><p>m</p><p>a</p><p>l</p><p>R</p><p>e</p><p>q</p><p>u</p><p>e</p><p>s</p><p>t</p><p>f</p><p>o</p><p>r</p><p>Q</p><p>u</p><p>o</p><p>t</p><p>e</p><p>w i t h</p><p>S E M I</p><p>E 5 1</p><p>&amp;
+E</p><p>4</p><p>9</p><p>D</p><p>a</p><p>t</p><p>a</p><p>C</p><p>o</p><p>n</p><p>t</p><p>r</p><p>a</p><p>c</p><p>t</p><p>u</p><p>a</p><p>l</p><p>T</p><p>e</p><p>r</p><p>m</p><p>s</p><p>F i n a l i z e d</p><p>&amp;</p><p>O r d e r
+P</p><p>l</p><p>a</p><p>c</p><p>e</p><p>d</p><p>b</p><p>y</p><p>C</p><p>u</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>T</p><p>o</p><p>o</p><p>l</p><p>L</p><p>o</p><p>c</p><p>a</p><p>t</p><p>i</p><p>o</p><p>n</p><p>I</p><p>d</p><p>e</p><p>n</p><p>t</p><p>i</p><p>f</p><p>i</p><p>e</p><p>d</p><p>b</p><p>y</p><p>C u s t o m e r
+Installation
+Detailed</p><p>and
+Prefacilitation
+Performed</p><p>by
+Customer
+Supplier</p><p>Ships
+Equipment
+to</p><p>Customer
+(SEMI</p><p>E6</p><p>&amp;</p><p>E49.1)
+Ac</p><p>t</p><p>u</p><p>a</p><p>l</p><p>C</p><p>o</p><p>s</p><p>t</p><p>s</p><p>a</p><p>n</p><p>d</p><p>S</p><p>c</p><p>h</p><p>e</p><p>d</p><p>u</p><p>l</p><p>e</p><p>s</p><p>A</p><p>r</p><p>e</p><p>R</p><p>e</p><p>v</p><p>i</p><p>e</p><p>w</p><p>e</p><p>d</p><p>Cu</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>V</p><p>e</p><p>r</p><p>i</p><p>f</p><p>i</p><p>e</p><p>s</p><p>Equ</p><p>i</p><p>p</p><p>m</p><p>e</p><p>n</p><p>t</p><p>M</p><p>a</p><p>t</p><p>c</p><p>h</p><p>e</p><p>s</p><p>Su
+p p l i e r</p><p>P r o v i d e d
+Fa c i l i t i e s</p><p>I n t e r f a c e
+S</p><p>p</p><p>e</p><p>c</p><p>i</p><p>f</p><p>i</p><p>c</p><p>a</p><p>t</p><p>i</p><p>o</p><p>n</p><p>(</p><p>S</p><p>E</p><p>M</p><p>I</p><p>E</p><p>6</p><p>)</p><p>Equ</p><p>i</p><p>p</p><p>m</p><p>e</p><p>n</p><p>t</p><p>H</p><p>o</p><p>o</p><p>k</p><p>u</p><p>p</p><p>b</p><p>y</p><p>C</p><p>u</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>E</p><p>q</p><p>u</p><p>i</p><p>p</p><p>m</p><p>e</p><p>n</p><p>t</p><p>i</p><p>s</p><p>Q u a l i f i e d</p><p>a n d
+Cu</p><p>s</p><p>t</p><p>o</p><p>m</p><p>e</p><p>r</p><p>V</p><p>e</p><p>r</p><p>i</p><p>f</p><p>i</p><p>e</p><p>s</p><p>C</p><p>o</p><p>n</p><p>t</p><p>r</p><p>a</p><p>c</p><p>t</p><p>C</p><p>o</p><p>m</p><p>p</p><p>l</p><p>e</p><p>t</p><p>i</p><p>o</p><p>n</p><p>E</p><p>n</p><p>d</p><p>P</p><p>r</p><p>o</p><p>c</p><p>u</p><p>r</p><p>e</p><p>m</p><p>e</p><p>n</p><p>t</p><p>M</p><p>a</p><p>n</p><p>u</p><p>f</p><p>a</p><p>c</p><p>t</p><p>u</p><p>r</p><p>i</p><p>n</p><p>g</p><p>I</p><p>n</p><p>s</p><p>t</p><p>a</p><p>l</p><p>l</p><p>a</p><p>t</p><p>i</p><p>o</p><p>n</p><p>7</p><p>.</p><p>1</p><p>.</p><p>1</p><p>7</p><p>.</p><p>1</p><p>.</p><p>2</p><p>7</p><p>.</p><p>1</p><p>.</p><p>3</p><p>7</p><p>.</p><p>1</p><p>.</p><p>4</p><p>7</p><p>.</p><p>1</p><p>.</p><p>5</p><p>7</p><p>.</p><p>1</p><p>.</p><p>6</p><p>7</p><p>.</p><p>1</p><p>.</p><p>7</p><ol start="7"><li>1.9</li><li>1.11</li><li>1.12</li><li>1.13</li><li>1.14</li><li>1.15
+Supplier
+Manufactures
+Equipment</li><li>1.8
+Customer</li></ol><p>Source
+Inspects
+Equipment
+7. 1.10</p><p>Figure 2
+Tool Accommodation Process Flow Chart</p><p>SEMI E70-1103 © SEMI 1998, 2003 9
+NOTICE:    SEMI  makes  no  warranties  or  representations  as  to  the  suitability  of  the  standards  set  forth  herein  for
+any particular application. The determination of the suitability of the standard is solely the responsibility of the user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.</p><p>Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.</p><p>SEMI E72-0600 © SEMI 1998, 2005 1
+SEMI E72-0600 (Reapproved 0305)
+SPECIFICATION AND GUIDE FOR 300 mm EQUIPMENT FOOTPRINT,
+HEIGHT, AND WEIGHT
+This  specification  was  technically  approved  by  the  Global  Physical  Interfaces  &amp;  Carriers  Committee  and  is
+the  direct  responsibility  of  the  North  American  Physical  Interfaces  &amp;  Carriers  Committee.  Current  edition
+approved by the North American Regional Standards Committee on December 10, 2004.  Initially available
+at  <a href="http://www.semi.org" target="_blank" rel="noopener noreferrer">www.semi.org</a>  February  2005;  to  be  published  March  2005.  Originally  published  in  1998,  previously
+published June 2000.
+1  Purpose</p><ol><li>1  Currently,  device  manufacturers  cannot  easily  plan  or  retrofit  their  fabs,  because  equipment  volumes  are  not
+predictable. Similarly, equipment suppliers cannot predict fab designs, because there are too many configurations. In
+general,  fab  space  is  not  used  efficiently,  and  there  seems  to  be  a  trade-off  between  space  efficiency  and
+maintainability. This standard is a guide for equipment design and a specification for maximum limits on equipment
+volume and weight.
+2  Scope</li><li>1  This standard specifies limits on the footprint, height, and weight of equipment for 300 mm fabs. Separate limits
+are  given  for  the  parts  of  the  equipment  in  the  main  fab  and  in  the  sub-fab.  Separate  limits  are  also  given  for  the
+equipment  after  it  is  installed  and  for  the  components  of  the  equipment  as  it  is  moved  into  the  fab.  The  actual
+footprint may vary by equipment type.</li><li>2  This  standard  is  intended  to  set  an  appropriate  level  of  specification  that  places  minimal  limits  on  supplier
+innovation  while  ensuring  opportunities  for  users  to  be  globally  (though  possibly  not  locally)  efficient  with
+equipment volumes.</li><li>3  This standard does not purport to address safety issues, if any, associated with its use.  It is the responsibility of
+the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the  applicability  of
+regulatory limitations prior to use.
+NOTICE:  This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Referenced Standards</li><li>1  SEMI Standards
+SEMI E15 — Specification for Tool Load Port
+SEMI E15.1 — Specification for 300 mm Tool Load Port
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+4  Terminology</li><li>1  Definitions</li><li>1.1  cost footprint — the area (A) of the smallest horizontal rectangle that contains all of the shadow footprint and
+half  of  the  easement  space  around  the  equipment  (for  use  as  the  floor  space  metric  in  Cost  of  Ownership
+calculations). As shown in Figure 1, this is computed as
+A = <!-- -->[Wt + ½ (Ws – Wt)]<!-- --> × <!-- -->[Dt + ½ (Ds – Dt)]<!-- -->
+= ¼ (Wt + Ws) × (Dt + Ds)
+Where W represents width and D represents depth</li></ol><p>SEMI E72-0600 © SEMI 2003 2
+4. 1.2  depth — the horizontal dimension perpendicular to the load face plane.
+4. 1.3  easement  space  —  the  floor  space  that  must  remain  clear  to  the  rear  and  sides  of  the  equipment  (but  not  in
+front of the load face plane). This includes safety aisles, ergonomic maintenance access space, component removal
+space, and room for doors to swing out (see Figure 1).
+4. 1.4  load face plane — the furthest physical vertical boundary plane from the cassette centroid or carrier centroid
+on the side (or sides) of the tool where loading of the tool is intended (as defined in SEMI E15).
+4. 1.5  shadow footprint — the area of the floor space directly under every part of the equipment during its operation
+(see  Figure  1).  This  includes  any  temporary  projections  from  the  equipment  during  loading  or  processing  (such  as
+carriers that stick out from the equipment or equipment load ports that protrude only when the equipment is being
+loaded).
+4. 1.6  width — the horizontal dimension parallel to the load face plane.
+5  Requirements and Recommendations
+NOTE 1:  The dimensions cited in the following sections are specified in Table 1.
+5. 1  Sub-Fab vs. Main Fab Footprint
+5. 1.1  Requirements — Both the cost footprint and the shadow footprint of the remote parts of any equipment in the
+sub-fab must be less than or equal to the cost footprint and the shadow footprint (respectively) of the parts of that
+equipment in the main fab (the cleanroom including both bays and chases, if any). Furthermore, the remote parts of
+the equipment in the sub-fab must be capable of being installed so that the rectangle defining the cost footprint in the
+sub-fab is entirely underneath the rectangle defining the cost footprint in the main fab. In some fab designs (such as
+slab on grade), there is no sub-fab (or basement). In such cases, these requirements apply to the remote parts of the
+equipment in whichever equipment support area contains the same remote parts of the equipment as a sub-fab. Also,
+some fabs have multiple sub-fab levels. In such cases, these requirements apply to the remote parts of the equipment
+in all sub-fab levels.
+5. 1.2  Recommendations — Since the sub-fab is likely to have more columns than the main fab, it is recommended
+that  the  remote  parts  of  the  equipment  in  the  sub-fab  come  in  modules  that  can  be  arranged  to  accommodate  a
+variety of layouts.
+5. 2  Equipment Height
+5. 2.1  Requirements — The maximum height of any equipment (other than a stocker) must be less than or equal to H
+in the main fab and Hs in the sub-fab. Any connections for utilities and required overhead mainten-ance access must
+also be included within these limits. These limits also apply during installation, so if a part of the equipment must be
+rotated up into place, the diagonal measurement must be less than these limits.
+5. 2.2  Recommendations — Thus, equipment suppliers are advised to not plan on ceilings higher than these limits.
+5. 3  Floor Loading
+5. 3.1  Requirements — The maximum mass of any equipment in the main fab divided by its shadow footprint must
+be less than or equal to M (except when support pedestals are used). Furthermore, the maximum weight on any 0.6
+m by 0.6 m (2 ft. by 2 ft.) floor tile (in any installation configuration) must be less than or equal to Mt. These limits
+also apply when the equipment is being moved into the fab and installed, unless spreader plates are used.
+5. 3.2  Recommendations  —  It  is  recommended  that  seismic  loading  also  be  considered  when  designing  equipment
+weight distribution.
+5. 4  Move-In-Size
+5. 4.1  Requirements — To clarify the size of the doors and hallways needed in the fab, this paragraph specifies the
+size of the equipment&#x27;s components after it has been uncrated, while it is being moved into the fab, and before it is
+installed. All parts of the equipment destined for the main fab must come in packages that are no taller than Z and
+that  are  smaller  than  X  by  Y  in  two  orthogonal  horizontal  dimensions.  All  parts  of  the  equipment  destined  for  the
+sub-fab  must  come  in  packages  that  are  no  taller  than  Zs  and  that  are  smaller  than  Xs  by  Ys  in  two  orthogonal</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/semi">SEMI</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/standard">Standard</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/semiconductor-docs/docs/tags/chapter-10">Chapter 10</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-org/semiconductor-docs/tree/main/docs/standards/semi/semi-chapter-010.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/semiconductor-docs/docs/standards/semi/semi-chapter-009"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Chapter 9</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/semiconductor-docs/docs/standards/bus/amba-axi"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">AMBA AXI 协议</div></a></nav></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/ic-design/intro">芯片设计</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/process/intro">工艺制造</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/eda-tools/intro">EDA工具</a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/docs/standards/intro">协议标准</a></li></ul></div><div class="col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-org/semiconductor-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">技术博客</a></li></ul></div><div class="col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/semiconductor-docs/blog">更新日志</a></li><li class="footer__item">
+                  <a href="#" target="_blank" rel="noreferrer noopener">
+                    <span style="margin-right: 8px;">AI 集成</span>
+                    <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">NEW</span>
+                  </a>
+                </li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">
+          <div style="text-align: center;">
+            <p style="margin: 0; opacity: 0.8;">Copyright © 2025 半导体知识文档库</p>
+            <p style="margin: 8px 0 0 0; opacity: 0.6; font-size: 0.9em;">
+              Built with <span style="color: #00d4ff;">❤</span> using Docusaurus •
+              <span style="background: linear-gradient(135deg, #00d4ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">AI-Powered</span>
+            </p>
+          </div>
+        </div></div></div></footer></div>
+<script src="/semiconductor-docs/assets/js/runtime~main.d8edb667.js"></script>
+<script src="/semiconductor-docs/assets/js/main.3df90eb6.js"></script>
+</body>
+</html>

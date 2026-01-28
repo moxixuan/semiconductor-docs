@@ -4,12 +4,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '半导体知识文档库',
   tagline: '专业的半导体技术文档检索平台',
-  favicon: 'img/favicon.ico',
 
-  url: 'https://your-docker-name.meilisearch.com',
-  baseUrl: '/',
+  url: 'https://moxixuan.github.io',
+  baseUrl: '/semiconductor-docs/',
 
-  organizationName: 'your-org',
+  organizationName: 'moxixuan',
   projectName: 'semiconductor-docs',
 
   onBrokenLinks: 'throw',
@@ -43,7 +42,6 @@ const config = {
 
   themeConfig:
     ({
-      image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
@@ -51,10 +49,6 @@ const config = {
       },
       navbar: {
         title: '⚡ 半导体知识库',
-        logo: {
-          alt: 'Logo',
-          src: 'img/logo.svg',
-        },
         style: 'dark',
         items: [
           {

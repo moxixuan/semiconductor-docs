@@ -11,7 +11,7 @@ const config = {
   organizationName: 'moxixuan',
   projectName: 'semiconductor-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {

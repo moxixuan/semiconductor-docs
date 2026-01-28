@@ -58,9 +58,9 @@ function PdfDownloadCard({ pdfLink, pdfSize, title, description }) {
         <a
           href={pdfLink}
           className="pdf-download-card__button pdf-download-card__button--primary"
+          download={isExternal ? undefined : true}
           target={isExternal ? '_blank' : undefined}
           rel={isExternal ? 'noopener noreferrer' : undefined}
-          download={!isExternal}
         >
           <span className="pdf-download-card__button-icon">⬇️</span>
           下载PDF

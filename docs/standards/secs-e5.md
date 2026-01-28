@@ -2314,9 +2314,9 @@ Where Used: S12F1, F3
 SEMI E5-1000 © SEMI 1982, 200043
 PRCMDNAMEFormat: 20
 Commands sent to a process job:
-ìSTARTî
-ìSTOPî
-ìPAUSEî
+START
+STOP
+PAUSE
 ìRESUMEî
 ìABORTî
 ìCANCELî

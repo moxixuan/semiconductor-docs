@@ -1,0 +1,4253 @@
+---
+title: "S16-0600 - © SEMI 20003 7..."
+description: "SEMI标准文档"
+sidebar_label: "S16-0600 - © SEMI 20003 7..."
+sidebar_position: 1420
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-142.pdf'
+  chapter: 142
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/142.pdf"
+  pdfSize="1.16MB"
+  title="S16-0600 - © SEMI 20003 7..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI S16-0600 © SEMI 20003
+7  Information Provided by t he Supplier
+7. 1   The  supplier  should  provide  th e  equipment  owner
+with  operation  and/or  maintenance  manuals  or  similar
+documents   drafted   according   to   SEMI   S13,   which
+include the following information on the materials used
+in  equipment,  subassemblies  and  components  upon  the
+delivery of the equipment:
+NOTE 2: The supplier may gather appropriate information at
+the time of design in conjunction with a disposal party.
+7. 1.1   Primary  materials  of  appropria te  disassemble-
+able   unit   in   consideration   with   reuse,   refurbishing,
+recycling  and  disposal  of  each  component  such  as,
+chemicals  (e.g.,  mercury),  metals  (e.g.,  stainless  steel,
+steel,  or  copper),  plastics  (e.g.,  ABS  -  i.e.,  Acrylon-
+itorile  Butadiene  Styrene  plastics  -  or  non-combustible
+ABS), glass, or ceramics.
+7. 1.2  Describe opportunities for reus e, refurbishing or
+material  recycling  of  every  component  or  recyclable
+subassembly.    If  there  are  no  opportunities,  a  waste
+disposal  method  should  be  recommended  based  on
+assumption   of   usage   with   baseline   process   by   the
+supplier.     (e.g.,     ABS     can     be     recycled     after
+decontamination   as   class   X   plastic   and   mercury
+requires reclaim or hazardous waste disposal.)
+7. 1.3  Disassembly Procedure
+7. 1.3.1      A     disassembly     procedure     shou ld     be
+recommended  by  the  supplier  to  the  level  required  to
+facilitate    complete    decontamination    and    material
+separation for waste disposal.
+7. 1.3.2    The   disassembly   procedure   sh ould   include
+procedures to remove all hazardous energies.
+7. 1.3.3  The disassembly procedure sh ould prevent the
+mixture of incompatible chemicals.  If it is not feasible,
+administrative control procedures should be included.
+7. 1.3.4    If   the   chemicals/materials   desc ribed   from
+Sections   7.1.3.4.1   to   7.1.3.4.4   are   hazardous,   the
+disassembly  procedure  should  prevent  the  release  of
+them to the environment. The chemicals include:
+7. 1.3.4.1   Chemicals  used  to  maintain  th e  equipment
+(e.g., lubricant and coolant).
+7. 1.3.4.2   Other  potentially  hazardous  ite ms  which  are
+parts  of  the  equipment,  such  as  capacitors,  batteries,
+lamps   or   mercury,   which   require   special   disposal
+procedures.
+7. 1.3.4.3  Chemicals used in the baseline  process of the
+equipment manufacturer.
+7. 1.3.4.4    Anticipated   byproducts   of   the    baseline
+process.
+NOTE  3:  Byproducts  are  changeable  according  to  several
+kinds  of  conditions  such  as  exhaust  diameter/length/volume,
+chamber  volume/pressure/configuration,  maintenance  meth-
+od/cycle, and evacuation frequency.
+7. 1.3.4.5   The  disassembly  procedure  sh ould  address
+any  hazards  of  ionizing  radiation  sources,  if  they  are
+present,    and    address    safe    removal    and    storage
+procedures.
+7. 1.4  Disposal procedure should be  a safer way based
+on  the  result  of  risk  assessment  such  as  SEMI  S10  or
+EN 1050 and job hazard analysis.
+8  Information Provided by t he Equipment
+Owner
+8. 1   Prior  to  disposal,  the  equipmen t  owner  should
+provide the following information to the disposal party
+in  order  to  reflect  all  residual  waste  hazards.  This
+information  should  be  provided  to  any  party  handling
+the  waste  regardless  of  intention  to  dispose  or  recycle
+the equipment unless the component in question is fully
+decontaminated.
+8. 1.1   Relevant  information  provided   by  the  supplier
+per Section 7 of this document.
+8. 1.2  Chemicals used in the equipm ent owner specific
+process   other   than   the   baseline   process   and   its
+byproducts.
+8. 1.3  Decontamination and waste di sposal method for
+parts  contaminated  by  an  equipment  owner  specific
+process other than the baseline process.
+8. 1.4   The  minimal  information  of  ne cessary  personal
+protective  equipment  (PPE)  based  on  the  equipment
+usage history.
+NOTE  4:  PPE  and  necessary  training  are  to  be  specified  by
+the employer of those personnel to be protected.
+8. 1.5   The  details  of  the  decontamina tion  procedure
+and  any  remaining  chemicals  and  their  locations  after
+the     equipment     owner     has     completed     initial
+decontamination of the equipment.
+9  Selection of the Disposal  Party
+9. 1      The     disposal     party     must     comp ly     with
+regional/national  codes  and  regulations  related  to  the
+receipt, transfer and disposal of equipment.
+NOTE  5:  A  specially  controlled  industrial  waste  disposal
+license  as  well  as  a  specially  controlled  waste  collection  and
+transfer  license  may  be  typically  required  by  the  relevant
+country’s government.
+9. 2   The  incident  and  compliance  r ecord  of  the  waste
+disposal party should be considered at the time when a
+selection of the disposal party is made.
+
+SEMI S16-0600 © SEMI 20004
+10  Equipment Disposal Proc edure
+10. 1  The possibility of refurbishing  the entire piece of
+equipment  should  be  considered  before  disassembly
+and disposal is selected.
+10. 1.1   When  refurbishing  of  the  entir e  equipment  is
+chosen, only the disposal parts which are not able to be
+refurbished  at  the  time  should  be  decontaminated  or
+considered  for  disposal.  This  results  in  a  significant
+reduction in waste.
+10. 2  Equipment  Decontamination  a nd  Packaging  for
+Transfer     Equipment    being    transferred    should
+comply  with  SEMI  S12  and  all  applicable  hazardous
+materials shipping regulations.  If the equipment has to
+be  transported  prior  to  decontamination,  it  should  be
+ensured, that no contaminants may be released (e.g., by
+appropriate packaging).
+10. 3  Disassembly   and   Decontamina tion    The
+equipment  owner  or  disposal  party  should  follow  all
+local regulations regarding disassembly and disposal.
+10. 3.1  If there is an equipment owner  specific process,
+the  specifics  of  that  process  and  its  hazards  should  be
+provided to the disposal party by the equipment owner.
+10. 4    Material   Separation    Only   m aterials   that
+cannot  be  refurbished,  recycled  or  reused  should  be
+categorized     for     other     disposal     methods     (e.g.,
+incineration and landfill) under this disposal assessment
+procedure.
+10. 4.1   First  decontaminate  any  contam inated  material
+which is capable of further decontamination.
+10. 4.2      Discard     any     materials     incapab le     of
+decontamination   by   appropriate   contaminated   waste
+disposal   categories   or   process   (e.g.,   incineration,
+hazardous landfill, etc.).
+10. 4.3     Further    separate    materials    into     reusable
+components (e.g., pumps, motors, electronics, etc.).
+10. 4.3.1    This   includes   any   components    with   a
+potential for refurbishing.
+10. 4.4    Separate   recyclable   materials   b y   categories
+(e.g., metals, class of plastics, etc.).
+10. 4.5    Separate   into   reclamation   cate gories   (e.g.,
+mercury   recovery   from   lamps,   lead   recovery   from
+batteries, etc.).
+10. 5   The  equipment  owner  should  c onfirm  that  the
+disposal  party  follows  the  procedures  required  by  this
+document      through      checking      manifest      and/or
+implementing  practical  inspection  periodically  as  well
+as applicable regional codes and regulations.
+10. 6   Ionizing  radiation  sources,  if  p resent,  should  be
+disposed of in accordance with each applicable country,
+state and local regulations. All applicable licensing and
+reporting requirements should be met.
+11  Documentation and Reco rds
+11. 1   Documentation  should  be  prep ared  and  main-
+tained by the equipment owner according to applicable
+codes  and  regulations  for  the  region  or  locality  where
+disposal occurs.
+11. 2  Documentation showing final  disposition of each
+class  of  material  should  be  returned  to  the  equipment
+owner by the disposal party.
+NOTICE: SEMI  makes  no  warranties  or  representa-
+tions  as  to  the  suitability  of  the  guidelines  set  forth
+herein for any particular application. The determination
+of   the   suitability   of   the   guideline   is   solely   the
+responsibility of the user. Users are cautioned to refer to
+manufacturer’s   instructions,   product   labels,   product
+data sheets, and other relevant literature respecting any
+materials    or    equipment    mentioned    herein.    These
+guidelines are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  guideline  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  guideline,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this guideline. Users of this guideline
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI S17-0701 © SEMI 20011
+SEMI S17-0701
+SAFETY GUIDELINE FOR UNMANNED TRANSPORT VEHICLE (UTV)
+SYSTEMS
+This  safety  guideline  was  technically  approved  by  the  Global  Environmental  Health  and  Safety  Committee
+and is the direct responsibility of the Japanese Environmental Health and Safety Committee. Current edition
+approved  by  the  Japanese  Regional  Standards  Committee  on  February  1,  2001.    Initially  available  at
+www.semi.org April 2001; to be published July 2001.
+NOTICE: Paragraphs  entitled  “NOTE:”  are  not  an
+official  part  of  this  document  and  are  not  intended  to
+modify or supersede the official guideline.
+1  Purpose
+1. 1    These   guidelines   are   intended    as   a   set   of
+environmental,  safety,  and  health  considerations  for
+unmanned   transport   vehicle   (UTV)   systems.   UTV
+systems are used to automate the movement of material
+within  semiconductor  factories.  Unmanned  transport
+vehicle  systems  include  both  floor-traveling  vehicle
+systems and space-traveling vehicle systems.
+2  Scope
+2. 1   This  guideline  applies  to  UTV   systems  used  in
+semiconductor manufacturing.
+2. 2   This  guideline  addresses  both   floor-traveling  and
+space-traveling  UTV  systems.  Floor-traveling  vehicle
+systems   include   automatic   guided   vehicle   (AGV)
+systems and rail guided vehicle (RGV) systems. Space-
+traveling  vehicle  systems  include  interbay  overhead
+transport  vehicle  systems  and  intrabay  overhead  hoist
+transport vehicle (OHT) systems.
+2. 3   Evaluations  for  conformance  t o  this  document
+should  include  all  equipment  that  is  provided  by  the
+UTV  system  supplier  including  separate  items  such  as
+rails,  control  panels,  power  panels,  and  any  other  type
+of  equipment  necessary  for  operation  of  the  unmanned
+transport vehicles.
+2. 4   This  safety  guideline  does  not   purport  to  address
+all  of  the  safety  issues  associated  with  its  use.  It  is  the
+responsibility  of  the  users  of  this  guideline  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+2. 5  This document contains the fo llowing sections:
+• Purpose
+• Scope
+• Limitations
+• Referenced Standards
+• Terminology
+• Equipment Evaluation
+• Clearances and Interfaces
+• Emergency Shutdown
+• Manual Operation
+• Vehicle Travel
+• Material Protection
+• Load/Unload Operation
+• Hazard Indicators
+• Hazardous Materials
+• Related Documents
+3  Limitations
+3. 1    This   safety   guideline   may   hav e   only   limited
+application  to  vehicles  without  on-board  power  (direct
+or  induced)  such  as  primary-grounded  linear–motor-
+driven  overhead  transport  vehicle  systems  used  for
+interbay   transport.      Determinations   of   applicability
+should   be   made   by   section   when   evaluating   such
+systems.
+3. 2   This  safety  guideline  does  not   address  rail-guided
+or     robotic     mechanisms     included     as     part     of
+semiconductor  processing  equipment.    This  type  of
+equipment should be evaluated as part of the processing
+equipment per SEMI S2.
+3. 3  Person Guided Vehicles (PGV s) are not unmanned
+vehicles,  therefore  PGVs  are  not  addressed  by  this
+standard.
+3. 4   This  document  does  not  supers ede  international,
+national  or  local  codes,  regulations  and  laws,  which
+may  impose  separate  requirements  for  assessing  the
+safety of installations.
+NOTE 1: Users should provide information to UTV suppliers
+about regulations for the location of use.
+
+SEMI S17-0701 © SEMI 20012
+4  Referenced Standards
+NOTE 2: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+4. 1  SEMI Standards
+SEMI  E15.1  —  Specification  for  300  mm  Tool  Load
+Port
+SEMI   E23   —   Specification   for   Cassette   Transfer
+Parallel I/O Interface
+SEMI   E84   —   Specification   for   Enhanced   Carrier
+Handoff Parallel I/O Interface
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI   S8   —   Safety   Guidelines   for   Ergonomics
+Engineering      of      Semiconductor      Manufacturing
+Equipment
+4. 2  ANSI Standard
+1
+ANSI/RIA  R15.06 —  Industrial  Robots  and  Robot
+Systems - Safety Requirements
+4. 3  CENELEC Standards
+1
+EN775 — Manipulating Industrial Robots – Safety
+4. 4  ISO Standards
+2
+ISO 10218 — Manipulating Industrial Robots – Safety
+5  Terminology
+5. 1  automated  operation  —  system   operation  under
+full pre-programmed control of the computer controller.
+5. 2  automatic  guided  vehicle  (AGV )  —  a  floor  based
+vehicle,  with  or  without  robotic  manipulators,  used  for
+transporting  loads  and  operating  without  the  need  for
+assistance  by  factory  personnel.    AGVs  travel  without
+mechanical guidance.
+5. 3  bumper    —  a  shock  absorber  f or  a  UTV.    A
+bumper  is  typically  equipped  with  a  contact  switch  or
+sensor  on  it.  And  if  the  bumper  switch  or  sensor  is
+activated, the UTV will stop immediately.
+5. 4  EMO  —  an  actuator  (e.g.,  butt on)  which,  when
+activated,  places  the  equipment  into  a  safe  shutdown
+condition,  without  generating  any  additional  hazard  to
+personnel or the facility.
+5. 5  E-Stop — emergency stop feat ure provided to stop
+all   moving   parts   but   not   necessarily   isolating   or
+controlling all energy sources.
+
+1 American National Standards Institute, 11 West 42nd St., 13th
+Floor, New York, NY 10036
+2 International Organization for Standardization (ISO), 1 rue de
+Varembe, Case postale 56, CH-1211 Geneve 20, Switzerland
+5. 6   end  user  customer  —  as  relate d  to  UTVs,  the
+company  operating  the  factory  in  which  the  UTVs  are
+installed.
+5. 7   fault-tolerant  —  designed  so  th at  a  reasonably
+foreseeable  single  point  failure  does  not  result  in  an
+unsafe condition.
+5. 8  floor-traveling    vehicle    —    a    veh icle    that
+automatically travels on the factory floor to a specified
+station  where  a  load/unload  operation  is  performed
+automatically  or  manually.    Floor-traveling  vehicles
+include   automatic   guided   vehicles   (AGV)   and   rail
+guided vehicles (RGV).
+5. 9  hoist —  the  assembly  on  a  spa ce-traveling  vehicle
+that  performs  the  load/unload  operation  by  transferring
+a load [e.g., carrier(s), pod(s)] to and from an overhead
+vehicle.
+5. 10  interbay  transport  —  moveme nt  of  loads  [e.g.,
+carrier(s),   cassette(s),   reticle(s)]   between   functional
+work areas or bays.
+5. 11  intrabay  transport  —  moveme nt  of  loads  [e.g.,
+carrier(s), cassette(s), reticle pod(s)] within a functional
+work area or bay.
+5. 12  load  —  load  is  the  object  to  be   transported  by
+UTV.  Load includes a carrier (cassette, box, pod, etc.)
+and its contents.
+5. 13  load/unload operation — the a ction necessary to
+move  a  load  [e.g.,  carrier(s),  cassette(s)  reticle  pod(s)]
+to  and  from  a  vehicle.  This  operation  may  involve
+hoisting,  manual,  or  robotic  manipulation  to  transfer
+loads     between     a     vehicle     and     semiconductor
+manufacturing  equipment  (such  as  process  equipment
+or stockers).  See Figure 1.
+5. 14  manual  operation  —  defined  a s  any  control
+outside of automated operation.
+5. 15  overhead  hoist  transport  (OHT )  —  a  rail  guided
+vehicle  and  hoist  used  to  transport  material  above  the
+factory floor over the heads of factory personnel.
+5. 16  rail   guided   vehicle   (RGV)   —   a    floor-based
+vehicle,  with  or  without  robotic  manipulators,  used  to
+transport loads and operating on a guide rail without the
+need for assistance by factory personnel.
+5. 17  space-traveling    vehicle    —    a    ve hicle    that
+automatically  travels  through  space,  such  as  in  the
+region just below a factory ceiling, to a specified station
+where     a     load/unload     operation     is     performed
+automatically   or   manually.   Space-traveling   vehicles
+include    interbay    overhead    transport    vehicles    and
+intrabay overhead hoist transport vehicles (OHT).
+
+SEMI S17-0701 © SEMI 20013
+5. 18  station   —   the   destination   point    where   an
+unmanned  transport  vehicle  is  programmed  to  stop  for
+load/unload operation (also known as a control point).
+5. 19  travel — the automated motion  of a vehicle along
+a  rail  or  programmed  path  from  one  station  to  another
+station.  Travel  does  not  include  load/unload  operation.
+See Figure 1.
+5. 20  unmanned  transport  vehicle  (U TV)  —  a  vehicle
+used  to  automate  the  movement  of  production  material
+within semiconductor factories.  There are two types of
+UTVs,   floor-traveling   vehicles   and   space-traveling
+vehicles.
+Travel
+Station  to  Station
+Load/Unload
+Overhead or Floor Vehicle
+Figure 1
+Delineation of Travel vs. Load/Unload
+6  Equipment Evaluation
+6. 1  Equipment  Evaluation  for  both   Floor-Traveling
+and  Space-Traveling  Vehicles  —  All  UTV  equipment
+should  be  evaluated  against  the  following  referenced
+provisions.
+6. 2   All  UTV  equipment  should  be   evaluated  against
+appropriate  sections  of  SEMI  S2  for  environmental,
+safety, and health considerations.
+6. 2.1   Evaluations  to  the  provisions  i n  the  following
+sections   of   SEMI   S2   are   applicable   to   declare
+conformance to this document.
+a) Electrical Design
+b) Emergency Shutdown
+c) Automated   material   handlers   (This   Automated
+material   handlers   section   only   applies   to   the
+robotics    portion    of    UTV    equipment,    when
+provided.)
+d) Hazard Warning Labels
+e) Seismic Protection
+f) Documents provided to User
+6. 2.2   At  the  discretion  of  the  evalua tor,  additional
+provisions   in   SEMI   S2   may   be   considered   for
+evaluation   based   on   the   functionality   of   the   UTV
+equipment.
+6. 3   All  UTV  equipment  should  be   evaluated  against
+SEMI S8 for ergonomic considerations.
+6. 4   All  UTV  equipment  should  be   evaluated  against
+the  applicable  Electro  Magnetic  Compatibility  (EMC)
+regulations of the proposed installation site.
+6. 5  In addition to the provisions re ferenced in Section
+6. 1,  UTV  equipment  should  also  be  evaluated  to  the
+provisions  contained  in  the  following  sections  of  this
+document.
+7  Clearances and Interfaces
+7. 1  Body  Shape  of  both  Floor-Tra veling  and  Space-
+Traveling  Vehicles  —  The  body  of  a  UTV  should  be
+free  of  any  dangerous  parts  such  as  sharp  edges  and
+protrusions.  The  UTV  body  surface  should  have  a
+smooth finish.
+7. 2  Minimum  Clearance  for  Floor -Traveling  Vehicles
+—  Where  passageways  are  used  for  emergency  egress,
+they  should  be  provided  on  at  least  one  side  of  the
+UTV.        International,    national    or    local    codes,
+regulations,   and   laws   should   be   used   to   determine
+passageway width.
+7. 3  Minimum Clearance for Space -Traveling Vehicles
+—   The   lowest   part   of   the   space-traveling   vehicle,
+including   the   load,   should   maintain   a   minimum
+clearance of 2135 mm (7 feet) above the walking floor.
+NOTE 3: Some  end  user  customers  may  request  a  higher
+minimum  clearance,  or  a  minimum  clearance  between  the
+space-traveling  vehicle  and  the  top  of  other  equipment,  to
+accommodate clearances specified by SEMI E15.1.
+7. 4  Interfaces with Building Struct ures for both Floor-
+Traveling   and   Space-Traveling   Vehicles
+   UTV
+suppliers should provide for optional vehicle interfaces
+with building structures like doors, elevators, and walls.
+7. 4.1   If  UTVs  are  required  to  operat e  in  conjunction
+with  building  structures,  such  as  automatic  doors  or
+elevators,  UTVs  should  be  capable  of  communicating
+with the facility to assure safe door opening/closing.
+7. 4.2   If  it  is  necessary  for  a  UTV  to   travel  through  a
+building  firewall,  the  firewall  pass  through  should  be
+specified  and/or  designed  to  maintain  the  fire  rating  of
+the wall in the event of a fire.
+
+SEMI S17-0701 © SEMI 20014
+8  Emergency Shutdown
+8. 1  Emergency  Shutdown  for  both   Space-Traveling
+and  Floor-Traveling  Vehicles  —  In  addition  to  the
+emergency  shutdown  provisions  of  SEMI  S2,  UTV
+equipment   should   also   conform   to   the   following
+provisions.
+8. 1.1  The UTV should be equipped  with an emergency
+off  (EMO)  circuit  that,  when  activated,  immediately
+stops  the  operation  and  motion  of  the  UTV,  including
+both travel and load/unload operation. The EMO circuit
+should  be  activated  whenever  the  following  actions
+occurs:
+a) An EMO button on the UTV is pressed.
+b) An EMO at a fixed floor location is pressed.
+NOTE 4: See Section 9.2 for handheld remote control.
+8. 1.2   Once  an  EMO  circuit  has  been   activated,  the
+UTV  should  not  move  under  its  own  power  until  the
+cause of the emergency condition has been resolved and
+the  system  has  been  reset  by  a  human  operation.  The
+system should not reset or restart automatically.
+8. 2  Position   of   EMO   Buttons   on   F loor-Traveling
+Vehicles — Structure-mounted EMO buttons should be
+located for easy accessibility by factory personnel.
+8. 2.1    Vehicle-mounted   EMO   Button s   should   be
+accessible  and  visible  from  all  sides  of  the  vehicle,
+typically   on   the   four-corners   of   a   floor-traveling
+vehicle.
+8. 3  Position  of  EMO  Buttons  for  S pace-Traveling
+Vehicle Systems
+ EMO buttons should be located for
+easy accessibility by factory personnel, for example:
+• Near control panels or operator terminals including
+handheld vehicle remote controls.
+• Near process equipment load ports or stations.
+• On walls or other fixed locations in the factory area
+where space-traveling vehicles operate.
+NOTE 5: Some end user customers may request EMO buttons
+included on the space-traveling vehicle.
+8. 3.1   Since  space-traveling  vehicle  E MO  buttons  are
+typically   remote   from   the   vehicles,   space-traveling
+systems  should  provide  a  method  of  determining  the
+location of the activated EMO button.  This will ensure
+that  the  emergency  condition  can  be  identified  and
+resolved prior to resetting the system per Section 8.1.2.
+9  Manual Operation
+9. 1  Manual  Movement  of  both  Spa ce  Traveling  and
+Floor-Traveling   Vehicles   —   When   the   EMO   is
+activated,  the  UTV  should  be  capable  of  brake  release
+to allow for release of a potentially trapped person.
+9. 1.1   The  UTV  should  be  equipped   with  a  manual
+movement  function  that  permits  a  human  operator  to
+maneuver the vehicle in the event of a problem.  In the
+event  of  a  problem,  manual  movement  of  all  vehicle
+functions  including  travel  and  load/unload
+should  be
+allowed.
+9. 2  Manual/Remote    Operation    of    b oth    Space-
+Traveling  and  Floor-Traveling  Vehicles  —  Except  for
+EMO  and  E-Stop,  any  control  of  a  vehicle  outside  of
+automated   operation   should   be   exclusive.      Other
+devices  should  not  override  vehicle  control  or  cause
+movement of more than one vehicle at a time.
+EXCEPTION: Those controls that do not cause motion.
+9. 2.1   Manual  control  of  a  vehicle  m otion  that  could
+present  a  hazard  if  control  is  lost  should  be  controlled
+with  an  enabling  type  switch,  such  that  movement  is
+enabled   only   when   a   switch   is   continuously   held
+(pressed) by an operator.
+9. 2.1.1   Handheld  remote  controls  shou ld  have  an  E-
+Stop   or   EMO   function   to   allow   operators   to   stop
+movement that could cause risk to themselves or others.
+If remote control is wireless, this function should not be
+marked or labeled as an EMO.
+9. 2.1.2   During  handheld  remote  contr ol  operation,  the
+UTV should stop any vehicle motion that could create a
+hazard if power or the communication signal is lost.
+10  Vehicle Travel
+10. 1  Collision  Avoidance  for  both  S pace-Traveling
+and Floor-Traveling Vehicles — UTVs should provide
+for  protection  of  persons  in  the  same  traveling  space
+from  injury.    Damage  to  property  or  equipment  from
+traveling vehicles should also be prevented.
+10. 1.1    The   UTV   system   supplier   shou ld   provide
+documentation  specifying  safe  practices  for  working
+within   traveling   space   of   the   UTVs,   to   include
+documented   administrative   procedures   necessary   to
+work  safely  while  performing  maintenance  on  or  near
+operating UTV systems.
+10. 1.2   UTVs  should  be  equipped  with   non-contact
+approach   sensing   system   so   those   vehicles   do   not
+inadvertently  contact  people  or  other  obstacles  during
+the   traveling   motion   of   the   UTV.      Non-contact
+approach   sensing   systems   should   consist   of   either
+electromechanical (preferred) or solid-state devices and
+components and be designed to be fault-tolerant.
+10. 1.2.1   If  an  overhead  vehicle  is  provi ded  with  a
+fault-tolerant contact sensing system (such as a bumper
+switch),  as  primary  safety  protection  for  people,  the
+
+SEMI S17-0701 © SEMI 20015
+circuitry  of  the  secondary  non-contact  system  is  not
+limited  to  electromechanical  or  solid  state  devices  and
+components.
+10. 1.2.2   Where  solid-state  devices  and   components
+are  used  in  an  approach  sensing  system  circuit,  the
+system  and  relevant  parts  of  the  system  should  be
+evaluated  for  suitability  for  use.    Abnormal  conditions
+such   as   overvoltage,   undervoltage,   power   supply
+interruption,    transient    overvoltage,    ramp    voltage,
+electromagnetic  susceptibility,  electrostatic  discharge,
+thermal  cycling,  humidity,  dust,  vibration,  and  jarring
+should be considered.
+EXCEPTION:  When the severity of a reasonably foreseeable
+mishap  is  deemed  to  be  Minor  per  SEMI  S10,  a  software
+based control may be considered suitable.
+10. 1.2.3  Upon request by the user custo mer, suppliers
+should   provide   a   test   piece   or   set   of   test   pieces
+(appropriate  to  the  sensor  device  provided)  along  with
+procedures for testing and calibration.
+10. 1.3  When a UTV detects a vehicle  or obstacle, the
+UTV should decelerate and stop automatically before it
+touches  that  vehicle  or  obstacle.    If  the  non-contact
+approach   sensing   device   should   be   disabled   (for
+example  because  the  UTV  is  negotiating  a  sharp  turn),
+the  UTV  should  decelerate  and  issue  a  warning  (see
+Hazard  Alarms  and  Displays  section  of  this  document)
+to indicate that the sensing device has been disabled.
+10. 1.4  In an area where multiple UTV s are operating,
+the  capability  to  prevent  the  collision  of  one  vehicle
+with  another  should  be  provided  and  to  satisfy  Section
+10. 1.3, should consider the following conditions:
+a) The  distance  between  a  given  vehicle  and  the
+vehicle that follows it.
+b) The timing at which one stream of vehicles merges
+with another.
+c) The timing at which a vehicle branches out from a
+stream  of  vehicles  to  pass  another  vehicle  moving
+toward it.
+d) The distance that separates two vehicles when they
+pass each other.
+10. 2  Collision  Detection  for  Floor-T raveling  Vehicles
+—  In  addition  to  Section  10.1,  floor-traveling  vehicles
+should  also  be  equipped  with  a  contact  sensing  device
+(such as a bumper switch) capable of detecting collision
+in the direction in which motion can create a hazard.
+10. 2.1  The bumpers should have a sh ape and structure
+that  does  not  pose  a  risk  to  personnel  or  to  objects
+around the floor-traveling vehicle.
+10. 2.2   The  bumpers  should  be  equal  t o  or  larger  than
+the   width   of   the   floor-traveling   vehicle   body,   as
+measured perpendicular to the direction of its traveling
+motion.
+10. 2.3   The  maximum  allowable  dista nce  between  a
+bumper and the floor is 15 mm (0.6 inch).
+EXCEPTION:  If  this  provision  cannot  be  maintained,  (such
+as  when  the  floor-traveling  vehicle  enters  an  elevator,  or
+changes  in  floor  height)  the  distance  should  be  explicitly
+stated  in  the  operation  manuals  (and  the  specifications)  as  an
+alert or warning notice to appropriate personnel.
+10. 2.4   If  an  obstacle  contacts  a  bump er,  the  floor-
+traveling  vehicle  should  be  able  to  stop  within  the
+bumper  stroke,  irrespective  of  the  speed  at  which  the
+vehicle  is  traveling.  If  this  provision  cannot  be  met  for
+technical  reasons,  the  floor-traveling  vehicle  supplier
+should clearly indicate the maximum speed at which the
+vehicle can stop within the bumper stroke.
+10. 2.5  There should not be any devic e that disables the
+functionality  of  the  bumper  switch  or  sensor  on  floor-
+traveling vehicles.
+10. 2.6  If a bumper switch or sensor h as been activated
+by  contact,  a  floor-traveling  vehicle  should  not  restart
+until the system has been reset by a human operation.
+NOTE 6: Since  space-traveling  vehicles  travel  in  dedicated
+space above the heads of factory personnel, criteria for space-
+traveling vehicle bumpers are not included.
+10. 3  Protective Zones for Space-Tr aveling Vehicles —
+Written    administrative    procedures    for    creating    a
+protective  zone  around  personnel,  required  to  work
+overhead in the path of space-traveling vehicles, should
+be  included  in  documentation  provided  by  the  UTV
+system supplier.
+NOTE 7: Implementation  of  these  administrative  procedures
+is the responsibility of the end user customer.
+10. 4  Travel  Speed  of  Floor-Travelin g  Vehicles —
+Floor-traveling   vehicles,   intended   for   use   in   areas
+where  there  are  both  operating  vehicles  and  personnel
+present,  should  be  equipped  with  a  variable  speed-
+setting mechanism.
+10. 4.1  The variable speed settings de signed for use in
+areas with both operating vehicles and personnel should
+not  exceed  60  meters/minute  (196  feet/minute).    Any
+variable   speed   settings   exceeding   60   meters/minute
+(196   feet/minute)   should   be   reserved   for   use   in
+dedicated  and  unmanned  areas  for  which  personnel
+safety can be assured.
+10. 4.2   The  variable  speed  setting  mec hanism  of  a
+floor-traveling  vehicle  should  be  designed  so  that  only
+authorized     personnel,     following     access     control
+procedures, can change the vehicle’s speed setting.
+NOTE 8: Criteria   for   traveling   speeds   of   space-traveling
+vehicles are not included in this sub-section.
+
+SEMI S17-0701 © SEMI 20016
+11  Material Protection
+11. 1  Material Protection for both F loor Traveling and
+Space-Traveling  Vehicles  —   UTVs  should  provide  for
+protection  of  the  load  when  the  UTV  is  traveling  and
+during  load/unload  operations  until  safe  transfer  has
+been  confirmed.    UTV’s  should  have  an  appropriate
+communication interface (For example SEMI standards
+such  as  SEMI  E23  or  SEMI  E84).    The  UTV  system
+supplier    should    document    the    exact    method    of
+confirmation.
+11. 1.1   UTVs  should  be  designed  so  a   single  point  of
+failure of the UTV system does not allow a load to fall.
+11. 1.2   Vehicles  should  be  designed  to   prevent  any
+load/unload movement when in traveling mode.
+11. 1.3   UTV  load  holding  mechanism s  should  have
+load-shift  prevention  mechanism  (such  as  stoppers),  so
+that  if  the  vehicle  stops  suddenly,  the  load  is  securely
+held in place.
+11. 2  Material Protection for Floor-T raveling Vehicles
+—  In  addition  to  the  load  protection  provisions  in
+Section 11.1, the following should also be provided on
+floor-traveling vehicles.
+11. 2.1   The  floor-traveling  vehicle  sho uld  be  designed
+to  prevent  loads  from  being  placed  on  the  vehicle  so
+that  the  load  overhangs  any  edge  (length  or  width)  of
+the vehicle.
+11. 3  Material Protection for Space-T raveling Vehicles
+—  In  addition  to  the  load  protection  provisions  in
+Section 11.1, the following should also be provided on
+space-traveling vehicles:
+11. 3.1   If  secondary  protection  is  requ ired  to  meet
+Section  11.1.2  or  to  prevent  loads  from  falling,  covers
+or  shields  should  be  provided  along  rails  to  protect
+personnel from injury from falling loads.
+11. 3.2   Inadvertent  lowering  or  uncon trolled  drops  of
+the  vehicles’  hoist  mechanisms  or  loads  should  also  be
+prevented.
+12  Load/Unload Operation
+12. 1  Protection  from  Load/Unload   Motion  of  both
+Floor-Traveling    and    Space-Traveling    Vehicles    —
+UTVs    should    have    protection    functions    during
+load/unload  operation  to  insure  safety  of  the  vehicle,
+the   load   and   the   equipment,   until   load/unload   is
+completed.
+12. 1.1   Safety  of  personnel  entering  th e  load/unload
+area  should  be  provided  by  a  method  agreed  upon  by
+the UTV supplier and the user.
+12. 1.2       UTVs      should      have      an      appropr iate
+communication   interface   in   order   to   provide   the
+following  functions.  Examples  for  such  interfaces  are
+SEMI E84 or E23
+.
+• confirm safe transfer of a load
+• prevent   transfer   of   loads   prior   to   load   port
+readiness
+• notify   affected   factory   personnel   of   abnormal
+load/unload conditions
+• prevent  transfer  of  loads  when  equipment  is  in
+manual delivery mode (PGV mode)
+• prevent transfer of loads when equipment is at risk.
+12. 1.3  The UTV system supplier shou ld provide to the
+end  user  customer  documentation  to  ensure  the  UTV
+system     interfaces     properly     with     manufacturing
+equipment    shields    (if    required),    communications
+protocols, or other method necessary to prevent transfer
+of loads when equipment is at risk.
+12. 2  Protection  from  Load/Unload   Motion  of  Floor-
+Traveling  Vehicles —  In  addition  to  the  load/unload
+provisions in Section 12.1, the following should also be
+provided on floor-traveling vehicles:
+12. 2.1   Load/unload  mechanisms  (tran sfer  robots)  on
+floor-based  vehicles  should  be  isolated  or  shielded  as
+necessary  to  restrict  contact  with  factory  personnel.
+Measures  should  also  be  taken  to  prevent  inadvertent
+motion of load/unload mechanisms.
+12. 2.2    If   robotic   manipulators   are   use d   on   floor-
+traveling   vehicles   for   load/unload   operations,   the
+robotic  manipulator  should  meet  requirements  of  the
+appropriate   international   or   national   standard   (e.g.,
+ISO  10218,  EN775,  or  ANSI/RIA  15.06).    If  there  are
+deviations    from    these    general    industry    standards
+because  of  unique  semiconductor  applications,  these
+deviations  should  be  documented  by  the  evaluator  and
+assigned a risk factor according to a risk assessment.
+13  Hazard Indicators
+NOTE 9: The   integrated   design   of   any   hazard   indicator
+system  or  other  safety  system  requires  a  coordinated  effort
+among  the  UTV  system  supplier,  the  process  equipment
+supplier,  and  the  end  user  customer.  The  following  are  the
+minimum  hazard  indicators  to  be  designed  into  UTV  system
+equipment.
+13. 1  Hazard   Alarms   and   Lamps   for    both   Floor-
+Traveling    and    Space-Traveling    Vehicles —    The
+following  indicators  should  be  provided  on  all  UTVs,
+but  should  be  able  to  be  configured  to  be  compatible
+with the overall factory design for safety.
+13. 1.1   UTV  suppliers  should  provide   documentation
+of available configurations.
+
+SEMI S17-0701 © SEMI 20017
+13. 1.2  Malfunction   Alarm   —   In   the   ev ent   of   a
+malfunction,  the  UTV  should  both  light  a  lamp(s)  and
+generate an alarm sound to alert personnel.
+NOTE 10:  Malfunction alarms typically require the system to
+be reset by a human operation.
+13. 1.3  Manual   Operation   Indicator   —   The   UTV
+should indicate if it is under manual operation, defined
+as   any   control   of   a   vehicle   outside   of   automated
+operation.
+13. 1.4  Sensor  Disabled  Lamp  —  The    UTV  should
+light   a   lamp(s)   to   indicate   when   the   non-contact
+approach   sensing   device   is   disabled   (for   example,
+because the UTV is negotiating a sharp turn).
+13. 2  Hazard  Alarms  and  Lamps  for   Floor-Traveling
+Vehicles —  In addition to the indicators in Section 13.1,
+the  following  indicators  should  also  be  provided  on
+floor-traveling vehicles:
+13. 2.1  Startup   Alarm   —   When   a   floor -traveling
+vehicle restarts after stopping for 5 seconds or more, the
+vehicle  should  set  off  an  audible  alarm  sound  at  least
+one second before it begins to move.
+13. 2.2  Traveling  Alarm  —  When  the   floor-traveling
+vehicle is traveling, the vehicle should generate audible
+alarm  sounds  either  continuously  or  intermittently  as
+appropriate   for   the   area   in   which   the   vehicle   is
+operating.
+13. 2.3  Turn  Signal  Lamps  —   To  indic ate  a  floor-
+traveling vehicle is preparing to turn/spin-turn (right or
+left)  and  during  the  turn  cycle,  the  vehicle  should  light
+turn  signal  lamp(s).    Turn  signal  lamps  should  be
+clearly visible from the side in the direction of the turn.
+13. 2.4  Automated  Operation  Indicato r  —  The  floor-
+traveling vehicle should light lamp(s) to indicate it is in
+automated operation.
+13. 3  Hazard  Alarms  and  Lights  for   Space-Traveling
+Vehicles — In addition to the indicators in Section 13.1,
+the  following  indicator  should  also  be  provided  on
+space-traveling vehicles.
+13. 3.1   Hoist  Alarm  —  The  space-trav eling  vehicle
+and/or   hoist   should   generate   audible   alarm   sounds
+indicating   that   the   hoisting   mechanism   is   moving
+(raising or lowering).
+NOTE 11: The  same  audible  alarm  device  can  be  used  to
+generate   startup,   traveling,   hoist,   or   malfunction   alarms,
+provided  that  different  sounds  are  used  to  indicate  each
+condition.
+13. 4  Visual  Hazard  Alerts  for  both   Floor-Traveling
+and   Space-Traveling   Vehicle   Areas   —   To   assure
+personnel safety in the UTV operation area, information
+about  the  recommended  system  of  safety  measures
+should   be   provided   by   the   UTV   system   supplier
+(including items such as alerts, signs, color coding, and
+safety poles for the vehicle operating area).
+13. 4.1    The   UTV   system   supplier   shou ld   provide
+information about style and placement of road signs, for
+posting   along   floor   traveling   vehicle   paths   and   at
+load/unload or maintenance stations.
+NOTE 12: End user customers may need to provide additional
+visual hazard alerts for posting on building structures (such as
+walls, columns, and doors) and/or equipment surrounding the
+UTV operation area.
+13. 5  Visual    Hazard    Alerts    on    Floor -Traveling
+Vehicles —   In   addition   to   the   information   about
+operational  area  visual  hazard  alerts  (noted  in  Section
+13. 4),   the   floor-traveling   vehicle   supplier   should
+provide  all  visual  hazard  alerts  required  for  the  floor-
+traveling vehicle.  These visual hazard alerts should be
+clearly visible from all sides of the UTV.
+13. 6  Visual    Hazard    Alerts    for    Spac e-Traveling
+Vehicles —  In  addition  to  the  operational  area  visual
+hazard alerts noted in Section 13.4, the following visual
+hazard alerts should also be provided by space-traveling
+vehicle suppliers.
+13. 6.1    The   UTV   system   supplier   shou ld   provide
+marking of maintenance station areas and their hazards,
+as well as a method of marking the floor location where
+maintenance descent occurs.
+NOTE 13: End user customers may need to mark load/unload
+stations  to  identify  the  existence  of  the  hazard.  UTV  system
+suppliers should suggest a method of marking these areas.
+14  Hazardous Materials
+14. 1  Batteries    for    Floor-Traveling    a nd    Space-
+Traveling  Vehicles  —   If  the  UTV  requires  the  use  of
+batteries,   the   following   should   be   included   in   the
+documentation provided by the UTV supplier.
+14. 1.1   Specifications  provided  by  the   UTV  system
+supplier for battery recharging, battery maintenance and
+battery storage areas should specify the following. This
+provision  can  be  waived  only  if  the  batteries  used  are
+sealed with no possibility of gas emission.
+• Requirements for eye-washing equipment.
+• Requirements for ventilation.
+• Restrictions   on   smoking   and   other   sources   of
+ignition.
+• Personnel  splash  protection  requirements  during
+electrolyte handling.
+14. 1.2    The   UTV   system   supplier   shou ld   provide
+disposal   requirements   for   batteries   that   constitute
+
+SEMI S17-0701 © SEMI 20018
+hazardous  waste  (such  as  lead,  nickel  cadmium  or
+lithium).
+NOTE 14: Disposal    requirements    should    comply    with
+national or local codes, regulations, and laws.
+NOTE 15: Per  SEMI  S2  environmental  guidelines,  the  UTV
+system  supplier  should  provide  information  on  the  nature,
+volume,  and  risks  of  potential  hazardous  waste  (such  as  lead
+or lithium).
+NOTE 16: Battery   charging   stations   may   have   to   meet
+international,   national,   or   local   regulations   (such   as   EU
+Directives   or   U.   S.   Department   of   Labor,   Occupational,
+Safety and Health Act Regulations).
+14. 2  Spill  Prevention  for  Floor-Tra veling  and  Space-
+Traveling  Vehicles  —   If  the  UTV  requires  the  use  of
+lubricants, the UTV supplier should meet the following
+spill and slip hazard provisions.
+14. 2.1  Any UTV with an internal oil-r eservoir (such as
+a  gearbox)  should  be  structurally  designed  to  prevent
+any oil from dripping out of the vehicle.
+14. 2.2   Space-traveling  vehicle  track  l ubricants  should
+be restricted to those lubricant types and quantities that
+will not drip from the vehicle or create a slip hazard.
+14. 2.3   Rail  guided  vehicle  or  track  lu bricants  should
+be restricted to those lubricant types and quantities that
+will not drip (e.g., onto sub-Fab floors).  Neither should
+they create a slip hazard on the walking surfaces beside
+the rail or on the top of the rail itself.
+15  Related Documents
+15. 1  SEMI Standards
+SEMI    E33 —    Specification    for    Semiconductor
+Manufacturing Facility Electromagnetic Compatibility
+SEMI  E64    Provisional  Specification  for  300-mm
+Cart to SEMI E15.1 Docking Interface Port
+SEMI S1 — Safety Guideline for Visual Hazard Alerts
+15. 2  ANSI Standard
+3
+ANSI/ASME  B56.5  —  Safety  Standard  for  Guided
+Industrial    Vehicles    and    Automated    Functions    of
+Manned Industrial Vehicles
+15. 3  CEN Standards
+4
+EN  1525 —  Safety  of  Industrial  Trucks  –  Driverless
+Trucks and their Systems
+
+3 American National Standards Institute, 11 West 42nd St., 13th
+Floor, New York, NY 10036
+4 European Committee For Standardization, 36, rue de Stassart, B-
+1050 Brussels, Belgium
+15. 4  U.S. Government Regulations
+5
+29   CFR   1910 —   U.   S.   Department   of   Labor,
+Occupational, Safety and Health Act Regulations
+15. 5  JIS Standards
+6
+JIS   D   6801   —   Glossary   of   Terms   Relating   to
+Automatic Guided Vehicle Systems
+JIS   D   6802   —   General   Rules   on   the   Safety   of
+Automatic Guided Vehicle Systems
+JIS   D   6803   —   General   Rules   on   the   Design   of
+Automatic Guided Vehicles
+JIS   D   6804   —   General   Rules   on   the   Design   of
+Automatic Guided Vehicle Systems
+JIS  D  6805  —  Testing  Method  of  Characteristics  and
+Functions of Automatic Guided Vehicles
+15. 6  VDI Standards
+7
+VDI   2510   —   Automated   Guided   Vehicle   Systems
+(AGVS)
+VDI-3643  —  Self-Powered  Trolley  System  –  Load
+500kg
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  guideline  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the guideline is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.      This
+guideline is subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  guideline  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  guideline,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this guideline. Users of this guideline
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+5 Code of Federal Regulations, Superintendent of Documents, U.S.
+Government Printing Office, Washington, D.C. 20402
+6 Japanese Industrial Standards available in Japanese language only
+through Japanese Standards Association, 1-24, Akasaka 4-chome,
+Minato-ku, Tokyo, Japan 107-8440
+7 Verein Deutscher Ingenieure (VDI), Postfach 101139, D-40002
+Düsseldorf, Germany
+
+SEMI S17-0701 © SEMI 20019
+RELATED INFORMATION 1
+PROTECTIVE DEVICE OPTION CONSIDERATION FOR LOAD/UNLOAD
+OPERATIONS AT SEMICONDUCTOR MANUFACTURING EQUIPMENT
+LOAD STATIONS
+NOTE: This Related Information is not an official balloted part of SEMI S17.  It is included to assist the user of the
+document in making decisions about possible options.
+R1-1  Purpose
+R1-1.1    This  Related  Information  should  act  as  an
+application   note   for   consideration   and   selection   of
+safety   devices   that   may   be   provided   to   protect
+load/unload  operations  where  risks  are  generated  by
+space traveling vehicles.
+R1-1.2      Space   traveling   vehicle   suppliers   are   not
+required to provide such devices, except as necessary to
+comply with local jurisdictional requirements.
+NOTE   R1-1:      Refer   to   the   main   document   for   devices
+recommended for protecting equipment.
+R1-2  Scope
+R1-2.1    Protective  Devices   As  related  to  UTV
+equipment,  devices  designed  to  protect  personnel  or
+equipment  from  injury  or  damage  during  raising  or
+lowering of loads into position.
+R1-2.2    Protective  devices  should  be  considered  when
+space-traveling  vehicles  with  hoisting  mechanisms  are
+present.
+R1-2.3    Protective  devices  function  to  warn  of,  or
+prevent transfer of, loads when personnel or equipment
+are at risk.
+R1-2.3.1    This  application  note  covers  the  following
+types of devices:
+• Sensors
+• Shields
+• Alarms
+• Signs and visual alerts
+• Communication protocol
+NOTE  R1-2:    This  should  not  be  considered  a  complete  list
+there could be many other solutions.
+R1-3  Limitations
+R1-3.1    This  Related  Information  is  not  intended  to
+apply  to  situations  where  load  ports  are  installed  only
+in  locations  inaccessible  to  personnel  walking  on  the
+factory floor (such as SEMI E15.1 Option 2 load ports).
+R1-3.2    This  Related  Information  does  not  apply  to
+factories using only floor-traveling vehicles or PGVs.
+R1-4 Considerations
+R1-4.1    Protective  devices  should  be  considered  for
+preventing    transfer    of    loads    when    personnel    or
+equipment are at risk.
+R1-4.2      Protective   device   integration   should   be
+considered a coordinated effort between UTV supplier,
+manufacturing equipment  supplier  and  the  end  user
+customer.
+R1-5  Lookdown Sensors
+R1-5.1    Lookdown  Sensors   Such  sensors  surround
+the  hoisting  mechanism  and  look  down  to  the  loadport
+to determine if anything is within the path of descent.
+R1-5.2    Lookdown  sensors  are  one  type  of  protective
+device  that  allows  for  the  overhead  vehicle  to  “see”  if
+there is anything in the expected path of descent.
+R1-5.3    Lookdown  sensors  can  serve  the  function  of
+protecting equipment from impact.
+R1-5.4      Lookdown   sensors   should   be   capable   of
+communicating  the  need  for  operator  intervention  back
+to a location that can notify the proper personnel.
+R1-6  Shield Options
+R1-6.1 Shield  Device   Shield  devices  are  physical
+shielding  which  is  placed  to  block  access  to  a  hazard
+area.
+R1-6.2   Shield   devices,   when   selected,   should   be
+capable  of  fitting  within  the  dimensional  limitations  of
+the  load  ports.    (See  SEMI  E15.1  for  dimensional
+requirements  and  exclusion  zones  for  300  mm  load
+ports.)
+R1-6.3  Shield device types include:
+• Curtain Sensor
+• Safety Guard
+• Automatic Doors
+
+SEMI S17-0701 © SEMI 200110
+R1-6.4    Shield  devices,  when  chosen,  should  prevent
+simultaneous load/unload operation by a floor-traveling
+vehicle or person and a space-traveling vehicle.
+R1-6.5        Protective    Device    Interlocks    —    These
+confirmation  signals  from  shield  devices  are  used  to
+interrupt the transfer process if a shield is breached.
+R1-6.5.1  In the case of UTV systems, protective device
+interlocks  should  communicate  to  the  UTV  equipment
+either directly or through the manufacturing equipment.
+R1-6.5.2    Communication  should  be  via  a  protected-
+path communications protocol that is fail safe.
+R1-7 Alarms
+R1-7.1  Alarms  Alarms consist of audible and visual
+notices of hazards that may be approaching.
+R1-7.2    Alarms  may  also  be  selected  as  protective
+devices.
+R1-7.3    Alarms  may  be  field  configurable  to  allow  for
+selection  of  type  of  audible  or  visual  allowed,  or  to
+allow  for  selection  of  either  audible  or  visual  and
+elimination of the other type.
+R1-8  Signs and Visual Alerts
+R1-8.1    Signs  such  as  “Caution”,  “Warning”,  or  other
+sign appropriate to the potential hazard may be selected
+as a method of protection.
+R1-8.2    Signs  should  be  compatible  with  SEMI  S1,  or
+should be approved by the local jurisdictional authority.
+R1-8.3   Visual  Alerts   an  indicator  applied  to  floors
+or   vertical   surfaces   surrounding   a   potential   are   of
+delivery,  which  indicates  to  persons  present  that  a
+potential hazard exists in the area.
+R1-8.4  Visual alerts may include:
+• Striped tape on the floor
+• Warning barriers
+• Railings
+NOTE  R1-3:    This  should  not  be  considered  a  complete  list
+there could be many other solutions.
+R1-9  Communication Protocol
+R1-9.1    Communication  Protocol   A  method  of
+communicating   the   status   of   the   equipment   to   a
+centrally  monitored  location.    This  may  be  direct  or
+through the equipment communication path.
+R1-9.2  Protective devices offered should be capable of
+communicating with floor-traveling and space-traveling
+UTVs through some type of interface.
+R1-10  Providing Information
+R1-10.1    If  protective  devices  are  offered,  the  UTV
+supplier  should  provide  documentation  to  the  end  user
+customer about protective devices available.
+R1-10.2  Information should be provided to the user to
+explain the function of any protective devices that may
+be offered.
+R1-10.3    Information  may  also  be  needed  by  suppliers
+of  other  equipment  to  insure  adequate  communication
+between equipment types.
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  guideline  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the guideline is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.      This
+guideline is subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  guideline  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  guideline,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this guideline. Users of this guideline
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+1
+SEMI S18-1102
+ENVIRONMENTAL, HEALTH, AND SAFETY GUIDELINE FOR SILANE
+FAMILY GASES HANDLING
+This guideline was technically approved by the Global Environmental, Health, and Safety Committee and is
+the direct responsibility of the Japan Environmental, Health, and Safety Committee. Current edition approved
+by  the  Japan  Regional  Standards  Committee  on  July  19,  2002.    Initially  available  at  www.semi.org
+September 2002; to be published November 2002.
+NOTICE: Paragraphs   entitled   ìNOTEî   are   not   an
+official  part  of  this  document  and  are  not  intended  to
+modify  or  supersede  the  official  guideline.    The  task
+force has supplied them to clarify and to enhance usage
+of the guideline by equipment designers.
+1  Purpose
+1. 1    This  guideline  is  intended  as  a  minimum  set  of
+safety   and   health   criteria   for   silane   family   gases
+handling  related  to  equipment  and  facilities  used  in
+semiconductor     or     Flat     Panel     Display     (FPD)
+manufacturing.
+2  Scope
+2. 1    Silane  family  gases  which  are  described  in  this
+guideline  are:    monosilane  (SiH
+4
+),  disilane  (Si
+2
+H
+6
+),
+trisilane     (Si
+3
+H
+8
+),     dichlorosilane     (SiH
+2
+Cl
+2
+)     and
+trichlorosilane (SiHCl
+3
+).
+2. 2  This guideline includes the following sections:
+• Purpose
+• Scope
+• Limitations
+• Referenced Standards
+• Terminology
+• General Principles
+• Education and Training
+• Leak Detection and Alarm Systems
+• Fire Detection, Suppression and Alarm Systems
+• Emergency Response
+• Materials,    Components,    and    Construction    for
+Silane   Family   Gas   Handling   Equipment   and
+Facilities.
+• Pressurization and Leak Testing
+• Storage
+• Supply Systems
+• Distribution Systems for Gas Supply
+• Equipment Using Silane Family Gases
+• Exhaust Systems and Plumbing
+• Exhaust Treatment Systems
+• Related Documents
+2. 3  This safety guideline does not purport to address all
+of  the  safety  issues  associated  with  its  use.  It  is  the
+responsibility  of  the  users  of  this  guideline  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1        This    document    is    not    intended    to    impart
+requirements on any party.
+3. 2    This  document  is  not  intended  to  apply  to  gas
+manufacturers or distribution companies.
+4  Referenced Standards
+NOTE  1:    As  listed  or  revised,  all  documents  cited  shall  be
+the latest publications of adopted standards.
+4. 1  SEMI Standards
+SEMI  F1  ó  Specification  for  Leak  Integrity  of  High
+Purity Gas Piping Systems and Components
+SEMI F3 ó Guide for Welding Stainless Steel Tubing
+for Semiconductor Manufacturing Applications
+SEMI  F4  ó  Specification  for  Pneumatically  Actuated
+Cylinder Valves
+SEMI F5 ó Guide for Gaseous Effluent Handling
+SEMI  F6  ó  Guide  for  Secondary  Containment  of
+Hazardous Gas Piping Systems
+SEMI F13 ó Guide for Gas Source Control Equipment
+SEMI  F14  ó  Guide  for  the  Design  of  Gas  Source
+Equipment Enclosures
+SEMI F15 ó Test Method for Enclosures Using Sulfur
+Hexafluoride Tracer Gas and Gas Chromatography
+SEMI  S1  ó  Safety  Guideline  for  Equipment  Safety
+Labels
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+2
+SEMI   S2   ó   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI      S4      ó      Safety      Guideline      for      the
+Segregation/Separation  of  Gas  Cylinders  Contained  in
+Cabinets
+SEMI   S5   ó   Safety   Guideline   for   Flow   Limiting
+Devices
+SEMI S6 ó Safety Guideline for Ventilation
+SEMI S10  Safety Guideline for Risk Assessment
+SEMI   S13      Safety   Guideline   for   Operation   and
+Maintenance    Manuals    Used    with    Semiconductor
+Manufacturing Equipment
+SEMI   S14      Safety   Guidelines   for   Fire   Risk
+Assessment     and     Mitigation     for     Semiconductor
+Manufacturing Equipment
+4. 2  NFPA
+1
+Standards
+NFPA 13  Installation of Sprinkler Systems
+NFPA 70  National Electrical Code
+NFPA    318        Standard    for    the    Protection    of
+Cleanrooms
+4. 3  Compressed Gas Association
+2
+
+CGA  P-20    Standard  for  the  Classification  of  Toxic
+Gas Mixtures
+CGA  P-23    Standard  for  Categorizing  Gas  Mixtures
+Containing Flammable and Nonflammable Components
+4. 4  Other Documents
+High Pressure Gas Safety Law
+3
+
+The   High   Pressure   Gas   Safety   Institute   of   Japan
+(KHK),  Application  Guide  for  the  High  Pressure  Gas
+Safety Law
+4
+
+Santa  Clara  County  Toxic  Gas  Ordinance  No.  NS-
+517. 44
+5
+
+SSA Journal
+6
+,  Volume 11 No. 4, Winter 1997
+
+
+1 National Fire Protection Association, 1 Batterymarch Park, PO Box
+9101, Quincy, MA 02269-9101
+2 Compressed Gas Association, 1725 Jefferson Davis Highway, Suite
+1004, Arlington, Virginia 22202-4102
+3 KHK, Sumitomo-Tranomon Bldg., 4-3-9 Toranomon, Minatoku,
+Tokyo 105-8447
+4 KHK, Sumitomo-Tranomon Bldg., 4-3-9 Toranomon, Minatoku,
+Tokyo 105-8447
+5 Santa Clara County TGO
+6 SSA Journal, SSA Journal Headquarters 1313 Dolly Madison Blvd.
+Suite402, McLean, VA22101
+4. 5  US Code of Federal Regulations
+Uniform Fire Code (UFC)
+7
+Sections 51, 79 and 80 
+Semiconductor Facility-Specific Sections
+29CFR    1910.1200
+8
+,     ìHazard    Communicationî
+(OSHA)
+NIOSH    Pocket    Guide        available    online    at
+http://www.cdc.gov/niosh/topreq.html
+4. 6  EU Directive
+The Safety Sheets Directive 93/112 EEC
+5  Terminology
+5. 1      Terminology   defined   in   SEMI   S2   should   be
+referred to except if otherwise specified below.
+5. 2  Abbreviations and Acronyms
+5. 2.1  ACGIH
+®
+ó      American      Conference      of
+Governmental   Industrial   Hygienists.   (ACGIH   is   a
+registered  trademark  of  the  American  Conference  of
+Governmental Industrial Hygienists.)
+5. 2.2  ESOV  Emergency Shut Off Valve.
+5. 2.3  IDLH   Immediately  Dangerous  to  Life  and
+Health,    concentration    of    airborne    contaminants,
+normally  expressed  in  parts  per  million  or  milligrams
+per  cubic  meter,  which  represents  the  maximum  level
+from  which  one  could  escape  within  thirty  minutes
+without  any  escape-impairing  symptoms  or  irreversible
+health  effects.  This  level  is  established  by  the  National
+Institute  of  Occupational  Safety  and  Health  (NIOSH).
+[SEMI F6]
+5. 2.4  MSDS     Material   Safety   Data   Sheet,   a
+document that provides information on the properties of
+a   chemical   material   in   a   format   specified   by   a
+regulation  such  as  OSHA  29  CFR  1910.1200,  ìHazard
+Communicationî.
+5. 2.5  PTFE  Poly Tetra Fluoro Ethylene.
+5. 2.6  SSCS   silane  safety  control  system.  SSCSs  are
+integrated   systems   of   detection   devices   that,   when
+monitored  as  a  group,  provide  for  an  overall  status  of
+the  safety  of  the  hazardous  gas  handling  system  (e.g.,
+pressure transducers linked to valve status monitors and
+valve    cycle    counting    programs    or    excess-flow
+monitoring interlocked to shutdown the source).
+5. 2.7  TLVs
+Æ
+  Threshold  Limit  Values  for  chemical
+substances   in   the   work   environment   adopted   by
+ACGIH
+Æ
+(TLV
+Æ
+is   a   registered   trademark   of   the
+
+
+7 Uniform Fire Code, 5360 South Workman Mill Road, Whitter, CA
+90601
+8 Occupational Safety and Health Administration  U.S. Department
+of Labor, http://www.osha.gov
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+3
+American    Conference    of    Governmental    Industrial
+Hygienists.) [SEMI F6].
+5. 2.8  TWA  ó  Time  Weighted  Average    As  defined
+by    the    American    Conference    of    Governmental
+Industrial Hygienists (ACGIH
+Æ
+) [SEMI F6].
+5. 2.9  VMB ó Valve Manifold Box.
+5. 3  Definitions
+5. 3.1  abatement system ó a system used to modify the
+effluent from a process in order to make it safe to emit
+from  the  facility  or  to  reduce  emissions  of  hazardous
+materials to safe levels.
+5. 3.2  authorized  personnel   those  persons  trained
+and capable of performing activities involving the risks
+associated with the defined tasks.
+5. 3.3  carriage   a  hand  cart  for  carrying  one  or  two
+gas cylinders.
+5. 3.4  chlorosilane  dichlorosilane or trichlorosilane.
+5. 3.5  controlled    condition   when  related  to  silane
+family gases, a condition in which the gas is controlled
+within  the  confines  of  an  approved  piping  system  with
+controls that can determine if the safe parameters of the
+piping system have failed.
+5. 3.6  exhaust  treatment  system   a  system  similar  to
+an   abatement   system,   except   it   handles   only   the
+airborne  emissions  from  a  process  in  order  to  make
+them  safe  to  emit  or  to  reduce  the  levels  of  hazardous
+materials to safe emission levels.
+5. 3.7  fail-safe   designed  so  that  a  failure  does  not
+result in an increased risk [SEMI S2].
+5. 3.8  flammable gas  any gas that forms an ignitable
+mixture  in  air  at  20  degrees  C  (68°F)  and  101.3  kPa
+(14.7 psia) [SEMI S2].
+5. 3.9  Flow  Limiting  Device      a  device  installed  in  a
+valve  that  is  designed  to  reduce  the  maximum  flow
+from  the  valve  under  full  flow  conditions  [SEMI  F5]
+[One such device is a Restricted Flow Orifice (RFO)].
+5. 3.10  foolproof  designed so that any single human
+error or misuse does not result in unacceptable risk.
+5. 3.11  occupational exposure limits (OELs)  Various
+terms  are  used  to  refer  to  OELs,  such  as  permissible
+exposure  levels,  Threshold  Limit  Values
+Æ
+,  maximum
+acceptable  concentrations,  maximum  exposure  limits,
+and  occupational  exposure  standards.  When  OELs  are
+used  to  specify  work-area  criteria  in  this  document  ,
+OELs are generally established on the basis of an eight
+hour  workday.  When  OELs  are  used  to  specify  criteria
+in   this   document   for   alarm   or   warning   in   non-
+occupational    area,    OELs    established    on    shorter
+exposure  basis  may  be  used.      However,  the  criteria
+used in determining OELs can differ among the various
+countries  that  have  established  values.  Refer  to  the
+national  bodies  responsible  for  the  establishment  of
+OELs. (Threshold Limit Value is a registered trademark
+of the American Conference of Governmental Industrial
+Hygienists.)
+5. 3.12  oxidizer   gas    a   gas   which   will   support
+combustion    or    increase    the    burning    rate    of    a
+combustible material with which it may come in contact
+[SEMI S4].
+5. 3.13  pyrophoric  gas    ìa  gas  which  upon  contact
+with   air   will   ignite   spontaneously   at   or   below   a
+temperature  of  54∞C  (130∞F)  [SEMI  S4]î  at  a  pressure
+of 101.3kPa (14.7psia).
+5. 3.14  safe shutdown condition  a condition in which
+all  hazardous  energy  sources  are  removed  or  suitably
+contained   and   hazardous   production   materials   are
+removed  or  contained,  unless  this  results  in  additional
+hazardous conditions.
+5. 3.15  safe state  a condition in which the equipment
+does not present any uncontrolled hazards to itself or to
+personnel.    It  does  not  allow  hazardous  production
+chemicals   to   flow.
+An   acceptable   safe   state   is
+determined  by  the  designer  of  the  equipment  and  is
+based on the hazards in the design.
+5. 3.16  silane    any   of   monosilane,   disilane,   or
+trisilane.
+5. 3.17  unacceptable  risks  ó  risks  of  a  degree  or  type
+which are not acceptable to the person who approves a
+design or procedure.
+5. 3.18  unsafe gas condition  a condition in which the
+gas   is   not   safely   contained   within   the   designed
+parameters  of  the  equipment  process,  or  which  could
+lead to a gas emission or gas hazard.
+6  General Principles
+6. 1    Since  silane  family  gases  have  several  hazardous
+properties,     personnel     should     wear     appropriate
+protective  equipment  when  working  with  silane  family
+gas sources.
+6. 1.1  Monosilane  (SiH
+4
+),  disilane  (Si
+2
+H
+6
+)  and  trisilane
+(Si
+3
+H
+8
+)  are  pyrophoric.    If  these  gases  are  mixed  with
+stronger   oxidizing   gases   than   air,   combustion   and
+explosion energies can radically increase.
+6. 1.2  Dichlorosilane    (SiH
+2
+Cl
+2
+)    is    pyrophoric    and
+trichlorosilane  (SiHCl
+3
+)  is  flammable.  Dichlorosilane
+(SiH
+2
+Cl
+2
+)    and    trichlorosilane    (SiHCl
+3
+)    are    also
+corrosive   gases.      If   these   gases   are   mixed   with
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+4
+moisture,    corrosivity    can    radically    increase    and
+pyrophoric byproduct gases might also be produced.
+NOTE 2:  The most recent and best research on DCS puts the
+AIT (Auto Ignition Temperature) at 44 degrees C plus/minus
+3  degrees  C,  or  about  111  degrees  F.  It  should  be  noted
+however, that unlike silane, DCS is not expected to autoignite
+in  almost  all  ambient  conditions  where  we  would  find  it  in
+use.  For  fire  protection  purposes  it  can  be  treated  as  a  highly
+flammable gas.
+6. 2  Risk    Management    Strategies     Fundamental
+concepts of safety and accident prevention are:
+6. 2.1        An    understanding    of    facilities,    piping    and
+equipment,  from  storage  to  gas  abatement,  is  essential
+for    safe    handling    of    silane    family    gases    in
+semiconductor or FPD manufacturing facilities.
+6. 2.2      The   safety   of   facilities   can   be   enhanced   by
+implementation   of   designs   for   sources,   piping   and
+equipment  that  use  devices  with  fail-safe,  foolproof,
+self-diagnostic and predictive functions.
+6. 2.3  Safety systems should detect current safety status
+and generate notices that indicate conditions of elevated
+risk,  through  computer  self-diagnosis  and  dedicated
+SSCS  devices.    If  the  SSCSs  cannot  confirm  normal
+operation of assigned silane family gas handling system
+or    unit,    the    silane    family    gas    supply    should
+automatically be shut off.
+6. 2.3.1    SSCSs    can  determine  if  a  safe  status  has  been
+achieved  before  proceeding  to  the  next  step  in  a  silane
+family gas handling process.
+6. 2.3.2      SSCSs   should   be   provided   in   distribution
+facilities,   cylinder   cabinets,   process   equipment,   gas
+treatment systems, and the like.
+6. 2.4  Safe design depends on equipment designersí and
+facilities  designersí  understanding  of  silane  family  gas
+properties and hazards.  Design methods for controlling
+these  hazards  require  full  integration  of  measures  from
+all portions of the delivery and use systems.
+NOTE 3:  Information   on   silane   family   gasesí   hazards   is
+available    from    various    sources,    including:    regulations,
+MSDSs, Factory Mutual Loss Prevention Data Sheets, NFPA
+Standards,  consensus  Building  Codes,  and  various  research
+papers.
+6. 2.4.1    The  supplier  should  complete,  prior  to  use,  a
+hazard   identification   and   risk   assessment   [such   as
+Process     Hazard     Analysis     (PHA),     Hazard     and
+Operability  Analysis  (Haz-Op),  Failure  Mode  Effects
+Analysis (FMEA)], for all silane family gas systems.
+6. 2.4.2    The  results  of  the  analysis  should  be  reported
+using the SEMI S10 risk matrix.
+6. 2.5  Minimization of Quantity   The  quantity  of  any
+silane family gas online and in use should be limited to
+the smallest amount necessary for effective production.
+NOTE 4:  Separation  and  setback  considerations  for  silane
+family   gas   storage   and   dispensing   areas   must   be   in
+accordance with jurisdictional requirements.
+6. 2.6    Periodic  accident  prevention  assessments  should
+be    performed    to    assist    in    minimizing    incident
+frequency.
+6. 3  Isolation   (Lockout/Tagout)    Isolation   (ìlock
+out/tag outî) capability should be provided for all silane
+sources  at  all  levels  necessary  to  perform  service  or
+maintenance safely on silane family gas systems.
+6. 3.1  Energy isolation of all other energy sources (e.g.,
+electrical,    mechanical)    should    be    performed,    as
+appropriate, to provide safety for personnel working on
+energy systems associated with silane family gases.
+NOTE 5:  Maintenance on energized non-hazardous electrical
+systems may not be safe when a silane family gas is present in
+the system.
+6. 4  Access Control
+6. 4.1  Multiple level access control, to each point where
+any hazard may exist in a normal or failure state, should
+be provided for all silane family gas systems.
+6. 5      All   personnel   concerned   in   silane   family   gas
+handling  should  be  trained  for  the  jobs  they  are  to
+perform and hazards to which they will be exposed. All
+such  training  should  be  formally  documented  and  if
+regulations  apply  then  the  documentation  should  be  in
+accordance with the regulations.
+6. 5.1    Audits  of  system  status  and  equipment  condition
+should  be  performed  and  documented  on  a  periodic
+basis.
+6. 5.2    The  operator  or  technician  should  be  capable  of
+checking the current status and any abnormal condition
+before beginning work on any system or sub-system.
+6. 5.3  Evacuation and Purging
+6. 5.3.1    When  connecting  silane  family  gas  piping  to
+equipment,  the  air  in  the  piping  should  be  purged  out
+with  inert  gas  such  as  nitrogen  into  a  safe  location  to
+prevent reaction with silane family gases.
+6. 5.3.2    To  enable  purging  without  venting  into  unsafe
+locations,  a  purge  port  should  be  installed  at  locations
+where   sealed   systems   require   purging.   Purge   ports
+should  have  a  stop  valve  and,  if  not  connected  to  the
+purge gas, should be sealed with a cap or plug.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+5
+6. 5.3.3    The  user  should  introduce  silane  family  gases
+only    after    purging    oxidizing    gases    and    other
+incompatible  gases,  materials  or  substances  from  the
+system.
+6. 5.3.4        Silane    family    gas    systems    should    have
+procedures based on calculated minimum purge cycles,
+minimum  purge-gas  pressures,  and  necessary  vacuum
+levels  to  insure  the  system  has  been  adequately  purged
+before  being  opened  to  atmosphere.  Calculations  are
+needed  to  define  minimum  number  of  cycles.  Process
+purges  typically  far  exceed  this  number  of  cycles,
+therefore testing is usually not necessary.
+6. 5.3.5  An adequate means should be provided to avoid
+a  cross  contamination  of  purge  gases  and  the  process
+gases by accidental backflow.
+6. 5.3.6  Separation of purge gas and silane family gases
+should  not  solely  depend  on  check  valves.    A  control
+valve, such as a pneumatic valve placed before or after
+the  check  valve,  is  preferred  for  isolating  silane  family
+gases  from  other  gases  during  procedures  that  might
+allow reverse flow.
+6. 5.4    The  purge  gas  for  silane  family  gases  should  be
+supplied from dedicated source containers.
+NOTE 6:  Some  regional  codes (e.g.,  Japanís  High  Pressure
+Gas  Safety  Law)  require  a  purge  gas  source  which  is  totally
+separated from the purge gas source for oxidizer gas lines.
+6. 5.4.1      Purge   lines   from   dedicated   bulk   supplies
+(where  allowed  at  all  by  the  jurisdiction)  should  have
+multi-level     back-flow     and     pressure     differential
+protection to prevent potential back-flow of pyrophoric
+gases into bulk systems.
+NOTE  7:    Back-flow  into  these  bulk  purge  systems  has  been
+known  to  generate  ignitable  mixtures  when  the  inert  gas  is
+exposed to atmosphere far from the source of contamination.
+7  Education and Training
+NOTE 8:  It  is  important  for managers  as  well  as  employees
+to  deepen  their  understanding  of  the  characteristics  of  gases
+that  they  handle,  so  as  to  ensure  safe  work  practices.    If
+employees do not handle gases, this section is not applied.
+7. 1    Everyone  who  handles  silane  family  gases  should
+be  specially  educated  about  the  hazardous  properties
+and safe handling methods of these gases.
+NOTE 9:  Some  jurisdictions  (such  as  Japan)  require  that
+users of ìspecialty high-pressure gasesî provide special safety
+education to their employees.
+7. 1.1    In  regard  to  safety  education  and  training,  each
+organization   should   create   the   curricula   or   obtain
+approved  curricula  for  education  and  training,  assign  a
+person   responsible   for   education   and   training,   and
+implement a periodic training plan.
+7. 1.2  Instructors should be persons who have sufficient
+knowledge  and  experience  about  the  hazards,  use  and
+safe control of silane family gases.
+NOTE  10:    It  may  be  necessary  to  request  the  assistance  of
+outside experts, depending on an organizationís capabilities.
+7. 1.3      Training   should   include   safe   use,      handling,
+hazardous  properties  and  by-products  and  emergency
+procedures  of  process  gases  as  well  as  case  studies  of
+past accidents.
+7. 1.4    Training  should  be  performed  periodically  and
+the training results documented.
+7. 2      Equipment   and   facilities   suppliers,   maintenance
+service  providers  and  users  should  establish  education
+curricula  for  job  specific  environmental,  safety,  and
+health    (ES&H)    education    programs,    train    their
+personnel, and keep records or issue certificates.
+7. 3    Maintenance  personnel  should  be  fully  trained  in
+their own areas of responsibility.
+7. 3.1      Maintenance   personnel   should   understand   the
+overall  design  of  facilities  and  equipment  for  silane
+family gases.
+7. 3.2      Energy   isolation   (ìlock   out/tag   outî)   training
+should  be  provided  to  all  employees  who  are  expected
+to perform service or maintenance on silane family gas
+systems.
+7. 4    Training  curricula,  should  be  requested  from  the
+responsible   party   (constructor,   facility   manager,   or
+equipment   manufacturer)   as   part   of   the   purchase
+specifications.
+7. 4.1  Each party should have qualified persons to train
+personnel working in their facility.
+NOTE  11:    It  may  be  necessary  to  request  the  assistance  of
+outside   experts   to   perform   training,   depending   on   an
+organizationís capabilities.
+NOTE 12:  Responsible   persons   for   each   party   must   be
+trained as required by regulation.
+7. 5            Training      of      persons      performing      periodic
+inspections    should    be    provided    to    ensure    the
+inspections are performed and documented properly.
+NOTE  13:    Ideally,  information  on  safe  design  practices  and
+accident  investigation  summaries  should  be  freely  shared
+across  the  industry,  so  the  information  can  be  provided,  as
+part  of  education  and  training,  to  all  personnel  who  could
+potentially be exposed.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+6
+8  Leak Detection and Alarm Systems
+8. 1  General
+8. 1.1    Audible  and  visual  alarms  should  be  provided  at
+a   location   where   they   can   be   seen   and   heard   by
+workers.
+8. 1.2      Remote   audible   and   visual   alarms   should   be
+provided   at   a   constantly   attended   location   so   that
+appropriate actions can be taken.
+8. 2  Silane Family Gas Leak Detection Practice
+8. 2.1    Leak  can  be  detected  directly  with  leak  sensors
+(gas detectors) or indirectly with heat or fire detectors.
+NOTE  14:    Sensor  types  include  electrochemical,  chemically
+treated  tape,  chemiluminescence,  ionization  detection,  and
+UV/IR.
+8. 2.1.1    Gas  detection  should  be  capable  of  detecting
+the silane family gas down to a level at least one-half of
+the TLV
+Æ
+level.
+8. 2.1.2    Ultraviolet/Infrared  (UV/IR)  detectors  may  be
+allowed in some jurisdictions.
+8. 2.1.3      If   UV/IR   detection   is   used,   it   should   be
+designed  to  focus  its  detection  beam  across  all  areas
+within the silane family gas exhausted enclosure where
+leaks may occur.
+8. 2.1.3.1    UV/IR  detection  may  be  able  to  detect  the
+heat  signature  at  levels  lower  than  detectable  limits  for
+gas detectors in some situations.
+8. 3  Leak Detection Installation
+8. 3.1      The   location   of   detection   points   should   be
+determined  by  considering  airflow  patterns,  specific
+gravity  of  the  gas,  surrounding  conditions  or  barriers,
+and equipment height.
+8. 3.2    A  leak  detection  system  should  be  installed  with
+detection points at intervals appropriate to the detection
+technology,  or  as  required  by  regulation,  for  exhaust
+ducts or cylinder storage.
+8. 3.3  Leak detectors should also be placed:
+• in  gas  cabinets  at  locations  that  will  detect  leaks
+from the piping system or the cylinder,
+• in   gas   manifold   boxes   for   silane   family   gas
+distribution systems, and
+• to  detect  leaks  within  equipment  gas  boxes  for
+equipment using silane family gases.
+8. 3.4    Leak  detectors  should  be  provided  or  specified
+for  locations  where  potential  exposure  is  anticipated
+during   maintenance   or   service,   when   the   normal
+detection points might not detect a release.
+8. 3.5    The  number  and  location  of  detection  points
+should be determined from detector capabilities, and the
+area (or volume) to be monitored by each detector.
+NOTE  15:    A  detection  point  is  a  collection  opening  for  a
+suction  type  gas  leak  detection  system  or  a  detector  for  a
+diffusion-type gas-leak detection system.
+8. 3.5.1  The coverage should be tested after installation
+to verify performance.
+8. 4  Leak Detection Systems Characteristics
+8. 4.1  Leak detection systems should be fail safe.
+8. 4.2    Effective  detection  that  can  generate  warnings
+and   alarms   when   a   given   concentration   of   gas   is
+detected.
+8. 4.3    Warnings,  which  may  not  activate  the  audible
+and    visual    alarms,    should    be    generated    at    a
+concentration   level   equal   to   or   below   OEL   or   as
+specified  in  an  applicable  regulation  of  the  country  of
+use. Alarms, which do activate notifications and audible
+and   visual   alarms,   should   be   activated   at      OEL
+concentration  level.  If  the  OEL  value  is  not  available
+for a silane family gas, or if the value is impractical for
+the    system,    the    lowest    detectable    concentration
+technically  practical  or  the  concentration  set  by  an
+applicable regulation should be used.
+8. 4.4    The  system  should  be  capable  of  detecting  the
+target  gas  beginning  at  a  level  at  least  Ω  of  the  OEL,
+and   continuing   to   at   least   Ω   IDLH   (Immediately
+Dangerous to Life and Health) levels.
+8. 4.5      A   10%   voltage   variation   should   not   produce
+more than a 30% change in the indicated concentration.
+8. 4.6      Detection   should   be   capable   of   detecting   a
+release, within one minute of exposure of the detection
+point,  to  a  leak,  which  has  a  concentration  above  the
+concentration of the warning or alarm level.
+8. 4.7        The    alarm    should    continue,    even    if    the
+concentration varies after detection, until it is manually
+reset.
+8. 4.8    Activation  of  the  leak  detection  system  in  a  gas
+cabinet  should  close  the  automatic  cylinder  shut  off
+valve referenced in Section 14.3.5.
+8. 5  Maintenance
+8. 5.1    Gas  leak  detection  and  alarm  systems  should  be
+periodically  inspected  and  maintained  following  the
+procedures   provided   by   the   gas   detection   system
+manufacturer.
+8. 5.1.1          Inspection     and     maintenance     should     be
+recorded.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+7
+8. 5.2      The   system   should   be   calibrated   at   intervals
+specified by the detection system manufacturer.
+8. 5.3        Calibration    should    be    performed    frequently
+enough to meet the accuracy criteria.
+8. 6  The gas leak detection system should have back up
+power  (e.g.,  UPS,  emergency  power,  etc.)  to  maintain
+its  function  during  short-term  power  interruption  or  be
+fail-safe.    The  back  up  power  should  be  periodically
+tested    or    inspected    and    the    test    or    inspection
+documented.
+NOTE 16:  The testing, the inspection, and the documentation
+must be in accordance with any applicable regulations.
+8. 7    There  may  be  a  need  for  gas  detection  in  some
+exhaust  treatment  systems  to  detect  breakthrough.    See
+the Exhaust Treatment System section for details.
+NOTE 17:  Gas detector monitoring in ducts may be required
+by regulation or permits.
+9  Fire Detection, Suppression, and Alarm
+Systems
+9. 1    Alarms  should  connect  to  the  facility  under  the
+guidelines of SEMI S2.
+9. 2    Fire  Detection  and  suppression  system(s)  where
+used should be operational at all times, including when
+equipment or facilities are shut down or in maintenance
+modes.  See  SEMI  S14  for  guidelines  for  determining
+whether such systems are appropriate and for designing
+them.
+EXCEPTION 1:   Maintenance of the fire detection system.
+EXCEPTION  2:    Activation  of  the  fire  detection  system
+should  not  remove  power  from  fire  detection  system  and
+safety systems.
+9. 3  Fire  Detection  and  Suppression  for  Bulk  Silane
+Systems
+9. 3.1  An automatic fixed water spray system should be
+provided  for  any  bulk  silane  system  for  purposes  of
+cooling the system only.
+9. 3.1.1    The  regulator  station  and  control  panel  areas
+should  also  be  protected  by  a  water  spray  system  for
+purposes of cooling the system only.
+NOTE 18:  Design   density,   area   and   duration   should   be
+calculated  appropriate  to  the  surface  area  of  the  container
+using a method such as the one provided in NFPA 318.
+9. 3.2  Activation of the optical flame detectors, manual
+activation,  or  heat-link  activators  should  initiate  the
+water spray system and should close emergency shutoff
+valves (ESOVs).  ESOVs should be located directly on
+the source or on the piping, as close to the container as
+possible.
+9. 4  Fire Detection and Suppression
+9. 4.1    Fires  within  valve  manifold  boxes  (VMBs)  may
+impinge  on  other  lines  within  the  VMBs.    If  this  is
+assessed  as  an  unacceptable  risk,  there  may  be  a  need
+for fire protection.
+9. 4.2  When fire protection is installed, it should remain
+active  during  all  conditions  such  as  maintenance  and
+service.
+EXCEPTION:   Maintenance of the fire protection system.
+10  Emergency Response
+10. 1    Exhaust  and  abatement  systems  should  be  left
+running  during  any  emergency  event,  including  fire  in
+the facility.
+10. 2   Evacuation of Personnel
+10. 2.1    Procedures  for  evacuation,  as  a  result  of  a  gas
+leak,  should  be  developed  based  on  a  hazard  analysis
+and should be appropriate to the level of hazard.
+10. 2.2    After  an  evacuation,  no  one  should  re-enter  the
+area  until  the  exposure  risk  has  been  reduced  to  an
+acceptable level.
+10. 2.3    All  personnel  in  the  facility  should  be  trained
+regarding proper evacuation procedures.
+10. 3  Leak Identification and Isolation
+10. 3.1    If  the  appropriate  method  of  achieving  a  safe
+situation is for a response team to enter, only authorized
+and trained response personnel may enter to locate and
+fix the leak.
+10. 3.2        If    the    leak    location    can    be    accurately
+determined, the specific source supplying silane family
+gases  to  the  leak  location  should  be  automatically  shut
+down.
+10. 3.3      If   the   leak   location   cannot   be   accurately
+determined, all of the systems supplying the area where
+the leak was detected should be shut down.
+10. 3.4      Do   not   enclose   a   silane   installation   where
+adequate  exhaust  flow  can  not  remain  during  a  leak.
+This could lead to an explosion.
+10. 4    Recovery from Leaks
+10. 4.1        Trained    personnel    should    investigate    the
+incident  until  the  original  or  root  cause  is  determined.
+Systems  should  not  be  restarted  until  the  safety  of  the
+entire system is confirmed.
+10. 4.2    Sufficiently  purge  all  affected  systems  with  an
+inert gas.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+8
+10. 4.3  Perform  appropriate leak  tests  to  confirm  that
+the affected system is safe before allowing silane family
+gas back into the system.
+10. 4.4      Check   the   reliability   of   installed   detectors.
+Change the detectors if necessary.
+10. 4.5  Confirm that the system (from the silane family
+gas, source systems to the gas abatement systems) is not
+damaged.  Perform corrective actions if necessary.
+10. 5   Fire and Explosion
+10. 5.1    The  only  safe  way  to  extinguish  a  gas  fire  is  to
+shut off the source.
+NOTE  19:    Do  not  attempt  to  extinguish  any  gas  fire  except
+by  shutting  off  the  source.    Many  countries  require  fire
+extinguishers  at  gas  storage  areas,  but  these  should  be  used
+for extinguishing things other than the gas, or for escape.
+10. 5.2    Water  spray  or  deluge  systems  should  be  used
+only  to  cool  the  container  or  adjacent  containers  to
+prevent    other    cylinders    from    heating    or    over-
+pressurizing.
+10. 5.3    Accidental  extinguishing  of  a  gas  fire  without
+shutting  off  the  gas  presents  an  unacceptable  risk  of
+explosion.
+10. 5.4    When  fire  is  suspected,  contact  the  emergency
+responders.
+NOTE  20:      Local  fire  departments  may  not  be  trained  in
+silane  family  gas  fires.    The  emergency  responders  should
+include  plant  emergency  response  teams  or  public  hazard
+response teams, as well as fire departments.
+10. 5.5    Only  trained  personnel  should  enter  an  area
+affected by a silane family gas fire.
+10. 5.5.1    Trained  responders  to  a  fire  event  should  be
+wearing    appropriate    protective    equipment    before
+entering the area.
+10. 5.5.2    After  a  fire  event,  check  the  reliability  of
+installed   fire   detectors.      Change   the   detectors   if
+necessary.
+11  Materials, Components, and Constructions
+for Silane Family Gas Handling Equipment and
+Facilities
+11. 1  Material     Material    used    for    piping    and
+components for silane family gas should be suitable for
+maintaining structural integrity.
+11. 1.1    Combustible  materials  (as  defined  in  SEMI  S2)
+should  not  be  used  in  constructing  assemblies  that
+contact,  support  or  make  up  structural  components  of
+silane     family     gas     handling     equipment,     unless
+specifically designed as safety devices.
+11. 1.2    Materials  such  as  SUS304,  SUS316,  SUS316L,
+Monel,  Hastelloy  or  XM-27  may  be  needed  to  provide
+adequate     protection     from     corrosion     related     to
+chlorosilanes.
+11. 1.3    Dust  caps  for  chlorosilanes,  plastic  gaskets  or
+O-rings   for   secondary   seals   should   be   made   of
+chemically   stable   and   heat-resistive   materials   (e.g.,
+PTFE) of a suitable size to fit the cap.
+11. 2   Components
+11. 2.1      Components   should   be   nationally   approved,
+conform  to  national  standards,  or  be  accompanied  by
+data that demonstrates safety and compatibility.
+11. 2.2  When cylinder connection gaskets are used they
+should be single-use metal-surface compression gaskets
+(unless  incompatible)  that  do  not  provide  a  source  of
+additional fuel.
+11. 2.3      Components   used   in   the   piping   should   be
+selected with structures that minimize dead leg sections.
+11. 2.4      Gas   cabinet   or   equipment   suppliers   should
+provide   the   user   with   reliability   data   for   repeated
+operations, so the user can schedule replacement of the
+components within their expected lifetimes.
+11. 2.5    If  a  pneumatic  valve  is  used,  the  operating  gas
+should be nitrogen (N
+2
+) or another inert gas.
+11. 3  Construction
+11. 3.1      Equipment,   facilities   and   piping   should   be
+protected from electrostatic discharge.
+11. 3.2    Assembly  of  stainless  steel  components  should
+be by welding wherever possible to reduce the need for
+exhausted enclosures.
+11. 3.3  Fittings    ó    Fittings    should    be    welded,
+(preferably    orbital-butt-welded)    wherever    possible.
+Mechanical   joints   (metal-gasket   face-seal   fittings)
+should be used when disassembly will be required.
+NOTE  21:    Compression  fittings  lead  to  increased  risk  of
+leaks, especially when subjected to expansion and contraction
+by temperature changes.
+11. 3.4      Only   cylinder   connections   approved   by   a
+recognized   authority   such   as   the   Compressed   Gas
+Association (CGA) should be used on gas cylinders, to
+prevent    connection    of    a    cylinder    containing    an
+incompatible gas.
+NOTE  22:    Special  style  connections  such  as  CGA-DISS  can
+provide    added    protection    by    their    use    of    ìkeyedî
+differentiation between gas types.
+12  Pressurization and Leak Testing
+12. 1      Each   supply   piping   system   should   be   both
+pressure-tested and leak tested.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+9
+NOTE  23:    Leak  testing  alone  (as  in  SEMI  F1  purity  testing)
+will not detect potential increased-pressure failures.
+12. 2  Pressurization Testing
+12. 2.1    Pressurization  testing  should  be  performed  to
+determine the integrity of the assembled piping.
+12. 2.2    Pressurization  testing  should  be  performed  at
+150%  of    the  pressure  to  which  the  piping  section  can
+be exposed if a single component fails.
+NOTE  24:    There  may  be  pressure  requirements  to  higher
+levels under some regulations.
+12. 2.3  Procedure   Seal  the  test  target  with  the  test
+gas  and  pressurize  to  the  test  pressure.    Maintain  the
+test  condition  for  24  hours.    Read  the  pressure  gauge
+and    confirm    that    the    pressure    deviation    (with
+temperature correction) is within the error of the gauge.
+12. 3  Leak Testing
+12. 3.1  Use one of the following two methods:
+NOTE 25:  Leak testing should be performed with a gas such
+as Helium or Helium/balance Nitrogen.
+12. 3.2  Inboard Leak Testing
+12. 3.2.1  Generate a vacuum within the test section with
+a leak check system.  Expose the exterior of the piping,
+its  joints  and  fittings  to  a  tracer  gas  source.  While
+exposing  the  exterior  of  the  piping  to  the  tracer  gas
+watch  the  leak  detection  system  for  detection  of  the
+tracer gas.
+12. 3.2.2  Detection of any tracer gas indicates a leak.
+12. 3.3  Outboard Leak Testing
+12. 3.3.1    Pressurize  the  test  section  with  the  test  gas  to
+150% of the pressure expected during normal operation
+at  room  temperature.  Use  a  leak  detection  system  to
+search  the  exterior  of  the  piping  for  presence  of  the
+tracer gas.
+NOTE    26:        Authorities    Having    Jurisdiction    (AHJs)    may
+require higher pressures.
+12. 3.4  Corrective  Actions  ó  If  any  pressure  or  tracer
+gas gauge change is detected, repair the leak and retest.
+12. 4  Exhaust Piping
+NOTE   27:      Pressurized   exhaust   piping   does   not   include
+facility exhaust ducts.
+12. 4.1  Pressurized   Exhaust   Pipe   Leak   Testing 
+Exhaust and treatment system piping should be pressure
+tested  to  100%  of  what  could  be  the  expected  pressure
+within  the  piping  during  a  catastrophic  reaction  within
+the  piping.  The  expected  pressure  is  determined  by
+evaluation   of   the   foreseen   operating   pressure   and
+exhaust piping contents.
+13  Storage
+13. 1  General Considerations
+13. 1.1    Storage  area  construction  materials  should  be
+non-combustible   and   compatible   with   the   hazards
+presented by the silane family gases present.
+NOTE 28:  For certain gases, it may be necessary to consider
+multiple hazards, such as in the case of dichlorosilane, which
+is both pyrophoric and corrosive.
+13. 1.2    Silane  family  gases  should  be  separated  from
+other gases per SEMI S4.
+13. 1.3    The  recommended  storage  temperature  is  less
+than 40∞C.
+13. 1.4    A  water  deluge  or  sprinkler  system  should  be
+installed  over  storage  area  for  silane  family  gases  to
+cool  the  gas  containers  during  a  fire  event  and  reduce
+the  effect  of  impingement  of  flame  from  one  container
+on another.
+EXCEPTION:  Cylinders of volume of 1 liter or less may be
+exempt from this criterion.
+NOTE 29:  Many  jurisdictions  require  sensors,  detectors,  and
+lighting  fixtures  all  to  be  of  electrical  construction  meeting
+hazardous  location  requirements  (e.g.,  not  less  than  NEC
+Class 1 Div. 2.) in rooms classified as flammable rooms.
+13. 1.4.1    Access  to  a  source  of  fire  protection  water
+should be provided.
+13. 2  Cylinder Storage
+13. 2.1      Cylinders   of   silane   family   gases   in   storage
+should  maintain  cylinder  valve  plug  securely  tightened
+and cylinder valve protective cap in-place.
+13. 2.2  Cylinders should be stored in an area adequately
+designed   to   protect   the   building   from   reasonably
+foreseeable incidents in the cylinder storage area.
+13. 2.2.1    Cylinders  not  located  in  bunkers  should  be
+provided  with  a  security  open  chain-link  fence.  The
+cylinders  should  be  separated  from  adjacent  structures
+and  the  fence  by  a  minimum  distance  of  2.7m  (9ft)  as
+shown in Figure 2. [NFPA 318]
+13. 2.2.2  If cylinders which contain silane family gases
+are  stored  in  a  structure  independent  from  occupied
+building,    mechanical    or    natural    ventilation    at    a
+minimum  of
+
+0. 005  meter/second  (about  1cfm/square
+foot)  should  be  provided  for  the  structure  in  which  the
+cylinders are stored.
+NOTE  30:    Refer  to  standards  such  as  NFPA  318  or  High
+Pressure Gas Safety Law for more details.
+13. 2.3    The  construction  or  location  of  the  cylinder
+storage should not inhibit safe cylinder transfer.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+10
+13. 2.4    A  cylinder  should  be  secured  to  the  structure
+(directly    or    indirectly)    with    at    least    two    non-
+combustible   securing   devices   positioned   to   prevent
+cylinders    from    falling    sideways    as    might    be
+experienced when only a single device is installed.
+NOTE 31:  Jurisdictions may impose additional requirements.
+14  Supply Systems
+14. 1  Bulk Silane ó Bulk silane supply systems should
+incorporate the following features:
+14. 1.1  Location and Construction
+14. 1.1.1    The  container  and  its  peripherals  should  be
+constructed  outside  of  buildings  with  set  back  from
+buildings  and  property  lines  as  required  by  NFPA  318
+or  regulation.  An  example  of  the  recommended  layout
+is shown in Figure 1.
+NOTE 32:  There may be some jurisdictions that require more
+separation than NFPA 318.
+NOTE 33:  Additional protective  barriers  may  be  required  to
+shield  nearby  structures  or  activities  from  potential  flying
+objects.
+14. 1.1.2  A full risk assessment should be performed to
+determine if there are other risks with the location such
+as vehicular traffic and sabotage.
+14. 1.1.3    The  storage  configuration  should  be  of  open
+construction  and  have  natural  ventilation  that  does  not
+allow   for   pocketing   of   silane   that   could   result   in
+explosion, unless regulations require enclosures.
+14. 1.1.4  Bulk  silane  systems  should  be  separated  from
+each  other  and  from  the  regulator  station  by  2-hour-
+rated firewalls.
+14. 1.2    Access  control  should  be  installed  to  protect
+from unnecessary approach of persons.
+14. 1.2.1    The  storage  area  should  have  at  least  two
+exits.
+14. 1.2.2  Workers from the gas supplier and trained site
+personnel  should  be  the  only  persons  authorized  to
+work in a bulk silane gas area.
+14. 1.3  Controls and Safeguards
+14. 1.3.1    The  arrangement  of  piping,  valving,  controls,
+and    valve    manifold    boxes    as    recommended    for
+liquefied silane Gas Bulk system should be considered.
+14. 1.4  Flow Components
+14. 1.4.1    The  Flow  Limiting  Device  [e.g.,  restricted
+flow orifice (RFO)] size used in bulk systems should be
+as small as possible to meet combined process needs.
+NOTE 34:  Combined process needs include the influences of
+the length of the delivery line.
+14. 1.4.2    A  Flow  Limiting  Device  should  be  placed  in
+the outlet valve of the delivery manifold  from the  tube
+trailer.
+14. 2  Liquefied Silane Family Gas Bulk Systems
+14. 2.1  Liquefied silane family gas bulk systems should
+be equipped with the following controls and safeguards:
+a)    Excess    flow    protection,
+b)     Secondary containment for spills,
+c)    A manual shutdown valve at both the point of
+supply and the point of use and dispensing,
+d)    Overpressure   monitors   with   pressure   relief
+and automatic gas shut off, and
+e)    A system to prevent overfilling for automated
+delivery systems.
+14. 2.2        If    heating    mechanisms    for    liquefied    gas
+containers   are   required,   over-temperature   interlocks
+should be provided. Indirect heating is recommended.
+14. 3  Gas Cylinder (Rack) Systems
+14. 3.1    Open  dispensing  racks  for  silane  should  not  be
+located in rooms inside the building.
+14. 3.2    Exterior  dispensing  areas  should  be  separated
+from   structures   in   accordance   with   Figure   2.   The
+dispensing  area  should  be  open  on  at  least  three  sides
+with cylinders secured to steel frames. Where a canopy
+is  provided,  the  height  should  be  a  minimum  of  3.7  m
+(12 ft). [NFPA318].
+14. 3.3      The   construction   or   location   of   the   on-line
+cylinder   system   should   not   inhibit   safe   cylinder
+transfer.
+NOTE 35:  Jurisdictions may impose additional requirements.
+14. 3.4    A  system  of  controls  regarding  how  many  and
+which  cylinders  are  on-line  should  be  implemented.
+This  includes  how  many  cylinders  can  be  connected  in
+any  given  bundle  as  well  as  the  size  and  capacity  of
+cylinders.
+14. 3.5    Cylinders  should  be  equipped  with  normally
+closed    automatic    pneumatic    shutoff    valves    and
+restricted flow orifices.
+NOTE 36:  The industry has moved almost exclusively to this
+condition.
+NOTE 37:  For cylinder pack systems, a gas detection system
+may  be  required  by  some  jurisdictions.  The  detection  should
+close all cylinders ESOVs upon activation.
+NOTE 38:  An example of the recommended arrangement in a
+cylinder gas supply system is shown in Related Information 3.
+14. 3.6    If  multiple  cylinders  are  used,  in  parallel,  for
+continuous  supply  during  a  cylinder  replacement,  an
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+11
+automated  switching  system  should  be  employed  for
+the system.
+14. 3.7    Flow  Limiting  Devices  should  be  only  as  large
+as necessary to meet process flow requirements.
+NOTE  39:    UFC  80-1  requires  maximum  0.010-inch  orifice
+for cylinders in silane service.
+14. 3.8  Cylinder Systems Using Gas Cabinets
+14. 3.8.1    Exhaust Requirements
+14. 3.8.1.1  A forced exhaust system should be provided
+for   cabinets.      Air   flow   should   be   directed   across
+potential leak points to prevent pocketing.
+NOTE     40:          Recommendations     for     cabinet     exhaust     are
+provided  in RI-2.
+14. 3.8.1.1.1  The   forced exhaust   system   for   silane
+family gas should have capability of treating worst case
+leak. The treatment may be accomplished  by either an
+abatement  system  or  dilution  of  silane  family  gas  to
+below 25% of the lower flammable limit.
+14. 3.8.1.1.1.1  A worst case leak is typically a full-flow
+release  rate  from  the  largest    cylinder  installed  through
+the Flow Limiting Device at full cylinder pressure.
+14. 3.8.1.2  The exhaust system should be provided with
+automatic emergency source of backup power.
+NOTE 41:   Jurisdictional  requirements  may  define  backup
+power.
+NOTE 42:  Many  jurisdictions  require  sensors,  detectors,  and
+lighting  fixtures  all  to  be  of  electrical  construction  meeting
+hazardous  location  requirements  (e.g.,  not  less  than  NEC
+Class 1 Div. 2.) in rooms classified as flammable rooms.
+NOTE 43:  In  some  jurisdictions,  the  exhaust  and  abatement
+system may not be required to operate continuously, provided
+when  a  leak  is  detected,  the  forced  exhaust  and  abatement
+system be activated to abate the leak.
+14. 3.8.2  Mechanical ventilation should be provided for
+the  gas  cabinet  to  keep  inner  pressure  of  the  cabinet
+negative   to   atmosphere.   The   effectiveness   of   the
+ventilation should be monitored.
+14. 3.8.3    Vent  lines  of  the  high  pressure  side  of    the
+regulator   of   silane   family   gas   cylinders   should   be
+routed to an abatement system when applicable to meet
+jurisdictional requirements. The system should have the
+capability to abate the largest possible flow through the
+cylinder flow restrictor.
+14. 3.8.4      Excess   flow   switches   should   be   provided
+upstream  of  the  regulator,  either  in  conjunction  with
+high    pressure    process    valves    or    on    the    pigtail
+immediately  downstream  of  the  cylinder  valve.  This  is
+to limit the maximum flow of gas to the regulator.
+14. 3.9  Special Cylinder Issues
+14. 3.9.1  Cylinder Change Procedures
+14. 3.9.1.1    A  well  defined  method  of  leak  checking
+should  be  performed  after  a  new  cylinder  is  installed
+and  prior  to  final  pigtail  purging  to  insure  cylinder
+connection leak-tight integrity.
+14. 3.9.1.2  Appropriate  personal  protective  equipment
+(PPE)  should  be  worn  during  cylinder  handling  and
+changing.
+14. 3.9.1.3  Before opening the cabinet door to replace a
+cylinder,  a  visual  inspection  for  silicon  dioxide  (SiO
+2
+)
+powder  should  be  performed.    If  SiO
+2
+is  present,  it  is
+evidence  of  a  leak  in  the  system,  and  the  door  should
+not  be  opened  until  the  gas  supply  is  shut  off  and,  if
+possible, purged remotely. Adequate precautions should
+be taken as trapped pockets of silane may ignite.
+14. 3.9.2      Cylinder   should   be   transported   with   the
+cylinder valve plug securely tightened and the cylinder
+valve protective cap in-place.
+14. 3.9.3  Cylinder replacement should be performed by
+two  persons.    Each  should  have  received  appropriate
+training to perform their tasks safely.
+14. 3.9.4            Cylinders      should      be      transported      on
+appropriate  carriages  with  adequate  means  for  fixing
+the cylinder to the carriage.
+14. 4  Changing Sources
+14. 4.1  To prevent air from entering a silane family gas
+system during container change, a constant purge of the
+connection  should  be  operating  during  the  entire  time
+the supply is not connected.
+14. 4.1.1    To  prevent  accidental  intake  of  air  into  the
+source  container,  the  source  container  pressure  should
+be maintained above atmospheric pressure and replaced
+by  new  one  before  the  pressure  drops  to  atmospheric
+pressure.
+14. 4.1.2    At  a  certain  minimum  pressure,  a  warning
+should  be  provided  to  an  attended  location  and  the  gas
+shut down.
+14. 4.2  Auto-sequence   Controllers    Auto-sequence
+controllers   are   recommended   whenever   possible   to
+reduce  the  potential  for  human  error  in  supply  change-
+out.
+14. 4.2.1  When an auto sequence controller is used, the
+leak  test  after  replacement  of  the  cylinder  should  be
+designed  to  monitor  the  pressures  continuously  within
+the purging supply system.  Interrupted monitoring may
+not  capture  a  pressure  change  that  indicates  ineffective
+purging.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+12
+14. 4.2.1.1    The  design  of  automatic-sequence  control
+systems  for  cylinder  cabinets  should  incorporate  the
+following features:
+a)    Fault-tolerant    design,
+b)    The  ability  to  perform  a  leak  check  of  the
+container  by  measuring  pressure  rise  in  the
+system,  with  the  container  valve  closed,  under
+the   condition   that   the   container   has   been
+connected and the purge gas eliminated,
+c)     Continuous  pressure  monitoring  of  the  system
+during all purges and operating conditions, and
+d)    Written  procedures  for  safe  source  container
+replacement           including           verification
+requirements    for    the    leak    testing    and
+verification of the sensing system function.
+NOTE  44:    All  tasks  assessed  as  high  risk  (from  the  risk
+assessment)  should  minimize  human  interaction  as  much  as
+possible.
+15  Distribution Systems for Gas Supply
+15. 1  General Considerations
+15. 1.1    To  enable  purging  without  venting  into  unsafe
+locations,  a  purge  port  should  be  installed  at  locations
+where   sealed   systems   require   purging.   Purge   ports
+should have a stop valve, if not connected to the purge
+gas, should be sealed with a cap or plug.
+15. 1.2    Dead  leg  sections  (internal  piping  which  can
+trap  silane  family  gases)  should  be  minimized  to  the
+smallest volume possible.
+15. 1.3  An excess flow control valve should be installed
+on  every  silane  family  gas  piping  system  as  close  as
+practical  to  the  source.  The  excess  flow  control  valve
+should   be   sized   to   deliver   only   as   much   gas   as
+necessary to the process requirements.
+NOTE 45:  See Related Information 3 for an example.
+15. 1.3.1    Silane  family  gas  delivery  systems  should  be
+equipped with the following controls and safeguards:
+a)    Excess    flow    protection,
+b)    A manual shutdown valve at both the point of
+dispensing  and  in  the  distribution  line  near  or
+in the equipment gas box, and
+c)    Over-pressure  monitors  with  pressure  relief
+and  automatic  gas  shutoff  when  pressure  is
+detected above the designed limit.
+15. 2  Location and Construction
+15. 2.1  Piping General
+15. 2.1.1        Piping    should    be    welded    throughout    or
+contained within an exhausted enclosure.
+EXCEPTION: Non-welded piping, outdoors, may not require
+an enclosure.
+15. 2.1.2    Piping  should  be  labeled  with  the  gas  name
+and flow direction.
+15. 2.1.3    If  the  piping  diverges  into  two  or  more  lines,
+each line should be provided with a shut off valve.
+NOTE   46:      Some   jurisdictions   require   both   manual   and
+automatic shut off valves.
+15. 2.1.3.1  These valves should enable cycle purging of
+each line.
+15. 2.1.3.2    These  valves  should  be  provided  with  an
+exhausted enclosure.
+15. 2.1.3.3    The  enclosure  should  be  monitored  with
+detectors for the silane family gases present.
+15. 2.1.4  The ventilated enclosures should have exhaust
+monitoring per SEMI S2.
+15. 2.1.5      The   piping   of   oxidizer   gases   should   be
+isolated  from  the  piping  of  silane  family  gases.    The
+isolation  should  also  be  applied  to  silane  family  gas
+purge lines.
+15. 2.2  Coaxial Piping
+NOTE 47:  Some  jurisdictions  require  building-runs  of  silane
+family  gas  piping  to  be  of  secondarily  contained  (coaxial)
+construction.      Some   believe   there   is   little   evidence   that
+coaxial  piping  for  these  gases  is  appropriate,  as  long  as  non-
+welded  fittings  are  within  secondary  enclosures.    Coaxial
+piping  may  add  substantial  costs  and  other  hazards  which
+should  then  be  addressed.  However,  pressurized,  monitored,
+and interlocked coax lines provide a local warning to persons
+who   accidentally   damage   the   jacket.   The   sound   of   the
+escaping  inert  gas  used  to  pressurize  the  jacket  alerts  the
+worker.  The  interlock  alerts  the  facility  of  the  breach,  and
+reduces the total amount of process gas lost if the inner line is
+damaged.
+15. 2.2.1    When  coaxial  piping  is  installed,  the  annular
+space  should  be  pressurized  with  helium  or  other  inert
+gas, purged, or maintained at a vacuum.
+15. 2.2.2    If  a  purge  method  is  used,  the  purge  gases
+from   the   coaxial   piping   should   be   monitored   with
+detectors for the specific silane family gas.
+15. 2.2.2.1    This  detector  should  shut  down  the  source
+when a leak is detected.
+15. 2.2.3        If  a  pressure  or  vacuum  method  is  used,  the
+pressure  or  vacuum  in  this  annular  space  should  be
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+13
+monitored  and  should  alarm  at  a  constantly  attended
+location when a change occurs.
+15. 2.2.3.1    The  alarm  should  also  shut  off  the  silane
+family gas at the nearest up-stream valve.
+15. 2.2.4    A  procedure  for  responding  to  an  annular
+space  alarm,  and  determining  the  nature  of  the  hazard
+condition, should be created.
+15. 3  Flow Components
+15. 3.1    The  state  of  a  valve  (open  or  closed)  should  be
+indicated  through  display  or  on  the  valve  itself.    The
+supplier should provide the user with reliability data for
+repeated  operations,  and  the  user  should  replace  the
+valve within its expected lifetime.
+15. 4  Heaters    and    Heat    Insulation    Materials    ó
+External   heating   of   piping   and   regulators   may   be
+required  in  outside  locations  or  long  distance  lines  to
+prevent  re-liquification.    In  such  cases,  the  following
+should be considered:
+15. 4.1      If   electrical   resistance   heating   is   used   with
+insulation,  the  insulation  should  be  visually  inspected
+periodically for degradation or exposed wiring to avoid
+electrical arcing and damage to the piping.
+15. 4.1.1  Electrical  resistance  piping  heating  systems
+should  not  be  placed  in  wet  areas  because  of  the
+increased possibility of damage from corrosion.
+15. 4.2  Electrical   resistance   piping   heating   systems
+should  be  monitored.    Monitors  should  alarm  in  the
+event  of  over  temperature,  an  open  circuit  or  a  short
+circuit  and  should  shut  off  the  power  supply  and  gas
+supply.
+15. 4.2.1    Gas  supply  shutdown  may  be  required  by
+some jurisdictions.
+NOTE      48:                  Heaters      must      conform      to      jurisdictional
+requirements for the device type.
+16  Equipment Using Silane Family Gases
+16. 1  Design
+16. 1.1    Coaxial  piping  within  process  equipment  is  not
+usually  practical,  but  piping  between  equipment  gas
+box  and  process  chambers  should  be  coaxial  piping  if
+the piping is both pressurized and outside of exhausted
+and leak-monitored enclosures.
+16. 1.2  Safe  State   Equipment  should  be  designed  so
+that detection of a silane release immediately sends the
+equipment  into  a  safe  state.    Safe  shutdown  of  the
+equipment  itself  or  silane  family  gas  sources  may  be
+appropriate.
+16. 1.2.1  Any silane process vacuum pump, when used,
+should  be  maintained  and  monitored  for  its  ability  to
+safely remove potentially hazardous silane family gases
+from equipment for maintenance and repair.
+NOTE 49:  For  fire  detection, suppression,  and  alarm  criteria
+see Section 9.
+16. 1.3    Fire  detection  system  activation  should  shut  off
+flammable    and    pyrophoric    gases    supplying    the
+equipment  being  monitored,  as  this  is  the  only  safe
+method of extinguishing gas fires.
+16. 1.4    Equipment  using  silane  family  gases  should  be
+capable  of  performing  a  purge/vacuum  sequence  to
+purge the silane family gas to prevent chemical reaction
+damage before service or maintenance.
+16. 1.4.1        The    minimum    number    of    purge/vacuum
+cycles  should  be  decided  according  to  the  results  of
+tests that evaluate the sequence effectiveness.
+16. 1.4.2    The  equipment  supplier  should  provide  the
+minimum safe number of cycles to the user based upon
+the baseline process.
+16. 1.4.3    If  adjustable,  this  minimum  number  of  cycles
+should  be  controlled  in  such  a  way  that  the  user  is
+aware of the consequences of changing the cycle count,
+and access to the means of changing the cycle count is
+limited  to  maintenance  or  service  personnel,  but  not
+operators.
+16. 1.5    When    the  appropriate  number  of  purge  cycles
+for  the  userís  own  process  are  determined  by  the  user,
+the  number  should  not  be  less  than  the  minimum
+number   of   cycles   recommended   by   the   equipment
+supplier.
+16. 1.5.1  If  unusual  circumstances  appear  to  reduce  the
+number   of   cycles   needed,   the   supplier   should   be
+consulted   for   a   recommendation   specific   to   the
+circumstances.
+16. 1.6  If a system is designed to supply a silane family
+gas  and  a  gas  with  which  the  silane  family  gas  can
+react, to a chamber simultaneously, the flows should be
+controlled  to  avoid  concentrations  and  pressures  of
+those gases that would pose unacceptable risks.
+16. 1.6.1    The  equipment  should  be  designed  so  that  it
+will  not  initiate  the  next  process  step  if  a  gas  mixture
+condition that would pose unacceptable risks exists.
+16. 1.6.2    The  equipment  should  not  allow  additional
+gas  to  flow  until  any  unsafe  gas  condition  alarm  has
+been manually reset.
+16. 1.6.3    Silane  family  gases  and  incompatible  gases
+should  have  separate  piping  up  to  the  point  where  a
+system EMO or a safe-state function can shut them off.
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+14
+16. 1.6.4    A  hazard  analysis  of  the  system,  beyond  the
+safe-state   shut   off,   should   be   used   to   determine
+adequate protection.
+16. 1.6.5    No  single  component  failure  should  allow  for
+incompatible gases to mix, in manifolds or other areas,
+in   pressures   and   concentrations   that   would   pose
+unacceptable risks.
+16. 2  Construction
+16. 2.1  Equipment  interface  points  for  the  gas  supply
+piping  should  be  designed  with  seismic  bracing  as
+needed  to  achieve  the  seismic  protection  detailed  in
+SEMI S2.
+16. 2.1.1  The external force on the bending point should
+be   minimized   by   use   of   reverse   bending   or   other
+methods.
+16. 2.1.2      The   tensile   strength   of   joints   should   be
+compliant  with  the  appropriate  piping  standard  for  the
+jurisdiction (such as ASTM/ANSI, ISO, or JIS).
+16. 2.2    Dead  leg  sections  (internal  piping  which  can
+trap  silane  family  gases)  should  be  minimized  to  the
+smallest volume possible.
+16. 2.3        Chambers    intended    for    silane    family    gas
+processes   should   be   evaluated   for   their   ability   to
+withstand  reasonably  foreseeable  events  related  to  the
+silane  family  gases  such  as  fire  or  explosion  that  arise
+from single point failures.
+16. 2.3.1      If   viewing   ports   are   used   they   should   be
+designed  to  the  same  capability  as  the  chamber,  or  be
+provided  with  safety  devices  to  capture  any  potential
+flying   debris   before   it   affects   personnel   or   other
+equipment.
+16. 2.3.1.1    If  viewing  ports  are  intended  to  be  user
+replaceable,  the  user  documentation  should  specify  the
+part and the change procedure and warn the user of the
+possible consequences of using an alternate part.
+16. 2.3.2  If an enclosure is required to contain chamber
+rupture,  such  an  enclosure  should  be  ventilated  and
+evaluated per SEMI S2 and SEMI S6.
+16. 2.3.2.1      If   the   chamber   rupture   protection   is   an
+enclosure, the enclosure panels should be interlocked to
+prevent    process    initiation    or    continuance    if    the
+enclosure is open.
+16. 2.4      Flame   sensors   or   leak   detectors   should   be
+installed in all areas that may accumulate silane family
+gases from a leak.
+16. 2.5    The  results  of  the  tracer  gas  tests  specified  in
+SEMI  S2  and  SEMI  F15,  should  indicate  that  ambient
+concentration  of  silane  family  gases  will  be  less  than
+the  level  specified  in  SEMI  S2  during  maintenance
+activities or delivery system failure.
+16. 3  Vacuum Pump Systems
+16. 3.1    Materials  of  construction  for  vacuum  pumps
+that are exposed to the gas stream should be compatible
+with the gas stream.
+16. 3.2    Vacuum  pumps  that  are  exposed  to  the  gas
+stream   should   be   dry   type   or   use   inert   (non-
+hydrocarbon) oil.
+16. 3.3      Purge   gases   for   vacuum   pumps   should   be
+nitrogen  (N
+2
+)  or  other  inert  gas.    The  flow  rate  of  the
+purge gas should be sufficient to dilute the silane family
+gas to below the lower explosive limit until the gas has
+safely passed into the burn box or abatement system. If
+a   combined   pump/abatement   system   is   used,   this
+criterion is not applicable.
+16. 3.3.1    The  flow  rate  of  purge  gas  flow  should  be
+interlocked  to  shut  off  the  silane  family  gases  if  the
+purge  gas  flow  drops  below  the  amount  needed  to
+insure adequate dilution.
+16. 4  Protection
+16. 4.1  Fire Detection and Suppression
+16. 4.1.1        Use    the    results    of    the    risk    assessment
+described  in  SEMI  S14  to  determine  the  need  for  fire
+detection and suppression.
+16. 4.1.2      Fire   detection   and   suppression   system(s)
+should  be  operational  at  all  times,  including  when
+equipment or facilities are shut down or in maintenance
+mode.
+EXCEPTION: Maintenance of the fire detection system.
+16. 4.2    As  for  any  other  safety  design  consideration
+aspect of process equipment, SEMI S2 provides criteria
+for assessing and managing safety risks.
+16. 5  Information on Exhaust
+16. 5.1    The  equipment  supplier  should  provide  exhaust
+information  to  the  user.    The  information  should  be
+based on the baseline process including:
+• the chemicals and their composition,
+• compatibility requirements and type of  connection
+expected at outlet of the vacuum pump,
+• the potential hazards expected if duct is open to air
+during the maintenance,
+• recommended  maintenance  procedures  when  the
+equipment   is   connected   to   a   point-of-use   gas
+treatment system,
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+15
+• recommended  duct  size  and  flow  volumes,  based
+on the suppliers recommended base process,
+• information    on    potential    maintenance    issues
+associated   with   the   process   (such   as   silicate
+deposits and reactive by-product generation),
+• The  probable  hazards  that  would  be  generated  by
+exposure  of  open  ducts  to  air  during  maintenance
+activities,
+• maximum  distance  from  the  reaction  chamber  to
+the vacuum pump, and
+• maximum  distance  from  the  pump  to  the  exhaust
+connection or the point-of-use abatement.
+16. 5.2    The  need  to  route  the  residual  gas  and  by-
+products to the proper gas treatment system may require
+consideration     of     separate     pump     systems     for
+incompatible gases.
+16. 6   Other Information
+16. 6.1      Manuals   as   defined   in   SEMI   S13,   should
+include  information  and  training  requirement  on  silane
+family    gases,    their    hazards,    and    recommended
+protective measures.
+16. 6.2  Hazard  warning  labels  should  be  designed  in
+conformance  to  SEMI  S1.  Where  such  labels  are  to  be
+placed should be decided per SEMI S2.
+17  Exhaust Systems and Plumbing
+17. 1  Design
+17. 1.1  Enclosure Exhaust System ó Exhaust piping for
+the  gas  panel  enclosure  or  the  pump  enclosure  may  be
+required  to  be  separated  from  heat  exhaust  line  to
+prevent   the   possibility   for   mixing   of   incompatible
+chemistries before dilution.
+NOTE 50:  Separation of exhaust systems may be required by
+certain jurisdictions.
+17. 1.1.1      Air   velocity   for   an   enclosure   should   be
+calculated to minimize collection of silane family gases
+into pockets.
+NOTE 51:  Information to decide what amount of air velocity
+should  be  needed  is  provided  through  Related  Information  2.
+Document   such   as   CGA   P32-2000   and   NFPA318-2000
+provides similar information.
+NOTE 52:  Some regulations may require minimum velocities
+until  new  research  (SSA  Journal,  Spring  and  Winter  1998)
+can  be  incorporated  into  the  regulations.    This  minimum
+velocity  is  not  less  than  1.0  m/sec  for  the  overall  enclosure,
+and  air  velocity  across  any  potential  leakage  point  is  not  less
+than 0.5 m/sec.
+NOTE    53:        Recommendations    for    gas    cylinder    cabinet
+exhaust  provided  in  Related  Information  2  can  also  be  used
+for  enclosures  within  process  equipment.  For  the  purpose  of
+enclosure  exhaust  calculations,  gas  delivery  pressure  to  the
+enclosure should be used as the ìsource pressureî in Figure 3
+of Related Information 2.
+17. 1.2  Process Exhaust Systems
+17. 1.2.1            Materials      of      construction      should      be
+compatible  with  the  hazards  presented  by  the  silane
+family gases present.
+17. 1.2.2    Materials  for  exhaust  piping  containing  silane
+family gases should be compatible with the byproducts
+and  should  provide  protection  from  heat  and  reactions,
+which  may  be  present  when  silane  family  gases  exit  a
+reaction chamber.
+17. 1.2.3    No  combustible  joint  compound  (including
+adhesive or tape) should be used to seal joints.
+17. 1.2.4    Process  exhaust  piping  should  withstand  the
+maximum  potential  pressure  generated  by  the  reaction
+of   respective   silane   family   gases   in   a   reasonably
+foreseeable   worst   case,   single-point   failure   at   the
+process equipment.
+17. 1.3  Metal-gasket  face-seal  fittings  should  be  used
+wherever   possible.      Compression   fittings   lead   to
+increased  risk  of  leaks,  especially  when  subjected  to
+expansion  and  contraction  by  internally  burning  and
+extinguishing silane family gases.
+17. 2  Protective Devices
+17. 2.1    Mechanical  fittings  in  pressurized  exhaust  or
+treatment   system   should   be   enclosed   in   exhausted
+enclosures,  like  any  supply  piping.  Leaking  can  be
+caused   by   the   result   of   assembly   and   disassembly
+during pump and treatment system maintenance.
+17. 3  Maintainability
+17. 3.1        Maintenance    personnel    should    inspect    for
+liquids and solids collecting in exhaust ducts to prevent
+accidents   resulting   from   the   build-up   of   reaction
+products.
+17. 3.2  Ports for chemical sampling should be provided
+in  order  to  enable  inspection  of  deposits  and  sampling
+of  gas  composition  and  concentration  in  the  exhaust
+duct.
+17. 3.2.1    Ports,  if  not  connected  to  a  sampling  device,
+should  have  a  stop  valve  and  should  be  sealed  with  a
+cap or plug.
+17. 3.2.2          This     monitoring     should     be     performed
+periodically  to  insure  gas  composition  and  quantities
+have not generated new hazards and to characterize gas
+deposits and ensure they are being removed.
+17. 3.2.3  View  ports  also  require  periodic  cleaning  to
+provide  for  adequate  viewing  capability.    If  the  gas  is
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+16
+corrosive,  these  ports  should  be  compatible  with  the
+hazards presented.
+17. 3.3  Due to the hazards associated with silane family
+gas   deposits,   only   maintenance   workers   trained   to
+handle   the   potential   for   reactions,   small   fires   or
+explosions  should  be  allowed  to  perform  maintenance
+on exhaust ducts for silane family gases.
+17. 3.3.1    Maintenance  management  should  investigate
+the   thickness   and   composition   of   the   deposits   and
+establish the proper method of maintenance.
+17. 3.3.2    If  the  investigation  indicates  the  deposit  is
+reactive   or   unstable,   a   procedure   to   stabilize   or
+neutralize  the  deposit  before  opening  the  duct  to  air
+should be implemented.
+17. 3.3.3    Equipment  suppliers  should  also  notify  users
+that  stabilizing  or  neutralizing  procedures  provided  in
+the  maintenance  manuals  might  not  work    for  exhaust
+lines  with  multiple  silane  family  gas-using  systems
+attached.
+17. 3.4  The exhaust piping should be designed to have a
+means of monitoring the exhaust line for determining if
+the exhaust line is blocked.
+18  Exhaust Treatment Systems
+18. 1  Selection
+18. 1.1        Refer    to    SEMI    F5    for    techniques    and
+information  to  determine  the  appropriate  abatement
+(exhaust treatment) system.
+18. 1.2      The   user   should   determine   the   composition,
+concentration, absolute amount per minute and possible
+phases  (solid,  liquid  or  gas)  of  all  chemicals,  to  be
+treated,   before   requesting   quotations   on   abatement
+systems.    This  information  is  very  important  to  design
+an appropriate abatement system.
+18. 1.3    The  information  should  be  provided  for  normal
+operation and all reasonable foreseeable failures.
+18. 2    Absorbent  Systems  ó  Gas  leak  detection  may
+also be needed as breakthrough detection for absorbent
+systems.    To  ensure  that  each  gas  treatment  system
+functions  properly,  it  should  have  a  gas  detection  and
+alarm  system  that  detects  breakthrough  of  absorbent.
+The  location  of  sample  points  should  be  appropriate  to
+detect  breakthrough  of  the  absorbent  according  to  the
+treatment system instructions.
+18. 2.1    When  breakthrough  is  detected,  the  gas  source
+which supplies silane family gas or other hazardous gas
+to  the  equipment  connected  to  the  failed  abatement
+system  should  be  shut  off.  Absorbent  in  the  failed
+abatement   system   should   be   replaced   immediately.
+Alternatively  a  switching  system  can  be  employed  to
+switch   to   a   back-up   absorbent   bed   or   redundant
+treatment system.
+18. 3  Design
+18. 3.1          Point-of-use     gas     abatement     systems     are
+described in  SEMI F5.
+18. 3.2  A gas abatement system should be selected with
+consideration for both equipment and facilities.
+18. 3.3    Some  gas  abatement  systems  need  enclosures.
+Such  enclosures  should  be  monitored  for  leaks.  Upon
+leak detection, an alarm should be activated and the gas
+source should be shut down.
+18. 3.4    When  abnormal  status  of  an  abatement  system
+is  detected,  the  gas  source(s)  which  supply  gas  to  the
+equipment   connected   to   the   gas   abatement   system
+should be stopped.
+18. 3.5    In  a  combustion-type  gas  treatment  system,  a
+flame   detector,   an   airflow   rate   sensor,   an   exhaust
+temperature monitor and a gas concentration monitor at
+the outlet could be used for detecting abnormal status of
+those parameters.
+18. 3.6    If  a  wet-type  gas  abatement  system  is  used
+downstream   of   an   adsorbent   or   combustion   gas
+treatment  system,  it  should  be  designed  to  prevent
+reverse   flow   of   water   into   the   upstream   system.
+Monitoring   to   determine   any   abnormal   operating
+condition of the wet-type system should be provided.
+18. 3.6.1    The  system  should  also  be  equipped  with  a
+water leak sensor.
+18. 4  Operation
+NOTE  54:    The  concentrations  of  exhaust  gas  at  the  outlet  of
+a   gas   abatement   system   must   not   exceed   the   maximum
+allowable  concentrations  established  by  laws  and  regulations
+of the region where the system is used, even in an emergency
+situation.
+18. 4.1  Adequate  performance  of  the  abatement  system
+should be ensured at all times.
+NOTE 55:  Constant  monitoring of  the  concentration  at  the
+outlet  may  be  required  by  some  jurisdictions.  The  source  gas
+may  also  have  to  be  shut  down  if  the  emissions  reach  the
+maximum allowable amount.
+NOTE  56:    It  may  not  be  necessary  for  abatement  systems  to
+be  constantly  ìon-lineî  in  some  jurisdictions  when  gas  is
+ìstoredî   and   not   ìdispensedî.      In   such   a   situation,   the
+
+
+
+SEMI S18-1102 © SEMI 2002
+
+17
+abatement  system  may  be  allowed  to  start  when  a  leak  is
+detected.
+18. 5  Maintenance
+18. 5.1    The  gas  abatement  system  manufacturer  should
+provide   the   user   with   recommended   maintenance
+procedures   considering   the   characteristics   of   silane
+family  gases  and  by-products  in  written  form,  even  if
+the  manufacturer  maintains  the  system.    Maintenance
+workers should be provided training as specified by the
+manufacturer.
+18. 5.2    Interlocks  or  bypasses  should  be  provided  at
+appropriate   locations   to   stop   the   flow   of   process
+effluent   to   the   exhaust   treatment   system   during
+maintenance or malfunction.
+18. 5.3      After   a   malfunction   alarm   is   activated,   the
+abatement system should not be automatically restarted.
+The  cause  of  the  alarm  should  be  carefully  inspected
+and   maintenance   or   service   of      system   should   be
+performed if necessary.
+19  Related Documents
+NOTE  57:    As  listed  or  revised,  all  documents  cited  shall  be
+the latest publications of adopted standards.
+19. 1  Compressed Gas Association
+CGA P-32  Safe Storage and Handling of Silane and
+Silane Mixtures
+19. 2  SEMATECH,  Inc.  /  International  SEMATECH,
+Inc
+9
+.
+96083168A-ENG     Effects    of    Leak    Size    and
+Geometry on Releases of 100% Silane (ESHB001)
+96013067A-ENG     Ignition    Characteristics    of
+Releases of 100% Silane (ESHB001)
+95092976A-ENG  Comparative Analysis of a Silane
+Cylinder    Delivery    System    and    a    Bulk    Silane
+Installation (ESHB001)
+94062405A-ENG     Silane    Safety    Improvement
+Project S71 Final Report
+19. 3  Factory  Mutual  Property  Loss  Prevention  Data
+Sheet, 7-7
+10
+ Semiconductor Fabrication Facilities
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  guideline  set
+
+
+9 SEMATECH Inc./International SEMATECH Inc., 2706 Montopolis
+Drive, Austin, TX 78741-6499 (or www.sematech.org)
+10 Factory Mutual Engineering, 1151 Boston-Providence Turnpike
+(PO Box 9102) Norwood, MA, 02062 or http://www.fmglobal.com;
+(877) 364-6726 (toll free for U.S. & Canada) or (781) 255-4681, or
+print out an order formand fax it to us at (781) 255-4359.
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the guideline is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer  to  manufacturerís  instructions,  product  labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.      This
+guideline is subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that
+compliance  with  this  guideline  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  guideline,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item   mentioned   in   this   guideline.      Users   of   this
+guideline  are  expressly  advised  that  determination  of
+any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement  of  such  rights,  are  entirely  their  own
+responsibility.
+
+
+SEMI S18-1102 © SEMI 2002 18
+
+© 2001 Factory Mutual Insurance Company. Reprinted with permission from FM Global Property Loss Prevention Data Sheet 7-7
+ëSemiconductor Fabrication Facilitiesí
+
+Figure 1
+Bulk Silane Storage/Dispensing Facility
+
+Fabrication building /Support building
+Exit
+Exit
+Open chain-link fence
+2. 7m (9ft)
+2. 7m (9ft)
+2. 7m (9ft)
+2. 7m
+(9ft)
+2. 7m
+(9ft)
+Purge
+cylinders
+Gas
+cylinders
+
+2. 7 m
+2. 7 m  (9 f t)
+2. 7 m
+2. 7 m  (9 f t)
+2. 7 m  (9 f t)
+(9 f t )
+
+(9 f t )
+
+© 2001 Factory Mutual Insurance Company. Reprinted with permission from FM Global Property Loss Prevention Data Sheet 7-7
+ëSemiconductor Fabrication Facilitiesí
+
+Figure 2
+Exterior Dispensing Areas for Cylinder Rack System
+
+
+SEMI S18-1102 © SEMI 2002 19
+RELATED INFORMATION 1
+SILANE SAFETY CONTROL SYSTEMS
+NOTICE:  This Related Information is not an official balloted part of SEMI S18.  It is included to assist the user of
+the  document  in  understanding  effective  control  systems.  Publication  is  authorized  by  vote  of  the  responsible
+committee.
+R1-1 Silane Safety Control Systems
+R1-1.1   These systems should be fail-safe and fault-tolerant in order to perform effectively.
+R1-1.2   In order for Silane Safety Control Systems to continually monitor the status of the gas delivery system that
+they control, they should be connected to devices that provide real-time information on the parameters of the system
+being monitored.
+R1-1.3    Devices  such  as  pressure  transducers,  and  cycle  counters  should  operate  in  conjunction  with  the  software
+that  ensures  the  parameters  (pressure,  counts,  etc.)  are  within  the  safe  operating  limits  for  the  silane  family  gas
+controlled.
+R1.3.1    Software (firmware) that monitors the data from such devices should have the following features:
+a)    Protected from access by unauthorized personnel,
+b)    Require version testing before the version can be installed in active controller systems,
+c)    Have tolerance to accidental keystroke errors (such as asking if you really want to make a change), and
+d)    Require review and approval by a supervisory entity before it can be placed on line.
+R1-1.4      In  locations  where  ignitable  mixtures  of  air  and  flammable  gas  can  form  in  normal  operation  or  as  the
+result of a single, credible failure, the control devices should not be capable of igniting the mixture.
+R1-1.4.1      This  criterion  applies  to  ALL  types  of  controls,  including  fire  protection,  leak  detection,  and  process
+safety monitoring.
+
+
+SEMI S18-1102 © SEMI 2002 20
+RELATED INFORMATION 2
+EXAMPLES OF CALCULATIONS FOR MAXIMUM POTENTIALS FOR
+SILANE FAMILY GASES
+NOTICE: This Related Information is not an official balloted part of SEMI S18.  It is included to assist the
+user of the document in understanding effective control systems. Publication is authorized by vote of the responsible
+committee.
+R2-1         Release         Potentials
+R2-1.1   In gas cabinets, size the ventilation system to limit the maximum concentration of silane inside the cabinet
+to 0.4 percent by volume. Base the maximum concentration of silane inside the gas cabinet on the continuous release
+of SiH
+4
+at a standard volumetric flow rate given by the size of the RFO in the discharge line and the maximum SiH
+4
+
+gas cylinder storage pressure (see Table R2-1). For a 0.4 percent concentration, the required ventilation airflow rate
+can be estimated from Figure R2-1.
+
+© 2001 Factory Mutual Insurance Company. Reprinted with permission from FM Global Property Loss Prevention Data Sheet 7-7
+ëSemiconductor Fabrication Facilitiesí
+
+Figure R2-1
+Average Silane Concentration in a Ventilated Enclosure
+
+
+SEMI S18-1102 © SEMI 2002 21
+Table R2-1  Silane Flow Rates Through Restricted Flow Orifices Based on the Predictionsfrom the Factory
+Mutual Research Model
+Silane Flow Rate [scfm]
+(Source Temperature: 77∞F; Downstream Pressure: 0 psig; Discharge Coefficient: 0.8)
+RFO Dia.
+in. (mm)
+Source Pressure [psig]
+1500             1200             1000             800             600             400             200             100              50
+0. 020
+(0.51)
+10. 0              7.88            6.04            4.34            3.02            1.92           0.949          0.497          0.288
+0. 014
+(0.36)
+4. 91              3.86            2.96            2.13            1.48           0.941          0.465          0.243          0.136
+0. 010
+(0.25)
+2. 50              1.97            1.51            1.08            0.755          0.480          0.237          0.124          0.069
+© 2001 Factory Mutual Insurance Company. Reprinted with permission from FM Global Property Loss Prevention Data Sheet 7-7
+ëSemiconductor Fabrication Facilitiesí
+
+R2-2     Explosion     Potentials
+R2-2.1 Silane Ventilated Enclosure Example
+R2-2.1.1   Consider the case of a ventilated enclosure of 25.9 ft  (0.73 m) volume, swept by a ventilation flow of 450
+scfm (12,744 lpm). Silane is supplied to the enclosure by a 1/4-in. (6.3 mm) (OD) line at a regulated pressure of 50
+psig (3.4 bar). This line is in turn fed from a source at 1450 psig (100 bar), through a 10-mil restricted flow orifice
+(RFO),  located  at  a  distance  of  80  ft  (24.4  m)  from  the  ventilated  enclosure.  Safe  operation  of  the  system  is
+determined by the evaluation of two conditions:
+• the magnitude of the initial silane inventory in the 1/4-in. (6.3 mm) line relative to the size of the enclosure, and
+• the  magnitude  of  the  RFO-controlled  flow  relative  to  the  ventilation  in  the  enclosure.  The  first  condition
+determines the severity of a potential ignition transient at flow start-up. The second provides a measure of the
+pressure development at flow shut-off.
+R2-2.2   The standard silane inventory in the line is calculated by first determining the volume of the line [assume
+0. 035 in. (0.9 mm) wall thickness]:
+
+
+V
+line
+= π / 4 (0.25-2×0.035)
+2
+× 80 × 12 = 24.43 in
+3
+
+
+The silane volume, when expanded to standard conditions, is given by (cf. Eq. 1):
+
+∆Vstd  = 24.43 × 0.0708 × 50 (1 + 8.19 10
+ñ7
+×
+
+50
+2
+) = 86.66 in
+3
+= 0.05 ft
+3
+
+The ratio of the volume of the enclosure to the standard volume of silane is:
+
+Vencl / ∆Vstd = 25.9 / 0.05 = 518
+
+
+R2-2.3   Since this value is greater than 100, the situation is acceptable from the point of view of potential pressure
+transients caused by ignition of the release at flow startup.
+R2-2.4   Verifying the second condition requires calculating the RFO-controlled flow. By interpolation of the data in
+Table 2, the flow through a 10-mil orifice from a source at 1450 psig (100 bar) is estimated to be equal to 2.41 scfm
+(68.25 lpm). Since the maximum silane flow rate that can be accepted for a ventilation of 450 scfm (12,744 lpm) is
+1. 8  scfm  (51  lpm)  (450/250,  see  recommendation  3  above),  this  situation  is  not  acceptable.  It  would  become
+acceptable  if  the  ventilation  flow  was  increased  to  600  scfm  (16,992  lpm)  (2.41  ¥  250)  or  if  the  explosion  venting
+conditions shown in Figures R2-2a and R2-2b were to be satisfied.
+
+
+SEMI S18-1102 © SEMI 2002 22
+R2-2.5    Provide  explosion  venting  for  gas  cabinets  and  enclosures  to  limit  overpressure  inside  gas  cabinets  and
+enclosures to 0.25 psig (1.7 kPag). Explosion venting can be provided by door panels, windows, louvers or exhaust
+duct openings. Size explosion venting to satisfy both the requirements for line inventory pressure (Figure R2-2a) and
+for the volume of the enclosure (or cabinet) (Figure R2-2b).
+
+© 2001 Factory Mutual Insurance Company. Reprinted with permission from FM Global Property Loss Prevention Data Sheet 7-7
+ëSemiconductor Fabrication Facilitiesí
+
+Figure R2-2a
+Vent Area Requirement for Prompt Ignition of Silane Releases as a Function of Initial Line Pressure
+
+
+© 2001 Factory Mutual Insurance Company. Reprinted with permission from FM Global Property Loss Prevention Data Sheet 7-7
+ëSemiconductor Fabrication Facilitiesí
+
+Figure R2-2b
+Vent Area Requirements for Ignition of Silane Releases at Shut-Off as a Function of Enclosure Volume
+
+
+SEMI S18-1102 © SEMI 2002 23
+RELATED INFORMATION 3
+EXAMPLES OF SIMPLIFIED VALVE AND PIPING DIAGRAM FOR GAS
+SUPPLY
+NOTICE:  This Related Information is not an official balloted part of SEMI S18.  It is included to assist the user of
+the  document  in  understanding  effective  control  systems.  Publication  is  authorized  by  vote  of  the  responsible
+committee.
+
+P
+r
+o
+c
+e
+s
+s
+
+G
+a
+s
+
+C
+y
+l
+i
+n
+d
+e
+r
+
+Vacuum
+Generator
+Supply
+Vacuum
+Generator
+Valve
+Vacuum
+Generator
+To Vent
+Low Pressure
+Vent Valve
+To Process
+Low Pressure
+Gas Valve
+2 Stage
+Regulator
+High Pressure
+Gas Valve
+P
+r
+o
+c
+e
+s
+s
+
+G
+a
+s
+
+C
+y
+l
+i
+n
+d
+e
+r
+Purge
+Gas
+Purge Gas
+Valve
+Automatic
+Cylinder Valve
+High Pressure
+Vent Valve
+
+Figure R3-1
+Gas Supply System
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the guideline set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  guideline  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturerís  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  This guideline is subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that  compliance with this guideline may require use of copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  guideline,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+guideline.  Users of this guideline are expressly advised that determination of any such patent rights or copyrights,
+and the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI S19-1102 © SEMI 2002 1
+SEMI S19-1102
+SAFETY GUIDELINE FOR TRAINING OF SEMICONDUCTOR
+MANUFACTURING EQUIPMENT INSTALLATION, MAINTENANCE AND
+SERVICE PERSONNEL
+This safety guideline was technically approved by the Global Environmental, Health, and Safety Committee
+and is the direct responsibility of the North American Environmental, Health, and Safety Committee. Current
+edition  approved  by  the  North  American  Regional  Standards  Committee  on  August  29,  2002.    Initially
+available at www.semi.org September 2002; to be published November 2002.
+1  Purpose
+1. 1            Provide      guidance      to      the      employer      for
+environmental, health and safety proficiencies.
+NOTE 1: The  “employer”  is  determined  by  regulation  or  by
+contact.
+1. 2    Establish  specific  learning  objectives  which,  when
+fulfilled, demonstrate a baseline level of environmental,
+health and safety (EHS) proficiency.
+1. 3    Identify  quality  control,  documentation  and  record
+keeping  criteria  for  the  management  of  EHS  training
+programs.
+2  Scope
+2. 1    This  document  applies  to  the  EHS  training  of
+personnel     servicing,     maintaining,     installing     or
+otherwise providing semiconductor equipment support.
+2. 2    All  elements  of  this  guideline  are  necessary  for
+declaring conformance to the guideline.
+2. 3  This safety guideline does not purport to address all
+of  the  safety  issues  associated  with  its  use.  It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1    This  guideline  is  not  intended  to  apply  to  trades
+used  in  the  facility  construction  and  remodeling,  or
+provision     of     building     or     facility     services     to
+semiconductor equipment.
+3. 2    The  guideline  provided  herein  is  not  intended  to
+represent an all inclusive or exhaustive identification of
+the  EHS  training  required  for  personnel  within  the
+scope of this guideline.
+3. 3    Depending  on  the  hazards,  additional  training  or
+certifications,  specific  to  the  task  or  the  area  hazards,
+may be required.
+4  Referenced Standards
+4. 1  ANSI Documents
+1
+
+ANSI  Z490.1  —  Criteria  for  Accepted  Practices  in
+Safety, Health and Environmental Training
+NOTE 2: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1  Definitions
+5. 1.1  authorized  employee(s)  —  persons  trained  and
+proficient  in  performing  a  hazardous  energy  isolation
+(lockout/tagout)    procedure    on    an    energy    source
+ensuring   that   the   energy   isolating   device   and   the
+equipment being controlled cannot be operated until the
+locking device is removed.
+5. 1.2  instructor  or  facilitator  —  an  individual  with
+appropriate     technical     expertise     and     experience,
+authorized  by  the  employer  to  deliver,  or  facilitate  the
+delivery  of,  a  course  module  or  set  of  modules  and
+capable  of  addressing  student  questions  in  a  timely
+manner.
+5. 1.3  learning  objective  —  written  statement  of  the
+desired knowledge, skill, or ability to be demonstrated.
+5. 1.4  qualified   employee(s)   —   persons   trained   and
+proficient   in   the   equipment   and   operation   to   be
+performed,  including  recognition  of  the  hazards  and
+necessary protective measures.
+5. 1.5  training — an activity which assists an individual
+in fulfilling the learning objectives.
+6  Core Curriculum
+6. 1    The  employer  is  responsible  for  ensuring  that  the
+employee’s    EHS    training    is    based    on    a    needs
+assessment  or  the  results  of  hazards  analyses.  The
+subject   matter   in   this   section   is   considered   the
+minimum   basic   curriculum   for   training   personnel
+within the limitations of this guideline.
+
+
+1 American National Standards Institute, New York Office: 11 West
+42nd Street, New York, NY 10036, USA. Telephone: 212.642.4900;
+Fax: 212.398.0023 Website: www.ansi.org
+
+
+SEMI S19-1102 © SEMI 2002 2
+6. 2  Housekeeping  —  General  principles  and  concepts
+of    hazard    recognition    and    various    techniques,
+procedures or practices for reducing or eliminating risks
+such as:
+• Appropriate  use  of  passageways,  storerooms,  and
+service rooms,
+• Maintaining  walking  and  working  surfaces  in  a
+safe, clean, orderly and sanitary condition, and
+• Establishing   and   maintaining   aisle   width   and
+means of egress.
+6. 3  Ergonomics  —  General  principles  and  concepts  of
+Ergonomic  and  Musculoskeletal  Disorders  (MSD)  as
+they    relate  to  service  activities,  with  special  emphasis
+in the following areas:
+• Repetitive motion injuries,
+• Video display terminal usage,
+• Material handling techniques,
+• Recognition of MSD signs and symptoms,
+• How  to  report  MSD  signs  and  symptoms  and  the
+importance of early reporting,
+• Personal  MSD  risk  factors  including  factors  that
+contribute  to  MSD  of  the  upper  extremities,  and
+back,
+• MSD   hazards   in   their   jobs   and   measures   for
+protection against MSD hazards,
+• Proper  selection  and  use  of  tools  and  equipment,
+and
+• Job-specific controls implemented.
+6. 4  Hand and Portable Power Tools
+• Recognition of the hazards associated with the use
+of hand and portable power tools, and
+• Requirements  for  tool–specific  training  in  the  safe
+use of the tools to be used.
+6. 5  Material Handling Equipment
+• Recognition    of    the    hazards    associated    with
+operating   or   working   around   material   handling
+equipment  and  mechanical  lifting  devices  such  as
+hoists,  pallet  jacks,  forklifts,  and  overhead  cranes,
+and
+• Restrictions,   including   additional   training   and
+certification   requirements,   associated   with   their
+operation.
+6. 6  Robotics
+• Recognition    of    the    hazards    associated    with
+working near robots and associated components,
+• Restrictions  and  requirements  for  robot  service  or
+repair,      including      additional      training      and
+certification of service personnel,
+• An  understanding  of  the  operating  envelope  and
+the risks associated with entry, and
+• Review of appropriate safe work practices.
+6. 7  Confined Space
+• Ability to recognize a confined space,
+• Recognition    of    the    hazards    associated    with
+confined spaces, and
+• Requirements  and  restrictions  for  confined  space
+entry including sampling or additional training and
+certification of service personnel.
+6. 8  Elevated Work
+6. 8.1  Fall Protection
+• Recognition of the hazards, both to the worker and
+other   personnel,   when   performing   work   in   an
+elevated position, and
+• Identification  of  when  additional  fall  protection
+measures including training are required.
+6. 8.2  Portable Ladders
+• Recognition of the hazards associated with the use
+of portable ladders, and
+• Proper  selection,  inspection,  set–up  and  use  of
+portable ladders and working platforms in the work
+area.
+6. 9  Walking    and    Working    Surfaces    —    General
+principles   and   concepts   of   hazard   recognition   and
+various techniques, procedures or practices for reducing
+or eliminating risks involving:
+• Walking  and  working  surfaces,  gratings,  raised
+platforms, floor and wall openings,
+• Guarding  floor  and  wall  openings  and  holes  using
+covers, guardrails and warning barriers,
+• Floor loading and protection, and
+• Protection     of     open-sided     floors,     platforms,
+runways, and stairway railings and guards.
+
+
+SEMI S19-1102 © SEMI 2002 3
+6. 10  Electrical    Work    —    General    principles    and
+concepts  of  performing  work  on  or  around  electrical
+circuits as well as instruction in the following areas:
+• General electrical safety requirements,
+• Recognition    of    the    hazards    associated    with
+electrical work,
+• Importance   of   equipment   grounding   continuity,
+and
+• Restrictions  and  requirements  to  qualify  service
+personnel for performing energized electrical work
+(EEW)  including  additional  procedures,  training,
+and protective measures.
+6. 11  Control   of   Hazardous   Energy   —   Authorized
+Employee  —  Requirements  of  the  Hazardous  Energy
+Control (Lockout/Tagout) Program including:
+• Consequences   (injury   potential   and   disciplinary
+action) of failing to comply with the energy control
+requirements,
+• Requirements to ascertain each of the various types
+and  magnitudes  of  potentially  hazardous  energy
+sources, both potential and kinetic, in the system(s)
+or equipment involved,
+• General   procedures   for   performing   hazardous
+energy  isolation  and  the  equipment  necessary  to
+isolate and control hazardous energies,
+• General     procedures     for     re–energizing     after
+completion of work,
+• The role and use of equipment–specific procedures,
+• Methods   of   testing   and   or   verifying   energy
+isolation, and
+• Periodic   program   inspection   and   auditing   of
+program effectiveness.
+
+6. 12  Radiation (Ionizing and Non-Ionizing)
+• Awareness of basic radiation hazards as associated
+with both ionizing and non-ionizing radiation (e.g.,
+x-ray, ultraviolet, electromagnetic), and
+• Restrictions,  including  additional  requirements  for
+training, to qualify service personnel for work with
+or around hazardous levels of radiation.
+6. 13  Lasers
+• Recognition    of    the    hazards    associated    when
+working with or around lasers, and
+• Restrictions,    including    additional    training    to
+qualify   service   personnel,   for   working   around
+specific classes of lasers.
+6. 14  Workplace       Environmental       Hazards       —
+Recognition of the direct and indirect exposure hazards
+of  workplace  environmental  factors  such  as  lighting,
+noise, heat and cold.
+6. 15  Mechanical Hazards
+• General    principles    and    concepts    of    hazard
+recognition and the various techniques, procedures
+or  practices  for  reducing  or  eliminating  the  risks
+when working around mechanical energies,
+• Recognition   of   the   various   types   of   hazardous
+mechanical  energies  as  associated  with  the  points
+of   operation,   power   transmission   points,   pinch
+points,  and  shear  points  (e.g.:  automated  material
+handling systems), and
+• Requirements  for,  and  the  appropriate  application
+of, guards and safeguards.
+6. 16  Pressure   and   Vacuum   —   Recognition   of   the
+hazards   associated   with   the   systems   or   equipment
+containing either pressure or vacuum.
+6. 17  Chemical Hazards
+6. 17.1            Requirements      and      obligations      for      the
+communication  of  chemical  hazards,  as  required  by
+applicable regulations.
+6. 17.2      Details   of   the   employer's   chemical   hazard
+communication program, including:
+• Labeling    requirements    and    commonly    used
+labeling systems,
+• How  to  access,  interpret  and  apply  the  provided
+hazardous materials data including commonly used
+terms  pertaining  to  occupational  exposure  limits
+and   physical   hazard   data   commonly   found   in
+Material Safety Data Sheets (MSDS),
+• Methods    the    employer    will    use    to    inform
+employees of the hazards of non-routine tasks,
+• Appropriate   protective   measures   for   protection
+against   physical   and   health   hazards   including
+specific    procedures    such    as    work    practices,
+emergency  procedures,  and  the  use  of  personal
+protective equipment,
+• Location  and  availability  of  the  written  hazard
+communication   program,   including   the   required
+inventory   list(s)   of   hazardous   chemicals   and
+MSDSs,
+• Operations   in   the   work   area   where   hazardous
+chemicals are present,
+
+
+SEMI S19-1102 © SEMI 2002 4
+• The  general  classes  of  hazardous  materials  (e.g.,
+toxic,   corrosive,   flammable,   reactive)   and   their
+associated physical and health hazards,
+• Physical   and   health   hazards   of   the   specific
+chemicals in the work area,
+• Methods  and  observations  that  may  be  used  to
+detect   the   presence   or   release   of   a   hazardous
+chemical  such  as  monitoring  devices,  the  visual
+appearance or odor of hazardous chemicals,
+• Proper  segregation  and  hazardous  material  storage
+requirements,
+• General   requirements   and   restrictions   for   the
+disposal of hazardous materials, and
+• Emergency care for overexposure.
+6. 17.3  Employee responsibilities including:
+• Access,  review  and  apply  hazard  information  and
+data, and
+• Use reasonable care when working with hazardous
+materials.
+6. 18  Personal Protective Equipment (PPE)
+• General principles and concepts of the hierarchy of
+protective    measure    selection    (elimination-first,
+engineering       controls-second,       administrative
+controls-third,   personal   protection   equipment   –
+last),
+• Use  of  specific  factors  within  the  hazard  analyses,
+including  identification  of  health  and  safety  risks,
+potential routes of exposure, environmental factors,
+and   individual   or   combinations   of   protective
+measures,  to  determine  the  need  for  and  selection
+of PPE,
+• General  factors  affecting  PPE  selection  including
+physical       restraints,       applicable       regulatory
+requirements and industry standards, and
+• Training,  based  on  the  PPE  expected  to  be  worn,
+that includes information regarding:
+- When and what PPE is required,
+- Acquisition and replacement of PPE,
+-      Limitations,
+-      PPE      inspection,
+-     Proper   donning,   adjustment,   use   and
+removal,
+- How to monitor PPE when in use, and
+- Proper care, maintenance and useful life.
+6. 19  Hazard    Analysis    —    Methods    for    properly
+conducting   a   hazard   analysis   for   determining   the
+hazards  and  associated  risks,  and  identifying  possible
+corrective measures associated with a job or work area,
+including:
+• Methods for identification of basic job steps,
+• Delineating  the  potential  hazards  associated  with
+each step,
+• Assessing   the   related   risks   of   the   identified
+hazards, and
+• Identification  and  selection  of  appropriate  control
+measures.
+NOTE   3:   Some   locations   require   approval   by   an   EHS
+professional before application of protection measure.
+6. 20  Fire Safety
+• Recognition    of    the    hazards    associated    with
+performing    any    work    that    could    provide    a
+reasonable  source  of  ignition  (hot  work)  and  the
+potential of site–specific requirements,
+• Restrictions,  including  additional  training,  for  the
+use of fire extinguisher equipment, and
+• Basic fire behavior and control.
+6. 21  Emergency Procedures
+• Explanation  of  the  responsibilities  and  obligations
+of personnel during an emergency, and
+• Procedures to be followed during an evacuation or
+medical emergency.
+6. 22  Accident/Incident Reporting
+• Explanation  of  the  primary  objective  of  incident
+reporting (prevent reoccurrence of incident),
+• Procedures  for  reporting  an  accident  or  incident
+both within the employer’s facility and off-site, and
+• Requirements  for  a  complete  and  timely  report  of
+incident.
+7  Site–Specific Training
+7. 1      The   facility   owner   should   provide   site–specific
+information  or  training  to  the  employer  (if  different
+than facility owner). If any element of the site–specific
+training  is  not  provided,  the  employee  has  a  right  to
+request the information. Topics for site-specific training
+may include:
+• Evacuation and emergency procedures,
+• Monitoring and evacuation alarms,
+• Incident and injury reporting,
+
+
+SEMI S19-1102 © SEMI 2002 5
+• Site–specific  elements  of  EHS  programs  identified
+elsewhere  in  this  guideline  (e.g.,  Energy  Control
+Program, Confined Spaces, Fall Protection),
+• Hazardous  materials  approval,  handling  and  waste
+management procedures including identification of
+hazardous materials to which they may be exposed,
+MSDS location, labeling, storage and disposal,
+• Selection,  use  and  limitations  of  PPE  expected  to
+be used and made available at the facility,
+• Use   and   use   restrictions   of   facility   emergency
+equipment    (e.g.,    fire    extinguishers,    breathing
+apparatus), and
+• Applicable  site  or  local  regulations,  restrictions  or
+requirements   not   addressed   elsewhere   in   this
+guideline  (e.g.,  radiation  badges,  use  of  recording
+equipment, site security).
+8  Additional Exposure–Based Training
+8. 1      It   is   the   employer’s   responsibility   to   ensure
+potential hazards are identified through hazard analyses
+and    provide    the    appropriate    EHS    training.    The
+following  list  of  additional  training  programs  is  not
+intended  to  be  all-inclusive  but  identifies  some  of  the
+specialty  programs  that  may  be  necessary  based  on  the
+individual’s potential exposure or risk.
+• Respiratory Protection
+• Arsenic Safety
+• Confined Space – Entry
+• Forklift Operations
+• Hearing Conservation
+• Laser Safety
+• Radiation Safety
+• Energized Electrical Work – Qualified Employee
+• High Voltage (>600 V) Electrical Work
+• Fire Extinguisher Use
+• Fixed Extinguishing Systems
+• Basic First Aid
+• Cardiopulmonary Resuscitation (CPR)
+• Bloodborne Pathogens
+NOTE 4:  The employer  is  obligated  to  provide  immediate
+(within    4    minutes)    emergency    medical    services    until
+advanced  medical  support  can  arrive.  Energized  electrical
+work also requires having a person, qualified to perform CPR,
+immediately   available   (typically   the   back-up   worker   or
+“buddy”). The facility owner (if different from the employer)
+may  provide  this  service  if  contractually  agreed  upon  in
+advance. If not, the employer must ensure a sufficient number
+of   employees   are   trained   in   Basic   First   Aid,   CPR   and
+Bloodborne   Pathogens   and   immediately   available   in   an
+emergency.
+NOTE 5:  Bloodborne  Pathogen  training  is  requirement  of
+persons whose job requires First Aid or CPR training.
+9  Quality Control
+9. 1    To  ensure  the  quality  of  the  training  program,  the
+elements  of  ANSI  Z490.1  should  be  followed  in  the
+management  of  the  training  program  as  well  as  in  the
+development and implementation of training courses.
+9. 2        Unless    otherwise    specified    or    required    by
+regulation,  retraining  or  a  proficiency  demonstration
+should occur:
+• Every three years,
+• When  changes  in  the  requirements  or  workplace,
+such as modifications to the process, procedures, or
+current    protective    measures,    render    training
+obsolete,
+• If   the   employer   becomes   aware   of   new   or
+previously unrecognized hazard, and
+• Anytime an employee cannot demonstrate adequate
+knowledge  of  the  subject  and  application  of  the
+skills.
+9. 3    Competency  is  to  be  demonstrated  to  a  qualified
+individual other than the student.
+10              Training       Documentation       &       Record
+Maintenance
+10. 1      The   employer   should   identify   in   its   written
+training    program    a    system    for    collecting    and
+maintaining      documentation      pertaining      to      the
+development   and   implementation   of   EHS   training,
+procedures  for  access,  availability,  and  confidentiality
+of  records.  The  system  should  address  all  pertinent
+records and documents to ensure that they:
+• Are      readily      retrievable,      identifiable,      and
+maintained in an orderly manner,
+• Are current, accurate, legible, and dated (including
+revision dates),
+• Are retained for a specified period,
+• Adequately     fulfill     applicable     customer     and
+regulatory requirements, and
+• Are made available upon request for verification of
+conformance with this guideline.
+
+
+SEMI S19-1102 © SEMI 2002 6
+10. 2  Records
+10. 2.1  Course records should identify
+• The     target     audience     and     stated     learning
+objective(s),
+• Sources, materials and references used for training
+development,
+• Persons  designing  and  developing  the  training  and
+their qualifications,
+• Training materials developed for the course,
+• Regulations,  standards  or  legislation  for  which  the
+training is intended to comply,
+• Methods for demonstrating competency, and
+• Plans  for  evaluation  and  continuous  improvement
+of the course.
+10. 2.2    Delivery  records  for  each  training  event  should
+identify:
+• Name and description of the course,
+• Date, location, and duration of the training,
+• Name,   identification   number   and   employer   of
+students participating in the training,
+• Person(s) delivering the training,
+• Students  successfully  completing  the  training  and
+completion date (if training event spanned multiple
+days),
+• Competency demonstration records, and
+• The subject matter presented.
+10. 2.3      Trainer   records   should   include   the   name,
+qualifications, contact information and employer of the
+trainer.
+10. 2.4    Program  management  records  should  include
+documented    periodic    evaluations    of    the    training
+program and reevaluations of courses.
+10. 3  Record Confidentiality and Availability
+10. 3.1    Records  should  be  maintained  such  that  they
+meet     applicable     requirements     for     availability,
+disclosure,   confidentiality,   and   protection   of   trade
+secrets.
+10. 3.2      The   employer   should   ensure   the   student   is
+provided      confirmation      of      successful      training
+completion within a reasonable time.
+10. 3.3      If   the   facility   owner   is   different   than   the
+employer,  documentation  of  training  completion  and
+contact  for  verification  upon  request  should  be  made
+available to the facility owner in a language acceptable
+to  the  facility  owner.  Records,  such  as  those  identified
+within this guideline, are considered documentation that
+could be used for verification.
+10. 3.3.1                  Suggested         methods         of         providing
+documentation   of   training   completion   in   the   field
+include:
+• A   training   passport   that   summarizes   training
+received  with  course  completion  acknowledged  by
+the instructor with signature, and
+• Training    certification    cards    that    identify    the
+courses and completion dates of training received.
+10. 3.3.2    When  an  individual  holding  a  valid  training
+certification   issued   by   his/her   previous   employer
+changes   employers,   it   is   suggested   that   the   new
+employer   upon   verification   of   the   validity   of   the
+training  “certification”  and  associated  curriculum,  re-
+certify  its  new  employee  by  written  examination  and
+practical    demonstration    to    the    current    training
+guidelines.
+
+NOTICE: SEMI      makes      no      warranties      or
+representations as to the suitability of the guidelines set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    guideline,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   item
+mentioned in this guideline.  Users of this guideline are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI S20-0303 © SEMI 2003 1
+SEMI S20-0303
+SAFETY GUIDELINE FOR IDENTIFICATION AND DOCUMENTATION
+OF ENERGY ISOLATION DEVICES FOR HAZARDOUS ENERGY
+CONTROL
+This  safety  guideline  was  technically  approved  by  the  Environmental,  Health,  and  Safety  Committee  and  is
+the  direct  responsibility  of  the  North  American  Environmental,  Health,  and  Safety  Committee.  Current
+edition  approved  by  the  North  American  Regional  Standards  Committee  on  November  22,  2002.    Initially
+available at www.semi.org January 2003; to be published March 2003.
+NOTICE:   Paragraphs   entitled   “NOTE”   are   not   an
+official  part  of  this  document  and  are  not  intended  to
+modify  or  supersede  the  official  guideline.    The  task
+force has supplied them to clarify and to enhance usage
+of the guideline by equipment designers.
+NOTICE:  The  intent  of  the  task  force  that  produced
+this  document  is  that  conformance  to  the  “should”
+provisions  of  this  guideline  comprises  conformance
+with this guideline.
+1  Purpose
+1. 1  This guideline is intended to establish a method for
+the  unique  identification  of  energy  isolation  devices
+(EID)    used    for    lockout/tagout    (LOTO).        This
+identification  is  intended  to  occur  both  at  the  devices
+and  at  those  places  in  the  supplier-provided  manuals
+where the devices are referenced in tasks or procedures.
+NOTE  1:  Throughout  this  document,  “LOTO  EID”  refers  to
+these devices.
+1. 2  This document supplements the existing provisions
+in  SEMI  S2  (for  Hazardous  Energy  Isolation)  and
+SEMI  S13  (for  providing  appropriate  documentation)
+with     a     uniform     graphical     representation     and
+identification system.
+1. 3        This    document    also    provides    guidance    for
+developing instructions for operating LOTO EIDs.
+2  Scope
+2. 1      This   guideline   applies   to   equipment   used   to
+manufacture,       measure,       assemble,       and       test
+semiconductor   products,   and   the   maintenance   and
+service procedures associated with the equipment.
+2. 2    This  guideline  provides  criteria  for  documentation
+and  identification  of  all  supplier-specified  LOTO  EIDs
+meeting   the   criteria   of   SEMI   S2.      This   includes
+isolation   devices   that   the   supplier   intends   to   be
+provided by the end user.
+EXCEPTION: Equipment  in  which  a  cord  and  plug
+connection  is  the  only  LOTO  EID  is  exempt  from  this
+guideline.
+NOTE 2: Isolation  devices  with  locking  capability  are  not
+necessarily LOTO EIDs, unless the supplier specifies them as
+LOTO EIDs.
+NOTE 3: In  some  jurisdictions, it  is  the  responsibility  of  the
+supplier  to  specify  the  energy  isolation  points  that  must  be
+locked  out  in  conjunction  with  the  manufacturer-specified
+maintenance    procedures.        However,    the    end    user    is
+responsible  for  the  overall  hazardous  energy  control  program
+for  the  work  site  and  for  the  installation  of  additionally
+required  facility  EIDs.    The  user  is  not  responsible  for  EIDs
+that  are  required  by  regulation  to  be  incorporated  within  the
+equipment.
+NOTICE:  This  safety  guideline  does  not  purport  to
+address  all  of  the  safety  issues  associated  with  its  use.
+It   is   the   responsibility   of   the   users   of   this   safety
+guideline  to  establish  appropriate  safety  and  health
+practices  and  determine  the  applicability  of  regulatory
+or other limitations prior to use.
+3  Limitations
+3. 1        This    document    is    not    intended    to    provide
+guidelines  for  developing  or  replacing  user-site  energy
+isolation programs.
+3. 2    This  document  is  not  intended  to  be  used  in  place
+of  the  need  for  adequate  training  of  individuals  who
+perform hazardous energy control.
+3. 3  This document is not intended to conflict with laws
+and regulations on Control of Hazardous Energy.
+3. 4        This    guideline    does    not    contain    criteria    or
+requirements  for  providing  a  particular  LOTO  EID  to
+be used in a LOTO program.
+NOTE   4:   The   requirements   and   criteria   for   providing   a
+particular  LOTO  EID  for  use  in  a  LOTO  program  may  be
+found  explicitly  or  implicitly  in  SEMI  S2,  equipment  design
+standards,  United  States  OSHA  requirements,  or  in  various
+good engineering practices.
+3. 5      This   document   is   not   intended   to   replace   or
+supersede   SEMI   S2   or   any   other   SEMI   Safety
+Guideline.
+3. 6      This   document   is   not   intended   to   be   applied
+retroactively, i.e., to designs already in the field.
+
+
+SEMI S20-0303 © SEMI 2003 2
+3. 7    This  document  does  not  apply  to  the  labeling  of
+hazards, which is the function of SEMI S1.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  S1    Safety  Guideline  for  Equipment  Safety
+Labels
+SEMI   S2      Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI   S8      Safety   Guidelines   for   Ergonomics
+Engineering      of      Semiconductor      Manufacturing
+Equipment
+SEMI  S13    Safety  Guidelines  for  Operation  and
+Maintenance    Manuals    Used    With    Semiconductor
+Manufacturing Equipment
+4. 2  ANSI Standards
+1
+
+ANSI Z535.1   Color Coding for Labels
+4. 3  Code  of  Federal  Regulations  -    United  States  of
+America
+2
+
+29 CFR 1910.147  The Control of Hazardous Energy
+(lockout/tagout)
+29  CFR  1910.147
+  Appendix  A  “Typical  Minimal
+Lockout Procedure”
+4. 4  ISO Standards
+3
+
+ISO 3864  Safety Colours and Safety Signs
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbrevitions and Accronyms
+5. 1.1  LOTO  acronym for lockout/tagout.
+NOTE   5:   Also   equivalent   to   the   term   Hazardous   Energy
+Isolation (HEI), which may be used in some jurisdictions.
+5. 2  Definitions
+5. 2.1  blocking  (v)    preventing  flow  of  material  as
+through    piping    or    preventing    energies    (such    as
+
+
+1  American National Standards Institute, New York Office: 11 West
+42nd Street, New York, NY 10036, USA. Telephone: 212.642.4900;
+Fax: 212.398.0023 Website: www.ansi.org
+2  Available from Occupational Safety and Health Administration,
+U.S. Department of Labor, http://www.osha.gov
+3  International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+suspended weights or springs) held in a suspended state
+from movement.
+5. 2.2  clean  room  compatible  materials  —  materials
+approved for use within a fabrication facility, including:
+laminated   card   stock   or   paper,   clean   room   paper,
+electronic media or other approved media.
+5. 2.3  Energy  Isolation  Device  (EID)   a  mechanical
+device   that   physically   prevents   the   transmission   or
+release  of  energy,  including  but  not  limited  to  the
+following:    a    manually    operated    electrical    circuit
+breaker;   a   disconnect   switch;   a   manually   operated
+switch  by  which  the  conductors  of  a  circuit  can  be
+disconnected  from  all  ungrounded  supply  conductors,
+and, in addition, no pole can be operated independently;
+a  line  valve;  a  block;  and  any  similar  device  used  to
+block   or   isolate   energy.      Push   buttons,   selector
+switches,  and  other  control  devices  are  not  energy
+isolation devices.  [OSHA 29 CFR 1910.147]
+NOTE    6:    Lockout    devices    (elsewhere    defined    in    this
+document) are not energy isolation devices.
+5. 2.4  graphical   using  an  image  or  multiple  image
+representation that reflects the equipment as assembled
+and is used for indicating the location of the individual
+LOTO   EIDs   in   relation   to   the   equipment   being
+maintained.      Images   include   labeled   drawings,   or
+photographs enhanced with labels.
+5. 2.5  graphical  reference  guide  —  the  merger  of  text
+instructions    and    graphical    representations    of    the
+equipment in a manner that provides a clear description
+of  the  task  and  a  simple  means  of  locating  the  correct
+devices.
+5. 2.6  lockout   the  placement  of  a  lockout  device  on
+an   energy   isolation   device,   in   accordance   with   an
+established    procedure,    ensuring    that    the    energy
+isolation  device  and  the  equipment  being  controlled
+cannot be operated until the lockout device is removed.
+[OSHA 29 CFR 1910.147]
+5. 2.7  lockout device  a lock and associated hardware
+used  to  secure  an  EID  in  the  safe  position  and  prevent
+energy flow.
+NOTE 7: Energy  isolation  devices  (elsewhere  defined  in  this
+document) are not lockout devices.
+5. 2.8  maintenance   planned  or  unplanned  activities
+intended  to  keep  equipment  in  good  working  order.
+(See also definition for service.) [SEMI S2]
+5. 2.9  marked —   identified   by   the   use   of   a   label,
+engraving, silk screening, etching, or other physical and
+durable   indication;   placed   near   components   or   on
+systems  for  the  purpose  of  matching  to  identifying
+documentation.
+
+
+SEMI S20-0303 © SEMI 2003 3
+5. 2.10  service  unplanned   activities   intended   to
+return equipment that has failed to good working order.
+(See also the definition for maintenance.) [SEMI S2]
+5. 2.11  tagout   the  placement  of  a  tagging  device
+(such as a tag and a secure means of attachment) to an
+energy    isolation    device    in    accordance    with    an
+established  procedure.    The  tagout  indicates  that  the
+energy-isolation  device  may  not  be  operated  until  the
+tagging device is removed.
+6  Task Specific Information
+6. 1    For  each  task  requiring  hazardous  energy  isolation
+(i.e.,   LOTO),   the   following   information   should   be
+provided   in   a   combined   format   (including   labels,
+maintenance manuals, and graphical reference guides as
+described in Sections 7, 8, and 9 of this document).
+NOTE  8:  In  some  jurisdictions  the  bulleted  items  below  are
+required.
+6. 1.1  Identification of:
+• type  and  magnitude  of  hazardous  energies  to  be
+isolated,
+• LOTO  EIDs  necessary  for  controlling  sources  of
+hazardous energy, and
+• lockout  devices  necessary  to  secure  the  LOTO
+EIDs.
+6. 1.2  Instructions for the following:
+• isolating each source of energy,
+• blocking energy, or reducing the potential to a zero
+energy  state  (such  as  blocking  chemical  lines  or
+blocking  the  suspended  energy  state  in  a  spring  or
+raised weight),
+• dissipating any  residual energy,
+• isolating hazardous energy sources that are isolated
+by   disconnection,   but   for   which   there   are   no
+lockable EIDs. These instructions should state that
+the    protection    depends    on    the    means    of
+disconnection  remaining  in  the  immediate  control
+of the personnel performing the work,
+• attempting  to  restart  the  equipment  or  re-energize
+the   system(s)   that   is/are   to   be   isolated   from
+hazardous energy, and
+• verification  that  there  is  no  hazardous  residual
+energy in the system.
+NOTE 9: An example of minimum Hazardous Energy Control
+Procedures can be found in 29 CFR 1910.147 Appendix A.
+NOTE 10: The intent of instructions is to meet the need for a
+valid verification method that energy is isolated and to ensure
+that  proper  procedures  are  provided.    An  instruction  is  not
+required  if  the  condition  is  not  present  or  possible  or  the
+method is not technically feasible.
+7  Energy Isolation Device Identification
+7. 1        Each    LOTO    EID    should    be    uniquely    and
+consistently    identified    on    the    system,    drawings,
+schematics, procedures, etc. to reduce confusion.
+EXCEPTION: Equipment  consisting  of  a  grouping  of
+functional  modules  (e.g.,  a  “cluster  tool”),  where  more
+than one module is used in the same grouping, may use
+the same identifying numbers in each module.
+NOTE 11: Where there are multiple control devices such that
+one  or  more  operating  devices  might  be  confused  with  the
+LOTO EID, a differentiation marking may be used to prevent
+confusion.    One  example  of  such  a  differentiation  marking  is
+shown in Related Information 3.
+7. 2    All  LOTO  EIDs  integral  to  the  equipment  should
+be marked on the equipment.
+7. 2.1    LOTO  EID  markings  should  be  located  on  the
+equipment adjacent to (not on) the EIDs they identify.
+NOTE   12:   Marking   directly   on   the   EID   can   mean   that
+replacement of the EID will also remove the EID marking.
+7. 2.2      Where   the   LOTO   EID   marking   is   obscured
+(covered by wiring, tubing, installation hardware, etc.),
+an additional marking should also be placed on the EID
+itself.
+7. 3      For   LOTO   EIDs   required   by   the   supplier   but
+provided  and  installed  by  the  user,  the  supplier  should
+specify the requirements for such devices.
+7. 3.1    When  such  devices  are  specified,  users  should
+provide lockable EIDs.
+7. 3.2  Users should provide to the supplier, if requested,
+the location of the device.
+7. 3.3  Utility  connection  points  for  which  LOTO  EIDs
+are located external to the equipment should be marked
+to  indicate  that  a  user-provided  EID  is  the  method  of
+energy  isolation.    Space  on  the  equipment  should  be
+provided  for  the  user  to  indicate  the  location  of  the
+LOTO EID.
+7. 4  The style and size of letters and numbers on LOTO
+EID  markings  should  meet  the  criteria  of  SEMI  S8  in
+order  to  be  readable  from  the  normal  viewpoint  of
+access to the LOTO EID.
+7. 4.1    The  LOTO  EID  marking  (as  it  appears  on  the
+equipment) need not be colored according to Table 1 in
+Section 9.
+
+
+SEMI S20-0303 © SEMI 2003 4
+8  Graphical Representations in Manuals,
+Documentation & Procedures
+8. 1  Supplier-provided   instructions  for  lockout/tagout
+and graphical representations of LOTO EIDs should be
+included  with  each  maintenance  task  or  in  a  separate
+section  of  the  manual  referenced  by  each  maintenance
+task to which they pertain.
+8. 2  The text instructions should refer to the equipment
+and all support equipment related to the task.
+8. 2.1    When  the  supplier  does  not  provide  the  support
+equipment,  a  generic  graphical-reference  placeholder
+for  the  equipment  should  be  used.    Generic  LOTO
+procedures  should  also  be  included  where  the  supplier
+maintenance    procedures    require    isolation    of    that
+equipment.
+NOTE 13: A graphical reference placeholder can be provided
+by any method that allows space for the user to identify user-
+installed  support  equipment  and  its  associated  LOTO  EIDS
+(e.g.,  a  blank  outlined  space,  a  blank  underlined  space,  a
+numbered line with space for inserting text).
+8. 3    The  size  of  the  LOTO  EID  identifiers  on  the
+graphical  representation  of  the  equipment  should  be
+large enough to indicate the EID in question, but not so
+large as to confuse location of the device in relation and
+orientation to the rest of the equipment.
+8. 4    Each  of  the  LOTO  EID  physical  locations  on  the
+equipment    should    be    identified    on    a    graphical
+representation  of  the  equipment  with  an  image  similar
+in shape and text to the marking on the equipment.
+8. 5    LOTO  EIDs  that  are  not  provided  by  the  supplier
+but are necessary to complete the associated task safely,
+as   defined   by   the   supplier,   should   be   graphically
+identified    as    a    generic    external    device    in    the
+procedures.  The procedure should mention that the end
+user provides these devices.
+8. 6  For each specific task, the graphical representation
+should  illustrate  at  least  the  portion(s)  of  equipment
+involved in the specific maintenance task.
+EXCEPTION:  Graphical  representation  need  not  be
+duplicated for each task, but may be referenced by more
+than one instruction.
+8. 6.1    The  representation  should  be  easily  capable  of
+being associated with the LOTO procedure for the task
+being completed or include the procedure text in written
+form at the bottom of the graphical representation.
+8. 6.2      Task   level   instructions   should   identify   those
+LOTO EIDs that are required for the specific task being
+completed     and     link     them     to     the     graphical
+representation.
+8. 7  Energy isolation instructions for equipment options
+or nonstandard procedures should be provided with the
+equipment  option  or  nonstandard  process  change  as
+purchased from the supplier.
+NOTE 14: Nonstandard  procedures  include  customer  specific
+tasks such as chamber cleaning for unique chemistries, use of
+special  lifting  devices  for  single  customers,  and  other  tasks
+that  are  not  part  of  the  standard  procedures  for  the  normal
+supplier-delivered configuration.
+8. 7.1    The  graphical  representations  should  capture  the
+option’s LOTO EID in the representation for the overall
+task it affects (e.g., if a UPS is offered as an option, the
+LOTO   procedures   for   the   UPS   option   should   be
+provided  and  the  UPS  LOTO  EID  included  in  the
+graphical representation).
+9  Graphical Reference Guides for use at the
+Equipment
+NOTE 15: Graphical reference guides are intended to make it
+easy  for  personnel  to  locate  and  isolate  sources  of  hazardous
+energy associated with the tasks they are performing.
+9. 1    Graphical  reference  guides  should  be  provided  for
+each task where LOTO is used.  LOTO EIDs should be
+graphically    identified    on    these    reference    guides.
+Instructions  for  controlling  each  source  of  energy  as
+outlined in Section 6.1.2 should also be provided on the
+reference  guides.    The  reference  guides  should  be  task
+specific.
+NOTE 16: See Related Information 1 for example.
+EXCEPTION:  A  single  graphical  reference  guide  may
+be  used  for  more  than  one  task,  provided  it  can  be
+easily  determined  from  the  text  instructions,  which
+LOTO EIDs are used for each task.
+9. 2    It  is  recommended  that  the  graphical  reference
+guides  include  a  color  representation  of  the  overall
+equipment,    as    well    as    individual    task-specific
+representations,   as   they   would   be   found   in   the
+maintenance manual.
+EXCEPTION:  If manuals are printed only in black and
+white,  the  color  representation  may  be  specified  as
+“printed by the user” from the electronic copy.
+9. 3    If  the  supplier  has  no  standard  for  coloring  the
+indicators  of  the  LOTO  EID  locations  on  graphical
+representations, they should be colored according to the
+type    of    energy    being    isolated.        See    Table    1,
+“Recommended Identifying Color Matrix”.
+
+
+SEMI S20-0303 © SEMI 2003 5
+NOTE 17: Supplier  standard  color  coding  may  be  any  colors
+including black and white.
+Table 1  Recommended Identifying Color Matrix
+Type of Energy Text/Background
+Electrical                              Black/Orange
+Compressed Gases  White/Blue
+Pressurized Liquids White/Green
+Chemical                              Black/Yellow
+Mechanical                              White/Black
+Thermal                                  Red/White
+Ionizing Radiation Purple/Yellow
+Non-Ionizing Radiation (Laser,
+RF, UV, IR, etc.)
+Black/Red
+
+NOTE   18:   Recommended   color   shades   may   be   found   in
+standards such as ANSI Z535.1, Colors for Safety Labels ISO
+3864  Safety  Colours  &  Safety  Signs  or  other  international
+equivalent for uniformity.
+9. 3.1    Colors  (whether  from  the  recommended  list  or
+from  the  suppliers’  standard  color  coding)  should  be
+assigned   depending   on   the   type   of   energy   being
+isolated, not the hazard being controlled.  For example,
+a  circuit  breaker  that  removes  power  from  a  robot
+should   have   a   unique   identifier   on   the   graphical
+representation      color-coded      as      Electrical,      not
+Mechanical energy.
+9. 4  Graphical    reference    guides    should    be    either
+electronic  media  or  made  from  clean  room  compatible
+materials that can be located at the equipment or can be
+carried there during the performance of the tasks.
+9. 4.1    The  supplier  may  offer  optional  media  as  part  of
+the purchase.
+NOTE 19: Certain     types     of electronic     devices     (e.g.,
+broadcasting handheld computers) may be restricted from use
+in clean rooms due to system interference issues.
+9. 4.1.1      If   the   reference   guide   is   intended   to   be
+displayed  electronically,  the  display  device  should  be
+conveniently available to personnel while they perform
+the particular task.
+9. 4.1.2    The  supplier  may  also  specify  that  users  have
+the   option   to   convert   the   guides   to   clean   room
+compatible, color printed versions.
+9. 5  Each graphical reference guide should be designed
+so  that  it  is  clearly  cross-referenced  with  its  related
+maintenance task(s).
+9. 5.1    Text  instructions  for  operating  and  verifying  the
+isolation of each LOTO EID should be in the same field
+of  view  as  the  graphical  representation  of  that  LOTO
+EID on the graphical reference guide.
+EXCEPTION:  In an electronic file, the field of view is
+controlled   by   the   screen   size   and   therefore   text
+instructions  and  graphics  may  not  be  in  the  same  field
+of view or may even be connected via hyperlink to each
+other.
+NOTE   20:   One   possible   design   is   where   the   graphical
+reference guides each consists of a card or page (perhaps in a
+bound collection of reference guides) that can be placed near
+the  computer  or  manual  and  show  the  steps  of  the  task.
+Another possibility is to provide the ability to produce a split
+screen display on a computer.
+10  Related Documents
+10. 1  SEMI Standards
+SEMI F34  Guide for Liquid Chemical Pipe Labeling
+10. 2  NFPA Standards
+4
+
+NFPA    70E        Standard    for    Electrical    Safety
+Requirements for Employee Workplaces
+NFPA    79        Electrical    Standard    for    Industrial
+Machinery
+10. 3  ANSI Standards
+5
+
+ANSI Z244.1  Personnel Protection, Lockout/Tagout
+of Energy Sources – Minimum Safety Requirements
+10. 4  United States Code of Federal Regulations
+6
+
+29  CFR  1910.333b    Working  on  or  Near  Exposed
+De-energized Parts
+OSHA STD 1-7.3 — 29 CFR 1910.147, the Control of
+Hazardous    Energy    (Lockout/Tagout)    -    Inspection
+Procedures and Interpretive Guidance
+OSHA document 3120 — Control of Hazardous Energy
+(Lockout/Tagout) - 1997 (Revised)
+NOTICE: Unless otherwise indicated, all documents
+cited shall be the latest published versions.
+
+
+4 National Fire Protection Association, 1 Batterymarch Park, PO Box
+9101, Quincy, MA 02269-9101
+5 American National Standards Institute, New York Office: 11 West
+42nd Street, New York, NY 10036, USA. Telephone: 212.642.4900;
+Fax: 212.398.0023 Website: www.ansi.org
+6 Available from Occupational Safety and Health Administration,
+U.S. Department of Labor, http://www.osha.gov
+
+
+SEMI S20-0303 © SEMI 2003 6
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standard set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature  respecting  any  materials  or  equipment  mentioned  herein.    These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  SEMI  takes  no  position  respecting  the  validity  of  any  patent  rights  or  copyrights
+asserted in connection with any item mentioned in this standard.  Users of this standard are expressly advised that
+determination of any such patent rights or copyrights, and the risk of infringement of such rights, are entirely their
+own responsibility.
+
+
+
+SEMI S20-0303 © SEMI 2003 7
+RELATED INFORMATION 1
+EXAMPLES OF GRAPHICAL REPRESENTATIONS
+NOTICE:  This Related Information is not an official part of SEMI S20.  It was derived from AMD activity, but is
+generic and not copyrighted.  This related information was approved for publication by inclusion in the ballot and by
+vote of the SEMI Standards EHS Committee.  It is included to assist the user of the document in understanding what
+the graphical representations should provide in the way of information and location identification.
+R1-1 Drawings
+
+
+
+
+SEMI S20-0303 © SEMI 2003 8
+RELATED INFORMATION 2
+EXAMPLE FLOW FOR HAZARDOUS ENERGY CONTROL DESIGN
+NOTICE:  This Related Information is not an official part of SEMI S20 but was derived from task force activity.
+This related information was approved for publication by inclusion in the ballot and by vote of the SEMI Standards
+EHS  Committee.    It  is  included  to  assist  the  user  of  the  document  in  understanding  what  the  graphical
+representations should provide in the way of information and location identification.
+
+Equipment Designer Specifies Which
+Lockout Devices are Necessary for
+Energy Control for Each Task
+
+
+Figure R2-1
+Flow Chart for HEC Design and Graphical Representation Generation
+
+
+SEMI S20-0303 © SEMI 2003 9
+RELATED INFORMATION 3
+EXAMPLE OF A LOTO EID DIFFERENTIATION MARKING
+NOTICE: This Related Information is not an official part of SEMI S20 and was derived from task force activity and
+individual task force participants.  This related information was approved for publication by inclusion in the ballot
+and  by  vote  of  the  SEMI  Standards  EHS  Committee.    It  is  included  to  assist  the  user  of  the  document  in
+understanding   what   the   graphical   representations   should   provide   in   the   way   of   information   and   location
+identification.
+R3-1     Differentiation     Marking
+R3-1.1   In addition to a unique identifier, it may be beneficial to differentiate LOTO EIDs from non-LOTO EIDs
+by  using  the  following  symbol.    This  symbol  may  be  on  or  adjacent  to,  or  combined  with  the  unique  identifier
+marking for that specific LOTO EID.
+
+
+R3-1.2   SEMI S8 provides guidance for sizing of this differentiation symbol so it will be readable from the normal
+viewpoint of a person’s access to the LOTO EID.
+R3-1.3    Where  LOTO  EIDs  are  located  behind  a  panel,  it  is  useful  to  mark  the  exterior  of  the  panel  in  order  to
+indicate the path of access to the LOTO EID or approximately where the EID is hidden.
+
+
+NOTICE:  SEMI  makes  no  warranties  or  representations  as  to  the  suitability  of  the  guidelines  set  forth  herein  for
+any  particular  application.    The  determination  of  the  suitability  of  the  guideline  is  solely  the  responsibility  of  the
+user.  Users are cautioned to refer to supplier’s instructions, product labels, product data sheets, and other relevant
+literature respecting any materials mentioned herein.  These guidelines are subject to change without notice.
+By  publication  of  this  standard,  SEMI  takes  no  position  respecting  the  validity  of  any  patent  rights  or  copyrights
+asserted in connection with any item mentioned in this standard.  Users of this standard are expressly advised that
+determination of any such patent rights or copyrights, and the risk of infringement of such rights, are entirely their
+own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.

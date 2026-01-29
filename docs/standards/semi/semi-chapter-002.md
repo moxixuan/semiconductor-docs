@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E2.4-93 © SEMI 1993, 2003 1 SEMI E2.4-93 (Withdrawn 1103) STANDARD FOR 125 mm QUARTZ AND HIGH TEMPERATURE WAFER CARRIERS This standard was technically reapproved by the Physical Interfaces & C..."
-sidebar_label: "Chapter 2"
+title: "E6-0303 - © SEMI 1982, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E6-0303 - © SEMI 1982, 2003..."
 sidebar_position: 20
-tags: ['SEMI', 'Standard', 'Chapter 2']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-002.pdf'
   chapter: 2
   page_count: 50
-  file_size_mb: 0.58
-  processing_date: '2026-01-28T09:17:22.235Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-002.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/002.pdf"
   pdfSize="0.58MB"
-  title="Chapter 2"
-  description="SEMI标准文档 - Chapter 2，共50页"
-/>
+  title="E6-0303 - © SEMI 1982, 2003..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

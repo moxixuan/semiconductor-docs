@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E47.1-0305 © SEMI 1997, 2005 16 6. 8  Human  Handles  —  All  handles  for  use  by  humans  must  either  be  contained  within  the  maximum  outer dimensions of the FOUP, be detached when n..."
-sidebar_label: "Chapter 7"
+title: "E48-1101 - © SEMI 1995, 20011..."
+description: "SEMI标准文档"
+sidebar_label: "E48-1101 - © SEMI 1995, 20011..."
 sidebar_position: 70
-tags: ['SEMI', 'Standard', 'Chapter 7']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-007.pdf'
   chapter: 7
   page_count: 50
-  file_size_mb: 0.65
-  processing_date: '2026-01-28T09:17:27.277Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-007.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/007.pdf"
   pdfSize="0.65MB"
-  title="Chapter 7"
-  description="SEMI标准文档 - Chapter 7，共50页"
-/>
+  title="E48-1101 - © SEMI 1995, 20011..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

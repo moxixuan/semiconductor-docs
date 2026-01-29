@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E52-0703 © SEMI 1995, 2003 37 MIXED GAS NAME SYMBOL CODE 134A)/44%PENTAFLUOROETHANE (FREON-125)/ ETHANE,1,1,1- TRIFLUORO-(HFC-143a) 30%PROPANE/BUTANE  30%C3H8/C4H10 0885 .01%PHOSPHINE/ARGON  ...."
-sidebar_label: "Chapter 9"
+title: "E52-0703 - © SEMI 1995, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E52-0703 - © SEMI 1995, 2003..."
 sidebar_position: 90
-tags: ['SEMI', 'Standard', 'Chapter 9']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-009.pdf'
   chapter: 9
   page_count: 50
-  file_size_mb: 0.66
-  processing_date: '2026-01-28T09:17:29.124Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-009.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/009.pdf"
   pdfSize="0.66MB"
-  title="Chapter 9"
-  description="SEMI标准文档 - Chapter 9，共50页"
-/>
+  title="E52-0703 - © SEMI 1995, 2003..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

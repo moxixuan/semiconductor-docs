@@ -1,0 +1,3589 @@
+---
+title: "SEMI Standards - Chapter 030"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 030"
+sidebar_position: 300
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-030.pdf'
+  chapter: 30
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/030.pdf"
+  pdfSize="0.37MB"
+  title="SEMI Standards - Chapter 030"
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI 30.1-0200 © SEMI 1998, 200026
+12. 4.3      Modifying     Process     Program     V ariable
+Parameters —  The  remote  commands  of  PP-SELECT,
+PP-ASSIGN,  or  PP-UPDATE  are  used  to  modify  any
+of  the  identified  process  program  variable  parameters
+within  the  process  program.  The  modification  is  done
+by   including   CPNAME/CPVAL   pairs   within   the
+“PROCESS-BLD-GROUP”,   which   is   part   of   the
+remote  commands  of  PP-SELECT  or  PP-ASSIGN,  or
+by  including  a  different  list  name  in  the  PP-UPDATE
+remote  command.  A  CPNAME  in  a  process  program
+shall   be   identical   to   the   process   program   variable
+parameter  name  as  specified  in  the  “PROCESS-BLD-
+GROUP”.   See   next   section   for   details   of   these
+parameters.
+12. 5   Use  of  Process  Programs,  Rem ote  Commands,
+and   “PROCESS-BLD-GROUP”   —   This   is   a   brief
+description  of  the  steps  involved  in  using  the  process
+program    structure,    the    process    program    variable
+parameters, the TABLE-DEFs, and the modification of
+process program variable parameters through the use of
+“PROCESS-BLD-GROUP”   and   CPNAME/CEPVAL
+pairs in the enhanced remote command (S2,F49).
+• A process program is created with certain items in
+the  body  identified  as  process  program  variable
+parameters, along with their default values.
+• The host sends to equipment one or more TABLE-
+DEFs:     such     as     “TABLE-AREA-DEF”     and
+“TABLE-ALIGN-DEF”,  along  with  the  names  of
+those tables using Stream 13 commands (See SEMI
+E5).   These   tables   are   now   resident   on   the
+equipment.
+• The   host   sends   an   enhanced   remote   command
+(S2,F49)  to  the  equipment  (either  PP-SELECT  or
+PP-ASSIGN)  that  contains  the  information  needed
+for       processing       (“CARRIERBLD”).       The
+“CARRIERBLD”   contains   a   “PROCESS-BLD-
+GROUP”  for  each  different  set  of  run  parameters
+that  are  needed  during  the  inspection  or  review
+process.
+• “PROCESS-BLD-GROUP”     shall     contain     the
+ProcessBuildGroupID to identify which program is
+selected.
+• If  the  default  list  of  slots  in  the  process  program
+needs to be changed for this run, then “PROCESS-
+BLD-GROUP” contains a “MATERIALLIST” and
+the list of selected slots or substrates, designated by
+SlotIDs or SubstrateIDs.
+• If the default set of inspection areas in the process
+program  needs  to  be  changed  for  this  run,  then
+“PROCESS-BLD-GROUP” contains the name of a
+specific    “TABLE-AREA-DEF”    (in    AreaTable
+Name).  If  not  all  of  the  inspection  areas  given  in
+that “TABLE-AREA-DEF” are needed for this run,
+then “AREALIST” is used and includes a list of the
+names  of  the  specific  inspection  areas  which  are
+needed.   Those   names   refer   to   inspection   areas
+defined in the “TABLE-AREA-DEF”.
+• If  the  default  set  of  alignment  sites  in  the  process
+program  needs  to  be  changed  for  this  run,  then
+“PROCESS-BLD-GROUP” contains the name of a
+specific   “TABLE-ALIGN-DEF”   (in   AlignTable
+Name).  If  not  all  of  the  alignment  sites  given  in
+that  “TABLE-ALIGN-DEF”  are  needed  for  this
+run, then “ALIGNLIST” is used and includes a list
+of  the  names  of  the  specific  alignment  sites  which
+are  needed.  Those  names  refer  to  alignment  sites
+defined in the “TABLE-ALIGN-DEF”.
+• If  the  SEMI  M21  coordinate  system  is  being  used
+and a pattern has been defined with pattern element
+names and if only certain of those elements need to
+be  inspected  for  this  run,  then  “PROCESS-BLD-
+GROUP”  contains  an  “ELEMENTLIST”  and  the
+list     of     selected     elements,     designated     by
+ElementIDs.
+• If   certain   equipment-specific   process   program
+variable  parameters  need  to  have  different  values
+for   this   run,   then   for   each   needed   parameter,
+“PROCESS-BLD-GROUP”  contains  a  CPNAME
+(unique   name   of   a   specific   process   program
+variable  parameter)  and  the  new  CEPVAL  (new
+value for that parameter).
+• The  equipment  executes  the  process  program  with
+the new values.
+• If  indicated  in  the  process  program,  the  equipment
+generates the list of anomalies found and sends it to
+the  host  in  the  format  of  a  “TABLE-ANOMALY-
+DEF”  using  the  ISEM  table  definition  and  Stream
+13  transfer  messages  (see  SEMI  E5  for  format
+specification).
+• The  host  would  send  the  “TABLE-ANOMALY-
+DEF” to a review equipment. The host might need
+to modify part of the table if required by the review
+equipment.  This  anomaly  table  is  now  resident  on
+the  review  equipment.  (NOTE:  The  host  might
+choose to not send all of the table of anomalies, but
+rather a desired selection of them.)
+• The host sends the equipment the enhanced remote
+command    (PP-SELECT    or    PP-ASSIGN)    that
+contains           a           “CARRIERBLD”.           The
+“CARRIERBLD”      has      a      “PROCESS-BLD-
+GROUP”  for  each  different  set  of  run  parameters
+that  is  needed  by  the  review  equipment.  It  is
+required  for  the  host  to  use  the  Enhanced  Remote
+Command  S2,F49  for  transferring  the  information
+
+SEMI 30.1-0200 © SEMI 1998, 200027
+to    the    equipment.    “PROCESS-BLD-GROUP”
+includes    the    name    of    a    specific    “TABLE-
+ANOMALY-DEF”         in         the         parameter
+AnomalyTableName.  If  not  all  of  the  anomalies
+given   in   that   “TABLE-ANOMALY-DEF”   are
+needed for this run, then either “ANOMALYLIST”
+or “M21-ANOMALYLIST” is used and includes a
+list  of  the  names  of  the  specific  anomalies  which
+are   desired.   Those   names   refer   to   anomalies
+defined in the named “TABLE-ANOMALY-DEF”.
+• The equipment runs the process program using the
+selected    values    and    reviewing    the    specific
+anomalies indicated.
+• The  equipment  adds  review  information  to  the
+ANOMALYATTRIBUTE   list.   Then   the   review
+equipment     sends     this     modified     “TABLE-
+ANOMALY-DEF” to the host.
+13  Remote Commands
+The   purpose   of   this   section   is   to   identify   remote
+commands, command parameters, and valid commands
+versus states pertinent to the SEM.
+13. 1  Requirements
+• The   equipment   shall   support   the   SEMI   E30
+required remote commands.
+• All  the  remote  commands  defined  by  ISEM  are
+required  unless  they  have  been  qualified  by  the
+statement    “if    the    equipment    supports    this
+functionality,  it  shall  use  this  command.”  In  this
+case,   they   are   only   required   if   the   equipment
+supports  the  functionality  necessary  to  support  the
+command.  A  good  example  of  this  is  the  MAP-
+CARRIER  command.  If  the  equipment  does  not
+have  the  hardware  necessary  to  scan  a  carrier  for
+the   presence   of   substrates   in   slots,   then   the
+command is not required by the ISEM.
+• The  alphanumeric  strings  defined  by  ISEM  for
+RCMD and CPNAME are required.
+Host  Command  Parameter  (CPNAME/CPVAL)  —  A
+parameter  name/value  associated  with  a  particular  host
+command  when  using  stream  function  (S2,F41)  and  a
+(CPNAME/CEPVAL)    parameter    name/value    when
+using  the  enhanced  remote  command  (S2,F49).  This
+document  specifies  unique  names  (CPNAMEs)  and
+values  (CPVALs  and  CEPVALs)  for  many  command
+parameters.   Note   that   if   there   are   no   associated
+parameters, a zero length list is sent.
+The  purpose  of  the  remote  commands  is  to  allow  host
+control over the following capabilities:
+• Start processing
+• Stop processing
+• Temporarily suspend processing
+• Resume processing
+• Abort processing
+• Select  process  programs,  material,  and/or  sites  to
+measure
+• Report location of material found
+The  following  remote  commands  (RCMDs)  shall  be
+supported as described below:
+NOTE  3:  The  terms  “current  cycle”  and  “safe  point”  used
+below are to be defined by the supplier.
+13. 2  Remote Commands Descriptio n
+1. ABORT  —  Terminate  the  current  cycle  prior  to  its
+completion. ABORT has the intent of immediately
+stopping   the   process   and   is   used   because   of
+abnormal  conditions.  ABORT  makes  no  guarantee
+about  the  subsequent  condition  of  material  except
+as noted in the “ABORTLEVEL” description.
+2. CLEANUP  —  De-selection  of  the  current  ISEM
+job    (“CARRIERBLD”)    and    process    program
+(“PROCESS-BLD-GROUP”),       including       the
+removal of all material to output locations and any
+equipment-specific  activities  needed  to  transition
+into  the  IDLE  state.  Completion  of  this  command
+should  generate  a  collection  event  report.  If  the
+equipment  supports  this  functionality,  it  will  use
+this command.
+3. MAP-CARRIER   —   Requests   the   equipment   to
+provide  a  list  of  carrier  slots  that  contain  material.
+MAP-CARRIER  has  the  intent  of  providing  the
+host  with  enough  information  about  the  location
+and/or  ID  of  material  so  it  may  select  material  for
+processing    accordingly.    Completion    of    this
+command  shall  generate  a  collection  event  report.
+If the equipment supports this functionality, it must
+use this command.
+4. NEXT-MATERIAL  —  Processing  of  the  current
+substrate   is   halted   at   the   first   safe   point   and
+unloaded  to  the  target  carrier  location.  NEXT-
+MATERIAL  has  the  intent  of  allowing  the  host  to
+skip measurement of the current substrate. This is a
+trigger    for    processing    state    transition    from
+WORKING    to    UNLOAD.    If    the    equipment
+supports    this    functionality,    it    will    use    this
+command.
+5. PAUSE  —  Suspend  processing  temporarily  at  the
+next  safe  point.  PAUSE  has  the  intent  of  resuming
+the process at the same point where it was paused.
+
+SEMI 30.1-0200 © SEMI 1998, 200028
+RESUME or PP-UPDATE may be used to resume
+the process.
+6. PP-ASSIGN    —    Instructs    the    equipment    that
+supports   queuing   to   create   a   new   ISEM   job
+(“CARRIERBLD”)     for     the     specified     port
+(“LOCATIONID”)  when  more  than  one  port  is
+available   for   processing.   If   only   one   port   is
+available,    “LOCATIONID”    is    not    required.
+Priority   may   optionally   be   specified   with   this
+command.  The  “PRIORITY”  specifies  the  priority
+of the newly created job in the ISEM job queue (a
+value of 0 (zero) assigns the highest priority to the
+job).   Without   specifying   a   priority,   the   job   is
+queued  with  the  default  priority.  Jobs  with  equal
+priority  are  queued  in  the  order  the  PP-ASSIGN
+commands  are  received.  This  command  is  valid  in
+all PROCESSING states.
+7. PP-SELECT  —  Instructs  the  equipment  to  make
+the   requested   ISEM   job(s)   (“CARRIERBLD”)
+available in the execution area. This is a trigger for
+the   processing   state   transition   from   IDLE   to
+SETTING    UP.    The    first    process    program
+(“PROCESS-BLD-GROUP”)    specified    in    the
+“CARRIERBLD”     is     also     validated     during
+SETTING UP.
+8. PP-UNASSIGN    —    Removes    the    ISEM    job
+assignment   (“CARRIERBLD”)   for   a   carrier   or
+port.  The  carrier  or  port  is  removed  from  the
+process queue.
+9. PP-UPDATE  —  Provides  the  ability  to  alter  the
+current process program being executed during the
+PAUSED   state.   The   process   program   variables
+specified   in   the   PP-UPDATE   command   will
+replace  previous  definitions  in  the  “PROCESS-
+BLD-GROUP”.    This    command    will    trigger
+transition   to   CHECKING   for   process   program
+parameter  verification.  A  RESUME  command  is
+implied with the validation of “all” replaced values
+to resume the process. If the PP-UPDATE fails, the
+process  program  variables  present  prior  to  the  PP-
+UPDATE are retained. If no parameters values are
+specified, the defaults are used.
+10. RESUME  —  Resume  processing  from  the  point
+where  the  process  was  paused.  This  is  the  trigger
+for   processing   state   transition   from   PROCESS
+PAUSE to the previous PROCESS state.
+11. START   —   Instructs   the   equipment   to   initiate
+processing.  This  is  the  trigger  for  the  processing
+state   transition   from   READY   to   LOAD.   An
+“AUTOSTART”   command   parameter   may   be
+included to allow for continuous processing.
+12. STOP — Complete the current cycle, stop in a safe
+condition, and return to the IDLE processing state.
+Stop has the intent of stopping the process entirely.
+This command can be used to both: stop the current
+ISEM   job   or   to   stop   all   queued   jobs.   The
+equipment    is    not    required    to    support    the
+continuation of processing.
+13. 2.1 Remote    Commands    and    Associ ated    Host
+Command   Parameters   —   This   table   describes   the
+allowable  command  parameters  (CPNAME)  for  each
+remote command (RCMD). Equipment shall support all
+parameters.   The   column   marked   Req/Opt   specifies
+which  parameters  are  required  to  be  sent  by  the  host
+and  which  parameters  may  be  optionally  sent  by  the
+host.
+Table 8  Allowable Command Parameters
+Parameters
+Remote Command
+CPNameReq/OptComments
+ABORT“ABORTLEVEL”R
+CLEANUP“CARRIERID”
+“LOCATIONID”
+“SLOTID”
+O
+O
+O
+PORT and SLOT may be used to define a
+different carrier/slot destination for the
+substrates.
+MAP-CARRIER“CARRIERID”
+“LOCATIONID”
+R*
+R*
+* One is required.
+NEXT-MATERIAL“CARRIERID”
+“LOCATIONID”
+“SLOTID”
+O
+O
+O
+PORT and SLOT may be used to define a
+different carrier/slot destination for the
+substrates.
+PAUSENoneNANone
+PP-ASSIGN“PRIORITY”
+“CARRIERBLD”*
+O
+R
+* More than one “CARRIERBLD” may be
+specified.
+PP-SELECT“CARRIERBLD”*R* More than one “CARRIERBLD” may be
+specified.
+PP-UNASSIGN“CARRIERBLD”RNone
+
+SEMI 30.1-0200 © SEMI 1998, 200029
+PP-UPDATE“PPBUILDID”
+“ALIGNLIST”
+“ANOMALYLIST”
+“AREALIST”
+“ELEMENTLIST”
+“SLOTLIST”
+“SUBSTRATELIST”
+“TABLE-ALIGN-DEF”
+“TABLE-AREA-DEF”
+“TABLE-ANOMALY-DEF”
+“TABLE-M21-ANOMALY-DEF”
+R
+R*
+R*
+R*
+R*
+R*
+R*
+R*
+R*
+R*
+R*
+* At least one is required.
+RESUMENoneN/ANone
+START“CARRIERBLD”0None
+STOP“CARRIERBLD”0None
+13. 2.2  Host Command Parameter Na mes and Values
+Table 9  Host Command Parameters CPNAMES
+Parameter Value
+CPName
+DescriptionRangeFormat
+“ABORTLEVEL”ISEM-defined abort levels:
+HALT — Process halts, and the ABORTING process state is
+entered.
+CLEANUP — Process halts, material cleanup is performed, and
+the ABORTING process state is entered.
+“1= HALT”
+“2 = CLEANUP”
+U2
+“ALIGNLIST”L,n
+
+# 1
+
+1. AlignName
+1
+:
+n.
+For the SEMI M20 or M20P coordinate system.
+List of
+A[1..16]
+data items
+“ALIGNNAME”Alignment name
+See the “TABLE-ALIGN-DEF” definition for further explanation.
+A[1..16]
+“ANOMALYLIST”L,n
+1. AnomalyID
+1
+:
+n.
+For the SEMI M20 or M20P coordinate system.
+List of
+A[1..16]
+data items
+“ANOMALYID”Anomaly identifier
+See the “TABLE-ANOMALY-DEF” or the “TABLE-M21-
+ANOMALY-DEF” definition for further explanation.
+A[1..16]
+“AREALIST”L,n
+1. AreaName
+1
+:
+n.
+List of
+A[1..16]
+data items
+“AREANAME”Unique identifier for an area to be inspected.
+See the “TABLE-AREA-DEF” definition for further explanation.
+A[1..16]
+“AUTOSTART”Specifies whether a START command is required from an external
+source (operator or host) to exit the READY state.
+0 = NoAutoStart (A START command required.)
+1 = AutoStart  (No external START command required to
+begin execution.)
+0–1U2
+“CARRIERID”Identifier of the carrier that the inspection/review data is
+associated with.
+A[1..16]
+
+SEMI 30.1-0200 © SEMI 1998, 200030
+Parameter Value
+CPName
+DescriptionRangeFormat
+“ELEMENTLIST”L,n
+1. ElementID
+1
+:
+n.
+For the SEMI M21 coordinate system.
+List of
+A[1..16]
+data items
+“LOCATIONID”Unique identifier of the location to be used for the
+“CARRIERBLD” assignment.
+U2
+“PPBUILDID”ProcessProgramBuildIDA[1..80]
+“PPNAME”ProcessProgramNameA[1..80]
+“PRIORITY”Assignment priority0–9
+Highest priority
+corresponds to 0.
+U2
+“SLOTLIST”Specifies carrier slots containing substrate for the ISEM job.
+L,n
+1. SlotID
+1
+:
+n. SlotIDn
+Zero length list specifies
+all slots.
+List of U2
+data items
+“STOPLEVEL”Stop levels defined by the ISEM.“1 = LOCATIONID”
+“2 = CARRIERID”
+Use
+defined
+CPVALs
+“SUBSTRATELIST”Specifies identifiers of substrate for the ISEM job.
+L,n
+1. SubstrateID
+1
+:
+n. SubstrateID
+n
+Zero length list specifies
+all substrate
+(independent of substrate
+identifier).
+List of
+A[0..16]
+data items
+“CARRIERBLD”
+E5 Format
+L, 3Three ISEM required parameters
+1. L, 2  
+1. “CARRIERID”A[9]  -- CPName
+
+# 2
+
+2. CarrierIDA[1..16]  -- CPValue
+2. L, 2  
+1. “LOCATIONID”A[10]  -- CPName
+2. LocationID U2  -- CPValue
+
+# 3
+
+3. L, 2
+1. “PROCESS-BLD-LIST”
+2. L, n  List of n jobs
+1. L, 2
+1. “PROCESS-BLD-GROUP”
+2. L, mFirst ISEM job
+2. L, 2
+1. “PROCESS-BLD-GROUP”
+2. L, mNext ISEM job
+.
+.
+.
+n. L, 2
+1. “PROCESS-BLD-GROUP”
+2. L, mLast ISEM job
+m = 3List
+“PROCESS-BLD-
+GROUP” (for
+Inspection)
+L,m
+1. L,2
+1. “PPBUILDID”
+2. ProcessBuildGroupID
+m ≥ 2
+List of m
+data items
+
+SEMI 30.1-0200 © SEMI 1998, 200031
+Parameter Value
+CPName
+DescriptionRangeFormat
+2. L,2
+1. “PPNAME”
+2. ProcessProgramID
+3. L,2
+1. “SLOTLIST”
+2. L,n
+1. SlotID
+1
+:
+n.
+Or
+1. “SUBSTRATELIST”
+2. L,n
+1. SubstrateID
+1
+:
+n.
+
+# 4
+
+4. L,2
+1. “AUTOSTART”
+2. AutoStart
+
+# 5
+
+5. L,2
+1. “TABLE-AREA-DEF”
+2. AreaTableName
+
+# 6
+
+6. L,2
+1. “AREANAME”
+2. L,n
+1. AreaName
+1
+:
+n.
+
+# 7
+
+7. L,2
+1. “TABLE-ALIGN-DEF”
+2. AlignTableName
+
+# 8
+
+8. L,2
+1. “ALIGNNAME”
+2. L,n
+1. AlignName
+1
+:
+n.
+
+# 9
+
+9. L,2
+1. “ELEMENTLIST” **
+2. L,n
+1. ElementID
+1
+:
+n.
+
+# 10
+
+10. L,2
+1. CPNAME*
+2. CEPVAL*
+m. L,2
+1. CPNAME*
+2. CEPVAL*
+NOTES: “PPBUILDID” and “PPNAME” are required.
+“SLOTLIST”, “SUBSTRATELIST”, “AREALIST”, and
+“ALIGNLIST” are optional.
+* Supplier shall define as many of these CPNAME, CEPVAL
+
+SEMI 30.1-0200 © SEMI 1998, 200032
+Parameter Value
+CPName
+DescriptionRangeFormat
+pairs as are supported by the equipment.
+** “ELEMENTLIST” is required when using the SEMI M21
+coordinate system in the definition of an AlignName or
+AreaName.
+“PROCESS-BLD-
+GROUP” (for Review
+Equipment)
+L,m
+1. L,2
+1. “PPBUILDID”
+2. ProcessBuildGroupID
+2. L,2
+1. “PPNAME”
+2. ProcessProgramID
+3. L,2
+1. “SLOTLIST”
+2. L,n
+1. SlotID
+1
+:
+2. SlotID
+n
+Or
+1. “SUBSTRATELIST”
+2. L,n
+1. SubstrateID
+1
+:
+n. SubstrateID
+n
+4. L,2
+1. “AUTOSTART”
+2. AutoStart
+5. L,2
+1. “TABLE-ANOMALY-DEF”
+2. AnomalyTableName
+6. L,2
+1. “ANOMALYNAME” or
+“M21-ANOMALYNAME”
+2. L,n
+1. AnomalyID
+1
+or M21AnomalyID
+1
+:
+n.
+7. L,2
+1. “ALIGN-TABLE-DEF”
+2. AlignTableName
+8. L,2
+1. “ALIGNNAME”
+2. L,n
+1. AlignName
+1
+:
+n.
+9. L,2
+1. “ELEMENTLIST”**
+2. L,n
+1. ElementID
+1
+:
+n.
+10. L,2
+m ≥ 2
+List of m
+data items
+
+SEMI 30.1-0200 © SEMI 1998, 200033
+Parameter Value
+CPName
+DescriptionRangeFormat
+1. CPNAME*
+2. CEPVAL*
+m. L,2
+1. CPNAME*
+2. CEPVAL*
+NOTES: “PPBUILDID” and “PPNAME” are required.
+“SLOTLIST”, “SUBSTRATELIST”, “AREALIST”, and
+“ALIGNLIST” are optional.
+* Supplier shall define as many of these CPNAME, CEPVAL
+pairs as are supported by the equipment.
+** “ELEMENTLIST” is required when using the SEMI M21
+coordinate system in the definition of an AlignName or
+AreaName.
+NOTE 1:  Required ISEM parameters: “CARRIERID”, “LOCATIONID”, “PROCESS-BLD-GROUP”
+13. 2.3   Remote  Commands  vs.  Proces sing  States  —  The  following  table  indicates  states  where  the  remote
+commands are allowed. This is indicated with a “X” mark.
+Table 10  Remote Commands vs. Processing States
+COMMAND
+PROCESSING STATE
+STOP
+START
+RESUME
+PP-UPDATE
+PP-SELECT
+PAUSE
+NEXT-
+M
+ATERIAL
+MAP-
+CARRIER
+PP-ASSIGN
+CLEANUP
+ABORT
+P
+P-UNASSIG
+N
+IDLEXXXX
+ABORTEDXXX
+PROCESSING ACTIVE
+STOPPINGXX
+ABORTING
+PAUSE
+ALARM PAUSEDXXX
+PROCESS PAUSE
+PAUSINGXXX
+PAUSEDXXXXX
+CHECKINGXXX
+PROCESS
+SETTING UPXXXXXX
+READYXXXXXX
+EXECUTING
+LOADXXXX
+UNLOADXXXX
+WORKING
+INSPECTXXXXX
+ALIGNXXXXX
+REVIEWXXXXX
+
+SEMI 30.1-0200 © SEMI 1998, 200034
+14  Scenarios
+14. 1  Run Level Reporting Scenario  — This scenario only has expected events (i.e., no alarms or errors).
+COMMENT                   HOST      EQUIPMENT                               COMMENT
+The equipment is in the
+IDLE processing state and in
+The ONLINE REMOTE control
+state. The host has defined,
+linked, and enabled RUN level
+report for CEIDs 2, 3, and 5.
+Host sends a PP-SELECT    S2,F49-->
+command specifying a
+”CARRIERBLD”
+<--S2,F50         Command Acknowledge
+The equipment transitions
+from IDLE to SETTING UP, and
+material arrives at input
+port.
+<--S6,F11         SETTING UP -> READY (CEID 3)
+Event Report Acknowledge  S6,F12-->
+START                     S2,F41-->
+<--S2,F42         Host Command Acknowledge
+READY -> LOAD.
+[WHILE] Note End of Run
+LOAD -> WORKING
+WORKING -> UNLOAD
+UNLOAD -> LOAD
+[END WHILE]
+<--S6,F11         LOAD -> STOPPING (CEID 5)
+Event Report Acknowledge  S6,F12-->
+<--S6,F11         Run Processed Data Valid
+event.
+Event Report Acknowledge  S6,F12-->
+The equipment transitions
+from STOPPING to IDLE.
+
+SEMI 30.1-0200 © SEMI 1998, 200035
+14. 2  PP-UPDATE Remote Comman d Scenario — Host issues the PP-UPDATE remote command.
+COMMENT                   HOST      EQUIPMENT                               COMMENT
+START                     S2,F41-->
+<--S2,F42         Positive Acknowledge.
+<--S6,F11         READY -> LOAD
+Positive Acknowledge.     S6,F12-->
+[WHILE] Not End of Run
+1) LOAD -> WORKING
+2) WORKING -> UNLOAD
+3) UNLOAD -> LOAD
+[END WHILE]
+Sometime during the [WHILE]:
+PAUSE                     S2,F41-->
+<--S2,F42         Positive Acknowledge.
+<--S6,F11         Transition to PAUSING
+Positive Acknowledge.     S6,F12-->
+<--S6,F11         PAUSING -> PAUSED
+Positive Acknowledge.     S6,F12-->
+PP-UPDATE                 S2,F49-->
+<--S2,F50         Positive Acknowledge.
+<--S6,F11         PAUSED -> CHECKING
+Positive Acknowledge.     S6,F12-->
+<--S6,F11         CEID is posted.
+[IF] the updates are valid:
+Return to the previous
+process state through
+history.
+[ELSE]
+Return to the PAUSED state.
+The Process program remains
+unchanged.
+[ENDIF]
+Positive Acknowledge.     S6,F12-->
+
+SEMI 30.1-0200 © SEMI 1998, 200036
+14. 3  PP-SELECT Remote Comman d Scenario
+COMMENT                   HOST      EQUIPMENT                               COMMENT
+The equipment is in the IDLE
+processing state and in the
+ONLINE REMOTE control state.
+Host sends a TABLE-DEF    S13,F13-->
+to the equipment.(See Section 11.)
+<--S13,F14        Table Data Acknowledge
+Host sends more tables    S13,F13-->
+if needed.
+<--S13,F14        Table Data Acknowledge
+Host prepares the remote
+command to initiate an
+inspection run, including
+the “TABLE-AREA-DEF”,
+”TABLE-ALIGN-DEF”, and
+”ELEMENTLIST”, if required.
+Host sends a PP-SELECT    S2,F49-->
+command specifying a
+”CARRIERBLD”.
+<--S2,F50         Command Acknowledge
+The equipment transitions
+from IDLE to SETTING UP to
+READY.
+START                     S2,F41-->
+<--S2,F42         Host Command Acknowledge
+READY -> LOAD.
+[WHILE] Not End of Run
+LOAD -> WORKING
+WORKING -> UNLOAD
+UNLOAD -> LOAD
+[END WHILE]
+LOAD -> STOPPING
+<--S13,F13        Equipment sends anomaly table
+with additional data,
+including the table name
+using Table Data Send
+command.
+Table Data Acknowledge    S13,F14-->
+The equipment transitions
+from STOPPING to IDLE.
+
+SEMI 30.1-0200 © SEMI 1998, 200037
+14. 4  Event Report and ISEM Table  Transfer Command Scenario
+COMMENT                   HOST      EQUIPMENT                               COMMENT
+The equipment is in the IDLE
+processing state and in the
+ONLINE REMOTE control state.
+Host defines report       S2,F33-->
+with AnomalyTableName
+and AnomalyTableType
+<--S2,F34         Define Report Acknowledge
+Link report to            S2,F35-->
+RunDataComplete event
+<--S2,F36         Link Event Report Acknowledge
+Enable event              S2,F37-->
+<--S2,F38         Enable Event Acknowledge
+Host sends an ISEM        S13,F13-->
+table to the equipment.
+<--S13,F14        Table Data Acknowledge
+Host sends more tables    S13,F13-->
+if needed.
+<--S13,F14        Table Data Acknowledge
+Host sends a PP-SELECT    S2,F49-->
+command specifying a
+”CARRIERBLD”                        <--S2,F50         Remote Command Acknowledge
+The equipment transitions
+from IDLE -> SETTING UP ->
+READY.
+START                     S2,F41-->
+<--S2,F42         Host Command Acknowledge
+READY -> LOAD.
+[WHILE] Not End of Run
+LOAD -> WORKING
+WORKING -> UNLOAD
+UNLOAD -> LOAD
+[END WHILE]
+LOAD -> STOPPING
+STOPPING -> IDLE
+<--S6,F11         RunDataComplete event with
+AnomalyTableName and
+AnomalyTableType.
+Event Report Acknowledge  S6,F12-->
+Host sends Table          S13,F15-->
+DataRequest
+<--S13,F16        Equipment sends requested
+table TBLACK=0ifno
+errors.
+
+SEMI 30.1-0200 © SEMI 1998, 200038
+15  GEM Capabilities
+The purpose of this section is to specify any SEMI E30
+additional capabilities that are required to be supported
+by this class of equipment.
+15. 1  Requirements
+15. 1.1    This   standard   requires   that   the    SEMI   E30
+fundamental  requirements  and  additional  capabilities
+have  been  implemented  on  the  ISEM  equipment  with
+the  exception  of  limits  monitoring  and  trace  reporting.
+If  these  capabilities  are  implemented,  they  shall  be
+implemented  as  required  by  the  SEMI  E30  document.
+The    following    SEMI    E30    additional    capabilities
+required by ISEM are:
+• Dynamic Event Report Configuration
+• Variable Data Collection
+• Status Data Collection
+• Alarm Management
+• Remote Control
+• Equipment Constants
+• Process Program Management
+• Spooling
+• Trace Data Collection (optional)
+• Control (Host-Initiated)
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+SEMI 30.1-0200 © SEMI 1998, 200039
+RELATED INFORMATION 1
+NOTE:  This  related  information  is  not  an  official  part  of
+SEMI  E30.1  and  was  approved  for  publication  by  full  letter
+ballot procedures on September 3, 1999.
+R1-1  Defect Classification Code Management
+The  purpose  of  this  section  is  to  provide  a  method  and
+specific  formats  to  define,  identify,  and  communicate
+coordinate  systems  and  site  locations  on  substrates  for
+alignment sites, anomaly locations, and other sites used
+by the ISEM equipment.
+R1-1.1    Classification  Codes  and  Defect  Classification
+— One   function   of   review   equipment   is   to   view
+previously   identified   anomalies   and   to   associate   a
+defect   classification   code   with   each   anomaly.   A
+classification  code  is  an  identifier  for  a  classification
+description.
+Typically,  the  review  equipment  has  a  set  of  defect
+classification  codes  and  their  descriptions  available  to
+the  operator.  Then,  for  each  anomaly,  the  operator
+selects  a  particular  code  to  be  associated  with  that
+anomaly. This action is defect classification.
+The    set    of    valid    classification    codes    and    their
+descriptions  may  change  from  one  run  to  another.  For
+example, the same main process program could be used
+with different substrate levels, and each level may use a
+different set of classification codes. The purpose of this
+section is to provide the requirements so that a user can
+both define several sets of classification codes and their
+descriptions  and  can  also  manage  these  sets  on  ISEM
+equipment.
+R1-1.2  Requirements
+• Each    set    of    classification    codes    and    their
+descriptions  shall  have  an  identifier,  known  as  a
+classification code set ID.
+• Review  equipment  shall  provide  a  means  for  the
+user   (the   host   or   the   operator)   to   define   a
+classification   code   set,   consisting   of   (a)   the
+classification   code   set   ID   and   (b)   the   list   of
+classification codes and their descriptions.
+• Equipment  shall  provide  a  means  to  manage  the
+various classification code sets.
+• A  main  process  program  shall  include  a  process
+program   variable   that   specifies   the   particular
+classification code set ID to be used.
+• Equipment  vendor  shall  provide  documentation  to
+the   user   regarding   how   to   define   and   manage
+classification code sets.
+Comment:   In   one   implementation,   the   equipment
+considers  a  classification  code  set  to  be  a  sub-process
+program or an ISEM table. This would allow the user to
+identify  a  classification  code  set  by  name  (using  a
+PPID)  or  a  table  name  and  thereby  managing  this  sub-
+process  program  with  the  SEMI  E30  Process  Program
+Capability or with SEMI E58 ARAMS tables.
+R1-2  Reporting Coordinates and Coordinate
+Systems
+The  purpose  of  this  section  is  to  provide  a  method  and
+specific  formats  to  define,  identify,  and  communicate
+coordinate  systems  and  site  locations  on  substrates  for
+alignment sites, anomaly locations, and other sites used
+by ISEM equipment.
+The  ISEM-required  formats  are  intended  to  minimize
+the    number    and    type    of    site    location    format
+transformations   needing   to   be   supported   by   both
+equipment suppliers and users.
+All ISEM-required site location formats involve the use
+of  an  ISEM-defined  right-handed  Cartesian  coordinate
+system,  established  on  substrates  in  an  ISEM-defined
+manner.  The  scope  of  the  detailed  methods  in  this
+section are specific to unpatterned and patterned wafers
+in this release, but the section is intended to be general
+enough  in  methodology  so  that  it  can  be  extended  to
+other  substrate  types  in  future  revisions  of  ISEM,  if
+required.
+The  purpose  of  inspection  and  review  equipment  is  to
+locate,   evaluate,   classify,   and   report   anomalies   on
+substrates.   ISEM   equipment   may   deal   with   either
+unpatterned  or  patterned  substrates  or  both.  In  most
+cases,  the  anomaly  location  is  part  of  the  information
+reported and/or used by ISEM equipment. An anomaly
+location   is   reported   at   a   particular   site   with   x,y
+coordinates   in   a   particular   coordinate   system.   Site
+coordinates  are  also  used  by  ISEM  equipment  for  the
+alignment  sites  for  defining  a  coordinate  system  on  a
+substrate.  A  standard  method  is  needed  to  define  a
+coordinate  system  and  to  report  site  coordinates  for
+both  alignment  sites,  anomaly  locations,  and  any  other
+reference sites needed by ISEM equipment. A standard
+method is essential in order to transfer the anomaly site
+information from one equipment to another.
+R1-2.1  Site Location Accuracy —  Each equipment has
+an accuracy with which it can define or locate a site as
+being within a certain area. This area associated with a
+site is determined by the equipment accuracy, based on
+the  accuracy  of  its  motion  and  imaging  systems  to
+locate  a  site,  as  well  as  on  the  accuracy  with  which  it
+can  define  the  coordinate  system  on  the  substrate.
+
+SEMI 30.1-0200 © SEMI 1998, 200040
+When  equipment  shall  locate  a  particular  site  on  a
+substrate   based   on   the   expected   or   design-based
+location,  then  the  location  of  a  site  or  feature  on  an
+actual  substrate  is  further  affected  by  the  accuracy  of
+the   equipment   which   placed   the   pattern   on   the
+substrate.
+R1-2.2    Expected  or  Designed  Locations  vs.  Actual
+Locations  —  The  placement  of  patterns,  sites,  and
+coordinate   systems   is   designed   to   be   at   certain
+mathematically   described   locations   relative   to   one
+another   and   to   an   ideal   substrate.   These   are   the
+expected   or   designed   locations.   When   a   pattern   is
+written  by  equipment  onto  a  specific  substrate,  the
+actual  placement  of  the  pattern,  the  pattern-elements,
+and   their   features   may   differ   from   the   expected
+locations,  due  to  variations  in  equipment  performance
+and variations in substrate shape and dimensions.
+R1-2.3  Substrate Coordinate Systems (Unpatterned) —
+A  substrate  coordinate  system  is  a  coordinate  system
+which  has  both  origin  and  axes  defined  by  the  shape
+and  dimensions  of  the  substrate  and  which  does  not
+depend on whether there is a pattern on the substrate or
+whether  it  is  unpatterned.  This  coordinate  system  is
+used to locate or define sites relative to the substrate.
+R1-2.4    Substrate  Pattern  Coordinate  System  —  A
+substrate   pattern   coordinate   system   is   a   coordinate
+system  which  has  its  origin  and  axes  defined  by  the
+pattern  as  a  whole  on  the  substrate.  This  coordinate
+system is used to locate or to define sites relative to the
+pattern  on  the  substrate.  The  expected  or  designed
+location of the pattern on the substrate can be defined in
+terms  of  the  placement  of  the  origin  and  axes  of  the
+substrate  pattern  coordinate  system  relative  to  those  of
+the substrate coordinate system. The actual location of a
+pattern  on  a  substrate  may  differ  from  the  expected
+location.  The  actual  location  is  determined  by  locating
+two or more alignment sites on the patterned substrate.
+The   alignment   sites   are   specific   points   of   certain
+features in the pattern. The coordinates of the alignment
+sites   are   given   in   the   substrate   pattern   coordinate
+system. In many cases, equipment does not align to the
+specific  pattern  elements  but  instead  uses  the  defined
+locations  of  the  pattern  elements  within  the  substrate
+pattern coordinate system.
+R1-2.5      Pattern   Element   Coordinate   System   —   A
+pattern-element   coordinate   system   is   a   coordinate
+system  which  has  its  origin  and  axes  defined  by  the
+pattern  of  one  specific  rectangular  element  in  a  pattern
+(a   defined   arrangement)   of   equal-sized   rectangular
+elements. This coordinate system is used to locate or to
+define sites relative to that specific pattern-element. The
+expected  or  designed  location  of  the  pattern-element
+within   a   pattern   can   be   defined   in   terms   of   the
+placement of the origin and axes of the pattern-element
+coordinate   system   relative   to   those   of   the   pattern
+coordinate  system.  The  actual  location  of  a  pattern-
+element within a pattern on a substrate may differ from
+the expected location. The actual location is determined
+by  locating  two  or  more  alignment  sites  within  the
+pattern-element.  The  coordinates  of  the  alignment  sites
+are given in the pattern-element coordinate system.
+R1-2.6    Parallel  Coordinate  Systems  —  A  second
+coordinate system is considered to be parallel to a first
+coordinate  system  if  the  origin  of  the  second  can  be
+defined  as  a  translation  from  the  origin  of  the  first  and
+if  the  axes  of  the  second  are  parallel  and  in  the  same
+direction as those of the first.
+R1-2.7    Requirements  —  The  following  is  a  list  of
+requirements for ISEM equipment regarding coordinate
+systems and reporting site locations:
+• ISEM  equipment  shall  document  whether  it  deals
+with  coordinate  systems  based  on  (a)  a  substrate,
+(b)  a  substrate  pattern,  or  (c)  a  pattern-element  or
+whether  it  deals  with  several  of  these  coordinate
+systems.
+• ISEM    equipment    shall    establish    a    substrate
+coordinate  system  using  a  standard,  documented
+method. This coordinate system is not based on any
+pattern  on  the  substrate.  This  coordinate  system
+shall  be  a  right-hand  Cartesian  coordinate  system
+and shall be identified by a name.
+NOTE: For wafers, this method is defined in SEMI M20
+(Specification   for   Establishing   a   Wafer   Coordinate
+System), and the coordinate system is named “M20.”
+• For   equipment   dealing   with   substrate   pattern
+coordinates, the substrate pattern coordinate system
+shall  be  established  in  a  standard,  documented
+method  relative  to  the  substrate  coordinate  system
+(the    “unpatterned”    coordinate    system).    This
+substrate pattern coordinate system shall be a right-
+hand  Cartesian  coordinate  system  and  shall  be
+designed  to  be  parallel  to  the  substrate  coordinate
+system.  The  substrate  pattern  coordinate  system
+shall  be  identified  by  a  name.  The  location  of  its
+origin  and  axes  relative  to  the  substrate  coordinate
+system  shall  be  communicated  in  terms  of  the
+substrate coordinate system.
+NOTE:  For  wafers,  this  method  is  the  one  described
+below,  and  the  substrate  pattern  coordinate  system  is
+named  “M20P”,  and  its  origin  and  axis  relative  to  the
+SEMI  M20  coordinate  system  are  given  in  terms  of
+“M20”    coordinates    and    are    communicated    using
+XlateData.
+• For    equipment    dealing    with    pattern-element
+coordinates,  the  pattern-element  coordinate  system
+shall  be  established  in  a  standard,  documented
+
+SEMI 30.1-0200 © SEMI 1998, 200041
+method   relative   either   to   the   substrate   pattern
+coordinate  system  or  to  another  pattern-element
+coordinate  system.  The  pattern-element  coordinate
+system  shall  be  a  right-hand  Cartesian  coordinate
+system  which  is  designed  to  be  parallel  to  the
+substrate  pattern  coordinate  system.  The  pattern-
+element  coordinate  system  shall  be  identified  by  a
+name. The location of its origin and axis relative to
+the  substrate  pattern  coordinate  system  shall  be
+communicated  in  terms  of  the  substrate  pattern
+coordinate system.
+NOTE: For wafers, this method is based on SEMI M21,
+and the coordinate system is named “M21” and its origin
+and  axis  relative  to  the  “M20P”  coordinate  system  are
+given in terms of the M20P coordinates.
+• ISEM  requires  that  equipment  have  the  capability
+to use site location information that is based on the
+user’s   product   designs,   which   the   user   shall
+provide in the appropriate ISEM-required format.
+• ISEM-compliant     equipment     shall     have     the
+capability    to    define,    locate,    and    report    site
+information  using  only  the  ISEM-defined  right-
+handed  Cartesian  coordinate  system  formats.  This
+requirement   does   not   preclude   equipment   from
+having    additional    capability    for    defining    or
+reporting   site   location   information   using   other
+formats.
+• Coordinate  system  name  and  placement  relative  to
+the “higher” coordinate system shall be defined and
+communicated   using   the   following   ISEM   data
+items,   in   terms   of   either   expected   or   actual
+placement:     CoordSys,     XlateData,     and     their
+included data items.
+• Alignment  site  information  shall  be  defined  and
+communicated  using  the  following  ISEM  items:
+the variable item AlignList, the “ALIGNLIST”, the
+Process  program  class  of  “TABLE-ALIGN-DEF”,
+and their included information.
+• Areas  to  be  inspected  shall  be  reported  using  the
+specific coordinate system defined by the user. The
+following   ISEM   items   are   used   to   define   and
+communicate   area   locations:   the   variable   item
+“AREALIST”,  the  “AREALIST”,  and  the  Process
+program  class  of  “TABLE-AREA-DEF”,  and  their
+included information.
+• The  displacement  of  an  actual  coordinate  system
+relative    to    its    expected    location    shall    be
+communicated    using    the    ISEM    data    item:
+XlateData and its included data items.
+• The displacement of an actual site location relative
+to its expected site location shall be communicated
+using  the  ISEM  data  item:  Offset  and  its  included
+data items.
+• The    equipment    vendor    shall    document    the
+requirements  for  the  ISEM  data  items  used  in
+alignment of a coordinate system.
+• The equipment vendor shall provide and document
+a  means  for  the  user  to  define  and  communicate  a
+pattern map using SEMI M21 data. A pattern map
+defines   the   layout   of   equal-sized   rectangular
+pattern-elements  which  make  up  a  pattern.  Each
+pattern-element shall have a name, using the SEMI
+M21 naming convention.
+NOTE:  For  patterned  wafers,  the  naming  method  shall
+be that described in SEMI M21, and the pattern-element
+information shall be communicated using the ISEM data
+item of SEMI M21Data.
+• For  ISEM  compliance,  inspection  equipment  shall
+report     various     anomaly     data;     AnomalyID,
+coordinates, and attributes. Review equipment shall
+receive this data for anomalies and be able to locate
+them    and    perhaps    modify    the    coordinates.
+Anomaly coordinates shall be reported using ISEM
+table  named  “TABLE-ANOMALY-DEF”  and  its
+included data.
+R1-3  Coordinate System for a Substrate
+R1-3.1    SEMI  M20  Coordinate  System  —  The  SEMI
+M20  standard  (Specification  for  Establishing  a  Wafer
+Coordinate  System)  describes  how  to  map  a  right-
+handed  Cartesian  coordinate  system  to  a  substrate  so
+that  its  origin  is  at  the  center  of  the  substrate,  and  its
+negative y-axis  bisects  the  substrate’s  primary  fiducial.
+This  coordinate  system  is  defined  by  ISEM  to  be  the
+“M20”    coordinate    system.    The    only    information
+required  by  equipment  in  order  to  establish  an  “M20”
+coordinate  system  is  the  substrate  size  and  the  type  of
+fiducial, which are communicated using the ISEM data
+items   named   SubstrateSize   and   Fiducial.   Another
+ISEM  data  item  named  Orientation  identifies  how  the
+substrate  is  loaded  on  the  equipment.  Note  that  the
+SEMI M20 standard requires that the “M20” coordinate
+system  is  fixed  on  the  substrate  and  is  not  affected  by
+how  the  substrate  is  loaded  on  equipment.  Also,  as
+stated in the SEMI M20 standard, an orientation of “0”
+degrees  designates  a  substrate  loaded  on  equipment,
+with   the   primary   fiducial   towards   the   operator   or
+“down.”
+R1-3.2    M20P Coordinate System —  ISEM  defines  the
+M20P  coordinate  system  to  be  one  which  is  aligned  to
+the  pattern  on  the  substrate.  The  M20P  coordinate
+system  is  useful  because  in  many  cases,  it  is  more
+significant  to  the  user  to  know  the  location  of  an
+anomaly  relative  to  the  pattern  on  the  substrate  rather
+
+SEMI 30.1-0200 © SEMI 1998, 200042
+than  relative  to  the  substrate  shape  and  dimensions.
+ISEM  also  defines  the  M20P  coordinate  system  to  be
+one which is designed to be “parallel” to the SEMI M20
+coordinate system. In practice, because of experimental
+errors, both the origins and the axes may differ slightly
+from  their  intended  values  of  a  simple  translation  and
+no rotation. Equipment should be designed to be able to
+locate  the  alignment  sites,  given  the  various  possible
+experimental errors.
+R1-3.3  Establishing an M20P Coordinate System — A
+minimum   of   two   alignment   sites   is   necessary   to
+establish  an  M20P  coordinate  system  on  a  substrate.
+Additional  sites  are  often  used  to  determine  a  scaling
+ratio of the dimensions of the actual coordinate system
+relative  to  the  dimensions  of  the  expected  coordinate
+system  and  are  reported  using  the  ISEM  data  item  of
+ScaleFactor.
+XlateData  is  used  to  report  actual  coordinate  system
+location.  Most  equipment  cannot  distinguish  whether
+patterned  substrate  site  location  errors  are  due  to  the
+substrate,    the    layout    on    the    substrate,    or    the
+equipment’s   ability   to   locate   the   sites.   However,
+information   that   is   available   through   the   use   of
+patterned-substrate alignment sites can provide a means
+for   identifying   potential   equipment   problems.   For
+instance,  assume  that  the  only  pattern-layout  location
+error  on  a  substrate  is  that  due  to  the  establishment  of
+the  location  of  the  substrate  center  and  fiducial.  For
+many  users  and  equipment  systems,  this  is  a  good
+assumption. If this is the case, then the ISEM data item
+named XlateData can  be  used  to  track  this  error.
+Although  the  error  may  result  from  multiple  sources,
+being  able  to  track  it  on  various  equipment  will  enable
+users  to  apply  statistical  process  control  techniques  to
+identify the specific sources.
+Offset  sites  may  be  found  by  equipment  at  actual
+locations  which  deviate  from  their  expected  locations
+through   either   pattern   layout   errors   or   equipment
+“stage”   or   imaging   errors.   Again,   in   a   controlled
+manufacturing  process,  these  combined  errors  should
+be   normally   distributed,   and   non-normal   deviations
+may  indicate  possible  equipment  problems.  The  actual
+position  of  a  site  relative  to  its  expected  position  shall
+be  reported  through  the  use  of  the  ISEM  data  item
+named Offset.
+R1-4  Layout of Rectangular Pattern Elements
+on a Substrate Using SEMI M20 Coordinate
+System
+Equipment   shall   be   capable   of   routine,   automated
+operation  without  needing  substrate  layout  information
+(e.g., field or die maps). However, having the capability
+to  provide  substrate  layout  information  to  equipment
+from  the  host  can  be  desirable.  ISEM  defines  a  means
+to  do  this  in  this  section  for  substrates,  based  on  SEMI
+M21    (Specification    for    Assigning    Addresses    to
+Rectangular Elements in a Cartesian Array.) The SEMI
+M21  standard  is  limited  to  defining  how  to  assign
+“addresses”  to  elements  and  how  to  find  the  “array
+center” element. It does not specify how the rectangular
+pattern-elements  are  located  on  the  substrate.  In  this
+section,  ISEM  defines  how  these  pattern-elements  are
+located  on  a  substrate,  using  the  data  item  named
+M21Data,    and    how    to    establish    within-element
+coordinate  systems.  Any  additional  layout  information,
+such  as  within-element  structure  details  or  element
+attribute information, is beyond the scope of ISEM.
+R1-4.1  ISEM “M21” Layouts
+• An  “M21”  layout  consists  of  an  array  of  equal-
+sized  rectangular  pattern-elements  with  no  space
+between the pattern elements.
+• ISEM  defines  the  “M21”  layout  on  a  substrate  to
+include   all   pattern-elements   which   are   either
+wholly or partially within the circumference of the
+substrate.
+• The ISEM approach is to define the pattern map by
+specifying  the  M20P  coordinate  for  the  lower  left
+corner of the minimum number of pattern-elements
+needed to define the layout, along with the pattern-
+element  addresses  (names).  For  a  non-tiled  layout,
+the location and name of a single pattern-element is
+sufficient  to  establish  the  “M21”  layout.  For  tiled
+layouts,  the  location  and  name  of  one  pattern-
+element  in  each  row  or  column  are  required.  Note
+that  the  location  of  the  lower  left  corner  of  some
+pattern-elements may be outside the circumference
+of the substrate.
+• The   “M21”   pattern-element   coordinate   system
+shall have its x and y axes parallel to the respective
+M20P  coordinate  system  axes  and  shall  have  their
+origins  at  the  lower  left  corner  of  each  element.
+The pattern-element coordinate system shall have a
+name   and   a   specific   pattern-element   address
+identifier per SEMI M21.
+• Layout  definition  is  supported  only  for  host-to-
+equipment      communications.      The      user      is
+responsible  for  ensuring  that  the  pattern-element
+addresses provided to the equipment agree with the
+SEMI  M21  specification.  The  equipment  need  not
+check  this,  other  than  to  ensure  that  there  are  not
+conflicts   within   the   provided   layout,   and   shall
+report  results  with  pattern-element  addresses  as
+provided by the user.
+
+SEMI 30.1-0200 © SEMI 1998, 200043
+•   “M21”  layouts  are  established  within  the  M20P  coordinate  system  and  need  not  require  any  additional
+alignment site data than is needed to establish the M20P coordinate system. However, as with M20P, additional
+alignment  may  be  necessary  because  of  errors  in  either  the  pattern  layout  or  the  equipment’s  ability  to  locate
+features. Offset shall be used to report the location corrections that result from any within-element alignments.
+R1-5  How an M20P Coordinate System Is Established on a Substrate
+The following example is fairly basic. For this example, the M20P coordinate system has a zero translation from the
+SEMI  M20  coordinate  system.  Also,  the  equipment  documentation  states  that  4  alignment  sites  are  required.  The
+equipment  does  M20P  alignment  on  two  alignment  sites  and  does  a  low  resolution  and  then  a  high  resolution
+alignment at each site. Note that the specific alignment point is different at the two resolutions, so the coordinates
+are  slightly  different.  The  alignment  sites  are  defined  to  the  equipment  via  the  process  program  class  named
+“TABLE-ALIGN-DEF”, as detailed below. The order of the sites in “TABLE-ALIGN-DEF” is not important. The
+sites  are  then  selected  via  the  CPNAME  named  “ALIGNLIST”,  which  is  included  in  the  PP-SELECT  command.
+The  order  of  the  sites  listed  in  “ALIGNLIST”  is  important  and  is  as-specified  in  the  equipment’s  documentation.
+The first item is the alignment site for the first low resolution site, the second item is for the first high resolution site,
+the third item is the second low resolution site, and the fourth is the second high resolution site.
+“TABLE-ALIGN-DEF”
+AlignNameCoordxCoordyCoordsysAttribute (1)
+Coarse1-60000-200“M20P”
+Fine1-60020-205“M20P”
+Coarse2+60000+200“M20P”
+Fine2+59980+195“M20P”
+“ALIGNNAME”
+L,4
+1. Coarse1
+2. Fine1
+3. Coarse2
+4. Fine2
+Using  this  information,  the  equipment  will  go  to  the  nominal  “M20”  location  for  Coarse1,  then  “find”  where  it
+actually  is.  The  offset  between  the  nominal  “M20”  location  and  the  actual  “M20”  location  is  then  used  to  “find”
+Fine1.  The  actual  M20  location  of  Fine1  is  saved.  The  process  is  then  repeated  for  Coarse2  and  Fine2.  The
+equipment can now determine the “M20” to M20P offset from the nominal and actual coordinates. First, a summary
+of the data:
+xN1 = -60020yN1 = -205Nominal x and y data for the first fine site
+xA1 = -59800yA1 = -150Actual x and y data for the first fine site
+xN2 = +59980yN2 = +195Nominal x and y data for the second fine site
+xA2 = +60060yA2 = +175Actual x and y data for the second fine site
+
+SEMI 30.1-0200 © SEMI 1998, 200044
+The   equipment   first   calculates   Theta,   using,   for
+example, the formula:
+Θ=tan
+−1
+MA−MN
+1+MA MN
+
+
+
+
+where MA and MN are, respectively, the slopes of the
+lines connecting the two actual fine sites and the line
+connecting    the    two    nominal    sites,    in    “M20”
+coordinates, calculated as follows:
+MA=
+yA
+2
+−yA
+1
+xA
+2
+−xA
+1
+
+
+
+
+
+
+MN=
+yN
+2
+−yN
+1
+xN
+2
+−xN
+1
+
+
+
+
+
+
+The  equipment  then  calculates  DeltaX  and  DeltaY,
+using, for example, the formulas:
+DeltaX=
+Csin Θ
+()+Dcos Θ()
+sin Θ()
+()
+2
++cos Θ()
+()
+2
+
+
+
+
+
+
+DeltaY=
+Csin Θ
+()−Dcos Θ()
+sin Θ()()
+2
++cos Θ()()
+2
+
+
+
+
+
+
+where C  and  D,  the  adjusted  site  1  coordinates  in  a
+rotation-adjusted  coordinate  system,  are  calculated,
+for example, using the formulas:
+C=yA1−((xN1   sinΘ)+((yN1   cosΘ)
+D=xA1−((xN1   cosΘ)−((yN1  sinΘ)
+The equipment can also calculate a ScaleFactor term
+to indicate the relative ratio between the length of the
+vector connecting the nominal alignment sites and the
+length  of  the  vector  connecting  the  actual  alignment
+sites. This can be used, for example, to judge whether
+there  is  a  problem  with  the  alignment  process,  since
+the  difference  between  these  two  vectors  should  be
+small.
+ScaleFactor=
+VA
+V
+N
+where VA  and  VN  are  the  length  of  the  vectors
+connecting  the  actual  and  nominal  alignment  sites,
+calculated using the formulas:
+VN=yN
+2
+−yN
+1
+()
+2
++xN
+2
+−xN
+1
+()
+2
+VA=yA
+2
+−yA
+1
+()
+2
++xA
+2
+−xA
+1
+()
+2
+
+SEMI 30.1-0200 © SEMI 1998, 200045
+Figure 7
+Review Data Management
+
+SEMI 30.1-0200 © SEMI 1998, 200046
+RELATED INFORMATION 2
+APPLICATION NOTES
+NOTE: The material contained in these Application Notes is not an official part of SEMI E30.1 and is not intended to modify or
+supersede  the  official  standard.  Rather,  these  notes  describe  possible  methods  for  implementing  certain  ISEM  requirements
+described by the standard and are included as reference material.
+R2-1 Using ISEM Table Attributes to Specify Process Related Data Item Variable Values
+R2-1.1  Section 11.1 (ISEM Table Data) allows the host to use ISEM Table attributes to specify product and process
+related information related to the table data. The ISEM Variable Item Dictionary (Table 4) includes seven data items
+intended to be used for this purpose. They are identified with the comment “This information may be added by the
+host  in  the  ISEM  Tables.”  Identifying  the  value  of  variable  data  items  in  Table  attributes  is  not  covered  in  use  of
+ISEM Tables. One method to accomplish this is to use attribute identifiers (ATTRIDn) that are the same identifiers
+that  are  used  for  the  equipment  variable  data  items  (Table  R2-1).  (This  is  very  similar  to  the  method  specified  in
+Section 12.5 to identify values to override the default values of variable process program parameters using the “PP-
+SELECT” remote commands).
+Table R2-1  ISEM Variable Items and Their Equivalent ISEM Table Attribute Identifiers
+Variable Item
+(Table 4)
+ISEM Table Attribute
+Identifier
+Description
+NameType
+OperatorIDDVOperatorIDIdentification of the operator of the inspection/review
+equipment.
+ProcessEquipmentIDDVProcessEquipmentIDIdentification of the process equipment used with the
+current material immediately prior to the
+inspection/review.
+ProcessEquipmentLocationDVProcessEquipmentLocationLocation (code) of the process equipment used with the
+current material immediately prior to the
+inspection/review.
+ProcessProgramIDDVProcessProgramIDIdentification of the process program used with the
+process equipment used on the current material
+immediately prior to the inspection/review.
+ProcessLevelDVProcessLevelIdentification of the processing level of the current
+material.
+ProductIDDVProductIDThe product identification of the current material
+inspected/reviewed.
+ProcessRunIDDVProcessRunIDRun identification for the process prior to current
+inspection/review.
+NOTE 1: The variable item may be identified using any appropriate SECS II data item format.
+R2-2  Example ISEM Table with Item Attributes That Specify ISEM Variable Values Using S13,F13
+Table Data Send
+R2-2.1  Typical values for Data Items are indicated.
+L,    8
+1. DATAID
+2. <OBJSPEC=null>
+3. <TBLTYP=DefectData>
+4. <TBLID=null>
+5. <TBLCMD=1>
+
+SEMI 30.1-0200 © SEMI 1998, 200047
+6.    L,    2
+1. L, 2
+1. <ATTRID= “ProcessProgramID”>
+2. <ATTRDATA= “My Recipe”>
+2. L, 2
+1. <ATTRID= “ProcessLevel”>
+2. <ATTRDATA= “My Level”>
+7.    L,    c
+1. <COLHDR1= “Insp_Anomaly ID”>
+2. <COLHDR2= “Insp_Table specifier”>
+3. <COLHDR3= “Insp_Coordinate X”
+4. <COLHDR4= “Insp_Coordinate Y”
+:// etc...as defined by Table 11.3.5
+c. COLHDRc
+8. L, r
+1. L, c
+1. TBLELT11// A[1..16]
+2. TBLELT12// I4
+3. TBLELT13// I4
+4. ETC...
+:
+c. TBLELT1c// A
+:
+r.L, c
+1. TBLELTr1
+:
+c. TBLELTrc
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standard set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E30.5-0302 © SEMI 2001, 20021
+SEMI E30.5-0302
+SPECIFICATION FOR METROLOGY SPECIFIC EQUIPMENT MODEL
+This  specification  was  technically  approved  by  the  Global  Information  and  Control  Committee  and  is  the
+direct  responsibility  of  the  North  American  Global  Information  and  Control  Committee.    Current  edition
+approved  by  the  North  American  Information  and  Control  Committee  on  October  14  and  November  27,
+
+# 2001
+
+2001.    Initially  available  at  www.semi.org  December  2001;  to  be  published  March  2002.    Originally
+published July 2001.
+The complete specification for this product includes all
+general requirements of SEMI E30.
+1  Purpose
+1. 1  This  document  establishes  a  Specific  Equipment
+Model  (SEM)  for  Metrology  equipment  (MSEM).  The
+MSEM   consists   of   equipment   characteristics   and
+behaviors that are applicable to this class of equipment
+and  are  required  to  be  implemented  in  addition  to  the
+SEMI  E30  fundamental  requirements  and  additional
+capabilities.
+2  Scope
+2. 1  The  scope  of  this  document  is  limited  to  defining
+the behavior of Metrology equipment as perceived by a
+SEMI  Equipment  Communications  Standard  II  (SECS
+II/SEMI  E5)  host  that  complies  with  the  SEMI  E30
+model. It defines the view of the equipment through the
+SECS II link. It does not define the internal operation of
+the  equipment.  It  includes  a  specific  processing  state
+model  as  the  basis  for  all  equipment  behavior  of  this
+class.
+2. 2  This   document   assumes   that   the   SEMI   E30
+fundamental requirements and all additional capabilities
+except those noted in SEMI E30 Capabilities Section in
+this  document  have  been  implemented  on  the  MSEM
+equipment.    This  document  expands  the  SEMI  E30
+Standard  requirements  and  capabilities  in  the  areas  of
+the  processing  state  model,  collection  events,  Process
+Program  management,  remote  commands,  data  item
+variables, and coordinate systems.
+2. 3  This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1  The  intent  of  this  document  is  to  facilitate  the
+integration  of  Metrology  equipment  into  an  automated
+semiconductor  factory.  This  document  accomplishes
+this  by  defining  an  operational  model  for  Metrology
+equipment    as    viewed    by    a    factory    automation
+controller.   This   definition   provides   a   standard   host
+interface   and   equipment   operational   behavior.   This
+document  applies  specifically  to  Metrology  equipment
+as  used  in  a  semiconductor  factory  environment.    It  is
+possible  that  this  methodology  and  techniques  may
+apply to other industries.
+3. 2  MSEM  job  parameters  that  specify  material  (e.g.,
+carrier ID and substrate ID) and material locations (e.g.,
+carrier location ID and carrier slot ID) are intended for
+metrology equipment for 200 mm and smaller substrate.
+4  Referenced Standards
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+4. 1  SEMI Standards
+SEMI    E5        SEMI    Equipment    Communications
+Standard II (SECS II)
+SEMI  M20  —  Specification  for  Establishing  a  Wafer
+Coordinate System
+SEMI  M21    Assigning  Addresses  to  Rectangular
+Elements in a Cartesian Array
+SEMI   E37.1      High   Speed   Messaging   Service
+(HSMS-SS) Single Session
+SEMI  E58    Automated    Reliability  and  Availability
+Standard (ARAMS)
+5  Terminology
+5. 1  Definitions
+5. 1.1  alignment,   n.   —   a   procedure   in   which   a
+coordinate  system  is  established  on  a  substrate  or  a
+portion of a substrate.
+5. 1.2  alignment  mark,  n.  —  a  feature  on  a  substrate
+selectively used for alignment.
+5. 1.3  alignment site, n. — a point within a feature on a
+substrate selectively used for alignment.
+5. 1.4  cleanup,  n.  —   deselection  of  the  current  Process
+Program and removal of all material to output locations
+and   any   equipment   specific   activities   required   to
+transition the equipment into the IDLE state.
+
+SEMI E30.5-0302 © SEMI 2001, 20022
+5. 1.5  factory  automation  controller,  n.  —  a  computer
+system that provides integration of factory shop control
+and business systems with semiconductor equipment.
+5. 1.6  feature, n. — a distinctive item in a pattern, or a
+physical  characteristic  of  the  substrate.    (e.g.,  line,
+point, a wafer flat).
+5. 1.7  field,  n.  —   an  exposure  repeated  in  a  regular
+manner on a substrate.
+5. 1.8  global    alignment,    n.    —     procedure    which
+establishes  a  coordinate  system  for  the  entire  substrate
+(see  alignment).  For  silicon  wafers,  this  coordinate
+system   is   defined   in   MSEM   as   the   SEMI   M20
+coordinate system.
+5. 1.9  global   pattern   alignment,   n.   —   a   procedure
+which establishes a coordinate reference system relative
+to  repeating  features  on  an  entire  substrate.  For  silicon
+wafers,  this  coordinate  system  is  defined  in  MSEM  as
+the M20P coordinate system.
+5. 1.10  logical port, n. —  one or more physical input or
+input/output   ports   that   are   controlled   by   the   same
+execution of a Process Program.
+5. 1.11  M20P, adj. — a designation used for the global
+coordinate   system   defined   within   MSEM,   that   is
+established relative to a pattern on a silicon wafer.
+5. 1.12  material,  n.  —  a  piece  or  pieces  of  substrate,
+one or more substrate, a lot, a batch, or a run.
+5. 1.13  metrology  equipment,  n.  —  any  equipment  that
+collects     and     reports     information     on     specific
+predetermined  sites  or  features  on  a  substrate  with
+consistent data structure, or reports general information
+about the entire substrate.
+5. 1.14  notch, n. — a cut on the edge of a wafer that is
+commonly  located  with  respect  to  a  specific  crystal
+plane that adheres to the  SEMI M1 standard.
+5. 1.15  pattern,   n.   —   the   physical   features   on   a
+substrate.
+5. 1.16  pre-align,  n.  —  any  alignment  done  prior  to
+placing a substrate on a measurement process location.
+5. 1.17  registration, n. — positioning error between two
+features on different layers of a substrate.
+5. 1.18  safe  state,  n.  —  a  state  in  which  the  equipment
+presents no danger to the product or user.  This implies
+that   safety   interlocks   are   in   place   such   that   the
+equipment can be serviced without harm to the operator
+and that the material being processed has been removed
+from the processing station into an accessible location.
+5. 1.19  secondary  alignment, n. — a  procedure  which
+improves   the   accuracy   of   the   coordinate   system
+mapping   on   a   substrate   in   a   limited   area   of   the
+substrate.
+5. 1.20  site, n. — a single point on a substrate used for
+alignment,  or  the  center  of  an  area  of  the  substrate
+within which measurements are made.
+5. 2   Abbreviations and Acronyms
+5. 2.1  GEM, n. — Generic Equipment Model
+5. 2.2  SEM, n. —  Specific Equipment Model
+5. 2.3  SEM, n. — Scanning Electron Microscope
+5. 2.4  TCP/IP,    n.    —    Transmision    Communication
+Protocol/Internet Protocol.
+6  Communication Requirements
+6. 1  It is required that any MSEM compliant equipment
+follow  the  Communications  State  Model  in  SEMI  E30.
+In  addition  MSEM  compliant  equipment  shall  support
+the    High    Speed    Messaging    Service    (HSMS-SS)
+communication  Standard,  and  the  SECS-I  standard  for
+sending SECS II messages over TCP/IP or RS232. The
+user  may  determine  which  of  these  two  lower  level
+transmission  protocols  is  used  in  each  installation.  The
+reason  for  HSMS-SS  requirement    is  the  large  volume
+of data that can be generated by this class of equipment.
+7  State Models
+7. 1  In  this  section  are  defined  the  equipment-specific
+processing state model and other state models necessary
+to   portray   the   expected   operational   states   of   the
+equipment  to  enable  host  tracking  and  control  in  place
+of   a   local   operator.   See   SEMI   E30   and   Other
+References  section  for  additional  information  on  state
+charts general rules and utilization.
+7. 2  Processing   State   Model   Requirements    The
+Processing state model is required to be implemented as
+defined  in  the  next  sections  of  this  document.  A  state
+model  consists  of  the  following:  state  model  diagram,
+state  definitions    and  a  state  transition  table.  A  state
+model  represents  the  host's  view  of  the  equipment,  not
+necessarily  the  actual  equipment  operation.  All  MSEM
+state  model  transitions  shall  be  mapped  sequentially
+into the appropriate actual equipment events that satisfy
+the   requirements   of   those   transitions.   In   certain
+implementations,  the  equipment  may  enter  a  state  and
+have  already  satisfied  all  of  the  conditions  required  by
+the  MSEM  state  model  for  transition  to  another  state.
+The  equipment  makes  the  required  transition  without
+any additional actions in this situation.
+7. 3  Some  equipment  may  need  to  include  additional
+states.  Additional  states  may  be  added,  but  shall  not
+change   the   MSEM   defined   state   transitions.   All
+expected transitions between MSEM states must occur.
+
+SEMI E30.5-0302 © SEMI 2001, 20023
+INIT
+IDLE with
+Alarms
+PROCESSING ACTIVE
+IDLEABORTED
+1
+18
+19
+17
+SETTING
+UP
+2
+READY
+WORKING
+3
+UNLOAD
+4
+25
+23
+24
+EXECUTING
+STOPPING
+16
+ABORTING
+6
+7
+5
+13
+ALARM
+PAUSED
+PAUSED
+22
+21
+H*
+9
+8
+PAUSE
+PROCESS
+PAUSED
+20
+14
+15
+PROCESS
+PAUSING
+11
+12
+26
+CHECKING
+3233
+10
+38
+LOAD
+Figure 1
+Generic MSEM Processing State Model Diagram
+
+SEMI E30.5-0302 © SEMI 2001, 20024
+23
+WORKING
+ALIGN
+27
+MEASURING
+TAKE
+MASUREMENT
+MEASUREMENT
+COMPLETE
+28
+29
+26
+24
+35
+36
+34
+Figure 2
+Working State of Processing State Model
+7. 4  Processing State Model Diagram
+7. 4.1  Working State of Processing State Model
+7. 4.2  Working  Sub-states of Processing State Model —  These states need not to be implemented in all Metrology
+equipment but if the equipment has the ability to multiple measurements at a site or provide raw scan date to the user
+this is how it is to be implemented.
+
+SEMI E30.5-0302 © SEMI 2001, 20025
+28
+TAKE MEASUREMENT
+TAKE SAMPLE
+SAMPLE
+COMPLETE
+30
+31
+34
+Figure 3
+Working Sub-State of Processing State Model
+7. 5  Processing State Definitions
+7. 5.1  ABORTED    all  activity  is  suspended  as  a
+result  of  an  ABORT  command.  Any  alarm  and  abort
+conditions  must  be  cleared  before  exit  from  this  state.
+The  CLEANUP  command  is  available  to  the  operator
+or host to transition the equipment from the ABORTED
+state to IDLE state.
+7. 5.2  ABORTING   (PROCESSING ACTIVE Sub-state)
+  the  equipment  has  received  an  ABORT  command.
+All  normal  activity  is  suspended.  The  equipment  is
+taking  appropriate  action  to  put  the  equipment  and
+material  in  a  “safe  state”  where  possible.  Data  may  be
+invalid or not available.
+7. 5.3  ALARM  PAUSED      (PAUSE  Sub-state)   an
+alarm  has  occurred  in  the  Process  or  Process  Pause
+states  and  the  equipment  is  waiting  for  the  alarm  to  be
+cleared.
+7. 5.4  ALIGN            (WORKING    Sub-state)     the
+equipment  or  operator  is  performing  an  alignment  of
+the  material  to  the  equipment.  Within  this  state  the
+equipment  shall  refine  or  establish    its  SEMI  M20
+coordinate    system    and    establish    any    secondary
+coordinate systems required.
+7. 5.5  CHECKING      (PROCESS  PAUSE  Sub-state) 
+the  equipment  verifies  that  the  updates  made  to  the
+Process  Program  are  valid.  This  is  a  similar  procedure
+to  that  which  is  done  in  SETTING  UP  before  the
+equipment is ready to transition to the READY state.
+7. 5.6  EXECUTING      (PROCESS  Sub-state)    the
+equipment is processing material automatically and can
+continue  to  do  so  without  external  intervention,  but
+normally   may   include   interaction   with   the   host   or
+operator.
+7. 5.7  IDLE   checks  for  queued  process  or  awaits  a
+command.   IDLE   is   free   of   ALARM   and   error
+conditions.  Any  transitions  into  this  state  will  clear  the
+process area.
+7. 5.8  IDLE with ALARMS  an alarm has occurred in
+the  IDLE  state  and  the  equipment  is  waiting  for  all
+alarms to be cleared.
+
+SEMI E30.5-0302 © SEMI 2001, 20026
+7. 5.9  INIT  equipment initialization is occurring.
+7. 5.10  LOAD     (EXECUTING     Sub-state)      the
+equipment  is  determining  if  processing  is  complete.  If
+not,   then   the   substrate   is   being   transferred   to   the
+equipment  processing  location,    such  as  the  stage.  A
+pre-alignment procedure may be performed prior to the
+LOAD state.
+7. 5.11  PAUSE   (PROCESS   ACTIVE   Sub-state) 
+PROCESS   is   suspended   at   the   next   opportunity.
+Actions  to  put  the  equipment  in  a  “safe  state”  shall  be
+performed.   The   equipment   is   awaiting   a   command
+(RESUME,  PP-UPDATE,  STOP  or  ABORT),  or  for
+alarm(s) to be cleared.
+7. 5.12  PAUSED   (PROCESS   PAUSE   Sub-state) 
+PROCESS  shall  be  suspended  and  the  equipment  is
+waiting   for   a   command   (RESUME,   PP-UPDATE,
+STOP or ABORT).
+7. 5.13  PAUSING   (PROCESS   PAUSE   Sub-state) 
+PROCESS  has  been  suspended  at  the  next  opportunity
+and the equipment is put in a “safe state”.
+7. 5.14  PROCESS  (PROCESSING  ACTIVE  Sub-state)
+ this state is the parent of those sub-states which refer
+to  the  active  preparation  and  execution  of  a  Process
+Program.
+7. 5.15  PROCESSING   ACTIVE    this   state   is   the
+parent  of  all  sub-states  where  the  context  of  a  Process
+Program execution exists.
+7. 5.16  PROCESS  PAUSE  (PAUSE  Sub-state)   the
+equipment  is  free  of  alarm  conditions  in  the  PAUSE
+state.
+7. 5.17  MEASUREMENT  COMPLETE  (MEASURING
+Sub-State)   the  equipment  has  completed  collecting
+data relative to an  alignment location.
+7. 5.18  MEASURING   (WORKING   Sub-State)    the
+equipment is preforming an action between alignments.
+7. 5.19  READY (PROCESS Sub-state)  the equipment
+is  ready  to  begin  processing  and  is  awaiting  a  START
+command    from    the    operator    or    host.    If    an
+AUTOSTART  is  included,  then  the  equipment  starts
+processing immediately.
+7. 5.20  SAMPLE                COMPLETE                (TAKE
+MEASUREMENT     Sub-state)      the     equipment
+determines if additional samples need to be taken at this
+site.
+7. 5.21  SETTING   UP   (PROCESS   Sub-state)    the
+equipment is being set up so that external conditions are
+satisfied  to  start  processing  the  material.  This  includes
+the receipt of any Process Programs  and material to be
+processed  and  their  validation.  Additional  information
+may come from the host during the processing.
+7. 5.22  STOPPING  (PROCESSING  ACTIVE  Sub-state)
+  the  equipment  has  completed  a  Process  Program  or
+has  been  instructed  to  stop  processing  and  shall  do  so
+gracefully    at    the    next    opportunity.    All    cleanup
+necessary  is  being  completed  within  this  state  with
+regard  to  material,  data,  control  system,  etc.  Data  is
+normally  preserved.  Any  alarm  or  error  condition  is
+cleared before exit from this state.
+7. 5.23  TAKE   MEASUREMENT   (MEASURING   Sub-
+state)   the  equipment  is  in  the  process  of  collecting
+data   relative   to   an   alignment   location.      (e.g.   Site,
+Region, Substrate).
+7. 5.24  TAKE  SAMPLE  (TAKE  MEASUREMENT  Sub-
+state)   the  equipment  collects  data  from  a  single
+structure or of a single sample.
+7. 5.25  UNLOAD   (EXECUTING   Sub-state)    the
+substrate   is   being   removed   from   the   processing
+location.
+7. 5.26  WORKING   (EXECUTING   Sub-state)    the
+equipment is processing a specific material.
+
+SEMI E30.5-0302 © SEMI 2001, 20027
+7. 5.27  Processing State Transition Table
+Table 1  Processing State Transition Table
+Transition #Current stateTriggerNew StateActionsComments
+1INITAll equipment
+initialization is
+complete with no
+alarms or error
+conditions.
+IDLENoneIf an alarm or error
+occurs during INIT, the
+equipment shall remain
+in this state.
+2IDLEA process is queued or
+a command is received.
+SETTING UPThe set up procedure is
+equipment dependent.
+Commit has been made
+to set up.
+3SETTING UPAll setup activity has
+completed and the
+equipment is ready to
+receive a START
+command.
+READYThe equipment is
+waiting for a START
+command. Start may be
+initiated by an
+operator.
+The selected Process
+Program is available for
+execution.
+4READYThe equipment receives
+a START command.
+LOADThe equipment
+determines if
+processing is
+completed. If not, it
+transfers the next
+substrate to the
+processing location.
+LOAD is an
+EXECUTING Substate.
+5EXECUTINGThe processing is
+complete.
+STOPPINGNoneEquipment specific.
+Supplier must chose
+beween LOAD or
+UNLOAD states for
+completion.
+6PROCESSThe equipment has
+received a STOP
+command.
+STOPPINGThe equipment
+unloads the material
+and brings the
+equipment to a clean
+and safe state.
+Data is typically
+preserved and is valid.
+7PROCESSThe equipment has
+received an ABORT
+command
+ABORTINGThe equipment is put in
+a "safe state” if
+necessary.
+Data may be invalid or
+not available.
+8PROCESSAn alarm occurs.ALARM
+PAUSED
+PROCESS activity is
+suspended and the
+equipment is waiting
+for all alarms to be
+cleared.
+ALARM PAUSED is a
+PAUSE Substate.
+9PROCESSThe equipment has
+received a PAUSE
+command.
+PAUSINGPROCESS shall be
+suspended at the next
+opportunity. Actions to
+put the equipment in a
+“safe state” shall be
+performed.
+PAUSING is a PAUSE
+Substate.
+10PROCESS
+PAUSED
+The equipment has
+received a RESUME
+command.
+Previous
+PROCESS State
+Proceed with the
+suspended Substate.
+PAUSED is a
+PROCESS PAUSE
+Substate.
+11CHECKINGThe equipment has
+completed validating
+any updates made to the
+current Process
+Program being
+executed. Including a
+PP_UPDATE
+Previous
+PROCESS State
+Action is appropriate to
+the state and the
+changes made to the
+Process Program
+updated.
+None
+
+SEMI E30.5-0302 © SEMI 2001, 20028
+Transition #Current stateTriggerNew StateActionsComments
+12STOPPINGThe equipment clean up
+is complete and the
+equipment is free of
+alarms.
+IDLENoneNone
+13PAUSEThe equipment has
+received a STOP
+command.
+STOPPINGThe equipment
+proceeds with clean up.
+Normally, data is
+preserved and is valid.
+14PAUSEThe equipment has
+received an ABORT
+command.
+ABORTINGAny unsafe condition is
+resolved if possible.
+Data may be invalid or
+not available.
+15STOPPINGThe equipment has
+received an ABORT
+command.
+ABORTINGAny unsafe condition is
+resolved if possible.
+Data may be invalid or
+not available.
+16ABORTINGUnsafe conditions have
+been resolved where
+possible.
+ABORTEDThe equipment is
+waiting for alarm and
+ABORT conditions to
+be cleared.
+The only state change
+allowed is to IDLE.
+17ABORTEDAll alarms and abort
+conditions have been
+cleared.
+IDLENoneIf needed the
+CLEANUP command
+clears the abort
+conditions. IDLE is a
+“clean” state.
+18IDLEAn alarm is set.IDLE w/
+ALARMS
+The equipment waits
+for all alarms to be
+cleared.
+None
+19IDLE w/
+ALARMS
+All alarms have been
+cleared.
+IDLENoneIDLE is free of alarms.
+20PAUSINGThe equipment has
+achieved a “safe state”.
+PAUSEDThe equipment is
+waiting for a command
+(RESUME, STOP or
+ABORT).
+None
+21PROCESS
+PAUSE
+An alarm is set.ALARM
+PAUSED
+The equipment waits
+for all alarms to be
+cleared, or a STOP or
+ABORT command.
+None
+22ALARM
+PAUSED
+All alarms are cleared.PAUSEDThe equipment is
+waiting for a command
+(RESUME,
+PP_UPDATE, STOP
+or ABORT).
+None
+23LOADMaterial transfer to
+processing location is
+complete and global
+alignment has been
+completed.
+WORKINGThe substrate is being
+processed.
+None
+24WORKINGThe processing of the
+specific material being
+processed ended
+normally.
+UNLOADThis material is
+transferred from the
+processing location.
+“Normal” completion of
+the substrate.
+25UNLOADThe material unload is
+complete.
+LOADThe equipment checks
+if processing is
+complete and, if not,
+transfers the next
+substrate to the
+processing location.
+None
+
+SEMI E30.5-0302 © SEMI 2001, 20029
+Transition #Current stateTriggerNew StateActionsComments
+26WORKINGThe processing of the
+specific material being
+processed ended
+abnormally.
+UNLOADThis material is
+transferred from the
+processing location.
+Abnormal exit from
+WORKING or Next
+Material command
+received.
+27ALIGNThe material alignment
+is complete.
+MEASURINGThe equipment
+determines if additional
+sites are required.
+None
+28TAKE
+MEASURE-
+MENT
+All data collection has
+been completed for the
+current site or
+alignment location.
+MEASURE-
+MENT
+COMPLETE
+The equipment
+determine if additional
+sites are required.
+Determine if additional
+alignments are required
+or unload is required.
+29MEASURE-
+MENT
+COMPLETE
+Additional sites are
+required.
+ALIGNThe equipment moves
+and aligns to new data
+collection site.
+None
+30TAKE
+SAMPLE
+Data collection from
+scan or structure.
+SAMPLE
+COMPLETE
+Determine if additional
+samples are required.
+None
+31SAMPLE
+COMPLETE
+Additional samples are
+required.
+TAKE SAMPLEStart collecting next
+scan or structure data.
+None
+32CHECKINGValidation of Process
+Program change fails or
+is cancelled. Includes
+PP_UPDATE.
+PAUSEDThe equipment is
+waiting for a new PP-
+UPDATE or RESUME
+command.
+Process Program reverts
+to the conditions that
+existed prior to the PP-
+UPDATE.
+33PAUSEDThe equipment receives
+a PP-UPDATE
+command.
+CHECKINGThe equipment begins
+validating the changes
+made to the Process
+Programs to be
+executed.
+None
+34TAKE
+MEASURE-
+MENT
+Another measurement is
+required at an alignment
+location.
+TAKE
+MEASURE-
+MENT
+The equipment
+performs a
+measurement.
+None
+35MEASURINGAn error or failure
+occurred during the
+measurement and a new
+alignment is required.
+ALIGNThe equipment moves
+and aligns to new data
+collection site.
+None
+36ALIGNAn error or failure
+occurred during
+alignment and a new
+alignment is required.
+ALIGNThe equipment moves
+and aligns to new data
+collection site.
+None
+37ASSISTA failure occurred
+while executing and
+external assistance was
+required to continue.
+PROCESS
+PAUSE
+The execution is
+stopped and equipment
+waits for a resume
+command.
+Resume command must
+be issued.
+38LOADPrevious PROCESS-
+BLD-GROUP program
+has completed and there
+are additional process
+programs assigned to
+the “CARRIERBLD”.
+See Section 12.
+SETTING UPThe equipment
+performs set up
+according to
+specifications of the
+next process program.
+PROCESS-BLD-
+GROUP may include a
+AUTOSTART
+command within its
+body. Otherwise, the
+equipment waits for a
+START command.
+
+SEMI E30.5-0302 © SEMI 2001, 200210
+Table 2  Processing State Events and Associated Reports
+CENAMEFrom StateTo StateRequired DVVAL's or Reports
+END of RUNSTOPPINGIDLERUN complete report available.
+All jobs specified by PROCESS-BLD-GROUP
+command parameter(s) in a CARRIERBLD command
+parameter complete.
+END of JOBLOADSETTING
+UP
+JOB complete report available.
+A job specified by a PROCESS-BLD-GROUP command
+parameter in a CARRIERBLD command parameter that
+specifies multiple jobs for the same material completes.
+END of SUBSTRATEUNLOADLOADSUBSTRATE complete report available.
+END of SITETAKE MEASUREMEASURE
+COMPLETE
+SITE complete report available. Only required if
+supporting sampling.
+END of SAMPLETAKE SAMPLESAMPLE
+COMPLETE
+SAMPLE complete report available. Only required if
+equipment performs measurements on individual sites.
+8  Collection Event List
+8. 1  The  purpose  of  this  section  is  to  identify  data  collection  events  for  Metrology  equipment  and  define  reporting
+levels.
+8. 2  Requirements — Only those collection events that are not associated with a change of state, and those requiring
+specific  DVVAL's  or  Reports  defined  in  the  SEM,  are  required  to  be  included  in  this  section.  All  SEMI  E30
+required events are required by this SEM.
+8. 2.1  Common collection events  collection events common to, and required on, all equipment of the class being
+addressed.
+8. 2.2  Configuration-specific  collection  events  collection  events  associated  with  a  specific  configuration  of  the
+equipment class being addressed.
+8. 3  Collection Event Tables
+ The first table contains processing state event transitions and associated reports. The
+second table contains additional events or actions and associated reports.
+8. 3.1  All remote commands (S2F41) that are not preformed by the equipment before responding to the host (S2F42)
+must generate an event indicating when the task was completed and whether it was successful.
+Table 3  Additional Required Collection Events
+ACTION or COMPLETED EVENTRequired DVVAL's or Reports
+Remote command MAP-CASSETTE completed successfully.SlotList
+Operator hits button on equipment control panel.OperatorAction
+9  Data Item Variables
+9. 1  The purpose of this section is to define the list of data item variables pertinent to the specific equipment. Values
+of these variables shall be available to the host via collection event reports and host  status queries.
+9. 2  Requirement
+ all  generic  variable  data  items  defined  in  SEMI  E30  are  required  by  all  Measurement
+equipment. Data item variables are categorized as follows:
+9. 2.1  Common Variables (CV)  variables common to all equipment of the class being addressed. These variables
+are covered in Table 4 and must be used to regardless of the measurement tool type.
+9. 2.2  Configuration-specific  variables  (CSV)    variables  associated  with  a  specific  configuration  of    the  above
+equipment class.
+
+SEMI E30.5-0302 © SEMI 2001, 200211
+9. 2.2.1  The following rules should be adhered to in the reporting of these variables.
+• The information should be sent using the corresponding formats defined on Table 4 and 5.
+• For ASCII variables A[n]. If the actual data does not fill the entire field, blanks shall be used to complete the
+field.
+• For ASCII variables A[1..n].  All fields should be left justified.
+9. 3  Since  MSEM  is  generic  to  all  equipment  it  tries  not  to  specify  the  names  of  the  measurement  variables  to  be
+sent  to  the  host.    MSEM  does  require  that  the  data  be  reported  at  site,  wafer  and  lot  levels.  It  should  include  the
+option  of  reporting  data  at  the  individual  scan  level  if  supported  by  the  equipment.  It  is  a  requirement  that  the
+equipment report at least: max, min, mean, standard deviation.  Additional statistic calculations may be added by the
+equipment supplier. For each type of data collected by the equipment at the site level; the data must be summarized
+and available for reporting at the wafer and lot levels.
+9. 4  The following rules should be applied when reporting measurement values taken by the tool. The rules specify
+the units to be used whenever these values are reported.
+• All values specified should be reported in floating point format.
+• All critical dimensions (lines and spaces) should be in microns.
+• All overlay measurements should be in microns.
+• All FTIR transmittance values and corresponding wavelengths should be reported in percent units and microns,
+respectively.
+• All film stress values should be reported in teradynes/cm-cm.
+• All resistivity measurements should be reported in Ohm-cm.
+• All film thickness measurements should be reported in Angstroms.
+9. 5  Data  item  variables  should  be  documented  in  the  MSEM  data  item  variable  dictionary  using  the  following
+format:
+Variable NameCategoryDescriptionClassFormatComments
+Where:
+Variable Name:A unique name for the data item variable (this name is for reference only).
+Category:Defined as Common or Configuration-Specific variables.
+Description:If class is DVVAL, then the description must contain a statement of when data
+is valid in terms of MSEM events.
+Class:                   Data type of the item.
+Format:                Acceptable formats are SEMI E5 lists, ASCII, floating point, unsigned integer or
+signed integer.  A description of “ANY”, indicates that any of the above formats
+are acceptable and is left to the tool vendor to decide. When required use SECS
+Message Language format.
+Comments:Any additional information pertinent to the variable name.
+9. 6  Data Item Variable Types
+9. 6.1  Equipment Constants (ECV) — can be changed by the host using S2F15. The operator may have the ability to
+change some of the values, but the equipment does not change the values  on its own. The value of the equipment
+constant may be queried by the host at any time using the S2F13/14 transaction.
+
+SEMI E30.5-0302 © SEMI 2001, 200212
+9. 6.2  Status Variables (SV) — are valid at all times. A SV may not be changed by the host but may be changed by
+the equipment or the operator. The value of status variables may be queried by the host at anytime using the S1F3/4
+or S6F19/20 transactions.
+9. 6.3  Data Variables (DVVAL)  are variables which are valid only upon occurrence of specific collection events.
+An attempt to read a data variable at the wrong time shall not generate an error, but the data reported may not have
+relevant meaning.
+9. 6.4  Variable  Data  (V)    this  is  a  class  of  variable  data  which  includes  all  the  previously  defined  types  of
+variables.
+Table 4  Data Item Variable List
+Variable nameCategoryDescriptionClassFormatComments
+AlignListCSVA list of alignment site
+information being used by the
+currently active Process Program.
+DVVAL
+L,n
+1. AlignName
+.
+.
+n.
+See Table 5 for
+additional
+information.
+CarrierIDCVID of the Carrier that the
+measurement data is associated
+with.
+DVVAL
+A[1..16]
+Valid in
+processing
+substate.
+CoordCVThe X,Y coordinate for a site in
+microns.
+DVVAL
+L,2
+1. CoordX
+2. CoordY
+See Table 5 for
+additional
+information.
+CoordsysCVThe identification for applicable
+coordinate system.
+DVVAL
+A[1..16]
+Options for
+silicon wafers are:
+SEMI M20,
+M20P, SEMI
+M21.
+Default-PriorityCVThe default priority given a
+location or carrier ID if none is
+assigned.
+EC
+U4
+DeltaXCSVThe x axis translation between
+the origins of two coordinate
+systems, in μm.
+DVVAL
+F4
+Units are in
+microns.
+DeltaYCSVThe y axis translation between
+the origins of two coordinate
+systems, in μm.
+DVVAL
+F4
+Units are in
+microns.
+ElementIDCSVThe M21 address for a specific
+rectangular element on a
+patterned silicon wafer.
+DVVAL
+I4[2]
+M21 row number,
+M21 column
+number.
+ElementListCSVA list of M21 elements where
+measurements were attempted.
+DVVAL
+L,n
+1. ElementID
+.
+.
+n
+See Table 5 for
+additional
+information.
+EquipIDCVUnique ID of measurement
+equipment.
+SV
+A[1..16]
+Valid in all sub
+states.
+EquipNameCVName of equipmentSV
+A[1..16]
+Valid in all sub
+states.
+LotIDCVLot ID that is associated with the
+measurement data.
+DVVAL
+A[1..80]
+M20DataCVThe silicon wafer size, fiducial
+type, and orientation to use.
+DVVAL
+L,3
+1. WaferSize
+2. Fiducial
+3. Orientation
+See Table 5 for
+additional
+information.
+
+SEMI E30.5-0302 © SEMI 2001, 200213
+Variable nameCategoryDescriptionClassFormatComments
+M21DataCSVThe data necessary to establish an
+MSEM SEMI M21 layout on a
+silicon wafer.
+DVVAL
+L,2
+1. L,3
+1. M21XSize
+2. M21YSize
+3. Tile
+2.   L,n
+1.   L,3
+1. ElementID
+2. CoordX
+3. CoordY
+:
+n
+Coord x and
+Coord y are the X
+and Y coordinates
+in the M20P
+coordinate system
+of the lower left-
+hand corner of the
+element. See
+Table 5 for
+additional
+information.
+QueuedJobListCSVAn ordered list of CarrierID data
+items (A[1..16]) of material that
+is queued to run. The first item in
+the list is the ID of next carrier to
+run. A soon as a job specified by
+a PROCESS-BLD-GROUP
+starts, the CarrierID it specifies is
+removed from the head of the list.
+SV
+L
+OffsetCSVThe difference between the
+defined location of a site and the
+location at which it is found.
+DVVAL
+F4[2]
+SiteDeltaX,
+SiteDeltaY
+Operator ActionCVAction taken by operator on
+equipment’s front panel.
+DVVAL
+A[1..80]
+OperNameCVTool Operator nameECV
+A[1..16]
+OrientationCVThe direction, in degrees, from
+the equipment's “0” location for a
+wafer's primary fiducial when
+initially positioned for
+measurements.
+ECV
+F4
+This parameter
+has no effect on
+the “M20” based
+wafer coordinate
+system as
+discussed in
+SEMI standard
+SEMI M20.
+PP-NameCVThe PPID that is being used for
+measuring.
+SV
+A[1..80]
+Process SlotListCVThe list of cassette slots whose
+contents are to be processed.
+DVVAL
+L,n
+1. SlotID
+.
+.
+.
+L,0 indicates all
+slots are to be
+processed. See
+Table 5 for
+additional
+information.
+SiteDeltaXCSVThe x axis translation between
+the defined and found locations
+of a site, in μm.
+DVVAL
+F4
+Units are in
+microns.
+SiteDeltaYCSVThe y axis translation between
+the defined and found locations
+of a site, in μm.
+DVVAL
+F4
+Units are in
+microns
+SiteListCVThe list of sites where
+measurements are made.
+DVVAL
+L,n
+1. SiteName
+.
+.
+n
+See Table 5 for
+additional
+information.
+SiteNameCVA unique identifier for a site.DVVAL
+A[1..16]
+
+SEMI E30.5-0302 © SEMI 2001, 200214
+Variable nameCategoryDescriptionClassFormatComments
+SlotIDCVThe cassette slot number.DVVAL
+U4
+WaferIDCSVPhysical wafer identifier.SV
+A[1..24]
+WaferIDReadCSVTool read wafer identifier.SV
+A[1..24]
+WaferSizeCVThe nominal diameter of a silicon
+wafer.
+EC
+A[1..16]
+mm
+XlateDataCSVVariable for the equipment to
+report the pattern-based
+coordinate system offset from the
+wafer-based coordinate system
+found on the wafer being tested.
+SV
+L,4
+1 DeltaX
+2 DeltaY
+3 Theta
+4 ScaleFactor
+See Appendix 1
+for an example.
+See Table 5 for
+additional
+information.
+9. 6.5  Data Item Sub-variable List
+Table 5  Data Item Sub-Variable List
+Data Item Sub-
+variables
+DescriptionFormatComment
+AlignNameThe identifier given to a alignment site. A[1..16]
+CoordXThe x coordinate for a site.F4Units are in microns.
+CoordYThe y coordinate for a site.F4Units are in microns.
+DeltaXThe x axis translation between the origins of two
+coordinate systems, in μm.
+F4Units are in microns.
+DeltaYThe y axis translation between the origins of two
+coordinate systems, in μm.
+F4Units are in microns.
+ElementIDThe M21 address for a specific rectangular element
+on a patterned silicon wafer.
+I4[2]M21 row number, M21 column
+number
+FiducialThe  type of primary fiducial on a silicon wafer.A[1..16]Options are “FLAT” or
+“NOTCH”
+M21XSize
+The M21 element size in the x direction, in μm.
+F4Units are in microns.
+M21YSize
+The M21 element size in the y direction, in μm.
+F4Units are in microns.
+ScaleFactorThe scaling factor required by the equipment to
+adjust from its SEMI M20 coordinate system to the
+coordinate system established through the  use of
+pattern alignment “alignment site” information. In
+most cases, a scaling factor of 1 is expected.
+F4
+SiteDeltaXThe x axis translation between the defined and
+found locations of a site, in μm.
+F4Units are in microns.
+SiteDeltaYThe y axis translation between the defined and
+found locations of a site, in μm.
+F4Units are in microns.
+SiteNameA unique identifier for a site.A[1..16]
+THETA (Θ)
+The clockwise rotation, in radians, between the
+SEMI M20 and M20P coordinate system axes.
+F4Radians
+TileA flag to indicate whether the SEMI M21 layout is
+tiled, and in which direction.
+A[1..16]Options are:
+“NTILE” is untitled   “CTILE”
+is column  tiled “RTILE” is
+row tiled
+
+SEMI E30.5-0302 © SEMI 2001, 200215
+10  Alarm List
+10. 1  Since    each    model    of    equipment    differs    in
+configuration,    it    is    not    practical    to    provide    an
+exhaustive  list  of  all  possible  alarms.    Instead,  the
+MSEM   is   requiring   the   two   tables   provided   as
+described  in  SEMI  E30  (Document  Section).    Alarm
+List  Table  which  is  intended  to  provide  for  equipment
+configuration  specific  alarms  and  Alarm  ID,  Alarm
+Set/Cleared Event Table.
+10. 2  Alarm List Table
+10. 2.1  The alarm list table contains examples of alarms
+that   pertain   to   various   configurational   aspects   of
+equipment.  These  examples  are  intended  to  illustrate
+that  alarms  pertain  to  situations  in  which  there  exists  a
+potential for exceeding physical safety limits associated
+with  people,  equipment,  and  material  being  processed
+as per the SEMI E30 definition of an alarm. See SEMI
+E30 for further reference.
+10. 3  Alarm ID, Alarm Set/Cleared Event Table
+10. 3.1  The  Alarm  ID,  Alarm  Set/Cleared  Event  table
+documents    the  association  of  each  ALID  to  a  set  and
+cleared event as required by SEMI E30. See SEMI E30
+for further reference.
+11  Process Program Management
+11. 1  Requirements
+ The  MSEM  requires  that  the
+SEMI  E30  capability  of  Process  Program  Management
+be  fully  supported  for  this  class  of  equipment.    The
+MSEM is also requiring that the Process Program have
+a   structure   that   enables   the   user   to   build   Process
+Programs with default conditions that can be overridden
+for  a  run.  MSEM  is  requiring  the  ability  to  vary;  the
+quantity    of    substrates    measured,    the    alignment
+information used and the number and/or location of the
+sites   to   be   measured   through   the   uses   of   Process
+Program variable parameters.  The concepts of Process
+Program   Structure   and   Process   Program   variable
+parameters are discussed in the following sections.
+11. 2   Process Program Structure
+11. 2.1  Definition  and  Rules  for  Process  Programs
+
+A    Process    Program    contains    information    and/or
+instructions  required  for  the  metrology  equipment  to
+process  a  given  run  of  material.    Equipment  constants
+can be used to supplement the information contained in
+a Process Program.
+11. 2.1.1  The  Process  Program  shall  supply  all  of  the
+information  required  for  a  remotely  executed  run  to  be
+processed    without    operator    intervention.        Any
+information   that   is   normally   requested   from   the
+operator console in manual operation shall have default
+values assigned in the body of the Process Program.
+11. 2.1.2  Process-program parameters are used to tailor
+a  specific  run  of  material  and  do  not  permanently
+modify  the  Process  Program.    They  will  remain  in
+effect  only  until  the  next  run  or  until  the  next  PP-
+UPDATE     or     PP-SELECT,     PP-ASSIGN     remote
+command.
+11. 2.1.3  MSEM   is   requiring   the   ability   to   define
+specific Process Program variable parameters to; define
+what  substrates  are  to  be  measured  (Process  SlotList),
+what sites are to be measured (SiteList  or M21SiteList)
+and  what  aligns  are  used  by  the  Process  Program
+(AlignList  or  M21AlignList).  If  the  MSEM  equipment
+is  using  the  SEMI  M21  coordinate  system  then  an
+additional   Process   Program   variable   parameter   is
+required     what     elements     are     to     be     measured
+(ElementList).
+11. 2.2  Definition    of    Process    Program    Variable
+Parameters
+ A  process-program  parameter  specifies
+a value that temporarily modifies the value of a variable
+parameter in a Process Program.  A  variable parameter
+is formally defined within a process-program body and
+contains:
+• a  variable  parameter  name  that  is  unique  in  the
+body
+• a  parameter  initial  value,  known  as  default  value,
+for  use  when  the  Process  Program  is  selected  for
+execution   without   specification   of   an   override
+value for this variable parameter.
+11. 2.3  The  Equipment  may  also  support  the  definition
+including:
+• a  parameter  restriction  that  represents  one  or  more
+conditions    that    any    value    specified    for    the
+parameter must satisfy.
+• a   CP-NAME   in   a   remote   command   must   be
+identical   to   a   variable   parameter   name   in   the
+Process Program specified in the remote command.
+If  the  Equipment  allows  Sub-process  Programs,  a
+Sub-process  Program  reference  may  also  specify
+parameters.
+11. 2.4  Relationship   of   Process   Program   Variable
+Parameter
+ The  PP-SELECT,  PP-ASSIGN  or  PP-
+UPDATE  remote  commands  can  be  used  to  modify
+variables     within     the     Process     Program.          The
+modification  to  process-program  variables  is  done  by
+using CP-NAME/CP-VAL pairs within the command.
+
+SEMI E30.5-0302 © SEMI 2001, 200216
+11. 2.5  Sub-Process  Programs   Equipment  may  allow  a  main  Process  Program  to  reference  Sub-process
+Programs. A main Process Program is one that can be referenced by the host.  A Sub-process Program is a Process
+Program that is referenced by a main Process Program or by other Sub-process Programs. No Sub-process Program
+may  reference  its  main  Process  Program.  If  the  Equipment  supports  sub-process-program  references,  it  must  be
+possible for the host to determine which Sub-process Programs are referenced in all Process Programs.
+11. 2.5.1  Before execution of a main Process Program can begin, the presence of all the Sub-process Programs that it
+references must be verified by the Equipment.  If they are not all present, an error collection event must occur.  It
+must be possible to include in the event report which Sub-process Programs are missing.  For a formatted Process
+Program, the error is reported using an S7F27 message.
+11. 2.6  Component Descriptions and Allowed Formats
+Table 6  Process Program Component Description and Format Table
+Component Name DescriptionFormat  Comments
+ALIGN-ATTRIBUTE
+(n)
+Tool specific information associated with
+alignment site for which no specific MSEM
+data item has been defined.
+Examples include information
+such as magnification, voltage,
+current, wavelength, number of
+scans, integration time, or film
+stack.  The equipment supplier
+shall document all attributes
+that are supported.
+ALIGN-NAMEThe identifier given to a alignment site.A[1..16]
+COORDSYSThe identification for applicable coordinate
+system.
+A[1..16]Options for silicon wafers are:
+SEMI M20, M20P, SEMI M21
+COORDXThe x coordinate for a site or the lower left
+hand corner of an element.
+F4Units are in microns.
+COORDYThe y coordinate for a site or the lower left
+hand corner of an element.
+F4Units are in microns.
+ELEMENTIDThe element identifier in the SEMI M21
+coordinate system
+U4[2]
+M21XSIZEThe SEMI M21 element size in the x direction
+in μm.
+F4
+M21YSIZEThe SEMI M21 element size in the y direction
+in μm.
+F4
+SITE-ATTRIBUTE
+(n)
+Tool specific information associated with a
+measurement site for which no specific
+MSEM data item has been defined.
+Examples
+include information such as
+magnification, voltage, current,
+wavelength,
+number of scans, integration
+time, or film stack.  The
+equipment supplier
+shall document all attributes
+that are supported.
+SITENAMEA unique identifier for a site.A[1..16]
+11. 2.7  DEF-LIST-TABLE Description  DEF-LIST types of tables are used by the equipment in conjunction with
+the Process Programs. The DEF-LIST  table structures provide a means to transfer to equipment a list of a particular
+type of information.  The DEF-LIST table structures are used by the host to send  information to equipment for later
+use  in  association  with  a  Process  Program.    Each  DEF-LIST  that  is  sent  has  a  unique  Table  name  and  each  list
+element  in  the  DEF-LIST  has  several  components  including  a  name  (Site-Name,  or  Align-Name)  as  well  as  other
+components.  A specific list row can be accessed for use with a specific Process Program by giving the DEF-LIST
+table name and the specific row name.
+
+SEMI E30.5-0302 © SEMI 2001, 200217
+11. 2.7.1  There are five types of DEF-LIST tables:
+• SITE-DEF-LIST:  A list of Sites and their attributes, typically the list of sites to be measured.
+• ALIGN-DEF-LIST:  A list of alignment sites and their attributes.
+• M21-ELEMENT-DEF-LIST:    A  list  of  element  ID  and  their  low  left  hand  location  in  M20P  or  SEMI  M20
+coordinates.
+• M21-ELEMENT-SITE-DEF-LIST: A list of ElementID's and what sites are to be measured within that element.
+• M21-ELEMENT-ALIGN-DEF-LIST:  a list of ElementID's and the alignment sites to be used at each.
+NOTE 2:  The attributes are equipment-defined.
+11. 2.7.2  To support the SiteList, and AlignList, for SEMI M20, M20P and SEMI M21, the following types of tables
+must   be   implemented:      SITE-DEF-LIST,   ALIGN-DEF-LIST,   or   M21-ELEMENT-SITE-   DEF-LIST,   M21-
+ELEMENT-ALIGN-DEF-LIST  and  M21-ELEMENT-DEF-LIST.    A  host  would  send  a  DEF-LIST  to  equipment
+using standard transfer methods for tables as defined by ARAMS (SEMI E58).  MSEM requires that the following
+columns be included in the DEF-LIST tables.  The DEF-LIST-TABLE  components table  defines  the DEF-LIST
+column names and their allowable format is given below.
+Table 7  SITE-DEF-LIST
+SitenameCoordxCoordyCoordsysSite- Attribute(n)
+11. 2.7.3  For SEMI M21 Coordinate system an additional table is required.
+Table 8  M21-ELEMENT-SITE-DEF-LIST
+Element idSitename
+Table 9  M21-ELEMENT-DEF-LIST
+Element idCoordxCoordyCoordsysm21xsizem21ysize
+Table 10   ALIGN-DEF-LIST
+Align-NameCoordxCoordyCoordsysAlign- Attribute(n)
+Table 11  M21-ELEMENT-ALIGN-DEF-LIST
+Element idAlign-Name
+
+SEMI E30.5-0302 © SEMI 2001, 200218
+12  Remote Commands
+12. 1  The  purpose  of  this  section  is  to  identify  the
+MSEM     required     remote     commands,     command
+parameters, and valid commands versus MSEM states.
+12. 2  Requirements
+  The  following  capabilities  are
+required:
+• StartProcessing
+• Stop Processing
+• Temporaly Suspend Processing
+• Resume Processing
+• Abort Processing
+• Select  Process  Programs,  Material  and/or  Sites  to
+Measure
+• Report   Location   of   Material   Found   within   a
+cassette
+12. 3  All  the  remote  commands  defined  by  MSEM  are
+required   unless   they   have   been   qualified   by   the
+statement  “if  the  equipment  supports  this  functionality
+it shall use this command”. Then, they are only required
+if the equipment supports the functionality necessary to
+support  the  command.    A  good  example  of  this  is  the
+MAP-CASSETTE command if the equipment does not
+have  the  hardware  necessary  to  scan  a  cassette  for  the
+presence of substrates in slots then the command is not
+required   by   the   MSEM.   The   alphanumeric   strings
+defined   by   MSEM   for   RCMD   and   CPNAME   are
+required.
+12. 4  Definitions
+12. 4.1  Host  Command  Parameter  (CPNAME/CPVAL)
+— a parameter name/value associated with a particular
+host  command  (S2,F49).    This  document  will  specify
+unique  names  (CPNAMEs)  and  values  (CPVALs)  for
+many  command  parameters.    Note  that  if  there  are  no
+associated parameters a zero-length list is sent.
+12. 5  Remote  Commands  Description  —  this  section
+describes     required     functionality,     suppliers     may
+implement additional commands. The following remote
+commands  (RCMDs)  must  be  supported  as  described
+below.
+NOTE  2:  The  terms  “current  cycle”  and  “safe  point”  used
+below are to be defined by the supplier.
+12. 5.1  ABORT   terminate  the  current  cycle  prior  to
+its  completion.    Abort  has  the  intent  of  immediately
+stopping  the  process  and  is  used  because  of  abnormal
+conditions.      Abort   makes   no   guarantee   about   the
+subsequent condition of material except as noted in the
+CPNAME ABORT-LEVEL description.
+12. 5.2  CLEANUP
+ Process   Program   deselection,
+removal  of  all  material  to  output  locations  and  any
+equipment  specific  activities  needed  to  transition  into
+the  IDLE  state.    Completion  of  this  command  should
+generate a collection event report.
+12. 5.3  NEXT-MATERIAL
+ processing  of  the  current
+substrate is halted at the first safe point and unloaded to
+the target cassette location.  Next-material has the intent
+of allowing the host to skip measurement of the current
+substrate.      This   is   a   trigger   for   processing   state
+transition from WORKING to UNLOAD.
+12. 5.4  PAUSE
+ suspend  processing  temporarily  at
+the  next  safe  point.    Pause  has  the  intent  of  resuming
+the  process  at  the  same  point  where  it  was  paused.
+RESUME  or  PP-UPDATE  may  be  used  to  resume  the
+process.
+12. 5.5  PP-ASSIGN
+ instructs the equipment to assign
+a  process  to  a  carrier  ID(s)/location(s)  and  place  the
+exchange  station  in  the  process  queue  with  the  given
+priority. Only one assignment is allowed for a exchange
+station.    Without  specifying  a  priority,  the  material  is
+queued  with  the  default  priority.    Material  with  equal
+priority   are   queued   in   the   order   the   PP-ASSIGN
+commands are received.  If the equipment supports the
+functionality   of   queuing   material,   it   will   use   this
+command.
+12. 5.6  PP-SELECT
+ instructs the equipment to make
+the   requested   Process   Program(s)   available   in   the
+execution  area.    Additionally,  to  reduce  the  number  of
+Process  Programs  on  the  equipment,  PP-SELECT  may
+define  the  material  to  be  measured,  measurement  site
+locations,   and/or   the   information   needed   for   site
+alignment;    default    values    shall    be    used    if    this
+information  is  not  specified.    This  is  a  trigger  for  the
+processing state transition from IDLE to SETTING UP.
+All  Process  Programs  specified  in  the  command  are  to
+be validated
+12. 5.7  PP-UPDATE
+ provides  the  ability  to  alter
+Process    Program    variables    during    the    PAUSED
+processing  state.    Any  CPNAMEs  specified  in  PP-
+UPDATE  will  replace  the  previous  definitions.    This
+command   will   RESUME   the   process.      If   the   PP-
+UPDATE  fails,  the  Process  Program  variables  present
+prior to the PP-UPDATE are retained.  If no parameters
+values are specified, the defaults are used.
+12. 5.8  RESUME
+ resume  processing  from  the  point
+where  the  process  was  paused.    This  is  the  trigger  for
+processing state transition 10, from PROCESS PAUSE.
+12. 5.9  START
+ instructs  the  equipment  to  initiate
+processing.    This  is  the  trigger  for  the  processing  state
+transition from READY to LOAD.
+
+SEMI E30.5-0302 © SEMI 2001, 200219
+12. 5.10  STOP  complete the current cycle, stop in a safe condition and return to the IDLE processing state. Stop
+has  the  intent  of  stopping  the  process  entirely.  The  equipment  is  not  required  to  support  the  continuation  of
+processing.
+12. 6  Host Command Parameters Names (CPNAME)
+Table 12  Host Command Parameter Table
+CPNAME
+CPVAL
+DescriptionRangeFormat
+CARRIERBLDL,2
+1. L,2
+1. CP-CARRIERID **
+2. CARRIERID
+or
+1. L,2
+1. CP- LOCATIONID **
+2. (STORAGE)ID
+2.  L,N
+1. L,2
+1. PROCESS-BLD-GROUP
+2. L,M
+:
+N.  L,2
+1. PROCESS-BLD-GROUP
+** Both CP-CARRIERID and CP-LOCATION may be
+included if no carrier ID reader is available.
+CP-ABORT-LEVELMSEM defined abort levels
+HALT - halt,
+goto ABORTED
+CLEANUP - halt, preform cleanup procedure,
+goto ABORTED
+“HALT”
+“CLEANUP”
+A[7]
+CP-ALIGNLISTL,n
+1.  CP-ALIGNNAME
+:
+n.
+For the SEMI M20 or M20P Coordinate system
+CP-ALIGN-DEF-LISTAs defined in Section 9
+CP-ALIGNNAMEAlignment nameA[1..80]
+CP-AUTOSTARTDefines if a START command is required from an
+external source (operator or host) to exit the READY
+state. 0 = START command required,
+1 = AUTOSTART no external START command
+required to begin execution.
+0–1U1
+CP-CARRIERIDID of carrier that the measurement data is associated
+with.
+A[1..16]
+CP-ELEMENTIDThe M21 address for a specific rectangular pattern on
+the wafer.
+I4[2]
+
+SEMI E30.5-0302 © SEMI 2001, 200220
+CPNAME
+CPVAL
+DescriptionRangeFormat
+CP-ELEMENTLISTL,n
+1. CP-ELEMENTID
+:
+n.
+CP-LOCATIONIDUnique identifier of the location to be used for the
+“CARRIERBLD” assignment.
+U4
+CP-LOTIDlot idA[1..80]
+CP-MATERIALLISTL,n
+1. CP-SLOTID or CP-WAFERID
+:
+n.
+CP-M21-ALIGNLISTL,n
+1.  CP-ALIGNNAME
+:
+n.
+For the SEMI M21 Coordinate system
+CP-M21-SITELISTL,n
+1.  CP-SITENAME
+:
+n.
+For the SEMI M21 coordinate system
+CP-PPNAMEProcess Program nameA[1..80]
+CP-PRIORITYassignment priority0–9
+0–highest
+priority
+U4
+CP-SITELISTL,n
+1.  CP-SITENAME
+:
+n.
+For the SEMI M20 or M20P coordinate system
+CP-SITE-DEF-LISTAs defined in Section 9.
+CP-SITENAMEunique identifier for a siteA[1..16]
+CP-SLOTIDslot number1–nU4
+CP-SLOTLISTSpecifies carrier slots that contains substrate to
+measure.
+L,n
+1. CP-SLOTID
+:
+n.
+0 indicates all
+slots
+CP-WAFERIDPhysical wafer identifierA[1..24]
+
+SEMI E30.5-0302 © SEMI 2001, 200221
+CPNAME
+CPVAL
+DescriptionRangeFormat
+PROCESS-BLD-GROUPL,n
+1. L,   2
+1. CP-PPBUILDID
+2. PPBUILDGROUPID
+2. L,   2
+1. CP-PPNAME
+2. PPNAME
+3. L,   2
+1. CP-LOTID
+2. LOTID
+4. L,   2
+1. CP-AUTOSTART
+2. START
+5. L,   2
+1. CP-MATERIALLIST
+2. L,   n
+1.  CP-SLOTID
+:
+n.
+or
+1. CP-WAFERID
+2. L,   n
+:
+n.
+n ≥ 2
+List of n data
+items
+
+SEMI E30.5-0302 © SEMI 2001, 200222
+CPNAME
+CPVAL
+DescriptionRangeFormat
+PROCESS-BUILD-
+GROUP(continues)
+6. L,   2
+1. CP-SITE-DEF-LIST
+2. SITE-TABLE-NAME
+7. L,   2
+1. CP-SITELIST
+2. L,   n
+1.  CP-SITENAME
+:
+n.
+8. L,   2
+1. CP-ALIGN-DEF-LIST
+2. ALIGN-TABLE-NAME
+9. L,   2
+1. CP-ALIGNLIST
+2. L,    n
+1. CP-ALIGN-NAME
+:
+n.
+10. L,    2
+1. CP-ELEMENTLIST **
+2. L,   n
+1.  CP-ELEMENTID
+:
+n.
+**CP-ELEMENTLIST is required when using the
+SEMI M21 coordinate system in the definition of an
+ALIGNNAME or SITENAME .
+10. L,   2
+1. CPNAME
+supplier defines Process
+Program Variable Parameters
+2. CPVAL
+CP-PPNAME is required, CP-SLOTLIST, CP-
+SITELIST, and CP-ALIGNLIST are optional.
+
+SEMI E30.5-0302 © SEMI 2001, 200223
+12. 7  Remote  Commands  and  Associated  Host  Command  Parameters   This  table  describes  the  allowable
+command  parameters    (CPNAME)  for  each  remote  command  (RCMD).    Equipment  must  support  all  parameters.
+The column marked Req/Opt, specifies which parameters are required to be sent by the host and which parameters
+may be optionally sent by the host.
+Table 13  Remote Command and Associated Host Command Parameters Table
+Parameter(s)Remote
+Command
+CPNAMEReq/optDescription
+ABORTCP-ABORT-LEVEL         O
+CLEANUPCP-LOCATIONID
+CP-SLOTID
+O
+O
+Location and SLOT may be used to define
+a different cassette / slot  destination for
+the substrates.
+NEXT-MATERIALCP-LOCATIONID
+CP-SLOTID
+O
+O
+If no command parameters are specified,
+then the substrate is returned to its original
+source carrier and slot.
+If a CP-SLOT command parameter is
+specified, then the substrate is placed in
+that slot of its original source carrier.
+If a CP-LOCATIONID command
+parameter is specified, then the substrate is
+placed in an available slot of the carrier at
+the specified location.
+If both CP-SLOT and CP-LOCATION
+command parameters are specified, then
+the substrate is placed in specified  slot of
+the carrier at the specified location.
+PAUSENone      N/ANone
+PP-ASSIGNCP-PRIORITY
+CARRIERBLD*
+O
+R
+* More than one CARRIERBLD may be
+specified. There may be more than one
+PROCESS-BLD-GROUP in each
+CARRIERBLD.
+PP-SELECTCARRIERBLD*         R* More than one CARRIERBLD may be
+specified. There may be more than one
+PROCESS-BLD-GROUP in each
+CARRIERBLD.
+PP-UNASSIGNCP-LOCATIONID
+CP- CARRIERID
+R*
+R*
+* At least one is required.
+PP-UPDATECP-SLOTLIST
+CP-SITELIST
+CP-ALIGNLIST
+R*
+R*
+R*
+* At least one is required. By default use
+the current active input port.
+RESTAGECP-LOCATIONID         R** Some equipment may not support this
+feature.
+RESUMENoneN/ANone
+STARTNoneN/ANone
+STOPNoneN/ANone
+
+SEMI E30.5-0302 © SEMI 2001, 200224
+12. 8  Remote Command and Processing State Relationship
+Table 14  Remote Commands versus Processing States Table
+Command
+ABORT
+CLEANUP
+PP-ASSIGN
+NEXT-MATERIAL
+PA U S E
+PP-SELECT
+PP-UPDATE
+RESUME
+START
+STOP
+PROCESSING STATE
+IDLEX  X
+PROCESSING ACTIVE
+PROCESS
+SETTING UP  X       X  X   X
+READY  X  X     X  X   X
+EXECUTING          X
+LOAD  X       X  X   X
+WORKING
+ALIGN  X       X  X X   X
+MEASURING  X       X  X X   X
+TAKE ME ASU RE  X       X  X X   X
+TAKE SAMPLE  X      X X X  X
+SAMPLE COMPLETE X      X X X  X
+MEAS COMPLETE X      X X X  X
+UNLOAD  X       X  X   X
+STOPPING          X   X
+PA U S E
+PROCESS PAUSE
+PA U S I N G  X        X   X
+PA U S E D  X   X  X    X   X
+CHECKING  X        X   X
+ALARM PAUSED  X        X   X
+ABORTED          X  X
+
+SEMI E30.5-0302 © SEMI 2001, 200225
+13  Scenarios
+13. 1  The purpose of this section is to document any MSEM specific scenarios that must be performed by this class
+of equipment.
+13. 2  Normal Reporting
+COMMENTSHOSTEQUIPMENTCOMMENTS
+The equipment is in the IDLE processing state and in the
+ONLINE REMOTE control state. Material arrives on input
+port 1.
+PP-ASSIGNS2,F63-->
+<--S2,F64Positive Acknowledge.
+<--S6,F11IDLE -> SETTING UP
+Positive Acknowledge.S6,F12-->
+<--S6,F11SETTING UP -> READY
+Positive Acknowledge.S6,F12-->
+STARTS2,F41-->
+<--S2,F42Positive Acknowledge.
+<--S6,F11READY -> LOAD.
+Positive Acknowledge.S6,F12-->
+[WHILE] Not End of Run
+1)  LOAD->WORKING
+2)  Sample and/or Site level data reporting.
+3)  WORKING->UNLOAD
+4)  Substrate level data reporting.
+5)  UNLOAD->LOAD.
+[ENDWHILE].
+<--S6,F11LOAD->STOPPING.
+Positive Acknowledge.S6,F12-->
+Run level data reporting.
+<--S6,F11STOPPING->IDLE.
+Positive Acknowledge.S6,F12-->
+13. 3   ABORT/ CLEANUP  Remote Command Scenario  Host issues the ABORT/CLEANUP remote command
+COMMENTSHOSTEQUIPMENTCOMMENTS
+ABORTS2,F41-->("CLEANUP" not specified)
+<--S2,F42Positive Acknowledge.
+<--S6,F11Transition to ABORTED.
+Positive Acknowledge.S6,F12-->
+CLEANUPS2,F41-->
+<--S2,F42Positive Acknowledge.
+Equipment performs cleanup activities.
+<--S6,F11CEID is posted.
+[IF] cleanup is successful:
+Transition to IDLE
+[ELSE]
+Remain in the ABORTED state.
+[ENDIF].
+Positive Acknowledge.S6,F12-->
+
+SEMI E30.5-0302 © SEMI 2001, 200226
+13. 4  PP-UPDATE Remote Command Scenario  Host issues the PP-UPDATE remote command.
+COMMENTSHOSTEQUIPMENTCOMMENTS
+STARTS2,F41-->
+<--S2,F42Positive Acknowledge.
+<--S6,F11READY -> LOAD
+Positive Acknowledge.S6,F12-->
+[WHILE] Not End of Run
+1)  LOAD->WORKING
+2)  WORKING->UNLOAD
+3)  UNLOAD->LOAD
+[ENDWHILE]
+Sometime during the
+[WHILE]:
+PAUSES2,F41-->
+<--S2,F42Positive Acknowledge.
+<--S6,F11Transition to PAUSING
+Positive Acknowledge.S6,F12-->
+<--S6,F11PAUSING -> PAUSED
+Positive Acknowledge.S6,F12-->
+PP-UPDATES2,F41-->
+<--S2,F42Positive Acknowledge.
+<--S6,F11PAUSED->CHECKING
+Positive Acknowledge.S6,F12-->
+<--S6,F11CEID is posted.
+[IF] the updates are valid:
+Return to the previous process state thru history
+[ELSE]
+Return to the PAUSED state. The Process Program
+remains unchanged.
+[ENDIF]
+Positive Acknowledge.S6,F12-->
+13. 5  PP-ASSIGN / PP-UNASSIGN Scenario  Host issues the PP-ASSIGN/PP-UNASSIGN remote commands.
+COMMENTSHOSTEQUIPMENTCOMMENTS
+PP-ASSIGNS2,F41-->
+<--S2,F42Positive Acknowledge.
+PP-UNASSIGNS2,F41-->
+<--S2,F42Positive Acknowledge.
+This may occur during the
+STOPPING state.
+13. 6  The host may setup the material for additional processing without the cassette being removed and replaced on
+the equipment.
+
+SEMI E30.5-0302 © SEMI 2001, 200227
+14  SEMI E30 Capabilities
+14. 1  The purpose of this section is to specify any SEMI
+E30 Capabilities required by MSEM class equipment.
+14. 2  Requirement
+ The    following    SEMI    E30
+additional capabilities required by MSEM are:
+• Dynamic Event Report Configuration
+• Variable Data Collection
+• Status Data Collection
+• Alarm Management
+• Remote Control
+• Equipment Constants
+• Process Program Management
+• Spooling
+• Trace Data Collection (optional)
+• Control (Host Initiated)
+15  Related Documents
+Harel,   D.,   “Statecharts:   A   Visual   Formalism   for
+Complex Systems,” Science of Computer Programming
+8 (1987) 231-274.
+NOTICE:.          SEMI     makes     no     warranties     or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.      These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+SEMI E30.5-0302 © SEMI 2001, 200228
+RELATED INFORMATION 1
+SEM UNIQUE CAPABILITIES
+NOTE:  This related information is not an official part of SEMI E30.5 and was derived from work developed in the Metrology
+Specific  Equipment  Model  Task  Force  in  North  America.    This  related  information  was  approved  for  publication  by  full  letter
+ballot on April 30, 2001.
+R1-1.      Measurement   Site   Location    Metrology
+equipment  most  often  is  used  to  make  measurements
+and   report   results   at   specific   sites   on   a   substrate.
+Unfortunately,   equipment   suppliers   and   users   have
+adopted  different  formats  for  describing  measurement
+site   location   information.      This   has   led   to   three
+problems  which  increase  the  cost  of  metrology.    First,
+metrology  equipment  suppliers  must  provide  formats
+which meet conflicting requirements of their customers,
+adding to equipment development costs.  Second, users
+must  transpose  information  from  different  systems  to
+their own format in order to use metrology data.  Third,
+site  location  information  is  often  an  integral  part  of
+recipe  set  up,  often  requiring  that  an  actual  product
+sample  be  available  for  “training”  the  site  location
+information   on   the   equipment.      For   users   who
+manufacture   many   different   products   on   common
+substrates,   multiple   metrology   “recipes”   must   be
+developed  where  the  only  differences  are  site  location
+information.    This  information  is  known  to  the  user
+from  product  design  data,  and  should  not  need  to  be
+"learned" uniquely on various metrology equipment.
+R1-1.1    In  order  to  avoid  these  problems,  MSEM
+defines  specific  formats  for  identifying  and  reporting
+site    location    information    on    substrates.        The
+MSEM-required  formats  are  intended  to  minimize  the
+number and type of site location format transformations
+needing  to  be  supported  by  both  metrology  equipment
+suppliers  and  users.    All  MSEM-required  site  location
+formats    involve    the    use    of    an    MSEM-defined
+right-handed  Cartesian  coordinate  system,  established
+on   substrates   in   an   MSEM-defined   manner.      This
+release  of  MSEM  defines  these  only  for  silicon  wafer
+substrates,  based  on  SEMI  standard  M20.    Additional
+substrate  types  may  be  included  in  future  revisions  of
+MSEM, if required.
+R1-1.2      MSEM   requires   that   equipment   have   the
+capability  to  use  site  location  information  that  is  based
+on  the  user's  product  designs,  which  the  user  must
+provide  in  the  appropriate  MSEM-required  format.    In
+other  words,  equipment  shall  not  require  that  a  sample
+substrate  be  used  to  “train”  site  locations  when  users
+can provide this information from product design data.
+R1-1.3    MSEM-compliant  equipment  shall  have  the
+capability  to  define,  locate,  measure,  and  report  site
+information      using      only      the      MSEM-defined
+right-handed Cartesian coordinate system formats.  This
+requirement  does  not  preclude  equipment  from  having
+additional   capability   for   defining   or   reporting   site
+location  information  using  other  formats.    One  such
+additional  format  is  defined  in  MSEM  for  patterned
+silicon wafer substrates, based on SEMI standard SEMI
+M21.    MSEM-compliant  equipment  is  not  required  to
+have  this  “M21”  format  capability,  but  must  use  the
+MSEM “M21” format if it is provided.
+R1-1.4    Specific  MSEM  information    that  defines  site
+location information includes ; the data items AlignList
+and  SiteList;  the  CPNAMEs    CP-ALIGNLIST  and
+CP-SITELIST  and  the  TABLE  type  named  ALIGN-
+DEF-LIST  and  SITE-DEF-LIST.    Notice  that  multiple
+sites can first be Defined using the appropriate Process
+Program   class   named   ALIGN-DEF-LIST   or   SITE-
+DEF-LIST,  then  selected  by  using  the  ALIGN-NAME
+or SITENAME in an MSEM defined remote command
+that  use  CP-ALIGNLIST  AND  CP-SITELIST.    This
+information    is    similarly    defined    for    the    “M21”
+coordinate   system   plus   an   additional   CPNAME   of
+ELEMENTLIST   which   lists   the   ElementIDs   to   be
+measured on the silicon wafers.
+R1-2   Coordinate Systems For A Silicon Wafer
+R1-2.1     Requirements
+
+
+ MSEM     defines     two
+right-handed  Cartesian  coordinate  systems  for  use  on
+silicon  wafers.    These  are  identified  as  the  “M20”  and
+“M20P”  coordinate  systems.    Both  are  based  on  SEMI
+standard  M20.  The  SEMI  M20  standard  describes  how
+to map a right-handed Cartesian coordinate system to a
+wafer so that its origin is at the center of the wafer, and
+its  negative  y-axis  bisects  the  wafer's  primary  fiducial.
+This  coordinate  system  is  defined  by  MSEM  to  be  the
+“M20” coordinate system.  MSEM defines the "M20P"
+coordinate  systems  to  be  one  which  is  aligned  to  the
+pattern  on  the  wafer.    Ideally,  there  is  no  difference
+between  the  “M20P”  and  “M20”  coordinate  system.  In
+the real world, there is a difference, due to experimental
+errors.    This  is  explained  further  in  the  following
+sections.
+R1-2.2    Implementation
+   The   only   information
+required  by  equipment  in  order  to  establish  an  “M20”
+coordinate system is the wafer size and type of fiducial.
+This  is  provided  by  way  of  the  MSEM  data  items
+named   WaferSize   and   Fiducial.   Another   data   item
+named  Orientation  provides  for  control  over  how  the
+wafer  is  loaded  on  equipment.    Note  that  the  SEMI

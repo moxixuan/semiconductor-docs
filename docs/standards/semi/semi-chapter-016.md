@@ -1,0 +1,4460 @@
+---
+title: "E100-1104 - © SEMI 2000, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E100-1104 - © SEMI 2000, 2003..."
+sidebar_position: 160
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-016.pdf'
+  chapter: 16
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/016.pdf"
+  pdfSize="0.69MB"
+  title="E100-1104 - © SEMI 2000, 2003..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI E100-1104 © SEMI 2000, 2003 14
+APPENDIX 2
+ADDITIONAL INFORMATION
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E100  and  was  approved  by  full  letter  ballot
+procedures on September 3, 1999 by the North American Regional Standards Committee.
+A2-1    Features  on  the  RSP  which  enable  stacking  may  be  standardized  in  the  future  pending  learning  from  first
+design approaches and standardization of reticle ID location.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standard set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copy-righted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 1
+SEMI E101-1104
+GUIDE FOR EFEM FUNCTIONAL STRUCTURE MODEL
+This  guide  was  technically  approved  by  the  Global  Physical  Interfaces  and  Carriers  Committee  and  is  the
+direct  responsibility  of  the  North  American  Physical  Interfaces  and  Carriers  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  August  16,  2004.    Initially  available  at
+www.semi.org September 2004, to be published November. Originally published February 2000; previously
+published October 2000.
+1  Purpose
+1. 1  Productivity   improvement   is   the   task   with   the
+highest  priority  in  semiconductor  factories  of  the  300
+mm   generation,   and   computer-integrated   manufact-
+uring  or  factory  automation  (CIM/FA)  technologies
+become more and more important to accomplish it. The
+standardization  of  these  technologies  is  also  necessary
+to  provide  the  CIM/FA  infrastructure  in  a  short  period
+of time at a low cost.   Since the standards will have to
+cover a wide range of production equipment, communi-
+cation hardware, and software tools, it is very important
+that  the  standards  have  a  high  degree  of  compatibility.
+In   order   to   improve   the   compatibility,   this   guide
+provides  a  functional  structure  model  of  an  Equipment
+Front  End  Module  (EFEM)  that  handles  carriers  and
+substrates  at  the  interface  between  the  factory  material
+handling system and the process equipment.
+1. 2  The major purposes of this guide are as follows:
+1)  provide  a  common  understanding  of  functions  of
+EFEM  (Equipment  Front  End  Module)  and  associated
+interfaces  between  functional  elements  (components
+with particular function roles),
+2) provide a common understanding of the hierarchical
+structure of functions and their interfaces in an EFEM,
+3)  provide  a  common  understanding  of  possible  units
+used for maintenance, adjustment, and control, and
+4)  provide  a  map  between  EFEM  functional  elements
+and existing standards.
+2  Scope
+2. 1  Model Structure and Functions
+2. 1.1  This document recognizes EFEM as a component
+of  semiconductor  manufacturing  equipment.  It  creates
+an EFEM functional structure model to clearly describe
+EFEM,  its  functional  elements,  and  the  functions  of
+each functional element. The functional structure model
+includes the following:
+1)   definition   of   functional   elements   that   constitute
+EFEM,
+2) definition of functions of functional elements, and
+3) hierarchical description of functional elements.
+2. 1.2  For   clarity,   Fixed   Buffer   Type   EFEM   and
+Internal  Buffer  Type  EFEM  (see  Terminology)  are
+represented  as  independent  functional  structure  models
+in this document.
+2. 2  Preconditions for Modeling
+2. 2.1  The   models   are   created   under   the   following
+conditions:
+1)   Modeling   should   be   restricted   to   SEMI   E15.1,
+Option  1,  Options  2  and  3,  and  Option  3  types.  (See
+SEMI E15.1, Figure 2 (Load Port Options)).
+2) The model supports handling of open cassette (OC),
+and    Front    Opening    Unified    Pod    (FOUP)    (see
+Terminology).
+3)  The  model  is  created  for  the  maximum  structure
+including options.
+4) Functional elements that have interfaces with  EFEM
+are also included in the model.
+NOTE 1: Functional elements that don’t belong to EFEM, but
+are  important  in  defining  interfaces  among  the  functional
+elements,   are   represented   in   this   model   to   clarify   their
+functional positions and attributes in the entire equipment.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI  E1.9  ⎯  Mechanical  Specification  for  Cassettes
+Used to Transport and Store 300 mm Wafers
+SEMI E15 ⎯ Specification for Tool Load Port
+SEMI  E15.1  ⎯  Specification  for  300  mm  Tool  Load
+Port
+SEMI E19 ⎯ Standard Mechanical Interface (SMIF)
+SEMI E23 ⎯ Specification for Cassette Transfer
+Parallel I/O Interface
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 2
+SEMI  E47.1  ⎯  Provisional  Mechanical  Specification
+for  Boxes  and  Pods  Used  to  Transport  and  Store  300
+mm Wafers
+SEMI  E57  ⎯  Mechanical  Specification  for  Kinematic
+Couplings  Used  to  Align  and  Support  300  mm  Wafer
+Carriers
+SEMI  E64  ⎯  Specification  for  300  mm  Cart  to  SEMI
+E15.1 Docking Interface Port
+SEMI   E84   ⎯   Specification   for   Enhanced   Carrier
+Handoff  Parallel I/O Interface
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Abbreviations and Acronyms
+4. 1.1  AGV — automatic guided vehicle (cart)
+4. 1.2  OHT — overhead transport system with hoist for
+lifting  carriers  between  load  port  level  and  transport
+level.
+4. 1.3  PGV — person guided vehicle (cart).
+4. 1.4  PI/O   —   parallel   input/output   interface,   for
+example, as specified in SEMI E23.
+4. 1.5  RGV   —   rail   guided   vehicle   (moving   on   the
+floor).
+4. 2  Definitions
+4. 2.1  BOLTS  plane  —  a  plane  parallel  to  the  facial
+datum  plane  near  the  front  of  the  tool  where  the  box
+opener/loader is attached (as defined in SEMI E63).
+4. 2.2  box   —   a   protective   portable   container   for   a
+cassette and/or substrate(s).
+4. 2.3  box  opener/loader  —  the  equipment  component
+that  opens  wafer  carriers  (if  needed)  and  presents  the
+carriers   to   the   equipment’s   Substrate   Handler   for
+unloading and loading wafers.
+4. 2.4  carrier — any cassette, box, or pod that are used
+to transport  substrates (as defined in SEMI E15).
+4. 2.5  cart — a floor-based carrier transfer vehicle.
+4. 2.6   cassette  —  an  open  structure  that  holds  one  or
+more wafer substrates.
+4. 2.7  docking  —  the  act  of  locating  a  floor-based
+carrier  transport  vehicle  for  carrier  transfer  to/from
+equipment.
+4. 2.8  equipment   front   end   module   (EFEM)   —   it
+consists  of  the  carrier  handler  that  receives  carriers
+from  the  factory  material  handling  system  on  one  or
+more load ports (as specified in SEMI E15.1), opens the
+carriers   (if   needed),   and   may   include   a   Substrate
+Handler  for  unloading  and  loading  wafers  from  the
+carrier to the process part of equipment.
+4. 2.9  fixed  buffer  —  EFEM  configuration  with  carrier
+places  only  on  load  port  units  arranged  in  a  load  port
+group.
+4. 2.10  front   opening   unified   pod   (FOUP)  —  front
+opening type box/pod with non-removable cassettes (as
+defined in SEMI E47.1).
+4. 2.11  internal  buffer  —  EFEM  configuration  with
+carrier places different from load port units.
+4. 2.12  kinematic  coupling  —  the  physical  alignment
+mechanism  on  the  bottom  of  the  wafer  carrier  that
+consists of features that mate with three vertical pins on
+the load port (as defined in SEMI E57).
+4. 2.13  load  port  —  the  interface  location  on  a  tool
+where  carriers  are  placed  to  allow  the  tool  to  process
+wafers (as defined in SEMI E15).
+4. 2.14  open  cassette  (OC)  —  a  cassette  (as  defined  in
+SEMI E1.9) without a protective barrier around it.
+4. 2.15  transfer  —  to  either  load  or  unload  (as  defined
+in SEMI E15).
+5  Modeling Methodology (General Rules)
+5. 1  Notation
+5. 1.1  A functional element to be defined is represented
+by a rectangle.
+5. 1.2  The name of a functional element is written in the
+rectangle representing the element.
+5. 1.3  Numbers  preceding  the  functional  element  name
+indicate the number of elements.
+[0, 1] indicates the element may exist or may not exist.
+[1+] indicates the element may exist one or more times.
+5. 2  Rules of Notation Usage
+5. 2.1  A functional element that is written on the border
+between   adjacent   layers   indicates   the   element   may
+belong  to  either  of  two  functional  elements  in  the
+adjacent layers.
+5. 2.2  Functional   elements   whose   position   in   the
+Functional  Structure  Model  diagram  are  similar  in  the
+two  models  of  Fixed  Buffer  Type  EFEM  and  Internal
+Buffer Type EFEM have the same name.
+5. 2.3  A   functional   element   whose   location   is   still
+undecided  between  two  adjacent  layers  is  located  in
+between them.
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 3
+6  Definition of Functional Elements
+6. 1  Overall Structure
+6. 1.1  Figures  1,  2  and  Figures  3,  4  show  conceptual
+structures  of  two  types  of  Fixed  Buffer  Type  EFEM
+model  and  two  types  of  Internal  Buffer  Type  EFEM
+model  in  overall  structure  of  equipment.  Two  types  of
+EFEM   exist,   when   Substrate   Handler   is   installed
+outside   the   Process   Part,   and   when   the   Substrate
+Handler is included inside the Process Part.
+6. 1.2  EFEM  [1]  —  This  is  a  major  module  whose
+functions are to transfer carriers to and from the factory
+material handling system, to provide all carrier handling
+and storage functions for production equipment, and to
+load   and   unload   substrates   from   the   carrier   for
+processing.  It  consists  of  a  Carrier  Handler  and  may
+contain a Substrate Handler.
+6. 1.3  Carrier   Handler   [1]   —   A   Carrier   Handler
+receives  and  passes  the  carriers  from  and/or  to  the
+external  system  (such  as  the  factory  material  handling
+system). A Carrier Handler of the Internal Buffer Type
+has  the  functions  of  handling  and  storing  the  carriers.
+A  carrier  handler  for  FOUPs  has  the  opener(s)  for
+opening and closing FOUPs.
+6. 1.4  Substrate  Handler  [0,1]  —  A  Substrate  Handler
+transfers substrates between the carriers and the process
+part of the equipment.
+6. 1.5  Load Port Group [1+] — The load port group is
+where  carriers  are  received  and  passed  from  or  to  the
+external  system  (such  as  the  factory  material  handling
+system).    Each  equipment  has  at  least  one  load  port
+group.  A load port group consists of one or more load
+ports.
+1. 1.5 Internal Buffer [1+] — This is a buffer that stores
+carriers  inside  equipment.  It  moves  carriers  from  Load
+Port Group to Buffer and moves carriers from Buffer to
+Internal Substrate Port. It consists of a Carrier Transfer
+Robot  that  transfers  the  carriers  to  or  from  a  Carrier
+Storage and a Carrier Storage where carriers are stored.
+6. 1.6  Internal  Substrate  Port  [0,1+]  —  This  is  where
+substrates are loaded and unloaded from a carrier, and it
+contains any functionality required to present the carrier
+for substrate access.
+6. 2  Definition   of   Functional   Elements   for   EFEM
+Models
+6. 2.1  Model of Fixed Buffer Type EFEM (see Figure 5)
+6. 2.1.1  Load  Port  [1+]  —  A  load  port  is  where  an
+individual  carrier  is  held  for  pickup  and  delivery  with
+the  factory  material  handling  system.  It  consists  of  a
+Load    Port    Unit    and    may    contain    PI/O    for
+OHT/AGV/RGV,  Cart-to-Tool  Docking  Port  Interface,
+and a Load Port Door.
+6. 2.1.2  Load Port Unit [1] — This physically receives
+carriers  from/to  external  systems.    It  consists  of  a
+Carrier  Opener/Loader,  and  it  may  contain  a  Carrier
+Operation  Panel,  a  Carrier  ID  Reader/Writer,  and  a
+Carrier Slot Mapper.
+6. 2.1.3  PI/O  for  AGV/RGV/OHT  [0,1]  —  This  is  a
+means  of  low-level  communications  that  synchronizes
+the  hand-off  between  Automated  Material  Handling
+equipment  (such  as  AGV,  RGV,  OHT)  and  production
+equipment.  One  Parallel  I/O  may  exist  for  each  stop
+position  of  the  AGV,  RGV,  or  OHT.    It  may  be  a  part
+of a Load Port or a Load Port Group depending on the
+number of ports that can be accessed from a single stop
+position.
+6. 2.1.4  Cart-to-Tool  Docking  Port  Interface  [0,1]  —
+This is the mechanical interface allocated for installing
+the module to be used as a docking means for a person-
+guided  vehicle  (PGV)  at  the  Load  Port  Group.    One
+Cart-to-Tool  Docking  Port  Interface  may  exists  per
+Load Port Group or per Load Port.
+6. 2.1.5    Load  Port  Door  [0,1]  —  This  is  the  door  that
+may  be  used  to  separate  the  space  on  a  load  port  from
+the  external  environment,  or  to  prevent  the  operator
+from interfering with the load port mechanism or OHT.
+This may be a part of a Load Port or a Load Port Group
+depending on the number of ports that can be accessed
+through a single Port Door.
+6. 2.1.6  Carrier  Operation  Panel  [0,1]  —  This  is  an
+operation   panel   that   may   be   used   when   manually
+loading  or  unloading  a  carrier  to or from a Load Port.
+One   operation   panel   may   exist   for   each   of   SEMI
+E15.1’s  Load  Port  Option  1  and  Option  3  types.    No
+operation  panel  may  exist  for  a  Load  Port  of  SEMI
+E15.1, Option 2 type.
+6. 2.1.7  Manual   Switches   [0,1]   —   These   are   the
+switches   that   may   be   used   by   an   operator   when
+manually  loading  or  unloading  a  carrier.  They  are
+located on the Carrier Operation Panel.
+6. 2.1.8  Carrier  Indicators  [0,1]  —  These  consist  of  a
+Carrier  Presence  Indicator  (that  indicates  the  presence
+of  a  carrier)  and  a  Carrier  Placement  Indicator  (that
+indicates  whether  the  carrier  is  correctly  seated).    One
+set  of  Carrier  Indicators  may  exist  for  each  Load  Port
+Unit. They are located on the Carrier Operation Panel.
+6. 2.1.9  Carrier  Opener/Loader  [1]  —  This  is  the  unit
+that   prepares   a   carrier   for   access   for   loading   and
+unloading   substrates   and   includes   all   mechanisms
+required  for  docking  and  undocking,  purging,  opening
+and  closing  FOUPs.  In  the  case  of  an  OC,  it  consists
+only of the Load Plate.
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 4
+6. 2.1.10  Dock Plate [0,1] — This is a mechanism that
+advances   a   FOUP   up   to   the   door   opening/closing
+mechanism.    It  contains  a  Load  Plate  that  a  carrier  is
+placed   on,   and   it   may   contain   the   Dock/Undock
+mechanism    that    advances    the    carrier    into    the
+equipment, and/or a Carrier Purge Interface.
+6. 2.1.11  Load  Plate  [1]  —  This  is  the  base  plate  on
+which  carriers  are  placed.    It  consists  of  a  Kinematic
+Coupling  and  may  contain  Carrier  Sensors  and/or  Info
+Pad Sensors.
+6. 2.1.12  Carrier Sensors [0,1] — These are sensors to
+detect  whether  a  carrier  is  present  and/or  a  carrier  is
+correctly placed.
+6. 2.1.13  Info Pad Sensors [0,1] — These are sensors to
+detect Info Pads as defined in SEMI E1.9.
+6. 2.1.14  Carrier  Purge  Interface  [0,1]  —  This  is  a
+mechanical   interface   for   injecting   and   withdrawing
+gasses.
+6. 2.1.15  Dock/Undock Mechanism [0,1] — This is the
+mechanism that advances a carrier to the FOUP opener
+and locks the carrier, or releases it from its locked state.
+In   the   OC   (as   defined   in   SEMI   E1.9)   case,   this
+mechanism only moves carriers.
+6. 2.1.16  FOUP Opener [0,1] — This is the mechanism
+that opens and closes the FOUP door.
+6. 2.1.17  Carrier   Opener/Loader   Maintenance   Panel
+[0,1] — This is a user interface for maintenance of the
+Carrier Opener/Loader.
+6. 2.1.18  Carrier  Slot  Mapper  [0,1]  —  This  is  the
+mechanism  that  detects  the  presence  or  the  absence  of
+substrates  and  their  positions  in  a  carrier.    It  may  be
+installed     on     the     FOUP     Opener,     the     Carrier
+Opener/Loader,  the  Load  Port  Unit,  or  the  Substrate
+Handler.
+6. 2.1.19  Carrier ID Reader/Writer [0,1] — This is the
+unit  that  reads  and/or  writes  to  an  ID  tag  attached  to  a
+carrier.    At  most,  one  Carrier  ID  Reader/Writer  exists
+for each Load Port Unit.
+6. 2.1.20  Status  Indicator  [0,1]  —  This  is  a  set  of
+indicators  which  shows  operating  status  of  the  Load
+Port Unit.
+6. 2.1.21  Substrate  ID  Reader  [0,1]  —  This  is  the  unit
+which reads the Identification Label on the Substrate.
+6. 2.1.22  Aligner  [0,1]  —  This  is  the  unit  which  aligns
+the angular orientation of substrates and may center the
+substrate.
+6. 2.1.23  Substrate  Transfer  Robot  [0,1+]  —  This  is
+the   unit   which   transfers   substrates  between  Carrier
+Handler, automation components (Aligner, Substrate ID
+Reader, etc.)  and Process Part.
+6. 2.2  Model of Internal Buffer Type EFEM (see Figure
+6)
+
+6. 2.2.1  This  section  defines  functional  elements  that
+exist only in an Internal Buffer Type EFEM.
+6. 2.2.2  Internal   Buffer   [1+]   —   This   is   where   an
+individual carrier is stored in an EFEM. It consists of a
+Carrier  Transfer  Robot  that  transfers  carriers  and  a
+Carrier Storage where carriers are stored.
+6. 2.2.3  Carrier  Transfer  Robot  [1]  —  This  is  a  robot
+that handles carriers in Carrier Storage.
+6. 2.2.4  Carrier Storage [1+] — This is where an
+individual carrier is stored.
+
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 5
+
+Equipment
+EFEM (Equipment Front End Module)
+Substrate
+Handler
+Process Part
+AGV
+PGV
+RGV
+Carrier
+Transportation
+(Automatic or
+Manual)
+Carrier Handler
+Load Port Group
+Substrate
+Transpor-
+tation
+OHT
+Operator
+
+Figure 1
+Conceptual Structure of Fixed Buffer Type EFEM in Equipment W hen Substrate Handler Is Installed
+Outside Process Part
+
+
+Equipment
+EFEM
+(Equipment Front End Module)
+Substrate
+Handler
+AGV
+PGV
+RGV
+Process Part
+OHT
+Carrier
+Transportation
+(Automatic or
+Manual)
+Carrier Handler
+Load Port  Group
+Substrate
+Transportation
+Operator
+
+Figure 2
+Conceptual Structure Location of Fixed Buffer Type EFEM in Equipment When Substrate Handler Is
+Included Inside Process Part
+
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 6
+
+Equipment
+EFEM (Equipment Front End Module)
+Substrate
+Handler
+AGV
+PGV
+RGV
+Process Part
+OHT
+Carrier Handler
+Load Port
+Group
+Internal
+Buffer
+Internal
+Substrate
+Port
+Substrate
+Transpor-
+tation
+Carrier
+Transportation
+(Automatic or
+Manual)
+Operator
+
+Figure 3
+Conceptual Structure of Internal Buffer Type EFEM in Equipment When Substrate Handler Is Installed
+Outside Process Part
+
+
+Equipment
+EFEM (Equipment Front End Module)
+Substrate
+Handler
+AGV
+PGV
+RGV
+Process Part
+OHT
+Carrier Handler
+Load Port
+Group
+Internal
+Buffer
+Internal
+Substrate
+Port
+Substrate
+Transportation
+Carrier
+Transportation
+(Automatic or
+Manual)
+Operator
+
+Figure 4
+Conceptual Structure of Internal Buffer Type EFEM in Equipment When Substrate Handler Is Included
+Inside Process Part
+
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 7
+OHT
+AGV/
+RGV/
+PGV
+1+ Human Interfaces (User Interface)
+1+ EMO Switch1+ Signal Tower1+ Operation Console
+0,1
+Substrate
+Handler
+0, 1+
+Substrate
+Transfer
+Robot
+Process
+Part
+1 Carrier Handler
+1+  Load Port Group
+1+ Load Port
+0,1 Manual Switches
+0,1  Carrier Presence Indicator
+0,1 Carrier Indicators
+0,1 Carrier Placement Indicator
+0,1 Load Port Door
+0,1 PI/O for AGV/RGV/OHT
+0,1 Cart to Tool Docking Port Interface
+0,1 Carrier ID Reader/Writer
+1Load Plate
+1 Kinematic Coupling
+0,1 Dock Plate
+1 Carrier Opener/Loader
+0,1 FOUP Opener
+1 Open/Close
+0,1 Carrier Slot Mapper
+0,1 [FOUP]
+Carrier Slot
+Mapper
+0,1 Dock/Undock Mechanism
+0,1 [FOUP] Carrier Purge Interface
+1 Load Port Unit
+0,1
+Carrier Opener/Loade
+r
+Maintenance Panel
+0,1 Substrate
+ID Reader
+0,1 Aligner
+Equipment
+0,1 Carrier Operation Panel
+0,1 Info Pad Sensors
+1 Fixed Buffer Type EFEM
+0,1 Status Indicators
+0,1 Carrier Sensors
+
+Figure 5
+Fixed Buffer Type EFEM Functional Structure Model
+
+1 Carrier Handler
+1+ Load Port Group
+1+Load Port
+0,1 Carrier Operation Panel
+0,1Manual Switches
+0,1 Carrier Presence Indicator
+0,1 Carrier Indicators
+0,1 Carrier Placement Indicator
+1Load Plate
+0,1 Carrier Sensors
+1 Kinematic Coupling
+0,1 Carrier ID Reader/Writer
+0,1 [OC] Carrier Slot Mapper
+0,1 Load Port Door
+0,1 PI/O for AGV/RGV
+0,1 Cart to Tool Docking Port Interface
+1+ Internal Buffer
+1 Carrier Transfer
+Robot
+1+Carrier Storage
+1 Carrier Sensors
+1Kinematic
+Coupling
+1Load Plate
+0,1+ Internal Substrate Port
+0,1Dock Plate
+1 Kinematic Coupling
+1 Load Plate
+0,1 Carrier Purge interface
+0,1 Dock/ Undock
+Mechanism
+0,1 FOUP Opener
+1 Open/Close
+Equipment
+1 Load Port Unit
+OHT
+AGV/
+RGV/
+PGV
+0,1 [FOUP] Carrier Slot
+Mapper
+1 Carrier Opener/Loader
+1+Human Interfaces (User Interface)
+1+EMO Switch1+Signal Tower1+ Operation Console
+0,1 Carrier Sensors
+0,1
+Substrate
+Handler
+0, 1+
+Substrate
+Transfer
+Robot
+Process
+Part
+0,1 [FOUP]
+Carrier Slot
+Mapper
+0,1 Substrate
+ID Reader
+0,1 Aligner
+1 Internal Buffer Type EFEM
+0,1 Status Indicators
+0,1 Carrier ID Reader/Writer
+0,1 Info Pad Sensors
+
+Figure 6
+Internal Buffer Type EFEM Functional Structure Model
+
+
+
+SEMI E101-1104 © SEMI 2000, 2004 8
+APPENDIX 1
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E101  and  was  approved  by  full  letter  ballot
+procedures on January 14, 2000 by the Japanese Regional Standards Committee.
+
+OHT
+AGV/
+RGV/
+PGV
+1+ Human Interfaces (User Interface)
+1+ EMO Switch1+ Signal Tower
+1+ Operation Console
+0,1
+Substrate
+Handler
+0, 1+
+Substrate
+Transfer
+Robot
+Process
+Part
+1Carrier Handler
+1+Load Port
+0,1 Manual Switches
+0,1 Carrier Presence Indicator
+0,1 Carrier Indicators
+0,1 Carrier Placement Indicator
+0,1 Load Port
+Door
+0,1 E84 PI/O for
+AGV/RGV/OHT
+0,1 E64 Cart to Tool Docking Port
+Interface
+0,1Carrier ID Reader/Writer
+1 Load Plate
+1 E57 Kinematic Coupling
+0,1 Dock Plate
+1 Carrier Opener/Loader
+0,1 FOUP Opener
+1 Open/Close
+0,1 Carrier Slot Mapper
+0,1 [FOUP]
+Carrier Slot
+Mapper
+0,1 Dock/Undock Mechanism
+0,1 [FOUP] Carrier Purge Interface
+1Load Port Unit
+0,1 Carrier Opener/Loader
+Maintenance Panel
+0,1 Substrate
+ID Reader
+0,1 Aligner
+Equipment
+0,1Carrier Operation Panel
+0,1 Carrier Sensors
+1 Fixed Buffer Type EFEM
+0,1 Status Indicators
+1+  Load Port Group (E15.1(Option-1 or 3))
+0,1 Info Pad Sensors
+
+Figure A1-1
+Relation between Fixed Buffer Type EFEM Functional Structure Model and Existing SEMI Standards
+
+
+SEMI E101-1104 © SEMI 2000, 2004 9
+APPENDIX 2
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E101  and  was  approved  by  full  letter  ballot
+procedures on January 14, 2000 by the Japanese Regional Standards Committee.
+
+1Carrier Handler
+1+ Load Port
+0,1 Carrier Operation Panel
+0,1 Manual Switches
+0,1 Carrier Presence Indicator
+0,1 Carrier Indicators
+0,1 Carrier Placement Indicator
+1Load Plate
+0,1 Carrier Sensors
+1 E57 Kinematic Coupling
+0,1Carrier ID Reader/Writer
+0,1[OC] Carrier Slot Mapper
+0,1 Load Port Door
+0,1 E84  PI/O for  AGV/RGV
+0,1 E64 Cart to Tool Docking Port I/F
+1  Internal Buffer
+1  Carrier Transfer
+Robot
+1+ Carrier Storage
+1Carrier Sensors
+1Load Plate
+0,1+ Internal Substrate Port
+0,1 Dock Plate
+1Load Plate
+0,1 Carrier Purge interface
+0,1 Dock/Undock
+Mechanism
+0,1 FOUP Opener
+1Open/Close
+Equipment
+1Load Port Unit
+OHT
+AGV/
+RGV/
+PGV
+0,1[FOUP ]Carrier Slot
+Mapper
+1 Carrier Opener/Loader
+1+ Human Interfaces (User Interface)
+1+ EMO Switch1+ Signal Tower1+ Operation Console
+0,1 Carrier Sensors
+0,1
+Substrate
+Handler
+0, 1+
+Substrate
+Robot
+Transfer
+Process
+Part
+0,1 [FOUP]
+Carrier Slot
+Mapper
+0,1 Substrate
+ID Reader
+0,1 Aligner
+1 Internal  Buffer Type  EFEM
+0,1Status Indicators
+0,1Carrier ID Reader/Writer
+1+  Load Port  Group(E15.1(Option-1 or 3))
+0,1
+Info Pad Sensors
+1 E57 Kinematic
+Coupling
+1 E57 Kinematic
+Coupling
+
+Figure A2-1
+Relation between Internal Buffer Type EFEM Functional Structure Model and Existing SEMI Standards
+
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standard set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E103-0704 © SEMI 2000, 2004 1
+SEMI E103-0704
+MECHANICAL SPECIFICATION FOR A 300 mm SINGLE-WAFER BOX
+SYSTEM THAT EMULATES A FOUP
+This  specification  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is
+the direct responsibility of the European Equipment Automation Committee. Current edition approved by the
+European Regional Standards Committee on May 14, 2004.  Initially available at www.semi.org June 2004;
+to be published July 2004. Originally published June 2000; last published November 2003.
+1  Purpose
+1. 1      This   standard   specifies   the   carrier   side   of   the
+mechanical  interface  between  load  ports  (or  buffers)
+with    FIMS    interfaces    on    process    or    metrology
+equipment  and  a  system  that  includes  a  box  that  holds
+only one wafer (such as a test wafer) and that fits onto
+an  adapter  mechanism  called  a  single-wafer  interface
+(SWIF).  This system appears to the equipment to be a
+300 mm FOUP (except that only the volume around the
+middle wafer may be accessible).
+2  Scope
+2. 1  This standard is intended to set an appropriate level
+of    specification    that    places    minimal    limits    on
+innovation    while    ensuring    modularity    and    inter-
+changeability  at  relevant  mechanical  interfaces.    Only
+the  mechanical  interface  between  a  load  port  with  a
+FIMS  interface  and  this  system  (of  a  single-wafer  box
+and a SWIF) is specified here; the mechanical interface
+between  the  single-wafer  box  and  the  SWIF  is  not
+specified.    Also  not  specified  is  the  method  by  which
+the  SWIF  raises  the  carrier  sensing  pads  when  the
+single-wafer  box  is  removed  (see  Section  6.3).    This
+standard  does  not  forbid  the  SWIF  from  holding  more
+than   just   the   single-wafer   box   mentioned   in   this
+standard.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI  E1.9    Mechanical  Specification  for  Cassettes
+Used to Transport and Store 300 mm Wafers
+SEMI E15 — Specification for Tool Load Port
+SEMI E19 — Standard Mechanical Interface (SMIF)
+SEMI  E47.1  —  Provisional  Mechanical  Specification
+for  Boxes  and  Pods  Used  to  Transport  and  Store  300
+mm Wafers
+SEMI  E62  —  Provisional  Specification  for  300  mm
+Front-Opening Interface Mechanical Standard (FIMS)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Ordering Information
+4. 1  Info  Pad  Configuration  —  The  purchaser  of  a
+single  wafer  interface  system  needs  to  specify  the
+desired info pad configuration (up or down).
+5  Terminology
+5. 1  Abbreviations & Acronyms
+5. 1.1  FOUP — front-opening unified pod
+5. 1.2  PGV — person guided vehicle (cart)
+5. 1.3  SWIF — single-wafer interface
+5. 2  Definitions
+5. 2.1  box   —   a   protective   portable   container   for   a
+cassette and/or substrate(s).
+5. 2.2  carrier capacity — the number of substrates that
+a carrier holds (as defined in SEMI E1.9).
+5. 2.3  cassette  —  an  open  structure  that  holds  one  or
+more substrates.
+5. 2.4  front-opening unified pod — a box (that complies
+with  SEMI  E47.1)  with  a  non-removable  cassette  (so
+that  its  interior  complies  with  SEMI  E1.9)  and  with  a
+front-opening  interface  (that  mates  with  a  FIMS  port
+that  complies  with  SEMI  E62)  (as  defined  in  SEMI
+E47.1).
+5. 2.5  pod  —  a  box  having  a  Standard  Mechanical
+Interface (SMIF) per SEMI E19.
+5. 2.6  single-wafer  interface  —  an  adapter  mechanism
+that  holds  a  single-wafer  box  and  that  appears  to  the
+equipment to be a 300 mm FOUP (except that only the
+volume around the middle wafer may be accessible).
+5. 2.7  wafer  carrier  —  any  cassette,  box,  pod,  or  boat
+that contains wafers (as defined in SEMI E15).
+
+
+
+SEMI E103-0704 © SEMI 2000, 2004 2
+6  Requirements
+6. 1  System  Components  —  A  system  that  conforms  to
+this  standard  must  include  a  box  that  holds  one  wafer
+and that fits onto a SWIF.
+6. 2  Relevant  FOUP  Dimensions  —  The  SWIF  must
+have  all  of  the  required  bottom  and  front  features  and
+be no larger than the maximum dimensions of a 13- or
+25-wafer FOUP. However, this system (of single-wafer
+box and SWIF) must have box placement sensing pads
+as    specified    in    SEMI    E47.1    FOUP    standards
+Requirements  Section  6.12.  For  example,  the  SWIF
+must  comply  with  dimensions  r67,  x53,  y50,  y51,  y52,
+y53, z41, z47 – z48, z47 + z49, and the upper limits on
+x50  and  y40  (as  specified  in  SEMI  E47.1)  and  with
+dimension y33 (as specified in SEMI E62).
+6. 3  Optional Automation Features — Since the single-
+wafer   box   and/or   SWIF   will   usually   be   delivered
+manually  (possibly  with  a  PGV),  the  SWIF  is  not
+required  to  have  the  other  automation  features  of  the
+FOUP such as the robotic handling flange on top or the
+fork-lift flanges on the side (although this standard does
+not forbid the SWIF from having such features).
+6. 4  SWIF Door — The SWIF must have a full FOUP-
+size door (which surrounds the door of the single-wafer
+box)  that  mates  with  a  FIMS-compatible  interface  (as
+specified  in  SEMI  E62)  to  avoid  contaminating  the
+environment   on   the   equipment   side   of   the   FIMS
+interface.
+6. 5  Wafer  Position  —  When  the  FIMS  door  is  opened
+by the equipment, the end effector may only be able to
+access  the  middle  wafer  slot  (wafer  7  for  a  SWIF  that
+emulates  a  13-wafer  carrier,  and  wafer  13  for  a  SWIF
+that  emulates  a  25-wafer  carrier),  because  a  surface
+immediately  behind  the  door  may  block  access  to  the
+other  wafer  slots.    Thus,  batch  wafer  handlers  will
+probably not work with this system.
+6. 6  Wafer  Clearances  —  The  clearance  below  the
+middle  wafer  must  be  the  same  as  the  clearance  below
+the  bottom  wafer  in  an  ordinary  FOUP  (z8  minus  z6,
+both  from  SEMI  E1.9),  and  the  clearance  above  the
+middle  wafer  must  be  the  same  as  the  clearance  above
+the  top  wafer  in  an  ordinary  FOUP  (z15  from  SEMI
+E1.9).    These  vertical  clearances  are  defined  in  SEMI
+E1.9  and  SEMI  E47.1  and  apply  throughout  the  wafer
+set-down  and  extraction  volumes  for  the  middle  wafer.
+The horizontal clearances shown in Figure 10 of SEMI
+E47.1 are also required.  One possible example of such
+a  system  (of  single-wafer  box  and  SWIF)  is  shown  in
+Figures 1 and 2 (with vertical clearances indicated).
+
+wafer
+33 mm [z8 from SEMI E1.9]
+–21 mm [z6 from SEMI E1.9]
+=   12.0 mm minimum
+11 mm [z44 from SEMI E47.1]
++   33 mm [z8 from SEMI E1.9]
++   10 mm [z12 from SEMI E1.9] × (6 or 12 wafers)
+±   0.5 mm [z10 from SEMI E1.9]
+=   164.0±0.5 mm (for wafer #13 in a 25-wafer FOUP)
+or 104.0±0.5 mm (for wafer #7 in a 13-wafer FOUP)
+13. 0 mm minimum
+[z15 from SEMI E1.9]
+single-wafer box
+single wafer interface (SWIF)
+equipment load port
+FIMS port
+
+11 mm [
+z
+44 from
+SEMI
+
+E47.1
+]
++ 33 mm [
+z
+8 from
+SEMI E1.9
+]
++ 10 mm [
+z
+12 from
+SEMI E1.9
+] × (6 or 12 wafers)
+± 0.5 mm [
+z
+10 from
+SEMI E1.9
+]
+= 164.0 ± 0.5 mm (for wafer
+
+# #
+
+#
+13 in a 25-wafer FOUP)
+or 104.0 ± 0.5 mm (for wafer
+#
+7 in a 13-wafer FOUP)
+
+Figure 1
+Side View of Example Single-Wafer Box and SWIF on a Load Port with a FIMS Interface
+
+
+
+SEMI E103-0704 © SEMI 2000, 2004 3
+
+Figure 2
+Front View of Example Single-Wafer Box and SWIF
+
+6. 7  SWIF Sensing — It is possible that the SWIF is not
+removed  from  the  load  port  when  single-wafer  boxes
+are  removed  and  replaced  on  the  SWIF.    However,
+when  the  single-wafer  box  is  removed  from  the  SWIF,
+all of the carrier sensing pads (defined in Section 6.6 of
+SEMI E1.9) on the bottom of the SWIF must be raised
+(so that the load port can sense a change of carriers by
+its carrier placement sensor, if any). However, in order
+to  ensure  that  the  SWIF  triggers  most  optical  carrier
+presence detectors on the load port, the SWIF (without
+a   single-wafer   box)   must   block   any   line   of   sight
+through a volume consisting of the smallest cylindrical
+section  that  contains  all  of  the  wafer  pick-up  volumes
+(defined  in  SEMI  E1.9)  of  the  corresponding  FOUP
+(defined  in  SEMI  E47.1).    Note  that  this  standard  does
+not  prevent  the  use  of  other  kinds  of  carrier  presence
+detectors (such as sensors that detect weight on the load
+port).
+7  Related Documents
+7. 1  SEMI Standards
+SEMI  E15.1  —  Specification  for  300  mm  Tool  Load
+Port
+SEMI  E57  —  Mechanical  Specification  for  Kinematic
+Couplings  Used  to  Align  and  Support  300  mm  Wafer
+Carriers
+SEMI  E63  —  Mechanical  Specification  for  300  mm
+Box   Opener/Loader   to   Tool   Standard   (BOLTS-M)
+Interface
+SEMI  E72  —  Specification  and  Guide  for  300  mm
+Equipment Footprint, Height, and Weight
+SEMI  E92  —  Specification  for  300  mm  Light  Weight
+and  Compact  Box  Opener/Loader  and  Tool-Interface
+Standard (BOLTS-Light)
+SEMI M31 — Provisional Mechanical Specification for
+Front-Opening  Shipping  Box  Used  to  Transport  and
+Ship 300 mm Wafers
+SEMI S8 — Safety Guidelines for Ergonomics/ Human
+Factors  Engineering  of  Semiconductor  Manufacturing
+Equipment
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+
+NOTICE: SEMI  makes  no  warranties  or  representa-
+tions  as  to  the  suitability  of  the  specification  set  forth
+herein for any particular application.  The determination
+of   the   suitability   of   the   specification   is   solely   the
+responsibility  of  the  user.    Users  are  cautioned  to  refer
+to  manufacturer’s  instructions,  product  labels,  product
+data  sheets,  and  other  relevant  literature  respecting  any
+materials  mentioned  herein.    These  specifications  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  specification  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  specification,
+SEMI  takes  no  position  respecting  the  validity  of  any
+patent  rights  or  copyrights  asserted  in  connection  with
+any  item  mentioned  in  this  specification.    Users  of  this
+specification  are  expressly  advised  that  determination
+of  any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement  of  such  rights,  are  entirely  their  own
+responsibility.
+
+
+
+SEMI E103-0704 © SEMI 2000, 2004 4
+RELATED INFORMATION 1
+APPLICATION NOTES
+NOTICE:  This  related  information  is  not  an  official  part  of  SEMI  E103  but  was  approved  for  publication  by  full
+letter ballot procedures on July 28, 2000.
+R1-1
+R1-1.1    In  fabs  in  which  this  system  (of  single-wafer  box  and  SWIF)  is  used,  equipment  should  have  control
+software  algorithms  that  prevent  end  effectors  and  wafer  slot  mappers  from  entering  the  carrier  except  in  the
+clearances around the middle wafer (defined in Section 6.2) when the presence of this system is detected.  A variety
+of methods for differentiating the system from ordinary FOUPs are possible.
+R1-1.2    Using  sensors,  equipment  can  differentiate  the  system  (of  single-wafer  box  and  SWIF)  from  ordinary
+FOUPs.  For example, sensors below the info pad B location on the load port and on the FIMS door (opposite the
+seal zones or the reserved spaces for vacuum application on the box door) could indicate that the carrier type is an
+open  cassette  but  with  a  FOUP  door,  together  implying  the  presence  of  this  system  (of  a  single-wafer  box  and
+SWIF).  Note that such sensors on the load port are not currently specified in any SEMI standard.
+R1-1.3    Carrier  ID  tags  can  inform  the  equipment  that  the  load  port  holds  this  system  (of  single-wafer  box  and
+SWIF) instead of an ordinary FOUP.
+R1-1.4  Messages from the host computer system can inform the equipment that the load port holds this system (of
+single-wafer box and SWIF) instead of an ordinary FOUP.
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the specification set forth herein for
+any particular application.  The determination of the suitability of the specification is solely the responsibility of the
+user.    Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other
+relevant  literature  respecting  any  materials  mentioned  herein.    These  specifications  are  subject  to  change  without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  specification  may  require  use  of
+copyrighted material or of an invention covered by patent rights.  By publication of this specification, SEMI takes
+no position respecting the validity of any patent rights or copyrights asserted in connection with any item mentioned
+in this specification.  Users of this specification are expressly advised that determination of any such patent rights or
+copyrights, and the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 1
+SEMI E104-0303
+SPECIFICATION FOR INTEGRATION AND GUIDELINE FOR
+CALIBRATION OF LOW-PRESSURE PARTICLE MONITOR
+This specification was technically approved by the Global Metrics Committee and is the direct responsibility
+of  the  European  Equipment  Automation  Committee.  Current  edition  approved  by  the  European  Regional
+Standards Committee on January 8, 2003.  Initially available at www.semi.org January 2003; to be published
+March 2003. Originally published October 2000; previously published March 2002.
+1  Purpose
+1. 1      The   use   of   in   situ   particle   monitoring   (ISPM;
+particle   measurements   performed   while   the   wafer
+resides  inside  the  processing  chamber)  in  low-pressure
+and    vacuum    applications    provides    a    number    of
+advantages    for    defect,    process,    and    equipment
+management such as:
+• Reduction  of  particle  test  wafers  used  for  off-line
+tests and saving operator time,
+• Optimization  and  real-time  characterization  of  the
+process,
+• Advanced process control,
+• Advanced equipment control,
+• Monitoring process chamber conditions, and
+• Optimization     of     cleaning     procedures     and
+maintenance.
+1. 1.1        Therefore,    ISPM    achieves    more    equipment
+availability   and   faster   ramp-up   of   the   production,
+reduces  cost  of  ownership,  improves  quality  and  yield.
+To   reach   these   goals,   ISPM   needs   to   be   easily
+integrated  into  new  or  existing  process  equipment  and
+the  acquisition  as  well  as  the  analysis  of  the  particle
+data  needs  to  be  automated.  The  ISPM  sensor  should
+not have any negative influence on the process and the
+measurement  has  to  represent  the  main  particle  flow.
+The  sensor  should  be  designed  to  have  a  minimum
+negative impact on the parameters defined in SEMI E10
+for  the  whole  semiconductor  process  equipment,  to
+achieve an advantage in capacity.
+1. 2    This  standard  is  intended  to  stipulate  operating
+conditions,  mechanical,  electrical,  and  communication
+interfaces    for    the    use    of    Low-pressure    Particle
+Detectors     integrated     in     semiconductor     process
+equipment.  A  guideline  for  a  reference  calibration  of
+those sensors is intended to support correlation between
+measurements with different sensors.
+2  Scope
+2. 1      This   standard   applies   to   particle   measurement
+under    low-pressure    and    vacuum    conditions    in
+semiconductor manufacturing equipment.
+NOTICE: This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability  of  regulatory  or  other  limitations  prior  to
+use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI  C6.5  —  Particle  Specification  for  Grade  10/0.2
+Nitrogen  (N
+2
+)  and  Argon  (Ar)  Delivered  as  Pipeline
+Gas
+SEMI  C6.6  —  Particle  Specification  for  Grade  10/0.1
+Nitrogen  (N
+2
+)  and  Argon  (Ar)  Delivered  as  Pipeline
+Gas
+SEMI   E4   —   SEMI   Equipment   Communications
+Standard 1 Message Transfer (SECS-I)
+SEMI   E5   —   SEMI   Equipment   Communications
+Standard 2 Message Content (SECS-II)
+SEMI    E10    —    Specification    for    Definition    and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability (RAM)
+SEMI    E33    —    Specification    for    Semiconductor
+Manufacturing Facility Electromagnetic Compatibility
+SEMI  E37  —  High-Speed  SECS  Message  Services
+(HSMS) Generic Services
+SEMI E54 — Sensor/Actuator Network Standard
+SEMI   E54.10   —   Specification   for   Sensor/Actuator
+Network  Specific  Device  Model  for  an  In-Situ  Particle
+Monitor Device
+SEMI  F6  —  Guide  for  Secondary  Containment  of
+Hazardous Gas Piping Systems
+
+
+SEMI E104-0303 © SEMI 2000, 2003 2
+3. 2  ASTM Standards
+1
+
+ASTM  D1193  —  Standard  Specification  for  Reagent
+Water
+ASTM F328 — Standard Practice for Calibration of an
+Airborne     Particle     Counter     Using     Monodisperse
+Spherical Particles
+ASTM  F649  —  Practice  for  Secondary  Calibration  of
+Airborne     Particle     Counter     Using     Comparison
+Procedures
+3. 3  BSI Standards
+2
+
+BS    3406-7    —    Determination    of    Particle    Size
+Distribution  –  Recommendations  for  Single  Particle
+Light Interaction Methods
+3. 4  IEC Standards
+3
+
+IEC  60625-1  —  Programmable  Measuring  Instruments
+-  Interface  System  (Byte  Serial,  Bit  Parallel)  -  Part  1:
+Functional,  Electrical  and  Mechanical  Specifications,
+System    Applications,    and    Requirements    for    the
+Designer and User
+IEC  60625-2  —  Programmable  Measuring  Instruments
+-  Interface  System  (Byte  Serial,  Bit  Parallel)  -  Part  2:
+Codes, Formats, Protocols, and Common Commands
+IEC  60654-1  —  Operating  Conditions  for  Industrial-
+Process  Measurement  and  Control  Equipment  -  Part  1:
+Climatic Conditions
+IEC  60654-2  —  Operating  Conditions  for  Industrial-
+Process  Measurement  and  Control  Equipment  -  Part  2:
+Power
+IEC  60654-3  —  Operating  Conditions  for  Industrial-
+Process  Measurement  and  Control  Equipment  -  Part  3:
+Mechanical Influences
+IEC  60654-4  —  Operating  Conditions  for  Industrial-
+Process  Measurement  and  Control  Equipment  -  Part  4:
+Corrosive And Erosive Influences
+IEC   60801-1   —   Electromagnetic   Compatibility   for
+Industrial-Process       Measurement       and       Control
+Equipment - Part 1: General Introduction
+
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, Pennsylvania 19428-2959, USA.
+Telephone: 610.832.9585, Fax: 610.832.9555 Website:
+www.astm.org
+2 British Standards Institute, 389 Chiswick High Road, London, W4
+4AL, United Kingdom. Telephone: 44.0.20.8996.9000, Fax:
+44. 0.20.8996.7001 Website: www.bsi-global.com
+3 International Electrotechnical Commission, 3, rue de Varembé,
+Case Postale 131, CH-1211 Geneva 20, Switzerland. Telephone:
+41. 22.919.02.11; Fax: 41.22.919.03.00 Website: www.iec.ch
+3. 5  IEEE Standards
+4
+
+IEEE  488.1  —  IEEE  Standard  Digital  Interface  for
+Programmable Instrumentation
+IEEE   488.2   —   IEEE   Standard   Codes,   Formats,
+Protocols,  and  Common  Commands  for  use  with  IEEE
+488. 1,     IEEE     Standard     Digital     Interface     for
+Programmable Instrumentation
+3. 6  IEST Standards
+5
+
+IEST  RP-011  —  A  Glossary  of  Terms  and  Definitions
+Related to Contamination Control
+3. 7  ISO Standards
+6
+
+ISO  1609  —  Vacuum  technology  --  Dimensions  (ISO-
+K style and ISO-F style)
+ISO  2861-1  —  Vacuum  technology  --  Quick-release
+couplings  –  Dimensions  -  Part  1:  Clamped  type  (ISO-
+KF)
+ISO  2861-2  —  Vacuum  technology  --  Quick-release
+couplings  –  Dimensions  -  Part  2:  Screwed  type  (ISO-
+MF)
+ISO 3669 — Vacuum technology -- Bakeable flanges --
+Dimensions (ISO-K-CF)
+ISO  10012-1  —  Quality  assurance  requirements  for
+measuring     equipment     –     Part     1:     Metrological
+confirmation system for measuring equipment
+ISO  10012-2  —  Quality  assurance  requirements  for
+measuring equipment – Part 2: Guidelines for control of
+measuring processes
+ISO    13323-2    —    Determination    of    particle    size
+distribution – Single Particle Light Interaction Methods
+Part  2:  Light  scattering  single  particle  light  interaction
+devices    design,    performance    specifications,    and
+operation requirements
+ISO  14644-1  —  Cleanrooms  and  associated  controlled
+environments - Part 1: Classification of air cleanliness
+ISO  14644-5  —  Cleanrooms  and  associated  controlled
+environments - Part 5: Operation of cleanroom systems
+
+
+4 Institute of Electrical and Electronics Engineers, IEEE Operations
+Center, 445 Hoes Lane, P.O. Box 1331, Piscataway, New Jersey
+08855-1331, USA. Telephone: 732.981.0060; Fax: 732.981.1721
+5 Institute of Environmental Sciences and Technology, 5005 Newport
+Drive, Suite 506, Rolling Meadows, IL 60008-3841, USA.
+Telephone: 847.255.1561; Fax: 847.255.1699 Website: www.iest.org
+6 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+
+
+SEMI E104-0303 © SEMI 2000, 2003 3
+3. 8  JIS Standards
+7
+
+JIS  B  9921  —  Light  Scattering  Automatic  Particle
+Counter
+3. 9  VDI Standards
+8
+
+VDI-Richtlinie   3489-3   —   Messen   von   Partikeln:
+Methoden zur Charakterisierung und Überwachung von
+Prüfaerosolen   -   Optischer   Partikelzähler   (Particulate
+Matter  Measurement:  Methods  of  Characterizing  and
+Monitoring Test Aerosols – Optical Particle Counter)
+VDI-Richtlinie    3491    —    Messen    von    Partikeln:
+Herstellungsverfahren              für              Prüfaerosole,
+Verdünnungssysteme (Particulate Matter Measurement:
+Generation of Test Aerosols, Dilution Systems)
+NOTICE: As  listed  or  revised,  all  documents  cited
+shall be the latest publications of adopted standards.
+4  Terminology
+4. 1  Abbreviations and Acronyms
+4. 1.1  COV — Coefficient of Variation
+4. 1.2  HEPA — High-Efficiency Particulate Air
+4. 1.3  ISPM — In Situ Particle Monitor
+4. 1.4  LDL — Lower Detectable Limit
+4. 1.5  LPPD — Low-Pressure Particle Detector
+4. 1.6  PHA — Pulse Height Analyzer
+4. 1.7  RPC — Reference Particle Counter
+4. 1.8  ULPA — Ultra-Low Penetration Air
+4. 2  Definitions
+4. 2.1  accuracy  of  size  —  the  closeness  of  agreement
+between the ascertained size of the detected particle and
+its real size.
+4. 2.2  coefficient  of  variation  (COV)  —  the  width  of  a
+distribution  (in  %),  obtained  by  dividing  the  standard
+deviation   of   the   distribution   by   the   mean   of   the
+distribution.
+4. 2.3  coincidence  —  the  presence  of  two  or  more
+particles in the detection area of the particle detector at
+the same time, causing the particle detector to interpret
+the  combined  signal  erroneously  as  resulting  from  one
+larger particle.
+
+
+7 Japanese Industrial Standards, Available through the Japanese
+Standards Association, 1-24, Akasaka 4-Chome, Minato-ku, Tokyo
+107-8440, Japan. Telephone: 81.3.3583.8005; Fax: 81.3.3586.2014
+Website: www.jsa.or.jp
+8 Beuth Verlag GmbH, Burggrafenstrasse 6, D-10787 Berlin,
+Germany. Telephone: 49.30.2601.0, Fax: 49.30.2601.1260 Website:
+www2.beuth.de
+4. 2.4  concentration — the number of particles per unit
+volume, at ambient temperature T
+A
+and pressure p.
+4. 2.5  concentration  limit  —  the  particle  concentration
+specified by the manufacturer of the particle detector at
+which the error due to coincidence is 10% or less.
+NOTE  1:    Manufacturers  may  specify  concentration  limits  at
+error levels other than 10%.
+4. 2.6  counting efficiency  the ratio (in %) of detected
+concentration  divided  by  the  actual  concentration  of
+particles of a given size or range of sizes (see appendix
+2).
+4. 2.7  detection  area   the  area,  defined  through  the
+light   beam   and   the   detection   optics,   in   which   the
+particles  are  detected.  Often  this  area  is  much  smaller
+than  the  cross-section  of  the  pump  line  or  the  process
+chamber.
+4. 2.8  high-efficiency  particulate  air  (HEPA)  filter 
+filter  with  a  minimum  particle-collection  efficiency  of
+99. 97%        on        all        particles        larger        than
+0. 3 micrometer.
+4. 2.9  in  situ   refers  to  processing  steps  or  tests  that
+are  done  without  moving  the  wafer.  Latin  for  “in
+original position”.
+4. 2.10  in   situ   particle   monitor   (ISPM)    particle
+monitor  used  under  atmospheric  conditions  or  in  low-
+pressure,   vacuum   or   liquid   applications   to   detect
+particles while a process is running.
+4. 2.11  isokinetic sampling  sampling of particles in a
+moving  aerosol  or  fluid  by  matching  the  sample  probe
+inlet velocity (flow speed and
+direction) to the velocity
+of the moving aerosol or fluid.
+4. 2.12  lower   detectable   limit   (LDL)    in   particle
+measurement:  the  smallest  particle  size  that  a  particle
+detector can measure at a given flow rate with a signal-
+to-noise  ratio  of  at  least  3  dB  and  with  a  counting
+efficiency of 50% ± 10%.
+NOTE  2:    This  is  a  general  definition  of  LDL.  Due  to  the
+special design of most of the LPPDs, a counting efficiency of
+50% can not be achieved.
+4. 2.13  low-pressure    particle    detector    (LPPD) 
+optical  particle  sensor  for  use  under  low-pressure  and
+vacuum   conditions   to   measure   particles   or   particle
+levels in semiconductor process equipment.
+4. 2.14  monodisperse  calibration  particles   particles
+with  known  optical  properties,  a  sizing  accuracy  of  at
+least   95%,   and   a   size   distribution   in   which   the
+coefficient of variation is 5% or less.
+4. 2.15  optical  equivalent  size   the  diameter  of  a
+monodisperse   calibration   particle   that   produces   the
+
+
+SEMI E104-0303 © SEMI 2000, 2003 4
+same detected scattering intensity as the localized light
+scatterer  (LLS)  under  investigation  under  identical  test
+conditions.
+4. 2.16  particle  size   for  applications,  size  is  the
+optical  equivalent  diameter  of  a  reference  sphere  with
+known properties as detected by a given light-scattering
+particle  counter  [as  defined  in  SEMI  C6.5  and  SEMI
+C6.6]. For calibration, size is the mean diameter of the
+monodisperse sphere.
+4. 2.17  resolution    the   capability   of   the   particle
+detector  to  differentiate  between  particles  of  similar
+size.
+NOTE  3:  The  procedure  to  define  resolution  is  discussed  in
+Section 9.2.3.5.
+4. 2.18  sensitivity    in   particle   measurement:   the
+smallest    standard    particle    size    specified    by    the
+manufacturer  that  an  instrument,  method,  or  system  is
+capable of measuring under specified conditions (with a
+counting  efficiency  of  50%;  see  Appendix  2).  Also
+called minimum detectable particle size.
+4. 2.19  ultrafine    particle     a    particle    with    an
+equivalent diameter less than 0.1 μm [as defined in ISO
+14644-1].
+4. 2.20  ultra-low penetration air (ULPA) filter   filter
+with   a   minimum   particle-collection   efficiency   of
+99. 9995% on the most penetrating particle size.
+4. 2.21  zero   count    the   maximum   particle   count
+indicated by a particle counter, in a specified period of
+time,  that  is  sampling  particle-free  air.  This  value  is
+specified  by  the  manufacturer,  and  is  commonly  also
+referred to as false call rate, false count, noise, or noise
+level.
+4. 2.22  zero    gas     in    determining    contaminant
+contribution  by  gas  distribution  system  components,  a
+purified    gas    that    has    an    insignificant    particle
+concentration above the lower detectable limit (LDL) of
+the  analytical  instrument.  This  gas  is  used  for  both
+instrument calibration and component testing.
+4. 3  Symbols
+4. 3.1  A
+L
+  the  detection  area  (mm
+2
+),  defined  through
+detector optics and light beam of the LPPD.
+4. 3.2  A
+RC
+ the opening area (mm
+2
+) of the probe inlet
+of the reference particle counter.
+4. 3.3  C
+L
+   the   number   concentration   (cm
+-3
+)   of
+particles in the line at the LPPD.
+4. 3.4  C
+G
+   the   number   concentration   (cm
+-3
+)   of
+particles generated from aerosol generator at given V ́
+G
+.
+4. 3.5  D
+L
+ the diameter of the pump line (mm) at the
+LPPD.
+4. 3.6  d
+p
+ the diameter of the spherical particle (μm).
+4. 3.7  D
+RC
+  the  diameter  of  the  sample  drawing  line
+(mm) for the reference particle counter.
+4. 3.8  D
+VM
+ the diameter of the pump line (mm) at the
+velocity meter.
+4. 3.9  p  the line pressure (torr or mbar).
+4. 3.10  RH  the relative humidity (%).
+4. 3.11  T
+A
+  the  ambient  temperature  (°C)  around  the
+measurement or calibration system.
+4. 3.12  T
+G
+ the gas temperature (°C).
+4. 3.13  v
+L
+  the  velocity  (m/s)  of  the  aerosol  at  the
+LPPD.
+4. 3.14  v
+L,  min
+,  v
+L,  max
+  for  applications,  the  velocity
+range (m/s) of the aerosol at the LPPD specified by the
+manufacturer.
+4. 3.15  V ́
+L
+  the  volume  flow  rate  (l/min)  in  the  line
+at the LPPD.
+4. 3.16  V ́
+G
+  the  volume  flow  rate  (l/min)  of  the
+aerosol  sample  (measured  directly  behind  the  aerosol
+generator).
+4. 3.17  v
+VM
+  the  velocity  (m/s)  of  the  aerosol  at  the
+velocity meter.
+4. 3.18  V ́
+ZG
+ the volume flow rate (l/min) of the zero
+gas.
+4. 3.19  σ
+V,LPPD
+  the  standard  deviation  of  the  voltage
+sensor signal.
+4. 3.20  σ
+p,LPPD
+ the standard deviation of the observed
+particle distribution
+4. 3.21  σ
+d,p
+  the  standard  deviation  of  the  particles
+given by the particle supplier
+5  Mechanical Interfaces
+5. 1  Flanges
+5. 1.1    One  of  the  following  vacuum  flanges  should  be
+used  for  mounting  an  LPPD  into  a  pump  line  or  on
+process equipment:
+ISO 2861-1 and ISO 2861-2 (ISO-KF/MF)
+ISO 1609 (ISO-K and ISO-F)
+ISO 3669 (ISO-K-CF)
+
+
+SEMI E104-0303 © SEMI 2000, 2003 5
+5. 2  Space, Distances, and Installation
+5. 2.1    The  use  of  an  LPPD  should  not  have  a  negative
+impact on the process performance. The sensor location
+in  the  equipment  shall  ensure  an  optimum  use  of  the
+sensor  sensitivity  in  order  to  allow  a  measurement
+which  is  representative  of  the  main  particle  flow.  The
+influence  of  the  process  and  the  process  equipment  on
+the  LPPD  shall  be  minimized  (thermal  background
+radiation, vibrations etc.)
+5. 2.2    The  standard  does  not  specify  where  an  LPPD
+should be located in original equipment, or where space
+should be allowed for retro-fitting. It is recognized that
+the location is dependent on factors including transport
+behavior of particles, thermal background radiation etc.
+The   designers   of   semiconductor   process   equipment
+should resort to the experience of application engineers
+of  the  LPPD  suppliers  and  the  end  users.  However,  in
+either  case  designers  shall  take  into  account  access
+requirements for maintenance and re-calibration. In the
+case  of  retro-fitting,  the  design  should  facilitate  sensor
+installation rather than hinder it.
+6  Electrical Interfaces
+6. 1  Sensor/Controller Communication
+6. 1.1    Depending  on  the  choice  of  the  LPPD  supplier
+and the semiconductor equipment manufacturer, one of
+the  following  interfaces  for  data  exchange  between  the
+LPPD and process equipment controller should be used.
+6. 1.2  Sensor/Actuator Network (SAN)
+6. 1.2.1  The electrical interfaces of the Sensor/ Actuator
+Network   are   described   in   the   suite   of   SEMI   E54
+standards.
+6. 1.3  Serial Communication
+6. 1.3.1  RS 232 C (V.24/V.28)
+6. 1.3.2  RS 485
+6. 1.4  Others
+6. 1.4.1  IEEE 488 or IEC 60625
+6. 2  Others
+6. 2.1  Sensor calibration output (direct analog output)
+6. 2.1.1    The  analog  output  for  access  to  the  sensor
+signal used for calibration purpose should be supported.
+7  Communication Interfaces
+7. 1  Sensor Bus Communication
+7. 1.1      It   is   recommended   to   use   a   Sensor/Actuator
+Network   (SAN)   for   the   intra-tool   communication
+between  the  LPPD  controller  and  the  controller  of  the
+process  equipment.  This  communication  is  based  on  a
+suite    of    SEMI    standards    including    a    network
+communication    standard,    several    common    device
+models  (DeviceNet,  SDS,  Lonworks,  ProfiBus  etc.),
+and  the  specific  device  model  for  the  sensor.  The
+Network  is  described  by  the  following  suite  of  SEMI
+standards:  SEMI  E54.    The  specific  device  model  for
+ISPM is described by SEMI E54.10.
+7. 2  SEMI Equipment Communication (SECS)
+7. 2.1  If LPPD controllers provide the collected particle
+data   to   the   process   equipment   controller,   factory
+automation  system,  or  SPC  system,  the  SECS  tool-to-
+host  communication  could  be  used.  SECS  is  described
+in the following standards:
+• SEMI E5
+• SEMI E4
+• SEMI E37
+7. 3  Attribute Definitions
+7. 3.1    SEMI  E54.10  addresses  the  minimum  attributes,
+services  and  behavior  an  ISPM-device  shall  support.  If
+any  attributes  and  services  are  used  by  communication
+of the ISPM and the equipment controller via IEEE 488
+(IEC  60625)  or  serial  communication,  they  should  be
+concurring.
+8  Operating Conditions
+8. 1    To  specify  the  operating  conditions  of  an  LPPD
+(temperature,  humidity,  electromagnetic  compatibility,
+vibrations etc.) refer to the following standards:
+• IEC 60654-1
+• IEC 60654-2
+• IEC 60654-3
+• IEC 60654-4
+• IEC 60801-1
+8. 2  Temperature
+8. 2.1    The  LPPD  should  work  correctly  at  an  ambient
+temperature  range  T
+A
+as  specified  in  ISO  14644-5.  If
+the use of an LPPD at an extended ambient temperature
+range  is  required,  the  specific  LPPD  should  comply
+with these conditions.
+8. 2.2    The  temperature  T
+G
+inside   the   pump   line   or
+inside  the  process  equipment  depends  on  the  actual
+application.  The  application  engineers  shall  check  the
+use  of  LPPDs  under  these  specific  conditions.  The
+temperature  T
+G
+is  measured  at  the  flange  which  the
+LPPD is mounted on.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 6
+8. 3  Humidity
+8. 3.1    The  LPPD  should  work  correctly  at  an  ambient
+humidity  range  RH  as  specified  in  ISO  14644-5.  If  the
+use of an LPPD at an extended ambient humidity range
+is  required,  the  specific  LPPD  should  comply  with
+these conditions.
+8. 4  Electromagnetic Compatibility
+8. 4.1  The equipment should comply with SEMI E33.
+8. 4.2      Sensors   will   be   incorporated   into   equipment
+either  as  original  equipment  or  retro-fitted.  In  either
+case,  the  sensors  or  the  equipment  of  which  they  are  a
+part   should   comply   with   the   current   regulations
+covering  EMC  in  the  country  or  region  where  the
+equipment or sensor is used.
+8. 5  Vibrations
+8. 5.1      Process   equipment   designers   are   advised   to
+consider  the  impact  of  vibration  on  the  performance  of
+the  sensor  while  it  is  collecting  data.  Therefore,  they
+should minimize vibrations. The designers of the LPPD
+sensors  are  also  advised  to  consider  the  impact  of
+vibrations  on  the  equipment  at  a  time  the  sensor  is  not
+collecting  any  data.  It  might  be  possible  that  these
+vibrations  are  stronger  than  those  occurring  while  the
+sensor is collecting data.
+9  Reference Calibration Procedure
+9. 1      The   response   of   real   contamination   particles,
+typically  with  refractive  indices  and  shapes  different
+from  calibration  particles,  will  differ  slightly  from  the
+results  obtained  by  the  procedures  in  this  document.  It
+is known that LPPDs with different optical design may
+not   produce   the   same   data   from   identical   aerosol
+samples.  This  may  happen  even  with  similar  LPPDs  if
+calibration differences have occurred. Therefore, before
+the  first  use  the  sensor  should  be  calibrated  by  the
+manufacturer.   This   calibration   should   be   compliant
+with or should be reviewed with the following reference
+calibration  equipment  and  procedure.  This  reference
+calibration     allows     the     characterization     of     the
+performance of the LPPD under test. The LPPD should
+be  recalibrated  at  regular  intervals  and  also  in  case  of
+unusual measurement readings to ensure correct results.
+9. 1.1  The parameters calibrated for LPPDs with sizing
+capability are:
+• Sizing calibration,
+• Resolution,
+• Zero counting,
+• Counting efficiency, and
+• Sensitivity.
+9. 1.2    The  parameters  calibrated  for  LPPDs  with  non-
+sizing capability are:
+• Zero counting, and
+• Counting efficiency.
+9. 1.3    Field  calibration  may  not  necessarily  require  the
+calibration of all parameters performed by calibration at
+the sensor manufacturers site.
+9. 1.4    Due  to  the  fact  that  different  LPPDs  might  be
+working  with  different  detection  areas  A
+L
+,  the  number
+of  counts  should  be  printed  out  in  counts  per  mm
+2
+
+detection    area.    Therefore,    a    comparison    of    the
+measurement  results  of  different  LPPDs  is  possible.
+The  size  of  the  detection  area  A
+L
+shall  be  reported  in
+the  calibration  report  form.  Any  changes  of  calibration
+parameters  or  of  the  calibration  setup  shall  be  reported
+in the calibration report form. A copy of the calibration
+report form shall be delivered with the sensor.
+9. 2  Apparatus
+9. 2.1  Materials
+9. 2.1.1  Particles
+9. 2.1.1.1      Calibration   particles   are   polymer   spheres
+composed of polystyrene or a similar polymer, having a
+refractive index of 1.58-1.61+0i (absorption coefficient
+α  =  0),  a  sizing  accuracy  of  at  least  95%,  and  a  size
+distribution  in  which  the  coefficient  of  variation  is  5%
+or  less.  They  should  be  traceable  to  a  nationally  or
+internationally recognized standard (e.g. NIST
+9
+).
+9. 2.1.1.2        The    calibration    particles    are    normally
+supplied  in  concentrations  too  high  to  be  used  directly
+in aerosol generators. The particles should be dispersed
+and   diluted   in   either   deionized,   distilled   water   in
+accordance with ASTM D1193, Type 1, or Isopropanol.
+The diluent should be cleaned using a filter with a pore
+size no more than 10% of the size of the particles being
+used. The solution should be stored in a clean container.
+For   generation   and   dilution   of   the   suspension   see
+Appendix  3.  After  generation  the  particles  should  be
+neutralized   to   avoid   surface   charge.   For   all   tests
+described in this document, the concentration should be
+no  more  than  25%  of  the  maximum  recommended
+concentration  limit  specified  by  the  manufacturer.  For
+calibration a suitable set of particle sizes shall be used.
+This  set  should  contain  at  least  5  sizes  that  cover  the
+LDL size to at least 80% of the specified maximum size
+measurement capability of the LPPD.
+NOTE   4:   Most   of   the   ISPM   sensors   are   based   on   light
+scattering.  The  intensity  of  the  scattered  light  detected  by  a
+photodetector  depends  on  intensity,  polarization  state,  and
+
+9 National Institute of Standards and Technology, 100 Bureau Drive,
+Gaithersburg, MD 20899-0001, USA
+
+
+SEMI E104-0303 © SEMI 2000, 2003 7
+wavelength  of  the  incident  light  beam,  diameter,  shape,  and
+refractive  index  of  the  particle  and  the  suspension  fluid,  as
+well as on the geometrical layout of the collection optics and
+detector.  In  the  particle  size  range  near  the  wavelength  (0.1λ
+<  d
+P
+<  10λ),  large  oscillations  can  be  seen  in  the  intensity
+curve of the light scattered by spherical particles as a function
+of  all  these  parameters.  This  phenomenon  should  be  taken
+into account when selecting a suitable set of particle sizes for
+calibration.  The  used  calibration  particles  should  be  within  a
+monotonic response range of the LPPD response curve.
+9. 2.1.2  Zero Gas
+9. 2.1.2.1    Clean  air  or  nitrogen  filtered  with  a  ULPA
+filter.
+NOTE  5:  The  calibration  will  be  executed  under  atmospheric
+pressure   and   zero   gas.   In   semiconductor   manufacturing,
+pressure  and  process  gases  will  differ  from  the  calibration
+conditions.  This  will  affect  the  refractive  index  ratio  of  the
+particles  and  the  process  gas  and  consequently  the  scattering
+from the particles.
+9. 2.1.3  Surfaces
+9. 2.1.3.1      The   materials   of   pump   lines   and   other
+components    should    be    conductive    to    minimize
+electrostatic interaction with the particles.
+9. 2.2  Instrumentation  (see  Figure  1)  —  Some  LPPDs
+may   require   specialized   equipment   not   generally
+available. Please contact the LPPD manufacturer.
+9. 2.2.1  Fan System
+9. 2.2.1.1  The fan or pump system should be adjustable
+to  transport  the  aerosol  and  the  zero  gas  within  the
+stipulated  velocity  range  v
+L,  min
+...  v
+L,max
+,  specified  by
+the manufacturer of the LPPD.
+9. 2.2.2  Filter System
+9. 2.2.2.1    The  ULPA  filter  system  is  used  for  gener-
+ation of zero gas. The filter system should be capable of
+removing  particles  at  the  minimum  size  detectable  by
+the LPPD or the reference particle counter.
+9. 2.2.3  Aerosol Generator
+9. 2.2.3.1        An    atomizer    converts    the    monodisperse
+particle  suspension  to  an  aerosol  by  using  compressed
+zero   gas   for   generation   and   transportation   of   the
+particles.    The    aerosol    generator    should    generate
+monodisperse  particles  as  defined  in  Section  9.2.1.1  in
+constant   and   reproducible   concentration   C
+G
+under
+constant  and  reproducible  volume  flow  rate  V ́
+G
+.  The
+variation in particle concentration shall be no more than
+10% as measured by the reference particle counter over
+a  time  period  of  10  times  or  more  of  the  sample
+measurement time. The generation should comply with
+the   German   VDI-Richtlinie   3491,   or   an   equivalent
+standard in other countries.
+9. 2.2.4  Aerosol dryer
+9. 2.2.4.1  The monodisperse polymer spheres in the test
+aerosol   shall   be   thoroughly   dry   to   avoid   that   the
+particles have a water layer which would increase their
+size. A diffusion dryer, another appropriate instrument,
+or adequately dry dilution air should be used to dry the
+particles. The diffusion dryer uses silica gel desiccant to
+remove the moisture. The desiccant shall either be new
+or  freshly  regenerated.    The  design  flow  rate  of  the
+aerosol dryer shall at least match the output flow rate of
+the aerosol generator.
+NOTE   6:   Some   diffusion   dryers   may   precipitate   polymer
+spheres and add other particles when the aerosol gets in direct
+contact with the silica gel.
+9. 2.2.5  Neutralizer
+9. 2.2.5.1  An aerosol neutralizer should be connected in
+line with the dryer to reduce electrostatic charges on the
+dry    polymer    spheres    and    to    avoid    electrostatic
+interaction with each other or the line wall. The design
+flow  rate  of  the  aerosol  neutralizer  shall  at  least  match
+the output flow rate of the aerosol generator.
+NOTE 7: Some electrostatic neutralizers may produce a large
+number  of  ultra-fine  particles  which  will  combine  with  the
+calibration aerosol.
+9. 2.2.6  Aerosol Size Separator
+9. 2.2.6.1      In   the   case   of   calibration   with   ultra-fine
+particles,  a  system  should  be  used  to  separate  single
+polymer  spheres  from  the  residual  particles  resulting
+from  vaporization  of  solutions  and  aggregate  particles
+consisting of several spheres. The size separation could
+be   achieved   with   an   electrostatic   classifier   or   a
+diffusion battery.
+9. 2.2.7  Aerosol Dilution
+9. 2.2.7.1      If   the   particle   concentration   behind   the
+aerosol  generator  is  too  high,  the  particle  flow  shall  be
+diluted  to  achieve  the  required  concentration  and  to
+avoid  coincidence  errors.  The  dilution  should  comply
+with the German VDI-Richtlinie 3491, or an equivalent
+standard in other countries.
+9. 2.2.8  Aerosol Line System
+9. 2.2.8.1  The system consisting of
+• the aerosol generator,
+• the aerosol dryer,
+• the neutralizer,
+• the particle size separator,
+• the dilution stage, and
+• tubing  connecting  the  devices  with  each  other  and
+the filtered, dried and compressed zero gas.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 8
+9. 2.2.8.2    The  line  system  should  be  smooth,  conduc-
+tive, and electrically grounded to minimize electrostatic
+interaction of the particles with line walls and the parti-
+cles themselves. The line should be as short and straight
+as possible with no bends with a radius of curvature less
+than 100 mm. Leak-free connections of the line and all
+devices should be ensured using appropriate fittings.
+9. 2.2.8.3          Figure     1     illustrates     a     recommended
+calibration aerosol generation system.
+9. 2.2.9  Flow Control
+9. 2.2.9.1    The  velocity  of  aerosol  and  the  zero  gas
+should  be  within  the  stipulated  range  v
+L,  min
+...  v
+L,max
+,
+specified by the manufacturer of the LPPD. Dependent
+on  the  line  diameter  D
+L
+,  a  stipulated  aerosol  flow  is
+necessary. The velocity meter (e.g. thermoanemometer)
+or flow meter should be mounted in a line with known
+diameter D
+VM
+.
+NOTE 8:  The aerosol drawn by the reference particle counter
+influences  the  velocity  or  flow  measured  by  the  velocity
+meter  or  flow  meter  if  it  is  mounted  behind  the  probe  inlet.
+This is taken into account when calculating and adjusting the
+flow  and  velocity  v
+L
+at  the  LPPD.  If  the  velocity  meter  or
+flow  meter  is  mounted  in  front  of  the  probe  inlet  of  the
+reference   particle   counter,   the   device   should   have   no
+influence  on  the  particle  size  distribution  measured  by  the
+reference particle counter.
+9. 2.2.10  Calibration Line System
+9. 2.2.10.1  The system consisting of
+• a device to inject the particles into the zero gas,
+• a  device  to  mix  the  aerosol  sample  with  the  zero
+gas to obtain uniform particle concentration,
+• a  device  to  adapt  the  LPPD  into  the  line  (diameter
+D
+L
+),
+• a  device  to  adapt  the  velocity  meter  or  the  flow
+meter,
+• a   device   (diameter   D
+RC
+=   D
+L
+,   same   particle
+concentration  as  at  the  LPPD)  to  draw  a  defined,
+isokinetic  sample  from  the  line  for  the  reference
+particle counter (the opening area of the probe inlet
+should  be  reported  in  the  calibration  report  form),
+and
+• tubing  connecting  the  devices  with  each  other  and
+with the fan and filter system.
+9. 2.2.10.2    The  line  system  should  be  smooth,  conduc-
+tive, and electrically grounded to minimize electrostatic
+interaction of the particles with line walls and the parti-
+cles themselves. The line should be as short and straight
+as possible with no bends with a radius of curvature less
+than 100 mm. Leak-free connections of the line and all
+devices should be ensured using appropriate fittings.
+9. 2.2.10.3    Figure  1  illustrates  a  recommended  LPPD
+calibration system.
+NOTE 9: The distance between the device to adapt the LPPD
+under  test  and  the  device  for  sample  acquisition  for  the
+reference  particle  counter  should  be  as  short  as  possible  to
+minimize  particle  loss  and  to  ensure  comparable  particle
+concentrations.
+9. 2.2.11  Reference Particle Counter (RPC)
+9. 2.2.11.1  The reference particle counter is required to
+measure  the  actual  concentration  of  the  monodisperse
+aerosol  and  the  quality  of  the  zero  gas  inside  the  line.
+Therefore,   the   counting   efficiency   of   the   reference
+particle  counter  is  defined  as  100%  over  the  range  of
+particle  sizes  used  in  the  test.  The  resolution  should  be
+better  than  10%  at  the  lower  detection  limit  of  the
+LPPD   under   test.   The   values   of   the   measurement
+should  be  printed  out  in  counts  per  mm
+2
+opening  area
+A
+RC
+of the probe inlet. The sample transit line from the
+probe inlet and the reference particle counter should be
+as short and as straight as possible. Smooth, conductive,
+and electrically grounded materials should be used.
+9. 2.2.12  Sensor Window Temperature
+9. 2.2.12.1    Some  LPPDs  have  the  capability  to  heat
+their sensor windows to avoid coating of the window. A
+device  to  measure  and  to  adjust  the  sensor  window
+temperature  within  the  operating  range  (measurable  to
+5%)  should  be  installed  in  the  calibration  setup.  The
+thermometer  should  be  calibrated  with  an  accuracy  of
+0. 2°C.
+9. 2.2.13  Pulse Height Analyzer (PHA)
+9. 2.2.13.1    The  external  analyzer  is  connected  with  the
+analog sensor calibration output. The PHA should have
+at  least  64  channels  and  a  resolution  of  at  least  1%  of
+the average voltage that will be measured. The use of a
+PHA,  which  is  built  into  the  sensor  electronics,  is
+allowed if this PHA meets the criteria mentioned above.
+The  required  range  and  speed  will  depend  on  the
+performance of the LPPD under test. These parameters
+should be obtained by the LPPD manufacturer.
+9. 2.2.14  Environmental Monitoring
+9. 2.2.14.1        The    environmental    temperature    T
+A
+is
+measured by a thermometer calibrated with an accuracy
+of 0.2°C.
+9. 2.2.14.2    The  environmental  relative  humidity  RH  is
+measured by a hygrometer.
+9. 2.2.14.3  The atmospheric pressure p is measured by a
+barometer calibrated with an accuracy of 133 Pa.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 9
+9. 2.2.15  All instruments used for the reference calibration procedure shall have been checked for valid calibration
+in accordance with ISO 10012-1 and 10012-2.  Record all calibration data.
+9. 2.3  Setup and Schematic
+9. 2.3.1  See Figure 1.
+
+Neutralizer
+Dryer
+Aerosol
+Generator
+ULPA
+Filter
+Compressed,
+Dried Air
+Dilution
+Aerosol Size
+Separator
+PHA
+Fan
+ULPA
+Filter
+LPPD
+Analog Output
+Reference
+Particle
+Counter
+Injection and
+Mixing Device
+V ́
+L
+, C
+L
+,
+D
+L
+, v
+L
+D
+VM
+, v
+VM
+V ́
+G
+C
+G
+V ́
+0
+Velocity or Flow
+Meter and Control
+D
+RC
+Sample
+Acquisition
+Device
+
+Figure 1
+Calibration setup and schematic
+
+9. 3  Calibration Procedure
+NOTE    10:    Specific    procedures    for    calibrating    different
+LPPDs can vary considerably not only between manufacturers
+but   between   instrument   models.   For   this   reason,   this
+document  cannot  provide  detailed  procedures  for  calibrating
+every LPPD. For detailed procedures for calibrating a specific
+LPPD,  contact  the  manufacturer.  The  calibration  should  be
+performed by a skilled technician.
+9. 3.1    If  the  aerosol  flow  rate  is  varied,  then  particle
+residence  time  in  the  detection  area  A
+L
+will  also  vary.
+This  results  in  pulses  of  varying  duration.  Therefore,
+the particle velocity v
+L
+at the LPPD should be constant
+and independent of the line diameter D
+L
+. The fan has to
+be  regulated  so  that  the  aerosol  velocity  at  the  velocity
+meter  is  v
+VM
+=  v
+L
+D
+2
+L
+/  D
+2
+VM
+.  At  a  constant  volume
+flow   rate   V ́
+G
+(depending   on   the   pressure   of   the
+compressed  air)  and  constant  number  concentration  C
+G
+
+the  level  of  number  concentration  C
+L
+reaches  a  value
+dependent  on  line  diameter  D
+L
+at  constant  velocity  v
+L
+.
+With  the  known  detection  area  A
+L
+of  the  LPPD,  the
+number of particles per time (counts per mm
+2
+detection
+area per time) is defined. The RPC monitors the number
+of particles C
+L
+of the aerosol generator and the zero air
+inside the line.
+9. 3.2    If  the  response  signal  for  the  used  particle  size
+does  not  meet  the  expectations,  the  operator  might  use
+another particle size within the required size range.
+9. 3.3  Calibration Parameters
+9. 3.3.1        The    sample    measurement    time    for    the
+calibration  with  each  particle  size  should  be  at  least  30
+seconds to avoid statistical errors.
+9. 3.3.2    The  calibration  is  to  be  performed  at  ambient
+atmospheric   pressure   in   a   controlled   environment
+(temperature, humidity, vibrations).
+9. 3.3.3    The  calibration  of  the  LPPD  is  to  be  executed
+in  a  line  diameter  D
+L
+in  which  the  LPPD  should  be
+installed by the user.
+9. 3.3.4    Fixed  particle  concentration  at  the  LPPD  C
+P
+to
+ensure  that  the  coincidence  error  is  always  less  than
+10%.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 10
+9. 3.3.5      Fixed   velocity   at   the   LPPD:   v
+L
+=   1   m/s
+(independent of line diameter at the LPPD).
+9. 3.3.5.1    Some  LPPDs,  e.g.  a  scanning  LPPD  for  the
+use   inside   a   process   chamber,   require   a   different
+velocity  than  1  m/s  for  calibration.  In  such  cases  the
+used  aerosol  velocity  at  the  location  of  the  LPPD  shall
+be reported in the calibration report form.
+9. 3.4  Initial Setup
+9. 3.4.1    Connect  the  aerosol  generator  to  a  supply  of
+filtered, dried, and compressed zero gas (see Figure 1).
+Connect  a  dryer,  neutralizer,  and  size  separator  (if
+necessary) to the aerosol outlet of the particle generator.
+If  a  dilution  of  the  aerosol  before  the  injection  in  the
+calibration  line  is  necessary,  install  a  dilution  stage
+behind the size separator.
+9. 3.4.2    Connect  the  aerosol  line  to  the  calibration  line.
+Mount  the  LPPD  under  test  behind  the  injection  and
+mixing device. Install the sample acquisition device and
+the velocity or flow meter into the calibration line.
+9. 3.4.3  Connect a PHA to the sensor calibration output
+if an appropriate built-in PHA is not available.
+9. 3.4.4  Before starting the following procedures, make
+sure  all  instruments  are  turned  on  and  allow  a  certain
+time for warm-up and temperature stabilization.
+9. 3.4.5    Purge  the  aerosol  line  and  the  calibration  line
+with filtered and dried air for a minimum of 30 minutes.
+9. 3.4.6    Check  the  quality  of  the  zero  gas  and  the
+condition of the calibration line using the RPC. Collect
+counts  for  three  one-minute  periods  and  determine  the
+average  number  of  particles  reported  in  counts  per
+minute.  The  volume  flow  of  the  zero  gas  shall  be
+enough  for  correct  operation  of  the  RPC.  Record  the
+cumulative  particle  count  reported  for  the  zero  gas  for
+particles equal to and larger than the LDL of the LPPD
+under test.
+9. 3.4.7  Clean the aerosol generator liquid reservoir and
+fill  it  with  clean  diluent  (particle-free  deionized  or
+destilled   water   or   Isopropanol).   Run   the   aerosol
+generator  and  adjust  the  pressure  and  flow  rates  as
+recommended  by  the  aerosol  generator  manufacturer.
+Check  the  condition  of  the  aerosol  line  using  the  RPC.
+Collect   counts   for   three   one-minute   periods   and
+determine the average number of particles reported per
+liter of air. If the number exceeds 1 particle per liter air,
+the  diluent  shall  be  refiltered  before  further  use.  The
+average number of particles (counts per minute) should
+be reported in the calibration report form.
+9. 3.4.8  Adjust the volume flow through the calibration
+line  for  the  stipulated  aerosol  velocity  at  the  LPPD
+under test.
+9. 3.4.9    Allow  a  certain  time  for  stabilization  of  the
+adjusted   calibration   parameters   before   any   test   is
+performed.
+9. 3.5  Sizing LPPD
+NOTE    11:    For    more    information    and    background    see
+Appendix 2.
+9. 3.5.1  Size Calibration
+NOTE  12:  To  define  the  calibration  settings  either  the  mode
+or median of the voltage pulse distribution could be used. The
+use of the modal procedure is common. The calibration report
+form should identify the used method.
+9. 3.5.1.1    By  running  different  monodisperse  aerosols
+(with  v
+L
+and  V ́
+L
+=  V ́
+0
++  V ́
+G
+),  size  calibration  is
+performed. Begin with the largest particles for which a
+calibration  value  is  required.  Select  the  particle  size
+range for which calibration is required. Be sure that the
+particle concentration is low enough that predominantly
+individual    pulses    are    generated    by    the    LPPD.
+Accumulate enough data to avoid statistical errors. The
+procedure  is  repeated  for  each  particle  size  of  interest.
+Determine  the  average  LPPD  pulse  voltage  amplitude
+with the PHA.
+9. 3.5.1.2    The  mode  of  the  voltage  pulse  distribution  is
+determined  by  the  highest  point  in  the  distribution.  If
+the  distribution  is  interfered  with  noise  near  the  peak
+and  the  peak  is  not  well  defined,  the  data  should  be
+averaged  and  the  peak  of  the  averaged  distribution
+should be used defining the mode.
+9. 3.5.1.3  The median voltage is determined by defining
+a  “Region  of  Interest”  (ROI)  which  includes  the  peak
+representing  the  voltage  pulses  from  single  polymer
+spheres.   The   PHA   determines   the   total   number   of
+pulses  under  this  peak.  The  median  voltage  is  that
+voltage  which  devises  the  number  of  pulses  in  the
+region  such  that  half  are  greater  and  half  are  less  than
+the median.
+NOTE 13: If the procedure is carried out for the smallest size
+of  which  the  LPPD  is  specified,  record  the  noise  level  of  the
+LPPD.  The  average  voltage  for  this  size  should  be  at  least
+10% higher than stated noise level voltage at which one noise
+pulse occurs in one minute.
+9. 3.5.1.4    The  particle  size  and  the  average  voltage
+should be reported in the calibration report form.
+9. 3.5.1.5    For  calibration  checks,  a  reference  particle
+counter  (RPC)  with  a  good  sizing  capability  could  be
+used. The counting efficiency of the RPC is defined as
+100%  for  the  particle  sizes  used  in  test.  The  counts  of
+the RPC and the LPPD under test in the corresponding
+channel  should  be  normalized  to  a  standard  detection
+area  (mm
+2
+).  The  ratio  of  these  counts  (in  %),  the
+employed particle size and the threshold settings should
+be recorded in the calibration report form.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 11
+9. 3.5.2  Zero Counting
+NOTE  14:  The  intent  of  this  procedure  is  not  to  adjust  the
+thresholds  for  the  zero  count  rate  but  to  verify  whether  the
+LPPD is within its specification.
+9. 3.5.2.1    By  running  zero  gas  (with  v
+L
+and  V ́
+L
+=  V ́
+0
+)
+through the system the zero count rate, specified by the
+sensor manufacturer, is checked. The reference particle
+counter is used to check the quality of the zero gas. The
+minimum  acceptable  sample  time  is  10  minutes.  The
+sampling time shall be long enough to provide adequate
+sampling statistics. The zero count rate (average counts
+per minute) should be recorded in the calibration report
+form.
+9. 3.5.3  Counting Efficiency
+NOTE  15:  The  actual  particle  concentration  is  determined
+with   a   reference   particle   counter   with   a   100%   counting
+efficiency  for  the  employed  particle  size.  It  is  important  that
+there are no differences between the concentration within the
+detection  area  of  the  LPPD  and  the  concentration  monitored
+by the RPC.
+9. 3.5.3.1    By  running  a  monodisperse  aerosol  (with  v
+L
+
+and  V ́
+L
+=  V ́
+0
++  V ́
+G
+),  the  maximum  of  detected
+particles  is  counted.  The  ratio  of  the  counts  of  the
+LPPD   standardized   per   mm
+2
+to   the   counts   of   the
+reference particle counter per mm
+2
+detection area (in %)
+for   each   particle   size   should   be   recorded   in   the
+calibration report form.
+9. 3.5.4  Sensitivity
+9. 3.5.4.1    By  running  different  monodisperse  aerosols
+(with v
+L
+and V ́
+L
+= V ́
+0
++ V ́
+G
+) with particle sizes at the
+expected  sensitivity  where  the  counting  efficiency  is
+between  40%  and  60%,  the  sensitivity  is  verified.  The
+counts  of  the  LPPD  per  mm
+2
+detection  area  compared
+to  the  counts  of  the  reference  particle  counter  per  mm
+2
+
+detection   area   (in   %)   should   be   determined.   The
+determined    particle    size    shall    have    a    counting
+efficiency   between   40%   and   60%   and   should   be
+recorded in the calibration report form.
+9. 3.5.5  Particle Size Resolution
+NOTE  16:  The  particle  size  shall  be  at  least  twice  the  lower
+counting    limit    to    ensure    measurement    of    the    entire
+distribution  and  accurate  characterization  of  the  calibration
+response   curve   below   the   particle   size   of   interest.   The
+resolution  is  specified  by  the  coefficient  of  variation  (in  %)
+obtained  by  dividing  the  portion  of  the  standard  deviation  of
+the  distribution  σ
+LPPD
+that  is  contributed  by  the  LPPD  by  the
+mean size of the distribution d
+p
+.
+9. 3.5.5.1  Record the size d
+p
+and the standard deviation
+σ
+d,p
+of  the  used  particles  in  the  calibration  report  form.
+By running a monodisperse aerosol (with v
+L
+and V ́
+L
+=
+V ́
+0
++  V ́
+G
+),  determine  the  standard  deviation  of  the
+observed  particle  distribution  σ
+p,LPPD
+.  To  determine  the
+standard  deviation  of  the  pure  sensor  signal  σ
+V,LPPD
+,  a
+pulse  height  analyzer  can  measure  the  voltage  peaks  at
+the analog sensor calibration output. The portion of the
+standard  deviation  of  the  distribution  σ
+LPPD
+that  is
+contributed by the LPPD is calculated by the following
+formula:
+
+()()
+2
+,
+2
+,pdLPPDpLPPD
+σσσ−=
+
+9. 3.5.5.2    The  value  of  the  standard  deviation  of  the
+observed  distribution  σ
+p,LPPD
+,  the  standard  deviation  of
+the   sensor   signal   σ
+V,LPPD
+,   and   the   coefficient   of
+variation  (in  %)  should  be  recorded  in  the  calibration
+report form.
+9. 3.6  Non-Sizing LPPD
+NOTE    17:    For    more    information    and    background    see
+Appendix 2.
+9. 3.6.1  Zero Counting
+9. 3.6.1.1  See Section 9.3.5.2.
+9. 3.6.2  Counting Efficiency
+NOTE  18:  The  actual  particle  concentration  is  determined
+with   a   reference   particle   counter   with   a   100%   counting
+efficiency  for  the  employed  particle  size.  It  is  important  that
+there are no differences between the concentration within the
+detection  area  of  the  LPPD  and  the  concentration  monitored
+by the RPC.
+9. 3.6.2.1  By running a monodisperse aerosol (using the
+smallest  particles  size  which  can  be  counted  with  v
+L
+
+and  V ́
+L
+=  V ́
+0
++  V ́
+G
+),  the  maximum  of  detected
+particles  is  counted.  The  counts  of  the  LPPD  per  mm
+2
+
+detection  area  compared  to  the  counts  of  the  reference
+particle  counter  per  mm
+2
+detection  area  (in  %)  and  the
+employed   particle   size   should   be   recorded   in   the
+calibration report form. These measurements should be
+executed  for  the  defined  set  of  particle  sizes  including
+one size no larger than 1.3 times the sensitivity limit as
+specified by the manufacturer.
+9. 3.7  Interim Procedure
+9. 3.7.1    Between  the  settings  of  the  separate  thresholds
+or  the  runs  with  different  particle  sizes,  the  system
+should  be  purged  with  zero  gas  for  a  sufficient  time.
+The  aerosol  generator  should  be  rinsed  with  clean
+diluent   for   a   sufficient   time   before   adding   new
+suspension of particles with other size.
+10  Calibration Report Form
+10. 1      The   calibration   report   form   shall   contain   the
+following information:
+
+
+SEMI E104-0303 © SEMI 2000, 2003 12
+10. 1.1  General part:
+• Date and time of calibration
+• Name of the operator
+• Manufacturer of the LPPD
+• Model   and   serial   number   of   the   LPPD   to   be
+calibrated   (if   sensor   and   counter   are   separate,
+model and serial number for each)
+• Size  of  the  detection  area  (if  detection  area  is
+dependent   on   the   particle   size,   all   established
+values)
+• Model,  serial  number,  manufacturer,  and  date  of
+last calibration of the reference particle counter
+• Performance   of   the   reference   particle   counter
+(volume flow, sensitivity, zero count rate)
+• Environmental conditions: temperature T
+A
+, relative
+humidity RH, pressure p
+• Quality of zero gas as measured with the reference
+particle counter (counts per minute)
+• Specifications  of  the  particles  used  for  calibration
+(manufacturer,     certified     size     and     tolerance,
+standard  deviation  σ
+d,p
+,  coefficient  of  variation,
+refractive index, lot number)
+• Calibration  parameters:  particle  concentration  C
+L
+,
+particle  velocity  v
+L
+at  the  location  of  the  LPPD,
+line  diameter  D
+L,
+opening  area  A
+RC
+of  the  probe
+inlet for each particle size
+• Calibration procedure: sizing or non-sizing
+10. 1.2  For sizing LPPD:
+• Size calibration: value of the average voltage of the
+different  particle  sizes,  employed  particle  sizes,
+mode or median method
+• Size  calibration  check:  values  of  the  thresholds,
+employed  particle  sizes,  ratio  of  the  normalized
+counts in the corresponding channel (in %)
+• Zero   counting:   value   of   the   zero   count   rate
+(average counts per minute), sampling time
+• Particle  size  resolution:  value  of  coefficient  of
+variation,   value   of   standard   deviation   of   the
+observed distribution, mean size of the distribution,
+value  of  standard  deviation  of  the  sensor  signal,
+employed particle sizes
+• Counting    efficiency:    value    of    the    counting
+efficiency (in %), employed particle sizes
+10. 1.3  For non-sizing LPPD:
+• Zero   counting:   value   of   the   zero   count   rate
+(average counts per minute), sampling time
+• Counting    efficiency:    value    of    the    counting
+efficiency (in %), employed particle sizes
+10. 2    Report  significant  variations  from  data  reported
+from the previous calibration.
+11  Related Documents
+NOTE 19: These publications       related       to       particle
+measurement,    vacuum    ISPM,    and    calibration    are    just
+informative to improve understanding of these standard.
+Raasch,  J.;  Umhauer,  H.:  “Errors  in  Determination  of
+Particle  Size  Distributions  Caused  by  Coincidence  in
+Optical  Particle  Counters”  Particle  Characterization  3,
+1990, 424-427
+Jaenicke,   R.:   “The   Optical   Particle   Counter:   Cross
+Sensitivity  and  Coincidence”  J.  Aerosol  Sci.,  30(5),
+1972, 95-111
+Borden,  P.:  “Monitoring  Vacuum  Process  Equipment:
+In    Situ    Monitors    –    Design    and    Specification”
+Microcontamination, 1991, 43-47
+Raabe,  O.G.:  “The  Generation  of  Aerosols  of  Fine
+Particles”  Fine  Particles,  Ed.  Liu,  B.;  Academic  Press,
+New York, 1976, 57-110
+
+
+
+SEMI E104-0303 © SEMI 2000, 2003 13
+APPENDIX 1
+PERFORMANCE TESTING
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E104  and  was  approved  by  full  letter  ballot
+procedures on July 28, 2000 by the European Regional Standards Committee.
+A1-1    The  definitions  of  parameters  and  measurement
+of  the  terms  described  in  SEMI  E10  applies  also  to
+LPPDs and combined LPPD/process equipment.
+
+
+
+SEMI E104-0303 © SEMI 2000, 2003 14
+APPENDIX 2
+CALIBRATION NOTES
+NOTICE: The material in this appendix is an official part of SEMI E104 and was approved by full letter ballot
+procedures on July 28, 2000 by the European Regional Standards Committee.
+A2-1  Size Calibration
+A2-1.1          Size     calibration     is     performed     with
+monodisperse  particles  with  known  sizes  and  known
+optical    properties.    The    procedure    establishes    the
+voltage  response  of  the  LPPD  for  these  particles.  The
+reported  size  for  unknown  particles  is  the  same  size  of
+the monodisperse particle whose voltage response is the
+voltage pulse produced by the unknown particle (called
+Optical Equivalent Size).
+A2-1.2      If   an   LPPD   is   able   to   detect   all   of   the
+distribution  (see  counting  efficiency)  generated  by  a
+monodisperse   aerosol   and   the   size   of   the   particle
+standard is known, the calibrating of an LPPD without a
+reference  particle  counter  is  possible.  Ideally,  the  data
+collected   by   the   LPPD   observing   a   monodisperse
+aerosol   would   describe   a   Gaussian   particle   size
+distribution. However, the reported voltage pulse height
+distribution is often not symmetric. Therefore, the mode
+and  modal  values  of  the  pulse  height  distribution  are
+not equal. The thresholds for different particle sizes are
+set  as  the  mode  or  median  value  of  the  observed
+distribution.  The  modal  voltage  method  is  commonly
+used.
+A2-1.3    The  intensity  of  the  scattered  light  detected  by
+a photodetector depends on intensity, polarization state,
+and  wavelength  of  the  incident  light  beam,  diameter,
+shape, and refractive index of the particle, as well as on
+the  geometrical  layout  of  the  collection  optics  and
+detector.  In  the  particle  size  range  near  the  wavelength
+(0.1λ < d
+P
+<  10λ), large oscillations can be seen in the
+intensity   curve   of   the   light   scattered   by   spherical
+particles   as   a   function   of   all   these   parameters.
+Therefore, the response curve might not be monotonic.
+Particles  of  more  than  one  size  will  produce  the  same
+voltage  output  signal.  The  calibration  particles  should
+be chosen so that their response is not included in such
+reversals of the calibration curves.
+A2-1.4    For  calibration  checks,  a  reference  particle
+counter  (RPC)  with  a  good  sizing  capability  could  be
+used. The counting efficiency of the RPC shall be 100%
+for the particle sizes used in test. The counts of the RPC
+and  the  LPPD  under  test  in  the  corresponding  channel
+should   be   normalized   to   a   standard   detection   area
+(mm
+2
+).
+A2-2  Particle Size Resolution
+A2-2.1    Particle  size  resolution  of  a  particle  detector
+describes its capability to differentiate between particles
+of  nearly  the  same  size,  or  it  is  a  measure  of  the  range
+of  sizes  which  the  counter  would  assign  to  a  particular
+particle  if  its  size  was  determined  repeatedly.  The
+resolution is specified by the coefficient of variation (in
+%)  obtained  by  dividing  the  portion  of  the  standard
+deviation of the distribution σ
+LPPD
+that is contributed by
+the LPPD by the mean particle size.
+A2-2.2  The employed particle size should be at least 2
+times   larger   than   the   lower   detection   limit   of   the
+instrument and is within a monotonic response range of
+the LPPD response curve. The size d
+p
+and the standard
+deviation σ
+d,p
+of  the  used  particles  is  necessary  to
+calculate the resolution.
+A2-2.3      To   determine   the   resolution,   the   standard
+deviation of the observed particle distribution σ
+p,LPPD
+is
+calculated.  The  quality  of  the  photodetector  is  checked
+by   determining   the   standard   deviation   of   the   pure
+sensor  signal  σ
+V,LPPD
+at  the  analog  calibration  output
+with a pulse height analyzer. The σ
+LPPD
+is calculated by
+the following formula:
+
+()()
+2
+,
+2
+,pdLPPDpLPPD
+σσσ−=
+
+A2-3  Zero Counting
+A2-3.1  The intent of this procedure is not to adjust the
+thresholds for the zero count rate but to verify whether
+the  LPPD  is  within  its  specification.  It  is  assumed  that
+the  zero  count  level  of  a  correct  operating  LPPD  is
+sufficiently  better  than  its  specification.  Failure  of  the
+verification  test  is  due  to  a  physical  failure  within  the
+LPPD    and    not    to    statistical    variation    in    the
+measurement.
+A2-3.2      The   output   of   a   photodetector   and   the
+electronic  circuits  of  the  particle  detector  is  afflicted
+with  noise.  The  zero  count  rate  verification  is  carried
+out  to  ensure  that  data,  especially  near  the  detection
+limit of the LPPD, is generated by particles rather than
+by  noise.  To  achieve  this  goal,  the  basic  thresholds  for
+the LDL are to be set so that a signal-to-noise ratio of at
+least  3  dB  is  ensured.  The  sampling  time  shall  be  long
+enough to provide adequate sampling statistics.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 15
+A2-4  Counting Efficiency
+A2-4.1    The  counting  efficiency  for  a  specific  particle
+size is defined as the ratio of the detected concentration
+of  particles  to  the  concentration  actually  present.  The
+determination  of  the  counting  efficiency  of  an  LPPD
+requires  particles  of  known  size  and  concentration  in
+the  aerosol.  The  counting  efficiency  is  affected  by
+several factors.
+• First,  the  counting  efficiency  is  dependent  on  a
+specific particle size.
+• The  effect  of  particle  concentration  is  addressed
+under zero counting and coincidence.
+• Due  to  inhomogeneous  light  intensity  within  the
+detection area of the particle counter, not all small
+particles   near   the   lower   detection   limit   of   the
+instrument are detected.
+• If  the  sampling  flow  is  not  completely  contained
+within   the   defined   detection   area,   then   some
+portions of the aerosol will not be counted.
+A2-4.2    Ideally,  the  counting  efficiency  of  a  particle
+counter covering 100% of the line cross-section area as
+detection  area  would  consist  of  a  step  function  at  the
+point of the LDL. Real particle detectors have a gradual
+transition  (efficiency  curve)  instead  of  a  step  function.
+The point with 50% detection probability of all particles
+of  a  given  size  moving  through  the  detection  area  is
+often  used  as  a  reference  point.  The  corresponding
+particle  size  is  called  the  minimum  detectable  particle
+size (see sensitivity). If the slope of the efficiency curve
+for   two   detectors   with   the   same   specified   50%
+efficiency  point  is  different,  the  two  detectors  may
+show different particle counts for the same polydisperse
+aerosol.  To  define  an  efficiency  curve,  more  than  one
+particle  size,  e.g.  5  particle  sizes  around  the  LDL
+covering   0%   to   100%   efficiency,   should   be   used.
+Acceptable   counting   efficiency   for   single   particle
+counting  instruments  is  50%  ±  20%  at  the  minimum
+detection  size  and  100%  ±  10%  for  all  particles  larger
+than 1.5 times the minimum size.
+A2-4.3    The  detection  area  of  most  LPPDs  comprises
+only  a  small  portions  of  the  cross-section  area  of  the
+line.  Therefore,  it  is  not  possible  to  specify  a  50%
+efficiency point. For this, the commonly used definition
+for sensitivity could not be used for such instruments.
+A2-4.4  The actual particle concentration is determined
+with a reference particle counter with a 100% counting
+efficiency for the employed particle size. It is important
+that  there  are  no  differences  between  the  concentration
+within   the   detection   area   of   the   LPPD   and   the
+concentration monitored by the RPC.
+A2-5  Sensitivity
+A2-5.1    The  particle  size  corresponding  to  the  point
+with 50% counting efficiency of the particles of a given
+size is defined as the minimum detectable particle size.
+This is valid only for particle counters capable to reach
+100%  counting  efficiency  for  a  specific  particle  size.
+This does not apply to most LPPDs.
+A2-6  Particle Concentration Effects
+A2-6.1  All optical particle detectors are able to operate
+accurately   only   within   a   limited   range   of   particle
+concentration.  It  is  not  the  scope  of  this  document  to
+define  how  this  limit  is  measured  or  how  to  verify  the
+specification.
+A2-6.2  High Concentration Effects
+A2-6.2.1        The    upper    limitation    of    the    particle
+concentration is chiefly based on coincidence effects.
+A2-6.2.2    One  effect  is  optical  coincidence.  If  the
+particle   concentration   is   too   high,   more   than   one
+particle  is  present  within  the  detection  area  of  the
+instrument.  The  reported  particle  concentration  will  be
+less  than  the  true  value,  and  the  reported  particle  size
+distribution  will  be  shifted  towards  the  indication  of
+larger particles than in reality.
+A2-6.2.3    The  other  effect  is  electronic  coincidence.  It
+is   defined   as   the   inability   of   the   electronic   pulse
+processing  system  to  detect  and  size  individual  pulses
+that are too closely spaced. If there are so many pulses
+that they cannot completely return to the baseline, they
+become   superimposed.   Electronic   saturation   occurs.
+Electronic coincidence introduces errors in both particle
+size  and  counts  as  well.  Normally,  this  problem  is  not
+critical    for    modern    electronic    systems.    Optical
+coincidence  can  become  a  problem  at  particle  levels
+well below the point where electronic saturation occurs.
+A2-6.2.4        Another    error    can    occur    when    high
+concentrations  of  particles  just  smaller  than  the  lower
+detection  limit  of  the  instrument  are  present.  Even
+though no single one of these particles will be detected,
+scattering-light  levels  from  these  particles  can  increase
+the background optical noise level. So, errors might be
+produced in particle count data in the lower particle size
+ranges reported by the counter.
+A2-6.3  Low Concentration Effects
+A2-6.3.1    It  is  obvious  that  it  is  necessary  to  collect
+sufficient data to determine number and size of particles
+within an acceptable confidence limit.
+
+
+
+SEMI E104-0303 © SEMI 2000, 2003 16
+APPENDIX 3
+AEROSOL GENERATION AND AEROSOL DILUTION
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E104  and  was  approved  by  full  letter  ballot
+procedures on July 28, 2000 by the European Regional Standards Committee.
+A3-1  Monodisperse Particle Suspension
+A3-1.1    Monodisperse  suspensions  of  particles  (PSL)
+are available in sizes from 0.02 μm. These particles are
+grown by emulsion polymerization and are stabilized in
+aqueous  suspensions  with  an  anionic  surfactant.  They
+carry   a   negative   charge   which   contributes   to   their
+stability.  The  suspension  normally  contains  10%  solids
+and  2%  dissolved,  highly  viscous  stabilizer.  The  solid
+contains up to 8% emulsifier and inorganics.
+A3-1.2      After   evaporation,   these   solids   and   the
+stabilizer  will  both  increase  the  diameter  of  the  single
+particle and generate a residual nucleus out of an empty
+droplet.  These  residual  particles  are  called  secondary
+aerosol. The diameter of residual nucleus could be up to
+0. 25 μm  according  to  the  PSL  size  and  dilution  of  the
+suspension.  Most  of  these  secondary  aerosol  particles
+might  be  too  small  to  be  detectable  with  commonly
+used  particle  detectors,  but  they  will  have  an  influence
+on the noise level because of there high number.
+A3-1.3  Out of a high-concentration suspension it is not
+possible    to    aerosolize    only    individual    particles.
+Droplets  containing  more  than  one  of  the  suspended
+particles  will  become  undesirable  agglomerates  upon
+evaporation.
+A3-1.4  For this, an adequate dilution of the suspension
+is  necessary  to  avoid  the  formation  of  aggregates  and
+the enlargement of the particles.
+A3-2  Generation and Dilution of PSL
+Suspension
+A3-2.1      A   diluted   PSL   suspension   for   particle
+generation in an aerosol generator can be created by the
+following procedure:
+• Shaking  and/or  ultrasonic  treatment  of  the  PSL
+bottle distributed by the PSL manufacturer.
+• Placing  one  drop  of  PSL  in  one  liter  of  deionized
+or  destilled  water  or  Isopropanol.  The  water  could
+be  cleaned  using  a  filter  with  a  pore  size  no  more
+than 10% of the size of the particles being used.
+• Shaking    and/or    ultrasonic    treatment    of    the
+suspension to disperse the particles.
+A3-2.2  The suspension will probably need to be diluted
+further  to  provide  a  required  particle  concentration.
+This    is    necessary    to    avoid    the    formation    of
+agglomerates  and  to  restrict  the  size  of  the  secondary
+aerosol  particles.  An  equation  to  calculate  the  required
+particle  concentration  is  given  in  “The  Generation  of
+Aerosols  of  Fine  Particles”  by  O.  Raabe  (see  Section
+11).
+A3-2.3  The particle suspensions distributed by the PSL
+manufacturer  shows  no  detectable  variation  in  particle
+characteristics when they are stored in a cool place over
+the  years.  Diluted  suspensions  for  atomization  feature
+an   aging   process.   Diluted   suspensions   of   polymer
+spheres  smaller  than  1  μm  should  not  be  stored  for
+more than one week.
+NOTE A3-1: Care should be taken to avoid contamination of
+the polymer spheres and the suspension.
+A3-3  Aerosol Generation
+A3-3.1    The  diluted  suspension  is  nebulized  in  the
+aerosol    generator.    Great    account    is    taken    of
+concentration  and  size  distribution  of  the  generated
+droplets and of the volume flow rate V ́
+G
+. To achieve a
+constant  aerosol  production,  the  volume  flow  rate  and
+the  droplet  size  distribution  should  be  constant  and
+independent   of   the   supplies   of   suspension   in   the
+reservoir. The variation in particle concentration should
+be  no  more  than  10%  as  measured  by  the  reference
+particle  counter  over  a  time  period  of  15  minutes  or
+more.
+NOTE A3-2: Care should be taken to avoid contamination of
+the aerosol generator.
+A3-4  Aerosol Drying
+A3-4.1      The   water   of   the   generated   droplets   will
+completely evaporate when the relative humidity of the
+aerosol  flow  behind  the  nebulizer  is  lower  than  70%.
+The   volume   flow   of   the   suspension   in   the   nozzle
+increases  the  humidity  of  the  filtered  compressed  air
+which  has  a  relative  humidity  of  10%–15%  in  spite  of
+predrying.  The  use  of  a  diffusion  dryer  or  another
+appropriate    instrument    allows    a    higher    relative
+humidity   of   the   aerosol   flow   behind   the   aerosol
+generator.  The  diffusion  dryer  uses  silica  gel  desiccant
+to  remove  the  moisture.  The  desiccant  shall  either  be
+new  or  freshly  regenerated.  It  is  not  wise  to  get  the
+aerosol  in  direct  contact  with  the  desiccant.  Polymer
+spheres will be precipitated and additional particles out
+of    the    desiccant    will    change    the    particle    size
+distribution of the aerosol.
+
+
+SEMI E104-0303 © SEMI 2000, 2003 17
+A3-5  Aerosol Neutralization
+A3-5.1    When  dispersing  the  suspension,  the  particles
+are  charged.  This  surface  charge  should  be  removed
+after  drying  the  aerosol  flow  to  avoid  electrostatic
+interactions  with  each  other  or  the  line  walls.  With  the
+help  of  the  discharging  distance  of  an  electrostatic
+neutralizer,  the  aerosol  is  exposed  to  a  bipolar  ion
+source.  Some  electrostatic  neutralizers  may  produce  a
+large number of ultra-fine particles which will combine
+with  the  calibration  aerosol  and  affects  the  signal-to-
+noise-ratio  of  the  LPPD  and  the  reference  particle
+counter.
+A3-6  Aerosol Size Separation
+A3-6.1    When  calibrating  with  ultra-fine  particles,  a
+particle  size  separation  might  be  necessary  to  remove
+the residue particles and agglomerates. An electrostatic
+classifier  is  most  effective  for  particle  sizes  less  than  1
+μm.  This  instrument  electrically  charges  the  incoming
+aerosol.   With   electrostatic   deflection,   it   separates
+selected particles of one mobility. The residue particles
+and the larger aggregate particles would be stripped out
+of the particle stream consisting of the desired polymer
+particles.   To   charge   the   aerosol,   the   electrostatic
+classifier  uses  a  radioactive  neutralizer.  The  aerosol
+exiting   the   instrument   will   contain   singly   charged
+particles.  This  low  charge  level  makes  the  use  of  an
+additional        aerosol        neutralizer        unnecessary.
+Nevertheless,    conductive    tubing    should    be    used
+between   the   aerosol   generator   and   the   LPPD   and
+reference   particle   counter   to   minimize   electrostatic
+particle loss.
+A3-7  Aerosol Dilution
+A3-7.1      The   particle   concentration   of   the   aerosol
+generated  by  the  nebulizer  might  be  too  high.  The
+aerosol should be further diluted to achieve the required
+concentration  and  to  avoid  coincidence  errors.  The
+dilution  could  be  executed  with  a  mixing  chamber  in
+which  the  aerosol  is  mixed  with  zero  gas.  The  internal
+chamber  pressure  should  be  stable  and  very  close  to
+ambient atmospheric pressure at operational flow rates.
+The  spatial  particle  distribution  in  the  exiting  aerosol
+should be as homogenous as possible.
+
+
+
+SEMI E104-0303 © SEMI 2000, 2003 18
+APPENDIX 4
+AEROSOL TRANSPORT AND AEROSOL SAMPLING
+NOTICE: The material in this appendix is an official part of SEMI E104 and was approved by full letter ballot
+procedures on July 28, 2000 by the European Regional Standards Committee.
+A4-1  Aerosol Transport
+A4-1.1  Aerosol loss in lines occurs both for small and
+larger  particles.  Larger  particles  (approximately  5  μm
+and larger) are lost as a result of gravitational settling in
+horizontal lines and inertial effects in all lines. Smaller
+particles  are  lost  to  the  line  walls  by  diffusion  and  by
+electrostatic charge effects.
+A4-1.2    A  limitation  of  particle  loss  could  be  achieved
+with tubing as short and as straight as possible with no
+bends with a radius of curvature less than 100 mm. The
+tubing   of   the   calibration   setup   should   be   smooth,
+conductive,    and    electrically    grounded.    Stainless,
+polished   steel   for   rigid   lines   and   Polyurethane   or
+polyvinyl chloride for flexible lines is found acceptable
+for   handling   most   aerosols   with   low   electrostatic
+particle  loss.  If  long  transit  lines  are  required,  they
+should  be  sized  to  permit  a  Reynolds  number  in  the
+range  of  5,000  to  25,000  at  the  sample  flow  rate  to
+minimize  particle  residence  time  in  the  tubing  without
+causing excessive turbulence at high flow rates.
+A4-2  Aerosol Sample Acquisition
+A4-2.1    The  term  isokinetic  sampling  often  is  used  in
+aerosol  measurement  and  characterization.  Isokinetic
+sampling of particles in a moving aerosol is performed
+by matching the sample probe inlet velocity (flow speed
+and
+direction) to the velocity of the moving aerosol. At
+velocities less than 15 m/s, anisokinetic sampling errors
+are    negligible    for    most    particles    smaller    than
+approximately 5 μm. Losses of larger particles might be
+significant.  The  larger  the  particle,  the  larger  the  loss
+due   to   inertial   effects.   Isokinetic   sampling   is   not
+possible   in   environmental   conditions   with   varying
+velocity, motionless air, and turbulent, random, or non-
+unidirectional flow. For better sampling inlet efficiency,
+isokinetic or at least isoaxial sampling is recommended
+at calibration.
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publications    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E106-1104 © SEMI 2000, 2004 1
+SEMI E106-1104
+OVERVIEW GUIDE TO SEMI STANDARDS FOR PHYSICAL
+INTERFACES AND CARRIERS FOR 300 mm WAFERS
+This guide was technically approved by the Global Physical Interfaces & Carriers Committee and is the direct
+responsibility of the North American Physical Interfaces & Carriers Committee. Current edition approved by
+the  North  American  Regional  Standards  Committee  on  July  11,  2004  and  August  16,  2004.    Initially
+available at www.semi.org September 2004; to be published November 2004.  Originally published October
+2000; previously published March 2003. This document replaces SEMI PR6-0200 in its entirety.
+1  Purpose
+1. 1  This   document   is   intended   to   help   users   and
+suppliers of 300 mm carriers and production equipment
+to understand the complex interdependencies among the
+SEMI  standards  for  300  mm  physical  interfaces  and
+carriers  and  to  determine  which  standards  apply  to
+which products.  As shown in Figure 1, these standards
+are     highly     inter-related,     have     many     complex
+dependencies,  and  inherit  a  numbering  system  (from
+legacy 200 mm standards) that is non-intuitive.
+2  Scope
+2. 1  This  document  describes  how  the  SEMI  standards
+for   300   mm   physical   interfaces   and   carriers   work
+together.  This document also clarifies the requirements
+(direct  and  indirect)  on  suppliers  of  each  product,  and
+suggests how users see these standards and options.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+
+
+M1.15, M8, M28
+Wafer
+
+E25
+Cluster - Tool
+Module Access
+E26.1
+Radial Cluster -
+Tool Footprint
+
+E21.1
+
+Cluster
+
+-
+
+Tool
+
+Module Interface
+G77
+Frame Cassette
+
+E22.1
+Cluster - Tool
+End
+
+Effector
+
+M31
+
+FOSB
+
+G74
+Tape Frame
+E103
+SWIF
+E47.1
+
+FOUP
+
+E62
+FIMS
+E15.1
+Load
+Port
+E63
+BOLTS-M
+E92
+Bolts
+
+-
+
+Light
+
+E83
+PGV Docking
+Flange
+E64
+Cart
+Docking
+Interface
+E72
+Equipment
+Footprint, Height,
+and Weight
+E1.9
+Cassette
+E85
+AMHS
+Interoperabiity
+E84
+Carrier
+Handoff
+Parallel I/O
+E57
+Kinematic
+Coupling
+E110
+
+Indicator/
+
+switch
+
+Placement
+
+M1.15, M8, M28
+Wafer
+
+E25
+Cluster - Tool
+Module Access
+E26.1
+Radial Cluster -
+Tool Footprint
+
+E21.1
+
+Cluster
+
+-
+
+Tool
+
+Module Interface
+G77
+Frame Cassette
+
+E22.1
+Cluster - Tool
+End
+
+Effector
+
+M31
+
+FOSB
+
+G74
+Tape Frame
+E103
+SWIF
+E47.1
+
+E62
+FIMS
+E15.1
+Load
+Port
+E92
+Bolts
+
+-
+
+Light
+
+E83
+PGV Docking
+Flange
+E64
+Cart
+Docking
+Interface
+E72
+Equipment
+Footprint, Height,
+and Weight
+E1.9
+Cassette
+E85
+AMHS
+Interoperabiity
+E84
+Carrier
+Handoff
+Parallel I/O
+E57
+Kinematic
+Coupling
+E110
+
+Indicator/
+
+switch
+
+Placement
+
+
+Figure 1
+Complex Relationships and Dependencies Among 300 mm Standards
+
+
+SEMI E106-1104 © SEMI 2000, 2004 2
+3  Limitations
+3. 1  300 mm Only — This document only covers SEMI
+standards  that  are  specific  to  300  mm,  even  though
+other  standards  may  apply  to  300  mm  equipment.    For
+example, standards not described here include:
+• metrics documents such as SEMI E10;
+• minienvironment  documents  such  as  SEMI  E45
+and and SEMI E46;
+• facilities documents such as SEMI E70;
+• reticle  handling  documents  such  as  SEMI  E100
+which  specifies  a  reticle  SMIF  pod  for  6-inch  or
+230 mm reticles based on SEMI E19.4; or
+• safety documents such as SEMI S2, SEMI S8,
+SEMI  S11  and  an  upcoming  Safety  Guideline  for
+Unmanned Transport Vehicle (UTV) Systems.
+3. 2  Physical  Interfaces  and  Carriers  Only  —  This
+document   also   does   not   cover   standards   that   were
+generated by committees other than the SEMI Physical
+Interfaces  and  Carriers  Committee,  even  though  such
+standards  may  be  specific  to  300  mm.  For  example,
+standards not described here include:
+• Information  and  Control  documents  such  as  SEMI
+E82; and
+• Silicon  documents  such  as  SEMI  M1.15,  SEMI
+M8, and SEMI M28 (Developmental Wafers).
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  E1.9  —  Mechanical  Specification  for  Cassettes
+Used to Transport and Store 300 mm Wafers
+SEMI    E10    —    Specification    for    Definition    and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability (RAM)
+SEMI E15 — Specification for Tool Load Port
+SEMI  E15.1  —  Specification  for  300  mm  Tool  Load
+Port
+SEMI E19 — Standard Mechanical Interface (SMIF)
+SEMI E19.4 — 200 mm Standard Mechanical Interface
+(SMIF)
+SEMI  E21.1  —  Cluster  Tool  Module  Interface  300
+mm:    Mechanical    Interface    and    Wafer    Transport
+Standard
+SEMI  E22.1  —  Cluster  Tool  Module  Interface  300
+mm: Transport Module End Effector Exclusion Volume
+Standard
+SEMI   E23   —   Specification   for   Cassette   Transfer
+Parallel I/O Interface
+SEMI  E25  —  Cluster  Tool  Module  Interface:  Module
+Access Guideline
+SEMI E26.1 — Radial Cluster Tool Footprint 300 mm
+Standard
+SEMI  E45  —  Test  Method  for  the  Determination  of
+Inorganic Contamination from Minienvironments Using
+Vapor  Phase  Decomposition-Total  Reflection  X-Ray
+Spectroscopy  (VPD-TXRF),  VPD-Atomic  Absorption
+Spectroscopy      (VPD-AAS),      or      VPD/Inductively
+Coupled Plasma-Mass Spectrometry (VPD/ICP-MS)
+SEMI  E46  —  Test  Method  for  the  Determination  of
+Organic  Contamination  from  Minienvironments  Using
+Ion Mobility Spectrometry (IMS)
+SEMI  E47.1  —  Provisional  Mechanical  Specification
+for  Boxes  and  Pods  Used  to  Transport  and  Store  300
+mm Wafers
+SEMI  E57  —  Mechanical  Specification  for  Kinematic
+Couplings  Used  to  Align  and  Support  300  mm  Wafer
+Carriers
+SEMI  E62  —  Provisional  Specification  for  300  mm
+Front-Opening Interface Mechanical Standard (FIMS)
+SEMI  E63  —  Mechanical  Specification  for  300  mm
+Box   Opener/Loader   to   Tool   Standard   (BOLTS-M)
+Interface
+SEMI  E64  —  Specification  for  300  mm  Cart  to  SEMI
+E15.1 Docking Interface Port
+SEMI E70 — Guide for Tool Accommodation Process
+SEMI  E72  —  Specification  and  Guide  for  300  mm
+Equipment Footprint, Height, and Weight
+SEMI   E82   —   Specification   for   Interbay/Intrabay
+AMHS SEM (IBSEM)
+SEMI   E83   —   Specification   for   300   mm   PGV
+Mechanical Docking Flange
+SEMI   E84   —   Specification   for   Enhanced   Carrier
+Handoff Parallel I/O Interface
+SEMI   E85   —   Specification   for   Physical   AMHS
+Stocker to Interbay Transport System Interoperability
+SEMI  E92  —  Specification  for  300  mm  Light  Weight
+and     Compact     Box     Opener/Loader     to     Tool-
+Interoperability Standard (BOLTS/Light))
+SEMI E99 — The Carrier ID Reader/Writer Functional
+Standard:   Specification   of   Concepts,   Behavior,   and
+Services
+
+
+SEMI E106-1104 © SEMI 2000, 2004 3
+SEMI  E99.1  —  Specification  for  SECS-I  and  SECS-II
+Protocol   for   Carrier   ID   Reader/Writer   Functional
+Standard
+SEMI  E100  —  Specification  for  a  Reticle  SMIF  Pod
+(RSP)  Used  to  Transport  and  Store  6  Inch  or  230  mm
+Reticles
+SEMI  E101  —  Guide  for  EFEM  Functional  Structure
+Model
+SEMI  E103  —  Provisional  Mechanical  Specification
+for a 300 mm Single-Wafer Box System that Emulates
+a FOUP
+SEMI  G74  —  Specification  for  Tape  Frame  for  300
+mm Wafers
+SEMI G77 — Specification for Frame Cassette for 300
+mm Wafers
+SEMI   M1.15   —   Standard   for   300   mm   Polished
+Monocrystalline Silicon Wafers (Notched)
+SEMI      M8      —      Specification      for      Polished
+Monocrystalline Silicon Test Wafers
+SEMI  M28  —  Specifications  for  Developmental  300
+mm Diameter Polished Single Crystal Silicon Wafers
+SEMI M29 — Specification for 300 mm Shipping Box
+SEMI M31 — Provisional Mechanical Specification for
+Front-Opening  Shipping  Box  Used  to  Transport  and
+Ship 300 mm Wafers
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI   S8   —   Safety   Guidelines   for   Ergonomics
+Engineering      of      Semiconductor      Manufacturing
+Equipment
+SEMI   S11   —   Environmental,   Safety,   and   Health
+Guidelines       for       Semiconductor       Manufacturing
+Equipment Minienvironments
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  AGV  —  automatic  guided  vehicle  (as  defined  in
+SEMI E101).
+5. 1.2  PGV  —  person  guided  vehicle  (cart)  (as  defined
+in SEMI E101).
+5. 1.3  RGV — rail guided vehicle (moving on the floor)
+(as defined in SEMI E101).
+5. 2  Definitions
+5. 2.1  bilateral  datum  plane  —  a  vertical  plane  that
+bisects  the  wafers  and  that  is  perpendicular  to  both  the
+horizontal and facial datum planes (as defined in SEMI
+E57).
+5. 2.2  BOLTS  plane  —  a  plane  parallel  to  the  facial
+datum  plane  near  the  front  of  the  tool  where  the  box
+opener/loader is attached (as defined in SEMI E63).
+5. 2.3  box   —   a   protective   portable   container   for   a
+cassette and/or substrate(s).
+5. 2.4  box    opener/loader    or    BOLTS    unit    —    the
+equipment   component   that   opens   wafer   carriers   (if
+needed)  and  presents  the  carriers  to  the  equipment’s
+wafer  handler  for  unloading  and  loading  wafers  (as
+defined in SEMI E63).
+5. 2.5  carrier handler   —   receives   and   passes   the
+carriers from and/or to the external system (such as the
+factory  material  handling  system).  A  carrier  handler  of
+the  internal  buffer  type  has  the  functions  of  handling
+and  storing  the  carriers.    A  carrier  handler  for  FOUPs
+has the opener(s) for opening and closing FOUPs.
+5. 2.6  cart —  a  floor-based  carrier  transfer  vehicle  (as
+defined in SEMI E101).
+5. 2.7  cassette  —  an  open  structure  that  holds  one  or
+more substrates.
+5. 2.8  docking —   the   act   of   locating   a   floor-based
+carrier  transport  vehicle  for  carrier  transfer  to/from
+equipment (as defined in SEMI E101).
+5. 2.9  equipment  front  end  module  (EFEM)  —  consists
+of  the  carrier  handler  that  receives  carriers  from  the
+factory  material  handling  system  on  one  or  more  load
+ports  (as  specified  in  SEMI  E15.1),  opens  the  carriers
+(if  needed),  and  may  include  a  substrate  handler  for
+unloading  and  loading  wafers  from  the  carrier  to  the
+process  part  of  the  equipment  (as  defined  in  SEMI
+E101).
+5. 2.10  facial  datum  plane  —  a  vertical  plane  that
+bisects the wafers and that is parallel to the front side of
+the  carrier  (where  wafers  are  removed  or  inserted).  On
+tool load ports, it is also parallel to the load face plane
+specified in SEMI E15 on the side of the tool where the
+carrier  is  loaded  and  unloaded  (as  defined  in  SEMI
+E57).
+5. 2.11  fixed  buffer  –  EFEM  configuration  with  carrier
+places  only  on  load  port  units  arranged  in  a  load  port
+group (as defined in SEMI E101).
+5. 2.12  front-opening  unified  pod  (FOUP)  —  a  box
+(that complies with SEMI E47.1) with a non-removable
+cassette  (so  that  its  interior  complies  with  SEMI  E1.9)
+and  with  a  front-opening  interface  (that  mates  with  a
+
+
+SEMI E106-1104 © SEMI 2000, 2004 4
+FIMS port that complies with SEMI E62) (as defined in
+SEMI E47.1).
+5. 2.13  horizontal  datum  plane  —  a  horizontal  plane
+from  which  projects  the  kinematic-coupling  pins  on
+which the carrier sits. On tool load ports, it is at the load
+height   specified   in   SEMI   E15   and   might   not   be
+physically  realized  as  a  surface  (as  defined  in  SEMI
+E57).
+5. 2.14  internal  buffer  —  EFEM  configuration  with
+carrier places different from load port units (as defined
+in SEMI E101).
+5. 2.15  minienvironment   —   a   localized   environment
+created  by  an  enclosure  to  isolate  the  product  from
+contamination and people.
+5. 2.16  OHT  —  overhead  transport  system  with  hoist
+for lifting carriers between load port level and transport
+level (as defined in SEMI E101).
+5. 2.17  pod  —  a  box  having  a  Standard  Mechanical
+Interface (SMIF) per SEMI E19.
+5. 2.18  substrate    handler    —    transfers    substrates
+between  carriers  and  the  process  part  of  the  equipment
+(as defined in SEMI E101).
+5. 2.19  wafer carrier — any cassette, box, pod, or boat
+that contains wafers (as defined in SEMI E15).
+6  Description of the Standards
+6. 1  Overview — Figure 2 shows roughly what most of
+the SEMI standards for 300 mm physical interfaces and
+carriers  specify.    However,  this  picture  is  greatly  over-
+simplified.    For  example,  a  front-opening  shipping  box
+(FOSB)  compliant  with  SEMI  M31  (with  its  thicker
+door)  generally  cannot  be  opened  by  equipment  load
+ports  that  are  compliant  with  SEMI  E63.    Also,  a  wire
+link  to  an  OHT  for  the  carrier  handoff  parallel  I/O  can
+also    be    located    at    the    top    of    the    equipment.
+Furthermore,    the    atmospheric    wafer    handler    for
+emptying the carrier will generally be different from the
+wafer  handler  used  in  the  vacuum  environment  of  the
+central handler module of a cluster tool.
+6. 2  Kinematic Coupling — The foundational document
+of  the  SEMI  standards  for  300  mm  physical  interfaces
+and    carriers    is    SEMI    E57    which    specifies    the
+mechanical  couplings  used  to  ergonomically  align  and
+precisely   support   300   mm   wafer   carriers.      The
+kinematic coupling consists of three pins that mate with
+grooves  on  the  bottom  of  the  wafer  carrier  (which  are
+not specified) for physical alignment and support.  Most
+of  the  dimensions  in  the  SEMI  standards  for  300  mm
+physical  interfaces  and  carriers  are  determined  with
+respect to the three orthogonal datum planes defined in
+SEMI E57: the horizontal datum plane, the facial datum
+plane, and the bilateral datum plane.  Such a kinematic
+coupling can be used at several interfaces, including:
+• between a FOUP or cassette and an equipment load
+port or vehicle nest,
+• between a transport cassette and a box, and
+• between  a  process  cassette  or  quartz  boat  and  the
+floor of a process chamber.
+
+
+E21.1 (Cluster-Tool
+Module Interface)
+
+E22.1 (Cluster-
+Tool End Effector)
+E26.1 (Cluster-Tool Footprint)
+and
+E25 (Cluster-Tool Access)
+
+E57 (Kinematic Coupling)
+E64 (Cart Docking Interface)
+and
+E83 (PGV Docking Flange)
+E72 (Equipment
+Footprint, Height,
+and Wei
+ght)
+Carriers:
+E47.1 (FOUP),
+E1.9 (Cassette),
+M31 (FOSB), or
+E103 (SWIF)
+
+E62 (FIMS)
+E15.1 (Load Port)
+E84 (Carrier Handoff
+Parallel I/O)
+
+M1.15, M8, M28 (Wafer)
+E63 (BOLTS-M)
+and/or
+E92 (BOLTS-Light)
+E110 (Indicator/
+switch Placement)
+
+
+Figure 2
+Key Standards for 300 mm Equipment
+
+
+
+SEMI E106-1104 © SEMI 2000, 2004 5
+6. 3  Wafer  Carriers  —  SEMI  E1.9  and  SEMI  E47.1
+specify the carriers used to transport and store 300 mm
+wafers  in  an  IC  manufacturing  facility.  SEMI  E47.1
+specifies   the   outside   features   of   the   front-opening
+unified  pod  (FOUP).    The  inside  features  of  the  FOUP
+are  specified  in  SEMI  E1.9,  which  also  specifies  the
+open cassette.  Both standards specify carriers that hold
+either  13  or  25  wafers.  SEMI  M31  specifies  the  front-
+opening  shipping  box  (FOSB)  used  to  transport  and
+ship  300  mm  wafers.    SEMI  E103  specifies  a  system
+that  includes  a  box  that  holds  only  one  wafer  and  that
+fits  onto  an  adapter  mechanism  called  a  single-wafer
+interface   (SWIF).      This   system   appears   to   the
+equipment to be a 300 mm FOUP (except that only the
+volume around the middle wafer may be accessible).
+6. 4  Equipment  Load  Ports  —  SEMI  E15.1  specifies
+the carrier load ports at the front of 300 mm process or
+metrology  equipment  (or  stockers).    In  addition,  the
+substrate  port  that  opens  a  FOUP  door  is  specified  in
+SEMI E62 (FIMS).  At the floor below each load port is
+a  cart  docking  interface  exclusion  volume  specified  in
+SEMI  E64;  this  volume  can  contain  a  PGV  docking
+flange  as  specified  in  SEMI  E83.  SEMI  E63  (BOLTS-
+M)  or  SEMI  E92  (BOLTS-Light)  or  both  standards
+specify the mechanical interface between the main part
+of    a    process    or    metrology    tool    and    the    box
+opener/loader unit that opens FOUPs and presents them
+to the tool wafer handler for unloading and loading 300
+mm  wafers.  Also  associated  with  each  load  port  is  a
+wire  or  optical  link  (from  the  equipment  to  the  AMHS
+carrier  delivery  system)  specified  in  SEMI  E84    which
+is  the  300  mm  version  of  SEMI  E23.    SEMI  E99  and
+SEMI E99.1 specify the electronics and communication
+interface  between  a  carrier  ID  reader/writer  and  the
+equipment    controller.    SEMI    E101    specifies    the
+functional structure model and component behavior for
+the entire equipment front-end module (EFEM).  SEMI
+E110 specifies the placement of indicators and switch.
+6. 5  Cluster-Tools   —   SEMI   standards   for   300   mm
+cluster  tools  include  SEMI  E22.1,  SEMI  E21.1,  SEMI
+E26.1, and SEMI E25.
+6. 6  AMHS  —  SEMI  standards  for  automated  material
+handling systems (AMHS) include SEMI E85.
+6. 7  Equipment   Volume   and   Weight   —   SEMI   E72
+specifies  limits  on  the  footprint,  height,  and  weight  of
+equipment  for  300  mm  fabs.  Separate  limits  are  given
+for the parts of the equipment in the main fab and in the
+sub-fab.   Separate   limits   are   also   given   for   the
+equipment after it is installed and for the components of
+the equipment as it is moved into the fab.
+6. 8  Back-End  Standards  —  SEMI  G74  specifies  the
+tape frames used for 300 mm wafers between the dicing
+process   and   the   die-bonding   process.      SEMI   G77
+specifies  the  mechanical  features  of  a  metal  or  plastic
+frame cassette used for framed 300 mm wafers between
+the   wafer   mounting   process   and   the   die-bonding
+process.    Future  standards  may  also  specify  the  carrier
+for thinned 300 mm wafers and the load port for back-
+end process or metrology equipment.
+6. 9  Standards  of  Uncertain  Use  —  Some  SEMI  300
+mm  standards  that  passed  balloting  have  a  scope  of
+application  or  extent  of  use  that  is  yet  to  be  fully
+determined.  Such standards include SEMI M29 which
+specifies a manually-opening shipping box for 300 mm
+wafers.    In  the  other  SEMI  300  mm  standards  are  also
+some  options  of  uncertain  use  such  as  bottom-opening
+pods and pods with removable cassettes.
+7  Application of Standards to Products
+7. 1  One-Sided  Interface  Specifications  —  The  SEMI
+standards  for  300  mm  physical  interfaces  and  carriers
+are intended to set an appropriate level of specification
+that places minimal limits on innovation while ensuring
+modularity  and  inter-changeability  between  different
+types of products. To accomplish this, only one side of
+each  mechanical  interface  (between  different  types  of
+products)   is   specified,   leaving   the   supplier   of   the
+product on the other side of the interface more freedom
+to improve their product.  For example, only the bottom
+half  of  the  kinematic  coupling  (the  pin)  is  specified  by
+SEMI E57 so that suppliers can be flexible in designing
+wafer  carrier  grooves  that  can  mate  with  it.    Table  1
+shows  which  standards  apply  to  each  type  of  product
+and shows which side of the interface is specified:
+• “D” indicates if the standard directly specifies that
+type  of  product  (by  specifying  that  product’s  side
+of the relevant interface).
+• “I” indicates if the standard indirectly specifies that
+type of product (by specifying the other side of the
+relevant interface).
+7. 2  Carriers — A FOUP is directly specified by SEMI
+E47.1  (for  its  outside  features  not  including  the  door)
+and  by  SEMI  E1.9  (for  its  inside  features).  The  FOUP
+is  indirectly  specified  by  SEMI  E57  (for  its  kinematic
+coupling grooves) and by SEMI E62 (for its FIMS door
+interface).  Thus,  if  a  FOUP  door  fails  to  open  or  close
+correctly on any load port that complies with SEMI E57
+and   SEMI   E62,   that   FOUP   is   in   violation   of   the
+standards.  The wafer support function of all of the 300
+mm  carriers  is  specified  directly  (by  specifying  where
+the  wafers  must  be  located  rather  than  specifying  the
+shape  and  location  of  the  supports),  so  the  300  mm
+wafer standards indirectly specify the carriers.
+7. 3  Stockers —  A  carrier  stocker  is  directly  specified
+by  SEMI  E57  (for  the  kinematic  coupling  pins  on  its
+shelves,   if   any,   and   on   its   manual/AGV/RGV   and
+
+
+SEMI E106-1104 © SEMI 2000, 2004 6
+interbay    load    ports),    by    SEMI    E15.1    (for    its
+manual/AGV/RGV  load  ports),  by  SEMI  E85  (for  its
+interbay  load  ports),  by  SEMI  E84  (for  its  carrier
+handoff  parallel  I/O  at  either  kind  of  load  port)  and  by
+SEMI  E64  (for  the  cart  docking  interface  exclusion
+volume below each manual/AGV/RGV load port).  The
+carrier  stocker  is  indirectly  specified  by  the  carrier
+standards (for the volume required to store and transfer
+the carriers).
+7. 4  Carrier  ID  —  A  carrier  ID  reader/writer  unit  is
+directly specified by a future standard that specifies the
+electronics   and   communication   interface   between   a
+carrier  ID  reader/writer  and  the  equipment  controller.
+The  carrier  ID  reader/writer  unit  is  indirectly  specified
+by  the  carrier  standards  (which  specify  reserved  areas
+for   carrier   ID   tags)   and   by   SEMI   E15.1   (for   its
+exclusion volume in each load port).
+7. 5  Load Port and Carrier Handler Modules — A box
+opener/loader (the module on a piece of equipment that
+includes  load  ports  and  carrier  handling)  is  directly
+specified by SEMI E57 (for the kinematic coupling pins
+on  the  load  port  and  on  its  shelves  if  it  includes  an
+internal buffer in addition to its fixed buffer), by SEMI
+E15.1  (for  its  load  ports),  by  SEMI  E62  (for  its  FIMS
+door  interface),  by  SEMI  E84  (for  its  carrier  handoff
+parallel   I/O),   by   SEMI   E64   (for   the   cart   docking
+interface  exclusion  volume  below  each  load  port),  by
+SEMI  E72  (for  its  limits  on  footprint,  height,  and
+weight),   and   by   SEMI   E110   (for   indicator/switch
+placement).    The  module  is  indirectly  specified  by  the
+carrier  standards  (for  the  volume  required  to  store  and
+transfer  the  carriers)  and  by  SEMI  E63  and/or  SEMI
+E92 (for the mechanical interface to the main part of the
+process   or   metrology   equipment   that   contains   the
+substrate handler).
+7. 6  Main  Part  of  Process  or  Metrology  Equipment  —
+The   main   part   of   process   or   metrology   equipment
+(including the substrate handler) is directly specified by
+SEMI   E63   and/or   SEMI   E92   (for   the   mechanical
+interface  to  the  module  that  includes  load  ports  and
+carrier  handling)  and  by  SEMI  E72  (for  its  limits  on
+footprint, height, and weight).  The substrate handler is
+indirectly  specified  by  SEMI  E1.9  (for  the  features
+inside  most  carriers)  and  it  is  recommended  to  follow
+the   direct   specifications   in   SEMI   E22.1   (which
+specifies cluster-tool end effectors).
+7. 7  Material  Handling  Systems  —  A  carrier  transport
+vehicle  is  directly  specified  by  SEMI  E57  (for  the
+kinematic coupling pins on the carrier nest, if any) and
+by  SEMI  E84  (for  its  carrier  handoff  parallel  I/O,  if
+any).  The AMHS system is indirectly specified by the
+carrier  standards  (for  the  volume  required  to  hold  and
+transfer  the  carriers),  by  SEMI  E15.1  (for  equipment
+load ports), by SEMI E85 (for stocker load ports, if it is
+an OHT), by SEMI E72 (to allow for equipment height,
+if it is an OHT), and by SEMI E64 and SEMI E83 (for
+the  cart  docking  interface  exclusion  volume  and  the
+PGV    docking    flange,    respectively,    below    each
+equipment load port, if it is a floor based vehicle).
+
+
+
+SEMI E106-1104 © SEMI 2000, 2004 7
+Table 1  Standards Specifying Each Type of Product (D = Direct Specification, I = Indirect Specification)
+Type of Product and its
+Components
+
+SEMI M1.15, M8, or M28 (Wafer) SEMI E57 (Kinematic Coupling) SEMI E1.9 (Cassette) SEMI E47.1 (FOUP) SEMI M31 (FOSB) SEMI E103 (Single-Wafer Box System) SEMI E62 (FIMS) SEMI E63 (BOLTS-M) and/or E92 (BOLTS-Light) SEMI E15.1 (Load Port) SEMI E64 (Cart Docking Interface) SEMI E83 (PGV Docking Flange) SEMI E84 (Carrier Handoff Parallel I/O) SEMI E99 & E99.1 (Carrier ID Reader/Writer Comm.) SEMI E85 (Stocker to In
+terbay Transport System)
+SEMI E22.1 (Cluster- Tool End Effector) SEMI E21.1 (Cluster-Tool Module  Interface) SEMI E25 & E26.1 (Cluster-Tool Access & Footprint) SEMI E72 (Equipment Footpr
+int, Height, and Weight)
+SEMI G74 (Tape Frame) SEMI G77 (Frame Cassette) SEMI E110 (Indicator/Switch Placement)
+FOUP:
+
+wafer        supports        I
+coupling        grooves                I
+inside features   D D
+outside features    D
+door                                D                        I
+open cassette:
+
+wafer        supports        I
+coupling        grooves                I
+other features   D
+shipping box:
+
+wafer        supports        I
+coupling        grooves                I
+other features     D
+single-wafer box and
+SWIF system:
+
+wafer        supports        I
+coupling        grooves                I
+inside features   D D  D
+outside        features                                D                D
+door                                D                DI
+interbay transport
+vehicle:
+
+carrier        supports                D
+carrier envelope   I                 I
+hand-off        I/O                                I                                                                D
+stocker load ports              I
+roller conveyor:
+
+carrier rails   I I
+carrier envelope   I I
+equipment        load        ports                                                                                I
+hand-off I/O            D
+PGV:
+
+carrier        supports                D
+carrier envelope   I I
+carrier        handler                        I        I                                        I
+tool load port access         I            I
+docking        features                                                                                I        I
+
+
+SEMI E106-1104 © SEMI 2000, 2004 8
+Type of Product and its
+Components
+
+SEMI M1.15, M8, or M28 (Wafer) SEMI E57 (Kinematic Coupling) SEMI E1.9 (Cassette) SEMI E47.1 (FOUP) SEMI M31 (FOSB) SEMI E103 (Single-Wafer Box System) SEMI E62 (FIMS) SEMI E63 (BOLTS-M) and/or E92 (BOLTS-Light) SEMI E15.1 (Load Port) SEMI E64 (Cart Docking Interface) SEMI E83 (PGV Docking Flange) SEMI E84 (Carrier Handoff Parallel I/O) SEMI E99 & E99.1 (Carrier ID Reader/Writer Comm.) SEMI E85 (Stocker to In
+terbay Transport System)
+SEMI E22.1 (Cluster- Tool End Effector) SEMI E21.1 (Cluster-Tool Module  Interface) SEMI E25 & E26.1 (Cluster-Tool Access & Footprint) SEMI E72 (Equipment Footpr
+int, Height, and Weight)
+SEMI G74 (Tape Frame) SEMI G77 (Frame Cassette) SEMI E110 (Indicator/Switch Placement)
+AGV or RGV:
+
+carrier        supports                D
+carrier        envelope                        I        I                                                                                                                                I
+carrier        handler                        I        I                                        I                                                                                        I
+tool load port access         I
+hand-off I/O            D
+intrabay OHT vehicle:
+
+carrier envelope    I
+carrier handler    I
+tool load ports         I
+hand-off I/O            D
+stocker load ports              I
+height                  I
+carrier stocker:
+
+carrier        supports                D
+carrier        envelope                        I        I                                                                                                                                I
+carrier        handler                        I        I                                                                                                                                I
+floor        based        load        ports                                                                            D
+PGV interface          D
+hand-off I/O            D
+carrier        ID        reader                                                                                                        D
+overhead load ports              D
+height        and        weight                                                                                                                                                        D
+carrier ID reader unit:
+
+ID        tags        on        carrier                        I        I                                                                                                                                I
+volume in load port         I
+box opener/loader
+unit:
+
+carrier        supports                D
+carrier envelope   I I
+FOUP        door        opener                                                        D
+interface to rest of tool          I
+load ports         D
+PGV interface          D
+hand-off I/O            D
+carrier        ID        reader                                                                                                        D
+height        and        weight                                                                                                                                                D
+Indicator and switch                     D
+
+
+SEMI E106-1104 © SEMI 2000, 2004 9
+Type of Product and its
+Components
+
+SEMI M1.15, M8, or M28 (Wafer) SEMI E57 (Kinematic Coupling) SEMI E1.9 (Cassette) SEMI E47.1 (FOUP) SEMI M31 (FOSB) SEMI E103 (Single-Wafer Box System) SEMI E62 (FIMS) SEMI E63 (BOLTS-M) and/or E92 (BOLTS-Light) SEMI E15.1 (Load Port) SEMI E64 (Cart Docking Interface) SEMI E83 (PGV Docking Flange) SEMI E84 (Carrier Handoff Parallel I/O) SEMI E99 & E99.1 (Carrier ID Reader/Writer Comm.) SEMI E85 (Stocker to In
+terbay Transport System)
+SEMI E22.1 (Cluster- Tool End Effector) SEMI E21.1 (Cluster-Tool Module  Interface) SEMI E25 & E26.1 (Cluster-Tool Access & Footprint) SEMI E72 (Equipment Footpr
+int, Height, and Weight)
+SEMI G74 (Tape Frame) SEMI G77 (Frame Cassette) SEMI E110 (Indicator/Switch Placement)
+main part of process
+or metrology
+equipment:
+
+substrate handler I  I            D
+box        opener        interface                                                                D
+tool controller             D
+height        and        weight                                                                                                                                                D
+cluster tool central
+handler module:
+
+substrate handler I              D
+module        interface                                                                                                                                D
+footprint        and        access                                                                                                                                        I
+height        and        weight                                                                                                                                                D
+cluster tool process
+module:
+
+process chamber I              I
+module        interface                                                                                                                                D
+footprint        and        access                                                                                                                                        D
+height        and        weight                                                                                                                                                D
+wafer tape frame:
+
+wafer contact I
+other features                   D
+frame cassette:
+
+wafer/frame        contact        I                                                                                                                                                I
+other features                    D
+back-end tool load
+port:
+
+carrier envelope                    I
+
+8  Related Documents
+1
+
+Backend Global Joint Guidance for 300 mm Semiconductor Factories
+Global Joint Guidance for 300 mm Semiconductor Factories
+I300I Factory Guideline Compliance: Factory Integration Maturity Assessment for 300 mm Production Equipment
+I300I Factory Guidelines
+
+
+1 http://www.sematech.org/public/resources/300mm/guide.htm and http://www.sematech.org/public/resources/300mm/methods.htm
+
+
+SEMI E106-1104 © SEMI 2000, 2004 10
+I300I Guidelines on 300 mm Process Tool Mechanical Interfaces for Wafer Lot Delivery, Buffering, and Loading
+Integrated Minienvironment Design Best Practices
+
+
+
+
+SEMI E106-1104 © SEMI 2000, 2004 11
+RELATED INFORMATION 1
+NOTICE: This related information is not an official part of SEMI E106 and is not meant to modify or supersede it
+in  any  way.  Rather,  these  notes  are  provided  primarily  as  a  source  of  information  to  aid  in  the  application  of  the
+standard.  As  such,  they  are  to  be  considered  as  reference  material  only.  The  standard  should  be  referred  to  in  all
+cases.
+R1-1  Standards Endorsed by Users — Section 8 lists documents in which the members of I300I and/or J300E have
+endorsed SEMI 300 mm standards or have specified methods for testing compliance with those standards.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacture's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publications  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E108-0301 © SEMI 20011
+SEMI E108-0301
+TEST METHOD FOR THE ASSESSMENT OF OUTGASSING ORGANIC
+CONTAMINATION FROM MINIENVIRONMENTS USING GAS
+CHROMATOGRAPHY/MASS SPECTROSCOPY
+This test method was technically approved by the Global Metrics Committee and is the direct responsibility
+of  the  European  Equipment  Automation  Committee.  Current  edition  approved  by  the  European  Regional
+Standards  Committee  on  December  20,  2000.    Initially  available  at  www.semi.org  February  2001;  to  be
+published March 2001.
+1  Purpose
+1. 1   The  purpose  of  this  standard  is   to  define  a  test
+method for the determination of the outgassing organic
+contamination  from  minienvironments  used  for  storage
+and transport of wafers using gas chromatography/mass
+spectroscopy (GC/MS).
+1. 2   This  test  method  is  intended  as   an  alternative  to
+SEMI  E46.  The  main  difference  between  SEMI  E46
+and  this  document  is  that  SEMI  E46  defines  a  test
+method  which  is  based  on  ion  mobility  spectroscopy
+(IMS)   as   the   measurement   technique   while   this
+standard    is    based    on    gas    chromatography/mass
+spectroscopy  in  combination  with  thermal  desorption.
+Additionally,  this  test  method  provides  a  procedure  for
+testing   the   outgassing   of   organic   compounds   in   a
+complete  minienvironment.  The  results  of  SEMI  E46
+and this document are given in different units.
+2  Scope
+2. 1   The  test  method  provided  in  th is  document  is
+applicable   to   the   assessment   of   the   outgassing   of
+organic contamination from minienvironments.
+2. 2   Gas  chromatography/mass  spe ctroscopy  is  chosen
+as   the   method   to   determine   organic   contamination
+because  it  is  commonly  used  for  characterization  and
+quantification  of  organic  compounds.  In  combination
+with  thermal  desorption,  it  provides  a  method  for  the
+identification  of  organic  compounds  in  the  atmosphere
+(i.e.,  inside  the  minienvironment)  as  well  as  directly
+from  source  materials,  and  transferred  contaminants.
+This method can also be used to evaluate materials and
+processes used in semiconductor industry.
+2. 3  This test method is based on A STM F1982.
+2. 4   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Limitations
+3. 1   The  test  methodologies,  metric s  and  applications
+provided  in  this  standard  are  limited  by  the  following
+constraints:
+3. 1.1   The  specific  recovery  of  comp ounds  by  the
+proposed  standard  method  strongly  depends  on  the
+setup  of  the  apparatus  used.  This  has  been  taken  into
+account  by  the  use  of  the  “reference-cocktail”,  see
+Section 9.2.
+3. 2  Identification of the source of  organic compounds
+inside  the  minienvironment  is  out  of  the  scope  of  this
+test   method.   For   a   procedure   for   the   analysis   of
+outgassing     organic     compounds     from     individual
+materials using gas chromatography/mass spectroscopy,
+see IDEMA M11-99.
+3. 3  This test method does not prov ide a procedure how
+to  use  the  obtained  data  for  assessing  the  risks  that
+come from individual compounds.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  E46  —  Test  Method  for  the  Determination  of
+Organic Contamination from Minienvironments
+SEMI  F21  —  Classification  of  Airborne  Molecular
+Contaminant Levels in Clean Environments
+4. 2  ASTM Standard
+1
+ASTM F1982 — Standard Test Methods for Analyzing
+Organic  Contaminants  on  Silicon  Wafer  Surfaces  by
+Thermal Desorption Gas Chromatography.
+4. 3  IDEMA Standard
+2
+IDEMA M11-99 — General Outgas Test Procedure by
+Dynamic Headspace Analysis
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, PA 19428-2959, website: www.astm.org
+2 International Disk Drive Equipment and Materials Association,
+3255 Scott Blvd., Suite 2-102, Santa Clara, CA  95054-3013, website:
+www.idema.org
+
+SEMI E108-0301 © SEMI 20012
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1   analytical  environment  —   env ironment  where  all
+analytical measurements are taking place.
+5. 2  headspace sampling — in this  standard defined as:
+collecting  volatile  organic  compounds  in  an  enclosed
+volume  by  means  of  a  silicon  wafer  or  silicon  wafer
+chips.
+5. 3  minienvironment  —  A  localize d  environment  for
+transport and storage created by an enclosure to isolate
+the product from contamination and people.
+5. 4   sample  —  wafer  or  wafer  chip s  used  for  the
+headspace sampling of organic contaminants.
+5. 5   static  storage  conditions  —  co nditions  excluding
+any active movement of test specimens.
+5. 6   thermal  desorption  tube  —  An alytical  equipment
+capable  of  collecting  organic  compounds  of  interest
+(i.e., adsorbent filled glass tube).
+5. 7  wafer — Object made of semi conducting material
+to     be     processed,     handled     or     stored     in     the
+minienvironment  to  be  tested  (i.e.,  prime  or  processed
+silicon wafer).
+6  Summary of Method
+6. 1  This test method comprises sto rage tests of wafers
+in  minienvironments  under  static  storage  conditions.
+The contamination is directly measured from the silicon
+wafer surface. Three important aspects are covered:
+a) Contamination due to the minienvironment alone,
+b) Contamination from the use of minienvironments for
+wafer processing, and
+c)  Contamination  from  future  materials  to  be  used  in
+semiconductor technology.
+6. 2   The  setup  for  each  test  compri ses  an  analytical
+equipment  in  the  analytical  environment  as  well  as  a
+test    equipment    in    the    test    environment.    Each
+environment has to fulfill the following requirements:
+6. 2.1  Analytical Environment — sha ll be clean enough
+with    respect    to    airborne    organic    contamination:
+recommendation  is  less  than  100  pptM  for  organic
+compounds  with  boiling  points  >  150°C  (Class  MC-
+100, according to SEMI F21).
+6. 2.2  Test Environment — shall equ al the environment
+in which the test specimen will be used.
+6. 3   Silicon  wafers  are  placed  in  th e  minienvironment
+or  used  for  headspace  sampling  experiments.  These
+wafer  samples  are  then  analyzed  by  gas  chromatogra-
+phy/mass  spectrometry  to  determine  the  amount  of
+contaminants.
+6. 4   The  wafers  or  wafer  chips  to  b e  used  for  the  test
+method  are  decontaminated  as  described  in  ASTM
+F1982 for bare silicon wafers. The surface condition of
+the   wafer   (hydrophobic   or   hydrophilic)   has   to   be
+adjusted  in  a  reproducible  way  and  has  to  be  the  same
+for all comparative measurements.
+6. 5   The  wafer  or  the  wafer  chips  a re  placed  in  the
+minienvironment    and    are    left    there    under    static
+conditions for the chosen static storage time (depending
+on the intended use of the minienvironment to be tested,
+a  time  between  1  h  and  28  d  may  be  used).  When
+loaded into the minienvironment the wafer may have a
+temperature  which  reflects  production  circumstances
+(i.e., 80°C when unloading from furnace processes). In
+some   situations   wafers   may   be   exposed   to   severe
+thermal  conditions.  The  minienvironment  should  be
+evaluated under the conditions exposed to. Be sure that
+the   material   to   be   tested   does   not   undergo   phase
+transitions under the chosen temperature conditions.
+6. 6   After  the  static  storage  test  per iod,  the  wafer  is
+returned  to  the  analytical  equipment  and  the  organic
+contamination on the wafer is measured immediately.
+6. 7   The  quantitative  value  for  the   total  amount  of
+outgassed and adsorbed organics from the minienviron-
+ment   is   calculated   as   the   difference   between   the
+detected  amount  of  contamination  on  a  blank  sample
+vs. the amount on the exposed sample.
+7  Interferences
+7. 1   The  presence  of  organic  conta mination  in  the
+atmosphere  of  the  test  environment  may  lead  to  a
+significant  contribution  to  the  detected  total  amount  of
+organic  compounds  on  the  test  wafers  or  wafer  chips.
+Care  has  to  be  taken  when  subtracting  the  blank  value
+from    the    test    value.    Transport    times    from    test
+environment  to  analytical  environment  have  to  be  as
+short as possible.
+8  Apparatus
+8. 1  For the analysis of organic com pounds on wafers a
+gas  chromatography/mass  spectroscopy  apparatus  with
+thermal     desorption     unit     is     required:     A     gas
+chromatography   (GC)   instrument,   which   utilizes   a
+capillary  column  to  separate  a  wide  variety  of  organic
+compounds, combined with mass spectrometer (MS). A
+thermal desorption unit is used to desorb organics from
+sample  thermal  desorption  tubes  and  collect  them  in  a
+trap. Two types of trapping may be used:
+
+SEMI E108-0301 © SEMI 20013
+a) cooling the trap down to a minimum of -150°C does
+not require any adsorbent (glass wool may be used) or
+b)  a  Tenax®  filled  trap  has  to  be  cooled  down  to  a
+minimum of -25°C.
+8. 1.1  The thermal desorption unit is  coupled to the gas
+chromatography  instrument  via  a  heated  transfer  line.
+This  apparatus  may  be  used  directly  for  the  desorption
+from  wafer  chips  which  are  put  in  empty  glass  (or
+stainless steel) thermo desorption tubes (method A).
+8. 1.2    A   desorption   unit   for   complete    wafers   is
+specified  in  ASTM  F1982.  In  this  case  sample  thermal
+desorption tubes packed with adsorbent have to be used
+to  trap  compounds  desorbed  from  the  wafer.  These
+thermal   desorption   tubes   are   analyzed   within   the
+thermal desorption unit (method B).
+8. 2   The  analysis  of  outgassing  org anic  contamination
+from minienvironments requires an extremely sensitive
+analytical  equipment.  Recovery  and  limit  of  detection
+for   the   different   classes   of   compounds   must   be
+evaluated carefully in order to ensure reliable results.
+9  Reagents and Materials
+9. 1   For  the  materials  used  for  hand ling  and  transport
+of  wafers  clean,  decontaminated  equipment  has  to  be
+used, e.g. tweezers heated in a propane flame. Refer to
+the  reagent  and  materials  described  in  SEMI  E46  and
+ASTM F1982.
+9. 2  Test  Mixture  —  For  the  calibra tion  of  equipment
+and the quantification of the amount of contamination a
+test  mixture  (”cocktail”)  is  used.  This  mixture  was
+chosen  in  order  to  give  an  ”average”  over  typical
+substance  classes  present  in  semiconductor  production
+lines,  which  have  high  sticking  factors  to  the  wafer
+surface.  The  response  factor  of  the  MS-detection  for
+organics  varies  significantly.  As  this  is  true  for  all
+contaminants,  the  method  gives  a  realistic  trustworthy
+quantitative correlation to a ”typical average compound
+mixture” of contaminants on wafer surfaces.
+9. 3  Preparation of Test Mixture
+9. 3.1    The   mixture   consists   of   triethy l   phosphate,
+ε-caprolactam, palmitic acid and diethylhexyl phthalate
+each    0.5    μg/μl    in    isooctane    (as    solvent).    The
+preparation has to be done according to SEMI E46.
+NOTE 2: A  similar  test  mixture  is  suggested  by  the  working
+group WG 031 of the Institute for Environmental Science and
+Technology (IEST)
+10  Safety Precautions
+10. 1   All  preparation  and  analytical   work  has  to  be
+done according to local safety regulations.
+11  Preparation of Minienviro nment and
+Sample
+11. 1   Minienvironment  —  The  minie nvironment  to  be
+tested  has  to  be  used  as  received  from  the  supplier.  A
+cleaning  step  can  be  added  but  there  must  be  no
+contribution   from   the   cleaning   procedure   to   the
+outgassing     of     organic     compounds     from     the
+minienvironment.   The   cleaning   method   has   to   be
+defined by the supplier or agreed upon between supplier
+and user of the tested minienvironment.
+11. 2  Sample — The wafers shall be   made organic-free
+before  using  them  to  monitor  organic  contamination.
+The  surface  condition  of  the  wafer  (hydrophobic  or
+hydrophilic)  has  to  be  adjusted  in  a  reproducible  way
+and  has  to  be  the  same  for  comparative  measurements.
+Refer to SEMI E46 and ASTM F1982.
+12  Procedure
+12. 1    The   procedure   described   below    is   used   for
+obtaining  the  baseline  value  of  the  method  (method
+blank)  as  well  as  the  test  value  for  outgassing  organic
+compounds  of  the  minienvironment  within  a  defined
+static storage time (storage time t
+S
+= 1 h - 28 d).
+12. 1.1  Choose that static storage time  according to the
+intended   use   of   the   minienvironment   (i.e.,   if   the
+maximum  sit  time  of  wafers  in  a  process  where  the
+minienvironment  is  to  be  used  is  4  h  then  choose  a
+static  storage  time  of  4  h).  If  no  static  storage  time
+related  to  processes  can  be  defined,  a  recommended
+value for the first static storage time is 1 day.
+NOTE 3: Composition of adsorbed compounds may vary with
+static storage time.
+12. 2  For transport store the wafers o r wafer chips used
+for  testing  in  decontaminated,  organic-free  petri-dishes
+wrapped  in  organic-free  aluminum  foil.  Refer  to  SEMI
+E46.
+12. 3  Loading Procedure
+12. 3.1    For   tests   at   room   temperature :   open   a
+minienvironment   to   be   tested   and   load   it   with   a
+decontaminated  wafer  using  decontaminated  handling
+tools  (i.e.,  tweezers).  Default  storage  location  is  the
+center    slot    of    the    minienvironment.    Close    the
+minienvironment.  Leave  the  minienvironment  closed
+for the chosen static storage time.
+12. 3.2   For  tests  at  elevated  temperatu res  using  a
+wafer  furnace:  place  the  decontaminated  wafers  in  a
+clean  furnace  used  for  production  processes  and  heat
+the  wafers  under  inert  gas  to  a  temperature  >  120°C.
+Turn  off  the  heating.  When  the  temperature  of  the
+furnace      has      reached      (90±10)°C      open      the
+minienvironment to be tested and fully load it with the
+
+SEMI E108-0301 © SEMI 20014
+hot      wafers      from      the      furnace.      Close      the
+minienvironment.  Leave  it  closed  for  the  chosen  static
+storage  time.  For  analysis  use  only  one  wafer.  Default
+wafer is the one in the center slot.
+12. 3.3   For  tests  at  elevated  temperatu res  using  a
+heating   chamber:   open   the   minienvironment   to   be
+tested  and  load  it  with  a  decontaminated  wafer  using
+decontaminated  handling  tools  (i.e.,  tweezers).  Default
+location  is  the  center  slot.  Close  the  minienvironment.
+Wrap    the    minienvironment    with    decontaminated
+aluminum  foil.  Place  the  minienvironment  in  an  inert
+and clean heating chamber heated to 70°C. Leave it for
+1  h  and  then  remove  it  from  the  heating  chamber  and
+place  it  at  the  test  minienvironment.  Leave  it  there
+closed for the chosen static storage time.
+NOTE 4: The  purpose  of  the  aluminum  foil  is  to  prevent
+direct  contact  between  the  recirculating  hot  air  inside  the
+heating chamber and the minienvironment.
+12. 4   Unloading  Procedure  —   Open   the  minienviron-
+ment   and   unload   the   wafer   using   decontaminated
+handling  tools  into  decontaminated  petri-dishes  and
+wrap  them  into  organic-free  aluminum  foil.  Transport
+the  wafer  immediately  to  the  measurement  equipment
+and  analyze  the  organic  contamination  on  the  wafer
+according to the standard ASTM F1982.
+12. 5  Method Blank — Perform the  test sequence using
+a  container  made  completely  of  glass  or  quartz  instead
+of  the  minienvironment.  Use  the  same  static  storage
+time for the method blank but perform this blank test at
+room     temperature.     The     container     has     to     be
+decontaminated  with  respect  to  organics  inside  by  heat
+treatment (refer to SEMI E46). With this blank method
+the baseline contribution from the cleanroom air on the
+adsorption   of   organic   contamination   on   the   silicon
+wafer surface is determined.
+12. 6   Analyzing  Procedure  —  Put  th e  wafer  or  wafer
+chips   in   the   precleaned   desorption   unit   or   thermal
+desorption tube and heat it for 10 min to a minimum of
+275°C  (but  400°C  is  better).  The  desorbed  contam-
+inants  have  to  be  trapped  directly  with  the  cold  trap  of
+the   thermodesorption   unit   (method   A)   or   first   by
+adsorbent  filled  desorption  tubes  and  then  by  the  cold
+trap  (method  B).  Desorption  parameters  for  adsorbent
+filled desorption tube and cold trap may be taken from
+ASTM F1982 (see also Section 12.6.1).
+12. 6.1   The  substances  desorbed  shou ld  be  separated
+by   an   appropriate   column   temperature   program.   A
+recommended    temperature    program    for    standard
+analysis   uses   a   polydimethylsiloxane/polydiphenyl-
+siloxane (95/5) coated column (30 m × 0.25 mm × 0.25
+μm),  heated  from  50
+o
+C  to  250
+o
+C  at  a  rate  of  10
+o
+C/min
+followed  by  a  temperature  hold  at  250
+o
+C  for  10  min.
+Column  flow  should  be  about  1  ml/min  He  at  constant
+flow.
+12. 6.2   All  parameters  (thermo  desorp tion  unit,  gas
+chromatograph,  mass  spectrometer)  should  be  set  to
+yield  the  recommended  detection  limits  and  recovery
+rates (see Calibration Procedure Section 13.2).
+12. 7   Materials  Testing  —  Materials   testing  can  be
+done,  using  the  sample  preparation  described  in  SEMI
+E46,  but  using  gas  chromatography/mass  spectroscopy
+instead  of  IMS  for  the  analysis  of  contaminants  on  the
+test wafers or wafer chips.
+12. 8   Perform  the  procedure  for  cali bration,  method
+blank   and   test   (including   sample   preparation)   in
+triplicate  in  order  to  obtain  mean  value  and  standard
+deviation for the analysis.
+13  Calibration and System P e rformance
+13. 1   Calibration  —  The  test  mixtur e  (2  μl  liquid,
+equals  1  μg  of  each  substance;  see  Section  9.3)  is
+applied  to  the  wafer  or  wafer  chips  as  described  in
+SEMI  E46.  The  so  produced  reference  wafer  or  wafer
+chips are handled in the same way as the samples. That
+means, they are put in the precleaned desorption unit or
+thermal   desorption   tube   and   heated   for   10   min   to
+minimum  275°C  (but  400°C  is  better)  and  so  on  as
+described in Section 12.6.
+13. 2     System    Performance     —     All     pa rameters
+(thermodesorption    unit,    gas    chromatograph,    mass
+spectrometer)   should   be   set   to   yield   the   specified
+detection  limits  and  recovery  rates  (method  B)  for  the
+components  of  the  reference  mixture.  The  limit  of
+detection  (3σ)  must  equal  or  be  better  than  250  ng  for
+each  of  the  four  reference  substances.  The  standard
+deviation   (inaccuracy)   of   the   calibration   must   be
+≤  10%.  Sample  measurements  are  not  allowed,  unless
+these     requirements     are     fulfilled.     For     sample
+measurements    the    same    parameters    as    for    the
+calibration measurements have to be used.
+14  Quantification
+14. 1  Integration  —  After  the  analys is  measure  the
+surface  area  (A
+s
+)  of  the  tested  wafer  or  wafer  chips.
+Summing     up     all     the     peak     areas     from     gas
+chromatography/mass  spectroscopy  chromatogram  of
+the  wafer  or  wafer  chips  gives  the  total  integral  (I
+s
+).
+Determine the total integral (I
+b
+) of the blank wafer and
+the   total   integral   of   the   four   peaks   of   the   gas
+chromatography/mass  spectroscopy  chromatogram  of
+the test mixture (I
+r
+) with the same technique.
+
+SEMI E108-0301 © SEMI 20015
+14. 2  Calculation
+r
+r
+b
+b
+s
+s
+c
+I
+W
+A
+I
+A
+I
+T×
+
+
+
+
+
+
+
+
+−=
+where
+T
+c
+=
+total of organic contaminants,
+[ng test mixture equivalent/cm
+2
+]
+I
+s
+=
+total integral from gas
+chromatography/mass spectroscopy
+chromatogram of the sample
+I
+b
+=
+total integral from gas
+chromatography/mass spectroscopy
+chromatogram of the method blank
+I
+r
+=
+total integral from gas
+chromatography/mass spectroscopy
+chromatogram of the peaks of the test
+mixture
+W
+r
+=
+total weight amount of test mixture
+compounds applied to wafer [ng] { =
+4000 ng}
+A
+s
+=
+total area (cm
+2
+) of the sample
+investigated (wafer or wafer chips)
+A
+b
+=
+total area (cm
+2
+) of the method blank
+(wafer or wafer chips)
+15  Reporting Results
+15. 1    The   essential   results   of   carryin g   out   the
+procedure are to be summarized in a data sheet for each
+experiment.   The   data   sheet   has   to   comprise   the
+following information:
+General data:
+• Date
+• Operator
+Environmental data:
+• Cleanroom   class   of   analytical   environment   (cf.
+SEMI F21)
+• Cleanroom class of test environment
+Data concerning minienvironment:
+• Type
+• Manufacturer
+• ID
+• pretreatment (cleaning, etc.)
+Data concerning sample:
+• Manufacturer
+• Type (resistivity, dopant)
+• Surface condition (hydrophilic, hydrophobic)
+• Decontamination procedure
+Data  concerning  analytical  equipment  (gas  chromato-
+graphy/mass  spectroscopy,  thermal  desorption,  wafer
+furnace or heating chamber):
+• Manufacturer
+• Type
+• Limit   of   detection   and   standard   deviation   of
+calibration procedure
+Data concerning static storage test:
+• Storage temperature [°C]
+• Storage relaive humidity [%]
+• Time of static storage test [h]
+• Wafer    furnace    or    heating    chamber    used    (if
+applicable)
+Data concerning storage test result:
+• Slot location of wafer
+• Total of organic contaminants T
+c
+• Standard deviation of measurement (if applicable)
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacture's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publications    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E110-1102 © SEMI 2001, 2002 1
+SEMI E110-1102
+GUIDELINE FOR INDICATOR PLACEMENT ZONE AND SWITCH
+PLACEMENT VOLUME OF LOAD PORT OPERATION INTERFACE FOR
+300 mm LOAD PORTS
+This guideline was technically approved by the Global Physical Interfaces and Carriers Committee and is the
+direct responsibility of the Japanese Physical Interfaces and Carriers Committee. Current edition approved by
+the Japanese Regional Standards Committee on July 19, 2002.  Initially available at www.semi.org October
+2002; to be published November 2002.  Originally published November 2001.
+1  Purpose
+1. 1    This  guideline  defines  the  zones  and  volumes  in
+which   load   port   status   indicators   and   load   port
+operation  switches  should  be  placed.    The  purpose  of
+this guideline is to give a similarity in the placement of
+them  on  a  300  mm  load  port.    This  guideline  only
+defines  the  zones  and  volumes  for  them  and  the  exact
+placement of them within these zone and volumes are at
+the direction of the load port suppliers.
+1. 2      The   zones   or   volumes   may   be   defined   more
+precisely  by  standardization  improvement  on  load  port
+design  and  good  unification  of  load  port  operation
+among  device  manufactures.  This  guideline  may  be
+improved to be a specification after this effort.
+2  Scope
+2. 1      This   guideline   defines   following   recommended
+specifications for 300 mm load port.
+• Indicator placement zone in which load port status
+indicators should be placed.
+• Switch   placement   volume   in   which   load   port
+operation switch should be placed.
+2. 2    This  guideline  covers  the  specifications  for  both
+fixed buffer equipment and internal buffer equipment.
+2. 3    This  guideline  is  intended  to  set  an  appropriate
+level  of  specification  that  places  minimal  limits  on
+innovation    while    ensuring    modularity    and    inter-
+changeability  at  all  mechanical  interfaces.  Only  the
+physical  interfaces  for  the  load  port  are  specified;  no
+materials requirements, micro-contamination limits, use
+of or logic associated with the defined physical features
+are given in this specification.
+2. 4    This  guideline  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  guideline  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI E15 — Specification for Tool Load Port
+SEMI  E15.1  —  Specification  for  300  mm  Tool  Load
+Port
+SEMI  E47.1  —  Provisional  Mechanical  Specifications
+for   Boxes   and   Pods   Used   to   Transport   and   Store
+300mm Wafers
+SEMI  E57  —  Mechanical  Specification  for  Kinematic
+Couplings  Used  to  Align  and  Support  300  mm  Wafer
+Carriers
+SEMI  E87  —  Specification  for  Carrier  Management
+(CMS)
+SEMI E101 — Provisional Guide for EFEM Functional
+Structure Model
+NOTE 1: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+4  Terminology
+4. 1  Definitions
+4. 1.1  bilateral  datum  plane  —  a  vertical  plane  that
+bisects  the  wafers  and  that  is  perpendicular  to  both  the
+horizontal and facial datum planes (as defined in SEMI
+E57).
+4. 1.2  facial datum plane — a vertical plane that bisects
+the  wafers  and  that  is  parallel  to  the  front  side  of  the
+carrier (where wafers are removed or inserted).  On tool
+load  ports,  it  is  also  parallel  to  the  load  face  plane
+specified in SEMI E15 on the side of the tool where the
+carrier  is  loaded  and  unloaded  (as  defined  in  SEMI
+E57).
+4. 1.3  fixed  buffer  equipment  —  production  equipment
+that has only fixed load ports and no internal buffer for
+carrier  storage.  Substrates  are  loaded  and  unloaded
+directly  from  the  carrier  at  the  load  port  for  processing
+(as defined in SEMI E87).
+
+
+SEMI E110-1102 © SEMI 2001, 2002 2
+4. 1.4  horizontal datum plane  —  a  horizontal  plane  from  which  projects  the  kinematic-coupling  pins  on  which  the
+carrier sits. On tool load ports, it is at the load height specified in SEMI E15 and might not be physically realized as
+a surface (as defined in SEMI E57).
+4. 1.5  indicator placement zone — a zone in which load port status indicators are placed.
+4. 1.6  internal buffer equipment — equipment that uses an internal buffer (as defined in SEMI E87).
+4. 1.7  load port operation interface — any indicator (e.g. lamp, LED) to visualize status information of a load port
+to an operator and/or any switch to be used for manual handoff operation.
+4. 1.8  load port operation switch — any switch to be used for manual handoff operation.
+4. 1.9  load port status indicator — any indicator (e.g. lamp, LED) to visualize status information of a load port to an
+operator.
+4. 1.10  switch placement volume — a volume in which load port operation switch is placed.
+5  Requirements
+5. 1  Indicator placement zone
+5. 1.1  Indicator  Placement  Zone  for  a  Load  Port  per  SEMI  E15.1  Option  1  —  It  is  recommended  that  load  port
+status indicators should be positioned within a zone given by x400, z400, and z401.  The exact placement of them
+within  this  zone  is  at  the  direction  of  the  load  port  supplier.    They  may  be  located  at  or  behind  (away  from  the
+operator) the equipment boundary.  Clearances required by SEMI E15.1 cannot be violated.
+NOTE  2:  The  indicator  placement  zone  is  not  an  exclusion  zone.    No  assumption  can  be  made  that  this  zone  needs  to  be  kept
+empty  by  the  load  port  supplier.    Furthermore,  no  assumption  can  be  made  that  a  load  port  must  have  a  physical  surface
+representing the indicator placement zone.
+
+x400=237.5
+z401=486
+z400=340
+Horizontal Datum Plane
+C
+L
+Bilateral Datum Plane
+Indicator placement zone
+Approximate FOUP envelope
+
+Figure 1
+Indicator Placement Zone for a Load Port Per SEMI E15.1 Option 1

@@ -1,0 +1,3026 @@
+---
+title: "S12-0298 - © SEMI 199811 NOTICE:..."
+description: "SEMI标准文档"
+sidebar_label: "S12-0298 - © SEMI 199811 NOTICE:..."
+sidebar_position: 1410
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-141.pdf'
+  chapter: 141
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/141.pdf"
+  pdfSize="0.36MB"
+  title="S12-0298 - © SEMI 199811 NOTICE:..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI S12-0298 © SEMI 199811
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 1
+SEMI S13-0305
+ENVIRONMENTAL, HEALTH AND SAFETY GUIDELINE FOR
+DOCUMENTS PROVIDED TO THE EQUIPMENT USER FOR USE WITH
+SEMICONDUCTOR MANUFACTURING EQUIPMENT
+This safety guideline was technically approved by the Global Environmental Health & Safety Committee and
+is  the  direct  responsibility  of  the  Japanese  Environmental  Health  &  Safety  Committee.    Current  edition
+approved  by  the  Japanese  Regional  Standards  Committee  on  November  24,  2004.    Initially  available  at
+www.semi.org in January 2005; to be published in March 2005.  Originally published in February 1998.
+NOTICE:  This document was rewritten in its entirety in 2005.
+1  Purpose
+1. 1  This guideline presents considerations for environmental, health and safety information in documents (such as
+operation, maintenance, installation and safety manuals) provided for use with semiconductor or Flat Panel Display
+(FPD)  manufacturing  equipment  in  order  to  help  risk  reduction  in  operation,  maintenance,  and  installation  of
+equipment used in semiconductor or FPD manufacturing.
+1. 2  It is intended that personnel who operate, maintain, service, install, decontaminate or decommission equipment
+should read the documents provided to the equipment user that describe the tasks they are to perform.
+2  Scope
+2. 1  This  guideline  applies  to  the  documents  provided  to  the  equipment  user  to  be  used  with  equipment  for
+production, measurement, assembling, and testing of semiconductor or FPD products.
+2. 2  This guideline contains the following items:
+• Purpose
+• Scope
+• Limitations
+• Referenced Standards
+• Terminology
+• General Criteria of  Documents Provided to the Equipment User
+• Hazards Inherent in Equipment
+• Hazardous Energy Control Procedures
+• Hazard Alerts
+• Hazards Inherent in Tasks
+• Material Safety Data Sheet (MSDS)
+• Personal Protective Equipment (PPE)
+• Equipment Inspection, Consumables, and Maintenance
+• Training Requirements
+• Emergency Contact and Response
+• Related Documents
+• Appendix 1:  Document Criteria to be added to SEMI S2
+
+
+SEMI S13-0305 © SEMI 1998, 2005 2
+NOTE 1:  This  document  contains  several  Related  Information  sections  that  restate  documentation  criteria  that  appear  in  other
+SEMI  documents.    These  restatements  were  current  as  of  the  dates  that  the  Related  Information  sections  were  written  and  are
+included for the convenience of the users of this document.  As the other SEMI documents may be changed at any time, the users
+of this document must refer to the other SEMI documents for the official versions of these criteria.
+NOTE 2:  This  document  contains  several  Related  Information  sections  that  include  proposed  subject-specific  documentation
+criteria developed by the SEMI S13 Revision TF.  It was the intent of the Task Force responsible for SEMI S13 that the criteria
+in  these  Related  Information  sections  be  incorporated  in  future  revisions  of  the  documents  to  which  they  pertain  and  that  these
+Related Information sections be removed from SEMI S13 by revising SEMI S13 with the same effective date as the effective date
+of the addition of these criteria to the documents to which they pertain.
+NOTICE: This safety guideline does not purport to address all of the safety issues associated with its use.  It is the
+responsibility of the users of this safety guideline to establish appropriate safety and health practices and determine
+the applicability of regulatory or other limitations prior to use.
+3  Limitations
+3. 1  Evaluation reports are not within the scope of SEMI S13.
+3. 2  SEMI S13 does not address physical characteristics of documents.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI S1 — Safety Guideline for Equipment Safety Labels
+SEMI S2 — Environmental Health, and Safety Guideline for Semiconductor Manufacturing Equipment
+SEMI S6 — Safety Guideline for Ventilation
+SEMI S8 — Safety Guidelines for Ergonomics Engineering of Semiconductor Manufacturing Equipment
+SEMI S10 — Safety Guideline for Risk Assessment and Risk Evaluation Process
+SEMI S12 — Guideline for Equipment Decontamination
+SEMI  S14  —  Safety  Guideline  for  Fire  Risk  Assessment  and  Mitigation  for  Semiconductor  Manufacturing
+Equipment
+SEMI S16 — Environmental, Health and Safety Guidelines for Semiconductor Manufacturing Equipment Disposal
+4. 2  ANSI Standard
+1
+
+ANSI  Z400.1  —  American  National  Standard  for  Hazardous  Industrial  Chemicals  -  Material  Safety  Data  Sheets  -
+Preparation
+4. 3  Other Standards
+International Labor Convention No.  170
+2
+— Convention Concerning Safety in the Use of Chemicals at Work
+EN1050
+3
+⎯ Safety of Machinery — Principles for risk assessment
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+
+
+1  American National Standards Institute, Headquarters: 1819 L Street, NW, Washington, DC 20036, USA.  Telephone: 202.293.8020; Fax:
+202. 293.9287, New York Office: 11 West 42nd Street, New York, NY 10036, USA.  Telephone: 212.642.4900; Fax: 212.398.0023,
+www.ansi.org
+2  International Labour Organization, 4, route des Morillons CH-1211 Geneva 22 Switzerland, Tel: +41.22.799.6111 , Fax: +41.22.798.8685,
+http://www.ilo.org/
+3  European Committee for Standardization(CEN) 36 rue de Stassart, B - 1050 Brussels, Tel: + 32 2 550 08 11, Fax: + 32 2 550 08 19,
+http://www.cenorm.be/cenorm/index.htm; European Committee for Electrical Standardization(CENELEC), 35, Rue de Stassartstraat, B-1050
+Brussels, Belgium, Phone:  +32 2 519 68 71, Fax:  +32 2 519 69 19, http://www.cenelec.org/Cenelec/Homepage.htm
+
+
+SEMI S13-0305 © SEMI 1998, 2005 3
+5  Terminology
+NOTE 3:  Terminology defined in SEMI S1, SEMI S2, SEMI S6, SEMI S8, SEMI S10, SEMI S12, SEMI S14 and SEMI S16 is
+incorporated herein by reference.
+5. 1  Definitions
+5. 1.1  consumable parts — parts which are recognized by the equipment supplier as having a useful lifetime which
+is expected to be significantly less than the lifetime of the equipment.
+NOTE 4:  Consumable parts include some parts that degrade gradually (such as o-rings) and some that degrade suddenly (such as
+drive belts).
+5. 1.2  decommissioning —  the  process  of  removing  equipment  from  service  for  disposition  by  sale,  storage,  or
+disposal.
+5. 1.3  documents  provided  to  the  equipment  user  —  documents  provided  by  the  equipment  supplier,  such  as
+operation manual, maintenance manual, installation manual, safety manual, or OEM manual, which are intended for
+use with equipment.
+NOTE 5:  Additional safety features provided in the equipment according to the equipment user’s requisition or request may be
+described separately.  Documents concerning the additional safety features may be provided with the documents provided to the
+equipment user as a separate attachment.
+5. 1.4  evaluation  report  —  a  report  describing  the  results  of  an  evaluation  to  determine  the  conformance  of
+equipment to a SEMI document.
+5. 1.5  supporting device — a device which is prepared to assist in the use of equipment.
+5. 1.6  unjamming — service task used to loosen automated material handler from entanglement.
+6  General Criteria of Documents Provided to the Equipment User
+6. 1  The EHS information needed to perform a task should either be included in the document provided to the user
+that  describes  how  to  perform  a  task  or  be  provided  separately  in  another  document.    In  latter  case,  the  document
+provided to the user describing the task should identify where to find EHS information relevant to the task.
+6. 2  Documents  provided  to  the  equipment  user  should  provide  specific  instructions  to  enable  safe  installation,
+operation, maintenance, decontamination and decommissioning of the equipment.
+EXCEPTION: Any procedure that is to be performed only by the equipment supplier’s personnel does not need to
+be described in the documentation provided to the equipment user.
+NOTE 6:  A service manual may be included in the documents provided by the equipment supplier based on the contract.
+6. 2.1  The documents provided to the equipment user should describe the hazards inherent in equipment, warn of the
+potential of exposure to hazards, and provide information as to how to minimize risk.
+6. 3  The  equipment  supplier  should  identify,  within  the  documents  provided  to  the  equipment  user,  the  intended
+audience for each equipment document supplied to the user.
+6. 4  The  equipment  supplier  should  provide,  in  the  documents  provided  to  the  equipment  user,  at  least  the  EHS
+information  related  to  items  in  the  following  list.    Other  SEMI  “S”  series  documents  address  these  subjects  for
+inclusion in documents provided to the equipment user.
+• Safety interlocks
+• Emergency shutdown
+• Ergonomics
+• Seismic performance
+• Environmental performance
+• Industrial Hygiene
+• Fire Protection
+
+
+SEMI S13-0305 © SEMI 1998, 2005 4
+• Decontamination and decommissioning
+NOTE 7:  Some documentation criteria regarding Safety interlock systems are given in Appendix 1 of this guideline at the time
+of publication.
+6. 5  Where contractually agreed upon, it is recommended that the documents provided to the equipment user should
+be provided in the primary languages of the location in which the equipment is to be used.
+NOTE 8:  Where required by law, the documents provided to the equipment user must be provided in the primary languages of
+the location in which the equipment is to be used.
+6. 6  Each document should identify the language(s) in which it was originally written.
+6. 7  Procedures needed to maintain the effectiveness of safety design features or devices should be described in the
+documents provided to the equipment user.
+6. 8  The documentation provided to the user may state that the user is responsible for analyzing and controlling the
+risks of work not described in the documentation.
+6. 9  The  Equipment  supplier  should  provide  information  in  the  documents  provided  to  the  equipment  user  about
+how to check if the documents are applicable for the particular model.
+6. 9.1  Each  document  provided  to  the  equipment  user  (e.g.,  operations,  maintenance,  installation,  drawings,  sub-
+systems) should include at least a reference to a list of all documents that are necessary to compose a complete set of
+documents for the equipment model.  Reference may be made to a website containing the list.
+7  Hazards Inherent in Equipment
+7. 1  The  hazards  inherent  in  equipment  identified  as  part  of  the  SEMI  S2  evaluation  should  be  described  in  the
+documents provided to the equipment user.
+7. 2  The  summary  should  include  the  location  and  the  type  of  each  hazard  in  a  safety  section  of  the  documents
+provided to the equipment user.
+7. 3  The  documents  provided  to  the  equipment  user  should  include  a  list  of  hazardous  materials  (e.g.,  lubricants,
+cleaners, and coolants) required for maintenance, ancillary equipment or peripheral operations.
+NOTE 9:  See §11 for discussion of MSDSs.
+7. 4  Hazards related to by-products and effluents of supplier-characterized baseline processes should be described in
+the documents provided to the equipment user.
+7. 5  The  documents  provided  to  the  equipment  user  should  describe  the  safety  measures  in  the  equipment  that
+mitigate risk in the event of fire, explosion or chemical leakage within the equipment or of earthquake.
+8  Hazardous Energy Control Procedures
+8. 1  Any  source  of  hazardous  energy  (such  as  electrical,  chemical,  thermal,  mechanical,  radiation,  pneumatic  or
+hydraulic  energy)  that  exists  in  equipment  and  which  may  pose  a  risk  to  workers  maintaining  or  servicing  the
+equipment  should  be  described  in  the  documents  provided  to  the  equipment  user  along  with  the  procedures  for
+isolation (“lockout/tagout”) and control of each of the hazardous energies.
+NOTE 10:  The procedures must allow compliance with requirements at the locations of use.  In the USA, the procedure must be
+consistent with 29 CFR1910.147.
+9  Hazard Alerts
+9. 1  The  equipment  supplier  should  explain,  in  the  documents  provided  to  the  equipment  user,  the  meaning  of
+hazard  alerts.    Examples  of  hazard  alerts  include:  visual  alerts,  auditory  alarms,  safety  labels,  status  indicators;  or
+hazard alert systems integral with the equipment’s operating system (e.g., displayed through the video display).
+9. 2  Descriptions of the label locations and, if appropriate, additional safety information relating to the hazards they
+describe should also be provided.
+9. 3  Pictographs or symbols may be used to represent the hazard alerts in the document provided to the equipment
+user.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 5
+NOTE 11:  Pictographs  or  symbols  may  also  be  adapted  to  help  communicate  safety  information  in  installation  instructions,
+operation and maintenance manuals, and other similar written communication relating to a product.
+NOTE 12:  If  pictographs  or  symbols  are  used  instead  of  text,  then  it  is  recommended  that  the  documentation  include
+explanations of the pictographs or symbols.  This recommendation does not apply if the pictographs are used with text messages,
+as is the common practice in Hazard Alert Labels that conform to SEMI S1.
+10  Hazards Inherent in Tasks
+10. 1  In the documents provided to the equipment user, hazards inherent in each task should be indicated using the
+signal words “Danger,” “Warning,” or “Caution”, as described in SEMI S1.  The signal word and the explanation of
+the  hazard  should  be  highlighted  in  the  documentation  (e.g.,  by  enlarged  lettering  or  by  being  enclosed  in  a  box).
+The equipment supplier should include the definitions of “Danger,” “Warning,” and “Caution” that are provided in
+SEMI S1 in the documents provided to the equipment user if those terms are used.
+10. 2  Specific  instructions  should  be  provided  for  routine  Type  4  energized  electrical  work  tasks  (as  defined  in
+SEMI  S2),  excluding  troubleshooting.    General  procedures  for  troubleshooting,  including  Type  4  work,  should  be
+provided.
+NOTE 13:  SEMI  S2  provides  guidance  that  suppliers  should  design  the  equipment  to  minimize  the  need  to  calibrate,  modify,
+repair,  test,  adjust,  or  maintain  equipment  while  it  is  energized,  and  to  minimize  work  that  must  be  performed  on  components
+near  exposed  energized  circuits.    SEMI  S2  also  states  that  the  supplier  should  move  as  many  tasks  as  practical  from  category
+Type 4 to Types 1, 2, or 3.
+NOTE 14:  NFPA70E describes the identification of the Flash Protection Boundary in the USA.
+10. 3  Specific instruction may be provided for the unjamming task.
+NOTE 15:  “Unjamming” (also called “jam clearing”) is considered to be a service task.
+10. 4  Each maintenance and service task should include a list of the materials required for the task.
+11  Material Safety Data Sheet (MSDS)
+11. 1  The equipment supplier should provide MSDSs covering those chemical substances which are inherent in, or
+shipped with, the equipment.
+11. 2  For  those  chemical  substances  which  are  used  for  processing,  maintenance,  or  service  of  equipment,  but  are
+not provided in or with the equipment, the documents provided to the equipment user should state that the user must
+obtain the MSDSs from their chemical suppliers, rather than from the equipment supplier.  The user is responsible
+for obtaining process related MSDSs and should contact their suppliers to obtain them.
+NOTE 16:  The equipment user may request, from the equipment supplier, the list of chemicals prepared in accordance with the
+chemical section in SEMI S2.
+NOTE 17:  International Labor Convention No.  170 and ANSI Z400.1 call for MSDSs to describe:
+• Product and company identification
+• Composition
+• Hazard identification
+• First aid measures
+• Fire fighting measures
+• Accidental release measure
+• Handling and storage
+• Exposure controls / Personal protection
+• Physical and chemical properties
+• Stability and reactivity
+• Toxicological information
+
+
+SEMI S13-0305 © SEMI 1998, 2005 6
+• Ecological information
+• Disposal considerations
+• Transport information
+• Regulatory information
+• Other information
+12  Personal Protective Equipment (PPE)
+12. 1  The  documents  provided  to  the  equipment  user  should  clarify  which  tasks  require  personal  protective
+equipment  and  which  kind  of  PPE  (e.g.,  goggles,  aprons,  gloves,  masks,  safety  shoes,  helmets)  is  needed  for  each
+task.
+12. 2  The documents should identify the characteristics, such as being shatterproof or acid resistant, of the personal
+protective equipment to be used.
+12. 3  The equipment supplier should state in the documents provided to the equipment user that PPE should be used
+in  accordance  with  the  instructions  provided  by  the  PPE  supplier,  except  where  additional  instructions  by  the
+equipment supplier are required.
+13  Equipment Inspection, Consumables, and Maintenance
+13. 1  The  documents  provided  to  the  equipment  user  should  describe  the  recommended  methods  of  periodic
+inspections including the frequency of each inspection.
+13. 1.1  Periodic  inspections  include  periodic  situations  that  have  long  intervals  between  procedures  (e.g.,  changing
+memory batteries in computers, replacing UPS batteries, replacing sensor modules for detection systems).
+13. 2  The  equipment  supplier  should  provide  a  list  of  consumable  parts  and  materials,  with  their  replacement
+intervals, maintenance methods, and part/material number in the documents provided to the equipment user.
+13. 3  The  equipment  supplier  should  provide  information  on  the  specific  tools  necessary  for  inspections  and
+maintenance in the documents provided to the equipment user.
+14  Training Requirement
+14. 1  The  equipment  supplier  should  describe  the  training  required  for  safe  operations  and  maintenance  in  the
+documents provided to the equipment user.
+14. 2  Documents provided to the equipment user should define what level of training is considered, by the supplier,
+to be sufficient.
+15  Emergency Contact and Response
+15. 1  The  documents  provided  to  the  equipment  user  should  include  information  on  how  to  contact  the  equipment
+supplier in case of EHS issues related to the equipment.
+15. 2  The  documents  provided  to  the  equipment  user  should  include  an  explanation  of  how  the  user  may  keep  the
+supplier  notified  of  the  appropriate  user  contact  information  for  EHS  related  issues  and  notified  of  what  supplier
+equipment models are in use at which user locations.
+15. 3  When  supplier  contact  information  changes  for  EHS  issues  or  the  supplier  wishes  to  communicate  regarding
+EHS issues, the supplier should notify equipment users through their most recently provided EHS contacts.  Which
+contacts are notified may depend on which equipment models are of concern.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 7
+16  Related Documents
+16. 1  International SEMATECH
+4
+
+01104197AXFR — Guidelines for Environmental Characterization of Semiconductor Equipment
+
+
+4  SEMATECH, 2706 Montopolis Drive, Austin, TX, website: http://www.sematech.org
+
+
+SEMI S13-0305 © SEMI 1998, 2005 8
+APPENDIX 1
+DOCUMENT CRITERIA RELATING TO SEMI S2
+NOTICE:    The  material  in  this  Appendix  is  an  official  part  of  SEMI  S13  and  was  approved  by  full  letter  ballot
+procedures on November 24, 2004.
+NOTE 1:  Documentation criteria described in §A1-2 regarding safety interlock systems are part of conformance criteria to this
+guideline.
+A1-1  Purpose of this Appendix
+A1-1.1  This appendix contains criteria for documents that relate to technical criteria that are presented in SEMI S2.
+A1-1.2  The criteria in this appendix are not included in SEMI S2 as of the time this Appendix was written, but are
+included herein as criteria for determining whether the documents provided to the equipment user conform to SEMI
+S13.
+A1-1.3  The criteria in this appendix were included in SEMI S13-0298.
+A1-1.4  The criteria in this appendix are arranged to correspond with the sections of SEMI S2.
+NOTE 1:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  the  criteria  in  this  appendix  be  incorporated  in  a
+future  revision  of  SEMI  S2  and  that  this  appendix  be  removed  from  SEMI  S13  by  revising  SEMI  S13  with  the  same  effective
+date as the effective date of the addition of these criteria to SEMI S2.
+A1-2  Safety Interlock Systems
+A1-2.1  The  equipment  supplier  should  describe  the  safety  interlock  systems  provided  for  the  equipment  and  their
+operation  in  a  list  or  similar  format  in  the  documents  provided  to  the  equipment  user.    Each  interlock  system
+description  should  include  at  least  the  hazard  for  which  the  interlock  system  is  provided,  the  detection  methods
+utilized, and equipment condition after the interlock system is activated.
+A1-2.2  The  locations  of  safety  interlock  sensors  (e.g.    door  switches,  pressure  sensors,  gas  detectors)  should  be
+clearly indicated using a layout sketch.
+
+
+
+SEMI S13-0305 © SEMI 1998, 2005 9
+RELATED INFORMATION 1
+LAWS AND REGULATIONS
+NOTICE:  This related information is not an official part of SEMI S13 and was derived from the work of the SEMI
+S13 Revision Task Force.  This related information was approved for publication by a letter ballot on November 24,
+
+# 2004
+
+2004.
+R1-1  Laws and Regulations
+R1-1.1  The  contents  of  this  section  should  be  addressed  in  the  terms  and  conditions  of  sale  or  other  contractual
+agreements between the supplier and user.  The following information may be included in the documents provided
+to the equipment user.
+R1-1.2  Relevant  Administrative  Laws  and  Regulations  —  These  may  include  laws  and  regulations  relevant  to
+installation, operation, maintenance, and decommissioning of the equipment.
+R1-1.2.1  The  supplier  may  describe,  in  the  documents  provided  to  the  equipment  user,  the  laws  and  regulations
+related to EHS of the user’s jurisdiction relevant to operation, maintenance, and supervision of the system.
+R1-1.2.2  The  supplier  may  describe  the  measure  of  support  by  the  supplier  for  the  implementation  of  laws  and
+regulations related to EHS after delivery of the equipment.
+NOTE 1:  It  is  recommended  that  equipment  supplier  and  equipment  user  jointly  investigate  the  laws  and  regulations  of  the
+jurisdiction  where  the  equipment  is  to  be  used,  and  they  incorporate  these  requirements  into  the  purchase  specification.    In
+addition, the supplier has a right to describe the laws and regulations considered, and means of compliance implemented, during
+the development and production of the equipment.
+R1-1.3  Issues Regarding Product Liability (PL)
+R1-1.3.1  The  supplier  may  describe  the  following  in  the  documents  provided  to  the  equipment  user  to  ensure
+mutual understanding of the issues regarding product liability for the equipment:
+R1-1.3.1.1  How a field retrofit is announced and implemented.
+R1-1.3.1.2  How to notify discontinuance information of the equipment production to the equipment user and what
+repair and maintenance services are available after discontinuation of production of the equipment.
+R1-1.3.1.3  How parts should be handled by the user for the transport for repair.
+R1-1.3.1.4  The  equipment  supplier  should  describe,  in  the  documents  provided  to  the  equipment  user,  the
+possibility of not being able to carry out servicing for reasons of safety and health of the dispatched personnel, if the
+equipment user refuses to disclose the names and contents of materials being used, for reasons of confidentiality or
+trade secret protection.
+R1-1.3.1.5  The  limit  of  the  responsibility  of  the  equipment  supplier  when  the  equipment  user  transports,  reuses,
+resells, or modifies the equipment without the equipment supplier’s agreement.
+R1-1.3.1.6  The responsibility with regard to the parts designed by the equipment user without the approval of the
+equipment supplier.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 10
+RELATED INFORMATION 2
+DOCUMENT CRITERIA INCLUDED IN SEMI S2
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  S13  and  was  derived  from  SEMI  S2.    This
+related information was approved for publication by a letter ballot on November 24, 2004.
+R2-1  Purpose of this Related Information
+R2-1.1  This related information contains criteria for documents that are presented in SEMI S2.
+R2-1.2  The criteria in this related information are included in SEMI S2 as of the time this related information was
+written, and are included herein for the convenience of users of this document.
+NOTE 1:  The  information  in  this  related  information  may  not  be  current  with  the  source  document.    The  source  document
+contains the actual documentation criteria.
+R2-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S2.
+NOTE 2:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  this  related  information  be  updated  to  incorporate
+future revisions of SEMI S2 related to criteria for documents.
+R2-2  Safety Interlock Systems
+R2-2.1  SEMI  S2-0703,  ¶11.7.2.2  —  If  a  safety  interlock  is  defeated,  the  maintenance  manual  should  identify
+administrative controls to safeguard personnel or to minimize the hazard.
+R2-3  Emergency Shutdown
+R2-3.1  In  case  assemblies  that  are  not  intended  to  be  used  as  stand-alone  equipment  and  EMO  circuit  is  not
+necessary in the assemblies of the equipment, assembly’s installation manual should provide clear instructions to the
+equipment  installer  to  connect  the  assembly  to  the  integrated system’s emergency off circuit, (based on SEMI S2-
+0703, ¶12.1).
+R2-3.1.1  SEMI  S2-0703,  ¶12.1.1  —  If  the  supplier  provides  an  external  EMO  interface  on  the  equipment,  the
+supplier should include instructions for connecting to the interface.
+R2-4  Electrical Design
+R2-4.1  SEMI  S2-0703,  ¶13.3  —  Routine  Type  4  tasks,  excluding  troubleshooting,  should  have  specific  written
+instructions in the maintenance manuals.
+R2-4.2  SEMI S2-0703, ¶13.4.9 — The current interrupting capacity (also known as amperes interrupting capacity,
+or AIC) of the equipment main disconnect should be identified in the facility installation and maintenance manuals.
+R2-4.3  SEMI S2-0703, ¶13.5.1 — Whenever a UPS is provided with the equipment, its location and wiring should
+be clearly described within the installation and maintenance manual.
+R2-5  Seismic Information
+R2-5.1  SEMI S2-0703, ¶19.3 — The supplier should provide the following data and procedures to the user.  This
+information should be included in the installation instructions as part of the documentation covered in §9.
+• A drawing of the equipment, its support equipment, its connections (e.g., ventilation, water, vacuum, gases) and
+the anchorage locations identified in ¶19.4.
+• The type of feet used and their location on a base frame plan drawing.
+• The weight distribution on each foot.
+• Physical dimensions, including width, length, and height of each structurally independent module.
+• Weight and location of the center of mass for each structurally independent module.
+• Acceptable locations on the equipment frame for anchorage.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 11
+R2-6  Environmental Information
+R2-6.1  SEMI  S2-0703,  ¶9.4  —  The  manufacturer  should  provide  the  user  with  the  following  environmental
+documentation as applicable:
+R2-6.1.1  ¶9.4.1 — Energy consumption information, including idle, average, and peak operating conditions, for the
+manufacturer’s most representative (“baseline”) process.
+R2-6.1.2  ¶9.4.2  —  Mass  balance,  including  idle,  average,  and  peak  operating  conditions,  for  the  manufacturer’s
+most representative (“baseline”) process.
+NOTE 3:  The mass balance may include resource consumption rates, chemical process efficiencies, wastewater effluent and air
+emission characterization, solid and hazardous waste generation (quantity and quality), and by-products.
+R2-6.1.3  ¶9.4.3  —  Information  regarding  routes  of  unintended  release  (of  effluents,  wastes,  emissions,  and  by-
+products)  and  methods  and  devices  to  monitor  and  control  such  releases.    This  should  include  information  on
+features to monitor, prevent, and control unintended releases (see ¶21.2.4).
+R2-6.1.4  ¶9.4.4  —  Information  regarding  routes  of  intended  release  (of  effluents,  wastes,  and  emissions)  and
+features to monitor and control such releases (see ¶21.2.5).
+R2-6.1.5  ¶9.4.5 — A list of items that become solid waste as a result of the operation, maintenance, and servicing
+of  the  equipment,  and  that  are  constructed  of  or  contain  substances  whose  disposal  might  be  regulated  (e.g.,
+beryllium-containing parts, vapor lamps, mercury switches, batteries, contaminated parts, maintenance wastes).
+R2-7  Exhaust Ventilation
+R2-7.1  SEMI  S2-0703,  ¶22.3  —  Documentation  should  be  developed  showing  the  equipment  exhaust  parameters
+and relevant test methods, and should include (see also Appendix 2):
+• duct velocity (where needed to transport solid particles);
+• volumetric flow rate Q;
+• capture velocity (where airborne contaminants are generated outside an enclosure);
+• face velocity (where applicable);
+• hood entry loss factor F
+h
+or K;
+• coefficient of entry C
+e.
+;
+• hood static pressure SP
+h
+;
+• duct diameter at the point of connection to facilities; and
+• location(s) on the duct or hood where all ventilation measurements were taken.
+R2-8  Manuals
+R2-8.1  SEMI S2-0703, ¶9.6
+R2-8.1.1  ¶9.6.1  —  The  supplier  should  provide  the  user  with  manuals  based  on  the  originally  intended  use  of  the
+equipment.    The  manuals  should  describe  the  scope  and  normal  use  of  the  equipment,  and  provide  information  to
+enable safe facilitization, operation, maintenance, and service of the equipment.
+R2-8.1.2  ¶9.6.2 — The manuals should conform to SEMI S13.
+NOTE 4:  Fire  suppression  agents,  and  chemicals  used  to  test  fire  detection  or  suppression  systems,  fall  under  the  MSDS
+provisions of SEMI S13 when they are provided with the equipment.
+NOTE 5:  Hazardous energies within fire detection or suppression systems fall under the hazardous energy control provisions of
+SEMI S13 when fire detection or suppression systems are provided with the equipment.
+R2-8.1.3  ¶9.6.3 — In addition to the provisions of SEMI S13, the manuals should include:
+• specific written instructions on routine Type 4 tasks, excluding troubleshooting (refer to ¶13.3);
+
+
+SEMI S13-0305 © SEMI 1998, 2005 12
+• instructions for energy isolation (“lockout/tagout”) (refer to ¶17.2);
+• descriptions of the emergency off (EMO) and interlock functions;
+• a list of hazardous materials (e.g., lubricants, cleaners, coolants) required for maintenance, ancillary equipment
+or peripheral operations, including anticipated change-out frequency, quantity, and potential for contamination
+from the process;
+• a list of items that become solid waste as a result of the operation, maintenance, and servicing of the equipment,
+and that are constructed of or contain substances whose disposal might be regulated (e.g., beryllium-containing
+parts, vapor lamps, mercury switches, batteries, contaminated parts, maintenance wastes); and
+• maintenance  and  troubleshooting  procedures  needed  to  maintain  the  effectiveness  of  safety  design  features  or
+devices (i.e., engineering controls).
+R2-8.1.4  ¶9.6.4 — Information should be provided regarding potential routes of unintended releases (see ¶21.2.4).
+R2-8.1.5  ¶9.6.5  —  Recommended  decontamination  and  decommissioning  procedures  should  be  provided  in
+accordance with SEMI S12, and should include the following information:
+• identity  of  components  and  materials  of  construction,  in  sufficient  detail  to  support  recycling,  refurbishment,
+and reuse decisions (see ¶8.5.3); and
+• residual hazardous materials, or parts likely to become contaminated with hazardous materials, that may be in
+the equipment prior to decommissioning.
+NOTE 6:  It is recommended that the manual state that changes to the typical process chemistry or to the equipment could alter
+the anticipated environmental impact.
+R2-8.1.6  ¶9.6.6 — Maintenance Procedures with Potential Environmental Impacts — The supplier’s recommended
+maintenance procedures should:
+R2-8.1.6.1  Identify procedural steps during which releases might occur, and the nature of the releases; and identify
+waste  characteristics  and  methods  to  minimize  the  volume  of  effluents,  wastes,  or  emissions  generated  during
+maintenance procedures.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 13
+RELATED INFORMATION 3
+DOCUMENT CRITERIA INCLUDED IN SEMI S8
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  S13  and  was  derived  from  SEMI  S8.    This
+related information was approved for publication by a letter ballot on November 24, 2004.
+R3-1  Purpose of this Related Information
+R3-1.1  This related information contains criteria for documents that are presented in SEMI S8.
+R3-1.2  The criteria in this related information are included in SEMI S8 as of the time this related information was
+written, and are included herein for the convenience of users of this document.
+NOTE 1:  The  information  in  this  related  information  may  not  be  current  with  the  source  document.    The  source  document
+contains the actual documentation criteria.
+R3-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S8.
+NOTE 2:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  this  related  information  be  updated  to  incorporate
+future revisions of SEMI S8 related to criteria for documents.
+R3-2  Documentation
+R3-2.1  SEMI  S8-0701,  ¶7.2  —  Supplier  provided  documentation  should  include  administrative  controls  intended
+by the supplier to mitigate ergonomic risks.
+R3-2.2  SEMI  S8-0701,  ¶7.3  —  Supplier  provided  documentation  should  illustrate  any  installation  requirement
+necessary  to  meet  SEMI  S8  guidelines  (e.g.,  Diagram  should  show  clearance  area  required  for  opening  hinged
+panels, operator working area, allowable range of vertical foot adjustment to keep ergonomic measurements within
+SESC acceptable limits, etc.).
+
+
+SEMI S13-0305 © SEMI 1998, 2005 14
+RELATED INFORMATION 4
+DOCUMENT CRITERIA INCLUDED IN SEMI S16
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  S13  and  was  derived  from  SEMI  S16.    This
+related information was approved for publication by a letter ballot on November 24, 2004.
+R4-1  Purpose of this Related Information
+R4-1.1  This related information contains criteria for documents that are presented in SEMI S16.
+R4-1.2  The criteria in this related information are included in SEMI S16 as of the time this related information was
+written, and are included herein for the convenience of users of this document.
+NOTE 1:  The  information  in  this  related  information  may  not  be  current  with  the  source  document.    The  source  document
+contains the actual documentation criteria.
+R4-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S16.
+NOTE 2:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  this  related  information  be  updated  to  incorporate
+future revisions of SEMI S16 related to criteria for documents.
+R4-2  Information Provided by the Supplier
+R4-2.1  SEMI  S16-0600,  §7  ¶7.1  —  The  supplier  should  provide  the  equipment  owner  with  operation  and/or
+maintenance manuals or similar documents drafted according to SEMI S13, which include the following information
+on the materials used in equipment, subassemblies and components upon the delivery of the equipment.
+NOTE 3:  The supplier may gather appropriate information at the time of design in conjunction with a disposal party.
+R4-2.1.2  ¶7.1.1 — Primary materials of appropriate disassembleable unit in consideration with reuse, refurbishing,
+recycling  and  disposal  of  each  component  such  as  chemicals  (e.g.,  mercury),  metals  (e.g.,  stainless  steel,  steel,  or
+copper),  plastics  (e.g.,  ABS  -  i.e.    Acrylonitrile  Butadiene  Styrene  plastics  -  or  non-combustible  ABS),  glass,  or
+ceramics.
+R4-2.1.3  ¶7.1.2  —  Describe  opportunities  for  reuse,  refurbishing  or  material  recycling  of  every  component  or
+recyclable  subassembly.    If  there  are  no  opportunities,  a  waste  disposal  method  should  be  recommended  based  on
+assumption  of  usage  with  baseline  process  by  the  supplier.    (e.g.    ABS  can  be  recycled  after  decontamination  as
+class X plastic and mercury requires reclaim or hazardous waste disposal.)
+R4-2.1.4  ¶7.1.3 — Disassembly procedure
+R4-2.1.4.1  ¶7.1.3.1  —  A  disassembly  procedure  should  be  recommended  by  the  supplier  to  the  level  required  to
+facilitate complete decontamination and material separation for waste disposal.
+R4-2.1.4.2  ¶7.1.3.2 — The disassembly procedure should include procedures to remove all hazardous energies.
+R4-2.1.4.3  ¶7.1.3.3  —  The  disassembly  procedure  should  prevent  the  mixture  of  incompatible  chemicals.    If  it  is
+not feasible, administrative control procedures should be included.
+R4-2.1.4.4  ¶7.1.3.4   —   If   the   chemicals/materials   described   in   ¶¶7.1.3.4.1   to   7.1.3.4.4   are   hazardous,   the
+disassembly procedure should prevent the release of them to the environment.  The chemicals include:
+NOTE 4:  Byproducts are changeable according to several kinds of conditions such as exhaust diameter/length/volume, chamber
+volume/pressure/configuration, maintenance method/cycle, and evacuation frequency.
+R4-2.1.4.5  ¶7.1.3.4.5  —  The  disassembly  procedure  should  address  any  hazards  of  ionizing  radiation  sources,  if
+they are present, and address safe removal and storage procedures.
+R4-2.1.5  ¶7.1.4  —  Disposal  procedure  should  be  described  by  a  safer  way  based  on  the  result  of  risk  assessment
+such as SEMI S10 or EN 1050 and job hazard analysis.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 15
+RELATED INFORMATION 5
+DOCUMENT CRITERIA WHICH MAY BE DISCUSSED IN A FUTURE
+REVISION OF SEMI S2
+NOTICE:  This related information is not an official part of SEMI S13 and was derived from the work of the SEMI
+S13 Revision TF.  This Related Information was approved for publication by a letter ballot on November 24, 2004.
+R5-1  Purpose of this Related Information
+R5-1.1  This  related  information  contains  criteria  for  documents  that  relate  to  technical  criteria  that  may  be
+discussed for a future revision of SEMI S2.
+R5-1.2  The criteria in this related information are not included in SEMI S2 as of the time this related information
+was  written,  but  are  newly  suggested  as  necessary  criteria  for  determining  whether  the  documents  provided  to  the
+equipment user conform to SEMI S13.
+R5-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S2.
+NOTE 1:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  the  criteria  in  this  related  information  be
+incorporated in a future revision of SEMI S2 and that this related information be removed from SEMI S13 by revising SEMI S13
+with the same effective date as the effective date of the addition of these criteria to SEMI S2.
+R5-2  Safety Interlock
+R5-2.1  The  equipment  supplier  should  describe  the  safety  interlocks  provided  as  part  of  the  equipment  and  their
+function  in  a  list  in  the  documents  provided  to  the  equipment  user.    The  interlock  list  should  include  the  hazards
+against which they protect, type of sensors/actuators used, the type of interlock circuit (e.g.  hardware or software,
+etc.), and equipment conditions after the interlocks are activated.
+R5-2.2  The  equipment  supplier  should  describe  how  to  restore  each  interlock  and  put  equipment  or  parts  of  the
+equipment back to operation after an interlock is activated.
+R5-2.3  The locations of sensors and actuators used for safety interlocks protecting personnel should be described.
+R5-2.4  Calibration  and  testing  procedures  and  frequencies  should  be  provided  for  all  sensors  and  detectors  which
+require  calibration  and  testing  to  be  conducted  by  the  user.    Where  applicable,  gases  used  for  calibration  and  test
+apparatus should be identified.
+R5-3  Emergency Shutdown
+R5-3.1  The  documents  provided  to  the  equipment  user  should  describe  the  function  and  operation  of  the  EMO
+circuit that is provided as part of the equipment.
+R5-3.2  The locations of EMO buttons should be described.
+R5-4  Environmental Information
+R5-4.1  Maintenance   Procedures   with   Potential   Environmental   Impacts   —   The   supplier’s   recommended
+maintenance procedures should:
+• identify procedural steps during which releases might occur, and the nature of the releases; and
+• identify waste characteristics and methods to minimize the volume of effluents, wastes, or emissions generated
+during maintenance procedures.
+R5-5  Fire Protection Information
+R5-5.1  Information of fire protection should be written in the documents provided to the equipment user.
+R5-5.2  The  following  ¶¶R5-5.2.1  to  R5.5.2.3  apply  only  if  the  equipment  includes  the  features  to  which  the
+information relates.
+R5-5.3  Operation, maintenance and test procedures for fire detection and alarm system should be described.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 16
+R5-5.4  Operation, maintenance, and test procedures for fire suppression and alarm system should be described.
+R5-5.5  A  list  of  any  special  apparatus  needed  to  test  the  fire  detection  or  suppression  features  of  the  equipment
+should be provided.  The list should note whether the apparatus is included with the equipment, or is sold separately.
+R5-6  Industrial Hygiene Information
+R5-6.1  Byproducts expected from the baseline process should be described.
+R5-6.2  Documents provided to the equipment user should describe any exposure risk that is present.
+R5-6.3  Methods  for  reducing  exposure  risk  during  performance  of  tasks  (e.g.,  use  of  portable  exhaust,  use  of
+respirators, use of portable detection equipment to warn the worker) should be described.
+R5-6.4  Radiation including ionizing (e.g., implanters, static elimination bars, X-ray) and non-ionizing (e.g., lasers,
+Ultraviolet, infrared, RF, EMF) should be described.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 17
+RELATED INFORMATION 6
+DOCUMENT CRITERIA WHICH MAY BE DISCUSSED IN A FUTURE
+REVISION OF SEMI S6
+NOTICE:  This related information is not an official part of SEMI S13 and was derived from the work of the SEMI
+S13 Revision TF.  This related information was approved for publication by a letter ballot on November 24, 2004.
+R6-1  Purpose of this Related Information
+R6-1.1  This  related  information  contains  criteria  for  documents  that  relate  to  technical  criteria  that  may  be
+discussed for a future revision of SEMI S6.
+R6-1.2  The criteria in this related information are not included in SEMI S6 as of the time this related information
+was  written,  but  are  newly  suggested  as  necessary  criteria  for  determining  whether  the  documents  provided  to  the
+equipment user conform to SEMI S13.
+R6-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S6.
+NOTE 1:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  the  criteria  in  this  related  information  be
+incorporated in a future revision of SEMI S6 and that this related information be removed from SEMI S13 by revising SEMI S13
+with the same effective date as the effective date of the addition of these criteria to SEMI S6.
+R6-2  Equipment Parameter Change
+R6-2.1  Documents provided to the equipment user should describe changing any parameter of the systems in the
+equipment (e.g., changing exhaust monitoring set points, working with portions of the enclosure removed) may
+cause an unexpected condition.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 18
+RELATED INFORMATION 7
+DOCUMENT CRITERIA WHICH MAY BE DISCUSSED IN A FUTURE
+REVISION OF SEMI S8
+NOTICE:  This related information is not an official part of SEMI S13 and was derived from the work of the SEMI
+S13 Revision TF.  This related information was approved for publication by a letter ballot on November 24, 2004.
+R7-1  Purpose of this Related Information
+R7-1.1  This  related  information  contains  criteria  for  documents  that  relate  to  technical  criteria  that  may  be
+discussed for a future revision of SEMI S8.
+R7-1.2  The criteria in this related information are not included in SEMI S8 as of the time this related information
+was  written,  but  are  newly  suggested  as  necessary  criteria  for  determining  whether  the  documents  provided  to  the
+equipment user conform to SEMI S13.
+R7-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S8.
+R7-1.3.1  It was the intent of the Task Force responsible for SEMI S13 that the criteria in this related information be
+incorporated  in  a  future  revision  of  SEMI  S8  and  that  this  related  information  be  removed  from  SEMI  S13  by
+revising SEMI S13 with the same effective date as the effective date of the addition of these criteria to SEMI S8.
+R7-2  Supporting Device
+R7-2.1  When  supporting  device  provided  by  the  equipment  supplier  is  to  be  used  by  the  equipment  users  as  a
+measure  of  ergonomic  risk  mitigation,  the  documentation  should  describe  how  to  use  it.    For  example,  supporting
+devices are appliances that support the user’s body (e.g., a platform to step on), the user’s hands (e.g., palm rest for a
+keyboard), or a heavy object (e.g., hoist).
+
+
+SEMI S13-0305 © SEMI 1998, 2005 19
+RELATED INFORMATION 8
+DOCUMENT CRITERIA WHICH MAY BE DISCUSSED IN A FUTURE
+REVISION OF SEMI S12
+NOTICE:  This related information is not an official part of SEMI 13 and was derived from the work of the SEMI
+S13 Revision Task Force.  This related information was approved for publication by a letter ballot on November 24,
+2004.
+R8-1  Purpose of this Related Information
+R8-1.1  This  related  information  contains  criteria  for  documents  that  relate  to  technical  criteria  that  may  be
+discussed for a future revision of SEMI S12.
+R8-1.2  The criteria in this related information are not included in SEMI S12 as of the time this related information
+was  written,  but  are  newly  suggested  as  necessary  criteria  for  determining  whether  the  documents  provided  to  the
+equipment user conform to SEMI S13.
+R8-1.3  The criteria in this related information are arranged to correspond with the sections of SEMI S12.
+NOTE 1:  It  was  the  intent  of  the  Task  Force  responsible  for  SEMI  S13  that  the  criteria  in  this  related  information  be
+incorporated  in  a  future  revision  of  SEMI  S12  and  that  this  related  information  be  removed  from  SEMI  S13  by  revising  SEMI
+S13 with the same effective date as the effective date of the addition of these criteria to SEMI S12.
+R8-2  Decontamination and Decommissioning Information
+R8-2.1  Documents provided to the equipment user should provide recommended decontamination procedure based
+on the equipment supplier’s baseline process including the following information:
+• decontamination methods in accordance with SEMI S12;
+• equipment modules or components requiring decontamination and contaminants, including by-products;
+• procedures required to decontaminate equipment effectively;
+• components and equipment that require special handling and disposal procedures, including contaminated parts;
+parts  containing  lead,  mercury,  cadmium,  chromium,  arsenic,  beryllium,  barium,  vanadium,  selenium,  organic
+solvents, PCB’s, PPB’s, CFCs and other regulated wastes; and
+• residual hazardous materials that may remain despite decontamination efforts prior to decommissioning.
+R8-2.2  Decommissioning Procedure
+R8-2.2.1  Documents provided to the equipment user should provide a recommended decommissioning procedure to
+facilitate decontamination and material separation.
+R8-2.2.2  The  decommissioning  procedure  should  include  removal  of  all  hazardous  energies  (such  as  chemical,
+pneumatic, electrical, pressure, and elevated loads).
+R8-2.2.3  The decommissioning procedure should be documented to prevent the mixture of incompatible chemicals.
+If it is not feasible, administrative control procedures in order to minimize various risks such as fire, explosion, air
+or water pollution and toxicity should be included.
+R8-2.2.4  If  the  chemicals/materials  are  hazardous,  the  decommissioning procedure should address  how  to  prevent
+their release to the environment.  The chemicals include:
+• Chemicals used to operate or maintain the equipment (e.g., lubricant and coolant),
+• Other  potentially  hazardous  items  which  are  parts  of  the  equipment,  such  as  capacitors,  batteries,  lamps  or
+mercury, which require special disposal procedures, and
+• Chemicals  used  in  the  baseline  process  of  the  equipment  supplier  for  which  the  decontamination  and
+decommissioning procedures have been provided and their anticipated by-products.
+
+
+SEMI S13-0305 © SEMI 1998, 2005 20
+NOTE 2:  Byproducts  vary  with  conditions  such  as  exhaust  duct  diameter/length/volume,  temperature,  exhaust  gas  velocity,
+chamber volume/pressure/configuration, maintenance method/cycle, and purge frequency.
+R8-2.2.5  The  decommissioning  procedure  should  address  any  hazards  of  ionizing  radiation  sources,  if  they  are
+present, and address safe removal and storage procedures for these sources.
+R8-2.2.6  Specific  hazards  known  to  be  the  result  of  failures  during  operation  (e.g.,  mercury  vapor  lamps  create
+mercury deposits when a lamp bursts) should be described.
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 1
+SEMI S14-0704
+SAFETY GUIDELINES FOR FIRE RISK ASSESSMENT AND
+MITIGATION FOR SEMICONDUCTOR MANUFACTURING EQUIPMENT
+These  safety  guidelines  were  technically  approved   by   the   Global   Environmental   Health   and   Safety
+Committee  and  are  the  direct  responsibility  of  the  North  American  Environmental  Health  and  Safety
+Committee.  Current  edition  approved  by  the  North  American  Regional  Standards  Committee  on  April  22,
+2004.    Initially  available  at  www.semi.org  June  2004;  to  be  published  July  2004.    Originally  published
+February 2000; previously published November 2003.
+NOTICE: Paragraphs   entitled   “NOTE”   are   not   an
+official  part  of  this  document  and  are  not  intended  to
+modify   or   supersede   the   official   Safety   Guideline.
+These have been supplied by the Task Force to enhance
+usage of the Safety Guideline.
+NOTICE:   The  intent  of  the  task  force  that  produced
+this  document  is  that  conformance  to  the  “should”
+
+provisions  of  this guideline  comprises  conformance
+with this guideline.
+1  Purpose
+1. 1      This   document   provides   considerations   to   the
+manufacturers      of      semiconductor      manufacturing
+equipment   that   will   assist   them   in   assessing   and
+mitigating the risk to equipment and product associated
+with fire and combustion by-products.
+1. 2    Although  these  guidelines  are  written  in  the  form
+of   an   assessment   tool,   they   are   intended   for   use
+throughout     the     design     and     development     of
+semiconductor manufacturing equipment.
+1. 3    These  guidelines  may  also  be  used  by  the  users  of
+such equipment and by other interested parties to assess
+and  compare  the  described  risks  of  various  equipment
+designs  or  in  the  design  and  evaluation  of  ancillary
+equipment or modifications.
+1. 4  These guidelines are not intended to specify which
+techniques  (e.g.,  selection  of  materials  or  detection
+systems)  are  to  be  used  to  mitigate  fire  risk.    These
+guidelines do, however, recommend that the traditional
+risk  management  hierarchy  of  elimination,  engineering
+controls,  administrative  controls,  warning  and  work
+practices be followed.
+1. 5  The appropriate application of these guidelines will
+result in a report which identifies, analyzes and assesses
+residual fire risks.
+2  Scope
+2. 1      These   guidelines   apply   to   equipment   used   to
+manufacture,  measure,  assemble,  and  test  semiconduc-
+tor  products  which  is  intended  to  be  located  in  clean-
+rooms used for semiconductor manufacturing processes
+or  areas  within  their  recirculation  airstream.    They
+apply  to  all  of  the  components  of  the  equipment,  as
+described herein.
+NOTE  1:    This  document  is  not  limited  to  the  structural  or
+large-area components of equipment.
+2. 2    This  document  applies  to  fire  risks  originating
+within the subject equipment that may result in damage
+to it, other equipment, products, or the facility.
+2. 3        This    document    identifies    considerations    for
+assessing  the  fire  risk  of  semiconductor  manufacturing
+equipment,  means  of  categorizing  the  risks,  and  means
+of mitigating the risks.
+NOTICE:  This  safety  guideline  does  not  purport  to
+address  all  of  the  safety  issues  associated  with  its  use.
+It   is   the   responsibility   of   the   users   of   this   safety
+guideline  to  establish  appropriate  safety  and  health
+practices  and  determine  the  applicability  of  regulatory
+or other limitations prior to use.
+3  Limitations
+3. 1      These   guidelines   do   not   establish   acceptance
+criteria for residual risk.
+3. 2        This    document    recommends    a    hierarchy    of
+approaches  (e.g.,  elimination  of  a  hazard  is  preferable
+to  an  engineering  control)  but  neither  prescribes  which
+specific   risk   mitigation   methods   (e.g.,   change   of
+material  or  elimination  of  an  ignition  source)  are  to  be
+used nor ranks their relative merit.
+3. 3      These   guidelines   apply   to   the   protection   of
+property;   they   do   not   apply   to   the   protection   of
+personnel.
+NOTE  2:    Protection  of  personnel  from  fire  risk  is  within  the
+scope of SEMI S2.
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 2
+3. 4    This  document  applies  to  equipment  in  its  scope
+when   the   equipment   is   used   in   the   environment
+specified  by  the  equipment  supplier.    Specifically,  it
+does not apply to the behavior of equipment when it is
+subject to an external fire.
+3. 5  This document is not intended to be used to assess
+compliance   with   regulatory   requirements,   nor   is   it
+intended to be adopted as regulation.
+3. 6  Because of these limitations, it may be appropriate
+for  purchasers  of  equipment  to  specify  the  applicable
+codes and standards and the acceptable level of residual
+risk.
+NOTE 3:  Applicable   regional,   and   national   codes,   inter-
+national  regulations,  and  the  equipment  manufacturer’s  and
+user’s requirements must also be considered.  When a conflict
+exists, the regional and national codes take precedence.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI    E10    —    Specification    for    Definition    and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability (RAM)
+SEMI E70 — Guide for Tool Accommodation Process
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI   S7   —   Safety   Guidelines   for   Environmental,
+Safety, and Health (ESH) Evaluation of Semiconductor
+Manufacturing Equipment
+SEMI  S10  —  Safety  Guideline  for  Risk  Assessment
+and Risk Evaluation Process
+4. 2  NFPA Documents
+1
+
+National  Fire  Protection  Association:  NFPA  12  —
+Standard    on    Carbon    Dioxide    Fire    Extinguishing
+Systems
+National  Fire  Protection  Association:  NFPA  13  —
+Standard for the Installation of Sprinkler Systems
+National  Fire  Protection  Association:  NFPA  72  —
+National Fire Alarm Code
+National  Fire  Protection  Association:    NFPA  2001  —
+Standard on Clean Agent Fire Extinguishing Systems
+4. 3  Factory Mutual Document
+2
+
+Factory Mutual Research Corp.
+
+Standard 4910 — Clean
+Room Materials Flammability Test Protocol
+
+
+1 National Fire Protection Association, 1 Batterymarch Park, Quincy,
+MA 02269, Website: www.nfpa.org
+2 Factory Mutual Research Corp., 1151 Boston-Providence Turnpike,
+Norwood,  MA  02062,  phone:  781-762-4300,  fax:  781-762-9375,
+website: http//www.factorymutual.com
+4. 4  Underwriters Laboratory Documents
+3
+
+Underwriters   Laboratory   Standard   94   —   Tests   for
+Flammability  of  Plastic  Materials  for  Parts  in  Devices
+and Appliances
+Underwriters Laboratories Standard 746A — Polymeric
+Materials - Short Term Property Evaluations
+Underwriters Laboratories Standard 746B — Polymeric
+Materials - Long Term Property Evaluations
+Underwriters Laboratories Standard 746C — Polymeric
+Materials - Use in Electrical Equipment Evaluations
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions
+5. 1.1  accredited  testing  laboratory  —  an  independent
+organization  dedicated  to  the  testing  of  components,
+devices,  or  systems;  competent  to  perform  evaluations
+based on established safety standards and recognized by
+a governmental or regulatory body. [SEMI S2]
+5. 1.2  cleanroom —   a   confined   area   in   which   the
+humidity,     temperature,     particulate     matter,     and
+contamination  are  precisely  controlled  within  specified
+parameters. [SEMI E70]
+5. 1.3  combustible  liquid  —  a  liquid  that  will  burn  and
+has a flash point at or above 37.8°C (100°F).
+5. 1.3.1  For the purpose of this guideline, a combustible
+liquid, when used by a system capable (under normal or
+single-fault  conditions)  of  heating  it  above  its  flash
+point, is considered a flammable liquid.
+5. 1.4  combustible  material  — for  the  purpose  of  this
+document, a combustible material is any material which
+does   not   meet   the   definitions   in   this   section   for
+noncombustible materials.
+NOTE 4:  A list of criteria, guidelines and standards that may
+be used to evaluate the fire properties of materials is included
+in Appendix 2.
+5. 1.5  downtime — the time when the equipment is not
+in   a   condition,   or   is   not   available,   to   perform   its
+intended funtion. It does not include any portion of non-
+scheduled time. [SEMI E10]
+NOTE  5:    Downtime  may  be  considered  according  to  the
+definition  of  SEMI  E10,  assuming  commited  availability  of
+the parts in question.
+5. 1.6  flammable liquid — a liquid having a flash point
+below 37.8°C (100°F).
+
+
+3 Underwriters Laboratory, 333 Pfingsten Rd, Northbrook, IL 60062
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 3
+5. 1.7  hazard —  a  condition  that  is  a  prerequisite  to  a
+mishap.
+5. 1.8  hazardous voltage — unless otherwise defined by
+an  appropriate  international  standard  applicable  to  the
+equipment,  voltages  greater  than  30  volts  rms,  42.4
+volts  peak,  60  volts  dc  are  defined  in  this  document  as
+hazardous voltage.
+NOTE 6:  The specified levels are based on normal conditions
+in a dry location environment.
+5. 1.9  ignition  energy  —  sufficient  energy  to  ignite  a
+combustible material.  The energy required depends on
+the form of the energy and the composition and form of
+the combustible material.
+NOTE 7:  The  combustible  material  may  be  solid,  liquid,  or
+gas.
+5. 1.10  likelihood — the expected frequency with which
+a  mishap  will  occur.  Usually  expressed  as  a  rate  (e.g.,
+events per year, per product, per wafer processed).
+5. 1.11  mishap —   an   unplanned   event   or   series   of
+events that results in death, injury, occupational illness,
+damage   to   or   loss   of   equipment   or   property,   or
+environmental damage.
+5. 1.12  noncombustible  material  —  a  material  that,  in
+the  form  in  which  it  is  used  and  under  the  conditions
+anticipated,  will  not  ignite,  burn,  support  combustion,
+or  release  flammable  vapors  when  subjected  to  fire  or
+heat.   Typical   noncombustible   materials   are   metals,
+ceramics, and silica materials (e.g., glass and quartz).
+5. 1.13  process  chemicals  —  solids,  liquids,  and  gases
+used in the normal use of the equipment included in the
+scope of this document.
+NOTE 8:  Solids,  liquids,  and  gases  used  in  the  maintenance
+procedures   (e.g.,   isopropanol   used   as   a   cleaning   agent)
+specified  by  the  equipment  supplier  should  be  considered  as
+well as those used in operation.
+5. 1.14  pyrophoric  material  —  a  chemical  that  will
+spontaneously ignite in air at or below a temperature of
+54. 4°C (130°F).
+5. 1.15  residual  risk  —  that  risk  which  remains  after
+engineering,  administrative,  and  work  practice  controls
+have been implemented.
+5. 1.16  risk —  the  expected  losses  from  a  mishap,
+expressed in terms of severity and likelihood.
+5. 1.17  safe shutdown condition — a condition in which
+all    hazardous    energy    sources    are    removed    and
+hazardous    production    materials    are    removed    or
+contained,  unless  this  results  in  additional  hazardous
+conditions.
+5. 1.18  semiconductor  manufacturing  process  —  those
+manufacturing  steps  which  are  part  of  the  creation  of
+active or passive electrical devices on a semiconducting
+wafer,  including  the  deposition  of  passivation  layers
+after   final   metallization,   but   excluding   testing   and
+dicing.
+5. 1.19  severity —  the  extent  of  the  worst  credible  loss
+from a mishap caused by a specific hazard.
+5. 1.20  supervisory  alarm   —   an   alarm   indicating   a
+supervisory condition.
+5. 1.21  supervisory  condition  —  a  condition  in  which
+action  or  maintenance  is  needed  to  restore  or  continue
+proper function.
+5. 1.22  trouble  alarm  —  an  alarm  indicating  a  trouble
+condition.
+5. 1.23  trouble  condition  —  a  condition  in  which  there
+is a fault in a system, subsystem or component that may
+interfere with proper function.
+6  Fire Risk Assessment
+6. 1  Overview
+6. 1.1    This  section  provides  criteria  for  evaluation  of
+the risks associated with several types of fire hazards.
+6. 1.2  For each identified hazard described in Section 6,
+the  evaluator  should  analyze  the  contributing,  causal,
+and   mitigating   factors.   The   evaluator   should   also
+review  any  assessment  of  the  material,  component,  or
+equipment   as   a   whole   by   an   accredited   testing
+laboratory.
+6. 1.3    The  risk  assessment  should  include  both  normal
+operation  and  the  consequence  of  reasonably  foresee-
+able,  single-point  failures  within  the  equipment.    It
+should  not  include  exposure  to  fire  or  external  ignition
+sources not within the intended use environment.
+6. 1.4  Certifications  by  an  accredited  testing  laboratory
+of  materials,  components,  or  the  equipment  as  a  whole
+may be used in the fire risk assessment. However, such
+certifications   are   valid   only   to   the   extent   that   the
+conditions  of  use  for  the  certification  correlate  to  the
+conditions  of  use  for  the  equipment  whose  fire  risk  is
+being assessed.
+NOTE 9:  For  example,  a  personal  computer  certified  to  IEC
+60950  might  be  incorporated  into  equipment  for  use  as  a
+controller.  The  material  flammability  requirements  of  IEC
+60950  may  or  may  not  be  sufficient  for  this  use  of  the
+personal  computer,  depending  upon  its  exposure  to  oxidizers
+and  external  sources  of  ignition  when  incorporated  into  the
+equipment.      Also,   the   levels   of   smoke   tolerable   in   the
+environment   for   which   a   general   industry   standard   was
+written    may    exceed    those    tolerable    in    semiconductor
+manufacturing  cleanrooms.    Furthermore,  if  the  equipment  is
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 4
+intended to be used in a potentially explosive atmosphere, the
+certification  to  IEC  60950  would  not  sufficiently  control  its
+risk of being a source of ignition.
+6. 1.5    The  consequences  and  the  probability  of  fire
+from  each  identified  hazard  should  be  assessed  and
+rated,  as  described  in  SEMI  S10.  See  Appendix  1  for
+the   criteria   used   for   the   assignments   of   Severity,
+Likelihood and Risk in this document.
+6. 1.5.1      The   assigned   Severity   and   Likelihood   and
+resulting  Risk  category  should  be  recorded  as  part  of
+the analysis.
+6. 1.5.2    For  those  hazards  for  which  the  Risk  depends
+on   the   conditions   of   use   or   use   environment,   the
+equipment  supplier  should  make  and  state  appropriate
+assumptions.    If  the  equipment  supplier  is  unable  to
+make  appropriate  assumptions  as  to  the  Likelihood
+because  it  depends  predominantly  on  factors  in  the
+users'    sole    control    (e.g.,    adherence    to    specified
+procedures),  the  supplier  should  state  that  and  provide
+an estimate of the Severity.
+NOTE 10:  The   facilities   requirements   on   which   the   risk
+assessment  depends  are  to  be  specified  by  the  equipment
+supplier.
+6. 1.6  For fire to occur, there must be a fuel, an oxidizer
+and  a  source  of  ignition.    Elimination  of  any  of  these
+factors   eliminates   the   risk   of   fire.      Similarly,   the
+Severity,  Likelihood  and  Risk  of  a  fire  can  be  reduced
+by    reducing    one    or    more    of    these    elements
+appropriately.
+6. 1.7    It  is  important  to  remember  that  there  are  often
+implicit   oxidizers   (e.g.,   room   air)   and   sources   of
+ignition   (e.g.,   room   temperature   for   a   pyrophoric
+material).
+6. 1.8      The   fire   risk   assessment   should   include   the
+judgement  of  a  qualified  (as  described  in  SEMI  S7)
+party to determine the level of detail of the assessment.
+That  party  may  group  similar  hazards  for  assessment
+and reporting.
+NOTE  11:    Such  grouping  could  include,  for  example,  all  of
+the knobs and buttons of similar materials into one group, the
+heated  surfaces  into  a  second,  and  the  several  flammable
+liquids with similar properties into a third.
+6. 2  Fuels
+6. 2.1      Fuels   include   all   those   materials   capable   of
+reacting with an oxidizer in a fire.  The risks of both the
+materials of which the equipment is constructed and the
+process chemicals used in it should be assessed.
+6. 2.2  Materials of Construction
+6. 2.2.1    The  risk  assessment  should  include  all  of  the
+materials   of   construction,   regardless   of   quantity   or
+application.
+NOTE 12:  This includes small parts,  such as knobs, buttons,
+electrical  contactors,  terminal  strips,  circuit  boards,  signal
+wire and power wiring as well as large components, modules
+(such as mini-environments) and subassemblies.
+NOTE  13:    Some  of  the  smallest  components  can  create  a
+high   risk,   as   in   the   potential   for   ignition   by   adiabatic
+compression  of  fluoropolymer  seats  in  high  pressure  oxygen
+valves.
+NOTE  14:    The  assessment  can  be  simplified  by  grouping
+similar  items  together.  Example  1:  wiring  that  has  the  same
+type  of  insulation.  Example  2:  knobs,  switches,  handles  and
+latches made from similar polymers. Identified groups should
+include their approximate total mass.
+6. 2.2.2      In   assessing   the   risk,   the   evaluator   should
+consider:
+• the size of each component,
+• the   total   quantity   and   distribution   of   similar
+components,
+• the  inherent  properties  of  the  material,  such  as
+ignitability,  flame  spread,  heat  of  combustion,  and
+byproducts   (See   Appendix   2   for   guidance   on
+evaluation of these properties.),
+• the exposure to oxidizers, and
+• the exposure to ignition sources.
+NOTE  15:    The  specification  control  of  materials  used  in
+approved  electrical  components  should  also  be  considered.
+Approvals may allow for substitution of many materials with
+equivalent flammability ratings.
+NOTE 16:  The  inherent  properties  of  materials  affect  two
+types  of  risk  within  the  equipment:  flame  spread  risk  and
+contamination  risk  (i.e.,  smoke  damage  from  combustion
+byproducts).    In    the    case    of    electrical    and    electronic
+components   used   in   assemblies   and   equipment   that   are
+constructed and used in accordance with applicable standards
+(e.g.,  IEC  61010-1,  IEC  60204-1),  flame  spread  risk  may  be
+adequately    controlled    by    the    standard,    and    detailed
+assessment of the material properties of such components that
+affect  flame  spread  may  not  be  warranted.    However,  a
+significant   contamination   risk   could   still   remain   (e.g.,   a
+standard may allow a component mounted on a printed circuit
+board to fail and burn, as long as the burning remains local to
+the printed circuit board) and warrant a detailed assessment of
+related  material  properties  of  the  components.  The  level  of
+detail   of   the   assessment   may   also   be   affected   by   the
+mitigation method chosen (see Section 7).
+6. 2.3  Process Chemicals
+6. 2.3.1      This   portion   of   the   risk   assessment   should
+include all of the process chemicals expected (based on
+the   equipment   supplier's   recommended   or   baseline
+processes)  to  be  used  in  the  equipment.    It  should  also
+include flammable and combustible wastes generated or
+collected   within   the   equipment   and   fluids   in   the
+equipment  which  are  required  for  its  operation  but
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 5
+which do not participate chemically in the process (e.g.,
+vacuum pump oil).
+6. 2.3.2      In   assessing   the   risk,   the   evaluator   should
+consider:
+• the  quantity,  concentration,  state,  temperature,  and
+pressure of each chemical in each container,
+• for  those  chemicals  supplied  automatically  by  the
+facility,   the   available   flow,   pressure,   and   total
+quantity,
+• the  aggregate  supplies  and  distribution  of  similar
+chemicals,
+• the  inherent  properties  of  the  chemicals,  such  as
+flammable     limits,     flash     point,     autoignition
+temperature,  heat  of  combustion,  and  the  products
+of combustion and decomposition (see the Material
+Safety  Data  Sheets  for  guidance  on  evaluation  of
+these properties),
+• the exposure to oxidizers, and
+• the exposure to ignition sources.
+NOTE 17:  Chemicals  with  similar  fire  properties  may  be
+considered together for the purpose of this assessment.
+6. 3  Sources of Ignition
+6. 3.1    Sources  of  ignition  can  be  broadly  divided  into
+those within the equipment and those external to it.
+6. 3.2  Internal Sources
+6. 3.2.1  Potential electrical ignition sources:
+• devices  or  conditions  that  in  normal  operation  can
+generate   ignition   energy   (e.g.,   heaters,   static
+electricity, lasers);
+• devices or conditions that in reasonably foreseeable
+assembly, use and/or wear conditions can generate
+ignition  energy  (e.g.,  power  connectors,  terminal
+strips);
+• devices  that  in  reasonably  foreseeable  single  point
+failure  modes  can  generate  ignition  energy  (e.g.,
+transformers, electronic components); and
+• short circuits.
+6. 3.2.2  Potential chemical ignition sources:
+• exothermic process chemical reactions,
+• exothermic  reactions  from  inadvertent  mixing  of
+process chemicals,
+• exothermic  reactions  between  process  chemicals
+and materials of construction, and
+• release   of   pyrophoric   or   air-reactive   chemicals
+from processing or maintenance.
+6. 3.2.3  Sudden changes in process conditions:
+• rapid  (sometimes  called  “adiabatic”)  compression
+of gas mixtures, and
+• rapid increases in temperature.
+6. 3.2.4  Mechanical friction
+6. 3.3  External Sources
+6. 3.3.1  External sources include expected and foreseen
+conditions of the equipment’s use.  As these are factors
+normally outside the control of the equipment supplier,
+their  risks  are  difficult  to  assess.    They  are  outside  the
+scope of this document.
+6. 4  Oxidizers
+6. 4.1      The   most   common   oxidizer   is   air,   which   is
+present    within    and    around    most    semiconductor
+manufacturing  equipment.    Unless  specific  measures
+are  taken  to  exclude  air  (e.g.,  inert  pressurizing  of  an
+electrical   enclosure),   it   should   be   assumed   to   be
+available in infinite supply.
+6. 4.2    It  is  possible  that  some  materials  of  construction
+will   act   as   oxidizers   or   will   yield   oxidizers   when
+subjected to heat.
+6. 4.3  Several common process chemicals (e.g., oxygen
+and  hydrogen  peroxide)  are  oxidizers.    Their  risks
+should be assessed in a manner similar to that described
+above for process chemicals that are fuels.
+6. 5  Reporting
+6. 5.1    Although  these  guidelines  are  intended  for  use
+throughout  the  design  and  development  process,  it  is
+not  the  intent  of  these  guidelines  that  the  equipment
+supplier  should  make  all  of  the  information  recorded
+during  the  development  of  the  equipment  available  to
+others.    The  equipment  supplier  should  document  the
+fire  risk  assessment  and  mitigation  in  three  forms:
+internal records, a final fire risk assessment report, and
+a summary report.
+6. 5.2        Relevant    analyses,    assessments,    and    design
+decisions   should   be   documented   in   the   equipment
+supplier's  internal  records.    These  records  need  not,
+however, be made available to other parties.
+6. 5.3  Final Fire Risk Assessment Report
+6. 5.3.1    This  report  should  contain  an  itemized  list  of
+the   residual   risks   identified   in   reviewing   the   final
+design, considering the risks described in the preceding
+subsections  or  otherwise  known  or  foreseen  by  the
+evaluator.    Only  those  risks  meeting  the  criteria  in
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 6
+Appendix  1  should  be  included.    For  each  identified
+residual risk, the report should:
+• explain the mechanism of loss or damage;
+• identify   aggravating   or   necessary   contributing
+factors;
+• identify the mitigating factors;
+• state the assigned Severity for each type of loss and
+present  the  rationale  for  its  assignment.    A  “type”
+is   a   column   in   Table   A1-1,   e.g.,   “Equipment
+Physical Damage”;
+• state   the   assigned   Likelihood   and   present   the
+rationale for its assignment; and
+• state the resulting Risk category.
+NOTE  18:    Criteria  for  risks  may  be  found  in  Appendix  1,
+Sections A1-2.5 through A1-2.8.
+6. 5.3.2    This  report  should  also  describe  the  fire  risk
+mitigation techniques included in the equipment design.
+6. 5.3.3    The  final  fire  risk  assessment  report  should  be
+prepared or reviewed by a party qualified, as described
+in SEMI S7, to do such work.
+NOTE  19:    This  party  may  be  an  employee  of  the  equipment
+supplier or may be a third party.
+6. 5.3.4    When  this  guideline  is  being  used  as  part  of  a
+SEMI   S2   equipment   evaluation,   the   manufacturer
+should  make  the  final  fire  risk  assessment  report  avail-
+able to the party performing the SEMI S2 evaluation.
+6. 5.3.5  The equipment supplier may make the final fire
+risk assessment report available to other parties.
+6. 5.4  Summary Report
+6. 5.4.1    The  summary  report  should  be  prepared  from
+the final fire risk assessment report and contain:
+• a list of the residual fire risks and their ratings, and
+• brief   descriptions   of   the   fire   risk   mitigation
+techniques included in the equipment.
+6. 5.4.2      The   equipment   supplier   should   provide   the
+summary  report  to  users  of  the  equipment  and  may
+provide it to other parties.
+7  Fire Risk Mitigation
+7. 1  Overview
+7. 1.1        This    section    describes    several    means    of
+mitigating the risks of fire.  It describes ways in which
+the equipment and its use can be designed to minimize
+the risks.
+NOTE  20:    The  description  of  a  mitigation  technique  in  this
+section is not intended to imply that such technique should be
+used  for  each  system.    Therefore,  the  decision  to  include  a
+particular   mitigation   technique   should   be   based   on   the
+assessed risk.
+NOTE 21:  Fire  detection  and suppression  are  also  means  of
+mitigating   fire   risk.   The   criteria   for   fire   detection   and
+suppression systems are in SEMI S2.
+7. 1.2      In   mitigating   risks,   the   general   hierarchy   of
+elimination,     engineering     controls,     administrative
+controls,   warning   and   work   practices   should   be
+followed.    Following  this  hierarchy  comprises  using
+techniques  which  are  highest  in  it  if  several  techniques
+are  equally  applicable.    Design  and  use  constraints,  as
+well   as   relative   cost,   however,   may   justify   using
+techniques from generally less preferable categories.  In
+any  case,  the  residual  risk  should  be  assessed  and
+reported.
+7. 2  Fuels
+7. 2.1  Materials of Construction
+7. 2.1.1  The lowest fire risk is posed by noncombustible
+materials  of  construction.    Available  noncombustible
+materials  are  not,  however,  suitable  or  desirable  for  all
+applications     within     semiconductor     manufacturing
+equipment.
+NOTE  22:    The  properties  necessary  to  perform  the  intended
+function  of  system  components  and  the  properties  necessary
+to satisfy component-level standards may also restrict the use
+of noncombustible materials.
+7. 2.1.2      When   materials   which   are   combustible   are
+chosen, the fire risk may be mitigated by:
+• selecting  those  materials  with  the  least  undesirable
+properties as described above; and
+• minimizing  the  total  mass  and  distribution  of  such
+materials.
+7. 2.2  Process Chemicals
+7. 2.2.1    It  may  be  possible  to  reduce  the  fire  risk  by
+changing  the  quantities  and  species  of  the  chemicals
+used in the intended processes.
+7. 2.3      The   fire   risks   of   combustible   materials   of
+construction  and  flammable  and  combustible  process
+chemicals may also be reduced by limiting those factors
+described in Section 6.
+7. 3  Sources of Ignition
+7. 3.1  Potential sources of ignition should be considered
+in  conjunction  with  the  fuels  and  oxidizers  they  might
+ignite.
+7. 3.2  Risks due to sources of ignition can be mitigated
+by:
+• limiting their number,
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 7
+• limiting their energy, and
+• separating   them   from   combustible   materials   of
+construction  and  from  flammable  and  combustible
+process chemicals.  Separation may be by distance
+or by barriers.
+7. 3.3    Equipment  in  which  flammable  liquids  or  gases
+are  used  should  be  assessed  to  determine  if  additional
+precautions  (e.g.,  purging)  in  the  electrical  design  are
+necessary.
+NOTE   23:      NFPA   497   and   EN   1127-1   are   among   the
+documents that provide methods for making this assessment.
+7. 4  Oxidizers
+7. 4.1  Reducing the quantities or pressures of oxidizing
+process chemicals may reduce the fire risk.
+7. 4.2  The fire risks of oxidizing process chemicals may
+also  be  reduced  by  limiting  those  factors  described  in
+Section 6.
+7. 5  Exhaust, Enclosures and Barriers
+7. 5.1      Mechanical   exhaust   may   reduce   the   risk   of
+damage   to   the   facility,   other   equipment,   or   other
+portions  of  the  same  equipment  by  limiting  the  spread
+of    combustion    and    decomposition    products.    The
+mechanical    exhaust    could    be    provided    by    the
+equipment or by the facility.
+7. 5.2    Enclosures  and  barriers  within  the  equipment
+may  reduce  the  fire  risk  by  separating  the  fuels  and
+oxidizers from each other and from potential sources of
+ignition.
+7. 5.3    These  design  features  may  also  limit  the  spread
+of  fire,  reducing  both  the  loss  of  equipment  and  the
+emission of combustion and decomposition products.
+8  Related Documents
+8. 1  SEMI Standard
+SEMI   S11   —   Environmental,   Safety,   and   Health
+Guidelines  for  Semiconductor  Manufacturing  Equip-
+ment Minienvironments
+8. 2  NFPA Documents
+National  Fire  Protection  Association:  NFPA  70  —
+National Electric Code (NEC)
+National  Fire  Protection  Association:  NFPA  318  —
+Standard for Protection of Cleanrooms
+National  Fire  Protection  Association:  NFPA  496  —
+Standard  for Purged  and  Pressurized  Enclosures  for
+Electrical Equipment
+National  Fire  Protection  Association:  NFPA  497  —
+Recommended    Practice    for    the    Classification    of
+Flammable    Liquids,    Gases,    or    Vapors    and    of
+Hazardous    (Classified)    Locations    for    Electrical
+Installations in Chemical Process Areas
+8. 3  CEN/CENELEC Standards
+4
+
+EN   1127-1   —   Explosive   Atmosphere   –   Explosion
+prevention  and  protection  –  Part  1  Basic  concepts  and
+methodology
+8. 4  Other Documents
+Building  Officials  and  Code  Administrators  (BOCA)
+5
+,
+NBC: National Building Code
+Factory Mutual System Data Sheet 7-7
+6
+, Semiconductor
+Fabrication Facilities
+International Conference of Building Officials (ICBO)
+7
+,
+UBC: Uniform Building Code
+International  Fire  Code  Institute
+8
+,  UFC:  Uniform  Fire
+Code
+International    SEMATECH
+9
+,    Process    Compatibility
+Parameters     for     Wet     Bench     Plastic     Materials
+(Technology Transfer # 98123623A)
+Southern    Building    Code    Congress    International
+(SBCCI)
+10
+, SBC: Standard Building: Code
+
+
+4 European Committee for Standardization (CEN)/European
+Committee for Electrotechnical Standardization (CENELEC), Central
+Secretariat: rue de Stassart 35, B-1050 Brussels Belgium
+5 Building Officials & Code Administrators International, Inc., 4051
+West Flossmoor Road, Country Club Hills, IL 60477
+6 Factory Mutual, 1301 Atwood Ave. P.O. Box 7500 Johnston R.I.
+02919, website: www.fmglobal.com
+7 ICBO, 5360 South Workman Mill Rd., Whittier, CA  90601
+8  International  Fire  Code  Institute,  5360  South  Workman  Mill  Rd.,
+Whittier, CA  90601
+9   SEMATECH,   2706   Montopolis   Drive,   Austin,   TX,   website:
+www.sematech.org
+10 SBCCI, 900 Montclair Rd, Birmingham, AL  35213-1206
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 8
+APPENDIX 1
+RISK ASSESSMENT CRITERIA
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  S14  and  was  approved  by  full  letter  ballot  procedures  on
+September 3, 1999 by the North American Regional Standards Committee.
+A1-1  The risk assessment should be performed for each identified fire hazard using the method provided in SEMI
+S10 and the following definitions of Likelihood and Severity Groupings and Risk Categories.
+NOTE  A1-1:    Unlike  SEMI  S10,  in  which  the  tables  are  provided  only  as  examples,  this  document  defines  the  Severity,
+Likelihood, and Risk to be used herein.
+A1-2  Severity
+A1-2.1  The Severity Groupings are given in Table A1-1.
+Table A1-1 Severity Groupings
+
+Severity Group
+
+Equipment Physical
+Damage
+
+Equipment Loss
+of Use
+Facility Loss of
+Use (Minimum
+Times)
+
+Environmental and Real Property
+Contamination
+1 Catastrophic Loss of entire piece of
+equipment
+One year One week Lasting facility or environmental
+impact
+2 Severe Loss of major
+subsystem
+One month One day Temporary facility or environmental
+impact
+3 Moderate Loss of minor
+subsystem
+One week One shift Limited to the equipment, but
+requiring more than routine cleanup
+4 Minor Non-serious
+equipment loss
+One day Less than one
+shift
+Requiring routine cleanup but not
+external reporting
+
+A1-2.2  The Severity should be assigned for each of the columns for which information is available.
+A1-2.3  The most severe Group assigned should be used in determining the risk.
+A1-2.4  Each of the Severities should be reported.
+A1-2.5    Contamination  is  by  release  of  materials  that  were  used  in  the  equipment  or  by  combustion  or  thermal
+degradation byproducts.
+A1-2.6  To be included in the assessment, a foreseen occurrence must be unplanned and include a loss.
+A1-2.7  Losses exclude the performance of the design function of protective devices, such as fuses.
+A1-2.8  The scope of the assessment in this document is limited to the consequences of fire.
+A1-2.9  The Equipment Loss of Use time is the downtime, as defined in SEMI E10, resulting from the fire incident.
+A1-3  Likelihood
+A1-3.1  The Likelihood Groupings are given in Table A1-2.
+Table A1-2 Likelihood Groupings
+Likelihood Group Expected Frequency (% of Systems per Year)
+A Frequent More than 1%
+B Likely More than 0.2% but not more than 1%
+C Possible More than 0.04%, but not more than 0.2%
+D Rare More than 0.02%, but not more than 0.04%
+E Unlikely Not more than 0.02%
+
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 9
+A1-3.2  “System” refers to the equipment as configured and offered by the supplier.
+A1-4  Risk
+A1-4.1  The Risk should be calculated based on the Severity and Likelihood assigned above and the Risk Categories
+defined in Table A1-3.
+Table A1-3 Risk Categories
+Likelihood
+Severity                    A                    B                    C                    D                    E
+1                          Critical                          Critical                          High                          Medium                          Low
+2                          Critical                          High                          Medium                          Low                          Low
+3                     High                     Medium                     Low                     Low                     Slight
+4                          Medium                          Low                          Low                          Slight                          Slight
+
+A1-4.2    The  Risks  are  to  be  reported  in  total  for  the  equipment  as  offered  for  sale.  (e.g.,  if  the  equipment  being
+evaluated  is  a  cluster  tool,  the  risks  should  be  reported  by  the  system  integrator  for  the  assembled  tool,  not  the
+individual modules.)
+NOTE  A1-2:    Although  the  risks  for  cluster  tools  should  be  reported  for  the  assembled  tool,  the  modules  are  not  necessarily
+contiguous and this may bear on the risk.
+NOTE  A1-3:    The  Risks  of  components  or  subsystems  may  be  increased  or  decreased  by  their  integration  into  the  equipment
+being assessed.
+
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 10
+APPENDIX 2
+ASSESSMENT OF THE FIRE PROPERTIES OF MATERIALS
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  S14  and  was  approved  by  full  letter  ballot  procedures  on
+September 3, 1999 by the
+North American Regional Standards Committee.
+A2-1    This  Appendix  describes  the  qualitative  criteria
+for  evaluating  some  of  the  relevant  fire  properties  of
+materials.      It   also   provides   references   to   several
+standards  which  may  be  used  in  these  evaluations.
+Each  of  the  standards  listed  defines  test  methods  and
+provides quantitative criteria for consideration.
+A2-2  Preferable Materials:
+A2-2.1  Require higher heat fluxes to be ignited.
+A2-2.2    Once  ignited  may  burn  locally  in  the  ignition
+area,  but  they  will  not  propagate  a  fire  beyond  the
+ignition zone.
+A2-2.3      Generate   lower   quantities   of   smoke   and
+corrosive  products  or  generate  smoke  and  corrosive
+products that are less damaging.
+A2-3      The   following   standards   provide   means   of
+assessing the fire properties of materials.  Each of these
+standards  specifies  the  types  of  materials  and  uses  of
+materials to which it applies and the fire properties that
+its  application  assesses.    Therefore,  each  must  not  be
+used  outside  of  the  scope  for  which  it  was  written.    It
+may   be   appropriate   to   use   different   standards   for
+assessing the materials used in different components in
+the equipment.
+NOTE   A2-1:      There   are   many   other   standard   methods
+available for characterizing the fire properties of materials and
+it  is  not  the  intent  of  the  document  to  exclude  methods  other
+than  those  listed  here,  as  long  as  the  methods  are  applied
+appropriately.
+A2-3.1  Factory Mutual Research Corp.
+
+Standard 4910,
+Clean Room Materials Flammability Test Protocol
+A2-3.2  Underwriters Laboratory Standard 94, Tests for
+Flammability  of  Plastic  Materials  for  Parts  in  Devices
+and Appliances
+A2-3.3      Underwriters   Laboratories   Standard   746A,
+Polymeric Materials - Short Term Property Evaluations
+A2-3.4      Underwriters   Laboratories   Standard   746B,
+Polymeric Materials - Long Term Property Evaluations
+A2-3.5      Underwriters   Laboratories   Standard   746C,
+Polymeric  Materials  -  Use  in  Electrical  Equipment
+Evaluations
+A2-3.6      Underwriters   Laboratories   Standard   900,
+Standard for Safety for Air Filter Units
+A2-3.7      Underwriters   Laboratories   Standard   2360,
+Standard   for   Test   Methods   for   Determining   the
+Combustability   Characteristics   of   Plastics   Used   in
+Semiconductor Tool Construction
+NOTE  A2-2:    Although  the  list  includes,  for  some  materials,
+more than one document that could be applied, the intent is to
+provide  alternatives,  not  to  suggest  that  testing  to  more  than
+one standard be performed.
+
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  guideline  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the guideline is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting    any    materials    mentioned    herein.    This
+guideline is subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  guideline  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  guideline,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this guideline. Users of this guideline
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 11
+RELATED INFORMATION 1
+TEST PROTOCOL FOR WET BENCH MATERIALS PROCESS
+COMPATIBILITY
+NOTICE:  This  related  information  is  not  an  official  part  of  SEMI  S14  and  is  not  intended  to  modify  or  supersede  the  official
+guideline. It has been derived from the cited work. Publication is authorized by vote of the responsible committee. Determination
+of the suitability of this material is solely the responsibility of the user.
+R1-1  SEMATECH has published the results of a study
+on   testing   of   polymeric   materials   for   use   in   wet
+benches.    The  Abstract  and  citation  are  provided  as
+Related  Information  1  to  SEMI  S14,  Safety  Guidelines
+for    Fire    Risk    Assessment    and    Mitigation    for
+Semiconductor    Manufacturing    Equipment    as    the
+responsible  committee  believes  the  information  in  this
+document  may  be  of  use  in  identifying  materials  that
+are   appropriate   for   the   described   applications   and
+consistent with appropriate management of fire risks.
+R1-2      The   report,   SEMATECH   Document   ID   #:
+98123623A-ENG,     entitled     Process     Compatibility
+Parameters   for   Wet   Bench   Plastic   Materials,   was
+written  by  Archibald  Tewarson,  Avtar  S.  Jassal,  Latif
+Ahmed,   and   Mark   Camenzind   and   published   30
+December 1998.
+R1-3      SEMATECH   retains   the   copyright   to   the
+document, but has granted SEMI permission to include
+the  Abstract  and  citation  in  this  Safety  Guideline.    The
+complete   document   (90   pages)   is   available   from
+SEMATECH's web site:
+http://www.sematech.org/public/docubase/abstract/tech
+-5.htm.
+R1-4  Abstract
+R1-4.1  This report presents a test protocol of accepted
+analytical    procedures    to    determine    the    process
+compatibility parameters for commonly used wet bench
+plastic  materials  (PP,  FRPP,  and  PVC)  and  proposed
+plastic materials (CPVC, ECTFE, and PVDF) that may
+be  used  for  wet  bench  construction.  Three  industry
+standard   test   methods   were   used   to   determine   the
+outgassing, leaching, and extraction parameters, defined
+in combination as the process compatibility parameters.
+To  supplement  them,  the  presence  of  critical  elements
+at  the  surface  of  the  materials  and  the  condition  of  the
+surface  were  examined  before  and  after  exposure  to
+water  and  chemicals.  Changes  in  the  mass  of  plastic
+materials   as   a   result   of   outgassing,   leaching,   and
+extraction were also used to supplement the parameters.
+The  report  includes  details  of  the  test  procedures,  data
+analysis,  surface  topography  of  the  plastic  materials,
+before  and  after  exposure  to  water  and  chemicals,  and
+discussion of the results.
+
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 12
+RELATED INFORMATION 2
+SMOKE MANAGEMENT IN CLEANROOMS
+NOTICE:  This related information is not an official part of SEMI S14 and was derived from the work of a member
+of  the  Fire  Protection  Task  Force  of  the  North  American  Environmental,  Health,  and  Safety  Committee.    This
+related information was approved for publication by 2/3 committee vote on July 17, 2003.
+R2-1  Introduction
+R2-1.1  Semiconductor   cleanrooms   are   operationally
+sensitive  to  products  of  a  fire.    A  fire  will  result  in
+smoke   and   corrosive   particle   contamination   to   the
+cleanroom, process equipment, and work in process.  A
+properly   designed,   installed,   and   maintained   smoke
+detection    and    control    system    will    not    prevent
+contamination,    but    will    limit    the    spread    and
+concentration  of  the  contaminant.    The  basis  of  the
+smoke control system design should be aligned with the
+organization’s risk management objectives.
+R2-1.2      This   Related   Information   deals   with   smoke
+management  systems  for  cleanrooms  themselves,  not
+for equipment.  Smoke removal from a cleanroom may
+be  performed  by  ventilation  systems  that  are  in  place
+for  other  purposes  (e.g.,  process  exhaust  systems  of
+equipment)  or  by  equipment  designed  and  installed
+specifically  to  remove  smoke  from  the  room.    These
+may both be parts of the protection for a cleanroom and
+may differ in how they are activated.
+R2-2  Actuation
+R2-2.1  Automatic actuation of dedicated smoke control
+systems  is  preferable;  however,  many  facilities  prefer
+manual activation.  If the system is manually activated,
+the following should be done.
+R2-2.1.1      The   smoke   detection   system   should   be
+monitored by qualified personnel 24 hours per day.
+R2-2.1.2    Emergency  response  teams  (ERT)  or  other
+personnel   authorized   to   actuate   the   manual   smoke
+control    system    should    be    capable    of    prompt
+notification.
+R2-2.1.3              Detailed       smoke       control       emergency
+procedures should be documented and practiced.  These
+procedures  can  include  hazardous  gas  shutdowns  and
+shutdowns  of  appropriate  air  recirculation  fans  as  well
+as activating the smoke control exhaust fans.
+R2-2.2    A  secondary  means  of  manual  actuation  of  the
+smoke/contaminant  control  system  should  be  provided
+in  a  clearly  marked  and  accessible  area  outside  the
+cleanroom.
+R2-3  Capacity
+R2-3.1    The  smoke  control  system  capacity  needed  is
+directly  related  to  the  design  fire  size  which  depends
+upon the type, amount and arrangement of combustible
+materials  in  the  cleanroom.    In  order  to  achieve  a
+system  that  is  economically  feasible,  the  maximum
+design  fire  size  should  be  limited  to  the  fire  size  at
+sprinkler    operation.        For    a    typical    cleanroom
+configuration,  the  fire  size  at  sprinkler  operation  is  in
+the range of 600 to 800 kilowatts.
+R2-3.2        Smoke    removal    system    capacity    can    be
+designed based on an integrated system approach.  The
+total  capacity  can  include  the  fume  exhaust  system
+capacity and dedicated smoke removal system capacity.
+R2-4  Design Considerations
+R2-4.1    When  the  fume  exhaust  system  is  used  for
+smoke removal, the following design parameters should
+be followed.
+R2-4.1.1  The fume exhaust system ductwork should be
+of    non-combustible    construction    or    should    be
+listed/approved  for  smoke  removal  and  not  incorporate
+the use of fire dampers or interrupters.
+R2-4.1.2    It  should  be  confirmed  that  sufficient  fume
+exhaust system intake points exist throughout the clean
+room.      If   not,   additional   intake   points   should   be
+provided  and  incorporate  the  use  of  normally  closed
+dampers.    These  dampers  should  be  opened  either
+automatically   by   activation   of   the   smoke   detection
+system or by manual means.
+R2-4.1.3    When  the  fume  exhaust  system  is  used  for
+smoke  removal,  it  can  incorporate  the  use  of  variable
+speed  fan(s).    During  the  smoke  removal  mode,  fire
+dampers  on  supplemental  intake  points  will  open  and
+the  fan  speed  will  be  increased.    The  design  capture
+velocity at the tool(s) could be affected, and this should
+be  reviewed.    Necessary  balancing  changes  should  be
+made    to    ensure    the    design    capture    velocity    is
+maintained.
+R2-4.2  The ventilation system make-up air fans should
+be   sized   such   that   under   full   smoke   and   process
+exhaust,   the   fabrication   area   maintains   a   positive
+pressure relative the adjacent areas.
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 13
+R2-4.3      Smoke   removal   system   intake   locations   are
+dependent   on   the   fabrication   area   design.      Design
+alternatives  should  be  addressed  with  a  competent  fire
+protection  engineering  design  firm.  For  example,  for
+open   manufacturing   areas,   smoke   removal   system
+intake   sequencing   should   be   designed   such   that
+individual    zones    can    be    activated    to    prevent
+contaminant  migration  to  adjacent  clean  areas  of  the
+fab. From a smoke removal perspective, ducted returns
+are    a    better    option    than    open    attic    plenum
+configurations.
+R2-5  Testing
+R2-5.1    The  smoke/contaminant  control  system  should
+have a functional test done annually of all detection and
+control  systems  including  system  dampers  and  fans.
+The  system  should  be  designed  so  that  operational  and
+functional  testing  can  be  done  without  interruption  to
+the normal clean room air handling.
+R2-5.2  The smoke/contaminant control system for new
+semiconductor  facilities  should  be  fully  tested  during
+mechanical  system  tests  done  near  the  end  of  the
+construction   process.      Testing   should   consist   of   a
+complete   functional   test   of   detection   and   control
+systems, plus activation of smoke/contaminant removal
+fan  and  damper  systems.    The  performance  of  the
+smoke/contaminant  removal  system  should  be  verified
+using  either  sulfur  hexafluoride  (SF
+6
+)  or  another  tracer
+gas method.
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 14
+RELATED INFORMATION 3
+ADDITIONAL CONSIDERATIONS FOR FIRE SUPPRESSION SYSTEMS
+NOTICE:  This related information is not an official part of SEMI S14 and was derived from the work of a member
+of  the  Fire  Protection  Task  Force  of  the  North  American  Environmental,  Health,  and  Safety  Committee.    This
+related information was approved for publication by 2/3 committee vote on July 17, 2003.
+R3-1  Introduction
+R3-1.1              Preventing       discharges       from       occurring
+accidentally and ensuring that systems are able to fulfill
+their intended function requires attention to detail from
+the   specification   of   the   system,   through   design,
+installation  and  commissioning  and  then  through  on-
+going maintenance.
+R3-1.2    The  following  information  is  intended  to  assist
+stakeholders   involved   in   the   process   of   designing,
+installing,     and     maintaining     fire     protection     of
+semiconductor   manufacturing   equipment.      Further
+information   can   be   found   in   the   appropriate   fire
+protection codes and standards applicable to the type of
+fire protection system and in related documents.
+NOTE   R3-1:   The   term   “fire   suppression”   is   limited   to
+extinguishing   fire,   once   it   has   begun.      The   term   “fire
+protection”  incorporates  fire  suppression  and  other  means  of
+mitigating   the   risk   of   fires,   including   fire   detection   and
+materials selection.
+R3-1.3  The use of contractors with previous experience
+in  the  design  and  installation  of  fire  protection  of
+cleanrooms      and      semiconductor      manufacturing
+equipment is desirable.
+R3-1.4        Independent    third    party    review    of    fire
+protection designs and installations by a fire protection
+engineer  with  relevant  experience  can  also  help  to
+ensure that systems are correctly designed and installed.
+NOTE  R3-2:  The  material  in  this  Related  Information  is
+presented  as  additional  guidance  in  designing,  installing,  and
+maintaining    fire    protection    systems    in    semiconductor
+manufacturing   equipment.      Although   this   information   is
+believed to be useful in optimizing such systems, the material
+in  this  Related  Information  does  not  comprise  additional
+criteria  for  determining  conformance  to  the  provisions  of
+SEMI S2 or SEMI S14.
+R3-2  Design Review
+R3-2.1    Ensure  that  system  proposed  uses  approved  or
+listed  components  and  that  they  are  used  within  their
+listing  or  approval,  e.g.,  FM  Approved  wet  bench  fire
+suppression systems should be used for open faced wet
+bench  whereas  an  enclosed  tool  can  use  a  system
+comprising of FM approved & compatible components.
+R3-2.2      Detection   needs   to   be   selected   to   suit   the
+working environment and the type of fire/smoke that is
+anticipated.    For  example,  optical  detectors  need  to
+have   been   tested   and   approved/listed   for   use   with
+specific flammable liquids or gases. Flames and smoke
+from    burning    materials    have    varying    physical
+characteristics which mean that some detection devices
+will not always react promptly.
+R3-2.3    The  location  of  detection  devices  in  relation  to
+hazards  needs  to  be  carefully  considered.    A  detector
+that  is  located  too  close  to  a  heat  source  may  activate
+when  it  sees  normal  process  conditions  rather  than  fire
+conditions.
+R3-2.4  Some optical detectors may also be susceptible
+to  accidental  activation  if  they  are  exposed  to  welding
+flashes.    Care  in  detector  selection  can  avoid  this,  but
+implementing   strict   cutting   and   welding   working
+practices  and  permissions  can  also  play  an  important
+part.
+R3-3  Installation Review
+R3-3.1  Once completed by the fire protection installer,
+the  fire  protection  installation  should  be  inspected  and
+reviewed    by    a    competent    and    experienced    fire
+protection engineer.  This review will:
+R3-3.1.1  Verify installation against previously working
+drawings.
+R3-3.1.2      Ensure   that   specified   equipment   has   been
+installed  as  indicated  on  the  working  drawings  and  in
+line with equipment approvals and listings.
+R3-3.2      Distribution   pipework   networks   should   be
+complete     (including     all     connections),     properly
+supported    using    listed    and    approved    equipment.
+Frequent   failures   of   piped   systems,   including   CO
+2
+
+systems,  occur  due  to  incorrectly  connected  pipes  or
+where   fittings   have   not   been   made   or   sufficiently
+tightened.
+R3-3.3      Supports   for   pipework   should   be   able   to
+withstand  the  expected  forces  that  will  be  experienced
+during  discharge  of  the  suppression  system.    This  is
+important   to   protect   personnel   and   property   from
+moving  pipes  in  high-pressure  systems  using  agents
+such as carbon dioxide.
+R3-3.4      Detection   systems   should   have   components
+installed  as  per  reviewed  drawings,  however  it  is  not
+always   possible   during   desktop   drawing   review   to
+identify  that  detectors  are  correctly  sited.    As  a  result
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 15
+the  field  review  should  concentrate  on  ensuring  that
+components are located so that they can see the hazard
+without   obstruction,   including   clear   vision   panels,
+which may prevent detector from “seeing” the flame.
+R3-3.5  Similarly detectors need to be sited so that they
+will   not   experience   normal   process   temperatures,
+radiation  or  be  exposed  to  chemical,  liquid  or  particles
+that could result in an accidental activation.
+R3-3.6    Where  linear  heat  detection  cable  is  used  it
+should be located where it will not be exposed to levels
+of ambient or process related heat that could trigger an
+alarm  signal.    In  addition  the  cable  should  be  securely
+attached   to   prevent   it   dislodging   and   coming   into
+contact with hot surfaces.
+R3-3.7    Nozzle  locations  in  many  suppression  systems
+can  be  critical  to  ensuring  functionality,  reliability  and
+safety.        For    example,    CO
+2
+nozzles    incorrectly
+positioned    can    result    in    chemical    splashing    or
+dislodging   product   or   quartzware.      If   nozzles   are
+exposed    to    chemical    action    including    corrosive
+chemicals, it is important that the materials are resistant
+to the chemical
+R3-3.8    Where  automatic  sprinkler  heads  are  used,  the
+fusible   link   should   be   adequately   protected   from
+chemical and mechanical attack.
+R3-4  Commissioning Tests
+R3-4.1      All   installations   should   undergo   a   thorough
+commissioning  and  acceptance  test  conducted  by  the
+installer   and   witnessed   by   the   owner   or   owner’s
+representative.
+R3-4.2  Functional Tests are essential, but not sufficient
+to  ensure  that  system  will  operate  as  in  tended.    The
+types  of  problems  that  can  be  picked  up  by  functional
+testing are:
+R3-4.2.1      Inability   of   detection   system   to   detect   as
+intended,
+R3-4.2.2  Inability of  control  system  to  receive  signal
+from individual detectors, and
+R3-4.2.3    Inability  of  alarm  panel  to  initiate  system
+discharge  or  send  alarm  signals  to  connected  devices
+and safety systems, e.g.,
+• local or remote alarm panels,
+• sounders & warning devices, and
+• interlocks   to   equipment   shutdown   and   safety
+systems, EMO.
+R3-4.3    Discharge  Testing  is  the  only  way  that  we  can
+ensure   that   that   a   system   will   fulfill   its   intended
+function.  The  types  of  problems  that  can  be  picked  up
+by discharge testing are:
+R3-4.3.1  Lack of extinguishing agent
+R3-4.3.2  Inability to  transfer  agent  from  supply  to
+nozzles due to:
+• Blockages arising from incorrect equipment,
+• Incomplete piping, loose fittings & supports, and
+• Installation, design problems (e.g,. icing up of CO
+2
+
+pipes or nozzles).
+R3-4.4      In   many   cases   discharge   testing   within   the
+cleanroom environment is not considered acceptable or
+practical.  Accordingly, alternatives such as type testing
+can  prove  that  the  design  will  provide  the  necessary
+protection, but may need to be supplemented by a more
+rigorous  commissioning  test  of  the  final  systems.  Type
+testing  would  involve  the  installation  and  discharge
+testing of a system on a tool during manufacture or on a
+mock  up  of  the  tool.    The  aim  would  be  to  prove  that
+distribution  pipework  and  nozzles  have  been  correctly
+designed   and   that   the   concentration   of   agents   and
+distribution  patterns  from  nozzles  is  acceptable.      This
+would  be  supplemented  by  additional  tests  on  each
+installation,  including  pressure  tests  of  pipework  and
+“puff” tests to verify pipework integrity.
+R3-5  Burn In
+R3-5.1    In  order  to  avoid  unnecessary  discharges,  a
+period  of  burn-in  for  the  detection  system  is  advisable.
+This  involves  the  detection  system  operating,  enabling
+detection  of  fires  and  initiation  of  alarms,  but  the
+detection  is  not  interlocked  to  shut  down  the  process
+equipment or initiate a discharge.
+R3-5.2    A  period  of  days  or  weeks  may  be  appropriate
+depending  on  the  effect  of  an  accidental  activation  of
+the   system   in   terms   of   interruption   to   processing,
+damage     to     product     or     contamination     of     the
+environment.
+R3-6  Maintenance & Servicing
+R3-6.1  Once systems are installed and commissioned it
+is important that the routine inspection and maintenance
+procedures  recommended  by  manufacturers  and  those
+required   by   codes   and   standards,   are   adequately
+implemented.
+R3-6.2    The  inspection  frequencies  may  need  to  be
+modified if the ambient conditions can adversely affect
+the  protection  systems.    For  example  sprinkler  heads
+protecting corrosive fume exhaust ducts may need to be
+inspected   weekly   or   monthly   until   the   appropriate
+frequency for that particular system can be determined.
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 16
+R3-6.3  Annual and semi-annual maintenance should be
+carried   out   by   competent   personnel   with   adequate
+training for the tasks in hand.
+
+
+
+SEMI S14-0704 © SEMI 2000, 2004 17
+RELATED INFORMATION 4
+DOCUMENTING EXPLOSION SAFETY FOR SEMICONDUCTOR
+MANUFACTURING EQUIPMENT
+NOTICE:  This related information is not an official part of SEMI S14 and was derived from the work of a member
+of  the  Fire  Protection  Task  Force  of  the  North  American  Environmental,  Health,  and  Safety  Committee.    This
+related information was approved for publication by 2/3 committee vote on July 17, 2003.
+R4-1  Introduction
+R4-1.1            The      design      of      many      semiconductor
+manufacturing  machines  has  to  take  account  of  the
+hazard  created  by  the  presence  of  flammable  liquids
+and gases and as a result the designer will usually have
+identified  the  hazards  and  put  in  place  the  necessary
+mitigation   and   protection   measures   to   provide   a
+satisfactory level of safety.
+R4-1.2    This  document  is  intended  to  assist  equipment
+designers and third party evaluators in documenting the
+presence  of  explosion  hazards  and  detailing  how  they
+have integrated explosion safety into the design.
+R4-1.3    There  are  specific  requirements  with  regard  to
+the prevention and mitigation of explosion risks within
+many  jurisdictions.  However  the  theory  of  explosion
+prevention   and   mitigation   transcends   jurisdictional
+boundaries. While this document arises out of the need
+for  some  equipment  to  satisfy  the  European  Union
+ATEX  Directive  (94/9/EC),  it  has  been  developed  in
+such  as  way  that  it  will  not  only  meet  the  requirement
+to   document   the   principles   of   integrated   explosion
+safety  (Essential  Health  and  Safety  Requirement  1.0),
+but   will   provide   information   to   authorities   having
+jurisdiction (AHJs) in many other parts of the world.
+R4-2  Documentation
+R4-2.1    For  all  equipment  using  flammable  liquids  or
+gases  an  Explosion  Risk  Document  (ERD)  should  be
+developed  and  issued  as  an  appendix  to  the  SEMI  S14
+Fire   Risk   Assessment   Internal   Report.   (The   main
+explosion  hazards,  risks  and  mitigation  features  should
+already  be  documented  in  the  S14  Final  and  Summary
+Reports.)
+R4-2.2        The    ERD    should    demonstrate    that    the
+equipment  designer  and  manufacturer  have  adopted  an
+integrated   approach   to   explosion   safety   adequately
+mitigating the risk of an explosion.
+R4-2.3      The   structure   of   the   document   is   flexible,
+however  a  logical  structure  should  be  adopted  such  as
+that  suggested  by  the  headings  and  sections  of  this
+document, e.g.,
+• Design    Philosophy    and    Equipment    Operation
+Overview,
+• Hazard Identification,
+• Mitigation  Measures  Implemented  &  Protection
+Systems Integrated, and
+• Residual Explosion Risk.
+R4-3  Design Philosophy and Equipment
+Operation Overview
+R4-3.1    The  intended  purpose  of  the  equipment  should
+be stated, along with its operating environment.
+R4-3.2    A  functional  and  technical  overview  of  the
+process  should  be  provided,  where  it  relates  to  the
+flammable  and  explosive  chemicals  and  gases.    This
+should include significant process parameters including
+temperature,    pressure,    and    quantities    of    relevant
+chemicals  and  gases.  The  operating  conditions  and
+control  system  faults  that  influence  explosion  safety
+should be described.
+R4-3.3      The   explosion   protection   design   philosophy
+should  be  thoroughly  documented  listing  the  design
+standards applied, and any significant deviations.
+R4-3.4  The classification of hazardous areas or zoning
+outside   and   inside   equipment   should   be   described
+indicating the classification system used (e.g., EN1127-
+1, NFPA 497).
+R4-3.5    Where  components  and  equipment  are  within
+or  are  related  to  areas  classified  as  hazardous,  they
+should be documented including manufacturers’ details,
+listings  and  approvals  and  confirmation  that  they  have
+been   used   within   the   scope   of   the   approvals   and
+listings.
+R4-4  Hazard Identification
+R4-4.1    It  is  good  practice  to  adopt  a  comprehensive
+approach  to  hazard  identification  when  designing  for
+explosive   atmospheres,   especially   for   complicated
+equipment,  protective  systems  and  components.  If  a
+structured  approach  to  hazard  identification  and  risk
+assessment  has  been  taken,  for  example,  if  during  the
+design  process  a  HAZOP  has  been  undertaken,  the
+HAZOP  itself  should  form  part  of  the  documentation
+supporting this section.
+
+
+SEMI S14-0704 © SEMI 2000, 2004 18
+R4-4.2      In   relation   to   the   occurrence   of   hazardous
+explosive  atmospheres,  the  origin  of  the  potentially
+explosive atmosphere should be described. This should
+include:
+R4-4.2.1    The  safety  data  of  the  chemicals  or  gases
+involved     (Physical     properties,     including     where
+available: combustion properties, ignition requirements,
+explosion behavior),
+R4-4.2.2    How  and  where  the  chemicals  and  gases  are
+stored, handled and controlled,
+R4-4.2.3    The  degree  of  dispersion  of  the  flammable
+substance (e.g., gases, vapors, mists, dusts),
+R4-4.2.4  The concentration of the flammable substance
+in air within the explosion range, and
+R4-4.2.5          The     amount     of     explosive     atmosphere
+sufficient  to  cause  injury  or  damage  by  ignition,  and
+any  factors  which  limit  the  quantity  or  the  amount  that
+is available to be ignited.
+R4-4.3    The  scenarios  or  conditions  that  result  in  the
+explosive  atmosphere  should  be  described,  indicating
+the  nature  of  the  sequence  of  events  that  lead  to  the
+explosion.    This  may  include  quantification  of  the
+explosive atmosphere and/or results of the explosion.
+R4-5  Hazard Identification – Ignition Sources
+R4-5.1    The  ignition  sources  present  within  or  close  to
+the    potentially    explosive    atmosphere    should    be
+classified    according    to    the    likelihood    of    their
+occurrence in the following manner:
+R4-5.1.1    Sources  of  ignition  which  are  assumed  to  be
+present    at    all    times,    because    the    likelihood    of
+occurrence  of  an  effective  ignition  source  cannot  be
+estimated,
+R4-5.1.2        Sources    of    ignition    which    can    occur
+continuously or frequently,
+R4-5.1.3    Sources  of  ignition  which  can  occur  in  rare
+situations, and
+R4-5.1.4    Sources  of  ignition  which  can  occur  in  very
+rare situations.
+R4-5.2        All    potential    ignition    sources    should    be
+considered including:
+R4-5.2.1      Sparks,   flames,   electric   arcs,   high   surface
+temperatures,    acoustic    energy,    optical    radiation,
+electromagnetic waves,
+R4-5.2.2    Electrostatic  charges  capable  of  resulting  in
+dangerous discharges,
+R4-5.2.3  Stray    electric and    leakage    currents    in
+conductive  equipment  parts,  which  could  result  in,  for
+example,   the   occurrence   of   dangerous   corrosion,
+overheating of surfaces or sparks capable of provoking
+an ignition may need to be considered,
+R4-5.2.4    Overheating  caused  by  friction  or  impacts
+occurring,  for  example,  between  materials  and  parts  in
+contact  with  each  other  while  rotating  or  through  the
+intrusion  of  foreign  bodies  may  need  to  be  reduced,  as
+far as possible, at the design stage, and
+R4-5.2.5        Adiabatic    Compression:    Equipment    and
+protective  systems  may  need  to  be  designed  or  fitted
+with   integrated   measuring,   control   and   regulation
+devices  so  that  pressure  compensations  arising  from
+them  do  not  generate  shock  waves  or  compressions
+resulting in ignition.
+R4-5.2.6  Impact Energy
+R4-5.2.7      Chemical   Reactions:   e.g.,   combination   of
+highly  reactive  chemicals  producing  sufficient  energy
+to    ignite    these    chemicals,    by-products    or    other
+chemicals/articles in the vicinity.
+R4-6  Mitigation Measures Implemented &
+Protection Systems Integrated
+R4-6.1      This   section   should   describe   in   detail   the
+measures taken to mitigate the explosion risks that have
+been identified, including those:
+• to  prevent  the  creation  of  explosive  or  ignitable
+atmospheres,  e.g.,  through  the  use  of  ventilation,
+purging  or  inerting  and  the  prevention  of  releases
+etc.,
+• to  prevent  the  ignition  of  the  atmosphere,  e.g.,
+through  the  use  of  appropriately  rated  electrical
+equipment  or  relocating  ignition  sources  outside
+the classified zone,
+• to  limit  the  development  or  propagation  of  the
+explosion,  e.g.,  through  the  use  of  an  explosion
+suppression system, and
+• to  limit  the  damage  caused  by  the  explosion,  e.g.,
+through venting or barriers.
+R4-7  Residual Risk
+R4-7.1  The  documentation should  include  a  statement
+of  the  residual  explosion  risk  describing  the  expected
+explosion   scenario   and   summarizing   the   Residual
+Explosion Risk that exists:
+R4-7.1.1          with     all     protective     features     operating
+(Category 1, 2 and 3),
+R4-7.1.2      with   a   failure   of   one   protective   feature
+(Category 1 & 2 only), and
+
+
+SEMI S14-0704 © SEMI 2000, 2004 19
+R4-7.1.3      with   a   failure   of   two   protective   features
+(Category 1 only).
+NOTE  R4-1:  The  equipment  Categories  are  based  on  the
+intended conditions of use:
+Category 1:  explosive atmospheres are highly likely to occur
+and are present continuously frequently or for long periods
+Category 2:  explosive atmospheres are likely to occur
+Category  3:    explosive  atmospheres  are  less  likely  to  occur
+and, if they occur, do so infrequently and briefly
+
+NOTICE:   Paragraphs   entitled   “NOTE”   are   not   an
+official part of this safety guideline and are not intended
+to  modify  or  supersede  the  official  safety  guideline.
+These have been supplied by the committee to enhance
+the usage of the safety guideline.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  guideline  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the guideline is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned  herein.  This  guideline  is  subject  to  change
+without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  guideline  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  guideline,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this guideline. Users of this guideline
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI S15-0200 © SEMI 20001
+SEMI S15-0200
+SAFETY GUIDELINE FOR THE EVALUATION OF TOXIC AND
+FLAMMABLE GAS DETECTION SYSTEMS
+This safety guideline was technically approved by the Global Environmental, Health, and Safety Committee
+and is the direct responsibility of the North American Environmental, Health, and Safety Committee. Current
+edition  approved  by  the  North  American  Regional  Standards  Committee  on  December  15,  1999.    Initially
+available on www.semi.org January 2000; to be published February 2000.
+1  Purpose
+1. 1   This  guideline  provides  consid erations  for  the
+evaluation   of   fixed   gas   detection   systems   used   to
+monitor  for  safety  of  plant  personnel,  product  and
+materials,  the  local  environment  and  community.    It
+provides  an  evaluation  guide  and  reference  sources
+appropriate to facilities and equipment where toxic and
+flammable  gases  are  used  and  stored  in  gaseous  or
+liquid form.
+2  Scope
+2. 1   This  guideline  applies  to  toxic   and  flammable  gas
+detection  and  addresses  performance  characteristics  of
+gas detection systems.
+2. 2  It also describes several techno logies available for
+detection    of    such    gases    and    their    performance
+characteristics.
+2. 3   This  safety  guideline  does  not   purport  to  address
+all of the safety issues associated with its use.  It is the
+responsibility  of  the  users  of  this  safety  guideline  to
+establish  appropriate  safety  and  health  practices  and
+determine  the  applicability  of  regulatory  limitations
+prior to use.
+3  Limitations
+3. 1  This guideline does not includ e applicable fire and
+safety code regulations.
+3. 2   The  gases  or  liquids  which  sho uld  be  monitored
+are not listed.
+3. 3   This  guideline  does  not  sugges t  the  appropriate
+levels  of  detectability.    Such  levels  may  be  determined
+by     reviewing     accepted     government     and     non-
+governmental    agency    standards,    such    as    those
+promulgated by ACGIH, USEPA, and USOSHA.
+3. 4  Process related issues and corr ective actions in the
+case of gas leaks are not discussed in this guideline.
+3. 5   This  guideline  makes  no  recom mendation  of  any
+specific technology or manufacturer, nor does it provide
+installation and operation recommendations.
+3. 6   This  guideline  provides  neithe r  a  comprehensive
+list of all gases, nor recommended areas for monitoring
+of toxic and flammable gases.
+3. 7    Not   all   known   analytical   meth odologies   for
+monitoring  of  toxic  and  flammable  gases  are  described
+in this guideline.
+4  Referenced Standards
+4. 1  SEMI Standard
+SEMI    E33    —    Specification    for    Semiconductor
+Manufacturing Facility Electromagnetic Compatibility
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  ACGIH  —  American  Conferen ce  of  Govern-
+mental Industrial Hygienists
+5. 1.2  EMI — Electromagnetic interf erence
+5. 1.3  EU — European Union
+5. 1.4  RFI — Radio frequency interf erence
+5. 1.5  USEPA    —    United    States    Envi ronmental
+Protection Agency
+5. 1.6  USOSHA  —  United  States  Oc cupational  Safety
+and Health Administration
+5. 2  Definitions
+5. 2.1  challenge gas — a gas/chemic al used to create a
+response in the gas detection system.
+5. 2.2  conditioning   —   the   necessity   t o   expose   a
+gas/chemical sensor to the target gas/chemical to enable
+more rapid detection of that gas/chemical.
+5. 2.3  fail-safe  relay  —  an  alarm  rela y  that  is  “fail-
+safe” returns to a safe operating condition when power
+is lost.
+5. 2.4  filter lag — relative to gas/che mical sensors, the
+time  delay  in  the  detection  of  a  challenge  gas/chemical
+due  to  the  incorporation  of  a  chemical,  mechanical  or
+electrical filter.
+
+SEMI S15-0200 © SEMI 20002
+5. 2.5  latching  —  relative  to  discrete   alarm  contacts,
+the alarm relay will not reset when the alarm condition
+ceases   to   exist.      The   alarm   must   be   manually   or
+remotely reset by operator interface.
+5. 2.6  poisoning  —  the  interaction  of   a  gas/chemical
+other  than  the  target  gas/chemical  that  temporarily  or
+permanently disables the sensor from reliably detecting
+the  presence  of  the  target  gas/chemical,  or  otherwise
+renders the device inoperable.
+5. 2.7  span  drift  —  the  percentage  ch ange  in  a  known
+calibration  point  or  span  of  a  sensor  or  gas  detection
+system over time.
+5. 2.8  surrogate    gas/chemical    —    a    su bstitute
+gas/chemical that is more benign than the gas/chemical
+it is replacing.  This concept is used in the calibration of
+gas/chemical  sensors  when  a  highly  toxic  or  corrosive
+challenge    gas    is    undesirable.        The    surrogate
+gas/chemical   will   simulate   the   interaction   with   the
+sensor of the gas/chemical for which it is substituted.
+5. 2.9   target  gas  —  the  specific  gas  i ntended  to  be
+detected.
+5. 2.10  zero  drift  —  the  percentage  ch ange  in  the  zero
+point  or  baseline  of  a  sensor  or  gas  detection  system
+over time.
+6  Performance Characterist i cs
+6. 1  The performance characteristic s (the test results of
+which   should   be   reliable   and   repeatable)   are   as
+identified below.  These are factors one should consider
+in  the  evaluation  of  a  gas  detection  system  (from  the
+point  of  detection  through  the  output  signal)  for  a
+specific    application.        A    form    for    compiling    a
+comparison table is provided as Appendix 1.
+6. 2  Accuracy  —  What  is  the  stated   accuracy  of  the
+system?    Over  what  time  period  will  that  accuracy  be
+valid  (before  calibration  of  the  gas  detection  system  is
+necessary)?
+6. 3  Alarms — What is the range fo r setting the alarms
+for  each  gas  detection  point?    Are  the  alarms  user-
+adjustable for set and reset time delays, latching or non-
+latching,  normally  open  or  closed,  fail-safe  or  non  fail-
+safe?      How   many   alarm   levels   are   available   per
+detection   point?      Is   there   a   fail   alarm   and   what
+conditions  will  activate  that  alarm?    Are  the  alarms
+dedicated to each detection point or are they common to
+a group of monitoring points?
+6. 4  Calibration
+6. 4.1  Is calibration required?  If so,  how often?  How
+is it accomplished?  Can it be done away from the point
+of   detection   or   must   it   be   done   on   site?      What
+equipment is needed to perform the calibration?  Can a
+surrogate   gas   be   used   for   calibration?      Can   the
+calibration  be  accomplished  by  one  individual?    Is
+calibration accuracy affected by humidity?
+6. 4.2   During  start-up,  how  much  tim e  must  elapse
+before the gas detection system can be calibrated?
+6. 5  Certifications and Classificati ons — Does  the  gas
+detection  system  have  the  necessary  performance  or
+safety   approvals   for   the   specific   application   and
+location (e.g., UL, CE, SEMI S2)?
+6. 6  Communications  (serial)  —  W hat  types  of  serial
+communication  are  available  from  the  gas  detection
+system?  What communication protocols are supported?
+Is it one-way or two-way communication?
+6. 7  Conditioning  Requirements  —  I s  the  monitoring
+equipment always ready and able to detect a gas leak or
+must  it  be  preconditioned  on  a  periodic  (regular)  basis
+to ensure response times are achieved?
+6. 8  Cost  of  Ownership  —  What  is   the  initial  cost  for
+the  equipment  and  installation?    What  is  the  long-term
+cost    of    ownership    of    the    system    (consumables,
+calibration  equipment,  and  labor)?    What  is  the  cost
+(hardware   and   installation)   to   expand   the   system
+(additional  points  of  detection)  and/or  change  the  gas
+configuration?
+6. 9  Data Archiving — Are data do cumentation or data
+archiving system available as a part of the gas detection
+system?
+6. 10  Diagnostics   —   What   system   d iagnostics   are
+included?    Can  electrical  or  mechanical  failures  within
+the   system   be   detected?      Will   a   fault   alarm   be
+activated?    Are  diagnostics  communicated  over  analog
+and/or  digital  outputs?    Are  faults  archived  by  the  gas
+detection   system?      Will   an   inoperative   system   be
+identified  through  a  self-activated  alarm  (fail-safe)?
+Will  the  system  alert  the  user  that  a  calibration  is
+required?  Are communication outputs supervised?
+6. 11  Display  —  What  local  displays   are  available  on
+the   gas   detection   systems?      Where   is   the   display
+located?  Does the display show gas concentration level
+with  engineering  units  and  identify  active  alarms  with
+signal   lights?      Are   other   diagnostic   and   control
+functions displayed when activated?  Is the display easy
+to read from a distance?
+6. 12  Drift  —  What  is  the  zero  and  s pan  drift  over  30,
+60,  90,  and  180  days?    Does  the  gas  detection  system
+compensate for drift?
+
+SEMI S15-0200 © SEMI 20003
+6. 13    Environmental   Conditions   —   W hat   are   the
+temperature and relative humidity specifications for the
+gas detection system for normal operation as well as for
+storage  of  consumable  parts?    Could  environmental
+changes    such    as    quick    humidity    transients    or
+temperature  changes  cause  the  gas  detection  system  to
+spike or drift into an alarm condition?
+6. 14  Equipment Failure — Is the ga s detection system
+capable of reporting all single point failures that disable
+detection?    What  failure  mode  disables  both  detection
+of gas and reporting failure?
+6. 15  Expansion  Flexibility  —  Is  the   gas  detection
+system    capable    of    expansion    to    accommodate
+additional detection points?  How easy is it to integrate
+into    the    user’s    system    (hardware,    installation,
+programming, etc.)?
+6. 16  Extraction Detection Systems
+6. 16.1  Sampling  Distance  —  What  is   the  maximum
+sampling  distance  for  the  gas  detection  system?    Will
+all  the  gas  entering  the  sample  line  at  the  point  of
+detection   reach   the   central   monitor?      What   is   the
+sample loss due to the challenge gas absorbing onto the
+sample tubing walls?
+6. 16.2  Sample  Cycle  Time  —  How  fr equently,  if
+multiple points are sampled, is the same detection point
+surveyed  by  the  extraction  detection  system,  at  the
+desired alarm level?
+6. 16.3  Sample  Contamination  —  Wh at,  if  any,  is  the
+potential  for  contamination  of  the  sample  line  tubing
+and  manifolding  equipment  when  multiple  gases  are
+monitored  within  the  same  extraction  system?    What
+combination   of   gases   should   be   avoided   due   to
+chemical interaction on wetted materials?
+6. 17  Filter  Lag  —  Does  the  gas  det ection  system  use
+any mechanical, chemical or electronic filters (for cross
+sensitivity,   particles,   etc.)   which   could   slow   the
+sampling response?  If so, what lag time is expected for
+each gas type?
+6. 18  Installation - Wiring Configur ation — How many
+wires are required per detection point?  Can the system
+be  wired  in  a  highway  configuration  (bus,  ring,  star,
+etc.)?    Are  special  barriers  or  grounds  required  to
+ensure no earth loop faults exist?
+6. 19  Isolation — Does   the   gas   detec tion   system
+require any special electrical isolation or grounding?
+6. 20  Limits of Detection
+6. 20.1  Lowest  Alarm  Level  —  What  i s  the  lowest
+alarm  level  setting  for  the  gas  detection  system  which
+will not activate due to sensor drift or insufficient signal
+to noise ratio?
+6. 20.2  Limit  of  Detection  —  What  is   the  absolute
+lowest value that a sensor can detect, for each gas?
+6. 20.3  Upper   Limit   of   Detection   —   W hat   is   the
+highest  level  of  gas  that  can  be  quantified  reliably  by
+the gas detection system?
+6. 21  Linearity  —  What  is  the  linear ity  over  the  full
+measuring range of the gas detection system output?
+6. 22  Maintenance     Interval     —     What      is     the
+manufacturer’s  recommended  maintenance  frequency?
+What  is  involved  to  perform  this  maintenance?    What
+items   potentially   require   maintenance   or   periodic
+replacement (pumps, sensors, tapes, etc.)?
+6. 23  Other Utilities — In addition t o electrical power,
+what  other  utilities  are  required  to  operate  the  system
+(e.g., compressed air, hydrogen, oxygen, etc.)?
+6. 24  Outputs  —  Does  the  gas  detect ion  system  have
+analog,  digital,  and  relay  outputs?    How  many  are
+available per system?
+6. 25  Physical  Size  —  What  is  the  ph ysical  size  of  the
+gas  detection  system  for  both  the  detection  head  (or
+sampling  point)  and  the  control  systems  or  central
+monitor, including the required floor space?
+6. 26  Poisoning   —   Is   the   gas   detecti on   system
+susceptible  to  gases  or  vapors  which  would  reduce  the
+performance  (ability  to  detect  gas)  of  the  system  or
+render it contaminated and inoperative?
+6. 27  Position Effect (Attitude Sensit ivity) — Is  there  a
+specific orientation of the sensor, detector, or sampling
+point  required  for  the  gas  detection  system  to  function
+optimally?
+6. 28  Power  Outage  —  When  system   power  is  lost,
+what happens to the gas detection system?  Once power
+is  restored,  what  is  the  time  lag  before  the  system  is
+fully functional?
+6. 29  Power  Requirements  —  What   are   the   power
+requirements  (i.e.,  AC,  DC,  voltage,  and  amperage)  of
+the  system?    What  is  the  power  draw  of  the  total  gas
+detection system?
+6. 30  Recovery  Time  —  What  is  the   amount  of  time  it
+takes   the   gas   detection   system,   once   exposed   to
+challenge  gas,  to  recover  to  10%  of  the  original  target
+gas concentration value?
+
+SEMI S15-0200 © SEMI 20004
+6. 31  Repeatability  —  What  is  the  ab ility  of  the  gas
+detection  system  to  produce  the  same  detection  results
+within a certain percentage, when repeatedly exposed to
+the same gas concentration?
+6. 32  Reliability  —  What  is  the  expe cted  life  of  the
+various  portions  of  the  gas  detection  system  (including
+the main unit, detection sensors, and consumables)?
+6. 33  Replacement/Replenishment  —  Does the system
+contain  consumable  items?    How  frequently  must  they
+be  replaced?    Can  they  be  replaced  by  the  user  or  is  a
+factory person required for servicing?
+6. 34  Resolution  —  What  is  the  leve l  of  resolution  for
+changes  in  gas  concentration?    That  is,  to  what  extent
+can   the   gas   detection   system   detect   a   changing
+challenge gas concentration?  Is this user selectable?
+6. 35  Response  Time  —  From  the  po int  of  release  of
+the   challenge   gas,   how   long   does   it   take   the   gas
+detection  system  to  reach  90%  of  the  challenge  gas
+concentration?
+6. 36  RFI/EMI Susceptibility — Doe s  the  gas  detection
+system  meet  the  requirements  for  CE  Marking  for
+RFI/EMI immunity and per SEMI E33?
+6. 37  Self-Test  —  Does  the  gas  detec tion  system  have
+an automatic or user initiated self-test routine?  How is
+it accomplished?  What is the interval for the self-test?
+Can  the  operator  override  the  self-test?    Is  the  self-test
+just an electrical check or is gas actually generated?  Is
+the generated gas the target gas?
+6. 38  Sensor  Exchange  —  Do  sensor s  require  on-site
+calibration only or can they be factory calibrated?  Are
+additional   adjustments   or   programming   operations
+required  when  replacing  a  sensor?    Is  there  a  warm-up
+period  for  the  sensors  before  they  are  functional  (for
+calibration purposes)?  If so, how long?
+6. 39  Sensor  Specificity  —  Are  gas  s pecific  sensors
+available  for  every  gas  that  must  be  monitored?    What
+are the known interferences to the gas detection system
+that could cause a false alarm or mask a real alarm?
+6. 40  Service & Support — What is  the manufacturer’s
+capabilities to service and support their equipment once
+it is has been installed?  Does the manufacturer have a
+24 hour/7 day service support program in place?
+6. 41  Spare    Parts    Availability    —    Wh at    is    the
+availability  of  spare  parts  from  the  manufacturer?    Are
+emergency spare parts always available?
+6. 42  Special  Handling  Consideratio ns  —  Are  there
+items that require special handling, storage, or disposal?
+If so, what are the considerations?
+6. 43  Storage and Shelf-Life Require ments — What are
+the    storage    (environmental)    requirements    for    the
+consumable  items  (e.g.,  electrochemical  sensors  and
+paper tapes)?  Do these items have a shelf-life and if so
+how long?
+6. 44  System  Check  —  Does  the  gas   detection  system
+have  a  system  check  facility?    If  so,  is  this  done  on  a
+continuous or interval basis?  What is the interval?
+6. 45  System  Expandability  &  Flexib ility  —  Is  the  gas
+detection  system  universal,  in  the  sense  that  the  user
+can  change  from  one  gas  sensor  to  another  by  only
+exchanging    the    sensing    elements?        How    much
+modification is required?  Can this be done in the field
+by the user or must the detection system be returned to
+the manufacturer for service?
+6. 46  Wake Up Requirement — Doe s  the  gas  monitor’s
+sensor   require   periodic   doses   of   challenge   gas   or
+electrical  charges  to  ensure  the  sensor  will  continually
+operate?  If so, what is the interval required for each gas
+type or electrical challenge?
+6. 47  Warm  Up  Period  —  Upon  inst allation  or  sensor
+replacement, how long does it take for the gas detection
+system’s sensor to stabilize after power is applied?
+6. 48  Warranty — What  is  the  warra nty  period  of  the
+gas detection system?
+7  Gas Detection Technolog ies Available
+7. 1  Several gas detection technolo gies are described in
+the  following  paragraphs.    As  additional  technologies
+become available, they should be considered, using the
+performance characteristics described above.
+7. 2  Acoustic  (Hydrogen  Gas  Meas urement  Only)  —
+Piezoelectric    crystals    send    and    receive    pulsed
+ultrasound.    These  sound  waves  travel  through  two
+tubes  of  air,  one  tube  filled  with  sample  air,  the  other
+with  reference  air.    The  returned  pulses  are  counted,
+normalized  for  temperature,  and  compared.    Through
+mathematical   calculations   the   result   represents   the
+concentration  of  hydrogen  gas  present  in  percent  by
+volume or percent LEL.
+7. 3  Catalytic   —   Catalytic   gas   sens ors   measure
+flammable   gases   by   comparison   of   the   change   in
+resistance  across  a  Wheatstone  bridge.    The  sensor
+contains  two  resistive  elements  (beads),  one  active
+which increases its resistance when exposed to gas, and
+the  other  which  maintains  a  constant  resistance.    The
+sensor  output  is  then  conditioned  by  the  gas  detection
+system  and  generates  a  current  output  proportional  to
+the  gas  concentration  in  percent  of  lower  explosive
+limit (LEL).
+
+SEMI S15-0200 © SEMI 20005
+7. 4  Electrochemical  —  Electroche mical  gas  sensors
+measure     toxic     gases     and     contain     components
+(electrodes  and  electrolyte)  designed  to  react  when
+exposed to a specific toxic gas or a family of gases; the
+reaction  generates  a  current  which  is  measured  and
+conditioned  by  the  gas  detection  system  and  represents
+an  output  which  is  proportional  to  the  concentration  of
+gas,  measured  in  parts  per  million  (ppm)  or  parts  per
+billion (ppb).
+7. 5  FTIR  —  Fourier-transform  inf rared  (FTIR)  gas
+detection systems use spectrophotometric techniques to
+detect and measure gas.  Infrared light is passed through
+a gas sample, and the resulting absorbency spectrum is
+analyzed to determine its constituents.  A current output
+is  generated  which  is  proportional  to  the  concentration
+of gas present.
+7. 6  Infrared — Monochromatic in frared gas detection
+systems measure the absorption of radiation (light) by a
+gas sample.  The absorption is translated into a current
+output which is proportional to concentration.  Each gas
+has  a  unique  absorption  wavelength  which  the  system
+must be tuned to make an accurate measurement.
+7. 7  Ion   Detection   —   Ion   detection    is   useful   for
+detecting   SiO
+2
+particles   which   are   created   by   the
+burning  of  certain  gases  such  as  silane,  TEOS  and
+TEOA.  SiO
+2
+“smoke”  is  created  when  these  gases  are
+burned,  and  this  can  be  detected  with  an  ionization
+detector  chamber,  which  operates  similarly  to  a  smoke
+detector.    SiO
+2
+particles  entering  the  chamber  create  a
+signal  that  is  calibrated  to  represent  the  presence  of  a
+known concentration of the target gas.  A gas detection
+system  using  this  method  is  typically  used  in  a  sample
+draw  system  and  can  be  used  either  by  itself  or  in
+conjunction with a pyrolyzer to condition (burn) the gas
+entering the detection head.
+7. 8  Molecular Emission Spectrom eter — Sample air is
+injected   into   a   reaction   chamber.      In   the   reaction
+chamber,  a  flame,  fed  by  hydrogen  and  sample  air,  is
+the  activating  reaction.    When  a  sample  gas  enters  the
+flame,  reactions  of  the  target  gas  result  in  additional
+light emissions.  The resulting light passes through two
+optical filters and is converted to electronic signals in a
+dual photomultiplier tube.  The signals are combined to
+produce a linear, quantitative output.
+7. 9  Paper  Tape  —  Paper  tape  syst ems  use  the  color
+change of a chemically impregnated tape to detect toxic
+gases.    The  tape  changes  color  when  exposed  to  a
+challenge  gas;  the  color  change  is  then  detected  by  a
+photocell, analyzed, and converted into a concentration
+value (ppm or ppb).
+7. 10  Solid  State  —  One  type  of  soli d  state  sensor  is
+made of a metal oxide (typically tin-oxide) material that
+changes resistance in response to the presence of a toxic
+gas;  the  gas  detection  system  measures  this  resistance
+change and converts it into a concentration value.  Thin
+film  semiconductor  sensors  absorb  the  target  gas  onto
+the  semiconductor,  resulting  in  a  transfer  of  electrons
+which causes a measured change in the resistance of the
+semiconductor    and    reported    as    a    ppm    or    ppb
+concentration.
+8  Related Documents
+8. 1  SEMI Documents
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+8. 2   American  Conference  of  Gove rnmental  Industrial
+Hygienists  (ACGIH)
+1
+—  Threshold  Limit  Values  for
+Chemical Substances in the Work Environment
+8. 3  Uniform Fire Code
+2
+UFC Article 51 — Semiconductor Fabrication Facilities
+UFC Article 80 — Hazardous Materials
+8. 4  National Fire Protection Asso ciation
+3
+NFPA 49 — Hazardous Chemical Data
+NFPA 70 — National Electric Code
+NFPA 72 — National Fire Alarm Code
+NFPA 318 — Protection of Cleanrooms
+8. 5  International Fire Code
+4
+8. 6    Santa   Clara,   California   Unifor m   Fire   Code,
+5
+Amendments 1998 Edition
+8. 7  Southern Building Code Cong ress International
+6
+Standard  Building  Code  —  Chapter  22:  Hazardous
+Materials, 1994 Edition
+
+1   American   Conference   of   Governmental   Industrial   Hygienists
+(ACGIH),  1330  Kemper  Meadows  Drive,  Cincinnati,  OH    45240-
+1634
+2  Published  by  International  Conference  of  Building  Officials  and
+Western  Fire  Chiefs  Association,  5360  South  Workman  Mill  Road,
+Whitter, CA  90601
+3 National Fire Protection Association, 1 Batterymarch Park, Quincy,
+MA  02269
+4  International  Fire  Code  Institute,  9300  Jollyville  Road,  Suite  105,
+Austin, TX  78759
+5  Santa  Clara  Fire  Department,  777  Benton  Street,  Santa  Clara,  CA
+95050
+6  Southern  Building  Code  Congress  International  (SBCCI),  900
+Montclair Road, Birmingham, AL  35213
+
+SEMI S15-0200 © SEMI 20006
+8. 8  US Government
+Occupational Safety and Health Organization (OSHA)
+7
+29 CFR - Sections 1910.119 and 1910.1000
+US  Environmental  Protection  Agency  (EPA)
+8
+40  CFR
+68. 13, Subpart C
+
+7 US Government Printing Office, Washington, D.C.  20402
+8 Superintendent of Documents, US Government Printing Office,
+Washington, D.C.  20402
+
+SEMI S15-0200 © SEMI 20007
+APPENDIX 1
+TABLE FOR COMPARISON OF PERFORMANCE CHARACTERISTICS
+NOTE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  S15  and  was  approved  by  full  letter  ballot  procedures  on
+December 15, 1999 by the North American Regional Standards Committee.
+Table A1-1
+PerformanceManufacturer/Technology
+CharacteristicsA.B.C.DE.
+Accuracy
+Alarms
+Calibration
+Certifications and
+Classifications
+Communications (Serial)
+Conditioning
+Requirements
+Cost of Ownership
+Data Archiving
+Diagnostics
+Display
+Drift
+Environmental
+Conditions
+Equipment Failure
+Expansion Flexibility
+Extractive Systems:
+Sampling Distance
+Sample Cycle Time
+Sample Contamination
+Filter Lag
+Installation (Wiring
+Configuration)
+Isolation
+Limits of Detection:
+Lowest Alarm Level
+Limit of Detection
+Upper limit of Detection
+Linearity
+Maintenance Interval
+Other Utilities
+Outputs
+Physical Size
+Poisoning
+Position Effect
+(Attitude Sensitivity)
+Power Outage
+Power Requirements
+Recovery Time
+Repeatability
+
+SEMI S15-0200 © SEMI 20008
+PerformanceManufacturer/Technology
+CharacteristicsA.B.C.DE.
+Reliability
+Replacement/
+Replenishment
+Resolution
+Response Time
+RFI/EMI Susceptibility
+Self-test
+Sensor Exchange
+Sensor Specificity
+Service and Support
+Spare Parts Availability
+Special Handling
+Considerations
+Storage and Shelf-life
+Requirements
+System Check
+System Flexibility
+Wake Up Requirements
+Warm Up Period
+Warranty
+NOTICE:  SEMI  makes  no  warranties  or  representations  as  to  the  suitability  of  the  guidelines  set  forth  herein  for
+any  particular  application.  The  determination  of  the  suitability  of  this  guideline  is  solely  the  responsibility  of  the
+user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other
+relevant literature respecting any materials mentioned herein. This guideline is subject to change without notice.
+The user’s attention is called to the possibility that compliance with this guideline may require use of copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  guideline,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+guideline.  Users  of  this  guideline  are  expressly  advised  that  determination  of  any  such  patent  rights  or  copyrights,
+and the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI S16-0600 © SEMI 20001
+SEMI S16-0600
+ENVIRONMENTAL, HEALTH AND SAFETY GUIDELINES FOR
+SEMICONDUCTOR MANUFACTURING EQUIPMENT DISPOSAL
+These guidelines were technically approved by the Global Environmental, Health and Safety Committee and
+are  the  direct  responsibility  of  the  Japanese  Environmental,  Health  and  Safety  Committee.  Current  edition
+approved  by  the  Japanese  Regional  Standards  Committee  on  April  28,  2000.    Initially  available  on
+www.semi.org June 2000; to be published June 2000.
+1  Purpose
+1. 1   This  document  provides  guide lines  to  minimize
+hazards  to  workers  and  impacts  to  the  environment
+during equipment and component disposal.
+2  Scope
+2. 1    These   guidelines   apply   to   the   d isposal   of
+semiconductor  manufacturing  equipment,  its  materials
+and components and equipment design consideration to
+facilitate disposal.
+2. 2  These guidelines are intended  to be voluntary best
+practices  for  this  industry.  These  guidelines  apply  to
+disposal    parties,    equipment    designers,    equipment
+manufacturers,   equipment   suppliers   and   equipment
+owners.  The  information  should  be  provided  to  the
+disposal party by the equipment owner prior to contract
+negotiations.
+2. 3   These  safety  guidelines  do  not   purport  to  address
+all  of  the  safety  issues  associated  with  its  use.  It  is  the
+responsibility   of   the   users   of   these   guidelines   to
+establish  appropriate  safety  and  health  practices  and
+determine  the  applicability  of  regulatory  limitations
+prior to use.
+3  Limitation
+3. 1  These guidelines are not intend ed to supersede the
+applicable  codes  and  regulations  of  the  region  where
+the equipment is disposed.
+3. 2  Section 6 in these guidelines s hould be applied not
+to   existing   models   and   subsystems   but   to   newly
+designed  models  and  subsystems  after  publication  of
+these guidelines.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI S1  Safety Guidelines for Visual Hazard Alerts
+SEMI   S2      Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI S10  Safety Guideline for Risk Assessment
+SEMI    S12        Environment,    Health    and    Safety
+Guidelines for Equipment Decontamination
+SEMI  S13    Safety  Guidelines  for  Operation  and
+Maintenance    Manuals    Used    with    Semiconductor
+Manufacturing Equipment
+4. 2  ISO Documents
+1
+ISO11469    Plastics;   Generic   Identification   and
+Marking of Plastic Products
+ISO14001  1996 Environment Management Systems,
+Specifications with Guideline for Use
+4. 3  CEN
+2
+/ CENELEC
+3
+Document
+EN1050     Safety  of  Machinery—Principles  for  Risk
+Assessment
+4. 4  OSHA Document
+4
+29 CFR 1910. 1200  Labor
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1   Terminology  defined  in  SEMI   S1,  S2,  S12,  and
+S13  should  be  referred  to  except  if  otherwise  specified
+below.
+5. 1.1  decontaminate
+ to  remove  a ll  known  hazards
+from     equipment,     including     chemical,     physical,
+electrical,  to  a  level  that  will  not  pose  a  threat  or  harm
+to humans or the environment. This level may be set by
+each  country,  state  and  local  regulations  or  industry
+practice.
+5. 1.2  decontamination
+ the   proces s   required   to
+remove  hazards  to  an  acceptable  level  of  risk  (see
+Section 5.1).
+
+1 International Standards Organization, 1, rue de Varembe, Case
+postale 56, CH-1211 Geneve 20, Switzerland.
+2 European Committee for Standardization, 36, rue de Stassart, B-
+1050 Brussels, Belgium
+3 European Committee for Electrotechnical Standardization, Rue de
+Stassart, 35, B-1050 Brussels, Belgium
+4 US Government Printing Office, Washington, D.C. 20402
+
+SEMI S16-0600 © SEMI 20002
+5. 1.3  disposal   to  dispose  of  equip ment  and/or
+component/material      based      on      legislation      or
+industry/regional standard practices.
+5. 1.4  disposal   party
+   a   party   who    disposes   of
+equipment and its components.
+5. 1.5   EMAS
+ Eco-Management  an d  Audit  Scheme
+which came into force in July, 1993 and operational in
+the EU Member States in April, 1995.
+5. 1.6  equipment  owner
+  a  party  w ho  surrenders
+equipment to a disposal party or disposals of potentially
+contaminated materials or components.
+5. 1.7  hazardous energy
+ energy w ith the potential to
+affect human health or the environment.
+5. 1.8  hazardous   material
+   materia ls   including
+chemicals (solid, liquid or gas) that pose a threat to the
+environment    or    human    health    as    defined    by
+international, each country and local regulations.
+5. 1.9  Material Safety Data Sheet (M SDS)
+ written or
+printed   material   concerning   chemical   elements   and
+compounds, including hazardous materials, prepared in
+accordance   with   applicable   standards   such   as   the
+International    Labor    Convention    (ILC)    No.    170,
+provisions   of   USA   government   regulation   29   CFR
+1910,1200,     or     Canadian     WHMIS     (Workplace
+Hazardous Material Information System).
+6  Equipment Design for Dis posal
+6. 1    The   equipment   design   should    comply   with
+environment section of SEMI S2.
+6. 2    The   equipment   design   should    consider   the
+following    regarding    disassembly    prior    to    waste
+treatment:
+6. 2.1     The    equipment    design    should     encourage
+refurbishing, reuse or recycling.
+6. 2.1.1     The    equipment    design    should     enable
+disassembly  down  to  the  component  or  subassembly
+size to facilitate refurbishing or recycling.
+6. 2.1.2   The  equipment  design  should   provide  for  the
+ability to appropriately decontaminate all components.
+6. 2.2   The  equipment  design  should   consider  enabling
+all   hazardous   energies   in/on   the   equipment   to   be
+reduced   to   a   non-hazardous   level   upon   equipment
+disassembly.  If  a  hazardous  energy  still  remains,  see
+Section 7 of this document.
+6. 2.2.1   This  includes  the  ability  to  rele ase  or  remove
+any trapped materials.
+6. 2.3   The  equipment  design  should   avoid  mixing  of
+incompatible  chemicals  upon  equipment  disassembly.
+If  this  is  not  feasible,  an  appropriate  hazard  alert  label
+based on SEMI S1 should be affixed at each applicable
+position (see Section 7 of this document).
+6. 2.4   The  equipment  design  should   prevent  release  of
+hazardous materials to the environment upon equipment
+disassembly.  If this is not feasible, see Section 7 of this
+document.
+6. 3   Chemicals  used  to  maintain  th e  equipment  or
+chemicals  used  in  the  baseline  process  should  comply
+with following sub-sections.
+6. 3.1   Materials  for  which  special  dis posal  procedures
+are required, such as batteries (lithium, ni-cad, mercury
+and  silver),  mercury  and  fluorescent  lamps,  and  other
+potentially  hazardous  material  should  be  accompanied
+by   material   safety   data   sheet   (MSDS)   or   other
+document describing necessary information for disposal
+and instructions for safe handling and disposal.
+6. 3.2   Additional  information  on  pro per  disposal  of
+materials,  designed  into  the  equipment  with  the  intent
+of    being    contaminated    but    disposable,    but    not
+hazardous   themselves   until   contaminated,   such   as
+absorbents  and  adsorbents,  should  also  be  provided
+with       disposal       procedures       which       minimize
+environmental impact and personnel effect.
+6. 3.3  Equipment containing ionizing  radiation sources
+subject  to  licensing  by  federal  or  local  agencies  should
+be  constructed  so  as  to  allow  the  easy  removal  of
+ionizing    radiation    sources.    Disposal    of    ionizing
+radiation sources must be in compliance with applicable
+each country, state and local regulations.
+6. 4     Construction    materials    and    com ponents    of
+equipment   should   be   selected   by   considering   their
+environmental    impacts    based    on    the    supplier’s
+environment     management     program.     Environment
+management  programs  should  be  constructed  based  on
+ISO14001,  EMAS  or  other  environment  management
+system.
+6. 5  The hazardous and primary co nstruction materials
+of  equipment  should  be  provided  in  document  such  as
+operation  and/or  maintenance  manuals  based  on  the
+supplier’s environment management program.
+6. 5.1    Recycling   category   identificat ion   should   be
+molded   as   part   of   the   material   or   labeled   on   the
+material.  This  requirement  should  only  be  applied    to
+non-metallic   materials   which   are   capable   of   being
+molded or labeled.
+6. 5.2   Identification  and  marking  of  p lastics  should
+comply  with  ISO11469  unless  local  regulations  differ.
+This  requirement  should  be  applied  to  only  materials
+which are able to be molded or labeled.

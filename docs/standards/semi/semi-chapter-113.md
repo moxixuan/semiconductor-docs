@@ -1,0 +1,2551 @@
+---
+title: "P10-0705 - © SEMI 1990, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "P10-0705 - © SEMI 1990, 2005..."
+sidebar_position: 1130
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-113.pdf'
+  chapter: 113
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/113.pdf"
+  pdfSize="0.34MB"
+  title="P10-0705 - © SEMI 1990, 2005..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI P10-0705 © SEMI 1990, 2005 96
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element name="RegistrResidualReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+/xs:sequence
+- xs:sequence minOccurs="0"
+- xs:element name="RegistrThreeSigma"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element name="RegistrThreeSigmaReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+/xs:sequence
+- xs:sequence minOccurs="0"
+- xs:element name="RegistrResidualThreeSigma"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element
+name="RegistrResidualThreeSigmaReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+/xs:sequence
+xs:element name="RegistrTolerance" type="xs:double
+"
+minOccurs="0" /
+- xs:sequence minOccurs="0"
+xs:element name="RegistrOrtho" type="xs:double" /
+xs:element name="RegistrOrthoReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+/xs:sequence
+- xs:sequence minOccurs="0"
+xs:element name="RegistrRelative" type="xs:string" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 97
+xs:element name="RegistrRelativeReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+/xs:sequence
+xs:element name="MeasuredRegistrMark"
+type="MeasuredRegistrMarkType" minOccurs="0"
+maxOccurs="unbounded" /
+xs:element name="MeasuredRegistrError"
+type="xs:double" minOccurs="0" /
+- xs:element name="MeasuredRegistrScale" minOccurs="0"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrThreeSigma"
+minOccurs="0"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="
+2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrResidual"
+minOccurs="0"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+
+/xs:element
+- xs:element name="MeasuredRegistrResidualThreeSigma"
+minOccurs="0"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+
+
+SEMI P10-0705 © SEMI 1990, 2005 98
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrTolerance"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrMinimum"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+-
+xs:element name="MeasuredRegistrMaximum"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element name="MeasuredRegistrOrtho"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredRegistrRelative
+"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredRegistrFileName"
+type="xs:string" minOccurs="0" /
+xs:element name="Operator" type="xs:string"
+minOccurs="0" /
+/xs:sequence
+
+
+SEMI P10-0705 © SEMI 1990, 2005 99
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartRegistrMeasurements" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndRegistrMeasurements" /
+/xs:complexType
+- xs:complexType name="MeasuredRegistrMarkType"
+- xs:sequence
+xs:element name="MeasuredRegistrMarkId"
+type="xs:string" /
+
+xs:element name="VendorRegistrationMarkId"
+type="xs:string" minOccurs="0" /
+- xs:element name="MaskRegistrMarkLocation"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrMarkLocation"
+
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrMarkError"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute
+name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredRegistrMarkResidual"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+
+
+SEMI P10-0705 © SEMI 1990, 2005 100
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartMeasuredRegistrMark" /
+xs:attribute
+name="p10End" type="xs:string" use="required"
+fixed="EndMeasuredRegistrMark" /
+/xs:complexType
+- xs:complexType name="ClosureMeasurementsType"
+- xs:sequence
+xs:element name="RegistrClosureEquipReqd"
+type="xs:string" minOccurs="0" maxOccurs="unbounded"
+/
+xs:element name="EquipSiteReqd" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="RegistrClosureEquipUsed"
+type="xs:string" minOccurs="
+0" /
+xs:element name="EquipSiteUsed" type="xs:string"
+minOccurs="0" /
+xs:element name="RegistrClosure" type="xs:double"
+minOccurs="0" /
+xs:element name="RegistrClosureReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+- xs:element name="MeasuredRegistrClosure"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer
+" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+- xs:element name="MeasuredClosureReading"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+
+/xs:extension
+
+
+SEMI P10-0705 © SEMI 1990, 2005 101
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element name="MeasuredClosureLocation"
+type="xs:string" minOccurs="0" /
+/xs:sequence
+xs:element name="Operator" type="xs:string"
+minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use
+="required"
+fixed="StartClosureMeasurements" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndClosureMeasurements" /
+/xs:complexType
+- xs:complexType name="CdGroupMeasurementsType"
+- xs:sequence
+xs:element name="CdQualityId" type="xs:string"
+minOccurs="0" /
+xs:element name="CdToneClear" type="xs:boolean"
+minOccurs="0" /
+xs:element name="CdMorphography" type="
+xs:string"
+minOccurs="0" /
+xs:element name="CdPercentClear" type="xs:double"
+minOccurs="0" /
+- xs:element name="CdPercentClearWindow"
+minOccurs="0"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="WindowType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="4" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+
+/xs:element
+xs:element name="CdTarget" type="xs:double"
+minOccurs="0" /
+- xs:element name="CdOrientation" minOccurs="0"
+- xs:simpleType
+- xs:restriction base="xs:string"
+xs:enumeration value="VERTICAL" /
+xs:enumeration value="HORIZONTAL" /
+/xs:restriction
+/xs:simpleType
+/xs:element
+xs:element name="CdPitch" type="
+xs:double"
+minOccurs="0" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 102
+xs:element name="CdFeature" type="xs:string"
+minOccurs="0" /
+xs:element name="CdReferenceOnly" type="xs:boolean"
+minOccurs="0" /
+xs:element name="CdTolerance" type="xs:double"
+minOccurs="0" /
+xs:element name="CdRange" type="xs:double"
+minOccurs="0" /
+xs:element name="CdThreeSigma" type="xs:double"
+minOccurs="0" /
+xs:element name
+="CdDeviationFromTarget"
+type="xs:double" minOccurs="0" /
+xs:element name="CdDeviationFromMean"
+type="xs:double" minOccurs="0" /
+xs:element name="CdStd" type="xs:string" minOccurs="0"
+/
+xs:element name="CdCorrelationId" type="xs:string"
+minOccurs="0" /
+xs:element name="CdEquipReqd" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="EquipSiteReqd
+" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdEquipUsed" type="xs:string"
+minOccurs="0" /
+xs:element name="EquipSiteUsed" type="xs:string"
+minOccurs="0" /
+xs:element name="CdMeasurementDate"
+type="xs:dateTime" minOccurs="0" /
+xs:element name="NumberOfCds" type="xs:unsignedInt"
+minOccurs="0" /
+xs:element name="CdMeasurement"
+type="CdMeasurementType" minOccurs="0"
+maxOccurs="unbounded" /
+xs:element name="MeasuredCdMean" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdMin" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdMax" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdTolerance"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdRange" type="
+xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdThreeSigma"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdDeviationFromTarget"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdDeviationFromMean"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdFileName" type="xs:string"
+minOccurs="0" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 103
+xs:element name="Operator" type="xs:string"
+minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartCdGroupMeasurements" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndCdGroupMeasurements" /
+/xs:complexType
+- xs:complexType name="
+CdMeasurementType"
+- xs:sequence
+- xs:sequence minOccurs="0"
+xs:element name="CdSiteId" type="xs:string"
+minOccurs="0" /
+- xs:element name="CdLocation"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+
+/xs:complexType
+/xs:element
+/xs:sequence
+xs:element name="MeasuredCdSiteId" type="xs:string" /
+- xs:element name="MeasuredCdLocation"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element name="MeasuredCd" type="xs:double" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartCdMeasurement" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndCdMeasurement" /
+/xs:complexType
+- xs:complexType name
+="CdSetResultsType"
+- xs:sequence
+
+
+SEMI P10-0705 © SEMI 1990, 2005 104
+xs:element name="CdGroupName" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdReferenceOnly" type="xs:boolean"
+minOccurs="0" /
+xs:element name="CdQualityId" type="xs:string"
+minOccurs="0" /
+xs:element name="CdTolerance" type="xs:double"
+minOccurs="0" /
+xs:element name="CdRange" type="xs:double"
+minOccurs="0" /
+
+xs:element name="CdThreeSigma" type="xs:double"
+minOccurs="0" /
+xs:element name="CdDeviationFromTarget"
+type="xs:double" minOccurs="0" /
+xs:element name="CdDeviationFromMean"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdMean" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdMin" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdMax
+" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdTolerance"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdRange" type="xs:double"
+minOccurs="0" /
+xs:element name="MeasuredCdThreeSigma"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdDeviationFromTarget"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdDeviationFromMean"
+type="xs:double"
+minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartCdSetResults" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndCdSetResults" /
+/xs:complexType
+- xs:complexType name="CdXyResultsType"
+- xs:sequence
+xs:element
+name="CdXGroup" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdYGroup" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdXySite" type="CdXySiteType"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdXyTolerance" type="xs:double"
+minOccurs="0" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 105
+xs:element name="CdXyDeviation" type="xs:double"
+minOccurs="0" /
+xs:element name="CdXyReferenceOnly" type="xs:boolean"
+minOccurs="0" /
+xs:element name="MeasuredCdXyTolerance"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdXyDeviation"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdXyMorphography"
+type="xs:string" minOccurs="0" /
+xs:element name
+="MeasuredCdXyToneClear"
+type="xs:boolean" minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartCdXyResults" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndCdXyResults" /
+/xs:complexType
+- xs:complexType name="CdXySiteType"
+- <
+xs:sequence>
+- xs:sequence minOccurs="0"
+xs:element name="CdHorizontalId" type="xs:string" /
+- xs:element name="CdHorizontalLocation"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+/xs:sequence
+xs:element name="CdHorizontalMorphography"
+type="xs:string" minOccurs="0" /
+xs:element name="CdHorizontalToneClear"
+type="xs:boolean" minOccurs="0" /
+xs:element name="MeasuredHorizontalCd"
+type="xs:double" /
+- xs:sequence minOccurs="0"
+xs:element name="CdVerticalId" type="xs:string" /
+- xs:element name="CdVerticalLocation"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="XYCoordType"
+
+
+SEMI P10-0705 © SEMI 1990, 2005 106
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="2" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+/xs:sequence
+xs:element name="CdVerticalMorphography"
+type="xs:string" minOccurs="0" /
+xs:element name="CdVerticalToneClear" type="xs:boolean"
+minOccurs="0" /
+xs:element name="MeasuredVerticalCd"
+type="xs:double"
+/
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartCdXySite" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndCdXySite" /
+/xs:complexType
+- xs:complexType name="CdIsoDenseResultsType"
+- xs:sequence
+xs:element
+name="CdIsoGroup" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdDenseGroup" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="CdIsoDenseTolerance"
+type="xs:double" minOccurs="0" /
+xs:element name="CdIsoDenseReferenceOnly"
+type="xs:boolean" minOccurs="0" /
+xs:element name="MeasuredCdIsoMean" type="xs:double"
+minOccurs="0" /
+
+xs:element name="MeasuredCdIsoRange"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdDenseMean"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdDenseRange"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredCdIsoDenseTolerance"
+type="xs:double" minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartCdIsoDenseResults" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndCdIsoDenseResults" /
+/xs:complexType
+- xs:complexType name="DefectMeasurementsType"
+
+
+SEMI P10-0705 © SEMI 1990, 2005 107
+- xs:sequence
+xs:element name="DefectQualityId" type="xs:string"
+minOccurs="0" /
+- xs:element name="InspectionArea" minOccurs="0"
+maxOccurs="unbounded"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="WindowType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="4" /
+/xs:extension
+/xs:complexContent
+</
+xs:complexType>
+/xs:element
+- xs:element name="InspectionAreaExclude" minOccurs="0"
+maxOccurs="unbounded"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="WindowType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="4" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element name="
+VisualInspCriteria" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="DieToDieInspection" type="xs:boolean"
+/
+xs:element name="DieToDieMeasurements"
+type="xs:boolean" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element name="DefectEquipReqd" type="xs:string"
+/
+xs:element name="EquipSiteReqd" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element
+name="DefectInspModeReqd"
+type="xs:string" minOccurs="0" /
+xs:element name="DefectInspPixelSizeReqd"
+type="xs:double" minOccurs="0" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element name="DefectType" type="xs:string"
+/
+xs:element name="DefectInspSensitivityReqd"
+type="xs:string" /
+- xs:sequence minOccurs="0"
+maxOccurs="unbounded"
+
+
+SEMI P10-0705 © SEMI 1990, 2005 108
+xs:element name="BinSize" type="xs:string"
+/
+xs:element name="SeverityCriterionReqd"
+type="xs:string" /
+/xs:sequence
+/xs:sequence
+xs:element name="DefectSetupFileNameReqd"
+type="xs:string" minOccurs="0" /
+/xs:sequence
+- xs:sequence minOccurs="0"
+xs:element name="DefectEquipUsed" type="xs:string"
+/
+xs:element name="EquipSiteUsed" type="
+xs:string"
+minOccurs="0" /
+xs:element name="DefectInspModeUsed"
+type="xs:string" minOccurs="0" /
+xs:element name="DefectInspPixelSizeUsed"
+type="xs:double" minOccurs="0" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element name="DefectType" type="xs:string"
+/
+xs:element name="DefectInspSensitivityUsed"
+type="xs:string" /
+- xs:sequence minOccurs="0"
+maxOccurs="unbounded"
+xs:element name="BinSize" type="xs:string"
+/
+xs:element name="SeverityCriterionUsed"
+type="xs:string" /
+/xs:sequence
+/xs:sequence
+xs:element name="DefectSetupFileNameUsed"
+type="xs:string" minOccurs="0"
+maxOccurs="unbounded" /
+/xs:sequence
+xs:element name="DefectInspDate" type="xs:dateTime"
+minOccurs="0" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded
+"
+xs:element name="RepairEquipReqd" type="xs:string"
+/
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element name="EquipSiteReqd"
+type="xs:string" /
+/xs:sequence
+/xs:sequence
+- xs:sequence minOccurs="0"
+xs:element name="RepairEquipUsed" type="xs:string"
+/
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+
+
+SEMI P10-0705 © SEMI 1990, 2005 109
+xs:element name="EquipSiteUsed"
+type="xs:string" /
+/xs:sequence
+/xs:sequence
+- xs:element name="MeasuredInspectionArea"
+minOccurs="0" maxOccurs="unbounded"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="WindowType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="4" /
+/xs:extension
+/xs:complexContent
+
+/xs:complexType
+/xs:element
+- xs:element name="MeasuredInspectionAreaExclude"
+minOccurs="0" maxOccurs="unbounded"
+- xs:complexType
+- xs:complexContent
+- xs:extension base="WindowType"
+xs:attribute name="p10MultiValue"
+type="xs:integer" use="required"
+fixed="4" /
+/xs:extension
+/xs:complexContent
+/xs:complexType
+/xs:element
+xs:element
+name="MeasuredDefectDensity"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredDefectCount" type="xs:int"
+minOccurs="0" /
+xs:element name="MeasuredDefectCountRep"
+type="xs:int" minOccurs="0" /
+xs:element name="MeasuredDefectCountWithinSpec"
+type="xs:int" minOccurs="0" /
+xs:element name="MeasuredDefectiveDieDensity"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredDefectiveDieCount"
+type
+="xs:int" minOccurs="0" /
+xs:element name="MeasuredDefectiveDieCountRep"
+type="xs:int" minOccurs="0" /
+xs:element name="MeasuredPercentDefectiveDie"
+type="xs:double" minOccurs="0" /
+xs:element name="MeasuredDefectFileName"
+type="xs:string" minOccurs="0" maxOccurs="unbounded"
+/
+xs:element name="PrePellInspectionId" type="xs:string"
+minOccurs="0" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 110
+xs:element name="PrePellInspectionDateTime"
+type="xs:dateTime" minOccurs="0" /
+xs:element name="PostPellInspectionId" type="xs:string"
+minOccurs="0" /
+xs:element name="PostPellInspectionDateTime"
+type="xs:dateTime" minOccurs="0" /
+xs:element name="Operator" type="xs:string"
+minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartDefectMeasurements" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndDefectMeasurements" /
+/xs:complexType
+- xs:complexType name="SurfaceInspMeasurementsType"
+- xs:sequence
+xs:element name="SurfaceQualityId" type="xs:string"
+minOccurs="0" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element
+name="SurfInspEquipReqd"
+type="xs:string" /
+xs:element name="EquipSiteReqd" type="xs:string"
+minOccurs="0" maxOccurs="unbounded" /
+xs:element name="SurfInspModeReqd"
+type="xs:string" minOccurs="0" /
+xs:element name="SurfInspPixelSizeReqd"
+type="xs:double" minOccurs="0" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element name="SurfDefectType"
+type="xs:string" /
+
+xs:element name="SurfInspSensitivityReqd"
+type="xs:string" /
+- xs:sequence minOccurs="0"
+maxOccurs="unbounded"
+xs:element name="BinSize" type="xs:string"
+/
+xs:element name="SeverityCriterionReqd"
+type="xs:string" /
+/xs:sequence
+/xs:sequence
+xs:element name="SurfInspSetupFileNameReqd"
+type="xs:string" minOccurs="0" /
+/xs:sequence
+- xs:sequence minOccurs="0"
+xs:element name="SurfInspEquipUsed"
+type="xs:string" /
+xs:element name="EquipSiteUsed" type="xs:string"
+minOccurs="0" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 111
+xs:element name="SurfInspModeUsed"
+type="xs:string" minOccurs="0" /
+xs:element name="SurfInspPixelSizeUsed"
+type="xs:double" minOccurs="0" /
+- xs:sequence minOccurs="0" maxOccurs="unbounded"
+xs:element name="SurfDefectType"
+type="xs:string" /
+xs:element name="SurfInspSensitivityUsed"
+type="xs:string" /
+- xs:sequence minOccurs="0"
+maxOccurs="unbounded"
+xs:element name="BinSize
+" type="xs:string"
+/
+xs:element name="SeverityCriterionUsed"
+type="xs:string" /
+/xs:sequence
+/xs:sequence
+xs:element name="SurfInspSetupFileNameUsed"
+type="xs:string" minOccurs="0" /
+/xs:sequence
+xs:element name="MeasuredDefectCount" type="xs:int"
+minOccurs="0" /
+xs:element name="MeasuredDefectCountWithinSpec"
+type="xs:int" minOccurs="0" /
+xs:element
+name="MeasuredSurfInspFileName"
+type="xs:string" minOccurs="0" maxOccurs="unbounded"
+/
+xs:element name="PrePellInspectionId" type="xs:string"
+minOccurs="0" /
+xs:element name="PrePellInspectionDateTime"
+type="xs:dateTime" minOccurs="0" /
+xs:element name="PostPellInspectionId" type="xs:string"
+minOccurs="0" /
+xs:element name="PostPellInspectionDateTime"
+type="xs:dateTime" minOccurs="0" /
+xs:element
+name="Operator" type="xs:string"
+minOccurs="0" /
+/xs:sequence
+xs:attribute name="groupName" type="xs:string"
+use="required" /
+xs:attribute name="p10Start" type="xs:string" use="required"
+fixed="StartSurfaceInspMeasurements" /
+xs:attribute name="p10End" type="xs:string" use="required"
+fixed="EndSurfaceInspMeasurements" /
+/xs:complexType
+- xs:complexType name="WindowType"
+- xs:sequence
+xs:element name="X1" type="xs:double" /
+xs:element name="Y1" type="xs:double" /
+xs:element name="X2" type="xs:double" /
+xs:element name="Y2" type="xs:double" /
+
+
+SEMI P10-0705 © SEMI 1990, 2005 112
+/xs:sequence
+/xs:complexType
+- xs:complexType name="XyrType"
+- xs:sequence
+xs:element name="X" type="xs:double" /
+xs:element name="Y" type="xs:double" /
+xs:element name="R" type="xs:double" /
+/xs:sequence
+/xs:complexType
+- xs:complexType name="XYCoordType"
+- xs:sequence
+xs:element name="
+X" type="xs:double" /
+xs:element name="Y" type="xs:double" /
+/xs:sequence
+/xs:complexType
+- xs:complexType name="DateNameType"
+- xs:sequence
+xs:element name="Date" type="xs:dateTime" /
+xs:element name="Name" type="xs:string" /
+/xs:sequence
+/xs:complexType
+/xs:schema
+
+8  Terminology and Usage
+8. 1  Values in parentheses indicate the only acceptable alternative data values for the record and must be transmitted
+exactly  as  shown.  (x,y)  indicates  the  acceptable  data  value  must  be  an  ordered  pair  of  dimensions,  coordinates,
+repeat counts, filenames, or other parameters. (x,y,z) indicates an ordered triple. (x1,y1,z1) indicates a window with
+two  ordered  pairs,  (x1,y1)  and  (x2,y2),  describing  the  lower  left  and  upper  right  corners  respectively.  Records
+without specified alternative values may have any appropriate data value.
+8. 1.1  ADDITIONAL_MASK_INFO — Any  information necessary to specify the overall mask set which cannot be
+specified elsewhere in the order structure; must be brought to the attention of mask vendor personnel.
+8. 1.2  ADDITIONAL_MASK_SET_INFO  —  Any  information  necessary  to  specify  the  overall  mask  set  which
+cannot be specified elsewhere in the order structure; must be brought to the attention of mask vendor personnel.
+8. 1.3  ADDITIONAL_MILESTONE_INFO  —  Text  for  the  vendor  to  supply  additional  information  regarding  the
+status of the mask.
+8. 1.4  ADDITIONAL_PATTERN_INFO  —  Any  information  necessary  to  specify  the  pattern(s)  which  cannot  be
+specified elsewhere in the order structure; must be brought to the attention of mask vendor personnel.
+8. 1.5  ADDITIONAL_RESULTS_INFO — Any information necessary to supply information to the customer which
+cannot  be  specified  elsewhere  in  the  mask_results  structure;  must  be  brought  to  the  attention  of  customer
+personnel.
+8. 1.6  AIM_CD_DELTA — For aerial imaging metrology, the percentage CD width variation between comparable
+non-defective features.  Used for CD defect measurement across or between features.  If this keyword appears as a
+mask_option,         then         AIM_WAVELENGTH,         WAFER_EXPOSURE_NUMERICAL_APERATURE,
+WAFER_EXPOSURE_SIGMA APERATURE, and  WAFER_EXPOSURE_ILLUMINATION must all also appear
+under mask_option. Appearance of this keyword as a mask_option does not require aerial imaging metrology
+for  the  mask,  but  merely  sets  the  conditions  under  which  it  should  be  used  if  it  its  deemed  necessary  by  the  mask
+maker, based on their negotiated agreements with the customer.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 113
+8. 1.7  AIM_FLUX_INTENSITY_DELTA  —  For  aerial  imaging  metrology,  the  percentage  dimensional  area
+variation  between  comparable  non-defective  areas.    Used  for  contact  and  via  defect  measurement.  If  this  keyword
+appears  as  a  mask_option,  then  AIM_WAVELENGTH,  WAFER_EXPOSURE_NUMERICAL_APERATURE,
+WAFER_EXPOSURE_SIGMA APERATURE, and  WAFER_EXPOSURE_ILLUMINATION must all also appear
+under mask_option. Appearance of this keyword as a mask_option does not require aerial imaging metrology
+for  the  mask,  but  merely  sets  the  conditions  under  which  it  should  be  used  if  it  its  deemed  necessary  by  the  mask
+maker, based on their negotiated agreements with the customer.
+8. 1.8  AIM_INTENSITY_VARIATION_DELTA   —   For   aerial   imaging   metrology,   the   percentage   intensity
+variation between comparable non-defective areas.  Used for edge or isolated defect measurement.  If this keyword
+appears  as  a  mask_option,  then  AIM_WAVELENGTH,  WAFER_EXPOSURE_NUMERICAL_APERATURE,
+WAFER_EXPOSURE_SIGMA APERATURE, and  WAFER_EXPOSURE_ILLUMINATION must all also appear
+under mask_option. Appearance of this keyword as a mask_option does not require aerial imaging metrology
+for  the  mask,  but  merely  sets  the  conditions  under  which  it  should  be  used  if  it  its  deemed  necessary  by  the  mask
+maker, based on their negotiated agreements with the customer.
+8. 1.9  AIM_WAVELENGTH — Wavelength in nanometers to be used for aerial_image_data measurements This
+keyword  may  appear  in  addition  to  PSM_WAVELENGTH  for  a  single  MASK_ID,  though  the  values  of  the  two
+should usually be the same.
+8. 1.10  ALL_PATTERNS_APPROVAL_REQD — (T or F)
+8. 1.11  ALL_PATTERNS_APPROVED — (date) date approval was granted by customer
+8. 1.12  APPROVAL_REQD — If present, indicates that no mask(s) are to be written until the approval is explicitly
+granted by the customer. The alphanumeric data field describes the items to be approved.
+8. 1.13  APPROVED — (T or F) date approval was granted by customer for APPROVAL_REQD.
+8. 1.14  ARRAY_CENTER — (x,y) Center of circular array limit, relative to the nominal center of the mask (chrome
+side up).
+8. 1.15  ARRAY_DIAMETER — Diameter of circular array limit to be applied to pattern files.
+8. 1.16  ARRAY_DIAMETER_INCLUSIVE  —  (T  or  F)  If  T,  then  die  which  are  at  least  partially  included  within
+the  circular  array  limit  must  be  included  in  the  array.  If  F,  then  only  die  which  are  wholly  included  within  the
+circular array limit may be included in the array.
+8. 1.17  ATTENUATOR  —  Attenuator  Mask_Coating  used  for  Embedded  Attenuated  Phase  Shift  Masks.  (MoSi,
+TinSin, ZrSi) or any other material agreed upon between customer/vendor. May be used in conjunction with other
+Mask_Coatings.
+8. 1.18  AUTO_INSPECTION_REQD — (T or F) Automated inspection of the mask for defects is required.
+8. 1.19  BARCODE_LOCATION — (x,y) Location to place the center of the vendor-generated barcode, relative to
+the nominal center of the mask (chrome side up).
+8. 1.20  BARCODE_ROTATION  —  (0,  90,  180,  or  270)  Degrees  the  barcode  is  to  be  rotated  counterclockwise
+(before mirroring).
+8. 1.21  BARCODE_TEXT — Text to be used by the vendor to build the barcode.
+8. 1.22  BARCODE_TYPE  —  (ASM,  ASET,  CANON,  GCA,  NIKON_STD  or  NIKON_CODE39,  UT1X_10,
+UT1X_24  and  UT_XLS,  and  others  on  request)  Encoding  system  to  be  used  by  the  vendor  to  build  the  required
+barcode.
+8. 1.23  BILLING_ADDRESS — Address for billing.
+8. 1.24  BILLING_CONTACT — Name of person to contact for billing purposes.
+8. 1.25  BILLING_EMAIL — Internet address for BILLING_CONTACT.
+8. 1.26  BILLING_FAX — Phone number for facsimile machine of BUSINESS_CONTACT.
+8. 1.27
+BILLING_PHONE — Phone number for BILLING_CONTACT.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 114
+8. 1.28  BIN_SIZE — size of defect for SEVERITY_CRITERION_REQD sorting.
+8. 1.29  BLANK_BIREFRINGENCE_REQD — (number) The required degree to which the substrate used to make
+the mask refracts an incident beam of unpolarized light into two separate beams of opposite polarization, expressed
+as nanometers per centimeter (nm/cm).
+8. 1.30  BLANK_BIREFRINGENCE_USED — (number) The measured degree to which the substrate used to make
+the mask refracts an incident beam of unpolarized light into two separate beams of opposite polarization, expressed
+as nanometers per centimeter (nm/cm).
+8. 1.31  BLANK_DATE_OF_MFG  —  (date)  The  date  of  manufacture  of  the  substrate  used  to  make  the  mask  as
+supplied by the mask blank vendor.
+8. 1.32  BLANK FLATNESS — (0.25, 0.5, 1, 2, 5, 10, 20, or other numeric value) Flatness within quality area (see
+SEMI P1).
+8. 1.33  BLANK_FLATNESS_USED — The flatness within the quality area of the mask blank used, as specified by
+the mask blank supplier or as measured by the mask vendor.
+8. 1.34  BLANK_GRADE — (text) A designation of the relative defectivity of the substrate as specified by the mask
+blank vendor.
+8. 1.35  BLANK_INDEX_OF_REFRACTION — (number) The ratio of the velocity of light of a given wavelength
+in a vacuum to the velocity of light in the substrate used to make the mask.
+8. 1.36  BLANK_LENGTH — (number) The X-axis dimension of the substrate used to make the mask, as specified
+by the mask blank vendor.
+8. 1.37  BLANK_LOT  —  (text)  The  mask  blank  vendor’s  manufacture  lot  identification  for  the  substrate  used  to
+make the mask.
+8. 1.38  BLANK_SIZE  —  (2.5/60,  3/60,  3.5/60,  4/60,  4/90,  4/250,  5/60,  5/90,  5/250,  6/90,  6/120,  6/150,  6/250,
+7/120,  7/150,  7/250,  7.25R/150  or  9/350)  Nominal  edge  length  (in  inches)  and  thickness  (in  mils)  of  square
+substrate; 7.25R/150 is a round substrate. (See SEMI P1.)
+8. 1.39  BLANK_THICKNESS  —  (number)  The  Z-axis  dimension  of  the  substrate  used  to  make  the  mask,  as
+specified by the mask blank vendor.
+8. 1.40  BLANK_TYPE — (DFS, MFS, HTE, LTE, ULTE, WC, SL or EUV) Durable Fused Silica, Modified Fused
+Slica, high-, low-, and ultralow thermal expansion glass (see SEMI P1.) WC and SL indicate White Crown and soda
+lime glass.  EUV is for Extreme Ultraviolet applications.
+8. 1.41  BLANK_VENDOR — (text) Standard vendor identification code for the mask blank vendor of the substrate
+used to make the mask.
+8. 1.42  BLANK_WIDTH  —  (number)  The  Y-axis  dimension  of  the  substrate  used  to  make  the  mask,  as  specified
+by the mask blank vendor.
+8. 1.43  BLANKET_PO_NUMBER — Alphanumeric blanket purchase order number.
+8. 1.44  BOOLEAN  —  Logical  operation  to  be  performed  on  one  or  more  following  pattern  files.    Data  value
+meanings are:
+• NONE — no logical operation to be performed; sizing/scaling may still be performed,
+• OR — logical union of two files,
+• AND — logical intersection of two files,
+• NOT — logical inverse of one file,
+• XOR — logical union of two files, excluding all areas in which the two intersect, and
+• MINUS — logical difference between input file 1 and input file 2; i.e., logically removing from input file 1 the
+portions of all digitized geometry which overlap with digitized geometry in input file 2.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 115
+• REVERSE  —  (T  or  F)  Reverse  the  tone  of  the  output  layer.  If  T  (true)  a  negative  image  of  the  layer  is
+produced.  REVERSE  is  performed  after  all  sizing  and  scaling  have  been  completed  for  the  current  data
+manipulation step. The default value for REVERSE is F (false).
+8. 1.45  BOTTOM_PELLICLE_CENTRALITY_ERROR  —  (x,y,rotation)  Maximum  misplacement  in  micrometers
+and microradians of pellicle mounting, relative to the nominal center of the mask. The nominal center is determined
+using the bottom and left edges (chrome side up).
+8. 1.46  BOTTOM_PELLICLE_TYPE — Alphanumeric brand and model of acceptable pellicle for the glass side of
+the  mask.    If  multiple  pellicles  are  listed,  they  are  listed  with  the  most  preferred  first  and  then  in  declining
+preference.
+8. 1.47  BOTTOM_PELLICLE_USED  —  (text)  The  pellicle  vendor’s  part  number  of  the  pellicle  applied  to  the
+nonpatterned surface of the mask.
+8. 1.48  BUSINESS_ADDRESS — Address of person placing the order.
+8. 1.49  BUSINESS_CONTACT — Name of person placing the order.
+8. 1.50  BUSINESS_EMAIL — Internet address for BUSINESS_CONTACT.
+8. 1.51  BUSINESS_FAX — Phone number for facsimile machine of BUSINESS_CONTACT.
+8. 1.52  BUSINESS_PHONE — Phone number for BUSINESS_CONTACT.
+8. 1.53  BUTTING_ERROR  —  Maximum  misalignment  of  features  due  to  stitching  of  adjacent  fields  in  the
+segmented writing of a mask.
+8. 1.54  BUTTING_ERROR_METHOD  —  Alphanumeric  description  of  the  method  to  be  used  to  measure  butting
+error.
+8. 1.55  CD_CORRELATION_ID  —  Alphanumeric  date  or  other  identification  of  the  vendor/customer  correlation
+test to be used in measuring CDs.
+8. 1.56  CD_DATA — Size of critical dimension feature in data as supplied in the pattern file.
+8. 1.57  CD_DENSE_GROUP — Identifies a cd_group for use in iso/dense analysis.  Data field must match data
+field of a START_CD in a cd_group.  The  cd_group must contain CD_MORPHOGRAPHY with data value
+DENSE.
+8. 1.58  CD_DEVIATION_FROM_MEAN  —  (numeric)  Maximum  acceptable  deviation  of  any  of  the  customer-
+required  CD  measurements  from  the  mean  of  those  measurements.    (See  Related  Information  1  at  the  end  of  this
+standard.)
+8. 1.59  CD_DEVIATION_FROM_TARGET — (numeric) Maximum acceptable deviation of any of the customer-
+required CD measurements from the CD_TARGET. If only one data value (p) appears in the data field, the tolerance
+is  considered  +/-  symmetrically  about  CD_TARGET.  If  two  data  values  (  p  [,m]  )  appear,  then  the  first  is  the
+maximum amount by which deviation is allowed larger than CD_TARGET, and the second is the maximum amount
+by which deviation is allowed smaller than CD_TARGET. The comma and second half of the argument are optional
+in  the  syntax  (p[,m])  where  p  =  the  positive  and  m  =  the  negative  value  for  non-symmetric  tolerances;  if  only  p  is
+specified, the positive and negative tolerances are assumed to be symmetric.  (See Related Information 1 at the end
+of this standard.)
+8. 1.60  CD_DIGITIZED — (T or F) If T, critical dimension in pattern is digitized data.
+8. 1.61  CD_DRAWING  —  The  uniquely  identified  (for  each  customer)  document  which  shows  the  CD  structure
+itself, and may show the place within the CD which are to be measured.
+8. 1.62  CD_EQUIP_REQD   —   Alphanumeric   identification   of   acceptable   equipment   for   measuring   critical
+dimensions.
+8. 1.63
+CD_EQUIP_USED — Alphanumeric identification of equipment used for measuring critical dimensions.
+8. 1.64  CD_FEATURE — Text describing the feature to be used for CD measurement.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 116
+8. 1.65  CD_GROUP_NAME — Identifies a cd_group to be included in the cd_set.  The data field must match
+the data field of START_CD in the referenced cd_group.
+8. 1.66  CD_HORIZONTAL_ID — CD_SITE_ID of CD_HORIZONTAL_LOCATION.
+8. 1.67  CD_HORIZONTAL_LOCATION    —    (x,y)        Location    of    critical    dimension    feature.        The
+CD_ORIENTATION  of  the  feature  must  be  HORIZONTAL.    If  CD_HORIZONTAL_LOCATION  appears  in
+mask_options,  then  the  (x,y)  coordinates  are  relative  to  the  nominal  center  of  the  mask  (chrome  side  up).  If
+CD_HORIZONTAL_LOCATION appears in pattern_options, then the (x,y) coordinates are relative to the center
+of the pattern or cell, before mirroring or scaling. If CD_HORIZONTAL_LOCATION appears in mask_results,
+then  the  (x,y)  coordinates  are  relative  to  the  nominal  center  of  the  mask  (chrome  side  up),  even  if  the  original
+CD_HORIZONTAL_LOCATION was in pattern_options.
+8. 1.68  CD_HORIZONTAL_MORPHOGRAPHY       —       CD_MORPHOGRAPHY       of       the       individual
+CD_HORIZONTAL_ID  feature.
+8. 1.69  CD_HORIZONTAL_TONE_CLEAR  —  CD_TONE_CLEAR  of  the  individual  CD_HORIZONTAL_ID
+feature.
+8. 1.70  CD_ISO_DENSE_REFERENCE_ONLY — (T or F) If T, indicates that the cd_iso_dense_definition is to
+be measured and the data transmitted to the customer (if requested by SHIP_CD_DATA), but that deviations in its
+measured value due to mask processing would NOT be cause for mask rejection. (This does not exempt mishandling
+of the data in pattern preparation from being a cause for mask rejection.)
+8. 1.71  CD_ISO_DENSE_TOLERANCE — Maximum acceptable difference of the mean of all measured customer-
+defined   DENSE   critical   dimensions   from   the   mean   of   all   measured   customer-defined   ISOLATED   critical
+dimensions.
+8. 1.72  CD_ISO_GROUP — Identifies a cd_group for use in iso/dense analysis.  Data field must match data field
+of  a  START_CD  in  a  cd_group.    The  cd_group  must  contain  CD_MORPHOGRAPHY  with  data  value
+ISOLATED.
+8. 1.73  CD_LOCATION   —   (x,y)   Location   of   critical   dimension   feature.   If   CD_LOCATION   appears   in
+mask_options,  then  the  (x,y)  coordinates  are  relative  to  the  nominal  center  of  the  mask  (chrome  side  up).  If
+CD_LOCATION appears in pattern_options, then the (x,y) coordinates are relative to the center of the pattern or
+cell,  before  mirroring  or  scaling.  If  CD_LOCATION  appears  in  mask_results,  then  the  (x,y)  coordinates  are
+relative  to  the  nominal  center  of  the  mask  (chrome  side  up),  even  if  the  original  CD_LOCATION  was  in
+pattern_options.
+8. 1.74  CD_LOCATION_DRAWING  —  The  uniquely  identified  (for  each  customer)  document  which  shows  the
+location of the CD structure.
+8. 1.75  CD_MATRIX_FILE_NAME — Alphanumeric name of file to be used for critical dimension measurement
+locations.  It is not to be used in conjunction with CD_LOCATION within the same START_CD to END_CD set.
+8. 1.76  CD_MATRIX_FILE_FORMAT — (MF2, MF3, KMS and others on request)
+8. 1.77  CD_MEASURE_DIE — In combination with the associated placement definition, specifies the die to be
+used for CD measurement.
+8. 1.78  CD_MEASUREMENT_DATE — Date CD measurement was made.
+8. 1.79  CD_MORPHOGRAPHY — (DENSE, ISOLATED and others on request) Feature density surrounding CD
+location.
+8. 1.80  CD_ORIENTATION  —  (VERTICAL  or  HORIZONTAL)  Direction  in  which  the  CD  feature  is  to  be
+scanned for measurement. In other words, a HORIZONTAL CD is scanned in the X direction (left to right), and a
+VERTICAL CD is scanned in the Y direction (top to bottom).
+8. 1.81  CD_PERCENT_CLEAR — Calculated percentage of clear area within CD_PERCENT_CLEAR_WINDOW
+in the mask data.
+8. 1.82  CD_PERCENT_CLEAR_WINDOW       —       (x1,y1,x2,y2)       window       coordinates       over       which
+CD_PERCENT_CLEAR is calculated, relative to the nominal center of the mask.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 117
+8. 1.83  CD_PITCH  —  Local  spacing  of  the  critical  dimension  from  the  center  of  the  geometry  to  the  center  of
+adjacent  geometries.    This  will  be  designated  by  the  customer  as  required  and  reported  in  mask_results  for
+analysis by the customer.
+8. 1.84  CD_QUALITY_ID — (text) Customer’s label for a collection of CD quality specifications, to be used only
+in addition to explicit quality requirement keywords. This may be used in the data structure in addition to, but not in
+place of, explicit quality requirement keywords. This may not be used in combination with QUALITY_GROUP_ID.
+Customer and vendor should document the meaning of this quality grade before using it in SEMI P10.
+8. 1.85  CD_RANGE  —  Maximum  acceptable  variation  of  all  measured  critical  dimensions  of  same  nominal  size,
+same tone and same orientation, relative to each other.  (See Related Information 1 at the end of this standard.)
+8. 1.86  CD_REFERENCE_ONLY — (T or F) If T, indicates that the CD location, cd_group or cd_set
+is to be
+measured  and  the  data  transmitted  to  the  customer  (if  requested  by  SHIP_CD_DATA_),  but  that  deviations  in  its
+measured value due to mask processing would NOT be cause for mask rejection. (This does not exempt mishandling
+of the data in pattern preparation from being a cause for mask rejection.)
+8. 1.87  CD_SITE_ID — Unique alphanumeric identifier of each critical dimension location within MASK_SET_ID
+to  identify  individual  cd  locations  when  using  mask_results.    If  the  same  coordinates  apply  to  locations  on
+different  masks  within  the  mask  set,  they  may  have  the  same  CD_SITE_ID,  but  it  is  not  mandatory.    If
+CD_SITE_ID is used with a CD_LOCATION within a pattern_options, it will be associated with as many mask
+locations as the cell has instances.  (See MEASURED_CD_SITE_ID for more information.)
+8. 1.88  CD_STD — (NBS, NIST, ROGER_SHERMAN, CUSTOMER, and others on request) reference standard to
+be used to correlate critical dimension measurements.
+8. 1.89  CD_TARGET — Desired final size of critical dimension feature on mask.  (See Related Information 1 at the
+end of this standard.)
+8. 1.90  CD_THREE_SIGMA — Maximum acceptable 3-sigma deviation of all measured critical dimensions to the
+mean of all measured critical dimensions.  (See Related Information 1 at the end of this standard.)
+8. 1.91  CD_TOLERANCE — Maximum acceptable deviation of the mean of all measured critical dimensions to the
+CD_TARGET. (See Related Information 1 at the end of this standard.)
+8. 1.92  CD_TONE_CLEAR — (T or F) If T, critical dimension feature on mask is clear.
+8. 1.93  CD_VERTICAL_ID — CD_SITE_ID of CD_VERTICAL_ID.
+8. 1.94  CD_VERTICAL_LOCATION — (x,y)  Location of critical dimension feature.  The CD_ORIENTATION of
+the  feature  must  be  VERTICAL.      If  CD_VERTICAL_LOCATION  appears  in  mask_options,  then  the  (x,y)
+coordinates  are  relative  to  the  nominal  center  of  the  mask  (chrome  side  up).  If  CD_VERTICAL_LOCATION
+appears  in  pattern_options,  then  the  (x,y)  coordinates  are  relative  to  the  center  of  the  pattern  or  cell,  before
+mirroring  or  scaling.  If  CD_VERTICAL_LOCATION  appears  in  mask_results,  then  the  (x,y)  coordinates  are
+relative to the nominal center of the mask (chrome side up), even if the original CD_VERTICAL_LOCATION was
+in pattern_options.
+8. 1.95  CD_VERTICAL_MORPHOGRAPHY  —  CD_MORPHOGRAPHY  of  the  individual  CD_VERTICAL_ID
+feature.
+8. 1.96  CD_VERTICAL_TONE_CLEAR — CD_TONE_CLEAR of the individual CD_VERTICAL_ID  feature.
+8. 1.97  CD_X_GROUP — Identifies a cd_group for use in comparing horizontally scanned critical dimensions to
+a  vertically  scanned  critical  dimensions.  Data  field  must  match  data  field  of  a  START_CD  in  a  cd_group.    The
+cd_group must contain CD_ORIENTATION with data value HORIZONTAL.
+8. 1.98  CD_Y_GROUP — Identifies a cd_group for use in comparing horizontally scanned critical dimensions to
+a  vertically  scanned  critical  dimensions.  Data  field  must  match  data  field  of  a  START_CD  in  a  cd_group.    The
+cd_group must contain CD_ORIENTATION with data value VERTICAL.
+8. 1.99  CD_XY_DEVIATION  —  Maximum  deviation,  on  a  site-by-site  basis,  of  a  horizontally  scanned  critical
+dimension  to  a  vertically  scanned  critical  dimension  within  a  cd_xy_definition.  The  two  critical  dimensions  at
+each  cd_xy_site  site  must  be  the  same  size  in  the  pattern  data  and  the  same  tone  on  the  mask.    (See  Related
+Information 1 at the end of this standard.)
+
+
+SEMI P10-0705 © SEMI 1990, 2005 118
+8. 1.100  CD_XY_REFERENCE_ONLY  —  (T  or  F)  If  T,  indicates  that  the  cd_xy_definition  is  to  be  measured
+and  the  data  transmitted  to  the  customer  (if  requested  by  SHIP_CD_DATA),  but  that  deviations  in  its  measured
+value  due  to  mask  processing  would  NOT  be  cause  for  mask  rejection.  (This  does  not  exempt  mishandling  of  the
+data in pattern preparation from being a cause for mask rejection.)
+8. 1.101  CD_XY_TOLERANCE  —  Maximum  acceptable  deviation  of  the  mean  of  all  measured  horizontally
+scanned   critical   dimensions   to   the   mean   of   all   measured   vertically   scanned   critical   dimensions   within   a
+cd_xy_definition  and/or  between  the  sites  in  {CD_X_GROUP}  and  the  sites  in  {CD_Y_GROUP}.  Critical
+dimensions  at  all  sites  must  be  the  same  size  in  the  pattern  data  and  the  same  tone  on  the  mask.  (See  Related
+Information 1 at the end of this standard.)
+8. 1.102  CELL_ID — Name of the cell which follows; must be used in all references within this MASK_SET_ID to
+this cell definition.
+8. 1.103  CELL_INSTANCE — (text) Identifies CELL_ID to be placed by the following location information.
+8. 1.104  CELL_REGISTR_MARK — (x,y) Location of registration reference mark in mask_order data, relative
+to center of the cell (before mirroring or scaling).
+8. 1.105  CENTRALITY  —  (x,y,rotation) Maximum  misplacement  in  millimeters  and,  optionally,  microradians  of
+all patterns as a group, relative to the nominal center of the mask.
+8. 1.106  CHECKSUM  —  For  mask_order,  an  ASCII  16  bit  crc  checksum  encompassing  all  records  from
+START_ORDER   through   END_ORDER,   inclusive.   For   mask_results,   an   ASCII   16   bit   crc   checksum
+encompassing  all  records  from  START_MASK_RESULTS  through  END_MASK_RESULTS,  inclusive.  (See
+COMPUTING THE CHECKSUM, §9.)
+8. 1.107  CLEAR_INTERNAL_WINDOW  —  (x1,y1,x2,y2)  Area  to  have  all  digitized  data  removed  within  the
+window described by (x1,y1,x2,y2), relative to the coordinate space of DATA_SOURCE_FILE. The extents of the
+output pattern file will be the same as DATA_SOURCE_FILE.
+8. 1.108  COAT_DATE_TIME – (date) The date and time that the coating was applied by the mask vendor.
+8. 1.109  COAT_EQUIP_USED  –  (text)  The  model  identification  of  the  equipment  used  by  the  mask  vendor  to
+apply the coating.
+8. 1.110  COATING_COMPOSITION  –  (text)  The  name  used  to  identify  the  composition  of  the  coating,  for
+example  IP3500,  MoSi,  AR3,  etc.,  as  specified  by  the  mask  blank  vendor  if  MASK_VENDOR_APPLIED  =  F,  or
+mask vendor if MASK_VENDOR_APPLIED = T.
+8. 1.111  COATING_GRADE  —  Supplier  grade  of  MASK_COATING  applied  to  the  substrate  to  build  the
+photomask. Text to be agreed by customer/vendor to suit the specific requirement.
+8. 1.112  COATING_LOT_NUMBER — (text) The lot number supplied by the mask blank vendor for a particular
+coating such as the photoresist. Also known as “Resist Lot” or “Bake Lot”.
+8. 1.113  COATING_MASK_VENDOR_APPLIED — (T or F) If T, the coating was applied by the mask vendor.
+8. 1.114  COATING_OPTICAL_DENSITY — (number) A measure of the transmittance through the given coating
+as    specified    by    the    mask    blank    vendor    if    MASK_VENDOR_APPLIED    =    F,    or    mask    vendor    if
+MASK_VENDOR_APPLIED  =  T.  Optical  density  equals  the  log  to  the  base  10  of  the  reciprocal  of  the
+transmittance
+8. 1.115  COATING_PHASE — (number) The angle in degrees that light is shifted by the given coating as specified
+by the mask blank vendor if MASK_VENDOR_APPLIED = F, or mask vendor if MASK_VENDOR_APPLIED =
+T.
+8. 1.116  COATING_REFLECTANCE — (number) For a given coating, the ratio of the reflected flux to the incident
+flux  expressed  as  a  percent,  as  specified  by  the  mask  blank  vendor  if  MASK_VENDOR_APPLIED  =  F,  or  mask
+vendor if MASK_VENDOR_APPLIED = T.
+8. 1.117  COATING_THICKNESS — (number) The thickness of the coating in Angstroms as specified by the mask
+blank vendor if MASK_VENDOR_APPLIED = F, or mask vendor if MASK_VENDOR_APPLIED = T.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 119
+8. 1.118  COATING_TRANSMITTANCE — (number) The ratio of the radiant power transmitted by the coating to
+the    incident    radiant    power    expressed    as    a    percent,    as    specified    by    the    mask    blank    vendor    if
+MASK_VENDOR_APPLIED = F, or mask vendor if MASK_VENDOR_APPLIED = T.
+8. 1.119  COATING_TYPE  –  (CHROME,  RESIST,  ATTENUATOR)  The  name  used  to  identify  the  category  of
+coating being described.
+8. 1.120  COATING_WAVELENGTH  —  (number)  The  wavelength  of  light  in  nanometers  with  which  the  given
+coating is intended to be used as specified by the mask blank vendor if MASK_VENDOR_APPLIED = F, or mask
+vendor if MASK_VENDOR_APPLIED = T.
+8. 1.121  COMPACT_LABEL — Identification of customer-supplied label to use on shipping compact.
+8. 1.122  CUSTOMER — The name of the company placing the order.
+8. 1.123  CUSTOMER_SPEC  –  (text)  Customer’s  designation  for  a  specific  mask  manufacturing  specification.
+CUSTOMER_SPEC may be used in the data structure in addition to, but not in place of, explicit quality requirement
+keywords.
+8. 1.124  CUSTOMER_SPEC_REVISION — (text) Customer designation of the revision of CUSTOMER_SPEC to
+be  used.  This  must  be  explicit  and  may  not  default  to  “latest”  or  “last  used”.    “None”  is  acceptable  if  no  revision
+identification  applies  to  the  specification.    Both  CUSTOMER_SPEC  and  CUSTOMER_SPEC_REVISION  are
+required if either appears at any level in the hierarchy.
+8. 1.125  DARK_INTERNAL_WINDOW — (x1,y1,x2,y2) Area to completely digitize within the window described
+by (x1,y1,x2,y2), relative to the coordinate space of DATA_SOURCE_FILE. The extents of the output pattern file
+will be the same as the DATA_SOURCE_FILE.
+8. 1.126  DATA_CHECKSUM — (integer) To be used to verify integrity of transmitted data.
+8. 1.127  DATA_CHECKSUM_TYPE — (text) Algorithm used to generate DATA_CHECKSUM.
+8. 1.128  DATA_COMPRESSION  —  (ZIP,  ZOO,  GZIP,  Z,  NONE,  BINHEX)  Compression  algorithm  used  for
+transmitted data.
+8. 1.129  DATA_CONSOLIDATION  —  (BACKUP,  TAR,  GNUTAR,  ZIP,  NONE  Consolidation  method  used  for
+transmitted data.
+8. 1.130  DATA_DENSITY — (800BPI, 1600BPI or 6250BPI for 9_TRACK_-TAPE DATA_MEDIUM; HIGH or
+LOW for 4MM_DAT or 8MM_DAT DATA_MEDIUM) for magnetic tape density.
+8. 1.131  DATA_ENCRYPTION  —  (PGP,  NETWIZARD,  USER,  HARDWARE,  NONE)  Encryption  algorithm
+used for transmitted data.
+8. 1.132  DATA_FILE_NUMBER — For GDS-II OASIS, Mann or Electromask data, this is the file number on the
+physical medium.
+8. 1.133  DATA_FILE_SIZE — Size of the file in bytes.
+8. 1.134  DATA_FORMAT  —  (MEBES,  RDOS  =  RDOS  dump,  VAX  =  VAX    backup,  GDS-II  =  GDS-II  stream,
+OASIS = Specification for Open Artwork System Interchange Standard, CIF = Cal Tech Intermediate Format, DXF
+=  Autocad  output,  APPLICON,  MANN_3000,  MANN_3600,  ELECTROMASK,  DOS,  UNIX,  APPLE,  TAR,  and
+others on request) Physical medium format.
+8. 1.135  DATA_FUNCTION_PURPOSE — (OPC, PSM, OPC/PSM, DRC, MRC, LVS, LOGICAL, FRACTURE,
+OTHER, and additional specific functions on request) Description of software function to be performed.
+8. 1.136  DATA_ID  —  The  required  identifying  “name”  for  a  physical  volume  of  data.  The  name  must  match  the
+label visible on the outside of the volume and must be unique among all physical volume names sent by a customer
+to a vendor.
+8. 1.137  DATA_JOB_NAME  —  For  E-beam  data,  this  is  the  name  of  the  job  file  to  be  expected  in  DATA
+MEDIUM.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 120
+8. 1.138  DATA_LAYER_ID — (Layer1;Datatype1[,Layer2;Datatype2,...]) Within DATA_TOP_CELL, a numeric
+pair of layer number and layer datatype separated by a semicolon and multiple sets of layers/datatypes separated by
+a comma. If no datatype is specified for a layer number, then all data datatypes are assumed to be included for that
+layer.
+8. 1.139  DATA_LOCATION — (text) Site where the data file may be found.
+8. 1.140  DATA_MEDIUM — (9_TRACK_TAPE, 4MM_DAT, 8MM_DAT, 1/4_INCH_CARTRIDGE, MODEM,
+FLOPPY,  EMAIL,  VPN,  FTP,  RCP,  CDR,  CDRW,  HARDDRIVE,
+ZIPDRIVE,  JAZZDRIVE,  FLOPPY100MB,
+DERIVED)  Data  transfer  medium  used  for  delivering  pattern  files,  fracture  files,  job  files  and  measure  files.
+DERIVED   indicates   files   which   are   the   result   of   data_manipulation   operations   contained   within   the
+mask_order.
+8. 1.141  DATA_OFFSET — For optical masks only, the (x,y) shift to be applied to the data in building the mask.
+8. 1.142  DATA_PATTERN_NAME  —  The  textual  name  of  a  pattern  file,  either  received  from  the  customer  or
+generated by data_manipulation.  If the pattern received from the customer is a numbered file in a data volume,
+this  is  the  pattern  name  to  be  applied  to
+the  file  specified  by  the  succeeding  DATA_FILE_NUMBER  and/or
+DATA_TOP_CELL and/or DATA_LAYER_ID.  It may be used as input to data_manipulation if referenced by
+DATA_SOURCE_FILE  to  generate  a  new  (different)  DATA_PATTERN_NAME,  or  it  may  be  used  to  identify  a
+pattern to be written on the mask if referenced by PATTERN_NAME in pattern_definition.
+8. 1.143  DATA_PATTERN_WINDOW — (x1,y1,x2,y2) Establishes the extents of the pattern file in the coordinate
+space  as  received  in  DATA_SOURCE_FILE.  (x1,y1)  identifies  the  lower-left  corner;  (x2,y2)  identifies  the  upper-
+right corner.
+8. 1.144  DATA_SCALE_FACTOR — (n) (De)Magnifying factor to be used in (de)magnifying both the geometries
+and the overall pattern file extents of the current data source.
+8. 1.145  DATA_SOURCE_FILE — A file provided by the customer to be used in a Boolean fracturing operation, or
+file resulting from a data_manipulation operation. It must match either a START_DATA_MANIPULATION or a
+DATA_PATTERN_NAME defined earlier in the mask_order.
+8. 1.146  DATA_TOP_CELL — Top cell or structure of the design.
+8. 1.147  DATABASE_AREA  —  (x1,y1,x2,y2)  Unscaled,  unmirrored  coordinates  of  the  window  for  database
+inspection, lower left and upper right corners, relative to the center and coordinate system of the pattern or cell or, if
+a mask_option, relative to the nominal center of the mask (chrome side up), after scaling and mirroring.
+8. 1.148  DATABASE_FILE_NAME — Name of database file to use for database inspection.
+8. 1.149  DATABASE_INSPECTION — (T or F) If T, database inspection is required.
+8. 1.150  DATABASE_JOB_LEVEL — Mask level of customer-supplied job file to use for database inspection.
+8. 1.151  DATABASE_JOB_NAME  —  Customer-supplied  job  file  to  use  for  database  inspection.    Should  be
+omitted if customer does not supply job file.
+8. 1.152  DATABASE_LAYER — (Layer1;Datatype1[,Layer2;Datatype2,...]) Within DATABASE_TOP_CELL, a
+numeric  pair  of  layer  number  and  layer  datatype  separated  by  a  semicolon  and  multiple  sets  of  layers/datatypes
+separated  by  a  comma.  If  no  datatype  is  specified  for  a  layer  number,  then  all  data  datatypes  are  assumed  to  be
+included for that layer. To be used if DATABASE_SOURCE is GDS-II or OASIS.
+8. 1.153  DATABASE_SOURCE  —  (MEBES,  PG,  GDS-II,  OASIS,  KLARIS,  UNDERIVED,  and  others  on
+request)  Data  source  to  be  used  when  database  inspection  is  required.  KLARIS  indicates  that  KLARIS  data  was
+supplied  by  the  customer.  UNDERIVED  indicates  the  customer-supplied  data  prior  to  vendor-performed  data
+manipulation  is  to  be  used  to  produce  the  inspection  data.  GDS-II  or  OASIS  indicates  that  the  GDS-II  or  OASIS
+data is being supplied for database inspection, in addition to the customer-supplied MEBES or PG data to be used to
+write the mask.
+8. 1.154  DATABASE_TOP_CELL — Top cell to be used if DATABASE_SOURCE is GDS-II or OASIS.
+8. 1.155  DATABASE_UNIT — Grid size to be used for fracturing DATABASE_SOURCE into inspection data, as
+required by some inspection systems.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 121
+8. 1.156  DATABASE_WITH_JOB — (T OR F) Database inspection must use job file (DATABASE_JOB_NAME
+and DATABASE_JOB_LEVEL if supplied by customer) to consolidate pattern files.
+8. 1.157  DEFECT_COUNT — Integer maximum allowable number of defects within the INSPECTION_AREA.
+8. 1.158  DEFECT_COUNT_REP     —     Integer     maximum     number     of     repeating     defects     within     the
+INSPECTION_AREA.
+8. 1.159  DEFECT_DENSITY   —   Maximum   allowable   number   of   defects   per   square   centimeter   within   the
+INSPECTION_AREA.
+8. 1.160  DEFECT_EQUIP_REQD — Alphanumeric identification of acceptable equipment for defect inspection.
+8. 1.161  DEFECT_EQUIP_USED — Defect inspection equipment used.
+8. 1.162  DEFECT_INSP_DATE — DEFECT inspection date.
+8. 1.163  DEFECT_INSP_MODE_REQD — Alphanumeric operating mode for DEFECT_EQUIP_REQD.
+8. 1.164  DEFECT_INSP_MODE_USED — (text) DEFECT_EQUIP_USED operating mode.
+8. 1.165  DEFECT_INSP_PIXEL_SIZE_REQD — Pixel size used by DEFECT_EQUIP_REQD.
+8. 1.166  DEFECT_INSP_PIXEL_SIZE_USED — Pixel size used by DEFECT_EQUIP_USED.
+8. 1.167  DEFECT_INSP_SENSITIVITY_REQD — Sensitivity to be used by DEFECT_EQUIP_REQD.
+8. 1.168  DEFECT_INSP_SENSITIVITY_USED — Sensitivity used by DEFECT_EQUIP_USED.
+8. 1.169  DEFECT_QUALITY_ID  —  (text)  Customer’s  for  a  collection  of  defect  quality  specifications,  to  be  used
+only in addition to explicit quality requirement keywords. This may be used in the data structure in addition to, but
+not   in   place   of,   explicit   quality   requirement   keywords.      This   may   not   be   used   in   combination   with
+QUALITY_GROUP_ID. Customer and vendor should document the meaning of this quality grade before using it in
+SEMI P10.
+8. 1.170  DEFECT_SETUP_FILE_NAME_REQD       —       Alphanumeric       name       of       setup       file       for
+DEFECT_EQUIP_REQD.
+8. 1.171  DEFECT_SETUP_FILE_NAME_USED       —       Alphanumeric       name       of       setup       file       for
+DEFECT_EQUIP_USED.
+8. 1.172  DEFECT_SIZE — Maximum dimension of smallest unacceptable defect⎯all types.
+8. 1.173  DEFECT_SIZE_CL — Maximum dimension of smallest unacceptable clear defect.
+8. 1.174  DEFECT_SIZE_CL_ADJ  —  Maximum  dimension  of  smallest  unacceptable  clear,  non-repeating  edge
+defect.
+8. 1.175  DEFECT_SIZE_CL_ADJ_REP  —  Maximum  dimension  of  smallest  unacceptable  clear,  repeating  edge
+defect.
+8. 1.176  DEFECT_SIZE_CL_ISO — Maximum dimension of smallest unacceptable clear, repeating isolated defect.
+8. 1.177  DEFECT_SIZE_CL_ISO_REP  —  Maximum  dimension  of  smallest  unacceptable  clear,  non-repeating
+isolated defect.
+8. 1.178  DEFECT_SIZE_DK — Maximum dimension of smallest unacceptable dark defect.
+8. 1.179  DEFECT_SIZE_DK_ADJ  —  Maximum  dimension  of  smallest  unacceptable  dark,  non-repeating  edge
+defect.
+8. 1.180  DEFECT_SIZE_DK_ADJ_REP  —  Maximum  dimension  of  smallest  unacceptable  dark,  repeating  edge
+defect.
+8. 1.181  DEFECT_SIZE_DK_ISO  —  Maximum  dimension  of  smallest  unacceptable  dark,  non-repeating  isolated
+defect.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 122
+8. 1.182  DEFECT_SIZE_DK_ISO_REP  —  Maximum  dimension  of  smallest  unacceptable  dark,  repeating  isolated
+defect.
+8. 1.183  DEFECT_TYPE   —   (PINHOLE,   EDGE,   PINDOT,   CD,   SEMI_TRANS,   MASSIVE,   CLIPPED,
+PATTERN,   REFL_PATTERN,   PAT_PINHOLE,   REFL_PINHOLE,   CORNER,   LINE_END,   BASIC,   ISO,
+MID_SIZE and others on request) Setup parameter for defect inspection.
+8. 1.184  DEFECTIVE_DIE_DENSITY  —  Maximum  allowable  number  of  die  with  defects  per  square  centimeter
+within the INSPECTION_AREA.
+8. 1.185  DEFECTIVE_DIE_COUNT  —  Integer  maximum  allowable  number  of  die  with  defects  within  the
+INSPECTION_AREA.
+8. 1.186  DEFECTIVE_DIE_COUNT_REP  —  Integer  maximum  number  of  repeating  defective  die  within  the
+INSPECTION_AREA.
+8. 1.187  DELIVERABLE_MASK — (T or F) If F, the mask is to  be  held  internally  by  the  mask  shop  for  the
+production of other deliverable masks. For a MASK_ID with MULTIWRITE, only the final write and process step
+MASK_ID within the multiwrite group may have DELIVERABLE_MASK = T.
+8. 1.188  DELIVERY_PRIORITY — Alphanumeric text, to be agreed between the customer and supplier, describing
+urgency for delivery (e.g., rush, standard, slow).
+8. 1.189  DESIGN_RULE — Numeric data field indicates the nominal minimum dimension of wafer geometries.
+8. 1.190  DIE_TO_DIE_INSPECTION — (T or F) If T, die-to-die inspection is required.
+8. 1.191  DIE_TO_DIE_MEASUREMENTS – (T or F) If T, indicates that the defect inspection performed was die-
+to-die.  If F, indicates defect inspection performed was die-to-database.
+8. 1.192  DIGITIZED_DATA_DARK — (T or F) If T, the image of digitized data is to be opaque on the mask. If F,
+the image of digitized data is to be clear.
+8. 1.193  DROPOUT  —  (x,y)  Row  and  column  of  pattern  or  cell  placement  which  is  to  be  omitted  in  the  array.
+These  array  coordinates  are  rectangular  (even  if  the  actual  written  array  is  non-rectangular),  with  the  origin  at  the
+lower left of the array (chrome side up before mirroring).
+8. 1.194  DUE_DATE_TIME_COMMITTED — (date,time) For delivery (at customer) committed by vendor.
+8. 1.195  DUE_DATE_TIME_REQUESTED — (date,time) Requested for delivery (at customer).
+8. 1.196  DXF_ANGLE — (integer) To be used if DATA_FORMAT is DXF.
+8. 1.197  DXF_UNIT — (integer) To be used if DATA_FORMAT is DXF.
+8. 1.198  EDGE_ROUGHNESS   —   The   (numeric)   maximum   value   of   edge   roughness,   based   on   physical
+measurements.
+8. 1.199  ELAPSED_TIME  —  Numeric  hours  between  masking  steps  in  the  wafer  fab.  Used  in  conjunction  with
+LAYER_PRIORITY,  provides  scheduled  due  dates  based  on  the  delivery  of  each  previous  mask.  No  mask  may
+have both ELAPSED_TIME and DUE_DATE_REQUESTED. See LAYER_PRIORITY.
+8. 1.200  ELAPSED_TIME_COMMITTED — Numeric hours for delivery (at customer) committed by vendor.
+8. 1.201  ELAPSED_WRITE_TIME — (number) The total time in minutes that the given lithography operation took
+to write the mask.
+8. 1.202  EMAIL_ADDRESS — Internet address.
+8. 1.203  END_BARCODE — (text) must match data field of START_BARCODE.
+8. 1.204  END_BILLING_INFORMATION —  (text)  Indicates  the  end  of  the  billing_information  section.    Must
+match data field of START_BILLING_INFORMATION.
+8. 1.205  END_CD — Alphanumeric data field must match data field of START_CD.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 123
+8. 1.206  END_CD_GROUP_MEASUREMENTS        —        (text)        must        match        data        field        of
+START_CD_GROUP_MEASUREMENTS.
+8. 1.207  END_CD_ISO_DENSE — (text) must match data field of START_CD_ISO_DENSE.
+8. 1.208  END_CD_ISO_DENSE_RESULTS          —          (text)          must          match          data          field          of
+START_CD_ISO_DENSE_RESULTS
+8. 1.209  END_CD_MEASUREMENT     —     Alphanumeric     data     field     must     match     data     field     of
+START_CD_MEASUREMENT.
+8. 1.210  END_CD_SET— Alphanumeric data field must match data field of START_CD_SET.
+8. 1.211  END_CD_SET_RESULTS      —      Alphanumeric      data      field      must      match      data      field      of
+START_CD_SET_RESULTS.
+8. 1.212  END_CD_XY_DEFINITION     —     Alphanumeric     data     field     must     match     data     field     of
+START_CD_XY_DEFINITION.
+8. 1.213  END_CD_XY_RESULTS      —      Alphanumeric      data      field      must      match      data      field      of
+START_CD_XY_RESULTS.
+8. 1.214  END_CELL — Must match data field of CELL_ID for which data is complete.
+8. 1.215  END_CELL_INSTANCE — (text) must match data field of CELL_INSTANCE.
+8. 1.216  END_CELL_INSTANCE_OPTIONS  —  Must  match  data  field  of  CELL_INSTANCE  for  which  pattern
+options are complete.
+8. 1.217  END_CELL_OPTIONS — Must match data field of CELL_ID for which options are complete.
+8. 1.218  END_CLOSURE_MEASUREMENTS   —   Must   match   START_CLOSURE_MEASUREMENTS   data
+field.
+8. 1.219  END_COATING  —  (text)  Indicates  the  end  of  the  coating  section.    Must  match  START_COATING
+data field.
+8. 1.220  END_DATA_FRACTURE — Must match START_DATA_FRACTURE data field.
+8. 1.221  END_DATA_FUNCTION — Must match START_DATA_FRACTURE data field.
+8. 1.222  END_DATA_MANIPULATION — (text) must match data field of START_DATA_MANIPULATION.
+8. 1.223  END_DATA_MEDIUM — Must match data field of DATA_MEDIUM for which data is complete.
+8. 1.224  END_DATA_PATTERN_NAME — Must match data field of DATA_PATTERN_NAME.
+8. 1.225  END_DATA_SOURCE_FILE — Must match DATA_SOURCE_FILE data field.
+8. 1.226  END_DEFECT_DEFINITION — (text) must match data field of START_DEFECT_DEFINITION
+8. 1.227  END_DEFECT_MEASUREMENTS         —         (text)         must         match         data         field         of
+START_DEFECT_MEASUREMENTS.
+8. 1.228  END_ETCH_DEPTH_MEASUREMENTS  —  Must  match  START_ETCH_DEPTH_MEASUREMENTS
+data field.
+8. 1.229  END_FTP_HOST — Must match data field of FTP_HOST_NAME.
+8. 1.230  END_LITHO_INFORMATION     —     Alphanumeric     data     field     must     match     data     field     of
+START_LITHO_INFORMATION.
+8. 1.231  END_MASK — Must match data field of MASK_ID for which data is complete.
+8. 1.232  END_MASK_GROUP — Must match data field of MASK_GROUP_ID for which data is complete.
+8. 1.233  END_MASK_GROUP_OPTIONS — Must match data field of MASK_GROUP_ID for which options are
+complete.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 124
+8. 1.234  END_MASK_RESULTS — Must match START_MASK_RESULTS data field.
+8. 1.235  END_MASK_RESULTS_OPTIONS    —    Alphanumeric    data    field    must    match    data    field    of
+START_MASK_RESULTS_OPTIONS
+8. 1.236  END_MASK_SET — Must match data field of MASK_SET_ID for which data is complete.
+8. 1.237  END_MASK_SET_OPTIONS  —  Must  match  data  field  of  MASK_SET_ID  for  which  options  are
+complete.
+8. 1.238  END_MATERIALS_USED      —      Alphanumeric      data      field      must      match      data      field      of
+START_MATERIALS_USED.
+8. 1.239  END_MEASURED_ETCH_DEPTH_SITE           —           Must           match           data           field           of
+MEASURED_ETCH_DEPTH_MARK_SITE_ID.
+8. 1.240  END_MEASURED_PHASE_ANGLE_SITE          —          Must          match          data          field          of
+MEASURED_PHASE_ANGLE_MARK_SITE_ID.
+8. 1.241  END_MEASURED_REGISTR_MARK           —           Must           match           data           field           of
+MEASURED_REGISTR_MARK_ID.
+8. 1.242  END_MEASURED_TRANSMISSION_SITE          —          Must          match          data          field          of
+MEASURED_TRANSMISSION_MARK_SITE_ID.
+8. 1.243  END_OPC — Must match data field of START_OPC.
+8. 1.244  END_ORDER — Must match data field of START_ORDER for which data is complete.
+8. 1.245  END_PATTERN_DEFINITION — Must match data field of LEVEL_ID for which data is complete.
+8. 1.246  END_PATTERN_GROUP  —  Must  match  data  field  of  PATTERN_GROUP_ID  for  which  data  is
+complete.
+8. 1.247  END_PATTERN_GROUP_INSTANCE — Must match data field of PATTERN_GROUP_INSTANCE.
+8. 1.248  END_PATTERN_GROUP_OPTIONS  —  Must  match  data  field  of  PATTERN_GROUP_ID  for  which
+options are complete.
+8. 1.249  END_PATTERN_GROUP_RESULTS    —    Alphanumeric    data    field    must    match    data    field    of
+START_PATTERN_GROUP_RESULTS.
+8. 1.250  END_PATTERN_OPTIONS — Must match data field of START_PATTERN_OPTIONS.
+8. 1.251  END_PHASE_ANGLE_MEASUREMENTS          —          Must          match          data          field          of
+START_PHASE_ANGLE_MEASUREMENTS.
+8. 1.252  END_PHASE_SHIFT — Must match START_PHASE_SHIFT data field.
+8. 1.253  END_PHASE_SHIFT_MEASUREMENTS —          Must          match          data          field          of
+START_PHASE_SHIFT_MEASUREMENTS.
+8. 1.254  END_PLACEMENT — Must match data field of START_PLACEMENT.
+8. 1.255  END_REGISTR — Must match data field of START_REGISTR.
+8. 1.256  END_REGISTR_MEASUREMENTS            —            Must            match            data            field            of
+START_REGISTR_MEASUREMENTS.
+8. 1.257  END_REPAIR_DEFINITION — Must match data field of START_REPAIR_DEFINITION.
+8. 1.258  END_SEM_PHOTO — Must match START_SEM_PHOTO data field.
+8. 1.259  END_SHIP_FILM — Must match data field of SHIP_FILM.
+8. 1.260  END_SHIP_PLOT —  Must match data field of START_SHIP_PLOT.
+8. 1.261  END_SHIP_TO — Must match data field of START_SHIP_TO.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 125
+8. 1.262  END_SHIPPABLE_DATA — Must match data field of START_SHIPPABLE_DATA.
+8. 1.263  END_SUBSTRATE — Must match data field of START_SUBSTRATE.
+8. 1.264  END_SURFACE_DEFINITION — Must match data field of START_SURFACE_DEFINITION.
+8. 1.265  END_SURFACE_INSP_MEASUREMENTS          —          Must          match          data          field          of
+START_SURFACE_INSP_MEASUREMENTS.
+8. 1.266  END_TITLE  —  (title  number)  Indicates  end  of  keywords  for  a  specific  title.  Must  match  data  field  of
+START_TITLE for which data is complete.
+8. 1.267  END_TRANSMISSION_MEASUREMENTS          —          Must          match          data          field          of
+START_TRANSMISSION_MEASUREMENTS.
+8. 1.268  END_VENDOR_INFO — Must match data field of START_VENDOR_INFO.
+8. 1.269  ENGINEERING_ADDRESS — Address for delivery of shippable engineering data.
+8. 1.270  ENGINEERING_CONTACT — Name of person to contact for technical questions.
+8. 1.271  ENGINEERING_EMAIL — Internet address for ENGINEERING_CONTACT.
+8. 1.272  ENGINEERING_FAX — Phone number for facsimile machine of ENGINEERING_CONTACT.
+8. 1.273  ENGINEERING_PHONE — Phone number for ENGINEERING_CONTACT.
+8. 1.274  EQUIP_SITE_REQD — Alphanumeric identification of qualified manufacturing site, to be agreed between
+customer and vendor, for preceding required equipment.  For a given MASK_ID, EQUIP_SITE_REQD may not be
+used in combination with MFG_SITE_REQD.
+8. 1.275  ESTIMATED_ARRIVAL — The date and time when the vendor predicts MASK_ID will be delivered to
+the customer, based on the MILESTONE most recently completed.
+8. 1.276  ESTIMATED_ARRIVALS  —  (T  or  F)  If  T,  the  vendor  is  requested  to  use  mask_results  to  supply  a
+prediction  of  the  delivery  date  and  time  when  MASK_ID  will  be  delivered  to  the  customer,  based  on  the
+MILESTONE most recently completed. ESTIMATED_ARRIVAL will be transmitted each time mask_results is
+required   by   either   MILESTONES   or   PERIODIC_UPDATES.      If   neither   have   been   requested,   then
+ESTIMATED_ARRIVAL should be transmitted daily.
+8. 1.277  ETCH_DEPTH_EQUIP_REQD — (text) Etch depth measurement equipment required by customer.
+8. 1.278  ETCH_DEPTH_EQUIP_USED — (text) Etch depth measurement equipment used.
+8. 1.279  ETCH_DEPTH_ERROR — Maximum allowable deviation (in angstroms) of any etch depth measurement
+from ETCH_DEPTH_TARGET.
+8. 1.280  ETCH_DEPTH_MARK_DRAWING  —  The  uniquely  identified  (for  each  customer)  document  which
+shows  the  etching  depth  measurement  mark  structure  itself,  and  may  show  the  place(s)  within  the  etching  depth
+measurement mark which are to be measured.
+8. 1.281  ETCH_DEPTH_MARK_FEATURE  —  Text  describing  the  feature  to  be  used  for  phase  etching  depth
+measurement.
+8. 1.282  ETCH_DEPTH_MARK_LOCATION — (x,y) Location of etching depth measurement mark relative to the
+nominal center of the mask (chrome side up).
+8. 1.283  ETCH_DEPTH_MARK_LOCATION_DRAWING   —   The   uniquely   identified   (for   each   customer)
+document which shows the location(s) of the etching depth measurement mark structure.
+8. 1.284
+ETCH_DEPTH_MEASUREMENT_DATE — Etch depth measurement date.
+8. 1.285  ETCH_DEPTH_MEASUREMENT_FILE_NAME  —  Name  of  data  file  containing  results  of  etch  depth
+measurement.
+8. 1.286  ETCH_DEPTH_MODE_REQD      —      (text)      operating      mode      required      by      customer      for
+ETCH_DEPTH_EQUIP_USED.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 126
+8. 1.287  ETCH_DEPTH_MODE_USED — (text) operating mode for ETCH_DEPTH_EQUIP_USED.
+8. 1.288  ETCH_DEPTH_SITE_ID  —  Unique  alphanumeric  identifier  of  each  etch  depth  measurement  location
+within MASK_SET_ID to identify individual locations when using mask_results.  If the same coordinates apply
+to locations on different masks within the mask set, they may have the same ETCH_DEPTH_SITE_ID, but it is not
+mandatory.
+8. 1.289  ETCH_DEPTH_RANGE — Maximum acceptable variation (in angstroms) of all etch depth measurements,
+relative to each other.
+8. 1.290  ETCH_DEPTH_REFERENCE_ONLY  —  (T  or  F)  If  T,  indicates  that  the  etch  depth  feature  is  to  be
+measured and the data transmitted to the customer (if requested by SHIP_PHASE_SHIFT_MEASUREMENTS), but
+that deviations in its measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.291  ETCH_DEPTH_TARGET — Desired mean etch depth in angstroms.
+8. 1.292  ETCH_DEPTH_TOLERANCE  —  Maximum  acceptable  deviation  (in  angstroms)  of  the  mean  of  all
+measured critical dimensions to the ETCH_DEPTH_TARGET.
+8. 1.293  EUV_ABSORBER_COMPOSITION  (text)  —  Composition  of  the  absorber  stack  of  an  EUV  mask,  to  be
+agreed on between customer and supplier, as per SEMI P38.
+8. 1.294  EUV_ABSORBER_OPTICAL_PROPERTIES  —  Percentage  of  absorber  reflectivity  as  defined  in  Table
+11 OF SEMI P38.
+8. 1.295  EUV_BLANK_RESISTANCE (numeric) — Electrical resistance (in Ohms) measured between the surface
+of the absorber stack and the backside of the mask blank.
+8. 1.296  EUV_BLANK_TYPE — Type of EUV mask blank as defined in Table 1 of SEMI P38.
+8. 1.297  EUV_CAPPING_COMPOSITION  (text)  —  Composition  of  capping  layers  on  the  multilayer  stack  of  an
+EUV mask, to be agreed on between customer and supplier, as per SEMI P38.
+8. 1.298  EUV_EXPANSION_COEFF — Grade of coefficient of thermal expansion for EUV mask blank as defined
+in Table 3 of SEMI P37.
+8. 1.299  EUV_FLATNESS_BACK — Grade of flatness required for back side of EUV mask within flatness quality
+area as per Figure 3 and Table 4 of SEMI P37.
+8. 1.300  EUV_FLATNESS_FRONT  —  Grade  of  flatness  required  for  front  side  of  EUV  mask  within  flatness
+quality area as per Figure 3 and Table 4 of SEMI P37.
+8. 1.301  EUV_MEAN_PEAK_REFLECTIVITY — Grade for percentage reflectivity of the EUV multilayer stack,
+as per Table 5 of SEMI P38.
+8. 1.302  EUV_MMR_WAVELENGTH (wavelength) — Wavelength in nanometers of the mean median reflected of
+the multilayer stack of an EUV mask, to be agreed on between customer and supplier, as per SEMI P38.
+8. 1.303  EUV_MULTILAYER_COMPOSITION  (text)  —  Material  composition  of  the  multilayers  of  an  EUV
+mask, to be agreed on between customer and supplier, as per SEMI P38.
+8. 1.304  EUV_PEAK_REFLECTIVITY_UNIFORMITY — Grade of reflectivity uniformity required per Table 6 of
+SEMI P38.
+8. 1.305  EWT_CEILING  —  (numeric)  The  maximum  monetary  amount  that  can  be  added  to  PRICE  as  an  excess
+write  time  charge  for  the  mask.  If  the  charge  calculated  with  EWT_RATE  exceeds  EWT_CEILING,  then
+EWT_CEILING is used as the excess write time charge.
+8. 1.306  EWT_RATE  —  (numeric)  The  monetary  amount  per  minute  to  be  added  to  PRICE  for  write  time
+exceeding the EWT_THRESHOLD time. The monetary unit is defined in PRICE_UNITS.
+8. 1.307
+EWT_THRESHOLD  —  (numeric)  The  number  of  minutes  that  a  mask  can  write  before  incurring  an
+Excess Write Time (EWT) charge.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 127
+8. 1.308  EXTERNAL_WINDOW  —  (x1,y1,x2,y2)  Area  to  have  all  digitized  data  removed  outside  the  window
+described  by  (x1,y1,x2,y2),  relative  to  the  coordinate  space  of  DATA_SOURCE_FILE.  The  extents  of  the  pattern
+file are thus defined by the window.
+8. 1.309  FAB_TECHNOLOGY  –  (text)  Customer’s  designation  for  the  fabrication  unit’s  wafer  manufacturing
+process
+8. 1.310  FIGURE_COUNT — Total number of geometries which are expected in the pattern file. If this is incorrect,
+the mask will not be written until it is corrected.
+8. 1.311  FILE_DATE_TIME — (x,y) Date and time of transmission of mask order. Format will be as in § 6.19.
+8. 1.312  FILM_COLOR — Color to be used for the mask film.
+8. 1.313  FILM_NORMAL_TONE — (T or F) If T, digitized data will be dark.
+8. 1.314  FILM_SCALE — Numeric scale of the film of the mask image.
+8. 1.315  FILM_SIZE — (x,y) Size in inches of the film.
+8. 1.316  FINAL_AUDIT_DATE_TIME  –  (date)  The  date  and  time  of  the  finalquality  audit  prior  to  shipping  the
+mask to the customer.
+8. 1.317  FINAL_QC_AUDITOR — (text) Mask supplier identification of
+final Quality Control auditor.
+8. 1.318  FRACTURE_FILE — Alphanumeric file name of fracture instructions provided by the customer with the
+mask order.
+8. 1.319  FRACTURE_FILE_FORMAT — Format of FRACTURE_FILE (CATS, K2, and others on request).
+8. 1.320  FRACTURING_SCALE — For optical data (Mann or Electromask) only, this is the scale factor to use in
+fracturing the data to E-beam format.
+8. 1.321  [FTP_DIRECTORY] — Name of target directory for FTP data.
+8. 1.322  FTP_HOST_NAME — Domain of the FTP host, either in the form n.n.n.n where n is an integer from 0 to
+255, or in an equivalent text name if such is supported by the FTP site.
+8. 1.323  [FTP_LOGIN] — The login name for an FTP account.  If an anonymous FTP is used, the data field will be
+“anonymous”.
+8. 1.324  [FTP_MODE]  —  (ASCII,  BINARY  or  AUTO)  Data  encoding  type  for  FTP  data.    If  absent,  default  is
+BINARY.
+8. 1.325  [FTP_PASSWORD] — Password for FTP account.
+8. 1.326  GOOD_FIELDS — Specifies the 1X reticle fields which must pass inspection criteria and is applied to the
+cells immediately instanced by the preceding CELL_ID. Fields are referenced by numbers assigned from left to right
+according to their position on the mask, chrome side up. For example, for a mask with 5 fields, the fields would be:
+1  2  3  4  5
+The required good fields are specified by any logical combination of field numbers, “AND”, “OR”, and parentheses.
+In the above example, “(1 OR 2) AND (3 OR 4) AND 5” would require that either 1 or 2 be good, and either 3 or 4
+be  good,  and  that  5  be  good.  No  logical  precedence  is  assumed;  precedence  is  defined  only  by  parentheses.  This
+keyword applies only to 1X reticles.
+8. 1.327  GUIDES_REQD — (STANDARD, WIDE or BOTH) Applies to 1X reticles only.
+8. 1.328  INPUT_FILE_FORMAT — Format of INPUT_FILE_NAME.
+8. 1.329  INPUT_FILE_NAME      —  (text)  Name  identifying  the  input  file  for  RUNSET_NAME.    If  this  keyword
+appears    in    the    mask_order,    it    must    be    explicitly    referenced    in    a    RUNSET_NAME    and/or    a
+PARAMETER_FILE_NAME.
+8. 1.330  INSP_DATABASE_DATA_FORMAT        —        Alphanumeric        description        of        format        for
+SHIP_INSP_DATABASE_DATA.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 128
+8. 1.331  INSPECT_ALL_SITES    —    If    T,    all    placements    of    patterns    under    this    cell_instance    or
+pattern_instance require in-spection, regardless of the number of inspection tool setups necessary to do so.
+8. 1.332  INSPECT_THROUGH_PELLICLE — (T or F) If T, the mask must be inspected through the pellicle and
+the      defect_definition      and      database_inspection      keywords      to      be      used      must      follow      the
+INSPECT_THROUGH_PELLICLE keyword.  Unpelliclized  inspection  may  be  separately  defined  and  would
+precede the INSPECT_THROUGH_PELLICLE keyword.
+8. 1.333  INSPECTION_AREA  —  (x1,y1,x2,y2)  Unscaled  coordinates  of  window  for  defect  inspection,  lower  left
+and  upper  right  corners,  relative  to  the  nominal  center  of  mask,  pattern  or  cell  (chrome  side  up  for  masks,
+unmirrored for patterns or cells).
+8. 1.334  INSPECTION_AREA_EXCLUDE  —  (x1,  y1,  x2,  y2)  Unscaled  coordinates  of  window  to  be  excluded
+from    defect    inspection.    This    is    commonly    referred    to    as    DNIR    (Do    Not    Inspect    Region).    (See
+INSPECTION_AREA.)
+8. 1.335  INSPECTION_REF_LOCATION — (x,y) Location of reference mark for defect inspection, relative to the
+nominal center of the substrate (chrome side up).
+8. 1.336  INSPECTION_SETUP_FILENAME — Alphanumeric name of setup file for defect inspection equipment.
+8. 1.337  JOB_ONLY_APPROVAL_REQD  —  (T  or  F)  Explicit  approval  of  the  mask  writing  control  file  must  be
+given by the customer before the mask is to be written or further processed.
+8. 1.338  JOB_ONLY_APPROVED        —        Date        approval        was        granted        by        customer        for
+JOB_ONLY_APPROVAL_REQD.
+8. 1.339  JOB_WITH_PATTERNS_APPROVAL_REQD — (T or F) Explicit approval  of  the  mask  writing  control
+file  and  all  referenced  pattern  files  must  be  given  by  the  customer  before  the  mask  is  to  be  written  or  further
+processed.
+8. 1.340  JOB_WITH_PATTERNS_APPROVED     —     Date     approval     was     granted     by     customer     for
+JOB_WITH_PATTERNS_APPROVAL_REQD.
+8. 1.341  JOB_FORMAT — (MEBES, EEBES, ATEQ, and others on request) Format of preceding JOB NAME.
+8. 1.342  JOB_LEVEL — Level of preceding JOB_NAME to be used to make mask.
+8. 1.343  JOB_NAME — Name of job file to be used to make mask(s).
+8. 1.344  LAYER_PRIORITY  —  Sequence  number  in  which  masks  are  needed.  Together  with  ELAPSED_TIME
+determines the mask delivery schedule. The first mask (LAYER_PRIORITY=1) is due within its ELAPSED_TIME
+from the time it is ordered or released; the second mask is due within its ELAPSED_TIME from when the first mask
+was due, or from when the first mask was delivered, whichever is later; and so on.
+8. 1.345  LEVEL_ID — Numerical indicator of which masks within the mask set will include this pattern. When a
+MASK_ID  in  a  MASK_GROUP,  which  references  this  PATTERN_GROUP_ID,  matches  this  LEVEL_ID,  this
+pattern will appear on the mask. When LEVEL_ID is “A”, the pattern will appear on all masks which reference the
+pattern  group.  A  given  LEVEL_ID  value  may  appear  only  once  in  any  pattern  group.  Appearance  of  “A”  as  a
+LEVEL_ID value precludes any other patterns from the pattern group.
+8. 1.346  LINE_ITEM_NUMBER — Integer line item number relative to PO_NUMBER.
+8. 1.347  LITHO_EQUIP_REQD  —  (EBEAM,  OPTICAL,  LASER)  Acceptable  equipment  for  writing  product
+mask(s).
+8. 1.348  LITHO_EQUIP_USED    —    Type    of    equipment    used    for    writing    product    mask(s).        See
+LITHO_EQUIP_REQD.
+8. 1.349  LITHO_MODE_REQD  —  (SPP,MPP,VA,4PASS,8PASS,1000UM,  and  others  on  request.)    Acceptable
+recipe for LITHO_EQUIP_REQD.
+8. 1.350
+LITHO_MODE_USED — The writing methodology used by the lithography tool.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 129
+8. 1.351  LITHO_MODEL_REQD   —   (ALTA_3000,   ALTA_3500,   ALTA_3700,   ALTA_4300,   CORE_2000,
+CORE_2100,   CORE_2500,   CORE_2564,   EBM_3500,   EBM_4000,   HL_800,   HL_900,   HL_950,   HL_7000,
+JBX_3030,  JBX_7000,  JBX_9000,  LRS_55,  LRS_800,  MANN_3000,  MANN_3600,  MANN_3696,  MEBES  III,
+MEBES  IV,  MEBES_4000,  MEBES_4500,  MEBES_4700,  MEBES_5000,  MEBES_5500,  MEBES_EXARA,
+MM_101,   MP_508,   OMEGA_6600,   SIGMA_7100,   SIGMA_7300,   TAMARACK_142,   TAMARACK_155,
+TOSHIBA_4700,    TRE_220,  ULTRABEAM_V2000,  ZBA_21,  ZBA_23H,  ZBA_31,  ZBA_31H+,  ZBA_320,
+ZBA_340, and others on request)  Model of acceptable mask writing equipment.
+8. 1.352  LITHO_MODEL_USED  —  The  model  name  of  the  lithography  tool  used  to  perform  the  lithography
+operation. See LITHO_MODEL_REQD.
+8. 1.353  LOCATION — (x,y) Location of the center of the initial pattern or cell, relative to center of the preceding
+CELL_ID (before mirroring or scaling).
+8. 1.354  LOCATION_SPEC  —  Alphanumeric  identification  of  customer-supplied  specification  for  pattern  or  cell
+placement.
+8. 1.355  LOG_FILE_NAME—  (text)  Name  identifying  the  log  output  file  for  RUNSET_NAME.    If  this  keyword
+appears    in    the    mask_order,    it    must    be    explicitly    referenced    in    a    RUNSET_NAME    and/or    a
+PARAMETER_FILE_NAME.
+8. 1.356  MACHINE_SERIAL_NUMBER  —  (text)  The  serial  number  of  the  lithography  tool  used  to  perform  the
+lithography operation.
+8. 1.357  MAILING_ADDRESS — Postal address.
+8. 1.358  MASK_COATING      —      (HIGH_REFLECTIVE_CHROME,      MEDIUM_REFLECTIVE_CHROME,
+LOW_REFLECTIVE_CHROME,        SEE_THROUGH_CHROME,        IRON_OXIDE,        CHROME_OXIDE,
+EMULSION) or in the case of other coatings, an alphanumeric description. (See SEMI P2.)
+8. 1.359  MASK_GROUP_ID — Name of the mask group which follows; must be used in all references within this
+MASK_SET_ID to this mask group.
+8. 1.360  MASK_ID  —  Unique  integer  identifier  of  each  mask  within  mask  set.  All  patterns  referenced  by  the
+MASK_GROUP_ID’s  PLACEMENT_TOP_CELL  whose  LEVEL_ID’s  match  this  MASK_ID  will  appear  on  the
+mask.    When  LEVEL_ID  is  “A”,  the  pattern  will  appear  on  all  masks  whose  PLACEMENT_-TOP_CELL
+references the pattern group.
+8. 1.361  MASK_NAME  —  Name  used  by  customer  for  mask,  to  be  used  to  cross-reference  MASK_ID  to
+customer’s  internal  tracking  system.  This  is  primarily  for  the  customer’s  use  only,  but  should  be  recorded  by  the
+vendor and reported back in mask_results.
+8. 1.362  MASK_REGISTR_MARK  —  (x,y)  Location  of  registration  reference  mark  in  mask_order,  relative  to
+the nominal center of substrate (chrome side up).
+8. 1.363  MASK_REGISTR_MARK_LOCATION  —  (x,y)  Location  of  individual  registration  mark,  relative  to
+nominal center of substrate (chrome side up), based on mask_order information. This is the target location for the
+mark, reflected in mask_results.
+8. 1.364  MASK_ROTATION — (0, 90, 180 and 270) Degrees to rotate the entire set of mask data (patterns, titles,
+barcodes, etc.) counterclockwise (assuming a chrome-up orientation).
+8. 1.365  MASK_SERIAL_NUMBER  —  (alphanumeric)  The  serial  number  title  written  on  the  mask  during
+lithography - usually numeric, but alphanumeric if agreed by customer and vendor.
+8. 1.366  MASK_SET_ID — The “name” of the mask set, often the device name or number. This must be used in all
+future references to this mask set and must be unique among mask sets ordered by the customer.
+8. 1.367  MASK_SET_NAME   —   Name   used   by   customer   for   mask   set,   to   be   used   to   cross-reference
+MASK_SET_ID to customer’s internal tracking system. This is primarily for the customer’s use only, but should be
+recorded by the vendor and reported back in mask_results.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 130
+8. 1.368  MASK_SET_VERSION  —  Name  used  by  customer  for  versions  of  the  mask  set,  to  be  used  to  cross-
+reference MASK_SET_ID to customer’s internal tracking system. This is primarily for the customer’s use only, but
+should be recorded by the vendor and reported back in mask_results.
+8. 1.369  MASK_SHIPPED_DATE_TIME – (date) The date and time the mask left the mask shop for delivery to the
+customer.
+8. 1.370  MAX_MASKS_IN_PACKAGE — Integer maximum number of masks to be shipped inside PACKAGE.
+8. 1.371  MEASURE_FILE_FORMAT — (MF2, MF3, MTX, IMP, and others on request.)
+8. 1.372  MEASURE_FILE_NAME — Alphanumeric name of file to be used for registration mark locations. When
+MEASURE_FILE_NAME  follows  MASK_REGISTR_MARK  or  CELL_REGISTR_MARK,  the  mark  locates  the
+origin  of  the  measure  file.  When  in  mask_options  or  in  pattern_options,  MEASURE_FILE_NAME  must
+follow either MASK_REGISTR_MARK or CELL_REGISTR_MARK.
+8. 1.373  MEASURED_CD  —  The  critical  dimension  measurement  at  the  CD_LOCATION,  as  measured  by  the
+vendor.
+8. 1.374  MEASURED_CD_DENSE_MEAN — Average of all measured dense CD features.
+8. 1.375  MEASURED_CD_DENSE_RANGE  —  CD_RANGE  of  the  dense  features  on  the  mask  as  measured  by
+the vendor.
+8. 1.376  MEASURED_CD_DEVIATION_FROM_MEAN   —   (n,   m)   For   all   measurements   in   the   associated
+measured_cd_results  section,  the  difference  (n)  between  the  maximum  measurement  and  the  mean,  and  the
+difference (m) between the mean and the minimum measurement.  “n” will always be positive; “m” will always be
+negative.
+8. 1.377  MEASURED_CD_DEVIATION_FROM_TARGET — (numeric) CD_DEVIATION_FROM_TARGET of
+the  mask  as  measured  by  the  vendor.  This  is  the  largest  single  deviation  of  all  measurement  points  from  the
+specified  target.  If  the  largest  deviation  is  for  a  CD  larger  than  the  target,  then  the  value  will  be  positive;  if  the
+largest deviation is for a CD smaller than the target, then the value will be negative.
+8. 1.378  MEASURED_CD_FILE_NAME — Name of data file containing results of CD measurement.
+8. 1.379  MEASURED_CD_ISO_DENSE_TOLERANCE   —   CD_ISO_DENSE_TOLERANCE   of   the   mask   as
+measured  by  the  vendor.  The  mean  of  the  ISOLATED  critical  dimensions  should  always  be  subtracted  from  the
+mean of the DENSE critical dimensions.
+8. 1.380  MEASURED_CD_ISO_MEAN — Average of all measured isolated CD features.
+8. 1.381  MEASURED_CD_ISO_RANGE — CD_RANGE of the isolated features on the mask as measured by the
+vendor.
+8. 1.382  MEASURED_CD_LOCATION — (x,y) The actual location, relative to the nominal center of the
+mask, of
+the critical dimension as measured by the vendor.
+8. 1.383  MEASURED_CD_MAX  —  (number)  For  the  associated  cd_group  or  cd_set,  the  maximum  of  all
+measurements.
+8. 1.384  MEASURED_CD_MEAN  —  (number)  For  the  associated  cd_group  or  cd_set,  the  mean  of  all
+measurements.
+8. 1.385  MEASURED_CD_MIN  —  (number)  For  the  associated  cd_group  or  cd_set,  the  minimum  of  all
+measurements.
+8. 1.386  MEASURED_CD_RANGE  —  (number)  CD_RANGE  of  the  mask  as  measured  by  the  vendor.
+For  the
+associated  cd_group  or  cd_set,  this  is  the  difference  between  the  maximum  measurement  and  the  minimum
+measurement.
+8. 1.387  MEASURED_CD_SITE_ID — Must match CD_SITE_ID in mask_order for site being measured.  If the
+customer  assigned  no  CD_SITE_ID  for  the  required  location  (e.g.,  only  CD_LOCATION_DRAWING  was  used),
+the vendor will assign a MEASURED_CD_SITE_ID for each measurement location so that it is unique within the
+MASK_SET_ID.    If  CD_SITE_ID was  used  as  a  pattern_options  in  mask_order  for  a  pattern  with  multiple
+
+
+SEMI P10-0705 © SEMI 1990, 2005 131
+instances,    then    the    vendor    will    add    a    suffix    to    CD_SITE_ID    for    each    instance    so    that    each
+MEASURED_CD_SITE_ID in mask_results will be unique.
+8. 1.388  MEASURED_CD_THREE_SIGMA  —  (number)  CD_THREE_SIGMA  of  the  mask  as  measured  by  the
+vendor.  For  the  associated  cd_group  or  cd_set,  this  is  the  product  of  3  times  the  standard  deviation  of  all
+measurements
+8. 1.389  MEASURED_CD_TOLERANCE — (number) CD_TOLERANCE of the mask as measured by the vendor.
+For  the  associated  cd_group  or  cd_set,  this  is  the  difference  between  the  mean  of  all  included  measurements
+and the CD_TARGET. If the mean CD is larger than the target, then the value will be positive; if the mean CD is
+smaller than the target, then the value will be negative.
+8. 1.390  MEASURED_CD_XY_DEVIATION  —  CD_XY_DEVIATION  of  the  mask  as  measured  by  the  vendor.
+This  is  the  maximum  difference  between  any  horizontally  scanned  and  vertically  scanned  measurement  at  a
+cd_xy_site among all sites within the cd_xy_definition.  The MEASURED_VERTICAL_CD should always be
+subtracted from the MEASURED_HORIZONTAL_CD.
+8. 1.391  MEASURED_CD_XY_MORPHOGRAPHY  —  The  CD_MORPHOGRAPHY  of  all  of  the  cd_xy_site
+CD features if they were all specified in mask_order and if they were all of the same
+morphography  type.    The
+data value would be “unspecified” if some sites were not specified, or “mixed” if not all sites were the same.
+8. 1.392  MEASURED_CD_XY_TOLERANCE — CD_XY_TOLERANCE of the mask as measured by the vendor.
+This is the difference between the mean of all horizontally scanned critical dimension measurements to the mean of
+all  vertically  scanned  critical  dimension  measurements  within  the  cd_xy_definition.  The  mean  of  the  vertically
+scanned  critical  dimensions  should  always  be  subtracted  from  the  mean  of  the  horizontally  scanned  critical
+dimensions.
+8. 1.393  MEASURED_CD_XY_TONE_CLEAR  —  (T  or  F)  The  CD_TONE_CLEAR  of  all  of  the  cd_xy_site
+CD   features.      They   must   all   be   the   same   as   per   the   requirement   of   CD_XY_TOLERANCE   and
+CD_XY_DEVIATION.
+8. 1.394  MEASURED_CENTRALITY — CENTRALITY as measured by the vendor.
+8. 1.395  MEASURED_CLOSURE_LOCATION       —       (text)       Description       of       the       location       where
+MEASURED_REGISTR_CLOSURE  was  measured.    This  may  be  descriptive  (e.g.,  “upper  left”)  or  coordinate-
+based, as agreed by the vendor and the customer.
+8. 1.396    MEASURED_CLOSURE_READING      (x,y)  REGISTR_CLOSURE  as  measured  by  the  vendor  in  both
+axes at MEASURED_CLOSURE_LOCATION.
+8. 1.397  MEASURED_DEFECT_COUNT — DEFECT_COUNT as measured by the vendor.
+8. 1.398  MEASURED_DEFECT_COUNT_REP — DEFECT_COUNT_REP as measured by the vendor.
+8. 1.399  MEASURED_DEFECT_COUNT_WITHIN_SPEC — Number of defects detected during inspection which
+were smaller than the specification, excluding false detections.
+8. 1.400  MEASURED_DEFECT_DENSITY — DEFECT_DENSITY as measured by the vendor.
+8. 1.401  MEASURED_DEFECT_FILE_NAME — Name of data file containing results of defect inspection.
+8. 1.402  MEASURED_DEFECTIVE_DIE_COUNT — DEFECTIVE_DIE_COUNT as measured by the vendor.
+8. 1.403  MEASURED_DEFECTIVE_DIE_COUNT_REP — DEFECTIVE_DIE_COUNT_REP as measured by the
+vendor.
+8. 1.404  MEASURED_DEFECTIVE_DIE_DENSITY   —   DEFECTIVE_DIE_DENSITY   as   measured   by   the
+vendor.
+8. 1.405  MEASURED_ETCH_DEPTH — Phase shift etch depth as measured at a single site.
+8. 1.406  MEASURED_ETCH_DEPTH_AVERAGE  —  Mean  of  all  customer-specified  etch  depth  measurement
+sites.
+8. 1.407  MEASURED_ETCH_DEPTH_ERROR — ETCH_DEPTH_ERROR as measured by the vendor.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 132
+8. 1.408  MEASURED_ETCH_DEPTH_MARK_SITE_ID  —  Must  match  ETCH_DEPTH_MARK_SITE_ID  in
+mask_order  for  site  being  measured.    If  the  customer  assigned  no  ETCH_DEPTH_MARK_SITE_ID  for  the
+required location (e.g., only ETCH_DEPTH_MARK_LOCATION_DRAWING was used), the vendor will assign a
+MEASURED_ETCH_DEPTH_MARK_SITE_ID  for  each  measurement  location  so  that  it  is  unique  within  the
+MASK_SET_ID.
+8. 1.409  MEASURED_ETCH_DEPTH_RANGE — ETCH_DEPTH_RANGE as measured by the vendor.
+8. 1.410  MEASURED_ETCH_DEPTH_TOLERANCE   —   ETCH_DEPTH_TOLERANCE   as   measured   by   the
+vendor. If the mean etch depth is greater than the target, then reported value will be positive; if the mean etch depth
+is less than the target, then reported value will be negative.
+8. 1.411  MEASURED_HORIZONTAL_CD — Measured value of horizontal critical dimension.
+8. 1.412  MEASURED_PERCENT_CLEAR — PERCENT_CLEAR as computed by the vendor.
+8. 1.413  MEASURED_PERCENT_DEFECTIVE_DIE   —   PERCENT_DEFECTIVE_DIE   as   measured   by   the
+vendor.
+8. 1.414  MEASURED_PHASE_ANGLE — Phase angle as measured at a single site.
+8. 1.415  MEASURED_PHASE_ANGLE_AVERAGE — Mean of all customer-specified phase angle measurement
+sites.
+8. 1.416  MEASURED_PHASE_ANGLE_ERROR — PHASE_ANGLE_ERROR as measured by the vendor.
+8. 1.417  MEASURED_PHASE_ANGLE_MARK_SITE_ID    —    Must    match    PHASE_ANGLE_SITE_ID    in
+mask_order  for  site  being  measured.    If  the  customer  assigned  no  PHASE_ANGLE_SITE_ID  for  the  required
+location  (e.g.,  only  PHASE_ANGLE_MARK_LOCATION_DRAWING  was  used),  the  vendor  will  assign  a
+MEASURED_PHASE_ANGLE_MARK_SITE_ID  for  each  measurement  location  so  that  it  is  unique  within  the
+MASK_SET_ID.
+8. 1.418  MEASURED_PHASE_ANGLE_RANGE — PHASE_ANGLE_RANGE as measured by the vendor.
+8. 1.419  MEASURED_PHASE_ANGLE_TOLERANCE  —  PHASE_ANGLE_TOLERANCE  as  measured  by  the
+vendor.  If  the  mean  phase  angle  is  greater  than  the  target,  then  reported  value  will  be  positive;  if  the  mean  phase
+angle is less than the target, then reported value will be negative.
+8. 1.420  MEASURED_REGISTR_CLOSURE  —  (x,y)  REGISTR_CLOSURE  as  measured  by  the  vendor  in  both
+axes.
+8. 1.421  MEASURED_REGISTR_ERROR   —   REGISTR_ERROR   as   measured   by   the   vendor.   This   is   the
+maximum registration deviation (positive or negative in either X or Y) of any measured registration mark.
+8. 1.422  MEASURED_REGISTR_FILE_NAME   —   Name   of   data   file   containing   results   of   registration
+measurement.
+8. 1.423  MEASURED_REGISTR_MARK_ERROR — (x,y) Registration error of an individual mark.
+8. 1.424  MEASURED_REGISTR_MARK_ID  —  Must  match  REGISTR_MARK_ID  in  mask_order  for  site
+being  measured.    If  the  customer  assigned  no  REGISTR_MARK_ID  for  the  required  location  (e.g.,  only
+MEASURE_FILE_NAME  was  used),  the  vendor  will  assign  a  MEASURED_REGISTR_MARK_ID  for  each
+measurement  location  so  that  it  is  unique  within  the  MASK_SET_ID.    If  REGISTR_MARK_ID  was  used  as  a
+pattern_options  in  mask_order  for  a  pattern  with  multiple  instances,  then  the  vendor  will  add  a  suffix  to
+REGISTR_MARK_ID for each instance so that each MEASURED_REGISTR_MARK_ID in mask_results will
+be unique.
+8. 1.425  MEASURED_REGISTR_MARK_LOCATION  —  (x,y)  Location  of  individual  registration  mark,  relative
+to  nominal  center  of  substrate  (chrome  side  up),  as  measured  by  the  vendor.    This  is  the  location  of  the  mark  as
+measured by the vendor.
+8. 1.426  MEASURED_REGISTR_MARK_RESIDUAL  —  (x,y)  Registration  error  of  an  individual  mark  after
+removing scale and orthogonality.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 133
+8. 1.427  MEASURED_REGISTR_MINIMUM  —  (x,y)  Measured  minimum  error  of  all  registration  measurements
+in both x and y.  Note that the location of the minimum in x is probably not at the same location as the minimum in
+y.
+8. 1.428  MEASURED_REGISTR_MAXIMUM — (x,y) Measured maximum error of all registration measurements
+in both x and y.  Note that the location of the maximum in x is probably not at the same location as the maximum in
+y.
+8. 1.429  MEASURED_REGISTR_ORTHO — REGISTR_ORTHO as measured by the vendor.
+8. 1.430  MEASURED_REGISTR_RELATIVE — REGISTR_RELATIVE as measured by the vendor.
+8. 1.431  MEASURED_REGISTR_RESIDUAL — (x,y) REGISTR_RESIDUAL as measured by the vendor.
+8. 1.432  MEASURED_REGISTR_RESIDUAL_THREE_SIGMA                                   —                                   (x,y)
+REGISTR_RESIDUAL_THREE_SIGMA as measured by vendor.
+8. 1.433  MEASURED_REGISTR_SCALE — (x,y) REGISTR_SCALE as measured by the vendor.
+8. 1.434  MEASURED_REGISTR_THREE_SIGMA — (x,y) REGISTR_THREE_SIGMA as measured by vendor.
+8. 1.435  MEASURED_REGISTR_TOLERANCE  —  (x,y)  The  mean  measured  registration  error  in  both  x  and  y.
+Deviations  for  which  the  measured  location  is  to  the  right  or  above  the  reference  grid  or  reference  mask  are
+considered  positive;  measured  locations  to  the  left  or  below  the  reference  grid  or  reference  mask  are  considered
+negative.
+8. 1.436  MEASURED_TRANSMISSION — Phase shift transmission as measured at a single site.
+8. 1.437  MEASURED_TRANSMISSION_AVERAGE     —     Mean     of     all     customer-specified     transmission
+measurement sites.
+8. 1.438  MEASURED_TRANSMISSION_ERROR — TRANSMISSION_ERROR as measured by the vendor.
+8. 1.439  MEASURED_TRANSMISSION_MARK_SITE_ID  —  Must  match  TRANSMISSION_MARK_SITE_ID
+in mask_order for site being measured.  If the customer assigned no TRANSMISSION_MARK_SITE_ID for the
+required location (e.g., only TRANSMISSION_MARK_LOCATION_DRAWING was used), the vendor will assign
+a MEASURED_TRANSMISSION_MARK_SITE_ID for each measurement location so that it is unique within the
+MASK_SET_ID.
+8. 1.440  MEASURED_TRANSMISSION_RANGE — TRANSMISSION_RANGE as measured by the vendor.
+8. 1.441  MEASURED_TRANSMISSION_TOLERANCE — TRANSMISSION_TOLERANCE as measured by the
+vendor.  If  the  mean  transmission  is  greater  than  the  target,  then  reported  value  will  be  positive;  if  the  mean
+transmission is less than the target, then reported value will be negative.
+8. 1.442  MEASURED_VERTICAL_CD — Measured value of vertical critical dimension.
+8. 1.443  MFG_BIAS_PREAPPLIED — Amount (in microns, prior to scaling) of sizing pre-applied by the customer
+to  support  mask  processing  of  CD_DATA  to  achieve  CD_TARGET.  A  negative  MFG_BIAS_PREAPPLIED
+indicates that the digitized geometry has been made smaller.
+8. 1.444  MFG_SITE_REQD — Alphanumeric identification of qualified manufacturing sites, to be agreed between
+customer  and  vendor.    For  a  given  MASK_ID,  MFG_SITE_REQD  may  not  be  used  in  combination  with
+EQUIP_SITE_REQD.
+8. 1.445  MFG_SITE_USED  —  Alphanumeric  identification  of  manufacturing  site  used,  to  be  agreed  between
+customer and vendor.
+8. 1.446  MILESTONE         —         (ORDER_RECEIVED,         ORDER_ACCEPTED,         DATA_PREPARED,
+MASK_WRITTEN,             CDS_MEASURED,             REGISTR_MEASURED,             DEFECTS_REPAIRED,
+PELLICLES_APPLIED,  POST_PELLICLE_INSPECTION,  SHIPPED,  DELIVERED,  ON_HOLD,  OFF_HOLD)
+notifies the customer that the MASK_ID has passed the indicated processing step, or is on hold.
+8. 1.447  MILESTONES  —  (T  or  F)  If  T,  the  vendor  is  requested  to  use  mask_results  (see  §7.5)  to  notify  the
+customer each time the mask completes a significant processing step.  Within this standard, these significant steps
+
+
+SEMI P10-0705 © SEMI 1990, 2005 134
+are  limited  to  those  defined  under  MILESTONE.    MILESTONES  may  not  be  used  in  combination  with
+PERIODIC_UPDATES for the same MASK_ID.
+8. 1.448  MIN_CORNER_TO_CORNER_GAP   —   Smallest   (scaled)   corner-to-corner   spacing   of   any   features
+included in any customer-supplied pattern data on the mask.
+8. 1.449  MIN_MASK_FEATURE_SIZE  —  Smallest  (scaled)  feature  included  in  any  customer-supplied  pattern
+data on the mask.
+8. 1.450  MINIMUM_FEATURE_LOCATION  —  Location  of  a  minimally  sized  feature  within  the  pattern  file,
+relative to the center of the pattern, unscaled and unmirrored.
+8. 1.451  MINIMUM_FEATURE_SIZE — Smallest (unscaled) feature included in pattern data, excluding OPC data
+which is identified under OPC_MINIMUM_FEATURE_SIZE.
+8. 1.452  MIRROR — (HORIZONTAL or VERTICAL) Axis around which to invert the data image.
+8. 1.453  MIRROR_MASK — (T or F) All patterns and titles must be mirrored about the vertical axis, to be applied
+in addition to all other positioning information.
+8. 1.454  MIRROR_PATTERN — (T or F) If T, the pattern file (or cell) is to be mirrored about its vertical axis. If
+used  in  conjunction  with  MIRROR_MASK,  the  result  will  be  unmirrored  pattern  data  while  all  other  data  will  be
+mirrored.
+8. 1.455  MIRROR_TITLE  —  (T  or  F)  If  T,  TITLE_TEXT  is  to  be  mirrored  about  the  vertical  axis.  If  used  in
+conjunction with MIRROR_MASK, result will be an unmirrored title with all other data mirrored (chrome side up).
+8. 1.456  MULTIWRITE  —  (x,y)  If  present  as  a  mask  option,  then  the  MASK_ID  represents  only  one  writing
+operation for a mask which requires multiple write and process cycles (defined within the mask_group) before the
+final  mask  is  completed.    All  MASK_IDs  used  to  make  the  final  mask  must  have  MULTIWRITE  as  a
+mask_option  and  must  designate  the  same  integer  group  number  (x).    Such  a  final  mask  will  be  built  with  a
+specified  integer  sequence  (y)  of  MASK_IDs.    Sequence  numbers  may  never  be  less  than  1  nor  more  than  the
+number  of  write  and  process  cycles  specified  in  the  order,  except  that  zero  may  be  used  where  the  sequence  is
+arbitrary.  A sequence number within a group may not be repeated (except zero).
+8. 1.457  MULTIWRITE_REF_MASK_ID — Within the MULTIWRITE numerical group, this is the MASK_ID to
+which overlay error should be measured.
+8. 1.458  NUMBER_OF_CDS — The integer number of CD locations to be measured. If sufficient specific sites are
+not explicitly identified by the customer, the vendor is free to select additional similar sites.
+8. 1.459  OPC_MINIMUM_FEATURE_SIZE  —  For  the  OPC_TYPE  being  described,  the  size  of  the  smallest
+(unscaled) OPC feature in the pattern data.
+8. 1.460  OPC_MINIMUM_GAP — For the OPC_TYPE being described, the size of the smallest (unscaled) gap in
+the pattern data between OPC features of the same type.
+8. 1.461  OPC_PATTERN_MODIFIABLE  —  (T  or  F)  If  F,  the  pattern  may  not  be  modified  (biased)  by  the  mask
+shop for printability or CD linearity improvement.  In this case, the need for such biasing must have been anticipated
+by the customer.
+8. 1.462  OPC_PATTERN_SEPARATE — (T or F) If T, then the pattern being described is only the OPC portion of
+what will be written on the mask.  Depending upon the write tool methodology, the pattern may need to be merged
+off-line with other patterns.  This may allow mask shop biasing for printability or CD linearity unless precluded by
+OPC_PATTERN_MODIFIABLE = F.
+8. 1.463  OPC_TYPE — (CLEAR_SERIF, CLEAR_HAMMERHEAD, CLEAR_ASSIST_BAR, OPAQUE_SERIF,
+OPAQUE_HAMMERHEAD, OPAQUE_ASSIST_BAR, JOG, PILLAR, HOLE) (Linewidth biasing is not included
+as an OPC type.)
+8. 1.464  OPERATOR   —   (text)   Mask   supplier   identification   of   employee   who   completed   the   photomask
+requirements for the given operation.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 135
+8. 1.465  OPERATOR_NAME  —  Alphabetic  name  of  the  person  entering  the  mask  order  or  entering  the  mask
+results.
+8. 1.466  OPTICAL_MASK_ID — For optical stepping or contact printing, the “pattern” is to be obtained by using a
+reticle or mask built under this MASK_ID from the above-named MASK_SET_ID.
+8. 1.467  OPTICAL_MASK_SET_ID — For optical stepping or contact printing, the “pattern” is to be obtained by
+using a reticle or mask from this MASK_SET_ID.
+8. 1.468  OPTICAL_MASK_TITLE — For optical stepping or contact printing, identifying title on reticle or mask.
+To be used in place of OPTICAL_MASK_SET_ID and OPTICAL_-MASK_ID when the reticle or mask was built
+without available mask_order data.
+8. 1.469  ORDER_ACCEPTED  —  Returns  the  exact  FILE_DATE_TIME  as  in  the  file  being  accepted,  thereby
+agreeing to process the order as received.
+8. 1.470  ORDER_ID — Printable text of the customer’s internal order identification to provide correlation with pre-
+existing order tracking systems. This is for customer cross-referencing only, but should be recorded by the vendor
+and reported back in mask_results.
+8. 1.471  ORDER_RECEIVED — Returns the exact FILE_DATE_TIME as in the file being acknowledged, thereby
+confirming receipt of that file. This response is required each time a new transmission is received by the vendor.
+8. 1.472  PACKAGE  —  Alphanumeric  identification  of  brand  and  model  of  acceptable  compact  to  be  used  for
+delivering masks.
+8. 1.473  PACKAGE_USED —  (text)  The  compact  vendor’s  part  number  of  the  compact  in  which  the  mask  was
+shipped and any additional compacts supplied.
+8. 1.474  PARAMETER_FILE_NAME REVISION — (text) Name of parameter file required by RUNSET_NAME.
+Note  that  multiple  run_set_name  entries  under  a  SOFTWARE_NAME  means  that  multiple  runs  with  the  same
+software are required.
+8. 1.475  PARAMETER_FILE_REVISION — (text) Revision identification of PARAMETER_FILE_NAME.
+8. 1.476  PATTERN_ADDRESS_SIZE  —  Address  unit  of  the  (unscaled)  pattern  file.  If  this  is  incorrect,  the  mask
+will not be written until it is corrected. For data manipulation operations, this is the address to use in final fracturing
+to produce a pattern file for exposure.
+8. 1.477  PATTERN_APPROVAL_REQD — name the pattern to be approved before the mask(s) may be written.
+8. 1.478  PATTERN_APPROVED  —  (date,  name)  Date  approval  was  granted  by  customer  and  the  name  of  the
+pattern for PATTERN_APPROVAL_REQD.
+8. 1.479  PATTERN_CHARACTER_SET — (ASCII or EBCDID) ASCII is assumed unless otherwise specified.
+8. 1.480  PATTERN_FORMAT — (ALF, APPLICON, AUTOCAD, CATS_CFLT, CATS_CREF, CIF, DERIVED,
+EEBES,  ELECTROMASK,  FALCON,  GDS-II,  HITACHI_700,  HITACHI_800,  JEOL_51,  JEOL_52,  KLARIS,
+MANN_3000, MANN_3600, MEBES_I, MEBES_II, MEBES_EXTENDED, MEBES_RETICLE, MEBES_MODE
+5,  OASIS,  ORBOT,  ULTRABEAM,  VSB11,    ZBA,  and  others  on  request).  Format  of  preceding  pattern  file.  For
+data_manipulation   results,   if   multiple   PATTERN_FORMATS   are   listed,   they   are   in   declining   order   of
+preference.    For  BOOLEAN  operations,  DERIVED  indicates  DATA_SOURCE_FILE  was  the  result  of  a  previous
+data_manipulation process.
+8. 1.481  PATTERN_FUNCTION — (FRAME, DEVICE, FIDUCIAL, BARCODE, TEST and others as needed by
+the user) This keyword is for reference purposes only, with no action or requirement implied for the mask supplier.
+It will serve merely to provide a functional name for customer convenience.
+8. 1.482  PATTERN_GENERATION_AREA  —  (x1,y1,x2,y2)  Window  in  which  to  generate  a  digitized  rectangle
+for use in BOOLEAN operations, relative to the coordinate space of DATA_SOURCE_FILE.
+8. 1.483  PATTERN_GROUP_ID — Name of the pattern group which follows; must be used in all references within
+this MASK_SET_ID to this pattern group.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 136
+8. 1.484  PATTERN_GROUP_INSTANCE  —  Identifies  PATTERN_GROUP_ID  to  be  placed  by  the  following
+location information.
+8. 1.485  PATTERN_NAME  —  Printable  ASCII  pattern  file  name.  The  file  may  be  received  intact,  or  may  be
+derived through data manipulation.
+8. 1.486  PATTERN_PLOT_APPR_REQD — (T or F) If T, customer approval of the pattern plot is required before
+mask making is authorized.
+8. 1.487  PATTERN_PLOT_NORMAL_TONE — (T or F) If T, digitized data will be dark.
+8. 1.488  PATTERN_UNITS — (METRIC, ENGLISH) Units of preceding pattern file.
+8. 1.489  PATTERN_VISUAL_ID — Optional, printable text to specify  identification  within  the  pattern  file  which
+must be visually confirmed as present before the mask may be written. If the feature is not present, the mask order
+should go on hold.
+8. 1.490  PERCENT_CLEAR  —  Percentage  of  the  patterned  area  which  will  become  transparent  after  the  mask  is
+processed. As a mask option it includes all the area within the scribe pattern limits.  As a pattern option it includes
+the area within the individual pattern limits.
+8. 1.491  PERCENT_CLEAR_REQUESTED  —  (T  or  F)  If  T,  the  vendor  is  requested  to  calculate,  using  available
+CAD  tools,  the  percentage  of  the  patterned  area  on  the  mask  which  will  become  transparent  after  the  mask  is
+processed, and transmit this value to the customer.
+8. 1.492  PERCENT_DEFECTIVE_DIE  —  Maximum  percentage  of  defective  die  among  those  required  by  the
+customer to meet defect criteria.
+8. 1.493  PERIODIC_UPDATE — notifies the customer that MASK_ID has passed the indicated processing step, or
+is on hold.
+8. 1.494  PERIODIC_UPDATES — (integer) If non-zero, the vendor is requested to use mask_results (see §7.5)
+to notify the customer on a periodic basis which significant processing step was last completed for MASK_ID.  The
+value of the data field indicates the number of hours between updates. Within this standard, these significant steps
+are  limited  to  those  defined  under  MILESTONE.    PERIODIC_UPDATES  may  not  be  used  in  combination  with
+MILESTONES for the same MASK_ID.
+8. 1.495  PHASE_ANGLE_EQUIP_REQD — (text) Phase angle measurement equipment required by customer.
+8. 1.496  PHASE_ANGLE_EQUIP_USED — (text) Phase angle measurement equipment used.
+8. 1.497  PHASE_ANGLE_ERROR — Maximum acceptable deviation (in degrees) of any phase shift measurement
+from the PHASE_ANGLE_TARGET.
+8. 1.498  PHASE_ANGLE_MARK_DRAWING  —  The  uniquely  identified  (for  each  customer)  document  which
+shows the phase angle mark structure itself, and may show the place(s) within the phase angle mark which are to be
+measured.
+8. 1.499  PHASE_ANGLE_MARK_FEATURE   —   Text   describing   the   feature   to   be   used   for   phase   angle
+measurement.
+8. 1.500  PHASE_ANGLE_MARK_LOCATION  —  (x,y)  Location  of  phase  angle  mark  relative  to  the  nominal
+center of the mask (chrome side up).
+8. 1.501  PHASE_ANGLE_MARK_LOCATION_DRAWING   —   The   uniquely   identified   (for   each   customer)
+document which shows the location(s) of the phase angle mark structure.
+8. 1.502
+PHASE_ANGLE_MEASUREMENT_DATE  — Phase angle measurement date.
+8. 1.503  PHASE_ANGLE_MEASUREMENT_FILE_NAME — Name of data file containing results of phase angle
+measurement.
+8. 1.504  PHASE_ANGLE_MODE_REQD      —      (text)      operating      mode      required      by      customer      for
+PHASE_ANGLE_EQUIP_USED.
+8. 1.505  PHASE_ANGLE_MODE_USED — (text) operating mode used on
+PHASE_ANGLE_EQUIP_USED.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 137
+8. 1.506  PHASE_ANGLE_RANGE  —  Maximum  acceptable  variation  (in  degrees)  of  phase  shift  measurements,
+relative to each other.
+8. 1.507  PHASE_ANGLE_REFERENCE_ONLY  —  (T  or  F)  If  T,  indicates  that  the  phase  angle  feature  is  to  be
+measured and the data transmitted to the customer (if requested by SHIP_PHASE_SHIFT_MEASUREMENTS), but
+that deviations in its measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.508  PHASE_ANGLE_SITE_ID  —  Unique  alphanumeric  identifier  of  each  phase  angle  measurement  location
+within MASK_SET_ID to identify individual locations when using mask_results.  If the same coordinates apply
+to  locations  on  different  masks  within  the  mask  set,  they  may  have  the  same  PHASE_ANGLE_SITE_ID,  but  it  is
+not mandatory.
+8. 1.509  PHASE_ANGLE_TARGET — The required phase shift in degrees at the specified
+PSM_WAVELENGTH.
+8. 1.510  PHASE_ANGLE_TOLERANCE  —  The  maximum  acceptable  deviation  of  the  mean  of  all  phase  shift
+measurements (in degrees) to the PHASE_ANGLE_TARGET.
+8. 1.511  PHASE_SHIFT_QUALITY_ID   —   (text)   Customer’s   label   for   a   collection   of   phase   shift   quality
+specifications,  to  be  used  only  in  addition  to  explicit  quality  requirement  keywords.  This  may  be  used  in  the  data
+structure  in  addition  to,  but  not  in  place  of,  explicit  quality  requirement  keywords.    This  may  not  be  used  in
+combination  with  QUALITY_GROUP_ID.  Customer  and  vendor  should  document  the  meaning  of  this  quality
+grade before using it in SEMI P10.
+8. 1.512  PLACEMENT_TOP_CELL   —   Name   of   CELL_ID   which   defines   all   pattern   place-ments   for   this
+MASK_GROUP_ID. This referenced cell is centered on the mask.
+8. 1.513  PLOT_FORMAT —  (GIF, JPG, PNG, FAX, PAPER) Medium for delivery of plot.
+8. 1.514  PLOT_SCALE — Numeric scale of plot or map.
+8. 1.515  PLOT_TYPE  —  (JOB_DATA,  ARRAY,  PATTERN,  BARCODE)  Requires  delivery  of  the  plot  to  the
+customer.  JOB_DATA requires delivering a plot of the entire patterned area of the mask, including the image of the
+pattern file data.  ARRAY requires an array map to be sent showing only an outline of each pattern and not showing
+the image content of any pattern. PATTERN requires delivering a plot of the pattern at the scale and tone indicated.
+BARCODE  requires  delivering  a  plot  of  the  pattern  created  by  barcode_data.  PATTERN  is  the  only  value
+permitted under pattern_options. The other types are permitted only under shippable_data.
+8. 1.516  PO_NUMBER — Alphanumeric purchase order number.
+8. 1.517  POST_PELL_INSPECTION_DATE_AND_TIME  —  Date  and  time  of  the  final  qualifying  inspection  run
+after applying the pellicle.
+8. 1.518  POST_PELL_INSPECTION_ID — Identification (or serial number) assigned by the inspection tool for the
+final qualifying inspection run after applying the pellicle.
+8. 1.519  PRE_PELL_INSPECTION_DATE_AND_TIME  —  Date  and  time  of  the  final  qualifying  inspection  run
+prior to applying the pellicle.
+8. 1.520  PRE_PELL_INSPECTION_ID — Identification (or serial number) assigned by the inspection tool for the
+final qualifying inspection run prior to applying the pellicle.
+8. 1.521  PRICE  —  Price  (excluding  freight  and  taxes)  for  preceding  item  (e.g.,  mask,  pellicle,  plot,  database
+inspection).
+8. 1.522  PRICE_UNITS — (3-character alphabetic currency code as listed in ISO 4217) Monetary unit used in all
+references to PRICE with the mask_set.
+8. 1.523  PROCESS — (text) Name of the special process to be used in making the masks.
+8. 1.524  PROCESS_ETCHING_TYPE — (DRY or WET) Etching process to be used in making the masks.
+8. 1.525  PRODUCT_AS_CHECKPLATE — (T or F) If T, product mask is to be used for check-plate approval prior
+to making other product masks.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 138
+8. 1.526  PRODUCT_IMAGING_TYPE — (BINARY, AAPSM, EAPSM, COMPLIMENTARY, BINARY_TRIM,
+or EUV)
+8. 1.527  PRODUCT_MAGNIFICATION  —  (10X,  5X,  4X,  2.5X,  2X,  1.25X,  1X,  0.8X)  Factor  by  which  the
+exposure tool will reduce the image on the photomask (reticle) to form the image on the wafer.
+8. 1.528  PRODUCT_TYPE  —  (1X_FULL_FIELD,  1X_STD_FIELD_RETICLE,  1X_WIDE_FIELD_RETICLE,
+RETICLE, CONTACT, SUBMASTER, CHECKPLATE, PROBE_PLATE, REPELLICLIZE and REINSPECT).
+8. 1.529  PSM_WAVELENGTH  —  Wavelength  in  nanometers  to  be  used  for  phase_shift  measurements.  This
+keyword  may  appear  in  addition  to  AIM_WAVELENGTH  for  a  single  MASK_ID,  though  the  values  of  the  two
+should usually be the same.
+8. 1.530  PTC_FIXED    —  (numeric)  The  additional  charge  for  the  mask  shipping  within  the  time  defined  in  the
+corresponding  PTC_HOURS.  The  value  is  expressed  as  a  fixed  monetary  amount  and  is  mutually  exclusive  with
+PTC_RATE.
+8. 1.531  PTC_HOURS    —  (numeric)  The  number  of  hours  from  a  given  mask’s  start  date  time  (as  negotiated
+between the customer and vendor) within which the mask must be shipped to qualify for the Premium Time Charge
+(PTC)  specified  in  either  PTC_RATE  or  PTC_FIXED.    Multiple  instances  allow  configuration  of  different  charge
+rates for different levels of performance, for example: 100 % for 12 hr turn, 75 % for 18 hr turn, 50 % for 24 hr turn.
+8. 1.532  PTC_RATE    —  (numeric)  The  additional  charge  for  the  mask  shipping  within  the  time  defined  in  the
+corresponding   PTC_HOURS.   The   value   represents   the   percentage   of   the   total   mask   price   (excluding
+EWT_THRESHOLD hours) and is mutually exclusive with PTC_FIXED.
+8. 1.533  QS9000 — (T or F) If T, requires QS9000 control. Customer and vendor should agree on the methods and
+control details before using this item.
+8. 1.534  QUALITY_GROUP_ID  —  (text)  Customer’s  label  for  a  collection  of  mask  quality  specifications,  to  be
+used only in addition to explicit quality requirement keywords. This may be used in the data structure in addition to,
+but  not  in  place  of,  explicit  quality  requirement  keywords.  Customer  and  vendor  should  document  the  meaning  of
+this quality grade before using it in SEMI P10.
+8. 1.535  QUANTITY — Integer number of array plots, pattern plots and films. May also apply to masks only when
+PRODUCT_TYPE is contact masks.
+8. 1.536  QUOTE_NUMBER — Vendor’s quotation number to be referenced in billing documents.
+8. 1.537  REGISTR_ALGORITHM  —  (ONE-POINT,  TWO-POINT  or  MULTI-POINT,  x1,y1,x2,y2)  Specifies  the
+method for analyzing registration reference marks. For ONE-POINT analysis, (x1,y1) is the fixed point and (x2,y2)
+is  used  for  angular  orientation  only.  For  TWO-POINT  analysis,  (x1,y1)  and  (x2,y2)  are  both  used  for  angular
+orientation and the fixed reference point is midway between the two. If MULTI-POINT is followed in the data field
+by no specific points, then MULTI-POINT is the fit of all measured points resulting in zero mean error in x and zero
+mean error in y. If MULTI-POINT is followed in the data field by a collection of three or more specific points, then
+MULTI-POINT is the fit of all the specific points resulting in zero mean error in x and zero mean error in y for those
+points. All of these points are relative to the nominal center of the mask.
+8. 1.538  REGISTR_ALGORITHM_USED  —  The  method  used  for  analyzing  registration  reference  marks  in  the
+registration measurements.
+8. 1.539  REGISTR_CLOSURE — Maximum allowable positional error between patterns written at the beginning of
+writing the mask and the end of writing the mask, to be measured in both x and y axes.
+8. 1.540  REGISTR_CLOSURE_BEGIN  —  Identifies  the  CELL_ID  or  PATTERN_GROUP_ID  to  be  used  at  the
+beginning of writing the mask for REGISTR_CLOSURE measurement.
+8. 1.541  REGISTR_CLOSURE_END — Identifies the CELL_ID or PATTERN_GROUP_ID to be used at the end
+of writing the mask for REGISTR_CLOSURE measurement.
+8. 1.542  REGISTR_CLOSURE_EQUIP_REQD — Alphanumeric identification of acceptable equipment for closure
+measurement.
+8. 1.543  REGISTR_CLOSURE_EQUIP_USED — Closure measurement equipment used.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 139
+8. 1.544  REGISTR_CLOSURE_REFERENCE_ONLY — (T or F) If T, indicates that the closure measurements are
+to  be  measured  and  the  data  transmitted  to  the  customer  (if  requested  by  SHIP_CLOSURE_DATA),  but  that
+deviations in its measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.545  REGISTR_COMPENSATION_TEMPERATURE  —  Temperature  in  Celsius  of  the  mask  at  the  time
+registration measurement data is to be collected.
+8. 1.546  REGISTR_EQUIP_REQD   —   Alphanumeric   identification   of   acceptable   equipment   for   measuring
+REGISTR_ERROR and REGISTR_ORTHO.
+8. 1.547  REGISTR_EQUIP_USED — Registration measurement equipment used.
+8. 1.548  REGISTR_ERROR  —  Maximum  allowable  registration  error,  relative  to  the  REGISTR_REF_MASK_ID
+or the reference grid of REGISTR_EQUIP_REQD. The mask must be rejected if the deviation in either X or Y of
+any measured registration mark exceeds REGISTR_ERROR.
+8. 1.549  REGISTR_MARK_COUNT — (x,y) For a rectangular array of registration marks, the number of rows (x)
+and columns (y).
+8. 1.550  REGISTR_MARK_DRAWING — The uniquely identified (for each customer) document which shows the
+registration mark structure itself, and may show the place(s) within the registration mark which are to be measured.
+8. 1.551  REGISTR_MARK_FEATURE — Text describing the feature to be used for registration  measurement.
+8. 1.552  REGISTR_MARK_ID  —  Unique  alphanumeric  identifier  of  each  registration  mark  location  within
+MASK_SET_ID  to  identify  individual  registration  measurements  when  using  mask_results.      If  the  same
+coordinates   apply   to   locations   on   different   masks   within   the   mask   set,   they   may   have   the   same
+REGISTR_MARK_ID, but it is not mandatory.  If REGISTR_MARK_ID is used with a CELL_REGISTR_MARK,
+it     will     be     associated     with     as     many     mask     locations     as     the     cell     has     instances.          (See
+MEASURED_REGISTR_MARK_ID for more information.) REGISTR_MARK_ID may only be used immediately
+preceding either MASK_REGISTR_MARK or CELL_REGISTR_MARK.
+8. 1.553  REGISTR_MARK_LOCATION_DRAWING —  The  uniquely  identified  (for  each  customer)  document
+which shows the location(s) of the registration mark structure.
+8. 1.554  REGISTR_MARK_SEPARATION  —  (x,  y)  For  an  array  of  registration  marks,  the  spacing  between
+successive marks in the horizontal (x) and vertical (y) directions.
+8. 1.555  REGISTR_MEASUREMENT_DATE — Date registration measurement was performed.
+8. 1.556  REGISTR_ORTHO   —   Maximum   allowable   non-orthogonality,   in   micro-radians,   relative   to   the
+REGISTR_REF_MASK_ID or the reference grid of REGISTR_EQUIP_REQD.
+8. 1.557  REGISTR_ORTHO_REFERENCE_ONLY  —  (T  or  F)  If  T,  indicates  that  REGISTR_ORTHO  is  to  be
+measured and the data transmitted to the customer (if requested by
+SHIP_REGISTR_DATA), but that deviations in its
+measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.558  REGISTR_QUALITY_ID — (text) Customer’s label for a collection of registration quality specifications,
+to  be  used  only  in  addition  to  explicit  quality  requirement  keywords.  This  may  be  used  in  the  data  structure  in
+addition to, but not in place of, explicit quality requirement keywords.  This may not be used
+in  combination  with
+QUALITY_GROUP_ID. Customer and vendor should document the meaning of this quality grade before using it in
+SEMI P10.
+8. 1.559  REGISTR_REF_MASK_ID — MASK_ID of the reference mask for determining REGISTR_ERROR and
+REGISTR_ORTHO.  If  multiple  masks  are  identified,  the  reference  grid  should  be  based  on  the  mean  of  the
+measurements of the group of masks.
+8. 1.560  REGISTR_REF_MASK_NAME  —  To  be  used  in  place  of  REGISTR_REF_MASK_ID  only  to  refer  to
+those mask sets which were built outside the SEMI order standard and have no MASK_ID.
+8. 1.561  REGISTR_REF_MASK_SET_ID       —       MASK_SET_ID       for       the       mask       set       containing
+REGISTR_REF_MASK_ID for determining REGISTR_ERROR and REGISTR_ORTHO.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 140
+8. 1.562  REGISTR_REF_MASK_SET_NAME  —  To  be  used  in  place  of  REGISTR_-REF_MASK_SET_ID  only
+to refer to those mask sets which were built outside the SEMI order standard and have no MASK_SET_ID.
+8. 1.563  REGISTR_REF_MASK_SET_VERSION      —      To      be      used      in      addition      to      REGISTR_-
+REF_MASK_SET_NAME  only  to  refer  to  those  mask  sets  which  were  built  outside  the  SEMI  order  standard  and
+have no MASK_SET_ID.
+8. 1.564  REGISTR_REF_METHOD_REQD — Alphanumeric description of the method and/or reference marks to
+use  for  measuring  REGISTR_-ERROR  and  REGISTR_ORTHO  (e.g.,  using  a  previously  established  reference,  or
+the REGISTR_-EQUIP_REQD grid).
+8. 1.565  REGISTR_REF_METHOD_USED  —  Alphanumeric  description  of  the  method  and/or  reference  marks
+used by the vendor for measuring REGISTR_ERROR and REGISTR_ORTHO.
+8. 1.566  REGISTR_RELATIVE   —   If   present,   indicates   that   the   START_REGISTR   collection   in   which
+REGISTR_RELATIVE is contained is to be measured relative to another START_REGISTR collection, rather than
+to the grid of the registration measurement tool. The alphanumeric data field of REGISTR_RELATIVE must match
+the data field of START_REGISTR of the collection to which it is to be compared.
+8. 1.567  REGISTR_RELATIVE_REFERENCE_ONLY — (T or F) If T, indicates that REGISTR_RELATIVE is to
+be measured and the data transmitted to the customer (if requested by
+SHIP_REGISTR_DATA), but that deviations in
+its measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.568  REGISTR_RESIDUAL  —  (x,y)  The  maximum  acceptable  deviation  in  both  axes  (in  microns)  of  all
+registration measurements relative to the REGISTR_STD_GRID, with REGISTR_SCALE and REGISTR_ORTHO
+removed.  The  mask  must  be  rejected  if  the  residual  deviation  in  either  X  or  Y  of  any  measured  registration  mark
+exceeds REGISTR_RESIDUAL.
+8. 1.569  REGISTR_RESIDUAL_REFERENCE_ONLY — (T or F) If T, indicates that REGISTR_RESIDUAL is to
+be measured and the data transmitted to the customer (if requested by
+SHIP_REGISTR_DATA), but that deviations in
+its measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.570  REGISTR_RESIDUAL_THREE_SIGMA  —  (x,y)  The  maximum  acceptable  3  sigma  deviation  in  both
+axes (in microns) of all registration measurements, with REGISTR_SCALE and REGISTR_ORTHO removed. The
+mask must be rejected if the residual 3 sigma deviation in either X or Y exceeds REGISTR_RESIDUAL.
+8. 1.571  REGISTR_RESIDUAL_THREE_SIGMA_REFERENCE_ONLY   —   (T   or   F)   If   T,   indicates   that
+REGISTR_RESIDUAL_THREE_SIGMA is to be  measured  and  the  data  transmitted  to  the  customer  (if  requested
+by
+SHIP_REGISTR_DATA), but that deviations in its measured value due to mask processing would NOT be cause
+for mask rejection.
+8. 1.572  REGISTR_SCALE  —  (x,y)  Maximum  acceptable  scale  error  in  each  axis  in  parts  per  million,  relative  to
+the REGISTR_STD_GRID.
+8. 1.573  REGISTR_SCALE_REFERENCE_ONLY  —  (T  or  F)  If  T,  indicates  that  REGISTR_SCALE  is  to  be
+measured and the data transmitted to the customer (if requested by
+SHIP_REGISTR_DATA), but that deviations in its
+measured value due to mask processing would NOT be cause for mask rejection.
+8. 1.574  REGISTR_STD_GRID  —  (NIST,  PTB  and  others  on  request)  reference  standard  to  be  used  to  correlate
+registration measurement.  This keyword is not allowed in conjunction with REGISTR_REF_METHOD_REQD on
+the same mask.
+8. 1.575  REGISTR_STD_GRID_USED  —  (NIST,  NBS,  and  others  on  request)  The  reference  standard  used  to
+correlate the registration measurements.
+8. 1.576  REGISTR_THREE_SIGMA — (x,y) The maximum acceptable 3 sigma deviation in both axes (in microns)
+of all registration measurements.  Both the 3 sigma deviation in x and the 3 sigma deviation in y must be less than
+REGISTR_THREE_SIGMA for the mask to be acceptable.
+8. 1.577  REGISTR_THREE_SIGMA_REFERENCE_ONLY —      (T      or      F)      If      T,      indicates      that
+REGISTR_THREE_SIGMA  is  to  be  measured  and  the  data  transmitted  to  the  customer  (if  requested  by
+SHIP_REGISTR_DATA), but that deviations in its measured value due to mask processing would NOT be cause for
+mask rejection.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 141
+8. 1.578  REGISTR_TOLERANCE — Maximum acceptable deviation of the mean registration error of all measured
+registration   marks,   in   both   axes,   relative   to   the   REGISTR_REF_MASK_ID   or   the   reference   grid   of
+REGISTR_EQUIP_REQD. Both the mean in x and the mean in y must be less than REGISTR_TOLERANCE for
+the mask to be acceptable.
+8. 1.579  RELEASE_NUMBER — Alphanumeric release number under BLANKET PO NUMBER.
+8. 1.580  REPAIR_EQUIP_REQD  —  Alphanumeric  identification  of  acceptable  equipment  for  repairing  mask
+defects.
+8. 1.581  REPAIR_EQUIP_USED — Alphanumeric identification of equipment used for repairing mask defects.
+8. 1.582  REPAIRS_AUTHORIZED  —  (T  or  F)  If  F,  customer  approval  is  required  before  mask  repairs  can  be
+made.
+8. 1.583  RESIST_THICKNESS — Resist thickness in Angstroms.
+8. 1.584  RESIST_TYPE  —  (POSITIVE  or  NEGATIVE)  This  data  item  is  needed  for  mask_order  only  if
+overlapping  patterns  are  required.  (Overlapping  patterns  sometimes  require  the  use  of  “blanking  rectangles”  to
+prevent exposure of areas which are to be exposed by another pattern.)
+8. 1.585  RESULT_FILE_NAME  —  (text)  Name  identifying  the  result  output  file  for  RUNSET_NAME.    If  this
+keyword   appears   in   the   mask_order,   it   must   be   explicitly   referenced   in   a   RUNSET_NAME   and/or   a
+PARAMETER_FILE_NAME.
+8. 1.586  RETROFIT_JOB_LEVEL — Level in RETROFIT_JOB_NAME to which new mask(s) must retrofit.
+8. 1.587  RETROFIT_JOB_NAME — Name of job file to which mask(s) must retrofit.
+8. 1.588  RETROFIT_MASK_ID  —  MASK_ID  in  RETROFIT_MASK_SET_ID  to  which  new  mask(s)  must
+retrofit.
+8. 1.589  RETROFIT_MASK_NAME  —  To  be  used  in  place  of  RETROFIT_MASK_ID  only  for  retrofit  to  those
+mask sets which were built outside the SEMI order standard and have no MASK_SET_ID.
+8. 1.590  RETROFIT_MASK_SET_ID — MASK_SET_ID of mask set to which new mask(s) must retrofit.
+8. 1.591  RETROFIT_MASK_SET_NAME — To be used in place of RETROFIT_MASK_SET_ID only for retrofit
+to those mask sets which were built outside the SEMI order standard and have no MASK_SET_ID.
+8. 1.592  RETROFIT_MASK_SET_VERSION — To be used in addition to RETROFIT_-MASK_SET_NAME only
+for retrofit to those mask sets which were built outside the order standard and have no MASK_SET_ID.
+8. 1.593  REVIEW_REQD  —  If  present,  indicates  that  a  review  will  be  required  but  that  it  need  not  be  completed
+prior to building and/or shipping the masks. The alphanumeric data field describes the items to be reviewed.
+8. 1.594  ROTATE_TITLE — (0, 90, 180 or 270) Title is to be rotated clockwise the indicated number of degrees,
+prior to any mirroring.
+8. 1.595  ROTATE_TITLE_CHARACTERS  —  (0,  90,  180  or  270)  Characters  within  the  title  are  to  be  rotated
+clockwise the indicated number of degrees, prior to any mirroring.
+8. 1.596  ROTATION — (0, 90, 180 or 270) Angle in degrees at which an image is rotated counter-clockwise about
+its center, prior to mirroring.
+8. 1.597  RUNSET_NAME  —  Name  of  instruction  file  (such  as  .cinc  files  or  DRC  run  sets).  Note  that  multiple
+RUNSET_NAME  entries  under  a  SOFTWARE_NAME  means  that  multiple  runs  with  the  same  software  are
+required.
+8. 1.598  RUNSET_REVISION — (text) Revision identification of the RUNSET_NAME.
+8. 1.599  SCALE_FACTOR — (De)magnification factor to be multiplied with the PATTERN_ADDRESS_SIZE to
+get  the  effective  address  to  be  used  to  write  the  pattern  file.  Data  value  must  be  positive.  1.0  is  assumed  unless
+specified otherwise. SCALE_FACTOR alters both the size of individual geometries and the size of the pattern file.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 142
+8. 1.600  SCRATCH_INSP_AREA  —  (x1,y1,x2,y2)  Unscaled  coordinates  of  window  for  scratch  inspection,  lower
+left and upper right corners, relative to nominal center of mask (chrome side up).
+8. 1.601  SCRATCH_INSP_EXCLUDE  —  (x1,  y1,  x2,  y2)  Unscaled  coordinates  of  window  to  be  excluded  from
+defect inspection, relative to nominal center of mask (chrome side up).  (See SCRATCH_INSP_AREA.)
+8. 1.602  SCRATCH_SIZE_BACK — Maximum dimension of smallest unacceptable scratch on glass side of mask.
+8. 1.603  SCRATCH_SIZE_FRONT — Maximum dimension of smallest  unacceptable  scratch  on  patterned  side  of
+mask.
+8. 1.604  SCRIBE_INSIDE_CORNERS — (x1,y1,x2,y2) The inner limits of the SCRIBE_-TONE frame to be built
+for  the  dropout  by  the  vendor.  It  consists  of  two  pairs  of  coordinates:  the  lower-left  and  upper-right  and  these  are
+relative to the DROPOUT window center.
+8. 1.605  SCRIBE_OUTSIDE_CORNERS  —  (x1,y1,x2,y2)  The  outer  limits  of  the  SCRIBE_-TONE  frame  to  be
+built for the dropout by the vendor. It consists of two pairs of coordinates: the lower-left and upper-right and these
+are relative to the DROPOUT window center.
+8. 1.606  SCRIBE_TONE — (CLEAR or DARK) Border surrounding DROPOUT on mask is to be either clear or
+dark.
+8. 1.607  SECURITY_CLASS  —  (QML,  SECRET,  TOP_SECRET,  CCI,  or  COMSEC)  Security  classification  of
+mask set or individual mask.
+8. 1.608  SEM_PHOTO_LOCATION  —  (x,y)  Location  of  SEM  photographing  location  relative  to  the  nominal
+center of the mask (chrome side up).
+8. 1.609  SEM_PHOTO_MATRIX_FILE_NAME  —  Alphanumeric  name  of  file  to  be  used  for  SEM  photograph
+locations.      It   is   not   to   be   used   in   conjunction   with   SEM_PHOTO_LOCATION   within   the   same
+START_SEM_PHOTO to END_SEM_PHOTO set.
+8. 1.610  SEM_PHOTO_ROTATION — Angle in degrees at which a SEM Photo Image output is rotated about the
+Z axis of the mask.  Angles are to be counter-clockwise with zero degrees as the regular orientation of the mask as
+written.
+8. 1.611  SEM_PHOTO_SCALE — Numeric scale of the SEM photograph image.
+8. 1.612  SEM_PHOTO_SITE_ID  —  Unique  alphanumeric  identifier  of  each  SEM  photographing  location  within
+MASK_SET_ID  to  identify  individual  SEM  photo  locations  when  using  mask_data.    If  the  same  coordinates
+apply to locations on different masks within the mask set, they may have the same SEM_PHOTO_SITE_ID, but it is
+not mandatory.
+8. 1.613  SEM_PHOTO_TILT — Angle in degrees at which a SEM Photo Image output is tipped away from normal
+to the x/y plane of the mask.
+8. 1.614  SEMI_REVISION — Revision identification of the SEMI standard according to which the mask_order
+data structure was constructed. This revision is P10-0705.
+8. 1.615  SEND_FINAL_AUDIT_DATE_TIME       —       (T       or       F)       If       T,       requires       delivery       of
+FINAL_AUDIT_DATE_TIME to the customer.
+8. 1.616  SEND_MASK_SHIPPED_DATE_TIME      —      (T      or      F)      If      T,      requires      delivery      of
+MASK_SHIPPED_DATE_TIME to the customer.
+8. 1.617  SERIAL_NUMBER — (T or F) If T, a mask serial number must be included on the mask.
+8. 1.618  SEVERITY_CRITERION_REQD — (PASS, WARN, FAIL) Setup parameter required for inspection.
+8. 1.619  SEVERITY_CRITERION_USED — (PASS, WARN, FAIL) Setup parameter used for inspection.
+8. 1.620  SHIP_AIM_DATA    —    (T    or    F)    If    T,    requires    delivery    of    wafer_exposure_information,
+aerial_image_info and any output of the final inspection using the aerial imaging measurement tool.
+8. 1.621  SHIP_ARRAY_REGISTR_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  registration  map  of  the  entire
+array to the customer.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 143
+8. 1.622  SHIP_BARCODE_PLOT — (T or F) If T, the plot of the barcode must be sent to the customer.
+8. 1.623  SHIP_CD_DATA  —  (T  or  F)  If  T,  requires  delivery  of  all  critical  dimension  measurements,  criteria  and
+evaluation data to the customer for all CD criteria specified.
+8. 1.624  SHIP_CD_PRINTOUT  —  (T  or  F)  If  T,  requires  delivery  to  the  customer  of  the  printout  from  the  CD
+measurement tool.
+8. 1.625  SHIP_CD_UNIFORMITY_MAP — (T or F) If T, requires delivery to the customer of the uniformity map
+from the CD uniformity measurement tool.
+8. 1.626  SHIP_CENTRALITY_DATA  —  (T  or  F)  If  T,  requires  delivery  of  the  centrality  measurement  to  the
+customer.
+8. 1.627  SHIP_CENTRALITY_MAP — (T or F) If T, requires delivery of the centrality map to the customer.
+8. 1.628  SHIP_CERTIFICATE_OF_CONFORMANCE  —  (T  or  F)  If  T,  requires  delivery  of  a  certificate  of
+conformance to the customer.
+8. 1.629  SHIP_CLOSURE_DATA — (T or F) If T, requires delivery of closure measurement data to the customer.
+8. 1.630  SHIP_CUSTOMER_QUALITY_FORM — (text) If present, the data  field specifies the form required by
+the customer to document the quality of the mask.
+8. 1.631  SHIP_DEFECT_DATA — (T or F) If T, requires delivery of defect inspection criteria and evaluation data
+to    the    customer    for    all    defect    criteria    specified.        This    should    be    final    inspection    data    unless
+SHIP_THRU_PELLICLE_DATA is specified, in which case it should be for final inspection prior to pelliclizing.
+8. 1.632  SHIP_DIE_FIT_MAP — (T or F) If T, requires delivery of a die fit map to the customer.
+8. 1.633  SHIP_FILM  —  If  present,  film(s)  of  mask(s)  must  be  sent  to  customer.    Indicates  beginning  of  films
+collection. Alphanumeric data field identifies the collection to establish which collections are hierarchically affected
+by another. The appearance of a films at a lower level in the hierarchy supercedes the films at a higher level in
+the hierarchy if it has the same SHIP_FILM data field.
+8. 1.634  SHIP_FIELD_FIT_MAP — (T or F) If T, requires delivery of a field fit map to the customer.
+8. 1.635  SHIP_FINAL_POSTPELL_DIE_DB_MSK_MAP — (T or F) If T, requires delivery of the final run, post-
+pellicle die to database defect inspection map for the entire patterned area to be sent to customer.
+8. 1.636  SHIP_FINAL_POSTPELL_DIE_DB_PTN_MAP — (T or F) If T, requires delivery of the final run, post-
+pellicle die to database defect inspection map for the single pattern to be sent to customer.
+8. 1.637  SHIP_FINAL_POSTPELL_DIE_DIE_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  final  run,  post-
+pellicle die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.638  SHIP_FINAL_PREPELL_DIE_DB_MSK_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  final  run,  pre-
+pellicle die to database defect inspection map for the entire patterned area to be sent to customer.
+8. 1.639  SHIP_FINAL_PREPELL_DIE_DB_PTN_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  final  run,  pre-
+pellicle die to database defect inspection map for the single pattern to be sent to customer.
+8. 1.640  SHIP_FINAL_PREPELL_DIE_DIE_MAP — (T or F) If T, requires delivery of the final run, pre-pellicle
+die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.641  SHIP_FINAL_ROT_POSTPELL_DIE_DIE_MAP — (T or F) If T, requires delivery of the final run, post-
+pellicle rotated die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.642  SHIP_FINAL_ROT_PREPELL_DIE_DIE_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  final  run,  pre-
+pellicle rotated die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.643  SHIP_FIRST_POSTPELL_DIE_DB_MSK_MAP  —  (T  or  F)  If T, requires delivery of the first run, post-
+pellicle die to database defect inspection map for the entire patterned area to be sent to customer.
+8. 1.644  SHIP_FIRST_POSTPELL_DIE_DB_PTN_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  first  run,  post-
+pellicle die to database defect inspection map for the single pattern to be sent to customer.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 144
+8. 1.645  SHIP_FIRST_POSTPELL_DIE_DIE_MAP — (T or F) If T, requires delivery of the first run, post-pellicle
+die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.646  SHIP_FIRST_PREPELL_DIE_DB_MSK_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  first  run,  pre-
+pellicle die to database defect inspection map for the entire patterned area to be sent to customer.
+8. 1.647  SHIP_FIRST_PREPELL_DIE_DB_PTN_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  first  run,  pre-
+pellicle die to database defect inspection map for the single pattern to be sent to customer.
+8. 1.648  SHIP_FIRST_PREPELL_DIE_DIE_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  first  run,  pre-pellicle
+die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.649  SHIP_FIRST_ROT_POSTPELL_DIE_DIE_MAP — (T or F) If T, requires delivery of the first run, post-
+pellicle rotated die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.650  SHIP_FIRST_ROT_PREPELL_DIE_DIE_MAP  —  (T  or  F)  If  T,  requires  delivery  of  the  first  run,  pre-
+pellicle rotated die to die defect inspection map for the entire mask to be sent to customer.
+8. 1.651  SHIP_INSP_DATABASE_DATA — (T or F) If T, requires delivery of die-to-database inspection data to
+the customer.
+8. 1.652  SHIP_MANUAL_INSPECTION_FORM — (T or F) If T, requires delivering to the customer a copy of the
+manual inspection form.
+8. 1.653  SHIP_MEASURE_FILE_REGISTR_MAP  —  (T  or  F)  If  T,  requires  delivering  to  the  customer  the
+measure file registration map.
+8. 1.654  SHIP_PHASE_SHIFT_MEASUREMENTS — (T or F) If T, phase_shift_measurements must be sent to
+the customer.
+8. 1.655  SHIP_PHASE_SHIFT_REPORT — (T or F) If T, requires delivering to the customer a report of the phase
+shift characteristics of the mask.
+8. 1.656  SHIP_REGISTR_DATA  —  (T  or  F)  If  T,  requires  delivery  of  all  registration  measurements,  criteria  and
+evaluation data to the customer for all registration criteria specified.
+8. 1.657  SHIP_REPAIR_DATA — (T or F) If T, requires delivery of repair data to the customer.
+8. 1.658  SHIP_SEM_PHOTOS — (T or F) If T, requires delivery of SEM photos to the customer.
+8. 1.659  SHIP_SPECIAL_REQUEST  —  (text)    If  present,  the  data  field  specifies  the  special  request  of  the
+customer.
+8. 1.660  SHIP_STARLIGHT_MAP  —  (T  or  F)  If  T,  requires  delivery  of  a  defect  map  from  the  Starlight  to  the
+customer.
+8. 1.661  SHIP_SURF_INSP_GLASS_SIDE_MAP  —  (T  or  F)  If  T,  the  final,  post-pellicle,  surface  inspection  map
+of the glass side of the mask must be sent to the customer.
+8. 1.662  SHIP_SURF_INSP_MEASUREMENTS  —  (T  or  F)  If  T,  surface_insp_measurements  must  be  sent  to
+the customer.
+8. 1.663  SHIP_SURF_INSP_PATTERN_SIDE_MAP  —  (T  or  F)  If  T,  the  final,  post-pellicle,  surface  inspection
+map of the patterned side of the mask must be sent to the customer.
+8. 1.664  SHIP_SURF_INSP_PELL_TOP_MAP — (T or F) If T, the final, post-pellicle, surface inspection map of
+the pellicle on the patterned side of the mask must be sent to the customer.
+8. 1.665
+SHIP_SURF_INSP_PELL_BOTTOM_MAP —  (T  or  F)  If  T,  the  final,  post-pellicle,  surface  inspection
+map of the pellicle on the glass side of the mask must be sent to the customer.
+8. 1.666  SHIP_SURF_INSPECTION_MAP — (T or F) If T, the final, post-pellicle, surface inspection map(s) must
+be sent to the customer.
+8. 1.667  SHIP_THRU_PELLICLE_DATA  —  (T  or  F)  If  T,  requires  delivery  of  through-pellicle  defect  inspection
+criteria and evaluation data to the customer for all defect criteria specified.  This should be final inspection data.
+
+
+SEMI P10-0705 © SEMI 1990, 2005 145
+8. 1.668  SHIP_TRAVELER — (T or F) If T, requires delivery of mask traveler document to the customer.
+8. 1.669  SHIPPING_ADDRESS — Address for delivery of masks.
+8. 1.670  SHIPPING_CONTACT — Name of person to receive masks.
+8. 1.671  SHIPPING_EMAIL — Internet address for SHIPPING_CONTACT.
+8. 1.672  SHIPPING_FAX — Phone number for facsimile machine of SHIPPING_CONTACT.
+8. 1.673  SHIPPING_PHONE — Phone number for SHIPPING_CONTRACT.
+8. 1.674  SHIPPING_METHOD  —  Transportation  method  for  masks,  including  special  arrangements  for  off-hours
+and weekends.
+8. 1.675  SHIPPING_METHOD_USED — Transportation method used to deliver masks.
+8. 1.676  SIZING  —  (n)  The  amount  to  increase  or  decrease  the  width  and  height  of  all  geometry  within  a  pattern
+while fracturing.  (n) is in microns and can be negative, indicating a decrease.  Note that (n) results in a “one-sided”
+change in feature size.
+8. 1.677  SIZING_BORDER_RULE — (FIT, INSIDE, OUTSIDE and others on request) Describes methodology for
+applying SIZING at the borders of the output file and the effect on the final dimensions of the output file.
+8. 1.678  SIZING_RULE  —  (SQUARE,  PARAGON,  EXTEND,  OCTAGON  and  others  on  request)  Describes
+methodology for applying SIZING around corners.
+8. 1.679  SO_NUMBER — Alphanumeric sales order number.
+8. 1.680  SOFTWARE_NAME  — Name of the software program, not the brand (e.g., MaskRigger or MaskWeaver,
+not  MaskTools).  If,  for  a  given  function_purpose,  multiple  software_program  names  appear,  then  they  are
+alternative software tools to achieve the desired outcome.
+8. 1.681  SOFTWARE_REVISION    —    (text,  including  ...“OR  HIGHER”)  Revision  identification,  per  software
+vendor’s nomenclature.
+8. 1.682  START_BARCODE — (text) name of barcode.
+8. 1.683  START_BILLING_INFORMATION — (text) name of billing_information.
+8. 1.684  START_CD  —  Indicates  beginning  of  cd_group.  Alphanumeric  data  field  identifies  the  collection  to
+establish  which  collections  are  hierarchically  affected  by  another.  The  appearance  of  a  cd_definition  at  a  lower
+level in the hierarchy supercedes the entire cd_definition at a higher level in the hierarchy if and only if it has the
+same START_CD data field.
+8. 1.685  START_CD_GROUP_MEASUREMENTS — (text) name of cd_group_measurements.
+8. 1.686  START_CD_ISO_DENSE — (text) name of cd_iso_dense_definition.
+8. 1.687  START_CD_ISO_DENSE_RESULTS — (text) name of cd_iso_dense_results.
+8. 1.688  START_CD_MEASUREMENT — (text) name of cd_measurement.
+8. 1.689  START_CD_SET — Indicates beginning of cd_set. Alphanumeric data field identifies the collection to
+establish which collections are hierarchically affected by another. The appearance of a cd_set at a lower level in
+the  hierarchy  supercedes  the  entire  cd_set  at  a  higher  level  in  the  hierarchy  if  and  only  if  it  has  the  same
+START_CD data field.
+8. 1.690   START_CD_SET_RESULTS — (text) name of cd_set_results.
+8. 1.691  START_CD_XY_DEFINITION — (text) name of cd_xy_definition.
+8. 1.692  START_CD_XY_RESULTS — (text) name of cd_xy_results.
+8. 1.693  START_CLOSURE_MEASUREMENTS — (text) name of closure_measurements
+8. 1.694  START_COATING — (text) name of coating.
+8. 1.695  START_DATA_FRACTURE — (text) name of data_fracture group.

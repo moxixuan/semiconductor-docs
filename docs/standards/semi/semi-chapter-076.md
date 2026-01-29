@@ -1,0 +1,4085 @@
+---
+title: "F3-94 - © SEMI 1990, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "F3-94 - © SEMI 1990, 2003..."
+sidebar_position: 760
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-076.pdf'
+  chapter: 76
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/076.pdf"
+  pdfSize="0.47MB"
+  title="F3-94 - © SEMI 1990, 2003..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI F3-94 © SEMI 1990, 2003 6
+APPENDIX 2
+HEXAVALENT CHROMIUM
+ALERT
+NOTE: This related information is not an official part of this
+SEMI  guide  and  is  not  intended  to  modify  or  supercede  the
+official  guide.  It  has  been  derived  from  the  cited  document.
+Publication  was  authorized  by  full  letter  ballot  procedures.
+Determination  of  the  suitability  of  the  material  is  solely  the
+responsibility of the user.
+A2-1  General
+A2-1.1  Hexavalent chromium, which is given off when
+stainless steel is welded, causes lung cancer in humans.
+For  information  about  hexavalent  chromium,  refer  to
+HESIS  Hazard  Alert,  June  1992,  Hazard  Evaluation
+System & Information Service, California Occupational
+Health Program, 2151 Berkeley Way, Annex 11, Third
+Floor, Berkeley, CA 94704.
+
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081  Zanker  Road,  San  Jose,  CA    95134.  Reproductio
+n
+of  the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F4-1000 © SEMI 1990, 20001
+SEMI F4-1000
+SPECIFICATION FOR PNEUMATICALLY ACTUATED CYLINDER
+VALVES
+This   specification   was   technically   approved   by   the   Global   Facilities   Committee   and   is   the   direct
+responsibility of the North American Facilites Committee.  Current edition approved by the North American
+Regional Standards Committee on August 28, 2000.  Initially available on SEMI OnLine September 2000; to
+be published October 2000.  Originally published in 1990; previously published February 2000.
+1  Purpose
+1. 1  This specification establishes t he minimum design
+and    performance    requirements    for    pneumatically
+actuated    cylinder    valves    used    in    semiconductor
+manufacturing.  It  is  also  intended  as  an  aid  in  the
+procurement of these valves.
+2  Scope
+2. 1     This    specification    applies    to    pn eumatically
+actuated  valves  for  use  on  cylinders  containing  gases
+used  in  semiconductor  manufacturing  facilities  and  in
+comparable research and development areas.
+2. 2   This  specification  does  not  pur port  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility   of   the   users   of   this   specification   to
+establish  appropriate  safety  and  health  practices  and
+determine  the  applicability  of  regulatory  limitations
+prior to use.
+3  Limitations
+3. 1   This  specification  is  not  a  repl acement  for  safety
+regulations. It is the responsibility of the user to ensure
+that   pneumatically   actuated   cylinder   valves   comply
+with all applicable safety regulations.
+3. 2  This specification excludes de sign or performance
+requirements for any electrically operated devices used
+in conjunction with, or as a replacement for, pneumatic
+actuators.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  F1  —  Specification  for  Leak  Integrity  of  High-
+Purity Gas Piping Systems and Components
+SEMI F19 — Specification for the Finish of the Wetted
+Surfaces   of   Electropolished   316L   Stainless   Steel
+Components
+SEMI  F20  —  Specification  for  316L  Stainless  Steel
+Bar,  Extruded  Shapes,  Plate  and  Investment  Castings
+for  Components  Used  in  High  Purity  Semiconductor
+Manufacturing Applications
+SEMI  F32
+ Test  Method  for  Determination  of  Flow
+Coefficient for High Purity Shutoff Valves
+SEMI   S5   —   Safety   Guideline   for   Flow   Limiting
+Devices
+4. 2  ASME Document
+1
+B1.1  —  Unified  Inch  Screw  Threads  (UN  and  UNR
+Thread Form)
+4. 3  CGA Standards
+2
+CGA G-4.1 — Cleaning Equipment for Oxygen Service
+CGA  S-1.1  —  Pressure  Relief  Device  Standards  -  Part
+1 - Cylinders for Compressed Gases
+CGA  S-7  —  Method  for  Selecting  Pressure  Relief
+Devices for Compressed Gas Mixtures for Cylinders
+CGA  V-1  —  Compressed  Gas  Cylinder  Valve  Outlet
+and Inlet Connections
+CGA V-9
+ Compressed Gas Association Standard for
+Compressed Gas Cylinder Valves
+4. 4  ISO Standards
+3
+ISO  68  —  General  Purpose  Screw  Threads  -  Basic
+Profile
+ISO  261  —  General  Purpose  Metric  Screw  Threads  -
+General Plan
+4. 5  US Code of Federal Regulatio ns
+4
+Title 49 CFR, Parts 100–199 —Transportation
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1  Definitions
+5. 1.1  burst pressure — a pressure at   which rupture or
+uncontrolled  leakage  of  one  or  more  of  the  pressure
+retaining components of the device occurs.
+
+1 American Society of Mechanical Engineers, 345 East 47th Street,
+New York, NY 10017
+2 Compressed Gas Association, Inc., 1725 Jefferson Davis Highway,
+Suite 1004, Arlington, VA 22202
+3 International Organization for Standardization, Case Postale 56,
+Geneve 20, CH-1211, Switzerland
+4 Department of Transportation, Superintendent of Documents, U.S.
+Government Printing Office, Mail Stop: SSOP, Washington, D.C.
+20402-9328
+
+SEMI F4-1000 © SEMI 1990, 20002
+5. 1.2    cylinder   —   a   pressure   vessel   d esigned   for
+pressures  higher  than  276  kPa  (40  psia),  having  a
+circular  cross-section,  and  a  maximum  water  capacity
+of  less  than  454  kg  (1,000  lbs.).  It  does  not  include  a
+portable  tank,  multi-unit  tank  car  tank,  cargo  tank,  or
+tank car.
+5. 1.3   cylinder  valve  —  a  mechanica l  device  attached
+to  a  compressed  gas  cylinder  that  permits  flow  into  or
+out  of  the  cylinder  when  the  device  is  in  the  open
+position and prevents flow when in the closed position.
+5. 1.4   disconnect  shutoff  —  a  device ,  which  will  not
+permit  the  flow  of  gas  through  an  open  cylinder  valve
+without attachment to an outlet connector.
+5. 1.5  flow coefficient (Cv) — a num eric constant used
+to characterize the flow capacity of a valve.
+5. 1.6   manual  locking  device  —  a  de vice  used  to
+prevent   the   cylinder   valve   from   opening   during
+transportation or service.
+5. 1.7   manual  override  —  a  device  u sed  for  opening
+the cylinder valve manually.
+5. 1.8  normal temperature — a temp erature of 21°C ±
+6°C (70°F ± 10°F).
+5. 1.9    normally   closed   —   a   design   in    which   the
+cylinder  valve  closure  member  automatically  assumes
+the  closed  position  upon  loss  of  compressed  gas  to  the
+actuator.
+5. 1.10   packless  valve  —  a  valve  with   a  diaphragm  or
+bellows stem seal instead of a packing or O-ring seal at
+the stem.
+5. 1.11  pneumatic actuator — a devic e which converts
+compressed  gas  pressure  into  mechanical  motion  and
+force to move the cylinder valve closure member.
+5. 1.12   proof  pressure  —  a  pressure  g reater  than  the
+cylinder  valve’s  rated  pressure  that  the  cylinder  valve
+can  withstand  without  impairing  its  ability  to  meet  the
+leak  rate  limits  specified  in  SEMI  F1  upon  return  to
+rated pressure.
+5. 1.13   rated  pressure  —  the  pressure   at  which  the
+cylinder    valve    can    meet    the    performance    and
+qualification  requirements  of  this  specification.  Rated
+pressure shall be specified by the manufacturer.
+5. 1.14  valve closure member — that p art of the cylin-
+der valve which is positioned in the flow stream to per-
+mit or obstruct flow, depending on its closure position.
+5. 1.15  wetted surface — surface with in the interior of
+the   cylinder   valve,   which   is   in   contact   with   the
+controlled gas. The surface in contact with the gas used
+to  actuate  the  cylinder  valve  is  not,  for  the  purpose  of
+this specification, considered a “wetted surface”.
+6  Design Requirements
+6. 1    General   —   Components   not   c overed   by   this
+specification  or  CGA  Standards  shall  be  constructed
+such    that    they    do    not    compromise    the    safety,
+substantiality, and durability of the valve or actuator.
+6. 2   Configuration  —  The  cylinder   valve  shall  be  a
+packless valve design with a normally closed actuator.
+6. 3  Size — The cylinder valve and  actuator shall be of
+a  design  size  which  permits  the  use  of  a  protective
+transportation cover which satisfies the requirements of
+49 CFR Section 173.40(d)(2).
+6. 4  Materials — Ferrous materials  used for the wetted
+surfaces shall be per SEMI F20. Other materials may be
+supplied  to  satisfy  specific  material  or  performance
+requirements, provided they are compatible with the gas
+service.
+6. 5  Inlet  —  The  inlet  of  the  cylind er  valve  shall  have
+tapered  external  threads  as  specified  by  CGA  V-1  or
+other recognized governmental or industry standards for
+the connection of cylinder valves to gas cylinders.
+6. 6   Outlet  —  The  outlet  of  the  cyl inder  valve  shall
+conform   to   a   CGA   630/710   series   connection   in
+accordance    with    CGA    V-1    or    other    recognized
+governmental   or   industry   standards   for   the   outlet
+connections of gas cylinder valves.
+6. 7    Actuator   Pressure   —   The   actu ating   pressure
+required  to  open  the  cylinder  valve  fully  shall  not
+exceed 550 kPa (gauge) (80 psig).
+6. 8   Manual  Override  —  A  manua l  override  shall  be
+supplied.
+6. 9    Vents   —   Vent   hole(s)   for   mass    spectrometer
+helium  leak  testing  shall  be  supplied  at  appropriate
+locations.
+6. 10   Internal  Volume  —  The  wetted   surfaces  should
+be  configured,  and  the  internal  volume  minimized,  to
+enhance the efficacy of purging.
+6. 11   Particle  Control  —  The  design   should  minimize
+accumulation and generation of particles.
+6. 12   Threaded  Fasteners  —  Thread ed  fasteners  used
+in   the   covers,   housings,   casings,   and   any   external
+mounting brackets shall have threads conforming to, as
+applicable,   the   ASME   B1.1,   ISO   68,   or   ISO   261
+standards.
+6. 13   Cleanliness  —  The  cylinder  va lve  and  actuator
+shall be cleaned, as a minimum, per CGA Standard G-
+4. 1.
+
+SEMI F4-1000 © SEMI 1990, 20003
+7  Optional Design Requirem ents
+7. 1   Flow  Limiting  Device  —  Prov ision  for  limiting
+flow, per SEMI S5, shall be supplied when specified.
+7. 2  Pressure Relief Devices — Pre ssure relief devices
+must be required in accordance with CGA S-1.1 or S-7.
+7. 3   Disconnect  Shutoff  —  A  disco nnect  shutoff  shall
+be supplied when specified.
+7. 4   Manual  Locking  Device  —  A   manual  locking
+device shall be supplied when specified.
+7. 5     Electropolish    —    Cylinder    valv es    shall    be
+electropolished per SEMI F19 when specified.
+7. 6    Cleanliness   —   Cleaning   above    the   minimum
+requirements of CGA G-4.1 may be specified.
+7. 7    Position   Indicator   —   A   device     for   visual
+confirmation   of   open   or   closed   position   may   be
+specified.
+8  Qualification Requiremen ts
+8. 1   General  — Any  new  cylinder   valve  design  or
+substantially  revised  cylinder  valve  design  shall  be
+tested  prior  to  production  to  demonstrate  compliance
+with this specification.
+8. 1.1  Leakage  —  Cylinder  valves  sh all  be  leak  tested
+using  the  methods  and  leak  rate  limits  specified  in
+SEMI F1 for qualification of components.
+8. 1.2   Operating  Temperature  Range  —  The  cylinder
+valves  shall  perform  satisfactorily  at  any  temperature
+between -40°C (-40°F) and 55°C (131°F).
+8. 2   Qualification  Cylinder  Valve  S amples  —  Nine
+cylinder  valves  shall  be  selected  at  random  from  the
+pre-production  manufacturing  phase  of  the  product  for
+qualification to this specification.
+a.One  cylinder  valve  shall  be  used  for  the  Flow
+Coefficient and Transportation Vibration Tests.
+b.Three cylinder valves shall be used for the Pressure
+Tests.
+c.Three   cylinder   valves   shall   be   used   for   the
+Endurance Test.
+d.Two cylinder valves shall be used for the Tip-Over
+Tests.
+8. 3  Flow Coefficient Test — The f low coefficient of a
+fully   open   cylinder   valve   tested   without   a   flow
+restrictor shall be a minimum of 0.1. The method of test
+for   determining   the   flow   coefficient   shall   be   as
+prescribed by SEMI F32.
+8. 4    Transportation   Vibration   Test   —   After   being
+subjected  to  vibration  for  one  hour  at  a  frequency  of
+3400  to  3600  vibrations  per  minute  at  an  amplitude  of
+0. 8  mm  (0.031  in.)  to  1.6  mm  (0.063  in.),  the  cylinder
+valve   shall   not   exceed   the   inboard,   outboard,   and
+internal leak rate limits specified.
+8. 5  Pressure Tests
+8. 5.1  Back  Pressure  —  The  cylinde r  valve  shall  not
+exceed  the  internal  leak  rate  limits  specified  in  SEMI
+F1  with  the  cylinder  valve  closed,  the  rated  pressure
+applied at the outlet, and the inlet connected to the leak
+detector.
+8. 5.2  Proof  Pressure — The proof p ressure at normal
+temperature shall be a minimum of 1.67 times the rated
+pressure.  Tests  shall  be  conducted  following  the  back
+pressure  test  with  the  cylinder  valve  open,  the  outlet
+capped, and the pressure relief port capped or plugged.
+After  exposure  to  an  aerostatic  proof  pressure  for  ten
+minutes,   the   cylinder   valve   shall   not   exceed   the
+inboard, internal, and outboard leak rate limits specified
+in SEMI F1.
+8. 5.3  Burst  Pressure  —  The  burst  pr essure  at  normal
+temperature shall be a minimum of three times the rated
+pressure.   Tests   shall   be   conducted   hydrostatically
+following the proof pressure test with the cylinder valve
+open,  the  outlet  capped,  and  the  pressure  relief  port
+capped  or  plugged.  Visible  outboard  leakage  is  not
+permitted   during   the   burst   test.   After   testing,   the
+cylinder valve need not be functional.
+8. 5.3.1  Pressure  Rating  Determinatio n  —  The  rated
+pressure  shall  be  less  than  or  equal  to  the  pressure
+determined from the burst pressure test as follows:
+P ≤ 0.33BT
+m
+/T
+a
+Where:
+P    =    Rated pressure
+B   =    The lowest burst pressure recorded for the three
+specimens tested
+T
+a
+=    The actual tensile strength of the failed test
+specimen material obtained from Certified Material
+Test Reports.
+T
+m
+=    The specified minimum tensile strength of the failed
+specimen material.
+NOTE 2: The   factor   of   T
+m
+/T
+a
+is   included   to   normalize
+between   the   particular   steel   stock   from   which   the   test
+specimens were made and the minimum tensile strength of the
+specified steel.
+8. 6   Endurance  Test  —  The  cycle  l ife  of  the  cylinder
+valve shall be at least 5,000 operational cycles.  During
+and  after  5,000  operations,  the  cylinder  valve  shall  not
+exceed  the  inboard,  internal,  and  outboard  leak  rate
+limits  specified  in  SEMI  F1.  A  cycle  shall  consist  of
+one opening and one closing of the cylinder valve.
+
+SEMI F4-1000 © SEMI 1990, 20004
+8. 6.1   Cylinder  valves  shall  be  opera ted  alternately
+through     minimum     and     maximum     temperatures
+specified in Section 8.1.2 in 1000 cycle increments until
+completion of the specified number of cycles. The first
+thermal   cycle   shall   take   the   cylinder   valves   to
+maximum   temperature.   Cylinder   valves   shall   be   at
+thermal    equilibrium    while    mechanically    cycling.
+Initially,  and  at  the  completion  of  every  1000  cycles,
+the   cylinder   valves   shall   not   exceed   the   inboard,
+internal,  and  outboard  leakage  tests  specified  in  SEMI
+F1 at normal temperature.
+8. 6.2   The  cylinder  valve  inlet  pressu re  shall  be  the
+cylinder  valve  rated  pressure.  Cylinder  valves  shall  be
+cycled  at  a  rate  of  one  cycle  per  ten  seconds,  equally
+divided  between  opening  and  closing.  During  the  off
+cycle, the cylinder valve's downstream pressure shall be
+allowed to decay to 50% or less of the inlet pressure.
+8. 7  Tip-Over Test
+ After being s ubjected to tip-over
+tests  the  cylinder  valves  shall  show  no  evidence  of
+structural   damage,   shall   not   exceed   the   inboard,
+internal, and outboard leak rates specified in SEMI F1,
+and  shipping  caps  or  other  protective  devices  shall  be
+able to be removed or adjusted so that the valve can be
+operated.
+8. 7.1     Tip-over    testing    shall    be    condu cted    in
+accordance with CGA V-9, Section 5.2.6.4.
+8. 7.2   The  tip-over  tests  shall  be  perf ormed  with  the
+cylinder  valve  installed  on  a  166  kPa  (2400  psig),  250
+mm (10 inches) diameter by 1550 mm (61 inches) long
+(including cap) gas cylinder, or onto a smaller cylinder
+if  the  valve  is  restricted  by  the  manufacture  for  use  on
+the smaller cylinder.
+8. 7.3   A  shipping  cap  or  other  protec tive  device  shall
+be  installed  onto  the  cylinder  during  the  tip-over  tests.
+If  a  special  cap  or  protective  device  is  used  it  shall
+conform to the requirements of CGA V-9, Appendix E-
+49 CFR cylinder drop protocol.
+9  Manufacturing Requireme nts
+9. 1  Acceptance Testing
+9. 1.1   Each  cylinder  valve  shall  be  ac ceptance  tested
+for  inboard,  internal,  and  outboard  leakage  per  SEMI
+F1.
+9. 1.2   Each  actuator  shall  be  tested  fo r  leakage  of  less
+than 1 sccm at 550 kPa (80 psig).
+9. 1.3   Each  cylinder  valve  shall  be  vi sually  inspected
+for  cleanliness,  damage,  proper  markings,  and  actuator
+function, as a minimum.
+9. 2    Marking   — Each   cylinder   valv e   shall   be
+permanently  identified  with  the  following  minimum
+information:
+9. 2.1  Manufacturer’s name or logo.
+9. 2.2    Manufacturer’s   part   number   or    part   number
+code.
+9. 2.3  Outlet type (CGA number or o ther specification
+identification).
+9. 2.4  Pressure relief device marked  in accordance with
+CGA     pamphlet     S-1.1     or     other     specification
+identification.
+9. 2.5   Manufacturer’s  serial  number   or  code  that  will
+provide   traceability   for   materials,   test   data,   and
+assembly date.
+9. 2.6    Flow   limiting   information   whe n   the   flow
+limiting device is integral to the cylinder valve and not
+intended for removal.
+9. 3   Traceability  —  The  manufactu rer  shall  use  a
+program to qualify raw materials, parts, assemblies, and
+purchased components and to provide traceability of all
+components   (manufactured   or   purchased)   used   in
+production of cylinder valves.
+9. 4  Instructions
+9. 4.1   Clear,  concise  instructions  and   diagrams  stated
+in terms clearly understandable and adequate for proper
+installation  and  safe  operation  shall  be  provided  with
+each cylinder valve.
+9. 4.2   Instructions  for  periodic  maint enance  or  repair,
+as    required,    shall    be    made    available    by    the
+manufacturer.   No   repairs   or   maintenance   shall   be
+conducted  without  these  instructions.  Parts  that  require
+replacement shall be identified.
+9. 5  Maintenance — Ideally, the cy linder valve shall be
+capable  of  fulfilling  the  performance  and  qualification
+requirements   of   this   specification   after   any   of   the
+maintenance procedures specified by the cylinder valve
+manufacturer.  Maintenance  shall  be  performed  by  only
+those  persons  the  cylinder  valve  manufacturer  deems
+qualified.
+10  Related Documents
+10. 1  Military Specification
+5
+MIL-DTL-2E — Valves, Cylinder, Gas
+
+5 Military Specification, Commanding Officer, Naval Publications
+and Forms Center, Attention: MPFC 105, 5801 Tabor Avenue,
+Philadelphia, PA 19120
+
+SEMI F4-1000 © SEMI 1990, 20005
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  user's  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F5-1101 © SEMI 1990, 20011
+SEMI F5-1101
+GUIDE FOR GASEOUS EFFLUENT HANDLING
+This  guide  was  technically  approved  by  the  Global  Environmental  Health  &  Safety  Committee  and  is  the
+direct  responsibility  of  the  North  American  Environmental  Health  &  Safety  Committee.  Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  August  27,  2001.    Initially  available  at
+www.semi.org September 2001; to be published November 2001. Originally published in 1990.
+NOTICE:   This  document,  as  balloted,  is  intended  to
+replace SEMI F5-90 in its entirety.
+NOTICE:    Paragraphs  entitled  “NOTE”  are  not  an
+official part of this guide and are not intended to modify
+or   supersede   the   official   guide.   These   have   been
+supplied  by  the  Task  Force  to  enhance  usage  of  the
+guide.
+1  Purpose
+1. 1  The   purpose   of   this   guide   is   to   provide   the
+semiconductor industry with the general knowledge and
+background     information     for     understanding     the
+principles of exhaust systems.
+1. 2  It  includes  suggestions  for  layout  and  selection  as
+well    as    application    of    appropriate    methods    and
+equipment for abating emissions.
+1. 3  This   guide   is   intended   for   use   in   abatement
+selection  for  both  gaseous  and  particulate  contaminant
+materials    potentially    emitted    from    semiconductor
+manufacturing facilities.
+2  Scope
+2. 1  Applicability  —  This  guide  presents  a  review  and
+evaluation of available information including:
+• Chemical   and   physical   properties   of   chemical
+compounds  and  elements,  that  are,  or  may  be,
+released     from     semiconductor     manufacturing
+operations,
+• Some   current   industry   practices   for   separating
+exhaust systems for different groups of materials,
+• Potential methods for abating emissions of gaseous
+and    particulate    contaminants    exhausted    from
+semiconductor  manufacturing  operations  at  “End-
+of-Pipe”,
+• Potential methods for abating emissions of gaseous
+and    particulate    contaminants    exhausted    from
+semiconductor  manufacturing  processes  at  “Point-
+of-Use”  and  reasons  why  they  should  be  used  for
+some processes,
+• Standard      industry      methods      of      recovery,
+replacement, and “usage reduction” for minimizing
+release of materials.
+2. 2   Contents — This document contains the following
+sections:
+
+# 1
+
+1. Purpose
+
+# 2
+
+2. Scope
+
+# 3
+
+3. Limitations
+
+# 4
+
+4. Referenced Standards
+
+# 5
+
+5. Terminology
+
+# 6
+
+6. Philosophy
+
+# 7
+
+7. Classification of Emissions
+
+# 8
+
+8. End-of-Pipe Abatement Technologies
+
+# 9
+
+9. Point-of-Use (POU) Abatement Technologies
+
+# 10
+
+10. Provisions for Emergency Release
+
+# 11
+
+11. Summary Table
+
+# 12
+
+12. Alternative Approaches
+
+# 13
+
+13. Related Documents
+Appendix 1 — End-of-Pipe Abatement Design
+Appendix 2 — POU Abatement Technology Types
+2. 3  This  guide  does  not  purport  to  address  all  of  the
+safety   issues   associated   with   its   use.   It   is   the
+responsibility  of  the  users  of  this  guide  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1  This  guide  makes  only  a  few  recommendations
+regarding the fire protection aspects of exhaust systems.
+Additional
+recommendations  on  the  risk  assessment  of
+systems,  compatibility  of  materials,  and  the  potential
+need for use of non-combustible materials or the fitting
+of fire detectors, sprinklers etc., are within the scope of
+other documents.
+3. 2  Methods  for  treating  solid  or  liquid  waste  (created
+by  emission  abatement  processes)  and  methods  for
+recovery of gases are not discussed in this document.
+
+SEMI F5-1101 © SEMI 1990, 20012
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+SEMI   S5   —   Safety   Guideline   for   Flow   Limiting
+Devices
+SEMI   S8   —   Safety   Guidelines   for   Ergonomics
+Engineering      of      Semiconductor      Manufacturing
+Equipment
+4. 2  Code   of   Federal   Regulations —  United  States
+Environmental Protection Agency
+1
+40 CFR Part 63 (Clean Air Act 112 (b)(1))
+4. 3  Uniform Codes
+2
+Uniform   Fire   Code   —    Article   80   —   Hazardous
+Material
+NOTE 1: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  CVD — Chemical Vapor Deposition
+5. 1.2  EPI — epitaxial deposition
+5. 1.3  HAP — Hazardous Air Pollutants [as defined by
+40 CFR Part 63 (Clean Air Act 112 (b)(1))
+5. 1.4  PFC — perfluorocompounds
+5. 1.5  POU — Point of use
+5. 1.6  VOC — Volatile Organic Compounds
+5. 2  Definitions
+5. 2.1  classification  of  emissions  —  understanding  the
+composition of process exhausts.
+5. 2.2  efficiency  —  the  ratio  (or  fraction  or  proportion)
+of removed chemical species to its input amount
+5. 2.3  End-of-Pipe        Abatement        —        abatement
+technologies  that  can  be  fitted  at  the  discharge  point  of
+the exhaust system.
+5. 2.4  flow capacity — the maximum flow any specific
+equipment can handle.
+5. 2.5  occupational  exposure  limits  (OELs)  —  for  the
+purpose    of    this    document,    OELs    are    generally
+established  on  the  basis  of  an  eight-hour  workday.
+
+1  United States Government Code of Federal Regulations, free from
+the web site at http://www.epa.gov
+2  International Conference of Building Officials (ICBO), 5360
+Workman Mill Road, Whittier, CA  90601-2298
+Various  terms  are  used  to  refer  to  OELs,  such  as
+permissible exposure levels, Threshold Limit Values®,
+maximum     acceptable     concentrations,     maximum
+exposure  limits,  and  occupational  exposure  standards.
+However,  the  criteria  used  in  determining  OELs  can
+differ among the various countries that have established
+values.  Refer  to  the  national  bodies  responsible  for  the
+establishment  of  OELs.  (Threshold  Limit  Value  is  a
+registered  trademark  of  the  American  Conference  of
+Governmental Industrial Hygienists.)
+5. 2.6  Point-of-Use       Abatement       —       abatement
+technologies that can be fitted at the point of discharge
+of  the  gaseous  emission  from  semiconductor  process
+equipment.    These  devices  are  also  called  exhaust
+conditioners.
+5. 2.7  removal  capacity  —  amount  of  a  species  which
+can be removed.
+5. 2.8  usage  reduction  —  reducing  the  total  volume  of
+process chemicals requiring abatement.
+6  Philosophy
+6. 1  Gaseous     mixtures     potentially     emitted     from
+numerous  processes  could  also  produce  hazards  within
+exhaust ducts.
+6. 2  With  increasing  legal  requirements  worldwide  on
+both    worker    safety    and    general    environmental
+protection,   more   effective   exhaust   management   is
+required.
+6. 3  This   demands   a   detailed   understanding   of   the
+chemical   and   physical   properties   of   the   chemical
+compounds  being  emitted  from  processes,  and  of  the
+conditions under which they are released.
+6. 4  Careful design of the abatement systems is required
+to attain both high efficiency and maximum economy.
+7  Classification of Emissions
+7. 1  The    following    fundamental    points    regarding
+exhaust emissions should be considered:
+• Exhaust  contaminants  might  be  solely  the  material
+used  in  the  process  (e.g.,  isopropyl  alcohol  (IPA)
+from a rinse chamber)
+• In  plasma  and  thermal  chambers  many  reactions
+occur,  both  those  desired  and  others;  therefore  by-
+products   are   also   key   components   of   exhaust
+emissions.
+• In   theory,   most   possible   combinations   of   the
+elements   in   the   input   gases   may   be   found   as
+compounds  in  the  exhaust.  In  practice,  the  main
+components  will  be  the  unused  process  gas  (the
+percentage  consumed  in  the  process  varies,  and
+
+SEMI F5-1101 © SEMI 1990, 20013
+may  be  as  low  as  10%).    Additional  by-products
+will  have  different  and  sometimes  more  hazardous
+properties.
+7. 2  Considerable   research   has   been   conducted   into
+various   hazardous   by-products   of   processes,   from
+explosive  solids  to  organochlorine  compounds  with
+mutagenic   properties.      (See   Sections   13.1   through
+13. 3.)
+7. 3  In  considering  selection  of  exhaust  systems  and
+abatement  technology,  it  is  essential  to  review  all  the
+materials likely to be present in the exhaust.
+7. 4  Contributions from the materials on the wafer must
+also   be   considered,   as   they   often   cause   blocked
+exhausts   (e.g.,   aluminum   etches   produce   aluminum
+chloride  (a  by-product  of  removal  of  aluminum  from
+the wafer with chlorinated gases)).
+7. 5  Processes   that   produce   specific   hazardous   by-
+products  should  be  evaluated  for  appropriate  point-of-
+use   abatement   technology   before   discharge   to   an
+exhaust system.
+7. 6  Gaseous and particulate contaminants emitted from
+semiconductor      manufacturing      can      be      divided
+conveniently  into  nine  major  groups,  each  of  which
+might justify its own exhaust system.
+7. 6.1  Group-1 Acid — Easily hydrolyzable acids, (e.g.,
+hydrogen chloride hydrolyzes into hydrochloric acid.)
+7. 6.2  Group-2 Acid aerosols (“difficult–to-scrub”)  —
+This  group  includes  acids  that  generate  aerosols  and
+that  are  not  easily  removed  by  simple  water  scrubbers
+(e.g., aqua regia, sulfuric and nitric).
+NOTE 2: High concentrations of easily soluble acids will also
+fall into the “difficult-to-scrub” category.
+7. 6.3  Group-3     Ammonia      —      Exhaust      streams
+containing ammonia
+7. 6.4  Group-4  Volatile  Organic  Compounds  (VOCs)
+—   Exhausts   containing   volatile   organic   compound
+vapors     or     flammable     gas     discharge     requiring
+destruction.
+7. 6.5  Group-5   Pyrophoric   —   Exhausts   containing
+pyrophoric gases.
+7. 6.6  Group-6   Emergency   Release   Discharges —
+Enclosures  are  provided  with  additional  exhausts  to
+contain   sudden   unanticipated   releases   of   gas   from
+cylinders, etc.
+7. 6.7  Group-7  Special/Direct  —  Additional  exhausts
+used   to   keep   specific   gases   separate   for   recovery
+purposes  (e.g.,  hydrogen  (H
+2
+)  reclamation  from  EPI  or
+PFC  reclamation  from  CVD  tools,  Oxides  of  Nitrogen
+(NO
+x
+)).
+7. 6.8  Group-8  General  Exhaust  Systems  without  End-
+of-Pipe Treatment — Exhaust of heat or post-treatment
+exhaust from POU abatement systems.
+7. 6.9  Group-9  Highly  Toxic  Gas  Exhaust  —  Highly
+toxic    gases    especially    those    with    poor    warning
+properties  (e.g.,  arsine,  phosphine,  diborane,  germane).
+The  end  user  has  a  primary  responsibility  to  prevent
+discharge  of  these  gases  above  a  regulated  level  (e.g.,
+usually  one-half  (1/2)  of  Immediately  Dangerous  to
+Life and Health (IDLH) levels).
+NOTE 3: Facility exhaust systems may be called by a number
+of   different   names   such   as:   Acid,   Corrosive,   Ammonia,
+Scrubbed,  VOC,  Solvent,  Incinerated,  Highly  Toxic,  Toxic,
+Dedicated,  Special,  PFC,  General,  Heat,  Treated,  or  others.
+The actual facility exhaust system name, and what groups are
+routed to each system, will vary by factory and by country.
+7. 7  The groups listed in Section 7.6 are not a definitive
+division,   but   represent   a   summation   of   common
+industry  practice  for  separation.    The  division  is  based
+on three basic principles:
+• avoiding   mixing   of   incompatible   gases   in   the
+exhaust,
+• potential  need  for  different  end-of-pipe  abatement
+technologies, and,
+• keeping materials separate for recovery.
+7. 8  The  number  of  separate  exhaust  systems  used  is
+entirely   a   decision   for   each   facility,   based   on   the
+following:
+• processes and chemicals used,
+• the number of each type of process,
+• whether recovery of gases is required,
+• whether point-of-use (POU) abatement is installed,
+and
+• compatibility  of  emissions  with  each  other  or  the
+effluent handling system.
+7. 9  In  theory,  if  POU  abatement  systems  are  fitted  to
+all sources of gaseous effluent all exhaust could then be
+combined into a single exhaust system.
+7. 9.1  In  practice  most  facilities  operate  a  compromise
+between  the  two  extremes  with  two  to  four  separate
+exhaust  systems  and  point-of-use  abatement  systems
+fitted only to certain sources.  The decision (as to which
+combination  to  use)  will  often  be  based  on  economic
+and space constraints.
+7. 9.2  Safety  and  environmental  factors  listed  below,
+should  always  be  considered  first  when  determining
+specific  gaseous  sources  that  require  POU  abatement
+systems.
+
+SEMI F5-1101 © SEMI 1990, 20014
+7. 10  Many types of process equipment use and exhaust
+incompatible  gases  sequentially  (e.g.,  silane  and  then
+nitrogen  trifluoride  (NF
+3
+)  as  elements  of  a  deposition
+and cleaning cycle).
+7. 10.1  With  more  than  one  of  these  processes  being
+discharged   asynchronously   into   a   common   exhaust
+duct, undesired reactions may occur.
+7. 10.2  It is possible to avoid this problem by fitting the
+equipment  outlet  with  three-way  valves  to  divert  the
+discharge  to  the  correct  exhaust  system,  depending  on
+equipment  process  step.    Three-way  valves  may  not  be
+necessary if pump ballast-gas flow is increased to dilute
+gases.
+7. 10.2.1  Switching must accurately account for the gas
+transmission  times  from  process  chamber  inlet  to  the
+exhaust valve.
+7. 10.2.2  Introduction  of  additional  mechanical  devices
+could  create  major  hazards,  reliability,  and  service  or
+maintenance issues.
+7. 10.2.3  Valves  must  incorporate  failsafe  designs  to
+ensure pump outlet is not shut off.
+7. 10.3  An  alternative  solution  is  to  fit  a  local  POU
+abatement system that treats at least one component and
+is not adversely affected by the other components.
+7. 11  Point-of-Use (POU) Abatement Devices
+7. 11.1  POU abatement devices are designed to operate
+at  the  process  tool  or  pump  outlet,  and  to  remove
+hazardous   gases   BEFORE   they   enter   the   exhaust
+ductwork.
+7. 11.2  An  end-of-pipe  scrubber  does  not  protect  the
+facility  from  reactions  in  the  ductwork.    Reactions
+between process gases, as discussed above, or reactions
+with  other  process  by-products  within  the  ductwork
+itself are not prevented by end-of-pipe systems either.
+7. 11.3  POU   abatement   devices   may   be   appropriate
+wherever the exhaust gases can react in the ductwork.
+7. 11.4  If  process  systems  are  not  treated  with  POU
+abatement    devices,    the    higher    concentrations    of
+hazardous gases will present a higher risk during a leak
+into the facility space.
+7. 11.5  Improperly functioning POU abatement devices
+can  create  backpressure  that  can  increase  the  risk  of  a
+leak.
+7. 12  Four  significant  consequences  can  be  foreseen
+from effluent gas reactions in the ductwork:
+7. 12.1  Blocked  Ducts  —  Reactions  between  gases,  or
+condensation  of  vapors,  can  produce  solids  and  semi-
+solids  (such  as  crystals,  slurries  or  gels)  that  will  block
+the ductwork.
+7. 12.1.1  Collection   of   solids   can   create   dead   leg
+sections that may contain reactive byproducts or unused
+raw  materials.    Catastrophic  release  of  these  trapped
+materials could generate a significant hazard.
+7. 12.1.2  Extensive  downtime  (for  clean  out,  or  ducts
+collapsing under the weight of accumulated solids) is a
+possible undesirable outcome of this condition.
+7. 12.1.3  Solids  deposited  (such  as  from  metal  etching)
+can,   themselves,   be   both   corrosive   and   hazardous,
+leading  to  health  risks  for  people  performing  cleaning
+in  ductwork.    (See  Related  Documents  13.1  through
+13. 3).
+7. 12.1.4  Blocked  ducts  may  result  in  toxic  process
+gases or by products escaping into the work area.
+7. 12.2  Duct  Corrosion  —  Etching  and  some  chamber
+cleaning process emissions are corrosive.  Both metallic
+(including  stainless  steel)  and  plastic  ducting  can  be
+attacked,  resulting  in  the  release  of  hazardous  gas  or
+condensed liquids into the workplace.
+7. 12.3  Duct  Fires  or  Explosions  —  Flammable  and
+pyrophoric  gases  can  ignite  in  the  ductwork.    If  the
+ductwork    is    combustible    or    has    flammable    or
+combustible deposits in it (e.g., hydrocarbon pump oil),
+facility fires can result.
+7. 12.4  Additional     information     on     protection     of
+Industrial  Exhaust  systems  from  fires  may  be  found  in
+FM    Global    Loss    Prevention    Data    Sheet    7-78,
+“Industrial Exhaust Systems”.
+NOTE 4: Destruction  of  whole  production  lines  with  multi-
+million dollar cost impact has resulted from such incidents.
+7. 12.5  Formation   of   Ammonium   Compounds   —   If
+ammonia    is    discharged    into    a    duct    with    acid
+compounds,  a  sub-micron  ammonium  compound  fume
+can be generated, that is not easily removed by end-of-
+pipe systems.
+7. 12.5.1  The result is visible discharges.
+7. 12.5.2  Ammonium  compounds  produce  solids  in  the
+duct.
+7. 13  If  any  of  the  above  reactions  can  occur  in  the
+process exhaust, POU abatement should be considered.
+7. 14  Exhausts  of  oil-lubricated  vacuum  pumps  should
+be   fitted   with   well-maintained   oil   mist   separators/
+filters.
+7. 15  POU   abatement   devices   may   also   be   needed
+upstream  of  the  recovery  device  for  the  recovery  of
+some  gaseous  compounds    (e.g.,  hydrogen  (H
+2
+),  PFC
+gases).
+
+SEMI F5-1101 © SEMI 1990, 20015
+8  End-of-Pipe Abatement Technologies
+8. 1  Group 1 —  Acid Abatement
+8. 1.1  The  appropriate  abatement  technology  for  this
+category is commonly called "wet scrubbing."
+8. 1.2  Many,  if  not  all,  of  the  semiconductor  processes
+have  traditionally  been  exhausted  through  centralized
+wet scrubbers.
+8. 1.2.1  This      procedure      has      limited      technical
+acceptability  and  may  not  meet  the  requirements  of  all
+regulatory agencies.
+8. 1.2.2  This    technology    should    be    targeted    at
+abatement  of  acid  gases,  vapors,  mists,  and  fumes
+emitted  from  CVD,  dry  etching,  and  wet  chemical
+operations.
+8. 1.2.3  Most   wet   chemical   processes   are   typically
+carried out under local exhaust ventilation devices, such
+as  fume  hoods,  or  in  specially  designed  rooms  that  are
+totally exhausted.  These types of operations include:
+• Processes  used  to  clean  wafers  or  clean  wafer
+handling  equipment  (such  as  quartz  components,
+tubing),
+• Processes  used  in  wafer  fabrication  for  surface
+treatment  such  as  oxide,  silicon  nitride  and  other
+surface treatments, (e.g., metal etching), and
+• Processes    used    for    development    of    positive
+photoresist.
+8. 1.2.4  The  chemical  species  emitted  depends  on  both
+the  chemicals  used  in  the  processes  and  the  conditions
+of use.
+8. 1.2.5  Volatile    acids    (e.g.,    hydrochloric    (HCl),
+hydrofluoric,  nitric,  and  acetic)  yield  corresponding
+gases and vapors, especially when heated.
+8. 1.2.5.1  The  reaction  of  hydrochloric  and  nitric  acids
+in aqua regia yields nitrosyl chloride (NOCl) vapor and
+elemental chlorine (Cl
+2
+) gas.
+8. 1.2.5.2  When  sulfuric  acid  is  heated,  it  yields  both
+sulfuric acid vapor (H
+2
+SO
+4
+) and sulfur trioxide (SO
+3
+).
+8. 1.2.5.3  Phosphoric  acid  (H
+3
+PO
+4
+)  is  not  significantly
+volatile, but spray may be carried over into the exhaust
+system by mechanical entrainment.
+8. 1.2.5.4  Under  appropriate  conditions,  spray  droplets
+of  any  of  the  chemicals  used  may  be  mechanically
+entrained  into  the  ventilation  air  exhausted  from  the
+various processes.
+8. 1.3  Design  and  selection  of  scrubbing  equipment  for
+the  acid  exhaust  systems  must  take  into  account  both
+the  chemical  and  physical  properties  of  the  materials
+being emitted.
+8. 1.4  The    principles    involved    in    collection    of
+particulate    matter    (including    liquid    aerosols)    are
+entirely  different  from  those  determining  absorption  of
+gases.
+8. 1.5  Current Practice
+8. 1.5.1  Exhausts  carrying  acid  compounds  comprise
+the  largest  volume  of  air  discharged  from  a  typical
+semiconductor manufacturing plant.
+8. 1.5.2  The current practice is to connect most or all of
+the  corrosive  sources  to  a  central  building  exhaust
+system  and  to  discharge  the  combined  gas  streams  to
+one or more large wet scrubbers.
+8. 1.5.2.1  A  variety  of  scrubber  types  might  be  used,
+but  the  two  main  types  are  cross-flow  and  counter-
+current  scrubbers  equipped  with  packing  material  of
+some type.
+8. 1.5.3  The  scrubbers  usually  are  fed  with  a  stream  of
+water (potable, recycled, etc.).
+8. 1.5.4  A   side   stream   of   water   is   bled   from   the
+scrubber to a wastewater line.
+8. 1.5.5  It  is  futile  to  discharge  organic  solvents  to
+water  scrubbers  even  if  the  organic  solvents  are,  to
+some degree, soluble in water.
+8. 1.5.5.1  Any dissolved organic solvent will eventually
+be  desorbed  from  the  water  and  will  escape  to  the
+atmosphere,     or     be     discharged     as     wastewater.
+Additionally,  these  organics  could  serve  to  propagate
+biological growth in the scrubber.
+8. 1.5.6  Exhausts   from   process   tools   are   frequently
+discharged to the appropriate building exhaust systems,
+either with or without point-of-use abatement.
+8. 1.5.7  Arsine  and  phosphine,  which  have  only  slight
+solubility in water, pass through the water scrubbers so
+that  the  effect  of  discharging  these  gases  into  the
+building    scrubber    system    is    limited    to    dilution.
+Fluorine  and  chlorine  also  have  limited  solubility  in
+water  and  may  pass  through  water  scrubbers  without
+sufficient  abatement.    POU  abatement  devices  should
+be considered for these types of gases.
+8. 1.5.8  Preliminary  oxidation  of  these  and  numerous
+other  process  gases  results  in  formation  of  fine  fumes
+and  other  aerosols  that  will  be  collected  with  only  low
+efficiencies   by   the   typical   large,   low-energy   wet
+scrubbers.
+8. 1.5.9  If  ammonia  is  discharged  into  a  system  that
+also carries hydrogen chloride, hydrogen fluoride, nitric
+acid, or sulfuric acid; it will react, in the vapor phase, to
+
+SEMI F5-1101 © SEMI 1990, 20016
+form sub-micron solid aerosols of ammonium chloride,
+ammonium  fluoride,  ammonium  nitrate,  or  ammonium
+sulfate, respectively.
+8. 1.5.10  Any  exhausts  carrying  ammonia  should  be
+discharged  to  a  separate  scrubber  or  a  point-of-use
+ammonia abatement used at the process discharge.
+8. 1.6  Chemistry of Pollutants
+8. 1.6.1  Effective  abatement  of  any  compound  requires
+careful  consideration  of  the  chemistries  and  physical
+states of the specific compounds being abated.
+8. 1.6.2  The packed-bed scrubbers commonly employed
+should  generally  be  adequate  for  absorption  of  readily
+soluble  gases,  if  appropriate  operating  conditions  are
+also maintained.
+8. 1.6.3  Misuse can negate the potential performance of
+the scrubbers.
+8. 1.6.4  As  scrubbers  are  low-energy  devices  (pressure
+drops on the order of 2.5 to 10 cm (1-4 inches) of water,
+they are incapable of effectively collecting fine aerosols
+such as the ammonium salts mentioned above.
+8. 1.6.5  The most economic design approach, therefore,
+is   to   arrange   the   exhaust   system   and   use   POU
+abatement devices to avoid formation of such aerosols,
+where possible.
+8. 1.6.6  The practice of using only recirculated water in
+the scrubber, to absorb acid vapors and to neutralize the
+water  bleed  stream  should  be  reviewed  to  ensure  that
+scrubber efficiency is not affected.
+8. 1.6.7  Acid  gases,  such  as  hydrogen  chloride  and
+hydrogen  fluoride,  are  readily  soluble  in  water.  The
+partial  pressure  of  acid  gases  in  equilibrium  with  the
+solution,    which    increases    with    increasing    solute
+concentration, reduces the absorption of additional gas.
+Reduction    in    absorption    can    be    minimized    by
+increasing the rate of water blow-down (i.e., using more
+fresh water make-up).
+8. 1.6.8  However,  increasing  the  rate  proportionately
+increases  the  consumption  of  water  and  the  volume  of
+water   that   must   be   treated   before   discharge   as
+wastewater.
+8. 1.6.9  The  introduction  of  an  alkaline  solution  (e.g.,
+sodium   hydroxide)   in   the   scrubber   can   assist   in
+removing  compounds  from  the  gas  stream  if  the  use  of
+water   alone   does   not   provide   adequate   removal
+efficiencies. The use of additives in the scrubber can, in
+itself, create safety and environmental concerns.
+8. 1.6.10  Some  of  the  neutralized  absorbent  must  be
+bled  off  from  the  recirculated  stream  to  prevent  the
+brine  concentration  from  reaching  an  excessively  high
+level,  but  water  consumption  and  the  volume  of  waste
+can still be reduced by alkaline solution.
+8. 1.6.11  Aqua  regia  is  a  reactive  mixture  of  nitric  and
+hydrochloric   acids.   The   reaction   produces   nitrosyl
+chloride and elemental chlorine:
+HNO
+3
++ 3HCl   NOCl + Cl
+2
++ 2H
+2
+O
+8. 1.6.12  The    nitrosyl    chloride    vapor    is    readily
+decomposed by absorption in an alkaline solution:
+NOCl + 2NaOH  NaNO
+2
++ NaCl + H
+2
+O
+8. 1.6.13  Elemental    chlorine    has    only    a    limited
+solubility  in  water,  and  an  alkaline  solution  (pH  >  10)
+must be used to attain adequate absorption efficiencies:
+Cl
+2
++ 2NaOH   NaOCl + NaCl + H
+2
+O
+8. 1.6.14  During  the  initial  reaction  of  the  nitric  and
+hydrochloric  acids,  hydrogen  chloride  gas  and  nitric
+acid   vapors   are   volatilized   along   with   the   nitrosyl
+chloride and chlorine.
+8. 1.6.15  Nitrogen  dioxide  may  also  be  produced  by
+decomposition of nitric acid.
+8. 1.6.16  All   these   compounds   can   be   absorbed,   to
+some degree, in an alkaline solution.
+8. 1.6.17  If a pollutant is in a particulate form (solid or
+liquid),  its  collection  is  only  slightly  affected  by  its
+chemical nature or solubility.
+8. 1.6.18  The  dominant  factor  determining  particulate
+collectability is particle size.
+8. 1.6.19  Abatement  of  particulate  compounds  requires
+a  high-energy  method  (usually  creating  an  extremely
+high  pressure-drop  across  the  abatement  device)  which
+can be costly in both energy and abatement device size
+requirements.
+8. 1.7  Scrubber Design and Selection
+8. 1.7.1  A  variety  of  commercially  available  scrubbers
+are applicable to absorption of readily soluble gases.
+8. 1.7.2  These  include  packed-bed  counter-current,  co-
+current, and horizontal cross-flow  scrubbers,  horizontal
+spray   chambers,   vertical   spray   towers,   and   gas-
+atomizing scrubbers such as the venturi scrubber.
+8. 1.7.3  To some extent, the choice of scrubber type is a
+matter  of  preference,  as  it  is  usually  possible  to  obtain
+equivalent   performance   on   the   soluble   gases   with
+different  types  of  devices;  however,  more  packing  or
+higher liquid loading may be required on some devices.
+8. 1.8  The   choice   is   likely   to   be   limited   by   a
+consideration  of  practical  or  economic  factors  such  as
+cost,  available  space,  and  weight  (e.g.,  it  is  possible  to
+
+SEMI F5-1101 © SEMI 1990, 20017
+reduce  the  size  of  the  scrubber,  usually  at  the  cost  of
+increased energy consumption).
+NOTE 5: See Appendix 1 for absorber design criteria.
+8. 2  Group 2 — Acid Aerosols
+8. 2.1  Part  of  acid  emissions  may  be  in  the  form  of
+mists  (fine  droplets  or  aerosols)  rather  than  gases.
+These may be composed of relatively non-volatile acids
+such as phosphoric and sulfuric acids.
+8. 2.1.1  The   mechanisms   of   removal   of   particulate
+matter  (including  liquid  aerosols)  from  gas  streams  are
+entirely different from those involved in the absorption
+of gases (See Sections 13.1 through 13.3).
+8. 2.1.2  The  critical  factor  in  the  collection  process  is
+the  particle  size  of  the  mist.  If  the  mist  is  relatively
+coarse,  as  apparently  is  the  case  in  most  instances,  the
+same types of scrubbers that are used for gas absorption
+should collect the mists with adequate efficiency.
+8. 2.1.3  If   a   mist   having   a   particle   size   in   the
+micrometer  or  sub-micrometer  range  is  encountered,  it
+will  be  necessary  to  use  a  high-energy  scrubber  or  a
+scrubber with a high-pressure-drop, sub-micron filter to
+obtain adequate collection efficiency.
+8. 2.1.4  Whenever  such  a  fine  mist  or  other  aerosol  is
+encountered,  the  gas  stream  from  the  source  should  be
+abated  at  point-of-use  or  separately  from  the  other
+exhaust  gas  streams  in  the  plant  so  as  to  minimize
+energy costs.
+8. 2.1.5  Abatement  systems  utilizing  a  scrubber  with  a
+high-pressure-drop,  sub-micron  filter  are  being  used  in
+the  semiconductor  industry  to  reduce  emissions  from
+aqua-regia  processes,  hot  nitric  baths  and  spray  etchers
+using nitric acid (entrained in exhaust).
+8. 2.2  It  has  been  determined  experimentally  that  the
+collection  efficiency  of  a  scrubber  on  a  given  mist  or
+dust  is  a  function  of  the  energy  consumed  in  the
+exposure  of  the  particle  to  the  liquid  in  the  scrubbing
+process.
+8. 2.2.1  The  relationship  between  energy  consumption
+and efficiency is little affected by the geometry or size
+of the scrubber or by the method by which the energy is
+applied  to  making  contact  between  the  gas  and  the
+liquid (See Sections 13.1 through 13.3).
+8. 2.2.2  The  energy  consumption  required  to  attain  a
+given efficiency increases with a decrease in the size of
+the aerosol (e.g., mist or dust).  In most of the scrubbers
+used    in    the    semiconductor    industry,    the    energy
+consumed  is  drawn  from  the  gas  stream  in  the  form  of
+pressure drop.
+8. 2.3  The   energy/efficiency   relationship   provides   a
+convenient   and   practical   method   for   particle   and
+aerosol scrubber design.  It is essentially independent of
+the  size  of  the  scrubber,  at  least  down  to  a  very  small
+size (perhaps 150 to 300 L/min (5–10 ft
+3
+/min) capacity,
+and  possibly  even  smaller).    Hence,  a  small  pilot  unit
+can  be  used  to  determine  performance  on  an  actual
+plant exhaust stream.
+8. 2.3.1  Tests   can   also   be   made   under   laboratory
+conditions,  using  synthetic  aerosols  generated  for  the
+purpose.
+8. 2.3.2  The  major  problem  in  using  synthetic  aerosols
+is  in  replicating  the  aerosols  actually  encountered  in
+practice.
+8. 2.3.3  The pilot plant scrubber should be tested over a
+range of pressure drops to give a well-defined pressure
+drop/efficiency correlation.
+8. 3  Group 3 — Ammonia
+8. 3.1  Ammonia  gas  (NH
+3
+)  can  be  either  a  process  gas
+or  evolved  from  ammonium  hydroxide  used  in  wet
+chemical  cleaning  of  wafers.    As  previously  discussed,
+ammonia (NH
+3
+) exhausted through the acid system will
+react  with  the  acids  present  producing  an  ammonium
+salt aerosol that is not easily abated.
+8. 3.1.1  Packed-bed  scrubbers  are  not  very  efficient  at
+removing  sub-micron  ammonium  halide  aerosols,  even
+though they are water-soluble.
+8. 3.2  Wet  scrubber  technologies,  as  listed  above,  are
+suitable  for  removal  of  ammonia  provided  they  are
+operated and maintained at low pH (e.g., 3–5).
+8. 3.2.1  This is normally achieved by the use of sulfuric
+acid dosing.
+8. 3.3  Processes that emit both ammonia and acid gases
+(such  as  nitride  deposition)  should  be  fitted  with  a
+point-of-use    ammonia    scrubber,    prior    to    being
+exhausted to the acid exhaust.
+8. 4  Group 4 — Volatile Organic Compounds (VOCs)
+8. 4.1  VOCs   can   represent   a   large   proportion   of
+exhausted   air   streams   within   typical   semiconductor
+operations.  The pollutants are produced from processes
+such  as  solvent  cleaning,  and  photoresist  application
+and   stripping.      Such   processes   typically   contribute
+flammable,  hazardous,  and/or  environmentally  harmful
+compounds  (e.g.,  VOCs,  which  participate  in  ozone
+formation   in   the   atmosphere)   to   the   exhausted   air
+stream.
+8. 4.2  There  are  three  primary  abatement  technologies
+used   at   end   of   pipe   for   this   category:   adsorption,
+recovery  and  oxidation.    Adsorption  generally  uses
+hydrophobic zeolite or activated carbon.  The oxidation
+process usually is thermal or may be catalytic.
+
+SEMI F5-1101 © SEMI 1990, 20018
+8. 4.3  Emission Sources and Chemicals Emitted
+8. 4.3.1  VOCs  usually  have  high  vapor  pressures  and
+can  be  hazardous,  flammable,  or  may  tend  to  form
+photochemical  smog.  Processes  using  them  (such  as
+solvent     cleaning,     photoresist     application,     vapor
+degreasing  and  photoresist  stripping)  are  carried  out
+under local exhaust hoods or in exhausted enclosures.
+8. 4.3.2  Chemicals  emitted  may  include:  acetone,  ethyl
+benzene,  ethyl  lactate,  hexamethyldisilazane  (HMDS),
+isopropyl   alcohol,   methanol,   methyl   ethyl   ketone
+(MEK),     n-butyl     acetate,     n-methyl-2-pyrrolidone
+(NMP),     petroleum     distillates     (VM&P     naphtha),
+propylene  glycol  monomethyl  ether  acetate  (PGMEA)
+and xylenes.
+8. 4.3.3  The   chemical   species   emitted   are   typically
+vapors  of  the  specific  VOCs  being  used.  These  vapors
+are  entrained  in  large  volume  air  streams  and  are  thus
+diluted to low levels.
+8. 4.4  Current Practices
+8. 4.4.1  New   regulations   and   proposed   legislation,
+being    implemented    worldwide,    require    significant
+reductions  in  total  VOC  emissions  (often  measured  in
+terms of mass discharged).
+8. 4.4.2  Removal of VOCs from exhaust streams can be
+accomplished  by  adsorption,  (e.g.,  fluidized  bed  and
+concentrator  systems),  oxidation,  or  a  combination  of
+adsorption    and    oxidation    systems.        Adsorption
+technologies,     with     subsequent     desorption     and
+condensation, can be used to recover VOCs as a liquid.
+8. 4.4.3  End-of-pipe abatement is most commonly used
+for   VOCs.      Point-of-use   systems,   using   the   same
+technologies   as   end-of-pipe,   are   employed   where
+exhaust facilities preclude use of an end-of-pipe unit, or
+as     additional     abatement     to     meet     regulatory
+requirements.
+NOTE 6: See  Appendix  1  for  VOC  abatement  design  and
+selection criteria.
+8. 5  Group 5 — Pyrophoric Gases
+8. 5.1  Where  separate  exhausts  for  pyrophoric  gases
+have been installed, it has been practice to fit a large air
+dilution chamber at the end of pipe.  The reasoning has
+been that this will ensure safety by dilution and result in
+oxidation  of  any  residual  pyrophoric  gases.    However,
+oxidation  may  not  occur  since  research  has  shown  that
+silane,  once  diluted  to  <1.5  %  in  nitrogen,  does  not
+undergo   appreciable   oxidation   when   subsequently
+mixed with air.
+8. 5.2  Due    to    the    risks    associated    with    ducting
+pyrophoric   gases   through   a   facility,   it   is   strongly
+recommended  that  these  gases  be  abated  at  point-of-
+use.  This avoids the need for a separate pyrophoric gas
+exhaust.    If  POU  abatement  is  provided,  the  discharge
+from the POU abatement system can be directed to the
+acid or general exhaust system.
+NOTE 7: See  Appendix  2  for  POU  abatement  of  pyrophoric
+gases.
+8. 6  Group 6  —  See  section  10  for  Emergency  Release
+Discharge Exhaust provisions.
+8. 7  Group-7 —  Special/Direct
+8. 7.1  Recovery of specific gases such as hydrogen (H
+2
+)
+may be necessary to reduce the massive risk of duct fire
+when    large    quantities    of    flammable    gases    are
+discharged.
+8. 7.2       PFC     reclamation     maybe     required     by
+environmental permits in some jurisdictions.
+8. 7.3  Abatement  of  Oxides  of  Nitrogen  (NO
+x
+)  may  be
+necessary  to  meet  environmental  regulations  in  some
+jurisdictions.
+8. 8  Group 8 —  General Exhaust
+8. 8.1  This  exhaust  group  is  used  to  handle  exhaust
+emissions that include heat and excessive nitrogen flow.
+8. 8.2  Heat  exhaust  is  used  to  reduce  the  heat  load  on
+the balance of the building.
+8. 8.3  Exhaust  of  large  volumes  of  nitrogen  or  other
+asphyxiant  gas  is  used  to  keep  potential  asphyxiation
+hazards away from people.
+8. 8.4  Discharge  from  general  exhaust  should  be  to  a
+location where the heat or reduced oxygen will not be a
+hazard to personnel.
+8. 8.5  General   exhaust   can   sometimes   be   used   for
+discharge   of   post-treatment   emissions   from   POU
+abatement systems.
+8. 8.5.1  In  such  a  case,  the  discharge  permit  for  the
+POU  abatement  system  should  be  consulted  for  proper
+management.
+8. 9  Group 9 — Highly Toxic Gases
+8. 9.1  Gases   such   as   arsine,   phosphine,   diborane,
+germane,  etc.,  can  be  treated  in  a  variety  of  ways,
+depending     upon     their     concentration     and     their
+byproducts   (e.g.,   gas   reactor   columns,   adsorption
+systems).
+8. 9.2  These  gases  would  not  likely  be  allowed  in  a
+burn  system  (even  though  many  of  them  might  be
+pyrophoric)  because  they  could  release  hydrides  from
+the air intake.
+
+SEMI F5-1101 © SEMI 1990, 20019
+8. 9.3  These    gases    may    be    prohibited,    in    some
+jurisdictions,   from   being   discharged   with   no   other
+treatment than dilution.
+8. 9.4  Highly  toxic  gases  have  also  been  known  to
+create problems in a thermal oxidation system, because
+of  the  residue  they  leave  behind  and  the  periodic  need
+for personnel to clean oxidation systems.
+8. 9.5  Selectors of systems for discharge of highly toxic
+gases    should    be    careful    to    meet    all    regulatory
+requirements  and  should  be  conscious  of  the  discharge
+location for the emission residue.
+9  Point-of-Use (POU) Abatement Technologies
+9. 1  The  selection  of  a  suitable  POU  abatement  device
+is dependent on the process exhaust gases to be abated.
+9. 2  To  determine  a  valid  abatement  method,  identify
+the exhaust composition from the process as well as the
+input   process   gases   in   order   to   select   a   suitable
+abatement technology.
+9. 3  The choice may also depend on other factors (e.g.,
+whether removal of PFC gases is required or not).
+9. 4  The  location  of  a  POU  abatement  system  in  the
+process  exhaust  train  must  be  reviewed  for  pressure
+drop,  condensation,  particles,  moisture  backstreaming,
+etc.
+9. 5  Many   types   of   POU   abatement   devices   are
+available and they can broadly be divided into six types
+of technologies listed below.
+1. Wet scrubbing systems,
+2. Oxidation systems,
+3. Cold bed systems (adsorbers/ chemisorbers),
+4. Hot chemical bed systems,
+5. Reactor systems (e.g., plasma, microwave),
+6. Traps/filters/cyclones/precipitators,
+NOTE 8: See Appendix 2 for explanations of each technology
+type.
+9. 6  Units    may    employ    one    or    more    of    these
+technologies, depending on the application.
+9. 7  Where     a     technology     using     an     exhaustible
+cartridge/canister  is  employed,  consideration  must  be
+given  to  adequate  means  of  detecting  bed  exhaustion
+and to proper disposal techniques.
+10  Provisions For Emergency Release
+10. 1  Routine  releases,  from  hazardous  gas  cylinders
+and  sources  are  usually  minimal  (e.g.,  from  gas  line
+purges).
+10. 2  Emergency   or   accidental   releases,   from   gas
+cylinders in use, may be controlled through mechanical
+systems  that  lower  the  frequency,  time  and  rate  of
+releases.
+10. 3  Enclosing     gas     cylinders     and     non-welded
+mechanical   fittings   in   exhausted   gas   cabinets   that
+protect  the  systems  from  damage  can  minimize  the
+frequency of accidental releases.
+10. 3.1    Proper  design  and  installation  of  gas  delivery
+and  purge  systems  can  reduce  the  likelihood  of  severe
+leaks.
+10. 4  The   duration   of   accidental   releases   can   be
+lessened   by   activation   of   fail-closed   valves   or   gas
+cylinder closure devices activated by monitoring and/or
+alarm systems.
+10. 5  Equipping   gas   cylinders   with   restrictive   flow
+orifices can lower the rate of accidental release.  SEMI
+S5   -   Safety   Guideline   for   Flow   Limiting   Devices
+provides   guidance   on   the   use   of   restrictive   flow
+devices.
+10. 6  Exhaust of the gas cabinets should be designed to
+contain   sudden   unanticipated   releases   of   gas   from
+cylinders and piping.
+10. 6.1  These exhausts are typically used to manage gas
+cabinets  and  other  very  high  volume  exhaust  flow
+systems  that  will  only  occasionally  have  emissions
+present.
+10. 6.2  Some  jurisdictions  do  not  allow  for  discharge
+without treatment of emergency release discharges.
+10. 7  Each  system  selector  should  research  their  own
+regulations  before  determining  the  proper  route  and
+method    for    discharging    and    treating    emergency
+releases.
+10. 8  Accidental releases from gas cylinders in use may
+be  controlled  through  mechanical  systems  that  lower
+the  concentration  exhausted  into  the  environment.    In
+some   jurisdictions   there   are   requirements      (e.g.,
+Uniform    Fire    Code,    Article    80)    to    lower    the
+concentration  of  accidental  release,  in  exhaust  to  the
+environment,  below  a  threshold  (such  as  one-half  (1/2)
+of  Immediately  Dangerous  to  Life  and  Health  (IDLH)
+levels).
+10. 8.1  Dilution air, in excess of otherwise required gas
+cabinet exhaust, can be used to reduce the concentration
+of  gas  accidentally  released  into  the  exhaust,  except
+where a jurisdiction specifically prohibits this practice.
+10. 8.2  As  another  method  to  reduce  the  concentration
+of  gas  in  the  atmospheric  discharge  during  accidental
+releases,  abatement  devices  serving  the  gas  cabinet
+
+SEMI F5-1101 © SEMI 1990, 200110
+exhaust  can  be  used  instead  of,  or  in  addition  to,
+dilution air.
+10. 8.2.1  Accidental  release  abatement  devices  may  be
+any of the types described in this guide.
+10. 8.2.2  In  some  applications,  gas  cabinet  exhaust  is
+diverted to an abatement device only upon detection of
+an accidental release.
+10. 8.2.3  When designing diversion systems, the ability
+of   the   abatement   device   to   operate   after   extended
+periods of disuse must be considered.
+11  Summary Table
+11. 1  See Table 1 for suggestions about using POU and
+end-of-pipe  abatement  systems  for  different  types  of
+processes, materials, and exhaust systems.
+12  Alternative Approaches
+12. 1  This  guide  is  primarily  concerned  with  handling
+gas  effluents  that  arise  from  semiconductor  processing.
+Capture  and  abatement  is  not  the  only  approach  to
+avoid release of hazardous materials.  If possible, use of
+the  hazardous  materials  should  be  avoided.    In  theory
+the following approach should be used:
+12. 1.1  Replace  the  hazardous  material  with  one  that  is
+non-hazardous or less hazardous.
+12. 1.2  If  replacement  is  not  possible,  use  less  of  the
+material.
+12. 1.3  If  possible,  totally  enclose  the  system  so  all
+material is recovered and reused.
+12. 1.4  If   none   of   the   above   can   be   achieved,   fit
+effective abatement devices.
+13  Related Documents
+NOTE 9: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+13. 1  SEMATECH Documents
+3
+TT97093364A-XFR   —   Point-of-Use   (POU)   Control
+Systems     for     Semiconductor     Process     Emissions
+(ESHC003), October 30, 1997, J. Michael Sherer, P.E.,
+Motorola              (available              online              from
+www.sematech.org\public\docubase\summary\3364AX
+FR.htm)
+13. 2  FM Global Documents
+4
+
+3  SEMATECH/International SEMATECH, 2706 Montopolis Drive,
+Austin, Texas 78741-6499
+4  FM Global Corporation, 1151 Boston-Providence Turnpike,
+Norwood, MA  02062 or the FM Global Web Site at:
+www.fnglobal.com
+Property   Loss   Prevention   Sheet   7-78   —   Industrial
+Exhaust Systems
+13. 3  Other Documents
+Design    and    Selection    of    Spray/Mist    Elimination
+Equipment
+5
+Toxicological    Investigation    in    the    Semiconductor
+Industry
+6
+Reactions of Exhaust Deposits from Silicon Deposition
+Tools
+7
+Treatment   of   Organochlorines   from   Plasma   Etch
+Processing
+8
+Toxicological Hazards of Plasma Etch Waste Products
+9
+Packed Column Internals
+10
+13. 4  I300I/International Sematech
+11
+Emissions  Characterization  2.4b  —  www.I300I.org,
+Zero Impact Process Team.
+
+5  Chemical Engineering Volume 91, No. 21, 82–89 (October 15,
+1984), Holmes, T. L.; and Chen, G. K.
+6  Toxicology & Industrial Health 8  (141) 1992 by Bauer; et. al.
+7  Semiconductor Safety Association Conference, Orlando, April
+1997 by Creighton S.; Plaster, M.; and Nicholson, T.
+8  Semiconductor Safety Technology,  March 1995 by Baker, D.;
+Smith, J.; and Mawle, P.
+9  Semiconductor Safety Technology,  July 1996 by Bauer. F; Wolff,
+I.; and Schmidt, R.
+10  Chemical Engineering, Volume 91, No. 5, pp 40–51 March 5,
+1984 by Chen, G. K.
+11  I300I/International Sematech, 2706 Montopolis Drive, Austin,
+Texas 78741-6499
+
+SEMI F5-1101 © SEMI 1990, 200111
+Table 1  Exhaust System Selection Table
+ProcessGases/ChemicalsReason for POU
+Abatement
+POU
+Abatement
+Present
+End-of-pipe Exhaust System Type
+VOC  YesGeneralSolvent/strippers
+NoVOC
+Vapor primeHMDS  NoAcid or ammonia
+Acid bathsHCl/HF/Acetic  NoAcid
+Aqua regia/hot nitric  NoAcid aerosolsAcid baths
+YesAcid
+NH
+3
+NoAmmoniaAmmonia baths
+YesAcid
+NoAcidCorrosives
+YesAcid
+NoAmmoniaAmmonia
+YesAcid
+Gas bottle purge
+Hydrides/pyrophorics  YesGeneral
+NoGeneral
+Ammonia  NoAmmonia
+VOC  NoVOC
+Chemical dispensing
+Corrosives  NoAcid
+HNO
+3
+/NO
+x
+YesAcidChemical wafer thinning of
+raw wafers
+NoNOx/acid scrubber
+EPIH
+2
+/Hydrides/HClFire and safety
+Solids blockage
+YesAcid, H
+2
+reclaim, or general
+Dry etching – metalCl and Br chemistriesBlockage/Corrosion  YesAcid
+Dry etching – oxide/poly/etc.Fluoride chemistry  NoAcid
+LPCVD nitrideSiH
+2
+Cl
+2
+/NH
+3
+Solids blockage
+Fire and safety
+YesAcid
+LPCVD poly/oxideSiH
+4
+/fluoride
+chemistry
+Fire and safety
+Solids blockage
+YesAcid
+PECVD – poly/oxideSiH
+4
+/fluoride
+chemistry
+Fire and safety
+Solids blockage
+YesAcid
+SiH
+4
+/WF
+6
+/H
+2
+Fire and safety
+Solids blockage
+YesAcidPECVD nitride and tungsten
+SiH
+4
+/NH
+3
+Fire and safety
+Solids blockage
+YesAcid
+ImplantHydrides, BF
+3
+Hazardous deposits  YesAcid
+Ammonia  NoAmmoniaRTP
+YesGeneral
+NOTE T1: POU Abatement may be used for the reduction of PFCs and by-products from the process.
+
+SEMI F5-1101 © SEMI 1990, 200112
+APPENDIX 1
+END-OF-PIPE ABATEMENT DESIGN
+NOTE:    The  material  in  this  appendix  is  an  official  part  of  SEMI  F5  and  was  approved  by  full  letter  ballot
+procedures on August 27, 2001.
+A1-1  Referenced Documents
+A1-1.1  Gas-Liquid Reactions
+12
+A1-1.2        Design    and    Selection    of    Spray/Mist
+Elimination Equipment
+13
+A1-1.3  Absorption, Distillation, and Cooling Towers
+14
+A1-1.4  Perry's Chemical Engineers' Handbook
+15
+A1-1.5  Absorption and Extraction
+16
+A1-1.6  Mass Transfer
+17
+A1-1.7      Mass-Transfer   in   Co-current   Gas-Liquid
+Flow
+18
+A1-1.8  Mass-Transfer Operations
+19
+A1-2  Principles
+A1-2.1    Principles  of  gas  absorption  and  methods  of
+design    of    gas    absorption    equipment    are    treated
+extensively   in   chemical   engineering   literature   (See
+Sections  A1-1.1–A1-1.8).  The  sources  cited  present
+rigorous methods for design.
+A1-2.2    Practical  design  of  scrubbers  is  at  least  semi-
+empirical;  and  in  the  case  of  air  pollution  abatement
+systems, design is often directly based on experimental
+data.
+A1-2.2.1    Consequently,  designs  should  be  based  on
+mass-transfer  coefficients  that  have  been  determined
+experimentally   under,   as   nearly   as   possible,   the
+conditions of expected scrubber operation.
+A1-2.2.2        It    should    be    noted    that    the    typical
+concentrations  of  the  existing  empirical  data  base  is
+several  orders  of  magnitude  greater  than  the  typical
+concentrations  of  corrosives  exiting  a  semiconductor
+
+12  McGraw-Hill, New York (1970), Danckwerts, P.V.
+13  Chemical Engineering Volume 91, No. 21, pp 82-89 (October 15,
+1984), Holmes, T. L.; and Chen, G. K.
+14  Longmans, Green, London (1961), Norman, W. S.
+15  6th Edition, McGraw-Hill; New York  (1984), Perry, R. H.; and
+Green, D.
+16  2nd Edition; McGraw-Hill, New York  (1952), Sherwood, T. K.;
+and Pigford, R. L.
+17  McGraw-Hill, New York  (1975), Sherwood, T.K.; Pigford, R. L.;
+and Wilke, C. R.
+18  Chemical Engineering Sciences Volume 33, No. 12, pp1675-1680
+(1978), Shilimkan, R. V. and Stepanek, J. B.
+19  3rd Edition; McGraw-Hill, New York (1980), Treybal, R.E.
+plant   (before   end-of-pipe   scrubbers),   therefore   the
+efficiencies    in    these    data    bases    may    not    be
+representative of low concentrations.
+A1-2.2.3      Attempts   at   developing   the   empirical
+database at these low concentrations suggest that actual
+removal  efficiencies  are  lower  than  those  predicted  by
+most scrubber design texts.
+A1-2.2.4  As a result, new scrubbers may need to have
+additional    packing    to    ensure    theoretical    removal
+efficiencies are achieved.
+A1-2.3    Rigorous  custom  design  of  a  scrubber  for  a
+particular   service   requires   full   knowledge   of   the
+conditions  that  are  to  be  encountered  as  well  as  of  the
+performance that is to be attained.
+A1-2.3.1    Gas  flow  rates  should  normally  be  known
+fairly accurately — at least when the plant is originally
+designed.
+A1-2.3.2  Concentrations  of  acid  and  caustic  gases  will
+need to be estimated.
+A1-2.3.3  Conditions  to  be  met  may  be  changed  several
+times over the probable life of the scrubbing equipment,
+as  changes  are  made  in  the  semiconductor  fabrication
+processes and the exhaust system.
+A1-2.3.4    Exhaust  flow  may  also  be  increased,  to
+accommodate   equipment   additions,   thus   raising   the
+possibility the scrubber may become overloaded.
+A1-2.4      Studies   by   SEMATECH   indicate   that   the
+concentration  of  corrosives  in  the  exhaust  entering  the
+end-of-pipe scrubber(s) range from <1 ppmv to as high
+as  10  ppmv.    Additionally,  the  typical  scrubber  with
+99+%   theoretical   removal   efficiency   was   actually
+achieving removal efficiencies ranging from 80%–95%.
+A1-2.5  Scrubbers being applied to corrosive pollutants
+are  usually  standardized  units  assembled  by  a  number
+of  vendor  companies.    These  units  are  designed  to
+handle   specified   ranges   of   gas   flow,   but   in   other
+respects  are  not  designed  but  simply  built.    If  they  are
+packed-bed   scrubbers,   they   are   usually   fitted   with
+standard  depths  of  packing.    The  liquid  flow  rates  can
+be varied within limits; but otherwise, the performance
+potentials  are  fixed  unless  there  are  provisions  for
+changing  the  depth  of  packing  and  perhaps  the  kind  of
+packing.  Once the system is installed, such changes to
+increase   the   efficiency   will   probably   increase   the
+
+SEMI F5-1101 © SEMI 1990, 200113
+pressure drop of the scrubber, which will require adding
+to the fan capacity.
+A1-2.6    To  ensure,  in  advance,  that  the  scrubber  will
+have  adequate  removal  efficiency,  performance  tests
+can  be  conducted.    Measurements  should  be  made  of
+the contaminant concentrations in typical plant exhaust
+gas streams, and the resulting data should be used to set
+conservative     performance     requirements     for     the
+scrubber.    Performance  tests  on  the  scrubber  should  be
+conducted   prior   to   exposing   the   scrubber   to   the
+semiconductor plant exhaust, preferably at the vendor’s
+facility.    Performance  tests  should  identify  the  critical
+operating variables and optimize the settings to achieve
+optimal removal efficiencies at the lowest cost.
+A1-2.6.1    Onsite  performance  tests  may  be  preferable,
+when  qualifying  abatement  systems,  so  that  accurate
+process conditions can be produced.  Permit exemptions
+may   be   obtained   for   the   time-period   of   system
+qualification.
+A1-2.7      Design   and   construction   of   scrubbers   are
+simplified by two factors: the exhaust gas streams are at
+essentially  ambient  temperature,  and  they  carry  few
+insoluble  solids.  The  low  temperature  allows  use  of
+corrosion-resistant plastic construction.  The absence of
+significant  solids  avoids  blockages  in  the  scrubbers,
+which favors use of efficient gas-liquid contactors such
+as packed beds.
+A1-2.8  Two of the most favored scrubber types are the
+counter-current  packed  tower  and  the  horizontal  cross-
+flow  scrubber.    In  some  instances,  the  choice  between
+these  devices  may  be  determined  by  plant  layout.    As
+usually  constructed,  these  two  scrubber  types  have  low
+to moderate gas pressure drops and are primarily suited
+to  absorption  of  gases.    They  will  also  collect  the
+coarser  mists  and  sprays  but  are  unsuited  to  collection
+of fine mists and fumes having particle sizes under 2 to
+3 micrometers.
+A1-2.9    In  principle,  the  counter-current  tower  offers
+the  highest  efficiency  with  the  least  consumption  of
+absorbent   liquid.      However,   if   untreated   water   is
+recirculated through the tower, as is commonly done in
+semiconductor     plants,     the     advantages     of     the
+countercurrent operation are lost.  On the other hand, if
+the absorbed gas is reacted with an appropriate reagent
+in  the  water,  essentially  the  same  performance  can  be
+obtained  with  either  the  countercurrent  or  co-current
+operation (see Section A1-1.7).  In co-current operation,
+it  is  possible  to  use  higher  gas  velocities  to  obtain
+higher  mass  transfer  rates  so  that  the  scrubber  can  be
+made   smaller.      Gas   pressure   drops   will   also   be
+increased, but this may be desirable if it is necessary to
+collect a fine aerosol as well as absorb a gas.
+A1-2.10    Horizontal  cross-flow  packed-bed  scrubbers
+may  have  advantages  where  the  installation  imposes
+restrictions  on  height  or  other  similar  layout  problems.
+However,    in    other    respects,    they    do    not    offer
+fundamental    advantages    over    the    packed    tower
+scrubbers.
+A1-2.11    Under  special  circumstances,  other  types  of
+scrubbers may be appropriate for collection of aerosols.
+High-energy scrubbers, of the venturi type, or scrubbers
+with  high-pressure  drop,  sub-micron  filters  (e.g.,  fiber
+bed)   are   appropriate   where   fine   aerosols   must   be
+collected.      Wherever   possible,   measures   should   be
+taken  to  avoid  formation  of  such  aerosols;  but  when
+they  are  unavoidably  produced,  the  source  should  be
+ventilated   through   a   separate   scrubbing   system   of
+appropriate design.
+A1-2.12      Packing   in   scrubbers   provides   a   large
+interfacial area between the liquid and the gas, and also
+induces   fluid   turbulence   to   promote   mass   transfer.
+Packing  is  commonly  placed  in  scrubbers  in  a  random
+manner.  Raschig and Pall rings as well as Berl saddles
+were  common  early  packing  materials  used.    In  recent
+years, numerous proprietary packing designs have been
+introduced,  with  the  objective  of  providing  increased
+mass-transfer   efficiency   with   reduced   gas   pressure
+drop.  The  validity  of  claims  for  superior  performance
+has  been  established  by  the  SEMATECH  experiments
+in Section 13.1.
+A1-2.13    Numerous  precautions  are  required  when
+installing  and  operating  packed-bed  scrubbers.    It  is
+essential to attain an even distribution of liquid over the
+packing; channeling of liquid or gas flow results in loss
+of  removal  efficiency.    Inadequate  liquid  distribution
+can result in a reduction of the removal efficiency to as
+little  as  one  seventh  of  theoretical  (See  Referenced
+Document     A1-1.9).          The     predominant     liquid
+distribution  system  employed  is  spray  nozzle  style.
+This  style  is  inexpensive,  however,  it  is  difficult  to
+maintain  and  tends  to  entrain  more  water  than  weir-
+style.    Weir-style  liquid  distribution  systems  are  more
+expensive.      However,   they   require   less   preventive
+maintenance,  provide  equal  liquid  distribution  over  a
+wide  range  of  flow  rates,  and  are  less  prone  to  liquid
+carry-over.      Precautions   are   treated   at   length   in
+previously cited literature.
+A1-2.14  A critical aspect of any scrubber design is the
+separation  of  entrainment.    Carry-over  of  spray  from  a
+scrubber   can   produce   maintenance   issues   and   mist
+emissions.    Failure  to  provide  adequate  entrainment
+separation has been one of the most common problems
+in   scrubber   installations.      The   predominant   mist
+separator   employed   is   a   mesh   style.      Mesh   style
+separators  are  effective  on  the  smaller  water  droplets
+associated  with  spray  nozzles;  however,  maintenance
+
+SEMI F5-1101 © SEMI 1990, 200114
+due to solids and/or biological growth is required.  The
+chevron  style  is  typically  used  in  conjunction  with  a
+weir,  as  they  are  not  very  effective  on  the  smaller
+droplet associated with spray nozzles; however they are
+very immune to plugging from solids and/or biological
+growth.    The  entrainment  separators  are  discussed  in
+Sections A1-1.3 and A1-1.5.
+A1-2.15    Chlorine,  fluorine  and  possibly  other  soluble
+gases  can  be  entrained  in  scrubber  wastewater,  and
+released  in  facilities  drains/vents.  Materials  such  as
+fluorine  are  incompatible  with  many  plastics  and  can
+damage   drains/   vents   resulting   in   leak,   odors,   and
+facilities interruptions.
+A1-3  VOC Abatement Equipment Design and
+Selection
+A1-3.1  Design Criteria for Adsorption Systems
+A1-3.1.1    Adequate  contact  time  must  be  achieved
+between   adsorption   media   and   VOC-laden   exhaust
+stream.    The  adsorption  matrix  must  be  sized  so  that
+adequate residence time within the media is maintained.
+Also,   the   exhaust   stream   flow   must   be   distributed
+uniformly over the adsorption matrix.
+A1-3.1.2    Pressure  drop  across  the  adsorption  matrix
+should be minimized to reduce energy consumption for
+air handling equipment.
+A1-3.1.3  Materials of construction must be resistant to
+any  corrosive  action  by  the  VOC's  or  by-products
+formed    during    adsorption    or    adsorbent    matrix
+regeneration.
+A1-3.1.4  Hydrophobic zeolites and activated carbon in
+fixed beds, fluid beds or rotating wheels are being used
+for adsorption.
+A1-3.1.5    Adsorption  materials  have  a  finite  capacity
+for VOC adsorption and must be regenerated when their
+capacity is exhausted.
+A1-3.1.6    Monitoring  of  the  exhaust  stream  as  it  exits
+the adsorption bed may be necessary to determine when
+regeneration  or  replacement  of  the  adsorption  medium
+is needed.
+A1-3.1.7      Pretreatment   of   the   VOC-laden   exhaust
+stream for removal of entrained particles or liquids may
+be required to prevent plugging of the adsorption unit.
+A1-3.1.8  Regeneration is accomplished by flushing the
+adsorption bed with a carrier, typically steam, hot air or
+hot nitrogen.
+A1-3.1.8.1    Desorbed  VOC's  must  be  recovered  or
+destroyed.
+A1-3.1.8.2      Current   practices   for   VOC   recovery
+requires condensation or distillation.
+A1-3.1.8.3    Current  practices  for  VOC  destruction  is
+usually oxidation.
+A1-3.2  Design Criteria for Oxidation Systems
+A1-3.2.1  Adequate residence time, mixing with air and
+temperature,   must   be   provided   for   high   efficiency
+destruction of the VOC's.
+A1-3.2.2      Pretreatment   of   the   VOC-laden   exhaust
+stream for removal of entrained particles or liquids may
+be required to prevent plugging of the oxidation unit.
+A1-3.2.3    Downstream  abatement  of  the  oxidation  unit
+exhaust   will   be   required   if   corrosive   combustion
+products   [such   as   hydrogen   chloride   (HCl)   from
+chlorinated vapors] or particles [such as silicon dioxide
+(SiO
+2
+)    from    hexamethyldisilazane    (HMDS)]    are
+present.
+A1-3.2.4      Concentrations   of   the   incoming   VOC's
+should be limited, especially when using a concentrator.
+Typical   incoming   VOC   concentrations   should   not
+exceed 25% of LEL.
+A1-3.2.5    Energy  costs  for  heating  VOC-laden  exhaust
+streams must be considered.  Straight thermal oxidizers
+are   costly   to   use   with   high-volume,   low   VOC
+concentration     exhaust     streams.          Therefore,     a
+concentration   process   followed   by   recuperative   or
+regenerative   oxidation   offers   a   more   cost-effective
+solution.
+A1-3.2.5.1    Catalytic  oxidation  may  also  offer  cost
+savings;    however,    the    composition    of    incoming
+compounds must not poison the catalyst.
+A1-3.2.5.2    A  regenerative  thermal  oxidizer  (without  a
+preceding   concentrator)   may   offer   cost   savings   in
+certain applications.
+A1-3.2.6    Hybrid  systems  (combinations  of  adsorption
+and  oxidation  systems)  may  provide  a  cost-effective
+approach  for  abating  dilute  concentrations  of  VOCs  in
+exhaust  streams  by  combining  adsorption  beds  with
+recuperative/regenerative   oxidation,   to   destroy   the
+VOCs.
+A1-3.2.6.1   All   design   considerations   for   adsorption
+systems  and  oxidation  systems  are  relevent  for  any  of
+the multitude of possible hybrid systems.
+A1-3.2.6.2  Levels  of  oxidation  by-products  must  also
+be considered such as oxides of nitrogen (NOx), carbon
+monoxide (CO) and products of incomplete combustion
+(PICs).
+A1-3.2.7  Potential problem areas to be reviewed in any
+equipment selection procedure:
+A1-3.2.7.1    Halogenated  Materials  —  Additional  care
+must  be  exercised  with  chlorinated  compounds,  which
+
+SEMI F5-1101 © SEMI 1990, 200115
+can   be   subject   to   stricter   regulatory   requirements.
+Ensure that any oxidation unit does not create new and
+more hazardous compounds, such as dioxins.
+A1-3.2.7.2    Sulfur  and  Hexamethyldisilazane  (HMDS)
+—  Both  have  the  potential  to  poison  many  catalysts,
+and hexamethyldisilazane (HMDS) will oxidize to form
+silicon  dioxide,  which  can  result  in  particle  build  up  in
+heat exchangers and oxidizers.
+A1-3.2.7.3        Moisture    Levels    —    Moisture    can
+significantly affect adsorption capability.
+
+SEMI F5-1101 © SEMI 1990, 200116
+APPENDIX 2
+POU ABATEMENT TECHNOLOGY TYPES
+NOTE:    The  material  in  this  appendix  is  an  official  part  of  SEMI  F5  and  was  approved  by  full  letter  ballot
+procedures on August 27, 2001.
+A2-1  POU Abatement Technology Types:
+1. Wet scrubbing systems
+2. Oxidation systems
+3. Cold bed systems (adsorbers/ chemisorbers)
+4. Hot chemical bed systems
+5. Reactor systems (e.g., plasma, microwave)
+6. Traps/filters/cyclones/precipitators
+A2-2  Wet Scrubbing Systems
+A2-2.1  Water Scrubber
+A2-2.1.1    Principle  of  Operation  —  Exhaust  gas  is
+passed  through  an  enclosed  space  into  which  water  is
+sprayed. The desired result is that gases will dissolve in
+or  react  with  the  water.  A  large  contact  area  between
+gas and water is required to maximize the dissolution or
+reaction.  Numerous  designs  exist  to  achieve  this.    The
+“packed-bed”  scrubber  is  filled  with  open  structure
+objects  (e.g.,  hollow  balls)  that  are  fully  wetted  by  the
+water  spray.  The  gas  passes  over  this  large  wet  surface
+area.    If  the  water  spray  is  in  the  opposite  direction  to
+the  gas  path  the  design  is  “counter  current”;  if  in  the
+same  direction,  it  is  “co-current”;  and  if  at  90°  it  is
+“cross  flow”.    Other  designs  to  maximize  gas/water
+contact use meshes, atomized sprays, or multi chamber
+systems that reverse the gas direction several times.
+A2-2.1.2  Capacity  —  Total  gas  flow  is  determined  by
+the size of the unit.
+A2-2.1.3  Efficiency — Efficiency is determined by the
+solubility  of  the  gas  in  water  and  retention  time  in  the
+unit  as  well  as  the  given  mass  transfer  from  gas  to
+liquid phase.  Acid gases are best removed; many other
+process gases may not be removed.  If gas does dissolve
+in  water  then  effectiveness  of  unit  will  be  determined
+by    design    input    gas    flow    and    inlet    compound
+concentrations.
+A2-2.1.4    Limitations  —  Water  scrubbers  are  only
+suitable  for  water-soluble  gases.  Many  process  gases
+(e.g.,  silicon  compounds)  will  produce  insoluble  solids
+(silica) on contact with water resulting in solids forming
+that  may  block  the  water  sprays,  scrubber  packing  or
+gas inlet port.
+NOTE    1:    Compatibility    of    scrubber    drains    with    the
+compounds  being  entrained  in  the  liquid  effluent  should  be
+considered.
+A2-2.2      Water   Scrubber   with   Energy   Input   (e.g.,
+Venturi)
+A2-1.2.1    Principle  of  Operation  —  Same  as  water
+scrubber  but  gas  and  water  are  forced  to  mix  by  the
+input  of  energy.  Most  commonly  this  is  done  by  a
+venturi  through  which  the  gas  and  water  pass.  Other
+designs   have   used   rapidly   rotating   blades   in   the
+enclosed  scrubbing  space.  The  “active”  scrubbing  area
+is  often  combined  with  a  passive  spray  chamber  or
+packed bed.
+A2-2.2.2        Capacity    —    Energy    enhanced    water
+scrubbers have the same capacity as water scrubbers.
+A2-2.2.3      Efficiency   —   Added   energy   improves
+efficiency  over  water  scrubbers  due  to  forced  mixing,
+which improves efficiency of particulate removal.
+A2-2.2.4    Limitations  —  The  limitations  are  the  same
+as for water scrubbers.
+A2-2.3  Chemical Dosed Scrubber
+A2-2.3.1    Principle  of  Operation  —  Chemical  Dosed
+Scrubbers  operate  the  same  as  a  water  scrubber  but  a
+chemical solution is added to the water.  This increases
+the range of gases that can be removed, from those that
+dissolve in water to those that will react with the chosen
+chemical solution.  The chemical medium is selected to
+react  with  the  known  input  gases  producing  water-
+soluble    salts.        The    two    reaction    systems    most
+commonly        employed        are        acid/base        and
+reduction/oxidation  (redox).    Addition  of  solutions  of
+sodium    hydroxide    (NaOH),    potassium    hydroxide
+(KOH)  or  sulfuric  acid  are  frequently  used  to  enhance
+effectiveness,  and  where  chemical  oxidation  is  needed
+hypochlorites, periodates, or peroxides are introduced.
+A2-2.3.2  Capacity — Same as water scrubber.
+A2-2.3.3    Efficiency  —  Same  as  water  scrubber  but
+increased  efficiency  by  using  chemical  dosing.    The
+number  of  gases,  which  can  be  removed,  will  also
+increase.
+A2-2.3.4  Limitations — Even though a wider range of
+gases  can  be  removed  with  this  chemical  dosing,  it  is
+applicable  only  to  those  emissions  that  can  be  water
+scrubbed.    The  potential  for  fouling  by  silica  solids
+
+SEMI F5-1101 © SEMI 1990, 200117
+remains.      Potassium   hydroxide   (KOH)   or   (sodium
+hydroxide  (NaOH)  solutions  have  to  be  increased  to
+approximately  5%  to  ensure  dissolution  of  silicates.
+Chemical  dosing  adds  another  hazardous  material  and
+may result in liquid wastes that require treatment.
+A2-2.4    Chemical  Dosed  Scrubber  with  Energy  Input
+(e.g., Venturi)
+A2-2.4.1    Principle  of  Operation  —  Same  as  Water
+Scrubber with Energy Input (e.g., Venturi) above, with
+the benefits of Chemical Dosed Scrubber.
+A2-3  Oxidation Systems
+A2-3.1  Burn Systems
+A2-3.1.1 Principle  of  Operation  —  Burn  systems  are
+designed    for    silane    abatement    by    utilizing    the
+pyrophoric  properties  of  this  gas.    The  process  gas
+containing   silane   is   injected   into   a   steel   container
+through  which  a  stream  of  air  is  passing.    The  silane
+auto-ignites  and  oxidizes  to  form  silica  powder,  which
+deposits  in  the  system  or  is  carried  into  the  exhaust
+duct.
+A2-3.1.2    Capacity  —  Governed  by  the  build  up  of
+powders,  small  units  may  need  cleaning  out  every  few
+months, larger units will provide a year’s capacity.
+A2-3.1.3 Efficiency — When burn systems are correctly
+set up, nearly complete oxidation will occur, providing
+that the input silane concentration is greater than 1.5%.
+A2-3.1.4   Limitations  —  Burn  systems  are  suited  only
+to silane (or other pyrophoric effluent) abatement.  Not
+appropriate  for  mixed  gas  process.    If  silane  is  diluted
+to   less   than   1.5%   in   nitrogen   before   input   no
+measurable oxidation will occur and the silane will pass
+directly to the exhaust.
+A2-3.2  Flame Oxidation
+A2-3.2.1      Principle   of   Operation   —   Oxidation   of
+hydride  gases  by  combustion.    These  systems  use  a
+chamber containing a fuel gas flame through which the
+process   gas   is   passed.      The   resulting   oxides   from
+combustion  pass  into  the  exhaust  and  may  be  abated
+downstream.
+A2-3.2.2  Flow Capacity — To calculate flow capacity,
+combine  the  total  discharge  flows  that  constitute  input
+to  the  abatement  device.  Include  pump  dilution  and
+purge quantities. .
+A2-3.2.3    Efficiency  —  For  simple  burner  designs,
+efficiency can vary widely as gas flow changes; specific
+units  have  been  designed  to  ensure  good  mixing  of
+fuel/air  and  gas;  these  can  deliver  efficiencies  greater
+than 99.9%.
+A2-3.2.4  Limitations — Suited only to processes where
+the  input  gases  can  be  safely  combusted.  Design  must
+ensure  by-products  are  minimized  (e.g.,  chlorinated
+compounds    like    phosgene/dioxins    and    oxides    of
+nitrogen).  Produces  combustion  byproducts  of  process
+gases, therefore, is often combined with a wet scrubber
+to remove by-products or other water-soluble gases.
+A2-3.3  Hot Chamber Oxidation
+A2-3.3.1    Principle  of  Operation  —  Exhaust  gas  is
+passed  into  an  electrically  heated  chamber  (typically
+800°C)  where  it  is  mixed  with  air.  The  heated  mixture
+oxidizes,  more  quickly  than  in  a  simple  burn  system,
+but without a flame from fuel oxidation to assist.
+A2-3.3.2  Flow Capacity — To calculate flow capacity,
+combine  the  total  discharge  flows  that  constitute  input
+to  the  abatement  device.  Include  pump  dilution  and
+purge quantities.
+A2-3.3.3  Efficiency  —  Hydride  gases  will  be  oxidized
+and removed to below the OEL.
+A2-3.3.4    Limitations  —  On  its  own,  hot  chamber
+oxidation technology is suited only to hydrides or other
+gases that will readily oxidize at the temperature of the
+hot  chamber.    This  method  is  often  combined  with  a
+wet  scrubber  to  remove  oxidized  by-products  or  other
+water-soluble gases.
+A2-3.4  Non-Flame Oxidation
+A2-3.4.1  Principle of Operation — Non-flame systems
+use   an   incandescent   porous   wall   for   combustion
+without  a  flame.    Fuel  and  air  are  mixed  and  passed
+through the matrix of the porous wall, which operates at
+around 900° C. When process exhaust gases are passed
+into this zone, they are oxidized.
+A2-3.4.2  Flow Capacity — To calculate flow capacity,
+combine  the  total  discharge  flows  that  constitute  input
+to  the  abatement  device.  Include  pump  dilution  and
+purge quantities.
+A2-3.4.3    Efficiency  —  Hydride  gases  can  be  oxidized
+by  a  method  similar  to  other  combustion  techniques.
+High  efficiency  oxidation  is  needed  to  oxidize  more
+stable fluorinated compounds.
+A2-3.4.4 Limitations  —  Non-flame  oxidation  produces
+oxidation  by-products,  and  therefore  must  often  be
+combined  with  a  wet  scrubber  to  remove  particulate
+matter or water-soluble gases.
+A2-4  Cold Bed Systems (Adsorbers/
+Chemisorbers)
+A2-4.1  Adsorption
+A2-4.1.1    Principle  of  Operation  —  Exhaust  gas  is
+passed through a container (cylinder, canister, or drum)
+
+SEMI F5-1101 © SEMI 1990, 200118
+filled  with  adsorbent  granules.    These  are  commonly
+based   on   activated   charcoal.         Some   gases   are
+physically  adsorbed  into  the  granules  while  the  non-
+adsorbed gases pass through into the facility exhaust.
+A2-4.1.2    Flow  Capacity  and  Removal  Capacity —
+Both  capacities  of  these  systems  are  a  function  of  the
+container size (mass of granules) and surface area.
+A2-4.1.3 Efficiency  —  For  a  single  gas,  efficiency  can
+approach   100%   until   the   bed   capacity   is   reached.
+However, since the gas is only held physically it can be
+displaced  by  another  compound,  causing  the  efficiency
+to drop significantly.
+A2-4.1.4    Limitations  —  Adsorption  traps  hazardous
+compounds  and  does  not  destroy  them.    Gases  are
+adsorbed  at  different  rates  and  the  capacity  of  the  bed
+for  different  gases  will  also  vary.  A  more  strongly
+adsorbed  gas  entering  the  bed  after  a  less  strongly
+adsorbed   compound   can   displace   the   first   gas   re-
+releasing the first gas to the exhaust. The waste material
+must  be  kept  sealed  in  the  container  and  evaluated  for
+hazards.  Exposure to air, water, or heat can cause gases
+adsorbed in the material to be released.
+A2-4.2  Chemisorption
+A2-4.2.1    Principle  of  Operation  —  Exhaust  gas  is
+passed  through  a  container  of  granules  that  consist  of
+either:
+• adsorbent   granule   coated   with   some   reactive
+chemical;
+• reactive porous medium e.g., soda lime; or
+• a resin matrix coated with some reactive chemical.
+A2-4.2.1.1    Gases  are  adsorbed  into  the  porous  matrix
+and   then   chemically   react   either   with   the   granules
+themselves  or  with  the  coating.    These  reactions  are
+designed   to   convert   the   gas   into   a   solid   material
+(typically a salt) that remains attached to the granules.
+A2-4.2.1.2    Reactive  chemicals  are  typically  either
+bases     (metal     hydroxides)     or     oxidizers     (e.g.,
+permanganates, or metal oxides).
+A2-4.2.2    Flow  Capacity  and  Removal  Capacity —
+Both  capacities  of  these  systems  are  a  function  of  the
+container size (mass of granules) and surface area.
+A2-4.2.3   Efficiency — Acid/Base and Redox reactions
+are  most  readily  accomplished.    Therefore,  with  acidic
+gases  and  hydride  gases,  efficiency  can  be  high;  with
+removal  below  OEL.  With  other  gases,  e.g.,  PFCs  and
+halogenated   carbon   compounds,   efficiency   is   often
+minimal or none.
+A2-4.2.4    Limitations  —  There  may  be  adsorption  as
+well  as  chemisorption,  so  the  spent  material  must  be
+evaluated  for  hazards,  since  gases  can  desorb  from  it.
+This  is  especially  true  for  chlorine  (Cl
+2
+)  when  the  bed
+uses hydroxides.  These will form OCl compounds that
+on exposure to air or moisture will regenerate chlorine.
+A2-4.2.4.1   Materials   used   for   chemisorption   can
+themselves  be  hazardous  (e.g.,  heavy  metals  or  caustic
+(KOH/NaOH))   therefore,   unused   canisters   may   be
+classified as hazardous items.
+A2-4.3  Adsorption with Subsequent Air Oxidation
+A2-4.3.1  Principle of Operation — These systems are
+designed  and  offered  mainly  for  high  flows  of  arsine
+(AsH
+3
+)  and  phosphine  (PH
+3
+),  used  in  the  deposition  of
+III-V   materials   (such   as   gallium   arsenide   (GaAs),
+indium  phosphide  (InP)).    These  gases  are  adsorbed
+into a carbon bed, into which air is subsequently fed at
+a  controlled  rate  to  oxidize  the  adsorbed  hydride  into
+oxides that will remain in the granules.
+A2-4.3.2    Flow  Capacity  and  Removal  Capacity—
+Both  capacities  of  these  systems  are  a  function  of  the
+container  (drum)  size  (mass  of  granules)  and  surface
+area.
+A2-4.3.3    Efficiency  —  Capable  of  removing  hydrides
+to below OEL.
+A2-4.3.4    Limitations  —  Hydride  is  adsorbed  into  the
+carbon  bed,  the  oxidation  of  this  is  exothermic.  When
+air is fed in to oxidize the hydride, it is possible to start
+combustion  of  the  carbon  bed,  unless  the  flow  rate  is
+well controlled.
+A2-5  Hot Chemical Bed Systems
+A2-5.1  Hot Bed Reactors
+A2-5.1.1    Principle  of  Operation  —  Exhaust  gases  are
+passed through a steel container (cartridge/drum) that is
+filled    with    reactive    material.        The    material    is
+maintained at an elevated temperature, typically 250 to
+550 degrees C.  The gases chemically react with the fill
+material  and  are  converted  into  inorganic  salts  that
+remain fused into the matrix of the fill material.  There
+are  versions  with  a  single  fill  material  that  are  specific
+to abatement of one gas, and versions with two or more
+zones of fill material that can abate a wide range of gas
+compounds.
+A2-5.1.2    Flow  Capacity  and  Removal  Capacity —
+Both capacities of hot bed systems are a function of the
+cartridge size (mass of granules) and surface area.
+A2-5.1.3    Efficiency  —  Efficiency  of  these  systems  is
+generally  high,  with  gases  removed  to  below  OELs.
+Stable PFC gases are not removed by all systems.
+
+SEMI F5-1101 © SEMI 1990, 200119
+A2-5.1.4    Limitations  —  Fill  material  can  also  react
+with  oxygen  or  moisture  so  hot  bed  systems  are  not
+always suited to wet processes or where air is used.
+A2-5.2  Hot Catalytic Bed
+A2-5.2.1  Principle of Operation  —  Gas  is  passed  into
+a   steel   cartridge,   which   is   held   at   an   elevated
+temperature,  that  contains  granules  of  a  catalyst.    The
+target-input gas is catalytically converted to other gases
+[e.g.,  ammonia  (NH
+3
+)  to  nitrogen  (N
+2
+)  and  hydrogen
+(H
+2
+), and oxides of nitrogen (NOx) to nitrogen (N
+2
+) and
+oxygen (O
+2
+)].
+A2-5.2.2      Removal   Capacity   —   In   theory,   if   not
+poisoned,  a  catalyst  bed  should  last  for  a  long  time.
+Units  available  are  claimed  to  be  able  to  operate  for
+one-year before bed change.
+A2-5.2.3    Efficiency  —  Efficiency  of  hot  catalytic  bed
+systems is normally high, with removal of the target gas
+to below OEL levels.
+A2-5.2.4    Limitations  —  Hot  catalytic  bed  units  are
+designed  to  be  gas  specific.    Catalysts  can  be  sensitive
+to  other  compounds;  so  for  complex  gas  mixtures  in
+process exhausts they may not be suitable on their own.
+A2-5.3  Hot Reactor Beds with Gas Inputs
+A2-5.3.1    Principle  of  Operation  —  Exhaust  gases  are
+passed  into  a  hot  bed  as  in  hot  bed  reactors  above,  but
+concurrently   with   the   process   gas   another   gas   is
+introduced  (e.g.,  air  or  steam).    The  gases  then  react
+together  in  the  bed,  either  with  each  other  or  with  the
+bed  material.    Hazardous  gases  are  converted  either  to
+solid  salts  that  remain  fused  into  the  bed  matrix,  or
+other  gases  [e.g.,  carbon  dioxide  (CO
+2
+)]  that  pass  on
+into the exhaust.
+A2-5.3.2    Flow  Capacity  and  Removal  Capacity —
+Both  capacities  of  these  systems  are  a  function  of  the
+container (cartridge) size (mass of granules) and surface
+area.
+A2-5.3.3    Efficiency  —  Process  gases  [e.g.,  phosphine
+(PH
+3
+), carbon monoxide (CO)] are normally removed to
+below the OEL.
+A2-5.3.4  Limitations — These systems are suited only
+to  processes  where  the  end  products  will  be  either
+stable solids or inert gases.
+A2-6  Reactor Systems (Plasma, Microwave,
+etc.)
+A2-6.1    Principle  of  Operation  —   Gases  are  abated  in
+the  vacuum  line  (before  or  after  the  vacuum  pump)  by
+passing  them  through  a  reaction  chamber,  containing
+plasma, to enhance reaction of gases such as silane into
+a solid material.  For high efficiency PFC conversion, it
+is necessary to inhibit recombination by the addition of
+a   material   (e.g.,   moisture,   or   a   hydrogen/oxygen
+mixture).    Two  types  of  reactors  exist  -  large  plasma
+volume/small  surface  area,  in  which  a  downstream
+particle  trap  is  utilized;  and  small  plasma  volume/large
+surface  area,  where  solid  films  are  deposited.    Other
+reactor  systems  (e.g.,  microwave  systems)  are  also
+being developed.
+A2-6.2      Flow Capacity   and   Removal   Capacity   —
+Reactor  systems  are  designed  for  the  process  system
+effluent and are sized to handle specific process flows.
+A2-6.3  Efficiency — With inputs of up to 300 sccm of
+silane,  removal  efficiencies  of  greater  than  99%  have
+been  documented.    At  higher  flows  efficiency  can  be
+reduced.    High  removal  efficiencies  of  PFCs  have  also
+been demonstrated.
+A2-6.4    Limitations  —  Silane  will  form  solids  in  the
+plasma.      Gaseous   by-products   will   pass   into   the
+exhaust.    Solids  transmission  into  the  vacuum  pump
+will  be  reduced,  but  additional  abatement  devices  may
+be  required  downstream  if  by-products  need  to  be
+removed.  Formation of hydrogen (H
+2
+)  as  a  by-product
+should   be   considered   to   ensure   that   the   H
+2
+outlet
+concentration is below the lower flammable limit.
+A2-7  Traps/Filters/Cyclones/Precipitators
+A2-7.1  Principle of Operation —  Designed  to  remove
+the particulate component in exhausts.  Some processes
+produce solid powders (e.g., silica) and other processes
+generate   condensable   vapors.      These   vapors,   on
+compression  in  the  pump  and  cooling  in  the  exhaust,
+condense  into  solid  materials.    Numerous  designs  exist
+to  collect  these  solids  out  of  the  gas  stream.    These
+include  filters  (paper/bag  etc.),  cooled  condensation
+chambers, cyclones, and electrostatic precipitators.
+A2-7.2    Removal  Capacity  —  Removal  capacity  is
+normally  measured  as  the  mass  of  solid  the  unit  can
+collect  before  it  partially  blocks.  As  they  are  blocked,
+these   systems   generate   a   backpressure,   which   can
+prevent   effective   removal   of   material   or   create   a
+process disturbance.
+A2-7.3    Efficiency—  Efficiency  for  these  various  units
+is    difficult    to    measure.    It    is    usually    assessed
+pragmatically  in  terms  of  increased  interval  between
+exhaust clean out.
+A2-7.4  Limitations— These various units must be used
+with care and only when not associated with hazardous
+gases.    Often  solid  exhaust  materials  are  mixed  with
+hazardous  gases.    If  these  gases  are  present  in  the
+trapped  solids  a  dangerous  situation  can  result.    Where
+gases  and  solids  are  mixed  it  is  safer  to  keep  material
+volatile  and  abate  all  by  a  POU  abatement  technology
+
+SEMI F5-1101 © SEMI 1990, 200120
+from  the  sections  above.    If  only  non-hazardous  gases
+are   left   these   systems   can   provide   cost-effective
+abatement to keep ducts clear.  They can also be used in
+combination with other technologies.
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F6-92 © SEMI 19921
+SEMI F6-92
+GUIDE FOR SECONDARY CONTAINMENT OF HAZARDOUS GAS
+PIPING SYSTEMS
+1  Purpose
+To  provide  a  guide  for  the  design,  fabrication,  and
+operation  of  secondarily  contained  distribution  piping
+for hazardous production material (HPM) gases.
+2  Scope
+This    guide    covers    the    general    requirements    for
+hazardous  production  material  distribution  piping  in
+those   industries   that   are   included   under   the   H-6
+Classification   of   the   Uniform   Building   Code,   or
+Articles 51 or 80 of the Uniform Fire Code, or of other
+applicable  local  codes.  This  guide  does  not  include
+requirements  for  individual  exhausted  enclosures  (e.g.,
+valve boxes and gas cabinets).
+3  Applicable Documents
+3. 1  SEMI Documents
+SEMI  F1  —  Specification  for  Leak  Integrity  of  Toxic
+Gas Piping Systems
+SEMI   F2   —   Specification   for   Seamless   Austenitic
+Stainless       Steel       Tubing       for       Semiconductor
+Manufacturing Applications
+SEMI F3 — Guide for Welding Stainless Steel Tubing
+for Semiconductor Manufacturing Applications
+SEMI   S2   —   Safety   Guidelines   for   Semiconductor
+Manufacturing Equipment
+SEMI      S4      —      Safety      Guideline      for      the
+Segregation/Separation  of  Gas  Cylinders  Contained  in
+Cabinets
+3. 2  ANSI/ASME Standard
+1
+B31.3   —   Chemical   Plant   and   Petroleum   Refinery
+Piping
+3. 3  Federal Regulations
+2
+29 CFR — Title 29 of the Code of Federal Regulations
+(CFR), Part 1910
+49 CFR — Title 49 of the Code of Federal Regulations
+(CFR), Chapter I
+
+1 American National Standards Institute, 1430 Broadway, New York,
+NY 10018
+2 United States Government Printing Office, Washington, D.C. 20402
+3. 4  ICBO Codes
+3
+UBC CH 9 — Chapter 9 of the Uniform Building Code,
+Requirements for Group H Occupancies
+UFC  ART  51  —  Article  51  of  the  Uniform  Fire  Code,
+Semiconductor  Fabrication  Facilities  Using  Hazardous
+Production Materials
+UFC  STD  79-3  —  Standard  No.  79-3  of  the  Uniform
+Fire Code
+UFC  ART  80  —  Article  80  of  the  Uniform  Fire  Code,
+Hazardous Materials
+UFC  ART  90  —  Article  90  of  the  Uniform  Fire  Code,
+Regulation of Facilities Where Materials Which Are or
+May Become Toxic Gases Are Found
+3. 5  NFPA Standards
+4
+NFPA  70/  ART  500  —  Article  500  of  the  National
+Electrical Code, Hazardous (Classified) Locations
+NFPA  497M  —  Classification  of  Gases,  Vapors  and
+Dusts     for     Electrical     Equipment     in     Hazardous
+(Classified) Locations
+NFPA  704  —  Identification  of  the  Fire  Hazards  of
+Materials
+3. 6  ACGIH Publication
+5
+TLV
+6
+—  American  Conference  of  Governmental
+Industrial   Hygienists   Threshold   Limit   Values   and
+Biological Exposure Indices
+4  Terminology
+4. 1    closed   secondary   containment    —    Secondary
+containment   that   has   a   sealed   annulus.   In   closed
+containment  systems,  the  annular  space  either  holds  a
+certain pressure of gas or a certain level of vacuum. In
+closed containment, a change in the pressure or vacuum
+would  be  indicative  of  a  leak  in  either  the  primary  or
+secondary system.
+
+3 International Conference of Building Officials, 5360 South
+Workman Mill Road, Whittier, CA 90601
+4 National Fire Protection Association, Batterymarch Park, Quincy,
+MA 02269
+5 American Conference of Governmental Industrial Hygienists, 6500
+Glenway Avenue, Building D-7, Cincinnati, OH 45211
+6 TLV is a registered trademark of ACGIH.
+
+SEMI F6-92 © SEMI 19922
+4. 2  controlled work area — A spa ce within a building
+where  HPM’s  may  be  stored,  handled,  dispensed,  or
+used.
+4. 3   equilibrium  vapor  concentrati on  (EVC)  —  The
+state   of   a   material   at   which   vapor   pressure   has
+stabilized  and  is  no  longer  rising  or  falling.  The  EVC
+value  (in  parts  per  million)  of  a  material  is  determined
+by  multiplying  the  vapor  pressure  by  10
+6
+and  dividing
+by atmospheric pressure (760 mmHg at sea level).
+4. 4  hazardous production materia l (HPM) — A solid,
+liquid,  or  gas  that  has  a  degree-of-hazard  rating  in
+health,  flammability,  or  reactivity  of  Class  3  or  4  as
+ranked  by  NFPA  704  and  that  is  used  directly  in
+research,  laboratory,  or  production  processes  that  have
+as their end product materials that are not hazardous.
+4. 5   highly  toxic  gas  —  A  chemical   that  has  a  median
+lethal  concentration  (LC
+50
+)  in  air  of  200  parts  per
+million   by   volume   or   less   of   gas   or   vapor,   or   2
+milligrams per liter or less of mist, fume, or dust, when
+administered  by  continuous  inhalation  for  one  hour  (or
+less  if  death  occurs  within  one  hour)  to  albino  rats
+weighing between 200 and 300 grams each.
+4. 6   immediately  dangerous  to  life   and  health  (IDLH)
+— A  concentration  of  airborne  contaminants,  normally
+expressed  in  parts  per  million  or  milligrams  per  cubic
+meter, which represents the maximum level from which
+one  could  escape  within  thirty  minutes  without  any
+escape-impairing    symptoms    or    irreversible    health
+effects.   This   level   is   established   by   the   National
+Institute of Occupational Safety and Health (NIOSH).
+4. 7   level  of  concern  (LOC)  —  Equ al  to  0.1  of  the
+IDLH value.
+4. 8  lower detectable limit of instru ment (LDL) — The
+lowest  concentration  of  a  substance  that  will  give  an
+instrument  response  with  a  signal-to-noise  ratio  of  at
+least 3 db.
+4. 9   material  hazard  index  (MHI)  —  A   numeric  value
+used for ranking chemical production materials in order
+to   determine   the   level   of   controls   necessary   for
+regulation.    MHI    is    determined    by    dividing    the
+equilibrium vapor concentration (EVC) of a material at
+25°C  by  the  level  of  concern  (LOC)  value  for  the
+material.
+4. 10    open   secondary   containment   —    Secondary
+containment  with  an  open-ended  annular  space.  This
+annulus must be directed to a system designed to handle
+the contained HPM.
+4. 11    permissible   exposure   limit   (PE L)    —    The
+maximum  permitted  eight  hour  time-weighted  average
+concentration    of    an    airborne    contaminant.    The
+maximum  permitted  time-weighted  average  exposures
+to be used are those published in 29 CFR 1910.1000.
+4. 12    pressure   decay   method   —   The    method   of
+detection   of   leakage   through   pressure   loss,   over   a
+period of time, within a vessel or piping system.
+4. 13    primary   containment   —   The   f irst   level   of
+containment  (i.e.,  the  inside  portion  of  the  container
+that  comes  into  immediate  contact  on  its  inner  surface
+with the material being contained).
+4. 14  pyrophoric — Capable of spon taneous ignition in
+air at or below a temperature of 54.5°C (130°F).
+4. 15   secondary  containment  —  Lev el  of  containment
+that    is    external    to    and    separate    from    primary
+containment.  Secondary  containment  is  a  method  of
+safeguarding  used  to  prevent  unauthorized  releases  of
+toxic  or  hazardous  gases  into  uncontrolled  work  areas.
+Secondary    containment    means    those    methods    or
+facilities in addition to the primary containment system.
+4. 16    threshold   limit   value/time-weig hted   average
+(TLV/TWA) — As defined by the American Conference
+of Governmental Industrial Hygienists (ACGIH).
+4. 17  uncontrolled work area — An y area outside of a
+secondary  containment  system  where  people  are  likely
+to be present.
+4. 18    vacuum   decay   method   —   Leak age   detection
+determined   by   the   loss   of   vacuum   (increase   in
+pressure),  over  a  period  of  time  within  a  vessel  or
+piping system.
+5  Containment Function
+5. 1   Secondary  containment  should ,  in  case  of  release,
+segregate  the  hazardous  production  material  (HPM)
+from the surrounding area.
+5. 2   Secondary  containment  system s  should  include
+provisions to contain and detect substances which pose
+health or property hazards and to direct such substances
+into  areas  or  facilities  that  can  safely  treat,  dispose  of,
+or dilute them prior to release into the atmosphere.
+6  Containment Application
+Secondary  containment  may  be  used  on  any  system  if
+deemed appropriate by the authority responsible for the
+system.  Secondary  containment  should  be  mandatory
+for   all   HPM’s   that   are   included   in   the   following
+categories:
+6. 1    Those   substances   with   thresho ld   limit   values
+(TLV)  below  the  lower  detectable  limit  (LDL)  of  the
+detection systems in use.
+6. 2  Those substances that provide  inadequate warning
+properties.
+
+SEMI F6-92 © SEMI 19923
+6. 3    Those   substances   that   fall   into    the   following
+categories:
+6. 3.1  Any HPM’s which have a mat erial hazard index
+(MHI) value equal to or greater than 500,000.
+6. 3.2   Highly toxic gas.
+6. 3.3  Pyrophorics.
+6. 3.4   Substances  with  unknown,  but   potentially  high
+toxicities (e.g., organometallics).
+6. 3.5  Materials with an NFPA 704 r eactivity rating of
+3 or 4.
+6. 3.6   Any  corrosives  that  are  not  con tained  in  inert
+process piping.
+6. 4   Where  piping  containing  HPM ’s  is  installed  in  a
+manner to conceal it from view.
+6. 5   Where  piping  containing  HPM ’s  is  installed  in
+uncontrolled or unventilated areas such as drop ceilings
+or behind walls.
+6. 6   Where  required  by  UBC  H-6  o r  other  existing
+codes.
+6. 7  Where there is any reasonable  possibility of a leak
+in  the  primary  containment  due  to  normal  wear  and
+tear, possible abuse, or corrosive attack to the piping on
+the inside or exterior.
+7  Containment Methods
+The  method  of  containment  may  take  many  forms
+provided   that   the   method   is   sound   in   engineering
+design.   This   design   should   be   in   conformance   to
+nationally recognized codes and standards as well as to
+the requirements of local safety jurisdictions.
+8  Materials of Construction
+8. 1  Chemical Compatibility — If t here is a possibility
+that  the  HPM,  or  its  reaction  products,  is  corrosive,  to
+any  extent,  to  the  secondary  containment,  one  should
+develop   a   procedure   to   verify   the   integrity   of   the
+containment  system.  This  verification  procedure  need
+only  be  performed  in  the  event  that  the  HPM,  or  its
+reaction products, contacts the containment (see Section
+9).
+8. 2    Fire   Resistance   —   If   walls   are    used   as   the
+secondary    containment    system,    they    should    be
+constructed of materials resistant of fire. The fire rating
+of the secondary containment should be as follows:
+8. 2.1  Two hour rating for pyrophori cs;
+8. 2.2  One hour rating for all others.
+9  Design Requirements
+9. 1    Design   Pressure   —   The   system    should   be
+designed  to  provide  secondary  containment  with  the
+ability to withstand the pressure of the entire volume of
+the potential leaking source without leakage.
+9. 1.1   Closed  secondary  containment   systems  should
+have   sufficient   design   pressure   to   withstand   the
+pressure  of  the  entire  contents  of  the  source  of  the
+HPM. The design safety factor must be consistent with
+ANSI B31.3.
+9. 1.2   Open  secondary  containment  s ystems  should
+have  sufficient  design  pressure  to  withstand  the  release
+at  full  tank  pressure  or  the  entire  contents  of  the  HPM
+released within a time of two minutes.
+9. 1.3   Special  consideration  should  b e  given  to  the
+containment   of   pyrophorics.   Some   pyrophorics   can
+develop     considerable     explosive     pressure.     The
+elimination    of    oxygen    from    the    annulus    of    a
+containment  system  should  be  considered  in  lieu  of
+explosive pressure data.
+9. 2   Resistance  to  External  Forces  —  The  method  of
+construction  of  secondary  containment  systems  should
+be sufficient to withstand:
+9. 2.1   Normal  physical  abuse  found  i n  the  industrial
+workplace.
+9. 2.2   Seismic  zone  activity  as  shown   in  the  UBC
+(Uniform Building Code) or other applicable codes.
+9. 3   Leak  Integrity  —  The  system  s hould  be  designed
+to  provide  secondary  containment  with  sufficient  leak
+integrity  to  prevent  exceeding  the  PEL  of  the  HPM  in
+uncontrolled work areas.
+9. 3.1    Primary   piping   should   be   leak    tested   in
+accordance with SEMI F1.
+9. 3.2   Closed  secondary  containment   systems  should
+have the same leak integrity as the primary containment
+except   the   closed   secondary   containment   systems
+should be leak tested with the annulus pressurized to 2
+times   the   maximum   operating   pressure   with   argon
+containing  at  least  10%  helium.  There  should  be  no
+drop in pressure for a period of 12 hours.
+9. 3.3   Open  secondary  containment  s ystems  should  be
+leak  tested  to  the  same  criteria  as  closed  secondary
+containment systems per 9.3.2 above.
+10  Separation of HPM’s
+A single secondary containment may be used to contain
+more than one HPM provided that those HPM’s are not
+reactive    with    any    other    HPM    in    the    common
+containment.  Documents  that  should  be  considered  for
+proper separation of HPM’s include:
+
+SEMI F6-92 © SEMI 19924
+10. 1      SEMI     S4,     Safety     Guideline     for      the
+Segregation/Separation  of  Gas  Cylinders  Contained  in
+Cabinets
+10. 2  Materials Safety Data Sheets
+10. 3    NFPA   Fire   Protection   Guide   o n   Hazardous
+Materials
+11  Cross Connections
+There  should  be  no  mechanical  cross  connection  of
+secondary  containment  systems  with  other  systems  not
+designed  specifically  for  the  secondary  containment  of
+the particular HPM’s.
+12  Monitoring
+The  annulus  should  be  monitored  for  leakage  of  the
+primary system in accordance with the following:
+12. 1  The sensitivity of the detection  system should be
+sufficient  to  detect  leakage  at  1/2  Threshold  Limit
+Values (TLV’s) at the discharge to treatment of an open
+secondary containment system.
+12. 2   Detection  of  leakage  into  the  a nnulus  of  the
+secondary  containment  system  should  include  alarm
+systems.
+12. 3  Detection methods may includ e:
+12. 3.1   Direct  detection  of  the  HPM  o r  its  reaction
+products (open secondary containment system).
+12. 3.2    Pressure   decay   method   (closed    secondary
+containment system).
+12. 3.3    Vacuum   decay   method   (closed    secondary
+containment system).
+13  Leak Management
+The  secondary  containment  system  should  be  designed
+to   control   and   direct   leaking   materials.   Control   of
+HPM’s     may     consist     of     dilution,     absorption,
+incineration,   scrubbing,   venting,   or   those   methods
+deemed  safe  and  suitable  to  the  governing  authorities
+responsible   for   the   facility.   The   initiation   of   the
+secondary    containment    alarm    system    should    be
+automated.  This  system  should  automatically  institute
+the  management  of  the  leaking  HPM  in  the  event  of  a
+breach of the primary system.
+14  Periodic Testing - After In stallation
+14. 1   Secondarily  contained  piping  s ystems  must  be
+inspectable.  The  method  of  inspection  must  be  able  to
+reveal  the  current  strength  and  leak  integrity  of  the
+primary and secondary containment systems.
+14. 2   The  secondary  containment  m ust  be  periodically
+leak  tested  in  accordance  with  the  criteria  set  forth  in
+Section  9.3  of  the  above.  Structural  testing  of  both  the
+process  piping  and  the  secondary  containment  should
+be  conducted  to  the  maximum  pressure  specified  in
+Section 9.1 of the above.
+14. 3   Any  secondarily  contained  pip ing  system  failing
+the  periodic  inspection  should  be  repaired  or  replaced
+immediately.
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F7-92 © SEMI 1992, 19991
+SEMI F7-92 (Reapproved 0299)
+TEST METHOD TO DETERMINE THE TENSILE STRENGTH OF TUBE
+FITTING CONNECTIONS MADE OF FLUOROCARBON MATERIALS
+This  test  method  was  technically  reapproved  by  the  Facilities  Committee  and  is  the  direct  responsibility  of  the
+North  American  Facilities  Committee.  Current  edition  approved  by  the  North  American  Regional  Standards
+Committee in October 1998. Initially available on
+www.semi.org February 1999; to be published February 1999.
+Originally published in 1992.
+1.   Purpose
+1. 1 This  method  provides  a  uniform  procedure  to
+determine    the    tensile    strength    of    tube    fitting
+connections made of fluorocarbon materials.
+2.   Scope
+2. 1 This  method  can  be  used  to  characterize  tube
+fitting connections on the basis of test data developed
+under the conditions described herein, but the results
+are not intended to imply a performance rating.
+2. 2 Tube defined in this method has a circular cross
+section and is made of fluorocarbon materials.
+2. 3 All   parts   of   the   tube   fittings   tested   by   this
+method in contact with the internal fluid are made of
+fluorocarbon materials.
+2. 3.1 Parts such as a nuts or grippers are not limited
+to being made of a fluorocarbon material.
+2. 4 Only  the  seal  between  the  tube  and  tube  fitting
+being evaluated is within the scope of this document.
+All other, threaded seals are beyond the scope of this
+document.
+2. 5 When     using     this     method     for     making
+comparisons   among   various   tube   fittings   and/or
+manufacturers,   the   user   must   be   specific   in   the
+selection of the tube and tube fittings to be evaluated.
+2. 6 The International System of Units (SI) is used as
+the  standard  unit  of  measure  in  this  document.  The
+U.S. Customary units are in parentheses for reference
+purposes  only  and  have  been  rounded  to  the  nearest
+whole value.
+3.   Referenced   Documents
+3. 1 ASTM Standards
+1
+D3307 PFA  Fluorocarbon  Molding  and  Extrusion
+Materials
+D3296
+ Standard     Specification     for     FEP
+Fluorocarbon Tube
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohoken, PA 19428-2959
+4.   Summary of Method
+4. 1 Subject    tube    fitting    connections    made    of
+fluorocarbon materials to extreme tensile forces.
+5.   Significance   and   Use
+5. 1 In the manufacturing of semiconductor products,
+many  types  of  hazardous  chemicals  and  solvents  are
+required.   As   a   result,   tubing   and   various   fitting
+designs    of    fluorocarbon    materials    (which    are
+chemically   resistant   to   these   fluids)   are   used   to
+transport  those  fluids.  It  is  important  to  control  the
+testing   process   when   evaluating   various   fitting
+designs,  so  that  accurate  comparisons  of  the  tensile
+strength can be made.
+5. 2 It  is  the  intent  of  this  method  to  provide  a
+procedure in which the tensile force will be applied to
+tube    fitting    connections    made    of    fluorocarbon
+materials.     By     using     this     method,     accurate
+comparisons  of  various  tube  fitting  designs  can  be
+achieved.
+5. 3 The results obtained when using this method are
+applicable    only    to    conditions    that    specifically
+duplicate the procedures used within this method.
+5. 4 When  using  this  test  method,  it  is  assumed  that
+the  test  specimens  are  truly  representative  of  the
+material and manufacturing process specified for that
+product.   Departure   from   this   assumption   could
+introduce  discrepancies  that  are  greater  than  those
+introduced   by   departure   from   the   details   of   the
+procedure outlined in this method.
+6.   Terminology
+6. 1 characterize  To describe the quality of.
+6. 2 failure   Tube  separation  from  a  tube  fitting
+connection or tearing of the tube.
+6. 3 subject  To expose to.
+6. 4 tensile  Longitudinal, so as to lengthen the test
+object.
+
+SEMI F7-92 © SEMI 1992, 19992
+7.   Description of Test Equipment
+7. 1 A  test  apparatus  capable  of  securing  the  test
+specimen  while  accurately  providing  a  uniform  rate
+of  pull  to  the  specimen.  The  test  instrument  shall
+have the capability of recording the maximum tensile
+force applied to the test specimen.
+7. 2 See Figure 1 for basic tensile test apparatus.
+Figure 1
+Basic Tensile Test Apparatus
+8.   Safety   Precautions
+WARNING: This test method will subject test
+specimens to conditions that may exceed the
+normal  performance  rating  of  the  products
+under    evaluation.    Adequate    precautions
+must be taken to prevent injury to the person
+conducting the test.
+9.   Test Specimens and Conditioning
+9. 1 Sample  Size   A  minimum  of  three  specimens
+shall be tested.
+9. 2 Specimen  Size   The  specimen  length  shall  be
+no  less  than  10  cm  (4  in)  between  the  tensile  fixture
+and the tube end of the fitting connection.
+9. 3 Specimen   Surface    All   surfaces   of   the
+specimens shall be free of visible flaws, scratches, or
+other   imperfections,   unless   typically   found   on   a
+representative sample of the product.
+9. 4 Specimen  Conditioning   All  specimens  must
+be  conditioned  for  a  minimum  of  one  hour  in  an  air
+environment  of  23°  ±  2.8°C  (73°  ±  5°F)  prior  to
+being subjected to tensile forces.
+10.   Calibration
+10. 1 Calibrate  the  tensile  test  equipment's  rate  of
+pull to 2.5 cm (1 in) per minute, ± 5%.
+10. 2 Calibrate  the  tensile  force  instrument  to  ±  2%
+full scale.
+11.   Test   Procedure
+11. 1 Assemble    a    test    fitting    connection,    per
+manufacturer's  specification,  to  one  end  of  the  tube.
+(See 9.2.)
+11. 2 Install   the   fitting   connection   to   the   tensile
+fixture  (see  Figure  1)  in  a  manner  that  prevents
+distortion of the connection.
+11. 3 Secure  the  open  end  of  the  tube  to  the  tensile
+fixture,  leaving  a  minimum  of  10  cm  (4  in)  of
+exposed tube.
+11. 4 Begin pulling the test specimen at a rate of 2.5
+cm (1 in) per minute.
+11. 5 Continue  applying  tensile  force  until  the  tube
+pulls through the fitting connection or until tearing of
+the tube occurs.
+11. 5.1 If  the  tube  releases  from  the  tensile  fixture,
+the data from that specimen must be disregarded and
+an additional specimen tested.
+11. 6 Record on test data sheet (see Appendix 1 for a
+sample) the mode of failure and the maximum tensile
+force applied, in Newtons (lbs).
+12.   Calculations
+12. 1 Calculate the average "maximum tensile force"
+and record.
+12. 2 Calculate  the  standard  deviation  of  "maximum
+tensile force" and record.
+13.   Data   Accuracy
+13. 1 Tensile Force  Newtons: ± 2%.
+
+# 14
+
+14.   Test Data Sheet
+The   test   data   sheet   shall   include   the   following
+information:
+
+SEMI F7-92 © SEMI 1992, 19993
+14. 1 Date tested.
+14. 2 Operator and test facility.
+14. 3 Description of items tested, including:
+Tubing
+ manufacturer,  O.D.,  wall  thickness,  part
+number, and material type.
+Fitting
+ manufacturer, type, size, part number, and
+material type.
+14. 4 Maximum tensile force for each specimen.
+14. 5 Average  and  standard  deviation  of  maximum
+tensile forces.
+14. 6 Mode of failure for each specimen.
+NOTE:   A   sample   test   data   sheet   is   provided   as
+Appendix 1.
+
+SEMI F7-92 © SEMI 1992, 19994
+APPENDIX 1
+SAMPLE TEST DATA SHEET
+NOTE:  This  related  information  is  not  an  official  part  of  this  SEMI  test  method  and  is  not  intended  to  modify  or
+supercede the official test method. It has been derived from industry specifications. Publication was authorized by
+full letter ballot procedures. Determination of the suitability of the material is solely the responsibility of the user.
+Test Date:Operator:Test Facility:
+Tube Manufacturer:Fitting Manufacturer:
+Tube O.D.:Fitting Type:
+Tube Wall Thickness:Fitting Size:
+Tube P/N:Fitting P/N:
+Tube Material:Fitting Material:
+Tensile Force  Newtons
+SampleMaximum Tensile ForceMode of Failure
+1
+2
+3
+Average =
+Standard Deviation =
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user's  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F8-0998 © SEMI 1992, 19981
+SEMI F8-0998
+TEST METHOD FOR EVALUATING THE SEALING CAPABILITIES OF
+TUBE FITTING CONNECTIONS MADE OF FLUOROCARBON
+MATERIALS, WHEN SUBJECTED TO TENSILE FORCES
+1  Purpose
+1. 1   This  method  provides  a  unifor m  procedure  to
+determine   the   sealing   capabilities   of   tube   fitting
+connections  made  of  fluorocarbon  materials  when  the
+connections are subjected to tensile forces.
+2  Scope
+2. 1   This  method  can  be  used  to  ch aracterize  tube
+fitting  connections  on  the  basis  of  test  data  developed
+under  the  conditions  described  herein,  but  the  results
+are not intended to imply a performance rating.
+2. 2   Tube  defined  in  this  method  ha s  a  circular  cross
+section and is made of fluorocarbon materials.
+2. 3  All parts of the tube fittings te sted by this method
+in   contact   with   the   internal   fluid   are   made   of
+fluorocarbon materials.
+2. 3.1   Parts  such  as  a  nut  or  gripper  a re  not  limited  to
+being made of a fluorocarbon material.
+2. 4   Only  the  seal  between  the  tube   and  tube  fitting
+being  evaluated  is  within  the  scope  of  this  document.
+All  other,  threaded  seals  are  beyond  the  scope  of  this
+document.
+2. 5   When  using  this  method  for  m aking  comparisons
+between various tube fittings and/or manufacturers, the
+user  must  be  specific  in  the  selection  of  the  tube  and
+tube fittings to be evaluated.
+2. 6   The  International  System  of  U nits  (SI)  is  used  as
+the standard unit of measure in this document. The U.S.
+Customary   units   are   in   parentheses   for   reference
+purposes  only  and  have  been  rounded  to  the  nearest
+whole value.
+3  Referenced Documents
+3. 1  ASTM Standards
+1
+
+D  3307  PFA  —  Fluorocarbon  Molding  and  Extrusion
+Materials
+D     3296     —     Standard     Specification     for     FEP
+Fluorocarbon Tube
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohoken, PA 19428-2959
+4  Summary of Method
+4. 1     Subject    tube    fitting    connection s    made    of
+fluorocarbon  materials  to  extreme  tensile  forces,  while
+maintaining a specified pressure to the internal cavity of
+the fitting and tube.
+5  Significance and Use
+5. 1   In  the  manufacturing  of  semic onductor  products,
+many  types  of  hazardous  chemicals  and  solvents  are
+required. As a result, tubing and various fitting designs
+made  of  fluorocarbon  materials  (which  are  chemically
+resistant  to  these  fluids)  are  used  to  transport  those
+fluids.  It  is  important  to  control  the  testing  process
+when evaluating various fitting designs, so that accurate
+comparisons  of  the  sealing  capabilities  of  tube  fitting
+connections can be made.
+5. 2    It   is   the   intent   of   this   method   t o   provide   a
+procedure  in  which  the  air  pressure  and  tensile  force
+will  be  applied  to  tube  fitting  connections  made  of
+fluorocarbon  materials.  By  using  this  method,  accurate
+comparisons  of  various  tube  fitting  designs  can  be
+achieved.
+5. 3   The  results  obtained  when  usin g  this  method  are
+applicable  only  to  conditions  that  specifically  duplicate
+the procedures used within this method.
+5. 4  When using this test method, i t is assumed that the
+test  specimens  are  truly  representative  of  the  material
+and  manufacturing  process  specified  for  that  product.
+Departure    from    this    assumption    could    introduce
+discrepancies  that  are  greater  than  those  introduced  by
+departure  from  the  details  of  the  procedure  outlined  in
+this method.
+6  Terminology
+6. 1  Acronyms
+6. 1.1  O.D. — Outside diameter
+6. 1.2  P/N — Part number
+6. 2  Definitions
+6. 2.1  characterize — To describe th e quality of.
+6. 2.2   failure  —  Tube  separation  from   a  tube  fitting
+connection or tearing of the tube.
+6. 2.3  standard deviation — A meas ure of the variation
+among the members of a statistical sample.
+
+SEMI F8-0998 © SEMI 1992, 19982
+6. 2.4   submersion  tank  —  A  transpar ent  tank  filled
+with   isopropyl   alcohol   to   allow   observation   of   air
+leakage from the tube fitting connection.
+6. 2.5  subject — To expose to.
+6. 2.6  tensile — Longitudinal, so as t o lengthen the test
+object.
+7  Description of Test Equip ment
+7. 1  A supply of compressed air. P ressure to be within
+± 2% of specified.
+7. 2  Isopropyl alcohol.
+7. 3  An instrument to record the ten sile force applied to
+the test specimen.
+7. 4  A test apparatus:
+7. 4.1   Capable  of  securing  the  test  sp ecimen  while
+allowing the specimen to be internally pressurized.
+7. 4.2   Capable  of  accurately  providin g  a  uniform  rate
+of pull to the specimen.
+7. 4.3   With  a  transparent  submersion   tank  capable  of
+containing a fluid for observing leakage. The minimum
+fluid   level   shall   be   2.5   cm   (1   in)   above   the   test
+connection.
+7. 4.4  The apparatus shall allow the t est specimen to be
+internally pressurized to 250 kPa (36 psig).
+7. 5    See   Figure   1   for   basic   tensile   a nd   leak   test
+apparatus.
+Figure 1
+Basic Tensile and Leak Test Apparatus
+8  Safety Precautions
+WARNING: This test method will subject test
+specimens to conditions that may exceed the
+normal performance rating of the products
+under evaluation. Adequate precautions must
+be taken to prevent injury to the person
+conducting the test.
+9  Test Specimens and Cond itioning
+9. 1   Sample  Size  —  A  minimum  of   three  specimens
+shall be tested.
+9. 2  Specimen Size — The specime n length shall be no
+less than 10 cm (4 in) between the upper tensile fixture
+and the tube end of the fitting connection.
+9. 3  Specimen Surface — All surfa ces of the specimens
+shall   be   free   of   visible   flaws,   scratches,   or   other
+imperfections,      unless      typically      found      on      a
+representative sample of the product.
+9. 4   Specimen  Conditioning — All  specimens must be
+conditioned  for  a  minimum  of  one  hour  in  an  air
+environment  of  23°  ±  2.8°C  (73°  ±  5°F)  prior  to  being
+subjected to pressure and tensile forces.
+10  Calibration
+10. 1   Calibrate  the  tensile  test  equip ment’s  rate  of  pull
+to 2.5 cm (1 in) per minute, ± 5%.
+10. 2  Calibrate the tensile force instr ument to ± 2% full
+scale.
+11  Test Procedure
+11. 1     Assemble    a    test    fitting    connec tion,    per
+manufacturer’s specification, to one end of the tube.
+11. 2  Install the fitting connection to  the tensile fixture,
+in  the  submersion  tank  (see  Figure  1)  in  a  manner  that
+prevents distortion of the connection.
+11. 3   Secure  free  end  of  tube  to  the  u pper  tensile
+fixture, leaving a minimum of 10 cm (4 in) of exposed
+tube.
+11. 4  Fill the submersion tank with i sopropyl alcohol to
+a  height  of  2.5  cm  (1  in)  above  the  top  of  the  test
+connection.
+11. 5   Cover  the  submersion  tank  in  c ase  of  a  fluid
+splash.
+11. 5.1   The  cover  must  allow  for  sligh t  clearance
+around tube.
+11. 6   Pressurize  the  test  specimen  w ith  an  internal  air
+pressure of 250 kPa (36 psig), regardless of tube size.
+
+SEMI F8-0998 © SEMI 1992, 19983
+11. 7   Begin  pulling  the  test  specime n  at  a  rate  of  2.5
+cm (1 in) per minute.
+11. 8     Record    on    test    data    sheet    (see     Related
+Information 1 for a sample), the minimum tensile force
+in  Newtons  (lbs)  when  leakage  is  first  observed  from
+the fitting connection.
+11. 9    Lower   the   air   pressure   to   one   a tmosphere
+immediately after observing any leakage.
+11. 10  Continue pulling until the tube  pulls through the
+fitting connection or until tearing of the tube occurs.
+11. 10.1  If the tube releases from the te nsile fixture, the
+data  from  that  specimen  must  be  disregarded  and  an
+additional specimen tested.
+11. 11   Record  on  test  data  sheet  the  m ode  of  failure
+and  the  maximum  tensile  force  applied  in  Newtons
+(lbs).
+11. 11.1  It is possible that the tensile fo rce required to
+cause  leakage  and  the  maximum  tensile  force  may  be
+the  same.  If  this  situation  occurs,  indicate  the  force
+reading on both areas of the test data sheet.
+12  Calculations
+12. 1   Calculate  the  average  “force  to   cause  leakage”
+and record.
+12. 2   Calculate  the  average  “maxim um  tensile  force”
+and record.
+12. 3  Using the three actual forces:
+12. 3.1   Calculate  the  standard  deviatio n  of  “force  to
+cause leakage” and record.
+12. 3.2   Calculate  the  standard  deviatio n  of  “maximum
+tensile force” and record.
+13  Data Accuracy
+13. 1  Tensile Force — Newtons: ± 2 %
+14  Test Data Sheet
+The   test   data   sheet   shall   include   the   following
+information:
+14. 1  Date tested.
+14. 2  Operator and test facility.
+14. 3  Description of items tested, inc luding:
+Tubing  —  manufacturer,   O.D.,   wall   thickness,   part
+number, and material type.
+Fitting  —  manufacturer,  type,  size,  part  number,  and
+material type.
+14. 4  Force to cause leakage for eac h specimen.
+14. 5   Average  and  standard  deviatio n  of  the  forces  to
+cause leakage.
+14. 6  Maximum tensile force for eac h specimen.
+14. 7   Average  and  standard  deviatio n  of  maximum
+tensile forces.
+14. 8  Mode of failure for each speci men.
+NOTE:  A  sample  test  data  sheet  is  provided  as  Related
+Information 1.
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+SEMI F8-0998 © SEMI 1992, 19984
+RELATED INFORMATION 1
+SAMPLE TEST DATA SHEET
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  F8  and  is  not  intended  to  modify  or  supercede  the  offical  test
+method.   It   has   been   derived   from   industry   specifications.   Publication   was   authorized   by   full   letter   ballot   procedure.
+Determination of the suitability of the material is solely the responsibility of the user.
+Test Date:Operator:Test Facility:
+Tube Manufacturer:Fitting Manufacturer:
+Tube O.D.:Fitting Type:
+Tube Wall Thickness:Fitting Size:
+Tube P/N:Fitting P/N:
+Tube Material:Fitting Material:
+Tensile Force — Newtons
+SpecimenForce to Cause LeakageMaximum Tensile ForceMode of Failure
+1
+2
+3
+Average =
+Standard Deviation =
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F9-0998 © SEMI 1992, 19981
+SEMI F9-0998
+TEST METHOD TO DETERMINE THE LEAKAGE CHARACTERISTICS
+OF TUBE FITTING CONNECTIONS MADE OF FLUOROCARBON
+MATERIALS, WHEN SUBJECTED TO A SIDE LOAD CONDITION
+1  Purpose
+1. 1   This  method  provides  a  unifor m  procedure  to
+determine  the  leakage  characteristics  of  tube  fitting
+connections   made   of   fluorocarbon   materials,   when
+subjected to side loading.
+2  Scope
+2. 1   This  method  can  be  used  to  ch aracterize  tube
+fitting  connections  on  the  basis  of  test  data  developed
+under  the  conditions  described  herein,  but  the  results
+are not intended to imply a performance rating.
+2. 2   Tube  defined  in  this  method  ha s  a  circular  cross
+section and is made of fluorocarbon materials.
+2. 3  All parts of the tube fittings te sted by this method
+in   contact   with   the   internal   fluid   are   made   of
+fluorocarbon materials.
+2. 3.1   Parts  such  as  a  nut  or  gripper  a re  not  limited  to
+being made of a fluorocarbon material.
+2. 4   Only  the  seal  between  the  tube   and  tube  fitting
+being  evaluated  is  within  the  scope  of  this  document.
+All  other,  threaded  seals  are  beyond  the  scope  of  this
+document.
+2. 5   When  using  this  method  for  m aking  comparisons
+between various tube fittings and/or manufacturers, the
+user  must  be  specific  in  the  selection  of  the  tube  and
+tube fittings to be evaluated.
+2. 6   The  International  System  of  U nits  (SI)  is  used  as
+the standard unit of measure in this document. The U.S.
+Customary   units   are   in   parentheses   for   reference
+purposes  only  and  may  have  been  rounded  to  the
+nearest whole value.
+3  Summary of Method
+3. 1     Subject    tube    fitting    connection s    made    of
+fluorocarbon materials to a side load condition that is a
+result  of  bending  the  tube  in  a  uniform  arc,  while
+maintaining a specified pressure to the internal cavity of
+the fitting and tube.
+4  Significance and Use
+4. 1   In  the  manufacturing  of  semic onductor  products,
+many  types  of  hazardous  chemicals  and  solvents  are
+required. As a result, tubing and various fitting designs
+made  of  fluorocarbon  materials  (which  are  chemically
+resistant  to  these  fluids)  are  used  to  transport  those
+fluids.  It  is  important  to  control  the  testing  process
+when evaluating various fitting designs, so that accurate
+comparisons of the side load capabilities can be made.
+4. 2    It   is   the   intent   of   this   method   t o   provide   a
+procedure  in  which  tube  fitting  connections  made  of
+fluorocarbon materials will be subjected to extreme side
+loading. By using this method, accurate comparisons of
+various tube fitting designs can be achieved.
+4. 3   The  results  obtained  when  usin g  this  method  are
+applicable  only  to  conditions  that  specifically  duplicate
+the procedures used within this document.
+4. 4  When using this test method, i t is assumed that the
+test  specimens  are  truly  representative  of  the  material
+and  manufacturing  process  specified  for  that  product.
+Departure    from    this    assumption    could    introduce
+discrepancies  that  are  greater  than  those  introduced  by
+departure  from  the  details  of  the  procedure  outlined  in
+this method.
+5  Terminology
+5. 1  Acronyms
+5. 1.1  O.D. — Outside diameter
+5. 1.2  P/N — Part number
+5. 2  Definitions
+5. 2.1   bend  radius  —  The  distance  fr o m  the  center  of
+an  imaginary  circle  on  which  the  arc  of  the  bent  tube
+falls to a point on the arc.
+5. 2.2  characterize — To describe th e quality of.
+5. 2.3  kinking — A collapse of the tu be wall caused by
+excessive bending.
+5. 2.4   “L”  —  The  tube  length  requir ed  to  produce  a
+uniform 180° arc, at a specified tube bend radius.
+NOTE: The symbol “L” is unique in that it is used only in this
+test method.
+5. 2.5   “R”  —  The  theoretical  value  t o  determine  the
+tube bend radius, used during testing.
+NOTE: The symbol “R” is unique in that it is used only in this
+test method.
+5. 2.6   side  load  —  A  result  of  bendin g  a  tube  in  a
+specified  arc,  consequently  subjecting  the  tube  fitting
+connection to a radial stress.
+
+SEMI F9-0998 © SEMI 1992, 19982
+5. 2.7  subject — To expose to.
+5. 2.8   submersion  tank  —  A  transpar ent  tank,  filled
+with  isopropyl  alcohol,  to  allow  observation  of  air
+leakage from a tube fitting connection.
+6  Description of Test Equip ment
+6. 1  A supply of compressed air. P ressure to be within
+± 2% of specified value.
+6. 2  Isopropyl alcohol.
+6. 3   An  instrument  for  measuring  l e ngths  of  tubing
+(e.g., tape measure).
+6. 4    A   special   apparatus   which   has    a   fixture   for
+attaching the fitting body, while also providing a means
+to  clamp  the  free  end  of  tube,  to  maintain  a  tube  bend
+radius.
+6. 4.1  The apparatus shall allow the t est specimen to be
+internally pressurized.
+6. 4.2     The    apparatus    shall    have    a    tran sparent
+submersion   tank   capable   of   containing   a   fluid   for
+observing  leakage.  The  minimum  fluid  level  shall  be
+2. 5 cm (1 in) above the test connection.
+6. 5  See Figure 1 for a basic side lo ad test apparatus.
+Figure 1
+Side Load Test Apparatus
+7  Safety Precautions
+WARNING: This test method will subject test
+specimens to conditions that may exceed the
+normal performance rating of the products
+under evaluation. Adequate precautions must
+be taken to prevent injury to the person
+conducting the test.
+8  Test Specimens and Cond itioning
+8. 1   Sample  Size  —  A  minimum  of   three  specimens
+shall be tested.
+8. 2   Tube  —  The  tubing  used  for  th is  evaluation  shall
+be of straight lengths, not previously coiled.
+8. 3  Specimen Surface — All surfa ces of the specimens
+shall   be   free   of   visible   flaws,   scratches,   or   other
+imperfections,      unless      typically      found      on      a
+representative sample of the product.
+8. 4   Specimen  Conditioning — All  specimens must be
+conditioned  for  a  minimum  of  one  hour  in  an  air
+environment  of  23°  ±  2.8°C  (73°  ±  5°F)  prior  to  being
+subjected to pressurization and bending of the tube.
+9  Test Procedure
+9. 1  Perform the following calculat ion to determine the
+“R” value.
+9. 1.1   For  a  tubing  outside  diameter  (O .D.)  of  1.5  cm
+(.59 in) or less: R = Tube O.D. × 5.
+9. 1.2  For a tubing outside diameter (O .D.) greater than
+1. 5 cm (0.59 in): R = Tube O.D. × 5.
+NOTE:  The  constants  (5  and  10)  in  Sections  9.1.1  and  9.1.2
+were  derived  from  the  extrapolation  of  the  actual  “Minimum
+Bend Radius” of tubing from various manufacturers.
+9. 2    Perform   the   calculation   in   Sec tion   9.2.1   to
+determine  the  tube  length  required  to  produce  a  180°
+arc at a tube bend radius of R.
+9. 2.1  L = R × 3.14
+9. 3   Cut  three  tubes  of  equal  length   per  the  following
+formula: 3L + 15 cm (6 in).
+9. 4   Install  a  fitting  body  to  the  test   fixture,  in  the
+submersion tank.
+9. 5  Install a tube into the fitting bo dy and assemble the
+connection per manufacturer’s specification.
+NOTE: To prevent side loading of the fitting connection prior
+to  bending  of  the  tube,  provide  a  method  of  supporting  the
+tube.
+9. 6    Measure   from   the   tube   end   of    the   fitting
+connection  and  place  a  mark  on  the  tube  (within  ±  1%
+of   calculated   value)   in   five   separate   locations   as
+determined below:
+• 0.5L
+• 1.0L
+• 1.5L
+• 2.0L
+• 3.0L
+9. 7  Use the following formula to d etermine the actual
+tube bend radius used and record on test data sheet (see
+Related Information 1 for a sample):
+
+SEMI F9-0998 © SEMI 1992, 19983
+• 0.5R
+• 1.0R
+• 1.5R
+• 2.0R
+• 3.0R
+9. 8   Fill  the  submersion  tank  with  i sopropyl  alcohol  to
+a  minimum  height  2.5  cm  (1  in)  above  the  top  of  the
+test connection.
+9. 9   Pressurize  the  test  specimen  w ith  an  internal  air
+pressure of 250 kPa (36 psig), regardless of tube size.
+9. 10   Observe  the  connection  for  a  m inimum  of  one
+minute for bubble leakage (bbl/min) and record on test
+data sheet under the column entitled “STRAIGHT”.
+9. 11   Carefully  bend  the  tube  in  a  un iform  180°  arc
+with  a  radius  of  3R  and  clamp  the  free  end  to  the  test
+fixture.  (See  Section  9.7  for  specific  R  value.)  Proper
+tube  length  at  the  clamping  point  is  determined  in
+Section 9.6.
+9. 11.1  R value tolerances =
+• Tubes with 1.5 cm (0.59 in) O.D. or less = ± 5%
+• Tubes with greater than 1.5 cm (0.59 in) O.D. = ±
+1%
+9. 12   Observe  the  connection  for  a  m inimum  of  one
+minute   for   bubble   leakage.   Record   leakage   on   the
+appropriate  area  of  the  test  data  sheet.  If  no  leakage  is
+observed, note as “None”.
+9. 13   Repeat  Sections  9.11  and  9.12   for  the  remaining
+tube   bend   radius   of   2R,   1.5R,   1R,   and   0.5R,   in
+descending order.
+9. 13.1   Should  any  tube  kink  prior  to  a chieving  0.5R,
+testing  of  that  sample  will  be  discontinued.  The  radius
+at  which  kinking  occurred  shall  be  recorded  and  noted
+as “kink”.
+9. 13.2   To  reduce  the  effects  caused  b y  creep  of  the
+material  the  total  time  from  initial  bending  of  the  tube
+until  achieving  the  0.5R  value  is  to  be  less  than  ten
+minutes.
+9. 14   After  completion  of  the  first  sa mple,  replace  the
+fitting and tube with new specimens and repeat Sections
+9. 4 through 9.13.2 for a total of three samples.
+10  Test Data Sheet
+The   test   data   sheet   shall   include   the   following
+information:
+10. 1  Date tested.
+10. 2  Operator and test facility.
+10. 3  Description of items tested, inc luding:
+Tubing  —  Manufacturer,  O.D.,  wall  thickness,  part
+number, and material type.
+Fitting  —  Manufacturer,  type,  size,  part  number,  and
+material type.
+10. 4   The  actual  tube  bend  radius  fo r  each  nominal
+bend radius.
+10. 5  The leakage rate, in bubbles pe r minute, for each
+sample at each radius.
+NOTE:  A  sample  test  data  sheet  is  provided  as  Related
+Information 1.
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+SEMI F9-0998 © SEMI 1992, 19984
+RELATED INFORMATION 1
+SAMPLE TEST DATA SHEET
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  F9  and  is  not  intended  to  modify  or  supercede  the  official  test
+method.  It  has  been  derived  from  industry  specifications.  Publication  was  authorized  by  full  letter  ballot  procedures.
+Determination of the suitability of the material is solely the responsibility of the user.
+Test Date:Operator:Test Facility:
+Tube Manufacturer:Fitting Manufacturer:
+Tube O.D.:Fitting Type:
+Tube Wall Thickness:Fitting Size:
+Tube P/N:Fitting P/N:
+Tube Material:Fitting Material:
+Leakage— (bbl/min.) [     ] = Acutal Tube Bend Radius, cm(s)
+3R2R1.5R1R0.5R
+SampleStraight[     ][     ][     ][     ][     ]
+1
+2
+3
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI F10-0698 © SEMI 1993, 19981
+SEMI F10-0698
+TEST METHOD TO DETERMINE THE INTERNAL PRESSURE
+REQUIRED TO PRODUCE A FAILURE OF A TUBE FITTING
+CONNECTION MADE OF FLUOROCARBON MATERIALS
+1  Purpose
+1. 1   This  method  provides  a  unifor m  procedure  to
+determine  the  internal  pressure  required  to  produce
+failure  of  fitting  connections  made  of  fluorocarbon
+materials.
+2  Scope
+2. 1   This  method  can  be  used  to  ch aracterize  tube
+fitting  connections  on  the  basis  of  test  data  developed
+under  the  conditions  described  herein,  but  the  results
+are not intended to imply a performance rating.
+2. 2   Tube  defined  in  this  method  ha s  a  circular  cross
+section and is made of fluorocarbon materials.
+2. 3   Tube  fittings  defined  in  this  m ethod  are  made  of
+fluorocarbon  materials  for  all  parts  in  contact  with  the
+internal fluid.
+2. 3.1   Parts  such  as  a  nut  or  gripper  a re  not  limited  to
+being made of a fluorocarbon material.
+2. 4   Only  the  seal  between  the  tube   and  tube  fitting
+being  evaluated  is  within  the  scope  of  this  document.
+All  other  threaded  seals  are  beyond  the  scope  of  this
+document.
+2. 5   When  using  this  method  for  m aking  comparisons
+among  various  tube  fittings  and/or  manufacturers,  the
+user  must  be  specific  in  the  selection  of  the  tube  and
+tube fittings to be evaluated.
+2. 6   The  International  System  of  U nits  (SI)  is  used  as
+the standard unit of measure in this document. The U.S.
+Customary   units   are   in   parentheses   for   reference
+purposes  only  and  may  have  been  rounded  to  the
+nearest whole value.
+3  Referenced Document
+3. 1  ASTM Standard
+1
+ASTM   D   1599   —   Test   Method   for   Short-Time
+Hydraulic Failure Pressure of Plastic Pipe, Tubing, and
+Fittings
+4  Summary of Method
+4. 1   This  test  method  consists  of  pr essurizing  tube
+fitting  connections  made  of  fluorocarbon  materials  to
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohoken, PA 19428-2959
+failure by continuously increasing the internal hydraulic
+pressure. New tubing and fitting samples are required at
+each  specific  elevated  fluid  temperature  condition,  and
+failures are to occur within 60 to 70 seconds from initial
+exposure to the high pressure fluid.
+5  Significance and Use
+5. 1   In  the  manufacturing  of  semic onductor  products,
+many  types  of  hazardous  chemicals  and  solvents  are
+required. As a result, tubing and various fitting designs
+made  of  fluorocarbon  materials  (which  are  chemically
+resistant  to  these  fluids)  are  used  to  transport  those
+fluids.  It  is  important  to  control  the  testing  process
+when evaluating various fitting designs, so that accurate
+comparisons of the pressure limits can be made.
+5. 2    It   is   the   intent   of   this   method   t o   provide   a
+procedure to determine the maximum pressure limits of
+tube    fitting    connections    made    of    fluorocarbon
+materials.  By  using  this  method,  accurate  comparisons
+of various tube fitting designs can be achieved.
+5. 3   The  results  obtained  when  usin g  this  method  are
+applicable  only  to  conditions  that  specifically  duplicate
+the procedures used within this method.
+5. 4  When using this test method, i t is assumed that the
+test  specimens  are  truly  representative  of  the  material
+and  manufacturing  process  specified  for  that  product.
+Departure    from    this    assumption    could    introduce
+discrepancies  that  are  greater  than  those  introduced  by
+departure  from  the  details  of  the  procedure  outlined  in
+this method.
+6  Terminology
+6. 1  characterize — To describe th e quality of.
+6. 2   failure  —  Any  external  leakag e  of  fluid  through
+the  tube  wall  or  the  tube  fitting  connection,  whether  it
+be catastrophic or a slow leak.
+6. 3  free end closure — A metal tu be fitting connection
+which  is  securely  fastened  to  the  tube  and  does  not
+contribute to the restraint of the test specimen.
+6. 4   isolation  valve  —  A  valve  use d  to  separate  the
+high temperature fluid from the high pressure fluid or to
+separate the samples from each other.
+NOTE: This definition is used in only this test method.
+
+SEMI F10-0698 © SEMI 1993, 19982
+6. 5  pressure containing envelope —  The internal area
+of a specimen which contains the fluid media.
+6. 6   standard  deviation  —  A  meas ure  of  the  variation
+among the members of a statistical sample.
+6. 7  subject — To expose to.
+7  Description of Test Equip ment
+7. 1  This test method requires the u se of two hydraulic
+systems.
+7. 1.1   A  high  pressure  system  capabl e  of  applying  a
+continuous increase of the internal hydraulic pressure to
+the test specimen.
+7. 1.2   A  low  pressure,  high  temperat ure  circulation
+system capable of controlling a fluid temperature within
+± 3°C (± 5°F) of a specified test temperature.
+7. 1.2.1   The  pressure  is  to  be  75  kPa  (1 1  psig)  or  less
+for  all  temperatures,  within  the  range  of  25°  to  200°C
+(77° to 392°F).
+7. 2   Test  Fluid  —  When  testing  at   or  below  82°C
+(180°F),  an  SAE  20  weight  hydraulic  oil  may  be  used.
+When  testing  at  elevated  fluid  temperatures,  use  a
+synthetic oil that is acceptable for elevated temperatures
+of  up  to  200°C  (392°F)  and  compatible  with  the  test
+stand and test specimens.
+7. 3   An  instrument  to  record  the  pe ak  pressure  within
+1% of full scale.
+7. 4   An  instrument  to  monitor  temp erature  within  ±
+1°C (± 2°F).
+7. 5  Specimen Support — Any sup port is acceptable as
+long  as  it  does  not  contribute  to  the  restraint  of  the
+specimen in either the circumferential or axial direction.
+7. 6  An enclosure that will allow o bservation of the test
+specimen  and  that  is  also  capable  of  controlling  the
+ambient temperature to 31° ± 6°C (88° ± 11°F).
+7. 7   See  Figure  1  for  basic  pressure   and  circulation
+system.
+Figure 1
+Basic Pressure and Circulation System
+8  Safety Precautions
+WARNING:  This  test  method  will  subject  test
+specimens   to   conditions   that   exceed   the
+normal   performance   rating   of   the   product
+under  evaluation.  Adequate  precautions  must
+be   taken   to   prevent   injury   to   the   person
+conducting the test, as catastrophic failures of
+the test specimens are expected. The hydraulic
+plumbing   and   safety   enclosure   is   to   be
+constructed  of  materials  which  are  capable  of
+containing a fluid at 200°C (392°F).
+9  Test Specimens and Cond itioning
+9. 1   Sample  Size  —  A  minimum  of   three  specimens
+shall be tested at each temperature condition.
+9. 1.1    The   three   connections   will   be    conditioned
+simultaneously.  See  Figure  1  for  a  basic  pressure  and
+circulation system.
+9. 2  Specimen Surface — All surfa ces of the specimens
+shall   be   free   of   visible   flaws,   scratches,   or   other
+imperfections,      unless      typically      found      on      a
+representative sample of the product.
+9. 3   Specimen  Conditioning  —  All   specimens  must  be
+conditioned  for  a  minimum  of  one  hour  in  an  air
+environment  of  23°  ±  2.8°C  (73°  ±  5°F)  prior  to  being
+subjected to pressure.
+9. 4   A  fluid  at  the  specified  temper ature  must  be
+circulated through all the test specimens for a minimum
+of one-half hour.
+
+SEMI F10-0698 © SEMI 1993, 19983
+10  Test Procedure
+10. 1   Install  three  fitting  connection s,  assembled  per
+manufacturer’s specifications, to the test system. Allow
+for a minimum of 30 cm (12 in.) of tube length between
+the test fitting connection and the free end closure.
+10. 2   The  plumbing  must  permit  free   movement  of
+each test specimen to allow for distortion.
+10. 3   Using  the  low  pressure  circula tion  system  (see
+Section  7.1.2),  condition  the  test  specimens  to  25°C
+(77°F) per 9.4. The system pressure is not to exceed 75
+kPa (11 psig) during conditioning.
+10. 4   Properly  position  the  isolation   valves  in  such  a
+way  that  only  one  specimen  will  be  pressure  tested,
+while the remaining specimens continue to have heated
+fluid circulating through them.
+WARNING:  Take  all  necessary  precautions  when
+positioning  the  isolation  valves,  due  to  the  potential
+harm   which   might   be   caused   by   an   accidental
+exposure to the high temperature fluid.
+10. 4.1   Test  each  specimen  within  two    minutes  after
+isolating it from the hot oil circulation system.
+10. 5   Using  the  high  pressure  system   (see  Section
+7. 1.1), pressurize the specimen until failure occurs.
+10. 5.1  Increase the pressure at a unifo rm and constant
+rate  such  that  failure  occurs  between  60  to  70  seconds
+from initial exposure to the high pressure fluid.
+10. 6   Record  on  test  data  sheet  (see   Appendix  1  for
+sample  test  data  sheet)  the  pressure  and  temperature  at
+which the failure occurred. To identify mode of failure,
+record pressure reading under column:
+“T” — for tube failure.
+“F” — for fitting connection failure.
+10. 7   Repeat  10.1  through  10.5,  subs tituting,  for  the
+fluid  temperature  in  Section  10.2,  the  remaining  six
+temperatures:  75°C  (167°F),  100°C  (212°F),  125°C
+(257°F),  150°C  (302°F),  175°C  (347°F),  and  200°C
+(392°F).
+11  Calculations
+11. 1    Calculate   the   average   pressure    for   each   test
+temperature and record in kPa (psig).
+11. 2   Calculate  the  standard  deviatio n  for  each  test
+temperature and record.
+12  Data Accuracy
+12. 1  Pressure — kPa: ± 2%
+12. 2  Fluid Temperature — ± 1°C (±  2°F)
+13  Test Data Sheet
+The   test   data   sheet   shall   include   the   following
+information:
+13. 1  Date tested.
+13. 2  Operator and test facility.
+13. 3  Description of items tested, inc luding:
+Tubing  —  manufacturer,   O.D.,   wall   thickness,   part
+number, and material type.
+Fitting  —  manufacturer,  type,  size,  part  number,  and
+material type.
+13. 4  The actual temperature for eac h test.
+13. 5   The  failure  pressure  for  each  s ample,  in  the
+appropriate column.
+13. 6   The  average  and  standard  devi ation  for  each
+failure mode of each specimen.
+NOTE:  A  sample  test  data  sheet  is  provided  as  Related
+Information 1.
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+SEMI F10-0698 © SEMI 1993, 19984
+RELATED INFORMATION 1
+SAMPLE TEST DATA SHEET
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  F10  and  is  not  intended  to  modify  or  supercede  the  official
+standard.  It  has  been  derived  from  industry  specifications.  Publication  was  authorized  by  full  letter  ballot  procedures.
+Determination of the suitability of the material is solely the responsibility of the user.
+Test Date:Operator:Test Facility:
+Tube Manufacturer:Fitting Manufacturer:
+Tube O.D.:Fitting Tube:
+Tube Wall Thickness:Fitting Size:
+Tube P/N:Fitting P/N:
+Tube Material:Fitting Material:
+Max. Pressure — kPa T = Tube Failure, F = Fitting Connection Failure
+Actual Temperature
+Sample25°C T25°C F75°C T75°C F100°C T100°C F125°C T125°C F
+1
+2
+3
+Average =
+Standard Deviation =
+Actual Temperature
+Sample150°C T150°C F175°C T175°C F200°C T200°C F
+1
+2
+3
+Average =
+Standard Deviation =
+NOTICE: These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI F11-0998 © SEMI 1993, 1998 1
+SEMI F11-0998
+TEST METHOD TO OBTAIN AN INDICATION OF THE THERMAL
+CHARACTERISTICS OF TUBE FITTING CONNECTIONS MADE OF
+FLUOROCARBON MATERIALS
+1  Purpose
+1. 1      This   method   provides   a   uniform   procedure   to
+determine  the  thermal  characteristics  of  tube  fitting
+connections made of fluorocarbon materials.
+2  Scope
+2. 1  This method can be used to characterize tube fitting
+connections  on  the  basis  of  test  data  developed  under
+the  conditions  described  herein,  but  the  results  are  not
+intended to imply a performance rating.
+2. 2    Tube  defined  in  this  method  has  a  circular  cross
+section and is made of fluorocarbon materials.
+2. 3  Tube  fittings  defined  in  this  method  are  made  of
+fluorocarbon  materials  for  all  parts  in  contact  with  the
+internal fluid.
+2. 3.1    Parts  such  as  a  nut  or  gripper  are  not  limited  to
+being made of a fluorocarbon material.
+2. 4    Only  the  seal  between  the  tube  and  tube  fitting
+being  evaluated  is  within  the  scope  of  this  document.
+All  other,  threaded  seals  are  beyond  the  scope  of  this
+document.
+2. 5    When  using  this  method  for  making  comparisons
+among  various  tube  fittings  and/or  manufacturers,  the
+user  must  be  specific  in  the  selection  of  the  tube  and
+tube fittings to be evaluated.
+2. 6    The  International  System  of  Units  (SI)  is  used  as
+the standard unit of measure in this document. The U.S.
+Customary   units   are   in   parentheses   for   reference
+purposes  only  and  have  been  rounded  to  the  nearest
+whole value.
+3  Summary of Method
+Subject  tube  fitting  connections  made  of  fluorocarbon
+materials  to  extreme  internal  pressure  and  temperature
+conditions.
+3. 1  Test specimens are subjected to a constant internal
+pressure    while    controlling    the    increase    of    fluid
+temperature  in  uniform  increments,  with  a  cool  down
+period between each elevated temperature condition.
+3. 2    After  completion  of  the  entire  temperature  range,
+test  a  new  set  of  fittings  and  tubing  with  an  increased
+pressure.
+4  Significance and Use
+4. 1    In  the  manufacturing  of  semiconductor  products,
+many  types  of  hazardous  chemicals  and  solvents  are
+required. As a result, tubing and various fitting designs
+made  of  fluorocarbon  materials  (which  are  chemically
+resistant  to  these  fluids)  are  used  to  transport  those
+fluids.  It  is  important  to  control  the  testing  process
+when evaluating various fitting designs, so that accurate
+comparisons of the thermal characteristics can be made.
+4. 2      It   is   the   intent   of   this   method   to   provide   a
+procedure  in  which  thermal  transition  testing  of  tube
+fitting connections made of fluorocarbon materials will
+be    performed.    By    using    this    method,    accurate
+comparisons  of  various  tube  fitting  designs  can  be
+achieved.
+4. 3    The  results  obtained  when  using  this  method  are
+applicable only to conditions that specifically duplicate
+the procedures used within this document.
+4. 4  When using this test method, it is assumed that the
+test  specimens  are  truly  representative  of  the  material
+and  manufacturing  process  specified  for  that  product.
+Departure    from    this    assumption    could    introduce
+discrepancies  that  are  greater  than  those  introduced  by
+departure  from  the  details  of  the  procedure  outlined  in
+this method.
+5  Terminology
+5. 1  Acronyms
+5. 1.1  O.D. — Outside Diameter
+5. 1.2  P/N — Part number
+5. 2  Definitions
+5. 2.1  characterize — To describe the quality of.
+5. 2.2    free   end   closure   —   A   metal   tube   fitting
+connection  which  is  securely  fastened  to  the  tube  and
+does not contribute to the restraint of the test specimen.
+5. 2.3  subject — To expose to.
+5. 2.4  thermal  transition  —  A  change  from  a  specific
+elevated  fluid  temperature  down  to  room  temperature
+and   then   to   an   elevated   temperature   higher   than
+previously  tested,  with  the  entire  process  repeated  for
+multiple temperature conditions.
+
+
+
+SEMI F11-0998 © SEMI 1993, 1998 2
+6  Description of Test Equipment
+6. 1    A  hydraulic  system  capable  of  applying  a  constant
+internal  hydraulic  pressure  to  all  test  specimens  while
+allowing   a   uniform   fluid   flow   rate   through   each
+specimen.
+6. 1.1    The  pressure  capability  shall  range  from  100  to
+1200, ± 35 kPa (15 to 174, ± 5 psig).
+6. 1.2  The fluid flow rate shall be adequate to maintain
+the  fluid  temperature  at  each  specimen  to  ±  2.8°C  (±
+5°F) of the specified fluid temperature.
+6. 1.3  The fluid temperature capability shall range from
+25°C to 200°C (77°F to 392°F), within a one hour time
+interval from hot to cool and vice versa.
+6. 2  An enclosure that will allow observation of the test
+specimens  and  is  capable  of  controlling  the  ambient
+temperature to 31° ± 6°C (88° ± 11°F).
+6. 3    An  instrument  to  monitor  pressure  within  ±  1%  of
+full scale.
+6. 4  An instrument to monitor temperature within ± 1°C
+(2°F).
+6. 5  An instrument to monitor time.
+6. 6  Specimen  Support  —  Any  support  is  acceptable  as
+long  as  it  does  not  contribute  to  the  restraint  of  the
+specimen in either the circumferential or axial direction.
+6. 7  See Figure 1 for basic test system.
+
+Figure 1
+Basic Test System
+7  Safety Precautions
+WARNING: This test method will subject test
+specimens to conditions that may exceed the
+normal performance ratings of the products
+under evaluation. Adequate precautions must
+be taken to prevent injury to the person
+conducting the test. The hydraulic plumbing
+and safety enclosure are to be constructed of
+materials which are capable of containing a
+fluid at 200°C (392°F).
+8  Test Specimens and Conditioning
+8. 1  Sample  Size  —  A  minimum  of  three  specimens
+shall be tested at each pressure condition.
+8. 2  Specimen Surface — All surfaces of the specimens
+shall   be   free   of   visible   flaws,   scratches,   or   other
+imperfections,      unless      typically      found      on      a
+representative sample of the product.
+8. 3  Specimen  Conditioning  —  All  specimens  must  be
+conditioned  for  a  minimum  of  one  hour  in  an  air
+environment  of  23°  ±  2.8°C  (73°  ±  5°F)  prior  to  being
+subjected to pressure.
+9  Test Procedure
+9. 1      Install   three   fitting   connections,   assembled   per
+manufacturer’s   specifications,   to   the   test   manifold.
+Allow  for  a  minimum  of  30  cm  (12  in)  of  tube  length
+between the test fitting connection and free end closure.
+(See Figure 1.)
+9. 1.1  The apparatus should include a section of flexible
+line  from  the  free  end  enclosure  to  return  manifold  to
+allow for expansion.
+9. 2      Circulate   25°C   (77°F)   fluid   through   the   test
+samples  with  a  constant  pressure  of  100  kPa  (15  psig)
+for one hour.
+9. 2.1    When  three  failures  occur  at  any  given  pressure
+during  the  initial  room  temperature  condition  (prior  to
+the  specimens  having  been  subjected  to  any  elevated
+temperature conditions), testing is terminated.
+9. 3  Increase  the  fluid  temperature  to  75°C  (167°F)  for
+a total time of two hours from the time the temperature
+was  initially  increased.  The  maximum  time  allowed  to
+achieve  the  elevated  temperature  is  one  hour.  (See
+Figure 2.)
+
+
+
+SEMI F11-0998 © SEMI 1993, 1998 3
+
+Figure 2
+Thermal Transition Chart
+9. 4    Lower  the  fluid  temperature  to  25°C  (77°F)  for  a
+total  of  two  hours.  The  maximum  time  allowed  to
+achieve  the  25°C  (77°F)  temperature  condition  is  one
+hour.
+9. 5    Repeat  Sections  9.3  and  9.4,  substituting,  for  the
+fluid  temperature  in  Section  9.3,  the  remaining  five
+temperatures:  100°C  (212°F),  125°C  (257°F),  150°C
+(302°F), 175°C (347°F), and 200°C (392°F).
+9. 5.1    The  test  samples  should  be  at  25°C  (77°F)  prior
+to stopping the test at the end of a work shift.
+9. 5.1.1    The  two  hours  at  25°C  (77°F)  will  be  equally
+divided  between  the  present  day  cool-down  time  and
+the next day start-up time.
+9. 6    Monitor  each  of  the  three  connections  for  external
+leakage throughout all test parameters.
+9. 7    Any  external  leakage  at  a  tube  connection  will  be
+recorded as a failure on the test data sheet (see Related
+Information 1 for sample test data sheet).
+9. 7.1  Leakage  observed,  once  an  elevated  temperature
+is   reached,   will   be   recorded   as   a   failure   at   that
+temperature.
+9. 7.2  Leakage at or during the cool-down cycle is to be
+recorded  as  a  failure  of  the  previously  tested  elevated
+temperature condition.
+9. 7.3  Leakage observed     while     increasing     the
+temperature to the next condition is to be recorded as a
+failure of the previous elevated temperature condition.
+9. 8    Once  a  connection  shows  leakage  and  its  failure
+pressure   and   temperature   has   been   recorded,   any
+additional leakage is not taken into consideration.
+9. 8.1    If  leakage  is  not  excessive,  the  connection  can
+remain  in  the  system  until  testing  at  that  pressure  has
+been completed.
+9. 8.2  If leakage of a connection becomes excessive, the
+connection  may  be  retightened  or  replaced  in  order  to
+continue   testing   of   the   remaining   specimens.   Take
+precautions not to disturb the remaining test specimens.
+WARNING:  Due  to  the  extreme  danger  of  high
+temperature  fluids,  take  all  necessary  precautions
+when   retightening   or   replacing   a   connection,   to
+prevent accidental exposure to the heated fluid.
+9. 9  After three connection failures are recorded, or the
+200°C  (392°F)  temperature  has  been  achieved,  a  new
+set  of  fittings  is  to  be  installed  for  the  next  pressure
+condition.
+9. 10  Repeat Sections 9.2 through 9.9 for the remaining
+six pressures: 200 kPa (29 psig), 400 kPa (58 psig), 600
+kPa (87 psig), 800 kPa (116 psig), 1000 kPa (145 psig),
+and 1200 kPa (174 psig).
+10  Data Accuracy
+10. 1  Fluid Temperature — ± 1°C (± 2°F)
+10. 2  Pressure — kPa: ± 2%
+11  Test Data Sheet
+The   test   data   sheet   shall   include   the   following
+information:
+11. 1  Date tested.
+11. 2  Operator and test facility.
+11. 3  Description of items tested, including:
+Tubing  —  Manufacturer,  O.D.,  wall  thickness,  part
+number, and material type.
+Fitting  —  Manufacturer,  type,  size,  part  number,  and
+material type.
+11. 4    The  actual  temperatures  and  pressures  at  which
+failures occur.
+NOTE:  A  sample  test  data  sheet  is  provided  as  Related
+Information 1.
+
+
+
+SEMI F11-0998 © SEMI 1993, 1998 4
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.

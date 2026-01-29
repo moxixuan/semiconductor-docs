@@ -1,0 +1,797 @@
+[
+  {
+    "id": "001",
+    "docId": "standards/semi/semi-chapter-001",
+    "title": "E1-0697 - © SEMI 1979, 2003..."
+  },
+  {
+    "id": "002",
+    "docId": "standards/semi/semi-chapter-002",
+    "title": "E6-0303 - © SEMI 1982, 2003..."
+  },
+  {
+    "id": "003",
+    "docId": "standards/semi/semi-chapter-003",
+    "title": "E10-0304 - ..."
+  },
+  {
+    "id": "004",
+    "docId": "standards/semi/semi-chapter-004",
+    "title": "E20-0697 - © SEMI 1991, 2002..."
+  },
+  {
+    "id": "005",
+    "docId": "standards/semi/semi-chapter-005",
+    "title": "E25-92 - © SEMI 1992, 2004..."
+  },
+  {
+    "id": "006",
+    "docId": "standards/semi/semi-chapter-006",
+    "title": "E43-0301 - © SEMI 1995, 20011..."
+  },
+  {
+    "id": "007",
+    "docId": "standards/semi/semi-chapter-007",
+    "title": "E48-1101 - © SEMI 1995, 20011..."
+  },
+  {
+    "id": "008",
+    "docId": "standards/semi/semi-chapter-008",
+    "title": "E51-0200 - © SEMI 1995, 20001..."
+  },
+  {
+    "id": "009",
+    "docId": "standards/semi/semi-chapter-009",
+    "title": "E52-0703 - © SEMI 1995, 2003..."
+  },
+  {
+    "id": "010",
+    "docId": "standards/semi/semi-chapter-010",
+    "title": "E64-0600 - © SEMI 1997, 2005..."
+  },
+  {
+    "id": "011",
+    "docId": "standards/semi/semi-chapter-011",
+    "title": "E72-0600 - © SEMI 1998, 2005..."
+  },
+  {
+    "id": "012",
+    "docId": "standards/semi/semi-chapter-012",
+    "title": "E78-1102 - © SEMI 1998, 2002..."
+  },
+  {
+    "id": "013",
+    "docId": "standards/semi/semi-chapter-013",
+    "title": "E83-1000 - © SEMI 1999, 20003..."
+  },
+  {
+    "id": "014",
+    "docId": "standards/semi/semi-chapter-014",
+    "title": "E85-0705 - © SEMI 1999, 2005..."
+  },
+  {
+    "id": "015",
+    "docId": "standards/semi/semi-chapter-015",
+    "title": "E92-0302 - ..."
+  },
+  {
+    "id": "016",
+    "docId": "standards/semi/semi-chapter-016",
+    "title": "E100-1104 - © SEMI 2000, 2003..."
+  },
+  {
+    "id": "017",
+    "docId": "standards/semi/semi-chapter-017",
+    "title": "E110-1102 - © SEMI 2001, 2002..."
+  },
+  {
+    "id": "018",
+    "docId": "standards/semi/semi-chapter-018",
+    "title": "E114-0302 - ..."
+  },
+  {
+    "id": "019",
+    "docId": "standards/semi/semi-chapter-019",
+    "title": "E117-1104 - © SEMI 2002, 2004..."
+  },
+  {
+    "id": "020",
+    "docId": "standards/semi/semi-chapter-020",
+    "title": "E124-1103 - © SEMI 2003 6..."
+  },
+  {
+    "id": "021",
+    "docId": "standards/semi/semi-chapter-021",
+    "title": "E135-0704 - © SEMI 2004 6..."
+  },
+  {
+    "id": "022",
+    "docId": "standards/semi/semi-chapter-022",
+    "title": "E4-0699 - © SEMI 1980, 199913..."
+  },
+  {
+    "id": "023",
+    "docId": "standards/semi/semi-chapter-023",
+    "title": "E5-1104 - © SEMI 1982, 2004..."
+  },
+  {
+    "id": "024",
+    "docId": "standards/semi/semi-chapter-024",
+    "title": "E5-1104 - © SEMI 1982, 2004..."
+  },
+  {
+    "id": "025",
+    "docId": "standards/semi/semi-chapter-025",
+    "title": "E5-1104 - © SEMI 1982, 2004..."
+  },
+  {
+    "id": "026",
+    "docId": "standards/semi/semi-chapter-026",
+    "title": "E5-1104 - © SEMI 1982, 2004..."
+  },
+  {
+    "id": "027",
+    "docId": "standards/semi/semi-chapter-027",
+    "title": "E5-1104 - © SEMI 1982, 2004..."
+  },
+  {
+    "id": "028",
+    "docId": "standards/semi/semi-chapter-028",
+    "title": "E30-1103 - © SEMI 1992, 2003..."
+  },
+  {
+    "id": "029",
+    "docId": "standards/semi/semi-chapter-029",
+    "title": "E30-1103 - © SEMI 1992, 2003..."
+  },
+  {
+    "id": "030",
+    "docId": "standards/semi/semi-chapter-030",
+    "title": "SEMI Standards - Chapter 030"
+  },
+  {
+    "id": "031",
+    "docId": "standards/semi/semi-chapter-031",
+    "title": "E32-0997 - © SEMI 1994, 19971..."
+  },
+  {
+    "id": "032",
+    "docId": "standards/semi/semi-chapter-032",
+    "title": "E32-0997 - © SEMI 1994, 199746..."
+  },
+  {
+    "id": "033",
+    "docId": "standards/semi/semi-chapter-033",
+    "title": "E38-1296 - © SEMI 1995, 19961..."
+  },
+  {
+    "id": "034",
+    "docId": "standards/semi/semi-chapter-034",
+    "title": "E38-1296 - © SEMI 1995, 199640..."
+  },
+  {
+    "id": "035",
+    "docId": "standards/semi/semi-chapter-035",
+    "title": "E40-0705 - © SEMI 1995, 2005..."
+  },
+  {
+    "id": "036",
+    "docId": "standards/semi/semi-chapter-036",
+    "title": "E42-0704 - © SEMI 1995, 2004..."
+  },
+  {
+    "id": "037",
+    "docId": "standards/semi/semi-chapter-037",
+    "title": "E42-0704 - © SEMI 1995, 2004..."
+  },
+  {
+    "id": "038",
+    "docId": "standards/semi/semi-chapter-038",
+    "title": "E42-0704 - © SEMI 1995, 2004..."
+  },
+  {
+    "id": "039",
+    "docId": "standards/semi/semi-chapter-039",
+    "title": "SEMI Standards - Chapter 039"
+  },
+  {
+    "id": "040",
+    "docId": "standards/semi/semi-chapter-040",
+    "title": "SEMI Standards - Chapter 040"
+  },
+  {
+    "id": "041",
+    "docId": "standards/semi/semi-chapter-041",
+    "title": "SEMI Standards - Chapter 041"
+  },
+  {
+    "id": "042",
+    "docId": "standards/semi/semi-chapter-042",
+    "title": "SEMI Standards - Chapter 042"
+  },
+  {
+    "id": "043",
+    "docId": "standards/semi/semi-chapter-043",
+    "title": "SEMI Standards - Chapter 043"
+  },
+  {
+    "id": "044",
+    "docId": "standards/semi/semi-chapter-044",
+    "title": "SEMI Standards - Chapter 044"
+  },
+  {
+    "id": "045",
+    "docId": "standards/semi/semi-chapter-045",
+    "title": "E58-0703 - © SEMI 1997, 2003..."
+  },
+  {
+    "id": "046",
+    "docId": "standards/semi/semi-chapter-046",
+    "title": "E58-0703 - © SEMI 1997, 2003..."
+  },
+  {
+    "id": "047",
+    "docId": "standards/semi/semi-chapter-047",
+    "title": "E81-0600 - © 1999, 200038..."
+  },
+  {
+    "id": "048",
+    "docId": "standards/semi/semi-chapter-048",
+    "title": "E82-0705 - © SEMI 1999, 2005..."
+  },
+  {
+    "id": "049",
+    "docId": "standards/semi/semi-chapter-049",
+    "title": "E86-0200 - © SEMI 1999, 20001..."
+  },
+  {
+    "id": "050",
+    "docId": "standards/semi/semi-chapter-050",
+    "title": "E87-0705 - © SEMI 1999, 2005..."
+  },
+  {
+    "id": "051",
+    "docId": "standards/semi/semi-chapter-051",
+    "title": "E88-1104 - ..."
+  },
+  {
+    "id": "052",
+    "docId": "standards/semi/semi-chapter-052",
+    "title": "E88-1104 - ..."
+  },
+  {
+    "id": "053",
+    "docId": "standards/semi/semi-chapter-053",
+    "title": "E91-0600 - © SEMI 1999, 20006..."
+  },
+  {
+    "id": "054",
+    "docId": "standards/semi/semi-chapter-054",
+    "title": "E95-1101 - © SEMI 2000, 20016..."
+  },
+  {
+    "id": "055",
+    "docId": "standards/semi/semi-chapter-055",
+    "title": "E97-0200A - © SEMI 200021..."
+  },
+  {
+    "id": "056",
+    "docId": "standards/semi/semi-chapter-056",
+    "title": "E98-1102 - © SEMI 2000, 2002..."
+  },
+  {
+    "id": "057",
+    "docId": "standards/semi/semi-chapter-057",
+    "title": "E102-0600 - © SEMI 20009..."
+  },
+  {
+    "id": "058",
+    "docId": "standards/semi/semi-chapter-058",
+    "title": "E105-0701 - © SEMI 2000, 20012..."
+  },
+  {
+    "id": "059",
+    "docId": "standards/semi/semi-chapter-059",
+    "title": "E109-0305 - © SEMI 2001, 2005..."
+  },
+  {
+    "id": "060",
+    "docId": "standards/semi/semi-chapter-060",
+    "title": "E109-0305 - © SEMI 2001, 2005..."
+  },
+  {
+    "id": "061",
+    "docId": "standards/semi/semi-chapter-061",
+    "title": "E121-0305 - © SEMI 2003, 2005..."
+  },
+  {
+    "id": "062",
+    "docId": "standards/semi/semi-chapter-062",
+    "title": "E123-0703 - © SEMI 2003 1..."
+  },
+  {
+    "id": "063",
+    "docId": "standards/semi/semi-chapter-063",
+    "title": "E125-0305 - © SEMI 2003, 2005..."
+  },
+  {
+    "id": "064",
+    "docId": "standards/semi/semi-chapter-064",
+    "title": "E126-0305 - © SEMI 2003, 2005..."
+  },
+  {
+    "id": "065",
+    "docId": "standards/semi/semi-chapter-065",
+    "title": "E127-0705 - © SEMI 2003, 2005..."
+  },
+  {
+    "id": "066",
+    "docId": "standards/semi/semi-chapter-066",
+    "title": "E127-0705 - © SEMI 2003, 2005..."
+  },
+  {
+    "id": "067",
+    "docId": "standards/semi/semi-chapter-067",
+    "title": "E130-1104 - © SEMI 2003, 2004..."
+  },
+  {
+    "id": "068",
+    "docId": "standards/semi/semi-chapter-068",
+    "title": "E132-0305 - © SEMI 2004, 2005..."
+  },
+  {
+    "id": "069",
+    "docId": "standards/semi/semi-chapter-069",
+    "title": "E133-0705 - © SEMI 2004, 2005..."
+  },
+  {
+    "id": "070",
+    "docId": "standards/semi/semi-chapter-070",
+    "title": "E134-0305 - © SEMI 2004, 2005..."
+  },
+  {
+    "id": "071",
+    "docId": "standards/semi/semi-chapter-071",
+    "title": "E134-0305 - © SEMI 2004, 2005..."
+  },
+  {
+    "id": "072",
+    "docId": "standards/semi/semi-chapter-072",
+    "title": "E138-0305 - © SEMI 2005 1..."
+  },
+  {
+    "id": "073",
+    "docId": "standards/semi/semi-chapter-073",
+    "title": "E139-0705 - © SEMI 2005 25..."
+  },
+  {
+    "id": "074",
+    "docId": "standards/semi/semi-chapter-074",
+    "title": "E142-0705 - © SEMI 2005 13..."
+  },
+  {
+    "id": "075",
+    "docId": "standards/semi/semi-chapter-075",
+    "title": "F1-96 - © SEMI 1990, 19961..."
+  },
+  {
+    "id": "076",
+    "docId": "standards/semi/semi-chapter-076",
+    "title": "F3-94 - © SEMI 1990, 2003..."
+  },
+  {
+    "id": "077",
+    "docId": "standards/semi/semi-chapter-077",
+    "title": "F11-0998 - © SEMI 1993, 1998..."
+  },
+  {
+    "id": "078",
+    "docId": "standards/semi/semi-chapter-078",
+    "title": "F22-1102 - © SEMI 1997, 2002..."
+  },
+  {
+    "id": "079",
+    "docId": "standards/semi/semi-chapter-079",
+    "title": "F29-0997 - © SEMI 1997, 1103..."
+  },
+  {
+    "id": "080",
+    "docId": "standards/semi/semi-chapter-080",
+    "title": "F38-1104 - © SEMI 1999, 2004..."
+  },
+  {
+    "id": "081",
+    "docId": "standards/semi/semi-chapter-081",
+    "title": "F47-0200 - © SEMI 1999, 20002..."
+  },
+  {
+    "id": "082",
+    "docId": "standards/semi/semi-chapter-082",
+    "title": "F53-0600 - © SEMI 20008..."
+  },
+  {
+    "id": "083",
+    "docId": "standards/semi/semi-chapter-083",
+    "title": "F59-0302 - © SEMI 2000, 2002..."
+  },
+  {
+    "id": "084",
+    "docId": "standards/semi/semi-chapter-084",
+    "title": "F64-0701 - © SEMI 200113..."
+  },
+  {
+    "id": "085",
+    "docId": "standards/semi/semi-chapter-085",
+    "title": "F73-1102 - © SEMI 2002 3..."
+  },
+  {
+    "id": "086",
+    "docId": "standards/semi/semi-chapter-086",
+    "title": "F78-0304 - © SEMI 2003, 2004..."
+  },
+  {
+    "id": "087",
+    "docId": "standards/semi/semi-chapter-087",
+    "title": "F82-0304 - © SEMI 2004 5..."
+  },
+  {
+    "id": "088",
+    "docId": "standards/semi/semi-chapter-088",
+    "title": "F90-0304 - ..."
+  },
+  {
+    "id": "089",
+    "docId": "standards/semi/semi-chapter-089",
+    "title": "F97-0305 - © SEMI 2005 11..."
+  },
+  {
+    "id": "090",
+    "docId": "standards/semi/semi-chapter-090",
+    "title": "D12-95 - © SEMI 1995, 2003..."
+  },
+  {
+    "id": "091",
+    "docId": "standards/semi/semi-chapter-091",
+    "title": "D21-1000 - © SEMI 1992, 20002..."
+  },
+  {
+    "id": "092",
+    "docId": "standards/semi/semi-chapter-092",
+    "title": "D26-1000 - © SEMI 200010..."
+  },
+  {
+    "id": "093",
+    "docId": "standards/semi/semi-chapter-093",
+    "title": "D36-1103 - © SEMI 2003 1..."
+  },
+  {
+    "id": "094",
+    "docId": "standards/semi/semi-chapter-094",
+    "title": "SEMI Standards - Chapter 094"
+  },
+  {
+    "id": "095",
+    "docId": "standards/semi/semi-chapter-095",
+    "title": "SEMI Standards - Chapter 095"
+  },
+  {
+    "id": "096",
+    "docId": "standards/semi/semi-chapter-096",
+    "title": "C14-95 - © SEMI 1995, 2002..."
+  },
+  {
+    "id": "097",
+    "docId": "standards/semi/semi-chapter-097",
+    "title": "C58-0305 - © SEMI 2005 2..."
+  },
+  {
+    "id": "098",
+    "docId": "standards/semi/semi-chapter-098",
+    "title": "M1-0305 - © SEMI 1978, 2005..."
+  },
+  {
+    "id": "099",
+    "docId": "standards/semi/semi-chapter-099",
+    "title": "M6-1000 - © SEMI 1981, 20006..."
+  },
+  {
+    "id": "100",
+    "docId": "standards/semi/semi-chapter-100",
+    "title": "M11-0704 - © SEMI 1988, 2004..."
+  },
+  {
+    "id": "101",
+    "docId": "standards/semi/semi-chapter-101",
+    "title": "M13-1103 - © SEMI 1988, 2003..."
+  },
+  {
+    "id": "102",
+    "docId": "standards/semi/semi-chapter-102",
+    "title": "M19-91 - © SEMI 1991, 19963..."
+  },
+  {
+    "id": "103",
+    "docId": "standards/semi/semi-chapter-103",
+    "title": "M24-1103 - © SEMI 1994, 2003..."
+  },
+  {
+    "id": "104",
+    "docId": "standards/semi/semi-chapter-104",
+    "title": "M31-0705 - © SEMI 1998, 2005..."
+  },
+  {
+    "id": "105",
+    "docId": "standards/semi/semi-chapter-105",
+    "title": "M37-0699 - © SEMI 19992..."
+  },
+  {
+    "id": "106",
+    "docId": "standards/semi/semi-chapter-106",
+    "title": "M41-1101 - © SEMI 2000, 20018..."
+  },
+  {
+    "id": "107",
+    "docId": "standards/semi/semi-chapter-107",
+    "title": "M48-1101 - © SEMI 2001 11..."
+  },
+  {
+    "id": "108",
+    "docId": "standards/semi/semi-chapter-108",
+    "title": "M53-1103 - © SEMI 2003 2..."
+  },
+  {
+    "id": "109",
+    "docId": "standards/semi/semi-chapter-109",
+    "title": "M57-0705 - © SEMI 2004, 2005..."
+  },
+  {
+    "id": "110",
+    "docId": "standards/semi/semi-chapter-110",
+    "title": "M60-0305 - © SEMI 2005 19..."
+  },
+  {
+    "id": "111",
+    "docId": "standards/semi/semi-chapter-111",
+    "title": "P9-0298 - © SEMI 1988, 19981..."
+  },
+  {
+    "id": "112",
+    "docId": "standards/semi/semi-chapter-112",
+    "title": "P10-0705 - © SEMI 1990, 2005..."
+  },
+  {
+    "id": "113",
+    "docId": "standards/semi/semi-chapter-113",
+    "title": "P10-0705 - © SEMI 1990, 2005..."
+  },
+  {
+    "id": "114",
+    "docId": "standards/semi/semi-chapter-114",
+    "title": "P10-0705 - © SEMI 1990, 2005..."
+  },
+  {
+    "id": "115",
+    "docId": "standards/semi/semi-chapter-115",
+    "title": "P10-0705 - © SEMI 1990, 2005..."
+  },
+  {
+    "id": "116",
+    "docId": "standards/semi/semi-chapter-116",
+    "title": "P19-92 - © SEMI 1992, 19962..."
+  },
+  {
+    "id": "117",
+    "docId": "standards/semi/semi-chapter-117",
+    "title": "P23-0200 - © SEMI 1993, 200024..."
+  },
+  {
+    "id": "118",
+    "docId": "standards/semi/semi-chapter-118",
+    "title": "P33-0998 - © SEMI 19985..."
+  },
+  {
+    "id": "119",
+    "docId": "standards/semi/semi-chapter-119",
+    "title": "P39-0304 - ..."
+  },
+  {
+    "id": "120",
+    "docId": "standards/semi/semi-chapter-120",
+    "title": "P41-0304 - ..."
+  },
+  {
+    "id": "121",
+    "docId": "standards/semi/semi-chapter-121",
+    "title": "P43-0304 - © SEMI 2004 10..."
+  },
+  {
+    "id": "122",
+    "docId": "standards/semi/semi-chapter-122",
+    "title": "G5-87 - © SEMI 1980, 19963..."
+  },
+  {
+    "id": "123",
+    "docId": "standards/semi/semi-chapter-123",
+    "title": "G20-96 - © SEMI 1980, 19961..."
+  },
+  {
+    "id": "124",
+    "docId": "standards/semi/semi-chapter-124",
+    "title": "G31-0997 - © SEMI 1986, 19975..."
+  },
+  {
+    "id": "125",
+    "docId": "standards/semi/semi-chapter-125",
+    "title": "G42-0996 - © SEMI 1986, 2004..."
+  },
+  {
+    "id": "126",
+    "docId": "standards/semi/semi-chapter-126",
+    "title": "G48-89 - © SEMI 1989, 1996..."
+  },
+  {
+    "id": "127",
+    "docId": "standards/semi/semi-chapter-127",
+    "title": "G61-94 - © SEMI 19941..."
+  },
+  {
+    "id": "128",
+    "docId": "standards/semi/semi-chapter-128",
+    "title": "G69-0996 - © SEMI 1996, 2004..."
+  },
+  {
+    "id": "129",
+    "docId": "standards/semi/semi-chapter-129",
+    "title": "G73-0997 - © SEMI 1997, 2004..."
+  },
+  {
+    "id": "130",
+    "docId": "standards/semi/semi-chapter-130",
+    "title": "G76-0299 - © SEMI 1999 7..."
+  },
+  {
+    "id": "131",
+    "docId": "standards/semi/semi-chapter-131",
+    "title": "G80-0200 - © SEMI 20009..."
+  },
+  {
+    "id": "132",
+    "docId": "standards/semi/semi-chapter-132",
+    "title": "G84-0303 - © SEMI 2001, 2003..."
+  },
+  {
+    "id": "133",
+    "docId": "standards/semi/semi-chapter-133",
+    "title": "C1-0705 - © SEMI 1978, 2005..."
+  },
+  {
+    "id": "134",
+    "docId": "standards/semi/semi-chapter-134",
+    "title": "C27-0301 - © SEMI 1978, 2001HYDROCHLORIC..."
+  },
+  {
+    "id": "135",
+    "docId": "standards/semi/semi-chapter-135",
+    "title": "C37-0699 - © SEMI 1981, 19991..."
+  },
+  {
+    "id": "136",
+    "docId": "standards/semi/semi-chapter-136",
+    "title": "C53-0704 - © SEMI 2001, 2004..."
+  },
+  {
+    "id": "137",
+    "docId": "standards/semi/semi-chapter-137",
+    "title": "S2-0703a - ..."
+  },
+  {
+    "id": "138",
+    "docId": "standards/semi/semi-chapter-138",
+    "title": "S2-0703a - ..."
+  },
+  {
+    "id": "139",
+    "docId": "standards/semi/semi-chapter-139",
+    "title": "S7-96 - © SEMI 1994, 19961..."
+  },
+  {
+    "id": "140",
+    "docId": "standards/semi/semi-chapter-140",
+    "title": "S8-0705 - © SEMI 1995, 2005..."
+  },
+  {
+    "id": "141",
+    "docId": "standards/semi/semi-chapter-141",
+    "title": "S12-0298 - © SEMI 199811..."
+  },
+  {
+    "id": "142",
+    "docId": "standards/semi/semi-chapter-142",
+    "title": "S16-0600 - © SEMI 20003..."
+  },
+  {
+    "id": "143",
+    "docId": "standards/semi/semi-chapter-143",
+    "title": "S21-1103 - © SEMI 2003 1..."
+  },
+  {
+    "id": "144",
+    "docId": "standards/semi/semi-chapter-144",
+    "title": "S22-1103a - © SEMI 2003, 2005..."
+  },
+  {
+    "id": "145",
+    "docId": "standards/semi/semi-chapter-145",
+    "title": "SEMI Standards - Chapter 145"
+  },
+  {
+    "id": "146",
+    "docId": "standards/semi/semi-chapter-146",
+    "title": "SEMI Standards - Chapter 146"
+  },
+  {
+    "id": "147",
+    "docId": "standards/semi/semi-chapter-147",
+    "title": "SEMI Standards - Chapter 147"
+  },
+  {
+    "id": "148",
+    "docId": "standards/semi/semi-chapter-148",
+    "title": "SEMI Standards - Chapter 148"
+  },
+  {
+    "id": "149",
+    "docId": "standards/semi/semi-chapter-149",
+    "title": "SEMI Standards - Chapter 149"
+  },
+  {
+    "id": "150",
+    "docId": "standards/semi/semi-chapter-150",
+    "title": "SEMI Standards - Chapter 150"
+  },
+  {
+    "id": "151",
+    "docId": "standards/semi/semi-chapter-151",
+    "title": "SEMI Standards - Chapter 151"
+  },
+  {
+    "id": "152",
+    "docId": "standards/semi/semi-chapter-152",
+    "title": "T1-95 - © SEMI 1993, 2003..."
+  },
+  {
+    "id": "153",
+    "docId": "standards/semi/semi-chapter-153",
+    "title": "T1-95 - © SEMI 1993, 2003..."
+  },
+  {
+    "id": "154",
+    "docId": "standards/semi/semi-chapter-154",
+    "title": "T6-0697 - © SEMI 1997, 2004..."
+  },
+  {
+    "id": "155",
+    "docId": "standards/semi/semi-chapter-155",
+    "title": "T9-0200 - © SEMI 1998, 2004..."
+  },
+  {
+    "id": "156",
+    "docId": "standards/semi/semi-chapter-156",
+    "title": "T12-0305 - © SEMI 2004, 2005..."
+  },
+  {
+    "id": "157",
+    "docId": "standards/semi/semi-chapter-157",
+    "title": "T13-1104 - © SEMI 2004 1..."
+  },
+  {
+    "id": "158",
+    "docId": "standards/semi/semi-chapter-158",
+    "title": "T13-1104 - © SEMI 2004 11..."
+  },
+  {
+    "id": "159",
+    "docId": "standards/semi/semi-chapter-159",
+    "title": "T14-1104 - © SEMI 2004 1..."
+  }
+]

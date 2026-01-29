@@ -1,0 +1,3731 @@
+---
+title: "C37-0699 - © SEMI 1981, 19991..."
+description: "SEMI标准文档"
+sidebar_label: "C37-0699 - © SEMI 1981, 19991..."
+sidebar_position: 1350
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-135.pdf'
+  chapter: 135
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/135.pdf"
+  pdfSize="0.49MB"
+  title="C37-0699 - © SEMI 1981, 19991..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+PHOSPHORIC ETCHANTSSEMI C37-0699 © SEMI 1981, 19991
+SEMI C37-0699
+SPECIFICATION FOR PHOSPHORIC ETCHANTS
+This  specification  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to be published June 1999.  This document replaces SEMI C2.3 in its entirety.  Originally published in 1981.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements   for   phosphoric   etchants   used   in   the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides  guidelines  for  grades  of  phosphoric  etchants
+for which a need has been identified. In the case of the
+guidelines,   the   test   methods   may   not   have   been
+statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of
+phosphoric etchants used in the semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1 — Specifications for Reagents
+SEMI C2 — Specifications for Etchants
+5  Terminology
+5. 1  phosphoric  etchant  —  any  com bination  of  phos-
+phoric, nitric, and acetic acids with the relative compo-
+sition expressed in terms of 85% phosphoric acid, 70%
+nitric  acid,  and  glacial  acetic  acid,  respectively.  In  the
+expression, all the relative volumes shall be reduced to
+a  ratio  of  the  smallest  whole  numbers.  For  example,  a
+16:1:2 phosphoric etchant would imply a mixture of 16
+volumes  of  85%  phosphoric  acid,  1  volume  of  70%
+nitric  acid,  and  2  volumes  of  glacial  acetic  acid.  If  a
+component  is  absent,  its  relative  volume  shall  be  taken
+as  zero.  For  example,  a  16:1:0  phosphoric  etchant
+implies that no acetic acid is present.
+6  Composition
+6. 1   The  content  of  each  of  the  com ponents  of  a
+phosphoric  etchant  shall  be  expressed  on  a  weight/
+weight  basis  of  the  100  percent  acid  in  the  total  mix-
+ture. For the volume-to-weight conversion, the densities
+shall be taken as 1.695, 1.415, and 1.050 g/mL for 85%
+phosphoric  acid,  70%  nitric  acid,  and  glacial  acetic
+acid, respectively.
+7  Tolerances
+7. 1  The tolerances allowed for the  absolute percentage
+of each of the components of a phosphoric etchant shall
+be:
+Phosphoric Acid:± 1.0% (±  0.20 meq/g)
+Nitric Acid:±  0.5% (±  0.08 meq/g)
+Acetic Acid:±  0.5% (±  0.08 meq/g)
+8  Requirements
+8. 1    The   requirements   for   phospho ric   etchants   for
+Grade 1 are listed in Table 1.
+9  Grade 1 Procedures
+9. 1   Total  Acidity  —  Weigh  accura tely  2.5  to  3.0  g  of
+sample  in  a  tared  weighing  bottle.  Transfer  with  water
+to a 25 mL beaker and dilute to approximately 100 mL.
+Add 10 drops of thymolphthalein indicator solution and
+titrate with standardized 1 N sodium hydroxide solution
+to the blue endpoint. Calculate the total acidity (A):
+Total Acidity
+meq
+g
+()=
+mL
+×
+N
+of NaOH
+Weight of sample  g
+()
+=
+A
+9. 2  Phosphoric Acid — Weigh acc urately 2.5 to 3.0 g
+of  sample  in  a  tared  weighing  bottle.  Quantitatively
+transfer  the  sample  with  40  to  60  mL  of  water  into  a
+platinum   or   polyfluorocarbon   dish.   Evaporate   the
+solution on a steam bath in a hood (1 to 2 hours). Rinse
+down  the  inner  sides  of  the  dish  with  10  to  15  mL  of
+water and re-evaporate for 1 hour. Cool and dilute with
+50  mL  of  water.  Add  10  drops  of  thymolphthalein
+indicator  solution  and  titrate  with  standardized  1  N
+sodium hydroxide solution to the blue endpoint.
+% Phosphoric Acid
+=
+mL
+×
+N
+of NaOH
+×
+4. 900
+Weight of sample  g
+()
+9. 3    Nitric   Acid   —   Weigh   accurate ly   a   sample
+containing 0.9 to 1.1 g of nitric acid in a tared 100 mL
+volumetric  flask.  Dilute  to  volume  with  water  and  mix
+thoroughly.  Following  the  manufacturer's  directions,
+ready a spectrophotometer and set the wavelengh to 302
+nm. Transfer the sample solution to a 1 cm fused silica
+cell  and  measure  the  absorbance  versus  water.  Read
+from   a   previously   established   calibration   curve   the
+grams  of  nitric  acid  present  in  the  sample  solulion  (see
+
+SEMI C37-0699 © SEMI 1981, 1999PHOSPHORIC ETCHANTS2
+SEMI C2, Section 3.2, Determination of Nitric Acid by
+Ultraviolet Absorption Spectrophotometry).
+% Nitric Acid
+=
+grams of HNO
+3
+calibration curve
+×
+100
+Weight of sample  g
+()
+9. 4   Acetic  Acid  —  The  acetic  acid   content  is  calcu-
+lated  by  deducting  the  acidity  found  for  each  of  the
+other components from the value for the total acidity.
+% Acetic Acid
+=
+A
+−
+%H
+3
+PO
+4
+4. 900
+−
+%HNO
+3
+6. 302
+[]
+×
+6. 005
+9. 5   Heavy  Metals  (as  Pb)  —  Dilut e  6  g  of  sample  to
+30  mL  with  water.  For  the  standard,  add  0.02  mg  of
+lead  ion  (Pb)  to  a  5  mL  aliquot  of  this  solution  and
+dilute  to  25  mL  with  water.  For  the  sample,  use  the
+remaining  25  mL  portion.  Adjust  the  pH  to  between  3
+and 4 (using a pH meter) with 1 N acetic acid or dilute
+ammonium hydroxide (10% NH
+3
+), dilute to 40 mL with
+water, and mix. Add 10 mL of freshly prepared hydro-
+gen  sulfide  water  to  each  and  mix.  Any  color  in  the
+solution  of  the  sample  should  not  exceed  that  in  the
+standard.
+9. 6  Antimony — Dilute 20 mL (20  g) of stock solution
+to volume with water in a 100 mL volumetric flask and
+mix.  For  the  standard,  dilute  0.4  mg  of  antimony  ion
+(Sb)   to   volume   with   water   in   a   second   100   mL
+volumetric flask and mix. Following the manufacturer's
+directions,  ready  an  atomic  absorption  spectrometer,
+use   an   air-acetylene   flame,   position   the   antimony
+hollow cathode lamp, and set the monochromator to the
+antimony    resonance    line    of    217.6    nm.    Employ
+deuterium  lamp  correction.  Aspirate  water  and  set  to
+zero   absorbance.   Then   aspirate,   in   succession,   the
+standard,  water,  and  sample.  The  absorbance  of  the
+sample  should  not  exceed  that  of  the  standard.  (see
+SEMI C1, Section 3.6, Guidelines for Determination of
+Trace Elements by Atomic Absorption Spectrometry.)
+9. 6.1   Stock  Solution  for  Sections  9.6   through  9.9 —
+To 200 g of sample in a 400 mL beaker, add 100 mL of
+water. Heat to boiling on a hot plate in a hood, and boil
+off  approximately  100  mL.  Cool  slightly,  add  100  mL
+of  water,  and  again  boil  off  about  100  mL.  Cool,
+transfer  to  a  200  mL  volumetric  flask,  and  dilute  to
+volume with water. One mL contains 1 gram of sample.
+9. 7  Arsenic — To 10 mL (10 g) of  stock solution in a
+125  mL  arsine  generator  flask,  add  30  mL  of  water  10
+mL  of  ferric  ammonium  sulfate  reagent  solution,  and
+then   2%   potassium   permanganate   reagent   solution
+dropwise  to  a  permanent  pink  color.  Add  1.5  g  of
+sodium  chloride  and  mix  to  dissolve.  Heat  nearly  to
+boiling,  remove  from  heat,  and  add  1  mL  of  stannous
+chloride  reagent  solution.  Dilute  to  60  mL  and  cool  to
+25°C  ±  3°C.  For  the  standard,  add  20  mL  of  dilute
+sulfuric acid (1 + 4) to 0.005 mg of arsenic ion (As) in a
+second   arsine   generator   flask   and   treat   as   above.
+Assemble  the  arsenic  test  apparatus  (see  SEMI  C1,
+Section   3.4.2).   Pack   each   scrubber   tube   with   two
+pledgets    of    lead    acetate-impregnated    glass    wool
+previously  moistened  with  lead  acetate  solution,  freed
+from  excess  solution  by  squeezing,  and  dried  in  a
+vacuum. Allow a small space between the two pledgets.
+Place  3.0  mL  of  silver  diethyldithiocarbamate  solution
+in  each  absorber  tube  and  10  g  of  zinc  (granular)  in
+each generator flask. Immediately connect the scrubber
+absorber   assemblies   to   the   sample   and   standard
+generator   flasks.   Place   the   flasks   in   a   water   bath
+maintained    at    25°C    ±    3°C.    Swirl    each    flask
+occasionally.  After  30  minutes  disconnect  the  tubing
+from   the   generator   flasks   and   transfer   the   silver
+diethyldithiocarbamate   solutions   to   separate   1   cm
+photometer  cells.  Measure  both  sample  and  standard
+absorbances  at  540  nm  using  the  silver  diethyldithio-
+carbamate  solution  as  a  blank.  The  absorbance  of  the
+sample should not exceed that of the standard.
+9. 8  Manganese — Add 25 mL (25  g) of stock solution
+to  100  mL  of  dilute  sulfuric  acid  (1  +  9).  For  the
+standard, add 5 mL (5 g) of stock solution and 0.01 mg
+of  manganese  ion  (Mn)  to  100  mL  of  dilute  sulfuric
+acid (1 + 9). To each solution, add 20 mL of nitric acid,
+heat  to  boiling,  and  continue  boiling  gently  for  5  min-
+utes.  Cool  slightly,  add  0.25  g  of  potassium  periodate,
+and  again  boil  for  5  minutes.  Any  pink  color  in  the
+sample solution should not exceed that in the standard.
+9. 9  Copper, Iron, and Nickel — D ilute 1 mL (1 g) of
+stock solution with 50 mL of water in a 100 mL beaker.
+Add 0.5 mL of ammonium hydroxide and cool. For the
+three-element  standard,  add  0.002  mg  of  copper  ion
+(Cu), 0.01 mg of iron ion (Fe), and 0.003 mg of nickel
+ion (Ni) to 50 mL of water in a second 100 mL beaker.
+9. 9.1  Treat each solution as follows:  Adjust the pH to
+2. 5  (using  a  pH  meter)  with  dilute  ammonium  hy-
+droxide (10% NH
+3
+) or 10% hydrochloric acid. Transfer
+to  a  polyfluorocarbon-stoppered  250  mL  separatory
+funnel. Rinse the beaker with water adjusted to pH 2.5
+and  add  the  rinsings  to  the  funnel  (the  final  volume
+should  not  exceed  100  mL).  Add  10  mL  of  freshly
+prepared  1%  ammonium  1-pyrrolidinecarbodithiolate
+solution  and  mix  thoroughly.  Add  10.0  mL  of  water-
+saturated  methyl  isobutyl  ketone  (that  is,  4-methyl-2-
+pentanone),   stopper,   and   shake   vigorously   for   3
+minutes. Allow the layers to separate. Drain and discard
+the lower, aqueous layer; save the upper, organic layer.
+9. 9.2   Following  the  manufacturer's  d irections,  ready
+the atomic absorption spectrometer for measurements in
+the  absorbance  mode  and  with  the  air-acetylene  flame
+adjusted   for   aspiration   of   an   organic   solvent.   For
+copper,  align  the  copper  hollow  cathode  lamp,  set  the
+wavelength to 324.7 nm, and zero the absorbance while
+
+PHOSPHORIC ETCHANTSSEMI C37-0699 © SEMI 1981, 19993
+aspirating  methyl  isobutyl  ketone.  Then  aspirate  the
+extract of the standard solution, solvent, and the extract
+of   the   sample   solution.   Record   the   absorbances.
+Proceed  similarly  for  iron  and  nickel  with  measure-
+ments at 248.3 and 232.0 nm, respectively. For each of
+the three elements the absorbance of the sample extract
+should  not  exceed  that  of  the  standard  extract  (see
+SEMI C1, Section 3.6, Guidelines for Determination of
+Trace Elements by Atomic Absorption Spectrometry).
+9. 10  Sodium, Lithium, Potassium, C alcium, Strontium,
+and Magnesium
+9. 10.1  Sample   Solutions   for   the   Deter mination   of
+Sodium,  Lithium,  Potassium,  Calcium,  Strontium,  and
+Magnesium   by   Atomic   Absorption   Spectrometry —
+Thoroughly  clean  four  100  mL  volumetric  flasks  and
+label  them  1,  2,  3,  4,  respectively.  Transfer  20  mL  (20
+g)  samples  of  stock  solution  into  the  four  volumetric
+flasks. Add the quantities of cations as listed as follows:
+CATIONFLASK   FLASK   FLASK   FLASK
+1234
+Milligrams of Cation
+Sodium Ion (Na)0.000.150.300.60
+Lithium Ion (Li)0.000.010.020.04
+Potassium Ion (K)0.000.100.200.40
+Calcium Ion (Ca)0.000.200.400.80
+Strontium Ion (Sr)0.000.050.100.20
+Magnesium Ion (Mg)0.000.050.100.20
+9. 10.2  General Instructions — Dilute  each solution to
+volume  with  water  and  mix  thoroughly.  Following  the
+manufacturer's  directions,  ready  the  atomic  absorption
+spectrometer for measurements in the absorbance mode
+(see     SEMI     C1,     Section     3.6,     Guidelines     for
+Determination     of     Trace     Elements     by     Atomic
+Absorption   Spectrometry).   Determine   each   of   the
+elements,  using  the  conditions  specified  in  Sections
+9. 10.3 through 9.10.8.
+9. 10.2.1   For  each  element  plot  on  linea r  coordinate
+paper  the  absorbance  versus  the  added  quantity  in
+milligrams  of  the  cation  added.  Draw  a  straight  line
+through   the   four   points   and   extrapolate   to   zero
+absorbance.  This  intercept  corresponds  to  the  absolute
+amount, in milligrams, of the element being determined
+in Solution 1.
+ppm element
+=
+mg foun
+d
+×
+1000
+Weight of Sample   g
+()
+9. 10.3  Sodium  — Using  an  air-acetyl ene  flame  and  a
+sodium  hollow  cathode  lamp,  set  the  wavelength  to
+589. 0 nm and zero the absorbance with water. Aspirate,
+and  record  the  absorbances  of  each  of  the  solutions,
+zeroing  the  absorbance  with  water  between  aspiration
+of the solutions. Calculate the amount of the sodium ion
+(Na) in Solution 1; this should not exceed 0.30 mg.
+9. 10.4  Potassium — Using an air-ace tylene flame and
+a potassium hollow cathode lamp, set the wavelength to
+766. 5   nm   and   zero   the   absorbance   using   water.
+Aspirate, and record the absorbances of each of the four
+solutions,  zeroing  the  absorbance  with  water  between
+aspiration  of  the  solutions.  Calculate  the  amount  of
+potassium ion (K) in Solution 1; this should not exceed
+0. 20 mg.
+9. 10.5   Lithium  —  Using  an  air-acetyl ene  flame  and  a
+lithium  hollow  cathod  lamp,  set  the  wavelength  to
+670. 8 and zero the absorbance with water. Aspirate and
+record  the  absorbances  of  each  of  the  four  solutions,
+zeroing  the  absorbance  with  water  between  aspiration
+of  the  solutions.  Calculate  the  amount  of  lithium  ion
+(Li)  in  sample  Solution  1;  this  should  not  exceed  0.02
+mg.
+9. 10.6   Strontium  —  Using  a  nitrous  o xide-acetylene
+flame and a strontium cathode lamp, set the wavelength
+to   460.7   nm   and   zero   the   absorbance   with   water.
+Aspirate, and record the absorbances of each of the four
+solutions,  zeroing  the  absorbance  with  water  between
+aspiration  of  the  solutions.  Calculate  the  amount  of
+strontium ion (Sr) in Solution 1; this should not exceed
+0. 10 mg.
+9. 10.7   Calcium  —  Using  a  nitrous  ox ide-acetylene
+flame and a calcium hollow lamp, set the wavelength to
+422. 7 nm and zero the absorbance with water. Aspirate,
+and  record  the  absorbances  of  each  of  the  four  solu-
+tions, zeroing the absorbance with water between aspir-
+ation of the solutions. Calculate the amount of calcium
+ion (Ca) in Solution 1; this should not exceed 0.40 mg.
+9. 10.8   Magnesium  —  Thoroughly  cle an  four  50  mL
+volumetric  flasks  and  label  them  1a,  2a,  3a,  and  4a.
+Transfer 20 mL (4 g) from each of the four 100 mL vol-
+umetric flasks into the corresponding 50 mL flasks. Di-
+lute  each  to  volume  and  mix  thoroughly.  Using  an  air-
+acetylene flame, background corrections, and a magnes-
+ium  hollow  lamp,  set  the  wavelength  to  285.2  nm  and
+zero  the  absorbance  with  water.  Aspirate,  and  record
+the  absorbances  of  each  of  the  four  solutions,  zeroing
+the  absorbance  with  water  between  aspiration  of  the
+solutions. Calculate the amount of magnesium ion (Mg)
+in Solution 1a; this should not exceed 0.02 mg.
+10  Grade 2 Procedures
+10. 1  This section does not apply to  this chemical.
+
+SEMI C37-0699 © SEMI 1981, 19994
+11 Grade 3 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 4 Procedures
+12. 1  This section does not apply to  this chemical.
+13  Grade 5 Procedures
+13. 1  This section does not apply to  this chemical.
+14  VLSI Grade Procedures
+14. 1  This section does not apply to  this chemical.
+15  Tier A Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier B Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier C Procedures
+17. 1  This section does not apply to  this chemical.
+18  Tier D Procedures
+18. 1  This section does not apply to  this chemical.
+Table 1  Impurity Limits and Other Requirements for Phosphoric Etchants
+Previous SEMI Reference #C2.3-95
+Grade 1
+(Specification)
+Heavy Metals (as Pb)5 ppm max
+Antimony (Sb)15 ppm max
+Arsenic (As)0.2 ppm max
+Calcium (Ca)15 ppm max
+Copper (Cu)1.2 ppm max
+Iron (Fe)6 ppm max
+Lithium (Li)0.3 ppm max
+Magnesium (Mg)2 ppm max
+Manganese (Mn)0.2 ppm max
+Nickel (Ni)1 ppm max
+Potassium (K)6 ppm max
+Sodium (Na)10 ppm max
+Strontium (Sr)2 ppm max
+Particles in bottles:
+size, #/mL
+≥1.0 μm, 25 max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+PHOSPHORUS OXYCHLORIDESEMI C38-0699 © SEMI 1991, 19991
+SEMI C38-0699
+GUIDELINE FOR PHOSPHORUS OXYCHLORIDE
+This  guideline  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C7.12  in  its  entirety.    Originally  published  in
+
+# 1991
+
+1991.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  phosphorus  oxychloride  used  in  the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides     guidelines     for     grades     of     phosphorus
+oxychloride for which a need has been identified. In the
+case  of  the  guidelines,  the  test  methods  may  not  have
+been statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of
+phosphorus   oxychloride   used   in   the   semiconductor
+industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+4. 1  None.
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+6. 1  Not applicable.
+7  Requirements
+7. 1   The  requirements  for  phospho rus  oxychloride  for
+Tier A are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  This section does not apply to  this chemical.
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The  Process  Chemicals  Committee  considers  a  test
+method  to  be  valid  only  if  there  is  a  documented
+recovery  study  showing  a  recovery  of  75  -  125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+SEMI C38-0699 © SEMI 1991, 1999PHOSPHORUS OXYCHLORIDE2
+Table 1  Impurity Limits and Other Requirements for Phosphorus Oxychloride
+Previous SEMI Reference #C7.12-91
+Tier A
+(Guideline)
+Assay99.9% min
+Color  (APHA)5 max
+Hydroxyl0.1 absorbance units (see NOTE 1)
+Aluminum (Al)10 ppb max
+Arsenic (As)7 ppb max
+Barium (Ba)1 ppb max
+Bismuth (Bi)1 ppb max
+Calcium (Ca)6 ppb max
+Chromium (Cr)1 ppb max
+Cobalt (Co)1 ppb max
+Copper (Cu)3 ppb max
+Gallium (Ga)1 ppb max
+Gold (Au)1 ppb max
+Iron (Fe)5 ppb max
+Lead (Pb)3 ppb max
+Lithium (Li)6 ppb max
+Magnesium (Mg)5 ppb max
+Manganese (Mn)1 ppb max
+Mercury (Hg)8 ppb max
+Nickel (Ni)1 ppb max
+Niobium (Nb)1 ppb max
+Potassium (K)3 ppb max
+Silver (Ag)1 ppb max
+Sodium (Na)5 ppb max
+Strontium (Sr)1 ppb max
+Tin (Sn)1 ppb max
+Titanium (Ti)3 ppb max
+Zinc (Zn)10 ppb max
+Particles in bottles:
+size, #/mL
+≥0.3 μm, 50 max
+NOTE 1: Absorbance for the 4000 to 2700 cm
+-1
+for 5 mm optical path length.
+
+SEMI C38-0699 © SEMI 1991, 19993
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+POTASSIUM HYDROXIDE PELLETSSEMI C39-0699 © SEMI 1978, 19991
+SEMI C39-0699
+SPECIFICATION FOR POTASSIUM HYDROXIDE PELLETS
+This  specification  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C1.14  in  its  entirety.    Originally  published  in
+
+# 1978
+
+1978.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  potassium  hydroxide  pellets  used  in
+the  semiconductor  industry  and  testing  procedures  to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides  guidelines  for  grades  of  potassium  hydroxide
+pellets for which a need has been identified. In the case
+of  the  guidelines,  the  test  methods  may  not  have  been
+statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of
+potassium  hydroxide  pellets  used  in  the  semiconductor
+industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1 — Specifications for Reagents
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+6. 1  Not applicable.
+7  Requirements
+7. 1   The  requirements  for  potassium    hydroxide  pellets
+for Grade 1 are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  Assay — Weigh accurately 35  to 40 g of sample in
+a   closed   weighing   bottle.   Transfer   to   a   500   mL
+volumetric flask, dissolve in carbon dioxide-free water,
+cool  to  25°C,  dilute  to  the  mark  with  carbon  dioxide
+free  water,  and  mix  thoroughly.  Transfer  25.0  mL  of
+this  solution  to  a  500  mL  glass-stoppered  flask,  dilute
+with 175 mL of carbon dioxide-free water, add 5 mL of
+barium  chloride  reagent  solution,  shake,  and  allow  to
+stand for five minutes. Add 0.15 mL of phenolphthalein
+indicator  solution  and  titrate  with  1  N  hydrochloric
+acid.  (Save  this  solution  for  the  potassium  carbonate
+test.)
+
+% Assay
+=
+mL
+×
+N of HCl
+×
+112. 2
+Weight of sample  g
+()
+8. 2  Potassium Carbonate (K
+2
+CO
+3
+)  — To the above ti-
+trated solution, add 0.15 mL of methyl orange indicator
+solution  and  continue  the  titration  with  1  N  hydro-
+chloric acid. The additional hydrochloric acid is equiv-
+alent to that consumed by the potassium carbonate.
+% K
+2
+CO
+3
+=
+mL
+×
+N
+×
+H
+Cl
+×
+138. 2
+Weight of sample  g
+()
+8. 3  Ammonium Hydroxide Precipi tate — Weigh about
+10 g of sample and dissolve in about 100 mL of water.
+8. 3.1  Cautiously add 12 mL of sulfu ric acid to 15 mL
+of  water,  cool,  then  cautiously  add  the  mixture  to  the
+solution  of  the  sample  and  evaporate  to  dense  fumes.
+Cool, dissolve the residue in 130 mL of hot water, and
+add ammonium hydroxide until the solution is just basic
+to methyl red.
+8. 3.2   Heat  to  boiling,  filter,  wash  wi th  hot  water,  and
+ignite.  The  weight  of  the  residue  should  not  exceed  2
+mg.
+8. 4   Insoluble  Matter  —  Dissolve  5 0  g  of  sample  in
+250  mL  of  carbon  dioxide-free  water  in  a  500  mL
+stoppered  flask  and  cool  to  25°C.  The  solution  should
+be  clear  and  colorless.  Filter  through  a  tared,  medium-
+porosity filtering crucible and wash thoroughly with hot
+water.  Dry  the  crucible  at  105°C  for  1  hour,  cool,  and
+weigh the residue. The weight of the residue should not
+exceed 2.5 mg.
+8. 5  Stock Solution for 8.6-8.11, 8.1 3-8.14 —  Dissolve
+50 g of sample in 250 mL of carbon dioxide-free water
+and dilute with such water to 500 mL. One mL contains
+0. 10 g of sample. Store in a plastic container.
+8. 6   Nitrogen  Compounds  —  Dilut e  20  mL  of  the
+Stock   Solution   with   50   mL   of   water   in   a   flask
+connected  through  a  spray  trap  to  a  condenser,  the  end
+of  which  dips  beneath  the  surface  of  10  mL  of  0.1  N
+hydrochloric  acid.  For  the  standard,  take  50  mL  of
+water  in  a  similar  flask,  and  add  10  mL  of  the  Stock
+Solution and 1 mL of the nitrogen standard solution. To
+each flask add 0.5 g of aluminum wire in small pieces,
+
+SEMI C39-0699 © SEMI 1978, 1999POTASSIUM HYDROXIDE PELLETS2
+allow  to  stand  for  1  hour,  and  slowly  distill  about  35
+mL. To each distillate add 2 mL of freshly boiled 10%
+sodium hydroxide reagent solution, dilute with water to
+50 mL, and add 2 mL of Nessler reagent. Any color in
+the solution of the sample should not exceed that in the
+standard.
+8. 7   Chloride  —  Dilute  10  mL  of  t he  Stock  Solution
+with  water  to  50  mL.  Filter  if  necessary  through  a
+chloride-free filter. To 10 mL of this solution, add 5 mL
+of water, 2 mL of nitric acid, and 1 mL of silver nitrate
+reagent  solution.  Any  turbidity  developed  should  not
+exceed that produced by 0.02 mg of chloride ion (Cl) in
+an equal volume of solution containing the quantities of
+reagent used in the test.
+8. 8  Phosphate — To 40 mL of the  Stock Solution, add
+10 mL of hydrochloric acid and evaporate to dryness on
+a  steam  bath.  Dissolve  the  residue  in  25  mL  of  0.5  N
+sulfuric  acid.  Add  1  mL  of  ammonium  molybdate
+reagent  solution  and  1  mL  of  p-(methylamino)phenol
+sulfate  reagent  solution.  Allow  to  stand  for  2  hours  at
+room temperature. Any blue color developed should not
+exceed  that  produced  when  0.02  mg  of  phosphate  ion
+(PO
+4
+) is treated as the sample.
+8. 9   Sulfate — To 20 mL of the Sto ck Solution, add 5
+mL of hydrochloric acid and evaporate to dryness on a
+steam bath. Dissolve the residue in 20 mL of water and
+evaporate  again  to  dryness.  Dissolve  the  residue  in  20
+mL of water, filter if necessary, and add 1 mL of dilute
+hydrochloric acid (1 + 19) and 1 mL of barium chloride
+reagent  solution.  Allow  to  stand  for  10  minutes.  Any
+turbidity  developed  should  not  exceed  that  produced
+when  0.04  mg  of  sulfate  ion  (SO
+4
+)  is  treated  as  the
+sample.
+8. 10  Heavy Metals (as Ag) — To 60 mL of the Stock
+Solution  cautiously  add  15  mL  of  nitric  acid.  For  the
+standard add 0.05 mg of silver ion (Ag) to 10 mL of the
+Stock Solution and cautiously add 15 mL of nitric acid.
+Evaporate both solutions to dryness over a low flame or
+on an electric hot plate. Dissolve each residue in about
+20  mL  of  water,  filter  if  necessary  through  a  chloride-
+free  filter,  and  dilute  with  water  to  25  mL.  Adjust  the
+pH  of  the  standard  and  sample  solutions  to  between  3
+and  4  (using  a  pH  meter)  with  1  N  acetic  acid  or
+ammonium hydroxide (10% NH
+3
+). Dilute each solution
+with  water  to  40  mL  and  stir.  Add  10  mL  of  freshly
+prepared  hydrogen  sulfide  water  to  each  solution  and
+stir  again.  Any  color  developed  in  the  sample  should
+not exceed that in the standard.
+8. 11   Iron  —  Neutralize  10  mL  of  th e  Stock  Solution
+with hydrochloric acid, using phenolphthalein indicator
+solution,  add  2  mL  in  excess,  and  dilute  with  water  to
+50 mL. Add 30 to 50 mg of ammonium peroxydisulfate
+crystals  and  3  mL  of  ammonium  thiocyanate  reagent
+solution.  Any  red  color  developed  should  not  exceed
+that  produced  when  0.01  mg  of  iron  ion  (Fe)  is  treated
+as the sample.
+8. 12  Mercury — To each of two tho roughly clean 125
+mL conical flasks add 20 mL of water and 1 mL of 4%
+potassium  permanganate  solution.  To  one  add  5.5  g  of
+solid sample. To the other add 0.5 g of sample and 0.5
+mg  of  mercury  ion  (Hg).  To  each  flask  slowly  add  18
+mL  of  hydrochloric  acid,  with  constant  swirling.  Heat
+to   boiling,   allow   to   cool,   and   dilute   to   100   mL.
+Determine mercury in 10 mL aliquots by the cold vapor
+(flameless)  atomic  absorption  method  using  1  mL  of
+10% hydroxylamine hydrochloride reagent solution and
+2 mL of 10% stannous chloride reagent solution for the
+reduction.  The  peak  obtained  with  the  sample  solution
+should   not   be   larger   than   that   from   the   standard
+mercury solution.
+8. 13  Nickel  —  Dilute  20  mL  of  the   Stock  Solution  to
+50  mL  with  water  and  neutralize  with  hydrochloric
+acid. Dilute to 85 mL and add ammonium hydroxide to
+make  the  solution  barely  basic  (pH  8).  Add  5  mL  of
+bromine    water    and    5    mL    of    alcoholic    1%
+dimethylglyoxime  solution.  Any  red  color  developed
+should  not  exceed  that  produced  when  0.02  mg  of
+nickel ion (Ni) is treated as the sample.
+8. 14   Sodium  —  Dilute  10  mL  of  the   Stock  Solution
+with water to 100 mL to form the Sample Solution. To
+prepare  the  Standard  Solution,  add  0.5  mg  of  sodium
+ion (Na) to 10 mL of the Stock Solution and dilute with
+water to 100 mL.
+8. 14.1   Using  flame  emission  spectros copy,  observe
+the  emission  of  the  Standard  Solution  at  the  589  nm
+sodium   line.   Observe   the   emission   of   the   Sample
+Solution  at  the  589  nm  sodium  line  and  also  at  a
+wavelength  of  580  nm.  The  difference  between  the
+intensities observed for the Sample Solution at 580 nm
+and  589  nm  should  not  exceed  the  difference  observed
+at   589   nm   between   the   Sample   Solution   and   the
+Standard  Solution  (see  SEMI  C1,  Section  3.7,  Flame
+Emission Spectroscopy).
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+
+SEMI C39-0699 © SEMI 1978, 19993
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1  This section does not apply to  this chemical.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+Table 1  Impurity Limits and Other Requirements for Potassium Hydroxide Pellets
+Previous SEMI Reference #C1.14-95
+Grade 1
+(Specification)
+Assay (KOH)85.0% min
+Potassium Carbonate (K
+2
+CO
+3
+)1.0% max
+Ammonium Hydroxide Precipitate0.02% max
+Insoluble Matter50 ppm max
+Nitrogen Compounds (as N)10 ppm max
+Chloride (Cl)0.01% max
+Phosphate (PO
+4
+)5 ppm max
+Sulfate (SO
+4
+)20 ppm max
+Heavy Metals (as Ag)10 ppm max
+Iron (Fe)10 ppm max
+Mercury (Hg)0.1 ppm max
+Nickel (Ni)10 ppm max
+Sodium (Na)0.05% max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+POTASSIUM HYDROXIDE, 45% SOLUTIONSEMI C40-0699 © SEMI 19991
+SEMI C40-0699
+SPECIFICATION FOR POTASSIUM HYDROXIDE, 45% SOLUTION
+This  specification  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to be published June 1999.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  45%  potassium  hydroxide  solution
+used    in    the    semiconductor    industry    and    testing
+procedures  to  support  those  standards.  Test  methods
+have been shown to give statistically valid results. This
+document   also   provides   guidelines   for   grades   of
+potassium  hydroxide,  45%  solution  for  which  a  need
+has  been  identified.  In  the  case  of  the  guidelines,  the
+test  methods  may  not  have  been  statistically  validated
+yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of  45%
+potassium      hydroxide      solution      used      in      the
+semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1  Specifications for Reagents
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+6. 1  Not applicable.
+7  Requirements
+7. 1   The  requirements  for  45%  pot assium  hydroxide
+solution for Grade 1 are listed in Table 1.
+8  Grade 1 Procedures
+NOTE  1:  Each  laboratory  is  responsible  for  verifying  the
+validity of the method within its own  operation.
+8. 1  Assay  Accurately weigh 70  to 80 g of sample in
+a   closed   weighing   bottle.      Transfer   to   a   500   mL
+volumetric flask, add in carbon dioxide-free water, cool
+to  25°C,  dilute  to  the  mark  with  carbon  dioxide-free
+water,  and  mix  thoroughly.    Transfer  25.0  mL  of  this
+solution  to  a  500  mL  glass-stoppered  flask,  dilute  with
+175  mL  of  carbon  dioxide-free  water,  add  5  mL  of
+barium  chloride  reagent  solution,  shake  and  allow  to
+stand    for    five    minutes.        Add    0.15    mL    of
+phenolphthalein   indicator   solution   and   titrate   with
+standardized 1 N hydrochloric acid. (Save this solution
+for the potassium carbonate test.)
+(g) Sample ofWeight
+112. 2  HCl of N mL
+%Assay
+××
+=
+8. 2  Potassium  Carbonate  (K
+2
+CO
+3
+)   To  the  above
+titrated   solution,   add   0.   15   mL   of   methyl   orange
+indicator    and    continue    the    titration    with    1    N
+hydrochloric   acid,   making   sure   that   no   insoluble
+carbonate remains.  The additional hydrochloric acid is
+equivalent    to    that    consumed    by    the    potassium
+carbonate.
+(g) Sample ofWeight
+138. 2  HCl of N  mL
+COK %
+32
+××
+=
+8. 3   Ammonium  Hydroxide  Precipi tate   Weigh  40  g
+of  sample  into  a  250  mL  beaker  and  dissolve  in  about
+100 mL of water.
+8. 3.1  Cautiously add 26 mL of sulfu ric acid to 30 mL
+of water in a 150 mL glass beaker, cool; then cautiously
+add  the  mixture  to  the  solution  of  the  sample,  and
+evaporate to dense fumes.  Cool, dissolve the residue in
+130  mL  of  hot  water,  and  add  ammonium  hydroxide
+until the solution is just basic to methyl red.
+8. 3.2   Heat  to  boiling,  filter,  wash  wi th  hot  water  and
+ignite.  The  weight  of  the  residue  should  not  exceed  2
+mg.
+8. 4  Insoluble Matter  Dilute 100  g of sample in 250
+mL of carbon dioxide-free water in a 500 mL stoppered
+flask  and  cool  to  25°C.    The  solution  should  be  clear
+and  colorless.    Filter  through  a  tared,  medium  porosity
+filtering  crucible  and  wash  thoroughly  with  hot  water.
+Dry  the  crucible  at  105°C  for  1  hour,  cool  and  weigh
+the  residue.    The  weight  of  the  residue  should  not
+exceed 5.0 mg.
+8. 5  Stock  Solution  for  Sections  8.6   through  8.13  —
+Add 100 g of sample to 250 mL of carbon dioxide-free
+water  and  dilute  with  such  water  to  500  mL.    One  mL
+contains 0.20 g of sample.  Store in a plastic container.
+8. 6   Nitrogen  Compounds  (as  N)    Dilute  20  mL  of
+the  stock  solution  with  50  mL  of  water  in  a  flask
+
+SEMI C40-0699 © SEMI 1999POTASSIUM HYDROXIDE, 45% SOLUTION2
+connected  through  a  spray  trap  to  a  condenser,  the  end
+of  which  dips  beneath  the  surface  of  10  mL  of  0.1  N
+hydrochloric  acid.    For  the  standard,  take  50  mL  of
+water  in  a  similar  flask,  and  add  10  mL  of  the  stock
+solution  and  1  mL  of  the  nitrogen  standard  solution
+(0.01mg N/mL).  To each flask add 0.5 g of aluminum
+wire  in  small  pieces,  allow  to  stand  for  1  hour,  and
+slowly  distill  to  about  35  mL.    To  each  distillate  add  2
+mL  of  freshly  boiled  10%  sodium  hydroxide  reagent
+solution,  dilute  with  water  to  50,  add  2  mL  of  Nessler
+reagent,  and  mix.    Any  color  in  the  solution  of  the
+sample should not exceed that in the standard.
+8. 7   Chloride   Dilute  l0  mL  of  th e  stock  solution
+with  water  to  50  mL.  Filter,  if  necessary,  through  a
+chloride-free  filter.    To  10  mL  of  this  solution,  add  5
+mL  of  water,  2  mL  of  nitric  acid,  and  1  mL  of  silver
+nitrate   reagent   solution.      Any   turbidity   developed
+should not exceed that produced by 0.02 mg of chloride
+(CI)  ion  in  an  equal  volume  of  solution  containing  the
+quantities of reagent used in the test.
+8. 8  Phosphate  To 50 mL of the  stock solution, add
+15 mL of hydrochloric acid and evaporate to dryness on
+a  steam  bath.    Dissolve  the  residue  in  25  mL  of  0.5  N
+sulfuric  acid.    Add  1  mL  of  ammonium  molybdate
+reagent  solution  and  l  mL  of  p-(methylamino)phenol
+sulfate reagent solution.  Allow the solution to stand for
+2 hours at room temperature.  Any blue color developed
+should  not  exceed  that  produced  when  0.02  mg  of
+phosphate (PO
+4
+) ion is treated as the sample.
+8. 9   Sulfate   To  20  mL  of  the  sto ck  solution,  add  5
+mL of hydrochloric acid and evaporate to dryness on a
+steam bath.  Dissolve the residue in 20 mL of water and
+evaporate  again  to  dryness.    Dissolve  the  residue  in  20
+mL of water, filter if necessary, and add 1 mL of dilute
+hydrochloric  acid  (1+19)  and  1  mL  of  barium  chloride
+reagent  solution.    Allow  to  stand  for  10  minutes.    Any
+turbidity  developed  should  not  exceed  that  produced
+when  0.04  mg  of  sulfate  (SO
+4
+)  ion  is  treated  as  the
+sample.
+8. 10   Heavy  Metals  (as  Ag)  To 60 mL of the stock
+solution  cautiously  add  15  mL  of  nitric  acid.    For  the
+standard add 0.05 mg of silver ion (Ag) to 10 mL of the
+stock solution and cautiously add 15 mL of nitric acid.
+Evaporate both solutions to dryness over a low flame or
+on an electric hot plate.  Dissolve each residue in about
+20  mL  of  water,  filter  if  necessary  through  a  chloride-
+free  filter,  and  dilute  with  water  to  25  mL.    Adjust  the
+pH  of  the  standard  and  sample  solutions  to  between  3
+and  4  (using  a  pH  meter)  with  1  N  acetic  acid  or
+ammonium hydroxide (10% NH
+3
+).  Dilute each solution
+with  water  to  40  mL  and  stir.    Add  10  mL  of  freshly
+prepared  hydrogen  sulfide  water  to  each  solution  and
+stir  again.    Any  color  developed  in  the  sample  should
+not exceed that in the standard.
+8. 11   Iron   Neutralize  l0  mL  of  th e  stock  solution
+with    hydrochloric    acid,    using    a    phenolphthalein
+indicator  solution,  add  2  mL  of  HCI  in  excess,  and
+dilute  with  water  to  50  mL.    Add  30  to  50  mg  of
+ammonium   peroxydisulfate   crystals   and   3   mL   of
+ammonium thiocyanate reagent solution.  Any red color
+developed  should  not  exceed  that  produced  when  0.01
+mg of iron (Fe) ion is treated as the sample.
+8. 12   Nickel   Dilute  20  mL  of  the   stock  solution  to
+50 mL with water and neutralize with hydrochloric acid
+using a pH meter.  Dilute to 85 mL with water and add
+ammonium hydroxide to make the solution barely basic
+(pH  8).    Add  5  mL  of  bromine  water  and  5  mL  of
+alcoholic   1%   dimethylgy1oxime   solution.   Any   red
+color developed should not exceed that produced when
+0. 02 mg of nickel (Ni) ion is treated as the sample.
+8. 13   Sodium   Dilute  10  mL  of  the   stock  solution
+with water to 100 mL to form the sample solution.  To
+prepare  the  standard  solution,  add  0.6  mg  of  sodium
+(Na) ion to 10 mL of the stock solution and dilute with
+water to 100 mL.
+8. 13.1   Using  flame  emission  spectros copy,  observe
+the  emission  of  the  standard  solution  at  the  589  nm
+sodium  line.    Observe  the  emission  of  the  sample
+solution  at  the  589  nm  sodium  line  and  also  at  a
+wavelength  of  580  nm.    The  difference  between  the
+intensities  observed  for  the  sample  solution  at  580  nm
+and  589  nm  should  not  exceed  the  difference  observed
+at  589  nm  between  the  sample  solution  and  standard
+solution  (see  SEMI  Cl,  Section  3.7,  Flame  Emission
+Spectroscopy).
+9 Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1  This section does not apply to  this chemical.
+
+SEMI C40-0699 © SEMI 19993
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+Table 1  Impurity Limits and Other Requirements for Potassium Hydroxide, 45% Solution
+Previous SEMI Reference #--
+Grade 1
+(Specification)
+Assay (KOH)45.0 - 47.0%
+Insoluble Matter50 ppm max
+Nitrogen Compounds (as N)5 ppm max
+Ammonium Hydroxide Precipitate50 ppm max
+Chloride (Cl)50 ppm max
+Phosphate (PO
+4
+)2 ppm max
+Potassium Carbonate (K
+2
+CO
+3
+)0.5% max
+Sulfate (SO
+4
+)10 ppm max
+Heavy Metals (as Ag)5 ppm max
+Iron (Fe)5 ppm max
+Nickel (Ni)5 ppm max
+Sodium (Na)0.03% max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI C41-0705 © SEMI 1978, 2005 1
+SEMI C41-0705
+SPECIFICATIONS AND GUIDELINES FOR 2-PROPANOL
+This  specification  was  technically  approved  by  the  global  Liquid  Chemicals  Committee.    This  edition  was
+approved for publication by the global Audits and Reviews Subcommittee on April 7, 2005.  It was available
+at  www.semi.org  in  June  2005  and  on  CD-ROM  in  July  2005.    Originally  published  in  1978;  previously
+published in 2003.
+NOTICE:  This document was completely rewritten in 2005.
+NOTICE:  Paragraphs  entitled  NOTE  are  not  an  official  part  of  this  document  and  are  not  intended  to  modify  or
+supercede it.
+1  Purpose
+1. 1  The purpose of this document is to standardize requirements for 2-propanol used in the semiconductor industry
+and testing procedures to support those standards.  Test methods have been shown to give statistically valid results.
+2  Scope
+2. 1  The scope of this document covers all grades of 2-propanol used in the semiconductor industry.
+2. 2  The VLSI grade purity level is typically required by semiconductor devices with geometries of 0.8–1.2 microns.
+NOTICE:  This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Referenced Standards and Documents
+3. 1  SEMI Standards
+SEMI C1 — Guide for the Analysis of Liquid Chemicals
+3. 2  ASTM Standards
+1
+
+ASTM D5127 — Standard Guide for Ultra Pure Water Used in the Electronics and Semiconductor Industry
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+4  Terminology
+None.
+5  Physical Property (for information only)
+
+Density at 25ºC 0.78 g/mL
+Boiling Point 82.3ºC
+
+6  Requirements
+6. 1  The requirements for 2-propanol for Grades 1, 2, 3, 4 & VLSI Guidelines, are listed in Table 1.
+7  Grade 1 Procedures
+NOTE 1:  Each laboratory is responsible for verifying the validity of the method within its own operation.
+7. 1  Assay  —  Analyze  the  sample  by  gas  chromatography  (see  SEMI  C1,  ‘Assay  by  Wide  Bore  Column  Gas
+Chromatography’).  The parameters cited have given satisfactory results.
+
+
+1  American Society for Testing and Materials, 100 Barr Harbor Drive, West Conshohocken, Pennsylvania 19428-2959, USA. Telephone:
+610. 832.9585, Fax: 610.832.9555, www.astm.org
+
+
+SEMI C41-0705 © SEMI 1978, 2005 2
+Column:    30  meter  ×  530  micron  I.D.  fused  silica  capillary,  coated  with  5  micron  film  of  DB-Wax  or  equivalent
+(100% methyl silicone which has been surface bonded and cross linked).
+Column Temperature: 40ºC isothermal for 5 minutes, then programmed to 200ºC at 10ºC/min.
+
+Injector Temperature: 150ºC
+Detector Temperature: 250ºC
+Sample Size: 0.2 μL splitless
+Carrier Gas: Helium at 3 mL/min
+Detector:                                                                    Thermal                                                                    Conductivity
+Approximate Retention Times (min):
+Acetone                                                                     4.5
+2-Propanol                                                                 5.0
+
+7. 2  Color — Dilute 2.0 mL of platinum-cobalt stock solution (APHA No. 500) to 100 mL with water. Compare this
+standard  (APHA  No.  10)  with  100  mL  of  sample  in  Nessler  tubes.  View  vertically  over  a  white  background.  The
+sample must be no darker than the standard.
+7. 3  Acidity — To 25 mL of water in a glass-stoppered flask, add 10 mL of sample and 0.1 mL of phenolphthalein
+indicator solution. Add 0.01N sodium hydroxide until a slight pink color persists after shaking for one-half minute.
+Add  64  mL  (50  g)  of  the  sample,  mix  well,  and  titrate  with  0.01N  sodium  hydroxide  until  the  pink  color  is
+reproduced. Not more than 1.0 mL of the sodium hydroxide solution should be required.
+7. 4  Alkalinity  —  Add  128  mL  (100  g)  of  sample  to  25  mL  of  water  and  mix  well.  Add  0.05  mL  of  methyl  red
+indicator solution. Titrate with 0.01 N hydrochloric acid until a slight pink color is produced. Not more than 1.0 mL
+of the hydrochloric acid should be required.
+7. 5  Residue  after  Evaporation  —  Evaporate  256  mL  (200  g)  of  sample  to  dryness.  Dry  at  105ºC  for  30  minutes,
+cool in a desiccator, and weigh (see SEMI C1, ‘Residue after Evaporation’).
+7. 6  Water  —  Add  25  mL  of  methanol  to  a  dry  titration  flask  and  add  Karl  Fischer  (KF)  reagent  to  a  visually  or
+electrometrically  determined  endpoint  that  persists  for  30  seconds.  Add  25  mL  (20  g)  of  sample,  taking  care  to
+protect  the  sample  and  contents  of  the  flask  from  moisture. Stir vigorously and titrate with  Karl  Fischer  reagent  to
+the same endpoint.
+% Water (H
+2
+O)
+=
+mL KF reagent
+×
+KF factor   g  H
+2
+OmL
+()
+×
+100
+Weight of sample   g
+()
+
+7. 7  Solubility in Water — Mix 10 mL of sample with 40 mL of water. Allow to stand 1 hour. The solution should
+be as clear as an equal volume of water.
+7. 8  Chloride  —  To  64  mL  (50  g)  of  sample,  add  10  mL  of  sodium  carbonate  reagent  solution  and  evaporate  to
+dryness on a steam bath in a hood. Dissolve the residue in 10 mL of water, add 1 mL of nitric acid and dilute to 20
+mL with water. Add 1 mL of silver nitrate reagent solution. Any turbidity produced should be no greater than that
+produced when 0.01 mg of chloride ion (Cl) is treated as the sample.
+7. 9  Phosphate  —  To  26  mL  (20  g)  of  sample,  add  10  mL  of  sodium  carbonate  reagent  solution  and  evaporate  to
+dryness on a steam bath in a hood. Dissolve the residue in 25 mL of 0.5 N sulfuric acid. Add 1 mL of ammonium
+molybdate  reagent  solution  and  1  mL  of  p-(methylamino)phenol  sulfate  reagent  solution.  Allow  to  stand  at  room
+temperature  for  2  hours.  Any  blue  color  produced  should  be  no  greater  than  that  produced  when  0.01  mg  of
+phosphate ion (PO
+4
+) is treated like the sample.
+7. 10  Arsenic and Antimony (as As) — Evaporate 256 mL (200 g) of sample in a 400 mL beaker to a small volume
+in a hood. Add 50 mL of water and again evaporate to a small volume. Repeat the evaporation with water addition.
+Do not allow to go to dryness. Add 5 mL of nitric acid and 5 mL of sulfuric acid and evaporate to dense fumes of
+sulfur  trioxide.  Cool,  cautiously  add  10  mL  of  water,  and  again  evaporate  to  dense  fumes  of  sulfur  trioxide.  Cool,
+and  cautiously  wash  into  a  generator  flask  with  water  to  make  a  volume  of  35  mL.  Proceed  as  described  in  the
+SEMI  C1,  ‘Trace  Arsenic  (and  Antimony)  Determination’,  starting  with  the  sentence  that  begins,  “Swirl  the
+
+
+SEMI C41-0705 © SEMI 1978, 2005 3
+flask....” Any red color in the silver diethyldithiocarbamate solution of the sample should be no greater than that of
+the standard containing 0.002 mg of arsenic (As).
+7. 11  Trace Metal Analysis
+7. 11.1  Boron — To 128 mL (100 g) of sample, add 0.10 mL of 10% sodium hydroxide, and evaporate to dryness in
+a nitrogen atmosphere using a covered chamber such as a Thiers assembly or equivalent. Dissolve the residue with
+2  mL  of  water  and  0.10  mL  of  hydrochloric  acid.  Transfer  to  a  test  tube,  cool  in  an  ice  bath,  and  add  10  mL  of
+sulfuric acid. Add 10 mL of carminic acid solution (¶7.11.1.1) and remove from the ice bath. Allow to stand for 45
+minutes. Prepare a standard containing 0.001 mg of boron treated exactly as the sample (¶7.11.1.2). Run a complete
+blank  determination  on  2  mL  of  water.  Measure  the  absorbances  of  the  sample  and  standard  against  the  blank  at
+585 nm using 5.00 cm cells. The absorbance of the sample solution should be no greater than that of the standard.
+7. 11.1.1  Carminic  Acid  Solution  —  Dissolve  0.05  g  of  carminic  acid  in  100  mL  of  sulfuric  acid  and  shake  until
+dissolution is complete.
+7. 11.1.2  Boron Standard Solution — Dissolve 0.572 g of boric acid in water in a 1000 mL volumetric flask. Dilute
+to the mark with water. Dilute 10.0 mL of this solution with water to the mark in a 100 mL volumetric flask. (1 mL
+= 0.01 mg boron.)
+7. 11.2  Gold (Au) — Analyze by graphite atomic absorption using the manufacturer’s recommended procedure. This
+technique has been shown to give satisfactory results using a 1:4 dilution and Zeeman background correction. Each
+laboratory  must  determine  the  appropriate  dilution  and  background  correction  for  their  instrument  to  meet  the
+specification limit.
+7. 11.3  The  following  method  has  given  satisfactory  results  in  determining  trace  metal  impurities  at  the  value
+specified  for  each  of  the  following  trace  metals:  aluminum  (Al),  calcium  (Ca),  chromium  (Cr),  copper  (Cu),  iron
+(Fe), lead (Pb), magnesium (Mg), manganese (Mn), nickel (Ni), potassium (K), sodium (Na), tin (Sn), titanium (Ti),
+and  zinc  (Zn).  Alternate  methods  may  be  used  as  long  as  they  are  validated  for  each  trace  metal  according  to
+SEMI C1, ‘Method Validation’.
+7. 11.4  Special Reagents
+7. 11.4.1  Hydrochloric Acid, Ultra Pure — Use hydrochloric acid specified for ultra low metal ion content.
+7. 11.4.2  2%  (v/v)  Hydrochloric  Acid  Solution  —  Dilute  20  mL  of  ultra  pure  12  M  hydrochloric  acid  to  1  L  using
+water meeting the criteria for Type E1.1 in ASTM D5127.
+7. 11.5  Sample Preparation
+7. 11.5.1  Tin — To 100 g (128 mL) sample in a PTFE dish add 1 mL of 1% oxalic acid solution. Slowly evaporate
+to about 1 mL. Dissolve the residue in 10% hydrochloric acid and transfer to a 10 mL volumetric flask using 10%
+hydrochloric acid. Analyze by inductively coupled plasma optical emission spectrometry (ICP-OES) using matrix-
+matched standards.
+7. 11.5.2  All Other Elements — In a clean environment, place 250 g of sample in a PTFE dish. Slowly evaporate on
+a hot plate avoiding loss of sample by effervescence or spattering until approximately 1 mL of liquid remains. Take
+up  liquid  and  all  visible  residue  (from  walls  of  dish)  with  1  mL  ultra  pure,  12  M  hydrochloric  acid  and  continue
+heating  until  approximately  0.5  mL  of  liquid  remains.  No  undissolved  particulate  matter  should  be  observed.
+Otherwise repeat the addition of hydrochloric acid until all particulate matter is dissolved. Transfer quantitatively to
+a 50 mL volumetric flask using 2% (v/v) hydrochloric acid and adjust liquid level to mark. Prepare a reagent blank
+using the same reagents and in the same manner as for the sample concentration.
+NOTE 2:  Due  to  the  uncertainty  of  acid  concentration  in  the  liquid  residue,  the  final  concentration  can  be  estimated  to  be
+approximately 2% (v/v). Standard calibration solutions are to use this same acid concentration.
+7. 11.6  Analysis
+7. 11.6.1  Using the prepared sample and reagent blank, analyze group I elements potassium (K) and sodium (Na) by
+atomic absorption spectroscopy and all other elements by ICP-OES. If necessary, apply a reagent blank correction to
+the final determined value of the sample.
+
+
+SEMI C41-0705 © SEMI 1978, 2005 4
+8  Grade 2 Procedures
+NOTE 3:  Each laboratory is responsible for verifying the validity of the method within its own operation.
+8. 1  Non-Metal Impurities — See §7, which contains procedures for the following tests:
+• Assay
+• Water
+• Color (APHA)
+• Chloride
+• Phosphate
+• Arsenic and Antimony (as As)
+• Boron
+8. 2  Trace Metals Analysis
+8. 2.1  The  following  method  has  given  satisfactory  results  in  determining  trace  metal  impurities  at  the  values
+specified  for  each  of  the  following  metals:  aluminum  (Al),  barium  (Ba),  beryllium  (Be),  bismuth  (Bi),  cadmium
+(Cd), calcium (Ca), chromium (Cr), cobalt (Co), copper (Cu), gallium (Ga), germanium (Ge), gold (Au), iron (Fe),
+lead  (Pb),  lithium  (Li),  magnesium  (Mg),  manganese  (Mn),  molybdenum  (Mo),  nickel  (Ni),  niobium  (Nb),
+potassium  (K),  silver  (Ag),  sodium  (Na),  strontium  (Sr),  tantalum  (Ta),  thallium  (Tl),  tin  (Sn),  titanium  (Ti),
+vanadium (V), zinc (Zn), and zirconium (Zr). Alternate methods may be used as long as they are validated for each
+trace metal according to SEMI C1, ‘Method Validation’.
+8. 2.2  Special Reagents
+8. 2.2.1  Nitric Acid, Ultra Pure — Use nitric acid specified for low metal ion content.
+8. 2.2.2  1% Nitric Acid Solution — Dilute 10 mL of ultrapure nitric acid to 1 L using water meeting the criteria for
+Type E1.1 in ASTM D5127.
+8. 2.2.3  Water — The water used for all the dilution, calibration and standards should meet at a minimum the criteria
+for Type E1.1 in ASTM D5127 in regard to trace metal analysis.
+8. 2.2.4  Indium Internal Standard — Make up an indium internal standard solution to a concentration of 20 mg/mL
+(ppm) from an appropriate concentrated indium standard solution.
+8. 2.2.5  Mannitol Powder — Mannitol powder, reagent grade (ACS)
+8. 2.2.6  5%  Mannitol  Solution  —  Prepare  a  5%  (by  weight),  dissolve  and  dilute  5  g  of  reagent  grade  Mannitol
+powder (ACS) to 100 g using water meeting the criteria for Type E1.1 in ASTM D5127.
+8. 2.3  Sample Preparation
+8. 2.3.1  All  Elements  —  In  a  clean  environment,  place  200  g  of  sample  into  a  PTFE  dish.  Add  5  mL  of  the  5%
+Mannitol  solution  and  100  mL  of  the  1%  nitric  acid  solution.  Slowly  evaporate  on  a  hot  plate  to  dryness  avoiding
+loss of sample by effervescence or spattering until 1 to 2 mL remain. Dissolve the residue with 5 mL of the 1% nitric
+acid solution by heating on a hot plate at low temperature for several minutes. Cool to room temperature, dilute to
+50 mL with 1% nitric acid, add an appropriate concentration of the indium internal standard and mix well.  Prepare a
+reagent blank.
+8. 2.4  Analysis
+8. 2.4.1
+Using  the  prepared  solutions  and  blanks,  analyze  potassium,  calcium  and  iron  by  graphite  furnace  atomic
+absorption  (GFAA)  and  the  remaining  elements  by  inductively  coupled  plasma  mass  spectrometry  (ICP-MS).  For
+calibration,  the  standards  are  made  up  with  the  1%  nitric  acid  solution  and  a  suitable  concentration  of  the  indium
+internal standard.
+NOTE 4:  Current  ICP-MS  technology  (2004)  allows  analysis  of  all  trace  metals,  see  Grade  3  Procedures  and  SEMI  C1,  ‘ICP-
+MS’.
+
+
+SEMI C41-0705 © SEMI 1978, 2005 5
+9  Grade 3 Procedures
+NOTE 5:  Each laboratory is responsible for verifying the validity of the method within its own operation.
+9. 1  See §7, which contains procedures for the following tests:
+• Assay
+• Color (APHA)
+• Residue after Evaporation
+• Water (H
+2
+O)
+9. 2  Analysis of Anions
+9. 2.1  Ion  chromatography  has  been  used  successfully  for  the  determination  of  anion  impurities  at  the  values
+specified  for  each  of  the  following:  chloride  (Cl),  nitrate  (NO
+3
+),  phosphate  (PO
+4
+)  and  sulfate  (SO
+4
+).  Alternate
+methods may be used as long as they are validated for each anion according to SEMI C1, ‘Method Validation’.
+9. 2.2  The ion chromatography columns used were as follows
+2
+: ASRS-ULTRA Suppressor (2 mm), IonPac AG9-HC
+Concentrator  (4  mm),  IonPac  AG9-HC  Guard  (2  mm),  IonPac  AS9-HC  Analytical  (2  mm),  IonPac  ATC-1  Anion
+Trap (4 mm).
+9. 2.3  The following ion chromatography conditions were used:
+
+Eluent 8.0 mM sodium carbonate/1.5mM sodium hydroxide
+Eluent Flow Rate 0.25 mL/min
+Rinsing Flow Rate 2.0 mL/min
+Sample Volume 5 mL
+Detection Suppressed Conductivity
+Suppressor  ASRS, Autosuppression External Water Mode
+Current Setting 100 mA
+Sample 2-propanol (high purity)
+Anion Spike Level 5 ppb
+
+9. 3  Trace Metals Analysis
+9. 3.1  ICP-MS has been used successfully for the determination of trace metal impurities at the values specified for
+each of the following: aluminium (Al), arsenic (As), antimony (Sb), barium (Ba), boron (B), cadmium (Cd), calcium
+(Ca),  chromium  (Cr),  coppper  (Cu),  iron  (Fe),  lead  (Pb),  lithium  (Li),  magnesium  (Mg),  manganese  (Mn),  nickel
+(Ni), potassium (K), sodium (Na), tin (Sn), titanium (Ti), Vanadium (V) and zinc (Zn). Alternate methods may be
+used as long as method validation according to SEMI C1 can be demonstrated.
+9. 3.2  Special Reagents
+9. 3.2.1  Nitric Acid, Ultrapure — Use nitric acid specified for low metal content.
+9. 3.2.2  Water — The water used for all dilution, calibration and standards should meet, at a minimum, the criteria
+for Type E1.2 in ASTM D5127 in regard to trace metal analysis.
+9. 3.2.3  1% Nitric Acid Solution — Dilute 10 mL of nitric acid with water to 1 L.
+9. 3.2.4  Indium  Internal  Standard  —  Make  up  an  indium  internal  standard  solution  in  1%  nitric  acid  to  a
+concentration of 20 mg/mL from an appropriate indium standard solution.
+9. 3.3  Sample Preparation for Trace Metals
+9. 3.3.1  All Elements — In a clean environment, place 200 g of sample into a PTFE dish. Add 100 mL of 1% nitric
+acid solution. Slowly evaporate avoiding loss of sample by effervescence or spattering until 1 to 2 mL remain. Add
+5  mL  1%  nitric  acid  solution,  heat  at  a  low  temperature  for  several  minutes  to  ensure  dissolution.  Cool  to  room
+
+
+2 Dionex, Sunnyvale, CA, (www.dionex.com) or equivalent
+
+
+SEMI C41-0705 © SEMI 1978, 2005 6
+temperature,  dilute  to  50  mL  with  1%  nitric  acid,  add  an  appropriate  volume  of  indium  internal  standard  and  mix
+well. Prepare a reagent blank.
+9. 3.4  Analysis
+9. 3.4.1  Using  the  prepared  solutions  and  reagent  blank,  analyze  all  trace  metals  by  ICP-MS  using  analytical
+conditions  optimized  for  each  element.  Calibration  standards  are  made  in  1%  nitric  acid  solution  with  the  same
+concentration of indium internal standard as in ¶9.3.3.1.
+10  Grade 4 Procedures
+NOTE 6:  Each laboratory is responsible for verifying the validity of the method within its own operation.
+10. 1  See §7, which contains procedures for the following tests:
+• Assay
+• Color (APHA)
+• Residue after Evaporation
+• Water (H
+2
+O)
+10. 2  See §9, which contains procedures for the following tests:
+• Assay of Anions
+• Assay of Trace Metals
+11  Grade 5 Procedures
+11. 1  This section does not apply to this chemical.
+12  VLSI Grade Procedures
+12. 1  Specific procedures for this grade do not exist. Refer to §7 and §8 for available procedures.
+13  Tier A Procedures
+13. 1  This section does not apply to this chemical.
+14  Tier B Procedures
+14. 1  This section does not apply to this chemical.
+15  Tier C Procedures
+15. 1  This section does not apply to this chemical.
+16  Tier D Procedures
+16. 1  This section does not apply to this chemical.
+
+
+
+SEMI C41-0705 © SEMI 1978, 2005 7
+Table 1  Impurity Limits and Other Requirements for 2-Propanol
+Previous SEMI Reference # C1.15-96 C7.7-93 C11.7-0698 C8.7-92 -
+Grade 1 Grade 2 VLSI Grade Grade 3 Grade 4
+(Specification)                              (Specification)                              (Guideline)                              (Specification)                              (Specification)
+Assay (CH
+3
+CHOHCH
+3
+) 99.5% min 99.8% min 99.7% min 99.8% min 99.8% min
+Color  (APHA) 10 max 10 max 10 max 10 max 10 max
+Residue after Evaporation 5 ppm max 5 ppm max
+
+5 ppm max 5 ppm max
+
+5 ppm max
+
+Resistivity  - - 15 MegOhm cm min- -
+Solubility in Water To pass test - - - -
+Chloride (Cl) 0.2 ppm max 200 ppb max 0.2 ppm max 50 ppb max 50 ppb max
+Nitrate (NO
+3
+) - - - 50 ppb max 50 ppb max
+Phosphate (PO
+4
+) 0.5 ppm max 500 ppb max 0.5 ppm max 50 ppb max 50 ppb max
+Sulfate (SO
+4
+) - - 1 ppm max 50 ppb max 50 ppb max
+Aldehydes and Ketones  (as
+CH
+3
+COCH
+3
+)
+- - 100 ppm max - -
+Water (H
+2
+O) 0.05% max 0.05% max 0.05% max 0.05% max 0.05% max
+Acidity 0.2 μeq/g max - 0.2 μeq/g max - -
+Alkalinity 0.1 μeq/g max - 0.1 μeq/g max - -
+Aluminum (Al) 0.1 ppm max 10 ppb max 0.05 ppm max 1 ppb max 100 ppt max
+Antimony (Sb) - - 0.01 ppm max 1 ppb max 100 ppt max
+Arsenic (As) - - 0.01 ppm max 1 ppb max 100 ppt max
+Arsenic and Antimony  (as As) 0.01 ppm max 10 ppb max - - -
+Barium (Ba) - 10 ppb max 0.02 ppm max 1 ppb max 100 ppt max
+Beryllium (Be) - 10 ppb max 0.01 ppm max - -
+Bismuth (Bi) - 10 ppb max 0.02 ppm max - -
+Boron (B) 0.01 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Cadmium (Cd) - 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Calcium (Ca) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Chromium (Cr) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Cobalt (Co) - 10 ppb max 0.01 ppm max - -
+Copper (Cu) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Gallium (Ga) - 10 ppb max 0.01 ppm max - -
+Germanium (Ge) - 10 ppb max - - -
+Gold (Au) 0.1 ppm max 5 ppb max 0.02 ppm max - -
+Indium (In) - - 0.01 ppm max - -
+Iron (Fe) 0.1 ppm max 5 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Lead (Pb) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Lithium (Li) - 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Magnesium (Mg) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Manganese (Mn) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Molybdenum (Mo) - 10 ppb max 0.01 ppm max - -
+Nickel (Ni) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Niobium (Nb) - 10 ppb max - - -
+Platinum (Pt) - - 0.02 ppm max - -
+Potassium (K) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Silicon (Si) - - - - -
+Silver (Ag) - 5 ppb max 0.01 ppm max - -
+Sodium (Na) 0.1 ppm max 10 ppb max 0.1 ppm max 1 ppb max 100 ppt max
+
+
+SEMI C41-0705 © SEMI 1978, 2005 8
+Strontium (Sr) - 10 ppb max 0.01 ppm max - -
+Tantalum (Ta) - 10 ppb max - - -
+Thallium (Tl) - 10 ppb max 0.01 ppm max - -
+Tin (Sn) 0.1 ppm max 10 ppb max 0.02 ppm max 1 ppb max 100 ppt max
+Titanium (Ti) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Vanadium (V) - 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Zinc (Zn) 0.1 ppm max 10 ppb max 0.01 ppm max 1 ppb max 100 ppt max
+Zirconium (Zr) - 10 ppb max 0.01 ppm max - -
+Particles in bottles  (size,
+#/mL)
+#1                                         #1                                         #1                                         #1                                         #1
+#1
+Due to the limitations of current particle counters, particle size and number are to be agreed upon between supplier and user.  See SEMI C1,
+‘Calibration and Measurement Method for Particles in Liquids’.
+#2
+Residue after Evaporation - since no new analytical data is available at this time the specification level remains at Grade 2 level.
+#3
+Water (H
+2
+O) - since no new analytical data is available at this time the specification level remains at Grade 2 level.
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SODIUM HYDROXIDE PELLETSSEMI C42-0699 © SEMI 1978, 19991
+SEMI C42-0699
+SPECIFICATION FOR SODIUM HYDROXIDE PELLETS
+This  specification  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C1.22  in  its  entirety.    Originally  published  in
+1978.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  sodium  hydroxide  pellets  used  in  the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides  guidelines  for  grades  of  sodium  hydroxide
+pellets for which a need has been identified. In the case
+of  the  guidelines,  the  test  methods  may  not  have  been
+statistically validated yet.
+2  Scope
+2. 1  The scope of this document is  all grades of sodium
+hydroxide pellets used in the semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1 — Specifications for Reagents
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+6. 1  Not applicable.
+7  Requirements
+7. 1  The requirements for sodium h ydroxide pellets for
+Grade 1 are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  Assay — Weigh accurately 35  to 40 g of sample in
+a   closed   weighing   bottle.   Transfer   to   a   500   mL
+volumetric   flask,   dissolve   with   carbon   dioxide-free
+water,  cool  to  25°C,  dilute  to  the  mark  with  carbon
+dioxide-free  water,  and  mix  thoroughly.  Transfer  25
+mL  of  this  solution  to  a  500  mL  glass-stoppered  flask,
+dilute with 175 mL of carbon dioxide-free water, add 5
+mL  of  barium  chloride  reagent  solution,  shake,  and
+allow  to  stand  for  five  minutes.  Add  0.15  mL  of
+phenolphthalein  indicator  solution  and  titrate  with  1  N
+hydrochloric  acid.  (Save  this  solution  for  the  sodium
+carbonate test.)
+%Assay
+=
+mL
+×
+N
+of HCl
+×
+80. 00
+Weight of sample  g
+()
+8. 2   Sodium  Carbonate  (Na
+2
+CO
+3
+)  —   To  the  above
+titrated   solution,   add   0.15   mL   of   methyl   orange
+indicator    and    continue    the    titration    with    1    N
+hydrochloric   acid,   making   sure   that   no   insoluble
+carbonate  remains.  The  additional  hydrochloric  acid  is
+equivalent to that consumed by the sodium carbonate.
+% Na
+2
+CO
+3
+=
+mL
+×
+N
+of HCl
+×
+106. 00
+Weight of sample   g
+()
+8. 3   Ammonium  Hydroxide  Precipi tate  —  Weigh  10  g
+of  sample  and  dissolve  in  about  100  mL  of  water.
+Cautiously  add  15  mL  of  sulfuric  acid  to  15  mL  of
+water,  cool;  then  cautiously  add  the  mixture  to  the
+solution  of  the  sample,  and  evaporate  to  dense  fumes.
+Cool, dissolve the residue in 130 mL of hot water, and
+add ammonium hydroxide until the solution is just basic
+to  methyl  red.  Heat  to  boiling,  filter,  wash  with  hot
+water, and ignite. The weight of the residue should not
+exceed 2 mg.
+8. 4   Insoluble  Matter  —  Dissolve  5 0  g  of  sample  in
+250  mL  of  carbon  dioxide-free  water  in  a  500  mL
+stoppered flask and cool to 25° C. The solution should
+be  clear  and  colorless.  Filter  through  a  tared,  medium-
+porosity filtering crucible and wash thoroughly with hot
+water.  Dry  at  105°  C  for  1  hour,  cool,  and  weigh  the
+residue. The result of the residue should not exceed 2.5
+mg.
+8. 5  Stock Solution for 8.6-8.11, 8.1 3-8.14 —  Dissolve
+50 g of sample in 250 mL of carbon dioxide-free water
+and dilute with such water to 500 mL. One mL contains
+0. 10 g of sample. Store in a plastic container.
+8. 6   Nitrogen  Compounds  (as  N)  —   Dilute  20  mL  of
+the  Stock  Solution  with  50  mL  of  water  in  a  flask
+connected  through  a  spray  trap  to  a  condenser,  the  end
+of  which  dips  beneath  the  surface  of  10  mL  of  0.1  N
+hydrochloric  acid.  For  the  standard,  take  50  mL  of
+water  in  a  similar  flask,  and  add  10  mL  of  the  Stock
+Solution and 1 mL of the nitrogen standard solution. To
+each flask add 0.5 g of aluminum wire in small pieces,
+allow  to  stand  for  1  hour,  and  slowly  distill  about  35
+
+SEMI C42-0699 © SEMI 1978, 1999SODIUM HYDROXIDE PELLETS2
+mL. To each distillate, add 2 mL of freshly boiled 10%
+sodium hydroxide reagent solution, dilute with water to
+50 mL, and add 2 mL of Nessler reagent. Any color in
+the solution of the sample should not exceed that in the
+standard.
+8. 7   Chloride  —  Dilute  10  mL  of  t he  Stock  Solution
+with  water  to  100  mL.  Filter,  if  necessary,  through  a
+chloride-free filter. To 20 mL of this solution add 5 mL
+of water, 1 mL of nitric acid and 1 mL of silver nitrate
+reagent  solution.  Any  turbidity  developed  should  not
+exceed that produced by 0.01 mg of chloride ion (Cl) in
+an equal volume of solution containing the quantities of
+reagents used in the test.
+8. 8  Phosphate — To 40 mL of Sto ck Solution, add 10
+mL of hydrochloric acid and evaporate to dryness on a
+steam  bath.  Dissolve  the  residue  in  25  mL  of  0.5  N
+sulfuric  acid.  Add  1  mL  of  ammonium  molybdate
+reagent  solution  and  1  mL  of  p-(methylamino)phenol
+sulfate  reagent  solution.  Allow  to  stand  for  2  hours  at
+room temperature. Any blue color developed should not
+exceed  that  produced  when  0.02  mg  of  phosphate  ion
+(PO
+4
+) is treated as the sample.
+8. 9   Sulfate — To 20 mL of the Sto ck Solution, add 5
+mL of hydrochloric acid and evaporate to dryness on a
+steam bath. Dissolve the residue in 20 mL of water and
+evaporate  again  to  dryness.  Dissolve  the  residue  in  20
+mL of water, filter if necessary and add 1 mL of dilute
+hydrochloric acid (1 + 19) and 1 mL of barium chloride
+reagent  solution.  Allow  to  stand  for  10  minutes.  Any
+turbidity  developed  should  not  exceed  that  produced
+when  0.04  mg  of  sulfate  ion  (SO
+4
+)  is  treated  as  the
+sample.
+8. 10  Heavy Metals (as Ag) — To 60 mL of the Stock
+Solution,  cautiously  add  20  mL  of  nitric  acid.  For  the
+standard,  add  0.05  mg  of  silver  ion  (Ag)  to  10  mL  of
+the  Stock  Solution  and  cautiously  add  20  mL  of  nitric
+acid.  Evaporate  both  solutions  to  dryness  over  a  low
+flame  or  an  electric  hot  plate.  Dissolve  each  residue  in
+about  20  mL  of  water,  filter  if  necessary  through  a
+chloride-free  filter,  and  dilute  with  water  to  25  mL.
+Adjust  the  pH  of  the  standard  and  sample  solutions  to
+between  3  and  4  (using  a  pH  meter)  with  1  N  acetic
+acid  or  ammonium  hydroxide  (10%  NH
+3
+).  Dilute  each
+solution  with  water  to  40  mL  and  stir.  Add  10  mL  of
+freshly   prepared   hydrogen   sulfide   water   to   each
+solution  and  stir  again.  Any  color  developed  in  the
+sample should not exceed that in the standard.
+8. 11   Iron  —  Neutralize  10  mL  of  th e  Stock  Solution
+with  hydrochloric  acid  using  phenolphthalein  indicator
+solution,  add  2  mL  in  excess,  and  dilute  with  water  to
+50 mL. Add 30 to 50 mg of ammonium peroxydisulfate
+crystals  and  3  mL  of  ammonium  theiocyanate  reagent
+solution.  Any  red  color  developed  should  not  exceed
+that  produced  when  0.01  mg  of  iron  ion  (Fe)  is  treated
+as the sample.
+8. 12  Mercury — To each of two tho roughly clean 125
+mL conical flasks add 20 mL of water and 1 mL of 4%
+potassium  permanganate  solution.  To  one  add  5.5  g  of
+sample. To the other add 0.5 g of sample and 0.5 mg of
+mercury  ion  (Hg).  To  each  flask  slowly  add  18  mL  of
+hydrochloric   acid,   with   constant   swirling.   Heat   to
+boiling, allow to cool, and dilute to 100 mL. Determine
+mercury   in   10   mL   aliquots   by   the   cold   vapor
+(flameless)  atomic  absorption  method  using  1  mL  of
+10% hydroxylamine hydrochloride reagent solution and
+2 mL of 10% stannous chloride reagent solution for the
+reduction.  The  peak  obtained  with  the  sample  solution
+should  not  be  larger  than  that  of  the  standard  mercury
+solution.
+8. 13  Nickel  —  Dilute  20  mL  of  the   Stock  Solution  to
+50 mL with water and neutralize with hydrochloric acid
+using a pH meter. Dilute to 85 mL and add ammonium
+hydroxide to make the solution just basic (pH 8). Add 5
+mL   of   bromine   water,   5   mL   of   alcoholic   1%
+dimethylgyloxime  solution  in  alcohol,  and  5  mL  of
+10% sodium hydroxide reagent solution. Any red color
+developed  should  not  exceed  that  produced  when  0.02
+mg of nickel ion (Ni) is treated as the sample.
+8. 14  Potassium — Dilute 10 mL of  the Stock Solution
+with water to 100 mL to form the Sample Solution. To
+prepare the Standard Solution, add 0.2 mg of potassium
+ion (K) to 10 mL of the Stock Solution and dilute with
+water to 100 mL.
+8. 14.1   Using  flame  emission  spectros copy,  observe
+the  emission  of  the  Standard  Solution  at  the  767  nm
+potassium  line.  Observe  the  emission  of  the  Sample
+Solution  at  the  767  nm  potassium  line  and  also  at  a
+wavelength  of  750  nm.  The  difference  between  the
+intensities observed for the Sample Solution at 767 nm
+and  750  nm  should  not  exceed  the  difference  observed
+at  767  nm  between  the  Sample  Solution  and  Standard
+Solution  (see  SEMI  C1,  Section  3.7,  Flame  Emission
+Spectroscopy).
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+
+SEMI C42-0699 © SEMI 1978, 19993
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1  This section does not apply to  this chemical.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+Table 1  Impurity Limits and Other Requirements for Sodium Hydroxide Pellets
+Previous SEMI Reference #C1.22-95
+Grade 1
+(Specification)
+Assay (NaOH)97.0% min
+Sodium Carbonate (Na
+2
+CO
+3
+)0.5% max
+Ammonium Hydroxide Precipitate0.02% max
+Insoluble Matter50 ppm max
+Nitrogen Compounds (as N)10 ppm max
+Chloride (Cl)50 ppm max
+Phosphate (PO
+4
+)5 ppm max
+Sulfate (SO
+4
+)20 ppm max
+Heavy Metals (as Ag)10 ppm max
+Iron (Fe)10 ppm max
+Mercury (Hg)0.1 ppm max
+Nickel (Ni)10 ppm max
+Potassium (K)0.02% max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SODIUM HYDROXIDE, 50% SOLUTIONSEMI C43-0699 © SEMI 19991
+SEMI C43-0699
+SPECIFICATION FOR SODIUM HYDROXIDE, 50% SOLUTION
+This  specification  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to be published June 1999.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  50%  sodium  hydroxide  solution  used
+in the semiconductor industry and testing procedures to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides    guidelines    for    grades    of    50%    sodium
+hydroxide    solution    for    which    a    need    has    been
+identified.   In   the   case   of   the   guidelines,   the   test
+methods may not have been statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of  50%
+sodium  hydroxide  solution  used  in  the  semiconductor
+industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1  Specifications for Reagents
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+6. 1  Not applicable.
+7  Requirements
+7. 1    The   requirements   for   50%   sod ium   hydroxide
+solution for Grade 1 are listed in Table 1.
+8  Grade 1 Procedures
+NOTE  1:  Each  laboratory  is  responsible  for  verifying  the
+validity of the method within its own  operation.
+8. 1  Assay  Accurately weigh 70  to 80 g of sample in
+a   closed   weighing   bottle.      Transfer   to   a   500   mL
+volumetric  flask,  dilute  in  carbon  dioxide-free  water,
+cool  to  25°C,  dilute  to  the  mark  with  carbon  dioxide-
+free  water,  and  mix  thoroughly.    Transfer  25.0  mL  of
+this  solution  to  a  500  mL  glass-stoppered  flask,  dilute
+with 175 mL of carbon dioxide-free water, add 5 mL of
+barium  chloride  reagent  solution,  shake  and  allow  to
+stand    for    five    minutes.        Add    0.15    mL    of
+phenolphthalein   indicator   solution   and   titrate   with
+standardized 1 N hydrochloric acid. (Save this solution
+for the sodium carbonate test.)
+(g) Sample ofWeight
+80. 00  HCl of N  mL
+Assay  %
+××
+=
+8. 2    Sodium   Carbonate    To   the   a bove   titrated
+solution,  add  0.15  mL  of  methyl  orange  indicator  and
+continue   the   titration   with   1   N   hydrochloric   acid,
+making  sure  that  no  insoluble  carbonate  remains.    The
+additional   hydrochloric   acid   is   equivalent   to   that
+consumed by the sodium carbonate.
+(g) Sample ofWeight
+106. 0  HCl of N  mL
+CONa %
+32
+××
+=
+8. 3   Ammonium  Hydroxide  Precipi tate   Weigh  20  g
+of sample into 250 mL beaker and dissolve in about 100
+mL of water.
+8. 3.1  Cautiously add 15 mL of sulfu ric acid to 15 mL
+of water in a 100 mL glass beaker, cool; then cautiously
+add  the  mixture  to  the  solution  of  the  sample,  and
+evaporate to dense fumes.  Cool, dissolve the residue in
+130  mL  of  hot  water,  and  add  ammonium  hydroxide
+until the solution is just basic to methyl red.
+8. 3.2   Heat  to  boiling,  filter,  wash  wi th  hot  water  and
+ignite.  The  weight  of  the  residue  should  not  exceed  2
+mg.
+8. 4   Insoluble  Matter   Dilute  50   g  of  sample  in  250
+mL of carbon dioxide-free water in a 500 mL stoppered
+flask  and  cool  to  25°C.    The  solution  should  be  clear
+and  colorless.    Filter  through  a  tared,  medium  porosity
+filtering  crucible  and  wash  thoroughly  with  hot  water.
+Dry  the  crucible  at  105°C  for  1  hour,  cool  and  weigh
+the  residue.    The  weight  of  the  residue  should  not
+exceed 2.5 mg.
+8. 5  Stock  Solution  for  Sections  8.6   through  8.13 ―
+Add  50  g  of  sample  to  250  mL  of  carbon  dioxide-free
+water  and  dilute  with  such  water  to  500  mL.    One  mL
+contains 0.10 g of sample.  Store in a plastic container.
+8. 6   Nitrogen  Compounds  (as  N)    Dilute  30  mL  of
+the  stock  solution  with  50  mL  of  water  in  a  flask
+connected  through  a  spray  trap  to  a  condenser,  the  end
+of  which  dips  beneath  the  surface  of  10  mL  of  0.1  N
+
+SEMI C43-0699 © SEMI 1999SODIUM HYDROXIDE, 50% SOLUTION2
+hydrochloric  acid.    For  the  standard,  take  50  mL  of
+water  in  a  similar  flask,  and  add  10  mL  of  the  stock
+solution  and  1  mL  of  the  nitrogen  standard  solution
+(0.010mg N/ml).  To each flask add 0.5 g of aluminum
+wire in small pieces, and allow the solution to stand for
+1  hour.    Slowly  distill  to  about  35  mL  of  solution.    To
+each  distillate  add  2  mL  of  freshly  boiled  10%  sodium
+hydroxide reagent solution, dilute with water to 50 mL
+and  add  2  mL  of  Nessler  reagent.    Any  color  in  the
+solution  of  the  sample  should  not  exceed  that  in  the
+standard.
+8. 7   Chloride   Dilute  l0  mL  of  th e  stock  solution
+with  water  to  100  mL.  Filter,  if  necessary,  through  a
+chloride-free  filter.    To  25  mL  of  this  solution,  add  5
+mL  of  water,  1  mL  of  nitric  acid,  and  1  mL  of  silver
+nitrate   reagent   solution.      Any   turbidity   developed
+should not exceed that produced by 0.01 mg of chloride
+(CI)  ion  in  an  equal  volume  of  solution  containing  the
+quantities of reagent used in the test
+8. 8  Phosphate  To 40 mL of the  stock solution, add
+10 mL of hydrochloric acid and evaporate to dryness on
+a  steam  bath.    Dissolve  the  residue  in  25  mL  of  0.5  N
+sulfuric  acid.    Add  1  mL  of  ammonium  molybdate
+reagent  solution  and  l  mL  of  p-(methylamino)phenol
+sulfate reagent solution.  Allow the solution to stand for
+2 hours at room temperature.  Any blue color developed
+should  not  exceed  that  produced  when  0.02  mg  of
+phosphate (PO
+4
+) ion is treated as the sample.
+8. 9   Sulfate   To  40  mL  of  the  sto ck  solution,  add  5
+mL of hydrochloric acid and evaporate to dryness on a
+steam bath.  Dissolve the residue in 20 mL of water and
+evaporate  again  to  dryness.    Dissolve  the  residue  in  20
+mL of water, filter if necessary, and add 1 mL of dilute
+hydrochloric  acid  (1+19)  and  1  mL  of  barium  chloride
+reagent  solution.    Allow  the  solution  to  stand  for  10
+minutes.    Any  turbidity  developed  should  not  exceed
+that  produced  when  0.04  mg  of  sulfate  (SO
+4
+)  ion  is
+treated as the sample.
+8. 10   Heavy  Metals  (as  Ag)  To 60 mL of the stock
+solution  cautiously  add  20  mL  of  nitric  acid.    For  the
+standard add 0.05 mg of silver ion (Ag) to 10 mL of the
+stock solution and cautiously add 20 mL of nitric acid.
+Evaporate both solutions to dryness over a low flame or
+on an electric hot plate.  Dissolve each residue in about
+20  mL  of  water,  filter  if  necessary  through  a  chloride-
+free  filter,  and  dilute  with  water  to  25  mL.    Adjust  the
+pH  of  the  standard  and  sample  solutions  to  between  3
+and  4  (using  a  pH  meter)  with  1  N  acetic  acid  or
+ammonium hydroxide (10% NH
+3
+).  Dilute each solution
+with  water  to  40  mL  and  stir.    Add  10  mL  of  freshly
+prepared  hydrogen  sulfide  water  to  each  solution  and
+stir  again.    Any  color  developed  in  the  sample  should
+not exceed that in the standard.
+8. 11   Iron   Neutralize  20  mL  of  th e  stock  solution
+with    hydrochloric    acid,    using    a    phenolphthalein
+indicator  solution,  add  2  mL  of  HCI  in  excess,  and
+dilute  with  water  to  50  mL.    Add  30  to  50  mg  of
+ammonium   peroxydisulfate   crystals   and   3   mL   of
+ammonium thiocyanate reagent solution.  Any red color
+developed  should  not  exceed  that  produced  when  0.01
+mg of iron (Fe) ion is treated as the sample.
+8. 12   Nickel   Dilute  40  mL  of  the   stock  solution  to
+50 mL with water and neutralize with hydrochloric acid
+using a pH meter.  Dilute to 85 mL with water and add
+ammonium hydroxide to make the solution barely basic
+(pH  8).    Add  5  mL  of  bromine  water  and  5  mL  of
+alcoholic  1%  dimethylgy1oxime  solution  in  alcohol,
+and  5  mL  of  10%  sodium  hydroxide  reagent  solution.
+Any   red   color   developed   should   not   exceed   that
+produced when 0.02 mg of nickel (Ni) ion is treated as
+the sample.
+8. 13  Potassium  Dilute 10 mL of  the stock solution
+with water to 100 mL to form the sample solution.  To
+prepare the standard solution, add 0.1 mg of potassium
+(K)  ion  to  10  mL  of  the  stock  solution  and  dilute  with
+water to 100 mL.
+8. 13.1   Using  flame  emission  spectros copy,  observe
+the  emission  of  the  standard  solution  at  the  767  nm
+potassium  line.    Observe  the  emission  of  the  sample
+solution  at  the  767  nm  potassium  line  and  also  at  a
+wavelength  of  750  nm.    The  difference  between  the
+intensities observed for the Sample Solution at 767 nm
+and  750  nm  should  not  exceed  the  difference  observed
+at  767  nm  between  the  sample  solution  and  standard
+solution  (see  SEMI  Cl,  Section  3.7,  Flame  Emission
+Spectroscopy).
+9 Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1  This section does not apply to  this chemical.
+
+SEMI C43-0699 © SEMI 19993
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+Table 1  Impurity Limits and Other Requirements for Sodium Hydroxide, 50% Solution
+Previous SEMI Reference #--
+Grade 1
+(Specification)
+Assay (NaOH)50.0 - 52.0%
+Ammonium Hydroxide
+Precipitate
+0. 01% max
+Insoluble Matter50 ppm max
+Nitrogen Compounds (as N)5 ppm max
+Chloride (Cl)40 ppm max
+Phosphate (PO
+4
+)5 ppm max
+Sodium Carbonate (Na
+2
+CO
+3
+)0.1% max
+Sulfate (SO
+4
+)10 ppm max
+Heavy Metals (as Ag)10 ppm max
+Iron (Fe)5 ppm max
+Nickel (Ni)5 ppm max
+Potassium (K)0.01% max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SULFURIC ACIDSEMI C44-0301 © SEMI 1978, 20011
+SEMI C44-0301
+SPECIFICATIONS AND GUIDELINES FOR SULFURIC ACID
+These specifications and guidelines were technically approved by the Global Process Chemicals Committee
+and  are  the  direct  responsibility  of  the  North  American  Process  Chemicals  Committee.    Current  edition
+approved by the North American Regional Standards Committee on October 17, 1999.  Initially available at
+www.semi.org  February  2001;  to  be  published  March  2001.    This  document  replaces  SEMI  C1.16,  C7.8,
+C8.8,  and  C11.5  in  their  entirety.    Originally  published  in  1978,  1990,  1992,  and  1994  respectively;
+previously published October 2000.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements     for     sulfuric     acid     used     in     the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides guidelines for grades of sulfuric acid for which
+a need has been identified. In the case of the guidelines,
+the   test   methods   may   not   have   been   statistically
+validated yet.
+2  Scope
+2. 1  The scope of this document is  all grades of sulfuric
+acid used in the semiconductor industry.
+2. 2   The  VLSI  grade  purity  level  is   typically  required
+by  semiconductor  devices  with  geometries  of  0.8–1.2
+microns.
+2. 3   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1  None.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI C1 — Specifications for Reagents
+4. 2  ASTM Standards
+1
+ASTM D5127 — Standard Guide for Ultra Pure Water
+Used in the Electronics and Semiconductor Industry
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, Pennsylvania 19428-2959, USA.
+Telephone: 610.832.9585, Fax: 610.832.9555. Website:
+www.astm.org
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+Density at 25°C
+1. 83 g/mL
+7  Requirements
+7. 1   The  requirements  for  sulfuric  a cid  for  Grades  1
+and  2,  VLSI  Grade,  and  Tiers  B  and  C  are  listed  in
+Table 1.
+8  Grade 1 Procedures
+NOTE 2: Each  laboratory  is  responsible  for  verifying  the
+validity of the method within its own operation.
+8. 1   Assay  —  Accurately  weigh  1  m L  of  sample  in  a
+small  glass-stoppered  conical  flask.  Cautiously  add  30
+mL  of  water,  cool,  add  0.1  mL  of  methyl  orange
+indicator  solution,  and  titrate  with  standardized  1.0  N
+sodium hydroxide to a red to yellow color change.
+%Assay
+=
+mL
+×
+N
+of NaOH
+×
+4. 904
+Weight of sample   g()
+8. 2   Color  —  Dilute  2.0  mL  of  plat inum-cobalt  stock
+solution  (APHA  No.  500)  to  100  mL  with  water.
+Compare this standard (APHA No. 10) with 100 mL of
+sample  in  Nessler  tubes.  View  vertically  over  a  white
+background.  The  sample  must  be  no  darker  than  the
+standard.
+8. 3   Chloride  —  Place  40  mL  of  w ater  in  each  of  two
+beakers. To one, add carefully 27 mL (50 g) of sample
+and to the other, 27 mL (50 g) of chloride-free sulfuric
+acid  and  0.005  mg  of  chloride  ion  (Cl).  Cool  to  room
+temperature  and  add  1  mL  of  nitric  acid  and  1  mL  of
+silver  nitrate  reagent  solution.  Mix  well;  if  necessary,
+make  the  volume  of  each  solution  identical  by  adding
+water.  After  10  minutes,  measure  the  turbidity  of  each
+solution using a suitable nephelometer. The turbidity in
+the sample should be no greater than the standard.
+NOTE 3: Prepare  chloride-free  sulfuric  acid  in  a  hood  by
+gently fuming sulfuric acid in a crucible or dish for at least 30
+
+SEMI C44-0301 © SEMI 1978, 2001SULFURIC ACID2
+minutes. Cool and transfer to a tightly-capped glass bottle for
+storage.
+8. 4  Nitrate — Prepare the followin g solutions:
+Sample Solution A:  Cautiously add 27 mL (50 g) of sample
+to 1.0 mL of water, dilute to 50 mL with
+brucine sulfate reagent solution and
+mix.
+Control Solution B:  Cautiously add 27 mL (50 g) of sample
+to 1.0 mL of the standard nitrate
+solution containing 0.01 mg of nitrate
+ion (NO
+3
+) per mL, dilute to 50 mL with
+brucine sulfate reagent solution and
+mix.
+Blank Solution C:Use 50 mL of brucine sulfate reagent
+solution.
+8. 4.1   Heat  the  three  solutions  in  a  pr eheated  (boiling)
+water bath for 10 minutes. Cool rapidly in an ice bath to
+room  temperature.  Set  a  photometer  at  410  nm  and,
+using  1-cm  cells,  adjust  the  instrument  to  read  zero
+absorbance with Blank Solution C in the light path, then
+determine the absorbance of Sample Solution A. Adjust
+the  instrument  to  read  zero  absorbance  with  Sample
+Solution   A   in   the   light   path   and   determine   the
+absorbance  of  Control  Solution  B.  The  absorbance  of
+Sample  Solution  A  should  be  no  greater  than  that
+Control Solution B.
+8. 5   Phosphate  —  Evaporate  11  m L  (20  g)  of  sample
+to  dryness  in  a  platinum  dish  in  a  hood.  Dissolve  the
+residue  in  25  mL  of  0.5  N  sulfuric  acid.  Add  1  mL  of
+ammonium  molybdate  reagent  solution  and  1  mL  p-
+(methylamino)phenol sulfate reagent solution. Allow to
+stand  at  room  temperature  for  2  hours.  Any  blue  color
+produced should be no greater than that produced when
+0. 01 mg of phosphate ion (PO
+4
+) is treated as the sample.
+8. 6  Arsenic and Antimony (as As)  — To 109 mL (200
+g)  of  sample  in  a  beaker,  add  5  mL  of  nitric  acid  and
+evaporate  to  about  10  mL  in  a  hood.  Cool.  Cautiously
+add  10  mL  of  water,  and  again  evaporate  to  about  5
+mL.  Cool,  and  cautiously  wash  into  a  generator  flask
+with  water  to  make  a  volume  of  35  mL.  Proceed  as
+described    in    General    Method    for    Arsenic    (and
+Antimony) under SEMI C1, Section 3.4.5, starting with
+the  first  sentence  which  begins:  “Swirl  the  flask...”
+Any   red   color   in   the   silver   diethyldithiocarbamate
+solution from the sample should be no greater than that
+of the standard containing 0.001 mg of arsenic (As).
+8. 7  Trace Metal Analysis
+8. 7.1    Gold   (Au)   —   Analyze   by   grap hite   atomic
+absorption   using   the   manufacturer's   recommended
+procedure.  This  technique  has  been  shown  to  give
+satisfactory  results  using  a  1:4  dilution  and  Zeeman
+background correction. Each laboratory must determine
+the  appropriate  dilution  and  background  correction  for
+its instrument to meet the specification limit.
+8. 7.2   The  following  method  has  giv en  satisfactory
+results  in  determining  trace  metal  impurities  at  the
+value  specified  for  each  of  the  following  trace  metals:
+aluminum  (Al),  boron  (B),  calcium  (Ca),  chromium
+(Cr),  copper  (Cu),  iron  (Fe),  lead  (Pb),  magnesium
+(Mg),  manganese  (Mn),  nickel  (Ni),  potassium  (K),
+sodium  (Na),  tin  (Sn),  titanium  (Ti),  and  zinc  (Zn).
+Alternate  methods  may  be  used  as  long  as  appropriate
+studies  demonstrate  recovery  between  75–125%  of  a
+known  sample  spike  for  half  of  the  value  of  each
+specified item.
+8. 7.3  Special Reagents
+8. 7.3.1   Water  —   The  water  used  for  a ll  the  dilution,
+calibration and standards should meet at a minimum the
+criteria  for  Type  E1.1  in  ASTM  D5127  in  regard  to
+cation analysis.
+8. 7.3.2   Indium  Internal  Standard  —  Make  up  the
+indium  intenal  standard  solution  to  a  concentration  of
+20  μg/mL  (ppm)  from  the  appropriate  concentrated
+indium standard solution.
+8. 7.3.3    Nitric   Acid,   Ultrapure   —    Use   nitric   acid
+specified for ultra low metal ion content.
+8. 7.3.4   1%  Nitric  Acid  Solution  —   Dil ute  10  mL  of
+ultrapure  nitric  acid  to  1  L  using  water  meeting  the
+criteria for Type E1.1 in ASTM D5127.
+8. 7.3.5   2%  Nitric  Acid  Solution  —   Dil ute  20  mL  of
+ultrapure  nitric  acid  to  1  L  using  water  meeting  the
+criteria for Type E1.1 in ASTM D5127.
+8. 7.3.6     Hydrochloric    Acid,    Ultrapure    —    Use
+hydrochloric  acid  specified  for  ultra  low  metal  ion
+content.
+8. 7.3.7   2%  Hydrochloric  Acid  Solutio n  —  Dilute  20
+mL  of  ultra-pure  hydrochloric  acid  to  1  L  using  water
+meeting the criteria for Type E1.1 in ASTM D5127.
+8. 7.4  Sample Preparation
+8. 7.4.1  Boron —  In a clean environme nt, dilute 1.00 g
+sample  with  15.0  g  of  Type  E1.1  water  and  add  15  μL
+of the indium internal standard. Run a reagent blank.
+8. 7.4.2   Tin  —   In  a  clean  environment,   place  100  g  of
+sulfuric  acid  in  a  quartz  crucible.  Slowly  evaporate  to
+dryness  on  a  hot  plate  avoiding  loss  of  sample  by
+effervescence  or  spattering.  Cool.  Add  2  mL  of  high
+purity  12  M  hydrochloric  acid  and  10  mL  of  water.
+Cover, and digest on the hot plate for 10 minutes. Cool.
+Transfer  quantitatively  to  a  50  mL  volumetric  flask
+using  water  for  rinsing  and  dilution  to  volume.  Run  a
+reagent blank.
+
+SULFURIC ACIDSEMI C44-0301 © SEMI 1978, 20013
+8. 7.5   All  Other  Elements  —   In  a  clea n  environment,
+place 100 g of sulfuric acid in a quartz crucible. Slowly
+evaporate  on  a  hot  plate  avoiding  loss  of  sample  by
+effervescence or spattering until approximately 2 mL of
+liquid  remains.  Cool.  Add  carefully,  1  mL  of  high
+purity,  70%  nitric  acid.  While  maintaining  volume,
+carefully warm several minutes to dissolve any residue.
+Cool.  Transfer  quantitatively  to  a  50  mL  volumetric
+flask  using  2%  nitric  acid  and  dilute  to  volume.  Run  a
+reagent blank.
+8. 7.6   Analysis  —   Using  the  prepared   solutions  and
+blanks,  analyze  boron  by  inductively  coupled  plasma
+mass  spectrometry  (ICP/MS).  Using  the  acid  sample
+and  reagent  blank,  analyze  group  I  elements  by  flame
+atomic   absorption   spectroscopy.   Analyze   all   other
+elements by plasma emission spectroscopy.
+NOTE 4: Analysis  of  dilute  sulfuric  acid  can  produce  rapid
+corrosion  of  nickel  cones  commonly  used  in  inductively
+coupled plasma mass spectrometry, platinum cones should be
+considered as alternative when performing this analysis.
+9  Grade 2 Procedures
+NOTE 5: Each  laboratory  is  responsible  for  verifying  the
+validity of the method within its own operation.
+9. 1   Non-Metal  Impurities  —  See  S ection  8,  which
+contains procedures for the following tests:
+Assay
+Color (APHA)
+Chloride
+Nitrate
+Phosphate
+9. 2  Trace Metals Analysis
+9. 2.1   The  following  method  has  giv en  satisfactory
+results in determining metal ion impurities at the values
+specified  for  each  of  the  following  metals:  aluminum
+(Al),   antimony   (Sb),   arsenic   (As),   barium   (Ba),
+beryllium  (Be),  bismuth  (Bi),  boron  (B),  calcium  (Ca),
+chromium (Cr), cobalt (Co), copper (Cu), gallium (Ga),
+germanium   (Ge),   gold   (Au),   iron   (Fe),   lead   (Pb),
+lithium   (Li),   magnesium   (Mg),   manganese   (Mn),
+molybdenum    (Mo),    nickel    (Ni),    niobium    (Nb),
+potassium (K), silver (Ag), sodium (Na), strontium (Sr),
+tantalum  (Ta),  tin  (Sn),  titanium  (Ti),  vanadium  (V),
+zinc  (Zn),  and  zirconium  (Zr).  Alternate  methods  may
+be  used  as  long  as  appropriate  studies  demonstrate  a
+recovery  between  75–125%  of  a  known  sample  spike
+for half of the value of each specified element.
+9. 2.2  Special Reagents
+9. 2.2.1    Nitric   Acid,   Ultrapure   —   Use    nitric   acid
+specified for low metal ion content.
+9. 2.2.2   1%  Nitric  Acid  Solution  —  Di lute  10  mL  of
+ultrapure  nitric  acid  to  1  L  using  water  meeting  the
+criteria for Type E1.1 in ASTM D5127.
+9. 2.2.3   Water  —  The  water  used  for  a ll  the  dilution,
+calibration and standards should meet at a minimum the
+criteria  for  Type  E1.1  in  ASTM  D5127  in  regard  to
+cation analysis.
+9. 2.2.4   Indium  Internal  Standard  —  M ake  up  the
+indium  intenal  standard  solution  to  a  concentration  of
+20 μg/mL  (ppm)  from  the  appropriate  concentrated
+indium standard solution.
+9. 2.3  Sample Preparation
+9. 2.3.1     Chromium,    Cobalt,    Lithium,    M anganese,
+Nickel,  Titanium,  Vanadium,  and  Zinc  —  In  a  clean
+environment, place 1.00 g of sample into a clean quartz
+dish.   Slowly   evaporate   on   a   hot   plate   to   dryness
+avoiding loss of sample by effervescence or spattering.
+Dissolve  the  residue  with  5  mL  of  the  1%  nitric  acid
+solution by heating on a hot plate at low temperature for
+several minutes. Cool to room temperature, dilute to 15
+mL  with  1%  nitric  acid,  add  15  μL  of  the  indium
+internal standard, mix well. Run a reagent blank.
+9. 2.3.2  All Other Elements — In a cle an environment,
+dilute  1.00  g  sample  with  15.0  g  of  Type  E1.1  water
+and  add  15  μL  of  the  indium  internal  standard.  Run  a
+reagent blank.
+9. 2.4  Analysis
+9. 2.4.1    Using   the   prepared   solutions   a nd   blanks,
+analyze   sodium,   potassium,   calcium   and   iron   by
+graphite  furnace  atomic  absorption  (GFAA)  and  the
+remaining   elements   by   inductively   coupled   plasma
+mass   spectrometry   (ICP/MS).   For   calibration,   the
+standards  are  made  up  with  the  1%  nitric  acid  solution
+and  the  indium  internal  standard  such  that  the  final
+indium   concentration   is   20   ng/g.   For   boron   and
+tantalum,  the  standards  for  calibration  must  be  matrix
+matched with equal amounts of sulfuric acid certified to
+have both elements below 1 μg/mL in the concentrated
+acid.
+NOTE 6: Analysis  of  dilute  sulfuric  acid  can  produce  rapid
+corrosion  of  nickel  cones  commonly  used  in  inductively
+coupled plasma mass spectrometry, platinum cones should be
+considered as alternative when performing this analysis.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+
+SEMI C44-0301 © SEMI 1978, 2001SULFURIC ACID4
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1   Specific  procedures  for  this  gr ade  do  not  exist.
+Refer to Sections 8 and 9 for available procedures.
+14  Tier A Procedures
+14. 1  This section does not apply to  this chemical.
+15  Tier B Procedures
+15. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The   Chemical   Reagent   Committee   considers   a   test
+method  to  be  valid  only  if  there  is  a  documented
+recovery   study   showing   a   recovery   of   75–125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+16  Tier C Procedures
+16. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.      The
+Process  Chemicals  Committee  considers  a  test  method
+to  be  valid  if  there  is  a  documented  recovery  study
+showing  a  recovery  of  75–125%.    Recovery  is  for  a
+known sample spike at 50% of the specified level.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+Table 1  Impurity Limits and Other Requirements for Sulfuric Acid
+Previous SEMI Reference #C1.16-96C7.8-94C11.5-94C8.8-92
+Grade 1Grade 2VLSI GradeTier BTier C
+(Specification)(Specification)(Guideline)(Guideline)(Guideline)
+Assay (H
+2
+SO
+4
+)95.0–97.0%95.0–97.0 %95.0–97.0%95.0–97.0%95.0–97.0%
+Color (APHA)10 max10 max10 max10 max10 max
+Residue after Ignition----3 ppm max----
+Chloride (Cl)0.1 ppm max100 ppb max0.1 ppm max50 ppb max50 ppb max
+Nitrate (NO
+3
+)0.2 ppm max200 ppb max0.2 ppm max100 ppb max100 ppb max
+Phosphate (PO
+4
+)0.5 ppm max500 ppb max0.5 ppm max100 ppb max100 ppb max
+Matters Reducing KMnO
+4
+(as O)
+----2 ppm max----
+Aluminum (Al)0.2 ppm max10 ppb max0.02 ppm max1 ppb max100 ppt max
+Ammonium (NH4)----1 ppm max----
+Antimony (Sb)--5 ppb max--1 ppb max100 ppt max
+Arsenic (As)--10 ppb max--1 ppb max100 ppt max
+Arsenic and Antimony (as As)    0.005 ppm max--0.01 ppm max----
+Barium (Ba)--10 ppb max0.01 ppm max1 ppb max100 ppt max
+Beryllium (Be)--10 ppb max0.01 ppm max1 ppb max--
+Bismuth (Bi)--10 ppb max0.05 ppm max1 ppb max--
+Boron (B)0.02 ppm max20 ppb max0.02 ppm max1 ppb max100 ppt max
+Cadmium (Cd)--10 ppb max0.01 ppm max1 ppb max--
+Calcium (Ca)0.3 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Chromium (Cr)0.2 ppm max10 ppb max0.01 ppm max1 ppb max100 ppt max
+Cobalt (Co)--5 ppb max0.01 ppm max1 ppb max--
+Copper (Cu)0.1 ppm max10 ppb max0.01 ppm max1 ppb max100 ppt max
+Gallium (Ga)--10 ppb max0.01 ppm max1 ppb max--
+Germanium (Ge)--10 ppb max0.01 ppm max1 ppb max--
+Gold (Au)0.3 ppm max5 ppb max0.02 ppm max1 ppb max--
+Indium (In)----0.01 ppm max----
+Iron (Fe)0.2 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Lead (Pb)0.3 ppm max10 ppb max0.01 ppm max1 ppb max100 ppt max
+Lithium (Li)--10 ppb max0.01 ppm max1 ppb max--
+
+SULFURIC ACIDSEMI C44-0301 © SEMI 1978, 20015
+Previous SEMI Reference #C1.16-96C7.8-94C11.5-94C8.8-92
+Grade 1Grade 2VLSI GradeTier BTier C
+(Specification)(Specification)(Guideline)(Guideline)(Guideline)
+Magnesium (Mg)0.3 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Manganese (Mn)0.2 ppm max10 ppb max0.01 ppm max1 ppb max100 ppt max
+Molybdenum (Mo)--10 ppb max0.02 ppm max1 ppb max--
+Nickel (Ni)0.1 ppm max10 ppb max0.01 ppm max1 ppb max100 ppt max
+Niobium (Nb)--10 ppb max--1 ppb max--
+Platinum (Pt)----0.05 ppm max----
+Potassium (K)0.3 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Silicon (Si)------1 ppb max--
+Silver (Ag)--10 ppb max0.01 ppm max1 ppb max--
+Sodium (Na)0.3 ppm max10 ppb max0.1 ppm max1 ppb max100 ppt max
+Strontium (Sr)--10 ppb max0.02 ppm max1 ppb max--
+Tantalum (Ta)--10 ppb max--1 ppb max--
+Thallium (Tl)--10 ppb max0.05 ppm max1 ppb max--
+Tin (Sn)0.2 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Titanium (Ti)0.3 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Vanadium (V)--10 ppb max0.01 ppm max1 ppb max--
+Zinc (Zn)0.2 ppm max10 ppb max0.05 ppm max1 ppb max100 ppt max
+Zirconium (Zr)--10 ppb max0.05 ppm max1 ppb max--
+Particles in bottles
+(size, #/mL)
+≥ 1.0 μm, 25 max≥ 0.5 μm, 25 max≥ 0.5 μm, 250 max
+(See NOTE 1.)   (See NOTE 1.)
+NOTE  1:  Due  to  the  limitations  of  current  particle  counters,  particle  size  and  number  are  to  be  agreed  upon  between  supplier  and  user.      See
+SEMI C1, Section 3.9 for particle counting methodology.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standard set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+TETRAETHYLORTHOSIILICATE (TEOS)SEMI C45-0301 © SEMI 1991, 20011
+SEMI C45-0301
+SPECIFICATION AND GUIDELINE FOR TETRAETHYLORTHOSILICATE
+(TEOS)
+This specification and this guideline were technically approved by the Global Process Chemicals Committee
+and  are  the  direct  responsibility  of  the  North  American  Process  Chemicals  Committee.    Current  edition
+approved by the North American Regional Standards Committee on October 17, 1999.  Initially available at
+www.semi.org  February  2001;  to  be  published  March  2001.    This  document  replaces  SEMI  C7.13  in  its
+entirety.  Originally published in 1991; previously published June 1999.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements   for   tetraethylorthosilicate   used   in   the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides  guidelines  for  grades  of  tetraethylorthosilicate
+for which a need has been identified. In the case of the
+guidelines,   the   test   methods   may   not   have   been
+statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of
+tetraethylorthosilicate    used    in    the    semiconductor
+industry.
+2. 2   These  standards  do  not  purpor t  to  address  safety
+issues,  if  any,  associated  with  their  use.    It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1  None.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI C1  Specifications for Reagents
+4. 2  ASTM Standards
+1
+ASTM D5127 — Standard Guide for Ultra Pure Water
+Used in the Electronics and Semiconductor Industry
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1  None.
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, Pennsylvania 19428-2959, USA.
+Telephone: 610.832.9585, Fax: 610.832.9555. Website:
+www.astm.org
+6  Physical Property (for info rmation only)
+6. 1  Not applicable.
+7  Requirements
+7. 1   The  requirements  for  tetraethy lorthosilicate  for
+Grade 1 and Tier A are listed in Table 1.
+8  Grade 1 Procedures
+NOTE 2: Each  laboratory  is  responsible  for  verifying  the
+validity of the method within its own  operation.
+8. 1     Assay        Analyze    the    sample    b y    gas
+chromatography (see SEMI C1, Section 3.1, Guidelines
+for      Assay      by      Wide      Bore      Column      Gas
+Chromatography).   The   parameters   cited   have   given
+satisfactory results.
+8. 1.1   Column   30  meter  x  530  mic ron  fused  silica
+capillary,   coated   with   5   micron   film   of   DB-1   or
+equivalent   (100%   methyl   silicone   which   has   been
+surface bonded and cross linked).
+8. 1.2   Column  Temperature   60°C  isothermal  for  1
+minute, then programmed to 200°C at 20°C/min.
+Injector Temperature:120°C
+Detector Temperature:
+260°C
+Sample Size:1 μL splitless
+Carrier Gas:Helium at 3 mL/min
+Detector:Thermal Conductivity
+Retention Times (min)
+Water2.0
+Ethanol2.5
+TEOS7.8
+8. 2   Color    Dilute  1.0  mL  of  plat inum-cobalt  stock
+solution  (APHA  No.  500)  to  100  mL  with  water.
+Compare  this  standard  (APHA  No.  5)  with  100  mL  of
+sample  in  Nessler  tubes.  View  vertically  over  a  white
+background.  The  sample  must  be  no  darker  than  the
+standard.
+8. 3  Water   The  cell  is  dried  with   a  dry  nitrogen  gas
+stream  for  twenty  minutes.  Reagents  are  added  and  a
+blank (no sample) is run. Add 5 g of sample to the dry
+
+SEMI C45-0301 © SEMI 1991, 2001TETRAETHYLORTHOSIILICATE (TEOS)2
+Coulometric  Karl  Fischer  water  analyzer.    Results  are
+obtained  in  ppm  by  dividing  the  micrograms  of  water
+found in the sample by weight of TEOS in grams.
+8. 4   Trace  Metals  Analysis The  f ollowing  method
+has given satisfactory results in determining trace metal
+impurities   at   the   specified   value   for   each   of   the
+following  trace  metals:  aluminum  (Al),  arsenic  (As),
+calcium (Ca), chromium (Cr), copper (Cu), iron (Fe), lead
+(Pb),  magnesium  (Mg),  manganese  (Mn),  nickel  (Ni),
+potassium  (K),  sodium  (Na),  tin  (Sn),  titanium  (Ti),  and
+zinc  (Zn).    Alternate  methods  may  be  used  as  long  as
+appropriate  studies  demonstrate  recovery  between  75–
+125%  of  a  known  sample  spike  for  half  of  the  value  of
+each specified item.
+8. 4.1  Special Reagents  All water  used in the Trace
+metals   Analysis and Boron   Analysis should be a
+deionized  water  meeting  the  criteria  for  Type  E1.1  in
+ASTM D5127.
+8. 4.1.1  Mixed Acid  1% HF - 2% H NO
+3
+prepared by
+dilution  of  ultra  pure  acids  with  appropriate  weights  of
+deionized water.
+8. 4.1.2   Standards
+ Composite  stand ard  solutions
+containing  0,  1,  2,  and  4  ppb  multi-element  standards
+are prepared by diluting with mixed acid of appropriate
+weights   for   ICP-MS.   Single-element   standards   are
+prepared (Ca, Fe, K, Na) for GFAA.
+8. 4.2   Sample  Preparation    In  a  cl ean  environment,
+place  100  g  of  sample  in  a  clean  PFA  Teflon  closed
+bottle   equipped   with   an   inlet   and   outlet   tube   and
+evaporate   under   a   nitrogen   purge   at   approximately
+110°C.    When  dry,  close  the  inlet  and  the  outlet  tube
+and  digest  the  residue  at  100°C  for  30  minutes  with  7
+mL of mixed acid solution.  Cool and transfer the con-
+tents  with  deionized  water.    Dilute  the  transferred  con-
+tents with deionized water to a final volume of 14 mL.
+8. 4.3   Analysis    Analyze  the  samp les  by  graphite
+furnace    atomic    absorption    (GFAA)    for    sodium,
+calcium,  potassium,  and  iron.    Analyze  the  sample  for
+all   other   metallic   elements   by   inductively   coupled
+plasma mass spectrometry (ICP-MS).
+8. 5  Boron  Analysis   The  follow ing  method  has
+given  satisfactory  results  in  the  determination  of  trace
+levels  of  boron  (B).  Alternate  methods  may  be  used  as
+long   as   appropriate   studies   demonstrate   recovery
+between 75–125% of a known sample spike for half of
+the specified value.
+8. 5.1  Standard  Standards of 0, 2,  and 4 ppm boron
+are  prepared  by  dilution  of  an  aqueous  boron  stock
+solution  with  deionized  water  meeting  the  criteria  for
+Type E1.1 in ASTM D5127.
+8. 5.2  Sample Preparation  A 100  g sample of TEOS
+is  extracted  with  10  mL  of  deionized  water,  that  meets
+the   criteria   for   Type   E1.1   in   ASTM   D5127,   by
+vigorously  shaking  the  solution  for  minimum  of  10
+minutes  on  a  mechanical  shaker.    Allow  the  layers  to
+separate  and  remove  the  aqueous  portion  to  a  separate
+container.
+8. 5.3  Analysis  The 10 mL water  extract is analyzed
+for   boron   by   inductively   coupled   plasma   atomic
+emission spectroscopy (ICP-AES) at 249.68 nm.
+9 Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The   Chemical   Reagent   Committee   considers   a   test
+method  to  be  valid  only  if  there  is  a  documented
+recovery   study   showing   a   recovery   of   75–125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+TETRAETHYLORTHOSIILICATE (TEOS)SEMI C45-0301 © SEMI 1991, 20013
+Table 1  Impurity Limits and Other Requirements for Tetraethylorthosilicate
+Previous SEMI Reference #--C7.13-95
+Grade 1Tier A
+(Specification)(Guideline)
+Assay99.99% min99.99% min
+Water (see NOTE 1)20 ppm max20 ppm max
+Color APHA5 max5 max
+Aluminum (Al)1 ppb max1 ppb max
+Arsenic (As)1 ppb max1 ppb max
+Barium (Ba)--1 ppb max
+Bismuth (Bi)--1 ppb max
+Boron (B)10 ppb max10 ppb max
+Calcium (Ca)1 ppb max1 ppb max
+Chromium (Cr)1 ppb max1 ppb max
+Cobalt (Co)--1 ppb max
+Copper (Cu)1 ppb max1 ppb max
+Gallium (Ga)--1 ppb max
+Gold (Au)--1 ppb max
+Iron (Fe)1 ppb max1 ppb max
+Lead (Pb)1 ppb max1 ppb max
+Lithium (Li)--1 ppb max
+Magnesium (Mg)1 ppb max1 ppb max
+Manganese (Mn)1 ppb max1 ppb max
+Mercury (Hg)--1 ppb max
+Nickel (Ni)1 ppb max1 ppb max
+Potassium  (K)1 ppb max1 ppb max
+Silver (Ag)--1 ppb max
+Sodium (Na)1 ppb max1 ppb max
+Strontium (Sr)--1 ppb max
+Tin (Sn)1 ppb max1 ppb max
+Titanium (Ti)1 ppb max1 ppb max
+Zinc (Zn)1 ppb max1 ppb max
+Particles in bottles:
+size, #/mL
+≥ 0.3 μm, 50 max≥ 0.3 μm, 50 max
+NOTE 1: Chemical Property: Water reacts with TEOS to form Ethanol.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein.  These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+25% TETRAMETHYLAMMONIUM HYDROXIDESEMI C46-0699 © SEMI 1991, 19991
+SEMI C46-0699
+GUIDELINE FOR 25% TETRAMETHYLAMMONIUM HYDROXIDE
+This  guideline  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C7.14  in  its  entirety.    Originally  published  in
+1991.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements for 25% tetramethylammonium hydroxide
+used    in    the    semiconductor    industry    and    testing
+procedures  to  support  those  standards.  Test  methods
+have been shown to give statistically valid results. This
+document  also  provides  guidelines  for  grades  of  25%
+tetramethylammonium  hydroxide  for  which  a  need  has
+been  identified.  In  the  case  of  the  guidelines,  the  test
+methods may not have been statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of  25%
+tetramethylammonium      hydroxide      used      in      the
+semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+4. 1  None.
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+Not applicable.
+7  Requirements
+7. 1   The  requirements  for  25%  tetr amethylammonium
+hydroxide for Tier A are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  This section does not apply to  this chemical.
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The  Process  Chemicals  Committee  considers  a  test
+method  to  be  valid  only  if  there  is  a  documented
+recovery  study  showing  a  recovery  of  75  -  125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+SEMI C46-0699 © SEMI 1991, 199925% TETRAMETHYLAMMONIUM HYDROXIDE2
+Table 1  Impurity Limits and Other Requirements for 25% Tetramethylammonium Hydroxide
+Previous SEMI Reference #C7.14-91
+Tier A
+(Guideline)
+Assay (wt %)25.0 ± 0.1
+Carbonate (as CO
+3
+2)300 ppb max
+Total Halides (as Cl
+-1
+)5 ppb max
+Color (APHA)10 max
+Aluminum (Al)10 ppb max
+Antimony (Sb)10 ppb max
+Arsenic (As)10 ppb max
+Barium (Ba)10 ppb max
+Beryllium (Be)10 ppb max
+Bismuth (Bi)10 ppb max
+Boron (B)10 ppb max
+Cadmium (Cd)10 ppb max
+Calcium (Ca)10 ppb max
+Chromium (Cr)10 ppb max
+Cobalt (Co)10 ppb max
+Copper (Cu)10 ppb max
+Gallium (Ga)10 ppb max
+Germanium (Ge)10 ppb max
+Gold (Au)5 ppb max
+Iron (Fe)5 ppb max
+Lead (Pb)10 ppb max
+Lithium (Li)10 ppb max
+Magnesium (Mg)10 ppb max
+Manganese (Mn)10 ppb max
+Molybdenum (Mo)10 ppb max
+Nickel (Ni)10 ppb max
+Potassium (K)5 ppb max
+Silver (Ag)10 ppb max
+Sodium (Na)5 ppb max
+Strontium (Sr)10 ppb max
+Thallium (Tl)10 ppb max
+Tin (Sn)10 ppb max
+Zinc (Zn)10 ppb max
+Zirconium (Zr)10 ppb max
+Particles in bottles:
+size, #/mL
+≥0.5 μm, 50 max
+
+SEMI C46-0699 © SEMI 1991, 19993
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+TRANS 1,2 DICHLOROETHYLENESEMI C47-0699 © SEMI 1995, 19991
+SEMI C47-0699
+GUIDELINE FOR TRANS 1,2 DICHLOROETHYLENE
+This  guideline  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C7.20  in  its  entirety.    Originally  published  in
+
+# 1995
+
+1995.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  trans  1,2  dichloroethylene  used  in  the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides     guidelines     for     grades     of     trans     1,2
+dichloroethylene  for  which  a  need  has  been  identified.
+In  the  case  of  the  guidelines,  the  test  methods  may  not
+have been statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of  trans
+1,2    dichloroethylene    used    in    the    semiconductor
+industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+4. 1  None.
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+Density at 25°C1.70 g/mL
+7  Requirements
+7. 1   The  requirements  for  trans  1,2   dichloroethylene
+for Tier A are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  This section does not apply to  this chemical.
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The   Chemical   Reagent   Committee   considers   a   test
+method  to  be  valid  only  if  there  is  a  documented
+recovery  study  showing  a  recovery  of  75  -  125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+SEMI C47-0699 © SEMI 1995, 19992
+Table 1  Impurity Limits and Other Requirements for Trans 1,2 Dichloroethylene
+Previous SEMI Reference #C7.20-95
+Tier A
+(Guideline)
+Assay99.9% min
+Water  (H
+2
+O)20 ppb max
+Acidity0.3 μeq/g max
+Aluminum (Al)10 ppb max
+Antimony (Sb)10 ppb max
+Arsenic (As)10 ppb max
+Boron (B)5 ppb max
+Calcium (Ca)10 ppb max
+Chromium (Cr)5 ppb max
+Copper (Cu)5 ppb max
+Gold (Au)5 ppb max
+Iron (Fe)10 ppb max
+Lead (Pb)5 ppb max
+Magnesium (Mg)5 ppb max
+Manganese (Mn)5 ppb max
+Nickel (Ni)5 ppb max
+Potassium (K)10 ppb max
+Sodium (Na)10 ppb max
+Tin (Sn)5 ppb max
+Titanium (Ti)5 ppb max
+Zinc (Zn)5 ppb max
+Particles in bottles:
+size, #/mL
+≥1.0 μm, 35 max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+1,1,1-TRICHLOROETHANE, FURNACE GRADE  SEMI C48-0699
+E
+© SEMI 1988, 2000 1
+SEMI C48-0699
+E
+
+SPECIFICATION AND GUIDELINE FOR 1,1,1-TRICHLOROETHANE*,
+FURNACE GRADE
+This specification and this guideline were technically approved by the Global Process Chemicals Committee
+and  are  the  direct  responsibility  of  the  North  American  Process  Chemicals  Committee.    Current  edition
+approved  by  the  North  American  Regional  Standards  Committee  on  April  23,  1999.    Initially  available  on
+SEMI  OnLine  May  1999;  to  be  published  June  1999.    This  document  replaces  SEMI  C1.26  and  C7.15  in
+their entirety.  Originally published in 1988 and 1991 respectively.
+E
+This document was editorially modified in March 2000. Changes were made to the table following Section
+8. 1.
+*  CAUTION:  Reacts  violently  with  Aluminum  and  white
+metals  and  is  not  to  be  used  for  vapor  degreasing.  (Contains
+less than 0.05% inhibitors.)
+1  Purpose
+1. 1    The  purpose  of  this  document  is  to  standardize
+requirements  for  1,1,1-trichloroethane,  furnace  grade
+used    in    the    semiconductor    industry    and    testing
+procedures  to  support  those  standards.  Test  methods
+have been shown to give statistically valid results. This
+document  also  provides  guidelines  for  grades  of  1,1,1-
+trichloroethane,  furnace  grade  for  which  a  need  has
+been  identified.  In  the  case  of  the  guidelines,  the  test
+methods may not have been statistically validated yet.
+2  Scope
+2. 1    The  scope  of  this  document  is  all  grades  of  1,1,1-
+trichloroethane,      furnace      grade      used      in      the
+semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1 — Specifications for Reagents
+5  Terminology
+5. 1  None.
+6  Physical Property (for information only)
+Density at 25°C
+1. 33 g/mL
+Boiling Point
+73°C
+7  Requirements
+7. 1  The requirements for 1,1,1-trichloroethane, furnace
+grade for Grade 1 and Tier A are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  Assay  —  Determine  the  assay  using  a  suitable  gas
+chromatograph.  Integrate  the  areas  under  all  stabalizer
+and  impurity  peaks  and  the  1,1,1-trichloroethane  peak.
+Apply  appropriate  response  factors  for  the  column  and
+detector system to correct the results from area percent
+to  weight  percent.  The  assay  shall  not  be  less  than
+99. 9%    by    weight    (see    SEMI    C1,    Section    3.1,
+Guidelines   for   Assay   by   Wide   Bore   Column   Gas
+Chromatography).   The   parameters   cited   have   given
+satisfactory results.
+NOTE  1:  Calibration  standard  to  be  determined  between
+supplier and user.
+Column:  30  meter  ×  530  micron  I.D.  fused  silica
+capillary,   coated   with   5   micron   film   of   DB-1   or
+equivalent   (100%   methyl   silicone   which   has   been
+surface bonded and cross linked).
+Column  Temperature:  40°C  isothermal  for  5  minutes,
+then programmed to 200°C at 10°C/min.
+
+Injector Temperature:
+150°C
+Detector Temperature:
+250°C
+Sample Size: 0.2 μL (splitless)
+Carrier Gas: Helium at 3 mL/min
+Detector:                         Thermal                         Conductivity
+Approximate Retention
+Times (min):
+
+1,1,1-Trichloroethane                             10.0
+
+8. 2  Color  —  Dilute  2.0  mL  of  platinum-cobalt  stock
+solution  (APHA  No.  500)  to  100  mL  with  water.
+Compare this standard (APHA No. 10) with 100 mL of
+sample  in  Nessler  tubes.  View  vertically  over  a  white
+background.  The  sample  must  be  no  darker  than  the
+standard.
+8. 3  Acidity — To 25 mL of water in a glass-stoppered
+flask,   add   10   mL   of   sample   and   0.1   mL   of
+phenolphthalein indicator solution. Add 0.01 N sodium
+hydroxide until a slight pink color persists after shaking
+for one-half minute. Add 75 mL (100 g) of the sample,
+mix  well,  and  titrate  with  0.01  N  sodium  hydroxide
+until  the  pink  color  is  reproduced.  Not  more  than  3.0
+
+
+SEMI C48-0699
+E
+© SEMI 1988, 2000  1,1,1-TRICHLOROETHANE, FURNACE GRADE 2
+mL   of   the   sodium   hydroxide   solution   should   be
+required.
+8. 4   Residue  After  Evaporation  —  Evaporate  75  mL
+(100  g)  of  sample  to  dryness  in  a  clean  environment.
+Dry  at  105°C  for  30  minutes,  cool  in  desiccator  and
+weigh  to  a  precision  of  0.1  milligram  (see  SEMI  C1,
+Section     3.3,     Determination     of     Residue     After
+Evaporation).
+8. 5  Water — Add 25 mL of methanol to a dry titration
+flask and add Karl Fischer (KF) reagent to a visually or
+electrometrically  determined  endpoint  that  persists  for
+30 seconds. Add 38 mL (50 g) of sample, taking care to
+protect  the  sample  and  contents  of  the  flask  from
+moisture. Stir and titrate with Karl Fischer reagent to:
+% Water  H
+2
+O
+()
+=
+
+mL KF reagent × KF factor (g H
+2
+O/mL) × 100
+Weight of sample (g)
+
+8. 6  Phosphate — To 75 mL (100 g) of sample, add 10
+mL of sodium carbonate reagent solution and evaporate
+to  dryness  on  a  steam  bath  in  a  hood.  Dissolve  the
+residue  in  25  mL  of  0.5  N  sulfuric  acid.  Add  1  mL  of
+ammonium molybdate reagent solution. Add 1 mL of p-
+(methylamino)phenol sulfate reagent solution. Allow to
+880 μm  in  a  1  cm  cell  should  be  no  greater  than  that
+produced  when  0.001  mg  of  phosphate  ion  (PO
+4
+)  is
+treated as the sample.
+9  Grade 2 Procedures
+9. 1  This section does not apply to this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to this chemical.
+
+
+
+14  Tier A Procedures
+14. 1  Standardized test methods are being developed for
+all   parameters   at   the   purity   levels   indicated.   Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The  Process  Chemicals  Committee  considers  a  test
+method  to  be  valid  only  if  there  is  a  documented
+recovery  study  showing  a  recovery  of  75  -  125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to this chemical.
+
+
+
+
+
+
+1,1,1-TRICHLOROETHANE, FURNACE GRADE  SEMI C48-0699
+E
+© SEMI 1988, 2000 3
+Table 1  Impurity Limits and Other Requirements for
+1,1,1-Trichloroethane, Furnace Grade
+Previous SEMI Reference # C1.26-92 C7.15-91
+Grade 1 Tier A
+(Specification)        (Guideline)
+Assay (CCl
+3
+,CH
+3
+) 99.9% min 99.95% min
+Color  (APHA) 10 max 5 max
+Water (H
+2
+O) 25 ppm max 15 ppm max
+Acidity
+0. 3 μeg/g max
+--
+Acidity ( as HCl) -- 10 ppm max
+Phosphate (PO
+4
+) 0.01 ppm max --
+Residue after Evaporation 5 ppm max --
+Aluminum (Al) 0.005 ppm max 1 ppb max
+Antimony (Sb) 0.01 ppm max 1 ppb max
+Arsenic (As) 0.01 ppm max 2 ppb max
+Barium (Ba) 0.01 ppm max 1 ppb max
+Bismuth (Bi) 0.005 ppm max 1 ppb max
+Boron (B) 0.001 ppm max 1 ppb max
+Cadmium (Cd) 0.005 ppm max 1 ppb max
+Calcium (Ca) 0.01 ppm max 1 ppb max
+Chromium (Cr) 0.005 ppm max 1 ppb max
+Cobalt (Co) 0.005 ppm max 1 ppb max
+Copper (Cu) 0.005 ppm max 1 ppb max
+Gallium (Ga) 0.01 ppm max 1 ppb max
+Gold (Au) 0.005 ppm max 1 ppb max
+Iron (Fe) 0.01 ppm max 1 ppb max
+Lead (Pb) 0.005 ppm max 1 ppb max
+Lithium (Li) 0.005 ppm max 1 ppb max
+Magnesium (Mg) 0.005 ppm max 1 ppb max
+Manganese (Mn) 0.005 ppm max 1 ppb max
+Mercury (Hg) 0.005 ppm max 1 ppb max
+Nickel (Ni) 0.01 ppm max 1 ppb max
+Phosphorous (P) -- 1 ppb max
+Potassium (K) 0.005 ppm max 1 ppb max
+Silicon (Si) 0.01 ppm max --
+Silver (Ag) 0.005 ppm max 1 ppb max
+Sodium (Na) 0.005 ppm max 1 ppb max
+Strontium (Sr) 0.01 ppm max 1 ppb max
+Tin (Sn) 0.005 ppm max 1 ppb max
+Titantium (Ti) 0.01 ppm max 1 ppb max
+Zinc (Zn) 0.005 ppm max 1 ppb max
+Particles in bottles:
+size, #/mL
+--
+≥ 0.2 μm, 5 max
+≥ 0.1 μm, 30 max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+TRIMETHYLBORATESEMI C49-0699 © SEMI 1995, 19991
+SEMI C49-0699
+GUIDELINE FOR TRIMETHYLBORATE
+This  guideline  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C7.21  in  its  entirety.    Originally  published  in
+1995.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements     for     trimethylborate     used     in     the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides  guidelines  for  grades  of  trimethylborate  for
+which  a  need  has  been  identified.  In  the  case  of  the
+guidelines,   the   test   methods   may   not   have   been
+statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of
+trimethylborate used in the semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+4. 1  None.
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+Density at 20°C0.915 g/mL
+Boiling Point68.7°C
+7  Requirements
+7. 1   The  requirements  for  trimethy lborate  for  Tier  A
+are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  This section does not apply to  this chemical.
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology shall be determined by user and producer.
+The  Process  Chemicals  Committee  considers  a  test
+method  to  be  valid  only  if  there  is  a  documented
+recovery  study  showing  a  recovery  of  75  -  125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+SEMI C49-0699 © SEMI 1995, 19992
+Table 1  Impurity Limits and Other Requirements for Trimethylborate
+Previous SEMI Reference #C7.21-95
+Tier A
+(Guideline)
+Assay  (B(CH
+3
+O)
+3
+)99.95% min
+Water  (H
+2
+O)25 ppm max
+Aluminum (Al)5 ppb max
+Arsenic (As)5 ppb max
+Barium (Ba)5 ppb max
+Bismuth (Bi)5 ppb max
+Calcium (Ca)10 ppb max
+Chromium (Cr)5 ppb max
+Cobalt (Co)5 ppb max
+Copper (Cu)5 ppb max
+Gallium (Ga)5 ppb max
+Gold (Au)5 ppb max
+Iron (Fe)5 ppb max
+Lead (Pb)5 ppb max
+Lithium (Li)5 ppb max
+Magnesium (Mg)5 ppb max
+Manganese (Mn)5 ppb max
+Nickel (Ni)5 ppb max
+Potassium (K)5 ppb max
+Silver (Ag)5 ppb max
+Sodium (Na)5 ppb max
+Strontium (Sr)5 ppb max
+Tin (Sn)5 ppb max
+Zinc (Zn)5 ppb max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+TRIMETHYLPHOSPHITESEMI C50-0699 © SEMI 1995, 19991
+SEMI C50-0699
+GUIDELINE FOR TRIMETHYLPHOSPHITE
+This  guideline  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C7.22  in  its  entirety.    Originally  published  in
+1995.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements    for    trimethylphosphite    used    in    the
+semiconductor   industry   and   testing   procedures   to
+support those standards. Test methods have been shown
+to  give  statistically  valid  results.  This  document  also
+provides guidelines for grades of trimethylphosphite for
+which  a  need  has  been  identified.  In  the  case  of  the
+guidelines,   the   test   methods   may   not   have   been
+statistically validated yet.
+2  Scope
+2. 1   The  scope  of  this  document  is   all  grades  of
+trimethylphosphite used in the semiconductor industry.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+4. 1  None.
+5  Terminology
+5. 1  None.
+6  Physical Property (for info rmation only)
+Density at 20°C1.05 g/mL
+Boiling Point112°C
+7  Requirements
+7. 1   The  requirements  for  trimethy lphosphite  for  Tier
+A are listed in Table 1.
+8  Grade 1 Procedures
+8. 1  This section does not apply to  this chemical.
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1   Standardized  test  methods  are   being  developed
+for  all  parameters  at  the  purity  levels  indicated.  Until
+standardized     test     methods     are     published,     test
+methodology  shall  be  determined  by  user  and  supplier.
+The  Process  Chemicals  Committee  considers  a  test
+method  to  be  valid  only  if  there  is  a  documented
+recovery  study  showing  a  recovery  of  75  -  125%.
+Recovery  is  for  a  known  sample  spike  at  50%  of  the
+specified level.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+SEMI C50-0699 © SEMI 1995, 19992
+Table 1  Impurity Limits and Other Requirements for Trimethylphosphite
+Previous SEMI Reference #C7.22-95
+Tier A
+(Guideline)
+Assay  (P(CH
+3
+O)
+3
+)99.0% min
+Color (APHA)10 max
+Aluminum (Al)5 ppb max
+Arsenic (As)10 ppb max
+Barium (Ba)5 ppb max
+Bismuth (Bi)5 ppb max
+Calcium (Ca)5 ppb max
+Chromium (Cr)5 ppb max
+Cobalt (Co)5 ppb max
+Copper (Cu)5 ppb max
+Gallium (Ga)5 ppb max
+Gold (Au)5 ppb max
+Iron (Fe)5 ppb max
+Lead (Pb)5 ppb max
+Lithium (Li)5 ppb max
+Magnesium (Mg)5 ppb max
+Manganese (Mn)5 ppb max
+Mercury (Hg)5 ppb max
+Nickel (Ni)5 ppb max
+Potassium (K)5 ppb max
+Silver (Ag)5 ppb max
+Sodium (Na)15 ppb max
+Strontium (Sr)5 ppb max
+Tin (Sn)5 ppb max
+Titanium (Ti)5 ppb max
+Zinc (Zn)10 ppb max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+XYLENESSEMI C51-0699 © SEMI 1978, 19991
+SEMI C51-0699
+SPECIFICATION FOR XYLENES
+This  specification  was  technically  approved  by  the  Global  Process  Chemicals  Committee  and  is  the  direct
+responsibility of the North American Process Chemicals Committee.  Current edition approved by the North
+American Regional Standards Committee on April 23, 1999.  Initially available on SEMI OnLine May 1999;
+to  be  published  June  1999.    This  document  replaces  SEMI  C1.21  in  its  entirety.    Originally  published  in
+1978.
+1  Purpose
+1. 1   The  purpose  of  this  document   is  to  standardize
+requirements  for  xylenes  used  in  the  semiconductor
+industry   and   testing   procedures   to   support   those
+standards.   Test   methods   have   been   shown   to   give
+statistically  valid  results.  This  document  also  provides
+guidelines  for  grades  of  xylenes  for  which  a  need  has
+been  identified.  In  the  case  of  the  guidelines,  the  test
+methods may not have been statistically validated yet.
+2  Scope
+2. 1  The scope of this document is  all grades of xylenes
+used in the semiconductor industry.
+2. 2  This material is a mixture of o rtho, meta, and para
+isomers  and  ethylbenzene.    Xylene  (o-,  m-,  and  p-  iso-
+mers  and  ethylbenzene)  99.0%  min  and  Ethylbenzene
+18% max.
+3  Limitations
+3. 1  None.
+4  Referenced Documents
+SEMI C1 — Specifications for Reagents
+5  Terminology
+5. 1  None.
+6 Physical Property (for info rmation only)
+Density at 25°C0.86 g/mL
+Boiling Range136 - 144°C
+7  Requirements
+7. 1  The requirements for xylenes f or Grade 1 are listed
+in Table 1.
+8  Grade 1 Procedures
+8. 1  Assay —  Assay the sample by  gas chromatography
+(see  SEMI  C1,  Section  3.1,  Guidelines  for  Assay  by
+Wide Bore Gas Chromatography). The parameters cited
+have given satisfactory results.
+Column:   30   meter   ×   530   micron   I.D.   fused   silica
+capillary,   coated   with   5   micron   film   of   DB-1   or
+equivalent   (100%   methyl   Silicone   which   has   been
+surface bonded and cross linked).
+Column  Temperature:  40°C  isothermal  for  5  minutes,
+then programmed to 200°C at 10°C/min.
+Injector Temperature:175°C
+Detector Temperature:250°C
+Sample Size:0.2 μL splitless
+Carrier Gas:Helium at 3 mL/min
+Detector:Thermal Conductivity or
+Flame Ionization
+Approximate Retention
+Times (min):
+Toulene14.4
+Ethylbenzene17.0
+p-xylene16.9
+m-xylene17.2
+o-xylene17.8
+8. 1.1    Measure   the   areas   under   all   pe aks   by   any
+convenient  means  and  calulate  the  concentration  of  all
+components  in  area  percent  (see  SEMI  C.1,  Section
+3. 11,  Guidelines  for  Assay  by  Wide  Bore  Column  Gas
+Chromatography).
+8. 2   Color  —  Dilute  2.0  mL  of  plat inum-cobalt  stock
+solution  (APHA  No.  500)  to  100  mL  with  water.
+Compare this standard (APHA No. 10) with 100 mL of
+sample  in  Nessler  tubes.  View  vertically  over  a  white
+background.  The  sample  must  be  no  darker  than  the
+standard.
+8. 3  Acidity — To 25 mL of water  in a glass-stoppered
+flask,   add   10   mL   of   sample   and   0.1   mL   of
+phenolphthalein indicator solution. Add 0.01 N sodium
+hydroxide until a slight pink color persists after shaking
+for  one-half  minute.  Add  38  mL  (33  g)  of  the  sample,
+mix  well,  and  titrate  with  0.01  N  sodium  hydroxide
+until  the  pink  color  is  reproduced.  Not  more  than  1.0
+mL   of   the   sodium   hydroxide   solution   should   be
+required.
+8. 4   Residue  After  Evaporation  —   Evaporate  232  mL
+(200  g)  of  sample  to  dryness.  Dry  at  105°C  for  30
+minutes, cool in a desiccator, and weigh (see SEMI C1,
+
+SEMI C51-0699 © SEMI 1978, 1999XYLENES2
+Section     3.3,     Determination     of     Residue     After
+Evaporation).
+8. 5  Water — Add 25 mL of metha nol to a dry titration
+flask and add Karl Fischer (KF) reagent to a visually or
+electrometrically  determined  endpoint  that  persists  for
+30 seconds. Add 23 mL (20 g) of sample, taking care to
+protect  the  sample  and  contents  of  the  flask  from
+moisture.  Stir  vigorously  and  titrate  with  Karl  Fischer
+reagent to the same endpoint.
+% Water    H
+2
+O
+()
+=
+mL KF reagent × KF factor (g H
+2
+O/mL) × 100
+Weight of sample (g)
+8. 6   Chloride  —  To  a  100  mL  sepa ratory  funnel,  add
+12  mL  (10  g)  of  sample  and  40  mL  of  water.  Shake
+well   for   30   seconds   and   allow   the   two   layers   to
+separate. Discard the sample (upper) layer. To a 20 mL
+portion of the water layer add 1 mL of nitric acid and 1
+mL  of  silver  nitrate  reagent  solution.  Any  turbidity
+produced  should  be  no  greater  than  that  of  a  standard
+containing  0.015  mg  of  chloride  ion  (Cl)  in  an  equal
+volume of solution and the amounts of reagents used.
+8. 7  Phosphate — To 12 mL (10 g ) of sample, add 10
+mL of sodium carbonate reagent solution and evaporate
+to  dryness  on  a  steam  bath  in  a  hood.  Dissolve  the
+residue  in  25  mL  of  0.5  N  sulfuric  acid.  Add  1  mL  of
+ammonium molybdate reagent solution and 1 mL of p-
+(methylamino)phenol sulfate reagent solution. Allow to
+stand  at  room  temperature  for  2  hours.  Any  blue  color
+should  be  no  greater  than  that  produced  when  0.01  mg
+of phosphate ion (PO
+4
+) is treated as the sample.
+8. 8   Arsenic  and  Antimony  (as  As)  —  Evaporate  116
+mL  (100  g)  of  sample  in  a  250  mL  beaker  to  a  small
+volume  in  a  hood.  Add  50  mL  of  water  and  again
+evaporate  to  a  small  volume.  Repeat  the  evaporation
+three times with water additions. Do not allow to go to
+dryness.  Add  5  mL  of  nitric  acid  and  5  mL  of  sulfuric
+acid  and  evaporate  to  dense  fumes  of  sulfur  trioxide.
+Cool,   cautiously   add   10   mL   of   water,   and   again
+evaporate  to  dense  fumes  of  sulfur  trioxide.  Cool,  and
+cautiously  wash  into  a  generator  flask  with  water  to
+make  a  volume  of  35  mL.  Proceed  as  described  in  the
+General  Method  for  Arsenic  (and  Antimony)  under
+SEMI  C1,  Section  3.4.5,  starting  with  the  sentence
+which  begins,  "Swirl  the  flask..."  Any  red  color  in  the
+silver  diethyldithiocarbamate  solution  of  the  sample
+should   be   no   greater   than   that   of   the   standard
+containing 0.001 mg of arsenic (As).
+8. 9  Trace Element Contents — By  a suitable emission
+spectrographic  procedure,  determine  for  each  of  the
+specified  trace  elements  that  its  content  is  not  greater
+than   the   stated   specification   limit   (see   SEMI   C1,
+Section  3.5,  Guidelines  for  Determination  of  Trace
+Elements by Emission Spectrography).
+9  Grade 2 Procedures
+9. 1  This section does not apply to  this chemical.
+10  Grade 3 Procedures
+10. 1  This section does not apply to  this chemical.
+11  Grade 4 Procedures
+11. 1  This section does not apply to  this chemical.
+12  Grade 5 Procedures
+12. 1  This section does not apply to  this chemical.
+13  VLSI Grade Procedures
+13. 1  This section does not apply to  this chemical.
+14  Tier A Procedures
+14. 1  This section does not apply to  this chemical.
+15  Tier B Procedures
+15. 1  This section does not apply to  this chemical.
+16  Tier C Procedures
+16. 1  This section does not apply to  this chemical.
+17  Tier D Procedures
+17. 1  This section does not apply to  this chemical.
+
+XYLENESSEMI C51-0699 © SEMI 1978, 19993
+Table 1  Impurity Limits and Other Requirements for Xylenes
+Previous SEMI Reference #C1.21-92
+Grade 1
+(Specification)
+Color  (APHA)10 max
+Acidity
+0. 3 μeq/g max
+Residue after Evaporation5 ppm max
+Water  (H
+2
+O) 0.02% max
+Chloride  (Cl)3 ppm max
+Phosphate  (PO
+4
+)1 ppm max
+Aluminum (Al)0.1 ppm max
+Arsenic and Antimony  (as As)0.01 ppm max
+Boron (B)0.1 ppm max
+Calcium (Ca)0.1 ppm max
+Chromium (Cr)0.1 ppm max
+Copper (Cu)0.1 ppm max
+Gold (Au)0.1 ppm max
+Iron (Fe)0.1 ppm max
+Lead (Pb)0.1 ppm max
+Magnesium (Mg)0.1 ppm max
+Manganese (Mn)0.1 ppm max
+Nickel (Hi)0.1 ppm max
+Potassium (K)0.1 ppm max
+Sodium (Na)0.1 ppm max
+Tin (Sn)0.1 ppm max
+Zinc (Zn)0.1 ppm max
+Particles in bottles:
+size, #/mL
+≥1.0 μm, 10 max
+NOTICE:  These  standards  do  not  purport  to  address
+safety issues, if any, associated with their use.  It is the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular   application.      The   determination   of   the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.      These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.

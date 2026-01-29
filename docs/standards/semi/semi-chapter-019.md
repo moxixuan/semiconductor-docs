@@ -1,0 +1,4019 @@
+---
+title: "E117-1104 - © SEMI 2002, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E117-1104 - © SEMI 2002, 2004..."
+sidebar_position: 190
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-019.pdf'
+  chapter: 19
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/019.pdf"
+  pdfSize="0.83MB"
+  title="E117-1104 - © SEMI 2002, 2004..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI E117-1104 © SEMI 2002, 2004 3
+equipment), and it must be open from above to facilitate
+automatic  carrier  delivery  from  an  overhead  transport
+system.
+6. 9.3  In  Option  3  (with  no  allowance  for  automatic
+carrier  deliver  from  an  overhead  transport  system),  the
+top  of  the  carrier  must  be  ≤H2  (2900  for  exposure
+equipment), clearance above the reticle must be C3.
+6. 9.4  Additional     load     ports     used     for     manual
+loading/unloading  can  be  located  below  the  primary
+load port in each of the three options.
+6. 9.5  Equipment  suppliers  and  users  should  note  that
+SEMI      S8      requirements      might      restrict      such
+implementations of manual load ports.
+
+Table 1  Dimensional Requirements for Reticle Load Ports
+Dimension Application Value, mm (in.) Notes
+C1 minimum 75 (3.0) Clearance to left and right of RSP.
+C2 minimum 50 (2.0) Radial clearance around RSP.
+C3              minimum              150              (5.91)
+D maximum 250 (9.8) Load face plane to facial reference plane.
+D1 minimum 196 (7.72) Facial reference plane to OHT easement.
+H                  range
+minimum 890 (35.0)
+maximum 2690 (106)
+Port height: lithography exposure equipment.
+925 ± 35 (36.4 ± 1.4) Reticle stockers and inspection equipment.
+H1 maximum 60 (2.36) Loading obstruction height at load port.
+2900 (114.2) OHT easement height: exposure equipment.
+H2             maximum
+
+2600 (102.4)
+Reticle stockers and inspection equipment
+(recommended for exposure equipment).
+H6 maximum 3200 (126) Side OHT easement height (see Figure 2b).
+
+R
+
+minimum
+10 (0.4) required
+15 (0.6) recommended for ergonomic reasons
+Load port lead-in capability (correction of RSP
+misalignment in any horizontal direction).
+S minimum 290 (11.4) [358 (14.1)] Spacing of adjacent load ports.
+#1
+In  Table  1  and  in  the  figures  of  this  document,  numbers  in  [square  brackets]  are  specific  to  the  RSP200  (if  different  from  the  RSP150  and
+MRSP150).
+
+
+
+SEMI E117-1104 © SEMI 2002, 2004 4
+
+a. Exposure Equipment with RSP Load Ports on Rear
+
+b. Exposure Equipment with RSP Load Ports on One Side, and an Optional View of a 90
+° OHV Track Orientation.
+Figure 1
+Easement for Overhead Transport
+
+
+SEMI E117-1104 © SEMI 2002, 2004 5
+
+890
+≤
+H
+≤
+2690
+(exp. eqpt.)
+H = 925 ± 35
+(others)
+H1
+≤ 60
+D ≤ 250
+equipment
+boundary
+facial
+reference
+plane
+RSP
+front
+load
+face
+plane
+S ≥ 290
+[358]
+
+equipment
+
+top
+
+(see SEMI
+E72
+)
+
+overhead
+
+track
+
+clearance
+
+bilateral
+
+reference
+
+planes
+
+RSP
+
+horizontal
+
+reference
+
+plane
+
+floor
+
+H2 ≤ 2600
+(reticle stockers
+and inspection
+equipment)
+H2 ≤ 2900
+(exposure
+equipment)
+C2
+≥ 50
+C1
+
+≥ 75
+
+Front
+
+View
+
+Side
+View
+D1
+≥ 196
+
+a. Reticle Stockers, Inspection Equipment, and Exposure Equipment with Load Ports on the Rear
+H6
+≤ 3200
+890
+≤
+H
+≤
+2690
+(exp. eqpt.)
+H = 925 ± 35
+(others)
+H2
+≤ 2900
+H1
+≥ 60
+D ≤ 250
+C2
+≥ 50
+C1
+
+≥ 75
+
+equipment
+boundary
+facial
+reference
+plane
+RSP
+front
+load
+face
+plane
+equipment
+
+top
+
+(see SEMI
+E72)
+
+overhead
+
+track
+
+clearance
+
+bilateral
+
+reference
+
+planes
+
+RSP
+
+horizontal
+
+reference
+
+plane
+
+floor
+
+S ≥ 290
+
+[358]
+
+Front
+
+View
+
+Side
+View
+D1
+≥ 196
+
+b. Exposure Equipment with Load Ports on One Side
+Figure 2
+Reticle Load Port Requirements
+
+
+SEMI E117-1104 © SEMI 2002, 2004 6
+D
+
+≥ 250
+
+bilateral reference plane    facial reference plane
+RSP footprint
+C1
+
+≥ 75
+
+equipment boundary above H1
+
+load face
+
+plane
+
+C2
+
+≥ 50
+
+C2
+≥ 50
+C1
+
+≥ 75
+
+
+
+horizontal reference plane
+
+bilateral reference plane
+
+(reticle
+
+centroid)
+
+equipment
+
+boundary
+
+above H1
+
+C1
+
+≥ 75
+
+RSP
+H1 ≥ 60
+
+
+Figure 3
+Exclusion Volumes at Horizontal Reference Plane of Reticle Load Port
+
+
+SEMI E117-1104 © SEMI 2002, 2004 7
+
+Option 1
+Option 2
+Option 3
+Reserved
+space for
+overhead
+transport of
+boxes
+
+Figure 4
+Reticle Load Port Options
+
+
+
+
+
+SEMI E117-1104 © SEMI 2002, 2004 8
+RELATED INFORMATION 1
+APPLICATION NOTES
+NOTICE:  This  related  information  is  not  an  official  part  of  SEMI  E117  and  was  derived  from  current  industry
+knowledge.  This related information is to be approved for publication by full letter ballot procedure.
+NOTICE: This related information is not meant to modify or supersede SEMI E117 in any way. Rather, these notes
+are provided primarily as a source  of  information  to  aid  in  the  application  of the standard. As such, they are to be
+considered as reference material only. The standard should be referred to in all cases.
+R1-1  Application Notes
+R1-1.1  Compliance  with  This  Standard  —  It  is  the  device  makers’  expectation  that  suppliers  of  production
+equipment  are  ultimately  responsible  for  ensuring  that  their  equipment  (as  installed  in  the  device  makers’  facility)
+complies with this standard.  This expectation is the same whether the reticle load port is developed internally by the
+equipment supplier or is purchased from a third party source.  In either case, the production equipment supplier is
+responsible for understanding all of the requirements contained in this standard.  Full compliance with this standard
+can  only  be  determined  after  the  reticle  load  port  is  integrated  with  the  equipment  and  can  be  directly  affected  by
+production equipment design features (such as user interfaces and light towers).
+R1-1.2  To  prevent  interference  between  transport  systems  on  the  same  or  adjacent  load  ports,  it  is  recommended
+that floor-based transport vehicles and over-head hoist vehicles not exceed clearances C1 and C2 when picking up or
+placing a RSP on the load port.
+
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 1
+SEMI E118-1104
+E
+
+SPECIFICATION FOR WAFER ID READER COMMUNICATION
+INTERFACE — THE WAFER ID READER FUNCTIONAL STANDARD:
+CONCEPTS, BEHAVIOR AND SERVICE
+This  specification  was  technically  approved  by  the  Global  Information  and  Control  Committee  and  is  the
+direct responsibility of the Japan Information and Control Committee. Current edition approved by the Japan
+Regional  Standards  Committee  on  July  19,  2002.    Initially  available  at  www.semi.org  October  2002;  to  be
+published November 2002.
+E
+This standard was editorially modified in February 2005 to correct errors in Figure R2-1.
+NOTICE:    The  designation  of  SEMI  E118  was  updated  during  the  1104  publishing  cycle  to  reflect  revisions  to
+SEMI E118.1.
+1  Purpose
+1. 1  The  purpose  of  the  Wafer  ID  Reader  Functional
+Standard  is  to  provide  a  common  specification  for
+concepts,  behavior,  and  services  (functions)  provided
+by a Wafer ID Reader to an upstream controller.
+1. 2  A   standard   interface   will   increase   interchange-
+ability   of   Wafer   ID   Readers   so   that   users   and
+equipment suppliers have a wider range of choices.
+2   Scope
+2. 1  The    Wafer    ID    Reader    Functional    Standard
+addresses  the  functional  requirements  for  a  generic
+Wafer ID Reader interface with an upstream controller.
+2. 2  The  specification  includes  required  behavior  and
+required communications for a Wafer ID Reader.
+2. 3  This   specification   does   not   require,   define,   or
+prohibit  asynchronous  messages  sent  by  the  Wafer  ID
+Reader.
+2. 4  This  specification  intents  to  read  the  Wafer  ID
+specified   by   SEMI   Standard   and   accessed   in   the
+equipment where the wafers transfer in / out is executed
+with a carrier unit.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1  This standard does not define the specific protocol
+to be used for the Wafer ID Reader. Supplements to this
+standard  are  required  to  describe  how  the  functions  of
+the  Wafer  ID  Reader  are  implemented  for  specific
+protocols.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI E15 ⎯ Specification for Tool Load Port
+SEMI E30 ⎯ Generic Model for Communications and
+Control of Manufacturing Equipment (GEM)
+SEMI  E39  ⎯  Object  Services  Standard:  Concepts,
+Behavior, and Services
+SEMI  E47.1  ⎯  Provisional  Mechanical  Specification
+for  Boxes  and  Pods  Used  to  Transport  and  Store  300
+mm Wafers
+SEMI  E62  ⎯  Provisional  Specification  for  300  mm
+Front-Opening Interface Mechanical Standard (FIMS)
+SEMI  E87  ―  Specification  for  Carrier  Management
+(CMS)
+SEMI E90 ― Specification for Substrate Tracking
+SEMI E99 — The Carrier ID Reader/Writer Functional
+Standard:  Specification  of  Concepts,  Behaviors,  and
+Services
+SEMI E101 — Provisional Guide for EFEM Functional
+Structure Model
+SEMI T7 ― Specification for Back Surface Marking of
+Double-Side Polished Wafers With a Two-Dimensional
+Matrix Code Symbol
+4. 2  ISO/IEC Standard
+1
+
+ISO/IEC      16022      —      International      Symbology
+Specification – Data Matrix
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+
+
+1 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 2
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  FOUP — Front Opening Unified Pod
+5. 1.2  WIDR —Wafer ID Reader
+5. 2  Definitions
+5. 2.1  attribute — information about or associated with
+some entity or object.
+5. 2.2  carrier  —  any  cassette,  box,  pod,  or  boat  that
+contains wafers.
+5. 2.3  cassette  —  an  open  structure  that  holds  one  or
+more substrates [SEMI E44].
+5. 2.4  controller   —   a   system   that   provides   control
+(performs  required  operations  when  certain  conditions
+occur    or    when    interpreting    and    acting    upon
+instructions)  and  communicates  with  a  higher  level
+manager.  Controllers exist at all levels within a factory.
+Examples of controllers include the Multiple Wafer ID
+Reader Controller, the Equipment Controller.
+5. 2.5  data  matrix  code  symbol  —  a  two-dimensional
+array  of  square  cells  arranged  in  contiguous  rows  and
+columns.  In  certain  ECC200  symbols,  data  regions  are
+separated  by  alignment  patterns.  The  data  region  is
+surrounded by a finder pattern [ISO/IEC 16022].
+5. 2.6  front-opening unified pod (FOUP) — a box (that
+complies  with  SEMI  E47.1)  with  a  non-removable
+cassette  (so  that  its  interior  complies  with  SEMI  E1.9)
+and  with  a  front-opening  interface  (that  mates  with  a
+FIMS port that complies with SEMI E62).
+5. 2.7  fundamental  requirements  —  the  requirements
+for  information  and  behavior  that  must  be  satisfied  for
+compliance  to  a  standard.  Fundamental  requirements
+apply   to   specific   areas   of   application,   objects,   or
+services.
+NOTE 1:   All  portions  of  the  Wafer  ID  Reader  specification
+are   considered   to   be   fundamental   requirements   unless
+explicitly    described    as    optional.        See    also    optional
+requirement.
+5. 2.8  load  port  —  the  interface  location  on  a  tool
+where  wafer  carriers  are  delivered.  It  is  possible  that
+wafers  are  not  removed  from,  or  inserted  into,  the
+carrier at this location.
+5. 2.9  message interleaving — the practice of sending a
+new  message  request  before  receiving  the  reply  to  an
+earlier request.
+5. 2.10  Multiple  Wafer  ID  Reader  controller  —  a  unit
+controlling  the  Reader  function  of  one  or  multiple  ID
+Reader  Heads,  communicates  the  command/data  with
+the  equipment  controller  or  the  equivalent  controller
+such as equipment controller.
+5. 2.11  optional capability — a specification that is not
+required  for  an  implementation  to  be  compliant  to  a
+standard.  See also fundamental requirement.
+5. 2.12  reader   head   —   a   structured   portion   which
+functions to detect the ID code. The ID reader unifying
+a head function inside its body can be placed as a head.
+The  ID  reader  not  unifying  a  head  function  will  be
+located separately from the head.
+5. 2.13  substrate   handler   —   a   physical   subsystem
+which  transfers  substrates  between  the  carriers  and  the
+process part of the equipment.
+5. 2.14  upstream  controller  —  a  controller  that  directs
+the   Wafer   ID   Reader   through   the   communication
+interface.
+5. 2.15  Wafer  ID  —  an  identifier  for  a  wafer.    A  value
+that uniquely identifies a given wafer in a factory.  The
+identifier  may  be  represented  physically  with  LASER
+technologies, etc.
+5. 2.16  Wafer  ID  mark  —  a  physical    structure  for
+storing Wafer ID and other information.
+5. 2.17  Wafer  ID  Reader  —  a  unit  (subsystem)  that
+detects and decodes data from the Wafer ID mark, and
+that communicates with the upstream controller.  Wafer
+ID  Reader  may  be  composed  of  Multiple  Wafer  ID
+Reader controller and reader heads.
+5. 3  Data Types
+5. 3.1  enumerated  —  may  take  on  one  of  a  limited  set
+of  possible  values.    These  values  may  be  given  logical
+names, but they may be represented by any single-item
+data type.
+5. 3.2  form  —  type  of  data:    positive  integer,  unsigned
+integer,   integer,   floating   point   (float),   enumerated,
+boolean, text, formatted text, structure, list, ordered list.
+5. 3.3  integer  —  may  take  on  the  value  of  any  negative
+or  unsigned  integer.    Messaging  protocol  may  impose  a
+limit on the range of possible values.
+5. 3.4  structure  —  a  specific  set  of  items,  of  possibly
+mixed data types, in a specified arrangement.
+5. 3.5  text — a character string.  Messaging protocol may
+impose    restrictions,    such    as    length    or    ASCII
+representation.
+5. 3.6
+unsigned integer — may take on the value of any
+positive  integer  or  zero.    Messaging  protocol  may
+impose a limit on the range of possible values.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 3
+6  Conventions
+6. 1  State Model Methodology
+6. 1.1  This document uses the Harel state chart convention for describing dynamic operation of defined objects.  The
+outline of this convention is described in an attachment of SEMI E30.  The official definition of this convention is
+described in “State Charts: A Visual Formalism for Complex Systems” written by D. Harel in Science of Computer
+Programming 8, 1987
+2
+.
+6. 1.2  Transition tables are provided in conjunction with the state diagrams to explicitly describe the nature of each
+state  transition.    A  transition  table  contains  columns  for  Transition  number,  Previous  State,  Trigger,  New  State,
+Actions,  and  Comments.    The  “trigger”  (column  3)  for  the  transition  occurs  while  in  the  “previous”  state.    The
+“actions” (column 5) includes a combination of:
+• Actions taken upon exit of the previous state.
+• Actions taken upon entry of the new state.
+• Actions taken which are most closely associated with the transition.
+6. 1.2.1  No differentiation is made between these cases.
+6. 2  Object Notation
+6. 2.1  The  object  models  in  Related  Information  2  use  the  Object  Modeling  Technique  (OMT)  developed  by
+Rumbaugh,  James,  et  al,  in  Object-Oriented  Modeling  and  Design
+3
+.    An  overview  of  this  notation  is  provided  in
+SEMI E39, Object Services Standard: Concepts, Behavior, and Services.
+
+Num Previous State Trigger New State Actions Comments
+
+
+6. 3  Service Message Representation
+6. 3.1  Services  are  functions  or  methods  that  may  be  provided  by  either  the  equipment  or  the  host.    A  service
+message may be either a request message, which always requires a response, or a notification message, that does not
+require a response.
+6. 3.2  Service Definition
+6. 3.2.1  A service definition table defines the specific set of messages for a given service resource, as shown in the
+following table:
+
+Message Service Name Type Description
+
+Type can be either “N” = Notification or “R” = Request & Response.
+
+6. 3.2.2  Notification type messages are initiated by the service provider (e.g., the equipment) and the provider does
+not expect to get a response from the service user.  Request messages are initiated by a service user (e.g., the host).
+Request  messages  ask  for  data  or  an  activity  from  the  provider.    Request  messages  expect  a  specific  response
+message (no presumption on the message content).
+6. 3.3  Service Parameter Dictionary
+6. 3.3.1  A  service  parameter  dictionary  table  defines  the  description,  format  and  its  possible  value  for  parameters
+used by services, as shown in the following table:
+
+
+2 Elsevier Science, P.O. Box 945, New York, NY  10159-0945, http://www.elsevier.nl/homepage/browse.htt
+3 James Rumbaugh, Michael Blaha, William Premerlani, Frederick Eddy, William Lorensen, Object-Oriented Modeling and Design
+, Englewood
+Cliffs, New Jersey: Prentice-Hall, 1991.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 4
+Parameter Name Description Format: Possible Value
+
+
+6. 3.3.2  A row is provided in the table for each parameter of a service.
+6. 3.4  Service Message Definition
+6. 3.5  A service message definition table defines the parameters used in a service, as shown in the following table:
+Parameter Req/Ind Rsp/Cnf Comment
+
+
+6. 3.5.1  The  columns  labeled  REQ/IND  and  RSP/CNF  link  the  parameters  to  the  direction  of  the  message.  The
+message sent by the initiator is called the “Request”. The receiver terms this message the “Indication” or the request.
+The receiver may then send a “Response” which the original sender terms the “Confirmation”.
+6. 3.5.2  The  following  codes  appear  in  the  REQ/IND  and  RSP/CNF  columns  and  are  used  in  the  definition  of  the
+parameters (e.g., how each parameter is used in each direction):
+
+Code                                                                                          Description
+M Mandatory Parameter — Must be given a valid value.
+C Conditional Parameter — May be defined in some circumstances and undefined in others. Whether a value
+is given may be completely optional or may depend on the value of the other parameter.
+U               User-Defined               Parameter.
+- The parameter is not used.
+= (For response only.) Indicates that the value of this parameter in the response must match that in the primary
+(if defined).
+
+7  Overview
+7. 1  The  Wafer  ID  Reader  Model  defines  the  behavior  and  services  (functions).  The  Wafer  ID  Reader  is  a  small
+intelligent system, typically used as a subsystem within equipment.
+7. 1.1  The primary functionality of the Wafer ID Reader is to read the identifier of the wafer (Wafer ID).
+7. 1.2  The acronym WIDR is used to refer to the Wafer ID Reader.
+7. 1.3  An object model for the WIDR is provided in Related Information 2 – Object Model.
+7. 2  Number of Heads
+7. 2.1  A  WIDR  provides  one  or  more  ID  reader  heads  and  is  connected  to  an  upstream  controller  by  a  single
+interface. This allows the upstream controller to control either one head or multiple heads using the same interface
+specification.
+7. 2.2  Single Head Configuration
+7. 2.2.1  In the case of a single head, the head may be presented as an integrated part of the WIDR.
+7. 2.3  Multiple Head Configuration
+7. 2.3.1  In the case of multiple heads, some services are logically performed by the WIDR, and the individual heads
+logically perform others.  The individual heads are numbered sequentially and may be referenced individually by the
+upstream  controller.    Note  that  the  upstream  controller  does  not  communicate  directly  with  the  heads.    All
+communications are between the upstream controller and the WIDR unit.
+7. 2.3.2  In  the  multi-head  case,  the  WIDR  shall  allow  independent  control  of  the  heads.    Multiple  transactions
+invoking  services  performed  by  the  individual  heads  may  be  open  at  the  same  time.  For  example,  when  a  read
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 5
+command  is  sent  to  one  head,  the  host  can  send  additional  commands  such  as  a  read  command  and  a  status
+confirmation command to another head before the first head sends the response to the first command.
+7. 3  Upstream Controller
+7. 3.1  The  WIDR  provides  certain  services  when  requested  by  the  upstream  controller.    The  upstream  controller
+sends a message requesting the specified service, and the WIDR sends a message with the response.
+7. 3.2  This standard assumes that an upstream controller initiates each service message to the WIDR, and the WIDR
+sends its response to the upstream controller. The upstream controller must watch the response time to monitor the
+communication  timeout.  This  standard  will  define  the  recommended  method  for  handling  exceptions  caused  by
+timeouts.
+7. 3.3  In addition, some WIDR may provide asynchronous notification to the upstream controller. Examples of this
+include, but are not limited to, the detection of a fault condition resulting in an alarm. Asynchronous notification is
+not required for compliance to this standard.
+8  Attributes
+8. 1  An  attribute  is  an  item  of  information  about  an  entity  that  is  maintained  and  is  available  by  request.  There  is
+certain  information  concerning  the  WIDR  that  is  of  potential  interest  to  the  upstream  controller,  including  the
+manufacturer,  the  model,  and  the  serial  number  of  the  device.    This  information  is  considered  as  attributes  of  the
+WIDR and is available on request.
+8. 2  WIDR Attribute Definition Table
+8. 2.1  Table 1 defines the attributes of the WIDR subsystem.
+Table 1  WIDR Attribute Definitions
+Attribute Name Description Access Reqd Form
+Fundamental
+Configuration Number of heads. RO Y Text
+AlarmStatus Current WIDR substate of ALARM
+STATUS.
+RO             Y             Enumerated:
+0 = NO ALARMS
+1 = ALARMS
+OperationalStatus Current WIDR substate of
+OPERATIONAL.
+RO
+
+Y         Enumerated:
+IDLE
+BUSY
+MAINTENANCE
+SoftwareRevisionLevel             Revision             (version) of software. RO Y Text
+Optional
+DateInstalled Date the subsystem was installed.                   RO                   N                   Protocol                   dependent.
+DeviceType                               Identifiers                               subsystem                               as a WIDR. RO N WIDR (Text)
+HardwareRevisionLevel Revision number of the hardware. RO N Text
+MaintenanceData  Supplier dependent. RO N Text
+Manufacturer The name or identifier of the
+manufacturer.
+RO             N             Protocol             dependent.
+ModelNumber The manufacturers model designation. RO N Text
+SerialNumber                            Subsystem                            serial number assigned by
+manufacturer.
+RO             N             Protocol             dependent.
+
+8. 3  Reader Head Attributes
+8. 3.1  Table 2 defines the attributes for the Reader Head.
+NOTE 2: In the case of an integrated single head, the attributes in Table 2 are regarded as an extension of Table 1.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 6
+8. 3.2  In the case of multiple heads, it must be possible to distinguish between the attributes of different heads.
+Table 2  Reader Head Attribute Definitions
+Attribute Name Description Access Reqd Form
+Fundamental
+HeadStatus                          The                          current                          state.                          RO                          Y                          Enumerated:
+IDLE
+BUSY
+NOT OPERATING
+HeadID Head number 0–31. RO Y if
+multi-head
+Text. 2 digits.
+Optional
+HeadCondition The current Maintenance status. RO N Enumerated:
+No alarms
+Needs Maintenance
+Read fault
+HeadDateInstalled Date this head was installed.                             RO                             N                             Protocol                             dependent.
+HeadMaintenance-Data      Supplier dependent. RO N Text
+
+9  State Models
+9. 1  To facilitate independent control of the individual heads, this section defines two separate state models, one for
+WIDR subsystem and one to be applied to each of the individual heads.
+9. 2  WIDR State Model
+9. 2.1  This section defines the state model for the WIDR subsystem. Figure 1 shows the diagram for this model.
+
+1
+WIDR
+INITIALIZING
+OPERATING
+3
+
+2
+
+NO ALARMS
+ALARMS
+C
+MAINTENANCE
+4
+
+5
+
+910
+
+ALARM STATUS
+OPERATIONAL STATUS
+RUNNING
+11
+IDLE
+
+7
+
+8
+6
+
+BUSY
+
+Figure 1
+WIDR State Model Diagram
+
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 7
+9. 2.2  Table 3 defines the states of the WIDR.  Definitions are in alphabetical order.
+Table 3  WIDR Subsystem State Definitions
+State Definition
+ALARM STATUS Shows the presence or absence of alarms.
+ALARMS An alarm condition exists.
+BUSY A service is being performed that affects the state of the hardware.
+WIDR Superstate of WIDR State Model.  Always active when WIDR powered on.
+IDLE No service is being performed.  All heads are idle.
+INITIALIZING WIDR is performing initialization and self diagnostics.  Presence or absence of alarms is
+initially determined in this state.
+NO ALARMS No alarm conditions exist.
+OPERATING Normal operational states where reading operations can be performed.
+OPERATIONAL STATUS The WIDR is fully capable of performing all services that it supports.
+RUNNING  The WIDR is operational and able to communicate.
+MAINTENANCE Internal setup and maintenance activities.
+
+9. 2.3  Table 4 defines the transitions of the WIDR State Model.
+Table 4  WIDR State Transitions
+
+# #
+
+# Previous State Trigger New State Actions Comments
+1 (Any) Power-up or reset. INITIALIZING Initialize
+hardware
+and software
+components.
+Default entry on power-up.
+2       INITIALIZING          Initialization       is
+complete.
+RUNNING None  The WIDR is now able to
+communicate.
+3       INITIALIZING          Default       entry       into
+OPERATING.
+IDLE                           None                           Internal
+4 IDLE A service request to
+read or perform
+diagnostics is
+received.
+BUSY                          None
+5 BUSY All service requests
+that affect the state of
+the hardware are
+completed.
+IDLE                           None
+6 IDLE A user selects the
+MAINTENANCE
+state and all heads are
+idle.
+MAINTENANCE       None       The       upstream controller may
+send a request or the operator
+may set a switch to select the
+OPERATING or the
+MAINTENANCE state.
+Maintenance and setup activities
+may now be performed.
+7 MAINTENANCE A user selects the
+OPERATING state
+and all heads are idle.
+IDLE                           None                           The                           upstream controller may
+send a request or the operator
+may set a switch to select the
+OPERATING or the
+MAINTENANCE state. Normal
+operating activities may now be
+performed.
+8       INITIALIZING          Default       entry       into
+ALARM STATUS.
+ALARMS or NO
+ALARMS
+None
+9 NO ALARMS An alarm condition is
+detected.
+ALARMS                    None
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 8
+# Previous State Trigger New State Actions Comments
+10 ALARMS All alarm conditions
+have cleared.
+NO ALARMS None
+11 Any A reset service
+request is received.
+WIDR                          None
+
+9. 3  Read Head State Model
+9. 3.1  For a WIDR with multiple heads, this state model shall be provided for each Read Head.
+9. 3.2  For the single head case, these states are covered in the WIDR state model and no additional state model for
+the head is required.  IDLE and BUSY correspond to substates of the same names in the WIDR state model.  If any
+head is NOT OPERATING, then the active substate of ALARM STATUS in the WIDR state model is ALARMS.
+9. 3.3  The  NOT  OPERATING  state  is  not  required,  if  it  is  not  possible  to  detect  alarms  related  to  the  head.    Note
+also that some alarm conditions are fatal (so that the head cannot operate with full functionality) while others may
+not be fatal.
+9. 3.4  Figure 2 shows the diagram for the Read Head State Model.
+WIDR HEAD
+C
+12
+OPERATING
+16
+BUSYIDLE
+13
+14
+15
+NOT OPERATING
+
+Figure 2
+Read  Head State Model
+
+9. 3.5  Table 5 defines the states for the Read Head.
+Table 5  Read Head State Definitions
+State Definition
+NOT OPERATING Head is in a non-operational state or has reduced functionality.  Maintenance is required.
+OPERATING  Head is active and fully functional.
+IDLE Head is not performing a service.
+BUSY Head is performing a service.
+
+9. 3.6  Table 6 defines the transitions of the Read Head State Model.
+Table 6  Read  Head State Transitions
+# Previous State Trigger New State Actions Comments
+12              (unknown)              Initialization              on              power-up
+or reset.
+Either NOT OPERATING
+or OPERATING.
+None              Default              entry              on
+power-up.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 9
+# Previous State Trigger New State Actions Comments
+13 IDLE Request to perform a
+service.
+BUSY                         None
+14 BUSY Completion of service. IDLE None
+15 OPERATING An alarm condition is
+detected.
+NOT OPERATING None
+16       NOT       OPERATING        Self-Diagnostic Service. OPERATING None All alarm conditions
+are clear.
+
+10  Alarm Conditions
+10. 1    An  alarm  condition  exists  whenever  one  or  more  faults  or  exceptions  that  interfere  with  normal  read
+operations is detected.  A maintenance condition exists when the WIDR determines the need for either maintenance
+(repair) or preventive maintenance activities.
+10. 2    The  WIDR  is  able  to  detect  and  report  alarm  conditions  through  its  status  attributes  (when  queried  by  the
+upstream controller).  It may additionally report changes in alarm conditions asynchronously through alarm or event
+reports.
+11  Services
+11. 1  To  be  compliant  with  this  standard,  the  WIDR  shall  support  all  services  that  are  indicated  as  required.    In
+addition, if the WIDR provides other services that have the same or similar functionality as services defined in this
+document, then compliance to this standard requires they shall satisfy the requirements of the service as defined.
+11. 2  List of Services
+11. 2.1  Table 7 lists the services defined by this standard and indicates which are optional and which are required.
+Table 7  List of Services
+Service Name Description
+Fundamental Requirements
+GetAttributes Get specified information about the WIDR.
+GetStatus Get the current status of the WIDR.
+ReadWID                                                 Read                                                 WID.
+Optional Capabilities
+ChangeState                                             Change                                             to                                             MAINTENANCE                                             state or to OPERATING state.
+PerformDiagnostics                                 Perform diagnostic tests.
+Reset Reset WIDR hardware and software.
+SetAttributes Write specified information.
+ReadWIDC Read WID with 2D Code Read Condition.
+
+11. 3  Parameter Definitions
+11. 3.1  Table  8  defines  the  parameters  that  are  used  in  one  or  more  services,  including  individual  items  within
+parameter structures.  Parameters are listed in alphabetical order.
+Table 8  Parameter Definitions
+Parameter Form Description
+Action                         Protocol-specific.                         Specifies diagnostic action to perform.
+Attribute ID Text Attribute identifier. Name of attribute.
+Attribute Value Varies with attribute. Attribute value.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 10
+Parameter Form Description
+Wafer ID Text User data compliances with SEMI Standard.
+Head ID  Number 0–31. Identifies either an individual head (non-zero) or the WIDR subsystem itself
+(zero).
+PM Information Enumerated:
+-Normal execution
+-Maintenance required
+Preventive Maintenance Information.
+Result Status Enumerated:
+-Normal operation
+-Execution Error
+-Communication Error
+-Hardware Error
+
+Result information on the status of the request concerning the service request.
+Execution Error: Cannot Read ID sequence. But equipment is normal.
+Communication Error: syntax error of Message or Message format or Value.
+Hardware Error: ID reader head fault, ID reader head is powered off.
+
+Status Structure Information about the status of the WIDR.  Consists of PM Information and
+the current values of the WIDR attributes AlarmStatus, OperationalStatus, and
+HeadStatus.
+2D Code Read
+Condition
+Structure
+2D Code Condition for Preventive Maintenance.
+Cell Size: Number of Pixels in a Cell.
+Contrast: Contrast Percentage of Dark / Light.
+Damage Percent: Percentage of Damage Cell.
+Number Error Bits: Number of the Damage Cell
+Read Time: Time for Readout.
+Matrix Style: Normal Mode or Mirror Mode.
+Matrix Polarity : Dark on Light or Light on Dark.
+
+11. 4  Service Definitions
+11. 4.1  This section defines the parameters used for each WIDR service.
+11. 4.2  ChangeState
+11. 4.2.1  ChangeState  is  an  optional  service  that  requests  the  WIDR  to  change  its  operational  substate  to
+MAINTENANCE or to OPERATING.  Table 9 defines the parameters used for the ChangeState service.
+Table 9  ChangeState Service Definition
+Parameter            Req/Ind            Rsp/Conf            Description
+StateRequest                   M                   -                   Specifies                   either                   MAINTENANCE or OPERATING substate.
+Result Status - M Result information on the status of the request.
+Status                               -                               M                               Status                               information.
+
+11. 4.3  Get Attributes
+11. 4.3.1  Get Attributes is a required service used to request the attributes of the WIDR.
+Table 10  Get Attributes Service Definition
+Parameter                  Req/Ind                  Rsp/Conf                  Description
+Head ID M M Specifies Head or Subsystem.
+(list of) Attribute ID M - Identifiers of one or more attributes.
+(list of) Attribute Value - M Attribute Values in order as requested.
+Result Status - M Result information on the status of the request.
+
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 11
+11. 4.4  Get Status
+11. 4.4.1  Get Status is a required service used to get the current status of the WIDR.  The upstream controller may
+request current status at any time.
+Table 11  Get Status Service Definition
+Parameter                 Req/Ind                 Rsp/Conf                 Description
+Head ID M M Specifies Head or Subsystem.
+Result Status - M Result information on the status of the request.
+Status                                         -                                         M                                         Status                                         information.
+
+11. 4.5  Perform Diagnostics
+11. 4.5.1  Perform Diagnostics is an optional service used to request the WIDR perform its internal diagnostics.  The
+supplier shall document the specific diagnostics performed.
+Table 12  Perform Diagnostics Service Definition
+Parameter                         Req/Ind                         Rsp/Conf                         Description
+Head ID M M Specifies Head or Subsystem.
+Action C  Specifies diagnostic action to perform.
+Result Status - M Result information on the status of the request.
+Status                                                  -                                                  M                                                  Status                                                  information.
+
+11. 4.6  Read WID
+11. 4.6.1  Read  WID  is  used  to  request  the  WID  be  read  by  an  ID  Reader  Head.  This  service  is  a  fundamental
+requirement.
+Table 13  Read WID Service Message Parameter Definition
+Parameter                         Req/Ind                         Rsp/Conf                         Description
+Head ID M M Specifies Head.
+Wafer ID - M Wafer ID.
+Result Status - M Result information on the status of the request.
+Status                                                  -                                                  M                                                  Status                                                  information.
+
+11. 4.7  Reset
+11. 4.7.1   Reset is used to re-initialize the WIDR.
+Table 14  Reset Service Definition
+Parameter                         Req/Ind                         Rsp/Conf                         Description
+Result Status - M Result information on the status of the request.
+
+11. 4.8  Set Attributes
+11. 4.8.1  Set Attributes is used to set attributes of the WIDR.  This is an optional service.  Attempts to set attributes
+with read-only (RO) access shall be denied.  Attribute values returned are those as read following the set operation.
+Table 15  Set Attributes Service Definition
+Parameter                         Req/Ind                         Rsp/Conf                         Description
+Head ID M M Specifies Head or Subsystem.
+Attribute ID M - AttributeIDs.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 12
+Parameter                         Req/Ind                         Rsp/Conf                         Description
+Attribute Values M - Attribute Values.
+Result Status - M Result information on the status of the request.
+Status                                                  -                                                  M                                                  Status                                                  information.
+
+11. 4.9  Read WIDC  is used to read  the Wafer ID with the 2D Code Read Condition.  This is an optional service.
+Table 16  Read WIDC Service Definition
+Parameter                         Req/Ind                         Rsp/Conf                         Description
+Head ID M M Specifies Head.
+Wafer ID - M Wafer ID.
+Result Status - M Result information on the status of the request.
+Status                                                  -                                                  M                                                  Status                                                  information.
+2D Code Condition - M 2D Code Read Condition.
+
+11. 5  Service Operability
+11. 5.1  Some services are performed by the WIDR and others are logically performed by the individual heads. It is
+expected  that  the  WIDR  will  support  multiple  interleaved  transactions  to  the  various  independent  logical  units.
+Table 17 shows which of the various services can be performed by the WIDR when the WIDR and its heads are in
+various individual states. Note that when in the initializing state after power-up or the reset service, the WIDR may
+not be able to communicate.
+Table 17  Valid Services per State
+Service
+Set Attributes
+Reset
+Read WID
+Perform
+Diagnostics
+Get Status
+Get Attributes
+ChangeState
+Read WIDC
+WIDR State
+INITIALIZING
+IDLE                                                  X                                                  X                                                  X                                                  X                                                  X                                                  X                                                  X                                                  X
+BUSY                                                                                                                                                                                                                                                                                                            X
+MAINTENANCE                              X                              X                              X                              X                              X                              X                              X                              X
+Head State
+NOT OPERATING      X
+IDLE                                                                                                                                                                                                                                                                                                                  X
+BUSY                                                                                                                                                                                                                                                                                                            X
+
+12  Event Notifications
+12. 1  Event Notification is an optional capability where the WIDR is able to detect events and report state and status
+changes independently of a service request from the upstream controller.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 13
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 14
+RELATED INFORMATION 1
+SCENARIOS
+NOTE:  This related information is not an official part of SEMI E118 and was derived from work of the originating
+task force.  This related information was approved for publication by full letter ballot procedures on July 19, 2002.
+
+R1-1  Examples
+R1-1.1  This section provides examples of typical scenarios for a WIDR with two read heads.
+Table R1-1  Reset Scenario
+Controller                                               WIDR                                               Head1                                               Head2
+Msg.             Msg.                Action             State             Action             State             Action             State
+Reset→
+Perform
+Reset
+OPERATING or
+MAINTENANCE
+OPERATING                               OPERATING
+
+←Reset Reply
+OPERATING                    or
+MAINTENANCE
+OPERATING                               OPERATING
+
+Table R1-2  Get Status Scenario
+Controller                                               WIDR                                               Head1                                               Head2
+Msg.             Msg.             Action             State             Action             State             Action             State
+Get Status 0→
+Determine
+Status
+OPERATING or
+MAINTENANCE
+Any                                    Any
+
+←Status Reply
+Same                                                Any                                            Any
+
+Table R1-3  Scenario for Interleaved Read WID from Both Head
+Controller                                               WIDR                                               Head1                                               Head2
+Msg.             Msg.             Action             State               Action             State             Action             State
+Read WID 01→
+
+
+OPERATING
+
+Start
+Read
+BUSY                                  IDLE
+Read WID 02→
+OPERATING                                                                BUSY
+
+Start
+Read
+BUSY
+
+
+←Read WID
+Reply 01
+OPERATING                                                  IDLE                                                  BUSY
+
+←Read WID
+Reply 02
+OPERATING                                                  IDLE                                                  IDLE
+
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 15
+RELATED INFORMATION 2
+OBJECT MODEL
+NOTE:  This related information is not an official part of SEMI E118 and was derived from work of the originating
+task force.  This related information was approved for publication by full letter ballot procedures on July 19, 2002
+R2-1  Object Model Notes
+R2-1.1  Object  models  provide  a  graphic  representation  of  entities.    The  models  in  this  section  use  the  Object
+Modeling  Technique  (OMT)  described  in  Object-Oriented  Modeling  and  Design.    Object  types  are  represented  by
+rectangles with one, two, or three sections.  The name of the object type is in the first, or only section.  Attributes,
+information about the object, are shown in the second section.  Operations or services are shown in a third section.
+Lines between objects represent relationships.
+R2-1.2  Three models are shown for purposes of illustration.  The general multi-head case is shown first with only
+the  required  attributes  and  services.    Next,  the  full  model  for  the  multi-head  case  is  shown  with  all  attributes  and
+services defined in this standard.  Finally, the full model for the integrated single-head case is shown.
+R2-1.3  Note  that  the  Upstream  Controller  sends  all  service  requests  to  the  WIDR  controller,  including  services
+shown  for  the  individual  heads.  Services  shown  on  these  models  for  WIDR  are  those  with  a  Head  ID  service
+parameter  value  of  zero  while  services  shown  for  the  Head  are  those  with  a  Head  ID  service  parameter  value
+between one and thirty-one.
+R2-2  Fundamental Requirements Example Object Models
+R2-2.1  The object model in Figure R2-1 shows objects for the general (multi-head) WIDR satisfying fundamental
+requirements only.  It shows the WIDR subsystem as made up of one or more heads.  It also illustrates the required
+attributes and services provided by the WIDR and its relationships with its upstream controller and with its heads.
+
+
+1+
+WIDR
+- Configuration
+- AlarmStatus
+- SoftwareRevLevel
+- O
+perationalStatus
+ChangeState
+Get Attributes
+Get Status
+Head
+- HeadAlarmStatus
+- HeadID
+- HeadStatus
+Get Attributes
+Get Status
+ReadWID
+Upstream
+Controller
+requests services
+from
+
+is made up of
+
+Figure R2-1
+Object Model for Fundamental Requirements
+
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 16
+R2-3  Full Capabilities
+R2-3.1  Figure  R2-2  shows  the  object  model  for  a  WIDR  with  full  capabilities,  so  that  all  optional  attributes  and
+services are supported.
+
+1+
+WIDR
+- AlarmStatus
+- Configuration
+- DateInstalled
+- DeviceType
+- HardwareRevisionLevel
+- MaintenanceData
+- Manufacturer
+- ModelNumber
+- OperationalStatus
+- SerialNumber
+- SoftwareRevisionLevel
+ChangeState
+GetAttributes
+GetStatus
+PerformDiagnostics
+Reset
+SetAttributes
+Head
+- HeadAlarmStatus
+
+- HeadDateInstalled
+
+- HeadID
+
+- HeadStatus
+
+- HeadMaintenanceData
+Upstream
+
+Controller
+
+requests
+
+services from
+
+is made up of
+GetAttributes
+GetStatus
+ReadWID
+
+ReadWIDC
+
+
+Figure R2-2
+Object Model for Full Capabilities
+R2-4  Integrated Model
+R2-4.1  Figure  R2-3  shows  the  object  model  for  a  WIDR  with  full  capabilities  and  a  single  integrated  head.  The
+head is not shown as a separate component in this case, and the head attributes and services have become part of the
+WIDR subsystem itself.
+
+WIDR
+
+- AlarmStatus
+- Configuration
+- DateInstalled
+- DeviceType
+- HardwareRevisionLevel
+- HeadAlarmStatus
+- HeadStatus
+- MaintenanceData
+- Manufacturer
+- ModelNumber
+- OperationalStatus
+- SerialNumber
+- SoftwareRevisionLevel
+ChangeState
+GetAttributes
+GetStatus
+PerformDiagnostics
+ReadWID
+Reset
+SetAttributes
+Upstream
+
+Controller
+
+requests
+services from
+ReadWIDC
+
+Figure R2-3
+Integrated Model with Full Capabilities
+
+
+SEMI E118-1104
+E
+© SEMI 2002, 2004 17
+RELATED INFORMATION 3
+APPLICATION NOTES
+NOTE:  This related information is not an official part of SEMI E118 and was derived from work of the originating
+task force.  This related information was approved for publication by full letter balot procedures on July 19, 2002.
+R3-1  Combined State Model
+R3-1.1  Figure  R3-1  shows  the  combined  state  model  for  the  WIDR  unit  with  nn  heads,  from  HEAD01  TO
+HEADnn.    The  WIDR  is  considered  as  IDLE  when  and  only  when  it  is  in  OPERATING  and  all  of  its  heads  are
+IDLE.
+
+WIDR
+
+HEAD01
+C
+12
+OPERATING
+16
+BUSY
+IDLE
+13
+14
+15
+NOT OPERATING
+C
+
+12
+
+HEADnn
+
+11
+
+1
+
+INITIALIZING
+
+3
+
+2
+
+NO
+
+ALARMS
+
+ALARMS
+
+MAINTENANCE
+
+4
+
+5
+
+9
+
+10
+
+ALARM STATUS
+
+OPERATIONAL
+
+RUNNING
+
+IDLE
+
+7
+
+8
+
+6
+
+BUSY
+
+OPERATING
+
+C
+OPERATING
+
+16
+BUSY
+
+IDLE
+13
+
+14
+
+NOT OPERATING
+
+15
+
+.....
+
+Figure R3-1
+Combined State Model
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E118.1-1104 © SEMI 2003, 2004 1
+SEMI E118.1-1104
+SPECIFICATION FOR SECS-I AND SECS-II PROTOCOL FOR WAFER
+ID READER COMMUNICATION INTERFACE STANDARDS
+This  specification  was  technically  approved  by  the  Global  Information  and  Control  Committee  and  is  the
+direct  responsibility  of  the  Japanese  Information  and  Control  Committee.    Current  edition  approved  by  the
+Japanese  Regional  Standards  Committee  on  July  23,  2004.    Initially  available  at  www.semi.org  September
+2004; to be published November 2004. Originally published March 2003; last published March 2004.
+1  Purpose
+1. 1  This  document  maps  the  services  and  data  of  the
+Wafer ID Reader (WIDR) standard to SECS-II streams
+and functions and data definitions.
+2  Scope
+2. 1  This  document  applies  to  all  implementations  of
+WIDR  that  use  the  SECS-II  message  protocol  (SEMI
+E5).
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI   E4   —   SEMI   Equipment   Communications
+Standard 1 Message Transfer (SECS-I)
+SEMI   E5   —   SEMI   Equipment   Communications
+Standard 2 Message Content (SECS-II)
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Abbreviations and Acronyms
+4. 1.1  SECS   —   SEMI   Equipment   Communications
+Standard
+4. 1.2  WIDR — Wafer ID Reader
+5  Physical Requirements
+5. 1  The  WIDR  using  the  SECS-I  protocol  shall  use  a
+9-pin female connector.
+6  Service Message Mapping
+6. 1  Table  1  shows  the  specific  SECS-II  streams  and
+functions     that     shall     be     used     for     SECS-II
+implementations  of  the  service  messages  defined  in
+SEMI E118.
+6. 2  Request  and  notification  messages  are  mapped  to
+primary    (odd-numbered)    SECS-II    functions    and
+response  messages  are  mapped  to  secondary  (even-
+numbered) SECS-II functions.
+6. 3  In some cases, a common set of parameters allows
+more than one service to be mapped to the same stream
+and function, with an additional SECS-II data item used
+to differentiate between the two services.
+Table 1  Services Mapped to SECS-II Messages
+Message Name Stream,Function SECS-II Name
+ChangeState                                           S18,F13/F14                                           Subsystem Command Request/Acknowlege
+Get Attributes S18,F1/F2 Read Attribute Request/Data
+Get Status S18,F13/F14 Subsystem Command Request/Acknowledge
+Perform Diagnostics S18,F13/F14 Subsystem Command Request/Acknowledge
+Read WID S18,F9/F10 Read ID Request/Data
+Reset                                                      S18,F13/F14                                                      Subsystem Command Request/Acknowledge
+Set Attributes S18,F3/F4 Write Attribute Request/Acknowledge
+Read WIDC  S18,F15/F16 Read 2D Code Condition Request/Data
+
+
+
+SEMI E118.1-1104 © SEMI 2003, 2004 2
+7  Service Parameter to Data Item Mapping
+7. 1  Table 2 shows the mapping between message parameters defined by WIDR and data items defined by SECS-II.
+For  parameters  specified  in  the  definitions  of  a  WIDR  service,  either  the  parameters  themselves,  or  individual
+elements of complex parameters, map to a specific data item.
+Table 2  Service Parameters to Data Item Mapping
+Parameter Name SECS-II Data Item Format Values
+Attribute ID ATTRID 20 Name of attribute
+Attribute Value ATTRVAL 20
+HeadID                              TARGETID                              20                              “00”-“31”
+Identifies either an individual head (“01”-
+“31”) or the WIDR subsystem itself (“00”).
+PM Information STATUS 20 “NE” = Normal execution, “MR” =
+Maintenance required
+Result Status SSACK 20 “NO” = Normal operation;
+“EE” = Execution error;
+“CE” = Communication error;
+“HE” = Hardware error
+StateRequest                     CPVAL                     20                     “OP”,                     “MT”
+Status                                STATUSLIST                                L,4
+1. PMInformation
+2. AlarmStatus
+3. OperationalStatus
+4. HeadStatus
+Current values of PM Information with the
+corresponding attributes for WIDR and Head
+(if applicable).  See Tables 4 and 5.
+Wafer ID MID 20
+2D Code Read Condition  CONDITIONLIST L,7
+
+# 1
+
+1. Cell Size
+
+# 2
+
+2. Contrast
+
+# 3
+
+3. Damage Percent
+
+# 4
+
+4. Number Error Bits
+
+# 5
+
+5. Read Time
+
+# 6
+
+6. Matrix Style
+
+# 7
+
+7. Matrix Polarity
+Current values of Cell Size, Contrast,
+Damage Percent, Number Error Bits, Read
+Time, Matrix Style, Matrix Polarity with the
+corresponding attributes for Code Condition.
+See Table 6.
+CONDITIONLIST data shall be formatted in
+the fixed order as in Format column.
+
+NOTE  1:  There  are  also  data  items  used  in  SECS-II  messages  that  do  not  map  to  specific  services  parameters.    Services  with  the  same  set  of
+parameters are mapped to the same SECS-II message by adding an additional data item to differentiate between the services.  Table 3 contains the
+SECS-II data items that have not a corresponding WIDR service parameter.
+
+Table 3  Additional Data Requirements Table
+SECS-II Data Item Function Value
+SSCMD Used to differentiate between different subsystem commands
+indicated.
+“ChangeState”
+“GetStatus”
+“Perform Diagnostics”
+“Reset”
+
+
+
+SEMI E118.1-1104 © SEMI 2003, 2004 3
+8  Data
+8. 1  WIDR Attributes
+8. 1.1  Table 4 specifies the values for the WIDR attribute identifiers and limitations on values.
+Table 4  WIDR Attribute Definitions
+Attribute Name Description Access Format Value
+Fundamental
+“Configuration” Number of heads. RO 20
+“01”−“31”
+“AlarmStatus” Current WIDR substate of ALARM STATUS.     RO 20 “0” = NO ALARMS
+“1” = ALARMS
+“OperationalStatus” Current WIDR substate of OPERATIONAL.       RO          20       “IDLE”,       “BUSY”,
+“MANT”
+“SoftwareRevisionLevel”       Revision       (version) of software. RO 20 8 byte maximum
+Optional
+“DateInstalled” Date the subsystem was installed. RO 20 “YYYYMMDD” format
+“DeviceType” Identifies subsystem as a Wafer ID Reader. RO 20 “WIDR”
+“HardwareRevisionLevel” Revision number of the hardware. RO 20 8 byte maximum
+“MaintenanceData”  Supplier dependent. RO 20 80 byte maximum
+“Manufacturer” The name or identifier of the manufacturer. RO 20 20 byte maximum
+“ModelNumber” The manufacturers model designation. RO 20 20 byte maximum
+“SerialNumber”                       Subsystem                       serial number assigned by
+manufacturer.
+RO 20 20 byte maximum
+
+8. 2  Read Head Attributes
+8. 2.1  Table 5 shows the format and values for the Read Head.
+Table 5  Read Head Attribute Definitions
+Attribute Name Description Access Format Value
+Fundamental
+“HeadStatus” The current state. RO 20 “IDLE”,
+“BUSY”,
+“NOOP”
+“HeadID” Head number 0–31. RO 20 2 digits, “00” through “31”.
+Optional
+“HeadCondition”                      The                      current                      Maintenance
+status.
+RO              20                Enumerated:
+“NO” = No alarms
+“NM” = Needs maintenance
+“NP” = No power
+“RW” = Read fault
+“HeadDateInstalled” Date this head was installed. RO 20 “YYYYMMDD” format
+“HeadMaintenanceData”         Supplier dependent. RO 20 Text
+
+
+
+SEMI E118.1-1104 © SEMI 2003, 2004 4
+8. 3  2D Code Read Condition Attributes
+8. 3.1  Table 6 specifies the values for the 2D Code Read Condition attribute identifiers and limitations on values.
+Table 6  2D Code Read Condition Attribute Definitions
+Attribute Name Description Access Format Value
+Optional
+“CellSize” Number of Pixels in a Cell RO 20 “000”–“999”
+“Contrast” Contrast Percentage of Dark / Light RO 20 “000”–“100”
+“Damage Percent” Percentage of Damage Cell RO 20 “000”–“100”
+“Number Error Bits”  Number of the Damage Cell RO 20 “000”–“999”
+“Read Time” Time for Readout, in seconds RO 20 “000”–“120”
+“Matrix Style” Normal Mode or Mirror Mode RO 20 “NO” = Normal Mode
+“MR” = Mirror Mode
+“Matrix Polarity” Dark on Light or Light on Dark RO 20 “DON” = Dark on Light
+“LON” = Light on Dark
+To show that data is not available for an attribute, the attribute value is set to a zero-length string.
+Note 1: A zero-length item for an attribute value means that does not exist.
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+
+SEMI E118.1-1104 © SEMI 2003, 2004 5
+RELATED INFORMATION 1
+SCENARIOS
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  E118.1  and  was  derived  from  the  work  of  the
+originating  task  force.    This  related  information  was  approved  for  publication  by  full  letter  ballot  procedures  on
+January 10, 2003.
+This section provides examples of typical scenarios for a Wafer ID Reader.
+R1-1  Read WID
+R1-1.1  The  upstream  controller  sends  a  Read  WID
+Request message to the WIDR for Head 1.  The WIDR
+Head  1  reads  the  ID,  and  the  WIDR  returns  the  ID  to
+the upstream controller.
+
+WIDR
+Upstream
+Controller
+S18, F9 Read ID Request
+Target ID = “01”
+
+
+S18, F10 Read ID Data
+MID = “XYZ001”
+
+Figure R1-1
+Read WID Scenario
+
+R1-2  Read WID
+R1-2.1  The  upstream  controller  sends  a  Read  WID
+Request message to the WIDR for Head 1.  The WIDR
+Head  1  reads  the  ID,  but  the  WIDR  can't  read  the  ID.
+There isn't the ID on the wafer.
+
+WIDR
+Upstream
+Controller
+S18, F9 Read ID Request
+Target ID = “01”
+
+
+S18, F10 Read ID Data
+Rsult Status = “EE”
+MID = “”
+
+Figure R1-2
+Read WID Scenario
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E119-1104 © SEMI 2002, 2004 1
+SEMI E119-1104
+MECHANICAL SPECIFICATION FOR REDUCED-PITCH FRONT-
+OPENING BOX FOR INTERFACTORY TRANSPORT OF 300 mm
+WAFERS
+This specification was technically approved by the Global Physical Interfaces and Carriers Committee and is
+the direct responsibility of the North American Physical Interfaces and Carriers Committee. Current edition
+approved  by  the  North  American  Regional  Standards  Committee  on  August  16,  2004.    Initially  available  at
+www.semi.org September 2004; to be published November 2004.  Originally published November 2002.
+1  Purpose
+1. 1  This  standard  partially  specifies  a  reduced-pitch
+front-opening box for interfactory transport of 300 mm
+wafers   (FOBIT).      This   reduced-pitch   box,   with   a
+capacity of 25 wafers but with the approximate physical
+volume  of  a  13-wafer  FOUP,  is  intended  to  reduce  the
+cost  of  transporting  wafers  between  IC  manufacturing
+sites.  To leverage current industry 300 mm technology,
+this  reduced-pitch  front-opening  box  is  intended  to
+interface  with  13-wafer  FIMS,  as  specified  in  SEMI
+E62.
+2  Scope
+2. 1  This standard is intended to set an appropriate level
+of    specification    that    places    minimal    limits    on
+innovation    while    ensuring    modularity    and    inter-
+changeability  at  all  mechanical  interfaces.  Only  the
+physical   interfaces   for   FOBIT   are   specified;   no
+materials  requirements  or  micro-contamination  limits
+are  given.  However,  this  standard  has  been  written  so
+that  both  metal  and  injection-molded  plastic  FOBITs
+can be manufactured in conformance with it.
+2. 2  This  standard  assumes  that  the  FOBIT  is  intended
+for use in the interfactory transportation of wafers.  The
+following   boundary   conditions   were   used   in   the
+creation of this specification:
+• Minimizing  the  pitch  between  wafers  will  reduce
+the cost of transporting wafers.
+• The    FOBIT    will    be    used    for    interfactory
+transportation  of  both  processed  and  unprocessed
+wafers.
+• The box will have a 25-wafer capacity.
+• Random access of wafers, using edge grip handling
+devices, is not a requirement for this standard.
+• The  FOBIT  will  be  compatible  with  the  following
+300 mm Standards:
+• 13-wafer FIMS Interface (SEMI E62)
+• 300 mm Load Port (SEMI E15.1)
+• Kinematic Coupling (SEMI E57)
+• The FOBIT will not necessarily be compliant with
+the  following  300  mm  Standards  due  to  wafer
+restraint   requirements   and   product   applications
+during transportation:
+• 300 mm Front-Opening Unified Pod (SEMI E47.1)
+• 300 mm Open Cassette (SEMI E1.9)
+• 300   mm   Front-Opening   Shipping   Box   (SEMI
+M31)
+• The  technical  requirements  of  this  standard  are
+written  for  the  transportation  of  nominal  thickness
+wafers, as defined by SEMI M1.15.
+2. 3  This reduced-pitch, 25-capacity FOBIT is designed
+for   use   with   the   13-capacity   FIMS   interface,   as
+specified in SEMI E62.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI  E1.9  —  Mechanical  Specification  for  Cassettes
+Used to Transport and Store 300 mm Wafers
+SEMI E15 — Specification for Tool Load Port
+SEMI  E15.1  —  Specification  for  300  mm  Tool  Load
+Port
+SEMI  E47.1  —  Provisional  Mechanical  Specification
+for  Boxes  and  Pods  Used  to  Transport  and  Store  300
+mm Wafers
+SEMI  E57  —  Mechanical  Specification  for  Kinematic
+Couplings  Used  to  Align  and  Support  300  mm  Wafer
+Carriers
+SEMI  E62  —  Provisional  Specification  for  300  mm
+Front-Opening Interface Mechanical Standard (FIMS)
+
+
+SEMI E119-1104 © SEMI 2002, 2004 2
+SEMI   M1.15   —   Standard   for   300   mm   Polished
+Monocrystalline Silicon Wafers (Notched)
+SEMI M31 — Provisional Mechanical Specification for
+Front-Opening  Shipping  Box  Used  to  Transport  and
+Ship 300 mm Wafers
+SEMI   S8   —   Safety   Guidelines   for   Ergonomics
+Engineering      of      Semiconductor      Manufacturing
+Equipment
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Definitions
+4. 1.1  bilateral  datum  plane  —  a  vertical  plane  that
+bisects  the  wafers  and  that  is  perpendicular  to  both  the
+horizontal and facial datum planes (as defined in SEMI
+E57).
+4. 1.2  box   —   a   protective   portable   container   for   a
+carrier and/or substrate(s).
+4. 1.3  carrier  —  an  open  structure  that  holds  one  or
+more substrates.
+4. 1.4  carrier  bottom  domain  —  volume  (below  z6
+above  the  horizontal  datum  plane)  that  contains  the
+bottom of the carrier (as defined in SEMI E1.9).
+4. 1.5  carrier capacity — the number of substrates that
+a carrier holds (as defined in SEMI E1.9).
+4. 1.6  carrier sensing pads — surfaces on the bottom of
+the  carrier  for  triggering  optical  or  mechanical  sensors
+(as defined in SEMI E1.9).
+4. 1.7  carrier side domains — volumes (from z6 above
+the   horizontal   datum   plane   to   z15   above   the   top
+nominal wafer seating plane) that contain the mizo teeth
+or  slots  that  support  the  wafer  and  the  supporting
+columns on the sides and rear of the carrier (as defined
+in SEMI E1.9).
+4. 1.8  carrier  top  domain  —  volume  (higher  than  z15
+above the top wafer) that contains the top of the carrier
+(as defined in SEMI E1.9).
+4. 1.9  facial datum plane — a vertical plane that bisects
+the  wafers  and  that  is  parallel  to  the  front  side  of  the
+carrier (where wafers are removed or inserted). On tool
+load  ports,  it  is  also  parallel  to  the  load  face  plane
+specified in SEMI E15 on the side of the tool where the
+carrier  is  loaded  and  unloaded  (as  defined  in  SEMI
+E57).
+4. 1.10  front-opening   box   for   interfactory   transport
+(FOBIT) —  a  transportation  box  with  a  front-opening
+interface  (that  mates  with  a  FIMS  port  that  complies
+with SEMI E62).
+4. 1.11  front-opening    shipping    box    (FOSB)    —    a
+shipping  box  (that  complies  with  SEMI  M31)  with  a
+front-opening interface.
+4. 1.12
+front-opening  unified  pod  (FOUP)  —  a  box
+(that complies with SEMI E47.1) with a non-removable
+cassette  (so  that  its  interior  complies  with  SEMI  E1.9)
+and  with  a  front-opening  interface  (that  mates  with  a
+FIMS port that complies with SEMI E62).
+4. 1.13  horizontal  datum  plane  —  a  horizontal  plane
+from  which  projects  the  kinematic-coupling  pins  on
+which the carrier sits. On tool load ports, it is at the load
+height   specified   in   SEMI   E15   and   might   not   be
+physically  realized  as  a  surface  (as  defined  in  SEMI
+E57).
+4. 1.14  minienvironment   —   a   localized   environment
+created  by  an  enclosure  to  isolate  the  product  from
+contamination and people.
+4. 1.15  nominal  wafer  centerline  —  the  line  that  is
+defined  by  the  intersection  of  the  two  vertical  datum
+planes (facial and bilateral) and that passes through the
+nominal  centers  of  the  seated  wafers  (which  must  be
+horizontal  when  the  carrier  is  placed  on  the  coupling)
+(as defined in SEMI E57).
+4. 1.16  optical wafer sensing paths — lines of sight for
+optically  sensing  the  positions  of  the  wafers.  Several
+horizontal  optical  wafer  sensing  paths  are  present  in
+between  the  carrier  side  domains.  In  addition,  two
+vertical  optical  wafer  sensing  paths  are  created  by
+rectangular  exclusion  zones  in  the  front  of  the  carrier
+top and bottom (as defined in SEMI E1.9).
+4. 1.17  shipping  box  —  a  protective  portable  container
+for  a  carrier  and/or  wafer(s)  that  is  used  to  ship  wafers
+from the wafer suppliers to their customers.
+4. 1.18  virtual  tracking  unit  —  an  entity  (which  could
+be  a  number  of  substrates  or  an  individual  die  or  mask
+group)  that  the  factory  floor  control  system  treats  as  a
+single  unit  for  tracking  purposes  (as  defined  in  SEMI
+E1.9).
+4. 1.19  wafer carrier — any cassette, box, pod, or boat
+that contains wafers (as defined in SEMI E15).
+4. 1.20  wafer  extraction  volume  —  the  open  space  for
+extracting a wafer from the carrier (as defined in SEMI
+E1.9).
+4. 1.21  wafer pick-up volume — the space that contains
+entire bottom of a wafer if the wafer has been pushed to
+the rear of the carrier (as defined in SEMI E1.9).
+4. 1.22  wafer  set-down volume  —  the  open  space  for
+inserting  and  setting  down  a  wafer  in  the  carrier  (as
+defined in SEMI E1.9).
+
+
+SEMI E119-1104 © SEMI 2002, 2004 3
+5  Requirements
+The  FOBIT  has  the  following  components  and  sub-
+components:
+Key:
+•     Required     feature
+◊     Optional     feature
+•     Door     on     front
+•      Holes  for  latch  keys  that  lock  the  door  to  the
+FIMS  interface  when  the  door  is  unlatched
+from the box
+• Holes for registration pins
+• Door presence sensing areas
+•     Top
+◊ Top robotic handling flange (optional)
+•     Interior
+•      Non-removable  cassette  with  supports  for  25
+wafers
+•     Wafer     capture     mechanism
+• 2 end-effector exclusion zones
+•     Sides
+◊     Ergonomic     manual     handles     (optional)
+•     Bottom
+• 5 carrier sensing pads
+• Center retaining feature
+•     Front     retaining     feature
+•     4     info     pads
+• 2 advancing box sensing pads
+•      3  features  that  mate  with  kinematic  coupling
+pins and provide a 10 mm lead-in
+◊ 3  features  that  mate  with  kinematic  coupling
+pins and provide a 15 mm lead-in (optional)
+◊ 2 bottom side rails for use with roller conveyor
+or forklifts (optional)
+5. 1  Kinematic  Couplings  —  The  physical  alignment
+mechanism  from  the  FOBIT  to  the  tool  load-port  (or  a
+nest  on  a  vehicle  or  in  a  stocker)  consists  of  features
+(not  specified  in  this  standard)  on  the  top  entity  that
+mate  with  three  or  six  pins  underneath  as  defined  in
+SEMI   E57.   The   three   features   that   mate   with   the
+kinematic   coupling   pins   must   provide   a   lead-in
+capability that corrects a FOBIT misalignment of up to
+r69 in any horizontal direction.
+5. 2  Inner  and  Outer  Radii  —  All  required  concave
+features  may  have  a  radius  of  up  to  r65  to  allow
+cleaning   and   to   prevent   contaminant   build-up.   All
+required  convex  features  may  also  have  a  radius  of  up
+to r66  to  prevent  small  contact  patches  with  large
+stresses  that  might  cause  wear  and  particles.  Note  that
+these  limits  on  the  radius  of  all  required  features  are
+specified as a maximum (not a minimum) to ensure that
+the required features are not rounded off too much. The
+lower bound on the radius is up to the FOBIT supplier.
+Note  also  that  this  radius  applies  to  every  required
+feature  unless  another  radius  is  called  out  specifically.
+A  required  feature  is  an  area  on  the  surface  of  the
+FOBIT  specified  by  a  dimension  (or  intersections  of
+dimensions)   that   has   a   tolerance   and   not   just   a
+maximum or minimum (such as the edges of the robotic
+handling flange).
+5. 3  Door
+— It is recommended that the FOBIT be in a
+horizontal   orientation   when   it   is   opened   or   closed
+(corresponding  to  the  front  side  of  the  cassette  where
+wafers  are  accessed  so  the  door  is  perpendicular  to  the
+wafers and parallel to the facial datum plane).  The door
+and its frame must be designed to mate with a port that
+conforms  to  SEMI  E62.  Specifically,  the  FOBIT  door
+and its frame must have surfaces that mate with the seal
+zones  and  the  reserved  spaces  for  vacuum  application
+(which includes all of the circles bounded by r38 except
+for  the  holes  for  the  registration  pins  at  the  center  of
+each  circle)  defined  in  Sections  5.3  and  5.6  of  SEMI
+E62  (which  specifies  r38).  These  FOBIT  door  and
+frame surfaces must be a distance of y52 from the facial
+datum  plane  and  must  have  a  flatness  of  y42.  No
+surface on the FOBIT door may project further from the
+facial  datum  plan  than  the  door  seal  zone  and  the
+reserved spaces for vacuum application. The door of the
+FOBIT must also be designed so that when the FOBIT
+is pressed against the FIMS port, both latch keys on the
+port are inserted to their full length.  Furthermore, when
+the  latch  keys  are  turned  more  than  45°  toward  the
+position  that  unlocks  the  FOBIT  door,  the  latch  key
+holes  on  the  door  must  be  such  that  the  door  is  not
+removable from the latch keys.
+5. 4  Wafer Capture and Centering — When the FOBIT
+is closed, the wafers must be captured in the FOBIT to
+prevent    movement    during    subsequent    handling,
+including  transportation.  It  should  be  noted  that  wafers
+are  typically  transported  in  a  vertical  orientation  and
+generally  require  support  from  a  secondary  package.  It
+is   recommended   that   this   secondary   package   be
+designed to allow for easy removal of the FOBIT from
+the secondary package.
+
+
+SEMI E119-1104 © SEMI 2002, 2004 4
+5. 5  Wafer  Orientation  and  Numbering  —  The  wafers
+must  be  horizontal  when  the  FOBIT  is  placed  on  the
+kinematic  coupling,  and  the  wafers  slots  are  numbered
+in  increasing  order  from  bottom  to  top  (so  the  bottom
+wafer  is  wafer  number  1,  the  next  wafer  up  is  wafer
+number 2, etc.).
+5. 6  Internal Horizontal Dimensions — Figure 1 shows
+a  cross-section  of  the  horizontal  boundaries  of  the
+FOBIT  side  domains  (which  contain  the  parts  of  the
+FOBIT higher than z6 above the horizontal datum plane
+and  lower  than  z15  above  the  top  wafer).  In  this  and
+following   figures,   the   heaviest   lines   are   used   for
+surfaces  that  have  tolerances  (not  surfaces  that  have
+only   maximum   or   minimum   dimensions).   Table   1
+defines the dimensions shown in this figure.
+5. 7  Internal Vertical Dimensions —  Figures  2  through
+5  show  the  vertical  dimensions  of  the  internal  FOBIT.
+Note  that  z8  (the  height  of  the  bottom  nominal  wafer-
+seating plane above the horizontal datum plane) and z12
+(the  distance  between  adjacent  nominal  wafer  seating
+planes)   are   given   as   absolute   distances   with   no
+tolerance.  This  means  that  the  sum  of  actual  height
+variations in the FOBIT from the kinematic coupling to
+the  supporting  features  holding  each  wafer  must  be
+contained  within  the  tolerance  of  z10  with  no  further
+stack-up at each higher wafer. The method for meeting
+this requirement is left up to the FOBIT supplier. Table
+1 defines all dimensions for Figures 2 through 5.
+
+
+
+y
+1
+≤
+3
+facial
+datum
+plane
+x
+1
+≥
+50
+
+x
+2
+≤
+75
+bilateral
+datum
+plane
+r
+4
+≥
+170
+right rear
+side domain
+
+left rear
+side domain
+
+front side of the FOBIT where wafers are accessed
+left front
+side domain
+
+wafer
+pick-up
+area
+right front
+side domain
+
+wafer set-
+down and
+extraction
+volumes
+r
+2 = 152
+
+
+r
+3
+≥
+r
+2 + 1
++1
+
+–0
+
+y
+51
+≥
+140
+x
+52
+≥
+170
+x
+51
+≥
+140
+x
+3
+≥
+125
+y
+52
+≤
+166
+y
+49
+≤
+134
+y
+11
+≤
+85
+y
+5
+≥
+120
+r
+1
+≤
+151
+
+
+Figure 1
+Top View of FOBIT Internal Dimensions
+
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 5
+horizontal datum plane
+z8
+=35
+z6
+≤ 28.5
+z12
+= 6.25
+z15
+≥ 4.6
+facial datum plane
+front side of the FOBIT where wafers
+are accessed
+y5 ≥ 120
+
+
+Figure 2
+Side View of FOBIT Internal Dimensions
+
+
+SEMI E119-1104 © SEMI 2002, 2004 6
+
+z
+≥
+4. 6
+x
+1
+≥
+50
+x
+2
+≤
+75
+x
+3
+≥
+125
+Detail in
+
+Figure 5
+
+Detail in
+
+Figure 4
+
+horizontal datum plane
+z 8
+
+= 35
+
+15
+
+z 6
+
+≤
+28. 5
+
+z
+
+12
+
+= 6.25
+
+bilateral datum plane
+
+Figure 3
+Front View of FOBIT Internal Dimensions
+
+z
+23
+≤
+1. 5
+z
+11
+≥
+2. 9
+z
+12 = 6.25
+x
+3
+≥
+125
+bilateral
+
+datum
+
+plane
+top
+nominal
+
+wafer
+plane
+z
+z
+10 = ± 0.5
+(height of
+wafer bottom)
+r
+2 = 152
+r3
+≥
+r2 + 1
++1
+–0
+z
+15
+≥
+4. 6
+
+Figure 4
+Upper Cross-Section at Facial Datum Plane
+
+5. 7.1  Wafer  Set-Down  Volume  —  The  open  space  for
+the  wafer  set-down  volume  consists  of  a  cylindrical
+section with radius r2 and a main axis parallel to and y1
+in front of the nominal wafer centerline. The top of this
+cylindrical  section  is  z11  above  the  nominal  wafer-
+seating  plane  and  its  bottom  is  z10  above  the  nominal
+wafer-seating    plane.    The    implications    for    wafer
+positioning  of  the  tolerance  on  r2  are  as  follows.  The
+wafers should be placed in the FOBIT within a circle of
+radius  corresponding  to  the  smaller  bound  on  r2  to
+avoid  touching  the  edge  of  the  wafer  to  the  side  of  the
+FOBIT.  Once  the  wafer  has  been  placed,  the  FOBIT
+
+
+SEMI E119-1104 © SEMI 2002, 2004 7
+must  not  allow  a  wafer  to  move  outside  of  a  circle  of
+radius  corresponding  to  the  larger  bound  on  r2.  There
+are  two  exceptions  to  this  limit  on  wafer  movement.
+When  the  wafer  is  pushed  toward  the  rear  of  the
+FOBIT,  the  location  of  the  wafer  is  defined  by  the
+wafer  pick-up  volume  (see  Section  5.7.3).    When  the
+FOBIT  is  gently  tilted  forward  up  to  45°,  the  wafers
+may slide forward, but it is recommended that they not
+extend further than y20 from the facial datum plane.
+5. 7.2  Wafer  Extraction  Volume  —  The  open  space  for
+the   wafer   extraction   volume   includes   a   cylindrical
+section with radius r3 and a main axis parallel to and y1
+in front of the nominal wafer centerline. The top of this
+cylindrical  section  is  z11  above  the  nominal  wafer-
+seating  plane  and  its  bottom  is  z23  above  the  nominal
+wafer-seating  plane.  The  wafer  extraction  volume  also
+includes the extrusion out the front of the FOBIT of this
+cylindrical    section.    The    implications    for    wafer
+extraction  of  the  definition  of  dimension  r3  (r3 ≥ r2  +
+1)  are  as  follows;  the  FOBIT  must  give  an  extra  1mm
+(0.04  in.)  of  horizontal  clearance  once  the  wafer  is
+picked up from wherever it ends up (within the bounds
+of r2) after transport in the FOBIT.
+5. 7.3  Wafer Pick-Up Volume — If a wafer is placed in
+the  wafer  set-down  volume  and  is  then  pushed  toward
+the  rear  of  the  FOBIT,  then  the  entire  bottom  of  the
+wafer  must  be  contained  in  the  wafer  pick-up  volume.
+However,  if  the  wafer  is  not  pushed  toward  the  rear  of
+the  FOBIT,  then  the  wafer  may  only  be  somewhere
+within  the  wafer  extraction  volume.  The  wafer  pick-up
+volume  is  defined  by  a  cylindrical  section  with  radius
+r1  and  a  main  axis  at  the  nominal  wafer  centerline.  Its
+top and bottom are the upper and lower tolerance of z10
+around the nominal wafer-seating plane.
+
+
+z
+8 =35
+x
+3
+≥
+125
+z
+12 =6.25
+z
+12 =6.25
+bilateral
+datum
+plane
+horizontal
+datum  plane
+bottom
+nom inal
+wafer
+plane
+z
+6
+≤28.5
+
+
+Figure 5
+Lower Cross-Section at Facial Datum Plane
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 8
+Table 1  Internal FOBIT Dimensions (Figures 1−5)
+Symbol
+Used
+Figure
+Number
+
+Value Specified
+
+Datum Measured from
+
+Boundary or Feature Measured to
+r1 1 151 mm (5.94 in.)
+maximum
+nominal wafer centerline outer edge of wafer pick-up volume
+r2 1, 4 152 = + 1/– 0 mm
+(5.98 + 0.04 – 0 in.)
+y1 in front of nominal
+wafer centerline
+encroachment of FOBIT side domains on
+wafer set-down volume
+r3               1,               4               r2 + 1 mm (0.04 in.)
+minimum
+y1 in front of nominal
+wafer centerline
+encroachment of FOBIT side domains on
+wafer extraction volume
+r4 1 170 mm (6.69 in.)
+minimum
+nominal wafer centerline encroachment of FOBIT on end effector
+exclusion zone between front and rear FOBIT
+side domains
+x1 1, 3 50 mm (1.97 in.)
+minimum
+bilateral datum plane inside of rear FOBIT side domains
+x2 1, 3 75 mm (2.95 in.)
+maximum
+bilateral datum plane outside of rear FOBIT side domains
+x3 1, 3, 4, 5 125 mm (4.92 in.)
+minimum
+bilateral datum plane inside of front FOBIT side domains
+x51 1 140 mm (5.51 in.)
+minimum
+bilateral datum plane interior of FOBIT sides between y11 and y49
+x52 1 170 mm (6.69 in.)
+minimum
+bilateral datum plane interior of FOBIT sides between y49 and y52
+y1 1 3 mm (0.12 in.)
+maximum
+facial datum plane origin of r2 and r3 on bilateral datum plane
+y5 1, 2 120 mm (4.72 in.)
+minimum
+facial datum plane front of rear FOBIT side domains
+y11 1 85 mm (3.35 in.)
+maximum
+facial datum plane interior of FOBIT sides between x3 and x51
+y20
+#1
+None 158 mm (6.22 in.) facial datum plane maximum protrusion of wafers toward the
+front of the FOBIT
+y49 1 134 mm (5.28 in.)
+maximum
+facial datum plane interior of FOBIT sides between x51 and x52
+y51 1, 6, 8 140 mm (5.51 in.)
+minimum
+facial datum plane rear of door
+z6 2, 3, 5 28.5 mm (1.12 in.)
+maximum
+horizontal datum plane top of FOBIT bottom domain
+z8 2, 3, 5 35 mm (1.38 in.) horizontal datum plane bottom nominal wafer seating plane
+z10 4 0 ± 0.5 mm
+(0.00 ± 0.02 in.)
+each nominal wafer
+seating plane
+entire bottom of the wafer
+z11 4 2.9 mm (0.11 in.)
+minimum
+each nominal wafer
+seating plane
+encroachment of FOBIT side domains on
+clearance above the wafer
+z12 2, 3, 4, 5 6.25 mm (0.25 in.)
+nominal
+each nominal wafer
+seating plane
+adjacent nominal wafer seating planes
+z15 2, 3, 4 4.6 mm (0.18 in.)
+minimum
+top nominal wafer
+seating plane
+bottom of FOBIT top domain
+z23 4 1.5 mm (0.06 in.)
+maximum
+each nominal wafer
+seating plane
+bottom of wafer extraction volume
+#1
+These dimensions are for optional features.
+
+5. 8  External  Dimensions  —  Figures  6  through  8  and
+Figure 10 show the side, rear, top, and bottom views for
+the  FOBIT,  respectively.  Table  2  defines  all  of  these
+dimensions.  In  this  and  following  figures,  the  heaviest
+lines  are  used  for  surfaces  that  have  tolerances  (not
+surfaces    that    have    only    maximum    or    minimum
+dimensions).  If  an  identification  tag  is  used,  it  must  be
+located  at  the  bottom  rear  centered  on  the  bilateral
+datum   plane   and   must   be   contained   within   the
+maximum outer dimensions of the FOBIT.
+
+
+SEMI E119-1104 © SEMI 2002, 2004 9
+5. 9  Human Handles — All handles for use by humans
+must  either  be  contained  within  the  maximum  outer
+dimensions of the FOBIT, be detached when not in use,
+or  be  retractable  into  the  maximum  outer  dimensions
+when  not  in  use.  Although  such  handles  may  extend
+past x53,  they  must  still  be  contained  within  the  upper
+limits of x50, y40, and r67. Handles for use by humans
+(if  present)  must  follow  SEMI  S8,  and  they  must
+require  the  use  of  both  hands  (each  using  a  full  wrap-
+around grip, given the minimum clearance requirement
+in SEMI E15.1). Automation handling features shall not
+be considered dual purpose unless they are designed to
+meet SEMI S8 guidelines.
+5. 10  Automation  Handling  Features  —  On  the  top  of
+the FOBIT, there is an optional robotic handling flange
+for  manipulating  the  FOBIT  as  illustrated  in  Figure
+
+# 9
+
+9.  Οn the bottom of the FOBIT, there are optional rails
+for  use  with  roller  conveyors  or  forklifts  as  shown  in
+Figures 6, 7 and 10.  Although they are only required to
+extend y58  behind  the  facial  datum  plane  on  both  the
+left  and  right  sides,  it  is  recommended  that  they  be  as
+long as possible.  Beyond y58, only the lower bound on
+z43  applies.    These  optional  conveyor  rails  (defined  by
+x56, x57, y58, and z43) are located on the left and right
+bottom  edges  of  the  front-opening  box  and  also  have
+vertical   cylindrical   pin   holes   for   forklift   centering
+(defined by d65).
+
+
+
+y51
+≥
+140
+
+facial
+datum plane
+horizontal datum of
+box nest or load
+port plane
+
+y53
+≤
+190
+y50
+≥
+130
+y46
+
+= 71 ± 1
+y44
+
+≤
+53
+z49
+≤
+8
+z48
+≥
+15
+z47
+= 221
+± 1
+
+y40
+≤
+116
+
+human
+handle
+(optional)
+front side
+of the
+FOBIT
+where
+wafers
+are
+accessed
+y58 ≥ 75
+z41
+≥
+0
+
+d65 = 10 ± 0.5
+z65
+≥
+7
+z43 = 2±1
+
+y52 = 165.5 ± 0.5
+(at seal zones, etc.)
+≤
+166
+(elsewhere)
+
+
+Figure 6
+Side View of FOBIT
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 10
+
+bilateral datum plane
+horizontal datum plane of
+box nest or load port
+
+x
+53
+≤
+195 (elsewhere)
+x
+46
+= 71 ± 1
+x
+44
+≤
+53
+z
+49
+≤
+8
+
+z
+48
+
+≥
+15
+
+z
+47
+= 221
+± 1
+
+human
+handle
+(optional)
+z
+41
+≥
+0
+
+z
+43 = 2 ± 1
+bottom rail
+x
+57
+≤
+180
+d65
+= 10 ± 0.5
+z65 ≥ 7
+x
+65 = 187.5
+x
+56 = 194.75
+±
+0. 25 (at bottom rail)
+x
+50
+≤
+215 (at human handle)
+
+
+Figure 7
+Rear View of FOBIT
+
+
+
+Top robotic
+flange detail
+in Figure 9
+human
+
+handle
+
+(optional)
+
+y53
+≤
+190
+y52 = 165.5 ± 0.5
+(at seal zones,
+etc.)
+≤
+166
+(elsewhere)
+
+bilateral
+datum plane
+front side of the FOBIT where wafers are accessed
+y50
+≥
+130
+x
+50
+≤
+215 (at human handle)
+x
+53
+≤
+195 (elsewhere)
+r
+67
+≤
+240
+facial
+
+datum
+
+plane
+
+y 40
+
+≤
+116
+
+y67
+= 25
+y51
+≥
+140
+
+
+Figure 8
+Top View of FOBIT
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 11
+
+x
+
+42 = 50 ± 1x41 = 30 ± 1
+y
+
+45
+= 65.3 ± 1
+y
+
+47
+≥
+58
+
+x
+44
+≤
+53
+facial
+datum
+plane
+bilateral
+datum
+plane
+front side of
+the FOBIT
+where wafers
+are accessed
+y
+
+41 = 30 ± 1
+y
+
+46
+= 71 ± 1
+x43 = 50 ± 1
+x47
+≥
+58
+
+(16x)
+θ
+= 45
+
+± 0.5°
+position
+notch
+orientation
+notch
+x
+
+46 = 71 ± 1
+x
+
+45 =
+65. 3 ± 1
+y
+44
+≤
+53
+
+d63
+= 35 ± 0.1
+y
+68
+≤
+55
+x
+
+69 = 7.6 ± 0.1
+α
+
+= 60°
+r63
+≤
+66
+
+
+top of
+FOBIT
+bilateral
+datum plane
+horizontal
+datum plane
+z
+
+47
+= 221 ± 1
+position notch
+d63
+= 35 ± 0.1
+cross-section
+
+above:
+
+x
+
+69 = 7.6 ± 0.1
+β
+
+= 45 ± 1°
+γ
+= 52 ± 1°
+x45 = 65.3 ± 1
+x46 = 71 ± 1
+z
+49
+≤
+8
+
+z48
+≥
+15
+
+
+z
+
+50
+≥
+5
+
+r
+59
+≤
+6
+
+
+Figure 9
+Top Robotic Handling Flange
+
+
+5. 11  Retaining  Features  —  Figures  10  and  11  show
+two  features  on  the  bottom  of  the  FOBIT  that  may  be
+used   for   retaining   the   FOBIT   onto   the   kinematic
+couplings.  This  may  be  needed  to  prevent  the  FOBIT
+from being knocked off the kinematic couplings by the
+action  of  pushing  the  FOBIT  against  the  front-opening
+interface.  The  front  retaining  feature  contains  a  ramp
+that  a  wheel  might  roll  up  while  the  FOBIT  is  being
+pushed  toward  the  front-opening  interface.  The  arm
+with  the  wheel  (not  specified  here)  then  holds  the
+FOBIT  down  on  the  kinematic  couplings.  The  center-
+retaining  feature  consists  of  an  oblong  slot  with  a
+chamber above it. The FOBIT can be clamped onto the
+kinematic  couplings  by  inserting  an  oblong  head  on  a
+shaft (not specified here) through the slot and rotating it
+90°  in  either  direction.  Either  retaining  feature  would
+only  engage  after  the  FOBIT  is  fully  seated  on  the
+kinematic  coupling  pins.  Either  retaining  feature  must
+
+
+SEMI E119-1104 © SEMI 2002, 2004 12
+be able to withstand a force in any direction of at least
+f60. It is recommended that SEMI E15.1 tool load ports
+be   designed   to   accommodate   the   minimum   hole
+dimensions  of  the  retaining  features  to  ensure  carrier
+interchangeability.  Projections  on  the  tool  load  ports
+that  mate  with  the  retaining  features  should  also  not
+interfere  with  the  misalignment  correction  function  of
+the  kinematic  couplings.  All  dimensions  of  the  FOBIT
+(such  as  the  wafer  location,  etc.)  are  defined  with
+reference   to   the   kinematic   coupling   pins,   and   are
+designed  so  that  all  of  the  their  features  are  in  the
+proper  location  only  when  the  FOBIT  is  held  in  place
+on the kinematic coupling pins by gravity only.
+5. 12  Sensing Pads and Info Pads — The FOBIT must
+have the same carrier sensing pads as defined in SEMI
+E1.9,   including   the   info   pads   that   communicate
+information   about   the   carrier   such   as   the   carrier
+capacity (number of wafers) and type (cassette or box).
+See   SEMI   E1.9   for   information   about   info   pad
+configurations  for  different  wafer  carriers  similar  to
+FOBITs  including  front-opening  shipping  boxes  (as
+defined   in   SEMI   M31)   and   single-wafer   interface
+(SWIF)   systems   (as   defined   in   SEMI   E103).   Two
+additional  sensing  pads  (that  can  be  used  continuously
+while the FOBIT is advancing into the FIMS interface)
+must  be  located  near  the  center  of  the  bottom  at  the
+same  distance  from  the  horizontal  datum  plane  as  the
+carrier  sensing  pads  (See  Figure  12).  In  addition,  the
+surfaces  on  the  door  of  the  FOBIT  that  mate  with  the
+seal   zones   and   the   reserved   spaces   for   vacuum
+application may also be used for door-presence sensing.
+It  is  intended  that  the  FOBIT  have  the  capability  to
+allow   customization   of   the   info   pad   configuration.
+Therefore,  the  purchaser  of  300  mm  carriers  needs  to
+specify  the  desired  info  pad  orientation  (up  or  down)
+for  all  four  locations,  as  defined  in  the  Appendix  of
+SEMI E1.9.
+
+
+
+
+
+facial
+datum
+plane
+bottom
+conveyor rail
+center
+retain-
+ing
+feature
+y62
+≤
+28
+x
+
+56 = 194.75 ± 0.25
+(at bottom rail)
+x
+53
+≤
+195 (elsewhere)
+y
+52 = 165.5 ± 0.5
+(at seal zones, etc.)
+≤
+166 (elsewhere)
+r
+60 = 16
+± 0.5
+r
+64
+≤
+9. 5
+x64
+≥
+35
+y
+
+58
+≥
+75
+
+bilateral
+datum
+plane
+x
+57
+≤
+180
+y
+53
+≤
+190
+front side of the FOBIT  where wafers are accessed
+y65
+≥
+104
+x60
+= 8.0 ± 0.5
+r
+61
+≥
+16
+front
+retaining
+feature
+y67
+= 25
+r
+67
+≤
+240
+y
+
+64
+= 42.1
+± 0.5
+y
+
+63
+= 37.3
+± 0.5
+d
+
+65 =10 ± 0.5
+x
+65 = 187.5
+x68
+≥
+25
+x50
+≤
+215 (at human handle)
+
+Figure 10
+Bottom View of FOBIT
+
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 13
+z 61
+
+≥
+15
+
+z
+60
+
+= 8 ± 0.5
+
+y
+64 = 42.1 ± 0.5
+
+z62
+
+≥
+18
+
+y
+62
+
+≤
+28
+
+y
+65
+≥
+104
+facial
+
+datum plane
+
+horizontal datum plane
+of load port
+y 63 = 37.3 ± 0.5
+
+φ
+= 30
+± 0.5°
+z63 = 7.5
+± 0.5
+r 61
+
+≥
+16 (above
+
+z 60)
+
+r 60 = 16 ± 0.5 (below
+z
+60)
+
+front side of the box
+
+where wafers are accessed
+
+
+Figure 11
+Side View of Retaining Features on Bottom of FOBIT
+
+
+
+
+
+facial
+datum
+plane
+bilateral
+datum
+plane
+advancing
+
+box
+sensing
+pads
+y64
+= 42.1 ± 0.5
+y66
+≥
+50
+x
+67
+≥
+34
+x
+66
+≤
+31
+carrier
+
+sensing
+pads
+kinematic
+pins
+info pad D
+info pad B
+info pad C
+
+info pad A
+
+Figure 12
+Sensing Pads on Bottom of FOBIT
+
+
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 14
+Table 2  External FOBIT Dimensions (Figures 6−12)
+Symbol
+Used
+Figure
+Number
+Value Specified Datum Measured from Feature Measured to
+α
+#1
+
+9                             60° bilateral datum plane  centerline of the right and left kinematic
+grooves in the top robotic handling flange
+β
+#1
+
+9 45 ± 1° nominal wafer centerline surface of the center hole in the top robotic
+handling flange
+γ
+#1
+
+9 52 ± 1° bilateral datum plane or
+vertical plane rotated α
+away from it about
+nominal wafer centerline
+angled surface of the kinematic grooves in
+the top robotic handling flange
+θ
+#1
+
+9 45 ± 0.5° either vertical datum
+plane
+sides of position and orientation notches in
+the top robotic handling flange
+φ
+11
+30 ± 0.5°
+horizontal line on
+bilateral datum plane
+ramp of front retaining feature
+d63‡ 9 35 ± 0.1 mm
+(1.378 ± 0.004 in.)
+diameter centered on the
+nominal wafer centerline
+sides the center hole in the top robotic
+handling flange at height z47
+d65
+#1
+6, 7, 10 10 ± 0.5 mm
+(0.39 ± 0.02 in.)
+diameter centered on the
+intersection of x65 and
+the facial datum plane
+surface of cylindrical fork-lift pin holes in
+left and right bottom conveyor rails
+f60             None
+175 N (39.3 lbf.)
+minimum
+not applicable force in any direction which both retaining
+features are able to withstand
+r59
+#1
+9 6 mm (0.24 in.)
+maximum
+not applicable radius on peak of kinematic grooves in the
+top robotic handling flange
+r60
+10, 11
+16 ± 0.5 mm
+(0.63 ± 0.02 in.)
+nominal wafer center line     ends of slot for center retaining feature
+r61
+10, 11
+16 mm (0.63 in.)
+minimum
+nominal wafer center line     walls of chamber above slot in center
+retaining feature
+r63
+#1
+9 66 mm (2.60 in.)
+maximum
+nominal wafer centerline near end of the right and left kinematic
+grooves in the top robotic handling flange
+r64               10
+9. 5 mm (0.37 in.)
+maximum
+not applicable corners of front retaining feature
+r65 None 1 mm (0.04 in.)
+maximum
+not applicable all required concave features (radius)
+r66 None 2 mm (0.08 in.)
+maximum
+not applicable all required convex features (radius)
+r67 8, 10 240 mm (9.45 in.)
+maximum
+y67 in front of nominal
+wafer centerline
+any part of FOBIT
+r69 None 10 mm (0.39 in.)
+minimum (required)
+15 mm (0.59 in.)
+(recommended for
+ergonomic reasons)
+not applicable correctable FOBIT misalignment in any
+horizontal direction
+x41
+#1
+9 30 ± 1 mm
+(1.18 ± 0.04 in.)
+bilateral datum plane front right orientation notch on the top
+robotic handling flange
+x42
+#1
+9 50 ± 1 mm
+(1.97 ± 0.04 in.)
+bilateral datum plane front left orientation notch on the top robotic
+handling flange
+x43
+#1
+9 50 ± 1 mm
+(1.97 ± 0.04 in.)
+bilateral datum plane rear orientation notch on the top robotic
+handling flange
+x44
+#1
+7, 9 53 mm (2.09 in.)
+maximum
+bilateral datum plane encroachment of supports under the outer
+edge of the top robotic handling flange
+x45
+#1
+9 65.3 ± 1 mm
+(2.57 ± 0.04 in.)
+bilateral datum plane nearest point of side position and orientation
+notches on the top robotic handling flange
+x46
+#1
+7, 9 71 ± 1 mm
+(2.80 ± 0.04 in.)
+bilateral datum plane outside edge (right & left sides) of the top
+robotic handling flange
+
+
+SEMI E119-1104 © SEMI 2002, 2004 15
+Symbol
+Used
+Figure
+Number
+Value Specified Datum Measured from Feature Measured to
+x47
+#1
+9 58 mm (2.28 in.)
+minimum
+bilateral datum plane end of the top robotic handling flange front
+and rear
+x50
+#1
+7, 8, 10 215 mm (8.46 in.)
+maximum
+bilateral datum plane furthest reach of human handles
+x53 7, 8, 10 195 mm (7.68 in.)
+maximum
+bilateral datum plane FOBIT sides (apart from human handles)
+x56
+#1
+7, 10 194.75 ± 0.25 mm
+(7.667 ± 0.010 in.)
+bilateral datum plane outside edge of bottom conveyor rails
+x57
+#1
+7, 10 180 mm (7.09 in.)
+maximum
+bilateral datum plane FOBIT sides underneath bottom conveyor
+rails
+x60               10
+8 ± 0.5 mm
+(0.31 ± 0.02 in.)
+bilateral datum plane sides of slot for center retaining feature
+x64               10
+35 mm (1.38 in.)
+minimum
+bilateral datum plane sides of front retaining feature
+x65
+#1
+7, 10 187.5 mm (7.38 in.) bilateral datum plane vertical axis of cylindrical fork-lift pin holes
+in left and right bottom conveyor rails
+x66
+12
+31 mm (1.22 in.)
+maximum
+bilateral datum plane near side of advancing box sensing pads
+x67               12
+34 mm (1.34 in.)
+minimum
+bilateral datum plane far side of advancing box sensing pads
+x68               10
+25 mm (0.98 in.)
+minimum
+bilateral datum plane sides of volume above ramp on front
+retaining feature
+x69
+#1
+9 7.6 ± 0.1 mm
+(0.299 ± 0.004 in.)
+bilateral datum plane or
+vertical plane rotated α
+away from it about
+nominal wafer centerline
+beginning of angled surface of the kinematic
+grooves in the top robotic handling flange
+y40
+#1
+6, 8 116 mm (4.57 in.)
+maximum
+facial datum plane furthest extent of human handles toward the
+front
+y41
+#1
+9 30 ± 1 mm
+(1.18 ± 0.04 in.)
+facial datum plane left orientation notch on robotic handling
+flange
+y42 None ± 0.5 mm (± 0.02 in.)
+flatness over each area
+facial datum plane  surfaces that mate with the seal zones
+y44
+#1
+6, 9 53 mm (2.09 in.)
+maximum
+facial datum plane encroachment of supports under the outer
+edge of the top robotic handling flange
+y45
+#1
+9 65.3 ± 1 mm
+(2.57 ± 0.04 in.)
+facial datum plane nearest point of front and rear position and
+orientation notches on the top robotic
+handling flange
+y46
+#1
+6, 9 71 ± 1 mm
+(2.80 ± 0.04 in.)
+facial datum plane outside edge (front & rear) of the top robotic
+handling flange
+y47
+#1
+9 58 mm (2.28 in.)
+minimum
+facial datum plane end of robotic handling flange sides
+y50 6, 8 130 mm (5.12 in.)
+minimum
+facial datum plane rear of upper door frame volume
+y52 1, 6, 8, 10 165.5 ± 0.5 mm (6.52 ±
+0. 02 in.) at door and
+frame seal zones and at
+reserved spaces for
+vacuum application and
+166 mm (6.54 in.)
+maximum elsewhere on
+door or box shell
+facial datum plane FOBIT front
+y53 6, 8, 10 190 mm (7.48 in.)
+maximum
+facial datum plane FOBIT rear
+
+
+SEMI E119-1104 © SEMI 2002, 2004 16
+Symbol
+Used
+Figure
+Number
+Value Specified Datum Measured from Feature Measured to
+y58
+#1
+6, 10 75 mm (2.95 in.)
+minimum
+facial datum plane end of left and right conveyor rails
+y62            10,            11
+28 mm (1.10 in.)
+maximum
+facial datum plane rear of front retaining feature
+y63            10,            11
+37. 3 ± 0.5 mm
+(1.47 ± 0.02 in.)
+facial datum plane rear of ramp on front retaining feature
+y64 10, 11, 12
+42. 1 ± 0.5 mm
+(1.66 ± 0.02 in.)
+facial datum plane front of ramp on front retaining feature and
+front side of advancing box sensing pads
+y65            10,            11
+104 mm (4.09 in.)
+minimum
+facial datum plane front of front retaining feature
+y66               12
+50 mm (1.97 in.)
+minimum
+facial datum plane rear side of advancing box sensing pads
+y67 8, 10 25 mm (0.98 in.) facial datum plane origin of r67 on bilateral datum plane
+y68
+#1
+9 55 mm (2.17 in.)
+maximum
+facial datum plane near end of the front kinematic groove in the
+top robotic handling flange
+z2 None 2 mm (0.08 in.)
+maximum
+horizontal datum plane bottom of carrier sensing pads and info pads
+(when down)
+z41 6, 7 0 mm (0 in.)
+minimum
+external horizontal datum
+plane
+bottom of FOBIT
+z43
+#1
+6, 7 2 ± 1 mm
+(0.08 ± 0.04 in.)
+external horizontal datum
+plane
+bottom conveyor rails
+z47
+#1
+6, 7, 9 221 ± 1 mm
+(8.70 ± 0.04 in.)
+external horizontal datum
+plane
+bottom surface of the top robotic handling
+flange
+z48
+#1
+6, 7, 9 15 mm (0.59 in.)
+minimum
+bottom of robotic
+handling flange
+encroachment of FOBIT top underneath
+robotic handling flange
+z49
+#1
+6, 7, 9 8 mm (0.31 in.)
+maximum
+bottom of robotic
+handling flange
+top of robotic handling flange and upper door
+frame volume
+z50
+#1
+9 5 mm (0.20 in.)
+minimum
+bottom of robotic
+handling flange
+encroachment of FOBIT top underneath the
+center hole in the top robotic handling flange
+z60               11
+8. 0 ± 0.5 mm
+(0.31 ± 0.02 in.)
+external horizontal datum
+plane
+top of slot in center retaining feature
+z61               11
+15 mm (0.59 in.)
+minimum
+external horizontal datum
+plane
+top of chamber above slot in center retaining
+feature
+z62               11
+18 mm (0.71 in.)
+minimum
+external horizontal datum
+plane
+top of front retaining feature
+z63               11
+7. 5 ± 0.5 mm
+(0.30 ± 0.02 in.)
+external horizontal datum
+plane
+top of ramp on front retaining feature
+z65
+#1
+6, 7 7 mm (0.28 in.)
+minimum
+horizontal datum plane upper boundary of cylindrical fork-lift pin
+holes in left and right bottom conveyor rails
+#1
+These dimensions are for optional features.
+
+6  Related Documents
+6. 1  SEMI Standards
+SEMI  E22.1  —  Cluster  Tool  Module  Interface  300
+mm: Transport Module End Effector Exclusion Volume
+Standard
+SEMI  E63  —  Mechanical  Specification  for  300  mm
+Box   Opener/Loader   to   Tool   Standard   (BOLTS-M)
+Interface
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+
+
+
+SEMI E119-1104 © SEMI 2002, 2004 17
+RELATED INFORMATION 1
+APPLICATION NOTES
+NOTICE:  This  Related  Information  is  being  balloted  as  an  official  part  of  SEMI  E119  by  full  letter  ballot
+procedures.  The recommendations in this appendix are optional and are not required to conform to this standard.
+R1-1
+R1-1.1    Although  FOBIT  parameters  supporting  effective  reuse  and  cleaning  (washing/drying)  are  not  defined  in
+this document, it is essential that these capabilities be considered for a successful overall transportation box design.
+R1-1.2    It  is  important  to  note  that  transportation  boxes  containing  wafers  are  typically  bagged  for  shipment.  It  is
+therefore important to design the outer surfaces of the box to be compatible with this common practice.
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user's  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E124-1103 © SEMI 2003 1
+SEMI E124-1103
+PROVISIONAL GUIDE FOR DEFINITION AND CALCULATION OF
+OVERALL FACTORY EFFICIENCY (OFE) AND OTHER ASSOCIATED
+FACTORY-LEVEL PRODUCTIVITY METRICS
+This  provisional  guideline  was  technically  approved  by  the  Global  Metrics  Committee  and  is  the  direct
+responsibility  of  the  North  American  Metrics  Committee.  Current  edition  approved  by  the  North  American
+Regional Standards Committee on July 27, 2003 and September 3, 2003.  Initially available at www.semi.org
+September 2003; to be published November 2003. Originally published July 2003.
+1  Purpose
+1. 1    This  guide  describes  metrics  that  show  how  well  a
+factory  is  operating  compared  to  how  well  it  could  be
+operating  (for  the  given  product  mix).    These  metrics
+can be used for tracking factory performance (in value-
+added   production)   in   a   way   that   rewards   good
+operational  decisions  and  that  is  not  easy  to  adversely
+manipulate.  They can be used in a process of ongoing
+improvement  that  can  be  visible  to  all  levels  of  a
+semiconductor manufacturing organization.
+1. 2      The   metrics   in   this   guide   are   intended   for
+evaluating  the  relative  efficiency  of  factory  production
+after  the  factory  is  in  production,  not  for  capacity
+analysis   while   the   factory   is   being   designed   or
+redesigned.    However,  some  of  these  metrics  can  be
+used in factory simulations for choosing equipment sets
+and scheduling policies.
+2  Scope
+2. 1    To  evaluate  the  overall  effectiveness  of  a  factory,
+there  are  at  least  three  things  in  need  of  measurement:
+production,  utilization  of  assets,  and  costs.    This  guide
+focuses  on  evaluating  production;  utilization  of  assets
+and   costs   (as   well   as   other   economic   factors)   are
+outside   its   scope.      See   Section   R3-1.1   in   Related
+Information 3 for a discussion of metrics in other areas.
+2. 2        This    guide    describes    metrics    for    an    entire
+integrated production line.  Multiple production lines in
+the same factory may be evaluated separately if they do
+not   share   resources   (such   as   material   handling   or
+production equipment).
+2. 3    This  guide  is  provisional  because  overall  factory
+efficiency (OFE)  is  a  new  concept.  Once  the  metrics
+have  been  validated  by  collecting  data  in  production
+factories,  computing  the  metrics,  and  evaluating  their
+sensitivity  to  the  data,  this  guide  should  be  modified
+and  upgraded  from  provisional  status  (as  specified  in
+the  SEMI  regulations).    Also,  additional  supplemental
+metrics  may  be  defined,  and  the  metric  definitions
+given   here   may   be   expanded   to   truly   comprehend
+assembly operations.
+NOTICE: This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1    In  the  context  of  this  guide,  it  is  important  to  note
+that  factory-level  productivity  is  impacted  greatly  by
+factors  beyond  the  factory  itself,  including  material
+availability,  efficiency  of  product  device  designs,  and
+customer demand.
+3. 2      The   metrics   in   this   guide   are   intended   for
+evaluating  the  overall  efficiency  of  factory  production,
+not   for   diagnosing   problems   (or   opportunities   for
+improvement) in the factory, although some component
+metrics  can  be  used  that  way.    See  Section  R3-1.2  in
+Related    Information    3    for    a    discussion    of    the
+differences between the two kinds of metrics.
+3. 3    This  guide  provides  metrics  and  calculations  for
+measuring     the     overall     productivity     only     of
+manufacturing  environments  (such  as  wafer  fabs,  flat
+panel    factories,    and    some    disk-drive    production
+facilities) in which product substrates move through the
+factory  with  no  assembly  or  disassembly  processes.
+These  metrics  can  be  applied  in  a  post-wafer  back-end
+chip    production    facility    if    the    lead    frames    are
+considered  to  be  consumable  materials  (not  units  of
+production  in  their  own  right).    However,  in  the  future
+this guide may be extended to comprehend other, more
+complex     manufacturing     environments     (including
+assembly operations).
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI    E10    ó    Specification    for    Definition    and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability (RAM)
+SEMI E79 ó Standard for Definition and Measurement
+of Equipment Productivity
+
+
+SEMI E124-1103 © SEMI 2003 2
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+NOTE   1:      All   of   the   metrics   defined   below   should   be
+calculated with respect to the period being measured.
+5. 1  Definitions
+5. 1.1  actual  throughput  rate  ó  the  finished  units  out
+divided  by  the  total  time  (shows  how  fast  finished
+wafers flow out of the factory).  See Equation 19.
+5. 1.2  availability  efficiency  (time  divided  by  time)  ó
+the  fraction  of  total  time  that  the  equipment  is  in  a
+condition to perform its intended function (SEMI E79).
+5. 1.3  average  cycle  time  ó  the  (unweighted)  average
+of  cycle  time  over  all  of  the  units  of  production  in
+finished units out.
+5. 1.4  average  work  in  process  (WIP)  ó  the  average
+cycle  time  multiplied  by  the  actual  throughput  rate
+(shows    how    many    eventually    finished    units    of
+production   fill   the   ìpipelineî   on   average).      See
+Equation 15.
+NOTE 2:  This metric is not an average of the WIP over time,
+since  that  would  include  units  that  are  later  scrapped  before
+finishing.
+5. 1.5  balance efficiency ó the critical WIP divided by
+the process capacity (measures how well the equipment
+sets are balanced).  See Equation 5.
+5. 1.6  best-case   cycle   time   ó   the   larger   of   the
+theoretical  cycle  time  and  the  quotient  of  the  average
+WIP divided  by  the  bottleneck  throughput  rate  (shows
+the  best  cycle  time  that  the  factory  can  do  given  the
+WIP loading).  See Equation 18.
+5. 1.7  best-case  throughput  rate  ó  the  smaller  of  the
+bottleneck  throughput  rate  and  the  quotient  of  the
+average  WIP  divided  by  the  theoretical  cycle  time
+(shows  the  best  throughput  rate  that  the  factory  can  do
+given the WIP loading).  See Equation 20.
+5. 1.8  bottleneck  throughput  rate (R
+max
+)  ó  the  upper
+bound  on  the  factory  throughput  rate  imposed  by  the
+current  bottleneck  equipment  set.    If  a  process  change
+for a product causes this metric to change, it should be
+considered   a   different   product   for   the   purposes   of
+performing these computations.  See Equation 17.
+NOTE  3:    This  metric  is  similar  to  (but  not  the  same  as)  the
+theoretical  unit  throughput  by  recipe  metric  (see  Section
+5. 1.32) from SEMI E79.
+NOTE  4:    This  metric  is  not  an  average  over  the  bottleneck
+throughput rates of each product.
+5. 1.9  critical  WIP (W
+0
+)  —  the theoretical  cycle  time
+multiplied  by  the  bottleneck  throughput  rate  (gives  the
+WIP  level  that  theoretically  allows  the  factory  to  have
+the  highest  throughput  rate  with  the  shortest  cycle
+time).  See Equation 10.
+5. 1.10  cycle  time  ó  the  amount  of  time  a  unit  of
+production spends as WIP in the factory.
+5. 1.11  finished  units  out  ó  the  number  of  units  of
+production that finish processing and testing during the
+period being measured.
+5. 1.12  good   unit   equivalents   (GUE)   out   ó   the
+(possibly  non-integer)  number  of  units  of  production
+required to contain all of the good product that exits the
+factory   during   the   period   being   measured.      See
+Equation 12.
+5. 1.13  line  yield  ó  the  fraction  of  units  leaving  the
+factory that have finished processing (measures relative
+material losses such as scrapped units).  See Equation 6.
+5. 1.14  normalized     production     efficiency     ó     the
+production  efficiency  to  the  power  of  the  normalizing
+exponent  (measures  the  normalized  efficiency  of  the
+process   with   respect   to   factory   dynamics).      See
+Equation 4.
+5. 1.15  normalizing  exponent  ó  power  that  normalizes
+the production  efficiency  so  that  a  value  of  Ω  for
+normalized   production   efficiency   indicates   that   the
+factory  is  performing  at  the  level  of  the  threshold  case
+(which  divides  a  well  run  factory  from  one  badly
+operated).    See  Equation  9.    See  Sections  R1-1.7  and
+R1-1.8 in Related Information 1 for a discussion of the
+meaning  of  the  threshold  case  and  a  derivation  of
+mathematical expression for the normalizing exponent.
+5. 1.16  operational efficiency (time divided by time) ó
+the  fraction  of  equipment  uptime  that  the  equipment  is
+processing actual units (SEMI E79).
+5. 1.17  overall    equipment    efficiency    (OEE)    (time
+divided by time) ó a metric of equipment performance,
+expressing   the   theoretical   production   time   for   the
+effective  unit  output  divided  by  the  total  time  (SEMI
+E79).
+5. 1.18  overall  factory efficiency (OFE)  —  the volume
+efficiency multiplied by the yield efficiency (shows how
+well  a  factory  is  operating  compared  to  how  well  it
+could  be  operating  for  the  given  product  mix).    See
+Equation 1.
+5. 1.19  process  capacity  ó  the  maximum  number  of
+units     of     production     that     can     be     processed
+simultaneously  throughout  the  factory  (including  units
+being  transported  by  material  handling  vehicles).    See
+Equation 11.
+5. 1.20  production   efficiency   ó   the   throughput-rate
+and   cycle-time   efficiency   multiplied   by   the   WIP
+
+
+SEMI E124-1103 © SEMI 2003 3
+efficiency  (measures  the  efficiency  of  production  with
+respect to factory dynamics).  See Equation 8.
+5. 1.21  quality  efficiency  (time  divided  by  time)  ó  the
+theoretical  production  time  for  effective  units  divided
+by   the   theoretical   production   time   for   actual   units
+(SEMI E79).
+5. 1.22  scrapped  units  out  ó  the  number  of  units  of
+production  (including  broken  units,  external  rework,
+etc.) that  exit  the  factory  without  finishing  production
+during the period being measured.
+5. 1.23  set   of   bottleneck   equipment   (F
+e*
+)   ó   the
+collection  of  production  equipment  of  the  same  type
+that  has  the  highest  average  operational  efficiency  in
+the factory during the period being measured.  Elements
+of this set are indicated by ìfî, and the equipment type
+is indicated by ìe*î.
+NOTE  5:    This  set  of  bottleneck  equipment  might  not  be  the
+equipment   set   (often   the   expensive   lithography   exposure
+equipment)  that  was  planned  to  be  the  bottleneck  in  the
+factory, but rather the equipment set with the highest average
+operational  efficiency  (the  fraction  of  time  in  use  when
+available)  during  the  period  being  measured.    If  another
+equipment   set   experiences   significantly   lower   availability
+than expected, it might become the bottleneck.  Thus, the sets
+of   bottleneck   equipment   may   be   different   between   two
+adjacent time periods, and the set of bottleneck equipment for
+the   period   combining   the   two   adjacent   periods   may   be
+different from the other two sets.
+5. 1.24  set of equipment of type e (F
+e
+) ó the collection
+of  production  equipment  of  type  e∈E in  the  factory.
+Elements of this set are indicated by ìfî.
+5. 1.25  set  of  equipment  types  (E)  ó  the  collection  of
+the  different  types  of  production  equipment  in  the
+factory,  including  metrology  equipment  and  material
+handling vehicles and conveyors.   Elements of this set
+(which   are   the   different   types   of   equipment)   are
+indicated by ìeî.
+NOTE  6:    If  units  are  transported  manually  between  process
+steps,   then   the   human   transporters   (and   any   carts   or
+mechanized   vehicles   that   they   operate   to   perform   the
+movement) should be considered a type of equipment for the
+purpose  of  computing  the  metrics  in  this  guide.    This  is  not
+intended to dehumanize people, but to ensure that the manual
+transport time is included in such metrics as theoretical cycle
+time.
+5. 1.26  set   of   process   steps   of   product   type   p   on
+equipment type e (S
+pe
+) ó the collection of the different
+process   steps   (including   metrology   inspection   and
+material   handling   transport)   planned   for   a   unit   of
+production of product type p on equipment of type e in
+the factory.   Elements of this set are indicated by ìsî.
+5. 1.27  set of product types (P)  ó  the  collection  of  the
+different types of products manufactured in the factory.
+Elements of this set are indicated by ìpî.
+5. 1.28  test  yield  —  the  fraction  of  units  leaving  the
+factory  that  have  finished  processing and  have  passed
+final testing (measures relative losses due to parametric
+or functional failure).  See Equation 7.
+5. 1.29  theoretical  cycle  time (T
+min
+)  ó  the  minimum
+time  required  to  process  a  unit  of  production  through
+the factory (including material handling transport time)
+if the unit never has to wait for equipment or a vehicle
+to  become  available  and  if  sequence-dependent  set-ups
+never have to be performed.  This is also known as the
+raw  process  time.    If  a  process  change  for  a  product
+causes  this  metric  to  change,  it  should  be  considered  a
+different  product  for  the  purposes  of  performing  these
+computations.    If  more  than  one  product  (or  process
+flow)  is  represented  in  the  output,  an  average  is  taken
+over   each   of   the   productsí   theoretical   cycle   time
+weighted  by  the  fraction  of  that  product  found  in
+finished units out.  See Equation 16.
+NOTE  7:    This  metric  is  similar  to  (but  not  the  same  as)  the
+theoretical production time per unit (THT) metric (see Section
+5. 1.30) used in SEMI E79 from CSM 21 and 42
+1
+.
+5. 1.30  theoretical production time per unit (THT) (time
+per unit) ó for a given production recipe performed by
+a   given   processing   module,   the   minimum   time   to
+complete    processing    on    one    unit    of    production
+assuming   no   efficiency   losses   are   present.      The
+determination of theoretical production time per unit is
+based   on   continuous   operation   of   the   processing
+module,  where  the  module  is  assumed  to  operate  in  an
+ideal     condition.          For     equipment     cycles     that
+simultaneously  process  more  than  one  unit,  theoretical
+production   time   per   unit   is   the   minimum   time   to
+perform  the  cycle  on  an  equipment  load  whose  size  is
+optimized  for  throughput  divided  by  the  number  of
+units in that optimized load (CSM 21 and 42).
+5. 1.31  theoretical throughput rate ó the smaller of the
+bottleneck throughput rate and the quotient of the WIP
+capacity divided by the theoretical cycle time (gives an
+unreachable  upper  bound  on  the  factory  throughput
+rate).  See Equation 21.
+5. 1.32  theoretical  unit  throughput  by  recipe  (units  per
+time)  ó  for  a  given  production  recipe,  the  number  of
+units  per  period  of  time  that  theoretically  could  be
+processed   by   the   equipment.      For   each   recipe,
+
+
+1 CSM 21: Closed-Loop Measurement of Equipment Efficiency &
+Capacity, 1995: and CSM 42: Productivity Metrics for Flexible-
+Sequence Cluster Tools, 1998; Engineering Systems Research Center,
+University of California, Berkeley
+http://esrc.berkeley.edu/csm/csmreports.html.
+
+
+SEMI E124-1103 © SEMI 2003 4
+theoretical  unit  throughput  is  equal  to  the  reciprocal  of
+theoretical production time per unit (SEMI E79).
+5. 1.33  throughput   rate   ó   the   number   of   units   of
+production  that  pass  through  a  process  per  period  of
+time.
+5. 1.34  throughput-rate and cycle-time efficiency ó the
+best-case  cycle  time  divided  by  the  average  cycle  time
+(shows  the  relative  performance  of  the  factory  with
+respect   to   throughput   rate   and   cycle   time).      See
+Equation    13.        See    Section    R1-1.6    in    Related
+Information 1 for a discussion of this metric.
+5. 1.35  total time ó all time (at the rate of 24 hours per
+day,  seven  days  per  week)  during  the  period  being
+measured.    In  order  to  have  a  valid  representation  of
+total   time,   all   six   basic   equipment   states   must   be
+accounted for and tracked accurately (SEMI E10).
+NOTE  8:    For  factory-level  productivity  metrics,  total  time
+should   be   larger   than   the   average   cycle   time   (and   is
+recommended  to  be  twice  as  large  as  the  average  cycle  time
+and  larger  than  the  cycle  time  of  any  individual  unit  in
+finished units out).
+5. 1.36  unit (of  production)  ó  the  basic  entity  in  the
+factory  (such  as  a  wafer  in  a  fab,  a  glass  pane  in  a  flat
+panel  factory,  or  a  die  in  a  post-wafer  back-end  chip
+production  facility)  which  acts  as  a  product  substrate
+(and  moves  through  the  factory  with  no  assembly  or
+disassembly   processes).      Only   product   units   are
+included  (as  opposed  to  test  wafers  or  other  non-
+product devices).
+NOTE 9:  This definition is more restrictive than that given in
+SEMI E10 in order to be sufficiently specific.
+NOTE 10:  Production lot sizes can (and typically do) include
+multiple  units  of  production,  and  units  can  (and  typically  do)
+contain multiple product devices (usually of the same type but
+possibly  of  different  types).    The  user  may  chose  to  have  the
+production  lot  be  the  unit  of  production,  but  that  is  not
+recommended because:
+• the choice of lot size (and its inherent waiting time while
+its  individual  units  are  serially  processed)  would  no
+longer  be  a  relevant  factor  in  evaluating  how  well  the
+factory is running,
+• lots can vary in size (even in the same factory),
+• the  meaning  of  unit  would  be  inconsitent  with  other
+SEMI standards, and
+• scrapped units out would not be properly accounted for.
+5. 1.37  uptime (equipment  uptime)  ó  the  hours  when
+the  equipment  is  in  a  condition  to  perform  its  intended
+function.     It     includes     productive,     standby,     and
+engineering  time,  and  does  not  include  any  portion  of
+non-scheduled time (SEMI E10).
+5. 1.38  volume  efficiency  ó  the  normalized  production
+efficiency times  the  balance  efficiency  (measures  the
+total  efficiency  of  the  process  with  respect  to  factory
+dynamics).  See Equation 2.
+5. 1.39  WIP  capacity (W
+max
+)  ó  the  maximum  number
+of units of production the factory can contain (including
+on  shelves,  in  stockers,  on  material  handling  transport
+vehicles,  on  equipment  load  ports,  in  internal  carrier
+buffers,  and  in  process  chambers,  but  not  including
+space   required   for   non-product   units   such   as   test
+wafers, dummy wafers, and monitor wafers).
+NOTE 11:  This  is  not  a  practical  WIP  level,  because  it
+represents total gridlock of the factory.
+5. 1.40  WIP efficiency ó the quotient of the smaller of
+the critical  WIP  and  the  average  WIP  divided  by  the
+larger of the two (measures the efficiency of WIP levels
+with respect to factory dynamics).  See Equation 14.
+5. 1.41  WIP  turnover  ó  the  finished  units  out  divided
+by the average WIP (shows how often the inventory of
+work  in  process  was  replaced  during  the  period  being
+measured).  See Equation 22.
+5. 1.42  work in process (WIP) ó the number of units of
+production  that  have  been  released  into  the  factory  but
+have   not   yet   been   scrapped,   sent   out   for   external
+rework,  or  finished  processing  through  all  of  their
+production steps.
+5. 1.43  yield efficiency  —  the line  yield  times  the  test
+yield (shows overall material efficiency).  See Equation
+3.
+NOTE 12:  This metric is similar to (but not the same as) the
+quality efficiency metric (see Section 5.1.21) from SEMI E79.
+6  Calculated Metrics
+6. 1  Figure 1 shows how the terms defined in Section 5
+feed into each other.  Arrows go from subordinate terms
+to  the  term  in  which  they  are  cited  as  a  part  of  the
+primary  definition.    Shown  in  the  top  row  (in  red
+rounded rectangles) are the basic building-block metrics
+for  which  no  equations  are  needed  in  this  guide;  the
+remaining  metrics  have  their  equation  numbers  given.
+At  the  very  bottom  is  the  overall  factory  efficiency
+metric  into  which  almost  everything  feeds,  although
+many  of  its  subordinate  terms  are  useful  in  their  own
+right  (if  data  availability  or  reliability  is  a  problem).
+Along the left side (in green rounded rectangles) are the
+quality  metrics  that  show  the  efficiency  of  the  process
+with  respect  to  use  of  materials.    The  remainder  of  the
+metrics  (in  blue  rectangles)  are  production  metrics  that
+show  the  efficiency  of  the  process  with  respect  to
+factory dynamics (without the effects of yield and scrap
+losses).    Related  Information  1  gives  an  exposition  of
+the underlying science behind these production metrics.
+
+
+SEMI E124-1103 © SEMI 2003 5
+availability
+ef f iciency
+finished
+units out
+average
+cycle time
+good unit
+equivalents out
+(12)
+WI P
+capacity
+theoretical production
+time per unit
+total
+time
+scrapped
+units out
+overall f actory
+ef f iciency
+(1)
+yield
+ef f iciency
+(3)
+line
+yield
+(6)
+test
+yield
+(7)
+volume
+ef f iciency
+(2)
+normalizing
+exponent
+(9)
+critical
+WIP
+(10)
+best-case
+cycle time
+(18)
+best-case
+throughput rate
+(20)
+average
+WI P
+(15)
+theoretical
+throughput rate
+(21)
+WIP
+turnover
+(22)
+actual
+throughput rate
+(19)
+theoretical
+cycle time
+(16)
+bottleneck
+throughput rate
+(17)
+throughput-rate and
+cycle-time ef f iciency
+(13)
+operational
+ef f iciency
+WIP
+ef f iciency
+(14)
+production
+ef f iciency
+(8)
+normalized
+production ef f iciency
+(4)
+balance
+ef f iciency
+(5)
+process
+capacity
+(11)
+Figure 2
+Definition Tree for Factory-Level Productivity Metrics

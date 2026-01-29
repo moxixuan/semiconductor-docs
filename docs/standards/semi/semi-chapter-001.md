@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "CONTENTS Equipment Automation Hardware Equipment Automation Software Facilities Flat Panel Display Gases Materials Microlithography Packaging Process Chemicals Safety Guidelines Silicon Materials &..."
-sidebar_label: "Chapter 1"
+title: "E1-0697 - © SEMI 1979, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E1-0697 - © SEMI 1979, 2003..."
 sidebar_position: 10
-tags: ['SEMI', 'Standard', 'Chapter 1']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-001.pdf'
   chapter: 1
   page_count: 50
-  file_size_mb: 0.67
-  processing_date: '2026-01-28T09:17:21.365Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-001.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/001.pdf"
   pdfSize="0.67MB"
-  title="Chapter 1"
-  description="SEMI标准文档 - Chapter 1，共50页"
-/>
+  title="E1-0697 - © SEMI 1979, 2003..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

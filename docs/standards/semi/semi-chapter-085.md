@@ -1,0 +1,3390 @@
+---
+title: "F73-1102 - © SEMI 2002 3..."
+description: "SEMI标准文档"
+sidebar_label: "F73-1102 - © SEMI 2002 3..."
+sidebar_position: 850
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-085.pdf'
+  chapter: 85
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/085.pdf"
+  pdfSize="2.87MB"
+  title="F73-1102 - © SEMI 2002 3..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI F73-1102 © SEMI 2002 3
+Kβ peak with Fe Kα peak interferes with determination
+of low levels of Manganese in Iron-Chromium matrix.
+8  Apparatus
+8. 1  Instrumentation  —  Any  SEM  instrument  used  for
+this  method  must  be  capable  of  a  minimum  point-to-
+point  resolution  of  30  nm,  as  measured  with  a  NIST
+4
+
+traceable  standard.    Any  commercially  available  SEM
+with  image  recording  capabilities  of  at  least  100  cm
+2
+
+image  and  an  EDS  analyzer  capable  of  170  eV  or  less
+FWHM resolution for Mn Kα may be employed.
+8. 2    The  SEM  shall  have  a  sample  stage  capable  of
+aligning  the  sample  to  provide  multiple  areas  of  view
+with the orientation of the electron beam approximately
+normal   to   the   surface,   and   to   optimize   secondary
+electron and X-ray signal collection efficiencies.
+8. 3  Grid Overlay — A transparent grid overlay of grid
+size  equal  to  1.814  micrometers  multiplied  by  the  pre-
+selected  magnification  in  the  range  3000  to  3600  (grid
+size  would  be  6.35  mm  [=  ¼  inch]  square  for  3500×
+magnification).    The  grid  lines  shall  be  as  fine  as
+possible  but  clearly  visible.    The  grid  overlay  shall  be
+designed  to  overlay  the  image  of  a  photomicrograph
+with  252  grids  (18  by  14  grids  for  the  3.5  by  4.5  inch
+image  of  a  standard  Polaroid  photomicrograph)  with
+minimal  interference  from  alphanumeric  information
+recorded    with    the    photomicrograph,    but    without
+reference  to  any  features  in  the  photomicrograph.    The
+rows  and  columns  of  the  grid  overlay  may  be  indexed
+with   alphanumerics   to   identify   and   locate   specific
+features   in   the   photomicrographs   (see   examples   in
+Appendices  1  and  2).  It  is  suggested  that  a  fixed
+reference point for the edges of the photomicrograph be
+established to be consistently used in all overlays.
+9  Reagents and Materials
+9. 1  Sample    Preparation    Materials    —    Equipment
+required to section the test specimen without damaging
+or contaminating the surfaces to be analyzed.  A clean,
+dry  hacksaw  or  dry  bandsaw  is  recommended,  using  a
+slow cutting speed to avoid excessive sample heating.
+9. 2  Sample  Mounting  Materials  —  Sample  mounting
+holders    specific    to    the    SEM    instrument    used.
+Conductive  paste  or  tape  used  to  adhere  the  sample  to
+the  holder  must  be  vacuum  stable  and  applied  so  that
+the area of analytical interest is not contaminated.
+10  Safety Precautions
+
+
+4 National Institute of Standards and Technology, 100 Bureau Drive,
+Stop 3460,
+Gaithersburg, MD 20899, (301) 975-NIST (6478) TTY (301)
+975-8295, website: www.nist.gov.
+
+10. 1    This  test  method  does  not  purport  to  address  the
+safety   considerations   associated   with   use   of   high
+voltage,    vacuum,    electron    and    X-ray    producing
+equipment.
+10. 2    The  method  assumes  a  SEM  and  EDS  analyst
+with  adequate  skill  level  as  well  as  knowledge  of
+instrumentation and associated safety precautions.
+11  Test Specimen
+11. 1    Specimens  are  to  be  sectioned  to  appropriate  size
+for   the   particular   SEM   instrument.      Any   sample
+preparation   technique   used   shall   avoid   introducing
+contamination  onto  the  surface  to  be  measured.  In
+addition,  preparation  must  avoid  heating  of  the  sample
+in   excess   of   approximately   100°C   to   avoid   oxide
+growth  or  change  in  surface  composition.    Slow  speed
+dry cutting is recommended.
+11. 2  After preparation, samples shall be protected from
+contamination     by     means     such     as     sealing     in
+noncontaminating bags or wrapping in clean aluminum
+foil.    Appropriate  cleaning  of  the  analysis  surface  to
+remove  sample  preparation  residues  is  allowed  but  not
+required.   Any   such   cleaning   procedures   should   be
+stated  in  the  report.    After  sectioning,  samples  should
+be analyzed promptly.
+11. 3    The  samples  shall  be  analyzed  in  the  uncoated
+condition;   ie,   without   sputtering   with   a   conductive
+coating.
+12  Preparation of Apparatus
+12. 1    The  SEM  shall  be  in  good  condition  to  assure
+proper     performance     in     accordance     with     the
+manufacturer’s specifications.
+13  Calibration and Standardization
+13. 1  Instrument calibration for magnification and EDS
+performance  shall  be  performed  in  accordance  with
+ASTM   E   766   and   ANSI-IEEE   759   and/or   the
+instrument    manufacturer’s    recommendations.    The
+magnification   should   be   calibrated   at   the   working
+distance  selected.    Calibration  frequency  shall  be  per
+instrument manufacturer’s recommendations.
+14  Procedure
+14. 1    The  sample  is  to  be  mounted  in  accordance  with
+manufacturer's   recommendations   and   in   a   manner
+consistent with high vacuum analytical procedures. The
+sample  shall  be  oriented  such  that  the  areas  of  interest
+for SEM imaging can be viewed at 70 to 90° incidence
+angle of the electron beam to the surface with optimum
+secondary electron collection efficiency, and the ability
+to   re-orient   the   sample   for   optimization   of   X-ray
+
+
+SEMI F73-1102 © SEMI 2002 4
+collection  efficiency.    Any  adhesives  used  to  mount
+samples   must   not   contaminate   the   surface   to   be
+analyzed.  To remove loosely adhered surface particles,
+the   sample   may   be   blown   off   immediately   before
+introduction   into   the   SEM   with   clean,   dry,   0.1
+micrometer filtered gas.
+14. 2      Place   the   sample   in   the   SEM   chamber   for
+pumpdown.    Activate  the  electron  beam  when  vacuum
+conditions meet manufacturer’s recommendations.  The
+instrument accelerating voltage should be a consistently
+selected value within the range 15 to 25 Kev; 20 KeV is
+suggested.    The  working  distance  should  be  within  the
+range  recommended  by  the  instrument  manufacturer.
+Sample  position  (tilt  angle  and  orientation)  may  be
+adjusted to optimize EDS detector collection efficiency
+for EDS analysis.
+14. 3    Increase  the  magnification  to  ≥  400×  for  initial
+focus; adjust instrument parameters for astigmatism and
+other  anomalies.    Decrease  magnification  to  200×  and
+move the sample while viewing until an area judged as
+representative  of  the  whole  is  in  view.    The  area  to  be
+analyzed  should  be  as  free  of  particles  and  defect
+features produced by sample preparation as possible.
+14. 4    Refocus  and  record  images  of  this  area  at  200×,
+1000×,     and     a     pre-selected,     consistently     used
+magnification  within  the  range  3000  to  3600×.    Move
+to  another  representative  area  and  record  an  image  at
+the  same  3000–3600×  magnification.    Move  to  a  third
+representative  area  and  record  another  image  at  the
+3000–3600× magnification.
+14. 5    Each  area  selected  for  recording  should  include  a
+defect  or  metallurgical  feature  to  demonstrate  proper
+focusing,  contrast  adjustment  and  resolution  capability.
+Contrast   adjustment   should   be   performed   per   the
+technique  described  in  Section  4.7.2.1  of  Scanning
+Electron  Microscopy  and  X-Ray  Microanalysis.
+5
+All
+defects  and/or  features  for  which  the  change  in  signal
+∆S  due  to  the  contrast  exceeds  the  noise  N  by  a  factor
+of  5  minimum  must  be  clearly  distinguishable  in  the
+image recorded (see Section 4.5 of reference 5).
+14. 6  If any inclusions or contamination are noted in the
+3000–3600×  images,  EDS  analysis  of  representative
+defect(s)   may   be   performed   if   requested   by   the
+company   for   which   the   test   method   is   performed.
+Collect  X-ray  signals  for  a  sufficient  length  of  time  to
+obtain  an  integrated  count  of  ≥  250,000  within  the
+range of 0 to 10 keV.
+
+
+5 Scanning Electron Microscopy and X-Ray Microanalysis: A Text
+for Boilogists, Materials Scientists, and Geologists; Joseph I.
+Goldstein, Dale E. Newbury, Patrick Echlin, David C. Joy, A. D.
+Romig, Jr., Charles E. Lyman, Charles Fiori, Eric Lifshin; Second
+Edition, Plenum Press, New York (1992).
+15  Calculations or Interpretation of Results
+15. 1  The 3000–3600× recorded images shall be placed
+under the transparent overlay grid.  The number of grid
+squares that contain all or part of a surface defect shall
+be  counted  and  summed  for  each  photomicrograph.
+Each  such  grid  square  shall  only  be  counted  once;  it  is
+not  the  intent  of  this  Test  Method  to  count  individual
+defects.    If  a  defect  appears  in  more  than  one  adjacent
+grid square, each grid square occupied shall be counted.
+NOTE 2: Examples    of    scanning     electron     micrographs
+overlaid  with  an  alphanumeric  indexed  grid  showing  specific
+types   of   defects   with   comments   on   their   locations   and
+whether   they   should   be   counted   may   be   viewed   at
+http://www.semi.org/web/wstandards.nsf/url/SurfaceAnalysis
+Examples.
+15. 2  Surface   film   residues  resulting  from  improper
+cleaning  are  generally  diffuse  and  difficult  to  quantify.
+These  residues,  if  present,  are  counted  as  one  per
+image.  Particles that loosely adhere to the surface must
+be  presumed  to  be  artifacts  of  sample  preparation  or
+exposure, and therefore shall be ignored.
+15. 3      Peaks   appearing   in   the   EDS   spectra   shall   be
+identified and the spectra labeled to indicate whether it
+is a representative area, or identified as a defect from a
+photomicrograph.
+16  Reporting Results
+16. 1    A  tabular  summary  of  defects  counted  per  3000–
+3600×      photomicrograph      shall      be      presented.
+Additionally,  the  table  should  indicate  an  average  of
+defect  counts  and  the  maximum  from  the  three  3000–
+3600× images.  An example of a table reporting defect
+counting  results  and  the  photomicrographs  from  which
+the defect counts were taken are shown in Appendix 1.
+16. 2      All   photomicrographs   are   to   be   permanently
+labeled   with   sample   identification,   magnification,   a
+magnification scale bar, date, and analyst identification.
+The    photomicrographs    should    be    available    for
+inspection upon request.
+16. 3    EDS  spectra  are  to  be  labeled  with  the  same
+information,    plus    peak    identifications.        If    any
+instrument parameters (e.g., tilt angle) were changed for
+EDS  analysis,  these  must  be  noted.    If  peak  height
+differences  are  such  that  adequate  representation  of  all
+peaks  cannot  be  made  from  the  same  plot,  two  plots
+having      different      scaling      shall      be      included.
+Identification  of  each  defect  analyzed,  either  by  arrow
+on  photomicrograph  or  by  notation  of  grid  position,
+shall be made.
+
+
+SEMI F73-1102 © SEMI 2002 5
+17  Related Documents
+17. 1  ASTM Standards
+ASTM F1372-93 — Standard Test Method for Scanning Electron Microscope (SEM) Analysis of Metallic Surface
+Condition for Gas Distribution System Components
+ASTM F1375-92 — Standard Test Method for Energy Dispersive X-Ray Spectrometer (EDX) Analysis of Metallic
+Surface Condition for Gas Distribution System Components
+
+
+
+SEMI F73-1102 © SEMI 2002 6
+APPENDIX 1
+EXAMPLE OF AN ACCEPTABLE FORMAT FOR REPORTING DEFECT
+COUNTING RESULTS
+NOTE:  The material in this appendix is an official part of SEMI F73 and was approved by full letter ballot procedures.
+Table A1-1 Example of an Acceptable Format for Reporting Defect Counting Results
+Analyst Name: John Doe
+Analytical Service Provider:  ABC Services Lab
+
+Date: May 10, 1999
+
+(Customer; Order Number; Source): Pure Products, Inc.
+
+
+Sample
+Micro
+No.
+Defect
+Count
+Comments
+(Location indexing optional)
+Average
+Count
+Maximum
+Count
+1 (from
+Figure
+A1-1)
+13 Inclusion J7, K7, I8, J8, K8; Pits A8, C7 and C8,
+E9, F8, J9, I12, I15
+2 (from
+Figure
+A1-2)
+30 Stringer G14 to P3; Pit C13 and C14
+A22-6/5/97
+3 (from
+Figure
+A1-3)
+4 Pits D10 and E10, G13. Grain, twin boundaries,
+white sample prep debris not counted.
+
+16
+
+30
+1  12 Pits; stringer
+2  23 Scratch
+(Sample #2
+Identification)
+3  16 Inclusion
+
+17
+
+23
+1  9 Stringer
+2  4
+(Sample #3
+Identification)
+3  6 Pits
+
+6
+
+9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEMI F73-1102 © SEMI 2002 7
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A1-1
+Sample A22-6/5/97 – Micro 1 - Inclusion J7, K7, I8, J8, K8; Pits A8, C7 and C8, E9, F8, J9, I12, I15.
+
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A1-2
+Sample A22-6/5/97 – Micro 2 - Stringer G14 to P3; Pit C13 and C14
+
+
+
+SEMI F73-1102 © SEMI 2002 8
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A1-3
+Sample A22-6/5/97 – Micro 3 - Pits D10 and E10, G13. Grain, Twin Boundaries, White Sample Preparation
+Debris Not Counted.
+
+
+
+
+SEMI F73-1102 © SEMI 2002 9
+APPENDIX 2
+EXAMPLE OF DEFECTS
+NOTE:  The material in this appendix is an official part of SEMI F73 and was approved by full letter ballot procedures.
+
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A2-1
+Diffuse Black Spots in Grids F4, H8, and Along Rows 11 Through 14 are Believed to be Surface
+Contamination, Probably Hydrocarbon, and Should be Counted.  This Type of Contamination Should be
+Apparent in Surface Analysis (Auger or ESCA) if it is Not an Artifact of Sample Preparation.  The “Mottled”
+Appearance Should Not be Counted.
+
+
+
+SEMI F73-1102 © SEMI 2002 10
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A2-2
+Large Particle in Grids K, L, M, 7 and 8 is Assumed to be an Example of Debris from Sample Preparation
+and Should Not be Counted.  Lightly Etched Grain and Twin Boundaries in Grids G Through J, 6 Through
+13 are Not Significant Defects and are Not Counted.
+
+
+
+SEMI F73-1102 © SEMI 2002 11
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A2-3
+Heavily Etched Grain and Twin Boundaries; Worst Cases Should be Counted – E5  Through H15; I and J 9,
+10 and 11; K9 Through P10.  Also Pits at P3, L5,  I6, M8, P10, S11, J10 and K10, C10, C11, D10, D11, E12,
+J13, L12, C14.
+
+
+
+SEMI F73-1102 © SEMI 2002 12
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A2-4
+Large Inclusion is Counted in Grids J7, K7, I8, J8 and K8.  Pits in A8, C7 and C8 (Same Pit on Grid
+Boundary), E9, F8, J9, I12, I15.
+
+
+
+SEMI F73-1102 © SEMI 2002 13
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A2-5
+Pits Left by Inclusion Stringers in Which the Inclusions Have Been Electropolished Out; Also Numerous
+Discrete Pits.  All Pits with Edges Distinct Enough to Image with a “White Halo” Effect are Countable.  This
+Includes All of the Pits Associated with the Upper Stringer, and Those in the Lower Stringer in Grids M7N7,
+O6 and O7, P6, Q6, R5 and R6.  Also G1, Q1, A4, G5, L5, G7, N9, R9, G10, H12, Q12, E13, J13, N14, O14.
+
+
+
+
+SEMI F73-1102 © SEMI 2002 14
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+
+Figure A2-6
+Long, Partially Continuous Stringer; the Inclusion that Formed this Stringer has been Electropolished Out.
+All Grids Occupied by the Stringer Should be Counted, from F16 to S2.  Also Pits at M2, N1 and O1.
+
+
+
+SEMI F73-1102 © SEMI 2002 15
+
+1
+5
+6
+7
+10
+11
+12
+13
+9
+8
+2
+BDCE
+F
+HG
+JIKL
+M
+NOPQSRTU
+3
+4
+14
+A
+15
+16
+
+Figure A2-7
+Scratch Counted in Grids H3-5, I5 and 6, J7 and 8, K8-10, L10 and 11, M12 and 13, N13-15, O15 and 16.
+Pits Counted in Grids J9, H10, I10, M11.
+
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI F74-1103 © SEMI 2002, 2003 1
+SEMI F74-1103
+TEST METHOD FOR THE PERFORMANCE AND EVALUATION OF
+METAL SEAL DESIGNS FOR USE IN GAS DELIVERY SYSTEMS
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  September  16,  2003.    Initially  available  at  www.semi.org  October  2003;  to  be  published
+November 2003. Originally published November 2002.
+1  Purpose
+1. 1    This  document  is  a  test  method  for  evaluating
+metal  seal  designs  use  in  gas  delivery  systems.    It
+covers    both        surface-mounted    gas    systems    and
+conventional metal face seal fitting systems.
+2  Scope
+2. 1  The test methods apply to the connection seals used
+in  conventional  tubing  type  gas  systems  and  between
+modules  and  components  to  the  substrates  used  in
+surface-mounted gas systems.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1        This    test    method    does    not    provide    detailed
+information sufficient for conducting the procedures.  It
+is the responsibility of the user to procure a copy of the
+referenced     test     procedures     from     the     issuing
+organizations.
+3. 2    The  test  methods  mentioned  in  this  document  are
+destructive  in  some  cases.    Therefore,  the  sequence  of
+tests     should     be     carefully     planned     with     the
+understanding  that  several  specimens  are  required  to
+complete  the  battery  of  all  applicable  tests  without
+invalidating  later  tests.    This  requirement  of  several
+specimens   is   in   addition   to   the   iteration   normally
+required under good statistical practices.
+3. 3    All  components  must  meet  quality  requirements
+(dimensional,      sealing-surface      finish,      etc.),      as
+established  and  controlled  by  manufacturers  prior  to
+testing.
+3. 4    Surface-mounted  connection  methods  and  system
+design  will  affect  exterior  load  testing  (i.e.,  vibration,
+shock, etc.).
+3. 5      Seals   must   be   manufactured   and   packaged   for
+Class 100-type applications.
+3. 6      Care   should   be   exercised   in   handling   seals   to
+maintain manufacturer’s specifications.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI   E49   — Guide   for   Standard   Performance,
+Practices,  and  Sub-Assembly  for  High  Purity  Piping
+Systems    and    Final    Assembly    for    Semiconductor
+Manufacturing Equipment
+SEMI  F1  —  Specification  for  Leak  Integrity  of  High-
+Purity Gas Piping Systems and Components
+
+4. 2  ASME Standards
+1
+
+B31.3 — ASME Code for Process Piping
+4. 3  Military Standard
+2
+
+MIL-STD-810E —  Environmental  Test  Methods  and
+Engineering Guidelines
+4. 4  Federal Standard
+3
+
+Federal Standard 209E — Airborne Particle Cleanliness
+Classes in Cleanrooms and Clean Zones
+4. 5  ISO Standards
+4
+
+ISO  14644-1  —  Cleanrooms  and  associated  controlled
+environments -- Part 1: Classification of air cleanliness
+ISO  14644-2  —  Cleanrooms  and  associated  controlled
+environments  --  Part  2:  Specifications  for  testing  and
+monitoring  to  prove  continued  compliance  with  ISO
+14644-1
+
+
+1 American Society of Mechanical Engineers, Three Park Avenue,
+New York, NY 10016-5990, USA. Telephone: 800.843.2763
+(U.S./Canada), 95.800.843.2763 (Mexico), 973.882.1167 (outside
+North America), Website: www.asme.org
+2  Available  through  the  Naval  Publications  and  Forms  Center,  5801
+Tabor   Avenue,   Philadelphia,   PA   19120-5099,   USA.   Telephone:
+215. 697.3321
+
+3 Federal Standard,, c/o U.S. Government Printing Office,
+Washington DC  20402
+4 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30,
+Website: www.iso.ch
+
+
+SEMI F74-1103 © SEMI 2002, 2003 2
+ISO  14644-4  —  Cleanrooms  and  associated  controlled
+environments  --  Part  4:  Design,  construction  and  start-
+up
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  atm — atmosphere
+5. 1.2  cc — cubic centimeter
+5. 1.3  ft-lbs — foot-pounds (force)
+5. 1.4  kPa  — kiloPascal
+5. 1.5  MFC — Mass Flow Controller
+5. 1.6  mPa — megaPascal
+5. 1.7  N — Newton
+5. 1.8  Nm  — Newton meters
+5. 1.9  Pa — Pascal
+5. 1.10  psig — pounds per square inch (gauge pressure)
+5. 2  Definitions
+5. 2.1  cap  block  —  a  seal-specific  component  fixture
+specially  made  to  mate  with  a  respective  seal-system
+substrate block for testing purposes.
+5. 2.2  Class 100 — a cleanroom designation defined by
+Federal  Standard  209E  (ISO  14644-1,2,4  equivalent)
+which  designates  that  each  cubic  foot  (SI  equivalent
+cubic meter) of air can have no more that 100 particles
+at a size of 0.5μm or larger.
+5. 2.3  component  —  an  individual  piece  or  a  complete
+assembly  of  individual  pieces  capable  of  being  joined
+with other pieces or components.
+5. 2.4  connector block — a seal-specific substrate block
+fixture  made  to  mate  with  a  respective  seal-system  cap
+or flow-through block for testing purposes.
+5. 2.5  Conventional  System  —  a  gas  system  utilizing
+tubing  and  standard  face  seal  type  weld  fittings  joined
+together using orbital TIG welding.
+5. 2.6  design pressure — of a system or subsystem, the
+pressure  at  the  most  severe  condition  of  internal  and
+external pressure for which it is appropriate (as defined
+by the designer) to use the system or subsystem.
+5. 2.7  dummy — a term meant to denote an imitation of
+a real or original object.  In this case, the original object
+would be a modular surface mount valve.
+5. 2.8  finger-tight —    where    a    particular    joining
+apparatus  (seal-system)  is  compressed/torqued  to  the
+point  where  one  would  need  a  tool  of  some  sort  to
+apply further force.
+5. 2.9  fixture   —   a   device   specially   designed   and
+manufactured    for    a    particular    seal-system    and
+performance  test.    Sample  performance  testing  fixtures
+can be seen in Related Information 1.
+5. 2.10  flow-through  —  a  term  used  to  signify  that  the
+configuration of a given fixture or substrate must allow
+for  gas  to  pass  through  from  an  inlet  interface  point  to
+an outlet interface point.  A flow-through device allows
+one   to   make   flow   calculations   and   obtain   particle
+counts.
+5. 2.11  hydrostatic leak — a leak or leak test performed
+by  applying  isostatic  pressure  via  some  sort  of  liquid
+phase media (i.e. hydraulic fluid, water).
+5. 2.12  inboard  leak  rate  —  leakage  rate  expressed  in
+Pa.m³/s  (atm  cc/sec)  from  outside  to  inside  occurring
+when  an  internal  pressure  is  less  than  the  external
+pressure  acting  on  the  component  or  system.    Inboard
+leakage  is  typically  determined  by  introducing  a  tracer
+gas   around   the   exterior   of   the   piping   system   or
+component under test.
+5. 2.13  leak — a path (or paths) in a sealed system that
+will  pass  tracer  gas  when  a  pressure  differential  or
+diffusion path exists.  There are two leak mechanisms: a
+mechanical passage and a material through which a gas
+can   diffuse   or   permeate.      A   leak   may   have   both
+mechanisms operating in parallel.
+5. 2.14  outboard leak rate — leakage rate expressed in
+Pa.m³/s  (atm
+⋅cc/sec)  occurring  from  inside  to  outside
+when  an  internal  pressure  is  greater  than  the  external
+pressure acting on the component or system.  Outboard
+leakage  is  typically  determined  by  introducing  a  tracer
+gas into the interior of the piping system or component
+under test.
+5. 2.15  retainer — a holding mechanism to keep a seal
+in place.
+5. 2.16  seal  —  a  device  (i.e.  gasket,  O-ring,  etc.)  that
+joins two elements or systems so as to prevent leakage.
+5. 2.17  sealing  system  —  a  system  that  consists  of  two
+mating  surfaces  (e.g.  component/  substrate),  seal(s),
+fasteners  (screws),  and  any  necessary  hardware  (e.g.
+seal retainer).
+5. 2.18  substrate  —  the  block  consisting  of  machined
+passage(s)  which  define  the  flow  path  of  a  gas.    Gas
+control components are attached to certain areas on the
+substrate block with gas seals at the interface.
+5. 2.19  Surface-mounted  Gas  Systems  —  term  used  to
+denote  the  gas  distribution  technology  where  surface-
+mounted gas   components   (e.g.   filters,   regulators,
+
+
+SEMI F74-1103 © SEMI 2002, 2003 3
+MFC’s,  and  valves)  are  mounted  onto  a  flat  substrate
+which  defines  the  flow  path  of  the  gas.    The  sealing
+system  will  commonly  be  located  at  various  locations
+within   the   interface   plane   between   component   and
+substrate.
+5. 2.20  test  pressure  —  the  pressure  at  which  a  sealing
+system  is  hydrostatically  tested.    The  test  pressure  is
+commonly  defined  as  1.5  times  the  maximum  design
+pressure.
+5. 2.21  vibration  table  —  a  mechanized  table  that  will
+vibrate  with  a  controlled  frequency,  direction(s),  and
+amplitude.  It is commonly used for vibration testing.
+6  Significance and Use
+6. 1    The  following  tests  shall  be  performed  on  seals
+which have been assembled into a test fixture similar to
+the  fixtures  described  in  Related  Information  1.    These
+fixtures  are  not  intended  to  duplicate  an  entire  gas
+system, but are established to evaluate seals only.
+6. 2  All sealing surfaces and fastening systems shall be
+manufactured     in     strict     accordance     with     seal
+manufacturer’s   instructions   and   requirements.      In
+addition,  seals  shall  be  handled  and  installed  per  seal
+manufacturer’s instructions.
+7  Universal Test Methods
+The  tests  listed  in  this  section  shall  be  performed  as  a
+minimum  for  all  sealing  systems.    This  section  defines
+tests    that    pertain    to    both    surface-mounted    and
+conventional gas sealing systems.
+NOTE   1:         Refer   to   the   Related   Information   section   for
+conventional and surface-mount test fixtures.
+7. 1      Sample   configuration   shall   be   defined   prior   to
+testing for each section and noted with test results.
+7. 2  Helium Leak Tests, Operating and Proof Pressure
+7. 2.1  Inboard Helium Leak Test
+7. 2.1.1  Testing shall be conducted per test methods and
+procedures  outlined  in  SEMI  F1  test  methods  at  room
+temperature.
+7. 2.1.2  Sample quantity: 20
+7. 2.2  Outboard Helium Leak Test and Proof Test
+7. 2.2.1      Testing   shall   be   conducted   per   procedures
+outlined  in  SEMI  F1  method  2  and  the  following
+paragraphs.
+7. 2.2.2        Assemble    the    sample    per    manufacturer’s
+instructions.
+7. 2.2.3      Connect   the   leak   detector   to   the   vacuum
+chamber and evacuate the chamber.
+NOTE 2:   The chamber must be equipped with over pressure
+protection in the event of failure.
+7. 2.2.4        Gradually    increase    pressure    of    the    test
+assembly  to  manufacturer’s  maximum  rated  working
+pressure  and  hold  for  two  minutes.  If  leakage  beyond
+acceptance   requirements   occurs   at   anytime   during
+testing,  note  the  pressure  and  leak  rate  and  discontinue
+testing of that sample.
+7. 2.2.5      Continue   increasing   pressure   to   1.5×   the
+manufacturer’s  maximum  rated  working  pressure  and
+hold  for  five  minutes.  Reduce  the  pressure  back  to  the
+maximum rated working pressure and note the leak rate
+at this pressure.
+7. 2.2.6  Sample quantity: 4
+NOTE 3:   Outboard leak testing should be completed on only
+the referenced 4 samples. All subsequent leak testing required
+in conjunction with other testing should be inboard only.
+7. 3  Hydraulic Burst Test
+7. 3.1      Assemble   the   test   sample   per   manufacturer’s
+instructions.
+7. 3.2    Attach  the  sample  to  a  hydraulic  pressure  source
+using qualified high pressure connections.
+7. 3.3      Samples   shall   be   tested   within   an   enclosure
+suitably designed to protect personnel from failure.
+7. 3.4  Test medium shall be water or hydraulic fluid.
+7. 3.5    Gradually  increase  pressure  to  maximum  rated
+working pressure and hold for one minute.
+7. 3.6    Gradually  increase  pressure  until  failure,  or  4x
+manufacturer’s rated working pressure is reached.
+7. 3.7  Sample quantity: 4
+7. 4  Temperature Cycle Test Method
+7. 4.1  Perform an initial inboard leak test on the sealing
+system in accordance with Section 7.2.1.
+7. 4.2    Install  the  plumbing  and  test  sample  apparatus
+with    test    sample(s)    installed    into    a    temperature
+controlled  chamber.    Attach  a  thermocouple  to  the
+exterior of the apparatus adjacent to the test sample.
+7. 4.3  Heat the chamber until the temperature indicated
+by  the  thermocouple  is  100  +  10/-0°C.      Hold   10
+minutes  after  the  temperature  stabilizes,  then  perform
+an inboard leak test in accordance with Section 7.2.1.
+7. 4.4  Cool the chamber until the temperature indicated
+by  the  thermocouple  is  –10  +  0/-10°C  and  perform  an
+inboard  leak  in  accordance  with Section  7.2.1 while  at
+temperature.
+NOTE   4:         If   the   seal   is   intended   for   outdoor   service,
+refrigerate the test apparatus to –54 + 0/-10°C.
+
+
+SEMI F74-1103 © SEMI 2002, 2003 4
+7. 4.5  Repeat Sections 7.4.1 through Section 7.4.4 for a
+total of 5 cycles.
+7. 4.6  Sample quantity: 3 samples
+7. 5  Repeatability of Sealing System
+7. 5.1  Photograph mating       surfaces       at       10×
+magnification.
+7. 5.2      Perform   initial   inboard   leak   test   on   sealing
+system per Section  7.2.1.
+7. 5.3    A  sequence  of  10  make  and  remake  cycles  shall
+be performed on the same sealing system.
+NOTE  5:      Replace  seal  after  each  cycle  if  recommended  by
+manufacturer.
+7. 5.4    Perform  internal  leak  test  per  Section  7.2.1  after
+each make and remake cycle.
+7. 5.5  Record all visible damage of the mating surfaces
+in   the   form   of   scratches,   burrs,   or   other   particles
+photographed   after   the   different   intervals   at   10x
+magnification.
+7. 5.6    Repeat  Section  7.5.2  through  Section  7.5.4  three
+additional  times  using  a  new  set  of  mating  surfaces
+each time.
+NOTE  6:      Replace  seal  after  each  cycle  if  recommended  by
+manufacturer.
+7. 6  Shock and Vibration Test Method
+7. 6.1    This  test  is  designed  to  evaluate  the  effects  of
+random  accelerations  and  sustained  vibrations  during
+shipment of gas systems.
+7. 6.2    Install  seals  and  assemble  per  manufacturer’s
+instructions.  Refer  to  Figures  R1-1,  R1-2a~c,  and  R1-
+3a~c for test fixtures.
+7. 6.3  Perform inboard leak test per Section 7.2.1.
+7. 6.4    Conduct  shock  test  per  MIL-STD-810E,  Method
+516. 4,  Section  I-3.1a),  procedure  I  (functional  shock),
+using  terminal-peak  saw-tooth  shock  pulse  for  ground
+equipment operation test.
+7. 6.5  Perform inboard leak test per Section 7.2.1.
+7. 6.6        Conduct    vibration    test    per    MIL-STD-810E,
+Method 514.4, procedure 1 (basic transportation).  Test
+duration:   1   hour   per   1,609   km   (1000   miles)   of
+transportation in each directional axis.
+7. 6.7  Perform inboard leak test per Section 7.2.1.
+7. 6.8  Sample quantity: 3
+7. 7  Seal Preload Safety Factor
+7. 7.1  This test evaluates the effects of under-tightening
+and over-tightening a seal connection.
+7. 7.2        Install    seal    and    assemble    to    80%    of    the
+manufacturer’s sealing load (e.g. torque).
+7. 7.3  Perform inboard leak test per Section 7.2.1.
+7. 7.4  Disassemble and repeat using a new seal for each
+test.
+7. 7.5  Sample quantity: 3
+7. 7.6    Using  the  same  components,  install  a  new  seal
+and  assemble  to  120%  of  the  manufacturer’s  sealing
+load.
+7. 7.7    Perform  inboard  leak  test  per  Section  7.2.1.  and
+note  any  form  of  deformation  or  damage  to  the  seal
+connection.  Replace connection for subsequent tests if
+connection is damaged.
+7. 7.8  Disassemble and repeat using a new seal for each
+test.
+7. 7.9  Sample quantity: 3
+7. 8  Torsion Test
+7. 8.1    This  test  is  designed  to  measure  whether  the
+sealing system can maintain leak integrity when torque
+is applied to an adjacent component or position.
+7. 8.2      Install   seal   and   assemble   per   manufacturer’s
+instructions.  Refer  to  Figures  R1-1,  R1-2a~c,  and  R1-
+3a~c for test fixtures.
+7. 8.3    Place  a  stationary  digital  torque  wrench  on  the
+adjacent  component  position  to  measure  the  torque
+applied as make up takes place.  Location of placement
+is seen in Figure R1-1.
+7. 8.4  Test per Section 7.2.1.
+7. 8.5    Rotate  the  adjacent  component  in  a  clockwise
+direction until 57.6 cm-kgf (50 in-lbf; 5.649 Nm) torque
+is measured on the stationary torque wrench.
+7. 8.6  Test per Section 7.2.1.
+7. 8.7            Rotate      the      adjacent      component      in      a
+counterclockwise direction until 57.6 cm-kgf (50 in-lbf;
+5. 649  Nm)  torque  is  measured  on  the  stationary  torque
+wrench.
+7. 8.8  Test per Section 7.2.1.
+7. 8.9    Repeat  7.8.5  through  7.8.8  with  115.2  cm-kgf
+(100 in-lbf; 66.355 Nm) torque.
+7. 8.10  Sample quantity: 3
+7. 9  Surface Defect Test
+7. 9.1    This  test  method  is  for  evaluating  the  robustness
+of sealing technologies for gas delivery systems used in
+semiconductor  manufacturing    against  surface  defects
+which could occur during normal handling in the field.
+
+
+SEMI F74-1103 © SEMI 2002, 2003 5
+7. 9.2    A  material  testing  machine  is  used  to  make  a
+defect  on  the  surface.  In  place  of  a  pyramid-shaped
+indenter  for  hardness  measurement,  a  wedged  shaped
+indenter,  specifically  designed  for  this  test,  is  installed
+in the adjustable-load hardness measurement equipment
+shown in Figure 1 and is used to make a surface defect
+on test sample.
+7. 9.3        The    indenter    shall    meet    the    dimensional
+requirement shown in Figure 2. The indenter shall have
+a minimum hardness of 500 Vickers.
+7. 9.4      This   test   defaces   only   the   seal   face   of   the
+component,  and  determines  the  size  of  the  surface
+defect as  well  as  the  corresponding  leak.  In  this  way,
+the degree of weakness of the component’s seal face, as
+well  as  the  extent  to  which  the  leak  can  be  stopped
+depending on defect size, can be determined, making it
+possible   to   evaluate   the   robustness   of   the   sealing
+technology being tested.
+7. 9.5    Equipment  shown  in  Figure  1  and  Figure  2  is
+used to make a defect on the surface of the seal face of
+the component or substrate.
+7. 9.6    Load  levels  are  2,  4,  6,  8  kgf,  (19.61,  39.23.
+58. 84, 78.45 N) and add 2 kgf (19.61 N) incrementally
+until   leaking   occurs.      The   test   sample   should   be
+tightened  according  to  the  manufacturer’s  installation
+manual.
+7. 9.7  A leak test is performed on the sample according
+to the procedure in SEMI F1. As this document is a test
+method, not a specification, only the procedure in SEMI
+F1 applies.
+7. 9.8  Correlation  between the  load  and  the  leak  is
+determined.
+7. 9.9  Surface defect size (depth and width) is measured
+using   surface   roughness   measuring   equipment   for
+reference.
+7. 10  Particle Cleanliness After Seal Make-up
+7. 10.1  The purpose of this test is to verify the particles
+generated  during  a  sealing-system  compression  cycle.
+This  test  involves  testing  for  particles  in  situ,  while
+compressing a sealing system.
+7. 10.2    Test  per  SEMASPEC  90120390B-STD.    Use  a
+flow-through  testing  apparatus  that  is  seal-specifically
+designed for use in this test, in place of a valve.
+7. 10.3    Testing  must  be  performed  in  a  Class  100  (or
+better)  environment  in  order  to  obtain  low  background
+counts before the seals are tightened to the substrate.
+7. 10.4  Follow test protocol in Test Method for Particle
+Contribution   (see   Related   Documents)      with   the
+exception  that  a  flow-through  bypass  fixture  must  be
+attached   “finger-tight”   to   a   test   substrate   before
+obtaining a background count.
+7. 10.5  The testing apparatus with the seals to be tested
+must be purged with 0.01 μm filtered gas for sufficient
+time  so  as  to  remove  all  inherent  particles  present
+during installation.
+7. 10.6    Once  the  lowest  possible  background  count  has
+been  generated,  the  flow-through  test  device  must  be
+tightened   to   the   seal   manufacturer’s specifications
+while   gathering   particle   counts   from   the   particle
+counter.  It is recommended that the counts are recorded
+via  a  data  acquisition  device  to  allow  the  user  to
+compress   the   seals   while   the   particles   are   being
+recorded.
+7. 10.7      This   test   is   for   comparison   purposes   only
+between  data  generated  at  a  common  facility  with
+common test setup.
+
+
+Figure 1
+Load Adjustable Hardness Measuring Equipment
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 6
+(mm)
+
+Figure 2
+Dimension of the Wedge-Shaped Indenter
+
+
+Figure 3
+Wedge and Test Sample (Component or Substrate)
+
+
+Maximum
+rated
+working
+pressure or
+5000 PSI
+GAS
+SUPPLY
+VENT TO
+VACUUM
+ISOLATION
+
+VALVE
+PT
+TEST
+SAMPLE(S)
+ISOLATION
+
+VALVE
+
+Figure 4
+Pressure Cycling Test Rig
+
+
+SEMI F74-1103 © SEMI 2002, 2003 7
+7. 11  Corrosion Testing
+7. 11.1    Due  to  the  lack  of  proven,  standardized  test
+methods   for   quantifying   the   performance   of   gas
+systems  in  corrosive  environments,  this  document  can
+only reference two applicable test procedures for use to
+supply     qualitative     information     relating     to     the
+performance  of  gas  system  metal  seals  under  corrosive
+serve: SEMI F77 and SEMASPEC 97043272A-TR (see
+Related Documents).  It will be the responsibility of the
+requesting   party   to   define   the   specific   testing   and
+acceptance criteria for this type of evaluation.
+7. 12  Pressure Cycling Test
+7. 12.1    Assemble  the  test  sample(s)  into  the  test  rig
+shown in Figure 4 per the manufacturer’s instructions.
+7. 12.2    Cycle  the  test  sample(s)  for  a  total  of  250,000
+cycles.  The following represents one cycle:
+7. 12.2.1      Apply   the   manufacturer’s   maximum   rated
+working   pressure   +/-   2%   or   5000   +/-   100   psig,
+whichever is less.
+7. 12.2.2  Maintain  pressure for  at  least  1  second  after
+the  transducer  indicates  that  the  pressure  requirement
+has been achieved.
+7. 12.2.3  Vent the pressure to 74.5 KPa or less.
+7. 12.2.4    Maintain  the  vacuum  for  at  least  1  second
+after  the  transducer  indicates  that  vacuum  requirement
+has been achieved.
+7. 12.3  Leak test per Section 7.2.1.
+7. 12.4  Sample quantity: 5
+8  Related Documents
+8. 1  SEMATECH Documents
+5
+
+SEMASPEC   90120390B-STD   —   Test   Method   for
+Particle Contribution
+SEMASPEC    97043272A-TR    —    Accelerated    Life
+Testing of Gas System Performance and Reliability
+SEMI F77 — Test Method For Electrochemical Critical
+Pitting  Temperature  Testing  of  Alloy  Surfaces  used  in
+Corrosive Gas Systems
+
+
+5 SEMATECH, 2706 Montopolis Drive, Austin, TX, website:
+www.sematech.org
+
+
+SEMI F74-1103 © SEMI 2002, 2003 8
+RELATED INFORMATION 1
+SAMPLE PERFORMANCE TESTING FIXTURES
+NOTE:  This  Related  Information  is  not  an  official  part  of  SEMI  F74.  The  recommendation  in  this  Related
+Information are optional and are not required to conform to this standard.
+
+
+TEST SAMPLE
+
+
+Figure R1-1
+Conventional Performance Testing Sample
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 9
+COMPONENT VIEW; 1.5” VIBRATION/TORQUE TEST FIXTURE
+
+
+NOTE 1: Leak test port(s) and porting are dependent on seal system/substrate design configuration.
+NOTE 2: Material of Construction: 316SS.
+NOTE 3: Drawing scale is not specified.
+
+Figure R1-2a
+1. 5” Surface-Mount Performance Testing Fixture
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 10
+FACE SEAL
+
+NOTE 1: Leak test port(s) and porting are dependent on seal system/substrate design configuration.
+NOTE 2: Material of Construction: 316SS.
+NOTE 3: Drawing scale is not specified.
+
+Figure R1-2b
+
+# 1
+
+1. 5” Surface-Mount Performance Testing Fixture
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 11
+
+NOTE 1: Leak test port(s) and porting are dependent on seal system/substrate design configuration.
+NOTE 2: Material of Construction: 316SS.
+NOTE 3: Drawing scale is not specified.
+
+Figure R1-2c
+1. 5” Surface-Mount Performance Testing Fixture
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 12
+COMPONENT VIEW; 1.125” VIBRATION/TORQUE TEST FIXTURE
+
+NOTE 1: Leak test port(s) and porting are dependent on seal system/substrate design configuration.
+NOTE 2: Material of Construction: 316SS.
+NOTE 3: Drawing scale is not specified.
+
+Figure R1-3a
+1. 125” Surface-Mount Performance Testing Fixture
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 13
+FACE SEAL
+
+NOTE 1: Leak test port(s) and porting are dependent on seal system/substrate design configuration.
+NOTE 2: Material of Construction: 316SS.
+NOTE 3: Drawing scale is not specified.
+Figure R1-3b
+1. 125” Surface-Mount Performance Testing Fixture
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 14
+
+NOTE 1: Leak test port(s) and porting are dependent on seal system/substrate design configuration.
+NOTE 2: Material of Construction: 316SS.
+NOTE 3: Drawing scale is not specified.
+Figure R1-3c
+1. 125” Surface-Mount Performance Testing Fixture
+
+
+
+SEMI F74-1103 © SEMI 2002, 2003 15
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacture's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publications  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI F75-1102 © SEMI 2002 1
+SEMI F75-1102
+GUIDE FOR QUALITY MONITORING OF ULTRAPURE WATER USED IN
+SEMICONDUCTOR MANUFACTURING
+This guide was technically approved by the Global Facilities Committee and is the direct responsibility of the
+North American Facilities Committee. Current edition approved by the North American Regional Standards
+Committee  on  August  29,  2002.    Initially  available  at  www.semi.org  September  2002;  to  be  published
+November 2002.
+1  Purpose
+1. 1  These guides provide recommendations for facility
+engineers    and    other    manufacturing    and    quality
+professionals  who  may  be  responsible  for  establishing
+programs  to  monitor  and  control  the  quality  of  their
+ultrapure water (UPW) systems through to point-of-use
+(POU). These guides may be used to help determine the
+parameters  that  should  be  monitored  for  UPW  that  is
+produced,    distributed    and    used    throughout    the
+manufacturing  facility,  and  the  frequency  and  location
+of testing.
+NOTE 1: These  suggested  guides  are  published  as  technical
+information and are intended for informational purposes only.
+2  Scope
+2. 1    UPW  is  used  extensively  in  the  production  of
+semiconductor  devices  for  all  wet  processing  steps.
+Ultrapure   water   systems   need   to   be   tested   and
+monitored  to  ensure  that  the  UPW  being  produced
+matches     the     specifications     established     by     the
+manufacturing  process.  The  purity  of  the  UPW  may
+affect device yield unless a wide range of parameters is
+closely  controlled  at  the  point  of  distribution  (POD).
+Semiconductor  devices  are  currently  being  designed
+with smaller linewidths (< 0.13ñ0.18 μm) and are more
+susceptible to low level impurities.
+2. 2        UPW    systems    are    monitored    for    continuous
+performance   for   desired   and   achievable   levels   of
+quality.  Action  limits  are  generally  set  to  determine
+when system performance data warrants that corrective
+action  is  needed.  Table  1  Parameters  and  Range  of
+Performance in  SEMI  F63  may  be  a  useful  reference
+for establishing quality levels.
+2. 3    In  more  critical  processes,  the  quality  of  the  UPW
+also needs to be monitored at the POU where the UPW
+is  in  contact  with  the  wafer.  The  quality  of  the  UPW
+should  not  be  expected  to  be  identical  to  the  quality  of
+the  UPW  being  produced  at  final  filter  (FF),  which  is
+not  subject  to  conditions  within  the  tool  or  distribution
+system.
+2. 4    These  guides  logically  follow  the  series  of  SEMI
+guides  developed  for  UPW,  which  include  a  standard
+defining  the  performance  of  a  UPW  system,  and  a
+standard  defining  the  quality  of  UPW  (see  reference
+section).  The  Schematic  of  a  Typical  Ultrapure  Water
+System  in  Figure  1  of  SEMI  F61  may  be  a  useful
+reference for determining sampling points.
+2. 5    Guides  are  provided  concerning  the  frequency  and
+location  of  sampling  for  those  parameters  that  are  not
+available   from   on-line   analyzers.      Frequency   of
+sampling  should  be  based  on  the  specifications  set  by
+manufacturing  for  the  quality  of  the  POD  UPW,  the
+number and locations of on-line analyzers, the stability
+of  the  incoming  feed  water  to  the  system,  and  the
+historical performance of the UPW system over time.
+2. 6  These guides may also be used to establish process
+control     criteria     for     the     incoming     feedwater,
+performance  of  UPW  system  components  and  POU
+rinse baths.
+2. 7    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Limitations
+3. 1          These     guides     have     been     developed     with
+consideration  of  various  other  sources  deemed  to  be
+relevant  for  this  purpose.  However  this  guide  was  not
+intended  to  be  identical  to  or  consistent  with  any  other
+industry document or standard.
+3. 2    Monitoring  and  testing  of  recycled  or  reclaimed
+water  systems  are  not  specifically  addressed  in  these
+guides.     Additional     test     parameters,     such     as
+quantification  and  identification  of  organic  species  in
+reclaim water, should be added to monitoring programs
+for reclaim and reuse waters.
+3. 3        Measuring    the    purity    of    UPW    can    prove
+challenging.    Many    on-line    instruments    (sodium
+analyzers,   TOC   analyzers,   silica   analyzers,   optical
+particle    counters,    non-volatile    residue    analyzers)
+provide  very  low  limits  of  detection  but  may  not  be
+capable  of  being  calibrated  in  the  range  of  detection  or
+may  have  very  poor  accuracy  at  low  levels.  On-line
+analyzers  should  primarily  be  used  for  trend  analysis.
+Many  tests  can  still  be  performed  more  accurately  and
+reproducibly  in  a  laboratory  environment  but  taking
+
+
+SEMI F75-1102 © SEMI 2002 2
+batch samples can prove time-consuming and be prone
+to sampling error.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  F61  ó  Guide  for  Ultrapure  Water  System  Used
+in Semiconductor Processing
+SEMI  F63  ó  Guidelines  for  Ultrapure  Water  Used  in
+Semiconductor Processing
+NOTE 2: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+NOTE 3: All other abbreviations and acronyms are defined in
+the   SEMI   Compilation   of   Abbreviations   and   Acronyms
+available at web site, http://www.semi.org/.
+5. 1.1  CFU ó Colony-Forming Units
+5. 1.2  DO ó Dissolved Oxygen
+5. 1.3  EDI ó Electrodionization
+5. 1.4  EDX ó Energy Dispersive X-Ray Microanalysis
+5. 1.5  FF ó Final Filter
+5. 1.6  ICó Ion Chromatography
+5. 1.7  NDIR ó Non-Dispersive Infrared Analysis
+5. 1.8  OPC ó Optical Particle Counters
+5. 1.9  POD ó Point Of Distribution
+5. 1.10  RO ó Reverse Osmosis
+5. 1.11  TDS ó Total Dissolved Solid
+5. 1.12  THM ó Trihalomethanes
+6  Units
+6. 1    Parts  per  million  (ppm)  is  equivalent  to  μg/mL  or
+mg/L.
+6. 2    Parts  per  billion  (ppb)  is  equivalent  to  ng/mL  or
+μg/L.
+6. 3    Parts  per  trillion  (ppt)  is  equivalent  to  pg/mL  or
+ng/L.
+7  Use of the Guides
+7. 1    Monitoring  programs  should  reflect  the  age  and
+complexity of the UPW equipment and the needs of the
+manufacturing process.
+7. 2  The quality of UPW at the POU may be negatively
+impacted by 1.) contamination sources within a tool, 2.)
+the  design  of  the  tool,  3.)  the  materials  of  construction
+of    the    tool    and    piping    distribution,    and    4.)
+contamination  loading  in  the  bath  from  build-up  after
+multiple rinse cycles.
+7. 3    Sampling  methods  and  contamination  control  are
+of  paramount  importance  when  attempting  to  measure
+the listed parameters at very low levels of sensitivity.
+7. 4    The  quality  of  the  data  measured  may  depend  on
+which  testing  methods  and  calibration  techniques  are
+used.  Consequently,  trends  observed  in  the  values  may
+be more meaningful than absolute values, especially for
+certain  on-line  monitors  calibrated  for  ultrasensitive
+detection. In addition, online and offline measurements
+may   not   correlate   depending   on   the   measurement
+technique and level of sensitivity of the measurement.
+8  Tests For Monitoring UPW Production and
+Distribution
+NOTE 4: Since SEMI Guides do not require analytical data or
+methods  to  support  them,  the  recommendation  of  specific
+analytical   methods   are   only   for   informational   purposes.
+Alternative methods may also be applicable.
+NOTE   5:      See   Table   1   at   the   end   of   this   document   for
+summary  of  recommended  testing  frequency  and  sampling
+points.
+8. 1  Resistivity (megohm-centimeters)
+8. 1.1      Resistivity   (the   inverse   of   conductivity)   is   a
+general measure of ionic activity and is measured by an
+on-line  meter.    The  resistivity  of  UPW  should  be
+approximately 18.2 mΩcm depending on the resolution
+of the instrument.
+NOTE 6: 18.25  mΩcm  is  the  theoretical  upper  limit  for  pure
+water at 25∞C.
+8. 2  Total Oxidizable (Organic) Carbon (TOC) (ppb)
+8. 2.1  Carbon Sources in Water Supplies
+8. 2.1.1    Incoming  feed  water  contains  both  inorganic
+and  organic  carbon.    Inorganic  carbon  as  dissolved
+carbon  dioxide  (CO
+2
+),  bicarbonate,  and  carbonate  can
+be present at high ppm levels according to the geology
+of the water supply.  Organic carbon reflects biological
+input   and   man-made   contaminants   such   as   oils,
+pesticides,  and  fertilizers.    Ground  and  well  waters
+normally  have  significantly  lower  organic  content  than
+surface  waters.    To  remove  the  majority  of  organics,
+most  UPW  systems  employ  reverse  osmosis;  anion
+exchange resin and ultraviolet (UV) destruction are also
+employed to remove organics.  Some volatile organics,
+such  as  trihalomethanes  (THM),  may  be  controlled  by
+the  use  of  vacuum  degasification.    The  control  of
+organics is essential for preventing organic fouling and
+maintaining  resin  beds  at  high  efficiency.    In  addition,
+
+
+SEMI F75-1102 © SEMI 2002 3
+reduced organic matter will limit the nutrients available
+for   bacteria   growth   and   thus   biofilm   development.
+Increasing    TOC    values    at    the    FF    can    indicate
+degradation   and/or   fouling   of   system   components,
+contamination from routine operational maintenance, or
+return  contamination  from  the  factory.    Changes  in  the
+incoming   feed   water   due   to   seasonal   or   extreme
+weather  conditions  can  also  cause  increases  in  TOC
+readings.
+8. 2.2  Method of  TOC Measurement for Source Water
+8. 2.2.1  There are various methods for measuring TOC,
+and    several    TOC    analyzers    are    available.    TOC
+measurement   generally   involves   the   oxidation   of
+organic   materials   by   means   of   temperature,   UV
+radiation, and/or chemicals. The CO
+2
+produced by these
+reactions   can   then   be   measured   by   non-dispersive
+infrared  analysis  (NDIR)  or  conductivity  (resistivity)
+differential.   The   exact   method   utilized   will   vary
+depending  on  the  TOC  instrumentation  employed  and
+the   method   may   also   affect   the   TOC   readings   as
+different  methods  have  different  recoveries  of  various
+organics. Some instruments will also require the use of
+a  carrier  gas  such  as  air  or  nitrogen,  while  others
+measure TOC directly.
+8. 2.3  Monitoring TOC in the UPW System
+8. 2.3.1    TOC  is  a  useful  test  to  measure  the  organic
+removal  effectiveness  of  the  UPW  system  components
+including    Carbon,    RO,    Degasification,    and    Ion
+Exchange.    Suggested  measurement  points  are  city
+feed, pre and post RO membrane, and final filter, with a
+minimum  frequency  that  reflects  possible  changes  in
+organics  from  the  feed  source  or  UPW  components.
+After  the  RO,  TOC  drops  from  low  ppm  levels  in  the
+source  water  to  mid  ppb  range,  and  to  single  digit  ppb
+levels   after   the   mixed   resin   beds   and   UV   TOC
+reduction units.
+8. 2.4  Monitoring TOC at the POU
+8. 2.4.1    TOC  may  be  measured  at  the  point-of-use  to
+determine quality changes from the distribution system
+and the manufacturing tool. Short wavelength UV (185
+nm)  is  capable  of  breaking  up  residual  organics  into
+charged organic molecules. TOC which survives to the
+point  of  use  in  a  UPW  system  are  typically  either
+ìlightî    molecules    or    small    fragments    of    larger
+molecules such as acetate and formate.  While low TOC
+means  that  the  UPW  system  is  working  effectively  to
+eliminate  the  source  water  organic  load,  this  test  is  not
+an  accurate  measure  of  sterility  of  a  UPW  system.  In
+addition, TOC levels at POU can also reflect carryover
+from chemical baths and contaminants in cleanroom air.
+8. 3  Dissolved Oxygen (ppb)
+8. 3.1          Dissolved     oxygen     (DO)     content     can     be
+controlled,   if   desired.   Rinsing   hydrogen   passivated
+silicon wafer surfaces with high DO UPW can result in
+etching of the silicon by the oxygenated UPW and loss
+of control of gate oxide thickness.
+8. 4  Particulate Matter (Particles/L)
+8. 4.1  Sources of Particles in Ultrapure Water Supplies
+8. 4.1.1  Particles  that  adhere  to  wafer  surfaces  at  each
+step  of  the  integrated  circuit  device  manufacture  may
+impair      the      application      of      thin-films      and
+photolithographic   substances,   and   ultimately   cause
+discrete  and  integrated  transistors  to  fail  because  of
+resultant  physical  imperfections.    Particles  originate  in
+the  incoming  city  water  and  may  also  be  generated
+from  degradation  of  the  UPW  system  components  or
+operational activities. Incoming source water contains a
+high   level   of   particles   and   is   initially   filtered   by
+prefilters  and  mixed  media  in  order  to  remove  gross
+physical turbidity in the micron range.
+8. 4.1.2        Following    reverse    osmosis,    source    water
+particles   have   been   greatly   reduced,   as   the   RO
+membranes  also  reject  particles.    It  is  essential  to
+minimize   the   particle   load   to   the   RO   to   prevent
+membrane   fouling   and   premature   or   frequent   RO
+cleanings.  From  the  RO  outlet  forward  in  the  system,
+the  particle  load  in  the  UPW  originates  from  system
+components.  Particle  sources  can  be  RO  membrane
+modules,  piping  components,  valves  and  other  similar
+control  devices,  tank  linings,  resin  fines  and  other
+sources   where   materials   are   undergoing   wear   or
+degradation and are shedding particles.
+8. 4.1.3  After the ion-exchange resin beds, increasingly
+smaller dimension filters are used in the range 0.2 to 1.0
+microns to remove residual particles and resin fines.  In
+most  ultrahigh  purity  applications,  ultra  filtration  at
+10,000  molecular  weight  is  utilized.    In  most  UPW
+systems,  the  presence  of  significant  quantities  of  sub-
+micron  particles  at  the  final  filter  may  indicate  the
+breakdown  of  upstream  UPW  system  components.  In
+addition,  POU  filters  on  tools  can  be  a  source  of
+contamination if not maintained.
+8. 4.2  Optical Particle Counters (OPC)
+8. 4.2.1    On-line  methods  using  laser  optical  particle
+counting    technology    are    recommended    for    trend
+analysis     and     specification     compliance.     These
+instruments  can  monitor  particles  in  the  0.03  to  >  0.5
+micron   range   depending   on   the   system   component
+being tested. Particle counting using an OPC requires a
+good  sample  port  connection  to  eliminate  false  counts.
+Good counter maintenance, including annual calibration
+and   replacement   of   tubing   and   fittings   is   critical
+especially  if  monitoring  particles  ≤  0.05  microns.  In
+order  to  monitor  trend  analysis  with  good  statistical
+
+
+SEMI F75-1102 © SEMI 2002 4
+process  control  (SPC),  the  number  of  particles  per
+sample  interval  should  be  sufficient  for  good  statistics
+(e.g. > 20 particles per sample interval).   For example,
+to    obtain    a    coefficient    of    variation    (standard
+deviation/mean) of 10%, it is necessary that at least 100
+particles greater than the control be counted.
+8. 4.3  Scanning  Electron  Microscopy  (SEM)  Analysis
+or Direct Count Analysis of Particles and Bacteria
+8. 4.3.1    SEM  is  used  to  analyze  particles  and  bacteria
+within  the  UPW  system.    Three  major  aspects  of  the
+SEM    method    are    the    enumeration    of    particles,
+enumeration  of  bacteria  and  the  determination  of  the
+elemental    composition    of    the    captured    particles.
+Depending on the particulate level in the UPW, a large
+volume of UPW is filtered on-line, typically at the final
+filter.  Due  to  particles  created  by  the  act  of  sampling
+and  the  preexisting  particles  found  normally  on  a  new
+filter prior to use, a volume of over 1000 liters may be
+required   to   get   a   statistically   valid   result.   In   the
+laboratory,  the  filter  is  removed  from  the  filter  holder
+and   placed   in   the   vacuum   chamber   of   a   SEM
+instrument.    A  focused  beam  of  electrons  is  scanned
+across the filter, systematically allowing the size, shape
+and  distribution  of  the  particles  to  be  measured.    The
+electron microscope is capable of extremely high power
+detection  (10,000◊  magnification),  and  the  counting
+process may be automated.  Bacteria and particles in the
+0. 05 to > 0.5 micron range are detected and counted.
+8. 4.3.2  When SEM particle capture filters are installed
+at  critical  areas  in  the  UPW  system  on  a  continuous
+basis, they may be utilized to determine the source and
+nature of intermittent particle excursions.
+8. 4.4  Identification of Particles
+8. 4.4.1      As   part   of   the   SEM   analysis,   an   Energy
+Dispersive  X-ray  Beam  (EDX)  may  be  applied  to  a
+particle,   which   produces   a   spectral   output   of   the
+composition  of  the  particle.    EDX  results  allow  the
+basic     classification     of     organic     and     inorganic
+components.  Elemental  compositions  are  provided  that
+can  be  used  to  trace  the  source  of  particulates.    For
+example, a particle having Cr and Fe peaks is probably
+from a stainless steel source, while one having C and F
+peaks  is  most  probably  composed  of  fluoropolymer
+materials.
+8. 5  Bacteria
+8. 5.1  Sources of Bacteria in Water Supplies
+8. 5.1.1    Incoming  city  water  supplies  and  UPW  system
+components   are   all   potential   sources   of   biological
+contaminants  if  not  monitored  and  controlled.    Viable
+(live)  counts  are  usually  non-detectable  or  very  low  in
+the city water due to chlorination. Chlorine removal and
+low flow areas in the components are the main catalysts
+for rapid biological growth in an UPW system. Fouling
+of  RO  membranes  and  ion-exchange  resins  may  occur,
+requiring  costly  remediation.    Seasonal  variations  may
+greatly change the bacterial count of source water.
+8. 5.1.2  The oligotrophic nature of the UPW causes the
+bacteria   to   become   hydrophobic   which   creates   a
+thermodynamic  adhesion  to  the  wall.    The  bacteria,
+once  adhered  to  the  wall  have  a  higher  degree  of
+probability  of  having  the  nutrients  required  for  growth
+brought  by  them  than  the  planktonic  bacteria  in  the
+system.  This process initiates the creation of a biofilm.
+While    some    system    owners    employ    sanitization
+programs  in  hopes  of  safeguarding  against  microbial
+activity,   biofilm   can   be   prove   resistant   and   may
+permanently  coat  the  inaccessible  surfaces  of  valves
+and  dead-legs.  Despite  the  fact  that  UPW  systems  are
+designed  to  be  hostile  to  most  bacterial  species,  the
+formation  of  biofilm  on  filters,  in  membranes,  and  in
+ion-exchange    resins    is    widespread    and    periodic
+flourishing  of  bacterial  colonies  can  be  a  costly  long-
+term  problem.        Once  in  the  tool,  live  bacteria  can
+multiply  further  particularly  in  low  flow  area  and  pose
+an ever greater threat.
+8. 5.2  Viable Bacteria by Culture
+8. 5.2.1  Replicate    samples    are    collected    at    each
+sampling  point  in  sterile  containers,  passed  through
+special  sterile  filters,  and  then  dosed  with  a  growth
+medium.    In  an  incubator,  bacteria  are  cultured  and
+grow  to  form  colonies.    The  bacteria  colonies  are
+counted   under   low   power   magnification   after   a
+specified   interval   and   at   a   specified   temperature.
+Different   methods   will   enumerate   different   results.
+Results   may   vary   depending   upon   factors   such   as
+sample  volume,  growth  media,  incubation  time  and
+temperature,  and  enumeration  methods.    It  may  be
+necessary  to  evaluate  different  methods  to  determine
+the best recovery for a specific UPW system.  Bacteria
+results  are  reported  as  colony-forming  units  (CFU)  per
+unit  volume  (e.g.  100  mL  or  1000  mL).    For  very  low
+bacteria  UPW  systems,  larger  sized  samples  may  be
+collected  to  provide  lower  detection  limits.    Larger
+volumes  can  be  filtered  using  this  method,  making  the
+bacterial counts more statistically significant.
+8. 5.3  Total Bacteria by Epifluorescence
+8. 5.3.1      After   collection,   samples   are   filtered   onto
+polycarbonate  membranes,  which  are  then  stained  with
+dyes  that  cause  biological  materials  to  fluoresce  under
+ultraviolet light.  A high power microscope is employed
+to  visually  identify  bacteria,  both  live  and  dead,  and  a
+counting method is used to give statistical accuracy for
+the    sample    size.        This    test    provides    accurate
+information  about  actual  bacterial  content  (both  viable
+and  non-viable)  of  the  UPW  system,  rather  than  an
+
+
+SEMI F75-1102 © SEMI 2002 5
+estimate  of  bacteria  that  is  capable  of  being  cultured
+during  a  growth  opportunity  (the  culture  method).  On
+line  samples  may  also  be  obtained  utilizing  a  method
+similar  to  that  of  the  SEM  particle  capture  method.
+Larger   volumes   can   be   filtered   using   this   method
+making    the    bacterial    counts    more    statistically
+significant. The culture method may also be performed
+concurrently to determine if an increase in levels is due
+to live or dead bacteria.
+8. 5.4  Total Viable Organisms by Scan RDI
+8. 5.4.1      Scan   RDI   is   a   semi-automated   method   of
+measuring  total  viability  counts.  The  method  is  able  to
+detect a single cell based on direct measurements of cell
+activity  and  includes  bacteria  and  other  live  organisms
+that may be present in biofilm.
+8. 5.4.2  The sample is filtered through a membrane and
+a   counterstain   is   added   to   minimize   background
+fluorescence.  Viable  organisms  are  labeled  using  a
+nonfluorescent  substrate  that  diffuses  across  the  cell
+membrane.  The  labeling  differentiates  between  viable
+and  dead  cells  based  on  the  presence  or  absence  of
+esterase activity and intact cell membranes. Only viable
+cell with membrane activity have the ability to perform
+this  cleavage  and  retain  the  fluorescent  label.  No  cell
+growth is required. The membrane is then scanned by a
+solid-phase   laser-scanning   cytometer.   The   cells   are
+detected, counted and verified within minutes.
+8. 6  Silica
+8. 6.1  Forms of Silica in UPW Systems
+8. 6.1.1    Silica  exists  primarily  in  two  forms  as  silicates
+and  as  polymeric  silica.  Silicates  are  referred  to  as
+dissolved silica and are reactive to molybdate using the
+heteropoly  method.  The  polymeric  forms  are  called
+colloidal   silica   or   particulate   silica   and   are   not
+measured  directly  by  on-line  analyzers.    As  pH  in  a
+UPW  system  is  lowered,  silicates  polymerize  to  form
+colloidal   silica,   which   range   in   size   from   a   few
+nanometers to several tenths of a micron.
+8. 6.1.2    As  with  TOC,  RO  membranes  are  responsible
+for  the  gross  rejection  of  silica  in  incoming  waters.
+Within  the  UPW  system,  dissolved  silica  is  further
+removed   in   the   anionic   ion   exchange   resin   beads.
+However,  dissolved  silica  is  only  weakly  attracted  to
+the  anionic  resins,  and  is  one  of  the  first  species  to  be
+liberated  when  the  resin  beds  approach  exhaustion.
+After  anion  resins  are  exhausted,  increasingly  high
+levels of silica are released into the UPW stream. Since
+dissolved  silica  is  only  weakly  negatively  charged,  the
+on-line  resistivity  meter  is  not  sensitive  enough  to
+detect silica leakage prior to total resin bed exhaustion,
+i.e. breakthrough.  It is very important to detect this on-
+set of silica breakthrough before a drop in resistivity. If
+this does occur, then Cl
+-
+and other monovalent ions may
+pass from the resin to the point of use. This would also
+be accompanied by a decrease in the resistivity from the
+resin  beds.  This  occurs  because  ions  that  are  stored  on
+the resin beds over a period of time become liberated as
+their  exchange  sites  are  taken  over  by  other  higher-
+affinity ions (e.g. nitrate, sulfate).
+8. 6.2  Dissolved Silica Techniques
+8. 6.2.1      For   the   measurement   of   dissolved   silica,   a
+colorimetry heteropoly blue method is used.  Dissolved
+silica  reacts  with  the  molybdate  reagent  at  acidic  pH,
+and  forms  a  yellow  complex  in  direct  proportion  to
+concentration.   A   reducing   agent   is   added   to   the
+prepared sample, causing a blue color to develop.  This
+color    change    can    be    quantified    by    a    sensitive
+spectrophotometer   for   ppb   to   sub-ppb   levels   of
+dissolved      silica.      On-line      instruments      provide
+continuous     monitoring     of     UPW     systems.     Ion
+Chromatography    may    also    be    used    to    measure
+dissolved silica.
+8. 6.3  Total Silica Technique
+8. 6.3.1    Since  all  forms  of  silica  are  not  reactive  in  the
+heteropoly  method,  the  quantity  of  total  silica  in  UPW
+must  be  verified  independently.    Techniques  such  as
+ICP-MS  are  capable  of  quantifying  the  silicon  present
+to  sub  ppb  levels  after  pre-concentration.  The  method
+detection limit of total silica obtained by this technique
+is in the range of 0.5 ppb.
+8. 6.4  Measurement Methods For Total Silica
+8. 6.4.1      Total   Silica   may   be   measured   by   Graphite
+Furnace  Atomic  Absorption  Spectroscopy  (GFAAS),
+Inductively      Coupled      Plasma      Atomic-Emission
+Spectroscopy    (ICP-AES)    or    Inductively    Coupled
+Plasma-Mass Spectrometry (ICP-MS) at ppb levels.
+8. 6.5  Colloidal Silica
+8. 6.5.1        The    difference    between    total    silica    and
+dissolved  silica  is  assumed  to  be  represented  by  the
+colloidal  form  of  silica.  Colloidal  silica  is  partially
+removed  by  the  RO  membrane,  however,  some  hot
+UPW feed streams may carry a higher concentration of
+colloidal  silica.    Colloidal  silica  cannot  be  detected  by
+on-line resistivity or dissolved silica testing, but may be
+detected as a component of non-volatile residue.
+8. 7  Non-Volatile Residue (NVR)
+8. 7.1    Non-volatile  residue  in  UPW  primarily  consists
+of  dissolved  inorganic  material.    In  the  final  polished
+UPW  the  most  likely  dissolved  inorganic  material  is
+silica  in  both  the  dissolved  and  colloidal  form.    The
+primary  source  of  this  breakthrough  silica  is  the  anion
+resin  bed  as  it  approaches  exhaustion.    Sub-ppb  levels
+of   dissolved   silica   can   be   detected   as   non-volatile
+
+
+SEMI F75-1102 © SEMI 2002 6
+residue.  There is also evidence that as an ion-exchange
+bed    approaches    exhaustion,    previously    removed
+dissolved   silica   can   be   subsequently   released   as
+colloidal  silica  if  the  pH  in  the  ion-exchange  bed  is
+favorable.    There  is  currently  no  specific  measurement
+of   on-line   colloidal   silica,   but   detecting   it   as   a
+component of non-volatile residue can be beneficial.
+8. 7.2  Method of Measurement for NVR
+8. 7.2.1  The on-line measurement of nonvolatile residue
+is  based  on  the  principle  of  determining  ìresidue  after
+evaporationî   of   atomized   ultrapure   water   droplets.
+Droplets evaporate in a fraction of a second leaving an
+ultrafine nonvolatile residue particle agglomerate a few
+nanometers  in  diameter;  the  size  of  which  is  related  to
+the amount of residue impurity originally present in the
+ultrapure  water.    A  condensation  particle  counter  then
+monitors   the   concentration   of   ultrafine   nonvolatile
+residue   particles.      The   measurement   range   of   this
+technique  is  0.01  parts  per  billion  to  20  parts  per
+million.
+8. 8  Ions
+8. 8.1  Mass   Balance   and   Ionic   Removal   in   UPW
+Systems
+8. 8.1.1    The  ionic  composition  of  natural  waters  is  in  a
+dynamic equilibrium (mass balance) with the geological
+source.    The  total  dissolved  solid  (TDS)  content  is
+composed    of    negatively    charged    (anionic)    and
+positively   charged   (cationic)   species   that   can   be
+analyzed by Ion Chromatography (IC). RO membranes,
+ion-exchange  resins,  and  electronic  deionization  (EDI)
+are used to remove ionic species from water.  The UPW
+resin beds need to be monitored because each unit has a
+fixed capacity to remove ions over time.  Weakly bound
+singly  charged  (monovalent)  ions  such  as  Na
++
+and  Cl
+-
+
+are   continually   displaced   in   favor   of   more   highly
+charged  doubly  charged  (divalent)  ions  such  as  SO
+4
+2-
+
+and  Ca
+2+
+throughout  the  life  of  the  resin.    When  ionic
+breakthrough   occurs,   the   weakly   bound   ions   are
+liberated in excess, and resin beds must be regenerated.
+8. 8.2  Ion Chromatography Techniques
+8. 8.2.1    Ionic  (anions  and  cations)  removal  in  UPW
+systems can be quantified at very sensitive levels using
+the   technique   of   ion   chromatography.      During   IC
+analysis,  a  UPW  sample  is  injected  into  an  analytical
+column packed with a special ion-exchange resin.  The
+ions  from  the  samples  are  eluted  (washed)  down  the
+column   by   a   suitable   eluent.      Depending   on   their
+binding  energy  and  sizes,  the  ions  move  down  the
+column  at  different  speeds.    In  time,  all  of  the  ions  are
+separated  and  measured  by  a  conductivity  detector.
+External calibration of a sensitive conductivity detector
+across  a  wide  range  of  concentrations  allows  accurate
+quantification  of  anion  and  cations.    The  anions  and
+cations  determined  by  IC  are  fluoride  (F
+-
+),  chloride
+(Cl), nitrite (NO
+2
+-
+), bromide (Br
+-
+), nitrate (NO
+3
+-
+), sulfate
+(SO
+4
+2-
+).  phosphate  (PO
+4
+3-
+)  and  lithium  (Li
++
+),  sodium
+(Na
++
+),  ammonium  (NH
+4
++
+),  potassium  (K
++
+),  magnesium
+(Mg
+2+
+), calcium (Ca
+2+
+) respectively.
+8. 8.3  Ions Critical in Semiconductor Processing
+8. 8.3.1      Certain   types   of   haze   formation   on   wafer
+surfaces  could  be  caused  by  high  concentrations  of
+anions  and  cations  on  the  silicon  surface  as  residue.
+There   could   be   other   causes   for   haze   formations,
+therefore,  testing  of  anions  and  cations  at  the  POU  in
+the rinse bath may be important to identify and prevent
+this source of contamination.
+8. 9  Metals
+8. 9.1  Measurement Methods
+8. 9.1.1      Up   to   68   metals   may   be   determined   by
+instruments    such    as    Graphite    Furnace    Atomic
+Absorption     Spectroscopy     (GFAAS),     Inductively
+Coupled  Plasma  Atomic-Emission  Spectroscopy  (ICP-
+AES)      or      Inductively      Coupled      Plasma-Mass
+Spectrometry (ICP-MS).
+8. 9.2  Sources of Trace Metals
+8. 9.2.1    Trace  metal  concentrations  in  feed  waters  vary
+over  orders  of  magnitude  according  to  the  geology  of
+source rocks and the residence time of water in aquifers
+and  surface  systems.  Surface  water  supplies  are  often
+mixed  by  the  local  municipal  services,  and  seasonal
+variations are also introduced as ground water and well
+waters are brought in and out of service.  Consequently,
+periodic  analysis  of  metals  in  incoming  feedwater  and
+at  key  points  of  the  UPW  system  including  after  the
+final  filter  is  essential  so  that  significant  changes  in
+performance  may  be  corrected  early  in  the  process  of
+deionization.
+8. 9.3  Boron
+8. 9.3.1    Boron  is  a  trace  element  that,  like  silica,  is
+weakly  attracted  to  anion  resins.    Both  elements  serve
+as a flag for the onset of ionic breakthrough through the
+anion  exchange  resin.    A  rapid  and  systematic  rise  in
+the  boron  content  immediately  after  the  resin  bed  is
+typical  when  ion-exchange  resins  approach  exhaustion
+in the UPW system. Silica and boron breakthough rates
+and  each  elementís  selectivity  in  the  ion  exchange
+process is a matter of ongoing study. The safest route is
+to  measure  both,  but  at  least  to  focus  on  the  one  most
+prevalent in the city water feed stream.
+8. 9.4  Contaminants from the Distribution System
+8. 9.4.1  Certain heavy elements such as Zn, Mn, Ni, Cu,
+Cr, and Pb may be present as trace impurities in plastic
+
+
+SEMI F75-1102 © SEMI 2002 7
+(PFA  and  PVDF)  components  and  are  continuously
+leached  into  the  UPW  streams.    Plastic  lined  metal
+components  such  as  pumps,  storage  tanks,  and  other
+UPW processing vessels may develop pinholes, thereby
+leaching  out  heavy  metal  impurities  into  the  UPW
+system.
+8. 9.5  Contaminants from Feed Water
+8. 9.5.1    The  alkali  metals  (Na,  K),  alkali  earths  (Mg,
+Ca) and Fe comprise the bulk elements of most natural
+waters,   and   play   a   significant   role   in   bulk   water
+chemistry   including   hardness,   alkalinity   and   total
+dissolved solids.  Of these elements, sodium is the most
+abundant  and  is  present  in  final  filter  UPW  at  sub-ppb
+level.  Highly charged metals (Al, Fe, and Mn) have the
+potential to coagulate and foul RO membranes, and Ba
+and  Sr  can  cause  scaling  of  the  RO  and  ion  exchange
+resins.
+8. 9.6  Priority Metals in Semiconductor Processing
+8. 9.6.1    Certain  processing  steps  expose  a  wafer  to
+contamination  from  UPW  in  a  unique  way.      Metals
+from incoming materials (e.g., chemicals, wafers, etc.),
+deteriorating   wafer   processing   equipment,   and   new
+processes and materials for deposited circuit layers can
+lead  to  cross  contamination  and  high  concentrations  of
+metals  ìgetteringî on the silicon wafer surface. Testing
+for metals in the UPW at POU (e.g., the rinse bath) may
+be  important  in  identifying  and  preventing  sources  of
+metal   contamination   on   the   wafer.      Certain   other
+elements,  calcium,  magnesium  and  aluminum,  have  an
+increased  ability  to  contaminate  the  oxides  of  wafers.
+There  may  be  other  metals  that,  depending  on  the
+semiconductor   process,   can   also   act   as   harmful
+contaminants.
+8. 9.7  Radioactive Elements
+8. 9.7.1  Radioactive   elements   such   as   uranium   and
+thorium  can  cause  soft  X-ray  damage  to  devices  when
+present at ppt levels. These elements are detectable in a
+full ICP-MS scan.
+9  Typical Monitoring Programs
+9. 1  On-Line Monitoring
+9. 1.1    On-line  monitors  for  UPW  are  readily  available
+from  a  variety  of  manufacturers.  Before  selecting  an
+instrument  for  on-line  monitoring  an  evaluation  should
+be  made  about  1.)  sensitivity  of  measurements,  2.)
+accuracy of the measurements, 3.) reproducibility of the
+measurements,    4.)    calibration    protocols    for    the
+instrument,  5.)  zero  count  for  the  instrument  (particle
+counters) and 6.) instrument cost and reliability.
+9. 1.2    If  on-line  monitors  are  not  available  at  critical
+sampling   points,   or   the   sensitivity   of   the   on-line
+monitor  is  not  sufficient  to  accurately  measure  at  the
+required levels, grab samples may be taken and sent to
+a  qualified  laboratory  for  equivalent  testing.    This  off-
+line sampling and testing requires special apparatus and
+trained personnel. A clear understanding of the limits of
+each method is required before its application.
+9. 1.3    All  on-line  monitoring  requires  clean  and  tight
+sample  port  connections  in  order  to  eliminate  false
+counts.
+9. 2    Testing  at  critical  sampling  points,  such  as  point-
+of-use,  requires  special  sampling  apparatus  and  trained
+personnel.    The    enclosures    and    mini-environments
+around   wet   benches   that   are   designed   to   prevent
+accidental  access  and  to  isolate  human  contamination
+from the wafer can make it difficult to sample the bath.
+However, contamination-free sampling can be done in a
+safe way using high purity fluoropolymer apparatus and
+trained qualified personnel.
+9. 3      The   utilization   of   unbiased,   independent   and
+experienced   personnel   in   obtaining   data   at   critical
+sampling  sites  with  the  UPW  system  where  on  -line
+instrumentation    is    not    available    is    essential    in
+determining   the   overall   performance   of   the   UPW
+system.
+9. 4      See   Table   1,   ìUPW   System   Test   Parameters,
+Sampling    Points,    and    Recommended    Monitoring
+Frequency for Assuring Good UPW System Operationî
+for     sample     point     and     monitoring     frequency
+recommendations.
+
+
+SEMI F75-1102 © SEMI 2002 8
+Table 1  UPW System Test Parameters, Sampling Points and Recommended Monitoring Frequency for
+Assuring Good UPW System Operation
+Type of
+Water
+
+Source
+Incoming
+Feed pre
+RO filters
+Pre RO
+Post RO
+prefilters
+UPW
+Post RO
+UPW
+Post Ion
+Exchange
+UPW
+Post Final
+Filter
+UPW
+Return Loop
+UPW
+POU  Tools
+(Recommended)
+Resistivity              -               Continuous
+(Conductivity)
+Continuous
+(Conductivity)
+Continuous
+(Conductivity)
+Continuous
+(Conductivity)
+Continuous
+(Conductivity)
+-
+TOC          Bi-Weekly          Bi-Weekly          Continuous          Continuous         Continuous         Continuous          Bi-Weekly
+Particles
+OPC
+Monthly           Monthly             Monthly            Continuous         Continuous         Continuous           Monthly
+Particle
+SEM
+-                        -                          -                        Bi-monthly                        Monthly          Bi-monthly           Monthly
+Bacteria         Biweekly          Biweekly            Biweekly         Biweekly         Weekly         Weekly            Bi-weekly
+Dissolved
+Silica
+Monthly           Monthly             Monthly           Continuous          Continuous          Continuous           Monthly
+Total
+Silica
+Monthly           Monthly             Monthly             Bi-weekly            Weekly             Weekly            Bi-weekly
+NVR                  -                  -                  -                  Continuous                  Continuous                  Continuous                  -
+Sodium                -                -                -                  Continuous                Continuous                Continuous                 -
+Boron           Monthly           Monthly             Monthly             Quarterly              Weekly             -             -
+Anions &
+Cations
+Monthly           Monthly             Monthly             Bi-weekly          Bi-weekly          Bi-weekly          -
+Critical
+Ions
+1
+
+-                        -                          -                           -                          -                         -                        Bi-weekly
+Trace
+Metals-
+Critical
+2
+
+Elements
+-                        -                          -                        Bi-weekly                        -                         -                        Bi-weekly
+Trace
+Metals-
+Full Scan
+Quarterly          Quarterly            Quarterly          Quarterly            Monthly            Monthly            -
+1
+Critical Ions include Chloride, Fluoride, and Ammonium.
+
+2
+Critical Elements include Al, Ca, Cr, Cu, Fe, Mg, Ni, Na, and Zn
+
+NOTE  7:  The  frequency  noted  for  these  parameters  is  not  intended  to  assure  against  excursions  due  to  improper  maintenance
+procedures or other external means of system contamination.
+
+NOTICE:    SEMI  makes  no  warranties  or  representations  as  to  the  suitability  of  the  standards  set  forth  herein  for
+any particular application. The determination of the suitability of the standard is solely the responsibility of the user.
+Users  are  cautioned  to  refer  to  manufacturerís  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI F76-0303 © SEMI 2003 1
+SEMI F76-0303
+TEST METHOD FOR EVALUATION OF PARTICLE CONTRIBUTION
+FROM GAS SYSTEM COMPONENTS EXPOSED TO CORROSIVE GAS
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  November  22,  2002.    Initially  available  at  www.semi.org  December  2002;  to  be  published
+March 2003.
+1  Purpose
+1. 1    This  is  a  test  method  to  compare  gas  handling
+components    for    potential    particle    generation    in
+corrosive  gas  service.    It  is  intended  as  a  practical
+means  of  generating  performance  data  for  a  group  of
+components to be compared in a selection process.
+2  Scope
+2. 1    This  method  applies  to  valves,  particle  filters,  and
+low pressure regulators.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1  This method is not intended to provide insight into
+fundamental corrosion mechanisms.
+3. 2  Since the test is to be conducted on fully functional
+gas system components, it is not designed to determine
+the  suitability  of  specific  materials  of  construction  for
+corrosive  gas  service.    Such  factors  as  component
+design,    flow    path,    weld    quality,    cleanliness    of
+construction and manufacturing methods can impact the
+results  of  this  test  making  the  material  of  construction
+only one of many factors.
+3. 3    This  method  is  not  designed  to  provide  reliability
+or  failure  data.    It  is  expected  that  the  data  produced
+will  be  relative;  that  is,  the  data  will  be  most  useful
+when  groups  of  components  are  compared  to  each
+other.
+3. 4  This method is not designed to evaluate parameters
+besides  particle  contribution,  for  instance  leak  rate  or
+regulator drift.
+3. 5      Components   to   be   tested   must   be   capable   of
+withstanding  the  bake  temperature  of  100∞C  for  filters
+and 70∞C for valves and regulators.
+3. 6      This   test   applies   to   HCl   which   is   a   reducing
+environment.      Results   may   not   be   indicative   of
+performance  in  corrosive  oxidizing  environments  such
+as Cl
+2
+.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI   C3.49   ó   Standard   for   Bulk   Nitrogen   (N
+2
+),
+99. 99999% Quality
+SEMI  E66  ó  Test  Method  for  Determining  Particle
+Contribution by Mass Flow Controllers
+4. 2  ASTM Standard
+1
+
+ASTM    F1394-92    ó    Standard    Test    Method    for
+Determination   of   Particle   Contribution   from   Gas
+Distribution System Valves.
+4. 3  SEMATECH Documents
+2
+
+SEMASPEC  #93021510A-STD  ó  Test  Method  for
+Determination of Particle Contribution by Low Pressure
+Regulators in Gas Distribution Systems.
+SEMASPEC    #93021511A    ó    Test    Method    for
+Determination of Particle Contribution by Filters in Gas
+Distribution Systems.
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions
+5. 1.1  cycle  purge    ó  a  procedure  which  employs
+alternating   cycles   of   vacuum   and   pressure   for   the
+purpose of evacuating a gas system or a portion of a gas
+system of impurities or active gases.
+5. 1.2  particle  filter  ó  a  device  that  removes  small
+particles from a gas stream with high efficiency.
+5. 1.3  point-of-use  purifier    ó  an  inline  device  that
+removes homogeneous impurities such as moisture and
+oxygen  gases.    An  integral  particle  filter  is  typically
+included in the same housing to remove particles.
+
+
+1 American National Standards Institute, 1819 L Street, NW, Suite
+600, Washington, DC 20036, website: www.ansi.org
+
+2 SEMATECH, 2706 Montopolis Drive, Austin, TX 78741, website:
+www.sematech.org
+
+
+SEMI F76-0303 © SEMI 2003 2
+5. 1.4  regulator  ó  a  valve  designed  to  reduce  a  high
+incoming   pressure   to   a   lower   outlet   pressure   by
+automatically  opening  to  allow  flow  until  a  desired,
+pre-set  pressure  on  the  outlet  side  is  reached,  and  then
+automatically    throttling    to    stop    further    pressure
+increase.
+5. 1.5  valve   ó   a   device   that   controls   the   flow   or
+pressure of a gas.  Valve functions can include shut-off,
+metering, backflow prevention, and pressure relief.
+6  Summary of Method
+6. 1 This test method is designed to provide comparative
+results  for  similar  components.    It  is  not  intended  to
+replicate    process  condition  or  actual  use  conditions.
+Components   will   be   compared   for   their   particle
+shedding  performance  after  being  exposed  to  moisture
+and  corrosive  gases,  in  this  case  hydrogen  chloride
+(HCl) gas.  The component will be exposed alternately
+to corrosive gas and then to moist 100 ppm nitrogen gas
+several  times.    The  particle  shed  performance  before
+and  after  exposure  will  be  compared.    The  overall  test
+sequence is outlined in Figure 2.
+7  Apparatus
+7. 1  Corrosive Gas Exposure Apparatus
+7. 1.1    The  corrosive  gas  exposure  will  be  carried  out
+using the apparatus shown in Figure 1.
+7. 1.2  Moisture  Generator  ó  Moisture  generation  is
+achieved   using   a   permeation-source-type   moisture
+generator.  The permeation source should be selected to
+provide  100  ppm  H
+2
+O  in  a  flow  of  500  sccm  nitrogen.
+Records  should  be  kept  on  the  age  of  the  permeation
+source  so  that  a  reliable  source  of  moisture  can  be
+maintained.
+7. 1.3  Vacuum   Generator   ó   A   Venturi   or   similar
+device  capable  of  producing  a  rough  vacuum  of  85000
+pascals (25 inches of mercury).
+7. 1.4  Point  of  HCl  Introduction ó The point at which
+gaseous hydrogen chloride HCl and N
+2
+join the system
+(point  A  in  Figure  1)  should  be  designed  so  that  the
+dead  volume  between  the  check  valves  is  minimized.
+The  check  valves  following  V1  and  V2  should  be
+nearly  joined  to  each  other  so  as  to  minimize  this
+volume.
+
+N2
+CORROSIVE GAS EXPOSURE
+MOISTURE
+GENERATOR
+TEST PIECE
+SCRUBBER
+ANALYZER
+PORT
+V1
+V2
+V3
+V4
+V5
+V6
+V7
+N2  purifier
+HCl
+PURIFIER
+APPARATUS
+HCl
+vacuum
+generator
+A
+
+Figure 1
+Corrosive Gas Exposure Apparatus
+
+
+Legend to figure 1
+
+SYMBOL LEDGEND
+Mas Flow Contoller
+Impurity Removal Purifier
+Particle  Removal  Filter
+Pneumatically Actuated Valve
+Check Valve
+
+8  Reagents and Materials
+8. 1  Nitrogen   ó   Nitrogen   with   less   than   50   ppbv
+moisture is to be used.  This can be accomplished with
+a point-of-use purifier as shown in Figure 1 or by using
+99. 99999%  quality  bulk  nitrogen  according  to  SEMI
+C3.49.
+8. 2  Hydrogen Chloride ó Gaseous HCl should contain
+less  than  1  ppmv  H
+2
+O.    The  HCl  purifier  shown  in
+Figure  1  is  optional  unless  the  source  gas  contains
+greater than 1 ppmv H
+2
+O.
+
+
+SEMI F76-0303 © SEMI 2003 3
+PART I CLE
+CLEANLINESS TEST
+REPEAT FOR A TOTAL
+OF  8  TIMES
+HOLD STATIC IN HCl
+FOR 16 HOURS
+RUN EXPOSURE
+SEQUENCE ONCE
+PER HOUR 6 TIMES
+COOL OVERNIGHT
+UNDER N2 PURGE
+BAKE 2 HOURS
+UNDER N2
+INSTALL IN SYSTEM
+START
+FINAL DRY N2 PURGE
+CYCLE PURGE 30
+CYCLES
+DRY N2 PURGE FOR
+2 HOURS
+EVALUATE PARTCLE
+CLEANLINESS IN N2
+REMOVE AND CAP
+SAMPLE IN GLOVE
+BAG
+DONE
+
+Figure 2
+Test Flow
+9  Safety Precautions
+9. 1      This   method   involves   the   use   of   hazardous
+materials.    The  user  should  be  experienced  in  the
+handling and use of corrosive specialty gases.
+9. 2      Safety   precautions   should   include,   but   are   not
+limited to:
+• continuous  air  monitoring  for  HCl  in  the  working
+environment as well as the ventilated enclosure.
+• SCBA  or  other  supplied  air  respiratory  protection
+capable  of  use  in  gas  exposure  levels  that  may
+exceed  immediately  dangerous  to  life  and  health
+(IDLH)   levels   should   be   used   during   cylinder
+installation and start-up.
+• Complete enclosure of the HCl exposure apparatus
+in a forced-ventilation cabinet.
+• The  user  should  consult  the  safety,  health  and
+environmental  personnel  at  their  site  for  advice  on
+appropriate      personal      protective      equipment,
+monitoring and ventilation requirements.
+10  Test Specimen
+10. 1  Starting  Condition  ó  The  test  specimen  should
+be   a   new   component   in   its   original   packaging   as
+supplied by the manufacturer.
+10. 2  Fittings  ó  The  component  must  have  either  1/4′′
+face  seal  connections  or  be  of  a  surface  mount  design
+with all metal seals.
+10. 3  Sample  Size  ó  The  number  of  samples  to  be
+tested  is  to  be  determined  by  the  user  depending  upon
+their  test  objectives.    It  is  beyond  the  scope  of  this
+method  to  determine  a  statistically  valid  sample  size,
+however it is recommend that multiple samples of each
+type are tested.
+11  Preparation of Apparatus
+11. 1    Mass  Spectrometer-based  leak  checking  of  the
+HCl    exposure    system    after    assembly,    after    the
+installation  of  each  test  component  and  after  opening
+any connection.
+11. 2  Before each experiment and during idle times, the
+apparatus  is  to  be  kept  in  a  constant  purge  condition.
+The  following  valve  positions  would  apply  during  idle
+times:
+
+VALVE                POSITION
+V1                     CLOSED
+V2                        OPEN
+V3                        OPEN
+V4                     CLOSED
+V5                        OPEN
+V6                     CLOSED
+V7                        OPEN
+
+11. 3  Moisture Stabilization ó At least four hours prior
+to  the  start  of  a  test,  a  constant  flow  of  wet  nitrogen
+(100   ppm   H
+2
+O)   should   be   established   through   the
+sampling  port  so  as  to  maintain  a  steady  moisture
+output    from    the    moisture    generator.        This    is
+accomplished  by  opening  valve  V7.    During  this  time,
+V4 is closed.
+11. 4  Moisture Level Verification ó Once the moisture
+level  is  stabilized  in  Section  11.2,  the  moisture  value
+
+
+SEMI F76-0303 © SEMI 2003 4
+measured  on  the  analyzer  should  be  recorded.    This
+level  must  be  100  ppm  ±  10  ppm  or  the  test  cannot
+proceed.
+11. 5  Following each test, the section of tubing between
+V3,  V4  and  the  test  piece  must  be  replaced.    This  will
+minimize the particle contribution from the system due
+to system corrosion.
+12  Calibration
+12. 1  Calibration of the mass flow controllers should be
+performed           according           to           manufacturers
+recommendations.    The  permeation  source  used  in  the
+moisture     generator     should     be     provided     with
+documentation of permeation rate.
+13  Procedure
+13. 1  Baseline  Particle  Cleanliness  Evaluation  ó  A
+particle  cleanliness  evaluation  is  to  be  conducted  on
+each   component   before   installation   into   the   HCl
+exposure  system.    The  baseline  particle  cleanliness
+evaluation  is  to  be  conducted  on  new  components
+according to one of  the following test methods:
+13. 1.1  Low    Pressure    Regulators    ó    SEMASPEC
+#93021510A-STD  ó  Test  Method  for  Determination
+of Particle Contribution by Low Pressure Regulators in
+Gas Distribution Systems.
+13. 1.2  Valves  ó  ASTM  F1394-92  ó  Standard  Test
+Method for Determination of Particle Contribution from
+Gas Distribution System Valves.
+13. 1.3  Filters  ó  SEMASPEC  #93021511A  ó  Test
+Method  for  Determination  of  Particle  Contribution  by
+Filters in Gas Distribution Systems.
+13. 2      Install   sample   in   system   while   maintaining   a
+continuous nitrogen purge of 500 sccm.
+13. 3    Bake  the  sample  for  two  hours.    Filters  will  be
+baked at 100∞C and valves and regulators will be baked
+at   70∞C.      Maintain   a   continuous   N
+2
+purge   during
+baking.    Valves  and  regulators  will  be  in  the  full  open
+position.
+13. 4    Cool  sample  overnight  under  N
+2
+purge  of  500
+sccm.  From this point on, the sample remains at room
+temperature.
+13. 5    Run  HCl  exposure  sequence  once  per  hour  six
+times.
+Table 1  HCl Exposure Sequence
+STEP       TIME       CONDITION
+1 5 minutes Flow dry N
+2
+, 0.5 slm
+2 10 minutes Flow wet N
+2
+- 100 ppm
+H
+2
+O, 0.5 slm
+STEP       TIME       CONDITION
+3 5 minutes Flow dry HCl, 0.5 slm
+4 40 minutes Stagnant HCl, no flow
+
+13. 6  Hold sample in static HCl (no flow) for 16 hours.
+13. 7    Repeat  Sections  13.5  and  13.6  for  a  total  of  8
+times.  This will require a number of days to complete.
+If this involves a weekend or a period of time when the
+test must be temporarily suspended, then a dry N
+2
+flow
+must  be  resumed  while  in  this  idle  mode  (see  Section
+11. 1).  Flow is not to be interrupted prior to completion
+of Section 13.6.
+13. 8    The  test  should  not  be  interrupted  immediately
+prior to moving to the particle testing, Section 13.9.
+13. 9  Purge with dry N
+2
+for 2 hours at 500 sccm.
+13. 10  Cycle  purge  for  30 cycles.    The  cycle  purge
+consists of 20 seconds of rough vacuum 85000 pascals
+(25î Hg) and 10 seconds of pressurization with dry N
+2
+
+to 5.5 ◊ 10
+5
+pascals (80 psig).
+13. 11  Final Dry N
+2
+Purge ó The component is purged
+with  dry  N
+2
+according  to  the  following  schedule:    4
+hours for a valve or regulator, and 24 hours for a filter.
+13. 12    With  a  purged  glove  bag  around  the  sample,
+remove  it  into  the  glove  bag  and  cap  both  ends.    The
+sample  can  now  be  removed  from  the  glove  bag  and
+transferred to the particle test stand.
+13. 13  Final Particle Test in Nitrogen
+13. 13.1  Place  a  purged  glove bag  on  the  particle  test
+apparatus at the sample installation point.
+13. 13.2  Place the sample inside the glove bag and only
+then  remove  the  caps  and  install  the  sample  in  the
+system.
+13. 13.3    Carry  out  the  particle  test  according  to  the
+methods cited in Section 13.1.
+14  Reporting Results
+14. 1  Data   Presentation   ó   Particle   data   should   be
+plotted for each component on a single graph according
+to  the  methods  cited  in  Section  13.1.    Both  the  before
+HCl  exposure  and  after  HCl  exposure  data  should  be
+plotted on the same graph.
+14. 2  Other  Information  ó  Other  information  to  be
+included in the report:
+• sample make, model and serial number,
+• date of test,
+• person who conducted test,
+
+
+SEMI F76-0303 © SEMI 2003 5
+• last calibration date of CNC,
+• age of moisture permeation source,
+• measured moisture concentration at valve V7,
+• ambient temperature and relative humidity, and
+• record  all  exposure  times,  temperatures,  and  flow
+rates from each of the exposure events.
+15  Related Documents
+15. 1  SEMI Standards
+SEMI   F55   ó   Test   Method   for   Determining   the
+Corrosion Resistance of Mass Flow Controllers
+15. 2  SEMATECH Documents
+3
+
+SEMASPEC  #90120390B-STD  ó  Test  Method  for
+Determination  of  Particle  Contribution  by  Valves  in
+Gas Distribution Systems.
+SEMASPEC    #92071233B-STD ó    ìSEMASPEC
+Provisional Test Method for Determining the Corrosion
+Resistance  of  Mass  Flow  Controllers,î  February  5,
+
+# 1993
+
+1993.
+15. 3  Other
+Hwa-Chi  Wang,  Govind  Doddi,  and  Stephen  Chesters,
+ìComparative  Corrosion  Studies  for  HCl  -  and  HBr-
+Gas Distribution Systems,î 1995 Proceedings - Institute
+of Environmental Sciences.
+Journal  of  the  IES ó ìEstimating  the  Lifetime  of
+Electropolished   Stainless   Steel   (EPSS)   Tubing   in
+Corrosive Gas Servicesî, July/Aug. 1994.
+The  Electrochemical  Society,  Inc.  ó ìThe  Role  of
+Moisture   in   Corrosion   of   HBr   Gas   Distribution
+Systemsî, April 1995.
+
+
+3 SEMATECH, 2706 Montopolis Drive, Austin, TX 78741, website:
+www.sematech.org
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturerís   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI F77-0703 © SEMI 2003 1
+SEMI F77-0703
+TEST METHOD FOR ELECTROCHEMICAL CRITICAL PITTING
+TEMPERATURE TESTING OF ALLOY SURFACES USED IN
+CORROSIVE GAS SYSTEMS
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee on April 11, 2003.  Initially available at www.semi.org June 2003; to be published July 2003.
+1  Purpose
+1. 1  The purpose of this test method is to determine the
+relative  resistance  to  pitting  corrosion  of  the  wetted
+surfaces  of  components  intended  for  use  in  corrosive
+gas      distribution      systems      for      semiconductor
+manufacturing.      This   test   method   is   intended   to
+differentiate  between  alloy  compositions  and  processes
+intended  to  enhance  the  corrosion  performance  of  the
+wetted surfaces.
+2  Scope
+2. 1    This  test  method  describes  a  procedure,  based  on
+the  electrochemical  critical  pitting  temperature  (CPT),
+which is used to rank the pitting corrosion resistance of
+wetted    surfaces    of    tubing    or    test    coupons    of
+representative  finished  surfaces  intended  for  use  in
+corrosive  gas  systems.    Pitting  corrosion  is  believed  to
+be a major corrosion failure mode in semiconductor gas
+delivery systems, particularly in components and tubing
+welded and exposed to corrosive gases.
+2. 2    This  test  method  is  an  adaptation  of  ASTM  G150.
+The  adaptation  describes  a  method  for  performing  the
+test  method  on  coupons  or  wetted-surface  sections  cut
+from gas supply system components such as tubing.  It
+is an aqueous immersion method.
+2. 3    The  test  method  is  reproducible  and  provides  a
+metric  (critical  pitting  temperature)  in  addition  to  a
+qualitative (visual) evaluation of corrosion resistance.
+2. 4  This test method applies to materials as specified in
+SEMI Standards referenced in Section 4.1, and to welds
+of these materials.
+2. 5      This   test   method   may   also   be   used   for   other
+corrosion resistant alloys and their welds not referenced
+in Section 4.1.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability  of  regulatory  or  other  limitations  prior  to
+use.
+3  Limitations
+3. 1  Only analysts familiar with the instrumentation and
+technique should use this test method.
+3. 2    The  test  conditions  of  this  test  method  do  not
+simulate   actual   service   in   a   corrosive   gas   supply
+system.    Thus  the  test  results  may  not  correlate  to
+relative  corrosion  resistance  in  a  specific  corrosive  gas
+or corrosive gas supply system.
+3. 3    The  Critical  Pitting  Temperature  (CPT)  is  valid
+only in a range of 10°C to 95°C.  A CPT result greater
+than  95°C  is  not  considered  to  be  valid  since  it  is
+approaching the boiling point of the solution.  A critical
+pitting  temperature  (CPT)  below  10°C  shall  only  be
+reported as < 10°C and may be an indication of crevice
+corrosion.
+3. 4    Since  alloy  composition  and  surface  parameters
+can affect the results of the test (e.g., surface finish), all
+variables  other  than  the  one  being  tested  must  be  fixed
+during  the  test  in  order  to  obtain  reproducible  and
+comparable results.
+3. 5  The bias for this test has not yet been determined.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  F2  —  Specification  for  316L  Stainless  Steel
+Tubing      for      General      Purpose      Semiconductor
+Manufacturing Applications
+SEMI  F17  —  Specification  for  High  Purity  Quality
+Electropolished     316L     Stainless     Steel     Tubing,
+Component Tube Stubs, and Fittings made from Tubing
+SEMI F19 — Specification for the Finish of the Wetted
+Surfaces   of   Electropolished   316L   Stainless   Steel
+Components
+SEMI  F20  —  Specification  for  316L  Stainless  Steel
+Bar,  Extruded  Shapes,  Plate,  and  Investment  Castings
+for  Components  Used  in  High  Purity  Semiconductor
+Manufacturing Applications
+
+
+SEMI F77-0703 © SEMI 2003 2
+4. 2  ASTM
+1
+Standards
+ASTM   G3   —   Standard   Practice   for   Conventions
+Applicable    to    Electrochemical    Measurements    in
+Corrosion Testing
+ASTM   G15   —   Standard   Terminology   Relating   to
+Corrosion and Corrosion Testing
+ASTM   G150   —   Test   Method   for   Electrochemical
+Critical Pitting Temperature Testing of Stainless Steels
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+NOTE  1:    Unless  otherwise  stated,  the  sign  conventions  used
+in this test method are in agreement with ASTM G3, and the
+terminology  relating  to  corrosion  and  corrosion  testing  is  as
+defined in G15.
+5. 1  Definitions
+5. 1.1  CPT-Critical  Pitting  Temperature  —  the  lowest
+temperature  at  which  stable  propagating  pitting  occurs
+on the test surface under the specified test conditions, as
+indicated by a rapid increase beyond a specified limit of
+the measured anodic current density of the test surface.
+5. 1.2  passive  potential  range  —  the  potential  range
+over   which   the   current   density   is   independent   of
+potential.    The  current  is  a  very  low  value  due  to
+formation of an oxide layer.
+5. 1.3  pitting  —  corrosion  of  a  metal  surface,  confined
+to a point or small area, that takes the form of cavities.
+5. 1.4  pitting  potential  range  —  the  range  of  measured
+potentials  where  pitting  is  initiated.    This  potential
+range only exists above the minimum CPT.
+5. 1.5  potential dependent CPT  —  the  CPT  determined
+at  a  potential  within  the  pitting  potential  range  of  the
+tested surface.
+5. 1.6  potential     independent     CPT     —     the     CPT
+determined  at  a  potential  above  the  pitting  potential
+range, but below the transpassive potential range.
+5. 1.7  temperature  ramp  —  the  rate  (°C/min)  at  which
+the test temperature is increased during the test.
+5. 1.8  transpassive  potential  —  the  potential  above  the
+passive  potential  range,  in  which  the  current  density
+increases rapidly as the potential increases.
+5. 1.9  wetted  surface  —  surfaces  of  a  component  in
+contact with the contained fluids.
+
+
+1 Available from American Society for Testing and Materials, 100
+Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-
+
+# 2959
+
+2959. Fax: 1-610-832-9555.  Website: http://www.astm.org.
+6  Summary of Method
+6. 1      The   test   method   measures   the   critical   pitting
+temperature  (CPT)  by  using  a  potentiostatic  technique
+and  a  temperature  scan.    Specific  types  of  specimen
+holders  are  used  to  minimize  crevice  corrosion,  which
+is   another   type   of   corrosion   mechanism   that   can
+complicate the CPT result.  The test is performed in an
+aqueous  electrolyte  solution,  such  as  1  M  NaCl.    After
+polarizing the specimen to a potential above the pitting
+potential,  the  temperature  scan  begins  at  0°C.    The
+solution is heated at a constant rate of 1°C/minute while
+the     current     is     measured     by     means     of     a
+potentiostat/galvanostat   instrument.      The   CPT,   as
+defined in Section 5.1.1, is the temperature at which the
+current  density  increases  above  100  μA/cm
+2
+for  60
+seconds.    Pitting  is  normally  confirmed  by  visual  or
+microscopic observation of the specimen after testing as
+shown  in  Figure  1.    Refer  to  Appendix  X1  in  ASTM
+G150  for  a  description  of  the  relationship  between  the
+pitting potential and the critical pitting temperature.
+
+
+Figure 1
+Examples of Pitting on Type 316 Stainless Steel
+After a Pitting Potential Test Performed at 25°C in 1
+M NaCl (11 × Magnification)
+(Ref 17.1)
+
+
+
+
+SEMI F77-0703 © SEMI 2003 3
+7  Possible Interferences
+7. 1      Specimens   must   be   examined   after   testing   to
+confirm  pitting.    A  possible  interference  is  failure  by
+crevice  corrosion  in  which  case  the  test  is  invalid.
+Crevice corrosion can occur at the seal of the specimen
+holder.   Figure   2   shows   the   mechanism   by   which
+crevice   corrosion   occurs,   and   Figure   3   gives   an
+example of the typical morphology of crevice corrosion
+from  a  pitting  potential  test  performed  on  type  316
+stainless  steel  using  masked  edges.    It  should  also  be
+noted  that  the  critical  crevice  temperature  (CCT)  for
+AISI 316L is less than 10°C.
+
+Figure 2
+Mechanism for Crevice Corrosion
+(See Section 17.2.)
+
+
+
+Figure 3
+Examples of Crevice Corrosion (Dashed Circles) on
+Type 316 Stainless Steel After a Pitting Potential
+Test in 1 M NaCl at 35°C. 11 × Magnification (See
+Section 17.1.)
+
+8  Apparatus
+8. 1    In  general,  refer  to  ASTM  G150  for  a  detailed
+description  of  the  apparatus  and  accessories  necessary
+to carry out the CPT evaluation.  Specifically, Sections
+6. 1 to 6.9 of ASTM G150 describe the potentiostat, the
+potential  measuring  instrument,  the  current  measuring
+instrument,    the    temperature    controller,    and    the
+temperature measurement instrumentation.
+8. 2  Flat  Specimens  —  The  test  cell  for  flat  specimens
+(consisting  of  two  options,  G5-type  cell  and  a  flushed-
+port  cell),  are  given  in  Appendices  X2  and  X3  of
+ASTM G150  with a detailed description of each.
+8. 3  Tubular Specimens — The test cell can be modified
+for  testing  tubular  specimens.  The  modified  test  cell
+consists  of  a  2-L  glass  beaker  cut  to  4.5  in.  high  and
+capped  with  a  polyethylene  cover.    A  three-electrode
+set  up  is  used  consisting  of  the  test  specimen,  an  SCE
+reference electrode inserted in a Luggin probe, and two
+graphite rods as counter electrodes. See Figure 4 for the
+modified test cell set-up.
+
+Figure 4
+Modified Test Cell for CPT Testing of Tubular
+Specimens; Tubing Specimen is the Working
+Electrode
+
+9  Test Specimens
+9. 1  Flat Specimens — In general, refer to ASTM G150
+for a detailed description of the flat specimen.
+9. 2  Tubing  Specimens  —  Tubing  specimens  consist  of
+2. 0-in.  lengths  of  tubing.  The  tubing  should  be  faced,
+and the cut ends should be masked with a non-reactive
+lacquer.
+9. 3    All  specimens  should  be  masked  to  isolate  the  test
+to    the    surface    of    interest    only.    This    can    be
+accomplished  by  masking  with  a  non-reactive  lacquer,
+which   can   be   baked   to   ensure   optimum   adhesion.
+
+
+SEMI F77-0703 © SEMI 2003 4
+Alternately, plater’s tape can also be used, leaving 0.25
+in. uncovered at the end for electrical contact.
+9. 4  Finish  —  In  general,  refer  to  ASTM  G150  for
+details on the typical finish of the test specimens.  Since
+surface   finish   can   effect   the   CPT   results,   surface
+finished  should  be  done  as  consistently  as  possible
+within  a  sample  set.    Details  of  the  surface  finishing
+process,   parameters   and   characterization   should   be
+provided in the test report as outlined in Section 15.
+9. 5  Sampling — It is recommended that a minimum of
+3  specimens,  and  preferably  5  or  more,  should  be  used
+to obtain statistical significance in the testing results.
+9. 6  Test  Area  —  In  general,  refer  to  ASTM  G150,
+which  states  a  minimum  test  area  of  1  cm
+2
+.    This
+minimum  test  area  is  required  for  both  flat  specimens
+and tubing specimens.
+10  Reagents And Materials
+10. 1    In  general,  refer  to  Section  8  of  ASTM  G150
+describing  the  purity  of  the  reagents  and  water  needed
+for  the  test  solution  as  well  as  the  purity  of  the  N
+2
+
+purging gas.
+10. 2  Standard Test Solution — Comparison of the CPT
+results  requires  consistency  in  the  test  solution,  so  it  is
+recommended  that  a  1  M  (mole/liter)  sodium  chloride
+(NaCl)  electrolyte  be  used  as  electrolyte.    However,
+because  of  the  different  processes  gases  used  by  the
+semiconductor   industry   (HCl,   HBr,   Cl
+2
+,   BCl
+3
+,   HF,
+WF
+6
+), it is possible to substitute another test solution to
+represent  the  particular  anion  of  the  process  gas  which
+may  impart  different  pitting  characteristics  (e.g.,  1  M
+NaBr, or 1M NaF).
+11  Applied Potential
+11. 1  Stainless Steel —  In general, refer to section 9 of
+ASTM   G150,   which   provides   the   standard   anodic
+potential  commonly  used  for  most  stainless  steels  (an
+anodic  potential  of  700  mV  versus  SCE  at  25°C).
+Section  9  also  provides  an  alternative  potential  if  there
+is uncertainty as to whether this potential is sufficiently
+high to obtain a potential independent CPT.
+11. 2  Alternative   Alloys   —   Alloys   other   than   316L
+stainless  steel  can  be  tested  using  the  applied  potential
+given in Section 11.1.
+12  Procedure
+12. 1  In general refer to Section 10 of ASTM G150 for
+details on specimen mounting, cleaning, and placement,
+test solution preparation, test procedure, and completion
+of the test.
+12. 2  Refer to Annexes A1 and A2 in ASTM G150 for
+guidelines to calibrate the specimen temperature.
+12. 3  Tubing   specimens   —   Tubing   testing   requires
+different specimen mounting and preparation than given
+in Section 9 of ASTM G150.  Tubing specimens should
+be  placed  vertically  in  solution  so  that  approximately
+one inch is submerged.
+13  Visual Examination Of Test Specimen
+13. 1  In general, refer to Section 11 of ASTM G150 for
+a  description  of  the  visual  examination  of  the  test
+specimen.
+14  Data Analysis
+14. 1  In general, refer to Section 12 of ASTM G150 for
+details on evaluating the critical pitting temperature.
+
+15  Reporting Results
+15. 1    Section  13  of  ASTM  G150  provides  a  list  of
+mandatory information required in the test report.
+15. 2      Other   mandatory   information   that   should   be
+provided  are  the  starting  test  electrolyte  composition,
+the   diameter   of   the   tubing   for   tubing   specimens,
+identification   of   the   surface   finish   process   (e.g.,
+electropolish,   passivation),   and   any   other   specific
+parameters  or  characterization  related  to  the  surface
+finish  process.    Welded  and  non-welded  specimens
+should  also  be  clearly  identified,  as  well  the  welding
+procedure used to weld the specimen.
+16  Precision and Bias
+16. 1    The  precision  of  this  test  method  is  yet  to  be
+determined
+16. 2      The   bias   of   this   test   method   is   yet   to   be
+determined.
+17  References
+17. 1      Blum,   Michael.   M.S.   Thesis.   University   of
+London, England, December 1970.
+17. 2        Philip    A.    Schweitzer,    Ed.    “Corrosion    and
+Corrosion Protection Handbook.” Marcel Dekker, New
+York, p. 11, 1983.
+
+
+SEMI F77-0703 © SEMI 2003 5
+APPENDIX 1
+EXAMPLE OF A CPT TEST PROCEDURE
+NOTICE:    The  material  in  this  appendix  is  an  official  part  of  SEMI  F77  and  was  approved  by  full  letter  ballot
+procedures.
+A1-1     Principle
+A1-1.1    Critical    pitting    temperature    (CPT)    is    an
+electrochemical   test   that   determines   the   localized
+corrosion  resistance  of  stainless  steel  and  other  alloys.
+The  test  is  performed  in  a  solution  of  sodium  chloride
+(NaCl).    The  sample  is  polarized  at  700  mV
+SCE
+while
+the  temperature  is  gradually  increased  from  0°C  at  a
+rate  of  1°C/min.    Above  some  critical  temperature,
+pitting corrosion will occur signified by a rapid increase
+in measured current above 100 μA/cm
+2
+for 60 seconds.
+The   experiment   is   monitored   and   controlled   using
+special software.
+A1-2     Precautions
+A1-2.1    Use  caution  with  heating  mantles,  as  they  can
+become very hot.
+A1-3 Equipment and Supplies
+A1-3.1    Corrosion    Test    System    (potentiostat    and
+software)
+A1-3.2   Chiller (capable of –10°C to 100°C)
+A1-3.3   Temperature   controller
+A1-3.4   Heating   Mantle
+A1-3.5   Stir Plate/Bar (Immersible)
+A1-3.6   Glass   cell   (adapted   to   contain   electrodes,
+probes, and cooling coil)
+A1-3.7   Counter electrodes (graphite rods)
+A1-3.8   Reference  electrode  (saturated  calomel)  and
+luggin probe
+A1-3.9   Cooling   coils
+A1-4 Chemicals and Reagents
+A1-4.1   Sodium   Chloride (ACS Reagent Grade)
+A1-4.2   18   MΩ deionized water
+A1-5 Procedure
+A1-5.1   Turn chiller on and set at  -2°C.
+A1-5.2   Fill  Beaker  with  800  ml  of  1  M  (mole/liter)
+NaCl  electrolyte  (Preferably  chilled  in  refrigerator).
+Turn stir plate on and ensure adequate stirring with stir
+bar.
+A1-5.3   Turn  on  temperature  controllers.    Adjust  set
+point   to   –1°C.   Place   lid   on   beaker   and   ensure
+temperature probe is in solution.
+A1-5.4   Place two counter electrodes and one reference
+electrode in solution.  The reference electrode should be
+placed  in  a  luggin  probe.    The  luggin  probe  tip  should
+be  placed  as  close  to  the  sample  as  possible  without
+interfering with the stir bar. Connect electrical wires to
+counter and reference electrodes.
+A1-5.5   Turn  on  computer  and  potentiostat  and  start
+software.
+A1-5.6   After  temperature  has  dropped  to  0°C,  insert
+specimen into test cell.  One inch of the sample for tube
+stubs should be submerged.  Temperature probe should
+be touching sample (masked section only).
+A1-5.7    Connect  electrical  wires  to  specimen  and  start
+the test.
+A1-5.8   After  approximately  500  seconds  during  the
+initial  delay,  decrease  stir  bar  rotation  speed  by  one
+half.
+A1-5.9   After   temperature   has   increased   to   10°C,
+periodically   monitor   temperature   to   ensure   proper
+heating rate.
+A1-5.10  When  test  is  completed,  remove  the  specimen
+and rinse with DI water.
+A1-5.11  Examine  specimen  for  pit  location.    If  pit  is
+touching  the  masked-off  or  lacquered  area,  the  test  is
+not valid. See Figure A-1.1 for a SEM micrograph of a
+typical pit from a valid CPT test.
+A1-5.12  Determine  critical  pitting  temperature.    The
+critical  pitting  temperature  is  the  temperature  at  which
+the  current  density  exceeds  100  μA/cm
+2
+for  at  least  60
+seconds.      Figure   A-1.2   shows   an   example   of   a
+temperature  vs.  current  density  scan.  In  this  particular
+example,     the     critical     pitting     temperature     was
+determined to be 18°C.
+
+
+SEMI F77-0703 © SEMI 2003 6
+
+Figure A-1.1
+SEM Micrograph of Pit Formed During CPT
+Testing. The Pit is Approximately 100 Microns
+Across.
+
+
+Figure A-1.2
+Current Density as a Function of Temperature. The
+Critical Pitting Temperature is the Temperature at
+Which the Current Density Exceeds 100 μA/cm
+2
+for
+At Least 60 Seconds.
+
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI F78-0304 © SEMI 2003, 2004 1
+SEMI F78-0304
+PRACTICE FOR GAS TUNGSTEN ARC (GTA) WELDING OF FLUID
+DISTRIBUTION SYSTEMS IN SEMICONDUCTOR MANUFACTURING
+APPLICATIONS
+This practice was technically approved by the Global Gases Committee and is the direct responsibility of the
+North  American  Gases  Committee.  Current  edition  approved  by  the  North  American  Regional  Standards
+Committee on October 16, 2003.  Initially available at www.semi.org February 2004; to be published March
+
+# 2004
+
+2004.  Originally published July 2003.
+1  Purpose
+1. 1      The   purpose   of   this   practice   is   to   provide
+procedures   for   welding   stainless   steels   and   other
+corrosion  resistant  metals  and  alloys  (CRAs)  for  fluid
+(liquid  or  gas)  distribution  systems  in  semiconductor
+manufacturing      applications.      Welds      performed
+following  these  procedures  are  of  sufficient  quality  to
+provide  the  required  system  purity,  weld  integrity,  and
+weld  strength  for  use  in  semiconductor  manufacturing
+applications.
+2  Scope
+2. 1    This  practice  provides  procedures  for  gas  tungsten
+arc (GTA) autogenous butt joint welds of stainless steel
+and other CRAs in fluid distribution systems. The fluid
+distribution   system   includes   tubing,   pipe,   fittings,
+valves, subassemblies and components that contain and
+distribute fluid.
+NOTICE:  This  practice  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability  of  regulatory  or  other  limitations  prior  to
+use.
+3  Limitations
+3. 1    The  stainless  steels  covered  by  this  practice  are
+limited  to  the  austenitic  and  superaustenitic  grades  of
+stainless steel.
+3. 2    Corrosion  resistant  metals  and  alloys  covered  by
+this  practice  are  limited  to  solid  solution  grades  of
+nickel  alloys  and  solid  solution  grades  of  titanium
+alloys.
+3. 3      This   practice   applies   only   to   autogenous   GTA
+circumferential  butt  joint  welds  performed  on  fluid
+distribution  system  components  6  inches  or  less  in
+diameter.
+3. 4          This     practice     applies     only     to     automatic,
+mechanized,  or machine GTA welding processes.
+3. 5  This practice applies only to welds performed with
+no fillers and no fluxes.
+3. 6    This  practice  does  not  apply  to  pressure  vessel  or
+process chamber welds.
+4  Referenced Standards
+NOTE   1:      The   following   documents   become   part   of   the
+practice to the extent that they are included herein.
+4. 1  SEMI Standards
+SEMI  F20  ó  Specification  for  316L  Stainless  Steel
+Bar,  Extruded  Shapes,  Plate,  and  Investment  Castings
+for  Components  Used  in  High  Purity  Semiconductor
+Manufacturing Applications
+SEMI  F81  ó  Specification  for  Visual  Inspection  and
+Acceptance of Gas Tungsten Arc (GTA) Welds in Fluid
+Distribution Systems in Semiconductor Applications
+4. 2  ANSI/ASME Standards
+1
+
+
+ANSI/ASC  Z49.1  ó  Safety  in  Welding,  Cutting,  and
+Allied Processes
+BPE ó Bioprocessing Equipment Standard
+B16.25 ó Butt Welding Ends
+B31.3 ó Process Piping
+Boiler   and   Pressure   Vessel   Code   ó   Section   IX,
+Qualification    Standard    for    Welding    and    Brazing
+Procedures,    Welders,    Brazers,    and    Welding    and
+Brazing Operators
+4. 3  ASTM Standards
+2
+
+
+A269   ó   Specification   for   Seamless   and   Welded
+Austenitic Stainless Steel Tubing for General Service
+
+
+1 American National Standards Institute, New York Office: 11 West
+42nd Street, New York, NY 10036, USA. Telephone: 212.642.4900;
+Fax: 212.398.0023 Website: www.ansi.org
+2 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, Pennsylvania 19428-2959, USA.
+Telephone: 610.832.9585, Fax: 610.832.9555, Website:
+www.astm.org
+
+
+SEMI F78-0304 © SEMI 2003, 2004 2
+A450   (Section   25)   ó   General   Requirements   for
+Carbon, Ferritic Alloy, and Austenitic Steel Tubes
+A632   ó   Specification   for   Seamless   and   Welded
+Austenitic  Stainless  Steel  Tubing  (Small  Diameter)  for
+General Service
+4. 4  AWS Standards
+3
+
+
+AWS A3.0 ó Standard Welding Terms and Definitions
+AWS   B2.1   ó   Specification   and   Qualification   of
+Welding   Procedures   and   Welders   for   Piping   and
+Tubing
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+4
+
+5. 1  Definitions
+5. 1.1  angular misalignment ó the condition that exists
+when the tubing angle is unintentionally changed at the
+weld.
+5. 1.2  autogenous  weld  (2)  ó  a  fusion  weld  made
+without filler metal.
+5. 1.3  automatic  arc  welding  downslope  ó  the  time
+during    which    the    welding    current    is    reduced
+continuously   from   the   final   level   until   the   arc   is
+extinguished.
+5. 1.4  axial misalignment ó the offset caused by tubing
+being in line but not centered at the weld.
+5. 1.5  backing  gas  —  an  inert  gas  (or  gas  mixture)  on
+the  interior  of  the  weld  joint  used  to  prevent  or  reduce
+formation   of   oxides   and   other   detrimental   surface
+substances  during  welding,  and  to  provide  pressure  for
+weld profile.
+5. 1.6  bead (2) ó non-standard term for weld bead.
+5. 1.7  bead  overlap  ó  in  a  pulsed  weld  the  amount  of
+coverage  of  a  weld  pulse  of  the  previous  weld  pulse,
+usually  measured  in  percentage  of  the  diameter  of  the
+pulse.
+
+
+3 American Welding Society, 550 NW LeJeune Road, P.O. Box
+351040, Miami, Florida 33135, USA. Telephone: 800.443.9353,
+Website: www.aws.org
+4 The terminology has been derived from the following sources:
+(1)    Websterís New World College Dictionary Fourth Edition
+(2)    ANSI/AWS A3.0 Standard Welding Terms and
+Definitions
+(3)    ASME BPE Bioprocessing Equipment Standard
+
+5. 1.8  bead  variation  ó  the  amount  of  change  of  ID
+bead width from one area to another.
+5. 1.9  bead width ó the width of the weld bead on the
+ID,  normally  measured  in  units  of  T,  where  T  is  the
+nominal tube wall thickness.
+5. 1.10  center   line   shrinkage   —   a   profile-reducing
+defect  or  discontinuity  normally  formed  by  shrinkage
+during solidification.
+5. 1.11  color ó  the  darkness  of  the  oxidation  of  the
+weld   or   adjacent   surfaces.   Non-standard   term   for
+discoloration.
+5. 1.12  color    line    ó    acceptance    criteria    of    the
+maximum amount of discoloration allowed on the weld
+or adjacent surfaces.
+5. 1.13  concavity (3)   ó   a   condition   in   which   the
+surface of a weld is depressed relative to the surface of
+the tube or pipe. Concavity is measured as a maximum
+distance from the outside or inside diameter surface of a
+weld  along  a  line  perpendicular  to  a  line  joining  the
+weld toes.
+5. 1.14  convexity (3) ó a condition in which the surface
+of a weld is extended relative to the surface of the tube
+or pipe. Convexity is measured as a maximum distance
+from  the  outside  or  inside  diameter  surface  of  a  weld
+along  a  line  perpendicular  to  a  line  joining  the  weld
+toes.
+5. 1.15  coupon ó  weld  sample  which  is  opened  for
+inspection to insure that the weld meets specifications.
+5. 1.16  coupon-in ó  first  coupon  prior  to  production
+welding of butt weld joint.
+5. 1.17  coupon-out ó   last   coupon   after   production
+welding of butt weld joint ends.
+5. 1.18  discoloration (3) ó any change in surface color
+from  that  of  the  base  metal.  Usually  associated  with
+oxidation  occuring  on  the  weld  and  heat  affected  zone
+on the outside and inside diameter of the weld joint as a
+result of heating the metal during welding. Colors may
+range from pale bluish-gray to deep blue, and from pale
+straw color to a black crusty coating.
+5. 1.19  downslope   —   See automatic   arc   welding
+downslope.
+5. 1.20  dross (2) ó non-standard term for slag.
+5. 1.21  electrode (2)  ó  non-standard  term  for  tungsten
+electrode.
+5. 1.22  enclosed  weld  head  ó  weld  head  in  which  the
+weld  joint  is  held  and  welded  within  a  closed  chamber
+containing a shielding purge gas.
+
+
+SEMI F78-0304 © SEMI 2003, 2004 3
+5. 1.23  encroachment   —   non-standard   term   for   ID
+convexity.
+5. 1.24  examiner ó     a     person     who     performs
+examination  of  a  particular  object,  or  evaluates  an
+operation,  for  compliance  to  a  given  standard.  The
+examiner performs quality control for the manufacturer,
+fabricator, or erector.
+5. 1.25  fluid (1) ó liquid or gas.
+5. 1.26  gas (1) ó the fluid form of a substance in which
+it   can   expand   indefinitely   and   completely   fill   its
+container; form that is neither liquid or solid.
+5. 1.27  gas tungsten arc welding (GTAW) (3) ó an arc
+welding  process  that  uses  an  arc  between  a  tungsten
+electrode  (nonconsumable)  and  the  weld  pool.  The
+process is used with a shielding gas.
+5. 1.28  halo ó   non-standard   term   for   discoloration
+resulting from welding procedure.
+5. 1.29  haze ó  non-standard  term  for  discoloration
+resulting from welding procedure.
+5. 1.30  heat-affected  zone  (HAZ)  (2)  ó  the  portion  of
+the    base    metal    whose    mechanical    properties    or
+microstructure   have   been   altered   by   the   heat   of
+welding.
+5. 1.31  heat    tint/color    ó    non-standard    term    for
+discoloration resulting from welding procedure.
+5. 1.32  inclusion (2)    ó    entrapped    foreign    solid
+material, such as slag, flux, tungsten, or oxide.
+5. 1.33  inert   gas   —   a   gas   that   normally   does   not
+combine   chemically   with   materials.   A   protective
+atmosphere.
+5. 1.34  inspector   —   a   person   who   verifies   that   all
+required examinations and testing have been completed,
+and  who  inspects  the  assembly  to  the  extent  necessary
+to   be   satisfied   that   it   conforms   to   all   applicable
+examination   requirements.   The   inspector   performs
+quality   assurance   for   the   owner.   The   inspector   is
+designated  by  the  owner  and  shall  be  the  owner,  an
+employee of the owner, an employee of an engineering
+or  scientific  organization,  or  of  a  recognized  insurance
+or inspection company acting as the ownerís agent.
+5. 1.35  lathe  welding  —  automatic  or  machine  welding
+of  tubes  or  pipes  in  which  the  electrode  is  stationary
+and  the  weld  joint  rotates.  Lathe  welding  as  defined
+here is a fusion process without the addition of filler.
+5. 1.36  liquid (1) ó having its molecules moving freely
+with respect to each other so as to flow readily, unlike a
+solid,  but  because  of  cohesive  forces  not  expanding
+infinitely like a gas.
+5. 1.37  liquid  cylinder  ó  often  referred  to  as  a  dewar,
+an insulated and pressure controlled metal cylinder used
+to store fluids in their liquid form.
+5. 1.38  meandering (3)  ó  of  or  pertaining  to  a  weld
+bead  that  deviates  from  side  to  side  across  the  weld
+joint rather than tracking the joint precisely.
+5. 1.39  orbital  welding  (3)  ó  automatic  or  machine
+welding  of  tubes  or  pipes  in-place  with  the  electrode
+rotating (or orbiting) around the work. Orbital welding,
+as it applies to this standard, is a fusion process without
+the addition of filler.
+5. 1.40  oxidation (3) ó the formation of an oxide layer
+on a metal surface. When excessive oxidation occurs as
+a result of welding, it is visible as discoloration.
+5. 1.41  oxide island ó non-standard term for slag.
+5. 1.42  pressure  cylinder  ó  a  metal  cylinder  used  to
+store gases under pressure.
+5. 1.43  profile defect — any defect or discontinuity that
+reduces  the  wall  thickness  below  that  of  the  parent
+metal.
+5. 1.44  pulsed   gas   tungsten   arc   welding   ó   a   gas
+tungsten  arc  welding  process  variation  in  which  the
+current is varied in regular intervals.
+5. 1.45  purge  —  the  application  of  an  inert  gas  (or  gas
+mixture)  to  the  OD  or  ID  surface  of  the  weld  joint  to
+displace non-inert atmospheric gases.  A block purge is
+a non-flowing purge with positive pressure.
+5. 1.46  purge gas ó an inert gas (or gas mixture) used
+to displace the ambient atmosphere from the inside (ID)
+of the weld joint.
+5. 1.47  root ó non-standard term for root surface.
+5. 1.48  root  surface  (2)  ó  the  exposed  surface  of  a
+weld  opposite  the  side  from  which  the  welding  was
+done.
+5. 1.49  rotation  delay  ó  time  delay  between  when  the
+arc is initiated and the rotor begins to turn.
+5. 1.50  shield  gas  —  inert  gas  (or  gas  mixture)  that
+protects    the    electrode    and    molten    puddle    from
+atmosphere      and      provides      the      required      arc
+characteristics.
+5. 1.51  slag (2)  ó  a  non-metallic  product  resulting
+from  the  mutual  dissolution  of  non-metallic  impurities
+in some welding processes.
+5. 1.52  tack  weld  (2)  ó  a  weld  made  to  hold  the  parts
+of a weldment in proper alignment until the final welds
+are made.
+5. 1.53  tail-out (2)  ó  non-standard  term  for  automatic
+arc welding downslope.

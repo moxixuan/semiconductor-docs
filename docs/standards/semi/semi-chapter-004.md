@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E19.4-0998 E © SEMI 1992, 2003 7 APPENDIX 1 APPLICATION NOTES NOTICE:   This   appendix   was   approved   as   an   official   part   of   SEMI   E19.4   by   full   letter   ballot   procedu..."
-sidebar_label: "Chapter 4"
+title: "E20-0697 - © SEMI 1991, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "E20-0697 - © SEMI 1991, 2002..."
 sidebar_position: 40
-tags: ['SEMI', 'Standard', 'Chapter 4']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-004.pdf'
   chapter: 4
   page_count: 50
-  file_size_mb: 0.75
-  processing_date: '2026-01-28T09:17:24.061Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-004.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/004.pdf"
   pdfSize="0.75MB"
-  title="Chapter 4"
-  description="SEMI标准文档 - Chapter 4，共50页"
-/>
+  title="E20-0697 - © SEMI 1991, 2002..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

@@ -1,0 +1,4208 @@
+---
+title: "M37-0699 - © SEMI 19992 Figure..."
+description: "SEMI标准文档"
+sidebar_label: "M37-0699 - © SEMI 19992 Figure..."
+sidebar_position: 1050
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-105.pdf'
+  chapter: 105
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/105.pdf"
+  pdfSize="0.65MB"
+  title="M37-0699 - © SEMI 19992 Figure..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI M37-0699 © SEMI 19992
+Figure 1
+Counting positions for a 50 mm diameter wafer
+NOTICE:  These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user.  Users are cautioned to refer to manufacturer's
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user's  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI M38-1104 © SEMI 1999, 2004 1
+SEMI M38-1104
+SPECIFICATION FOR POLISHED RECLAIMED SILICON WAFERS
+This  specification  was  technically  approved  by  the  Global  Silicon  Wafer  Committee  and  is  the  direct
+responsibility  of  the  North  American  Silicon  Wafer  Committee.  Current  edition  approved  by  the  North
+American  Regional  Standards  Committee  on  August  16,  2004.    Initially  available  at  www.semi.org
+September  2004;  to  be  published  November  2004.  Originally  published  September  1999;  previously
+published November 2001.
+NOTICE:  This  document  was  completely  rewritten  in
+
+# 2004
+
+2004.
+1  Purpose
+1. 1 Silicon   wafers   are   often   subjected   to   reclaim
+processes in order to improve manufacturing efficiency
+in device production.  A reclaimed wafer is one that has
+been re-conditioned for subsequent utilization.
+1. 2 This     specification     covers     requirements     for
+reclaimed  silicon  wafers  to  be  used  for  testing  and
+process monitoring in semiconductor manufacturing.
+1. 3 In some instances for 300 mm wafers with supplier
+marked  back  surfaces,  it  is  necessary  to  re-inscribe  the
+mark  after  one  or  more  reclaim  cycles.    Consequently,
+this specification also includes an appendix that covers
+the re-inscription of such wafers.
+NOTE 1:  Issues related to the re-inscription of such 300 mm
+wafers are discussed in Related Information 1.
+2  Scope
+2. 1 This  specification  divides  reclaimed  wafers  into
+four    application    categories:    Mechanical,    Furnace,
+Particle,  and  Lithography  and  provides  tables  of  the
+specification  requirements  for  each  category.    Thus,  a
+prospective purchaser of reclaimed silicon wafers needs
+to   know   which   application   matches   his   or   her
+requirements.
+2. 2 Only requirements for some attributes are specified
+in Tables 1 and 2.  Other requirements are indicated to
+be “customer specified” which means that the customer
+may  specify  a  requirement  for  that  particular  attribute,
+“as-supplied”   which   means   that   the   attribute   has
+whatever value was supplied in the wafer delivered (or
+used)  for  reclaim,  and  “unspecified”  which  means  that
+the  attribute  is  not  specified  and  for  which  the  wafer
+does not need to be tested.
+2. 3 In   addition   to   the   general   categories   listed   in
+Section 2.1, this specification provides requirements for
+reclaimed  wafers  intended  for  use  in  advanced  device
+production,  including  devices  in  the  180  and  130  nm
+technology generations in a third table.
+2. 4 This  specification  is  directed  specifically  to  silicon
+wafers with one or both polished surfaces.  If the wafers
+have  epitaxial  deposits,  the  attributes  of  the  epitaxial
+layer are not included the specification requirements.
+2. 5 This  specification  covers  reclaim  wafers  that  are
+either  customer-supplied  or  third  party-sourced.    The
+user  should  exercise  caution  when  sourcing  materials
+with    unknown    thermal    histories,    unknown    bulk
+contamination, or unknown deposits, such as gold (Au)
+films.
+2. 6 For  applications  placing  higher  demands  on  silicon
+wafers  such  as  particle  counting,  measuring  pattern
+resolution in a photolithography process, or surface ion
+contamination  monitoring,  the  customer  may  want  to
+reference SEMI M1, SEMI M8, or SEMI M24.
+2. 7 For referee purposes, U.S. customary units shall be
+used  for  wafers  of  2-  and  3-inch  nominal  diameter  and
+SI   (System   International),   commonly   called   metric,
+units for 100 mm and larger diameter wafers.
+NOTICE: This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1 SEMI Standards
+SEMI      M1      —      Specifications      for      Polished
+Monocrystalline Silicon Wafers
+SEMI      M8      —      Specification      for      Polished
+Monocrystalline Silicon Test Wafers
+SEMI  M18  —  Format  for  Silicon  Wafer  Specification
+Form for Order Entry
+SEMI      M24      —      Specification      for      Polished
+Monocrystalline Silicon Premium Wafers
+SEMI M31 — Provisional Mechanical Specification for
+Front  Opening  Shipping  Box  Used  to  Transport  and
+Ship 300 mm Wafers
+SEMI  M45  —  Provisional  Shipping  System  for  300
+mm Wafer Shipping System
+SEMI MF1241 — Terminology of Silicon Technology
+
+
+SEMI M38-1104 © SEMI 1999, 2004 2
+NOTICE: Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1 Definitions   of   terms   related   to   silicon   wafer
+technology   are   given   in   SEMI   M1   and   in   SEMI
+MF1241.
+4. 2 The  following  definitions  apply  in  the  context  of
+this specification:
+4. 2.1  furnace  wafer  —  a  silicon  wafer  suitable  for
+monitoring thermal processes or as an implant monitor,
+usually used only in a cleanroom environment.
+4. 2.2  lithography   wafer   —   a   silicon   wafer   used
+specifically  for  testing  lithography  equipment  wherein
+surface flatness is the key attribute, usually used only in
+a cleanroom environment.
+4. 2.3  mechanical wafer —  a silicon wafer suitable for
+equipment   or   process   testing,   usually   outside   of   a
+cleanroom environment.
+4. 2.4  particle  wafer  — a  silicon  wafer  suitable  for
+monitoring  area  or  process  cleanliness,  used  only  in  a
+cleanroom environment.
+4. 2.5  reclaimed wafer — a silicon wafer that has been
+reconditioned for subsequent utilization.
+5  Ordering Information
+5. 1 Purchase    orders    for    reclaimed    silicon    wafers
+furnished  to  this  specification  shall  minimally  include
+the following items:
+5. 1.1  Nominal diameter,
+5. 1.2  Type    of    application    (mechanical,    furnace,
+particle, lithography, 180 nm, or 130 nm),
+5. 1.3  A   statement   that   the   wafers   are   customer-
+supplied or third-party sourced,
+5. 1.4  Resistivity,
+5. 1.5  Any other requirement specified by the customer
+(indicated as “customer specified” in the tables),
+5. 1.6  Any requirements that differ from the tables, and
+5. 1.7  Methods  of  testing  specified  attributes  for  which
+either  no  or  multiple  test  methods  exist  (see  Sections
+7. 2 and 7.3.
+5. 2 Customer    specified    requirements    other    than
+resistivity may include:
+5. 2.1  Nominal edge exclusion for FQA,
+5. 2.2  Wafer ID marking,
+5. 2.2.1  For  300  mm  wafers,  whether  the  wafers  are  to
+be re-inscribed as specified in Appendix 1 or not,
+5. 2.3  Pits,    haze,    and/or    back    surface    roughness
+(particle or lithography wafers),
+5. 2.4
+Localized light scatterers, and
+5. 2.5  Edge  condition  (for  200  and  300  mm  wafers
+only),
+5. 3 In  addition  the  following  optional  criteria  may  be
+included in a purchase order:
+5. 3.1  Minimum removal requirements (if any),
+5. 3.2  Lot   traceability   and   lot   integrity   maintenance
+requirements,
+5. 3.3  Lot acceptance criteria,
+5. 3.4  Certification, and
+5. 3.5  Packing and Marking.
+5. 3.5.1  Note  that  for  packing  and  marking  of  300  mm
+wafers, the requirements of SEMI M31 and SEMI M45
+shall be observed.
+6  Requirements
+6. 1 The  wafers  shall  conform  to  the  parameters  as
+specified in the appropriate column of Table 1, Table 2,
+or Table 3, as augmented and amended by the purchase
+order.
+6. 2 The  wafers  shall  be  capable  of  being  reconditioned
+for use.
+7  Test Methods
+7. 1 Values   of   attributes   specified   in   the   tables   or
+purchase  order  shall  be  tested  in  accordance  with  the
+test  methods  indicated  for  the  attribute  in  SEMI  M1  or
+SEMI  M18.    Sampling  for  the  test  shall  be  done  in
+accordance with the requirements of SEMI M1.
+7. 2 If  multiple  tests  are  described  for  any  attribute,  the
+purchase  order  shall  indicate  which  test  shall  be  used,
+unless  the  supplier  of  the  reclaimed  wafers  can  make
+the choice.
+7. 3 If no standardized test is available for any attribute,
+the test method to be used shall be agreed upon between
+purchaser and supplier.
+8  Certification
+8. 1 Upon  request  of  the  purchaser  in  the  contract  or
+order,  a  manufacturer’s  or  supplier’s  certification  that
+the material was manufactured and tested in accordance
+with this specification, together with a report of the test
+results, shall be furnished at the time of shipment.
+
+
+SEMI M38-1104 © SEMI 1999, 2004 3
+8. 2 In  the  interest  of  controlling  inspection  costs,  the
+supplier  and  the  purchaser  may  agree  that  the  material
+shall   be   certified   as   “capable   of   meeting”   certain
+requirements.    In  this  context,  “capable  of  meeting”
+shall signify that the supplier is not required to perform
+the  appropriate  tests  in  Section  9.    However,  if  the
+purchaser  performs  the  test  and  the  material  fails  to
+meet  the  requirement,  the  material  may  be  subject  to
+rejection.
+9  Packing and Marking
+9. 1 Special  packing  requirements  shall  be  subject  to
+agreement between the supplier and the purchaser.
+Otherwise  all  wafers  shall  be  handled,  inspected,  and
+packed   in   such   a   manner   as   to   avoid   chipping,
+scratches,  and  contamination,  and  in  accordance  with
+the best industry practices, to provide ample protection
+against damage during shipment.
+9. 2 The  wafers  supplied  under  this  specification  shall
+be  identified  by  appropriately  labeling  the  outside  of
+each   box   or   other   container   and   each   subdivision
+thereof in which it may reasonably be expected that the
+wafers will be stored prior to further processing.
+9. 3 For   300   mm   wafers,   the   packing   and   marking
+requirements  of  SEMI  M31  and  SEMI  M45  shall  be
+met.
+Table 1  Specifications for 150 mm, 200 mm, and 300 mm Silicon Reclaim Wafers
+
+Item                                         Mechanical                                         Furnace                Particle                Lithography
+1. 0
+General Characteristics
+
+1. 1                               Growth                               Method                               As-supplied
+1. 2                            Crystal                            Orientation                            As-supplied
+1. 3                             Conductivity                             Type                             As-supplied
+1. 4                                      Dopant                                      As-supplied
+1. 5 Nominal Edge Exclusion for FQA                 Unspecified                 Customer                 specified
+2. 0
+Electrical Characteristics
+
+2. 1                                   Resistivity                                   Customer                                   specified
+2. 2 Radial Resistivity Variation (RRG) Unspecified
+2. 3                           Resistivity                           Striations                           Unspecified
+2. 4 Minority Carrier Lifetime Unspecified
+3. 0
+Chemical Characteristics
+
+3. 1                          Oxygen                          Concentration                           Unspecified                          As-supplied                          Unspecified
+3. 2                        Radial                        Oxygen                        Variation                         Unspecified                        As-supplied                        Unspecified
+3. 3                          Carbon                          Concentration                           Unspecified                          As-supplied                          Unspecified
+4. 0
+Structural Characteristics
+
+4. 1 Dislocation Etch Pit Density Unspecified None
+4. 2                                         Slip                                          Unspecified                                            None
+4. 3                                     Lineage                                      Unspecified                                     None
+4. 4                                       Twins                                        Unspecified                                       None
+4. 5                                       Swirl                                       Unspecified
+4. 6                                  Shallow                                  Pits                                  Unspecified
+4. 7                                       OISF                                                                              Unspecified
+4. 8                             Oxide                             Precipitates                             Unspecified
+5. 0
+Wafer Preparation Characteristics
+5. 1 Wafer ID Marking Customer specified
+5. 2 Front Surface Thin Films Unspecified None Unspecified None
+5. 3                                Denuded                                Zone                                Unspecified
+5. 4                             Extrinsic                             Gettering                              Unspecified               None               Unspecified               None
+5. 5               Backseal               Unspecified               None               Unspecified               None
+5. 6                                   Annealing                                   Unspecified
+
+
+SEMI M38-1104 © SEMI 1999, 2004 4
+
+Item                                         Mechanical                                         Furnace                Particle                Lithography
+6. 0
+Mechanical Characteristics
+
+6. 1                                    Diameter
+150 mm ± 0.50 mm
+200 mm ±  0.50 mm
+300 mm ± 0.50 mm
+6. 2                   Primary                   Flat/Notch Dimension As-supplied
+6. 3                   Primary                   Flat/Notch                   Orientation  As-supplied
+6. 4          Secondary          Flat          Dimension (if Applicable) As-supplied
+6. 5            Secondary            Flat            Location            (if Applicable) As-supplied
+6. 6                                  Edge                                  Profile                                                                    Unspecified
+6. 7                                    Thickness
+150 mm (SEMI M1.8) 533–675 μm
+150 mm (SEMI M1.13) 585–725 μm
+200 mm 600–775 μm
+300 mm 650–800 μm
+6. 8 Thickness Variation (TTV) Unspecified
+6. 9 Surface Orientation  As-supplied
+6. 10                                       Bow                                       Unspecified
+6. 11 Warp (for diameters other than 300 mm) Unspecified
+Warp (for 300 mm only) Unspecified
+6. 12                                       Sori                                       Unspecified                                        Customer
+specified
+6. 13                              Flatness/Global                              Unspecified                              Customer
+specified
+6. 14                                 Flatness/Site                                 Unspecified                                 Customer
+specified
+7. 0
+Front Surface Chemistry
+7. 1 Surface Metal Contamination
+Sodium                                        Unspecified                                        Customer
+specified
+Unspecified
+Aluminum                                      Unspecified                                      Customer
+specified
+Unspecified
+Potassium                                      Unspecified                                      Customer
+specified
+Unspecified
+Chromium                                      Unspecified                                      Customer
+specified
+Unspecified
+Iron                                           Unspecified                                           Customer
+specified
+Unspecified
+Nickel                                         Unspecified                                         Customer
+specified
+Unspecified
+Copper                                        Unspecified                                        Customer
+specified
+Unspecified
+Zinc                                           Unspecified                                           Customer
+specified
+Unspecified
+7. 2                              Surface                              Organics                              Unspecified
+8. 0
+Front Surface Visual Characteristics
+
+8. 1A Scratches (macro) – total length Unspecified None
+8. 1B Scratches (micro) – total length Unspecified
+≤0.10 × Diameter
+8. 2                                         Pits                                         Unspecified                                         Customer                                         specified
+8. 3                                        Haze                                        Unspecified                                        Customer                                        specified
+
+
+SEMI M38-1104 © SEMI 1999, 2004 5
+
+Item                                         Mechanical                                         Furnace                Particle                Lithography
+8. 4                       Localized                       Light                       Scatterers                        Unspecified
+≤0.20/cm
+2
+@ ≥0.20 μm
+8. 5                            Contamination/area                             Unspecified                            None
+8. 6                                   Edge                                   Chips                                    Unspecified                                   None
+8. 7                                  Edge                                  Cracks                                   Unspecified                                  None
+8. 8 Cracks, Crow's feet Unspecified None
+8. 9                                      Craters                                       Unspecified                                      None
+8. 10                                    Dimples                                      Unspecified                                    None
+8. 11                                    Grooves                                      Unspecified                                    None
+8. 12                                    Mounds                                      Unspecified                                    None
+8. 13                                 Orange                                 Peel                                   Unspecified                                 None
+8. 14                                  Saw                                  Marks                                    Unspecified                                  None
+9. 0
+Back Surface Characteristics
+
+9. 1                                   Edge                                   Chips                                    Unspecified                                   None
+9. 6                                   Roughness                                    Unspecified                                   Customer                                   specified
+9. 7A Brightness (gloss) (150 & 200 mm) Unspecified
+9. 7B Brightness (gloss) (300 mm)
+≥80%
+9. 8 Localized Light Scatterers Unspecified Customer specified
+9. 9A                            Scratches                            (macro)                              Unspecified
+≤0.25 × Diameter
+9. 9B                            Scratches                            (micro)                            Unspecified
+10. 0
+Other Characteristics
+
+TBD                              Edge                              condition
+150                                        mm                                        Unspecified
+200 mm and 300 mm Unspecified Customer specified
+
+Table 2  Specifications for 2", 3", 100 mm, and 125 mm Silicon Reclaim Wafers
+
+Item                                         Mechanical                                         Furnace                Particle                Lithography
+1. 0
+General Characteristics
+
+1. 1                               Growth                               Method                               As-supplied
+1. 2                            Crystal                            Orientation                            As-supplied
+1. 3                             Conductivity                             Type                             As-supplied
+1. 4                                      Dopant                                      As-supplied
+1. 5 Nominal Edge Exclusion Distance for FQA Unspecified Customer specified
+2. 0
+Electrical Characteristics
+
+2. 1                                   Resistivity                                   Customer                                   specified
+2. 2 Radial Resistivity Variation (RRG) Unspecified
+2. 3                           Resistivity                           Striations                           Unspecified
+2. 4 Minority Carrier Lifetime Unspecified
+3. 0
+Chemical Characteristics
+
+3. 1                          Oxygen                          Concentration                           Unspecified                          As-supplied                          Unspecified
+3. 2                        Radial                        Oxygen                        Variation                         Unspecified                        As-supplied                        Unspecified
+3. 3                          Carbon                          Concentration                           Unspecified                          As-supplied                          Unspecified
+4. 0
+Structural Characteristics
+
+4. 1 Dislocation Etch Pit Density Unspecified None
+4. 2                                         Slip                                          Unspecified                                            None
+4. 3                                     Lineage                                      Unspecified                                     None
+4. 4                                       Twins                                        Unspecified                                       None
+
+
+SEMI M38-1104 © SEMI 1999, 2004 6
+
+Item                                         Mechanical                                         Furnace                Particle                Lithography
+4. 5                                       Swirl                                       Unspecified
+4. 6                                  Shallow                                  Pits                                  Unspecified
+4. 7                                       OISF                                                                              Unspecified
+4. 8                             Oxide                             Precipitates                             Unspecified
+5. 0
+Wafer Preparation Characteristics
+5. 1 Wafer ID Marking Customer specified
+5. 2 Front Surface Thin Films Unspecified None Unspecified None
+5. 3                                Denuded                                Zone                                Unspecified
+5. 4                             Extrinsic                             Gettering                              Unspecified               None               Unspecified               None
+5. 5               Backseal               Unspecified               None               Unspecified               None
+5. 6                                   Annealing                                   Unspecified
+6. 0
+Mechanical Characteristics
+
+6. 1                                    Diameter
+2. 00 inch ± 0.020 inch
+3. 00 inch ± 0.025 inch
+100 mm ± 0.50 mm
+125 mm ± 0.50 mm
+6. 2                   Primary                   Flat/Notch Dimension As-supplied
+6. 3                   Primary                   Flat/Notch                   Orientation  As-supplied
+6. 4           Secondary           Flat           Dimension (if applicable) As-supplied
+6. 5            Secondary            Flat            Location            (if applicable) As-supplied
+6. 6                                  Edge                                  Profile                                  Unspecified
+6. 7                                    Thickness
+2. 00 inch 0.008–0.013 in
+3. 00 inch 0.012–0.018 in
+100 mm (SEMI M1.5) 432–575 μm
+100 mm (SEMI M1.6) 533–675 μm
+125 mm 533–675 μm
+6. 8 Thickness Variation (TTV) Unspecified
+6. 9 Surface Orientation  As-supplied
+6. 10                                       Bow                                       Unspecified
+6. 11                                      Warp                                      Unspecified
+6. 12                                       Sori                                       Unspecified                                        Customer
+specified
+6. 13                              Flatness/Global                              Unspecified                              Customer
+specified
+6. 14                                 Flatness/Site                                 Unspecified                                 Customer
+specified
+7. 0
+Front Surface Chemistry
+7. 1 Surface Metal Contamination
+Sodium                                        Unspecified                                        Customer
+specified
+Unspecified
+Aluminum                                      Unspecified                                      Customer
+specified
+Unspecified
+Potassium                                      Unspecified                                      Customer
+specified
+Unspecified
+Chromium                                      Unspecified                                      Customer
+specified
+Unspecified
+
+
+SEMI M38-1104 © SEMI 1999, 2004 7
+
+Item                                         Mechanical                                         Furnace                Particle                Lithography
+Iron                                           Unspecified                                           Customer
+specified
+Unspecified
+Nickel                                         Unspecified                                         Customer
+specified
+Unspecified
+Copper                                        Unspecified                                        Customer
+specified
+Unspecified
+Zinc                                           Unspecified                                           Customer
+specified
+Unspecified
+7. 2                              Surface                              Organics                              Unspecified
+8. 0
+Front Surface Visual Characteristics
+
+8. 1                                    Scratches
+
+Number                                      of                                      Unspecified                                      2
+Cumulative                               length                               Unspecified                               20                               mm
+8. 2                                         Pits                                         Unspecified                                         Customer                                         specified
+8. 3                                        Haze                                        Unspecified                                        Customer                                        specified
+8. 4                        Localized                        Light                        Scatters                         Unspecified
+≤0.19/cm
+2
+@ ≥ customer specified size
+8. 5                            Contamination/area                             Unspecified                            None
+8. 6                                   Edge                                   Chips                                    Unspecified                                   None
+8. 7 Edge Cracks  Unspecified None
+8. 8 Cracks, Crow's feet  Unspecified None
+8. 8 Cracks, Crow's feet
+8. 9                                      Craters                                       Unspecified                                      None
+8. 10                                    Dimples                                      Unspecified                                    None
+8. 11                                    Grooves                                      Unspecified                                    None
+8. 12                                    Mounds                                      Unspecified                                    None
+8. 13                                 Orange                                 Peel                                   Unspecified                                 None
+8. 14                                  Saw                                  Marks                                    Unspecified                                  None
+9. 0
+Back Surface Characteristics
+
+9. 1                                   Edge                                   Chips                                    Unspecified                                   None
+9. 6                                   Roughness                                    Unspecified                                   Customer                                   specified
+9. 7                             Brightness                             (gloss)                             Unspecified
+9. 8 Localized Light Scatterers Unspecified Customer specified
+9. 9                                    Scratches
+Number of Unspecified Customer specified
+Cumulative                               length                               Unspecified                                Customer                               specified
+
+Table 3  Guide for Specification of Polished Reclaim Wafers for 180 nm and 130 nm Technology Generations
+Item 200 mm Wafers for 180 nm 300 mm Wafers for 130 nm
+1. 0
+General Characteristics
+
+1. 1 Growth Method  CZ or MCZ
+1. 2                             Crystal                             Orientation                             {100}
+1. 3                             Conductivity                             Type                             p
+1. 4                                      Dopant                                      Boron
+1. 5 Nominal Edge Exclusion  3 mm (See
+#1
+)
+2. 0
+Electrical Characteristics
+
+2. 1                                   Resistivity
+0. 5–50.0 Ω·cm
+2. 2 Radial Resistivity Variation  Unspecified
+
+
+SEMI M38-1104 © SEMI 1999, 2004 8
+Item 200 mm Wafers for 180 nm 300 mm Wafers for 130 nm
+2. 3                           Resistivity                           Striations                           Unspecified
+2. 4 Minority Carrier Recombination Lifetime Unspecified
+3. 0
+Chemical Characteristics
+
+3. 1.1                        Oxygen                        Concentration                        Unspecified
+3. 2                        Radial                        Oxygen                        Variation                        Unspecified
+3. 3                          Carbon                          Concentration                          Unspecified
+4. 0
+Structural Characteristics
+
+4. 2                                         Slip                                         None
+4. 3                                     Lineage                                     None
+4. 4                                       Twins                                       None
+4. 5                                        Swirl                                        Unspecified
+4. 6                                  Shallow                                  pits                                  Unspecified
+4. 7          Oxidation-Induced          Stacking          Faults (OISF) Unspecified
+4. 8                             Oxide                             Precipitates                             Unspecified
+5. 0
+Wafer Preparation Characteristics
+
+5. 1 Wafer ID Marking Customer specified
+5. 2 Front Surface Thin Films None
+5. 3                                Denuded                                Zone                                None
+5. 4 Extrinsic Gettering  None
+5. 5                                     Backseal                                                                          None
+6. 0
+Mechanical Characteristics
+
+6. 1                                    Diameter
+200 ± 0.2 mm 300 ± 0.2 mm
+6. 2 Primary Fiducial Location See SEMI M1.9 See SEMI M1.15
+6. 3 Primary Fiducial Dimension See SEMI M1.9 See SEMI M1.15
+6. 7 Thickness >650 μm (See
+#2
+)
+6. 8 Thickness Variation (TTV) 10 μm max. 25 μm max.
+6. 9 Wafer Surface Orientation
+{100} ± 1°
+6. 11                                      Warp                                      Customer                                      specified
+6. 12                                        Sori                                        Unspecified
+6. 14                                 Flatness/Site                                 Unspecified                                 (See
+#3
+)
+7. 0
+Front Surface Chemistry
+
+7. 1 Surface Metal Contamination
+
+Sodium <1 × 10
+11
+/cm
+2
+Aluminum <1 × 10
+11
+/cm
+2
+≤ 1.8 × 10
+11
+/cm
+2
+Chromium <1 × 10
+11
+/cm
+2
+Iron <1 × 10
+11
+/cm
+2
+Nickel <1 × 10
+11
+/cm
+2
+Copper <1 × 10
+11
+/cm
+2
+Zinc <1 × 10
+11
+/cm
+2
+Calcium <1 × 10
+11
+/cm
+2
+8. 0
+Front Surface Criteria
+
+8. 1A Scratches (macro) – total length None
+8. 1B Scratches (micro) – total length <0.10 × Diameter <0.50 × Diameter
+8. 2                                         Pits                                         None
+8. 3                                        Haze                                        None
+8. 4                       Localized                       Light Scatterers
+<0.20/cm
+2
+@ ≥0.20 μm
+(See
+#4
+)
+8. 5                            Contamination/Area                            None
+8. 6                                   Edge                                   Chips                                   None
+
+
+SEMI M38-1104 © SEMI 1999, 2004 9
+Item 200 mm Wafers for 180 nm 300 mm Wafers for 130 nm
+8. 7                                  Edge                                  Cracks                                  None
+8. 8 Crack, crows feet None
+8. 9                                      Craters                                      None
+8. 10                                    Dimples                                    None
+8. 11                                    Grooves                                    None
+8. 12                                    Mounds                                    None
+8. 13                                 Orange                                 Peel                                 None
+8. 14                                  Saw                                  Marks                                  None
+9. 0
+Back Surface Criteria
+
+9. 1                                   Edge                                   Chips                                   None
+9. 6                                   Roughness                                   Unspecified
+9. 7 Brightness (Gloss)  Unspecified
+TBD                     Localized                     Light                     Scatterers                     Unspecified
+TBD Scratches (macro)-total length
+<50 mm
+<150 mm
+TBD                   Scratches                   (micro)-total length Unspecified
+10. 0
+Other Characteristics
+
+TBD                              Edge                              Condition                              Polished
+TBD Packaging See Section 9  See SEMI M31 and SEMI M45.
+#1
+For edge exclusion, laser-marked areas are to be given special consideration.
+#2
+Minimum thickness may be limited by equipment constraints.
+#3
+To be negotiated between customer and supplier.
+#4
+The  number  of  Localized  Light  Scatterers  (LLS)  per  wafer  is  to  be  determined  by  customer/supplier  agreement;  the  LLS  size  in  PSL
+equivalents is specified as ≥0.16 μm with a goal of decreasing to 0.12 μm.  A recommended value is  200 @ ≥0.16 μm (interpreted as particles +
+COP’s) or ≤50 @ ≥0.16 μm (for particles only – which may be distinguished from COP’s by metrology with customer/supplier agreement on the
+tool and methodology.
+
+
+
+SEMI M38-1104 © SEMI 1999, 2004 10
+APPENDIX 1
+SPECIFICATION FOR MULTIPLE LASER MARKING (RE-INSCRIPTION)
+OF 300 mm POLISHED SILICON RECLAIMED WAFERS
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  M38  and  was  approved  by  full  letter  ballot
+procedures on August 16, 2004.
+A1-1  Purpose
+A1-1.1  Silicon  wafers  are  often  subjected  to  reclaim
+processes, in order to improve manufacturing efficiency
+in   device   production.      This   process   can   remove
+significant  material  from  the  marked  surface  of  a  300
+mm  wafer.    This  can  lead  to  reduced  dot  diameter  for
+marks  with  “v”-shaped  profile,  to  the  point  that  the
+mark  no  longer  meets  the  requirements  of  SEMI  T7.
+This can compromise the mark’s readability.
+A1-1.2  This   specification   is   intended   to   identify
+locations  on  the  back  surface  of  300  mm  reclaimed
+silicon   wafers   for   re-inscribing   the   SEMI   T7   and
+optionally  the  OCR  (according  to  SEMI  M1.15)  laser
+marks  in  order  to  maintain  traceability  after  multiple
+reclaims.
+A1-2  Scope
+A1-2.1  This      specification      defines      the      spatial
+relationships for back surface marking of reclaimable or
+reclaimed   notched,   double-side   polished   300   mm
+wafers   of   silicon   with   pre-existing   manufacturers’
+marks which comply with SEMI M1.15.
+A1-2.2  Although this specification does not specify the
+marking    equipment    or    techniques    that    may    be
+employed  when  complying  with  its  requirements,  it  is
+required that the symbols be a “hard mark” obtained by
+laser scribing individual dots with diameter as specified
+in SEMI T7.
+NOTICE: This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+A1-3  Referenced Standards
+A1-3.1  SEMI Standards
+SEMI   M1.15   —   Standard   for   300   mm   Polished
+Monocrystalline Silicon Wafers (notched)
+SEMI T7 — Specification for Back Surface Marking of
+Double-Side Polished Wafers with a Two-Dimensional
+Matrix Code Symbol
+NOTICE: Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+A1-4  Ordering Information
+A1-4.1  For  300  mm  wafers  that  are  to  be  re-inscribed
+the following shall be specified on the purchase order:
+A1-4.1.1  Whether  the  previous  inscription  is  to  be
+obliterated, and the method for such obliteration,
+A1-4.1.2 Content of re-inscribed field
+• Same as prior mark, or
+• New field content
+A1-5  Requirements
+A1-5.1  Location of the Laser Inscription
+A1-5.1.1  The  original  reference  point  shall  be  located
+148. 95  mm  ±  0.15  mm  from  the  center  of  the  wafer
+along a radius at 5.0° ± 0.1° counterclockwise from the
+axis of the fiducial bisector.
+A1-5.1.2
+The    first    re-inscription    shall    be    placed
+counterclockwise  to  the  original  mark  at  the  same
+distance   from   the   wafer   center   on   a   radius   10°
+counterclockwise from the original mark.
+A1-5.1.3  Any subsequent re-inscription shall be placed
+counterclockwise  to  the  previous  mark  at  the  same
+distance   from   the   wafer   center   on   a   radius   10°
+counterclockwise from the previous mark.
+A1-5.1.4  Consequently,  the  most  recent  re-inscription
+is    located    on    a    radius    an    angle
+θ        degrees
+counterclockwise  from  the  fiducial  bisector  as  follows
+(see Figure A1-1):
+
+()
+1. 00.100.5±+=nθ                        (1)
+where
+n = the total number of re-inscriptions.
+
+
+SEMI M38-1104 © SEMI 1999, 2004 11
+A1-5.2  Maintaining Inscription Utility — The angle of the new inscription shall be provided to the customer by the
+supplier so that the tool used to read the inscriptions can be adjusted to read the wafer ID at the new angle.  Since it
+is possible for a tool to be provided the wrong angle to read an inscription, as long as the information remains the
+same as the prior inscription, errors can be minimized (read attempts at different angles).
+
+5° + n × 10°
+5°
+15°
+25°
+5°+ n × 10°
+
+Figure A1-1
+Locations of Original Inscription and Subsequent Re-inscriptions on Back Surface of
+Notched 300 mm Diameter Reclaimed Wafer
+
+
+SEMI M38-1104 © SEMI 1999, 2004 12
+RELATED INFORMATION 1
+BACKGROUND INFORMATION FOR MULTIPLE LASER MARKING (RE-
+INSCRIPTION) OF 300 mm POLISHED SILICON RECLAIMED WAFERS
+NOTICE: This related information is not an official part of SEMI M38.  It was developed by the International 300
+mm Reclaim Remark Task Force during the development of the specification for multiple-laser marking of 300 mm
+polished  silicon  reclaimed  wafers.    This  related  information  was  approved  for  publication  by  full  letter  ballot
+procedures on August 16, 2004.
+R1-1  Multiple Laser Making Issues
+R1-1.1  Issues  related  to  multiple  laser  marking  of  300
+mm silicon reclaimed wafers were explored at meetings
+during SEMICON West in San Francisco in July 2002,
+SEMICON   Southwest   in   Austin   in   October   2002,
+SEMICON Japan in Tokyo in December 2002 and a ½
+day  workshop  during  SEMICON  Europa  in  Munich  in
+April  2003.    Significant  input  from  device  makers,
+wafer    reclaimers,    and    equipment    suppliers    was
+received.
+
+R1-1.2  Four major issues emerged.
+R1-2  When Is a Remark
+Field Applied?
+R1-2.1  This  could  be  at  each  reclaim  cycle,  or  when
+the “first” mark is not readable at the reclaimer.
+R1-2.2  Because  the  latter  is  a  difficult  matter,  it  was
+decided to make this a decision of the purchaser.
+R1-3    Where  Should  the  Remark  Field(s)  Be
+Located?
+R1-3.1  A device manufacturer suggested that each new
+remark  field  be  located  10°  counter  clockwise  (CCW)
+from the previous mark field, and at the same radius.
+R1-3.2  A    wafer    with    two    of    more    fields    is
+unambiguously  identified  as  a  reclaim  wafer  and  the
+“n”  remarked  fields  it  contains  indicate  the  number  of
+reclaim cycles it has experienced, if it is remarked after
+each use.
+R1-4  What Is the Remark Field’s Content?
+R1-4.1  Two scenarios are possible:
+R1-4.1.1  Different  from  the  Original  Mark  —  For
+example,  retaining  the  ID  #  but  changing  the  supplier
+code from original to the reclaim supplier’s code.  This
+could   confuse   a   device   fab’s   database   when   two
+identical  ID  numbers  appear  in  the  database  unless  it
+also   includes   the   vendor   code.      Changing   the   ID
+number does not necessarily avoid this problem.
+R1-4.1.2  Same as the Original Mark — This simplifies
+the remark coding.  However, the is still the possibility
+of confusing the device manufacturer’s database.
+R1-4.2  It  was  decided  to  make  this  a  decision  of  the
+purchaser.
+R1-5  How to “Disable” a Previous Mark Field?
+R1-5.1  Disabling  a  mark  field  requires  that  a  mark
+field  be  modified  or  obliterated  sufficiently  to  ensure
+the reader reports a “no read.”
+R1-5.2  It was decided to make both the requirement to
+obliterate   the   previous   mark   and   the   method   of
+obliteration decisions of the purchaser.
+R1-6  Mark Field Obliteration Comments.
+R1-6.1  Obliterating    an    entire    field    may    not    be
+necessary  to  make  it  unreadable.    For  the  two  mark
+fields  specified  in  SEMI  M1.15,  the  following  may
+apply:
+R1-6.1.1  Data Matrix Field
+R1-6.1.1.1  Reliable  reading  of  this  field  requires  a
+quiet  zone  (no  surface  disturbance)  about  four  dots
+wide  (400  μm)  around  the  field  periphery.    Filling  the
+quiet  zone  with  dots  insures  that  the  Data  Matrix  mark
+cannot be read.
+R1-6.1.1.1.1  Surrounding  the  8  row  ×  32  column  field
+with  a  4-dot  border  involves  (8  +  32)  ×  2  ×  4  =  320
+dots.
+R1-6.1.1.1.2  A  3-dot  border  may  work  as  well,  and
+requires 240 dots.
+R1-6.1.1.2
+Conversely,  overwriting  the  field  involves
+8 × 32 = 306 dots.
+R1-6.1.1.2.1  A difference of 100 μm (one dot) between
+the  positions  of  the  overwrite  field  and  original  field
+should still produce a “no read.”
+R1-6.1.1.2.2  Some  position  difference  results  from  the
+marker’s   wafer   alignment   system.      The   alignment
+capability  of  deployed  300  mm  markers  is  therefore  a
+consideration.
+R1-6.2  Alphanumeric Field
+R1-6.2.1  Obliterating  one  or  more  message  characters
+and one or more check sum characters should make the
+mark  unreadable  by  both  camera  and  human  readers.
+
+
+SEMI M38-1104 © SEMI 1999, 2004 13
+This  requires  completely  overwriting  each  of  these
+characters with a filled 5 × 9 character field (45 dots at
+“single density”).  It was suggested this be done at two
+ID  characters  (1  and  6  in  the  12-character  string)  and
+one check sum character (12).
+R1-6.2.2  This overwriting involves 3 fields × 45 dots =
+135 dots.
+R1-6.2.3  The   alignment   comments   in   Section   R1-
+6. 1.1.2.2  also apply to these fields.
+R1-7    Use  of  Remarked  Reclaimed  Wafers  in
+Device Fabrication
+R1-7.1  This may involve two scenarios:
+R1-7.1.1  Incoming Search
+R1-7.1.2  Determine  the  “good”  remark  field  location
+(5 + [10 × n]) degrees from the notch bisector for each
+wafer and store that data in the factory database.  Then
+the  manufacturing  execution  system  commands  a  tool
+handling   that   wafer   to   go   to   the   appropriate   field
+location.      This   minimizes   or   eliminates   throughput
+effects.
+NOTE 1:  This  requires  variable  read  location  capability  (by
+wafer rotation, for instance) on the tool.
+R1-7.2  Local Tool Search
+R1-7.2.1  When  unable  to  read  the  original  field,  the
+tool  scans  counterclockwise  until  it  finds  a  readable
+field.  This cycle can adversely impact tool throughput.
+NOTE 2:  This requires
+• Variable read location capability and
+• “Smart” read, i.e., 3 levels, as follows:
+• Good read (this is the “right” field, so keep the
+data),
+• Bad  read  (this  is  an  obliterated  field,  go  to
+“next” location and try again), and
+• No read (no mark is present, search somewhere
+else).
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI M39-0999 © SEMI 19991
+SEMI M39-0999
+TEST METHOD FOR MEASURING RESISTIVITY AND HALL
+COEFFICIENT AND DETERMINING HALL MOBILITY IN SEMI-
+INSULATING GaAs SINGLE CRYSTALS
+This  test  method  was  technically  approved  by  the  Global  Compound  Semiconductor  Committee  and  is  the
+direct responsibility of the Japanese Compound Semiconductor Committee. Current edition approved by the
+Japanese Regional Standards Committee on June 1, 1999.  Initially available at www.semi.org August 1999;
+to be published September 1999.
+1  Purpose
+1. 1  The purpose of this document  is to specify a meth-
+od to measure resistivity and determine Hall mobility of
+semi-insulating  GaAs  single  crystals  by  the  Van  der
+Pauw  method.  Especially,  this  document  specifies  a
+simple   and   practical   method   for   commercial   semi-
+insulating GaAs single crystals.
+2  Scope
+2. 1  This test method covers a proc edure for measuring
+the  resistivity  and  determining  Hall  mobility  of  semi-
+insulating  GaAs  single  crystals  by  the  van  der  Pauw
+method.    This  method  requires  a  singly  connected  test
+specimen  without  any  isolated  holes,  of  homogeneous
+thickness  and  with  a  square  shape.    In  this  method,
+contacts  must  be  sufficiently  small  and  located  at  the
+corners of the specimen.
+2. 2   This  standard  may  involve  haz ardous  materials,
+operation,  and  equipment.    This  standard  does  not
+purport to address all of the safety problems associated
+with  its  use.    It  is  the  responsibility  of  the  user  of  this
+standard   to   establish   appropriate   safety   and   health
+practices  and  determine  the  applicability  of  regulatory
+limitations prior to use.
+3  Referenced Standards
+3. 1  ASTM Standards
+F   76-73      Standard   Method   for   Measuring   Hall
+Mobility      and      Hall      Coefficient      in      Extrinsic
+Semiconductor Single Crystals
+F  76-86     Standard   Test   Methods   for   Measuring
+Resistivity  and  Hall  Coefficient  and  Determining  Hall
+Mobility in Single-Crystal Semiconductors
+F  43-93    Standard  Test  Methods  for  Resistivity  of
+Semiconductor  Materials
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+4  Terminology
+NOTE 2:  Many of the terms associated with this test method
+can be found in ASTM Definitions F 76-86.
+hall  mobility   the  ratio  of  the  magnitude  of  the  Hall
+coefficient  to  the  resistivity;  it  is  readily  interpreted
+only in a system with carriers of one charge type.
+resistivity   the  ratio  of  the  potential  gradient  parallel
+to the current in the material to the current density.  For
+the  purpose  of  this  method,  the  resistivity  shall  always
+be determined for the case of zero magnetic flux.
+5  Summary of Test Method
+5. 1   In  this  method,  the  thickness  o f  a  specimen  cut
+from a semi-insulating GaAs single crystal is measured.
+5. 2  Ohmic contacts are formed on  the specimen.
+5. 3  The temperature near the spec imen is measured.
+5. 4  Hall-effect measurement is per formed and data are
+taken.
+5. 5   From  the  measured  data,  the  re sistivity  and  Hall
+mobility are calculated and corrected for temperature.
+6  Interferences
+6. 1    Light   could   cause   an   error   due    to   photo-
+conductivity, so the specimen must be placed in a dark
+environment.
+6. 2   Temperature  fluctuation  gives   significant  error.
+Specimen itself could be at higher temperature than the
+environment  if  one  does  not  take  sufficient  time  after
+soldering the contacts.
+6. 3  The current-voltage conditions  must be ohmic.
+6. 4   The  damaged  layer  due  to  the   sawing  must  be
+removed by etching the specimen, for example by using
+mixture  of  sulfuric  acid  (H
+2
+SO
+4
+),  hydrogen  peroxide
+(H
+2
+O
+2
+) and water (H
+2
+SO
+4
+:H
+2
+O
+2
+:H
+2
+O = 3:1:1).
+7  Apparatus
+7. 1  Measurement   of   Specimen   Thi ckness   —   Dial
+gauge,   micrometer,   or   electronic   thickness   gauge
+
+SEMI M39-0999 © SEMI 19992
+capable  of  measuring  the  specimen  thickness  within  ±
+1% must be used.
+7. 2  Magnet    A   calibrated   magne t   capable   of
+providing a magnetic flux density uniform within ± 1%
+over  the  area  in  which  the  test  specimen  is  to  be
+located.    Flux  densities  must  be  between  3,000−10,000
+gauss (0.3T−1.0T).
+7. 3  Instrumentation
+7. 3.1  Current   Source    Capable   of     maintaining
+current  through  the  specimen  constant  to  ±  1%  during
+the  measurement.    The  current  source  is  accurate  to  ±
+1% on all ranges used in the measurement.
+7. 3.2  Electrometer   or   Voltmeter    With   which
+voltage measurements can be made to an accuracy of ±
+1%.      The   input   resistance   of   the   electrometer   (or
+voltmeter) must be greater than 1E13 Ω.  In addition to
+the Electrometer, the input resistance greater than 1E13
+Ω must be kept in the Hall measurement system.
+7. 4  Specimen Holder
+7. 4.1  Container   Used  to  hold  the   specimen,  to
+isolate it from surroundings and shield it from light.
+7. 4.2  Thermometer   Located  in  cl ose  proximity  to
+the   test   specimen   and   associated   instruments   for
+monitoring  temperature  to  an  accuracy  of  ±  0.1°C
+during   the   measurement.      This   may   include,   for
+example, a thermocouple.
+8  Reagents and Materials
+8. 1  Purity  of  Reagents   All  chem icals  for  which
+such specifications exist shall conform to SEMI C1.
+8. 2  Purity of Water  When wate r is used, it is either
+distilled  water  or  deionized  water  having  a  resistivity
+greater  than  2MΩcm  at  25°C  as  determined  by  the
+Non-Referee Test of Test Methods D 1125.
+9  Test Specimen Preparatio n
+9. 1   Regardless  of  the  specimen  pr eparation  process
+used, high-purity reagents and water are required.
+9. 2  Material   The  test  specimen   is  prepared  from  a
+sliced wafer of a GaAs single crystal.
+9. 3  Specimen Cutting
+9. 3.1  Cut wafers which have a thick ness ranging from
+0. 3 to 1.0 mm from a GaAs single crystal.
+9. 3.2   Clean  and  etch  them,  for  exam ple  by  a  sulfuric
+acid/peroxide  solution  (H
+2
+SO
+4
+:H
+2
+O
+2
+:H
+2
+O  =  3:1:1),  in
+order to remove surface damage and to obtain smoother
+surfaces.  Polishing can be used instead of etching.
+9. 3.3   Cleave  or  dice  the  test  specime n  into  a  square
+shape with each side length from 3 mm to 10 mm.  The
+thickness  variation  over  the  specimen  should  be  in  ±
+1%.
+9. 4  Contact Formation
+9. 4.1  Ohmic contact materials can b e In, AuGe/Au or
+AuGe/Ni.
+9. 4.2    Place   the   contacts   on   four   corn ers   of   the
+specimen.
+9. 4.3   Maintain  the  contact  dimensio ns  as  small  as
+possible   relative   to   the   peripheral   length   of   the
+specimen.  Recommended  dimension  of  the  contact  is
+not greater than 1/10 of the side length of the specimen.
+10  Measurement Procedure
+10. 1  Thickness    Measurement     Me asure    the
+specimen thickness, t[cm] with a precision of ± 1%.
+10. 2  Contact    Evaluation     Verify     that    all
+combinations  of  contact  pairs  in  both  polarities  have
+linear       current-voltage       characteristics,       without
+noticeable  curvature,  about  the  actual  value  of  current
+to be used and at the measurement temperature.
+10. 3  Specimen  Placement   Place   the  clean  and
+contacted  specimen  in  its  container.    If  a  permanent
+magnet  is  used  to  provide  the  magnetic  flux,  keep  the
+magnet    and    the    specimen    separate    during    the
+measurement of resistivity.  If an electromagnet is used,
+be certain that the residual flux density is small enough
+not to affect the resistivity measurement.
+10. 4  Resistivity   Measurement   (see   F igure   1) 
+Measure  the  temperature,  T
+1
+,  of  the  specimen.    Set  the
+current  magnitude,  I,  to  the  desired  value  in  a  linear
+region.    Measure  the  voltages  V
+1
+at  I
+1
+and  V
+2
+at  I
+2
+.  T
+1
+shall  be  25  ± 5°C  and  the  fluctuation  of  T
+1
+shall  be
+maintained to ± 1°C during the resistivity measurement.
+10. 5  Hall Mobility Measurement (s ee Figure 2)
+10. 5.1  Position the specimen between  the magnet-pole
+pieces so that the magnetic flux is perpendicular to the
+two flat faces of the specimen.
+10. 5.2   Measure  the  temperature,  T
+2
+,  o f  the  specimen.
+Set  the  current  magnitude,  I,  to  the  desired  value.
+Measure  the  voltage  V
+3
+with  the  magnetic  flux  and  V
+4
+without the magnetic flux.
+10. 5.3  T
+2
+shall  be  25  ± 5°C  and  the  fl uctuation  of  T
+2
+shall  be  maintained  to  ± 1°C  during  Hall  mobility
+measurement.
+
+SEMI M39-0999 © SEMI 19993
+11  Calculations
+11. 1  Resistivity
+ρ = (π × t/2 ln2) × (R
+1
++ R
+2
+) × f(R
+1
+/R
+2
+) [Ω⋅cm]
+where:
+t is the specimen thickness,
+R
+1
+and R
+2
+are the equivalent resistances
+for two opposite sides as follows:
+R
+1
+= V
+1
+/I
+1
+R
+2
+= V
+2
+/I
+2
+f(R
+1
+/R
+2
+)   is   the   correction   factor   for   specimen
+shape.
+In the case of R
+1
+/R
+2
+< 10,
+f(R
+1
+/R
+2
+) = 1 − 0.34657A − 0.09236A
+2
+where: A = [(R
+1
+/R
+2
+− 1)/(R
+1
+/R
+2
++ 1)]
+2
+11. 2  Hall Mobility
+μ = (t/B) × R
+3
+/ρ   [cm
+2
+/ V⋅s]
+where:
+B is the magnetic flux density,
+R
+3
+=   V
+3
+-V
+4
+/ I
+where:
+V
+3
+is  the  voltage  when  the  current  is  I  under
+magnetic flux
+V
+4
+is  the  voltage  when  the  current  is  I  without
+magnetic flux.
+11. 3  Temperature Conversion
+11. 3.1  Resistivity
+ρ
+T
+= ρ
+T1
+⋅exp[−Ea/k⋅(1/T
+1
+− 1/T)]
+where:
+Ea is the activation energy (= 0.75eV)
+k is the Boltzman constant (= 8.61E − 5 eV/K)
+ρ
+T
+is the resistivity at T(K)
+11. 3.2  Hall Mobility
+μ
+T
+= μ
+T2
+(T/T
+2
+)
+−3/2
+where: μ
+T
+is the Hall mobility at T(K)
+12  Report
+12. 1   The  following  information  sha ll  be  included  in
+the report for referee and research measurement:
+12. 1.1  Identification of test specimen ,
+12. 1.2  Test temperature,
+12. 1.3   Specimen  shape  used,  orientat ion,  and  corre-
+sponding dimensions,
+12. 1.4  Magnitude of magnetic-flux de nsity, and
+12. 1.5  Calculated resistivity and Hall  mobility.
+V
+1
+V
+2
+I
+2
+1
+2
+3
+4
+I
+1
+Figure 1
+Block Diagram of Resistivity Measurement
+V
+3
+or V
+4
+I
+1
+2
+3
+4
+Magnetic field
+Figure 2
+Block Diagram of Hall Mobility Measurement
+
+SEMI M39-0999 © SEMI 19994
+NOTICE:    These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI M40-0200 © SEMI 20001
+SEMI M40-0200
+GUIDE FOR MEASUREMENT OF SURFACE ROUGHNESS OF PLANAR
+SURFACES ON SILICON WAFER
+This guide was technically approved by the Global Silicon Wafer Committee and is the direct responsibility
+of the North American Silicon Wafer Committee. Current edition approved by the North American Regional
+Standards  Committee  on  December  15,  1999.    Initially  available  at  www.semi.org  February  2000;  to  be
+published February 2000.
+1  Purpose
+1. 1   This  guide  provides  procedure s  for  specifying  the
+measurements    to    be    used    in    characterizing    and
+reporting  roughness  of  the  planar  surfaces  of  silicon
+wafers.    It  may  also  be  applicable  to  other  types  of
+planar wafer materials.
+1. 2   This  guide  provides  nomencla ture  and  procedures
+for   roughness   determination   that   employ   three   key
+methodologies:
+1. 2.1  Standardized scan site patterns ,
+1. 2.2  Roughness abbreviations, and
+1. 2.3   Reference  test  methodologies   with  respect  to
+identifying specific roughness measurements.
+2  Scope
+2. 1      This     guide     incorporates     the     fol lowing
+methodologies:
+2. 1.1   Standardized  scan  patterns  for   both  local  and
+full-area surface characterization,
+2. 1.2   A  set  of  roughness  abbreviatio ns  that  describe
+measurement conditions in a short-hand code, and
+2. 1.3   Reference  test  methodologies   for  three  generic
+types   of   roughness   measuring   instruments.      These
+general categories may include, but are not limited to:
+• Profilometers  —  AFM  and  other  scanning  probe
+microscopes; optical profilometers; high-resolution
+mechanical stylus systems,
+• Interferometers — interference microscopes, and
+• Scatterometers  —  Total  integrating  scatterometers
+(TIS),  angle-resolved  light  scatterometers  (ARLS),
+scanning surface inspection systems (SSIS).
+2. 2   Procedures  to  obtain  a  represe ntative  value  of
+roughness for a surface are specified.
+2. 3   Roughness  nomenclature  is  int ended  to  remove
+ambiguities  with  respect  to  identifying  the  roughness
+measurements used and the results achieved.
+2. 4   This  guide  does  not  purport  to   address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  guide  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1  This guide does not apply to m easurements in the
+edge region of wafers.
+3. 2  This guide does not apply to sp atial wavelengths <
+10 nm.
+3. 3    This   guide   is   not   intended   to   d efine   specific
+roughness  parameters;  these  can  be  found  in  other
+documents.
+3. 4   The  bandwidth  of  the  measure ment  tool  and  the
+bandwidth  used  can  severely  influence  the  result  of
+roughness measurements.
+3. 4.1   Differences  in  either  long  or  sh ort  bandwidths
+used between two instruments can produce significantly
+different results.
+3. 4.2   The  codes  listed  in  Table  1  of   this  guide  do  not
+identify instrument transfer functions.
+3. 5   The  presence  of  films  may  affe ct  light  scattering
+measurements.
+4  Discussion
+4. 1   Roughness  of  silicon  wafer  su r faces  is  becoming
+frequently specified for bare silicon wafers (cf. the SIA
+International  Technology  Roadmap  for  Semiconduc-
+tors).    These  specifications  refer  to  the  roughness  of
+both the final polished front and the back surfaces of a
+wafer.      Various   techniques   are   currently   used   to
+measure the surface roughness of silicon wafers.  These
+techniques  include  AFM  scanning  probes,  mechanical
+and  optical  profiling,  interferometric  microscopes,  and
+light (electromagnetic radiation) scattering.  Mechanical
+profiling techniques are widely used in other industries
+and  are  well  standardized.    Profiling  techniques  are
+generally  limited  to  line  scans  and  therefore  provide
+information  of  only  a  very  small  part  of  a  surface.
+Interferometric techniques for roughness measurements
+are     similarly     limited,     whereas     light     scattering
+techniques can scan the entire wafer surface.
+
+SEMI M40-0200 © SEMI 20002
+4. 2   Historically  a  variety  of  rough ness  parameters  for
+profiling   techniques   have   evolved   and   have   been
+standardized, including rms roughness (R
+q
+) and average
+roughness   (R
+a
+).      Profiling   instruments   measure   the
+surface topography and derive roughness statistics, such
+as  R
+q
+,  from  a  series  of  height  data.    Light  scattering
+techniques measure R
+q
+from the angular dependence of
+scattering;  some  light  scattering  systems  derive  other
+parameters through interpretation and estimation.
+4. 3   A  roughness  value  representat ive  of  an  entire
+wafer  surface,  or  a  large  portion  of  the  surface,  cannot
+be  based  on  data  obtained  at  a  single  point.    Yet,
+specifications often describe a single value for a wafer.
+Therefore,    this    guideline    suggests    and    defines
+standardized patterns of scan sites that can be described
+and   used   unambiguously.   A   model   describing   the
+relationship    between    several    types    of    roughness
+variation, scan patterns, and reported results is included
+in  the  attached  Related  Information  to  assist  users  in
+specifying and interpreting these variables.
+4. 4  A common feature of all rough ness measurements
+is  their  dependence  on  the  bandwidth  and  transfer
+function  of  the  tool  used.    In  addition,  high  or  low
+spatial   frequency   software   filters   are   common   and
+affect  reported  results.    Widely  different  numbers  can
+be  reported  for  the  same  surface  by  two  measurement
+instruments.    This  guideline  includes  suggestions  on
+specifying  and  reporting  the  instrument  bandwidth  and
+transfer function.
+5  Referenced Standards
+5. 1  SEMI Standards
+SEMI      M1      —      Specifications      for      Polished
+Monocrystalline Silicon Wafers
+SEMI  M20  —  Specification  for  Establishing  a  Wafer
+Coordinate System
+5. 2  ASME Standard
+1
+ASME  B46.1  —  Surface  Texture  (Surface  Roughness,
+Waviness, and Lay)
+5. 3  ASTM Standards
+2
+E 1392 — Practice for Angle Resolved Optical Scatter
+Measurements on Specular or Diffuse Surfaces
+F  1048  —  Test  Method  for  Measuring  the  Effective
+Surface  Roughness  of  Optical  Components  by  Total
+Integrated Scattering
+
+1 American Society of Mechanical Engineers, United Engineering
+Center, 345 East 47th Street, New York, NY 10017
+2
+American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohoken, PA 19428-2959
+F  1620  —  Practice  for  Calibrating  a  Scanning  Surface
+Inspection   System   Using   Monodisperse   Polystyrene
+Latex   Spheres   Deposited   on   Polished   or   Epitaxial
+Surfaces
+F   1811   —   Estimating   the   Power   Spectral   Density
+Function  and  Related  Finish  Parameters  from  Surface
+Profile Data
+5. 4  DIN Standards
+3
+DIN   4760   —   Form   Deviation,   Waviness,   Surface
+Roughness; System of Order, Terms and Definitions
+DIN   4768   —   Determination   of   Values   of   Surface
+Roughness  Parameters  Ra,  Rz,  Rmax  by  Means  of
+Electrical  Contact  (Stylus)  Instruments;  Terminology,
+Measuring Conditions
+DIN 4777 — Metrology of Surfaces; Profile Filters for
+Electrical  Contact  Stylus  Instruments;  Phase-Corrected
+Filters
+5. 5  ISO Standards
+4
+ISO  468  —  Surface  Roughness  –  Parameters,  Their
+Values and General Rules for Specifying Requirements
+ISO   1879   —   Instrument   for   the   Measurement   of
+Surface Roughness by the Profile Method - Vocabulary
+ISO   1880   —   Instruments   for   the   Measurement   of
+Surface  Roughness  by  the  Profile  Method  -  Contact
+(Stylus)      Instruments      of      Progressive      Profile
+Transformation - Profile Recording Instruments
+ISO   3274   —   Instruments   for   the   Measurement   of
+Surface  Roughness  by  the  Profile  Method  –  Contact
+(Stylus)       Instrument       of       Consecutive       Profile
+Transformation – Contact Profile Meters, System M
+ISO 4287/1 — Surface roughness – Terminology – Part
+1: surface and its parameters
+ISO    4288    —    Rules    and    Procedures    for    the
+Measurement   of   Surface   Roughness   Using   Stylus
+Instruments
+5. 6  JIS Standards
+5
+JIS  B  0601  —  Surface  Roughness  -  Definitions  And
+Designation
+JIS  B  0652  —  Instruments  For  The  Measurement  Of
+Surface Roughness By The Interferometric Method
+JIS B 0659 — Roughness Comparison Specimens
+
+3 Deutches Institut für Normung e.V., Beuth Verlag GmbH,
+Burggrafenstrasse 4-10, D-10787 Berlin, Germany
+4 ISO Central Secretariat, 1, rue de Varembé, Case postale 56, CH-
+1211 Genève 20, Switzerland
+5
+Japanese Standards Association, 1-24, Akasaka, 4-Chome, Minato-
+ku, Tokyo 107 Japan
+
+SEMI M40-0200 © SEMI 20003
+5. 7 Other Documents
+International          Technology          Roadmap          for
+Semiconductors
+6
+Optical  Scattering  in  the  Optics,  Semiconductor,  and
+Computer  Disk  Industries,  Second  Edition  1995,  J  C
+Stover, Editor
+7
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+6  Terminology
+6. 1   autocorrelation  function  —  th e  Fourier  transform
+of the Power Spectral Density function.  It expresses the
+similarity   between   a   surface   profile   and   the   same
+profile  that  is  slipped,  or  moved  laterally,  with  respect
+to itself.
+6. 2   autocorrelation  length  —  the  l ateral  slip  required
+to reduce the Autocorrelation function to a value equal
+to e-1 times its zero slip value. Sometimes 10% or even
+0 value definitions are used instead of e-1.
+6. 3   average  roughness  (R
+a
+)  —  the   average  of  the
+surface  profile  height  deviations  Z(x)  from  the  mean
+line taken within the evaluation length (ASME B46.1).
+6. 4    bi-directional   reflectance   distr ibution   function,
+BRDF  —  a  description  of  the  distribution  of  light
+scattered  by  a  surface,  it  is  the  differential  radiance
+normalized   by   the   differential   irradiance,   and   is
+approximated by the scattered power per unit projected
+solid angle divided by the incident power (Stover).
+6. 5   fixed  quality  area  (FQA)  —  th e  central  area  of  a
+wafer surface, defined by a nominal edge exclusion, X,
+over  which  the  specified  values  of  a  parameter  apply
+(SEMI  M1).    See  also  the  discussion  immediately
+following this definition in SEMI M1.
+6. 6   haze  —  non-localized  light  sca ttering  resulting
+from   surface   topography   (microroughness)   or   from
+dense    concentrations    of    surface    or    near-surface
+imperfections (SEMI M1).
+DISCUSSION   —   Haze   due   to   the   existence   of   a
+collection  of  imperfections  is  a  mass  effect;  individual
+imperfections of the type which result in haze cannot be
+readily   distinguished   by   the   eye   or   other   optical
+detection  systems  without  magnification.    In  a  particle
+counter (SSIS), haze results in a background signal and
+laser   light-scattering   events   together   comprise   the
+signal  due  to  light-scattering  from  a  wafer  surface.
+(SEMI   M1).      It   is   the   total   scattered   optical   flux
+
+6 Semiconductor Industry Association (SIA), 181 Metro Drive, Suite
+450, San Jose, CA
+7 SPIE, P.O. Box 10, Bellingham, WA 98227-0010
+collected   by   an   optical   system   normalized   by   the
+incident flux.
+NOTE   2:   Different   SSIS   instrument   types   may   give
+significantly different haze values on a given sample.
+6. 7   illumination  source  incidence   angle   the  angle
+of the incoming beam, measured from surface normal.
+6. 8  kurtosis (Rku) — a measure of  the sharpness of the
+histogram of surface profile height deviations Z(x) from
+the mean line within the evaluation length.  A complete
+random surface will have a Gaussian histogram and Rku
+= 3 (ASME B46.1).
+6. 9   laser  light-scattering  event  —   a  signal  pulse  that
+exceeds a preset threshold, generated by the interaction
+of  a  laser  beam  with  a  discrete  scatterer  at  a  wafer
+surface  as  sensed  by  a  detector;  see  also  haze  (SEMI
+M1).  See also the discussion that follows this definition
+in SEMI M1.
+6. 10   lay  –  the  predominant  directio n  of  the  surface
+pattern,    ordinarily    determined    by    the    production
+method used (ASME B46.1).
+6. 11       microroughness      —      surface      rou ghness
+components with spacing between irregularities (spatial
+wavelength) less than about 100 μm (SEMI M1).
+6. 12     Nyquist    Criterion    —    the    shorte st    spatial
+wavelength detected.  It is twice the sample spacing.
+6. 13   one-dimensional  grating  equa tion  —  in  its  most
+common   form,   it   is   an   expression   that   gives   the
+positions  of  diffracted  orders  from  a  one-dimensional
+sinusoidal grating (Stover).
+6. 14  peak to valley (R
+t
+) — the highe st to lowest value
+of  the  surface  profile  height  deviations  Z(x)  from  the
+mean line taken within the evaluation Length L (ASME
+B46.1).
+6. 15    power   spectral   density   (PSD)    function   —   a
+surface  characterization  function  that  is  proportional  to
+the  square  of  the  modulus  of  the  Fourier  transform  of
+the  surface  and  may  be  considered  as  a  roughness
+power per unit of spatial frequency (ASTM F 1811).
+6. 16   Rayleigh  Criterion  (of  resolvin g  power)  —  a
+condition   for   distinguishing   a   pair   of   diffraction
+patterns whereby the maximum of one pattern overlaps
+with the minimum of the other.
+DISCUSSION — When a lens is free from aberrations,
+the   images   of   point   objects   appear   as   diffraction
+patterns.    When  the  principle  maximum  of  one  pattern
+strikes  the  first  minimum  of  another,  the  images  are
+described  as  being  resolved.    With  respect  to  circular
+optics,  this  criterion  applies  when  the  distance  between
+resolvable point objects, viewed from the objective lens
+of the instrument, is
+
+SEMI M40-0200 © SEMI 20004
+NA
+λ61.0
+where NA is the numerical aperture of the objective lens
+and λ is the illumination wavelength.
+8
+6. 17  rms area microroughness (R
+q
+A)  — the root mean
+square of the topographic deviations of a surface Z(x,y)
+from the mean surface taken within the evaluation Area
+(=L
+x
+L
+y
+)  (SEMI  M1).    See  also  the  extended  discussion
+that follows this definition in SEMI M1.
+6. 18
+rms microroughness (R
+q
+) — th e root mean square
+of  the  surface  profile  height  deviations  Z(x)  from  the
+mean  line  taken  within  the  evaluation  Length  L  (SEMI
+M1).  See also the extended discussion that follows this
+definition in SEMI M1.
+6. 19
+rms slope (mq) — the root-me an-square value of
+the  rate  of  change  of  profile  departures  within  the
+evaluation length (Adapted from ISO 4271/1).
+6. 20
+roughness    —    the    more    narrow ly    spaced
+components  of  surface  texture  (SEMI  M1).  Compare
+with waviness.
+6. 21
+skewness (Rsk) — a measure o f the asymmetry of
+the  surface  topographic  deviations  of  a  surface  Z(x,y)
+about  the  mean  line.    A  perfect  random  surface  will
+have Rsk = 0 (ASME B46.1).
+6. 22
+spatial bandwidth — the range  of wavelengths in
+which a given instrument operates (Stover).
+6. 23
+spatial frequency  —  spatial  fre quency  (F
+spatial
+) is
+the inverse of spatial wavelength (λ
+spatial
+).
+6. 24
+spatial   wavelength   —   the   spac ing   between
+adjacent  peaks  of  a  purely  sinusoidal  profile  (ASME
+B46.1).
+6. 25
+ten  point  roughness  height  (R
+z
+)  —  the  average
+value  of  the  absolute  values  of  the  heights  of  the  five
+highest  profile  peaks  and  the  depths  of  the  five  lowest
+profile  valleys  from  the  mean  line  taken  within  the
+evaluation length. (Adapted from ISO 4281/1.)
+6. 26
+transfer function — the respon se of an instrument
+over all measured spatial wavelengths.
+DISCUSSION  —  A  perfect  instrument  would  have  a
+100%  response  over  all  spatial  wavelengths.  Every
+measuring  instrument  will  have  some  deviation  from  a
+perfect response especially at the low spatial frequency
+limit  (the  traversing  length)  and  at  the  high  spatial
+frequency  limit.    The  power  spectrum  can  be  used  to
+examine   this   limit   near   the   high   spatial   frequency
+
+8  Optics,  Eugene Hecht, et al;  3rd edition (August 1997);  Addison-
+Wesley Publishing  Co; ISBN: 0201838877
+response.    Contact  the  instrument  supplier  for  this
+information.
+6. 27
+traversing   length   —   the   maxim um   distance
+sampled    in    a    given    direction.        The    maximum
+measurable  spatial  wavelength  is  always  less  then  the
+traversing length.
+6. 28
+wavelength   scaling   —   a   surfac e   is   said   to
+wavelength  scale  if  the  scatter  measurements  at  one
+wavelength     may     be     used     to     predict     scatter
+measurements at another wavelength (Stover).
+6. 29
+waviness  —  the  more  widely  s paced  (spatial
+wavelength) components of surface texture (SEMI M1).
+Compare with roughness.
+7  Instruments and Capabilit ies
+7. 1  Profilometers
+7. 1.1
+The   high   spatial   frequency   lim it   of   AFM,
+mechanical  and  optical  profilers  can  be  approximated
+by  the  radius  of  the  mechanical  tip  or  by  the  diameter
+and  intensity  profile  of  the  laser  spot,  respectively.
+Their  response  functions  are  complicated,  and  in  some
+cases  are  a  combined  effect  of  the  probe  and  the
+measured  surface.  The  high  spatial  frequency  limit  of
+such tools has to be set or selected reasonably removed
+from   that   limit   in   order   to   achieve   reasonable,
+comparable, and repeatable measurements.
+7. 2
+Interference Microscope
+7. 2.1
+The   high   spatial   frequency   lim it   of   these
+instruments is defined by the focusing optics or in some
+cases  by  the  pixel  spacing  of  the  detector  array.   The
+high  spatial  frequency  limit  of  such  tools  has  to  be  set
+or selected reasonably removed from that limit in order
+to   achieve   reasonable,   comparable,   and   repeatable
+measurements.
+7. 3
+Scattering Instruments
+7. 3.1
+A   straightforward   relation   betw een   scattered
+light intensity and roughness exists only for sufficiently
+smooth     surfaces.     The     Rayleigh     smooth-surface
+criterion, given below, is frequently used for estimating
+the smooth-surface limit (Stover).
+1
+cos4
+2
+1
+2
+<<
+ö
+ç
+ç
+è
+æ
+λ
+θπ
+i
+a
+(1)
+1<m (2)
+where: m = profile slope,
+λ = wavelength of incident light,
+a  =  amplitude  of  sample  profile  (half  of  the  peak-to-
+valley height), and
+
+SEMI M40-0200 © SEMI 20005
+θ
+i
+= incidence angle of light.
+7. 3.2
+Corresponding  amplitude  exam ples  assuming  a
+limit of 0.1 result in
+a ≤ 23 nm for λ = 633 nm, θ
+i
+= 0° and
+a ≤ 51 nm for λ = 488 nm, θ
+i
+= 70°
+7. 3.3
+The   equivalent   rms-roughness    values   for   a
+sinusoidal profile and for a limit of 0.1 are
+R
+q
+≤ 16 nm for λ = 633 nm, θ
+i
+= 0° and
+R
+q
+≤ 36 nm for λ = 488 nm, θ
+i
+= 70°
+7. 3.4
+Light  scattering  tools  can  be  ap plied  to  rougher
+surfaces  than  those  surfaces  identified  in  equations  1
+and   2,   but   then   other   mathematical   approaches   as
+compared to PSD curves have to be applied to calculate
+roughness  or  slope  values.    Also,  the  slope  of  the  PSD
+curve can be important in certain situations (Stover).
+7. 3.5
+There  is  a  basic  high  spatial  fr equency  (short
+spatial wavelength) limit for light scattering tools which
+cannot be exceeded.  This limit is:
+a) twice the inverse wavelength,
+λ
+2
+, of the light used in
+case of grazing incidence (θ
+i
+= 90°), and
+b)  one  inverse  wavelength,
+λ
+1
+,  in  the  case  of  normal
+incidence (θ
+i
+= 0°).
+These    conditions    follow    directly    from    the    one-
+dimensional grating equation
+λ
+θφθ
+i
+ss
+x
+f
+coscossin−
+=
+where:θ
+s
+= scattering angle in the incident plane,
+and
+φ
+s
+= scattering angle out of the plane-of-incidence.
+NOTE 3: f
+x
+becomes -1 when the light is scattered back in the
+direction  of  the  incoming  light  in  the  incident  plane  (
+φ
+s
+=
+180
+o
+).
+7. 4  Total Integrating Scatteromete rs (TIS)
+7. 4.1
+These  instruments  most  often   use  an  incidence
+angle close to zero.  The low and high frequency limits
+of  the  accessible  spatial  bandwidth  are  defined  by  the
+design   of   the   optical   system.      An   appropriately
+designed   system   may   be   able   to   access   a   spatial
+bandwidth  from  about  0.8  μm  to  about  40  μm.    These
+systems  may  also  be  designed  so  that  the  scattered
+signal  can  be  broken  into  low  spatial  frequency  (near
+specular)   and   high   spatial   frequency   (large   scatter
+angle) bands.
+7. 5
+Angle-resolved Light Scatterom eters (ARLS)
+7. 5.1
+The high spatial frequency lim it of this technique
+is  defined  by  incident  and  scattering  angles  and  the
+illumination wavelength used.
+7. 5.2
+The low spatial frequency limi t is given by
+•
+the above equations (for incidence angle),
+•
+the diameter of the incident illumination spot at the
+wafer surface,
+•
+the solid collection angle of the optical system, and
+•
+the   smallest   angular   distance   allowed   by   the
+instrument between specular reflected light and the
+detector.
+7. 5.3
+The  roughness  may  be  measur ed  by  using  a
+fixed  incidence  angle  and  by  recording  the  intensity  of
+scattered  light  at  various  scattering  angles  in  the  plane
+of  incidence.    The  two-dimensional  PSD  curve  of  the
+surface   can   then   be   calculated   from   the   angular
+spectrum  of  the  scattered  light  (BRDF).    R
+q
+as  well  as
+mq   may   be   calculated   from   a   one-dimensional   or
+isotropic  PSD  curve  for  a  given  spatial  bandwidth  as
+long as the above mentioned limits are accommodated.
+7. 5.4
+Such  tools  may  be  able  to  acce ss  a  spatial
+bandwidth  range  of  about  one-half  the  wavelength  of
+the illuminating light up to several hundred μm.
+7. 6
+Scanning Surface Inspection S ystems (SSIS)
+7. 6.1
+SSIS    measurements    are    integra ted    scatter
+measurements similar to those made by TIS systems, in
+that  they  gather  light  over  large  solid  angles;  however,
+there are some significant differences.  In general, most
+SSIS avoid light collection within five to ten degrees of
+the  specular  beam,  because  in  this  region  the  scatter
+tends  to  be  dominated  by  surface  roughness  scatter
+(which becomes background noise) competing with the
+signal  from  laser  light  scattering  events.    The  early
+(older)  scanners  generally  had  one  detector  measuring
+light  from  a  very  large  solid  angle  collector.    Later
+systems  tend  to  use  several  smaller  collection  angles,
+each    with    their    own    detector.        Whatever    the
+arrangement,  each  collection  angle  can  be  defined  in
+terms  of  its  spatial  frequency  band  pass  region,  and
+each    detector    will    have    some    background    haze
+component  (or  threshold)  that  is  caused  by  surface
+roughness.  Thus, in the absence of laser light scattering
+events,  measured  haze  may  be  converted  to  an  rms
+roughness  for  the  defined  spatial  frequencies.    This
+conversion    assumes    that    the    surface    meets    the
+necessary   (smooth,   clean,   front   surface   reflective)
+conditions required for roughness calculations, and that
+
+SEMI M40-0200 © SEMI 20006
+other  noise  sources,  such  as  background  electronic
+noise and Rayleigh air scatter, are not issues.
+8  Roughness Measurement s
+8. 1  Parameters
+8. 1.1
+R
+q
+and  R
+a
+are  generally  used  fo r  silicon  wafer
+surfaces.    Other  roughness  measurement  parameters
+may also prove useful.  This guideline does not suggest
+which  parameters  to  use,  rather  it  suggests  how  to
+incorporate    any    parameter    into    a    standardized
+measurement specification.
+8. 2
+Measurement Sites
+8. 2.1
+Roughness can vary considera bly across a wafer
+surface.    It  may  also  have  a  preferential  direction  or
+anisotropy,  often  called  “lay”  (ASME  B46.1).    Many
+measurement  techniques  are  limited  to  a  very  small
+measurement  area  and  to  one  or  two  scan  directions.
+Therefore   specific   measurement   patterns   must   be
+defined   to   obtain   representative   and   reproducible
+results.    These  patterns  should  correspond  to  effects
+observed  on  wafers  in  different  manufacturing  steps.
+These processing steps can generate features on a wafer
+surface with rotational symmetries ranging from mirror
+to infinite.  The wafer slicing process may produce low
+symmetry,  while  single-wafer  polishing  can  produce
+high symmetry.
+8. 2.2
+In  cases  where  only  a  small  nu mber  of  spots  is
+measured, the spot pattern and the scan orientation have
+to  be  identified.    See  Figure  1  for  some  patterns  and
+orientations;   others   may   be   agreed   upon   between
+interested parties.
+8. 3
+Site Patterns
+8. 3.1
+One-point  —  This  can  be  usef ul  for  rapidly
+reviewing results of a quantity of wafers.  This is often
+at the wafer centerpoint.
+8. 3.2
+In  applications  where  only  a  sm all  number  of
+locations are to be measured, the pattern and orientation
+of the local scans have to be identified.  Measurements
+are performed at locations as outlined in Figure 1.  For
+each    local    scan,    a    representative    roughness    is
+calculated.    The  wafer’s  representative  roughness  is
+then  a  function  of  the  n  individual  representative  scan
+values.    The  roughness  variation  can  be  calculated  by
+the average, the standard deviation, the maximum or the
+range  (Max-Min)  of  the  individual  scan  values.    Other
+statistical approaches may be employed.
+8. 3.3
+Standard patterns include:
+a.
+1-pointWafer center,
+b.
+5-pointWafer  Center  plus  four  points  at  2r/3
+from the wafer center, and
+c.
+9-pointWafer  Center  plus  four  points  at  2r/5
+and four at 4r/5 from the wafer center.
+NOTE 4: These patterns have been shown to be useful with a
+range of symmetries and values.  See Related Information.
+8. 3.4     Standard    measurement    orienta tion    patterns
+include:
+a.
+Type  A  -  linear  scans  parallel  and  perpendicular
+to the fiducial bisector, and
+b.
+Type  B  -  linear  scans  at  45
+o
+relative  to  the
+fiducial bisector.
+NOTE  5:  Type  A  is  generally  used  for  all  surfaces.    Type  B
+has been reported to be useful for some surface conditions on
+(111) wafers.
+8. 4  Bandwidth
+8. 4.1
+Two   issues   affect   the   bandwid th   of   the
+roughness  results.    The  first  is  the  bandwidth  of  the
+roughness measuring tool, which is discussed in Section
+
+# 7
+
+7.    The  second  bandwidth  effect  is  from  the  analysis
+software,  which  is  user  selected  to  emphasize  certain
+spatial   frequencies.      Both   long   and   short   spatial
+wavelength (or frequency) limits must be defined in μm
+(or μm
+-1
+).   When   entering   this   information   into   a
+measurement,  specification  wavelength  units  shall  be
+used.    Profiling  instruments  should  have  scan  length
+and  bandwidth  adjusted  according  to  DIN  4768  and
+4777 or ASME B46.1.
+8. 5
+Precision
+8. 5.1
+The   precision   of   the   roughness    measuring
+instrument  (P)  is  important.    The  relationship  between
+P and the tolerance of the parts to be characterized (T)
+is often called the P/T Ratio.  SEMI M27 describes how
+to    determine    and    interpret    the    factors:    “A    test
+instrument  is  usually  deemed  to  be  suitable  for  the
+purpose  if  P/T  lies  below  10%.    If  P/T  is  greater  than
+30%,  the  test  instrument  is  not  likely  to  be  suitable  for
+the  purpose.    Cases  for  which  P/T  lies  between  10%
+and   30%   must   be   judged   on   an   individual   basis,
+depending  on  the  requirements  being  placed  on  the
+measurement system.”
+9  Roughness Measurement  Specifications
+9. 1   The  process  of  defining  the  me asurements  to  be
+taken  involves  several  distinct  steps.    The  definition
+sequence below represents one logical sequence; others
+may  be  equally  useful.    See  Table  1  for  measurement
+abbreviations.
+9. 2
+First,  select  the  type  of  instrum ent  to  be  used,
+including ALL of the following:
+9. 2.1
+Generic instrument type
+
+SEMI M40-0200 © SEMI 20007
+9. 2.1.1  Interferometer
+a.Interference microscope
+9. 2.1.2
+Profilometer
+a.AFM
+b.Other scanning probe microscopes
+c.Optical profilometer
+d.Mechanical stylus
+9. 2.1.3
+Scatterometer
+a.Total Integrating (TIS)
+b.Angle-resolved light (ARLS)
+c.Scanning Surface Inspection System (SSIS)
+9. 3
+Next,   select   the   roughness   para meter   to   by
+calculated.
+9. 4
+Select the measurement pattern  (Figure 1):
+a.Center point
+b.5-point
+c.9-point
+d.Full-FQA raster scan
+e.Full-FQA R-theta scan
+9. 5
+Select the pattern orientation ( Figure 1)
+a.Type A
+b.Type B
+9. 6
+Select the local measuring con dition
+a.Point
+b.Line
+c.Area
+9. 7
+Specify   the   measurement   calcu lations   to   be
+reported
+a.Average (A)
+b.Range (R)
+c.Maximum (M)
+d.Standard Deviation, 1 sigma (S
+n-1
+)
+9. 8
+Specify  the  bandwidth  and  sca n  length  limits
+within which data is to be gathered.
+9. 9
+Lastly,  record  the  abbreviation s  describing  these
+selections  (see  Appendix  1  for  examples),  separating
+adjacent abbreviations with a comma and using periods
+for   decimal   notation.      This   creates   a   seven-field
+abbreviation.      The   field   sequence   described   above
+follows the order of elements in Table 1.
+10  Measurement Reporting S equence
+10. 1   In  general,  one  value  is  reporte d  for  a  wafer.
+Where more than one pattern is specified the calculated
+values are reported in the order in which they are listed
+in Table 1.
+
+SEMI M40-0200 © SEMI 20008
+Table 1  Roughness Measurement Codes
+ElementAbbreviation Item
+A12   34
+ProfilometerAFMSPMOPRMPR
+B1
+InterferometerIM
+C12   3
+Instrument
+ScatterometerTISARLSSSIS
+159    RCSPattern
+(See NOTE 1.)
+Center5-point9-pointFQA/Raster
+scan
+FQA/Concentric
+R-theta scan
+FQA/Spiral
+R-theta scan
+ABPattern
+Orientation
+AB
+PLALocal
+Measurement
+Condition
+PointLineArea
+QAZ TK SParameter
+(See NOTE 1.)
+RqRaRzRtKurtosisSkewness
+ARM   DCalculation
+(See NOTE 1.)
+AverageRangeMaximumStd. Deviation
+(1 sigma
+n-1
+)
+Bandwidth, μm[ __ ]/[ __ ]
+(fill in blanks to two significant figures)
+Long wavelength (μm)/Short wavelength (μm)
+NOTE 1: If more than 1 element is specified, the representative letters are concatenated in the relevant field, in the order specified.  See Appendix
+1 for examples.
+
+SEMI M40-0200 © SEMI 20009
+Table 2  Scan Pattern Locations
+LocationX, Y Coordinates
+(per SEMI M20)
+Scan Direction (for line and area
+tools), parallel to:
+Center Point0, 0Y-axis
+5-point Pattern
+Point #                           Location
+1Center Point0, 0Y-axis
+22r/30, 2r/3Y-axis
+32r/3-2r/3, 0X-axis
+42r/30, -2r/3Y-axis
+52r/32r/3, 0X-axis
+9-point Pattern
+1Center0, 0Y-axis
+24r/50, 4r/5Y-axis
+34r/5-4r/5, 0X-axis
+44r/50, -4r/5Y-axis
+54r/54r/5, 0X-axis
+6(r2)/5(r2)/5, (r2)/5
+Y-axis
+7(r2)/5- (r2)/5, (r2)/5
+X-axis
+8(r2)/5- (r2)/5, - (r2)/5
+Y-axis
+9(r2)/5 (r2)/5, - (r2)/5
+X-axis
+Full FQA Scan
+Raster ScanFull FQAX-axis
+Concentric Circles or SpiralFull FQA
+R – Theta
+NOTE 1: r = nominal wafer radius
+
+SEMI M40-0200 © SEMI 200010
+Center Point  *
+Raster Scan
+R-Theta
+Five Point  *
+Nine Point  *
+11
+7
+8
+9
+6
+4
+4
+2
+2
+333
+5
+5
+Type A Local Scan Patterns
+*
+* Line indicates scan direction for all line scans.
+Centerpoint of line = location for point measurements
+**
+** Scan patterns to full FQA
+2
+3
+r
+4
+5
+r
+2
+5
+r
+Full FQA Scan Patterns
+X
+Y
+Wafer and Scan
+Coordinate System
+Center Point
+Five PointNine Point
+1
+1
+7
+8
+9
+6
+4
+4
+2
+2
+3
+3
+5
+5
+Raster Scan
+R-Theta
+Full FQA
+Type B Local Scan Patterns
+Figure 1
+Patterns of Locations on a Silicon Wafer Surface for Measuring
+(NOTE: R-Theta scan may be implemented in either a circular or a spiral pattern.)
+
+SEMI M40-0200 © SEMI 200011
+APPENDIX 1
+NOTE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  M40  and  was  approved  by  full  letter  ballot  procedures  on
+December 15, 1999 by the North American Regional Standards Committee.
+A1-1  Examples of Roughness Measurement Specifications and Related Output
+The  construction  of  typical  measurement  specifications  and  reported  results  are  shown  below.    These  could  be  the
+input to and output from a suitably equipped metrology tool, or directions for manual execution and reporting of the
+measurement  and  calculation  sequence.    The  elements  and  codes  are  listed  only  in  the  first  example.    The
+quantitative  data  below  is  presented  for  illustration  only,  it  does  not  represent  actual  instrument  or  sample
+measurements.
+1. Mechanical Profiler
+The   Mechanical   profiler   measurement   was   specified   as   MPR,5,L,A,A,A,250/10.      This   corresponds   to
+measuring  a  5-point  pattern  with  a  local  line-scan  and  with  pattern  orientation  A,  and  reporting  Ra  average
+value over a bandwidth from 250 to 10 μm.
+ElementsProfiler, Mechanical;  5-point;  line-scan;  orient A;  Ra;  average;  250/10 μm
+Codes    MPR                5             L              A          A        A          250/10
+Output ExampleMPR,5,L,A,A,A,250/10 = 0.53 nm
+2. Angle-Resolved Light Scattering
+The  Angle-resolved  light  scattering  instrument  measurement  was  specified  as  ARLS,9,B,P,Q,A,40/2.0.    This
+corresponds to measuring a 9-point pattern with a single spot and with pattern orientation B, reporting rms (Rq)
+average value over a bandwidth from 40 to 2 μm.
+Output ExampleARLS,9,B,P,Q,A,40/2.0 = 0.15 nm
+3. Interference Microscope
+The  Interference  microscope  measurement  was  specified  as  IM,5,A,A,T,D,250/10.    This  corresponds  to
+measuring  a  5-point  pattern  with  a  local  area  and  with  pattern  orientation  A,  reporting  peak-to-valley  (Rt)
+standard deviation over a bandwidth from 250 to 10 μm.
+Output ExampleIM,5,A,A,T,D,250/10 = 0.05 nm
+4. Total Integrated Scattering
+The  Total  Integrated  Scattering  system  (TIS)  measurement  was  specified  as  TIS,S,P,A,Q,D,38/0.50.    This
+corresponds to measuring a full FQA/spiral scan with a local spot and with pattern orientation A, reporting rms
+(Rq) standard deviation over a bandwidth from 38 to 0.5 μm.
+Output ExampleTIS,S,P,A,Q,D,38/0.50 = 0.02 nm
+5. Optical Profiler
+The Optical Profiler measurement was specified as OPR,9,L,B,A,AD,80/0.50.  This corresponds to measuring a
+9  point  pattern  with  a  local  line-scan  and  with  pattern  orientation  B,  reporting  Ra  average  value  and  standard
+deviation over a bandwidth from 80 to 0.5 μm.
+Output   ExampleOPR,9,L,B,A,AD,80/0.50   =   0.17nm   (Ra   average),   0.02   nm   (Ra,   standard
+deviation)
+6. AFM
+The  AFM  measurement  was  specified  as  AFM,5,A,A,Z,A,20/0.04.    This  corresponds  to  measuring  a  5  point
+pattern with local area and with pattern orientation A, reporting Rz average value over a bandwidth from 20 to
+0. 040 μm.
+Output ExampleAFM,5,A,A,Z,A,20/0.04 = 0.43 nm
+
+SEMI M40-0200 © SEMI 200012
+NOTICE:  SEMI  makes  no  warranties  or  representations  as  to  the  suitability  of  the  guide  set  forth  herein  for  any
+particular application.  The determination of the suitability of the guide is solely the responsibility of the user.  Users
+are cautioned to refer to manufacturer’s instructions, product labels, product data sheets, and other relevant literature
+respecting any materials mentioned herein.  These guides are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  guide  may  require  use  of  copyrighted
+material or of an invention covered by patent rights.  By publication of this guide, SEMI takes no position respecting
+the validity of any patent rights or copyrights asserted in connection with any item mentioned in this guide.  Users of
+this  guide  are  expressly  advised  that  determination  of  any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement of such rights, are entirely their own responsibility.
+
+SEMI M40-0200 © SEMI 200013
+RELATED INFORMATION 1
+EXPERIMENTS AND MODELS RELATING TO ROUGHNESS
+DISTRIBUTION OF SILICON WAFERS
+NOTE:  This  related  information  is  not  an  official  part  of
+SEMI  M40  but  was  approved  for  publication  by  full  letter
+ballot procedures.
+R1-1  Executive Summary
+R1-1.1    Roughness  is  measured  traditionally  only  on
+selected  spots  on  a  surface  and  only  a  few  methods,
+such  as  light  scattering,  are  practical  for  a  complete
+surface  scan.    Therefore  a  systematic,  standardized
+approach  is  required  for  defining  the  roughness  of  the
+entire  surface  of  a  silicon  wafer.    This  can  be  done  by
+defining  one  or  several  patterns  of  measurement  spots
+which  represent  the  entire  surface  so  that  the  deviation
+of  the  average  roughness  and  its  standard  deviation
+from  the  “true”  values  are  small.    The  task  of  finding
+such patterns and verifying that they represent the entire
+surface    was    approached    in    two    steps:    1.        by
+investigating various patterns on various wafer surfaces
+experimentally, and 2. by simulating the roughness map
+of  surfaces  and  by  applying  the  selected  patterns  to
+them.
+R1-1.2    Five  different  site  patterns  were  used  for  the
+experimental  investigation  of  silicon  wafer  surfaces
+which  were  final  polished,  stock  removal  polished  and
+acid  etched.  The  patterns  consist  of  one,  five,  nine,  ten
+and thirteen points (thirteen being the sum of a five and
+nine point pattern), respectively, and the measurements
+were  performed  with  10,  30,  80  and  250  μm  filter
+lengths.    Therefore  20  average  roughness  values  and
+corresponding  standard  deviations  were  obtained  for
+every wafer investigated, five for any filter length.
+R1-1.3  Haze maps of these surfaces either displayed no
+variation,  variations  with  an  approximately  rotational
+symmetry or a gradient across the surface, respectively.
+The  average  roughness  of  the  surfaces  measured  with
+the  various  site  patterns  varied  over  four  and  a  half
+orders  of  magnitude  for  the  set  of  wafers  used  and  the
+filter  settings  selected.    The  corresponding  standard
+deviations  were  found  to  be  <10%  of  the  average
+roughness  with  the  exception  of  four  200  mm  final
+polished  wafers  where  standard  deviations  up  to  50-
+60%  occurred.    The  5-,  9-  and  10-point  site  patterns
+were  compared  with  respect  to  the  average  roughness
+and  the  corresponding  standard  deviation  for  every
+wafer.      The   variation   (standard   deviation)   of   the
+average   roughness   and   the   standard   deviations   as
+measured    were    found    to    be    smaller    than    or
+approximately 10% in any case when normalized to the
+total  average  roughness  of  the  corresponding  wafer
+(average over all points of all patterns for a wafer).
+R1-1.4      Roughness   maps   were   generated   for   the
+simulation  according  to  three  different  models:  maps
+with a roughness pattern with rotational symmetry, with
+a linear gradient and with mirror symmetry.  Two maps
+with  a  pixel  size  of  1  mm
+2
+were  generated  for  each
+surface  to  take  into  account  any  anisotropy  of  the
+roughness,  and  center  roughness  and  edge  roughness,
+respectively,  were  used  as  free  parameters  for  both
+maps.  These parameters were varied between two level
+(0.1  and  0.2)  for  both  maps  resulting  in  a  2
+5
+factorial
+design   of   “experiment”   where   the   symmetry   was
+considered as 5
+th
+parameter.  The 1-, 5- and 9-point site
+patterns  were  applied  to  the  various  maps  and  the
+average roughness and standard deviation of roughness
+were  calculated  as  well  as  the  true  values  using  all
+points  of  a  map.    Strong  effects  were  observed  for  the
+1-point  pattern.    As  expected  one  point  in  the  wafer
+center   does   in   general   not   represent   the   average
+roughness of the entire surface reasonably well.  The 5-
+point  measurement  provides  the  correct  average  ±  6%,
+the  9-point  measurement  is  ±  2.5%.    Similarly,  the  5-
+point  standard  deviation  is  correct  ±  1.6%  and  the  9-
+point one is ± 1%.  Second order effects were found to
+be  smaller  than  the  main  effects.    Therefore  it  is
+concluded   that   the   suggested   five   and   nine   point
+measurement  patterns  provide  a  good  estimate  of  the
+roughness  of  an  entire  surface  and  its  variations  for
+reasonably homogeneous Si wafer surfaces.
+R1-2  Introduction
+R1-2.1      Roughness   measurement   of   surfaces   is
+performed   with   a   variety   of   techniques,   the   most
+common  ones  being  mechanical  or  optical  profiling  in
+real space or light scattering in reciprocal space (1,2,3).
+The   numerical   result   of   a   roughness   measurement
+process  depends  significantly  on  several  parameters
+such  as  spatial  bandwidth  of  the  response  function  of
+the  tool  used  including  filtering,  scan  length,  probe
+diameter, scanning speed etc.  These parameters are not
+independent  of  each  other  and  have  been  standardized
+only  for  mechanical  profilers  (e.g.4,5).    The  roughness
+values  reported  by  different  types  of  tools  usually  do
+not  agree  but  they  correlate  provided  their  parameters
+were  set  up  not  too  differently  (6).    The  standardized
+roughness  metrics  such  as  average  roughness  R
+a
+or
+root-mean-square  roughness  R
+q
+refer  mainly  to  line
+scans  as  performed  by  profiling  techniques  (e.g.  7).
+Area  scans  performed  by  profiling  tools  by  aligning  a
+series of line scans are usually very slow.  Scanning the
+entire  surface  of  a  Si  wafer  with  a  profiler  therefore
+
+SEMI M40-0200 © SEMI 200014
+would   consume   many   hours,   in   the   case   of   AFM
+(Atomic Force Microscope) many years.
+R1-2.2      Techniques   based   on   light   scattering   are
+capable   of   scanning   the   entire   wafer   surface   quite
+rapidly,  in  about  1-2  min.    Their  response  function,
+however,   has   a   limited   spatial   bandwidth   ranging
+approximately  from  0.5  to  40  μm.    Standards  for  light
+scattering measurements are now emerging (8,9).
+R1-2.3        The    obvious    solution    for    obtaining    a
+standardized  roughness  value  of  an  entire  surface  is  a)
+to   define   a   pattern   of   sites   where   one-   or   two-
+dimensional  scans  are  performed  and  b)  to  report  the
+significant   parameters   along   with   the   measurement
+(roughness)   result.   The   second   task   can   be   solved
+theoretically by collecting the important parameters and
+by  designing  an  appropriate  abbreviation  code.    The
+first  task  requires  experiments  to  collect  data  about  the
+variation  of  roughness  across  a  typical,  real  wafer
+surface  and  numerical  simulations  to  find  a  set  of  sites
+the roughness of which agrees sufficiently well with the
+roughness of the entire surface.
+R1-2.4        This    appendix    reports    the    results    of
+corresponding  roughness  measurements  as  well  as  of  a
+numerical    simulation    using    a    virtual    design-of-
+experiment (DOX).
+R1-3  Roughness Definitions
+R1-3.1    A  variety  of  definitions  for  roughness  have
+been    standardized    by    national    and    international
+institutions     in     the     US,     Japan     and     Europe.
+Corresponding  standards  are  listed  in  section  5  of  the
+main   document   and   some   selected   ones   again   in
+reference  7.    Most  widely  used  are  average  roughness
+R
+a
+and  root-mean-square  roughness  R
+q
+.    Both  refer  to
+the average deviation of a profile from a reference line.
+R1-4  Roughness Measurements
+R1-4.1  Experimental Details
+R1-4.1.1      Four   groups   of   four   wafers   each   were
+investigated   to   collect   data   about   the   variation   of
+roughness  across  the  wafer  surface.  The  wafers  were
+selected   to   represent   different   process   steps   and
+polishing techniques:
+a)
+final polished wafers, 150 mm, #1-4
+b)
+final polished wafers, 200 mm, #4-8
+c)
+pre-polished wafers, 200 mm, #9-12
+d)
+acid-etched wafers, 200 mm, #13-16.
+R1-4.1.2    The  wafers  were  characterized  for  haze  with
+an    SSIS    (Censor    ANS-100)    and    the    roughness
+measurements  were  performed  with  an  optical  non-
+contact profiler (Chapman MP-2000+).  The roughness
+data  were  taken  by  performing  scans  of  length  3  mm
+and  were  evaluated  using  filters  of  19,  30,  80  and  250
+μm,  respectively.    The  scans  were  performed  at  a
+variety  of  sites  according  to  four  different  site  patterns
+as displayed in Figure R1-1 where also the directions of
+the various scans are indicated:
+i)center of wafer, one scan
+ii)    five points, center of wafer plus four points at 2/3
+of radius
+iii)   nine points, center of wafer plus four points at 2/5
+of radius plus four points at 4/5 of radius
+iv)   ten points, two in the center of wafer plus four
+points at ½ of radius and four points at radius
+minus 10 mm.
+v)    thirteen points, combination of pattern ii and iii.
+Figure R1-1
+Site Patterns
+
+SEMI M40-0200 © SEMI 200015
+R1-4.2  Results
+R1-4.2.1    The  average  values  of  each  site  pattern  is  reported  here  together  with  the  corresponding  standard
+deviation.    The  average  might  be  considered  as  the  characteristic  roughness  of  the  entire  surface  whereas  the
+standard deviation is a measure of roughness inhomogeneity.  The results are summarized in Tables R1-1 and R1-3.
+These  averages  and  standard  deviations  are  called  site  average  or  site  standard  deviation  for  the  respective  site
+patterns for each wafer and each filter length applied.
+R1-4.2.2    The  variation  in  average  values  obtained  with  the  different  site  patterns  employed  can  be  obtained  by
+calculating 1) the average ofthe individual site averages and the standard deviation for each wafer and 2) the average
+of the individual site standard deviations and the corresponding standard deviation.  These averages are called wafer
+average  and  wafer  standard  deviation,  respectively.    The  corresponding  standard  deviations  are  called  standard
+deviation of wafer average and standard deviation of wafer standard deviation.  They are reported in Table R1-3 and
+Table R1-5 and in Figure R1-2 and Figure R1-3.
+R1-4.2.3    The  site  average  roughness  values  found  range  from  0.09  A  for  final  polished  wafers  to  350  A  for  acid
+etched wafers for a 10 μm filter and from about 5 A to 2200 A, respectively, for a 250 μm filter. In total, a range of
+about  four  and  a  half  orders  of  magnitude  is  covered.    The  site  standard  deviation  for  the  different  site  patterns  is
+around  10-15%  of  the  average  roughness  of  the  wafer  indicating  a  homogeneous  roughness  of  the  wafer  surfaces.
+The  difference  between  the  site  patterns  ii,  iii,  iv  and  v  for  the  relative  site  standard  deviation  is  small,  typically
+about 1-2 %.  Exceptions are for the 200 mm final polished wafers with standard deviations of about 50-60% for the
+10 μm filter.
+R1-4.2.4  According to the values in Tables R1-3 & R1-5, the standard deviations of the wafer averages are less than
+10 % in any case (Figure RI).  The standard deviations of the various site standard deviations (Figure A3) are also
+smaller than or about 10 % with respect to the wafer average.  This indicates that in the present case any site pattern
+—with  the  exception  of  the  single  site  measurement  at  the  wafer  center—represents  the  “true”  mean  roughness  of
+the entire surface and its standard deviation reasonably well.
+Table R1-1  Results of Roughness Measurements, 10 and 30 μm Filters
+Wfr #Average/Standard Deviation, A
+10 μm Filter
+Average/Standard Deviation, A
+30 μm Filter
+Site patterniiiiiiivviiiiiiivv
+Final polished, 150 mm10.080.086/
+0. 005
+0. 089/
+0. 009
+0. 090/
+0. 007
+0. 086/
+0. 008
+0. 360.390/
+0. 020
+0. 396/
+0. 030
+0. 389/
+0. 028
+0. 396/
+0. 025
+20. 090.090/
+0. 007
+0. 094/
+0. 010
+0. 090/
+0. 005
+0. 093/
+0. 009
+0. 430.408/
+0. 037
+0. 413/
+0. 035
+0. 410/
+0. 028
+0. 410/
+0. 035
+30. 090.090/
+0. 000
+0. 092/
+0. 008
+0. 090/
+0. 005
+0. 092/
+0. 007
+0. 410.404/
+0. 018
+0. 401/
+0. 030
+0. 387/
+0. 022
+0. 402/
+0. 027
+40. 090.090/
+0. 000
+0. 097/
+0. 010
+0. 090/
+0. 004
+0. 095/
+0. 009
+0. 400.402/
+0. 015
+0. 420/
+0. 025
+0. 414/
+0. 016
+0. 415/
+0. 024
+Final polished, 200 mm50.230.14/
+0. 05
+0. 15/
+0. 06
+0. 15/
+0. 06
+0. 14/
+0. 06
+1. 170.746/
+0. 35
+0. 827/
+0. 33
+0. 795/
+0. 32
+0. 769/
+0. 29
+60. 260.13/
+0. 07
+0. 15/
+0. 06
+0. 15/
+0. 06
+0. 14/
+0. 06
+1. 360.746/
+0. 35
+0. 846/
+0. 36
+0. 801/
+0. 33
+0. 768/
+0. 32
+70. 100.13/
+0. 03
+0. 12/
+0. 04
+0. 13/
+0. 06
+0. 13/
+0. 04
+0. 530.736/
+0. 23
+0. 699/
+0. 23
+0. 752/
+0. 32
+0. 726/
+0. 22
+80. 090.12/
+0. 02
+0. 11/
+0. 02
+0. 12/
+0. 03
+0. 12/
+0. 02
+0. 500.648/
+0. 15
+0. 626/
+0. 14
+0. 636/
+0. 18
+0. 644/
+0. 13
+Pre-polished, 200 mm92.642.41/
+0. 25
+2. 45/
+0. 32
+2. 39/
+0. 39
+2. 42/
+0. 29
+7. 216.398/
+0. 77
+6. 538/
+0. 83
+6. 387/
+0. 91
+6. 432/
+0. 78
+102. 642.56/
+0. 36
+2. 69/
+0. 19
+2. 37/
+0. 41
+2. 64/
+0. 27
+6. 846.760/
+0. 95
+7. 147/
+0. 50
+6. 419/
+1. 00
+7. 022/
+0. 27
+112. 752.77/
+0. 07
+2. 78/
+0. 10
+2. 46/
+0. 45
+2. 78/
+0. 09
+7. 307.310
+0. 19
+7. 302/
+0. 30
+6. 545/
+1. 05
+7. 305/
+0. 27
+
+SEMI M40-0200 © SEMI 200016
+122. 762.48/
+0. 32
+2. 50/
+0. 32
+2. 43/
+0. 42
+2. 47/
+0. 31
+7. 306.566/
+0. 91
+6. 521/
+0. 75
+6. 146/
+1. 05
+6. 478/
+0. 77
+Acid etched, 200 mm13327.2332.0/
+6. 73
+335. 0/
+16. 25
+352. 6/
+12. 37
+334. 5/
+13. 76
+826. 2873.5/
+43. 16
+869. 5/
+50. 22
+906. 5/
+28. 56
+874. 4/
+46. 13
+14337. 9344.9/
+18. 74
+344. 7/
+9. 19
+353. 1/
+12. 11
+345. 3/
+13. 00
+876. 8899.9/
+60. 49
+915. 5/
+24. 15
+930. 0/
+43. 19
+912. 5/
+39. 69
+15339. 5340.5
+8/13.4
+2
+335. 2/
+6. 07
+363. 4/
+7. 22
+337. 0/
+9. 58
+887. 7913.7/
+68. 10
+879. 1/
+24. 64
+966. 1/
+30. 75
+891. 7/
+47. 65
+16337. 6331.8/
+8. 84
+337. 6/
+13. 37
+348. 7/
+9. 26
+335. 4/
+12. 41
+922. 8886.1/
+37. 57
+896. 0/
+38. 04
+921. 8/
+27. 16
+890. 2/
+37. 14
+Table R1-2  Results of Roughness Measurements, 80 and 250 μm Filters
+Wfr. #Average/Standard Deviation, A
+80 μm filter
+Average/Standard Deviation, A
+250 μm filter
+Site patterniiiiiiivviiiiiiivv
+Final polished, 150 mm11.331.426/
+0. 075
+1. 416/
+0. 134
+1. 434/
+0. 108
+1. 426/
+0. 115
+4. 344.678/
+0. 484
+4. 836/
+0. 632
+4. 786/
+0. 435
+4. 813/
+0. 578
+21. 571.470/
+0. 112
+1. 482/
+0. 147
+1. 444/
+0. 112
+1. 471/
+0. 133
+5. 344.944/
+0. 312
+5. 441/
+0. 613
+4. 592/
+0. 434
+5. 258/
+0. 591
+31. 491.460/
+0. 025
+1. 472/
+0. 131
+1. 357/
+0. 080
+1. 466/
+0. 108
+4. 814.788/
+0. 403
+5. 164/
+0. 823
+4. 353/
+0. 507
+5. 047/
+0. 735
+41. 331.394/
+0. 089
+1. 446/
+0. 115
+1. 461/
+0. 069
+1. 435/
+0. 106
+4. 094.528/
+0. 619
+4. 814/
+0. 584
+4. 934/
+0. 503
+4. 760/
+0. 585
+Final polished, 200 mm53.292.582/
+0. 45
+2. 638/
+0. 71
+2. 531/
+0. 65
+2. 566/
+0. 60
+7. 336.676/
+0. 45
+6. 627/
+0. 99
+6. 560/
+0. 95
+6. 592/
+0. 82
+63. 652.560/
+0. 65
+2. 724/
+0. 79
+2. 510/
+0. 67
+2. 590/
+0. 69
+7. 496.804/
+0. 57
+6. 834/
+0. 93
+6. 443/
+0. 92
+6. 772/
+0. 80
+72. 022.682
+/0.72
+2. 493/
+0. 56
+2. 641/
+0. 81
+2. 602/
+0. 61
+5. 456.914/
+1. 37
+6. 601/
+0. 81
+7. 057/
+1. 47
+6. 810/
+0. 97
+81. 972.400/
+0. 45
+2. 317/
+0. 40
+2. 279/
+0. 54
+2. 375/
+0. 40
+5. 566.268/
+0. 59
+6. 342/
+0. 69
+6. 232/
+1. 08
+6. 374/
+0. 62
+Pre-polished, 200 mm911.129.94/
+1. 06
+10. 19/
+1. 09
+10. 10/
+1. 27
+10. 02/
+1. 04
+15. 1514.25/
+1. 31
+14. 50/
+1. 18
+14. 47/14.36/
+1. 22
+1010. 1310.54/
+1. 34
+11. 05/
+0. 78
+10. 27/
+1. 35
+10. 92/
+1. 03
+14. 4015.44/
+2. 01
+15. 58/
+0. 77
+14. 59/
+1. 88
+15. 62/
+1. 28
+1111. 2911.35/
+0. 31
+11. 26/
+0. 45
+10. 13/
+1. 23
+11. 29/
+0. 41
+15. 7516.56/
+0. 59
+16. 27/
+0. 81
+14. 83/
+1. 26
+16. 42/
+0. 74
+1210. 6010.11/
+1. 10
+9. 86/
+0. 95
+9. 92/
+1. 12
+9. 90/
+0. 99
+14. 4214.33/
+1. 31
+14. 10/
+1. 14
+14. 41/
+1. 26
+14. 17/
+1. 21
+Acid etched, 200 mm131257.01404/
+140. 8
+1391/
+123. 44
+1439/
+88. 10
+1406/
+122. 83
+1789. 62127/
+331. 59
+2118/
+295. 83
+2185/
+270. 70
+2147/
+291. 78
+141421. 91460/
+109. 9
+1514/
+53. 27
+1497/
+95. 92
+1501/
+78. 94
+2154. 62256/
+154. 21
+2366/
+222. 41
+2322/
+216. 72
+2349/
+203. 72
+151374. 71500/
+199. 2
+1396/
+94. 33
+1549/
+95. 25
+1438/
+147. 56
+1970. 42350/
+508. 52
+2071/
+257. 41
+2348/
+198. 70
+2186/
+384. 36
+161478. 41421/
+109. 9
+1450/
+108. 89
+1477/
+104. 51
+1437/
+109. 71
+2006. 42075/
+186. 85
+2219/
+297. 40
+2264/
+252. 44
+2180/
+271. 75
+R1-4.2.5  The five-point site pattern appears to represent the average surface reasonably well for wafers where the
+roughness does not vary more than by a factor of about two across the entire surface. Patterns with a higher number
+of sites are recommended for problematic surfaces.
+
+SEMI M40-0200 © SEMI 200017
+Table R1-3  Average Over Site Patterns ii, iii and iv (wafer average) and Corresponding Relative Standard
+Deviation for Each Wafer
+Wfr #Avg. of Averages, ARelative Std. Dev. of Averages, %
+Filter10 μm30 μm80 μm250 μm10 μm30 μm80 μm250 μm
+Final polished,
+150 mm
+10. 0880.3921.4254.7672.340.900.651.69
+20. 0910.4101.4654.9922.800.661.338.55
+30. 0910.3971.4304.7681.412.294.438.52
+40. 0920.4121.4344.7594.172.222.454.38
+Final polished,
+200 mm
+50. 1460.7892.5846.6066.095.152.071.24
+60. 1450.7982.5986.6947.796.254.323.25
+70. 1280.7292.6056.8574.163.743.813.40
+80. 1160.6372.3326.2813.351.762.660.89
+Pre-polished,
+200 mm
+92. 4186.44110.0814.411.351.311.230.96
+102. 5416.77510.5915.216.305.374.183.54
+112. 6697.05210.9115.896.896.236.205.83
+122. 4696.4119.9614.281.543.601.301.13
+Acid etched, 200
+mm
+13339. 87883.151411.662143.243.272.301.781.68
+14347. 57915.121490.702314.671.371.641.872.40
+15346. 41919.621481.902256.454.324.775.297.13
+16339. 38901.301449.772185.772.522.041.934.52
+Table R1-4  Average Over the Standard Deviations of the Site Patterns ii, iii and iv (wafer standard devia-
+tion) and the Corresponding Relative Standard Deviations for Each Wafer Normalized to the Wafer Average
+Wfr #Avg. of Std. Deviations, ARelative Std. Dev. of Std. Devs, %
+Filter10 μm30 μm80 μm250 μm10 μm30 μm80 μm250 μm
+Final polished,
+150 mm
+10. 0070.0260.1060.5172.21.42.12.2
+20. 0070.0330.1230.4532.81.21.43.0
+30. 0040.0230.0790.5784.61.63.74.6
+40. 0050.0190.0910.5695.51.41.61.3
+Final polished,
+200 mm
+50. 0590.3020.6030.7973.86.25.34.6
+60. 0650.3470.7030.8074.01.82.93.1
+70. 0420.2610.6991.21910.47.34.95.2
+80. 0250.1560.4630.7894.74.03.14.1
+Pre-polished,
+200 mm
+90. 3200.8341.141.3973.11.11.11.8
+100. 3210.8161.171.5534.44.03.24.5
+110. 2050.5160.6630.8897.96.64.52.2
+120. 3530.9011.061.2342.22.30.90.6
+Acid etched,
+200 mm
+1311. 7840.65117.5299.41.41.31.91.4
+1413. 3542.6186.4197.81.42.02.01.6
+158. 9041.16129.6321.51.12.64.17.3
+1610. 4934.25107.8245.60.70.70.22.5
+
+SEMI M40-0200 © SEMI 200018
+0%
+1%
+2%
+3%
+4%
+5%
+6%
+7%
+8%
+9%
+12 3456 78910111213141516
+Wafer #
+Rel. Std. Dev. of Wafer Averag
+e
+10 μm filter30 μm filter80 μm filter250 μm filter
+Figure R1-2
+The Relative Standard Deviations of the Wafer Averages Normalized to the Wafer Averages for Site Patterns
+ii, iii and iv, for All Wafers Investigated and for Filter Lengths of 10, 30, 80 and 250 μm
+0%
+2%
+4%
+6%
+8%
+10%
+12%
+1  2  3  45  6  7  89 10111213141516
+Wafer-#
+Rel. Std. Dev. of Wafer Std. Dev
+10 μm filter30 μm filter80 μm filter250 μm filter
+Figure R1-3
+The Relative Wafer Standard Deviations of the Wafer Standard Deviations Normalized to the Wafer
+Averages for the Site Patterns ii, iii and iv, for All Wafers and for Filter Lengths of 10, 30, 80 and 250 μm
+
+SEMI M40-0200 © SEMI 200019
+R1-5  Models of Roughness Distribution and
+their Evaluation with a Virtual Experiment of
+Factorial Design
+R1-5.1  Goal of the Simulation
+R1-5.1.1    Roughness  is  measured  on  the  entire  wafer
+surface  only  in  rare  cases.    Therefore  approximations
+have  to  be  found  which  represent  the  roughness  of  an
+entire  wafer  surface  with  appropriate  accuracy.    Three
+discrete site patterns were defined in section 9 of SEMI
+M40,     which     are     thought     to     provide     such
+approximations.  Performing many measurements using
+these  site  patterns  is  one  approach  to  assess  these  site
+patterns   with   respect   to   their   validity.      Another
+approach  is  to  simulate  roughness  variations  across  a
+wafer surface and apply the site patterns to them.  This
+allows  easy  and  systematic  variations  of  the  surface
+roughness properties and maps.  The assessment of the
+results  again  has  to  be  performed  in  a  systematic  way.
+An appropriate tool for doing this is to utilize a factorial
+design  for  the  variables  in  the  various  surface  models
+used.      The   goal   of   finding   a   site   pattern   which
+represents   the   entire   surface   is   considered   to   be
+achieved  when  the  variations  of  the  variables  of  the
+different   surface   models   result   in   a   non-significant
+effect in the evaluation of the factorial design.
+R1-5.2  Simulation of Roughness Maps
+R1-5.2.1    The  measurement  results  that  are  reported  in
+section  3  provide  some  insight  into  the  variation  of
+roughness   that   occurs   across   actual,   typical   wafer
+surfaces.      The   variation   observed   on   the   different
+wafers  is  related  to  the  specific  polishing  technique
+(wax  mount  polishing,  wax  free  polishing)  and  to  the
+polishing  parameters  used.    Examination  of  haze  maps
+reveals three basic patterns of variation:
+a)
+a circularly symmetric haze variation
+b)
+a haze variation approximately symmetric with
+respect to a diameter across the wafer
+c)
+a linear gradient of haze from one wafer edge to
+the opposite one.
+R1-5.2.2  The following relations were used to simulate
+the variation of roughness according to these three basic
+models  a)-c)  with  e  and  c  being  the  roughness  values
+near the edge and at the center of a wafer, respectively:
+model a: a parabolic relation
+z(x,y) = (x
+2
++y
+2
+) (e-c)/r
+2
++ c                     (equ. 1)
+model b: a semi-cylindrical relation
+z(x,y) = (r
+2
+-(y cos a – x sin a)
+2
+)
+1/2
+(e-c)/r + e
+(equ. 2)
+model c: a linear gradient
+z(x,y) = (y cos a - x sin a) (e-c)/r + c       (equ. 3)
+with  wafer  radius  r  and  angle  α  corresponding  to  the
+angle  between  the  symmetry  plane  and  the  x-direction
+(model  b)  or  the  direction  of  the  gradient  and  the  y-
+direction (model c).
+R1-5.2.3    Using  equations  1-3,  roughness  maps  of
+wafer surfaces can be generated with a roughness value
+assigned  to  each  site.    This  was  performed  by  using
+MathCad®  software  and  by  assuming  200  mm  wafers,
+the  area  of  each  being  partitioned  into  sites  of  1  mm
+2
+size.
+R1-5.2.4    Roughness  is  not  necessarily  an  isotropic
+property of a surface.  Different roughness values are in
+general  obtained  when  e.g.  two  scans  are  performed  at
+the  same  spot  on  a  wafer  surface  but  in  perpendicular
+directions.      Therefore   two   maps   representing   the
+roughness  anisotropy  were  generated  in  each  case  by
+assuming  two  sets  of  the  parameters  e  and  c  –  e1,  c1,
+e2, and c2, per wafer surface.
+R1-5.3  Factorial Design
+R1-5.3.1    A  factorial  design  at  two  levels  was  selected
+in  order  to  compare  the  various  wafer  maps  generated
+(10).    The  parameters  ei  and  ci  (i  =  1,2)  were  used  as
+variables  and  were  varied  between  two  levels,  0.1  and
+0. 2, in arbitrary units.  In addition the patterns (models
+a  –  c)  were  also  used  as  a  variable  and  the  values  –1
+and  +1  were  correspondingly  assigned  resulting  in  a  2
+5
+factorial design.  The complete set of parameters used is
+displayed in Table R1-5.
+Table R1-5  Complete Set of Parameters Used in the 2
+5
+Factorial Design
+Variablee1c1e2C2Model
+High level0.20.20.20.2+1 (model b or c)
+Low level0.10.10.10.1-1 (model a)
+
+SEMI M40-0200 © SEMI 200020
+Table R1-6  Results of Roughness Simulation for Models a (variable = -1) and b (variable = 1)
+Variable Set #c1e1c2e2Sym.avg1avg5avg9avgtrue    stdabw5    stdabw9   stdabwtrue
+10. 10.10.10.1-10.10.10.10.1000
+20. 20.10.10.1-10.20.143    0.127    0.1250.0380.0310.014
+30. 10.20.10.1-10.10.117    0.129    0.1250.0210.0320.014
+40. 20.20.10.1-10.20.160.156    0.150.0490.050
+50. 10.10.20.1-10.10.123    0.116    0.1250.0280.0180.014
+60. 20.10.20.1-10.20.165    0.143    0.150.0170.020.029
+70. 10.20.20.1-10.10.140.144    0.150.0210.0210
+80. 20.20.20.1-10.20.183    0.171    0.1750.0210.0320.014
+90. 10.10.10.2-10.10.117    0.129    0.1250.0210.0320.014
+100. 20.10.10.2-10.20.160.156    0.150.0210.0210
+110. 10.20.10.2-10.10.135    0.157    0.150.0170.020.029
+120. 20.20.10.2-10.20.177    0.184    0.1750.0280.0180.014
+130. 10.10.20.2-10.10.140.144    0.150.0490.050
+140. 20.10.20.2-10.20.183    0.171    0.1750.0210.0320.014
+150. 10.20.20.2-10.10.157    0.173    0.1750.0380.0310.014
+160. 20.20.20.2-10.20.20.20.2000
+170. 10.10.10.110.10.10.10.1000
+180. 20.10.10.110.20.158    0.153    0.1420.0470.0480.009
+190. 10.20.10.110.10.102    0.102    0.1080.0030.0030.009
+200. 20.20.10.110.20.160.156    0.150.0490.050
+210. 10.10.20.110.10.133    0.130.1420.040.0340.009
+220. 20.10.20.110.20.191    0.183    0.1850.0070.0150.017
+230. 10.20.20.110.10.135    0.132    0.150.0380.0320
+240. 20.20.20.110.20.193    0.185    0.1920.0090.0160.009
+250. 10.10.10.210.10.107    0.114    0.1080.0090.0160.009
+260. 20.10.10.210.20.165    0.168    0.150.0380.0320
+270. 10.20.10.210.10.109    0.117    0.1150.0070.0150.017
+280. 20.20.10.210.20.167    0.170.1580.040.0340.009
+290. 10.10.20.210.10.140.144    0.150.0490.050
+300. 20.10.20.210.20.198    0.198    0.1920.0030.0030.009
+310. 10.20.20.210.10.142    0.147    0.1580.0470.0480.009
+320. 20.20.20.210.20.20.20.2000
+Average0.150.150.1499  0.150.02410.02470.0066
+Std.
+Dev.
+0. 050.0335  0.0314  0.03030.01980.01790.0057
+
+SEMI M40-0200 © SEMI 200021
+Table R1-7  Normalized values of Table R1-6
+Variable Set #ravg1ravg5ravg9rstdabw5rstdabw9
+11. 00001.00001.00000.00000.0000
+21. 60001.14401.01600.19200.1360
+30. 80000.93601.03200.05600.1440
+41. 33331.06671.04000.32670.3333
+50. 80000.98400.92800.11200.0320
+61. 33331.10000.95330.08000.0600
+70. 66670.93330.96000.14000.1400
+81. 14291.04570.97710.04000.1029
+90. 80000.93601.03200.05600.1440
+101. 33331.06671.04000.14000.1400
+110. 66670.90001.04670.08000.0600
+121. 14291.01141.05140.08000.0229
+130. 66670.93330.96000.32670.3333
+141. 14291.04570.97710.04000.1029
+150. 57140.89710.98860.13710.0971
+161. 00001.00001.00000.00000.0000
+171. 00001.00001.00000.00000.0000
+181. 40851.11271.07750.26760.2746
+190. 92590.94440.94440.05560.0556
+201. 33331.06671.04000.32670.3333
+210. 70420.93660.91550.21830.1761
+221. 08111.03240.98920.05410.0108
+230. 66670.90000.88000.25330.2133
+241. 04171.00520.96350.00000.0365
+250. 92590.99071.05560.00000.0648
+261. 33331.10001.12000.25330.2133
+270. 86960.94781.01740.08700.0174
+281. 26581.05701.07590.19620.1582
+290. 66670.93330.96000.32670.3333
+301. 04171.03131.03130.03130.0313
+310. 63290.89870.93040.24050.2468
+321. 00001.00001.00000.00000.0000
+average0.99680.99871.00010.12870.1254
+standard deviation0.27000.06820.05210.11060.1080
+maximum1.60001.14401.12000.32670.3333
+minimum0.57140.89710.88000.00000.0000
+
+SEMI M40-0200 © SEMI 200022
+R1-5.3.2    Wafer  roughness  maps  with  1  mm
+2
+pixel  size  were  generated  using  all  possible  32  combinations  of  the
+parameters in Table R1-5.  Average roughness and standard deviation were calculated by using all pixels of a map
+(avgtrue, stdabwtrue) as well as by using the three discrete site patterns displayed in Figure 1 of the main part of this
+document (avg1, avg5, avg9, stdabw5, stdabw9).  Corresponding results for comparing models a and b are displayed
+in  Table  R1-6.    These  values  were  normalized  for  further  evaluation,  the  averages  with  respect  to  avgtrue
+(ravgi=avgi/avgtrue,   i=1,5,9),   the   standard   deviations   with   respect   to   their   difference   to   the   “true”   value
+((rstdabwi=stdabwi.-stdabwtrue)  /  stdabwtrue,  i=5,9)  (Table  R1-7).    Results  for  comparing  models  a  and  c  are
+similar and are not reported here in detail.
+R1-5.3.3    The  averages  for  ravg1,5,9  over  the  various  variable  sets  differ  by  less  than  1%  from  unity.    The
+corresponding standard deviations decrease from 27% to 5% going from ravg1 to ravg9, respectively, indicating 
+as one would expect  that ravg9 is a much more precise value for the roughness of the entire surface as compared
+to ravg1 or ravg5.  The relative standard deviations rstdabw5,9 deviate in the average by about 12% from the true
+value. The corresponding standard deviations differ not much for rstdabw5 and rstdabw9.
+R1-5.3.4    More  detailed  information  is  obtained  when  the  results  are  evaluated  according  to  the  factorial  design
+used.    The  1
+st
+to  5
+th
+order  effects  of  varying  the  variables  were  calculated  by  applying  using  a  table  of  contrast
+coefficients /10/ to the normalized results of the simulation. The 1
+st
+order  or main  effects are the difference of
+the  observations  for  both  levels  of  one  parameter  and  averages  over  all  other  observations.    They  measure  the
+average  effect  of  a  variable  over  all  conditions  of  the  other  variables.    The  2
+nd
+order  effects  are  a  measure  for  the
+interaction of variables and are obtained by calculating one half of the difference of the average effect of variable 1
+with variable 2 at level 1 and variable 1 with variable 2 at level 2. 3
+rd
+order and higher effects are not considered in
+the present work.  They are assumed to be negligible and are used to calculate the variance of an effect (=square root
+of the average of the squares of 3
+rd
+to 5
+th
+order effects).
+R1-5.3.5    The  result  of  this  evaluation  is  displayed  in  Table  R1-8  and  Table  R1-9  for  the  main  (1
+st
+order)  and  2
+nd
+order effects, respectively.
+Table R1-8  Average (over all sets of variables) and Main Effects of the Various Variables on the
+Observables (The variance as calculated from the 2
+nd
+to 5
+th
+order effects is displayed in the last column.)
+Average
+c1e1c2e2Sym.Variance
+ravg10.99680.4482-0.1111-0.2237-0.1111-0.00644.16E-05
+ravg50.99870.1134-0.0460-0.0377-0.0287-0.00273.69E-06
+ravg91.00010.0439-0.0067-0.07340.0356-0.00014.37E-06
+rstdabw50.1287-0.0038-0.0049-0.0073-0.00800.03153.43E-04
+rstdabw90.1254-0.0064-0.0057-0.0113-0.00520.01984.87E-04
+Table R1-9  2
+nd
+Order Effects (The variance as calculated from the 2
+nd
+to 5
+th
+order effects is displayed in the
+last column.)
+c1/e1c1/c2c1/e2c1/syme1/c2e1/e2e1/symc2/e2c2/syme2/symVariance
+ravg1-0.0157-0.0221-0.0157-0.05900.02180.01600.05790.0218-0.05470.05794.16E-05
+ravg5-0.0015-0.0079-0.0040-0.00670.00650.00540.00640.0039-0.02250.02383.69E-06
+ravg9-0.00030.0023-0.00570.03040.0049-0.0015-0.0304-0.0005-0.00920.01194.37E-06
+rstdabw5-0.0062-0.1848-0.0603-0.0027-0.0423-0.03920.00590.0335-0.00050.00293.43E-04
+rstdabw90.0080-0.1471-0.07220.0002-0.0247-0.08940.00030.05180.00270.00084.87E-04
+R1-5.3.6    The  behavior  of  the  main  effects  is  also  illustrated  in  Figure  R1-5,  where  the  variation  of  ravg1,5,9  and
+stdabw5,9 are plotted vs. the variables.  The clear effect, on ravg1, of varying center1 between 0.1 and 0.2 is easy to
+understand  as  ravg1  consists  only  of  one  measurement  point  in  the  center  of  the  wafer  surface.    Similar  but  less
+pronounced effects are observed for ravg5 and 9.  Note that the opposite effect occurs for center 2 as this point is not
+included  in  calculating  ravg1,5  or  9.    Also  note  that  the  influence  of  the  variables  edge1  or  edge2  is  much  less
+
+SEMI M40-0200 © SEMI 200023
+pronounced.  In any case, the 5-point measurement provides the correct average ± 6%, the 9-point measurement ±
+2. 5%.  In a similar way, the 5-point standard deviation is correct ± 1.6% and the 9-point standard deviation ± 1%.
+0
+0. 2
+0. 4
+0. 6
+0. 8
+1
+1. 2
+1. 4
+center1 locent er1  hi
+edge1 loed ge 1  h i
+center2 locent er2  hi
+edge2 loedge2 hi
+sym. rot.
+sym. cyl
+Variables
+Ef fec ts
+ravg1ravg5ravg9stdabw5stdabw9
+Figure R1-5
+Main Effects of the 2
+5
+Factorial Design for Models a and b
+R1-5.3.7  The significance of numbers given in Table R1-8 and Table R1-9 can be estimated only in relation to the
+noise or variance of the observables which is also displayed in both tables.  The signal-to-noise ratio S/N is obtained
+by using a logarithmic measure:
+S/N = 10 log (effect
+2
+/variance)
+R1-5.3.8  The corresponding S/N values for the main and for the second order effects are listed in Table R1-10 and
+Table R1-11.
+R1-5.3.9    A  linear  signal-to-noise  ratio  of  3:1  is  commonly  used  to  distinguish  significant  data  from  insignificant
+data.  This linear ratio corresponds to a S/N of about 10 in the present case of a logarithmic signal-to- noise ration.
+The S/N ratios  10 are shaded lightly gray in Table R1-10 and Table R1-11.  The variables center1,2 and edge1,2
+have a significant effect on the relative averages ravg1,5,9.  Mainly the interactions of the model selected with the
+other variables are significant for the relative averages ravg1,5,9 and the interaction of center1 and center2 for the
+relative  standard  deviations  rstdabw5,9.    The  other  cases  emphasized  in  Table  R1-11  by  shading  have  a  S/N  ratio
+only slightly larger than 10.
+Table R1-10  S/N Ratios for the Main Effects of Table R1-8
+averagec1e1c2e2Sym
+ravg143.781736.838424.725130.804624.7251-0.0364
+ravg554.321535.423027.595925.860923.48012.9416
+ravg953.595926.438710.174130.912424.6260-26.2612
+rstdabw516.8383-13.6750-11.4959-8.0646-7.32464.6154
+rstdabw915.0934-10.7996-11.7656-5.7926-12.5745-0.9359
+
+SEMI M40-0200 © SEMI 200024
+Table R1-11  S/N Ratios for the 2
+nd
+Order Effects of Table R1-9
+c1/e1c1/c2c1/e2c1/syme1/c2e1/e2e1/symc2/e2c2/syme2/sym
+ravg17.704510.71107.704519.223710.58977.873219.068210.589718.568419.0682
+ravg5-2.310612.27436.382010.829110.55299.016210.44146.241721.382021.8517
+ravg9-17.00340.72788.743823.25127.3954-3.173823.2558-11.962312.861815.1361
+Rstdabw5-9.558719.985310.2575-16.74847.18026.5178-9.89105.1594-32.1153-16.1308
+Rstdabw9-8.850516.478210.2932-40.55300.973012.1486-37.17337.4191-18.3336-28.6846
+R1-5.3.10  The interactions are discussed for two examples, ravg9 and rstdabw5 (Table R1-12).  Going from sym lo
+(model  a,  parabolic  symmetry)  to  sym  hi  (model  b,  cylindrical  symmetry)  and  keeping  c1  fixed  at  the  lo  level
+decreases ravg9 from 0.993 to 0.963 whereas it increases from 1.007 to 1.037 when c1 is kept fixed at the lo level.
+This change in opposite directions indicate an interaction between c1 and sym. c1 and c2 interact in a similar way
+with respect to rstdabw5.
+Table R1-12  2
+nd
+Order Effects or Interactions
+C1 lo/sym hi0.9631.037c1 hi/sym hi
+ravg9
+C1 lo/sym lo0.9931.007c1 hi/sym lo
+c1 lo/c2 hi0.2190.031c1 hi/c2 hi
+stdabw5
+c1 lo/c2 lo0.1320.223c1 hi/c2 lo
+R1-5.4  Summary and Conclusions
+R1-5.4.1    Three  different  models  for  surface  roughness  distribution  (roughness  maps)  were  investigated  and  three
+different site patterns for measuring the roughness were applied to them. The parameters of the models – roughness
+in the center and near the edge of the wafer – were used as variables in a factorial design and varied between two
+levels.  Average roughness and the corresponding standard deviations calculated for the site patterns were compared
+with the “true” values obtained by evaluating all points of the roughness map.
+R1-5.4.2  The patterns where the roughness is measured at five or nine points exhibit a standard deviation of 7 and 5
+%,  respectively,  from  the  true  average  value  for  all  possible  combinations  of  the  variables.    The  average  of  the
+standard deviations of the roughness distribution of the single variable sets differs by about 13% from the true value
+for  the  five-  as  well  as  nine-point  site  pattern.    A  standard  deviation  of  the  standard  deviations  of  about  11%  is
+obtained by averaging over the 32 different variables sets.
+R1-5.4.3  The evaluation of the factorial design outlines that the variation of the variables c1, c2, e1, and e2 has a
+significant effect – with respect to “noise” – on the average roughness values but not on the corresponding standard
+deviations.    Varying  the  surface  model  does  not  significantly  affect  the  averages  and  standard  deviations.    Some
+second  order  effects  or  interactions  are  also  significant  but  less  pronounced  than  the  main  effects.    A  pronounced
+interaction  of  the  variables  c1  and  c2  occurs  e.g.  for  the  five  point  standard  deviation  rstdabw5.    This  interaction
+could  be  reduced  by  introducing  an  additional  site  for  measuring  roughness  in  the  center  of  the  wafer  with  a
+direction perpendicular to the present one.
+R1-5.4.4  The goal of finding a site pattern which results only in non-significant effects is not completely achieved
+by  the  five  and  nine  point  patterns  utilized  in  the  present  work.    However,  they  allow  to  measure  the  average
+roughness of wide variety of surface roughness distributions with a one sigma deviation of 5-7 %, or a three sigma
+deviation of 15-21 %.  These values are certainly more than sufficient for present wafer surfaces.
+
+SEMI M40-0200 © SEMI 200025
+R1-6  Related Documents
+ASTM E 1392 — Practice for Angle Resolved Optical Scattering Measurements on Specular or Diffuse Surfaces
+ASTM  F  1048  —  Test  Method  for  Measuring  the  Effective  Surface  Roughness  of  Optical  Components  by  Total
+Integrated Scattering
+J.M.  Bennett,  L.  Mattson,  Introduction  to  Surface  Roughness  and  Scattering,  Optical  Society  of  America,
+Washington, D.C., 1989
+G.E.P.  Box,  W.G.  Hunter,  J.S.  Hunter,  Statistics  for  Experiments,  An  Introduction  to  Design,  Data  Analysis,  and
+Model Building, John Wiley, N.Y.
+ISO 1879 — Instruments for the measurement of surface roughness by the profile method -- Vocabulary
+ISO  3274  —  Instruments  for  the  measurement  of  surface  roughness  by  the  profile  method  –  Contact  (stylus)
+instruments of consecutive profile transformation – Contact profile meters, system M
+ISO 4287/1 — Surface roughness – Terminology – Part 1: Surface and its parameters
+J.A. Ogilvy, Theory of Wave Scattering from Random Rough Surfaces, IOP Publishing, Bristol, 1991
+J.C. Stover, Optical Scattering, Measurement and Analysis, Second Edition, McGraw-Hill, Inc., N.Y. 1995
+P.  Wagner,  H.A.  Gerber,  in  Particles,  Haze  and  Microroughness  on  Silicon  Wafers,  SEMICON  Europe  1995,  W.
+Baylies, P. Wagner, Eds.
+NOTICE:  SEMI  makes  no  warranties  or  representations  as  to  the  suitability  of  the  guide  set  forth  herein  for  any
+particular application.  The determination of the suitability of the guide is solely the responsibility of the user.  Users
+are cautioned to refer to manufacturer’s instructions, product labels, product data sheets, and other relevant literature
+respecting any materials mentioned herein.  These guides are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  guide  may  require  use  of  copyrighted
+material or of an invention covered by patent rights.  By publication of this guide, SEMI takes no position respecting
+the validity of any patent rights or copyrights asserted in connection with any item mentioned in this guide.  Users of
+this  guide  are  expressly  advised  that  determination  of  any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI M41-1101 © SEMI2000, 20011
+SEMI M41-1101
+SPECIFICATION OF SILICON-ON-INSULATOR (SOI) FOR POWER
+DEVICE/ICs
+This  specification  was  technically  approved  by  the  Global  Silicon  Wafer  Committee  and  is  the  direct
+responsibility of the Japanese Silicon Wafer Committee. Current edition approved by the Japanese Regional
+Standards Committee on August 3, 2001.  Initially available at www.semi.org August 2001; to be published
+November 2001. Originally published June 2000; previously published July 2001.
+1  Purpose
+1. 1  This  specification  covers  requirements  for  silicon-
+on-insulator  (SOI)  for  semiconductor  power-device/IC
+manufacture.    By  defining  inspection  procedures  and
+acceptance criteria, both users and suppliers may define
+product characteristics and quality requirements.
+2  Scope
+2. 1  This  specification  provides  requirements  of  SOI
+wafers,   which   are   used   for   power   devices/ICs   of
+specific voltage applications.  The voltage ranges cover
+low  voltage  (40–60V),  medium  voltage  (150–250V)
+and high voltage (500–600V).  The specification covers
+physical, electrical, and surface parameters pertinent to
+bonded wafers.
+2. 2  Included  in  this  document  is  a  list  of  goals  for
+inspection  of  these  wafers  which  need  to  be  negotiated
+between the users and suppliers of bonded wafers.
+2. 3  This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI      M1      —      Specifications      for      Polished
+Monocrystalline Silicon Wafers
+SEMI   M2   —   Specifications   for   Silicon   Epitaxial
+Wafers
+SEMI  M18  —  Format  for  Silicon  Wafer  Specification
+Form for Order Entry
+SEMI M34 — Guide for Specifying SIMOX Wafers
+3. 2  ASTM Standards
+1
+F26  —  Standard  Test  Methods  for  Determining  the
+Orientation of a Semiconductive Single Crystal
+
+1  American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohocken, Pennsylvania 19428-2959, USA.
+Telephone: 610.832.9585, Fax: 610.832.9555.  Website:
+www.astm.org
+F42  —  Standard  Test  Methods  for  Conductivity  Type
+of Extrinsic Semiconducting Materials
+F43   —   Standard   Test   Methods   for   Resistivity   of
+Semiconductor Materials
+F81  —  Standard  Test  Method  for  Measuring  Radial
+Resistivity Variation on Silicon Wafers
+F84 — Standard Test Method for Measuring Resistivity
+of Silicon Wafers with an In-Line Four-Point Probe
+F110   —   Standard   Test   Method   for   Thickness   of
+Epitaxial  or  Diffused  Layers  in  Silicon  by  the  Angle
+Lapping and Staining Technique
+F154   —   Standard   Practices   and   Nomenclature   for
+Identification  of  Structures  and  Contaminants  Seen  on
+Specular Silicon Surfaces
+F399   —   Standard   Test   Method   for   Thickness   of
+Heteroepitaxial or Polysilicon Layers
+F523    —    Standard    Practice    for    Unaided    Visual
+Inspection of Polished Silicon Wafer Surfaces
+F533  —  Standard  Test  Method  for  Thickness  and
+Thickness Variation of Silicon Wafers
+F576  —  Standard  Test  Method  for  Measurement  of
+Insulator  Thickness  and  Refractive  Index  on  Silicon
+Substrates by Ellipsometry
+F613    —    Standard    Test    Method    for    Measuring
+Diameter of Semiconductor Wafers
+F671  —  Standard  Test  Method  for  Measuring  Flat
+Length  on  Wafers  of  Silicon  and  Other  Electronic
+Materials
+F847    —    Standard    Test    Methods    for    Measuring
+Crystallographic  Orientation  of  Flats  on  Single  Crystal
+Silicon Wafers by X-Ray Techniques
+F928  —  Standard  Test  Methods  for  Edge  Contour  of
+Circular    Semiconductor    Wafers    and    Rigid    Disk
+Substrates
+F1152  —  Standard  Test  Method  for  Dimensions  of
+Notches on Silicon Wafers
+F1153 — Standard Test Method for Characterization of
+Metal-Oxide-Silicon (MOS) Structures by Capacitance-
+Voltage Measurements
+
+SEMI M41-1101 © SEMI 2000, 20012
+F1188 — Standard Test Method for Interstitial Atomic
+Oxygen Content of Silicon by Infrared Absorption
+F1241 — Standard Terminology of Silicon Technology
+F1390  —  Standard  Test  Method  for  Measuring  Warp
+on Silicon Wafers by Automated Noncontact Scanning
+F1391   —   Standard   Test   Method   for   Substitutional
+Atomic    Carbon    Content    of    Silicon    by    Infrared
+Absorption
+F1526 — Standard Test Method for Measuring Surface
+Metal   Contamination   on   Silicon   Wafers   by   Total
+Reflection X-Ray Fluorescence Spectroscopy
+F1527  —  Standard  Guide  for  Application  of  Silicon
+Standard Reference Materials and Reference Wafers for
+Calibration  and  Control  of  Instruments  for  Measuring
+Resisitivity of Silicon
+F1530   —   Standard   Test   Method   for   Measuring
+Flatness, Thickness, and Thickness Variation on Silicon
+Wafers by Automated Noncontact Scanning
+F1535    —    Standard    Test    Method    for    Carrier
+Recombination    Lifetime    in    Silicon    Wafers    by
+Noncontact  Measurement  of  Photoconductivity  Decay
+by Microwave Reflectance
+F1617 — Standard Test Method for Measuring Surface
+Sodium, Aluminum, Potassium, and Iron on Silicon and
+EPI Substrates by Secondary Ion Mass Spectroscopy
+F1619  —  Standard  Test  Method  for  Measurement  of
+Interstitial   Oxygen   Content   of   Silicon   Wafers   by
+Infrared   Absorption   Spectroscopy   with   p-Polarized
+Radiation Incident at Brewster Angle
+F1620  —  Standard  Practice  for  Calibrating  a  Scanning
+Surface    Inspection    System    Using    Monodisperse
+Polystyrene  Latex  Spheres  Deposited  on  Polished  or
+Epitaxial Wafer Surfaces
+F1726     —     Standard     Guide     for     Analysis     of
+Crystallographic Perfection of Silicon Wafers
+F1727  —  Detection  of  Oxidation  Induced  Defects  in
+Polished Silicon Wafers
+3. 3  ANSI Standard
+2
+ANSI/ASQC Z1.4 — Sampling Procedures and Tables
+for Inspection by Attributes
+
+2  American Society for Quality Control, 611 East Wisconsin
+Avenue, Milwaukee, WI 53202
+3. 4  JEITA Standard
+3
+JEIDA 50 — Standard Specification for SOI Wafers
+NOTE 1: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+4  Terminology
+4. 1  Many   terms   relating   to   silicon   technology   are
+defined  in  ASTM  Terminology  F1241,  “Terminology
+of Silicon Technology.”
+4. 2  Other terms are defined as follows:
+4. 2.1  base silicon wafer — the silicon wafer below the
+insulator layer, supporting the top silicon film.
+4. 2.2  bonded  wafers  —  defined  as  two  silicon  wafers
+bonded together with an insulating layer.  This insulator
+layer is typically thermally grown silicon-dioxide.
+4. 2.3  bonding interface — the plane where the bonding
+between the two wafers takes place.
+4. 2.4  buried  oxide  layer  (BOX)  —   the  insulator  layer
+between  the  two  wafers  when  the  insulator  layer  is
+silicon-dioxide.
+4. 2.5  non-SOI  edge  area  —  an  annulus  between  the
+nominal  radius  of  the  surface  silicon  layer  and  the
+nominal  radius  of  the  base  silicon  wafer  (for  bonded
+SOI  wafers).    The  annulus  which  implies  an  area  is
+determined  by  its  width  as  one  dimension.    It  is  the
+difference  in  the  nominal  radius  of  the  surface  silicon
+layer and that of the base silicon wafer.
+4. 2.6  thickness   of   top   silicon   film   —    the   distance
+between  the  surface  of  the  top  silicon  film  and  the  top
+silicon film-buried oxide interface.
+4. 2.7  top  silicon  film  —  the  silicon  layer  on  top  of  the
+insulator   film   in   which   the   semiconductor   active
+devices are fabricated.
+4. 2.8  void  —  the  absence  of  a  chemical  bond  at  the
+bonding interface.
+5  Ordering Information
+5. 1  Purchase orders for bonded wafers furnished to this
+specification shall include the following items:
+5. 1.1  Substrate   Characteristics   for   the   device   layer
+(diameter, dopant, orientation, resistivity, Oi, etc.)
+5. 1.2  Substrate   Characteristics   for   the   base   wafer
+(diameter,   thickness,   dopant,   orientation,   resistivity,
+etc.)
+
+3  Japanese Electronic and Information Technology Industries
+Association, Tokyo Chamber of Commerce and Industry Bldg. 2-2,
+Marunouchi 3-chome, Chiyoda-ku, Tokyo 100-0005, Japan. Website:
+www.jeita.or.jp
+
+SEMI M41-1101 © SEMI2000, 20013
+5. 1.3  Buried oxide thickness and thickness tolerances
+5. 1.4  Top    silicon    film    thickness    and    thickness
+tolerances
+5. 1.5  Warp limits
+5. 1.6  Top silicon film OSF defect limits
+5. 1.7  Top silicon film carrier life time limits
+5. 1.8  Buried oxide defect limits
+5. 1.9  Edge  profile  of  the  top  silicon  film  and  non-SOI
+edge area
+5. 1.10  Rotation alignment between top silicon film and
+the base silicon
+5. 1.11  Position of the bonding interface
+5. 1.12  Methods   of   test   and   measurements      (see
+Sections 8 and 9)
+5. 1.13  Lot acceptance procedures (see Section 7)
+5. 1.14  Certification (if required)
+5. 1.15  Packing and marking (see Section 10)
+NOTE 2: Verification test procedures of certification of these
+items shall be agreed upon between the users and the supplier
+(see Sections 8 and 9).
+6  Requirements
+6. 1  The complete specifications for Overall Wafer, Top
+Silicon  Film,  Buried  Oxide  (BOX)  and  Base  Silicon
+Wafer are listed in Tables 1 to 5.
+Table 1  Silicon-on-Insulator (SOI) Specifications for Low Voltage (45–60V) Power Device (1)
+Parameters (Units)ValueASTM Test Method or
+Measurement Procedure
+Acceptance
+Wafer(Overall)
+Diameter (mm)125, 150, 200F613-93Note A
+Thickness (μm)(Value of regular silicon
+wafer) + (SOI thickness) +
+(Box thickness)
+F533-96, F1530-94Note A
+Total Thickness Variation (μm)Note CF1530-94Note C
+LTV (μm)Note  CF1530-94Note C
+Warp (μm)≤ 100 (Note B, C, F)F1390-92Note C, or Certified by
+Wafer Manufactures
+Non-SOI Edge Area (mm) ≤ 3 (Note C)Optical MetrologyNote C, or Certified by
+Wafer Manufactures
+Edge Profile/Edge Profile
+Surface Finish
+Note CF928-93Note C, or Certified by
+Wafer Manufactures
+Top Silicon Film
+Thickness (μm)2–12Note D
+(F399-88)
+Note C, E,
+Must be measured on each
+wafer
+Surface OrientationNote CX-ray Diffraction
+(F26-87a)
+Note C, or Certified by
+Wafer Manufactures
+Resistivity (ohm-cm)Note CF43-93, F84-93,
+F1527-94
+Note C, or Certified by
+Wafer Manufactures
+Conductivity TypeNote CF42-93Note C, or Certified by
+Wafer Manufactures
+Oxygen Concentration (/cm
+3
+)Note CF1188-93a,
+F1619-95
+Note C, or Certified by
+Wafer Manufactures
+Carbon Concentration (/cm
+3
+)Note CF1391-93Note C, or Certified by
+Wafer Manufactures
+Surface Cleanliness: Metal
+Contamination (/cm
+2
+)
+Note A, CAAS, ICP-MS,
+TXRF (F1526-95),
+SIMS (F1617-98)
+Note A, C
+Surface Cleanliness: Particle
+Density (/wafer)
+Note A, CLight Scattering
+Tomography (F1620-96)
+(SEMI M34)
+Note A, C
+
+SEMI M41-1101 © SEMI 2000, 20014
+Parameters (Units)ValueASTM Test Method or
+Measurement Procedure
+Acceptance
+Surface Roughness (nm)Note A, CAFM
+(SEMI M34)
+Note A, C
+Carrier Lifetime (μsec)Note Cμ-PCD Method
+(F1535-94)
+Note C
+Crystalline Alignment of Top
+Silicon Film to Base Wafer (°)
+Note CX-ray diffraction
+(F847-94)
+Note C
+Surface Feature
+(Haze, Scratch, etc)
+NoneF154-94, F523-93,
+F1726-97
+Must be measured on each
+wafer
+OSF Density (/cm
+2
+)Note COptical Metrology
+(F1727-97)
+Note C, or Certified by
+Wafer Manufactures
+Buried Oxide (BOX)
+Thickness (μm)0.5–2Ellipsometry (F576-95)
+or
+Reflective Spectroscopy
+(SEMI M34)
+Tolerance is ± 5%; Note C,
+or Certified by Wafer
+Manufactures
+Location of Bonded InterfaceLower Surface
+(Note C)
+TEMCertified by Wafer
+Manufactures
+Void Density (/cm
+2
+)NoneScanning Acoustic
+Tomography, Optical Defect
+Inspection
+Note C
+Oxide Defect Density (/cm
+2
+)Note CI-V on Capacitor,
+Cu Decoration
+(SEMI M34)
+Note C
+Dielectric Breakdown Voltage
+(V)
+Note CI-V on CapacitorNote C
+Interface States (/cm
+2
+)Note C, HC-V TechniqueNote C
+Fixed Charge Density (/cm
+2
+)Note C, HC-V Technique
+(F1153-92)
+Note C
+Bonding Strength (kg/cm
+2
+)Note CTensile StrengthNote C, or Certified by
+Wafer Manufactures
+Base Silicon Wafer
+Crystalline OrientationNote CF26-87aNote C
+Resistivity (ohm-cm)Note CF43-93, F84-93,
+F1527-94
+Note C
+Conductivity TypeNote CF42-93Note C
+Fiducial Axis Orientation
+(Flat/Notch)
+Note CF671-90, F1152-93Note C
+To-be-bonded Surface
+Cleanliness: Metals (/cm
+2
+)
+Note CAAS, ICP-MS,
+XRF (F1526-95),
+SIMS (F1617-98)
+Note C
+Back Surface FinishNote COptical MetrologyNote C
+
+SEMI M41-1101 © SEMI2000, 20015
+Table 2  Silicon-on-Insulator (SOI) Specifications for Low Voltage (45–60V) Power Device (2)
+Parameters (Units)ValueASTM Test Method or
+Measurement Procedure
+Acceptance
+Wafer(Overall)
+Diameter (mm)125, 150, 200F613-93Note A
+Thickness (μm)Note AF533-96, F1530-94Note A
+Total Thickness Variation (μm)Note CF1530-94Note C
+LTV (μm)Note CF1530-94Note C
+Warp (μm)
+≤ 50 (Note B, C, F)
+F1390-92Note C, or Certified by
+Wafer Manufactures
+Non-SOI Edge Area (mm)
+≤ 3 (Note C)
+Optical MetrologyNote C, or Certified by
+Wafer Manufactures
+Edge Profile / Edge Profile
+Surface Finish
+Note CF928-93Note C, or Certified by
+Wafer Manufactures
+Top Silicon Film
+Thickness (μm)0.1–0.5Note DNote C, E,
+Must be measured on each
+wafer
+Surface OrientationNote CX-ray Diffraction
+(F26-87a)
+Note C, or Certified by
+Wafer Manufactures
+Resistivity (ohm-cm)Note CF43-93, F84-93,
+F1527-94
+Note C, or Certified by
+Wafer Manufactures
+Conductivity TypeNote CF42-93Note C, or Certified by
+Wafer Manufactures
+Oxygen Concentration (/cm
+3
+)Note CF1188-93a,
+F1619-95
+Note C, or Certified by
+Wafer Manufactures
+Carbon Concentration (/cm
+3
+)Note CF1391-93Note C, or Certified by
+Wafer Manufactures
+Surface Cleanliness: Metal
+Contamination (/cm
+2
+)
+Note A, CAAS, ICP-MS,
+TXRF (F1526-95),
+SIMS (F1617-98)
+Note A, C
+Surface Cleanliness: Particle
+Density (/wafer)
+Note A, CLight Scattering
+Tomography (F1620-96)
+(SEMI M34)
+Note A, C
+Surface Roughness (nm)Note A, CAFM
+(SEMI M34)
+Note A, C
+Carrier Lifetime (μsec)Note Cμ-PCD Method
+(F1535-94)
+Note C
+Crystalline Alignment of Top
+Silicon Film to Base Wafer (°)
+Note CX-ray Diffraction
+(F847-94)
+Note C
+Surface Feature
+(Haze, Scratch, etc)
+NoneF154-94, F523-93, F1726-97
+(SEMI M34)
+Must be measured on each
+wafer
+Buried Oxide (BOX)
+Thickness (μm)0.4–1.0Ellipsometry (F576-95)
+or
+Reflective Spectroscopy
+(SEMI M34)
+Tolerance is ± 5%;
+Note C, or Certified by
+Wafer Manufactures
+Location of Bonded InterfaceLower Surface
+(Note C)
+TEMCertified by Wafer
+Manufactures
+Void Density (/cm
+2
+)NoneScanning Acoustic
+Tomography, Optical Defect
+Inspection
+Note C
+
+SEMI M41-1101 © SEMI 2000, 20016
+Parameters (Units)ValueASTM Test Method or
+Measurement Procedure
+Acceptance
+Oxide Defect Density (/cm
+2
+)Note CI-V on Capacitor,
+Cu Decoration
+(SEMI M34)
+Note C
+Dielectric Breakdown Voltage
+(V)
+Note CI-V on CapacitorNote C
+Interface States (/cm
+2
+)Note C, HC-V TechniqueNote C
+Fixed Charge Density (/cm
+2
+)Note C, HC-V Technique
+(F1153-92)
+Note C
+Bonding Strength (kg/cm
+2
+)Note CTensile StrengthNote C, or Certified by
+Wafer Manufactures
+Base Silicon Wafer
+Crystalline OrientationNote CF26-87aNote C
+Resistivity (ohm-cm)Note CF43-93, F84-93,
+F1527-94
+Note C
+Conductivity TypeNote CF42-93Note C
+Fiducial Axis Orientation
+(Flat/Notch)
+Note CF671-90, F1152-93Note C
+To-be-bonded Surface
+Cleanliness: Metals (/cm
+2
+)
+Note CAAS, ICP-MS,
+TXRF (F1526-95),
+SIMS (F1617-98)
+Note C
+Back Surface FinishNote COptical MetrologyNote C
+Table 3  Silicon-on-Insulator (SOI) Specifications for Low Voltage (45–60V) Power Device with N+ Buried layer
+Parameters (Units)ValueASTM Test Method or
+Measurement Procedure
+Acceptance
+Wafer(Overall)
+Diameter (mm)125, 150, 200F613-93Note A
+Thickness (μm)(Value of regular silicon
+wafer) + (SOI thickness) +
+(Box thickness)
+F533-96, F1530-94Note A
+Total Thickness Variation (μm)Note CF1530-94Note C
+LTV (μm)Note CF1530-94Note C
+Warp (μm)
+≤ 100 (Note B, C, F)
+F1390-92Note C, or Certified by
+Wafer Manufactures
+Non-SOI Edge Area (mm)
+≤ 3 (Note C)
+Optical MetrologyNote C, or Certified by
+Wafer Manufactures
+Edge Profile/Edge Profile
+Surface Finish
+Note CF928-93Note C, or Certified by
+Wafer Manufactures
+Top Silicon Film
+Thickness (μm)8–16Note D
+(F399-88)
+Note C, E,
+Must be measured on each
+wafer
+Surface OrientationNote CX-ray Diffraction
+(F26-87a)
+Note C, or Certified by
+Wafer Manufactures
+Resistivity (ohm-cm)Note CF43-93, F84-93,
+F1527-94
+Note C, or Certified by
+Wafer Manufactures
+Conductivity TypeNote CF42-93Note C, or Certified by
+Wafer Manufactures
+
+SEMI M41-1101 © SEMI2000, 20017
+Parameters (Units)ValueASTM Test Method or
+Measurement Procedure
+Acceptance
+Oxygen Concentration (/cm
+3
+)Note CF1188-93a,
+F1619-95
+Note C, or Certified by
+Wafer Manufactures
+Carbon Concentration (/cm
+3
+)Note CF1391-93Note C, or Certified by
+Wafer Manufactures
+Surface Cleanliness:  Metal
+Contamination (/cm
+2
+)
+Note A, CAAS, ICP-MS,
+TXRF (F1526-95),
+SIMS (F1617-98)
+Note A, C
+Surface Cleanliness: Particle
+Density (/wafer)
+Note A, CLight Scattering
+Tomography (F1620-96)
+(SEMI M34)
+Note A, C
+Surface Roughness (nm)Note A, CAFM (SEMI M34)Note A, C
+Carrier Lifetime (μsec)Note Cμ-PCD Method (F1535-94)Note C
+Crystalline Alignment of Top
+Silicon Film to Base
+Wafer (°)
+Note CX-ray Diffraction
+(F847-94)
+Note C
+Surface Feature
+(Haze, Scratch, etc)
+NoneF154-94, F523-93, F1726-97Must be measured on each
+wafer
+OSF Density (/cm
+2
+)Note COptical Metrology
+(F1727-97)
+Note C, or Certified by
+Wafer Manufactures
+Buried LayerNote CF110-88Note C
+Buried Oxide (BOX)
+Thickness (μm)0.5–2Ellipsometry (F576-95)
+or
+Reflective Spectroscopy
+(SEMI M34)
+Tolerance is ± 5%;
+Note C, or Certified by
+Wafer Manufactures
+Location of Bonded InterfaceNote CTEMCertified by Wafer
+Manufactures
+Void Density (/cm
+2
+)NoneScanning Acoustic
+Tomography, Optical Defect
+Inspection
+Note C
+Oxide Defect Density (/cm
+2
+)Note CI-V on Capacitor,
+Cu Decoration
+(SEMI M34)
+Note C
+Dielectric Breakdown Voltage
+(V)
+Note CI-V on CapacitorNote C
+Interface States (/cm
+2
+)Note C, HC-V TechniqueNote C
+Fixed Charge Density (/cm
+2
+)Note C, HC-V Technique
+(F1153-92)
+Note C
+Bonding Strength (kg/cm
+2
+)Note CTensile StrengthNote C, or Certified by
+Wafer Manufactures
+Base Silicon Wafer
+Surface OrientationNote CF26-87aNote C
+Resistivity (ohm-cm)Note CF43-93, F84-93, F1527-94Note C
+Conductivity TypeNote CF42-93Note C
+Fiducial Axis Orientation
+(Flat/Notch)
+Note CF671-90, F1152-93Note C
+To-be-bonded Surface
+Cleanliness: Metals (/cm
+2
+)
+Note CAAS, ICP-MS,
+TXRF (F1526-95),
+SIMS (F1617-98)
+Note C
+Back Surface FinishNote COptical MetrologyNote C

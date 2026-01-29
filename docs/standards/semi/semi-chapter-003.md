@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E10-0304 E © SEMI 1986, 2004 15 APPENDIX 2 RELIABILITY GROWTH OR DEGRADATION MODELS NOTICE:  This  appendix  was  approved  as  an  official  part  of  SEMI  E10  by  full  letter  ballot  pro..."
-sidebar_label: "Chapter 3"
+title: "E10-0304 - E © SEMI 1986,..."
+description: "SEMI标准文档"
+sidebar_label: "E10-0304 - E © SEMI 1986,..."
 sidebar_position: 30
-tags: ['SEMI', 'Standard', 'Chapter 3']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-003.pdf'
   chapter: 3
   page_count: 50
-  file_size_mb: 0.81
-  processing_date: '2026-01-28T09:17:23.422Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-003.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/003.pdf"
   pdfSize="0.81MB"
-  title="Chapter 3"
-  description="SEMI标准文档 - Chapter 3，共50页"
-/>
+  title="E10-0304 - E © SEMI 1986,..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

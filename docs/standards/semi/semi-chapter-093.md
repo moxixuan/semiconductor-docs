@@ -1,0 +1,4255 @@
+---
+title: "D36-1103 - © SEMI 2003 1..."
+description: "SEMI标准文档"
+sidebar_label: "D36-1103 - © SEMI 2003 1..."
+sidebar_position: 930
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-093.pdf'
+  chapter: 93
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/093.pdf"
+  pdfSize="0.89MB"
+  title="D36-1103 - © SEMI 2003 1..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI D36-1103 © SEMI 2003 1
+SEMI D36-1103
+TERMINOLOGY FOR LCD BACKLIGHT UNIT
+This  standard  was  technically  approved  by  the  Global  Flat  Panel  Display  Committee  and  is  the  direct
+responsibility  of  the  Japanese  Flat  Panel  Display  Committee.  Current  edition  approved  by  the  Japanese
+Regional Standards Committee on August 8, 2003.  Initially available at www.semi.org October 2003; to be
+published July 2003.
+1  Purpose
+1. 1      These   terms   and   definitions   describe   various
+components  and  characteristics  of  backlight  unit  used
+for light source of liquid crystal display.  This standard
+will be helpful to unify terminologies used for backlight
+unit,   which   will   improve   manufacturing   efficiency
+resulting in reduction of manufacturing cost and time.
+2  Scope
+2. 1    This  standard  is  applicable  to  backlight  unit.  This
+standard includes the terminologies of components used
+in  Backlight  unit,  inspection  and  measurement  used  in
+backlight unit field as well as panel and instrumentation
+field.  The  other  area  is  not  dealt  with  other  SEMI
+standard document.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1    In  this  standard,  our  target  is  only  backlight  unit
+and  general  purpose  for  terminology.  Hence  a  special
+language used for critical purpose is not mentioned. For
+example, we do not define special languages depending
+to  personal  emotion  and  a  detail  or  small  components
+depending on special or general purpose.
+3. 2    The  definition  of  lamp  components  follows  the
+language  used  in  lighting  company  or  other  optics
+related standardization.
+4  Referenced Standards
+4. 1  CIE Standards
+1
+
+CIE 1931 — color space, CIE 1976 UCS
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+
+
+1 CIE International Commission on Illumination, Kegelgasse 27, A-
+1030 Vienna, Austria
+5  Terminology
+5. 1  General Terminology
+5. 1.1  Definition of Backlight Unit
+5. 1.1.1    Backlight  unit  (BLU)  is  a  kind  of  light  source
+positioned at the backside of liquid crystal panel. Since
+LCD is non-emissive display device it needs essentially
+light source.
+5. 1.2  Structure of BLU
+5. 1.2.1        As    an    initial    light    source    cold    cathode
+fluorescence  lamp  (CCFL)  is  used  at  bottom  and/or
+topside   of   BLU.   The   light   emitted   from   CCFL   is
+entered  into  light  guide  plate  (LGP).  Here  light  is
+spread  out  two-dimensional  light  by  scattering  sites  at
+the   back   surface   LGP   or   inside   of   LGP.   Two-
+dimensional  light  is  sometimes  diffused  by  diffusion
+sheet  or  conversed  by  prism  sheet  respectively.  And
+final light comes into human eyes.
+
+g
+e
+d
+c
+b
+f
+a
+
+Figure 1
+General structure of BLU; From a) to g), each
+components are indicate CCFL, reflection sheet,
+light guide plate, diffusion sheet, two prism sheets,
+protection sheet and panel respectively.
+
+5. 2  Components  —  The  following  measurement  items
+are  recommended  for  BLU  but  these  items  depend  on
+user requirements if they are specified.
+5. 2.1  cold  cathode  fluorescence  lamp  —  the  positive
+column   or   cathode   discharge   lamp   of   the   glow
+discharge.  Namely,  the  ultraviolet  by  the  releasing  of
+the second electron of cathode stimulates the phosphor,
+so the lamp radiates the visible ray.
+
+
+SEMI D36-1103 © SEMI 2003 2
+5. 2.2  reflection sheet — the sheet that reflects the light
+to  prevent  the  loss  of  the  light  toward  back  side  of  the
+BLU.
+5. 2.3  light  guide  plate    —  the  plate,  one  of  important
+components  of  the  BLU,  that  changes  the  path  of  the
+light from line light source to face light source.
+5. 2.4  diffusion sheet — the sheet that diffuses the light
+to the previous surface.
+5. 2.5  prism sheet — the film to enhance the brightness.
+5. 2.6  protection  sheet  —  a  kind  of  sheet  placed  on  the
+top  of  BLU  for  protecting  other  components  from
+damage outside.
+5. 2.7  frame  —  the  frame  to  make  the  components  of
+the BLU stably combined.
+5. 2.8  electrode  —  the  conductor,  an  electron  source
+inside  the  lamp,  which  releases  the  electron  by  the
+electric current or flows the discharge current.
+5. 2.9  hot  (electrode)  —  the  electrode  part  receiving
+current from the inverter, namely anode.
+5. 2.10  ground  (electrode)  —  the  opposite  part  against
+the hot electrode of the lamp,  namely cathode.
+5. 2.11  inverter  —  the  device  that  transfers  the  voltage
+of  the  power  supply  from  low  voltage  DC  to  high
+voltage AC to start the cold cathode fluorescence lamp.
+5. 2.12  lamp — the light source device mainly using the
+cold cathode fluorescence lamp that lights the BLU.
+5. 2.13  lamp  assembly  —  the  total  light  source  devices
+to light lamp.
+5. 2.14  lamp  cover  —  the  part  protecting  the  lamp
+makes  the  light  released  from  the  luminance  factor
+incident over the light guide plate.
+5. 2.15  lamp  holder  —  the  part  that  protects  the  lamp
+form external collision or contact.
+5. 2.16  lamp ring — the part that protects lamp from the
+fragility.
+5. 2.17  mercury   —   as   an   ultraviolet   light   source,
+elemental name in the periodic table is Hg.
+5. 2.18  mixing   gas   —   the   gas   needed   to   open   the
+discharge   consists   of   Neon   and   Argon   gas   etc
+maintaining the discharge.
+5. 2.19  phosphor  —  the  phosphor  with  commonly  red,
+blue  and  green  color  that  transfers  the  ultraviolet  came
+from the mercury to the visible ray.
+5. 2.20  shrinkage  tube  —  the  part  made  of  insulation
+material to protect the wire.
+5. 2.21  adhesive tape — the tape to be used for adhering
+the components of the BLU to each other.
+5. 2.22  back   cover   —   the   device   that   complements
+fragile part of the lamp, etc. by means of utensil.
+5. 2.23  clip  —  the  part  fixing  the  sheet  on  the  frame  to
+prevent flux and looseness of sheet.
+5. 3  Characteristics
+5. 3.1  luminance — the luminance flux from the surface
+per  unit  solid  angle  per  unit  area  in  a  given  direction.
+Unit: nit and/or cd/m
+2
+
+5. 3.2  average luminance — average value of measured
+luminance.
+5. 3.3  maximum  luminance  —  maximum  value  among
+the measured luminance.
+5. 3.4  minimum luminance – minimum value among the
+measured luminance.
+5. 3.5  luminance  uniformity  —  The  value  that  indicates
+the  uniformity  of  luminance  for  the  measured  point.
+And  the  value  is  obtained  by  selecting  one  or  multiple
+among below equations.
+a) (maximum/minimum) × 100
+b) (minimum/maximum) × 100
+c) [(maximum-minimum)/Maximum] × 100
+d) [(maximum-minimum)/Average] × 100
+where average = Σ(i!n)/N
+5. 3.6  center point — The position corresponding to the
+center of active area of BLU.
+5. 3.7  chromaticity  —  The  indication  of  the  suitable
+color  for  the  mark  of  same  color,  namely  the  spectro-
+distribution-chart (λ) of the measured light source. The
+light   source   color   is   indicated   by   the   3   measured
+stimulus   factors   X,   Y,   Z   (the   quality   of   stimulus
+evoking  the  primary  color  sense)  at  the  sensitivity  of
+eye (2°).
+Tri
+stimulus factors: X, Y, Z
+x = X/(X + Y + Z),
+y = Y/(X + Y + Z),
+z = Z/(X + Y + Z),
+x + y + z = 1
+(Referred by CIE 1931 color space)
+5. 3.8  life time — The shorter period of the time during
+no re-lit the lamp when lighting the lamp and during the
+flux   of   light’s   reaching   the   minimum   value   of
+regulations.
+
+
+SEMI D36-1103 © SEMI 2003 3
+5. 3.9  correlated  color  temperature  (CCT)  —  A  term
+used  to  describe  the  color  of  a  light  source  whose
+chromaticity  lies  close  to  the  Planckian  (black  body)
+locus  on  a  CIE    chromaticity  chart.  Specially,  it  is  the
+temperature  of  a  black  body  radiator  which  produces
+the chromaticity most similar to that of the light source
+evaluated. It is usually expressed in degrees Kelvin.
+5. 3.10  surface temperature — The surface temperature
+of the lamp and BLU.
+Unit: °C
+5. 3.11  turn-on  test  —  The  test  for  checking  turn-on  &
+off of the BLU.
+5. 3.12  appearance   test   —   The   test   for   appearance
+inspection of the BLU.
+5. 3.13  reliability  test  —  The  test  for  checking  the
+changes  of  the  display  quality  and  part  size  during
+lighting  of  the  BLU  at  the  measurement  condition  (ex:
+temperature  60°C,  humidity  75%,  aging  time  96hr,
+250hr, 500hr).
+5. 3.14  efficiency   —   The   ratio of   total   light   fluxes
+generated  by  the  lamp  and  consumed  electric  power  at
+input part of the lamp.
+Unit: lm / W (lumen/Watt)
+5. 4  Equipment
+5. 4.1  photometer  —  The  equipment  that  measures  the
+luminance of the object at the point of the perpendicular
+angle view for the surface of BLU.
+5. 4.2  colorimeter  —  The  equipment  that  measures  the
+color  of  the  object  at  the  point  of  the  perpendicular
+angle view for the surface of BLU.
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI D37-0304 © SEMI 2004 1
+SEMI D37-0304
+SPECIFICATION FOR LIQUID CRYSTAL DISPLAY (LCD) PELLICLES
+This  specification  was  technically  approved  by  the  Global  Flat  Panel  Display  –  Materials  &  Components
+Committee  and  is  the  direct  responsibility  of  the  Japanese  Flat  Panel  Display  –  Materials  &  Components
+Committee.    Current  edition  approved  by  the  Japanese  Regional  Standards  Committee  on  January  9,  2004.
+Initially available at www.semi.org February 2004; to be published March 2004.
+1  Purpose
+1. 1    This  specification  defines  standard  outer  and  inner
+dimensions,   stand   off,   minimum   transmittance,   and
+strength of pellicle film used for masks.
+2  Scope
+2. 1    These  dimensions  apply  to  pellicle  for  masks  that
+are   principally   used   in   fabricating   liquid   crystal
+displays.  The mask size specifies range from 330 × 450
+mm to 520 × 800 mm.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI   D6   —   Specification   for   Edge   Length   and
+Thickness  for  Liquid  Crystal  Display  (LCD)  Mask
+Substrates
+NOTICE: Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Definitions
+4. 1.1  stand  off  —  a  certain  distance  on  a  mask  or
+reticle to a membrane.
+5  Ordering Information
+5. 1    Ordering  information  shall  be  discussed  between
+suppliers and users.
+6  Requirements
+6. 1  Pellicle  Size  —  Pellicle  Size  shall  be  defined  as
+shown in Table 1.
+6. 2  Minimum  Transmittance  —  Average  transmittance
+shall be 94.5% or more within the range of wave length
+of 360–440 nm.
+6. 3  Measurement Condition for Pellicle Film Strength
+6. 3.1  Not to be broken by air blow
+6. 3.2  Air nozzle diameter: 1 mm
+6. 3.3  Air pressure: 3 kg/cm
+2
+
+6. 3.4  Distance from air nozzle to film: 5 cm
+6. 3.5  Air blow time: 5 sec.
+Table 1  Pellicle Size (mm)
+Mask Size Outer Diameter Inner Diameter   Stand Off
+330 × 450 294 427 283 416 5.9
+348          582          334          568          5.9
+390 × 610
+353          592          340          580          5.9
+520 × 610 474 592 460 578 5.9
+500 × 750 436 732 418 724 7.0
+520 × 800 474 782 456 768 5.9
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI D38-0304 © SEMI 2004 1
+SEMI D38-0304
+GUIDE FOR QUALITY AREA OF LCD MASKS
+This guide was technically approved by the Global Flat Panel Display ñ Materials & Components Committee
+and  is  the  direct  responsibility  of  the  Japanese  Flat  Panel  Display  ñ  Materials  &  Components  Committee.
+Current  edition  approved  by  the  Japanese  Regional  Standards  Committee  on  January  9,  2004.    Initially
+available at www.semi.org February 2004; to be published March 2004.
+1  Purpose
+1. 1  This guide defines the quality area of LCD masks.
+2  Scope
+2. 1    This  guide  applies  to  masks  that  are  principally
+used  in  fabricating  liquid  crystal  displays.    The  mask
+size  specifies  range  from  202.8  ◊  202.8  mm  to  700  ◊
+800 mm.
+2. 2    Substrates  with  an  edge  length  less  than  200  mm
+follow the specifications for a semiconductor mask (see
+SEMI P1).
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI   D6   ó   Specification   for   Edge   Length   and
+Thickness  for  Liquid  Crystal  Display  (LCD)  Mask
+Substrates
+SEMI P1 ó Specification for Hard Surface Photomask
+Substrates
+NOTICE: Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+None.
+5  Quality Area of LCD Masks
+5. 1  For Mask Size ≤ 550 ◊ 650 mm:
+10 mm from (peripheral) edge of blanks
+5. 2  For Mask Size > 550 ◊ 650 mm, ≤ 700 ◊ 800:
+20 mm from (peripheral) edge of blanks
+5. 3    The  quality  area  should  be  within  the  area  of  the
+writing pattern.
+
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI D39-0704 © SEMI 2004 1
+SEMI D39-0704
+SPECIFICATION FOR MARKERS ON FPD POLARIZING FILMS
+This  specification  was  technically  approved  by  the  Global  Flat  Panel  Display  –  Color  Filter  &  Optical
+Elements  Committee  and  is  the  direct  responsibility  of  the  Japanese  Flat  Panel  Display  –  Color  Filter  &
+Optical  Elements  Committee.  Current  edition  approved  by  the  Japanese  Regional  Standards  Committee  on
+April 30, 2004.  Initially available at www.semi.org June 2004; to be published July 2004.
+1  Purpose
+1. 1    Markers  on  FPD  polarizing  films,  originally  used
+for   indicating   optical   direction   of   the   films,   have
+expanded the variety of products, such as identification
+for  both  sides  of  films,  and  for  equipment.  This  also
+complicated   the   variety   of   shapes   and   colors   for
+markers.
+1. 2  This standard establishes specification for unifying
+markers used for indicating direction of FPD polarizing
+films.
+1. 3  This specification may be applied to manufacturing
+process,   quality   control,   and   designing   of   Liquid
+Crystal Display (LCD) panel.
+2  Scope
+2. 1        This    document    specifies    markers    on    FPD
+polarizing films.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  None.
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  None.
+5  Requirements
+5. 1    Markers  on  FPD  polarizing  films  shall  be  used  for
+indicating specific direction of the films.
+5. 2  Markers Specification
+5. 2.1      Makers   shall   be   simple   sign   on   the   specific
+location of protective film, as follows:
+
+Circle:
+
+Triangle:
+
+Arrow:
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI D40-0704 © SEMI 2004 1
+SEMI D40-0704
+TERMINOLOGY FOR FPD SUBSTRATE DEFLECTION
+This  standard  was  technically  approved  by  the  Global  Flat  Panel  Display  -  Factory  Automation  Committee
+and is the direct responsibility of the Japanese Flat Panel Display - Factory Automation Committee. Current
+edition  approved  by  the  Japanese  Regional  Standards  Committee  on  April  30,  2004.    Initially  available  at
+www.semi.org June 2004; to be published July 2004.
+1  Purpose
+1. 1    This  document  provides  the  terms  and  definitions
+of  a  physical  transformation  when  flat  panel  display
+(FPD) substrates are maintained statically.
+2  Scope
+2. 1    These  terms  and  definitions  are  applicable  to  both
+front and back substrates used in FPD fabrication.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1        This    standard    is    not    applicable    to    sag    at
+transportation   between   substrate   venders   and   FPD
+manufacturers.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI D9  Terminology For FPD Substrates
+SEMI  D25    Specification  For  Flat  Panel  Display
+Substrate Shipping Case
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions
+5. 1.1  Displacement  Terminology  —  The  displacement
+is  generated  by  sag  and  lift  caused  by  the  supporting
+positions  and/or  locations  of  the  FPD  substrate.  The
+displacement   is   defined   by   the   values   of   two-
+dimensional  sag  and  lift.  Two  dimensional  maximum
+displacement   is   also   defined   by   values   of   two-
+dimensional maximum sag and lift, and the thickness of
+the FPD substrate.
+5. 1.1.1  support plain — a support plain is defined as a
+horizontally  ideal  flat  plain  which  is  enhanced  from  a
+horizontally  straight  line  defined  from  the  top  position
+of the support members, as shown in Figure 1.
+5. 1.1.2  support   member    support   member   is   a
+support  device  such  as  a  support  pin  to  support  FPD
+substrates, as shown in Figure 1.
+5. 1.1.3  support  span   support  span  is  defined  as  at
+least  the  distance  between  two  support  members,  as
+shown in Figure 1.
+
+Support Member
+Support plain
+Support Span
+
+
+Figure 1
+Definitions of Support Span, Support Member and
+Support Plain
+
+5. 1.1.4  lift   lift  is  defined  as  the  displacement  to  the
+bottom surface of substrate from the support plain. It is
+located above position from the support plain, as shown
+in Figure 2.
+5. 1.1.5  sag   sag  is  defined  as  the  generated  distance
+between  the  bottom  surface  of  the  substrate  and  the
+support plain caused by gravity, as shown in Figure 2.
+
+
+Substrate
+Support Plain
+Support Member
+
+Lift
+Sag
+Sag
+
+
+Figure 2
+Definitions of Lift and Sag
+
+NOTE 1:  In case there is sag at the edge of a substrate, sag is
+defined  by  the  distance  to  position  “A”  from  the  support
+plain. The position “A” is determined by the intersection point
+of between the edge of the bottom surface of the substrate and
+the edge of the beveled region, as shown in Figure 3.
+
+
+SEMI D40-0704 © SEMI 2004 2
+
+Sag
+
+Substrate
+Support Plain
+Beveled region
+A
+
+
+Figure 3
+Definition of Sag at Edge
+
+NOTE 2:  In case there is lift at the edge of a substrate, lift is
+defined by the distance to position “B” from the support plain.
+The  position  “B”  is  determined  by  the  intersection  point  of
+between  the  edge  of  the  bottom  surface  of  the  substrate  and
+the edge of the beveled region, as shown in Figure 4.
+
+
+Lift
+
+Substrate
+Support Plain
+Beveled region
+B
+
+
+Figure 4
+Definition of Lift at Edge
+
+5. 1.1.6  maximum   displacement    two-dimensional
+maximum displacement (Max. Displacement) is defined
+by  maximum  lift  (Max.  Lift)  +  maximum  sag  (Max.
+Sag) + substrate thickness. Maximum displacement can
+have  the  same  value  at  several  different  locations,  as
+shown in Figure 5.
+
+Max. Sag
+Substrate
+Support plain
+Support Member
+
+Max. Lift
+
+Max. Sag
+
+Max. Displacement
+Max. Displacement
+
+
+Figure 5
+Maximum Displacement
+
+5. 1.2  Displacement        Mode        Terminology 
+displacement   modes   are   classified   into   five   types
+caused  by  supporting  conditions,  which  are  number  of
+supporting   positions,   distance   of   each   supporting
+position and location of supporting positions.
+5. 1.2.1  A Type  substrates of this type have a convex
+shape.  The  substrate  shape  is  named  “A  type”.  A  type
+mode  consists  of  lift  at  center  location  and  two  sags  at
+the left and right edges, as shown in Figure 6.
+Lift
+Sag
+Sag
+
+Figure 6
+A Type Substrate Shape
+5. 1.2.2  U  Type   the  type  is  the  concave  shape  of
+substrate. The substrate shape is named as “U type”. U
+type  mode  consists  of  Sag  at  center  location  and  two
+lifts  which  are  consist  of  the  Lift  at  left  and  at  right
+edge locations, as shown in Figure 7.
+
+
+Lift
+Sag
+
+Lift
+
+Figure 7
+U Type Substrate Shape
+
+NOTE 3:  Depending  on conditions, support  span  length  may
+change  slightly  due  to  the  substrate  slipping  on  its  support
+members,  as  shown  in  Figure  8.  The  support  span  is  shorter
+when  sag  is  relatively  larger,  as  shown  in  Figure  9.  On  the
+other  hand,  the  support  span  is  longer  when  sag  is  relatively
+smaller,  as  shown  in  Figure  10.  Since  the  change  of  support
+span  is  predicted  to  be  significantly  smaller  than  the  support
+span, the change of support span is ignored.
+
+Shorter support span
+
+Longer support span
+
+Figure 8
+Change of Support Span Due to Sag Magnitude
+
+
+SEMI D40-0704 © SEMI 2004 3
+
+Substrate
+Support Member
+Beveled region
+Support Position
+Shorter Support Span
+
+
+Figure 9
+Position on Small Sag
+
+
+Substrate
+Support Member
+Beveled region
+Support Position
+Longer Support Span
+
+Figure 10
+Position on Large sag
+
+5. 1.2.3  M  Type   the  type  has  an  alphabetic  “M”
+shape,  which  mixes  the  convex  shape  and  the  concave
+shape,  as  shown  in  Figure  11.  This  substrate  shape  is
+named   “M   type”.   M   type   consists   of   all   sag   and
+requires   sag   to   exist   at   both   edge   regions   of   the
+substrate, even if the substrate has a continuous wave or
+corrugation in its shape.
+
+
+Sag
+Sag
+Sag
+
+Figure 11
+M Type Substrate Shape
+
+5. 1.2.4  W  Type   the  type  has  an  alphabetic  “W”
+shape,  which  mixes  the  convex  shape  and  the  concave
+shape,  as  shown  in  Figure  12.  This  substrate  shape  is
+named “W” type. W type combines sag and lift. Also W
+type  requires  lift  to  exist  at  both  edge  regions  of  the
+substrate, even if the substrate has a continuous wave or
+corrugation in its shape.
+
+
+Lift
+Lift
+Lift
+Sag
+Sag
+
+Figure 12
+W Type Substrate Shape
+
+5. 1.2.5  S Type  the type has a rotated alphabetic “S”
+shape,  which  mixes  the  convex  shape  and  the  concave
+shape,  as  shown  in  Figure  13.  This  substrate  is  named
+“S”  type.  S  type  combines  sag  and  lift.  Also  S  type
+requires  an  asymmetrical  shape,  which  consists  of  sag
+and lift at both edge regions, even if the substrate has a
+continuous wave or corrugation in its shape.
+
+
+Sag
+Lift
+Sag
+
+Lift
+
+
+Figure 13
+S Type Substrate Shape
+6  Related Documents
+6. 1  SEAJ
+1
+(Semiconductor  Equipment  Association  of
+Japan)     Liquid     Crystal     Display     Manufacturing
+Equipment Dictionary
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+
+1 Semiconductor Equipment Association of Japan, 4F Grand Maison
+Shinjuku Gyoen., 1-7-10 Shinjuku Shinjuku-ku, Tokyo 160-0022
+Japan Phone 03.3353.7651 Fax 03.3353.7970
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI D41-0305 © SEMI 2005 1
+SEMI D41-0305
+MEASUREMENT METHOD OF SEMI MURA IN FPD IMAGE QUALITY
+INSPECTION
+This  standard  was  technically  approved  by  the  Global  Flat  Panel  Display  -  Factory  Committee  and  is  the
+direct  responsibility  of  Japanese  Flat  Panel  Display  Factory  Automation  Committee.  Current  edition
+approved  by  the  Japan  Regional  Standards  Committee  on  November  24,  2004.    Initially  available  at
+www.semi.org January 2005; to be published March 2005.
+1  Purpose
+1. 1  This standard will define the application of the formula derived in SEMI D31 to various test conditions closed
+to visual inspection for MURA in FPD image quality inspection.
+1. 2  SEMI D31 has derived a formula to detect defects and blemishes in FPD in comparison with human eyes and
+CCD based instruments.
+1. 3  In general the difficulty of implementing instruments to replace human inspector lays on human factor variation
+with its origin and location.
+2  Scope
+2. 1  This  standard  is  applicable  to  FPDs.  This  standard  mainly  deals  with  both  the  measurement  method  of  Semu
+and the revised definition of Semu. The target display size is typically from 8”(20.3cm) to 30”(76.2cm) diagonal.
+NOTICE:  This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory or other limitations prior to use.
+3  Limitations
+3. 1  In this standard, the target of measurement, Mura, is limited as below.
+3. 2  Line  defects  narrower  than  a  pixel  and  pixel  dot  defects  are  not  the  subject  of  this  standard.  In  this  issue,  this
+standard follows SEMI D31.
+3. 3  In this standard, it is dealt with monochrome displays like gray scale patterns in color patterns. In this issue, this
+standard follows SEMI D31.
+4  Reference Standards
+4. 1  SEMI Standards
+SEMI D31 —Definition of Measurement Index (Semu) for Luminance Mura in FPD Image Quality Inspection
+4. 2  Other Documents
+Flat Panel Display Measurement Standard, VESA FPDM 2.0, June 2001, IEC 61747-6.
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+5  Terminology
+5. 1  This standard follows SEMI D31 in terminology.
+5. 2  Abbreviations and Acronyms
+5. 2.1  JND — abbreviation for Just Noticeable Difference used in the field of Psychophysics; for a certain stimulus,
+the  smallest  change  in  stimulus  (luminance,  for  example)  where  a  difference  can  be  perceived.  Specifically,  it  is
+often used to indicate a statistical value where the probability of the difference being “perceptible” is 50% and the
+probability of the difference “not being perceptible” is 50%.  Also expressed using lower case letters, jnd.
+
+
+SEMI D41-0305 © SEMI 2005 2
+5. 3  Definitions
+5. 3.1  Dynamic  Range  —  the  divided  ability  from  a  minimum  detecting  level  to  a  maximum  detection  level  of  a
+CCD equipment.
+5. 3.2  Gray Scale — gray scale on an image display.  This standard indicates level 32 out of 64 level gray scale.
+5. 3.3  L0 Display — gradation 0 out of 64.  (Pitch Black)
+5. 3.4  L63 Display — gradation 63 out of 64 (Completely white)
+5. 3.5  Luminance Accuracy — the error ratio of the luminance.
+5. 3.6  Measuring points — the number of CCD sensors.
+5. 3.7  Semu — Semi Mura, Measurement index for Mura, defined in this standard. Please refer toSEMI D31.
+5. 3.8  Viewing direction — the angle between the CCD equipment and the test sample.
+6  Related Definitions for Mura Measurement
+6. 1  Mura is a Japanese term meaning blemish and has been adopted in English to provide a name for imperfections
+of  the  display  pixel  matrix  surfaces  that  are  visible  when  the  display  is  in  operation.  Inspect  the  display  surface
+while  displaying  a  white  full  screen,  a  black  full  screen,  and  a  dark  gray  full  screen  (VESA  FPDM  2.0).  In  many
+case, the Mura phenomena is detected by human eyes. But this is very confusing in the quality aspect. And it is very
+difficult to quantify the level.
+6. 2  The definition in SEMI D31 shows mainly that Luminance Mura is related with the size of Mura. Therefore this
+standard will follow the Cjnd concept.
+6. 3  Semu Definition
+6. 3.1  Under specific conditions, the below regression function can explain the level of Mura between the area and
+contrast for Human Mura JND.  (Refer to SEMI D31.)
+Cjnd  = F (Sjnd) = 1.97/Sjnd
+0. 33
++ 0.72
+Cjnd:  Contrast of Mura at JND
+(Unit:  % relative to background = 100%)
+Sjnd: The area of Mura at above contrast (Units:  mm
+2
+)
+6. 3.2  In the above equation, contrast at JND is inversely proportional to the area raised to the 0.33 powers.  In short,
+it indicates that as Mura the area gets smaller, only darker Mura can be sensed.
+6. 3.2.1  For the subject Mura, the Mura level, Semu, can be calculated using the below formula.
+Semu     = |Cx| / Cjnd
+= |Cx| / F (Sx)
+= |Cx| /(1.97/Sx
+0. 33
++ 0.72)
+Cx:  Average contrast of Mura being measured (Unit:  % relative to background = 100%)
+Sx:  The surface area of Mura being measured (mm
+2
+)
+7  Measurement Method
+7. 1  Environment Conditions:
+• Temperature: 25 ± 2°C
+• Humidity: 65 ± 20% RH
+• Illumination of surrounding: in a dark room below 10 lux
+• Air flow: no wind
+
+
+SEMI D41-0305 © SEMI 2005 3
+7. 2  Measurement Method
+7. 2.1  Warm-Up Time
+7. 2.1.1  Warm-up  time  is  the  period  from  power-on  to  saturation  of  the  light  intensity.  The  optical  measurement
+needs 15 to 30 minutes for more accurate measurement. In case of Mura, it has a little luminance difference between
+the luminance of Mura and the luminance of background the area. Therefore it must be measured in a saturate state.
+
+Figure 1
+General Warm-Up Characteristics
+
+7. 2.2  Light Measurement Device (LMD)
+7. 2.2.1  When  human  eyes  measure  the  FPD,  it  is  detected  in  the  total  active  area.  So  the  measuring  equipments
+must  have  similar  characteristics  to  the  human  eye  detecting  method.  In  this  standard,  we  recommend  the  CCD
+equipments to detect the Mura phenomena.
+1) Dynamic Range — The dynamic range of the CCD equipment should be over 12 bits because the Semu value
+must be controlled by 0.1 Semu.
+2) Luminance  Accuracy  —  The  Accuracy  of  Luminance  is  very  important  to  measure  Mura,  because  the  Mura
+value is determined by low luminance difference. Therefore the accuracy of luminance should be ±0.01 cd/m
+2
+
+at the 100cd/m
+2
+.
+3) Measuring  Points  —  The  measuring  points  should  be  over  200(H)  X  200(V)  points.  It  is  the  same  as  the
+number of the CCD sensors.
+7. 2.3  Test Pattern for Semu Measurement
+7. 2.3.1  The test pattern should be set by 50 cd/m
+2
+in the white pattern. The permissible error is 10 cd/m
+2
+.
+7. 2.4  Viewing Direction
+7. 2.4.1  The viewing direction angle should be set 90° ± 1°.
+90° ±1°
+
+DUT
+LMD
+Measuring Distance
+
+
+Figure 2
+Viewing Direction for the Semu Measurement
+
+
+SEMI D41-0305 © SEMI 2005 4
+7. 2.5  Measuring Distance for Semu Measurement
+7. 2.5.1  Because we use a CCD Camera, the measuring distance is set by the same angle in all DUT. We standardize
+the 15′′ display size and testing distance is 500 mm. But the testing distance should be different from each display
+size.
+7. 2.5.2  In case of the 15′′ display, the angle from the center to the edge position can be calculated below.
+)4.(..........
+_
+5. 0_
+tan
+distanceMeasuring
+distancediagonal
+×
+=
+
+θ
+Therefore the reference angle is about 20.856° and then it can be calculated the measuring distance of all DUT.
+
+)5...(
+tan
+5. 0_
+_
+θ
+×
+=
+distancediagonal
+distanceMeasuring
+
+
+Table 1  Examples of Measuring Distance
+Display Size
+(in.)
+14. 1′′         15′′            17′′            18.1′′         20.1′′
+Measuring Distance
+(mm)
+470 mm    500 mm    566 mm    603 mm    670 mm
+#1 This measuring distance can have the same measuring angle in each different size sample.
+
+7. 2.6  Determination of the Threshold for the Mura Area
+7. 2.6.1  It  is  very  important  to  calculate  the  Semu  value.  If  some  threshold  values  are  different  from each  test
+equipment,  the  Semu  test  results  are  different.  Therefore  we  use  the  Cx  value  to  determine  the  threshold  value.  In
+this standard, when the Cx value is over 1.01, we can consider the Mura area.
+7. 2.7  Area Calculation Method
+7. 2.7.1  There are two main parameters for calculating the Semu value. The first one is the Cx value and the other is
+the Sx value. The Sx value means that the surface area of Mura being measured. We can calculate the size of Mura
+area with counting the number of pixels under the CCD equipment test.
+7. 2.8  Test Sample Pattern for the Sample Test
+7. 2.8.1  Originally,  the  test  pattern  should  be  set  by  50  cd/m
+2
+in  the  white  pattern.  And  the  permissible  error  is  10
+cd/m
+2
+.  But  we  use  some  artificial  Mura  test  patterns  for  checking  the  sensitivity  of  the  Semu  parameter.  The  test
+pattern has 10 Muras in Figure 3. Each Mura has a different gray level. In Figure 3, the left one shows darker Mura
+patterns, and the right one shows brighter Mura patterns.
+
+Figure 3
+Test Patterns for Mura
+7. 2.9  Test Results for the Sample Patterns
+7. 2.9.1  Table  2  shows  that  the  actual  results  for  the  darker  Mura  test  pattern  and  Table  3  is  for  the  brighter  Mura
+pattern. Figure 4 is a graphic information result for the dark Mura and Figure 5 is a graphic information result for the
+bright Mura.
+
+
+SEMI D41-0305 © SEMI 2005 5
+
+Figure 4
+The Graph Information for the Darker Mura Patterns
+
+
+Figure 5
+The Graph Information for the Brighter Mura Patterns
+
+Table 2  The Test Result for the Darker Mura Patterns
+
+
+
+Table 3  The Test Result for the Brighter Mura Patterns
+
+
+
+
+
+
+SEMI D41-0305 © SEMI 2005 6
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI D42-0305 © SEMI 2005 1
+SEMI D42-0305
+SPECIFICATION FOR ULTRA LARGE SIZE MASK SUBSTRATE CASE
+This  specification  was  technically  approved  by  the  Global  Flat  Panel  Display  Committee  and  is  the  direct
+responsibility  of  the  Japanese  Flat  Panel  Display  Committee.    Current  edition  approved  by  the  Japanese
+Regional Standards Committee on January 11, 2005.  Initially available at www.semi.org February 2005; to
+be published March 2005.
+1  Purpose
+1. 1  This standard defines the specification for ultra large size substrate case used in LCD (Liquid Crystal Display)
+manufacturing process.
+2  Scope
+2. 1  The  specification  defined  by  this  standard  is  applicable  to  the  case  for  containing  substrate  materials  used  in
+LCD mask manufacturing process.  The objective substrate range for the mask size defined by this standard is 850 ×
+1,200 mm and more.
+2. 2  The automatic handling of the mask substrate becomes indispensable, in accordance with the larger size of the
+substrate.  This specification defines the handling volume for mask substrate inside the case.
+NOTICE: This  standard  does  not  purport  to  address  safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish  appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Referenced Standards
+3. 1  None.
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+4  Terminology
+4. 1  Definition
+4. 1.1  case — an enclosed container for storing one mask substrate.
+5  Requirements
+5. 1  Handling volume for ultra large size mask substrate used in LCD manufacturing process.
+5. 1.1  The hatched area in Figure 1 shall be the exclusion volume for handling ultra large size mask substrate used in
+LCD manufacturing process.
+5. 1.2  Symbols used in Figure 1 are defined in Table 1.
+
+
+SEMI D42-0305 © SEMI 2005 2
+
+Figure 1
+Handling Volume for Ultra Large Size Mask Substrate used in LCD Manufacturing Process
+
+Table 1  Symbols Outline
+Symbol
+Used
+Definition                                                                           Specification
+A1 Exclusion Volume (Handling Volume) Defined by X1, X2, X3, W1, Y1, Y2, Y3, W2, H1, and H2
+A2 Exclusion Volume (Handling Volume) Defined by X1, X2, X3, W1, Y1, Y2, Y3, W2, H1, and H2
+X Long Side Length of Mask Substrate Defined by the Substrate Size
+Y Short Side Length of Mask Substrate Defined by the Substrate Size
+X1 Center of Long Side Length of Mask Substrate
+to the edge of A1 volume
+75 mm
+X2 Center of Long Side Length of Mask Substrate
+to the inside of A2 volume
+165 mm
+X3 Center of Long Side Length of Mask Substrate
+to the outside of A2 volume
+350 mm
+W1 Edge of Long Side Length of Mask Substrate to
+the inside of the case
+≥ 70 mm
+Y1 Center of Short Side Length of Mask Substrate
+to the edge of A1 volume
+75 mm
+Y2 Center of Short Side Length of Mask Substrate
+to the inside of A2 volume
+165 mm
+Y3 Center of Short Side Length of Mask Substrate
+to the outside of A2 volume
+350 mm
+W2 Edge of Short Side Length of Mask Substrate to
+the inside of the case
+≥ 80 mm
+
+
+SEMI D42-0305 © SEMI 2005 3
+Symbol
+Used
+Definition                                                                           Specification
+H1 Bottom surface of mask substrate to the inside
+of the case body
+≥ 50 mm
+H2 Top of mask substrate to the top of the case
+body
+10 mm ≤, ≤ 15mm
+
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI INTERNATIONAL STANDARDS
+GASES
+Semiconductor Equipment and Materials International
+
+SEMI C3-0699 © SEMI 1986, 19991
+SEMI C3-0699
+SPECIFICATIONS FOR GASES
+IMPORTANT NOTICE: This specification is incomplete. The incomplete sections are noted as “To Be Determined.”
+The  Gases  Committee  has  agreed  to  publish  this  section  prior  to  completion  as  a  service  to  the  Semiconductor
+Industry.
+This specification was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee.  Current edition approved by the North American Regional Standards
+Committee  on  February  28,  1999.    Initially  available  at  www.semi.org  April  1999;  to  be  published  June
+
+# 1999
+
+1999. Originally published in 1986; previously published in 1995.
+1  Preface
+1. 1  Recognizing the importance of  impurity content of
+gases  in  the  manufacture  of  semiconductors,  suppliers
+responded   by   introducing   products   with   improved
+analytical characterization, notably for trace impurities.
+1. 2   The  SEMI  Gases  Committee  b e gan  its  efforts  in
+the    spring    of    1979.    With    this    publication,    the
+Committee     establishes     the     definitions,     general
+procedures,  specifications,  and  analytical  procedures
+for the gases listed in the index.
+1. 3   Products  which  meet  all  of  the   requirements  may
+be described as “meeting SEMI specifications.”
+1. 4   Where  an  analytical  procedure   different  from  that
+provided is substituted by a supplier or user, the burden
+of  proof  is  on  said  supplier  or  user  to  confirm  the
+equivalency. It should be noted that the following list of
+criteria  was  considered  when  determining  the  specified
+analytical method.
+Reliability
+Ease of Use
+Maintenance
+Precision
+Accuracy
+Sensitivity
+Versatility
+Availability of Equipment
+1. 5    The   specifications   provided   by    this   work   are
+intended   to   serve   for   gases   to   be   used   in   the
+manufacture   and   processing   of   semiconductors   and
+advanced    electronic    devices    and    circuits.    The
+specifications  and  the  associated  test  procedures  are
+guidelines  based  on  the  experience  of  suppliers  and
+users.  The  function  of  the  specifications  is  to  establish
+desired standards of quality.
+1. 6  Where feasible, a specification  of content shall be
+expressed as a numerical limit in units of mole per mole
+(mole/mole).
+1. 7  For a major component, the va lue (assay or purity)
+shall be expressed as a minimum permissible limit. For
+an impurity, the value shall be expressed as a maximum
+permissible limit.
+1. 8    A   gas   conforming   to   the   specif ications   will
+commonly  contain  more  of  the  major  component  than
+the  minimum  permissible  limit  or  contain  less  of  an
+impurity  (or  several  impurities)  than  the  SEMI  C3
+maximum  permissible  limit.  In  neither  case  shall  the
+gas be considered as of higher quality than that defined
+by the specification.
+1. 9   It  is  not  practical  to  consider  e very  impurity  or
+contaminant    that    might    be    present.    For    certain
+applications,  it  is  recognized  that  more  stringent  or
+additional   specifications   and   procedures   might   be
+required.  The  intent  of  these  specifications  and  the
+associated  procedures  is,  on  one  hand,  to  assure  that  a
+gas is suitable for the common uses to which it may be
+put in the manufacture and processing of semiconductor
+devices  and,  on  the  other  hand,  to  be  consistent  with
+contemporary manufacturing processes for that gas.
+1. 10     The    Committee    is    continuing    w ork    on
+improvement   of   specifications   and   procedures   and
+addition  of  other  gases  and  systems  such  as  mixed
+gases.      The      Committee      welcomes      comments,
+suggestions, and recommendations.
+2  Definitions
+2. 1    Abbreviations   and   Symbols   —    In   this   work,
+abbreviations  and  symbols  used  shall  be  restricted  to
+those listed in Table 1.
+Table 1  Abbreviations and Symbols
+Abbreviation or
+Symbol
+Explanation
+ASTMAmerican Society for Testing and
+Materials
+atmatmosphere
+BPBoiling point
+°Ctemperature, degrees Celsius
+
+SEMI C3-0699 © SEMI 1986, 19992
+Abbreviation or
+Symbol
+Explanation
+cccubic centimeter(s)
+CGACompressed Gas Association
+cmcentimeter
+DOTDepartment of Transportation (U.S.)
+°Ftemperature, degrees Fahrenheit
+ftfoot, feet
+ggram(s)
+Lliter(s)
+lbpound(s)
+maxmaximum
+minminimum
+mLmilliliter(s)
+mmmillimeter(s)
+MPmelting point
+mwmolecular weight (g/mole)
+ohm-cmohm - centimeter
+ppm
+mole/mole x 10
+6
+ppb
+mole/mole x 10
+9
+ppba
+mole/mole x 10
+9 atomic
+ppbw
+weight/weight x 10
+9
+psiapounds per square inch absolute
+psigpounds per square inch gauge
+SCFstandard cubic foot (feet)
+temp.temperature
+volvolume
+vol/volvolume/volume
+wt.weight
+w/vweight/volume
+wwweight/weight
+2. 2  accuracy — (To Be Determine d)
+2. 3  assay — determination of the  content of a specific
+component with no evaluation of other components.
+2. 4    comparison   of   analytical   resul ts   with   specific
+limits — in the comparison of an analytical result for a
+test   with   the   numerical   limit   associated   with   that
+specification,  the  result  shall  be  rounded  to  the  number
+of   significant   figures   indicated   for   that   limit.   (See
+Rounding Numbers, SEMI C3, Section 2.22).
+2. 4.1   Consequently,  a  specification   stated  as  96%
+minimum will be met by a result as small as 95.5%, and
+that stated as 96.0% minimum will be met by a result as
+small  as  95.95%.  A  specification  of  0.1%  maximum
+will  be  met  as  large  as  0.14%,  and  that  of  0.10%
+maximum by a result as large as 0.104%.
+2. 5   cryogenic  liquid  —  liquid  with   a  normal  boiling
+point below –150°C.
+2. 6   cylinder  pressure  —  pressure   contained  in  a  gas
+cylinder prior to regulation.
+2. 7    cylinder   tare   weight   —   contain ers   which   are
+stamped  to  denote  the  weight  of  the  container  or  the
+weight  of  the  container  and  the  valve  less  the  product.
+The   weight   does   not   include   the   weight   of   any
+protective cylinder cap.
+2. 8    density   —   weight   per   unit   volu me   (w/v)   is
+expressed  as  grams  per  liter  for  gases  at  zero  degrees
+Celsius, one atmosphere.
+2. 9   detection  limit  —  the  detection   limit  for  all  the
+analytical  methods  that  appear  in  this  section  of  the
+BOSS  must  be  established  for  each  impurity  defined.
+The   detection   limit   must   be   stated   as   well   as   the
+statistical  method  used  to  establish  that  detection  limit.
+The  analytical  method  should  be  chosen  such  that  the
+detection limit is at or below the specification.
+2. 10  dewpoint — the temperature a t which liquid first
+condenses when vapor is cooled.
+2. 11    expression   of   content   and   conc entration —
+unless  otherwise  stated,  a  specification  limit  and  the
+analytical result related to it shall be expressed in units
+of mole per mole (mole/mole).
+2. 12  filtration — (To Be Determine d)
+2. 13  Gas Purity Guideline —  A  Ga s  Purity  Guideline
+is  a  proposed  specification  recommended  by  one  or
+more users as needed in the future for the production of
+semiconductor  devices.    They  reflect  future  needs  in
+which  test  methods  are  not  generally  available  at  the
+time of proposal.  These guidelines are approved by the
+Gases   Committee   for   publication   in   the   Standards
+Book.      Products   meeting   these   guidelines   are   not
+necessarily commercially available.
+2. 14  heavy metals — (To Be Determ ined)
+2. 15   liquified  compressed  gas  —  a   gas  which  under
+the charged pressure is partially liquid at a temperature
+of 21.1°C (70°F).
+2. 16  metals — (To Be Determined)
+2. 17   molecular  weight  —  the  sum  o f  the  atomic
+weights of all the atoms in the molecule.
+2. 18  nonliquified compressed gas —  a gas, other than
+a  gas  in  solution,  which  under  the  charging  pressure  is
+entirely gaseous at a temperature of 21.1°C (70°F).
+
+SEMI C3-0699 © SEMI 1986, 19993
+2. 19   physical  properties  —  physica l  properties  shall
+not usually be employed for specification purposes; for
+information,   however,   representative   values   for   a
+particular  gas,  as  supplied,  may  be  included  as  an  item
+in the monograph for that gas.
+2. 20     quality    —    the    quality    is    determ ined    by
+subtracting  the  sum  of  the  maximum  acceptable  gas
+phase  impurity  levels,  expressed  in  percent,  from  100.
+The  result  is  truncated  after  the  first  significant  figure
+which  is  not  a  nine.  The  quality  does  not  represent  an
+assay.
+2. 21   rare  gas  —  any  of  the  six  gase s,  all  noble,
+comprising   the   extreme   right-hand   group   of   the
+Periodic  Table;  namely  helium,  neon,  argon,  krypton,
+xenon, and radon.
+2. 22   rounding  numbers  —  the  follo wing  rules  for
+rounding  of  measured  or  calculated  values  shall  be
+employed:
+2. 22.1   When  the  figure  next  beyond  t he  last  place  to
+be retained is less than 5, leave unchanged the figure in
+the last place retained.
+2. 22.2   When  the  figure  next  beyond  t he  last  place  to
+be retained is greater than 5, increase by 1 the figure in
+the last place retained.
+2. 22.3   When  the  figure  next  beyond  t he  last  place  to
+be retained is 5 and there are no figures beyond this 5 or
+only zeroes, (a) increase by 1 the figure in the last place
+retained if it is odd, or (b) leave the figure unchanged if
+it is even.
+2. 22.4   When  the  figure  next  beyond  t he  last  place  to
+be  retained  is  5  and  there  are  figures  other  than  zeroes
+beyond this 5, increase by 1 the figure in the last place
+retained.
+2. 22.5   Obtain  the  rounded  value  in  on e  step  by  direct
+rounding  and  not  in  two  or  more  steps  of  successive
+rounding.
+2. 23   specific  gravity  —  the  ratio  of   the  mass  of  a  gas
+to  the  mass  of  an  equal  volume  of  air  at  a  specified
+temperature.  For  liquids,  it  is  the  ratio  of  the  mass  of
+the liquid to the mass of an equal volume of water.
+2. 24    specification   and   specification    limits   —   the
+specification  limit  should  fall  above  or  in  the  range  of
+the result and its uncertainty.
+2. 25    temperature   —   temperature   va lues   shall   be
+expressed in degrees Celsius.
+2. 26  tolerances in measurements  —   use  the  following
+guidelines for mixture tolerances:
+2. 26.1   Mixtures  should  be  specified  b y  the  major
+component  and  the  concentration  of  the  desired  minor
+component(s).
+2. 26.2    All   component   gases   shall   adh ere   to   the
+appropriate SEMI specification, if available.
+2. 26.3   The  impurity  levels  in  the  mix ture  shall  not
+exceed the algebraic sum of the impurities specified for
+the designated components.
+2. 26.4   Mixtures  shall  be  prepared  acc ording  to  the
+following mixing tolerances:
+Concentration of Minor
+Component
+Preparation Tolerance Level
+10 - 99 ppm± A 20%
+100 - 999 ppm± A 10%
+0. 1 - 50%± A 5%
+2. 26.5    Standards   used   to   verify   mixin g   tolerance
+(henceforward  called  Certified  Standards)  shall  meet
+the following requirements:
+Range Preparation
+Tolerance of Each
+Minor Component
+Analytical
+Accuracy of Each
+Minor Component
+0 - 9.9 ppmTo Be DeterminedTo Be Determined
+10 - 99 ppm± A 10%± A 3%
+100 - 999 ppm± A 5%± A 2%
+0. 1% - 50%± A 4%± A 2%
+2. 27   Calibration  Standards  —  Cali bration  standards
+shall  be  as  close  as  practical  to  specification  and  may
+not  exceed  ten  times  (10×)  the  specification  unless
+specifically excepted in procedure.
+3  Samples
+3. 1   Sample  Size  —  The  quantity  o f  gas/liquid  in  a
+single  sample  container  shall  be  sufficient  to  perform
+the  analysis  for  all  the  listed  specifications.  If  a  single
+sample   does   not   contain   a   sufficient   quantity   of
+gas/liquid   to   perform   all   of   the   required   analyses,
+additional samples from the same source shall be taken
+under similar conditions.
+3. 2  Gaseous  Samples  —  Gaseous   samples  shall  be
+representative of the gaseous supply. Sampling shall be
+performed in accordance with one of the following:
+3. 2.1    By   withdrawing   a   sample   from    the   supply
+container through a suitable connection into the sample
+container. (For safety reasons, the sample container and
+sampling  system  must  have  a  rated  service  pressure  at
+least equal to the pressure in the supply container.)
+
+SEMI C3-0699 © SEMI 1986, 19994
+3. 2.2    By   connecting   the   container   be ing   sampled
+directly to the analytical equipment.
+3. 2.3   By  selecting  a  representative  c ylinder  from  the
+cylinders in the lot.
+3. 3   Liquid  Sampling  (Vaporized)  —   Vaporized  liquid
+samples  shall  be  representative  of  the  liquid  supply.
+Sampling   shall   be   in   accordance   with   one   of   the
+following:
+3. 3.1   By  vaporizing  liquid  from  the   supply  container
+in the sample tubing.
+3. 3.2  By flowing liquid from the sup ply container into,
+or    through,    a    suitable    container    in    which    a
+representative sample is collected and then vaporized.
+3. 4   Liquid  Samples  (Liquified  Com pressed  Gases) —
+A   direct   connection   between   the   liquid   phase   of
+liquified  compressed  gas  containers  and  the  analytical
+equipment  can  be  achieved,  provided  suitable  flash
+vaporization is obtained.
+3. 5    Lot   Acceptance   Tests   —   These    are   analyses
+performed  on  the  gas/liquid  in  the  shipping  container,
+or  a  sample  thereof,  which  is  representative  of  the  lot.
+(The    terms    “lot”    and    “batch”    may    be    used
+interchangeably.)
+3. 6  Lots — One of the following i s to be used:
+3. 6.1   No  specific  quantity  or  any  qu antity  of  product
+agreed upon between the supplier and the customer.
+3. 6.2   All  of  the  product  supplied  dur ing  the  contract
+period.
+3. 6.3   All  of  the  product  supplied  or   containers  filled
+during a calendar month.
+3. 6.4   All  of  the  product  supplied  or   containers  filled
+during seven consecutive days.
+3. 6.5   All  of  the  product  supplied  or   containers  filled
+during a consecutive 24-hour period.
+3. 6.6   All  of  the  product  supplied  or   containers  filled
+during one eight-hour shift.
+3. 6.7  All of the product supplied in  one shipment.
+3. 6.8   All  of  the  product  supplied  in   one  shipping
+container.
+3. 6.9   All  of  the  product  supplied  in   the  container(s)
+filled on one manifold at the same time.
+3. 7   Number  of  Samples  Per  Lot  —   The  number  of
+samples  per  lot  shall  be  in  accordance  with  one  of  the
+following:
+3. 7.1  One sample per lot.
+3. 7.2   Any  number  of  samples  agreed   upon  by  the
+supplier and the customer.
+4  Sampling
+4. 1   For  gases  provided  in  cylinder s,  a  sample  can  be
+taken  directly  for  analysis.  For  gases  provided  in  bulk
+quantities  or  cylinders  where  direct  sampling  is  not
+appropriate, a sample may be taken per SEMI sampling
+procedures.
+4. 2  Sampling Procedures
+4. 2.1  Cryogenic Liquid Sample — L iquid Samples for
+Oxygen,  Nitrogen,  and  Argon,  using  the  TTU-131/E
+sampler.
+WARNING:  DO  NOT  USE  THIS  PROCEDURE
+FOR THE SAMPLING OF LIQUID HYDROGEN.
+4. 2.2   Applicable  Document  —  Milit ary  Specification
+MIL-S-27626D  16  August  1979,  Amendment  1,  24
+April 1981.
+4. 2.3     General    Description    —    The    T TU-131/E
+cryogenic  sampler  is  a  small,  portable  pressure  vessel
+used  to  receive,  vaporize,  and  contain  a  representative
+sample  of  cryogenic  liquid  from  a  supply  source.  The
+vaporized  sample  is  withdrawn  as  a  gas  for  analytical
+purposes.
+4. 2.4  Theory — The sampler is used  to isolate a small
+but   representative   quantity   of   cryogenic   liquid   and
+vaporize    the    major    component    and    all    volatile
+impurities  to  form  a  homogeneous  gas  sample  suitable
+for  analysis.  The  cryogenic  liquid  is  used  to  cool  a
+shielding space and sampling cup prior to admitting the
+liquid  to  the  sampling  cup.  The  purpose  of  pre-cooling
+the  sampling  cup  is  to  prevent  concentrating  impurities
+which could result when the warm cup causes the liquid
+to   vaporize,   leaving   behind   impurities   with   higher
+boiling points.
+4. 2.4.1    When   the   cup   is   adequately   co oled,   the
+sampling  valve  is  opened,  allowing  liquid  to  fill  the
+cup.  When  the  sampling  valve  is  closed,  the  liquid  is
+trapped  in  the  cup  and  will  vaporize  as  a  result  of
+atmospheric  heating.  Once  the  sample  is  trapped,  the
+flow of liquid is stopped.
+4. 2.5  Preparation for Sampling
+4. 2.5.1  The sample should be kept in t he same product
+service  to  avoid  sample  contamination.  If  a  product
+change   is   required,   always   thoroughly   purge   the
+sampler  or  evacuate  to  100  microns  prior  to  taking  the
+sample.
+4. 2.5.2   When  taking  the  sample,  the  s ampler  is  to
+remain  secured  to  the  bottom  half  of  the  case  and
+MUST be in an upright position.
+
+SEMI C3-0699 © SEMI 1986, 19995
+4. 2.5.3   Inspect  the  sampler  vessel  for   any  obvious
+physical  defects,  such  as  dents,  gouges,  bent  fittings,
+etc. Since the sampler is a pressurized vessel, it should
+be removed from service if any damage is apparent.
+4. 2.6  Sampling Procedure
+4. 2.6.1  Remove cover.
+4. 2.6.2    Loosen   inlet   and   outlet   fittings    dust   caps
+located on side of the vessel.
+CAUTION:         SAFETY         GLASSES         AND
+PROTECTIVE GLOVES ARE REQUIRED WHEN
+OPERATING   THIS   EQUIPMENT.   SAMPLING
+SHOULD      BE      DONE      ONLY      IN      WELL
+VENTILATED AREAS.
+4. 2.6.3   Relieve  pressure  in  vessel  thro ugh  vents  in
+dust caps by cautiously opening inlet sampling valve.
+4. 2.6.4   When  gauge  indicates  atmosph eric  pressure
+and flow ceases, close inlet sampling valve and remove
+dust caps.
+4. 2.6.5   Connect  fill  hose  to  supply  tan k  and  inlet
+fittings of sampler.
+4. 2.6.6   Open  supply  tank  outlet  valve.   Gas  and  liquid
+will begin to flow from the sampler outlet.
+CAUTION:    WHEN    OXYGEN    IS    SAMPLED,
+SOME  ADDITIONAL  PRECAUTIONS  MUST  BE
+OBSERVED.  IF  THERE  IS  NO  FACILITY  SUCH
+AS A CLEAN CONCRETE PAD ON WHICH THE
+LIQUID  OXYGEN  CAN  EVAPORATE  SAFELY,
+IT   WILL   BE   NECESSARY   TO   CATCH   THE
+LIQUID  OXYGEN  IN  A  CLEAN,  PREFERABLY
+SEAMLESS  ALUMINUM  BUCKET.  USE  A  LINE
+WITH  MINIMUM  INSIDE  DIAMETER  OF  ONE-
+HALF INCH TO DIRECT THE LIQUID OXYGEN
+INTO   THE   BUCKET.   FURTHERMORE,   IT   IS
+IMPORTANT        THAT        THERE        IS        NO
+RESTRICTION  IN  THIS  LINE  BECAUSE  THE
+BACK    PRESSURE    DEVELOPED    MAY    BE
+SUFFICIENT  TO  CAUSE  THE  LIQUID  IN  THE
+CUP    TO    OVERFLOW    INTO    THE    LARGE
+CHAMBER.  ON  WARMUP,  THE  PRESSURE  IN
+THE  SAMPLER  COULD  BECOME  EXCESSIVE,
+PARTICULARLY    IF    THE    SAMPLE    WERE
+SUBCOOLED,           NECESSITATING           THE
+REPLACEMENT    OF    THE    SAFETY    RELIEF
+DEVICE.
+4. 2.6.7   Allow  sampler  to  cool  until  a  s teady  flow  of
+liquid appears at outlet.
+CAUTION:    AVOID    CONTACT    WITH    THE
+FLOW      OF      CRYOGENIC      LIQUID.      THE
+EXTREMELY     LOW     TEMPERATURE     CAN
+CAUSE PAINFUL INJURIES.
+4. 2.6.8  Open inlet sampling valve com pletely to allow
+liquid to enter sampling cup.
+4. 2.6.9  After 30 seconds, close sampli ng valve.
+4. 2.6.10  Close supply tank outlet valve .
+4. 2.6.11  Disconnect fill hose.
+4. 2.6.12   Invert  sampler  for  five  minute s  to  allow
+sampling  cup  to  empty  and  provide  vaporization  of
+liquid.
+4. 2.6.13  At ambient temperature the sa mpler should be
+at  400-500  psig,  indicating  that  a  good  sample  was
+obtained. A lower pressure would indicate a leak in the
+sampler  or  that  the  cup  was  not  filled  with  liquid.  If
+there  is  any  doubt,  release  gas  from  sampler  and  take
+another sample.
+4. 2.6.14  Re-install inlet and outlet fittin g caps. Do not
+tighten.
+4. 2.6.15  Affix a tag identifying the prod uct to the inlet
+sampling valve handwheel.
+4. 2.6.16  Install cover.
+4. 3  Gas Phase Sample — (To Be  Determined)
+4. 4  Liquid Sample — (To Be Dete r mined)
+4. 5   Delivery  to  Analytical  Instrum ents  —  (To  Be
+Determined)
+5  Quantification (To Be Dete rmined)
+5. 1  Linear Response
+5. 1.1  Direct Comparison
+5. 1.2  Calibration Curve
+5. 2  Non-Linear Response
+5. 2.1  Direct Comparison
+5. 2.2  Calibration Curve
+6  Gas Chromatography
+6. 1   The  analysis  of  many  gaseous   impurities  in  bulk
+and   specialty   gases   is   done   by   means   of   a   gas
+chromatography  separation  of  impurities  from  the  gas
+matrix   and   quantification   using   a   broad   range   of
+sensitive   and   sometimes   selective   detectors.   This
+section   will   provide   a   guide   for   the   format   and
+representation of such a procedure. Figure 1 is designed
+to   represent   the   format   for   submission   of   such
+methodology.
+6. 2    Sample   Introduction   —   By   its    nature,   gas
+chromatography  implies  the  use  of  carrier  gases  into
+which  the  gaseous  sample  is  injected  and  carried  into
+the  separation  medium,  either  solid  or  liquid  in  nature.
+
+SEMI C3-0699 © SEMI 1986, 19996
+The introduction of a gaseous sample into a carrier gas
+stream is accomplished by means of a sample injection
+valve.  Valves  for  this  purpose  can  be  any  of  several
+types,  although  the  most  commonly  used  are  either
+rotary or diaphragm valves using loops of stainless steel
+tubing  of  a  known  volume.  It  is  not  necessary  to
+diagram   such   sample   introduction   systems   for   a
+procedure  unless  the  introduction  system  is  unique  to
+the  application  by  way  of  special  conditions  for  safety
+or other reasons critical to the accuracy of the sampling
+technique.
+6. 3   Separations  —  It  is  an  accepta ble  and  common
+practice  to  quantitate  several  gaseous  impurities  with  a
+single  gas  chromatographic  separation.  Occasionally  a
+single     injected     sample     volume     will     undergo
+"multidimensional"  separation  to  achieve  the  necessary
+analysis.  Rotary  valves,  diaphragm  valves  or  Dean's
+pressure  switching  again  are  used  to  move  impurities
+from  one  separation  medium  to  another,  or  from  one
+column to another. Where multidimensional techniques
+are  used,  they  should  be  accompanied  by  flowpath
+diagrams   which   clearly   indicate   valving   and   their
+appropriate   positions.   The   valving   sequences   used
+should   have   adequate   explanation   to   clarify   the
+separations.
+6. 4   Columns  —  Columns  used  are   generally  of  3.2
+mm  (1/8  in.)  o.d.  and  2.2  mm  (0.085  in.)  i.d.  stainless
+steel  of  varying  lengths  and  packed  with  one  of  many
+solid supports. Columns may be specified by length and
+packing  material  if  these  standard  dimensions  apply.  If
+another  dimension  or  material  is  used  for  the  column
+itself,  it  should  be  specified  by  material  type,  and  by
+o.d.   and   i.d.   in   mm.   Packing   materials   should   be
+specified  by  material,  %  coating  and  coating  type  if
+applicable,   and   mesh   size.   Capillary   columns   are
+assumed  to  be  fused  silica  unless  otherwise  specified
+and should be specified by i.d. in mm, film thickness in
+μm,  and  length  in  meters.  Column  temperatures  and
+applicable  program  rates  should  be  given  for  each
+independently heated zone in degrees Celsius.
+6. 5  Carrier and Support Gases —  Carrier and support
+gas  flow  rates  for  all  separations  should  be  specified.
+Carrier  and  support  gases  used  should  fall  into  the
+general  purity  requirements  in  Table  2  and  purity  need
+not  be  specified  unless  the  analysis  has  specific  purity
+requirements    for    safety,    accuracy,    or    component
+lifetime.   Flows   should   be   specified   in   mL/min   or
+L/min,  or  as  linear  velocity  for  open  tubular  capillary
+columns.
+6. 6    Detectors   —   Detector   technolo gy   should   be
+specified,  and  alternative  detection  may  be  assumed
+equivalent    for    detectors    of    like    selectivity    and
+sensitivity.      Table   2   gives   a   reference   of   relative
+detector sensitivity and is provided as a guideline only.
+Detector   parameters   are   less   likely   to   be   easily
+formatted  since  detector  technologies  vary  widely  in
+their   specific   parameters.   All   elements   critical   to
+achieving  like  sensitivity  must  be  included,  such  as
+temperature,  make-up  gases  and  their  flows,  flame,
+combustion  or  reaction  gas  ratios  or  flows,  voltages,
+currents,  or  any  additional  settings  as  outlined  by  the
+detector manufacturer.
+6. 6.1   Detection  limits  must  be  speci fied  for  each
+impurity  for  the  actual  methodology  used.  Because  the
+lower   detection   limit   can   be   greatly   influenced   by
+retention  time  for  any  impurity,  it  is  important  that  the
+detection  limit  be  derived  for  the  impurity  within  the
+context   of   the   method,   and   not   solely   on   the
+detectability   of   the   detector.   Detection   limits   are
+assumed to be calculated on a mole/mole basis.
+6. 7   Operating  Procedures  —  The   standard  procedure
+assumed  for  the  gas  chromatographic  analysis  of  most
+gases is as follows:
+
+# 1
+
+1. Inject  the  calibration  standard  onto  the  column
+using  a  gas  sampling  valve.  Record  the  retention
+time(s) and peak area(s) for all impurities detected.
+
+# 2
+
+2. Analyze   the   sample   to   be   tested   in   the   same
+manner as the calibration standard.
+
+# 3
+
+3. Repeat 1.
+
+# 4
+
+4. Compare  the  average  peak  area  of  the  calibration
+standard with that of the sample being tested. (See
+Calculation of Concentration, in Section 6.9.)
+6. 7.1  The method should specify an y additional valve
+switching or special parameters which are necessary for
+the  successful  analysis  of  the  impurities  specified  for
+the  procedure.  It  must  also  specify  the  order  of  elution
+if multiple impurities are detected.
+6. 8   Calibration  —   Calibration  for   these  analytical
+procedures   is   generally   by   external,   single   point
+calibration.    Calibration    gas    mixtures    should    be
+specified   and   are   assumed   to   be   within   the   range
+specified  in  Section  2.26.  Calibration  standards  are
+assumed  to  be  made  in  a  balance  of  gas  representative
+of  the  sample  unless  otherwise  specified.  If  calibration
+techniques  other  than  external,  point  calibrations  are
+used, they must be described.
+6. 9  Calculation of Concentration —  The calculation of
+the concentration of impurity within the sample is based
+on  a  comparison  of  the  average  peak  area  of  the
+impurity in the calibration standard, to the average peak
+area  of  the  impurity  within  the  sample,  based  on  the
+formula:
+Sample Peak Area
+Standard Peak Area
+×
+Concentratio
+n
+of Standard
+=
+Concentratio
+n
+of Sample
+
+SEMI C3-0699 © SEMI 1986, 19997
+It is assumed that the results of such a calculation must
+not   exceed   the   specification   for   the   product   being
+analyzed.
+6. 10    Notes   —   Any   special   requirem ents   for   any
+section within gas method may be included here. Notes
+should     reflect     the     minimum     requirements     to
+successfully  achieve  the  desired  detection  limits  with
+the equipment specified.
+1. 1  Impurity analyzed - description of method (e.g., gas
+chromatograph with thermal conductivity detector).
+1. 1.1 Detection Limit - (mole/mole)
+1. 1.2 Instrument Parameters
+1. 1.2.1 Column(s):
+Adsorbent, mesh size, length in meters, (dimensions if
+other than 1/8 in. by 0.085 in.)
+1. 1.2.2 Carrier Flow:  mL/min, gas type
+1. 1.2.3 Support Gases:
+1. 1.2.4 Sample Volume: mL
+1. 1.2.5 Temperatures:
+Detector:                °C
+Columns:               °C
+Other Equipment:               °C
+1. 1.3 Calibration Standard - amount ppm (or ppb)
+impurity, balance if other than helium.
+1. 1.4 Operating Procedure (Parameters)
+1. 1.4.1 Order of elution
+1. 1.4.2 Special instructions
+1. 1.5 Notes
+1. 1.6 Figures
+Figure 1
+Format for Gas Chromatographic Method
+7  Special Analyses
+7. 1  Resistivity Measurement — Th e American Society
+of   Testing   and   Materials   (ASTM)   is   developing   a
+method   to   measure   resistivity   in   substrates.   This
+method may be referenced when it is finalized.
+7. 2  Metal Analysis of Gaseous Sili con Compounds
+7. 2.1   Because  of  the  importance  of  t race  elemental
+impurities   impacting   silicon   device   characteristics,
+there   is   an   increasing   need   for   the   detection   and
+quantitative   analysis   of   low-level   impurities   in   the
+silicon  materials  used  in  device  fabrication.  Some  of
+these     materials     are     gaseous     silicon-containing
+compounds,  such  as  silane  and  the  chlorosilanes.  For
+elemental  analysis  by  FTIR  or  PLS,  a  compound  must
+first  be  converted  to  a  solid  form  such  as  a  single
+crystalline     rod     or     disc.     For     the     quantitative
+determination    of    metals    and    some    non-metallic
+elements,  the  gases  can  be  passed  through  a  series  of
+bubblers   containing   high-purity   DI   water   or   dilute
+acids.  The  aqueous  media  can  be  concentrated  and
+analyzed  by  suitable  techniques  such  as  ICP  or  AA
+spectroscopy. In both cases, the recovery is assumed to
+be 100% efficient or, in other words, there is no loss of
+any impurity from the silicon source.
+7. 2.2        FTIR       (Fourier       Transform       Infra red)
+Spectroscopy,  PLS  (Photoluminescence  Spectroscopy)
+and  NAA  (Neutron  Activation  Analysis)  are  probably
+the  most  useful  tools  for  the  detection  and  analysis  of
+trace  quantities  of  elemental  impurities  in  solid  silicon
+materials.    NAA    requires    special    silicon    material
+specimens  to  be  submitted  to  neutron  irradiation  in  a
+nuclear reactor and the analysis facility to be approved
+by  the  Nuclear  Regulatory  Commission  (NRC)  and
+other  government  agencies.  In  contrast,  FTIR  and  PLS
+do not require special governmental regulations, and the
+instrumentation is available on the open market.
+7. 2.3     An    FTIR    spectrometer    is    an    in frared
+spectrometer  in  which  a  Michelson  Interferometer  is
+used  in  place  of  a  grating  or  prism.  The  simplicity  of
+the  Michelson  Interferometer,  with  only  one  moving
+part, an oscillating mirror, along with a He-Ne laser as a
+reference, provides nearly absolute frequency accuracy.
+This translates into a high spectral resolution. FTIR has
+greater  detection  efficiency  since  the  energy-wasting
+slits required for dispersive spectrometers are not used.
+With  a  microcomputer  to  control  the  functions  and  to
+perform  data  processing,  signal  averaging  is  used  to
+improve the signal-to-noise ratio. All these features lead
+to  good  reproducibility  and  rapid  measurement  results
+compared with conventional IR techniques.
+7. 2.3.1  As FTIR is a transmission met hod, it requires a
+single  crystalline  silicon  specimen  with  flat,  parallel,
+mirror-polished  surfaces.  For  oxygen  in  silicon,  the
+absorption  peak  at  9  microns  is  used  for  quantitative
+analyses.  For  carbon  in  silicon,  the  absorption  band  at
+16   microns   is   used.   Both   measurements   may   be
+performed     at     room     temperature.     (The     carbon
+determination  has  strong  interference  from  the  silicon
+phonon  band,  but  can  be  resolved  with  high  purity,
+carbon-free    standards.)    For    the    determination    of
+shallow   donors   and   acceptors,   FTIR   measurements
+must  be  made  at  liquid  helium  temperatures,  but  the
+through-put  is  low.  Although  the  operation  of  today's
+FTIR  instrument  is  relatively  simple,  the  interpretation
+of    the    results    through    software    and    associated
+problems/solutions is not. Quantitative analysis is based
+upon    the    measured    percent    transmission    at    the
+characteristic  wavelength  and  compared  to  standards.
+Detection limits at about 10-12°K are in the 10
+11
+to 10
+13
+atoms/cc  for  shallow  donors  and  acceptors,  3.1  ×  10
+14
+atoms/cc for oxygen, and 2 × 10
+15
+atoms/cc for carbon.
+
+SEMI C3-0699 © SEMI 1986, 19998
+Table 2  Carrier Gases for GC Instruments
+DetectorGasDetection Level
+0 - 100 ppt100 ppt - 100
+ppb
+100 ppb - 100
+ppm
+100 ppm - 1%1% - 10%  10% - 100%
+TCD/USDArN/AN/A99.9999%99.999%99.998%99.995%
+H
+2
+N/AN/A99.9995%99.999%99.99%99.99%
+HeN/AN/A99.9995%99.9995%99.999%99.99%
+N
+2
+N/AN/A99.9995%99.9995%99.998%
+< 0.5 ppm O
+2
+99. 998%
+HID/DIDHeN/A99.9999%99.9999%N/AN/AN/A
+He*N/A99.995%99.995%N/AN/AN/A
+FIDHeN/AN/A99.9995%99.999%99.998%99.99%
+N
+2
+N/AN/A99.999%
+< 0.05 ppm
+THC
+99. 999%
+< 0.05 ppm
+THC
+99. 998%
+< 0.5 ppm THC
+99. 998%
+H
+2
+**N/AN/A99.9995%
+< 0.2 ppm THC
+99. 999%
+< 0.5 ppm THC
+99. 99%
+< 0.5 ppm THC
+99. 99%
+Air**N/AN/AHC Free
+< 0.1 ppm THC
+Zero Air
+< 1 ppm THC
+Zero Air
+< 1 ppm THC
+Blended Air
+FPDHeN/A99.9995%99.999%N/AN/AN/A
+N
+2
+N/A99.999%
+< 0.05 THC
+99. 998%
+< 0.5 ppm THC
+N/AN/AN/A
+H
+2
+**N/A99.995%
+< 0.2 ppm THC
+99. 999%
+< 0.5 ppm THC
+N/AN/AN/A
+Air**N/AHC Free
+< 0.1 ppm THC
+Zero Air
+< 1 ppm THC
+N/AN/AN/A
+RGDAr99.999%
+< 1 ppm H
+2
+/CO
+99. 999%
+< 1 ppm H
+2
+/CO
+99. 999%
+< 1 ppm H
+2
+/CO
+99. 999%
+< 1 ppm H
+2
+/CO
+N/AN/A
+N
+2
+99. 999%
+< 1 ppm H
+2
+/CO
+99. 999%
+< 1 ppm H
+2
+/CO
+99. 999%
+< 1 ppm H
+2
+/CO
+99. 999%
+< 1 ppm H
+2
+/CO
+N/AN/A
+AirZero Air
+< 1 ppm H
+2
+/CO
+Zero Air
+< 1 ppm H
+2
+/CO
+Zero Air
+< 1 ppm H
+2
+/CO
+Zero Air
+< 1 ppm H
+2
+/CO
+N/AN/A
+ECDN
+2
+99. 9995%99.998%
+< 0.5 ppm O
+2
+99. 998%
+< 0.5 ppm O
+2
+N/AN/AN/A
+CH
+4
+/ArEC Grade
+< 1 ppb Total
+Halocarbons
+EC Grade
+< 1 ppb Total
+Halocarbons
+EC Grade
+< 1 ppb Total
+Halocarbons
+N/AN/AN/A
+PIDHeN/A99.9995%99.995%N/AN/AN/A
+N
+2
+N/A99.9995%99.998%N/AN/AN/A
+MS/MSDH
+2
+99. 9995%
+< 0.2 ppm THC
+99. 999%
+< 0.5 ppm THC
+99. 999%
+< 0.5 ppm THC
+99. 99%
+< 0.5 ppm THC
+99. 99%
+< 0.5 ppm THC
+99. 99%
+< 0.5 ppm THC
+Ar99.999%99.998%99.998%99.998%99.998%99.998%
+He99.9995%99.999%99.999%99.995%99.995%99.995%
+N
+2
+99. 9995%99.998%99.998%99.998%99.998%99.998%
+*purge gas
+**combustion gases
+
+SEMI C3-0699 © SEMI 1986, 19999
+Table 3  Detectors for Gas Chromatography
+DetectorTypeTemp
+Limit
+Analytes
+Analyzed*
+Carrier GasesSelectivityDetectabilityLinear
+Range
+Thermal Conductivity
+(TCD)
+U400    CF
+4
+, PH
+3
+, SF
+6
+,
+Fixed Gases
+He, H
+2
+, Ar, N
+2
+N/A
+4 × 10
+-10
+g/mL
+>10
+5
+Ultrasonic (USD)UCO
+2
+, O
+2
+, N
+2
+,
+CO
+He, H
+2
+, Ar, O
+2
+, N
+2
+,
+Air
+N/A
+1 × 10
+-9
+g/mL
+10
+6
+Helium Ionization
+(HID)
+U325H
+2
+, O
+2
+, Ar,
+N
+2
+, CO
+HeN/A
+4 × 10
+-14
+g/mL
+10
+4
+Discharge Ionization
+(DID)
+Usame as HIDHeN/A
+1 × 10
+-12
+g/mL
+10
+4
+Flame Ionization
+(FID)
+S420C
+1
+-C
+5
+, C
+x
+F
+y
+,
+C
+x
+Cl
+y
+F
+z
+, CO,
+CO
+2
+H
+2
+/Air**, He, N
+2
+,
+H
+2
+Hydrocarbons
+2 × 10
+-12
+g/sec
+>10
+7
+Flame Photometric
+(FPD)
+S420H
+2
+S
+H
+2
+/Air**, He, N
+2
+,
+H
+2
+S/C 10
+3
+-10
+6
+:1
+P/C > 10
+5
+:1
+S<1 × 10
+-11
+g/mL
+P<1 × 10
+-12
+g/mL
+S ≥ 10
+3
+P ≥ 10
+4
+Reduction Gas
+(RGD)
+S300CO, H
+2
+N
+2
+, Ar, He, AirH
+2
+, CO
+H
+2
+0. 5 – 2 ppb
+CO 0.5 - 4 ppb
+10
+3
+-10
+4
+Electron Capture
+(ECD) (Ni
+63)
+S420N
+2
+, P5halogens
+5 × 10
+-15
+g
+10
+4
+(linearized)
+Photoionization (PID)S350
+PH
+3
+, H
+2
+S,
+AsH
+3
+Ar, H
+2
+, N
+2
+By ionization
+energy
+2 × 10
+-13
+g/sec
+>10
+7
+Thermionic (TID)S420H
+2
+, 8% H
+2
+/He
+N/P 1:5
+N/C 5 × 10
+4
+:1
+P/C 10
+5
+:1
+N 1 × 10
+-13
+g/sec
+P 5 × 10
+-14
+g/sec
+10
+5
+Mass Spectroscopy
+(MS)
+S320He, H
+2
+variable with
+mass range
+EI: 10-100 pg
+NICI: variable as low as
+25 fg
+10
+5
+-10
+6
+Mass Density (MSD)S
+Atomospheric
+Pressure Mass
+Spectroscopy
+(APIMS)
+*this does not represent detector capability; rather those analytes analyzed by current SEMI procedures
+**used as combustion gases
+7. 2.4     Photoluminescence    Spectrosco p y    (PLS)    of
+single  crystalline  silicon  specimens  at  liquid  helium
+temperatures  exhibits  sharp  emission  lines.  Electron
+hole   pairs   called   excitons   are   formed   by   incident
+radiation  (514.5  nm  line  from  argon  laser).  The  decay
+of  these  “exciton  or  multi-exciton”  states  yields  the
+lines characteristic of the impurity atoms. For elemental
+detection, the observed emission lines must be assigned
+as being extrinsic (due to impurities) or intrinsic (due to
+silicon).  The  luminescence  process  itself  appears  too
+complex  to  attain  precision  or  accuracy  from  basic
+calculations.  The  PLS  emissions  are  analyzed  as  a
+function  of  wavelength,  suggested  to  be  1077  to  1139
+nm,  for  the  elemental  determination  of  shallow  donors
+and  acceptors  in  silicon.  Quantitative  measurements  of
+impurities    are    based    on    the    extrinsic-to-intrinsic
+intensity  ratio  and  compared  to  standards.  The  PLS
+emissions  are  analyzed  using  a  monochromator  and
+detected  by  a  photomultiplier.  Sensitivity  in  the  range
+of 5 × 10
+10
+to 5 × 10
+11
+atoms/cc has been claimed for B,
+Al, P, and As.
+7. 2.4.1   In  order  to  obtain  reliable  mea surements,  the
+silicon  specimens  must  be  in  single  crystalline  form
+with a mirrored surface. Epitaxial wafers with layers of
+thickness greater than 10 microns are suitable, since the
+sample's  depth  appears  to  be  less  than  5  microns.
+However,  it  is  still  in  the  development  stage,  and  very
+few  laboratories  have  such  capability.  A  number  of
+questions remain unanswered, including the following:
+1. What is the effect of compensating impurities?
+
+SEMI C3-0699 © SEMI 1986, 199910
+2. What  is  the  effect  of  deep  levels  and  intracenter
+transitions on the intensity ratios?
+3. What  is  the  effect  of  crystallographic  defects?  Of
+point defects? And of surface defects?
+4. Interference  from  other  shallow  impurities  may
+mask  the  detection  of  very  low-level  impurities.
+For  instance,  PLS  signal  of  Al  at  1078.5  nm  may
+be affected by strong signals from As at 1079.0 nm
+or at 1078.2 nm.
+7. 2.4.2  CVD-deposited films in single  crystalline form
+can  be  used  for  elemental  detection  of  donors  and
+acceptors  for  gaseous  silicon  compounds.  However,
+PLS  does  not  detect  carbon,  oxygen,  or  nitrogen.  It  is
+also   not   useful   for   metallic   impurities.   That   is,   in
+general, PLS is useful only for a very limited number of
+impurities.
+7. 2.5  Based on this analysis, it was r ecommended that
+the  SEMI  Gases  Analytical  Procedures  Subcommittee
+should  wait  for  further  development  of  innovative  and
+improved   analytical   techniques   for   the   quantitative
+determination  of  low-level  elemental  impurities  based
+on FTIR and PLS. Meanwhile, techniques such as ICP,
+AA,  and  Ion  Chromatography  may  be  applicable  to  a
+very large number of impurities of interest to the silicon
+semiconductor industry. Development and adaptation of
+these technologies should be encouraged.
+7. 2.6   AA  (Atomic  Absorption  Spect rophotometry),
+ICP      (Inductively      Coupled      Plasma      Emission
+Spectrometry),   and   IC   (Ion   Chromatography)   are
+probably the most valuable instrumental techniques for
+the detection and analysis of trace elemental impurities
+in aqueous media. These techniques usually require that
+the  elements  be  dissolved  in  an  aqueous  medium.  Due
+to  this  fact,  and  the  fact  that  the  elemental  impurities
+are  typically  present  in  silane  and  the  chlorosilanes  at
+the   ppb   and   sub-ppb   levels   (which   is   beyond   the
+detection limits for these techniques for most elements)
+it  is  usually  necessary  to  concentrate  the  impurities
+prior  to  analysis,  such  as  by  passing  the  gas  through  a
+series of impingers (i.e., gas bubblers) containing either
+DI  water  or,  more  commonly,  acidic  solutions.  From
+analyses   of   the   impinger   solutions   together   with
+knowledge concerning impinger solution volume(s) and
+both  the  flow  rate  and  period  of  flow  of  the  gas,  the
+concentration of the respective elements in the original
+gas should be readily calculated to a fairly high degree
+of accuracy.
+7. 2.6.1   Atomic  Absorption  Spectroph otometry  can  be
+used for elemental analyses for a multitude of elements
+in  the  periodic  table  at  detection  limits  ranging  from
+ppm to ppb, depending both on the exact configuration
+or setup and the element being analyzed. The principle
+of  the  technique  involves  conversion  of  an  incoming
+aerosol  into  an  atomic  vapor  which  can  absorb  light
+from  a  primary  light  source,  usually  a  hollow  cathode
+lamp  or  an  electrodeless  discharge  lamp  (EDL),  the
+latter    providing    improved    sensitivity    and    lower
+detection  limits  for  certain  elements.  In  addition,  a
+flameless (i.e., graphite furnace) technique can be used
+to  increase  sensitivities  and  detection  limits  50  to  100
+times better.
+7. 2.6.2   Complementary  to  Atomic  Ab sorption  Spec-
+trophotometry  is  Flame  Emission  Spectrophotometry,
+which  differs  in  the  absence  of  a  primary  light  source.
+Again,   a   flame   is   utilized   to   convert   an   incoming
+aerosol  into  an  atomic  vapor.  However,  the  flame  also
+thermally  elevates  the  atoms  to  an  excited  electronic
+state,  and,  when  the  atoms  return  to  the  ground  state,
+they  emit  light  detectable  by  a  photomultiplier.  This
+technique  is  ideal  for  the  analysis  of  Li,  Ha,  and  K  at
+ppm and sub-ppm levels.
+7. 2.6.3      Inductively     Coupled     Plasma     E mission
+Spectrometry    (ICP)    is    rapidly    replacing    Atomic
+Absorption  Spectrophotometry  for  elemental  analyses
+of  liquids,  since  approximately  70%  of  the  elements  in
+the   periodic   table   can   be   determined   with   better
+precision  and  equal  or  better  sensitivity  with  minimal
+sample  preparation.  Detection  limits,  in  fact,  for  this
+technique range from ppm to sub-ppb levels, depending
+both  on  instrumental  and/or  experimental  conditions
+and    the    element    being    analyzed.    ICP    involves
+nebulizing  liquid  samples  either  directly  or  in  diluted
+form into a spray chamber where a stream of argon gas
+carries   the   smaller   sample   droplets   into   the   axial
+channel of an argon plasma which reaches temperatures
+of  4000-8000°K.  The  common  technique  employs  an
+optical   system   for   detection.   Newer   techniques   are
+being  investigated  using  a  mass  spectrometer  as  a
+detection  system  coupled  to  an  ICP  excitation  source.
+This is referred to as ICP/MS.
+7. 2.6.4  Ion Chromatography (IC) uses  the principle of
+ion exchange to separate anionic and cationic species at
+detection  limits  ranging  from  ppm  to  ppb,  depending
+again   both   on   the   instrumental   and   experimental
+conditions and on the element being analyzed.
+7. 2.6.5    Detection   of   ionic   species   in   IC    is   most
+commonly  accomplished  by  an  electrical  conductivity
+detector   capable   of   measuring   most   non-transition
+metal   cations   and   anions   to   sub-ppm   levels.   An
+electrochemical  detector  (for  amperometric  detection)
+is  available  for  measuring  any  electroactive  species
+having an oxidation/reduction potential near the applied
+electrochemical  cell  potential.  This  latter  detector  is
+capable  of  measuring  many  ionic  species  at  ppb  levels
+(e.g., Br
+–
+, CN
+–
+, S
+–
+, etc.).
+
+SEMI C3-0699 © SEMI 1986, 199911
+7. 2.6.6    Of   the   three   aforementioned   te chniques,
+Atomic   Absorption   Spectrophotometry,   Inductively
+Coupled   Plasma   Emission   Spectrometry,   and   Ion
+Chromatography,    the    most    sensitive    method    of
+analyzing for a multitude of elements is, without doubt,
+graphite  furnace  (i.e.,  flameless)  Atomic  Absorption
+Spectrophotometry.      However,      this      instrumental
+technique  suffers  the  disadvantage  of  being  slow  and
+tedious.   Consequently,   Inductively   Coupled   Plasma
+Emission   Spectrometry   is   rapidly   replacing   Atomic
+Absorption  Spectrophotometry  for  elemental  analyses
+of   liquids   since   it   is   a   reasonably   fast   technique
+requiring  minimal  sample  preparation  with  practical
+detection limits being superior to those of standard (i.e.,
+flame) Atomic Absorption Spectrophotometry for most
+elements  and  approaching  those  of  graphite  furnace
+Atomic Absorption Spectrophotometry for many of the
+elements.  An  added  attractive  feature  of  Inductively
+Coupled    Plasma    Emission    Spectrometry    is    that
+eventually  it  may  be  used  to  analyze  for  elements
+directly in gases. Preliminary work, in fact, is currently
+being conducted in this area by several research groups.
+Although  Ion  Chromatography  can  be  used  to  analyze
+for a multitude of non
+-
+transition metal cations (e.g., Li
++
+,
+Na
++
+,  K
++
+,  Rb
++
+,  Cs
++
+Ba
++2
+,  Mg
++2
+,  Ca
++2
+,  Sr
++2
+,  etc.)  it  is
+limited  by  the  fact  that  currently  only  a  few  transition
+metals  (e.g.,  Ni
++2
+,  Cu
++2
+,  Co
++2
+,  Zn
++2
+,  Fe
++2
+,  Fe
++3
+,  Cd
++2
+,
+etc.) can be analyzed by this instrumental technique. IC,
+however,  has  the  advantage  in  that  it  can  be  used  for
+analyzing  for  complex  cationic  and  especially  anionic
+species  directly  (e.g.,  NH
+4
++
+,  NO
+2
++
+,  NO
+3
+-
+,  SO
+3
+-
+,  SO
+4
+-2
+,
+PO
+4
+-3
+,  OC1
+-
+,  SCN
+-
+,  CN
+-
+,  CO
+3
+-2
+,  etc.)  and  for  different
+oxidation  states  for  certain  elements  (e.g.,  Fe
++2
+and
+Fe
++3
+),  unlike  the  other  techniques,  which  are  strictly
+limited  to  elemental  analyses  only.  Furthermore,  IC  is
+extremely    valuable    for    analyzing    ionic    species,
+particularly anions (e.g., F
+-
+, Cl
+-
+, etc.) of many common
+elements  which  otherwise  cannot  be  analyzed  directly
+by   either   Atomic   Absorption   Spectrophotometry   or
+Inductively Coupled Plasma Emission Spectrometry.
+8  Standards
+8. 1    Certified   Standards   shall   be   m ade   by   weight
+traceable  to  the  National  Institute  of  Standards  and
+Technology.
+9  Determination of Precisio n
+9. 1  To Be Determined.
+10  Safety
+10. 1   Because  of  the  continuing  evo lution  of  safety
+precautions,  it  is  impossible  for  this  publication  to
+provide  definite  statements  related  to  the  safe  handling
+of individual chemicals. The user is referred to product
+labels, product data sheets, government regulations, and
+other relevant literature.
+
+SEMI C3-0699 © SEMI 1986, 199912
+11  Gas Use Table (see Notes   1, 2)
+Gas Use Table
+Ammonia
+Argon
+Arsine
+Boron Trichloride
+Boron Trifluoride
+Boron-11-Trifluoride
+Carbon Tetrfluoride
+Chlorine
+Diborane
+Dichlorosilane
+Disilane
+Heliu
+m
+Hexafluoroethane
+Hydrogen
+Hydrogen BromideHydrogen Chloride
+Hydrogen Fluoride
+Methyl Fluoride
+Nitrogen
+Nitrogen Trifluoride
+Nitrous Oxide
+Oxygen
+Perfluoropropane
+Phosphine
+Silane
+Silicon Tetrachloride
+Sulfur Hexafluoride
+Trichlorosilane
+Trifluoromethane
+Tungsten Hexafluoride
+AnnealingXX
+Carrier Gas for BubblersXX
+Chamber CleansXXXX
+CVD Carrier GasXX
+CVD SourceX
+CVD B SourceX
+CVD P SourceX
+CVD EpitaxialX
+CVD Nitride X
+CVD OxidesX  XX  X
+CVD PolysiliconX  XX
+CVD SilicidesX
+Epitaxial SiliconX  XX
+CVD Silicon Nitride XXXX
+CVD Tungsten/SilicideX
+DopantsXX
+EtchingXXX
+Metal EtchingXXXXX  XXX
+Nitride EtchingXXXXXXXX
+Oxide EtchingXXXXXXXXX
+Silicon EtchingXX  XXXXXX
+Ion ImplantX  XX  XX
+Metal Gettering or CVD Tube CleansX
+Nitridation X
+Oxide GetteringXX
+OxynitridesX
+Plasma AshingX
+Pressurizing SystemsXX
+Reactive Ion EtchXX
+Reducing GasX
+SputteringX
+Inert Gas Blanketing/PurgingXXX
+
+SEMI C3-0699 © SEMI 1986, 199913
+NOTE  1:  This  table  is  intended  to  identify  various  gases
+described in the SEMI standards and the typical uses for those
+gases  in  semiconductor  processes.  It  is  not  all-inclusive.  As
+other uses arise, they should be brought to the attention of the
+Gases  Committee  so  that  revisions  can  be  made  to  this  table
+as needed.
+NOTE  2:  Performance  of  a  gas  in  an  application  may  vary
+depending on the impurities in the gas. It is the responsibility
+of  the  user  to  determine  the  appropriate  gas  quality  for  any
+specific application.
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the  user.  Users  are  cautioned  to  refer  to  manufacturer's
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI C3.12-1102 © SEMI 1983, 2002 1
+SEMI C3.12-1102
+SPECIFICATION FOR AMMONIA (NH
+3
+) IN CYLINDERS, 99.998%
+QUALITY
+This specification was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  August  29,  2002.    Initially  available  at  www.semi.org  September  2002;  to  be  published
+November 2002.  Originally published in 1983, previously published in 1994.
+1  Description
+1. 1    Ammonia  is  a  colorless,  alkaline  gas  having  a
+pungent odor. Ammonia dissolves readily in water. It is
+shipped as a liquified gas under its own vapor pressure.
+It is combustible.
+2  Specifications
+2. 1  QUALITY: 99.998%
+
+Impurities
+Maximum Acceptable Level
+(ppm)*
+Carbon monoxide (CO) 1
+Hydrocarbons C
+1
+ñ C
+3
+1
+Nitrogen (N
+2
+)                                      5
+Oxygen (O
+2
+)                                       2
+Water (H
+2
+O) (v/v) 3
+TOTAL LISTED IMPURITIES 12
+*An  analysis  of  significant  figures  has  not  been  considered.  The
+number of significant figures will be based on analytical accuracy and
+the precision of the provided procedure.
+NOTE  1:    This  specification  applies  to  the  gas  phase  of  the
+cylinder as delivered.
+3  Physical Constants (for information only)
+Metric Units US Units
+Molecular weight 17.031 17.031
+Boiling point at 1 atm ñ33.4∞C ñ28.2∞F
+Density of gas at 0∞C (32∞F)
+and 1 atm
+0. 771 kg/m
+3
+0. 0481      lb/ft
+3
+
+Specific gravity of gas at 0∞C
+and 1 atm (air = 1)
+0. 597                 0.597
+Density of liquid at 21.1∞C
+(70∞F)
+608. 7 kg/m
+3
+38. 00       lb/ft
+3
+
+4  Analytical Procedures
+NOTE  2:  Observe  proper  safety  procedures  for  handling  and
+venting the ammonia sample.
+NOTE  3:  Introduce  the  calibration  standard  as  many  times  as
+necessary to achieve the desired precision.
+NOTE  4:  All  the  gases  used  in  the  analysis  of  the  sample
+should  contain  not  more  than  10%  of  the  specified  value  of
+the component of interest unless otherwise specified.
+NOTE  5:  All  carrier  lines,  carrier  pressure  regulators  and
+sample  containers  are  to  be  constructed  of  stainless  steel  and
+cleaned. The systems must be assembled without pipe threads,
+PTFE tape or polymeric seal materials.
+4. 1  Carbon  Monoxide,  Oxygen  and  Nitrogen  ó  This
+procedure is for the determination of carbon monoxide,
+oxygen    and    nitrogen    in    ammonia    using    a    gas
+chromatograph with a helium ionization detector.
+NOTE   6:   Due   to   the   extreme   sensitivity   of   the   helium
+ionization detector, the system is to be helium leak tested to a
+maximum of 10
+ñ7
+atm-cc/sec.
+4. 1.1  Detection  Limits  ó  25  ppb  (mole/mole)  carbon
+monoxide,   30   ppb   (mole/mole)   oxygen,   50   ppb
+(mole/mole) nitrogen.
+4. 1.2  Instrument Parameters
+4. 1.3  Columns:
+Column 1:     HayeSep A or equivalent, 100/120 mesh, 3.28
+m (10 ft) by 3.2 mm (1/8 in.) 0.085 ID.
+Column 2:     HayeSep A or equivalent, 100/120 mesh, 3.28
+m (10 ft) by 3.2 mm (1/8 in.) 0.085 ID.
+4. 1.3.1    Carrier  Flow:  30  mL/min  helium,  minimum  of
+99. 9999%  purity  having  a  maximum  of  40  ppb  carbon
+dioxide.
+4. 1.3.2  Sample Volume: 1.0 mL.
+4. 1.3.3  Temperatures:
+Detector                                      125∞C
+Columns                                       27∞C
+4. 1.3.4      Determine   the   breakdown   voltage   of   the
+detector.   Set   operating   voltage   at   10   volts   below
+breakdown.
+4. 1.4  Calibration  Standards  ó  1ñ2  ppm  (mole/mole)
+carbon  monoxide,  2ñ3  ppm  (mole/mole)  oxygen,  5ñ6
+ppm  (mole/mole)  nitrogen,  balance  helium  (having  a
+total of other impurities of less than 1 ppm).
+4. 1.5  Operating Procedure
+4. 1.5.1  Set timing interval on sample select valve to 10
+seconds.
+
+
+
+SEMI C3.12-1102 © SEMI 1983, 2002 2
+4. 1.5.2    Set  timing  interval  on  gas  sampling  valve  to
+3:30 minutes.
+4. 1.5.3  Set timing interval #3 to 4:20 minutes.
+4. 1.5.4    Do  not  change  the  initial  sample  flow  setting
+once established.
+4. 1.5.5    Obtain  a  continuous  flow  of  the  calibration
+standard using a clean stainless steel line (0.02 in. ID).
+4. 1.5.6        Inject    the    calibration    standard    onto    the
+precolumn  with  the  gas  sampling  valve.  Record  the
+retention  times  and  peak  areas.  Order  of  elution  is
+nitrogen, oxygen, and carbon monoxide.
+4. 1.5.7    Repeat  Section  4.1.5.6  until  reproducibility  of
+the reading is better than 1% of full scale.
+4. 1.5.8    Inject  the  sample  to  be  tested  in  the  same
+manner as the calibration standard. Record the retention
+times and peak areas.
+4. 1.5.9  Repeat Section 4.1.5.8.
+4. 1.5.10      Compare   the   average   peak   areas   of   the
+calibration  standard  to  that  of  the  ammonia  sample
+being  tested.  Calculate  the  concentrations  of  carbon
+monoxide,  oxygen  and  nitrogen,  using  the  formula
+below.  The  result  may  not  exceed  the  specification  in
+Section 2 of this standard.
+Sample Peak
+Area
+Standard Peak
+Area
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+
+4. 2  Hydrocarbons C
+1
+− C
+3
+— This procedure is for the
+determination  of  hydrocarbons  C
+1
+ñ  C
+3
+in  ammonia.
+The  sample  should  be  gas  phase  and  analyzed  using  a
+gas chromatograph with a flame ionization detector.
+NOTE  7:  It  is  good  practice  to  keep  carrier  gas  flowing
+through  the  instrument.  This  prevents  the  back-diffusion  of
+moisture and carbon dioxide in the air from contaminating the
+column.
+NOTE   8:   When   not   analyzing   samples,   the   dual   column
+switching  valve  should  be  set  at  the  molecular  sieve  position
+to prevent the silica gel column from drying out.
+NOTE  9:  The  silica  gel  column  will,  after  repeated  use,  tend
+to  dry  out.  This  will  manifest  itself  by  the  peaks  of  each
+component   becoming   separated   farther   and   farther   apart.
+Overall sensitivity will drop as the peak areas decrease due to
+the peaks spreading out more and more.
+NOTE  10:  The  condition  of  the  silica  gel  column  is  restored
+by allowing the carrier gas to pass through the water-saturated
+silica  gel  trap  that  has  been  provided.  (Normally  the  carrier
+gas bypasses this trap.)
+NOTE 11: The flame should be extinguished when not in use;
+also  the  air  and  hydrogen  is  shut  off;  and  the  helium  flow
+reduced.
+4. 2.1  Detection Limit ó 0.1 ppm (mole/mole).
+4. 2.2  Instrument Parameters
+4. 2.2.1  Columns:
+Column  1:  13X  molecular  sieve,  3.2  mm  (1/8  in.)  by
+3. 2 mm (1/8 in.) ss, or equivalent.
+Column  2:  Silica  gel  (saturated)  4.6  m  (15  ft)  by  3.2
+mm ss, or equivalent.
+4. 2.2.2  Carrier Flow: 50 mL/min helium.
+4. 2.2.3  Sample Volume: 5 mL.
+4. 2.2.4  Column Temperature: 40∞C
+4. 2.2.5  Sample Flow: 150 mL/min.
+4. 2.2.6    Air  Pressure  and  Flow:  As  specified  by  the
+instrument manufacturerís instructions.
+4. 2.2.7    Hydrogen  Pressure  and  Flow:  As  specified  by
+the instrument manufacturerís instructions.
+4. 2.3  Calibration Standards ó 5ñ10 ppm (mole/mole)
+methane in nitrogen, 5ñ10 ppm (mole/mole) ethane, 5ñ
+10 ppm (mole/mole) propane in nitrogen.
+4. 2.4  Operating Procedure
+4. 2.4.1  Install the column switching as shown in Figure
+1.   Place   the   dual   column   switching   valve   in   the
+molecular  sieve  column  position  for  methane  analysis.
+Use the silica gel column position for the analysis of C
+2
+
+ñ C
+3
+compounds.
+4. 2.4.2      Ignite   the   flame   following   the   instrument
+manufacturerís   instructions.   Allow   the   system   to
+stabilize  for  15  minutes.  (This  is  also  indicated  by  a
+stable signal output.)
+4. 2.4.3  Inject the methane in nitrogen standard onto the
+molecular sieve column to determine the retention time
+for methane.
+4. 2.4.4      Inject   the   ethane   and   propane   in   nitrogen
+standard  onto  the  silica  gel  column  to  determine  the
+retention times for these compounds.
+4. 2.4.5    Inject  the  calibration  standard  onto  the  desired
+column to determine the peak area for the compound of
+interest. Record the retention times and peak areas.
+4. 2.4.6    Inject  the  sample  to  be  tested  in  the  same
+manner as the calibration standard. Record the retention
+times and peak areas.
+4. 2.4.7  Repeat Section 4.2.4.6.
+
+
+
+SEMI C3.12-1102 © SEMI 1983, 2002 3
+4. 2.4.8  Compare  the  average  peak  areas  for  at  least
+three runs each of the calibration standard to that of the
+ammonia     sample     being     tested.     Calculate     the
+concentration   of   hydrocarbons   C
+1
+ñ   C
+3
+,   using   the
+formula   below.      The   result   may   not   exceed   the
+specification in Section 2 of this standard.
+Sample Peak
+Area
+Standard Peak
+Area
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+
+4. 3  Water  ó  The  method  for  the  determination  of
+water in ammonia is based on its decomposition by the
+reaction  2NH
+3
+→ N
+2
++  3H
+2
+,  which  occurs  completely
+and irreversibly when ammonia is passed over a nickel
+catalyst  at  1000∞C.  Water  passes  through  the  catalyst
+unchanged.  Therefore,  the  water  content  of  ammonia
+may  be  determined  by  measuring  the  dewpoint  of  the
+stream    of    hydrogen    and    nitrogen    produced    by
+decomposition of ammonia.
+NOTE  12:  The  system  should  be  checked  for  leaks  prior  to
+use to preclude atmospheric contamination of the sample.
+NOTE    13:    The    moisture    analyzer    must    be    calibrated
+according to the manufacturerís specified method prior to use.
+4. 3.1  Apparatus (shown in Figure 2)
+4. 3.1.1    The  nitrogen  and  ammonia  are  connected  to  a
+tee  with  3.2  mm  (1/8  in.)  OD  stainless  steel  tubing,
+keeping the lines as short as is practical.
+4. 3.1.2  The nitrogen may be fed from a regulator.
+4. 3.1.3  The ammonia should be fed through a stainless
+steel needle valve.
+4. 3.1.4    The  furnace  is  a  Lindberg  Model  54032  or
+equivalent,  with  an  Inconel  reaction  tube.  The  reaction
+tube  is  0.6  m  (24  in.)  long  by  25  cm  (1  in.)  OD  and
+terminates    in    3.2    mm    (1/8    in.)    swaged    tubing
+connectors.
+4. 3.1.5    The  reaction  tube  is  filled  with  nickel  lumps,
+MCB Catalog number NX305 or equivalent.
+4. 3.1.6    The  outlet  of  the  furnace  is  connected  by  a  1.2
+m (4 ft) by 3.2 mm (1/8 in.) OD stainless steel tubing to
+a   moisture   analyzer   suitable   for   determining   the
+concentration of water should be a mixture of hydrogen
+and nitrogen at the specified concentration. This length
+of  tubing  is  required  to  permit  adequate  cooling  of  the
+gas between the furnace and the moisture analyzer.
+4. 3.1.7  The outlet of the moisture analyzer is connected
+to the inlet of a 0-10 CFH flowmeter.
+4. 3.1.8  The outlet of the flow meter is connected to an
+appropriate  vent  for  the  disposal  of  ammonia,  nitrogen
+and hydrogen.
+4. 3.2  Operating Procedure
+4. 3.2.1    Start  a  nitrogen  purge  flow  of  approximately  5
+CFH.
+4. 3.2.2  Set  furnace to  950∞C  and  allow  to  equilibrate
+(approximately 1.5 to 2 hours).
+4. 3.2.3      With   the   ammonia   cylinder   valve   closed,
+disconnect the tubing from the cylinder outlet and open
+the  ammonia  inlet  needle  valve  to  allow  the  ammonia
+sample  line  to  purge  with  nitrogen.  Reconnect  the
+tubing to the cylinder outlet and close the needle valve.
+4. 3.2.4  Shut off the nitrogen flow.
+4. 3.2.5    Open  the  ammonia  cylinder  valve  and  adjust
+the  needle  valve  to  obtain  a  flow  of  approximately  5
+CFH.
+4. 3.2.6  Gradually   increase   the   furnace   temperature,
+periodically testing the gas for the presence of ammonia
+by  placing  a  piece  of  wet  red  litmus  paper  in  the  vent
+stream. If ammonia is present, the paper will turn blue.
+When  ammonia  is  no  longer  found,  the  appropriate
+catalyst temperature has been reached.
+4. 3.2.7      Measure   the   concentration   of   water   in   the
+nitrogen     and     hydrogen     stream,     following     the
+instructions   of   the   moisture   analyzer   manufacturer.
+Periodically  test  the  vent  stream  for  the  presence  of
+ammonia, as described in Section 4.3.2.6, and adjust the
+furnace temperature as necessary.
+4. 3.3  Reporting of Measurement
+4. 3.3.1      Double   the   water   concentration   obtained   in
+Section   4.3.2.7   to   correct   for   the   doubling   of   gas
+volume by the decomposition of the ammonia.
+4. 3.3.2    Subtract  twice  the  concentration  of  oxygen  (as
+measured  by  the  procedure  specified  in  Section  4.3)  in
+the  sample  from  the  concentration  of  water  calculated
+in Section 4.3.3.1. This is necessary because oxygen in
+the   ammonia   reacts   with   the   hydrogen   formed   by
+decomposition to produce additional water.
+4. 3.3.3  The concentration of water calculated in Section
+4. 3.3.2   in   the   ammonia   may   not   exceed   the   limit
+specified in Section 3.
+
+
+
+SEMI C3.12-1102 © SEMI 1983, 2002 4
+
+Figure 1
+
+Figure 2
+Electronic Ammonia Water Measurement
+
+NOTICE:  These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturerís  instructions,  product  labels,
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI C3.2-0301 © SEMI 1981, 20011
+SEMI C3.2-0301
+SPECIFICATION FOR ARSINE (AsH
+3
+) IN CYLINDERS, 99.94% QUALITY
+This specification was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee on October 17, 2000.  Initially available at www.semi.org January 2001; to be published March
+
+# 2001
+
+2001. Originally published in 1981; previously published in 1992.
+1  Description
+1. 1   Arsine  is  a  highly  toxic,  flamm able,  colorless  gas
+with  a  disagreeable  garlic-like  odor.  It  is  a  hemolytic
+poison.
+2  Specifications
+QUALITY: 99.94%
+Impurities
+Maximum Acceptable
+Level (ppm)
+(See NOTE 1.)
+Carbon monoxide and carbon dioxide
+(CO + CO
+2
+)
+2
+Hydrocarbons (methane (CH
+4
+),
+ethane (C
+2
+H
+6
+), ethylene (C
+2
+H
+4
+), and
+acetylene (C
+2
+H
+2
+))
+1
+Hydrogen (H
+2
+)500
+Hydrogen Sulfide (H
+2
+S)1
+Nitrogen (N
+2
+)10
+Oxygen (O
+2
+) + Argon (Ar)5
+Phosphine (PH
+3
+)10
+Water (H
+2
+O)4
+TOTAL LISTED IMPURITIES533
+Metals — See NOTE 2.
+Particles — See NOTE 2.
+NOTE 1: An analysis of significant figures has not been considered.
+The   number   of   significant   figures   will   be   based   on   analytical
+accuracy and the precision of the provided procedure.
+NOTE 2: To be determined between supplier and user.
+3  Physical Constants (for in formation only)
+Metric UnitsUS Units
+Molecular weight77.94677.946
+Boiling point at 1 atm-62.48°C-80.46°F
+Density of gas at 20°C
+(68°F) and 1 atm
+3. 243 kg/m
+3
+0. 202 lb/ft
+3
+Specific gravity of gas at
+21. 1°C (70°F) and 1 atm
+(air = 1)
+2. 6952.695
+Density of liquid at B.P.1653 kg/m
+3
+103. 96 lb/ft
+3
+4  Analytical Procedures
+4. 1     Carbon    Monoxide,    Carbon    Di oxide,    and
+Hydrocarbons  (methane,  ethane,  ethylene,  acetylene)
+—  This  procedure  is  for  the  determination  of  carbon
+monoxide,  carbon  dioxide,  and  hydrocarbons  in  arsine
+using  a  gas  chromatograph  with  a  methanizer  and  a
+flame ionization detector. (See Note 1 and Figure 1.)
+4. 1.1  Detection Limit — 0.1 ppm ea ch impurity.
+4. 1.2  Instrument Parameters
+4. 1.2.1   Column:  Porapak  QS,  3.5  m  (1 2  ft)  by  2  mm
+ID (1/8 in OD) ss or equivalent.
+4. 1.2.2  Carrier Flow: 35 mL/min heliu m.
+4. 1.2.3   Support  Gases:  Set  the  flow  ra tes  as  specified
+by the instrument manufacturer.
+Hydrogen:30 mL/min added to the carrier gas
+between the column outlet and the
+methanizer inlet.
+Air:500 mL/min.
+4. 1.2.4  Temperatures:
+Detector110°C
+Injector40°C
+Oven40°C
+Methanizer370–400°C
+4. 1.2.5  Sample Volume: 3 mL.
+4. 1.3    Calibration   Standards   —   1–10    ppm   each:
+carbon  monoxide,  carbon  dioxide,  methane,  ethane,
+ethylene, and acetylene; balance helium.
+4. 1.4  Operating Procedure
+4. 1.4.1   Inject  the  calibration  standard   into  the  column
+using a gas sampling valve. Record retention times and
+peak   areas.   Order   of   elution   is   carbon   monoxide,
+methane, carbon dioxide, acetylene, ethylene, ethane.
+4. 1.4.2   Inject  the  sample  to  be  tested  i n  same  manner
+as  the  calibration  standard.  Vent  the  arsine  after  the
+ethane peak. Record the retention times and peak areas.
+4. 1.4.3  Repeat 4.1.4.1.
+
+SEMI C3.2-0301 © SEMI 1981, 20012
+4. 1.4.4    Compare   the   average   peak   are as   of   the
+calibration standard to those of the arsine sample being
+tested.  Calculate  the  concentration  of  each  impurity,
+using  the  formula  below.  The  results  may  not  exceed
+specifications in Section 2 of this Standard.
+Sample Peak
+Area
+Standard Peak
+Area
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+4. 2     Phosphine    —    This    procedure    i s    for    the
+determination   of   phosphine   in   arsine   using   a   gas
+chromatograph with a thermal conductivity detector.
+4. 2.1  Detection Limit — 5 ppm (mo l/mol).
+4. 2.2  Instrument Parameters
+4. 2.2.1   Column:  Porapak  QS,  3.5  m  (1 2  ft)  by  2  mm
+ID (1/8 in OD) ss or equivalent.
+4. 2.2.2  Carrier Flow: 35 mL/min heliu m.
+4. 2.2.3  Temperatures:
+Detector80°C
+Injector40°C
+Oven40°C
+4. 2.2.4  Sample Volume: 3 mL.
+4. 2.3   Calibration  Standard  —  10–5 0  ppm  (mol/mol)
+phosphine, balance helium.
+4. 2.4  Operating Procedure
+4. 2.4.1   Inject  the  calibration  standard   into  the  column
+using  a  gas  sampling  valve.  Record  the  retention  time
+and peak area.
+4. 2.4.2  Inject the sample being tested  in same manner
+as  the  calibration  standard.  Record  the  retention  time
+and peak area.
+4. 2.4.3  Repeat 4.2.4.1.
+4. 2.4.4    Compare   the   average   peak   are a   of   the
+calibration  standard  to  that  of  the  arsine  sample  being
+tested.  Calculate  the  concentration  of  phosphine,  using
+the  formula  below.  The  result  may  not  exceed  the
+specification in Section 2 of this Standard.
+Sample Peak
+Area
+Standard Peak
+Area
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+4. 3  Hydrogen, Nitrogen and Oxyg en + Argon — This
+procedure   is   for   the   determination   of   hydrogen,
+nitrogen,   oxygen   +   argon   in   arsine   using   a   gas
+chromatograph with a helium ionization detector.
+4. 3.1     Detection    Limits    —    100    ppb    (m ol/mol)
+hydrogen, 100 ppb oxygen + argon, 500 ppb nitrogen.
+4. 3.2  Instrument Parameters
+4. 3.2.1  Columns:
+Column 1:Porapak QS, 2.5 m (8 ft) by 3.2 mm
+(1/8 in) ID ss or equivalent
+Column 2:Molecular Sieve 5A, 3 m (10 ft) by
+3. 2 mm ID ss or equivalent.
+4. 3.2.2  Carrier Flow: 25 mL/min heliu m.
+4. 3.2.3  Temperatures:
+Detector10°C
+Injector30°C
+Oven30°C
+4. 3.2.4  Sample Volume: 3 mL.
+4. 3.3  Calibration Standard  —  1–10   ppm  nitrogen,  1–
+10   ppm   oxygen,   1–10   ppm   argon,   10–100   ppm
+hydrogen, balance helium.
+4. 3.4  Operating Procedure
+4. 3.4.1   Determination  of  the  backflush   time:  Inject  a
+methane sample (1–1000 ppm, balance helium) using a
+10  port  gas  valve  and  backflush  at  different  times.
+Select  the  backflush  time  so  that  the  methane  peak  is
+split by the backflush.
+4. 3.4.2   Inject  the  calibration  standard   into  the  column
+using   the   same   gas   valve.   Backflush   at   the   time
+determined  in  4.3.4.1  and  record  retention  times  and
+peak  areas.  Order  of  elution  is  hydrogen,  oxygen  +
+argon and nitrogen.
+4. 3.4.3  Inject the sample being tested  in same manner
+as  the  calibration  standard.  Record  the  retention  times
+and peak areas.
+4. 3.4.4  Repeat 4.3.4.2.
+4. 3.4.5    Compare   the   average   peak   are as   of   the
+calibration standard to those of the arsine sample being
+tested.  Calculate  the  concentration  of  each  impurity,
+using  the  formula  below.  The  results  may  not  exceed
+the specifications in Section 2 of this Standard.
+Sample Peak
+Area
+Standard Peak
+Area
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+4. 4
+Hydrogen  Sulfide  —  This  proc edure  is  for  the
+determination of hydrogen sulfide in arsine using gas a
+chromatograph with a flame photometric detector.
+4. 4.1
+Detection Limit — 0.1 ppm (m ol/mol).
+
+SEMI C3.2-0301 © SEMI 1981, 20013
+4. 4.2  Instrument Parameters
+4. 4.2.1  Column: Porapak QS 3.5 m (1 2 ft) by 2 mm ID
+(1/8 in OD) ss or equivalent.
+4. 4.2.2
+Carrier Flow: 35 mL/min heliu m. Set the flow
+rates as specified by the instrument manufacturer.
+4. 4.2.3
+Support Gases:
+Hydrogen:30 – 40 mL/min.
+Air:300 – 400 mL/min.
+4. 4.2.4  Temperatures:
+Detector75°C
+Injector40°C
+Oven40°C
+4. 4.2.5  Sample Volume: 1.5 mL.
+4. 4.3
+Calibration  Standard  —  1–10   ppm  hydrogen
+sulfide, balance helium.
+4. 4.4
+Operating Procedure
+4. 4.4.1   Inject  the  calibration  standard   into  the  column
+using  a  gas  sampling  valve.  Record  retention  time  and
+peak area.
+4. 4.4.2
+Inject  the  sample  being  tested   in  the  same
+manner  as  the  calibration  standard.  Vent  before  arsine
+peak is eluted using same configuration as in Figure 1.
+4. 4.4.3
+Repeat 4.4.4.1
+4. 4.4.4
+Compare   the   average   peak   are a   of   the
+calibration standard to those of the arsine sample being
+tested.  Calculate  the  concentration  of  the  hydrogen
+sulfide,  using  the  formula  below.  The  result  may  not
+exceed the specification in Section 2 of this Standard.
+Sample Pea
+k
+Area
+Standard Peak
+Area
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+4. 5
+Water  —  This  procedure  is  for   the  determination
+of moisture in arsine using continuous flow electrolysis
+of water in a phosphorus pentoxide (P
+2
+O
+5
+) cell.
+4. 5.1
+Detection Limit — 1 ppm (vol/v ol).
+4. 5.2
+Instrument Parameters
+4. 5.2.1  Flow Requirements — Set the  sample flow rate
+and    pressure    in    accordance    with    manufacturer’s
+instructions.
+4. 5.3
+Calibration Standards — Con struct a calibration
+curve  which  contains  at  least  three  points  covering  the
+range   of   interest.   Verify   the   standards   employed
+independently  on  a  condensation  dewpoint/frostpoint
+hygrometer.
+4. 5.4
+Operating Procedure
+4. 5.4.1   Obtain  representative  sample  o f  gas  to  be
+analyzed and direct to unit as with the standards.
+4. 5.4.2
+Determine  the  moisture  conten t  in  the  sample
+gas  by  comparing  the  indicated  concentration  with  the
+calibration  curve  constructed  in  4.5.3.  The  result  may
+not   exceed   the   specification   in   Section   2   of   this
+Standard.
+NOTE 1: Carrier  gases  should  contain  less  than  0.1  ppm
+(mol/mol) carbon monoxide and less than 0.1 ppm (mol/mol)
+carbon dioxide.
+Figure 1
+G. C. Configuration
+NOTICE:
+This   specification   does   not   purport   to
+address  safety  issues,  if  any,  associated  with  its  use.  It
+is  the  responsibility  of  the  user  of  this  specification  to
+establish  appropriate  safety  and  health  practices  and
+determine  the  applicability  of  regulatory  limitations
+prior    to    use.    SEMI    makes    no    warranties    or
+representations  as  to  the  suitability  of  the  specification
+set  forth  herein  for  any  particular  application.  The
+determination  of  the  suitability  of  the  specification  is
+solely the responsibility of the user. Users are cautioned
+to  refer  to  manufacturer’s  instructions,  product  labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   or   equipment   mentioned
+herein. This specification are subject to change without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance  with  this  specification  may  require  use  of
+copyrighted  material  or  of  an  invention  covered  by
+patent rights. By publication of this specification, SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item   mentioned   in   this   specification.   Users   of   this
+specification  are  expressly  advised  that  determination
+of  any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement  of  such  rights,  are  entirely  their  own
+responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI C3.33-92 © SEMI 1987, 2003 1
+SEMI C3.33-92 (Reapproved 0303)
+STANDARD FOR BORON TRICHLORIDE (BCl
+3
+) (PROVISIONAL)
+This standard was technically reapproved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee.  Current edition approved by the North American Regional Standards
+Committee on October 25, 2002.  Initially available at www.semi.org December 2002; to be published March
+
+# 2003
+
+2003. Originally published in 1987; previously published in 1992.
+1  Description
+1. 1      Boron   trichloride   is   a   colorless   gas   at   room
+temperature  and  atmospheric  pressure  which  fumes  in
+the presence of moist air.  It has a choking odor.
+2  Scope
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Specifications
+QUALITY: 99.9995% by wt. Liquid Phase
+
+Impurities
+Maximum Acceptable Level
+(ppm)*
+Chlorine (Cl
+2
+) 10 Vapor Phase
+Hydrogen Chloride (HCl) 1 Vapor Phase
+Phosgene (COCl
+2
+) 1 Vapor Phase
+Aluminum (Al) 0.5 by wt. Liquid Phase
+Calcium (Ca) 0.5 by wt. Liquid Phase
+Copper (Cu) 0.5 by wt. Liquid Phase
+Iron (Fe) 0.5 by wt. Liquid Phase
+Magnesium (Mg) 0.5 by wt. Liquid Phase
+Nickel (Ni) 0.5 by wt. Liquid Phase
+Potassium (K) 0.5 by wt. Liquid Phase
+Silicon (Si) 1 by wt. Liquid Phase
+Sodium (Na) 0.5 by wt. Liquid Phase
+TOTAL IMPURITIES 5 by wt. Liqiud Phase
+*  An  analysis  of  significant  figures  has  not  been  considered.    The
+number of significant figures will be based on analytical accuracy and
+the precision of the provided procedure.
+4  Physical Constants (for information only)
+Metric Units US Units
+Molecular weight 117.17 117.17
+Boiling point at atm 12.4°C 54.3°F
+Density of gas at 20°C
+and 1 atm
+5. 326 kg/m
+3
+0. 3325        lb/ft
+3
+
+Specific gravity 4.12 4.12
+Density of liquid at
+–118°C
+1372. 8 kg/m
+3
+85. 76        lb/ft
+3
+
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),  3081  Zanker  Road,  San  Jose,  CA  95134.    Reproductio
+n
+of  the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI C3.51-1101 © SEMI 1995, 20011
+SEMI C3.51-1101
+SPECIFICATION FOR BORON TRICHLORIDE (BCl
+3
+), 99.98% QUALITY
+This specification was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  August  27,  2001.    Initially  available  at  www.semi.org  September  2001;  to  be  published
+November 2001. Originally published in 1995.
+1  Purpose
+1. 1  To  define  the  specification  and  analytical  methods
+and validate the specifications for BCl
+3
+.
+2  Scope
+2. 1  This specification relates to a geometry of 0.5 μ or
+less   (0.35   to   0.5   range)   and   describes   analytical
+techniques using gas phase analysis.
+3  Description
+3. 1  Boron trichloride is a colorless toxic and corrosive
+gas   at   room   temperature   and   atmospheric   pressure
+which  fumes  in  the  presence  of  moist  air.  It  has  a
+choking odor.
+4  Referenced Standards
+4. 1  ISO Standards
+1
+ISO 6145-1 — Preparation of calibration gas mixtures –
+Dynamic volumetric methods – Part 1: Methods of
+calibration
+NOTE 1: Unless   otherwise   indicated,   all   documents   cited
+shall be the latest published versions.
+5  Specifications
+Quality: 99.98% vapor phase
+Impurities
+Maximum Acceptable
+Level (ppm)*
+Nitrogen (N
+2
+)5
+Carbon Dioxide (CO
+2
+)2
+Chlorine (Cl
+2
+)10
+Hydrogen Chloride (HCl)100
+Phosgene (COCl
+2
+)1
+Silicon Tetrachloride (SiCl
+4
+)2
+* TOTAL LISTED IMPURITIES
+(excluding metals)
+120
+
+1  International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+Impurities
+Maximum Acceptable
+Level (ppm)*
+Iron (Fe)0.5 wt.
+Nickel (Ni)0.5 wt.
+*  An  analysis  of  significant  figures  has  not  been  considered.  The
+number of significant figures will be based on analytical accuracy and
+precision of the provided procedure.
+6  Physical Constants (for information only)
+Metric UnitsUS Units
+Molecular weight117.17117.17
+Boiling point at atm12.4°C54.3°F
+Density of gas at 20°C and
+1 atm
+5. 326 kg/m
+3
+0. 3325 lb/ft
+3
+Specific gravity4.124.12
+Density of liquid at –18°C1372.8 kg/m
+3
+85. 76 lb/ft
+3
+7  Analytical Procedures
+NOTE 2: The boiling point of boron trichloride is 12.4°C.  It
+is  recommended  that,  prior  to  the  sampling  operation,  the
+cylinder  should  be  allowed  to  reach  room  temperature  to
+prevent the possibility of any suck-back.
+7. 1  Nitrogen —  This procedure is for the determination
+of    nitrogen    in    boron    trichloride    using    a    gas
+chromatograph  fitted  with  a  backflush  valve  and  a
+thermal conductivity detector.
+7. 1.1  Detection Limits —  0.5 ppm nitrogen.
+7. 1.2  Instrument Parameters
+7. 1.2.1  Columns:
+Column 1:Porapak QS 60/80 mesh 2 m (6 ft) × 3.2 mm
+(1/8") OD SS or equivalent.
+Column 2:    Molecular sieve 5A 60/80 mesh 2 m (6 ft) × 3.2
+mm (1/8") OD SS or equivalent.
+7. 1.2.2  Carrier  Gas  Flow  —   Helium  N6.0  Flow  25
+mL/min
+NOTE 3: The  helium  carrier  gas  should  contain  less  than  10
+ppb  of  the  impurities  it  is  desired  to  measure.    This  is  best
+achieved by using a commercial helium gas purifier.
+7. 1.2.3  Sample Volume —  2.5 mL.
+
+SEMI C3.51-1101 © SEMI 1995, 20012
+7. 1.2.4  Temperatures:
+Column Temperature100°C
+Detector Temperature100°C
+7. 1.2.5  Bridge Current — 200 mA.
+7. 1.3  Calibration  Standard  —   1–10  ppm  nitrogen  in
+helium.
+7. 1.3.1  Calibration —  Construct  a  calibration  curve  in
+the  range  of  interest.  Verify  the  standards  employed
+independently  by  established  traceability  to  recognized
+national or international standards.
+7. 1.4  Operating Procedure
+7. 1.4.1  Inject  the  calibration  standard  into  the  column
+using  a  gas  sampling  valve.  Adjust  the  backflush  valve
+operation  sequence  to  present  the  nitrogen.  Record  the
+retention  time  and  peak  area.  A  sample  chromatogram
+is shown in Figure 1.
+NOTE 4: Introduce the calibration standard as many times as
+necessary to achieve the desired precision.
+7. 1.4.2  Inject  the  sample  to  be  tested  in  the  same
+manner as the calibration standard. Record the retention
+time and peak areas (see Note 2).
+7. 1.4.3  Repeat Section 7.1.4.1.
+7. 1.4.4  Compare the average peak areas of the nitrogen
+in   the   calibration   standard   to   that   of   the   boron
+trichloride     sample     being     tested.     Calculate     the
+concentration of nitrogen using the formula below. The
+results may not exceed the specification in Section 5 of
+this standard.
+Sample Peak Area
+Standard Peak Area
+×
+Concentratio
+n
+of Standard
+=
+Concentratio
+n
+of Sample
+7. 2
+Carbon   Dioxide   —    This   procedure   is   for   the
+determination  of  carbon  dioxide  in  boron  trichloride
+using a gas chromatograph fitted with a backflush and a
+thermal conductivity detector.
+7. 2.1
+Detection Limits —  0.5 ppm carbon dioxide.
+7. 2.2
+Instrument Parameters
+7. 2.2.1  Columns:
+Column 1Porapak QS 60/80 mesh 3m (10 ft.) by 3.2
+mm (1/8") OD SS or equivalent
+Column 2Porapak QS 60/80 mesh 2.5 m (8 ft.) by 3.2
+mm (1/8") OD SS or equivalent
+7. 2.2.2  Carrier  Gas  Flow  —   Helium  N6.0  flow  25
+mL/mm (See Note 3.)
+7. 2.3
+Sample Volume — 2.5 mL.
+7. 2.4
+Temperatures:
+Column Temperature60°C
+Detector Temperature110°C
+7. 2.5  Bridge Current — 200 mA.
+7. 2.6
+Calibration Standard — 1–5 ppm carbon dioxide
+in helium.
+7. 2.6.1
+Calibration —  Construct  a  calibration  curve  in
+the  range  of  interest.  Verify  the  standards  employed
+independently  by  established  traceability  to  recognized
+national or international standards.
+7. 2.7
+Operating Procedure
+7. 2.7.1  Inject  the  calibration  standard  into  the  column
+using  a  gas  sampling  valve.  Adjust  the  backflush  valve
+operation  sequence  to  present  the  carbon  dioxide  peak.
+Record  the  retention  time  and  peak  area.  A  sample
+chromatogram is shown in Figure 2 (see Note 4).
+7. 2.7.2
+Inject  the  sample  to  be  tested  in  the  same
+manner as the calibration standard (see Note 2).  Record
+the retention time and peak areas.
+7. 2.7.3
+Repeat Section 7.2.7.1.
+7. 2.7.4
+Compare  the  average  peak  areas  of  the  carbon
+dioxide  in  the  calibration  standard  to  that  in  the  boron
+trichloride     sample     being     tested.     Calculate     the
+concentration   of   carbon   dioxide   using   the   formula
+below.
+Sample Peak Are
+a
+Standard Peak Area
+×
+Concentratio
+n
+of Standard
+=
+Concentratio
+n
+of Sample
+7. 3
+Chlorine  —  This  procedure  is  for  the  analysis  of
+chlorine in boron trichloride using a gas chromatograph
+with a thermal conductivity detector.
+7. 3.1
+Detection Limits — 5 ppm chlorine.
+7. 3.2
+Instrument Parameters
+7. 3.2.1  Column  60  m  (200  ft.)  0.53  mm  (1/32")  ID
+Dimethyl  silicone  megabore  capillary  column  (Ristek
+RTxi)
+7. 3.2.2
+Carrier  Gas  —   Helium:  N6.0  25–30  mL/min
+(See Note 3.)
+7. 3.2.3
+Sample Volume — 2.0 mL.
+7. 3.2.4
+Temperatures:
+Column Temperature100°C
+Detector Temperature110°C
+7. 3.2.5  Bridge Current — 200 mA.
+
+SEMI C3.51-1101 © SEMI 1995, 20013
+7. 3.3  Calibration  Standard  —   5–10  ppm  chlorine  in
+helium.
+7. 3.3.1
+Calibration —  Construct  a  calibration  curve  in
+the  range  of  interest.  Verify  the  standards  employed
+independently  by  established  traceability  to  recognized
+national or international standards.
+7. 3.4
+Operating Procedure
+7. 3.4.1  Inject  the  calibration  standard  into  the  column
+using  a  gas  sampling  valve.  Record  the  retention  time
+and  peak  area.  A  sample  chromatogram  is  shown  in
+Figure 3 (see Note 4).
+7. 3.4.2
+Inject  the  sample  to  be  tested  in  the  same
+manner as the calibration standard. Record the retention
+time and peak areas (see Note 2).
+7. 3.4.3
+Repeat Section 7.3.4.1.
+7. 3.4.4
+Compare the average peak areas of the chlorine
+in  the  calibration  standard  with  that  obtained  in  the
+boron  trichloride  sample  being  tested.  Calculate  the
+concentration of chlorine using the formula below. The
+results may not exceed the specification in Section 5 of
+this standard.
+Sample Pea
+k Area
+Standard Peak Area
+×
+Concentratio
+n
+of Standard
+=
+Concentratio
+n
+of Sample
+7. 4
+Hydrogen     Chloride,     Phosgene,     and     Silicon
+Tetrachloride     —
+This     procedure     is     for     the
+determination   of   hydrogen   chloride,   phosgene,   and
+silicon tetrachloride using a Fourier transform infra red
+(FTIR) analyzer.
+7. 4.1
+Detection Limits
+10 ppm hydrogen chloride
+1 ppm phosgene
+0. 5 ppm silicon tetrachloride
+7. 4.2
+Instrument Parameters
+7. 4.2.1  Cell  Path  Length  —   16  cm  ×  16  mm  ID  K  Br
+windows
+7. 4.2.2
+Wavenumbers:
+Hydrogen Chloride2970–2990 (cm
+-1
+)
+Phosgene855–865 (cm
+-1
+)
+Silicon Tetrachloride610–630 (cm
+-1
+)
+7. 4.2.3  The   associated   sampling   system   must   be
+equipped   with   inert   gas   purging   and   evacuation
+capabilities.
+7. 4.3
+Calibration   Standards   —    Prepare   calibration
+standards for 10–100 ppm hydrogen chloride, 1–5 ppm
+phosgene, and 0.5–5 ppm silicon tetrachloride in boron
+trichloride.
+NOTE 5: To    ensure    stability,    the    hydrogen    chloride
+calibration  standard  should  be  prepared  dynamically  using  a
+method   defined   in   ISO   6145/part   1.1986.   Phosgene   and
+silicon  tetrachloride  standards  may  be  prepared  by  syringe
+additions  to  liquid  boron  trichloride  in  the  cooled  sealed
+container.
+7. 4.4  Operating Procedures
+7. 4.4.1  Evacuate   and   purge   the   sampling   system
+leading to the cell and purge the cell with dry nitrogen
+for  30  minutes.  Fill  the  cell  with  calibration  standard.
+Record the absorbance of hydrogen chloride, phosgene,
+and  silicon  tetrachloride.  A  sample  spectrum  is  shown
+in Figures 4A, 4B, and 4C.
+7. 4.4.2
+Fill the sample into the cell following the same
+procedures  used  in  Section  7.4.4.1  above.  Record  the
+absorbance at the same wave number as the calibration
+standard.   Calculate   the   concentrations   of   hydrogen
+chloride,   phosgene,   and   silicon   tetrachloride.   The
+results   should   not   exceed   the   amount   specified   in
+Section 3 of this specification.
+Measure
+d
+Absorbance of
+the Sample
+Measured
+Absorbance of
+the Standard
+×
+Concentration
+of Standard
+=
+Concentration
+of Sample
+NOTE 6: The   following   method   should   be   adopted   for
+cleaning  metallic  parts  used  for  sampling  hydrogen  chloride
+gas:
+a.Clean in a bath with methanol or isopropanol.
+b.Ultrasonic clean in an appropriate solvent.
+c.Rinse with isopropanol under Class 100 bench.
+This cleaning method should be applied when a new cylinder
+has  to  be  connected  and  repeated  after  ten  samplings,  or  if  a
+new cylinder has to be connected.
+NOTE 7: Low-pressure  plastic  parts  should  be  cleaned  as
+follows using 18 MΩcm water:
+a.Fill  sampling  lines  with  the  following  solutions  for  30
+minutes:  NH
+4
+OH  25%:  H
+2
+O
+2
+35%:  H
+2
+O  =  1  to  1  to  5
+parts by vol.
+b.Wash sampling lines 5 times with water.
+c.Fill  sampling  lines  with  the  following  solutions  for  30
+minutes:  HCl  37%:  H
+2
+O
+2
+35%;  H
+2
+O  =  1  to  1  to  5  parts
+by vol.
+d.Wash  sampling  lines  a  minimum  of  5  times  with  water.
+Terminate  if  the  resistivity  of  the  wash  water  from  the
+lines is more than 18 M
+Ωcm.
+
+SEMI C3.51-1101 © SEMI 1995, 20014
+Cleaning  of  lines,  flow  meters  and  valves  shall  be  completed
+before a new cylinder has to be analyzed and shall be repeated
+after  10  samplings,  or  if  a  new  cylinder  has  to  analyzed.  The
+impingers  must  be  rinsed  with  water  after  each  sampling.
+Before  a  new  cylinder  has  to  be  analyzed  and  after  five
+samplings,  the  impingers  must  be  cleaned  using  the  above
+described   procedures.      Drying   of   the   impingers   is   not
+recommended (contamination risks).
+NOTE 8: Cleaning of cylinder valve.
+Clean  outside  (visible  parts,  threads)  with  wipe.  Clean  the
+interior parts of the valve-outlet with methanol or isopropanol
+using a syringe, followed by a purge with filtered gas.
+7. 5  Iron   and   Nickel   —    This   procedure   is   for   the
+determination  of  iron  and  nickel  in  gas  phase  boron
+trichloride using atomic absorption or inductive coupled
+plasma methods.
+7. 5.1
+Detection Limits
+7. 5.2  Instrument Parameters — Operate the designated
+analytical  instruments  according  to  the  manufacturer’s
+instructions.
+7. 5.3
+Sampling Procedure
+7. 5.3.1  Clean   all   metallic   and   plastic   components
+according to the procedures described in Notes 6 and 7.
+Use 18 MΩcm water.
+7. 5.3.2
+Connect    all    components    of    the    sampling
+system.
+NOTE 9: The  apparatus  is  charged  with  sufficient  water  to
+just  cover  the  rim  of  the  funnel  (approximately  100  ml).    A
+magnetic stirrer is introduced and the apparatus closed.
+7. 5.3.3  Connect  the  sampling  system  to  the  sample
+boron trichloride cylinder (see Note 8).
+7. 5.3.4
+Purge   with   filtered   argon   (<   0.01   μ)   at
+approximately   1   L/min.   for   15   minutes   prior   to
+sampling.  During this period, the apparatus is inclined
+so  as  to  allow  a  higher  flow  rate  without  excessive
+agitation of the water.
+NOTE 10: Due  to  the  design  of  the  apparatus,  suck-back
+should  be  prevented,  but  this  must  be  guarded  against.  A
+bubble rate of about one per second should be set.
+7. 5.3.5  While    observing    the    sampling    apparatus,
+operate  the  needle  valve  to  admit  sample  slowly  to  the
+sampling apparatus. Initial absorption will be fast.
+7. 5.3.6
+The  sample  flow  is  halted  when  no  further
+absorption  seems  to  be  taking  place  (i.e.,  when  bubble
+rate increases at the vent).
+7. 5.3.7
+The  argon  purge  is  re-established  for  a  further
+15 minutes.
+7. 5.3.8
+The   apparatus   is   allowed   to   cool   and   the
+contents    quantitatively    transferred    to    a    250    ml
+polypropylene flask.
+NOTE 11: The  solution  prepared  above  will  contain  some
+crystals of boric acid which have come out of solution during
+cooling.  For  the  purpose  of  analysis,  the  concentration  of
+boric acid must be reduced. Also the amount of BCl
+3
+samples
+need to be determined.
+7. 5.3.9  A 5 ml aliquot of the solution is titrated against
+1  M  NaOH  using  methyl  red  as  an  indicator.    The
+quantity   of   sample   boron   trichloride   taken   is   then
+calculated.
+7. 5.3.10
+A  sample  of  the  solution  is  diluted  ×  10  with
+water.  The aliquot is taken from the supernatant liquid.
+7. 5.3.11
+Analysis  is  carried  out  in  a  suitable  analyzer
+capable  of  meeting  the  required  detection  limits.  A
+blank   solution   of   1%   hydrochloric   acid   is   used.
+Yttrium is used as an internal standard at a level of 0.2
+ppm added to all analysis solutions.
+7. 5.3.12
+Calibration curves are prepared using standard
+solutions  covering  the  elements  required.  Traceable
+standards    can    be    obtained    from    national    and
+international bodies.
+7. 5.3.13
+Calculate  the  concentration  of  iron  and  nickel
+content  using  the  calibration  curve  and  the  volume  of
+boron trichloride sampled.
+
+SEMI C3.51-1101 © SEMI 1995, 20015
+Figure 1
+Chromatogram Showing the Determination of Nitrogen in Boron Trichloride
+Figure 2
+Chromatogram Showing the Determination of Carbon Dioxide in Boron Trichloride
+Figure 3
+Chromatogram Showing the Determination of Chlorine in Boron Trichloride
+
+SEMI C3.51-1101 © SEMI 1995, 20016
+Figure 4A
+Infra Red Absorption Spectra of Hydrogen Chloride in Boron Trichloride
+Figure 4B
+Infra Red Absorption of Phosgene in Boron Trichloride
+
+SEMI C3.51-1101 © SEMI 1995, 20017
+Figure 4C
+Infra Red Absorption Spectra of Silicon Tetrachloride in Boron Trichloride
+NOTICE:
+These  standards  do  not  purport  to  address  safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility  of  the  user  of  these  standards  to  establish  appropriate  safety  and  health  practices  and  determine  the
+applicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitability
+of the standards set forth herein for any particular application. The determination of the suitability of the standard is
+solely  the  responsibility  of  the  user.  Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,
+product  data  sheets,  and  other  relevant  literature  respecting  any  materials  mentioned  herein.  These  standards  are
+subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI C3.27-1102 © SEMI 1984, 2002 1
+SEMI C3.27-1102
+SPECIFICATION FOR BORON TRIFLUORIDE (BF
+3
+) IN CYLINDERS,
+99. 0% QUALITY
+This specification was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee on July 21, 2002.  Initially available at www.semi.org October 2002; to be published November
+
+# 2002
+
+2002. Originally published in 1984; previously published in 1994.
+1  Purpose
+1. 1    The  purpose  of  this  document  is  to  provide  a
+specification  for  Boron  Trifluoride  (BF
+3
+)  used  in  the
+semiconductor industry.
+2  Scope
+2. 1      This   document   covers   requirements   for   Boron
+Trifluoride (BF
+3
+)  used in the semiconductor industry.
+2. 2      If   analytical   methods   are   not   complete,   the
+requirements are presented as a guideline.
+2. 3    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Description
+3. 1    Boron  trifluoride  is  a  colorless  gas.  It  fumes  in
+moist  air  and  has  a  pungent  odor.  Boron  trifluoride  is
+nonflammable and does not support combustion.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI C1 ó Specifications for Reagents
+SEMI C3 ó Specifications for Gases
+5  Terminology
+5. 1  Terminology appropriate to this standard is defined
+in SEMI C3.
+6  Specifications
+QUALITY: 99.0%
+
+Impurities
+Maximum Acceptable Level
+(ppm)*
+Gases not soluble in water 0.94%
+Particles                                         **
+Silicon Tetrafluoride (SiF
+4
+)                         200
+Sulfur Dioxide (SO
+2
+)                               21
+Total Sulfates (SO
+4
+-2
+)                                7
+TOTAL IMPURITIES 9628
+*  An  analysis  of  significant  figures  has  not  been  considered.  The
+number of significant figures will be based on analytical accuracy and
+the precision of the provided procedure.
+** To be determined between supplier and user.
+
+7  Physical Constants (for information only)
+Metric Units US Units
+Molecular weight 67.81 67.81
+Boiling point at 1 atm −100.4∞C −149.0∞F
+Density of gas at 70∞C
+(21.1∞F) and 1 atm
+3. 076 g/L 0.192 lb/ft
+3
+Specific gravity of gas  2.7 2.7
+Critical pressure 49.2 atm 723 psia
+Critical Temperature −12.25∞C               9.95∞F
+
+8  Analytical Procedures
+8. 1  Sampling   Procedures   —   Boron   trifluoride   is
+sampled  separately  for  water-soluble  gases  and  water-
+insoluble   gases.   The   water-soluble   components   are
+collected in a plastic bottle which contains chopped ice.
+After the ice melts, weighed aliquots of the solution are
+taken    for    individual    determinations.    The    water-
+insoluble  components  are  collected  in  a  modified  gas
+collection tube.
+8. 1.1  Apparatus
+8. 1.1.1    Balance,  l000-g  capacity,  capable  of  weighing
+to 0.01 g.
+8. 1.1.2  Polyethylene bottles (wide mouth, 1-L capacity)
+with caps.
+
+
+SEMI C2.27-1102 © SEMI 1984, 2002 2
+8. 1.1.3  Tygon
+R
+tubing, 6 mm (1/4 in).
+8. 1.1.4  PTFE tubing, 6 mm (1/4 in).
+8. 1.1.5    Valve  assembly  consisting  of  a  needle  valve
+with  a  stainless  steel  needle,  a  steel  bushing  and  steel
+coupling  with  a  steel  gas  cylinder  connection;  a  gas
+take-off consisting of a steel sleeve from the valve with
+steel pipe leading to a 61 cm Tygon delivery tube. The
+delivery tube is a temporary connection and is replaced
+as needed (see Figure 1).
+8. 1.1.6  Trap: 1-liter polyethylene bottle fitted with a 2-
+hole  Neoprene  stopper  and  two  4-inch  pieces  of  1/4"
+PTFE tubing which do not extend below the stopper by
+more  than  1  inch.  The  Tygon  delivery  tube  is  attached
+to one of the PTFE tubes in the stopper (Inlet to Trap).
+A  61  cm  length  of  Tygon  tubing  is  attached  to  the
+second piece of PTFE tubing in the stopper (Outlet from
+Trap).  The  trap  is  supported  with  a  clamp  and  ring
+stand.
+8. 1.1.7    Modified  gas  collecting  tube  (see  Figure  2);
+250-mL    Pyrex    sampling    tube    (modified    with    a
+graduated scale on one end).
+8. 1.2  Reagents
+8. 1.2.1  Distilled-water ice, cracked.
+8. 1.2.2  Nitrogen, dry; 35 ppm water, or less.
+8. 1.3  Operating       Procedure       -       Water-Insoluble
+Components
+CAUTION: Perform all work in a hood.
+8. 1.3.1  Prepare the gas-collecting tube by washing with
+distilled  water,  rinsing  with  acetone,  then  drying  in  an
+air  oven  at  100ñ125∞C.  Flush  with  dry  nitrogen  for
+about one minute. Leave filled with dry nitrogen; close
+the stopcocks.
+8. 1.3.2  Connect the needle valve assembly apparatus to
+the cylinder to be tested.
+8. 1.3.3      Attach   the   gas-collecting   tube   to   the   valve
+nipple with a short piece of dry Tygon tubing.
+8. 1.3.4  Open the cylinder valve, open the gas collecting
+tube   stopcocks,   and   very   carefully   crack   open   the
+needle valve.
+8. 1.3.5  Purge the tube for 5 minutes with a slow stream
+of BF
+3
+gas.
+8. 1.3.6  Close the needle valve, close the gas-collecting
+tube stopcocks, and then close the cylinder valve.
+8. 1.3.7    Proceed  with  the  analysis,  after  removing  the
+gas-collecting tube from the valve nipple.
+8. 1.4  Operating      Procedure      -      Water      Soluble
+Components
+CAUTION: Perform all work in a hood.
+8. 1.4.1  Before attaching the Tygon delivery tube, purge
+the  sampling  valve  system  for  1  minute  with  a  slow
+stream  of  boron  trifluoride  from  the  cylinder.    Use  a
+separate piece of tubing when purging.
+8. 1.4.2    Weigh  an  empty  1-L  polyethylene  bottle  with
+cap to the nearest 0.01 g. Record this weight as A.
+8. 1.4.3    Fill  the  bottle  with  about  400  g  of  cracked,
+distilled-water  ice.  Re-weigh  the  bottle  with  cap  to  the
+nearest 0.01 g; record as weight B.
+8. 1.4.4  A sampling line is used to transfer BF
+3
+gas from
+the cylinder to the sample bottle.
+8. 1.4.5      Connect   the   Tygon   delivery   tube   from   the
+sampling valve apparatus to the trap. Support the Tygon
+tubing  from  the  trap  outlet;  then  open  the  needle  valve
+and adjust until a steady flow of BF
+3
+is obtained.  Insert
+this   Tygon   tubing   (from   the   trap   outlet)   into   the
+polyethylene   sample   bottle,   extending   down   to   the
+bottom  of  the  bottle.  Carefully  introduce  the  BF
+3
+into
+the  ice  until  most  of  the  ice  is  melted,  then  close  the
+needle valve and remove the Tygon tubing. Remove the
+sample  bottle  and  cap  it.  Re-weigh  the  bottle,  cap  and
+contents to the nearest 0.01 g. Record this weight as C.
+8. 1.4.6  Mix thoroughly by careful inversion until all of
+the  ice  melts,  being  certain  to  keep  the  plastic  bottle
+tightly capped so that none of the liquid is lost.
+8. 1.4.7  Proceed with the determination of water-soluble
+components,  being  sure  to  do  the  sulfur  dioxide  first,
+since  opening  the  bottle  repeatedly  may  result  in  a
+considerable loss of sulfur dioxide.
+8. 1.4.8  Calculations for sample size:
+B - A = Grams of Ice (H
+2
+O)
+C - A = Weight of Solution (BF
+3
+Solution)
+C - B = Weight of Water-soluble Material (grams of
+BF
+3
+gas)
+Grams of BF
+3
+Gas
+Grams of Solution
+=
+C-B
+C-A
+=F
+Grams BF
+3
+needed for Method
+F
+=
+Grams Solution
+Needed for Method
+
+8. 2  Air  —  This  procedure  describes  the  determination
+of  insoluble  gases  in  boron  trifluoride  gas.  A  known
+volume  of  boron  trifluoride  gas  is  absorbed  in  sodium
+chloride solution, then any undissolved gases remaining
+are measured and calculated as % air.
+8. 2.1  Method Capabilities — The range of this method
+is 0.05% to 2.3%.
+
+
+SEMI C3.27-1102 © SEMI 1984, 2002 3
+8. 2.2  Apparatus
+8. 2.2.1      The   modified   gas   collecting   tube   shown   in
+Section 8.1.1.7, Figure 2.
+8. 2.2.2  Separatory funnel, 2000-mL Pyrex (with 61-cm
+Tygon
+R
+tubing  and  pinch  clamp  attached  to  stopcock
+end).
+8. 2.2.3  Tygon tubing, 1/4 inch.
+8. 2.2.4    Balance,  capable  of  weighing  1000  grams  to
+0. 01 gram.
+8. 2.3  Reagents  —  All  reagents  used  are  reagent  grade
+unless otherwise indicated.
+8. 2.3.1  Water ó  All  water  used  in  the  preparation  of
+reagents  and  in  the  procedure  is  either  distilled  or
+deionized.
+8. 2.3.2  Sodium  chloride  solution  ó  Dissolve  300  g  of
+sodium chloride in 1 liter of water.
+8. 2.4  Calibration - Gas Collecting Tube
+8. 2.4.1  Weigh the gas collecting tube to the nearest 0.1
+g;  weight  =  A,  then  clamp  the  tube  securely  on  a
+ringstand with the calibrated stem up.
+8. 2.4.2  Fill the tube with distilled water and allow it to
+stand  with  the  top  stopcock  open  until  it  has  reached
+room temperature.
+8. 2.4.3  Record  the  room temperature  to  the  nearest
+0. 01∞C;  temperature = ∞C.
+8. 2.4.4    Close  the  top  stopcock.  Drain  and  dry  both  of
+the  outer  stems.  Weigh  the  water-filled  collecting  tube
+to the nearest 0.1 g; weight = B.
+8. 2.4.5  The net weight of the water in the tube (B - A)
+in grams is equal to the volume of the tube in milliliters,
+corrected  for  the  density  of  water  at  temperature  ∞C.
+Determine this volume as follows:
+
+Volume in mL =
+(B - A)
+D - E
+where D = Density (g/mL) of water
+at temperature
+°
+C (from Table 1).
+
+Table 1  Density vs T°C for Water
+Temp. °C Density g/mL
+20                                         0.99823
+21                                         0.99802
+22                                             780
+23                                             756
+24                                             732
+25                                         0.99707
+Temp. °C Density g/mL
+26                                             681
+27                                             654
+28                                             626
+29                                             597
+30                                             567
+8. 2.5  Procedure
+8. 2.5.1      Obtain   the   sample   of   BF
+3
+gas   in   the   gas
+collecting tube. See Section 8.1.3 for sampling details.
+8. 2.5.2    Fill  the  separatory  funnel  with  sodium  chloride
+solution. Attach Tygon tubing and a pinch clamp to the
+funnel.
+8. 2.5.3      With   a   small   dropper,   fill   the   glass   tubing
+leading  to  the  stopcock  opposite  the  calibrated  end  of
+the gas collecting tube with the salt solution. (Note: the
+gas collecting tube is inverted at this point.)
+8. 2.5.4    Open  the  separatory  funnel  stopcock  and  the
+pinch  clamp  on  the  Tygon  tubing.  Hold  the  tubing
+upright and when it completely fills with NaCl solution,
+slip  the  tubing  onto  the  end  of  the  gas  collecting  tube
+which was previously filled in step 8.2.5.3.
+NOTE  1:  There  should  be  no  air  bubbles  in  the  connections
+between  the  gas  collecting  tube  and  the  separatory  funnel.  A
+trace  of  a  wetting  agent  such  as  Ultrawet  (Atlantic  Refining
+Co.)  in  the  salt  solution  assists  in  freeing  small  air  bubbles
+from the walls of connecting tubes.
+8. 2.5.5    Hold  the  gas  collecting  tube  vertical,  with  the
+calibrated  end  up  and  the  entire  collecting  tube  below
+the liquid level of the separatory funnel.
+8. 2.5.6    Open  the  lower  stopcock  of  the  gas  collecting
+tube carefully and shake the tube to aid in dissolving of
+the BF
+3
+gas in the salt solution.
+8. 2.5.7  Bring the liquid level in the gas collecting tube
+equal to the liquid level in the separatory funnel.
+8. 2.5.8  Read and record the volume of undissolved gas
+in  the  upper  calibrated  end  of  the  gas  collecting  tube
+and  record  this  volume,  to  the  nearest  one-tenth  of  a
+milliliter; mL = F. Record the room temperature.
+8. 2.6  Calculations
+8. 2.6.1    F  =  Total  milliliters  of  undissolved  gas  (from
+Section 8.2.5.8).
+8. 2.6.2  E = Total volume of gas collecting tube in mL;
+see Calibration - Gas Collecting Tube.

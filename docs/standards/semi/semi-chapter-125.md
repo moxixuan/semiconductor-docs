@@ -1,0 +1,2850 @@
+---
+title: "G42-0996 - © SEMI 1986, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "G42-0996 - © SEMI 1986, 2004..."
+sidebar_position: 1250
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-125.pdf'
+  chapter: 125
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/125.pdf"
+  pdfSize="1.03MB"
+  title="G42-0996 - © SEMI 1986, 2004..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI G42-0996 © SEMI 1986, 2004 4
+
+Figure 1
+Thermal Test Board — Dual In-Line Package
+
+(Unit: mm)
+
+# 1
+
+1.    Material ó Epoxy Glass 1.52ñ1.65 mm thickness, FR-4 (Green). Copper Clad. 28.3 g (1 Oz.) 1/1
+
+# 2
+
+2.    Gold-Plated Fingers ó 0.8 μm Min. Thickness, 18 on Each Side
+
+# 3
+
+3.    Fabricate ó IPC-D-320, Class III
+
+# 4
+
+4.    Tolerance ó ± 0.1 mm (Unless noted)
+
+# 5
+
+5.    Fingers on Component Side of Board ó Designed as A thru R, Fingers on Solder Side of Board ó Designated
+as 1 thru 18 (with 18 at Right When Viewing Face of Board)
+
+# 6
+
+6.    All Holes Plated Thru
+
+# 7
+
+7.    Mates with Dale Connector Part Number EB 7D-A18GFX or Equivalent
+
+
+SEMI G42-0996 © SEMI 1986, 2004 5
+
+
+Figure 2
+Thermal Test Board — PCC Packages
+
+Unit: mm
+1.    Material ó Epoxy Glass 1.52ñ1.65 mm thickness, FR-4 (Green). Copper Clad. 28.3 g (1 Oz.) 1/1
+2.    Gold-Plated Fingers ó 0.8 μm Min. Thickness, 18 on Each Side
+3.    Fabricate ó IPC-D-320, Class III
+4.    Tolerance ó ± 0.1 mm (Unless noted)
+5.    Fingers on Component Side of Board ó Designed as A thru R, Fingers on Solder Side of Board ó Designated
+as 1 thru 18 (with 18 at Right When Viewing Face of Board)
+6.    All Holes Plated Thru
+7.    Mates with Dale Connector Part Number EB 7D-A18GFX or Equivalent
+
+
+SEMI G42-0996 © SEMI 1986, 2004 6
+
+Figure 3
+Thermal Test Board — 0.3 mm Pitch Quad Flat Package
+
+Unit: mm
+1.    Material ó Epoxy Glass 1.52ñ1.65 mm thickness, FR-4 (Green). Copper Clad. 28.3 g (1 Oz.) 1/1
+2.    Gold-Plated Fingers ó 0.8 μm Min. Thickness, 18 on Each Side
+3.    Fabricate ó IPC-D-320, Class III
+4.    Tolerance ó ± 0.1 mm (Unless noted)
+5.    Fingers on Component Side of Board ó Designed as A thru R, Fingers on Solder Side of Board ó Designated
+as 1 thru 18 (with 18 at Right When Viewing Face of Board)
+6.    All Holes Plated Thru
+7.    Mates with Dale Connector Part Number EB 7D-A18GFX or Equivalent
+
+
+SEMI G42-0996 © SEMI 1986, 2004 7
+
+
+Figure 4
+Thermal Test Board — 0.4 mm Pitch Quad Flat Package
+
+
+Unit: mm
+1.    Material ó Epoxy Glass 1.52ñ1.65 mm thickness, FR-4 (Green). Copper Clad. 28.3 g (1 Oz.) 1/1
+2.    Gold-Plated Fingers ó 0.8 μm Min. Thickness, 18 on Each Side
+3.    Fabricate ó IPC-D-320, Class III
+4.    Tolerance ó ± 0.1 mm (Unless noted)
+5.    Fingers on Component Side of Board ó Designed as A thru R, Fingers on Solder Side of Board ó Designated
+as 1 thru 18 (with 18 at Right When Viewing Face of Board)
+6.    All Holes Plated Thru
+7.    Mates with Dale Connector Part Number EB 7D-A18GFX or Equivalent
+
+
+SEMI G42-0996 © SEMI 1986, 2004 8
+
+Figure 5
+Thermal Test Board — 0.5 mm Pitch Quad Flat Package
+
+
+Unit: mm
+1.    Material ó Epoxy Glass 1.52ñ1.65 mm thickness, FR-4 (Green). Copper Clad. 28.3 g (1 Oz.) 1/1
+2.    Gold-Plated Fingers ó 0.8 μm Min. Thickness, 18 on Each Side
+3.    Fabricate ó IPC-D-320, Class III
+4.    Tolerance ó ± 0.1 mm (Unless noted)
+5.    Fingers on Component Side of Board ó Designed as A thru R, Fingers on Solder Side of Board ó Designated
+as 1 thru 18 (with 18 at Right When Viewing Face of Board)
+6.    All Holes Plated Thru
+7.    Mates with Dale Connector Part Number EB 7D-A18GFX or Equivalent
+
+
+SEMI G42-0996 © SEMI 1986, 2004 9
+
+Figure 6
+Thermal Test Board — 0.65 mm Pitch Quad Flat Package
+
+Unit: mm
+1.    Material ó Epoxy Glass 1.52ñ1.65 mm thickness, FR-4 (Green). Copper Clad. 28.3 g (1 Oz.) 1/1
+2.    Gold-Plated Fingers ó 0.8 μm Min. Thickness, 18 on Each Side
+3.    Fabricate ó IPC-D-320, Class III
+4.    Tolerance ó ± 0.1 mm (Unless noted)
+5.    Fingers on Component Side of Board ó Designed as A thru R, Fingers on Solder Side of Board ó Designated
+as 1 thru 18 (with 18 at Right When Viewing Face of Board)
+6.    All Holes Plated Thru
+7.    Mates with Dale Connector Part Number EB 7D-A18GFX or Equivalent
+
+
+SEMI G42-0996 © SEMI 1986, 2004 10
+
+Figure 7
+Thermal Test Board — Pin Grid Array Package
+
+Unit: mm
+1.    Material: Epoxy Glass 1.5 mm thickness, FR-4 (Green).
+2.    Gold Plated Fingers: 0.8 μm Min, 18 pad on Each side
+3.    Fabricate: IPC-D-320 Glass III
+4. Tolerance: + 0.1 mm (Unless noted)
+
+
+SEMI G42-0996 © SEMI 1986, 2004 11
+
+Figure 8
+Thermal Test Board — Ball Grid Array Package
+
+Unit: mm
+1.    Material: Epoxy Glass 1.5 mm thickness, FR-4 (Green).
+2.    Gold Plated Fingers: 0.8 μm Min. 18 pad on Each side
+3.    Fabricate: IPC-D-320 Class III
+4.    Tolerance: ± 0.1 mm (Unless noted)
+
+
+
+SEMI G42-0996 © SEMI 1986, 2004 12
+
+Figure 9
+Multi-Layer Board Construction
+
+
+Figure 10
+Inner Layer Pattern and Clearance for Multi-Layer Thermal Test Board
+1.    Material: Epoxy Glass 1.0 mm Isolation thickness, FR-4 (Green)
+2.    Inner Copper Clad thickness: 0.035 μm
+3.    Tolerance: ± 0.1 mm (Unless noted)
+
+Table 3  Clearance Diameter
+Pitch (mm) Hole Diameter ÿ 2 (mm) Clearance Diameter ÿ 3 (mm)
+1. 5                                               0.4                                               1.2
+1. 27                                             0.35                                              1.1
+BGA
+1. 0                                               0.3                                               0.9
+PGA
+2. 54                                             0.95                                              1.7
+
+
+SEMI G42-0996 © SEMI 1986, 2004 13
+
+Figure 11
+Location of Package While Mounting on Test Board
+
+
+SEMI G42-0996 © SEMI 1986, 2004 14
+
+Figure 12
+Location of Package While Mounting on Test Board (QFP)
+
+
+Figure 13
+Test Board Positioning Inside Measuring Chamber
+
+
+SEMI G42-0996 © SEMI 1986, 2004 15
+
+Figure 14
+Test Board Orientation Inside Wind Tunnel
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturerís  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI G43-87 © SEMI 1986, 19871
+SEMI G43-87
+TEST METHOD FOR JUNCTION-TO-CASE THERMAL RESISTANCE
+MEASUREMENTS OF MOLDED PLASTIC PACKAGES
+1  Purpose
+The  purpose  of  this  test  is  to  determine  the  thermal
+resistance of molded plastic packages using thermal test
+chips. This test method deals only with junction-to-case
+measurements  of  thermal  resistance  and  limits  itself  to
+fluid    bath    testing    environments.    For    this    test,
+conduction   through   the   leads   is   minimized,   thus
+providing   information   on   the   ability   of   the   plastic
+package    material    to    dissipate    heat.    Due    to    the
+thermophysical  properties  of  the  heat  transfer  fluids
+used and the effects of the variable nature of the fluid-
+stirring   and   package-mounting   procedures,   this   test
+method should only be used for comparing the thermal
+characteristics of plastic packages in the same fluid bath
+system.
+2  Applicable Documents
+2. 1  SEMI Specification
+SEMI  G32  —  Guideline  for  Unencapsulated  Thermal
+Test Chip
+3  Definitions
+The  following  definitions  and  symbols  shall  apply  for
+the purpose of this test:
+case  temperature,  T
+C
+—  in  degrees  Celsius.  The  case
+temperature is the temperature at a specified accessible
+reference    point    on    the    package    in    which    the
+microelectronic chip is mounted.
+junction  temperature,  T
+J
+—  in  degrees  Celsius.  The
+term   is   used   to   denote   the   temperature   of   the
+semiconductor junction in the microcircuit in which the
+major part of the heat is generated. For purposes of this
+test,    the    measured    junction    temperature    is    only
+indicative  of  the  temperature  in  the  immediate  vicinity
+of the element used to sense the temperature.
+power dissipation, P
+H
+— in watts, is the heating power
+applied  to  the  device  causing  a  junction-to-reference
+point temperature difference.
+thermal   resistance,   junction   to   specified   reference
+point,  R
+θJR
+—  in  degrees  Celsius/watt.  The  thermal
+resistance   of   the   microcircuit   is   the   temperature
+difference from the junction to some reference point on
+the package divided by the power dissipation P
+H
+.
+temperature-sensitive      parameter,      TSP      —      the
+temperature-dependent  electrical  characteristic  of  the
+junction under test which can be calibrated with respect
+to  temperature  and  subsequently  used  to  detect  the
+junction temperature of interest.
+4  Apparatus
+The  apparatus  required  for  these  tests  shall  include  the
+following as applicable to the specified test procedures:
+a.   Thermocouple  material  shall  be  copper-constantan
+(type  T)  or  equivalent,  for  the  temperature  range
+-100  to  +  300°C.  The  wire  size  shall  be  no  larger
+than    AWG    size    30.    The    junction    of    the
+thermocouple shall be welded to form a bead rather
+than   soldered   or   twisted.   The   accuracy   of   the
+thermocouple   and   associated   measuring   system
+shall be ± 0.5°C.
+b.   Suitable electrical equipment as required to provide
+controlled levels of conditioning power and to make
+the specified measurements. The instrument used to
+electrically     measure     the     temperature-sensitive
+parameter  shall  be  capable  of  resolving  a  voltage
+change of 0.5 mV.
+c.   Controlled   temperature   chamber   or   fluid   bath
+capable of maintaining the specified reference point
+temperature   to   within   ±   0.5°C   of   the   preset
+(measured)  value.  A  typical  temperature-controlled
+fluid   bath   assembly   is   presented   for   illustrative
+purposes only.
+4. 1   Fluid  Bath  Assembly  —  A  typi cal  temperature-
+controlled  fluid  bath  for  thermally  characterizing  the
+microelectronic device under test is shown in Figure 1.
+In  this  figure,  the  package  is  mounted  in  a  fluid  bath
+separate  from  the  fluid  circulator,  although  it  can  be
+immersed  directly  in  an  integrated  fluid  circulator/bath
+unit.  The  fluid  in  the  bath  should  be  continuously
+stirred  or  agitated  to  ensure  the  required  temperature
+stability  and  uniformity.  Since  this  working  fluid  is
+being  used  as  an  infinite  heat-sink,  the  case-to-fluid
+(ambient)     temperature     difference     at     the     case
+temperature   reference   point   of   interest   should   be
+minimized,  i.e.,  ≤  20°C.  For  case-to-fluid  temperature
+differences    >    20°C,    accuracy    and    repeatability
+difficulties    may    occur    due    to    a    large    variable
+temperature gradient in the fluid film boundary layer at
+the     package-fluid     interface.     The     case-to-fluid
+temperature difference can be minimized by increasing
+
+SEMI G43-87 © SEMI 1986, 19872
+the  fluid  velocity  and  by  decreasing  the  power  density
+seen by the fluid.
+The device under test should be mounted such that heat
+transfer to the fluid is not impeded. For leaded devices,
+the leads should be oriented in such a manner so as not
+to  interfere  with  the  heat  transfer  to  the  fluid  and
+provide  freedom  to  any  thermal  currents  caused  by  the
+power dissipation within the package. The microcircuit
+package shall be mounted such that conduction cooling
+through  the  leads  or  test  socket  or  both  shall  be  small
+compared   to   the   other   cooling   mechanisms.   To
+minimize conduction through the leads, a special socket
+jig that connects No. 36 AWG wire to the device socket
+should be used.
+The case temperature of the device under test should be
+measured  with  a  thermocouple  that  is  attached  to  the
+package/lead  and  should  not  be  assumed  to  be  at  the
+fluid  temperature.  The  working  fluid  should  have  a
+thermal   conductivity   at   25°C   of   at   least   0.0006
+W/cm°C.  Working  fluids  such  as  inert  fluorocarbon
+liquids and silicone oils are suitable as cooling media.
+5  Procedure
+5. 1      Direct     Measurement     of     Refere nce     Point
+Temperature, T
+R
+= T
+c
+— For the purpose of measuring
+a    microelectronic    device    thermal    resistance,    the
+reference  point  temperature  shall  be  measured  at  the
+package   location   of   highest   temperature   which   is
+accessible  from  outside  the  package.  This  reference
+point  location  is  determined  with  the  device  operating
+in free air and with no external heat-sinking. In general,
+this reference point is found to be on the surface of the
+body of the package, or on a lead near the body, in the
+major path of heat flow from the chip heating surface to
+the  ambient  fluid.  The  package  surface  may  be  altered
+to   facilitate   this   measurement   provided   that   such
+alteration does not affect the original heat transfer paths
+and,  hence,  the  thermal  resistance,  within  the  package
+by more than a few percent.
+5. 1.1   Case  Temperature,  T
+c
+—  The   microelectronic
+device  under  test  shall  be  mounted  under  specified
+conditions  so  that  the  case  temperature  can  be  held  at
+the  specified  value.  A  thermocouple  shall  be  attached
+on the surface of the device package directly under the
+chip   (i.e.,   on   the   base   plane   of   the   package).   A
+conducting  epoxy  may  be  used  for  this  purpose.  The
+thermocouple   bead   should   be   in   direct   mechanical
+contact  with  the  package  of  the  microelectronic  device
+under  test.  Care  should  be  taken  to  minimize  exposure
+of   the   thermocouple   bead   to   the   high   temperature
+gradient in the fluid film boundary layer at the package-
+fluid interface.
+If it is found that attaching the thermocouple directly to
+the  case  is  impractical,  an  alternate  approach  using  a
+thermocouple  welded  to  one  side  of  a  thin  metal  disk
+should  be  used.  This  can  be  accomplished  by  parallel
+gap welding the crossed thermocouple wires to one side
+of  a  0.25  cm  (0.094  in)  diameter,  0.02  cm  (0.008  in)
+thick  beryllium-copper  disk  and  then,  with  a  thin  layer
+of  adhesive,  bonding  the  other  side  of  the  disk  to  the
+case at the point of interest. The exposed thermocouple
+bead/wire  on  the  disk  shall  be  covered  with  epoxy  or
+silicone  rubber.  The  attached  thermocouple  should  not
+unduly interfere with heat transfer to the fluid.
+5. 2  Thermal Resistance,      Junction-t o-Specified
+Reference Point, R
+θJR
+5. 2.1     General    Considerations    —    Th e    thermal
+resistance of a semiconductor device is a measure of the
+ability of its carrier or package and mounting technique
+to  provide  for  heat  removal  from  the  semiconductor
+junction.  The  thermal  resistance  of  a  microelectronic
+device can be calculated when the case temperature and
+power  dissipation  in  the  device  and  a  measurement  of
+the junction temperature are known.
+When making the indicated measurements, the package
+shall    be    considered    to    have    achieved    thermal
+equilibrium   when   halving   the   time   between   the
+application  of  power  and  the  taking  of  the  reading
+causes  no  error  in  the  indicated  results  within  the
+required accuracy of measurement.
+5. 2.2   Indirect  Measurement  of  Junct ion  Temperature
+for the Determination of R
+θJR
+— The purpose of the test
+is   to   measure   the   thermal   resistance   of   integrated
+circuits  by  using  particular  semiconductor  elements  on
+the  chip  to  indicate  the  device  junction  temperature.  In
+order  to  obtain  a  realistic  estimate  of  the  operating
+junction  temperature,  the  whole  chip  in  the  package
+should  be  powered  in  order  to  provide  the  proper
+internal  temperature  distribution.  During  measurement
+of  the  junction  temperature,  the  chip  heating  power
+(constant  voltage  source)  shall  remain  constant  while
+the  junction  calibration  current  remains  stable.  It  is
+assumed that the calibration current will not be affected
+by   the   circuit   operation   during   the   application   of
+heating power.
+The  temperature-sensitive  device  parameter  is  used  as
+an    indicator    of    an    average    (weighted)    junction
+temperature    of    the    semiconductor    element    for
+calculations   of   thermal   resistance.   The   measured
+junction  temperature  is  indicative  of  the  temperature
+only  in  the  immediate  vicinity  of  the  element  used  to
+sense the temperature.
+The      temperature-sensitive      electrical      parameters
+generally   used   to   indirectly   measure   the   junction
+temperature  are  the  forward  voltage  of  diodes  and  the
+
+SEMI G43-87 © SEMI 1986, 19873
+emitter-base   voltage   of   bipolar   transistors.   Other
+appropriate  temperature-sensitive  parameters  may  be
+used  for  indirectly  measuring  junction  temperature  for
+fabrication  technologies  that  do  not  lend  themselves  to
+sensing the active junction voltages.
+5. 2.2.1   Steady-State  Technique  for  Me asuring  T
+J
+—
+The  following  symbols  shall  apply  for  the  purpose  of
+these measurements:
+I
+M
+— ring current in milliamperes.
+V
+MH
+—  Value  of  temperature-sensitive  parameters  in
+millivolts,  measured  at  I
+M
+,  and  corresponding  to  the
+temperature of the junction heated by P
+H
+.
+T
+MC
+—  Calibration  temperature  in  degrees  Celsius,
+measured at the reference point.
+V
+MC
+—  Value  of  temperature-sensitive  parameter  in
+millivolts, measured at I
+M
+and specific value of T
+MC
+.
+The measurement of T
+J
+using  junction  forward  voltage
+as the TSP is made in the following manner:
+Step  1  —  Measurement  of  the  temperature  coefficient
+of the TSP (calibration).
+The  coefficient  of  the  temperature-sensitive  parameter
+is  generated  by  measuring  the  TSP  as  a  function  of  the
+reference  point  temperature,  for  a  specified  constant
+measuring  current,  I
+M
+,  by  externally  heating  the  device
+under  test  in  an  oven  or  in  a  fluid  bath.  The  reference
+point  temperature  range  used  during  calibration  shall
+encompass  the  temperature  range  encountered  in  the
+power  application  test  (see  Step  2).  The  measuring
+current is generally chosen such that the TSP decreases
+linearly  with  increasing  temperature  over  the  range  of
+interest and that negligible internal heating occurs in the
+silicon  and  metal  traces.  For  determining  the  optimum
+TSP  calibration  or  measuring  current,  V
+MC
+vs.  log  I
+M
+curves  for  two  temperature  levels  that  encompass  the
+calibration   temperature   range   of   interest   should   be
+plotted.  The  optimum  measuring  current,  I
+M
+,  is  then
+selected such that it resides on the linear portion of the
+two  V
+MC
+vs.  log  I
+M
+curves  that  were  generated.  A
+measuring   current   ranging   from   0.05   to   5   mA   is
+generally  used,  depending  on  the  specifications  and
+operating   conditions   of   the   device   under   test,   for
+measuring  the  TSP.  The  value  of  the  TSP  temperature
+coefficient   V
+MC
+/T
+MC
+,   for   the   particular   measuring
+current   used   in   the   test,   is   calculated   from   the
+calibration  curve,  V
+MC
+vs.  T
+MC
+.  At  least  three  points
+should  be  used  to  generate  the  voltage  vs.  temperature
+curve  for  the  determination  of  the  TSP  temperature
+coefficient.
+Step 2 — Power application test.
+The  power  application  test  is  performed  in  two  parts.
+For   both   portions   of   the   test,   the   reference   point
+temperature is held constant at a preset value. The first
+measurement  to  be  made  is  that  of  the  temperature-
+sensitive    parameter,    i.e.,    V
+MC
+,    under    operating
+conditions  with  the  measuring  current,  I
+M
+,  used  during
+the  calibration  procedure.  The  microelectronic  device
+under  test  shall  then  be  operated  with  heating  power
+(P
+H
+)   applied.   The   temperature-sensitive   parameter,
+V
+MH
+,   shall   be   measured   with   constant   measuring
+current,  I
+M
+,  that  was  applied  during  the  calibration
+procedure (see Step 1).
+The  heating  power,  P
+H
+,  shall  be  chosen  such  that  the
+calculated    junction-to-reference    point    temperature
+difference   as   measured   at   V
+MH
+is   ≥   20°C.      In
+accomplishing this, the device under test should not be
+operated at such a high heating power level that the on-
+chip  temperature-sensing  and  heating  circuitry  is  no
+longer  electrically  isolated.    Care  should  also  be  taken
+not   to   exceed   the   design   ratings   of   the   package-
+interconnect    system,    as    this    may    lead    to    an
+overestimation  of  the  power  being  dissipated  in  the
+active area of the chip due to excessive power losses in
+the package leads and wire bonds.  The values of V
+MH
+,
+V
+MC
+, and P
+H
+are recorded during the power application
+test.
+The  following  data  shall  be  recorded  for  these  test
+conditions:
+a.   Temperature-sensitive   electrical   parameters   (V
+F
+,
+V
+EB
+, or other appropriate TSP).
+b.   Junction  temperature,  T
+J
+,   is   calculated   from   the
+equation:
+T
+J
+=T
+R
++V
+MH
+−V
+MC
+()
+∆V
+MC
+∆T
+MC
+
+
+ê
+ê
+
+
+ú
+ú
+−1
+where   T
+R
+=T
+C
+
+c.   Case temperature, T
+C
+(including specific location).
+d.   Power dissipation, P
+H
+.
+e.   Mounting    arrangement    (including    method    of
+thermocouple attachment and fluid temperature).
+5. 3
+Calculations of R
+θJR
+5. 3.1   Calculations  of  Package  Therm al  Resistance —
+The  thermal  resistance  of  a  microelectronic  device  can
+be  calculated  when  the  junction  temperature,  T
+J
+,  has
+been  measured  in  accordance  with  procedures  outlined
+in Sections 5.1 and 5.2.
+With  the  data  recorded  from  each  test,  the  thermal
+resistance shall be determined from:
+
+SEMI G43-87 © SEMI 1986, 19874
+R
+ΘJR
+=
+T
+J
+−T
+R
+P
+H(Package)
+junction - to - reference point
+where
+R
+ΘJR
+=R
+ΘJA
+and T
+R
+=T
+A
+.
+6  Summary Report
+The following details shall be specified as appropriate:
+a.   Description of package; including thermal test chip,
+location    of    case    or    chip    carrier    temperature
+measurement(s), and mounting arrangement.
+b.   Test condition(s), as applicable (see Section 5).
+c.   Test voltage(s), current(s), and power dissipation of
+test chip.
+d.   Recorded data for each test condition, as applicable.
+e.   Symbol(s)   with   subscript   designation(s)   of   the
+thermal characteristics determined.
+f.   Accept or reject criteria.
+Figure 1
+Temperature Controlled Fluid Bath Assembly
+NOTICE:
+These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI G44-94 © SEMI 1986, 19941
+SEMI G44-94
+SPECIFICATION FOR LEAD FINISHES FOR GLASS TO METAL SEAL
+CERAMIC PACKAGES (ACTIVE DEVICES ONLY)
+1  Preface
+1. 1  This specification defines lead  finishes for glass to
+metal seal ceramic packages assembled with iron-nickel
+alloy  leadframe  construction.  It  defines  composition,
+properties,  limits,  and  refers  to  appropriate  tests  for
+utility.
+1. 2   Scope  —  The  criteria  detailed   in  this  document
+applies   to   glass   to   metal   seal   ceramic   packages,
+assembled      with      iron-nickel      alloy      leadframe
+construction,   which   conforms   to   composition   limits
+specified  in  MIL-M-38510  as  lead  material  Type  A  or
+Type B.
+1. 3   Units  —  U.S.  Customary  (inch -pound)  or  metric
+(SI)  units  may  be  used  at  the  customer’s  discretion.
+This  specification  uses  U.S.  Customary  units  as  the
+prime unit.
+2  Applicable Documents
+2. 1   Order  of  Precedence  —  To  av oid  conflicts,  the
+order of precedence when ordering packages shall be as
+follows:
+Purchase Order
+Customer Package Drawing
+This Specification
+Reference Documents
+Related Documents
+2. 1.1  SEMI Specifications
+SEMI  G2  —  Specification;  Metallic  Leadframes  for
+Cer-DIP Packages
+SEMI  G35  —  Specification;  Test  Methods  for  Lead
+Finishes on Semiconductor (Active Devices)
+2. 1.2  ASTM Specifications
+1
+B   487   —   Measuring   Metal   and   Oxide   Coating
+Thickness  by  Microscopical  Examination  of  a  Cross
+Section
+B  545  —  Standard  Specification  for  Electro-deposited
+Coatings of Tin
+B  567  —  Measurement  of  Coating  Thickness  by  the
+Beta Backscatter Principle
+
+1 American Society for Testing and Materials, 100 Barr Harbor
+Drive, West Conshohoken, PA 19428-2959
+B  568  —  Measurement  for  Coating  Thickness  by  X-
+Ray Spectrometry
+B 571 — Adhesion of Metallic Coatings
+E 384 — Standard Test Methods for Micro-hardness of
+Materials
+2. 1.3  Federal Specification
+2
+QQ-S-571  —  Solder,  Tin  Alloy;  Tin-Lead  Alloy;  and
+Lead (Pb) Alloy
+2. 2  Military Specifications
+2
+MIL-T-10727  —  Tin  Plating;  Electrodeposits  or  Hot
+Dipped, for Ferrous and Non-Ferrous Metals
+MIL-G-45204  — Gold Plating, Electrodeposited
+MIL-STD-883 —  Test  Methods  and  Procedures  for
+Microelectronics
+MIL-M-38510  — Microcircuits, General Specification
+3  Terminology
+blister   —   An   enclosed   localized   separation   of   the
+plating from its base metal or an underplated layer that
+does not expose the underlying layer.
+pit — A shallow depression or crater. The bottom of the
+depression must be visible.
+solder — As used in this specification, refers to tin lead
+(Pb)  as  63/37  or  60/40,  unless  otherwise  specified  and
+agreed  upon  between  user  and  supplier  and  stated  on
+procurement drawings.
+4  Dimensions and Material
+Composition      limits,      mechanical      and      physical
+properties,   dimensions   and   tolerances   for   Cer-DIP
+leadframes are as stated in SEMI G2.
+Table   1   lists   recommended   finishes   for   devices
+employing  iron  nickel  alloy  leadframe  (MIL-M-38510
+Lead Material Type A or Type B).
+Gold plate is useable in socketed applications as well as
+in soldered applications. Hardness, grain size, and other
+properties   shall   be   specified   in   the   procurement
+drawing.
+
+2 Military Standards, Naval Publications and Form Center, 5801
+Tabor Avenue, Philadelphia, PA 19120
+
+SEMI G44-94 © SEMI 1986, 19942
+5  Lead Finish Requirements
+5. 1  Tin Electroplate
+5. 1.1  Composition — The tin depos it shall not be less
+than  99.8%  pure  tin  and  shall  not  contain  more  than
+0. 05% pure carbon. The deposit is Type 1 as defined in
+MIL-T-10727.
+5. 1.2    Characteristics   —   The   proced ure   used   for
+evaluating the tin coating and the general requirements
+for  the  coating  shall  comply  with  ASTM  B  545  or  the
+latest current revision, except where noted below.
+5. 1.2.1   Thickness  —  The  plated  coatin g  as  measured
+on the major flat of the leads shall be a minimum of 300
+microinches (7.5 micrometers).
+5. 1.2.2   Appearance  —  Surface  appear ance  shall  be
+smooth,  fine  grained,  adherent  and  free  from  exposed
+basis metal or underplate, visible blisters, pits, nodules,
+porosity, indications of burning, excessive edge buildup
+and other detrimental defects.
+5. 1.2.3  Hardness — None specified.
+5. 1.2.4    Preservation   —   Preservation   c oating,   if
+desired   and   agreed   upon   by   user   and   supplier,   is
+acceptable.  (Example:  Stearic  acid  solution  in  xylol  as
+defined in MIL-T-10727.)
+5. 2  Tin Lead (SnPb) Electroplate
+5. 2.1   Composition  —  Major  constitu ents  shall  be  tin
+and  lead  (Pb)  with  minor  impurities.  Range  of  major
+constituents shall be:
+Tin50%-98%
+Lead (Pb)2%-50%
+Nominal60% Tin, 40% Lead (Pb)
+NOTE:  Users  should  be  advised  that  many  plating  solutions
+containing   lead   (Pb)   also   contain   acid   fluorides.   Such
+solutions  will  attack  those  glass  materials  commonly  used  in
+ceramic   packages.   Adequate   process   controls   must   be
+developed and used in conjunction with this plating process to
+ensure package and device integrity.
+5. 2.2  Purity and Application — Per  MIL-M-38510.
+5. 2.3    Thickness   —   Shall   be   a   minim um   of   7.5
+micrometers  (300  microinches)  as  measured  on  the
+major flat of the leads.
+5. 2.4   Appearance   —   Surface   appear ance   shall   be
+smooth,  fine-grained,  adherent,  and  free  from  exposed
+basis metal or underplate, visible blisters, pits, nodules,
+porosity, indications of burning, excessive edge buildup
+and other detrimental defects.
+5. 2.5  Hardness — None specified.
+5. 3  Tin/Lead (Pb) Solder-Dip
+5. 3.1   Solder  Pot  Composition  and  P urity  —  Sn60  or
+Sn63, per QQ-S-571.
+5. 3.2    Thickness   —   Shall   be   a   minim um   of   5
+micrometers  (200  microinches)  as  measured  on  the
+major flat of the leads.
+5. 3.3    Process   Conformance   —   Sold er   coating   is
+applicable as shown in Table 1. In addition, the coating
+is acceptable as follows:
+1.   Over  the  electroplated  tin  or  tin/lead  as  per  Section
+4. 1 or 4.2.
+2.   Over the electroplated gold as per Section 4.4.
+5. 3.4   Appearance  —  Surface  shall  b e  smooth  and
+continuous.
+5. 3.5  Hardness — None specified.
+5. 3.6  Coverage — Electroplated pac kages.
+5. 3.6.1   The  solder  dip  shall  extend  up   to  and  beyond
+the effective seating plane for Cer-DIPs.
+5. 3.6.2   The  solder  dip  shall  extend  wi thin  .030"  from
+glass seal for Cer-Packs.
+5. 3.7  Coverage — Non-coated pack ages.
+5. 3.7.1   When  applied  over  the  base  m etal,  hot  solder
+dip shall cover the entire lead to the glass seal or point
+of emergence of the lead or metallized contact through
+the package wall.
+5. 4  Gold Electroplate
+5. 4.1  Composition  —  Gold  plating  s hall  be  applied  in
+accordance  with  MIL-G-45204  in  any  and  all  of  the
+following grades depending on application.
+Type I99.7% minimum
+Type II99.0% minimum
+Type III99.9% minimum
+NOTE: Type II is suitable for socketing application only.
+5. 4.2   Thickness  —  Shall  be  1.27–5.7 2  micrometers
+(50-225  microinches)  as  measured  on  the  major  flat  of
+the leads per MIL-M-38510.
+5. 4.3   Appearance   —   Surface   appear ance   shall   be
+smooth,  fine-grained,  adherent  and  free  from  exposed
+basis metal or underplate, visible blisters, pits, nodules,
+porosity,    indications    of    burning,    excessive    edge
+buildup, and other detrimental defects.
+5. 4.4   Purity  —  Composition  limits  a re  as  specified  in
+Section 4.4.1 above. Individual metallics in the deposit
+shall   not   exceed   0.1%.   Metallic   hardening   agents,
+
+SEMI G44-94 © SEMI 1986, 19943
+purposely  added  to  adjust  a  plating  bath  to  specified
+hardness are not considered as impurities.
+5. 4.5  Hardness — Depending on typ e and application,
+hardness  is  specified,  using  Knoop  indenter  in  the
+following  categories  (testing  is  done  as  per  ASTM  E
+384):
+TypeGrade
+Hardness
+(Knoop)
+IA90 max
+B91-129
+C130-200
+IIB91-129
+C130-200
+D201 and over
+IIIA90 max
+5. 5  Reflowed Plated Tin or Plated  Tin/Lead
+5. 5.1  Composition — As per the pla ted finish, Section
+4. 1.2 or 4.2.1, as applicable.
+5. 5.2   Characteristics  —  As  per  4.1. 2  and  4.2,  as
+applicable.
+5. 5.3   Thickness  —  The  thickness  of   such  reflowed
+coatings   must   be   a   minimum   of   200   microinches
+measured on a significant surface.
+5. 5.4   Appearance  —  The  appearanc e  of  reflowed
+coatings must be smooth and continuous.
+Table 1  Recommended Finishes
+Undercoating
+FinishMil Spec
+Over
+Base
+Metal
+NiSn   SnPb   Au
+TinMIL-T-10727XX
+TinLead
+(SnPB)
+MIL-M-38510XX
+Electroplate
+Solder
+QQ-S-571XXXXX
+DIP(SnpB)
+Gold
+MIL-G-45204XX*
+*Ni undercoat required by MIL-M-38510.
+6  Test Methods
+Tests  for  the  lead  finishes  shall  be  in  accordance  with
+SEMI G35.
+7  Sampling
+The  sampling  plan,  based  on  MIL-STD-105  shall  be
+agreed between vendor and customer.
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI G45-93 © SEMI 1986, 19931
+SEMI G45-93
+RECOMMENDED PRACTICE FOR FLASH CHARACTERISTICS OF
+THERMOSETTING MOLDING COMPOUNDS
+1  Scope
+This  method  describes  a  procedure  for  measuring  the
+flashing characteristics of semiconductor grade transfer
+molding compounds.
+2  Significance
+2. 1   The  flashing  tendency  for  sem iconductor  grade
+molding   compounds   depends   on   the   interaction   of
+several  variables,  including  mold  conditions,  process
+parameters,  molding  compound  viscosity,  and  curing
+characteristics.  This  test  is  not  a  valid  method  for
+predicting the flashing performance in all mold types. It
+is  a  method  for  comparing  flash  tendency  and  flashing
+type  of  different  molding  compounds  when  evaluated
+under a specific set of molding process parameters.
+2. 2    Flashing   presents   problems   wi th   subsequent
+processing of plastic packaged devices after molding. A
+high  flashing  tendency  increases  die  wear  in  the  trim
+and form operation, may interfere with plating or solder
+dip finishing operations, and may prevent good contact
+for   electrical   test.   Thus,   reduced   tendency   toward
+flashing  will  improve  the  plastic  package  subassembly
+operations.  The  information  from  this  test  will  be  of
+value   in   rating   flash   performance   of   any   given
+compound to that in production use.
+3  Apparatus
+3. 1    Transfer   molding   press   with   a    platen   area
+sufficient  to  maintain  a  uniform  mold  temperature  and
+having  (1)  a  transfer  piston  pressure  potential  of  1000
+psi  on  the  material;  (2)  sufficient  clamping  pressure  to
+prevent flashing of the molding compound at clamping
+lands; and (3) a minimum plunger speed of 25.4 mm (1
+inch)  per  second  without  load.  The  pot  diameter  shall
+be 31.75 to 44.45 ± 0.735 mm (1.250 to 1.750 ± 0.025
+inch)  and  the  clearance  between  pot  and  ram  shall  be
+sufficiently small that flashing does not occur above the
+first sealing groove on the ram.
+3. 2  Standard Flash Test Mold — P er Figure 1.
+3. 3    Force   Gauge   —   With   appropr iate   range   to
+calibrate  transfer  pressure  to  minimum  of  10.343  mpa
+(1,500 psi).
+3. 4  Steel Rule — Measured in 0.25  mm (0.010 in).
+3. 5  Halo Lamp — 3× magnificatio n, minimum.
+3. 6  Thermocouple and/or Pyrome ter Calibrated — In
+the 160°–190°C range (calibration to be checked every
+6 months).
+4  Test Conditions
+4. 1   Molding  Compounds  —  Refrig erated  shipment
+and  storage  of  some  molding  compounds  is  necessary.
+The  molding  compound  is  to  be  at  room  temperature
+before  the  container  is  opened.  Care  must  be  taken  to
+preserve  the  original  moisture  content.  The  material
+should    be    in    powdered    form,    unless    otherwise
+specified.
+4. 2   Flash  Test  Mold  —  Shall  be  cl ean  and  free  from
+any mold release agents or lubricants. A standard mold
+cleaning   compound   can   be   used   to   insure   mold
+cleanliness.
+4. 3  Molding Conditions
+4. 3.1   The  temperature  of  the  mold  s hall  be  measured
+using  a  thermocouple  inserted  in  the  mold  or  with  a
+surface  pyrometer.  The  ram  shall  be  kept  at  the  mold
+temperature. Molding temperature is to be 175°C unless
+otherwise  specified.  Temperature  must  be  maintained
+within ± 3°C (± 5°F) of the specified temperature.
+4. 3.2  The transfer pressure for test, a s measured under
+the transfer plunger, is to be 6.895 ± 0.177 mpa (1000 ±
+25 psi) unless otherwise specified.
+4. 3.3   The  weight  of  the  charge  shall   be  adjusted  to
+give  a  molded  cull  thickness  of  3.303  ±  0.254  mm
+(0.130 ± 0.010") excluding vertical flash.
+4. 3.4  The free running ram speed sh all be at least 25.4
+mm/sec  (1"/sec).  Recommended  speed  is  100  ±  25
+mm/sec  into  the  pot  and  application  of  pressure  on  the
+charge shall be maintained throughout the mold cycle.
+4. 3.5   Unless  otherwise  specified,  a  m inimum  of  1.5
+minutes close and cure time shall be used.
+4. 3.6   Flash  length  shall  be  measured   in  0.25  mm
+(0.010 in) intervals.
+5  Procedure
+5. 1   Thoroughly  clean  the  ram,  pot ,  and  mold  of  any
+cured compound, or other foreign matter.
+5. 2   Heat  the  mold  and  ram  to  with in  ±  3°C  of  the
+specified temperature.
+
+SEMI G45-93 © SEMI 1986, 19932
+5. 3  At the beginning of each series  of tests and at each
+change   of   compound,   check   and   set   the   transfer
+pressure using the force gauge. The proper force gauge
+setting can be determined from the formula:
+F=
+ΠD
+2
+P
+4
+where F is the force in pounds, P is the desired pressure
+on  the  material  in  psi,  and  D  is  the  ram  diameter  in
+inches.
+5. 4
+For each material change, mak e at least three clean
+out runs using the material to be tested before recording
+data.  These  runs  may  be  used  to  determine  the  charge
+weight.
+5. 5
+Weigh  out  the  compound  to  th e  nearest  0.1  g  as
+previously  determined  to  yield  a  cull  of  3.302  ±  0.254
+mm (0.130 ± 0.010 in).
+5. 6
+Raise  the  ram,  add  the  compou nd  to  the  pot,  and
+immediately activate the transfer cycle.
+5. 7
+Remove  cull  and  measure  thic kness.  If  the  cull  is
+not within 0.130 ± 0.010 in, discard the run and repeat
+the test, adjusting the charge weight as necessary.
+5. 8
+Open  mold  and  measure  longe st  flash  for  each
+channel   to   nearest   0.25   mm   (0.010   in)   using   3×
+minimum magnification. Be sure to check both top and
+bottom plates of mold before measuring flash.
+NOTE:  Care  must  be  taken  to  include  the  measurement  of
+transparent  and  semi-transparent  flash  which  may  be  present
+in  the  smaller  channel.  After  measurements,  diligence  is
+required  to  remove  all  flash,  including  the  transparent  and
+semi-transparent varieties prior to the next test.
+5. 9   Repeat  Steps  5.6  through  5.8  a t  least  3  times  for
+repeatability.
+6  Reporting of Results
+6. 1  Report the material designatio n and lot number.
+6. 2
+Report  the  average  and  standa rd  deviation  of  the
+flash length in each channel.
+6. 3
+Report  the  temperature  and  pre ssure  used  for  the
+tests.
+NOTE: Common Errors/Problems:
+• Inadequate  preheat  of  flash  mold  and/or  transfer
+plunger prior to test and between shots.
+• Incorrect cull thickness.
+• Omission  of  transparent  or  semi-transparent  flash
+in   measurement   (often   present   in   smallest   two
+channels).
+• Inadequate cleaning of mold between shots.
+• Starting  from  the  end  of  the  ruler  to  make  flash
+length measurements instead of starting at a known
+distance from the end.
+• Inadequate  mold  break-in.  Three  shots  should  be
+run    and    disregarded    before    recording    flash
+measurements for each material.
+• Sprue,   channel   entry   point,   and   mating   mold
+surface  wear  may  produce  error  in  measurement
+and  correlation  problem.  The  impact  of  wear  on
+results    has    not    been    determined.    Extent    of
+permissible mold wear requires agreement between
+testing organizations.
+
+SEMI G45-93 © SEMI 1986, 19933
+Figure 1
+Flash Test Mold
+1.  Hand Mold, Polished, Very Well Mated Surfaces, Base Plates 0.75 thk.
+2.   Mold:  Common  Runner  Feeds  Flash  Channels  of  0.003,  0.0015,  0.0005,  and  0.00025  inches  by  0.375  wide  ±
+0. 00025.
+3.   Mold Flash Channels: Surface Finish 8 microinches
+4.   Mold Flash Channels Depth Tolerance:
+a.    ± 0.00005" for 0.00025 and 0.0005: Channels
+b.    ± 0.0002" for 0.0015 and 0.003 Channels
+AUXILIARY INFORMATION
+Conversions
+Inches
+Conversions
+Millimeters
+8. 000203.20
+4. 500114.30
+2. 25057.15
+2. 00050.80
+1. 12528.58
+1. 00025.40
+0. 3779.58
+0. 3759.53
+0. 3007.62
+0. 2526.40
+0. 2506.35
+
+SEMI G45-93 © SEMI 1986, 19934
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other   relevant   literature   respecting   any   materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI G46-88 © SEMI 19881
+SEMI G46-88
+TEST METHOD FOR THERMAL TRANSIENT TESTING FOR DIE
+ATTACHMENT EVALUATION OF INTEGRATED CIRCUITS
+1  Introduction
+1. 1    Purpose   —   Evaluation   of   sem i conductor   die
+attachment    integrity    using    the    thermal    transient
+techniques   as   implemented   by   the   Electrical   Test
+Method on either thermal test chips or active devices.
+1. 2   Rationale  —  Steady  state  therm al  response  (or
+thermal  resistance)  and  thermal  transient  response  of
+discrete  semiconductor  devices  and  integrated  circuits
+are   sensitive   to   the   presence   of   voids   in   the   die
+attachment  material  between  the  semiconductor  chip
+and package. These voids impede the flow of heat from
+the   chip   to   the   substrate   (package).   Due   to   the
+difference in the thermal time constants of the chip and
+package, the measurement of transient thermal response
+can  be  made  more  sensitive  to  the  presence  of  voids
+than   can   the   measurement   of   steady   state   thermal
+response. This is because the chip thermal time constant
+is  generally  several  orders  of  magnitude  shorter  than
+that  of  the  package.  Thus,  the  heating  power  pulse
+width can be selected so that only the chip and the chip
+to  substrate  interface  are  heated  during  the  pulse  by
+using  a  pulse  width  somewhat  greater  than  the  chip
+thermal   time   constant,   but   less   than   that   of   the
+substrate. Heating power pulse widths ranging from 10
+to  400  milliseconds  have  been  found  to  satisfy  this
+criterion.  This  enables  the  detection  of  voids  to  be
+greatly  enhanced,  with  the  added  advantage  of  not
+having  to  heat  sink  the  device  under  test.  Thus,  the
+transient   thermal   response   technique   is   less   time
+consuming than the measurement of thermal resistance
+for  use  as  a  manufacturing  screen,  process  control  or
+incoming    inspection    measure    for    die    attachment
+integrity evaluation.
+1. 3    References   —   The   following   d ocuments   are
+recommended  reading  for  reference  and  test  method
+standard description purposes:
+SEMI G32 — Unencapsulated Thermal Test Chip
+MIL-STD-883C
+1
+—     Method     1012,     Thermal
+Characteristics
+2  Definitions
+The following symbols and terminology shall apply for
+the purpose of this test method.
+
+1 Military Standards, Naval Publications and Form Center, 5801
+Tabor Avenue, Philadelphia, PA 19120
+2. 1  V
+F
+—  the  forward  biased  volta ge  of  the  diode
+junction  within  the  Device-Under-Test  (DUT)  used  for
+junction temperature sensing.
+2. 2  V
+Fi
+—  the  initial  V
+F
+value  befo re  application  of
+heating power.
+2. 3  V
+Ff
+—  the  final  V
+F
+value  after   application  of
+heating power.
+2. 4  ∆V
+F
+—  the  change  in  the  temp erature  sensitive
+parameter,  V
+F
+,  due  to  the  application  of  heating  power
+to the DUT.
+2. 5  V
+H
+—  the  voltage  applied  to  th e  DUT  during  the
+heating time in order to cause power dissipation.
+2. 6  I
+H
+—   the   heating   current   result ing   from   the
+application of V
+H
+to the DUT.
+2. 7  P
+H
+— the heating power pulse   magnitude; product
+of V
+H
+and I
+H
+.
+2. 8  t
+H
+— the duration of P
+H
+(applie d to the DUT).
+2. 9  I
+M
+—  the  measurement  current   used  to  forward
+bias    the    temperature    sensing    diode    junction    for
+measurement of V
+F
+.
+2. 10  t
+MD
+— measurement delay tim e can be defined in
+one of two ways:
+2. 10.1   the  time  from  the  start  of  heati ng  power  (P
+H
+)
+removal to the completion of the final V
+F
+measurement;
+or
+2. 10.2   the  time  from  the  start  of  heati ng  power  (P
+H
+)
+removal  to  the  start  of  the  final  V
+F
+measurement  time,
+referred to as t
+SW
+.
+2. 11  t
+SW
+—  sample  window  time  du ring  which  final
+VF   measurement   is   made;   applicable   only   if   t
+MD
+definition 2.10.2 is used.
+2. 12  K    —    the    temperature-sensitive     parameter
+temperature   coefficient   measured   at   IM   in   °C   per
+millivolt.
+2. 13   CU  —  the  comparison  unit  con sisting  of  ∆V
+F
+divided  by  I
+H
+,  that  is  used  to  normalize  the  transient
+thermal response for variations in power dissipation; in
+units of mV/A.
+2. 14  T
+J
+— the device-under-test jun ction temperature.
+2. 15  ∆T
+J
+— the change in T
+J
+caused  by the application
+of P
+H
+for a time equal to t
+H
+.
+
+SEMI G46-88 © SEMI 19882
+2. 16  σ
+∆
+— the standard deviation if  the ∆V
+F
+results for
+a given test condition.
+2. 17  σ
+CU
+—  the  standard  deviation  o f  the  CU  results
+for a given test condition.
+3  Test Operation
+The  following  paragraphs  describe  in  conceptual  detail
+the  operation  of  the  test  for  integrated  circuit  thermal
+response.
+3. 1  Set-Up — Shown in Figure 1 i s the set-up required
+for  testing  either  active  devices  or  thermal  test  chips.
+Figure 1a is used for those cases in which the TSP is the
+junction    isolation    diode    forward    biased    voltage.
+Thermal  test  chips  and  test  IC’s  for  which  the  junction
+isolation  diode  is  either  not  available,  or  desirable  for
+temperature  sensing,  can  be  handled  by  the  set-up
+shown in Figure 1b.
+3. 2   Apparatus  —  To  implement  ei ther  version  of
+Figure 1 requires the following apparatus:
+3. 2.1  A constant voltage source capa ble of adjustment
+to  the  desired  value  of  V
+H
+and  able  to  supply  the  I
+H
+value drawn by the DUT.
+3. 2.2   A  constant  current  source  to  su pply  I
+M
+with
+sufficient  voltage  compliance  to  turn  the  TSP  junction
+fully on.
+3. 2.3    An   electronic   switch   capable   o f   switching
+between the heating period conditions and measurement
+conditions  in  a  time  frame  short  enough  to  avoid  DUT
+cooling  during  the  transition;  this  typically  requires
+switching in the microsecond range.
+3. 2.4    A   voltage   measurement   circuit    capable   of
+accurately  making  the  V
+H
+measurement  within  the  t
+MD
+(or  t
+MD
+plus  t
+SW
+,  depending  on  the  definitions  stated
+previously) time frame with millivolt resolution.
+3. 3  Operation and Waveforms —  The test begins with
+the adjustment of I
+M
+and V
+H
+to the desired values. Then
+with the electronic switch in position 1, the value of V
+F
+is measured. The switch is then moved to position 2 for
+a  length  of  time  equal  to  t
+H
+and  the  value  of  I
+H
+is
+measured. Finally, at the conclusion of t
+H
+, the switch is
+again moved to position 1 and the V
+F
+value is measured
+within  a  time  period  defined  by  t
+MD
+(or  t
+MD
+plus  t
+SW
+,
+depending  on  the  definitions  stated  previously).  The
+voltage  and  current  sources  are  then  turned  off  at  the
+completion of the test.
+The voltage and current waveforms for the two versions
+of Figure 1 are shown in Figure 2.
+4  Test Procedure
+The  procedures  below  describe  how  to  set  up  the  test
+conditions   and   determine   the   acceptance   limits   for
+implementing    the    transient    thermal    test    for    die
+attachment    evaluation    using    the    apparatus    and
+definitions stated above.
+4. 1  Initial Device Testing Procedu re — The following
+steps  describe  in  detail  how  to  set  up  the  apparatus
+described   previously   for   proper   testing   of   various
+integrated circuit devices.
+Step  1  —  From  a  10  to  15  piece  sample  of  the
+integrated  circuits  to  be  tested,  pick  any  one  device  to
+start  the  set-up  process.  Set  up  the  test  apparatus  as
+follows:
+V
+H
+=  5.0  V  (Or  some  other  desired  value  near  the
+device    under    tests    (DUT’s)    normal    operating
+voltage.)
+t
+H
+= 200 ms
+t
+MD
+= 15 us
+I
+M
+=  1.0  mA  (Or  some  other  value  appropriate  for
+the specific device under test; typically in the range
+of 80 uA to 9.9 mA.)
+Step  2  —  Insert  device  into  the  apparatus  test  fixture
+and initiate a test.
+(For best results, a test fixture that offers some form of
+heat sinking would be desirable.)
+Step  3  —  If  ∆V
+F
+is  in  the  20  to  40  mV  range,  then
+proceed  to  the  next  step.    This  range  corresponds  to  a
+junction  temperature  change  of  roughly  10°C  to  20°C
+and is sufficient for initial comparison purposes.
+If ∆V
+F
+is less than 20 mV, return to Step 1 and increase
+heating  power  into  device  by  increasing  V
+H
+,  or  by
+reconfiguring  the  DUT  connections  for  greater  power
+dissipation, or a combination of both.
+If ∆V
+F
+is greater than 80 mV, corresponding to a junc-
+tion  temperature  change  greater  than  40°C,  it  would
+probably  be  desirable  to  reduce  the  heating  power  by
+returning    to    Step    1    and    reducing    V
+H
+,    or    by
+reconfiguring  the  DUT  connections  to  reduce  power
+dissipation, or a combination of the two.  Reducing V
+H
+is the preferable approach.
+Because  two  different  devices  can  show  the  same  rise
+in  junction  temperature,  even  if  the  value  of  P
+H
+is
+different,    a    comparison    of    the    devices    is    best
+accomplished   using   the   CU   value.   As   defined   in
+Section  2  above,  CU  provides  a  comparison  unit  that
+takes into account different device I
+H
+values for a given
+V
+H
+test condition.
+
+SEMI G46-88 © SEMI 19883
+Step  4  —  Test  each  of  the  sample  devices  and  record
+the ∆V
+F
+and CU data as shown in Figure 3.
+Step  5  —  Select  out  the  devices  with  the  highest  and
+lowest  values  of  CU  and  put  the  remaining  devices
+aside.
+The ∆V
+F
+values can be used instead of CU if the mea-
+sured  values  of  I
+H
+are  very  tightly  grouped  aroung  the
+average value.
+Step  6  —  Following  the  Heating  Time  (t
+H
+)  sequence
+shown  in  Figure  4,  read  and  record  the  ∆V
+F
+and  CU
+data values for each of the two devices of Step 5.
+Step  7  —  Using  the  data  from  the  previous  step,
+prepare heating curves for the two devices in a manner
+similar to the examples shown in Figure 5.
+Step 8 — Interpretation of the heating curves is the next
+step.   Realizing   that   the   thermal   characteristics   of
+identical  chips  should  be  the  same  if  the  heating  time
+(t
+H
+) is less than or equal to the thermal time constant of
+the  chip,  the  two  curves  should  start  out  the  same  for
+the low values of t
+H
+. Non-identical chips (i.e., thinner or
+smaller in cross section) will have completely different
+curves, even at the smaller values of t
+H
+. As the value of
+t
+H
+is  increased,  thereby  overcoming  the  chip  thermal
+constant,  heat  will  have  propagated  through  the  chip
+into  the  die  attachment  region.  Since  the  heating  curve
+devices  of  Step  5  were  specifically  chosen  for  their
+difference,  the  curves  of  Figure  5  diverge  after  t
+H
+reaches  a  value  where  the  die  attachment  variance  has
+an effect on the device junction temperature. Increasing
+t
+H
+further  will  probably  result  in  a  flattening  of  the
+curve  as  the  heating  propagates  in  the  device  package.
+If  the  device  package  has  little  thermal  mass  and/or  is
+not well mounted to a good heat sink, the curve will not
+flatten  very  much,  but  will  show  a  definite  change  in
+slope.  Figure  6  shows  the  key  elements  of  the  heating
+curve.
+Step   9   —   Using   the   heating   curve,   select   the
+appropriate  value  of  t
+H
+to  correspond  to  the  inflection
+point  in  the  transition  region  between  heat  in  the  chip
+and heat in the package.
+If  there  are  several  different  elements  in  the  heat  flow
+path-chip,     die     attachment,     substrate,     substrate
+attachment, and package, for example, in a hybrid there
+will  be  several  plateaus  and  transitions  in  the  heating
+curve.   Appropriate   selection   of   t
+H
+will   optimize
+evaluation sensitivity to other attachment areas.
+Step  10  —  Return  to  the  apparatus  and  set  t
+H
+equal  to
+the value determined from Step 9.
+Step 11 — Because the selected value of t
+H
+is much less
+than  that  for  thermal  equilibrium,  it  is  possible  to
+significantly    increase    the    heating    power    without
+degrading   or   destroying   the   device.   The   increased
+power  dissipation  within  the  device  under  test  will
+result  in  high  ∆V
+F
+and/or  CU  values  that  will  make
+determination of acceptable and non-acceptable devices
+much easier.
+Step 12 — The pass/fail limit, the cutoff point between
+acceptable    and    non-acceptable    devices,    can    be
+established in a variety of ways:
+a)   Correlation   to   other   die   attachment   evaluation
+methods,  such  as  die  shear  and/or  x-ray;  while  these
+two  methods  have  little  actual  value  from  a  thermal
+point  of  view,  they  do  represent  standardized  methods
+as described in MIL-STD specifications.
+b)  Maximum  allowable  junction  temperature  variation
+between  devices;  since  the  relationship  between  ∆T
+J
+and ∆V
+F
+is  about  0.5°C/mV,  the  junction  temperature
+spread  between  devicescan  be  easily  determined.  The
+T
+J
+predicts reliability. Conversely, the T
+J
+spread  neces-
+sary to meet the reliability projections can be translated
+to a ∆V
+F
+and/or CU value for a Pass/Fail criteria, based
+on  correlation  with  steady-state  thermal  equilibrium
+conditions.
+To  fully  use  this  approach,  it  will  be  necessary  to
+calibrate  the  devices  for  the  exact  value  of  the  T
+J
+-  V
+F
+characteristic.   The   characteristic’s   slope,   commonly
+referred to as K Factor, is easily measured on a sample
+basis    using    a    voltmeter,    environmental    chamber,
+temperature  indicator  and  a  power  supply  setup  for
+forcing,  both  active  devices  and  thermal  test  chips  as
+shown in Figure 7. A simple set of equations yields the
+junction temperature once K and ∆V
+F
+are known:
+∆T
+j
+= | (K) (∆V
+F
+) |
+T
+J
+= T
+A
++ ∆T
+j
+Where T
+A
+is the ambient or reference temperature.
+c) Statistically from a moderate size device sample; the
+distribution  of  ∆V
+F
+or  CU  values  should  be  a  normal
+one  with  defective  devices  out  of  the  normal  range.
+Figure  8  shows  a  ∆V
+F
+distribution  for  a  sample  lot  of
+integrated  ciruits.  Note  that  the  left-hand  side  of  the
+histogram envelope is fairly well-defined, but the other
+side  is  greatly  skewed  to  the  right.  This  comes  about
+because   the   left-hand   side   is   constrained   by   the
+absolutely  best  heat  flow  that  can  be  obtained  with  a
+given  chip  assembly  material  and  process.  The  other
+side has no such constraints because there is no limit as
+to how poorly a chip is mounted.
+
+SEMI G46-88 © SEMI 19884
+The  usual  rule  of  thumb  in  setting  the  maximum  limit
+for ∆V
+F
+or  CU  is  to  use  the  distribution  average  value
+and one standard deviation ( σ) i.e. —
+(∆V
+F
+)
+high
+limit
+=∆V
+F
++Xσ
+∆
+(CU)
+high
+limit
+=CU+Xσ
+CU
+Where X = 1 in most cases.
+The statistical data required is obtained by testing 40 or
+more devices under the conditions of Step 11.
+Step  13  —  Once  the  test  conditions  and  pass/fail  limit
+have been determined, it is necessary only to record this
+information for future testing requirements of the same
+device   in   the   same   package.   With   the   apparatus
+properly  set-up,  including  the  fail  limit  selector  on
+those  apparatus  set  ups  so  equipped,  the  operator  need
+only  insert  the  device,  initiate  a  test,  and  then  either
+read the ∆V
+F
+or  CU  display  or  observe  the  appropriate
+pass or fail indicaors.
+The    steps    listed    hereto    have    been    conveniently
+summarized  in  Figure  9.  The  total  time  required  to
+perform these steps is greatly dependent on the operator
+but,  in  general,  should  require  about  one  hour  if  the
+statistical approach of Step 12.C is used.
+4. 2
+Routine  Device  Testing  Proced ure  —  Once  the
+proper  control  settings  have  been  determined  for  a
+particular   device   type   from   a   given   manufacturing
+process  or  vendor,  repeated  testing  of  that  device  type
+simply requires that the same test conditions be used as
+previously determined.
+New  device  types  or  the  same  devices  manufactured
+with a different process will require a repeat of Section
+4. 1.
+4. 3
+Comparison  of  Different  Vend or  Devices  —  Each
+device  type  is  defined  as  a  specific  chip  manufactured
+to  a  given  set  of  procedures.  Integrated  circuit  users
+who  buy  a  specific  part  number  from  more  than  one
+vendor  or  manufacturers  that  redesign  or  otherwise
+modify  the  fabrication  of  their  devices  will  be  able  to
+use  the  heating  power  and  approximately  the  same  t
+H
+for all vendors, but probably will have to use a different
+∆V
+F
+or  CU  pass/fail  limit  for  each  different  vendor
+because   the   K   Factor   for   parts   manufactured   by
+different   vendors   will   probably   be   different.   The
+difference can be determined in Step 12.B and using the
+setup described in Figure 7.
+5  Test Condition Specificati on
+To  properly  set  up  the  test  apparatus  and  to  insure
+repeatable  measurements,  the  following  test  conditions
+must be fully specified:
+a.   V
+H
+b.   t
+H
+c.   I
+M
+d.   t
+MD
+(and t
+SW
+if appropriate)
+e.   DUT/apparatus interface (i.e., wiring connection)
+f.∆V
+H
+or CU data requirement
+Figure 1A
+Set-Up for Junction Isolation Diode Devices
+Figure 1B
+Set-Up for Parisitic Diode or Thermal Test Chip
+Temperature Sensing
+
+SEMI G46-88 © SEMI 19885
+Figure 2A
+Waferforms Associated with Figure 1A
+Figure 2B
+Waferforms Associated with Figure 2B
+Figure 3
+Data Results for Initial 15-Piece Sample for tH
+Value of 200 ms
+
+SEMI G46-88 © SEMI 19886
+Heating Time t
+H
+(seconds)
+DUT #1 CU
+(m V/A)
+DUT#9 CU
+(m V/A)
+1 × 10
+-4
+4343
+1. 54343
+24343
+34343
+44343
+64343
+84343
+1 × 10
+-3
+4545
+1. 54545
+24747
+34848
+45050
+65153
+85863
+1 × 10
+-2
+6370
+1. 57586
+285100
+3100122
+4112140
+6130168
+8145190
+1 × 10
+-1
+157208
+1. 5179243
+2195268
+3220308
+4239337
+6265373
+8285398
+1 × 10
+0
+300416
+1. 5323449
+2340470
+3362497
+4377518
+6398518
+8411563
+1 × 10
+1
+421578
+Figure 4
+Heating Curve Data for Highest and Lowest Reading Devices from Figure 3
+
+SEMI G46-88 © SEMI 19887
+Figure 5
+Figure 6
+Interpretation of Heating Curves of Figure 5
+NOTE: Inflection point in curve occurs at approximately t
+H
+= 400 ms.
+
+SEMI G46-88 © SEMI 19888
+Figure 7
+K Factor Calibration Setup and Procedure
+
+SEMI G46-88 © SEMI 19889
+V   = 5.0 v
+T   = 400 ms
+I     = 1.0 mA
+t      = 20
+CU  = 249 mV/A
+σ
+= 53.5 mV/A
+CU  = 302.5 mV/A
+H
+H
+M
+MD
+cu
+high
+limit
+Figure 8
+CU  bar  graph  shows  thermal  distribution  of  50  devices  when  tested  at  a  heating  time  of  400  ms.  (Note:  CU  data
+rounded off to nearest m V/A.)
+General DescriptionStepsComments
+A   Initial Setup1 thru 4   Approximate instrument settings to find variations among devices in 10 to 15
+piece sample.
+B    Heating Curve Generation5 thru 7   Using highest and lowest reading devices, generate Heating Curves.
+C    Heating Curve Interpretation8 thru 10  Heating Curve is used to find more appropriate value for t
+H
+corresponding to heat
+in the die attachment are (or some other desired interface in the heat flow path).
+D   Final Setup11Heating Power applied during t
+H
+is increased in order to improve measurement
+sensitivity to variations among devices.
+E    Pass/F Determination12 thru 13 A variety of methods is available for setting the fail limit; the statistical approach
+is the fastest and easiest to implement.
+Figure  9  —  Summary  table  of  steps  required  to  implement  thermal  transient  testing  for  IC  die  attachment
+evaluation.
+
+SEMI G46-88 © SEMI 198810
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights or copyrights asserted in connection with any item
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly  advised  that  determination  of  any  such  patent
+rights or copyrights, and the risk of infringement of such
+rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI G47-88 © SEMI 19881
+SEMI G47-88
+SPECIFICATION FOR PLASTIC MOLDED QUAD FLAT PACK
+LEADFRAMES
+1  Preface
+This  specification  defines  the  acceptance  criteria  for
+leadframes designed for assembly of JEDEC registered
+publication  95  standard  outlines  for  “Plastic  Quad  Flat
+Pack 0.025" lead spacing (gull wing) packages”. It is a
+design  guideline  for  packaging  engineers,  leadframe
+stampers   and   etchers,   mold   and   trim/form   tooling
+manufacturers.   It   has   been   developed   to   meet   the
+requirements of assemblers using automatic and manual
+equipment.
+2  Applicable Documents
+2. 1  SEMI Specifications
+SEMI G4  —  Specification,  Integated  Circuit  Leadfame
+Materials in the Production of Stamped Frames
+SEMI    G18    —    Specification,    Integrated    Circuit
+Leadframe  Materials  Used  in  the  Production  of  Etched
+Frames
+SEMI     G10     —     Standard     Method,     Mechanical
+Measurement for Plastic Package Leadframes
+SEMI  G21  —  Specification,  Plating  Integrated  Circuit
+Leadframes
+2. 2  ANSI Specification
+1
+Y 14.5M-1982 — Dimensioning and Tolerancing
+2. 3  JEDEC Specification
+2
+Registration 95 — Plastic Quad Flat Pack, 0.025" Lead
+Spacing (Gull Wing)
+2. 4  Military Specification
+3
+MIL-STD-105  —  Sampling  Procedures  and  Tables  for
+Inspection by Attributes
+3  Selected Definitions
+burr — a fragment of excess material either horizontal
+or vertical attached to the leadframe.
+camber  —  curvature  of  the  leadframe  strip  edge  (see
+Figure 1).
+
+1 ANSI, 1430 Broadway, New York, NY 10018
+2 Military Standards, Naval Publications and Form Center, 5801
+Tabor Ave., Philadelphia, PA 19120
+3 JEDEC, 2001 Eye Street, N.W., Washington, D.C. 20006
+coil  set  —  Longitudinal  bowing  of  the  leadframe  (see
+Figure 2).
+Figure 1
+Camber
+coined  area  —  that  area  at  the  tip  end  of  the  bond
+fingers coined to produce a flattened area for functional
+use (see Figure 3).
+Figure 2
+Coil Set
+crossbow  —  transverse  bowing  of  the  leadframe  (see
+Figure 4).
+lead  twist  —  angular  rotation  of  bonding  fingers  (see
+Figure 5).
+pits  —  shallow  surface  depressions  or  craters  in  the
+leadframe material.
+true   position   circle   —   that   circle   with   its   center
+positioned  at  the  center  of  the  coined  lead  defines  the
+design position of the lead tip.
+
+SEMI G47-88 © SEMI 19882
+Figure 3
+Coined Area
+Figure 4
+Crossbow
+Figure 5
+Lead Twist
+4  Ordering Information
+Purchasing  orders  for  leadframes  for  plastic  molded
+quad  flat  pack  packages  furnished  to  this  specification
+shall include the following items:
+4. 1  Drawing no. and revision leve l.
+4. 2  Material, alloy specification.
+4. 3  Lead count, and confirming no . of units per strip.
+4. 4  Requirement for material certi fication.
+4. 5  Leadframe plating specificatio ns.
+5  Dimensions
+5. 1  Tables 1, 2, 3, and 4.
+5. 2  Reference Figures 6 and 7 and  Details A and B.
+6  Defect Limits and Parame ters (to measure,
+see SEMI G10, Standard Method for
+Mechanical Measurement for Plastic Package
+Leadframes)
+6. 1  Lead Tip Width
+6. 1.1  Minimum Lead Tip Width —  S hall  be  as  agreed
+to between supplier and purchaser.
+6. 1.2   Minimum  Flat  Wire  Bonding  A rea  —  80%  of
+nominal lead width and 0.025" (0.635 mm) in length.
+6. 2  Coining and Metal Clearance
+6. 2.1  Coined Depth — 0.0005" (0.0 13 mm) minimum
+to  30%  material  thickness  maximum  (stamped  frames
+only).
+6. 2.2    Dimensions   shown   on   drawing s   are   before
+coining.
+6. 2.3   Maximum  Coining  Bulge  —  (S tamped  frame
+only) shall not exceed 0.002" (0.051 mm) per edge and
+shall   be   governed   by   metal   to   metal   clearance
+requirements (lead to lead and lead to pad).
+6. 2.4  Metal-to-Metal Clearance — S hall be as agreed
+to between supplier and purchaser.
+6. 3   Lead  Twist  —  Shall  not  exceed   3.5  or  0.0006"
+(0.015 mm) per 0.001" (0.254 mm) of lead width.
+6. 4   Burrs  —  Shall  be  firmly  attach ed  and  able  to
+withstand  a  probe  force  of  10  grams.  All  burrs  vertical
+and  horizontal  in  any  location  shall  not  exceed  0.001"
+(0.0254 mm).
+6. 5   Die  Pad  Tilt  and  Flatness  —  ( See  SEMI  G10  for
+measurement method.)
+6. 5.1  Tilt — 0.001" (0.025 mm) max imum per 0.100"
+(2.54  mm)  of  length  or  width  in  the  undepressed  state,
+and  0.002"  (0.051  mm)  maximum  per  0.160"  (4.06
+mm)  of  length  or  width  in  the  depressed  state,  when
+measuring  corner  to  corner:  overall  maximum  not  to
+exceed a total of 0.006" (0.152 mm).
+6. 5.2   Flatness  —  0.0002"  (0.005  mm )  per  0.100"
+(2.54  mm)  pad  length  when  measuring  from  the  center
+to  the  average  of  four  corners.  The  corners  are  defined
+at 0.005" (0.127 mm) from each edge.
+6. 6  Pits and Slug Marks
+6. 6.1  Within the functional area and  on external leads,
+no  slug  marks  and  pits  shall  exceed  0.0003"  (0.008
+
+SEMI G47-88 © SEMI 19883
+mm)  in  depth  and  0.0005"  (0.0013  mm)  in  length  (see
+SEMI G4).
+6. 6.2   They  shall  not  affect  lead  stren gth  and  shall  not
+exceed 0.001" (0.0254 mm) in depth and 0.002" (0.051
+mm) in length in non-functional areas.
+6. 7   Material  thickness  for  both  all oy  42  and  copper
+alloys  is  0.006"  (0.152  mm),  ±  0.00015"  (0.0038  mm)
+for all lead counts.
+NOTE — The material thickness tolerance dimension listed in
+Section   6.7   is   currently   under   committee   review   and   is
+expected to be revised to ± 0.0002".
+6. 8   Internal  Position  Tolerance  —   The  centerline  of
+all  leadframe  features  must  be  within  T.P.T.  0.002"
+(0.051 mm) relative to center line of pilot holes on rail.
+6. 9  Progression
+6. 9.1  Single progression of one fram e is T.P.T. 0.002"
+(0.051 mm).
+6. 9.2  Accumulated progression toler ance over the strip
+length  (measured  from  pitch  line  tooling  hole  to  pitch
+line  tooling  hole,  across  the  strip  length  minus  two
+units) is within T.P.T. of 0.004" (0.102 mm).
+6. 10   Strip  Cut  Off  Location  —  Shal l  be  within  T.P.T.
+0. 006" (0.154 mm) of nominal strip length.
+6. 11   Strip  Width  Tolerance  —  T.P. T.  0.004"  (0.102
+mm) for copper and alloy 42 materials.
+6. 12   Camber  —  Shall  not  exceed  0 .002"  (0.051  mm)
+over nominal strip length.
+6. 13  Coil Set — Maximum of 0.020 " (0.508 mm) over
+the nominal strip length. This does not include material
+thickness.
+6. 14   Cross  Bow  —  Shall  not  exceed   the  following
+dimensions:
+No. of LeadsMaximum Cross Bow
+52—1000.006" (1.52 mm)
+132—1640.010" (0.254 mm)
+196—2440.012" (0.305 mm)
+7  Sampling
+Sampling  will  be  determined  between  supplier  and
+purchaser.
+8  Packaging and Marking
+8. 1   Packaging  —  Leadframes  mus t  be  packaged  in
+containers designed and constructed to prevent damage
+and contamination.
+8. 2   Marking  —  The  outer  containe rs  shall  be  clearly
+marked   identifying   the   user   stock   number,   user
+purchase  order  number,  drawing  number,  and  vendor
+lot numbers within the carton.
+
+SEMI G47-88 © SEMI 19884
+Table 1  Leadframe Standard Dimensions
+LEAD COUNT52 LEAD68 LEAD84 LEAD100 LEAD132 LEAD164 LEAD196 LEAD24 LEAD
+PACKAGE SHAPESQUARESQUARESQUARESQUARESQUARESQUARESQUARESQUARE
+JEDEC PACKAGE
+DESIGNATION
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+PLASTIC
+QUAD
+FLAT
+PACK
+0. 025"
+SPACING
+“GULL
+WING”
+NOMINAL
+PACKAGE WIDTH
+0. 4500.5500.6500.7500.9501.1501.350T.B.D.
+NOMINAL
+PACKAGE LENGTH
+0. 4500.5500.6500.7500.9501.1501.350T.B.D.
+STRIP LENGTH8.8008.6408.6408.4008.4008.0007.200T.B.D.
+NO. OF UNITS PER
+STRIP
+10886654T.B.D.
+TOOLING
+DIMENSIONS
+A0.2000.3500.3500.5000.5000.6000.700T.B.D.
+(PROGRESSION) C0.8801.0801.0801.4001.4001.6001.800T.B.D.
+F0.0500.0500.0500.0500.0500.0500.050T.B.D.
+G1.0201.6201.6201.6201.6201.8202.020T.B.D.
+(STRIP WIDTH) H1.0701.6701.6701.6701.6701.8702.070T.B.D.
+I0.8100.9101.0101.1101.3101.5101.710T.B.D.
+J0.8100.9101.0101.1101.3101.5101.710T.B.D.
+DAMBAR
+TOPACKAGE
+0. 0300.0300.0300.0300.0300.0300.030T.B.D.
+DAMBAR WIDTH0.0150.0150.0150.0150.0150.0150.015T.B.D.
+EXPANSION SLOT
+WIDTH
+0. 0150.0150.0150.0150.0150.0150.015T.B.D.
+DIAMETER Ø0.0600.0600.0600.0600.0600.0600.060T.B.D.
+METAL
+THICKNESS
+0. 0060.0060.0060.0060.0060.0060.006T.B.D.
+NOTE: ALL DIMENSIONS IN INCHES
+
+SEMI G47-88 © SEMI 19885
+Figure 6
+NOTE:
+1     These are optional features only. Gating may require their exclusion.
+
+SEMI G47-88 © SEMI 19886
+Detail A
+Leadlocks
+Table 2
+Leadcount526884100132164196244
+L0.1510.2010.2510.3010.4010.5010.601T.B.D.
+L
+1
+0. 1610.2110.2610.3110.4110.5110.611T.B.D.
+L
+2
+0. 1650.2150.2650.3150.4150.5150.615T.B.D.
+L
+3
+0. 1860.2360.2860.3360.4360.5360.636T.B.D.
+L
+4
+0. 1960.2460.2960.3460.4460.5460.646T.B.D.
+L
+5
+0. 2000.2500.3000.3500.4500.5500.650T.B.D.
+P.O.0.2250.2750.3250.3750.4750.5750.675T.B.D.
+
+SEMI G47-88 © SEMI 19887
+Detail B
+Bumper/Tie Bar and Relief
+Table 3
+Leadcount526884100    132    164    196244
+a0.435 0.485 0.535 0.585 0.685 0.785 0.885  T.B.D.
+b0.305 0.355 0.405 0.455 0.555 0.655 0.755  T.B.D.
+c0.270 0.320 0.370 0.420 0.520 0.620 0.720  T.B.D.
+d0.255 0.305 0.355 0.405 0.505 0.605 0.705  T.B.D.
+e0.231 0.281 0.331 0.381 0.481 0.581 0.681  T.B.D.
+
+SEMI G47-88 © SEMI 19888
+Detail C Gate Relief
+Table 4
+Lead Count526884100    132    164    196244
+f0.435 0.485  0.535  0.585 0.685 0.785 0.885   T.B.D.
+g0.394 0.444  0.494  0.544 0.644 0.744 0.844   T.B.D.
+h0.360 0.410  0.460  0.510 0.610 0.710 0.810   T.B.D.
+i0.272 0.322  0.372  0.422 0.522 0.622 0.722   T.B.D.
+j0.435 0.485  0.535  0.585 0.685 0.785 0.885   T.B.D.
+k0.399 0.449  0.499  0.549 0.649 0.749 0.849   T.B.D.
+l0.325 0.375 0.4325 0.475 0.575 0.675 0.775   T.B.D.
+m0.269 0.319  0.369  0.419 0.519 0.619 0.719   T.B.D.
+n0.253 0.303  0.353  0.403 0.503 0.603 0.703   T.B.D.
+
+SEMI G47-88 © SEMI 19889
+Table 4 (see Figure 7) Guidelines for Placement of Taping Dimensions 84 Lead Through 196 Leadframes
+1.   Nominal tape width maximum — 0.037"
+2.   Nominal tape width maximum — 0.060"
+3.   Tape width tolerance — ± 0.003"
+4.   Tape location tolerance — ± 0.015"
+5.   Absolute minimum location of outside tape edge from lead tip — 0.050".
+6.   Minimum location of outside tape edge from package outline nominal dimension — 0.065".
+7.   When window “W1” dimension cannot be met with minimum tape nominal width and recommended tolerancing
+which is the case with various given pad sizes of different lead counts, window “W2” dimension, 0.030", from
+package outline nominal should be used for the outside tape limit. If this window “W2” dimension still cannot be
+met  negotiation  of  tape  width  and  location  tolerances  between  supplier  and  purchaser  is  suggested  to  maintain
+tape within the recommended window dimensions.
+
+# 8
+
+8.   Recommended center line of tape for nominal location is midway between inside and outside tape edge limits for
+window “W1” & window “W2” dimensions as appropriate and within tolerance limits.
+
+# 9
+
+9.   Downset angle — 30°
+
+# 10
+
+10. Downsetting must begin inside 0.025" minimum flat distance along tie bar from inside edge of applied tape.
+
+# 11
+
+11. Recommended downset length is maximum allowable within the above guidelines.
+Figure 7
+
+SEMI G47-88 © SEMI 198810
+NOTICE: These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the standard is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned   herein.   These   standards   are   subject   to
+change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 1
+SEMI G48-89
+SPECIFICATION FOR MEASUREMENT METHOD FOR MOLDED
+PLASTIC PACKAGE TOOLING
+1  Preface
+This    document    is    prepared    to    enable    standard
+measurement  techniques  to  be  used.  It  is  intended  that
+the     measurement     techniques     described     in     the
+specification  will  apply  to  all  molded  plastic  package
+tooling, i.e. DIPS, SIPS, PCC, SO, Quad, and TAB.
+2  Applicable Documents
+2. 1  SEMI Specifications
+SEMI G14 — Plastic Molded DIP Tooling
+SEMI G16 — Plastic Chip Carrier Tooling
+SEMI G36 — Plastic Molded High Density TAB Quad
+Tooling
+SEMI G37 — Plastic Molded SO Package Tooling
+3 Basic Equipment
+3. 1      The   following   basic   equipment   is   required   to
+perform the specified measurements:
+3. 1.1  Toolmaker’s  Microscope  —  3×  objective  and
+10×  eyepiece  total  30×  with  X  and  Y  axes  digital
+readouts  reading  to  0.0001".  Minimum  travel  of  stage
+must  be  2.0"  ×  2.0".  Eyepiece  must  be  ±  0.0002"
+minimum.  The  toolmaker’s  microscope  should  have  a
+goniometer  on  the  eyepiece  as  will  as  on  the  stage.
+Accuracy  of  the  goniometer  shall  be  0.1.  The  TM
+microscope   should   have   a   Z   axis   with   a   digital
+measurement   capability,   reading   in   increments   of
+0. 0001".  The  objective  lens  must  be  20×  minimum
+which   will   give   0.0005"   accuracy   to   the   Z   axis
+measurements.
+3. 1.2  Optical Comparator — Surface illumination. 10"
+minimum   screen   with   3"   ×   8"   minimum   travel.
+Magnification    of    10×,    20×    minimum    required.
+Accuracy of 10× is 0.001"; accuracy of 20× is 0.0005".
+Some   operators   may   be   able   to   improve   on   this
+accuracy,  but  this  is  the  best  expected  from  average
+inspectors.
+3. 1.2.1    Overlays  at  20×  may  be  used  for  rapid  mea-
+surement. The user is cautioned that the thickness of the
+line  must  be  controlled.  Line  widths  must  not  exceed
+0. 010"  in  width,  which  will  give  an  inaccuracy  of
+0. 0005"  in  the  measurement.  Overlays  must  have  the
+datum  marks  clearly  labeled.  Overlays  are  tools  which
+speed  inspection;  however,  rejects  must  be  verified  by
+toolmaker’s microscope measurements, which are more
+accurate.
+3. 1.3  Digital  Depth  Indicator  —  Mounted  on  a  stand.
+Digital reading with a range of 2" is available. Readout
+must  display  increments  of  0.0001"  with  ±  1  digit
+accuracy.
+3. 1.4  Micrometer  —  0  to  1.0".  0.250"  diameter  for
+measuring to 0.001" accuracy.
+3. 1.5    Eight  (8)  inch  dial  calipers  for  measuring  to
+0. 002" accuracy.
+3. 1.6   Granite  Surface  Plate  —  Minimum  size  18"  ×
+28", with a surface accuracy of 0.0002" or better.
+3. 1.7  Surface Finish
+3. 1.7.1   Charmille  Visual  Surface  Finish  Standard  —
+(For   comparison   of   Electric   Discharge   Machined
+(EDM) surface only.)
+3. 1.7.2  Surface  Comparator  Standards  —  (For  other
+machined surfaces.)
+3. 1.7.3  Surface Analyzer
+3. 1.8   Binocular,  Zoom  Microscope  —  10—15×  mag-
+nification with vertical or near vertical lighting.
+3. 1.9  Dial  Indicators  —  With  accuracy  of  .0001  and
+with force not to exceed 5 grams.
+3. 2  Alternative  Equipment  —  Sophisticated,  automatic
+equipment  is  not  excluded  from  use,  but  the  user  must
+ensure   that   such   equipment   meets   or   exceeds   the
+accuracy  of  the  basic  equipment  so  that  correlation
+problems may be avoided.
+3. 3  Calibration — All equipment to be calibrated on a
+regular schedule.
+4  Measurements
+4. 1  The following measurements will be made:
+4. 1.1  Package Thickness (Section 5.1)
+4. 1.2  Package Length (Section 5.2)
+4. 1.3  Package Width (Section 5.3)
+4. 1.4  Leadframe to Cavity Offset (Section 5.4)
+4. 1.5  Top Cavity Length (Section 5.5)
+4. 1.6  Top Cavity Width (Section 5.6)
+4. 1.7  Bottom Cavity Length (Section 5.7)
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 2
+4. 1.8  Bottom Cavity Width (Section 5.8)
+4. 1.9  Cavity Overlap/Underlap (Section 5.9)
+4. 1.10  Cavity to Cavity Mismatch (Section 5.10)
+4. 1.11  Cavity Depth (Section 5.11)
+4. 1.12  Molding Protrusions (Section 5.12)
+4. 1.13  Pin Depths (Section 5.13)
+4. 1.14  Dambar Trimming Defects (Section 5.14)
+4. 1.15  Package Warpage (Section 5.15)
+4. 1.16  Lead Coplanarity (Section 5.16)
+4. 1.17  Shoulder Bend Location (Section 5.17)
+4. 1.18  Surface Finish (Section 5.18)
+4. 1.19  Radii (Section 5.19)
+4. 1.20  Lead Position (Section 5.20)
+4. 1.21  Draft Angles (Section 5.21)
+4. 1.22  Lead Spread (Section 5.22)
+4. 1.23  Foot Angle (Section 5.23)
+4. 1.24  Foot Length (Section 5.24)
+4. 1.25  Plastic Stand-off (Section 5.25)
+4. 2  Conditions
+4. 2.1      All   measurements   to   be   made   on   molded
+components,   which   have   been   processed   to   agreed
+conditions including post mold cure.
+4. 2.2        All    measurements    to    be    performed    at    a
+temperature between 20° and 26.7°C (68°, 80°F).
+4. 2.3  Axis Definition
+4. 2.3.1    The  X  axis  lies  parallel  to  the  rail  of  the  frame
+and  the  Y  axis  lies  perpendicular  to  the  rails  of  the
+frame.
+4. 2.3.2    The  package  X  and  Y  axes  must  be  positioned
+parallel  to  the  X  and  Y  axes  of  the  measurement  stage
+travel to avoid measurement errors.
+4. 2.3.3  The datum of the X and Y axes is the pilot hole
+of the leadframe, because it is the most accurate feature.
+An additional pilot hole is required to establish the theta
+datum.
+4. 2.3.4  The Z axis is perpendicular to the X and Y axis.
+The datum is the leadframe or the top mold parting line,
+unless otherwise specified.
+5  Measurement
+5. 1  Package Thickness — (Figure 1)
+5. 1.1  Equipment — Micrometer
+5. 1.2    Using  the  micrometer,  measure  the  thickness  of
+the  package  at  three  (3)  places,  diagonally  across  the
+package,  where  the  contours  allow,  at  the  top  edge,
+middle and bottom edge of the package. (Note: the top
+is the pin 1 identifier edge.)
+5. 2  Package Length — (Figure 1)
+5. 2.1  Equipment — Optical Comparator at 10×.
+5. 2.2  Position  the  package  so  that  the  cross-sectional
+view  is  presented  for  measurement.  Use  care  to  assure
+the package is square to the datum plane.
+5. 2.3    Align  the  package  side  draft  angle  (see  Section
+5. 21)  where  the  draft  angle  intersects  the  leadframe.
+This  is  the  parting  line  (datum  point).  Measure  the
+overall   width   at   the   parting   line,   including   cavity
+mismatch.
+5. 3  Package Width — (Figure 1)
+5. 3.1  Equipment — Optical Comparator at 10×.
+5. 3.2  Position  the  package  so  that  the  cross-sectional
+view  is  presented  for  measurement.  Use  care  to  assure
+the package is square to the datum plane.
+5. 3.3    Align  the  package  side  draft  angle  (see  Section
+5. 21)  where  the  draft  angle  intersects  the  leadframe.
+This  is  the  parting  line  (datum  point).  Measure  the
+overall   width   at   the   parting   line   including   cavity
+mismatch.
+5. 4  Leadframe to Cavity Offset — (Figure 2)
+5. 4.1  Equipment — Toolmaker’s Microscope at 30×.
+5. 4.2      Position   the   circle   (cross   hair)   of   the   filar
+eyepiece of similar diameter to the leadframe pilot hole.
+Zero  the  digital  readout.  Move  the  stage  to  the  point
+where  the  molded  package  meets  the  leadframe  at  the
+parting  line.  Record  digital  readout  reading  as  (T1).
+Continue  to  move  the  stage  until  the  point  on  the
+opposite  side  where  mold  compound  and  leadframe
+meet. Record digital readout reading as T2. Continue to
+move  stage  to  center  of  leadframe  rail  (usually  also  a
+hole). Record the digital readout reading as T3.
+5. 4.3    Turn  part  over  and  BE  SURE  TO  USE  THE
+SAME   HOLE   AND   PART;   repeat   the   three   (3)
+readings, B1, B2, and B3.
+5. 4.4  Derive the data from the readings as follows:
+Top Centerline of Frame = (T3)/2
+Bottom Centerline of Frame = (B3)/2
+Measurement Error = (T3)/2 - (B3)/2
+Frame Cavity Offset = (B3)/2 - (B2 + B1)/2
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 3
+Centerline  of  Package  =  (T2  +  T1)/2;  (B2  +  B1)/2.
+(Relative to datum)
+NOTE:   Figure   2   calculations   assume   that   the   leadframe
+centerline is equidistant between T3 and the zero datum point.
+5. 4.5  In lieu of the frame pilot hole, the dambar may be
+used on the frame when measuring the offset; however,
+the    possibility    of    tolerance    error    may    become
+cumulative,    particularly    with    etched    rather    than
+stamped frames.
+NOTE:   By   SEMI   convention   the   offsets   are   defined   in
+relation to the bottom cavity of the mold.
+5. 5  Top Cavity Length “Y” Axis — (Figure 2)
+5. 5.1  Equipment — Toolmaker’s Microscope at 30×.
+5. 5.2    Focus  the  microscope  on  the  leadframe  datum
+point.  Zero  the  digital  readout.  Move  the  stage  to  the
+intersection  of  the  mold  compound  and  the  leadframe
+parting  line.  Read  and  record.  Continue  to  measure
+across  the  package  length  to  the  intersection  of  the
+mold  compound  and  the  leadframe  parting  line  on  the
+opposite edge of the package. Read and record.
+5. 5.3  The cavity length is defined as (Ty2 – Ty1).
+5. 6  Top Cavity Width “X” Axis — (Figure 2)
+5. 6.1  Equipment — Toolmaker’s Microscope at 30×.
+5. 6.2    Focus  the  microscope  on  the  leadframe  datum
+point.  Zero  the  digital  readout.  Move  the  stage  to  the
+intersection  of  the  mold  compound  and  the  leadframe
+parting  line.  Read  and  record  the  reading.  Continue  on
+to  the  intersection  of  the  mold  compound  and  the
+leadframe  parting  line  on  the  opposite  side.  Read  and
+record.
+5. 6.3  The cavity width is defined as Tx2 – Tx1.
+5. 7  Bottom Cavity Length “X” Axis — (Figure 2)
+5. 7.1  Equipment — Toolmaker’s Microscope at 30×.
+5. 7.2    Focus  the  microscope  on  the  same  datum  point
+used  for  the  top  cavity  length  (remember  the  package
+has been turned over). Zero the digital readout. Move to
+the   intersection   of   the   mold   compound   and   the
+leadframe  parting  line.  Read  and  record  the  reading.
+Continue to the intersection of the mold compound and
+the  leadframe  parting  line  on  the  opposite  side.  Read
+and  record.  The  bottom  cavity  length  is  the  difference
+of  the  two  readings.  Record  the  bottom  cavity  length
+(By2 – By1).
+5. 8  Bottom Cavity Width “X” Axis — (Figure 2)
+5. 8.1  Equipment — Toolmaker’s Microscope at 30×.
+5. 8.2    Focus  the  microscope  on  the  leadframe  datum
+point.  Zero  the  digital  readout.  Move  the  stage  to  the
+intersection  of  the  mold  compound  and  the  leadframe
+parting line. Read and record. The bottom cavity width
+is the difference of the two readings (Bx2 – Bx1).
+5. 9  Cavity Overlap/Underlap — (Figure 4)
+5. 9.1    Compare  the  top  cavity  length  to  the  bottom
+cavity  length  and  the  top  cavity  width  to  the  bottom
+cavity  width.  The  difference  in  the  number  is  the
+overlap/underlap for each axis.
+5. 10  Cavity to Cavity Mismatch — (Figure 2)
+5. 10.1    The  comparison  of  the  centerlines  of  the  top
+cavity  length  to  the  bottom  cavity  length  and  the  top
+cavity width to the bottom cavity width shall determine
+the cavity to cavity mismatch.
+Formula:
+Cavity to Cavity Mismatch =
+(B2 + B1)/2 – (T2 + T1)/2
+5. 11  Cavity Depth — (Figure 1)
+5. 11.1  Equipment — Depth Indicator
+5. 11.2  Top Cavity Depth — Measure the distance from
+the  top  surface  of  the  leadframe  to  the  top  of  the  unit,
+place  the  indicator  on  the  surface  of  the  leadframe,
+zeroing  the  readout,  moving  the  part  to  a  point  where
+the top of the unit can be indicated, and read and record
+the readout.
+5. 11.3   Bottom  Cavity  Depth  —  The  measurement  is
+performed  in  the  same  manner  as  the  measurement  in
+Section  5.11.2  except  the  part  is  turned  over  and  the
+bottom  surface  of  the  leadframe  to  the  bottom  of  the
+unit is used.
+5. 11.4    The  package  depth  is  the  sum  of  the  frame
+thickness   and   the   top   and   bottom   depth.   (This
+measurement  should  equal  Section  5.1.  Any  variation
+may be considered measurement error.)
+5. 12  Molding   Protrusions   Top/Bottom   of   Part   —
+(Figure 3)
+5. 12.1  Equipment — Digital depth indicator.
+5. 12.2  Place unit on the anvil and zero the indicator on
+the  package  surface  away  from  area  of  protrusion.
+Carefully  move  the  part  to  where  the  protrusion  is
+located.  Carefully  lower  the  indicator  to  the  top  of  the
+mold protrusion. Read and record the mold protrusion.
+5. 13  Pin Depths — (Figure 3)
+5. 13.1  Equipment  —  Depth  indicator  with  a  fine  point
+or “Z” axis reading toolmaker’s microscope.
+5. 13.2    The  measurement  is  made  from  the  nominal
+plane of the package surface to the bottom of the design
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 4
+mark  (either  ejector  pin  or  Pin  #1  indicator  or  other
+feature).
+5. 13.3  The  indicator  is set  to  zero  on  the  package
+surface  and  then  moved  to  the  bottom  of  the  feature.
+The readout is read and recorded.
+5. 14  Dambar Trimming Defects — (Figure 4)
+5. 14.1  Equipment — Toolmaker’s Microscope
+5. 14.2  Measure from the edge of the lead to the edge of
+the  protrusion  or  intrusion;  record  the  reading  and  the
+lead number.
+NOTE:  Dambar  trimming  defects  are  those  which  can  be
+caused  by  overcutting  into  the  lead  shoulder  (stand  off)  i.e.
+cutting  too  much  or  undercutting  the  dambar,  leaving  too
+much   dambar   or   a   burr.   Overcutting   causes   shoulder
+intrusions. Undercutting leaves shoulder protrusions. In some
+cases,  an  adjacent  protrusion  and  intrusion  is  caused  by
+misalignment of the part at the time of dambar removal.
+5. 15  Package Warpage — (Figure 5)
+5. 15.1  Equipment  —  Microscope  “Z”  Axis  reading
+40×.
+5. 15.2    With  the  package  sitting  on  the  stage,  obtain  a
+two  point  datum  by  measuring  two-points  on  opposite
+edges  0.005  from  the  radius  readings;  move  to  the
+center of the package and obtain the deviation from the
+datum, and read and record the reading as the warp.
+5. 15.3    For  quad  packages,  it  is  equally  important  that
+there be minimum warp in each axis (X or Y) so that a
+three-point  Z  axis  datum  must  be  obtained;  the  two
+used  in  5.15.2  and  an  additional  one,  on  one  adjacent
+edge.
+5. 16  Lead Coplanarity
+NOTE: Applies to all surface mount devices.
+5. 16.1  Contact Method — (Figure 6)
+NOTE: Not recommended for gull-wing leads.
+5. 16.1.1  Equipment
+Dial      Indicator      0.0001"      Accuracy, 5 grams maximum
+pressure.
+Granite      Flat.
+Transfer      Stand.
+Package      Holding      Fixture.
+Reference Gauge Blocks, 0.0002" Accuracy.
+5. 16.1.2  Place  the  package  on  holding  fixture  so  that
+the  flat  sections  of  the  leads,  as  they  exit  from  the
+plastic, are on the ground flats of the fixture. The leads
+are to be facing “UP” (Dead Bug).
+5. 16.1.3  On the granite flat, set up the dial indicator on
+its   transfer   stand   and   zero   the   reading   using   the
+reference  block.  Use  a  suitable  reference  block  so  that
+all measurements are positive to avoid confusion.
+5. 16.1.4    Measure  the  highest  point  on  each  lead  (e.g.,
+the tangent point of a “J” lead).
+5. 16.1.5  Determine the range of readings.
+NOTE: Special Precautions
+1.   Be  sure  that  the  flat  of  the  leadframe,  as  it  exits
+from  the  plastic,  rests  on  the  flats  of  the  holding
+fixture. If the radiused section supports the package,
+then spurious readings will result.
+2.   The  pressure  exerted  by  the  dial  indicator  must  not
+exceed  5  grams.  To  check  the  contact  pressure  of
+the  dial  indicator,  use  a  gram  gauge.  The  gram
+pressure must be noted at the initial deflection of the
+gauge and at the maximum deflection of the gauge.
+If the initial deflection is greater than 5 grams, then
+the  point  where  5  grams  is  obtained  must  be  noted
+and the measurement must stay within this range to
+be valid.
+5. 16.2  Comparator/Mirror Method
+5. 16.2.1  Equipment — Optical comparator with at least
+20×  magnification  as  per  Section  3.1.2.  Mirror,  flat
+within  0.0005  inch  with  a  mirror  finish  having  the
+reflective  suface  on  top.  (A  polished  silver  wafer  is
+suggested.)
+5. 16.2.2    Place  the  mirror  on  the  measurement  stage
+mirrored side up with the mirror in the plane of the XY
+axis.  Place  the  package  on  the  mirror  with  the  leads
+down.  Sufficient  mirror  must  extend  past  the  leads
+toward  the  lens  of  the  comparator  so  that  an  image  of
+the leads with its reflection can be viewed. Focus on the
+leads nearest the lens. (Care must be taken not to focus
+on  the  leads  on  the  opposite  side  of  the  package.)  (See
+Figure 8.)
+5. 16.2.3  Measure the distance between the lead tip and
+its reflection. Divide that measurement by two to obtain
+the coplanarity of the lead.
+5. 16.2.4    Repeat  for  each  lead.  Rotate  part  to  measure
+all    sides.    Determine    co-planarity    by    identifying
+maximum measurement.
+5. 17  Shoulder Bend Location — (Figures 1, 7, and 7a)
+NOTE: This measurement is not precise, since radius tangent
+locations allow for considerable inspector interpretation.
+5. 17.1  Equipment  —  Comparator  at  20×  magnifica-
+tion. (Surface and shadow illumination).
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 5
+5. 17.2  The measurement is made from the intersection
+of  the  straight  part  of  the  shoulder  with  the  shoulder
+bend radius of the lead on one side of the package to the
+same  point  on  the  lead  on  the  opposite  side  of  the
+package. Locate this point on the first lead by lining up
+the  vertical  comparator  cross  hair  with  the  straight  of
+the lead. Bring the center point of the cross hair to this
+intersection.  Zero  the  readout,  move  to  the  opposite
+lead, and repeat the location of the intersection. Record
+the measurement.
+NOTE: Due to shadowing of leads, only the end leads on the
+package  can  be  measured.  A  visual  check  with  a  10  to  20×
+microscope  should  be  made  to  check  for  gross  difference  of
+other leads.
+5. 18  Surface Finish
+5. 18.1  Comparative Method — (EDM Finishes only)
+5. 18.1.1  Equipment   —   Charmille   Standard   Surface
+Gauge Binocular Microscope and Light.
+5. 18.1.2      Insert   gauge   and   molded   package   to   be
+checked into a holder so that both can be viewed at the
+same time under the microscope.
+5. 18.1.3  Estimate the surface finish on the package.
+5. 18.2  Absolute Method
+5. 18.2.1  Equipment  —  Automatic  Surface  Analyzer
+Surface Standards.
+5. 18.2.2  Calibrate the analyzer using the gauges.
+5. 18.2.3  Measure  the  surface  finish  on  the  package.
+The  analyzer  gives  the  average  roughness  (R
+a
+)  and  the
+actual  surface  roughness.  Use  average  roughness  for
+acceptance.
+5. 18.3  Table of approximate equivalent finishes
+
+Mirror
+
+Satin
+Extra
+Fine
+
+Fine
+
+Medium
+
+Course
+Micro
+Inches
+4 30 ± 10  50 ± 10  75 ± 10   105 ± 10   145 ± 10
+Charmilles      N/A        N/A      18–21      21–24      24–27       27–30
+Microns        N/A          1           1.5           2        2.5        3.5
+5. 19  Radii
+5. 19.1  Comparative Method
+5. 19.1.1  Equipment — Optical comparator at 20×.
+5. 19.1.2    Radii  are  measured  by  comparison  to  known
+radius overlays marked at the same magnification as the
+comparator.
+5. 19.2  Absolute Method
+5. 19.2.1  Equipment — Toolmaker’s Microscope.
+5. 19.2.2    Radii  are  measured  using  the  reticle  lines  and
+the X and Y axes to obtain the radius.
+5. 19.2.3    Care  must  be  taken  to  assure  that  each  radius
+is measured separately.
+5. 20  Lead Position
+NOTE: Lead position is a combination of pitch variations due
+to lead movement after forming and lead width. If the lead is
+to   fit   a   solder   pad   or   hole,   the   combination   must   be
+considered.  In  some  cases,  the  lead  width  can  be  a  major
+contributor  to  poor  lead  position,  eg.  SO  packages  with  gull-
+wing leads, PCC with J bend.
+5. 20.1  Comparative Method
+NOTE: This method will only determine if the part is usable,
+not the breakdown of width and pitch variations.
+5. 20.1.1  Equipment — Optical Comparator at 20×.
+5. 20.1.2    Align  the  package  to  an  overlay  displaying
+limit lines for lead pitch/width.
+5. 20.2  Absolute Method
+5. 20.2.1  Equipment — Toolmaker’s Microscope.
+5. 20.2.2  Move to the edge of the lead number and zero
+the readout.
+NOTE:  Where  there  is  a  definitive  end  to  the  lead  as  in  the
+case of SO, SIP and DP, the end of the lead at the intersection
+of  the  lead  in  feature,  will  be  the  measurement  point.  Quad
+PCC  packages  will  be  measured  at  the  top  of  the  “J”  bend
+when in the “Dead Bug” position.
+5. 20.2.3    Move  to  the  opposite  edge  of  that  lead  and
+record width.
+5. 20.2.4  Move to the first edge of the next lead. Record
+the measurement. Repeat the width measurements.
+5. 20.2.5  Repeat for all leads to be measured.
+5. 20.2.6            Pitch      can      be      calculated      from      the
+measurements.
+5. 21  Draft Angles
+5. 21.1  Package Sides
+5. 21.1.1  Equipment — Optical comparator at 10x.
+5. 21.1.2    Lay  the  top  or  bottom  surface  of  the  package
+squarely   onto   the   comparator   to   insure   that   no
+protrusions  on  the  surface  cause  the  package  to  be
+tilted.  Align  the  horizontal  cross-hair  to  the  leadframe.
+Using  the  vertical  cross  hair,  compare  the  draft  angles
+to an overlay.
+NOTE:  This  measurement  should  be  taken  before  the  leads
+are formed.
+5. 21.1.3      Repeat   the   procedure   for   all   sides   of   the
+package.
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 6
+5. 21.2      Pin   Marks   (e.g.,   Pin   1   indicator   at   end   of
+package).
+5. 21.2.1  Equipment — Toolmaker’s Microscope.
+5. 21.2.2    Focus  the  microscope  on  the  surface  of  the
+package and measure the diameter of the pin hole. (D1)
+5. 21.2.3    Focus  on  the  bottom  surface  of  the  pin  hole
+and measure the diameter. (D2)
+5. 21.2.4  Tangent of Draft angle = (D1 – D2)/2H where
+H is pin depth from Section 5.12 or cavity thickness.
+5. 21.2.5    In  some  cases  ejector  pin  holes  may  require
+measurement if a deep hole is specified.
+5. 22  Lead Spread — (Figures 1, 7, and 7a)
+5. 22.1  MDIP, SO — (Figure 7, 7a)
+5. 22.1.1  Equipment   —   Optical   Comparator   at   10×
+Magnification.
+5. 22.1.2  Place the package squarely on the comparator
+with  the  leads  “UP”  and  find  the  mid-point  of  the
+bottom cavity width.
+5. 22.1.3  Measure the distance to the outer edge of each
+row of leads at the widest point of spread.
+5. 22.2      PCC   (J   bend   lead   dimension)   (Foot   Print)
+Measure from perpendicular to the greatest extension of
+the “J” radius of the leads on one side of the package to
+the  perpendicular  tangent  to  the  greatest  extension  of
+the “J” radius of the leads on the opposite package side.
+(See Figure 1.)
+5. 23  Foot Angle — (Figure 7)
+NOTE: Applies to gull-wing leads.
+5. 23.1  Equipment   —   Optical   Comparator   at   20×
+Magnification.  Device  Holding  Fixture  (see  Section
+5. 16).
+5. 23.2    Place  the  device  in  the  fixture,  so  that  the  flat
+section of the leadframe at the junction with the plastic
+body  rests  on  the  fixture’s  flats.  Leads  to  be  facing
+“UP”.
+NOTE:  Do  not  rest  the  radiused  sections  of  the  leads  on  the
+flats.  Be  sure  that  all  mold  flash  is  removed  from  the  area  of
+the frame that rests on the flats.
+5. 23.3  Measure the angle of the foot with respect to the
+horizontal.
+5. 24  Foot Length — (Figure 7)
+NOTE: Applies to gull-wing leads.
+5. 24.1  Equipment   —   Optical   Comparator   at   20×
+Magnification.  Device  Holding  Fixture  (see  Section
+5. 23).
+5. 24.2  While the foot angle is being measured, place a
+circle  template  that  contains  the  same  radius  as  the
+formed part onto the comparator. Align this template to
+the  radius  of  the  outside  bend.  Where  the  radius  of  the
+template meets the radius of the outside bend, this is the
+tangent point to measure foot length.
+5. 25  Stand-Off
+5. 25.1  Measure  the  plastic stand-off,  when  applicable,
+using the procedures of Section 5.12.
+5. 26 Lead Sweep
+5. 26.1  Equipment   —   Toolmaker’s   Microscope   or
+Optical Comparator.
+5. 26.2  Method
+5. 26.2.1  Determine  centerline of  lead  at  egress  of  lead
+from molded body (CL1) (see Figure 4).
+5. 26.2.2    Determine  centerline  at  the  end  of  the  lead
+(CL2).   The   difference   between   the   two   centerlines
+CL2 – CL1, shall be the lead sweep.
+NOTE: On “J” lead devices, the end of the lead is defined as
+the bottom of the “J” lead radius.
+5. 26.3  Cautionary Notes
+5. 26.3.1  Verify    centerlines    on    leadframe    before
+measuring to ensure lead-frame is correct.
+5. 26.3.2    Verify  lead  position  in  relation  to  the  top
+cavity centerline.
+
+
+
+SEMI G48-89 © SEMI 1989, 1996 7
+
+Figure 1
+
+Figure 2

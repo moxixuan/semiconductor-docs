@@ -1,0 +1,6095 @@
+---
+title: "T1-95 - © SEMI 1993, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "T1-95 - © SEMI 1993, 2003..."
+sidebar_position: 1520
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-152.pdf'
+  chapter: 152
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/152.pdf"
+  pdfSize="0.83MB"
+  title="T1-95 - © SEMI 1993, 2003..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI MF1810-0304 © SEMI 2003, 2004 4
+sample.  The method bias is estimated using the average
+range  of  the  location  deviations  from  the  target  for  the
+round-robin results or 2.11 defects/cm
+2
+.
+12  Keywords
+12. 1        defect    density;    dislocation;    grain    boundary;
+microscopic;  polycrystalline  imperfection;  preferential
+etch; silicon; slip
+
+
+SEMI MF1810-0304 © SEMI 2003, 2004 5
+RELATED INFORMATION 1
+SUMMARY OF MULTI LABORATORY ROUND ROBIN TEST
+NOTICE: This  related  information  is  not  an  official  part  of  SEMI  MF1810.    It  was  developed  as  part  of
+the  development  of  the  document.    This  related  information  was  approved  for  publication  by  full  letter
+ballot on December 4, 2004.
+R1-1    The  multilaboratory  round  robin  test  was  done
+over    a    period    of    12    months    and    included    16
+laboratories.      The   test   required   each   laboratory   to
+complete  11  diameter  scan  measurements  of  seven
+wafers.    A  “diameter  scan”  area  is  equal  to  the  area
+defined  by  a  microscope  field  of  view  and  a  length
+equal  to  the  wafer  diameter  less  the  edge  exclusion.
+Only  one  defect  classification,  OISF,  was  included  in
+the  count  and  described  with  pictures.    The  sequence
+and path of the measurement scans were defined so that
+the  comparison  of  the  individual  measurements  would
+be possible among data sets.  Within the ability of each
+laboratory to align the sample on the microscope stage,
+the starting point and scan path was held constant.
+R1-2    The  complete  repeatability  and  reproducibility
+study  results  are  listed  in  Table  R1-1  for  the  four  scan
+method  for  the  parameter,  deviation  from  target,  in
+units of defects/cm
+2
+.  The average range was 2.107 and
+the range of x-bars  was 12.130.
+Table R1-1  Repeatability and Reproducibility for 16
+Laboratories, Seven Samples, and Two Trials
+
+Estimated
+Sigma
+Estimated
+Variance
+Percent of
+Total
+Repeatability    1.863        3.472        23.92
+Reproducibility           3.323            11.045                      76.08
+Repeatability and
+Reproducibility
+3. 810            14.517            100.00
+
+R1-3    A  multiple  range  test  by  the  95%  least  squares
+deviation  (LSD)  method  for  the  deviation  from  target
+by  laboratory  was  done.    Results  are  shown  in  Table
+R1-2.    Differences  among  laboratories  are  also  evident
+in  the  95%  confidence  interval  box  and  whisker  plot
+provided  in  Figure  R1-1,  which  shows  the  deviation
+from  target  for  each  laboratory.    This  plot  is  based  on
+four diameter scans per test.
+R1-4      Results   from   Laboratory   F   were   significantly
+different  from  all  other  laboratories,  but  were  included
+in  the  reported  Precision  and  Bias  Section  because  no
+evidence   pointed   to   a   procedural   mistake.      The
+alternative    repeatability    and    reproducibility    study
+results are listed in Table R1-3 for the four scan method
+for  the  parameter,  deviation  from  target,  in  units  of
+defects/cm
+2
+.    In  this  case,  the  average  range  was  1.930
+and the range of x-bars was 7.018.
+Table R1-2  Multiple Range Test for 16 Laboratories
+Laboratory          Count
+Least
+Squares
+Mean
+Homogeneous
+Groups
+H                    77                    –0.948022                    X
+C                     77                     –0.948002                     X
+A                    77                    –0.868478                    XX
+O                    77                    –0.635124                    XXX
+M                    77                    –0.469934                    XX
+J                     77                     –0.437819                     X
+I                     77                     –0.28686                                          XX
+L                     77                     –0.261265                     XX
+N                    77                    0.064319                    XX
+P                     77                     0.176689                     XX
+B                     77                     0.403837                     XX
+E                     77                     0.406758                     XX
+K                    77                    0.425747                    XXX
+D                    77                    0.549704                    XX
+G                    77                    0.816097                    X
+F                     77                     2.01237                                          X
+
+Table R1-3  Repeatability and Reproducibility for 16
+Laboratories, Seven Samples, and Two Trials
+
+Estimated
+Sigma
+Estimated
+Variance
+Percent of
+Total
+Repeatability             1.707             2.912                          44.08
+Reproducibility           1.922             3.695                      55.92
+Repeatability and
+Reproducibility
+2. 570             6.607             100.00
+
+
+
+SEMI MF1810-0304 © SEMI 2003, 2004 6
+
+Figure R1-1
+95% Confidence Interval Box and Whisker Plot for 16 Laboratories
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 1
+SEMI MF1811-0704
+GUIDE FOR ESTIMATING THE POWER SPECTRAL DENSITY
+FUNCTION AND RELATED FINISH PARAMETERS FROM SURFACE
+PROFILE DATA
+This guide was technically approved by the Global Silicon Wafer Committee and is the direct responsibility
+of  the  North  American  Silicon  Wafer  Committee.    Current  edition  approved  for  publication  by  the  North
+American  Regional  Standards  Committee  on  March  14,  2004.    Initially  available  at  www.semi.org
+May
+2004;  to  be  published  July  2004.    Original  edition  published  by  ASTM  International  as  ASTM  F  1811-97.
+Last previous edition SEMI MF1811-97(2002).
+1 Purpose
+1. 1        There    is    some    confusion    in    the    roughness-
+measurement    community    concerning    the    use    of
+estimators   and   the   calculation   of   power   spectral
+densities  (PSDs)  from  discrete  data  sets.    Use  of  this
+guide  can  eliminate  these  differences  and  result  in  the
+use   of   consistent   units   for   the   PSD   and   related
+parameters.      It   also   provides   a   uniform   reporting
+procedure  for  digital  roughness  data  that  can  facilitate
+communication between different workers and different
+laboratories.
+2 Scope
+2. 1  This guide defines the methodology for calculating
+a   set   of   commonly   used   statistical   parameters   and
+functions  of  surface  roughness  from  a  set  of  measured
+surface   profile   data.      Its   purposes   are   to   provide
+fundamental procedures and notation for processing and
+presenting data, to alert the reader to related issues that
+may  arise  in  user-specific  applications,  and  to  provide
+literature references where further details can be found.
+2. 2      This   guide   is   limited   to   the   analysis   of   one-
+dimensional  or  profile  data  taken  at  uniform  intervals
+along   straight   lines   across   the   surface   under   test,
+although  reference  is  made  to  the  more  general  case  of
+two-dimensional      measurements      made      over      a
+rectangular array of data points.
+2. 3      The   data   analysis   procedures   described   in   this
+guide   are   generic   and   are   not   limited   to   specific
+surfaces,   surface-generation   techniques,   degrees   of
+roughness,   or   measuring   techniques.      Examples   of
+measuring  techniques  that  can  be  used  to  generate
+profile   data   for   analysis   are   mechanical   profiling
+instruments   using   a   rigid   contacting   probe,   optical
+profiling instruments that sample over a line or an array
+over  an  area  of  the  surface,  optical  interferometry,  and
+scanning-microscopy  techniques  such  as  atomic-force
+microscopy.        The    distinctions    between    different
+measuring  techniques  enter  this  guide  through  various
+parameters and functions that are defined in Sections 4
+and 5, such as their sampling intervals, bandwidths, and
+measurement transfer functions.
+2. 4  The primary interest here is the characterization of
+random or periodic aspects of surface finish rather than
+isolated   surface   defects   such   as   pits,   protrusions,
+scratches  or  ridges.    Although  the  methods  of  data
+analysis  described  here  can  be  equally  well  applied  to
+profile  data  of  isolated  surface  features,  the  parameters
+and  functions  that  are  derived  using  the  procedures
+described  in  this  guide  may  have  a  different  physical
+significance   than   those   derived   from   random   or
+periodic surfaces.
+2. 5    The  statistical  parameters  and  functions  that  are
+discussed   in   this   guide   are,   in   fact,   mathematical
+abstractions  that  are  generally  defined  in  terms  of  an
+infinitely-long  linear  profile  across  the  surface,  or  the
+“ensemble”  average  of  an  infinite  number  of  finite-
+length   profiles.      In   contrast,   real   profile   data   are
+available  in  the  form  of  one  or  more  sets  of  digitized
+height  data  measured  at  a  finite  number  of  discrete
+positions  on  the  surface  under  test.    This  guide  gives
+both  the  abstract  definitions  of  the  statistical  quantities
+of  interest,  and  numerical  procedures  for  determining
+values   of   these   abstract   quantities   from   sets   of
+measured  data.    In  the  notation  of  this  guide  these
+numerical  procedures  are  called  “estimators”  and  the
+results that they produce are called “estimates”.
+2. 6      This   guide   gives   “periodogram”   estimators   for
+determining the root-mean-square (rms) roughness, rms
+slope,  and  power  spectral  density  (PSD)  of  the  surface
+directly  from  profile  height  or  slope  measurements.
+The statistical literature uses a circumflex to distinguish
+an  estimator  or  estimate  from  its  abstract  or  ensemble-
+average  value.    For  example,  Â  denotes  an  estimate  of
+the quality A.  However, some word-processors cannot
+place   a   circumflex   over   consonants   in   text.      Any
+symbolic or verbal device may be used instead.
+2. 7  The quality of estimators of surface statistics are, in
+turn, characterized by higher-order statistical properties
+that  describe  their  “bias”  and  “fluctuation”  properties
+with   respect   to   their   abstract   or   ensemble-average
+versions.    This  guide  does  not  discuss  the  higher-order
+statistical  properties  of  the  estimators  given  here  since
+their  practical  significance  and  use  are  application-
+specific   and   beyond   the   scope   of   this   document.
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 2
+Details of these and related subjects can be found in the
+references listed in Section 7.
+2. 8      Raw   measured   profile   data   generally   contain
+trending   components   that   are   independent   of   the
+microtopography of the surface being measured.  These
+components must be subtracted before the difference or
+residual errors are subjected to the statistical-estimation
+routines   given   here.      These   trending   components
+originate   from   both   extrinsic   and   intrinsic   sources.
+Extrinsic trends arise from the rigid-body positioning of
+the part under test in the measuring apparatus.  In optics
+these displacement and rotation contributions are called
+“piston”  and  “tilt”  errors.    In  contrast,  intrinsic  trends
+arise from deliberate or accidental shape errors inherent
+in the surface under test, such as a circular or parabolic
+curvature.  In the absence of a-priori information about
+the  true  surface  shape,  the  intrinsic  shape  error  is
+frequently  limited  to  a  quadratic  (parabolic)  curvature
+of  the  surface.    Detrending  of  intrinsic  and  extrinsic
+trends  is  generally  accomplished  simultaneously  by
+subtracting   a   detrending   polynomial   from   the   raw
+measured  data,  where  the  polynomial  coefficients  are
+determined  by  least-squares  fitting  to  the  measured
+data.
+2. 9          Although     surfaces     and     surface     measuring
+instruments exist in real or configuration space, they are
+most easily understood in frequency space, also known
+as  Fourier  transform,  reciprocal  or  spatial-frequency
+space.    This  is  because  any  practical  measurement
+process  can  be  considered  to  be  a  “linear  system”,
+meaning that the measured profile is the convolution of
+the true surface profile and the impulse response of the
+measuring   system;   and   equivalently,   the   Fourier-
+amplitude   spectrum   of   the   measured   profile   is   the
+product  of  that  of  the  true  profile  and  the  frequency-
+dependent   “transfer   function”   of   the   measurement
+system.      This   is   expressed   symbolically   by   the
+following equation:
+
+)()()(
+xxtruexmeas
+fTfAfA=                      (1)
+where:
+A =   the Fourier amplitudes,
+T(f
+x
+)    =   instrument response function or the measure-
+ment transfer function, and
+f
+x
+=   surface spatial frequency.
+This  factorization  permits  the  surface  and  the  mea-
+suring  system  to  be  discussed  independently  of  each
+other  in  frequency  space,  and  is  an  essential  feature  of
+any discussion of measurement systems.
+2. 10        Figure    1    sketches    different    forms    of    the
+measurement transfer function, T(f
+x
+):
+2. 10.1  Case  (a)  is  a  perfect  measuring  system,  which
+has T ( f
+x
+)  =  1  for  all  spatial  frequencies,  0  ≤ f
+x
+≤ ∞.
+This is unrealistic since no real measuring instrument is
+equally sensitive to all spatial frequencies.
+2. 10.2  Case (b)  is  an  ideal  measuring  system,  which
+has T (f
+x
+)  =  1  for  LFL ≤ f
+x
+≤ HFL  and  T(f
+x
+)  =  0
+otherwise,   where   LFL   and   HFL   denote   the   low-
+frequency     and     high-frequency     limits     of     the
+measurement.  The range LFL ≤ f
+x
+≤ HFL is called the
+bandpass  or  bandwidth  of  the  measurement,  and  ratio
+HFL/LFL    is    called    the    dynamic    range    of    the
+measurement.
+2. 10.3  Case (c) represents a realistic measuring system,
+since  it  includes  the  fact  that  T (f
+x
+)  need  not  be  unity
+within   the   measurement   bandpass   or   strictly   zero
+outside the bandpass.
+2. 11    If  the  measurement  transfer  function  is  known  to
+deviate significantly from unity within the measurement
+bandpass,  the  measured  power  spectral  density  (PSD)
+can be transformed into the form that would have been
+measured  by  an  instrument  with  the  ideal  rectangular
+form  through  the  process  of  digital  “restoration.”  In  its
+simplest    form    restoration    involves    dividing    the
+measured PSD by the known form of
+||
+T
+()
+f
+x
+
+2
+over the
+measurement   bandpass.      Restoration   is   particularly
+relevant  to  measuring  instruments  that  involve  optical
+microscopes  since  the  transfer  functions  of  microscope
+systems  are  not  unity  over  their  bandpass  but  tend  to
+fall linearly between unity at T (0) = 1 and T(HFL) = 0.
+The need for, and methodology of digital restoration is
+instrument    specific    and    this    guide    places    no
+requirements on its use.
+2. 12  This guide requires that any data on surface finish
+parameters  or  functions  generated  by  the  procedures
+described  herein  be  accompanied  by  an  identifying
+description  of  measuring  instrument  used,  estimates  of
+its low- and high-frequency limits, LFL and HFL, and a
+statement of whether or not restoration techniques were
+used.
+2. 13      In   order   to   make   a   quantitative   comparison
+between     profile     data     obtained     from     different
+measurement  techniques,  the  statistical  parameters  and
+functions of interest must be compared over the same or
+comparable   spatial-frequency   regions.      The   most
+common  quantities  used  to  compare  surfaces  are  their
+root-mean-square (rms) roughness values, which are the
+square   roots   of   the   areas   under   the   PSD between
+specified  surface-frequency  limits.    Surface  statistics
+derived from measurements involving different spatial-
+frequency  ranges  cannot  be  compared  quantitatively
+except   in   an   approximate   way.      In   some   cases
+measurements  with  partially  or  even  nonoverlapping
+bandwidths  can  be  compared  by  using  analytic  models
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 3
+of  the  PSDs  to  extrapolate  the  PSDs  outside  their
+measurement bandwidth.
+2. 14    Examples  of  specific  band-width  limits  can  be
+drawn  from  the  optical  and  semiconductor  industries.
+In  optics  the  so-called  total  integrated  scatter  or  TIS
+measurement  technique  leads  to  rms  roughness  values
+involving    an    annulus    in    two-dimensional    spatial
+frequencies  space  from  0.069  to  1.48  μm
+–1
+;  that  is,  a
+dynamic  range  of  1.48/0.069  =  21/1.    In  contrast,  the
+range  of  spatial  frequencies  involved  in  optical  and
+mechanical  scanning  techniques  are  generally  much
+larger than this, frequently having a dynamic ranges of
+512/1 or more.  In the latter case the subrange of 0.0125
+to  1  μm
+–1
+has  been  used  to  discuss  the  rms  surface
+roughness   in   the   semiconductor   industry.      These
+numbers  are  provided  to  illustrate  the  magnitudes  and
+ranges of HFL and LFL encountered in practice but do
+not constitute a recommendation of particular limits for
+the  specification  of  surface  finish  parameters.    Such
+selections  are  application  dependent,  and  are  to  be
+made at the users' discretion.
+2. 15        The    limits    of    integration    involved    in    the
+determination  of  rms  roughness  and  slope  values  from
+measured profile data are introduced by multiplying the
+measured PSD  by  a  factor  equal  to  zero  for  spatial
+frequencies  outside  the  desired  bandpass  and  unity
+within  the  desired  bandpass,  as  shown  in  Case  (b)  in
+Figure  1.    This  is  called  a  top-hat  or  binary  filter
+function.      Before   the   ready   availability   of   digital
+frequency-domain   processing   as   employed   in   this
+guide,  bandwidth  limits  were  imposed  by  passing  the
+profile  data  through  analog  or  digital  filters  without
+explicitly transforming them into the frequency domain
+and   multiplying   by   a   top-hat   function.      The   two
+processes  are  mathematically  equivalent,  providing  the
+data  filter  has  the  desired  frequency  response.    Real
+data  filters,  however,  frequently  have  Gaussian  or  RC
+forms  that  only  approximate  the  desired  top-hat  form
+that  introduces  some  ambiguity  in  their  interpretation.
+This   guide   recommends   the   determination   of   rms
+roughness and slope values using top-hat windowing of
+the measured PSD in the frequency domain.
+2. 16  The PSD  and  rms  roughness  are  surface  statistics
+of  particular  interest  to  the  optics  and  semiconductor
+industries  because  of  their  direct  relationship  to  the
+functional  properties  of  such  surfaces.    In  the  case  of
+rougher   surfaces   these   are   still   valid   and   useful
+statistics,  although  the  functional  properties  of  such
+surfaces  may  depend  on  additional  statistics  as  well.
+The   ASME   Standard   on   Surface   Texture,   B46.1,
+discusses   additional   surface   statistics,   terms,   and
+measurement methods applicable to machined surfaces.
+2. 17    The  units  used  in  this  guide  are  a  self-consistent
+set    of    SI    units    that    are    appropriate    for    many
+measurements in the semiconductor and optics industry.
+This guide does not mandate the use of these units, but
+does  require  that  results  expressed  in  other  units  be
+referenced to SI units for ease of comparison.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3 Referenced Standards
+3. 1  SEMI Standards
+SEMI ME1392 — Practice for Angle Resolved Optical
+Scatter Measurements on Specular or Diffuse Surfaces
+SEMI  MF1048  —  Test  Method  for  Measuring  the
+Effective Surface Roughness of Optical Components by
+Total Integrated Scattering
+3. 2  ASTM Standard
+E   284   —   Terminology   Relating   to   Appearance   of
+Materials
+1
+
+3. 3  ANSI Standard
+ANSI/ASME   B46.1   —   Surface   Texture   (Surface
+Roughness, Waviness and Lay)
+2
+
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4 Terminology
+4. 1  Introduction —    This    section    provides    the
+definitions  of  special  terms  used  in  this  guide,  and
+includes   the   mathematical   definitions   of   different
+profile  statistics  in  terms  of  continuous,  infinitely-long
+profiles.      The   corresponding   estimators   of   those
+statistics  based  on  linear,  sampled,  finite-trace-length
+data  are  given  in  Section  5.    Definitions  of  terms  not
+included  here  can  be  found  in  SEMI  ME1392,  SEMI
+MF1048,  ASTM  Terminology  E  284,  or  ANSI/ASME
+B46.1.
+4. 2  Definitions
+4. 2.1  averaging,  aperture  or  local  —  smoothing  of  an
+estimate  of  the  power  spectral  density  function  (PSD)
+by replacing its value at a given spatial frequency by its
+
+
+1    Annual  Book  of  ASTM  Standards,  Vol  6.01,  ASTM  International,
+100 Barr Harbor Drive, West Conshohocken, PA  19428.  Telephone:
+610-832-9500, Fax: 610-832-9555, Website: www.astm.org
+
+2    Available  from  the  American  National  Standards  Institute,  New
+York  Office:  11  West  42nd  Street,  New  York,  NY  10036,  USA.
+Telephone:       212.642.4900;       Fax:       212.398.0023       Website:
+http://www.ansi.org.
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 4
+average over a local frequency range using a particular
+weighting function.
+4. 2.1.1  Discussion  —  The  averaged  quantities  must
+include the same range of surface spatial frequencies.
+4. 2.2  averaging,   data   —   numerical   averaging   of
+statistical   estimates   of   the   PSD,   the   mean-square
+surface  roughness  or  the  mean-square  profile  slope
+derived from different measurements, in order to obtain
+a single, composite result.
+4. 2.2.1  Discussion  —  For  example,  a  rectangular  or
+square  array  of  measurements  can  be  separated  into  a
+set   of   parallel   profile   measurements   which   can   be
+analyzed  separately  and  the  results  averaged.    Again,
+the averaged quantities must include the same range of
+surface spatial frequencies.
+4. 2.3  bandwidth,  bandwidth  limits  —  range  of  surface
+spatial   frequencies   included   in   a   measurement   or
+specification.
+4. 2.3.1  Discussion  —  Bandwidth  is  specified  by  a
+high-frequency  limit  (HFL)  and  a  low-frequency  limit
+(LFL).    The  bandwidth  and  the  measurement  transfer
+function over the bandwidth must be taken into account
+when    measurements    or    statistical    properties    are
+compared.        Different    measuring    instruments    are
+generally sensitive to different ranges of surface spatial
+frequencies;   that   is,   they   have   different   bandwidth
+limits.    Real  bandwidth  limits  are  necessarily  finite
+since no measuring instrument is sensitive to infinitely-
+low or to infinitely-high surface spatial frequencies.
+4. 2.4  bias   error   —   average   deviation   between   an
+estimate of a statistical quantity and its true value.
+4. 2.4.1  Discussion  —  The  periodogram  estimator  of
+the power spectral density (PSD) given in this guide is a
+zero-bias  or  unbiased  estimator  of  the  PSD.    On  the
+other  hand,  local  averaging  of  the  periodogram  can
+introduce  bias  errors  in  regions  where  the  spectrum
+varies rapidly with frequency.
+4. 2.5  deterministic  profile  —  surface  profile  that  is  a
+known  function  of  surface  position,  with  no  random
+dependencies on position.
+4. 2.5.1  Discussion  —  In  contrast,  a  random  profile  is
+known   only   in   terms   of   a   probability   distribution
+function.
+4. 2.6  detrended  profile,  Z
+d
+(x)  —  the  raw  or  measured
+profile  after  removing  instrumental  and  surface  trends.
+The  detrended  profile  is  the  input  for  the  statistical
+estimation routines described in Section 5.
+4. 2.6.1  Discussion  —  If  the  parametric  form  of  the
+trend  is  known,  its  least-squares-fitted  form  can  be
+subtracted from the measured profile data.  Otherwise a
+generic  power-series  form  can  be  used.    This  guide
+describes  the  procedures  for  removing  a  zero-,  first-  or
+second-order polynomial in the trace distance.  A zero-
+order    polynomial    removes    piston;    a    first-order
+polynomial removes piston and tilt; and a second-order
+polynomial removes piston, tilt and quadratic curvature.
+In each case the detrended data set has zero mean.  The
+coefficients  of  constant  and  linear  terms  correspond  to
+the  rigid-body  orientation  of  the  part  being  measured
+and  need  not  be  recorded.    However,  the  coefficient  of
+the  quadratic  term  represents  the  intrinsic  curvature  of
+the surface being measured and should be recorded.
+4. 2.7  dynamic  range  —  ratio  of  the  high-  to  low-
+frequency    limits    of    the    bandwidth    of    a    given
+measurement technique.
+4. 2.7.1  Discussion  —  The  ratio  HFL/LFL  is  a  useful
+single-number  characteristic  of  a  measuring  apparatus.
+It  completely  describes  the  measurement  effects  on
+surfaces with power-law power spectra.
+4. 2.8  ensemble  —  infinitely  large  collection  (infinite
+ensemble)  of  quantities,  the  properties  of  which  are
+governed by some statistical distribution law.
+4. 2.8.1  Discussion  —  For  example,  ensembles  include
+surface profiles, and rms roughness values.
+4. 2.9  ensemble  average  value  —  value  of  a  particular
+surface   parameter   or   function   averaged   over   the
+appropriate distribution functions.
+4. 2.9.1  Discussion  —  The  ensemble  average  value  of
+the   quantity   A   is   denoted   by   A.      Estimates   of
+ensemble-average quantities based on a finite collection
+of  measurements  (finite  ensemble)  can  deviate  from
+their  infinite-ensemble  values  by  fluctuation  and  bias
+errors.
+4. 2.10  estimate    —    ensemble-average    value    of    a
+roughness statistic from a finite set of measured profile
+data.
+4. 2.10.1  Discussion  —  In  this  guide,  a  circumflex  is
+used  to  distinguish  estimates  from  the  corresponding
+ensemble-average quantities (see also Section 2.6).
+4. 2.11  estimator     —     algorithm     or     mathematical
+procedure for calculating an “estimate.”
+4. 2.12  fast  fourier  transform  or  FFT  —  algorithm  for
+calculating   the   Fourier   transform   (discrete   Fourier
+transform or DFT) of a set of numerical data.
+4. 2.12.1  Discussion  —  The  discovery  of  the  FFT  is
+generally  attributed  to  Cooley  and  Tukey,  although  it
+was  used  and  reported  in  the  earlier  literature  by  a
+number   of   others,   including   Gauss,   two   centuries
+before.    It  is  now  ubiquitous  and  can  be  found  in  any
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 5
+computer  data  analysis  package  (see  Section  5.4.2  for
+details).
+4. 2.13  finish  parameters  and  functions  —  numbers  or
+functions that characterize surface height fluctuations.
+4. 2.13.1  Discussion  —  The  values  and  forms  of  finish
+parameters  and  functions  may  vary  depending  on  the
+bandwidth of surface frequencies that they contain, and
+the shapes of the transfer functions of the measurement
+instruments  involved.    These  quantities  are  represented
+by    their    ensemble-average    values    derived    from
+measurements  using  specific  estimation  routines.    In
+general,  the  finish  parameters  and  functions  of  an  area
+are  different  from  those  of  profiles  taken  across  the
+surface.    In  the  case  of  surfaces  that  are  statistically
+isotropic, however, the area and profile statistics have a
+one-to-one relationship.  Except for incidental remarks,
+this  guide  is  concerned  exclusively  with  the  properties
+of surface profiles.
+4. 2.14  fluctuation  error  —  general  term  denoting  the
+deviation  of  a  quantity  from  its  mean,  average  or
+detrended value.
+4. 2.14.1  Discussion  —  Fluctuation  errors  are  usually
+measured  in  terms  of  their  mean-square  or  rms  values.
+For  example,  R
+q
+is  the  rms  fluctuation  error  in  the
+surface height and ∆
+q
+is the rms fluctuation error in the
+profile  slope.    In  turn,  the  estimates  of  R
+q
+and  ∆
+q
+have
+their  own  fluctuation  errors.    The  magnitudes  of  these
+higher fluctuation errors not discussed in this guide.
+4. 2.15  high-frequency  limit  (HFL)  [1/μm] —  highest
+spatial  frequency  contained  in  a  profile  data  set  or
+specification.
+4. 2.15.1  Discussion  —  The  HFL  of  a  measurement  is
+determined  by  the  details  of  the  measurement  process,
+and its value in specifications is determined by the user.
+If  the  sampling  interval  in  the  measurement  process  is
+D,  the  extreme  value  of  the  HFL  is  given  by  the
+Nyquist  criterion,  HFL  =  1/(2D).    However,  other
+electrical,  mechanical,  or  optical  filtering  mechanisms
+may   further   limit   the   HFL.      Examples   of   such
+mechanisms    are    the    stylus    tip    radius,    projected
+measurement    pixel    size,    optical    resolution,    and
+electrical  and  digital  filters,  all  of  which  contribute  to
+the  high-frequency  roll-off  of  the  instrument  transfer
+function.  If the Nyquist frequency is used to determine
+the HFL, care should be taken to determine that the true
+HFL is not reduced by these additional mechanisms.
+4. 2.16  intrinsic    surface    or    finish    parameters    —
+characteristics  such  as  the  rms  roughness  or  rms  slope
+that contain all surface spatial frequencies from zero to
+infinity.
+4. 2.16.1  Discussion    —    Intrinsic    parameters    are
+statistical   abstractions   that   cannot   be   measured   or
+estimated directly since real measurements are sensitive
+to  only  limited  ranges  of  surface  spatial  frequencies.
+They can, however, be inferred from real measurements
+by augmenting measurements with a-priori information
+about   very   low   and   very   high   spatial   frequencies
+contained  in  physically-based  models  of  the  PSDs  of
+the  surfaces  involved.    All  measured  finish  parameters
+are  finite,  but  their  corresponding  intrinsic  values  need
+not be.  The important distinction between intrinsic and
+measured  (band-width  limited)  finish  parameters  is  not
+always made in the literature.
+4. 2.17  impulse response, of a profile measuring system
+—  measured  shape  of  an  impulse  or  infinitely-sharp
+ridge lying perpendicularly to the profile direction.
+4. 2.17.1  Discussion   —   In   the   case   of   a   linear
+measuring  system  the  impulse  response  is  the  Fourier
+transform of the system transfer function.  The impulse
+response  of  a  perfect  measuring  system  would  be  an
+infinitely sharp spike or delta function.  In contrast, the
+impulse response of real measuring systems has a finite
+width.
+4. 2.18  isotropic   surface   —   surface   whose   intrinsic
+finish  parameters  and  functions  are  independent  of  the
+rotational   position   of   the   surface   about   its   surface
+normal.  Also known as statistically-isotropic surface.
+4. 2.18.1  Discussion  —  The  rms  roughness  of  profiles
+taken    across    an    isotropically    rough    surface    is
+independent  of  the  profile  directions,  and  equals  the
+rms roughness of the surface area.  The rms slope of an
+isotropically  rough  surface  is  also  independent  of  the
+profile   direction   and   equals   1/√2   of   the   rms   area
+gradient.    The  one-dimensional  or  profile  power  spec-
+trum  of  an  isotropic  surface  is  also  independent  of  the
+direction of the profile on the surface, and is related to
+the two-dimensional spectrum of the surface area by an
+integral  transform.    Examples  of  this  are  given  in
+Section 4.2.41.
+4. 2.19  linear  systems,  linear  measurement  system  —  a
+signal-processing concept more precisely described as a
+linear, shift-invariant system.
+4. 2.19.1  Discussion  —  For  the  present  purposes,  a
+linear  measurement  of  the  surface  profile  is  the  true
+profile  convolved  with  the  impulse  response  of  the
+measuring    system,    or    equivalently,    the    Fourier
+amplitude  spectrum  of  the  measurement  is  the  true
+amplitude  spectrum  times  the  measurement  transfer
+function  as  indicated  in  Section  2.9.    All  practical
+measurement  systems  are  taken  to  be  linear  over  their
+operating ranges.
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 6
+4. 2.20  low-frequency   limit (LFL)  [1/μm]   —   lowest
+spatial  frequency  contained  in  a  profile  data  set  or
+specification.
+4. 2.20.1  Discussion  —  The  minimum  LFL  in  a  profile
+measurement  is  the  reciprocal  of  the  length  of  the
+surface profile.  The estimated value of the PSD at this
+value   of   the   LFL   is   generally   attenuated   by   the
+detrending  process.    To  avoid  this  effect  the  lowest
+practical LFL is sometimes taken to be 3 to 5 times the
+reciprocal  of  the  scan  length.    The  LFL  in  surface
+specifications is determined by the user.
+4. 2.21  mean-square  profile  roughness,  R
+q
+2
+[nm
+2
+]  —
+ensemble-average  value  of  the  square  of  the  height  of
+the detrended profile.
+4. 2.21.1  Discussion  —  This  value  is  given  by  the
+following relationship:
+
+()
+∫∫
++∞+
+−
+∞→
+==
+0
+1
+2/
+2/
+2
+2
+d)(d)(
+1
+Lim
+xx
+L
+L
+dLq
+ffSxxZ
+L
+R        (2)
+where:
+Z
+d
+(x) = detrended surface profile, and
+S
+1
+(f
+x
+) = its power spectral density.
+The intrinsic value of the mean-square roughness of an
+isotropically-rough surface area equals the mean-square
+roughness of any profile across it.  The rms roughness,
+R
+q
+,  is  distinct  from  the  arithmetic-average  roughness,
+R
+a
+.  The two are only related through a specific height-
+distribution  function.    For  example,  for  a  Gaussian
+height distribution,
+
+qqa
+RRR798.0
+2
+=
+π
+=                          (3)
+Note that the optics literature uses the symbol σ for R
+q
+.
+4. 2.22  mean-square profile slope, ∆
+q
+2
+[units of choice]
+—  average  value  of  the  square  of  the  slope  of  the
+detrended profile.
+4. 2.22.1  Discussion — This expression, given by
+∫∫
++∞+
+−
+∞→
+π=
+
+
+
+
+
+
+=∆
+0
+1
+2
+2/
+2/
+2
+2
+d)()2(d
+d
+d
+1
+Lim
+xxx
+L
+L
+d
+Lq
+ffSfx
+x
+z
+L
+(4)
+assumes that the average slope has been removed in the
+detrending  process.    The  integrand  in  the  frequency
+integral  on  the  right  can  be  viewed  as  the  slope  power
+spectral  density.    The  mean-square  surface  slope  of  an
+isotropically-rough  two-dimensional  surface  is  half  the
+mean-square gradient of the surface itself.
+4. 2.23  measured  profile  parameters  and  functions  —
+quantities   derived   from   detrended   profile   data   that
+include  the  bandwidth  and  transfer  function  effects  of
+the particular measurement system used.
+4. 2.23.1  Discussion  —  Measured  profile  parameters
+and   functions   can   be   used   for   comparing   surfaces
+quality providing the same measurement system is used
+in   all   cases.      In   order   to   compare   quantitative
+measurements made by different measurement systems,
+or  to  estimate  intrinsic  surface  properties,  the  system
+bandwidths  and  transfer  functions  must  be  taken  into
+account.    In  the  early  literature,  measurement  systems
+were  taken  to  be  “perfect”  in  the  sense  of  Section
+2. 10.1,  and  the  effects  of  their  bandwidths  and  transfer
+functions were ignored.
+4. 2.24  Nyquist  frequency  [1/μm]  —  spatial  frequency
+equal  to  the  reciprocal  of  twice  the  sampling  interval.
+See Section 4.2.15.1.
+4. 2.24.1  Discussion     —     The     Nyquist     frequency
+represents the highest undistorted frequency involved in
+a   series   of   uniformly-spaced   profile   measurements.
+Higher-frequency  components  in  the  surface  appear  at
+lower-frequencies   through   the   process   of   aliasing.
+Unless  the  effects  of  aliasing  are  removed  by  anti-
+aliasing  mechanisms  in  the  measurement  process,  they
+corrupt  the  measured  spectrum  immediately  below  the
+Nyquist  frequency.    In  that  case  the  HFL  should  be
+taken  to  be  a  factor  of  3  to  5  below  the  Nyquist
+frequency.
+4. 2.25  periodic random roughness — modified version
+of   purely   periodic   roughness   that   has   a   definite
+fundamental spatial frequency, but random variations in
+its phase or amplitude (see Section 4.2.26).
+4. 2.26  periodic roughness — roughness with a definite
+fundamental spatial frequency.
+4. 2.26.1  Discussion  —  The  power  spectra  of  periodic
+and periodic random roughness appear as isolated peaks
+in  the  power  spectral  density  function.    This  pattern  is
+distinct  from  the  broad  variations  appearing  for  purely
+random  surfaces.    Random  surfaces  can  be  viewed  as
+periodic  surfaces  with  a  broad  distribution  of  funda-
+mental periods.
+4. 2.27  periodogram estimate — estimates of particular
+finish parameters that are derived from the periodogram
+estimator for the power spectrum.
+4. 2.28  periodogram estimator — a particular estimator
+for the power spectral density that is proportional to the
+square  magnitude  of  the  discrete  Fourier  transform  of
+the detrended data set.
+4. 2.28.1.1  Discussion   —   The   periodogram   is   the
+estimator  for  the  PSD  that  is  used  in  this  guide.    The
+signal-processing   literature   contains   many   different
+estimators  of  the  power  spectrum  in  addition  to  the
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 7
+periodogram.      In   general,   they   differ   from   the
+periodogram in that they incorporate different types and
+degrees     of     a-priori     physical     or     mathematical
+information    about    the    original    data    set.        The
+periodogram,   in   contrast,   includes   the   maximum
+number  of  degrees  of  freedom  and  is  always  used  for
+first-cut   evaluation   and   analysis.      Details   of   the
+correlation  and  other  spectral  estimation  methods  are
+discussed  in  the  literature  listed  in  Section  7.    A
+mathematical  variant  of  the  periodogram  estimator  is
+the correlation method.  This is a two-step process that
+requires  the  estimation  of  an  intermediate  function,  the
+autocovariance    function,    which    is    then    Fourier
+transformed  to  obtain  the  periodogram  estimate  of  the
+power  spectrum.    This  method  is  not  discussed  in  this
+guide  since  it  is  indirect,  but  when  properly  applied
+gives identically the same results as the direct transform
+method recommended in this guide.
+4. 2.29  power   spectral   density   (PSD)   —   statistical
+function  that  shows  how  the  mean-square  (rms)
+2
+of  a
+given quantity is distributed among the various surface
+spatial  frequencies  inherent  in  the  profile  height.    Also
+known as power spectrum.
+4. 2.29.1  Discussion — The two conventional measures
+of  surface  roughness,  R
+a
+and  R
+q
+do  not  carry  any
+information  about  the  transverse  scale  of  the  surface
+roughness.  That is, they are independent of how much
+the  surface  profile  is  squeezed  or  stretched  parallel  to
+the surface plane.  The PSD is the simplest statistic that
+carries that important additional information.
+4. 2.29.2  profile or one-dimensional PSD of the surface
+height, [μm
+3
+] — a function of the spatial frequency, f
+x
+,
+in  units  of  inverse  micrometers,  μm
+–1
+,  defined  as
+follows:
+0,d)(
+2
+Lim)(
+2
+2/
+2/
+2
+1
+>
+
+
+
+
+
+
+
+
+
+
+=
+∫
++
+−
+π
+∞→x
+L
+L
+xfi
+Lx
+fxexZ
+L
+fS
+x
+(5)
+4. 2.29.2.1  Discussion  —  The  subscript  “x”  on  “f
+x
+”
+corresponds to the direction of the profile on the surface
+and can be omitted if no confusion is involved.  In this
+definition  the  spatial  frequency,  f
+x
+,  is  always  positive
+and  greater  than  zero.    The  value  at  f
+x
+=  0  corresponds
+to the average value of the profile height, which is zero
+for detrended profiles.  The factor of 2 accounts for the
+equal  contribution  from  negative  frequencies  and  en-
+sures  that  the  area  under  the  positive-frequency  profile
+spectrum  equals  the  rms-squared  (mean-square)  profile
+height.
+4. 2.29.3  area  or  two-dimensional  PSD  of  the  surface
+height [μm
+4
+] — a function of the spatial frequencies in
+both  the  x  and  y  directions  on  the  surface,  f
+x
+and  f
+y
+,  in
+units of inverse micrometers, μm
+–1
+, defined as follows:
+(){}
+,dd2exp),(
+1
+Lim),(
+2
+2
+
+
+
+
+
+
+
+
++π=
+∫∫
+∞→
+yxyfxfiyxZ
+A
+ffS
+A
+yxAyx
++∞<<−∞
+yx
+ff,                                         (6)
+4. 2.29.3.1  Discussion  —  The  spatial  frequency  ranges
+included  in  this  definition  cover  the  entire  frequency
+plane and are not limited to positive frequencies only as
+in  the  case  of  the  profile  spectrum.    In  the  case  of  an
+isotropically   rough   surface   the   area   spectrum   is   a
+function  only  of  the  magnitude  of  the  two-dimensional
+frequency vector: f = √(f
+x
+2
++ f
+y
+2
+).  The profile spectrum
+can  be  derived  from  the  area  spectrum,  but  the  area
+spectrum cannot, in general, be derived from the profile
+spectrum.  Uniaxial and isotropically rough surfaces are
+exceptions.
+4. 2.29.4  Discussion   of   Units:   The   surface   height
+fluctuations of optical surfaces are usually measured in
+units  of  nanometers  (1  nm  =  10
+–3
+μm),  or  the  non-SI
+units  of  Ångstroms  (1  Å  =  10
+–4
+μm).    Values  of  the
+PSDs  estimated  using  height  data  in  these  units  can  be
+converted  to  the  recommended  units  by  multiplying  by
+the following conversion factors:
+• To  convert  S
+1
+in  units  of  nm
+2
+μm  to  units  of  μm
+3
+
+multiply it by 10
+–6
+,
+• To  convert  S
+1
+in  units  of  Å
+2
+μm  to  units  of  μm
+3
+
+multiply it by 10
+–8
+,
+• To  convert  S
+2
+in  units  of  nm
+2
+μm
+2
+to  units  of  μm
+4
+
+multiply it by 10
+–6
+, and
+• To  convert  S
+2
+in  units  of  Å
+2
+μm
+2
+to  units  of  μm
+4
+
+multiply it by 10
+–8
+.
+If the sample interval is given in millimeters instead of
+micrometers,  the  conversion  factors  for  S
+1
+should  be
+multiplied  by  an  additional  factor  of  10
+3
+,  and  those  for
+S
+2
+should be multiplied by an additional factor of 10
+6
+.
+4. 2.30  radius  of  curvature,
+x
+R
+)
+—  radius  of  a  circle
+fitted to the measured surface profile.
+4. 2.30.1  Discussion   —   When   the   radius   us   large
+relative  to  the  profile  length  its  magnitude  is  most
+easily   determined   from   the   quadratic   term   in   the
+detrending polynomial.  If the average surface profile is
+written as Z(x) = a + bx + cx
+2
+, the estimate of the radius
+of curvature in the x direction is
+).2/(1cR
+x
+=
+)
+If Z and x
+are  expressed  in  micrometers,
+x
+R
+)
+is  in  micrometers.
+Since  the  radii  of  curvature  of  nominally  flat  surfaces
+can be quite large, other reporting units, such as meters
+or kilometers, may be more appropriate.
+4. 2.31  random surface profile — surface height profile
+that  involves  parameters  that  are  distributed  according
+to  statistical  distribution  laws  rather  than  having  fixed
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 8
+or   deterministic   values.      Also   known   as   random
+roughness.
+4. 2.31.1  Discussion — For example, the profile
+
+)2cos()(φ+π=xfAxZ
+x
+(7)
+is  deterministic  if  φ  =  const.,  but  random  if  φ  has  a
+finite-width probability distribution function P(φ).  Fin-
+ish parameters and functions such as Z(x)
+2
+, are then the
+values of those quantities averaged over P(φ).
+4. 2.32  restoration  —  signal-processing  procedure  in
+which  measurements  are  compensated  for  a  non-unit
+measurement transfer function by passing them through
+a  digital  filter  that  restores  the  effective  measurement
+function to unity over its bandpass.
+4. 2.32.1  Discussion  —  The  measured  profile  can  be
+restored  and  the  statistics  of  the  restored  profile  can
+then  be  estimated.    The  most  common  spatial-  and
+frequency-domain   filters   used   for   this   purpose   are
+“inverse”  and  “Wiener”  filters.    This  guide  does  not
+discuss  the  details  of  such  restoration  processes,  which
+may  be  found  in  standard  signal-processing  texts  such
+as those listed in Section 7.
+4. 2.33  RMS profile roughness, R
+q
+, [nm] — square root
+of the mean-square profile roughness.
+4. 2.34  RMS  profile  slope,  ∆
+q
+—  square  root  of  the
+mean-square profile slope.
+4. 2.34.1  Discussion  —  The  slope  is  dimensionless,
+although the fundamental unit is the radian.  In practice
+it may be convenient to express the rms slope of highly
+polished surfaces in microradians.
+4. 2.35  sample  interval,  D,  [μm] —  distance  between
+adjacent measurements of the surface height along the x
+axis.  Also known as sampling interval.
+4. 2.35.1  Discussion  —  The  sample  interval  is  usually
+chosen  or  recommended  by  the  manufacturer  of  the
+profile  instrument  being  used.    The  sample  interval
+defines  the  Nyquist  frequency  and  hence,  the  extreme
+HFL of the measurement.  This guide does not address
+measurements  with  unequal  sample  intervals  or  those
+made along nonlinear traces over the surface.
+4. 2.36  sampled  profile,  Z(x
+n
+), [nm]  —  surface  height,
+Z(x
+n
+),  measured  at  N  equally-spaced  points  along  the  x
+axis.
+4. 2.36.1  Discussion  —  This  guide  uses  the  following
+indexing   convention   for   the   position   of   the   height
+samples,
+
+NnDnx
+n
+,,2,1,)1(L=−=                     (8)
+Therefore  the  distance  between  the  first  and  last  points
+in the profile trace is (N – 1)D.
+4. 2.37  sampled  slope,  m(x
+n
+)  —  surface  slope,  m(x
+n
+),
+measured  at  N  equally-spaced  points  along  the  x  axis
+using the same indexing convention as for the sampled
+profile.
+4. 2.37.1  Discussion  —  Some  instruments  measure  the
+surface  slope  directly,  while  others,  in  effect,  measure
+the surface height at N + 1 points and generate N slope
+values using the equation:
+
+[]NnxZxZ
+D
+xm
+nnn
+,,2,1,)()(
+1
+)(
+1
+L=−=
++
+(9)
+4. 2.38  slope  power  spectrum,  S
+′  (f
+x
+[μm]  —  statistical
+function  that  shows  how  the  mean-square  profile  slope
+is   distributed   over   surface   spatial   frequencies   as
+follows:
+())()2(d2exp)(
+1
+Lim)(
+1
+2
+2
+2/
+2/
+1
+xx
+L
+L
+xLx
+fSfxxfixm
+L
+fSπ=
+
+
+
+
+
+
+
+
+
+
+
+
+π=
+′
+∫
++
+−
+∞→
+(10)
+4. 2.38.1  Discussion     —     This     simple     connection
+between the slope and roughness power spectra permits
+one to be determined immediately in terms of the other.
+The prime on S
+1
+, on the left denotes that this is the PSD
+of  the  slope,  while  the  unprimed  S
+1
+on  the  far  right  is
+the PSD of the height.
+4. 2.39  spatial    frequency,    f
+x
+,[1/μm]    —    frequency
+parameter in the Fourier transform of the surface profile
+Z(x).
+4. 2.39.1  Discussion  —  The  parameter  f
+x
+is  related  to
+the  spatial  wavelength,  d
+x
+through  f
+x
+=  1/d
+x
+.    Similar
+quantities  are  defined  for  the  y  component,  and  the
+magnitude   of   the   two-dimensional   spatial-frequency
+vector,
+22
+yx
+fff+=,  that  appears  in  the  two-dimen-
+sional  power  spectral  density  of  an  isotropically-rough
+surface, S
+2
+(f).
+4. 2.40  spatial wavelength, d
+x
+, [μm] — reciprocal of the
+spatial frequency, f
+x
+.
+4. 2.40.1  Discussion   —   The   mechanical-engineering
+community frequently uses the symbol λ for the spatial
+wavelength,  while  the  optical  community  reserves  that
+symbol for the radiation wavelength.
+4. 2.41  spectral  model  —  analytic  expression  for  the
+power  spectral  density  which  contains  a  number  of
+adjustable parameters called finish parameters.
+4. 2.41.1  Discussion   —   The   values   of   the   finish
+parameters are obtained by fitting estimates of the PSD
+of the surface height or slope fluctuations to the model.
+The  fitting  process  performs  a  number  of  important
+functions:  it  averages  out  the  fluctuations  appearing  in
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 9
+individual    estimates    of    the    power    spectrum,    it
+condenses   the   data   into   a   few   intrinsic   surface
+parameters, and provides a mechanism for extrapolating
+the measured data outside the measurement bandwidth.
+4. 2.41.2    One  example  of  a  spectral  model  is  the  ABC
+model, which  has  the  following  form  for  the  profile
+PSD:
+
+2/2
+1
+])(1[
+)(
+C
+x
+x
+Bf
+A
+fS
++
+=
+(11)
+and  for  the  two-dimensional  spectrum  of  an  isotrop-
+ically-rough surface:
+
+2/)1(2
+2
+])(1[
+)(
++
++
+′
+=
+C
+Bf
+A
+fS
+(12)
+where:
+.
+)2/(
+2/)1(
+2
+1
+AB
+C
+C
+A⋅
+Γ
++Γ
+⋅
+π
+=
+′
+
+The  finish  parameters  in  this  model  are  A,  B  and  C,
+which have the dimensions of μm
+3
+, μm
+1
+, and μm
+0
+.  This
+model is sometimes called the K-correlation model, and
+the quantity B/(2π), the correlation length.
+4. 2.41.3    Another  example  of  a  spectral  model  is  the
+fractal  model,  which  has  the  following  form  for  the
+profile PSD:
+
+C
+x
+x
+f
+K
+fS
+1
+1
+)(=                                (13)
+and    for    the    two-dimensional    spectrum    of    an
+isotropically-rough surface:
+
+1
+2
+2
+)(
++
+=
+C
+f
+K
+fS
+(14)
+where:
+.
+)2/(
+2/)1(
+2
+1
+12
+K
+C
+C
+K⋅
+Γ
++Γ
+⋅
+π
+=
+
+The finish parameters in this model are K
+1
+and C, which
+have   the   dimensions   of   μm
+(3–C)
+and μm
+0
+.      The
+dimensionless  number  C  usually  lies  between  1  and  3
+but   need   not   be   an   integer.      The   quantity   K
+C
+is
+sometimes  referred  to  as  the  spectral  strength,  and  the
+parameter, C, the spectral index.
+4. 2.41.4    The  fractal  model  is  the  limiting  case  of  the
+ABC model when the finish parameter B becomes very
+large.    The  value  of  the  intrinsic  mean-square  profile
+and  area  roughness  of  the  ABC  model,  obtained  by
+integrating the ABC spectrum over all frequencies, is as
+follows:
+
+2
+2
+00
+1
+2
+1
+2
+d)(2d)(
+B
+A
+C
+ffSfffSR
+xxq
+′
+−
+π
+=π==
+∫∫
+∞∞
+(15)
+which  is  finite  for  C  >  1.    The  intrinsic  value  of  the
+mean-square  roughness  of  the  fractal  model  is  always
+infinite   because   of   its   divergence   at   low   spatial
+frequencies.      In   contrast,   the   measured   roughness
+values,  obtained  by  integrating  only  over  the  measure-
+ment  bandpass,  are  finite  for  the  ABC  model  for  any
+value of C, and for the fractal model.
+4. 2.41.5    A  third  example  of  a  spectral  model  is  the
+periodic  model,  which  is  for  a  surface  consisting  of  a
+periodic  structure  and  has  the  following  forms  for  the
+profile PSD:
+
+∑
+∞=
+=
+
+
+
+
+
+
+
+
+−δ⋅=
+k
+k
+xkx
+d
+k
+fAfS
+1
+0
+2
+1
+2
+1
+)(
+(16)
+and for the two-dimensional spectrum:
+
+∑
++∞=
+−∞=
+δ⋅
+
+
+
+
+
+
+
+
+−δ⋅=
+k
+k
+yxkyx
+f
+d
+k
+fAffS)(
+4
+1
+),(
+0
+2
+||2
+(17)
+where  the  k  =  0  is  excluded.    The  finish  parameters  of
+this  model  are  the  A
+k
+'s,  the  Fourier  amplitudes  of  the
+periodic   profile,   and   d
+0
+,   the   fundamental   spatial
+wavelength  of  the  periodicity,  both  expressed  in  μm.
+A
+2
+/2  is  the  mean-square  roughness  of  the  k
+th
+harmonic
+of  the  profile  (k  =  1  is  the  fundamental),  and  δ(F)  is  a
+unit-area function that is sharply peaked about the point
+F  =  0.    The  value  of  the  intrinsic  mean-square  profile
+and area roughness of the periodic model is as follows:
+
+∑
+∫∫∫
+∞
+=
++∞
+∞−
++∞
+∞−
+∞
+===
+1
+2
+2
+0
+1
+2
+2
+1
+d),(d)(
+k
+k
+yyxxxxq
+AfffSdfffSR    (18)
+In  contrast,  the  measured  value  is  the  right-hand  side
+summed  over  those  spectral  lines  that  fall  within  the
+measurement bandpass.
+4. 2.41.6    Finally,  it  is  possible  to  develop  a  composite
+model  that  is  made  up  of  a  sum  of  terms  involving
+different models or models with different parameters, or
+both.
+4. 2.42  trace  length,  L [μm]  —  total  length  of  the
+surface sampled by a linear profile measurement.  Also
+known as profile length.
+4. 2.42.1  Discussion: In the indexing used in this guide
+
+DNxL
+N
+)1(−==                           (19)
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 10
+where:
+x
+N
+=       the  position  of  the  N
+th
+or  last  point  in  the
+measurement (with x
+1
+assumed at zero), and
+D         =          1     the     sampling     interval     (see     Section
+4. 2.15.1).
+The   periodogram   estimate   is   based   on   a   Fourier
+representation   of   the   surface   profile.      The   basic
+periodicity  of  that  expansion  is  ND  rather  than  the
+literal  profile  length  L  =  (N–1)D.    Depending  on  the
+type of FFT used in the practical evaluation of the PSD,
+N  may  be  required  to  be  a  power  of  2,  such  as  1024,
+although  in  general,  there  is  no  restriction  on  N  in  this
+guide.
+4. 2.43  transfer    function    —    function    of    spatial
+frequency  having  a  magnitude  between  zero  and  one
+which  describes  the  sensitivity  of  a  linear  measuring
+system  to  the  amplitudes  of  different  spatial-frequency
+components in the profile being measured.  Also known
+as measurement transfer function.
+4. 2.43.1  Discussion  —  The  ideal  transfer  function  is
+unity  within  the  measurement  bandpass  and  zero  for
+frequencies    outside    the    bandpass.        Real-world
+measurement      transfer      functions      can      deviate
+significantly  from  this.    The  transfer  function  is  the
+Fourier  transform  of  the  impulse  response  function  of
+the measuring apparatus.
+4. 2.44  uniaxial  surface  —  surface  whose  roughness  is
+confined to a particular direction or lay, so that it can be
+completely   characterized   by   profile   measurements
+perpendicular to the lay direction.  Surfaces that display
+harmonic lines are frequently uniaxial.  Also known as
+grating-like surface.
+4. 2.44.1  Discussion — In contrast, an isotropic surface
+can   also   be   completely   characterized   by   profile
+measurements  made  in  one  direction,  but  there  is  no
+preferred  direction  as  there  is  for  uniaxial  surfaces.
+Surfaces  that  are  neither  uniaxial  nor  isotropic  can  be
+characterized  using  the  procedures  described  in  this
+guide,  although  profile  measurements  taken  on  many
+directions across the surface may be needed to generate
+a  complete  statistical  description  of  the  surface  under
+test.
+4. 2.45  window   function,   W(x
+n
+)   —   bell-shaped   or
+smooth-edged  function  that  multiplies  the  detrended
+profile  data  set  before  it  is  inserted  into  the  period-
+ogram estimation routine.  Also known as data window.
+4. 2.45.1  Discussion     —     The     window     function
+“smoothes  out”  possible  discontinuities  at  the  ends  of
+the measured, finite-length data set in order to eliminate
+the   spurious   oscillations   that   those   discontinuities
+would  otherwise  generate  in  the  spectral  estimate.    As
+long  as  the  window  function  performs  its  function  of
+reducing  the  contributions  from  the  ends  of  the  data
+record and has the proper normalization, its shape is of
+secondary importance.
+4. 2.46  zero   padding   —   procedure   of   adding   zero
+values  to  a  data  set  to  bring  the  total  number  of  data
+points, N, to a power of two to facilitate the evaluation
+of   the   FFT   appearing   in   the   periodogram   spectral
+estimate.
+4. 2.46.1  Discussion  —  The  window  functions  should
+be  applied  to  the  data  set  before  zero  padding.    Zero
+padding  is  less  important  with  the  ready  availability  of
+arbitrary- N FFT computing packages.
+5 Calculations
+5. 1  Detrending
+5. 1.1  Introduction  —  The  estimators  defined  in  this
+section  are  based  on  the  analysis  of  a  data  set  Z(n)
+consisting  of  N  discrete  values  of  the  surface  profile
+Z(x
+n
+=  (n–1)D)  measured  at  equally-spaced  locations
+along  a  straight  line  of  length  L,  where  n  =  1  to  N.    If
+Z(n)  is  the  measured  profile,  the  detrended  profile  is
+given by:
+
+][)()(
+2
+ncnbanZnZd⋅+⋅+−=                 (20)
+where the quantity in the square bracket is the quadratic
+detrending  polynomial.    The  estimated  values  of  the
+polynomial  coefficients  a,  b,  and  c,  denoted  by
+a
+)
+, b
+)
+,
+and
+c
+)
+,  respectively,  are  determined  by  least-squares
+fitting of the polynomial to the measured profile data as
+now   described.      The   degree   of   the   detrending
+polynomial  is  chosen  by  the  following  considerations:
+Removing  piston  only  (zeroth-order  polynomial,  a)  is
+useful  for  instructional  purposes  but  is  inadequate  in
+practice.  It affects only the zero-frequency or “dc” term
+in the power spectral density.  Removing piston and tilt
+(first-order   polynomial,   a + b·n)   is   sufficient   for
+removing  uncertainties  in  the  rigid-body  positioning  of
+a  nominally  flat  sample  in  the  measurement  apparatus.
+Removing   piston,   tilt   and   curvature   (second-order
+polynomial, a  +  b·n  +  c·n
+2
+)  removes  an  additional
+quadratic  term  in  the  profile  that  may  result  from
+instrumental   (extrinsic)   effects   or   true   (intrinsic)
+curvature in the surface being measured.
+5. 1.2  Piston detrending is as follows:
+
+anZndZ
+)
+)
+−=)()(                             (21)
+and
+
+0
+Ma+=
+)
+(22)
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 11
+where M
+0
+(and also M
+1
+and M
+2
+) are evaluated using the
+general moment expression,
+
+∑
+=
+=
+N
+n
+P
+P
+nZn
+N
+M
+1
+)(
+1
+(23)
+where:
+P =   0, 1, or 2.
+5. 1.3  Piston and tilt detrending is as follows:
+
+][)()(nbanZndZ
+)
+)
+)
++−=                       (24)
+where:
+n =   1, 2, ... , N,
+a
+)
+
+=
+]3)12[(
+1
+2
+10
+MMN
+N
+−+⋅
+−
++, and
+b
+)
+
+=
+
+
+
+
+
+
++
+−
+−
+−
+1
+2
+1
+6
+1
+0
+N
+M
+M
+N
+.
+5. 1.4  Piston,   tilt,   and   curvature   detrending   is   as
+follows:
+
+][)()(
+2
+ncnbanZndZ
+)
+)
+)
+)
+++−=                   (25)
+where:
+n =   1, 2, ... , N,
+a
+)
+
+=
+],10)12(6)233[(
+)2)(1(
+3
+210
+2
+MMNMNN
+NN
+++−++
+−−
++
+b
+)
+
+=
+and],)1(30)118)(12(2
+)12)(2)(13[(
+)4)(1(
+6
+21
+0
+22
+MNMNN
+MNNN
+NN
+++++−
++++
+−−
+−
+
+c
+)
+
+=
+.6)1(6)2)(1[(
+)4)(1(
+30
+210
+22
+MMNMNN
+NN
+++−++
+−−
++
+NOTE 1:  The estimated values of the coefficients depend on
+the  degree  of  the  polynomial  being  detrended.    For  example,
+the  value  of  the  coefficient  a
+)
+for  piston  detrending  and
+piston-plus-tilt  detrending  derived  from  the  same  data  set  are
+generally different.
+NOTE 2:  Despite these apparent differences, the mean values
+of each of the detrended profiles given by
+
+∑
+=
+==
+N
+n
+ndZ
+N
+1
+0)(
+1
+Mean value
+)
+(26)
+vanishes  in  all  cases.    This  means  that  the  “dc”  value  of  the
+estimated  power  spectrum  of  the  detrended  profile  is  zero,
+which  offers  a  convenient  numerical  check  on  the  numerical
+processing routines used.
+NOTE 3:  Least-squares fitting routines are available in many
+computer  packages.    Analytic  results  are  given  above  for
+reference and checking.
+5. 2  RMS Roughness
+5. 2.1    There  are  two  different  estimators  for  the  rms
+roughness, R
+q
+— one expressed in configuration space,
+and the other in frequency space, as follows:
+
+∑
+=
+=
+N
+n
+q
+ndZ
+N
+R
+1
+22
+)(
+1
+)Config(
+))
+(27)
+and
+
+∑
++
+=
+=
+2
+1
+1
+1
+2
+)(
+1
+)Freq(
+N
+m
+q
+mS
+ND
+R
+)
+)
+(28)
+1 where
+)(
+1
+mS
+)
+is the periodogram estimate of the PSD
+based on
+)(ndZ
+)
+(see Section 5.4).
+NOTE 4:  These   two   estimates   of R
+q
+2
+are   mathematically
+identical  if  the  periodogram  is  evaluated  using  a  unit  data
+window, W(n)  =  1.    Although  a  unit  window  function  is  not
+recommended  for  general  use,  the  numerical  identity  of  the
+Equation 27 and Equation 28 in that case offers a convenient
+check on the programming of the periodogram estimator.
+NOTE 5:  If a non-unit data window is used in the calculation
+of the PSD the two estimates of the rms roughness given will
+not,  in  general,  be  numerically  identical  for  a  particular  pro-
+file  measurement.    On  the  other  hand,  the  two  estimates  are
+identical for an ensemble average over a large number of pro-
+file  measurements.    In  other  words,  the  two  estimates  of  R
+q
+2
+
+are statistically the same.
+NOTE 6:  The first estimator has the advantage of familiarity
+and  simplicity  since  it  is  expressed  directly  in  terms  of  the
+detrended  values  of  the  measured  profile  data.    Its  disad-
+vantage  is  that  it  involves,  perforce,  the  transfer  function  of
+the  measuring  apparatus,  and  in  a  nonobvious  way.    In  con-
+trast,  the  frequency-space  form  may  be  more  complicated  to
+evaluate but has the advantage that it permits the bandwidth to
+be  included  in  the  rms  value  to  be  varied  by  selecting  the
+range of m values included in the frequency sum.  In addition,
+it  permits  the  effects  of  a  non-unit  instrumental  transfer
+function within that bandpass to be examined directly, and to
+be  divided  out  by  restoration  processes,  if  its  form  is  known
+independently.
+NOTE  7:    The  spectra  of  real  surfaces  frequently  tend  to
+diverge at low spatial frequencies so that the values of the rms
+roughness  obtained  using  either  estimator  may  depend  signi-
+ficantly on the value of the LFL of the measurement process,
+or chosen as a reference value.  In some cases, the presence of
+a  non-vanishing  LFL  can  give  a  finite  value  of  the  profile
+roughness when its intrinsic value is infinite or undefined.
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 12
+5. 3  RMS Slope
+5. 3.1    There  are  two  different  estimators  for  the  rms
+slope, ∆
+q
+—  one  expressed  in  configuration  space,  and
+the other in frequency space, as follows:
+
+∑
+−
+=
+−+=∆
+1
+1
+2
+2
+)()1([
+1
+)Config(
+N
+n
+q
+ndZndZ
+ND
+)))
+(29)
+and
+
+2
+)2/(1
+1
+1
+2
+)1(2
+)(
+1
+)Freq(
+
+
+
+
+
+
+−π
+=∆
+∑
++
+=
+ND
+m
+mS
+ND
+N
+m
+q
+)
+)
+(30)
+NOTE    8:        The    magnitudes    of    these    two    estimates    are
+generally   different   since   the   first   treats   the   profile   as   a
+collection     of     straight-line     segments     connecting     the
+measurement  points,  while  the  second  connects  them  with  a
+bandwidth-limited  interpolation  curve  and  involves  a  smaller
+bias error.
+NOTE  9:    The  notes  for  the  rms  roughness  estimators  just
+made   generally   apply   to   slope   estimates   as   well.      One
+difference  is  that  the  significant  bandwidth  effects  on  the
+slope  occur  principally  at  the  HFL  rather  than  the  LFL  as  is
+the case for rms roughness measurements.
+5. 4  Periodogram   Estimators   of   the   Profile   Power
+Spectral Density
+5. 4.1  Form  for  1-dimensional  Power  Spectral  Density
+for height-measuring profilometers is as follows:
+
+.
+)()(FFT2
+)(
+2
+1
+N
+mKmD
+mS
+⋅⋅
+=
+)
+(31)
+The   spatial   frequency   is   evaluated   at   the   discrete
+valuesof m, with m = 1, 2, ... , [1 + (N/2)]:
+
+.
+1
+ND
+m
+f
+x
+−
+=
+(32)
+5. 4.2      The   symbol   FFT   in   Equation   31   stands   for
+discrete  Fourier  transform,  which  is  always  evaluated
+using  some  version  of  the  fast  Fourier  transform  as
+follows:
+∑
+=
+⋅⋅−−π=
+N
+n
+ndZnWNmnim
+1
+)()(]/)1)(1(2exp[)(FFT
+)
+(33)
+where:
+W(n)    =   window function (see Section 5.6) and
+K(m)    =     book-keeping  factor  equal  to  ½  for  m = 1  o
+r
+m = 1 + (N/2) and equal to 1 otherwise.
+NOTE  10:    Equation  33  applies  for  the  conventional  case  of
+even N.  Different forms apply for odd N.
+NOTE 11:  The case m = 1 corresponds to the zero-frequency
+or  dc  component  of  the  detrended  surface  profile  and  m  =  2
+corresponds   to   the   spatial   frequency   1/(ND),   which   is
+essentially the reciprocal of the trace length, ( N–1)D.  On the
+opposite extreme, the frequency corresponding to m = 1 + N/2
+is  the  Nyquist  frequency,  1/(2D).    The  extreme  range  of
+surface wavelengths included in the measurement is therefore
+1/(ND)  <  f  <  1/(2D).    In  other  words,  the  extreme  LFL =
+1/(ND), the extreme HFL = 1/(2D), and the dynamic range of
+the measurement is N/2.
+NOTE  12:    A  convenient  and  readable  reference  to  the  FFT
+and  its  evaluation  is  Chapter  12  in  Numerical  Recipes  by
+Press, Flannery, Teukolsky, and Vetterling (see Section 7.1).
+NOTE 13:  The Brookhaven National Laboratory Report (see
+Section 7.2) contains further background information on these
+procedures  along  with  a  computer  program  and  numerical
+examples.    (The  BASIC  routines  used  there  involve  different
+forms  for  the  quantities  M
+P
+appearing  in  the  expressions  for
+the detrending polynomials than those discussed in this guide,
+although  the  numerical  values  of  the  detrending  polynomials
+are identical in both cases.)
+NOTE  14:    The  periodogram  estimator  just  given  is  not  the
+only  method  of  estimating  the  power  spectral  density  from  a
+set  of  profile  data,  but  it  is  the  most  direct  and  common
+method.    It  is  sufficient  for  general  use,  and  is  a  necessary
+first  step  to  be  taken  before  adding  embellishments  such  as
+post-processing  or  considering  more  complicated  estimators.
+This  guide  does  not  exclude  the  use  of  post-processing  or
+alternative methods of analysis, but does require that the basic
+periodogram   estimates   just   described   be   included   in   the
+discussion for comparative purposes.
+5. 4.3  Form  for  1-dimensional  Power  Spectral  Density
+for slope-measuring profilometers is as follows:
+
+N
+mKmD
+ND
+m
+mS
+)()(FFT2
+)1(2
+)(
+2
+2
+1
+⋅⋅
+⋅
+
+
+
+
+
+
+−π
+=
+−
+)
+(34)
+where:
+∑
+=
+−−π
+⋅⋅=
+′
+N
+n
+N
+mni
+ndMnWem
+1
+)1)(1(2
+)()()(TFF
+)
+
+and
+)(ndM
+)
+is  the  value  of  the  profile  slope  measure-
+ments detrended using either the least-squares piston or
+the piston-plus-tilt expressions (see Section 5.1).
+NOTE 15:  This estimate of the profile power spectrum is the
+power  spectrum  of  the  profile  slope  divided  by  (2πf
+m
+)
+2
+.    The
+prime  on  the  FFT  on  the  left  denotes  that  it  involves  slope
+rather than height data.
+NOTE 16:  The  case m  =  1  corresponds  to  zero  spatial  fre-
+quency   and   must   be   excluded   in   the   use   of   the   above
+expressions.
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 13
+5. 5  Periodogram    Estimators    of    the    Rms    Profile
+Roughness and Slope
+5. 5.1    The  periodogram  estimator  of  the  rms  profile
+height,
+,
+q
+R
+)
+is as follows:
+
+∑
++
+=
+=
+)2/(1
+2
+1
+)(
+1
+N
+m
+q
+mS
+ND
+R
+)
+)
+(35)
+This  quantity  has  the  same  dimension  as  the  original
+height   measurements   and   is   independent   of   the
+magnitude and dimensions of the sampling interval, D.
+5. 5.2    The  corresponding  estimator  for  the  rms  profile
+slope,
+,
+q
+∆
+)
+is as follows:
+∑∑
++
+=
++
+=
+−π=
+′
+=∆
+)2/(1
+2
+1
+2
+3
+)2/(1
+2
+1
+)()1(
+)(
+1
+2)(
+1
+N
+m
+N
+m
+q
+mSm
+ND
+mS
+ND
+))
+)
+(36)
+In evaluating these quantities the height measurements,
+Z,  and  the  sampling  interval,  D,  must  be  expressed  in
+the  same  length  units.    Although
+q
+∆
+)
+is  in  units  of
+radians, its magnitude scales as 1/D.
+5. 6  Window Functions
+5. 6.1    Window  functions  appear  in  a  wide  variety  of
+signal-processing   applications,   with   different   shapes
+and  normalizations.    Although  this  guide  recommends
+the  use  of  the  Hann  or  Blackman  window,  other  forms
+are included for comparison.  All are normalized so that
+∑
+=
+=
+N
+n
+nW
+N
+1
+2
+1)(
+1
+in  order  to  preserve  the  magnitudes  of
+average values of the mean-square profile statistics.
+5. 6.2  Particular forms are:
+5. 6.2.1  Rectangular or Daniell window:
+
+1)(=nW                                   (37)
+5. 6.2.2  Hann, or Raised Cosine window:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−π
+−=
+N
+n
+nW
+)1(2
+cos124
+1728
+2
+)(
+(38)
+5. 6.2.3  Hamming window:
+
+
+
+
+
+
+
+
+
+
+
+
+
+−π
+−⋅=
+N
+n
+nW
+)1(2
+cos2327
+1987
+2
+)(
+(39)
+5. 6.2.4  Blackman window:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−π
++
+
+
+
+
+
+
+
+
+−π
+−⋅=
+N
+n
+N
+n
+nW
+)1(4
+cos4
+)1(2
+cos2521
+1523
+2
+)(
+(40)
+
+NOTE   17:      The   choice   of   window   functions   is   of   minor
+importance   for   randomly-rough   surfaces   as   long   as   it
+smoothes  the  data  at  the  ends  of  the  data  record.    The
+rectangular  or  Daniell  window  does  not  do  this,  but  is  useful
+for numerical checking.
+NOTE  18:    In  the  case  of  profiles  with  a  smooth  PSD,  the
+principal  effect  the  window  shape  is  to  change  the  fine-scale
+fluctuations in the periodogram estimate without changing its
+ensemble-average value, except, perhaps, near the LFL.
+NOTE  19:    In  the  case  of  profiles  involving  periodicities,  the
+window  shape  can  change  the  shape  of  the  sharp  lines  in  the
+PSD,  albeit  without  changing  their  areas.    The  choice  of  the
+window  shape  then  involves  a  trade-off  between  line  width
+and smoothness.  The raised Hann or Blackman windows are
+recommended for general use.
+NOTE 20:  If    the    estimation routines    are    applied    to
+deterministic profiles, such as individual steps, pits, or bumps,
+a  data  window  must  still  be  used  to  minimize  effects  of  the
+finite data record, but the object should be placed in the center
+of the profile where the window function is relatively flat.
+5. 7  Zero Padding
+5. 7.1  The fastest FFT routines require the total number
+of  data  points  to  be  a  power  of  two,  such  as  N  =  2
+10
+=
+
+# 1024
+
+1024.    If  the  number  of  measured  points,  N,  is  not  a
+power of two but lies between 2
+a
+and 2
+b
+, the power-of-
+two routines can be used by dropping N−2
+a
+points from
+one  end  of  the  original  data  set,  or  by  adding  2
+b
+−N
+zeros and replacing N in the routines everywhere by 2
+b
+.
+5. 7.2    The  first  method  is  wasteful  of  data,  while  the
+second  uses  the  full  set  of  measured  data  but  requires
+that the estimated PSD be renormalized by multiplying
+it by the factor 2
+b
+/N.
+5. 8  Averaging of Statistical Quantities:
+5. 8.1      Power   spectral   density   functions,   the   mean-
+square  roughness,  and  slope  values  estimated  from  a
+number   of   individual   profiles   that   have   the   same
+statistical  properties  can  each  be  averaged  together  to
+obtain composite results.  In the case of homogeneously
+and  isotropically  rough  surfaces  the  profiles  can  lie  in
+any position and direction on the surface under test.  In
+the  case  of  homogeneously  but  anisotropically  rough
+surfaces they can lie anywhere on the surface but must
+lie parallel with each other, preferably perpendicular to
+the  surface  axis.    Averaging  data  lowers  the  errors
+associated with individual measurements.
+6 Numerical Test Sequences
+6. 1  Table 1 presents a set of numerical data for testing
+the    execution    of    the    users’    implementations    of
+algorithms discussed in Section 5.
+6. 2      Although   these   simulated   profile   data   are   in
+standard   notation,   they   have   been   generated   by   a
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 14
+random  number  generator  corresponding  to  a  constant
+PSD  and  are  not  the  results  of  an  actual  measurement.
+In addition, the number of data points has been limited
+to N = 32 and the profile heights have been rounded to
+digits  with  magnitudes  less  than  100  to  simplify  their
+manual input into the users’ programs.
+6. 3  Actual measured data sets would generally involve
+many  more  data  points  with  height  values  involving  a
+larger  number  of  significant  digits,  and  with  different
+orders   of   magnitude   than   those   used   in   this   test
+sequence.
+6. 4  In order to provide a means for checking the proper
+inclusion  of  the  sampling  distance,  D,  in  the  spectral-
+estimation routines, the value D = 0.1 has been used.
+6. 5    Tables  2  and  3  give  the  values  of  the  periodogram
+estimates  of  the  profile  power  spectral  density,
+,)(
+1
+mS
+)
+
+of  the  data  in  Table  1  for  the  three  different  types  of
+detrending  described  in  Section  5.1.    The  values  of
+these estimates depend on the data window used.  Table
+2  uses  a  rectangular  window  and  Table  3  uses  the
+Blackman window.
+6. 6    The  dimensions  of  the  power  spectral  densities  in
+these tables is length-cubed = (units of Z)
+2
+·(units of D),
+and its magnitude at a given spatial frequency scales as
+the sampling interval, D.
+6. 7  The spatial frequency is given as follows:
+
+ND
+m
+f
+m
+1−
+=
+(41)
+where:
+m  =     1  corresponds  to  the  dc  or  piston  part  of  the
+profile, and
+m =    1  + N/2  =  17  is  the  Nyquist  frequency  in
+(units of D
+–1
+).
+6. 7.1    Note  that  since  the  window  function  has  been
+applied after the detrending process, the dc terms do not
+necessarily   vanish   for   a   non-rectangular   window
+functions.
+6. 8    Table  4  gives  values  of
+q
+R
+)
+derived  from  the
+spectra  in  Table  2  and  Table  3  using  the  expression
+given in Table 4.
+6. 8.1  As mentioned, the unit of
+q
+R
+)
+is the same as that
+of  the  height  measurement  since  the  magnitude  and
+dimensions  of  the  sampling  interval,  D,  cancels  out  in
+the evaluation of R
+q
+.
+6. 9    The  data  in  Table  2  through  Table  4  are  adequate
+for checking the users' implementation of the estimators
+described  in  Section  5,  and  further  test  data  are  not
+included in this guide.
+7 Related Documents
+7. 1  Press, W. H., Flannery, B. P., Teukolsky, S. A., and
+Vetterling,  W.  T.,  Numerical  Recipes  –  the  Art  of
+Scientific   Computing,   Cambridge   University   Press,
+Cambridge, 1986.
+7. 2  Church, E. L., and Takacs, P. Z., “BASIC program
+for  power  spectrum  estimation”,  Brookhaven  National
+Laboratory Report BNL No. 49035, May 1993 (revised
+May 1994).
+7. 3  Stover, J. C., Optical Scattering: Measurement and
+Analysis, SPIE Press, l995.
+7. 4    Kay,  S.  M.  Modern  Spectral  Estimation;Theory
+and Application, Prentice Hall, l988.
+7. 5    Marple,  Jr.,  S.  L.,  Digital  Spectral  Analysis  with
+Applications (Prentice Hall, 1987).
+7. 6      Harris,   F.   J.,   “On   the   Use   of   Windows   for
+Harmonic    Analysis    With    the    Discrete    Fourier
+Transform,” Proceedings IEEE 66, 51–83 (1978).
+7. 7    Oppenheim,  A.  V.,  and  Schafer,  R.  W.,  Digital
+Signal Processing, Chapter 11, Prentice Hall, l975.
+7. 8    Bendat,  J.  S.,  and  Piersol,  A.  G.,  Random  Data;
+Analysis and Measurement, Chapter 9 (Wiley, l971).
+7. 9  Church, E. L., Vorburger, T. V., and Wyant, J. C.,
+“Direct    Comparison    of    Mechanical    and    Optical
+Measurements of the Finish of Precision Machined and
+Optical  Surfaces,”  Optical  Engineering,  24,  388–395
+(1985).
+7. 10      Blackman,   R.   B.,   and   Tukey,   J.   W.,   The
+Measurement of Power Spectra (Dover, l959).
+8 Keywords
+8. 1    estimates;  estimators;  power  spectral  density;  rms
+values;  root  mean  square;  roughness;  slope;  surface
+roughness; surface slope; surface statistics.
+
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 15
+
+Figure 1
+Different Forms of the Measurement-Transfer or Instrumental-Response Function as a Function of Spatial
+Frequency, f
+x
+.
+
+Table 1  Simulated Height Data (N = 32)
+n                      Z(n)                      n                      Z(n)                                            n                      Z(n)                      n                      Z(n)
+1                       –38                       9                       –40                       17                       3                       25                       –35
+2                        15                        10                        45                        18                        6                        26                        23
+3                        36                        11                        20                        19                        17                        27                        4
+4                        22                        12                                                3                        20                        20                        28                        –8
+5                        29                        13                        47                        21                        24                        29                        –45
+6                      –43                     14                    –18                    22                     16                    30                      26
+7                        –1                        15                        45                        23                        –5                        31                        1
+8                        –5                        16                        43                        24                        –17                        32                        6
+
+Table 2  Periodogram Estimates (m)S
+)
+for Different
+Types of Data Detrending Using a Rectangular
+Window
+m           None             Piston           Piston+Tilt
+Full
+Quadratic
+1              120.0500       0       0       0
+2               205.9506       205.9506        182.5409              14.81781
+3               142.1861       142.1861        137.3580              204.3631
+4               56.98463       56.98463        44.47469              53.08546
+5               147.9039       147.9039        139.6268              126.5831
+6               58.60630       58.60630        55.67305              50.13899
+7               248.4120       248.4120        264.7417              266.1277
+8               152.8321       152.8321        158.6038              154.5160
+9               185.1250       185.1250        192.8103              190.0105
+10              28.81090       28.81090        26.22179              25.40131
+11              28.61438       28.61438        27.90264              28.74841
+12              153.1641       153.1641        145.7812              145.2367
+13              356.5711       356.5711        366.4113              365.4717
+14              199.1965       199.1965        202.6268              203.4514
+15              41.53757       41.53757        40.26207              40.50671
+16              163.6550       163.6550        168.8428              169.0258
+17              16.20000       16.20000        17.87214              17.87215
+Table 3  Periodogram Estimates (m)S
+)
+for Different
+Types of Data Detrending Using a Blackman
+Window
+m           None             Piston           Piston+Tilt
+Full
+Quadratic
+1        312.4632       87.20874       90.11245       9.832211
+2        536.6033       268.4217       260.2453       76.63136
+3        195.1412       166.9871       162.0176       93.70938
+4        1.046170       1.046172       1.041742       1.303189
+5        30.14155       30.14156       30.16028       30.25176
+6        54.87353       54.87350       54.91950       54.94658
+7        188.9816       188.9818       188.8795       188.8293
+8        74.45938       74.45934       74.50156       74.51955
+9        45.28967       45.28967       45.27541       45.29324
+10       59.40473       59.40471       59.41950       59.41210
+11       94.24771       94.24768       94.23248       94.23342
+12       202.7328       202.7328       202.7405       202.7253
+13       289.7414       289.7414       289.7450       289.7637
+14       130.1287       130.1287       130.1230       130.1162
+15       76.22277       76.22275       76.22527       76.22248
+16       62.42836       62.42840       62.42742       62.43071
+17       5.585947       5.585948       5.585947       5.584926
+
+
+
+SEMI MF1811-0704 © SEMI 2003, 2004 16
+Table 4  Values of the Estimates
+q
+R
+)
+for Different Types of Detrending
+Followed by Different Types of Windowing
+Type of Data Detrending
+Type of Window
+None                  Piston                  Piston+Tilt                  Full                  Quadratic
+Rectangular          26.13517             26.13517             26.05133              25.34362
+Hann                    25.49031                    24.02299                    23.91725                    22.31003
+Hamming             25.53997             24.26072             24.15406              22.58759
+Blackman             25.29220             23.38999             23.30221              21.54917
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein
+for any particular application.  The determination of the suitability of the standard is solely the responsibility of
+the  user.    Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and
+other relevant literature, respecting any materials or equipment mentioned herein.  These standards are subject
+to change without notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no
+position  respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items
+mentioned in this standard.  Users of this standard are expressly advised that determination of any such patent
+rights or copyrights, and the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1982-1103 © SEMI 2003 1
+SEMI MF1982-1103
+TEST METHODS FOR ANALYZING ORGANIC CONTAMINANTS ON
+SILICON WAFER SURFACES BY THERMAL DESORPTION GAS
+CHROMATOGRAPHY
+This   standard   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the  North  American  Regional  Standards  Committee  on  July  27,  2003.    Initially  available  at  www.semi.org
+October  2003;  to  be  published  November  2003.    Originally  published  by  ASTM  International  as  ASTM
+F 1982-99.  Last previous edition ASTM F 1982-99
+ε1
+.
+1  Purpose
+1. 1    Organics  are  present  in  many  materials,  such  as
+plastics,  lubricants,  cleansers,  soaps,  and  living  tissues.
+Some  of  these  compounds  are  volatile  and  others  can
+become  airborne  through  chemical  reactions,  heating,
+abrasion,  or  outgassing.    Also  they  can  transfer  to
+wafers  by  direct  contact  or  be  left  behind  from  solvent
+residues.    Once  present  in  clean  facilities,  they  can
+deposit  on  wafer  surfaces.    Organics  deposited  on
+wafers   can   cause   degradation   haze,   wafer   surface
+tension  changes,  irregular  oxidation  rates,  and  other
+effects,  such  as  counter-doping  by  organophosphorus
+compounds.      Identification   of   trace   level   organic
+contaminants  is  important  in  determining  the  source  of
+the  particular  contamination.    These  test  methods  use
+the   TD-GC   technique   to   characterize   and   quantify
+organics deposited on wafer surfaces.
+1. 2      Monitoring   of   organic   contamination   on   wafer
+surfaces   also   can   be   used   to   measure   material
+outgassing    for    proper    selection    of    cleanroom,
+construction, and wafer packaging materials.
+2  Scope
+2. 1    These  test  methods  cover  the  identification  and
+quantification of organic contaminants on silicon wafer
+surfaces using a gas chromatograph interfaced to a mass
+spectrometer   (GC-MS)   or   a   phosphorus   selective
+detector, or both.
+2. 2    These  test  methods  describe  the  apparatus  and
+related  procedures  for  sample  preparation  and  analyses
+by thermal desorption gas chromatography (TD-GC).
+1
+,
+2
+
+2. 3  The range of detection limits of these test methods
+depends on the target organic compounds, for example,
+the range of detection limits is from the subpicogram to
+the  nanogram  level  of  hydrocarbons  (C
+8
+to  C
+28
+)  per
+square centimeter of silicon wafer surface.
+
+
+1  Fergason, L.A., ìAnalysis of Organic Impurities on Silicon Wafer
+Surfaces,î Microcontamination, 4(4), 33-37, April 1986.
+2    Saga,  K.  and  Hattori,  T.,  ìIdentification  and  Removal  of  Trace
+Organic  Contamination  on  Silicon  Wafers  Stored  in  Plastic  Boxes,î
+Journal of Electrochemical Society, 143, 3270-3284 (1996).
+2. 4  These test methods can be used for polished silicon
+wafers, or silicon wafers with oxide films.
+2. 5      Two   methods   are   described.      Method   A   is
+performed  on  cleaved  wafers.    Method  B  is  performed
+on  full  wafers.    The  detailed  procedures  of  Method  A
+and Method B as well as the differences between them,
+are described in Sections 5  and 7 .
+2. 6  Suitable safety precautions must be followed when
+handling    organic    solvents    and    compounds,    hot
+materials subjected to propane flame, the propane flame
+itself,  wafer  thermal  desorption  systems,  rapid  thermal
+annealer, or a high temperature furnace.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  ASTM Standard
+D   6196   ó   Practice   for   Selection   of   Sorbents   and
+Pumped     Sampling/Thermal     Desorption     Analysis
+Procedures for Volatile Organic Compounds in Air
+3
+
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Abbreviations and Acronyms
+4. 1.1  AED ó atomic emission detector
+4. 1.2  C
+16
+ó n-hexadecane, n-C
+16
+H
+34
+
+4. 1.3  FID ó flame ionization detector
+4. 1.4  FPD ó flame photometric detector
+4. 1.5  GC ó gas chromatography
+
+
+3    Published  in  Volume  11.03  of  Annual  Book  of  ASTM  Standards.
+Available  from  ASTM  International,  100  Barr  Harbor  Drive,  West
+Conshohoken,  PA  19428-2959,  USA.    Telephone:  610.832.9585,
+Fax: 610.832-9555, Web site: www.astm.org
+.
+
+
+SEMI MF1982-1103 © SEMI 2003 2
+4. 1.6  MS ó mass spectrometer
+4. 1.7  NPD ó nitrogen/phosphorus thermionic
+ionization detector
+4. 1.8  TBP ó tributyl phosphate, (C
+4
+H
+9
+O)
+3
+PO
+4. 1.9  TCEP ó tris (2-chloroethyl) phosphate,
+(ClCH
+2
+CH
+2
+O)
+3
+PO
+4. 1.10  TD ó thermal desorption
+4. 2  Definitions of Term Specific to This Standard
+4. 2.1  blank    wafer    ó    a    thermally-treated    wafer
+desorbed of any surface organic contaminants.
+4. 2.1.1  Discussion  —  In  Method  A,  surface  organic
+contaminants   are   desorbed   with   a   rapid   thermal
+annealer  or  a  high  temperature  furnace.    In  Method  B
+surface  organic  contaminants  are  desorbed  by  purging
+them  out  in  the  heated  quartz  chamber  unit  while
+helium gas is flowing as a purge gas.
+5  Summary of Test Methods
+5. 1  Method A
+5. 1.1  Desorption  and  GC  Analysis  ó  The  volatile
+organic  contaminants  on  a  wafer  surface  are  desorbed
+thermally  from  the  wafer  surface  in  a  wafer  desorption
+oven  and  swept  into  a  sample  thermal  desorption  tube.
+The sample thermal desorption tube then is heated for a
+set period in the thermal desorption unit and the volatile
+organic contaminants desorbed from the sample thermal
+desorption  tube  are  swept  by  a  stream  of  helium  to  a
+cold trap where they are preconcentrated.  At the end of
+this period, the cold trap is heated rapidly to release the
+trapped  organics  to  the  GC  column  head.    Sample
+components then are separated and eluted out of the GC
+column.  Then, a portion goes to a phosphorus selective
+detector and the remainder goes to a mass spectrometer
+(MS).    Blank  wafers  are  prepared  by  purging  out  any
+surface   organic   contaminants   in   a   rapid   thermal
+annealer  or  a  high  temperature  furnace  while  a  purge
+gas is flowing.
+5. 1.2  Identification  of  Contaminants  ó  Identification
+of  individual  unknown  compounds  is  performed  by
+correspondence  of  retention  time  of  their  peaks  with
+that  of  known  compounds.    Correspondence  of  reten-
+tion time on a single column should not be regarded as
+proof   of   identity.      More   precise   identification   of
+individual  unknown  compounds  is  performed  with  MS
+by  matching  their  fragmentation  patterns  with  mass
+spectra of known compounds in the spectral library.
+5. 1.3  Quantification ó Quantification of total organics
+is  based  on  the  comparison  of  the  integrated  total  peak
+area  of  the  sample  peaks  with  the  area  of  the  external
+standard compound, n-C
+16
+H
+34
+.  Total organophosphorus
+content  in  a  sample  is  quantified  by  comparing  the
+sample  signal  integrated  from  the  phosphorus  selective
+detector  with  the  signal  of  the  phosphorus  standard
+compound,  tris  (2-chloroethyl)  phosphate  (TCEP)  or
+tributyl phosphate (TBP).  Specified range of standards
+is measured periodically, and the result is reported with
+blank wafer data.
+5. 2  Method B
+5. 2.1  Desorption  and  GC  Analysis  ó  The  volatile
+organic  contaminants  on  a  wafer  surface  are  desorbed
+thermally  from  the  wafer  surface  in  a  quartz  chamber
+unit and swept into a glass TD tube.  The glass TD tube
+then  is  heated  for  a  set  period  and  a  stream  of  helium
+sweeps the volatile organic contaminants desorbed from
+the   glass   TD   tube   to   a   cold   trap   where   they   are
+preconcentrated.  At the end of this period, the cold trap
+is  heated  rapidly  to  release  the  trapped  organics  to  the
+GC  column  head.    Sample  components  then  are  sepa-
+rated and eluted out of the GC column.  Then, a portion
+goes   to   a   phosphorus   selective   detector   and   the
+remainder  goes  to  a  mass  spectrometer  (MS).    Blank
+wafers are prepared by purging out any surface organic
+contaminants  in  the  heated  quartz  chamber  unit,  while
+helium gas is flowing as a purge gas.
+5. 2.2  Identification  of  Contaminants  ó  Identification
+of  individual  unknown  compounds  is  performed  by
+correspondence  of  retention  time  of  their  peaks  with
+that    of    known    compounds.        Correspondence    of
+retention   time   on   a   single   column   should   not   be
+regarded   as   a   proof   of   identity.      More   precise
+identification   of   individual   unknown   compounds   is
+performed  with  MS  by  matching  their  fragmentation
+patterns with mass spectra of known compounds in the
+spectral library.
+5. 2.3  Quantification ó Quantification of total organics
+is  based  on  the  comparison  of  the  integrated  total  peak
+area  of  the  sample  peaks  with  the  area  of  the  external
+standard compound, n-C
+16
+H
+34
+.  Total organophosphorus
+content  in  a  sample  is  quantified  by  comparing  the
+sample  signal  integrated  from  a  phosphorus  selective
+detector  with  the  signal  of  the  phosphorus  standard
+compound,  tris  (2-chloroethyl)  phosphate  (TCEP)  or
+tributyl phosphate (TBP).  Specified range of standards
+is measured periodically, and the result is reported with
+blank wafer data.
+6  Apparatus
+6. 1  Method A
+6. 1.1  GC  Instrument  ó  Utilizes  a  capillary  column  to
+separate  a  wide  variety  of  organic  compounds  coupled
+to a mass spectrometer (MS), or a phosphorus selective
+detector,  or  both.    Examples  of  phosphorus  selective
+detectors  are  flame  photometric  detector  (FPD),  and
+
+
+SEMI MF1982-1103 © SEMI 2003 3
+atomic       emission       detector       (AED).              The
+nitrogen/phosphorus    thermionic    ionization    detector
+(NPD)     also     responds     to     nitrogen     containing
+compounds.
+NOTE     1:          A     nitrogen/phosphorus     thermionic     ionization
+detector  (NPD)  may  also  be  used  as  a  phosphorus  selective
+detector.    This  type  of  detector  also  responds  to  nitrogen
+containing   compounds.      If   an   NPD   is   used,   the   total
+organophosphorus reported should exclude any signals due to
+nitrogen  containing  compounds.    Often,  identification  from
+the mass spectra can be used to determine whether compound
+contains nitrogen or phosphorus, or both.
+6. 1.2  Sample  Thermal  Desorption  Tubes  ó  Stainless-
+steel  tubes  packed  with  adsorbent  medium,  are  used  to
+trap  compounds  of  interest  and  release  them  onto  a
+thermal desorption unit.
+NOTE  2:    Note  that  stainless  steel  is  catalytically  active  and
+can    corrode    with    time,    affecting    recovery    for    some
+compounds.  In this case, deactivated stainless steel, glass, or
+quartz  tubes  also  can  be  used.    Several  adsorbent  materials
+can  be  used  for  trapping  organic  compounds  desorbed  from
+silicon  wafer  samples.    Some  examples  are  activated  carbon,
+graphitized    carbon,    and    poly    (2,6-diphenyl-p-phenylene
+oxide).
+6. 1.3  Thermal   Desorption   Unit   ó   Used   to   desorb
+organics  from  sample  thermal  desorption  tubes.    The
+thermal desorption unit is coupled to the GC instrument
+via a heated transfer line, for example, heated to 225∞C
+or above.
+6. 1.4  Thermal   Annealer   ó   Or   a   high   temperature
+furnace  used  to  obtain  a  blank  wafer  (see  Section
+7. 1.1.2 ).
+6. 1.5  Temperature    Controllable    Wafer    Desorption
+Oven ó Used to hold and heat a wafer desorption tube.
+6. 1.6  Wafer  Desorption  Tube  ó  Stainless-steel  tube
+with  an  approximate  dimension:  12.7  mm  (0.5  in.)  in
+outer  diameter,  9.53  mm  (0.375  in.)  in  inner  diameter
+and  254  mm  (10  in.)  in  length  (see  Figure  1),  used  to
+desorb organics from cleaved wafers.  Larger tubes may
+be  used  for  larger  wafer  sizes  and  to  increase  the
+sensitivity of the test (see Note 2).
+6. 1.7  Analytical Balance
+6. 1.8  Quartz Plate and Carbide-Tipped Scribe — Used
+to cleave wafer samples.
+6. 1.9  Quick Connect ó Used to connect a nitrogen line
+to the wafer desorption tube.
+6. 2  Method B
+6. 2.1  GC  Instrument  ó  Utilizes  a  capillary  column  to
+separate a wide variety of organic compounds, coupled
+to  a  mass  spectrometer  (MS)  or  a  phosphorus  selective
+detector,  or  both.    Examples  of  phosphorus  selective
+detectors are flame photometric detector (FPD), atomic
+emission    detector    (AED),    or    nitrogen/phosphorus
+thermionic     ionization     detector     (NPD).          The
+nitrogen/phosphorus    thermionic    ionization    detector
+(NPD) also responds to nitrogen containing compounds
+(see Note 1).
+6. 2.2  Quartz Chamber Unit ó Used to desorb organic
+contaminants  from  the  wafer  surface  and  transfer  them
+to a glass TD tube (see Figure 2).
+6. 2.3  Quartz  Chamber  —  May  be  used  also  to  purge
+out any organic contaminants from a blank wafer.
+6. 2.4  Glass   TD   Tube   —   Packed   with   adsorbent
+medium used to trap compounds of interest and release
+them onto a cold trap.  Several adsorbent materials can
+be used for trapping organic compounds desorbed from
+silicon  wafer  samples.    Some  examples  are  activated
+carbon,  graphitized  carbon,  and  poly  (2,6-diphenyl-p-
+phenylene oxide).
+6. 2.5  Cold   Trap   ó   Used   to   concentrate   organics
+desorbed from glass TD tube and release the organics to
+a GC instrument by rapid heating.
+7  Procedure
+7. 1  Method A
+7. 1.1  Sample Handling and Preparation
+7. 1.1.1  At all times, avoid manual handling of samples
+for analysis to prevent any secondary contamination of
+samples.      Use   stainless   steel   tweezers   for   sample
+preparation.    Use  a  propane  torch  to  flame  stainless
+steel  tweezers,  weigh  boats,  and  other  accessories  that
+come  into  direct  contact  with  the  sample  before  their
+usage.
+7. 1.1.2    Thermally  debsorb  any  organics  from  blank
+wafers in a rapid thermal annealer or a high temperature
+furnace.    In  order  to  desorb  any  organics  from  blank
+wafers,  the  temperature  of  a  rapid  thermal  annealer  is
+kept  at  900∞C  for  15  s,  or  the  temperature  of  a  high
+temperature   furnace   is   kept   at   700∞C   for   30   min.
+Heating  under  air  or  oxygen  will  make  a  consistent
+organic-free  SiO
+2
+surface.    Place  the  thermally  treated
+blank  wafers  directly  into  petri  dishes  and  wrap  the
+dishes with organic-free aluminum foil.
+7. 1.2  Wafer Desorption
+7. 1.2.1          Clean     and     precondition     sample     thermal
+desorption  tubes  in  accordance  with  ASTM  Practice
+D 6196 prior to attaching to the wafer desorption tube.
+7. 1.2.2  Turn on the temperature controller for the wafer
+desorption  oven  and  wait  for  the  temperature  to  reach
+275∞C.
+
+
+SEMI MF1982-1103 © SEMI 2003 4
+7. 1.2.3  Cleave the wafer sample into strips about 5 to 7
+mm  wide  by  scribing  a  line  on  the  wafer  where  one
+wants  it  to  break  and  then  placing  it  on  a  straight  wire
+and  breaking  it  along  the  scribed  line.    The  portion  of
+the  wafer  sample  needed  for  the  analysis  changes  with
+the  size  of  the  wafer.    For  a  100-mm  wafer,  about  half
+of  its  surface  area  is  needed.    Larger  samples  (having
+larger   surface   area)   may   be   used   to   increase   the
+sensitivity of the test.
+7. 1.2.4    Place  the  wafer  strips  of  wafer  into  the  wafer
+desorption  tube.    Attach  a  sample  thermal  desorption
+tube  to  the  side  of  the  wafer  desorption  tube.    Connect
+the other end of the wafer desorption tube to a nitrogen
+line with a flow of 15 to 100 mL/min.
+7. 1.2.5  Place the wafer desorption tube in the oven and
+heat  it  for  30  min  at  275∞C.    This  allows  the  volatile
+organics  to  be  thermally  desorbed  from  the  sample
+wafer  and  transferred  to  the  sample  thermal  desorption
+tube.
+7. 1.2.6  Seal both ends of the sample thermal desorption
+tube into the thermal desorption unit or by using caps if
+the thermal desorption-GC system is automated.  Tubes
+must  not  be  left  open  and  exposed  to  the  laboratory
+atmosphere.  The end caps should be made of a material
+that  has  low  outgassing  and  low  reactivity  properties,
+such  as  poly  tetrafluoroethylene  (PTFE),  or  stainless
+steel.
+7. 1.2.7    Analyze  a  blank  wafer  at  least  daily.    Use  a
+blank wafer treated with the same desorption procedure
+just described.  Report blank data with the sample data.
+7. 1.3  GC Analysis
+7. 1.3.1      Place   the   sample   thermal   desorption   tube,
+which contains organic contaminants desorbed from the
+wafer,  onto  the  thermal  desorption  unit.    Enter  the
+sample information into the computer, and start the GC
+analysis.
+7. 1.3.2  Flow the helium carrier gas through the sample
+thermal   desorption   tube   during   primary   desorption.
+Heat the sample thermal desorption tube and sweep out
+the  target  organics  contained  in  the  sample  to  a  cold
+trap     where     they     are     preconcentrated.          Two
+recommended    conditions    for    heating    the    sample
+desorption  tube  are  as  follows.    When  graphitized
+carbon  is  used  as  adsorbent  material,  heat  the  tube  to
+400∞C and hold at 400∞C for 15 min.  When poly (2,6-
+diphenyl-p-phenylene   oxide)   is   used   as   adsorbent
+material,  heat  the  tube  to  270∞C  and  hold  at  270∞C  for
+15  min.    Cold  trap  parameters,  that  is,  sorbent,  sold
+temperature, etc., should be selected such that all target
+analytes  are  retained  quantitatively  throughout  the  tube
+desorption  process,  for  example,  using  a  cold  trap
+temperature of −30∞C.  Refer to ASTM Practice D 6196
+for   a   method   for   testing   desorption   efficiency   and
+analyte  recovery.    At  the  end  of  this  period,  heat  the
+cold trap rapidly to 300∞C to release the target organics
+to the GC column head.
+NOTE  3:    For  higher  sensitivity  analysis,  larger  sample  sizes
+can be used, but clogging by water is possible.  In this case, a
+subambient  cold  trap  with  an  adsorbent  may  be  used  and
+maintained higher than 0∞C during trapping to prevent freeze-
+up of trap.
+7. 1.3.3    Separate  volatile  organics  desorbed  from  the
+sample   thermal   desorption   tube   by   an   appropriate
+column   temperature   program.      Two   recommended
+temperature   programs   are   as   follows.      For   high
+resolution  analysis,  using  polydimethylsiloxane-coated
+column (60 m by 0.25 mm by 0.25ñμm film thickness),
+heat the column from 40 to 280∞C at a rate of 10∞C/min
+and  hold  the  temperature  at  280  ∞C  for  16  min.    For
+rapid    analysis,    using    polydimethylsiloxane-coated
+column (25 m by 0.32 mm by 0.52ñμm film thickness),
+heat   the   column   from   30   to   265∞C   at   a   rate   of
+12. 5∞C/min  and  hold  the  temperature  at  265∞C  for  16
+min.
+7. 1.3.4  Use n-Hexadecane, n-C
+16
+H
+34
+(C
+16
+), as a standard
+for  total  organic  analysis  4
+.    Use  tris  (2-chloroethyl)
+phosphate,    (ClCH
+2
+CH
+2
+O)
+3
+PO    (TCEP)    or    tributyl
+phosphate,   (C
+4
+H
+9
+O)
+3
+PO   (TBP),   as   a   standard   for
+organophosphorus  analysis  (see  Section  6.1.1  ).    These
+standards  are  introduced  into  the  GC  system  from  a
+precleaned sample thermal desorption tube.  Two-point
+calibration  method  is  recommended  for  checking  the
+instrument  performance.    Recommended  standards  are
+two  different  concentrations  of  n-C
+16
+H
+34
+(C
+16
+)  for  total
+organic  analysis;  and,  two  different  concentrations  of
+tris    (2-chloroethyl)    phosphate    (TCEP)    for    total
+organophosphorus  analysis.    Recommended  frequency
+of these measurements is at least once a week.
+NOTE  4:    AED  and  FID  are  recommended  for  accurate  total
+carbon quantification.
+7. 1.4  Quantification
+7. 1.4.1  Obtain  each  area below  for  the  calculation  of
+total   organic   contaminants.      Obtain   total   organic
+contaminants  of  the  sample  wafer  (A
+s
+)  by  summing  up
+all  the  peak  areas  integrated  from  GC-AED,  FID,  or
+MS  chromatogram  of  the  sample  wafer.    Obtain  total
+area of the blank wafer (A
+b
+) by summing up all the peak
+areas    integrated    from    GC-AED,    FID,    or    MS
+chromatogram  of  the  blank  wafer.    Obtain  the  area  of
+the  standard  peak  (A
+c
+)  integrated  from  GC-AED,  FID,
+or MS chromatogram of the standard sample.
+7. 1.4.2  Obtain  each  area below  for  the  calculation  of
+total  organophosphorus  (TP).    Obtain  total  area  of
+phosphorus  compounds  of  the  sample  wafer  (A
+s
+)  by
+
+
+SEMI MF1982-1103 © SEMI 2003 5
+summing  up  all  the  peak  areas  integrated  from  GC-
+(phosphorus  selective  detector)  chromatogram  of  the
+sample wafer.  Obtain total area of the blank wafer (A
+b
+)
+by  summing  up  all  the  peak  areas  integrated  from  GC-
+(phosphorus  selective  detector)  chromatogram  of  the
+blank wafer.  Obtain the area of the standard peak (A
+p
+)
+integrated   from   GC-(phosphorus   selective   detector)
+chromatogram of the standard sample.
+7. 1.4.3  Before starting analysis, weigh and get the total
+weight  of  each  sample  wafer  to  be  tested,  and  also  the
+weight of unused part of each wafer.  These weights are
+used  for  the  calculation  of  total  organic  contaminants
+and total organophosphorus (TP).
+7. 2  Method B
+7. 2.1  Sample Handling and Preparation
+7. 2.1.1  At all times, avoid manual handling of samples
+for analysis to prevent any secondary contamination of
+samples.      Use   stainless   steel   tweezers   for   sample
+preparation.    Use  a  propane  torch  to  flame  stainless
+steel  tweezers  and  other  accessories  that  come  into
+direct contact with the sample before their usage.
+7. 2.1.2      Thermally   desorb   any   organics   from   blank
+wafers  in  the  quartz  chamber  unit.    Recommended
+conditions  for  preparing  blank  wafers  are  to  heat  them
+for  30  min  in  the  quartz  chamber  kept  at  700∞C.
+Usually, helium is used as purge gas.  Heating under air
+or  oxygen  will  make  a  consistent  organic-free  SiO
+2
+
+surface.
+7. 2.2  Wafer Desorption
+7. 2.2.1    Enter  the  analytical  information  into  the  quarts
+chamber unit, cold trap and GC.  Wait for the system to
+be  stabilized.    Place  the  sample  wafer  into  the    quartz
+chamber  unit  and  start  it.    Supply  helium  gas  into  the
+quartz   chamber   and   heat   the   chamber   from   initial
+temperature (40∞C or lower) to 400∞C at a rate of 10 to
+30∞C/min, and hold the temperature for 15 min.  Sweep
+out  the  volatiles  contained  in  the  sample  to  a  glass  TD
+tube where they are adsorbed.
+7. 2.2.2    Analyze  a  blank  wafer  at  least  daily.    Report
+blank data with the sample data.
+7. 2.3  GC Analysis
+7. 2.3.1  Heat the glass TD tube and sweep out the target
+organics adsorbed in the tube to a cold trap where they
+are preconcentrated.  Two recommended conditions for
+heating the glass TD tube are as follows:
+• When   graphitized   carbon   is   used   as   adsorbent
+material, heat the tube to 400∞C and hold at 400∞C
+for 15 min.
+• When   poly   (2,6-diphenyl-p-phenylene   oxide)   is
+used  as  adsorbent  material,  heat  the  tube  to  270∞C
+and hold for 15 min.
+7. 2.3.2    Select  cold  trap  parameters,  that  is,  sorbent,
+cold  temperature,  etc.,  such  that  all  target  analytes  are
+quantitatively  retained  throughout  the  tube  desorption
+process,  for  example  using  a  cold  trap  temperature  of
+ñ130∞C.  Refer to ASTM Practice D 6196 for a method
+for  testing  desorption  efficiency  and  analyte  recovery.
+At  the  end  of  this  period,  heat  the  cold  trap  rapidly  to
+300∞C  to  release  the  target  organics  to  the  GC  column
+head.
+7. 2.3.3    Separate  volatile  organics  desorbed  from  the
+glass  TD  tube  by  an  appropriate  column  temperature
+program.  Two recommended temperature programs are
+as    follows.        For    high    resolution    analysis,    use
+polydimethylsiloxane coated column (60 m by 0.25 mm
+by 0.25-μm film thickness), heat the column from 40 to
+280∞C at a rate of 10∞C/min and hold the temperature at
+280∞C    for    16    min.        For    rapid    analysis,    use
+polydimethylsiloxane coated column (25 m by 0.32 mm
+by 0.52-μm film thickness), heat the column from 30 to
+265∞C at a rate of 12.5∞C/min and hold the temperature
+at 265∞C for 16 min.
+7. 2.3.4  Use n-Hexadecane, n-C
+16
+H
+34
+(C
+16
+), as a standard
+for  total  organic  analysis  (see  Note  4).    Use  tris  (2ñ
+chloroethyl)  phosphate,  (ClCH
+2
+CH
+2
+O)
+3
+PO  (TCEP)  or
+tributyl  phosphate,  (C
+4
+H
+9
+O)
+3
+PO  (TBP),  as  a  standard
+for   organophosphorus   analysis   (see   Section   6.1.1).
+These  standards  are  introduced  into  the  GC  system
+from  a  precleaned  wafer.    A  two-point  calibration
+method  is  recommended  for  checking  the  instrument
+performance.        Recommended    standards    are    two
+different   concentrations   of   n-C
+16
+H
+34
+(C
+16
+)   for   total
+organic  analysis;  and  two  different  concentrations  of
+tris    (2-chloroethyl)    phosphate    (TCEP)    for    total
+organophosphorus  analysis.    Recommended  frequency
+of these measurements is at least once a week.
+7. 2.4  Quantification
+7. 2.4.1  Obtain  each  area below  for  the  calculation  of
+total organic contaminants.  Obtain total area of organic
+contaminants  of  the  sample  wafer  (A
+s
+)  by  summing  up
+all  the  peak  areas  integrated  from  GC-AED,  FID,  or
+MS  chromatogram  of  the  sample  wafer.    Obtain  total
+area of the blank wafer (A
+b
+) by summing up all the peak
+areas    integrated    from    GC-AED,    FID,    or    MS
+chromatogram  of  the  blank  wafer.    Obtain  the  area  of
+the  standard  peak  (A
+c
+)  integrated  from  GC-AED,  FID,
+or MS chromatogram of the standard sample.
+7. 2.4.2  Obtain  each  area below  for  the  calculation  of
+total  organophosphorus  (TP).    Obtain  total  area  of
+phosphorus  compounds  of  the  sample  wafer  (A
+s
+)  by
+summing  up  all  the  peak  areas  integrated  from  GC-
+
+
+SEMI MF1982-1103 © SEMI 2003 6
+(phosphorus  selective  detector)  chromatogram  of  the
+sample wafer.  Obtain total area of the blank wafer (A
+b
+)
+by  summing  up  all  the  peak  areas  integrated  from  GC-
+(phosphorus  selective  detector)  chromatogram  of  the
+blank wafer.  Obtain the area of the standard peak (A
+p
+)
+integrated   from   GC-(phosphorus   selective   detector)
+chromatogram of the standard sample.
+8  Calculation
+8. 1  Method A
+8. 1.1  Calculation of Total Organic Contaminants
+8. 1.1.1  When AED or FID is used:
+16
+1
+1002. 6
+10
+23
+9
+×
+×
+×××
+×
+×
+−
+=
+−
+FSMW
+W
+A
+AA
+TC
+wc
+c
+c
+bs
+(1)
+where:
+TC    =  total organic carbon, C atoms/cm
+2
+,
+A
+s
+=   total   area   integrated   from   GC-AED   or   FID
+chromatogram  of  the  sample  wafer  for  carbon
+compounds,
+A
+b
+=   total   area   integrated   from   GC-AED   or   FID
+chromatogram of the blank wafer,
+A
+c
+=   total   area   integrated   from   GC-AED   or   FID
+chromatogram of the standard peak,
+W
+c
+=  weight  of  C
+16
+standard  injected  onto  the  stan-
+dard tube, ng,
+MW
+c
+=  molecular weight of n-C
+16
+H
+34
+= 226.45,
+S
+w
+=  total area of the wafer sample, cm
+2
+,
+F      =
+conversion factor = (W
+T
+− W
+U
+)/W
+T
+,
+W
+T
+=  total weight of the wafer, g, and
+W
+U
+=  weight of unused part of the wafer, g.
+NOTE 5:  In   this   calculation,   blank   subtraction   (−A
+b
+)   is
+optional.
+8. 1.1.2  When MS is used:
+
+FS
+W
+A
+AA
+TO
+w
+c
+c
+bs
+×
+××
+−
+=
+1
+(2)
+where:
+TO    =    total  organic  contaminants,  ng  C
+16
+(n-C
+16
+H
+34
+)
+equivalent/cm
+2
+,
+A
+s
+=    total  area  integrated  from  GC-MS  chromato-
+gram of the sample wafer,
+A
+b
+=    total  area  integrated  from  GC-MS  chromato-
+gram of the blank wafer,
+A
+c
+=      total   area   integrated   from   GC-MS   chroma-
+togram of the standard peak,
+W
+c
+=        weight    of    C
+16
+standard  injected  onto  the  stan-
+dard tube, ng,
+S
+w
+=  total area of the wafer sample, cm
+2
+,
+F      =
+conversion factor = (W
+T
+− W
+U
+)/W
+T
+,
+W
+T
+=  total weight of wafer, g, and
+W
+U
+=  weight of unused part of the wafer, g.
+See Note 5.
+NOTE 6:  Recommended  mass  range  to  be  scanned  is  33  to
+700 amu.
+8. 1.2  Calculation of Total Organophosphorus (TP):
+
+FSMW
+W
+A
+AA
+TP
+wp
+p
+p
+bs
+×
+×××
+×
+×
+−
+=
+−
+1
+1002. 6
+10
+23
+9
+(3)
+where:
+TP    =  total organophosphorus, P atoms/cm
+2
+,
+A
+s
+=   total   area   integrated   from   GC-(phosphorus
+selective detector) chromatogram of the sample
+wafer for phosphorus compounds only,
+A
+b
+=   total   area   integrated   from   GC-(phosphorus
+selective  detector)  chromatogram  of  the  blan
+k
+wafer,
+A
+p
+=   total   area   integrated   from   GC-(phosphorus
+selective    detector)    chromatogram    of    the
+standard peak,
+W
+p
+=  weight  of  phosphorus  standard  (TCEP  or  TBP)
+injected onto the standard tube, ng,
+MW
+p
+=    molecular    weight    of    phosphorus    standard
+(TCEP = 285.49, or TBP = 266.3),
+S
+W
+=  total area of the wafer sample, cm
+2
+,
+F      =
+conversion factor = (W
+T
+− W
+U
+)/W
+T,
+
+W
+T
+=  total weight of the wafer, g, and
+W
+U
+=  weight of unused part of the wafer, g.
+See Note 5.
+8. 2  Method B
+8. 2.1  Calculation of Total Organic Contaminants
+8. 2.1.1  When AED or FID is used:
+
+16
+1
+1002. 6
+10
+23
+9
+××××
+×
+×
+−
+=
+−
+wc
+c
+c
+bs
+SMW
+W
+A
+AA
+TC
+(4)
+where:
+TC    =  total organic carbon, C atoms/cm
+2
+,
+A
+s
+=  total  area  integrated  from  GC-AED  or  FID,
+chromatogram  of  the  sample  wafer  for  carbon
+compounds,
+A
+b
+=  total  area  integrated  from  GC-AED  or  FID
+chromatogram of the blank wafer,
+A
+c
+=  total  area  integrated  from  GC-AED  or  FID
+chromatogram of the standard peak,
+W
+c
+=   weight   of   C
+16
+standard   injected   onto   the
+standard wafer, ng,
+MW
+c
+=  molecular weight of n-C
+16
+H
+34
+= 226.45,
+S
+w
+=  one side area of the wafer sample, cm
+2
+.
+See Note 5.
+8. 2.1.2  When MS is used:
+
+
+SEMI MF1982-1103 © SEMI 2003 7
+
+w
+c
+c
+bs
+S
+W
+A
+AA
+TO
+1
+××
+−
+=
+(5)
+where:
+TO    =    total  organic  contaminants,  ng  C
+16
+(n-C
+16
+H
+34
+)
+equivalent/cm
+2
+,
+A
+s
+=    total  area  integrated  from  GC-MS  chromato-
+gram of the sample wafer,
+A
+b
+=    total  area  integrated  from  GC-MS  chromato-
+gram of the blank wafer,
+A
+c
+=    total  area  integrated  from  GC-MS  chromato-
+gram of the standard peak,
+W
+c
+=    weight  of  C
+16
+standard  injected  onto  the  wafer,
+ng,
+S
+w
+=  one side area of the wafer sample, cm
+2
+.
+See Notes 5 and 6.
+8. 2.2  Calculation of Total Organophosphorus (TP):
+
+wp
+p
+p
+bs
+SMW
+W
+A
+AA
+TP
+1
+1002. 6
+10
+23
+9
+×××
+×
+×
+−
+=
+−
+(6)
+where:
+TP    =  total organophosphorus, P atoms/cm
+2
+,
+A
+s
+=      total   area   integrated   from   GC-(phosphorus
+selective detector) chromatogram of the sample
+wafer for phosphorus compounds only,
+A
+b
+=      total   area   integrated   from   GC-(phosphorus
+selective  detector)  chromatogram  of  the  blan
+k
+wafer,
+A
+p
+=      total   area   integrated   from   GC-(phosphorus
+selective    detector)    chromatogram    of    the
+standard peak,
+W
+p
+=    weight  of  phosphorus  standard  (TCEP  or  TBP)
+injected onto the wafer, ng,
+MW
+p
+=        molecular    weight    of    phosphorus    standard
+(TCEP = 285.49 or TBP = 266.3),
+S
+W
+=  area of one surface of the wafer sample, cm
+2
+.
+See Note 5.
+9  Report
+9. 1  Report the following information:
+9. 1.1        Sample    identification,    sample    size,    sample
+history  including  how  received  or  packaged  if  it  has
+been  shipped,  side  of  wafer  desorbed  (front,  back,  or
+both).    (Shipping  often  can  add  or  remove  organic
+compounds).    If  the  wafer  is  a  witness  wafer,  report
+how    prepared    and    exposure    conditions,    location
+whether horizontal or vertical, time, flow, etc.
+9. 1.2  Analysis date, analysis method, wafer desorption
+time and temperature, purge gas used.
+9. 1.3  Manufacturer, types, and models of instruments.
+9. 1.4  Identification of operator.
+9. 1.5  Testing laboratory.
+9. 1.6  Software version of instrument.
+9. 1.7  Analysis results.
+9. 1.7.1        Total    organic    contaminants,    C    atoms/cm
+2
+
+(when  AED  or  FID  is  used),  or  ng  C
+16
+(n-C
+16
+H
+34
+)
+equivalent/cm
+2
+(when MS is used).
+9. 1.7.2  Total organophosphorus, P atoms/cm
+2
+.
+9. 1.8    Blank  wafer  data.    The  blank  wafer  should  be
+treated   with   the   same   desorption   procedure   as   the
+sample wafers.
+9. 1.9  Calibration data.
+10  Precision and Bias
+10. 1  Precision ó  The  precision  of  these  test  methods
+can  be  determined  from  the  reproducibility  measure-
+ment of standards.  The accuracy of these test methods
+can be measured from the recoveries of standards.
+10. 2  Bias ó  Bias  for  these  test  methods  has  not  been
+determined.
+11  Keywords
+11. 1  atomic emission detector (AED); flame ionization
+detector  (FID);  flame  photometric  detector  (FPD);  gas
+chromatography;        mass        spectrometer        (MS);
+nitrogen/phosphorus    thermionic    ionization    detector
+(NPD);    organic    contamination;    organophosphorus
+compounds;   phosphorus   selective   detector;   silicon
+wafer surfaces; thermal desorption
+
+
+SEMI MF1982-1103 © SEMI 2003 8
+
+# 1
+
+1. Sample thermal desorption tube
+
+# 2
+
+2.     Fitting
+
+# 3
+
+3.     Wafer desorption oven
+
+# 4
+
+4.     Quick connect male end
+
+# 5
+
+5.     Quick connect female end
+Figure 1
+Schematic of Wafer Desorption Setup
+
+
+1.          Quartz     chamber
+2.          Silicon     wafer
+3.          Fitting
+4.          Fitting
+5.          Fitting
+Figure 2
+Schematic of Quartz Chamber
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+nitrogen
+gas
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF2074-1103 © SEMI 2003 1
+SEMI MF2074-1103
+GUIDE FOR MEASURING DIAMETER OF SILICON AND OTHER
+SEMICONDUCTOR WAFERS
+This   standard   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   September   3,   2003.      Initially   available   at
+www.semi.org October 2003; to be published November 2003.  Originally published by ASTM International
+as ASTM F 2074-00.  Last previous edition ASTM F 2074-00.
+1  Purpose
+1. 1      The   diameter   of   semiconductor   wafers   is   an
+important   parameter   in   microelectronic   fabrication.
+Wafer diameters must conform to the limits specified in
+SEMI  M1;  or  other  agreed  upon  limits,  or  product  that
+is  otherwise  suitable  may  not  fit  correctly  in  process
+equipment.
+1. 2      Cam-follower   edge   rounding   usually   results   in
+wafers  that  are  circular.    However,  wafers  ground  with
+edge-follower    edge    rounding    equipment    may    be
+elliptically  shaped.    Measurements  made  at  the  three
+positions   specified   in   this   guide   do   not   provide
+complete information about the roundness of the wafer.
+2  Scope
+2. 1      This   guide   defines   standardized   positions   for
+measuring  diameter  of  circular  wafers  of  silicon  and
+other  semiconducting  materials  that  contain  flats  or
+notches  (fiducials)  on  the  periphery.    It  was  developed
+for  use  with  silicon  wafers  with  standard  diameter  and
+fiducial positions as given in SEMI M1.
+2. 2  It may be applied to other semiconductor wafers if
+the flat locations are properly taken into account.
+2. 3    No  recommendations  are  given  regarding  the  test
+instrumentation to be used, but either contacting (taking
+suitable  precautions  to  avoid  edge  chipping)  or  non-
+contacting  gauges  have  been  found  to  be  satisfactory.
+Wafers  of  any  size  can  be  measured  provided  that
+suitable test jigs and instruments are available.
+2. 4    Roundness  of  wafers  cannot  be  determined  from
+measurements  made  solely  at  the  positions  defined  in
+this  guide.    No  information  is  provided  concerning  the
+diameter   of   the   wafer   at   points   other   than   those
+measured.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1    The  presence  of  an  indent  or  uneven  edge  on  the
+periphery of the wafer at the measurement position can
+cause the resulting diameter measurement to be in error.
+3. 2    If  the  wafer  is  not  circular,  the  measured  diameter
+may  differ  from  that  found  by  measuring  at  different
+positions  or  based  on  a  different  number  of  measure-
+ments.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI      M1      —      Specifications      for      Polished
+Monocrystalline Silicon Wafers
+SEMI  M20  —  Specification  for  Establishing  a  Wafer
+Coordinate System
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions
+5. 1.1  diameter — of a semiconductor wafer,  the  linear
+dimension  across  the  surface  of  a  circular  wafer  that
+contains  the  wafer  center  and  excludes  flats  or  other
+peripheral fiduciary geometries.
+5. 1.2  indent — of  a  semiconductor  wafer,  an  edge
+defect  that  extends  from  the  front  surface  to  the  back
+surface.
+6  Measurement Positions
+6. 1  Measure the diameter at the three positions listed in
+Table  1  for  the  appropriate  fiducial  position(s)  (see
+Figure 1).  The angular positions in Table 1 are given in
+degrees from the x-axis as defined in SEMI M20.
+6. 2    Calculate  the  diameter  of  the  wafer  as  the  average
+of the diameters measured at the three positions.
+6. 3  The relationships between wafer configurations and
+wafer  conductivity  types  and  orientations  as  defined  in
+SEMI M1 are given in Table 2.
+
+
+SEMI MF2074-1103 © SEMI 2003 2
+7  Keywords
+7. 1  diameter, semiconductor, silicon, wafer
+
+
+Figure 1
+Diameter Measurement Positions by Wafer Fiducials Category
+
+
+SEMI MF2074-1103 © SEMI 2003 3
+Table 1  Positions for Measurement of Wafer Diameter
+Configuration            Primary            Fiducial            Secondary            Flat Diameter 1 Diameter 2 Diameter 3
+1                                270°                                180°                                45°                                135°                                165°
+2                                270°                                none                                0°                                45°                                135°
+3                                270°                                90°                                0°                                45°                                135°
+4                                270°                                225°                                0°                                120°                                150°
+5                                270°                                135°                                0°                                30°                                60°
+
+Table 2  Wafer Types and Orientations Corresponding to Measurement Configuration of Table 1
+Configuration
+Conductivity
+Type
+Orientation                                                                Notes
+1 p [100] Applies only to [100] p-type wafers, 150 mm and smaller, with secondary
+flats
+2 p [111] Applies both to [111] p-type wafers, 150 mm and smaller, (without
+secondary flats) and to all other notched and flatted wafers without secondary
+flats regardless of conductivity type and orientation
+3 n [100] Applies only to [100] n-type wafers, 125 mm and smaller, with secondary
+flats
+4 n [111] Applies only to [111] n-type wafers, 150 mm and smaller, with secondary
+flats
+5 n [100] Applies only to [100] n-type 150 mm wafers with secondary flats
+
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF2139-1103 © SEMI 2003 1
+SEMI MF2139-1103
+TEST METHOD FOR MEASURING NITROGEN CONCENTRATION IN
+SILICON SUBSTRATES BY SECONDARY ION MASS SPECTROMETRY
+This   standard   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the  North  American  Regional  Standards  Committee  on  July  27,  2003.    Initially  available  at  www.semi.org
+October  2003;  to  be  published  November  2003.    Originally  published  by  ASTM  International  as  ASTM
+F 2139-01.  Last previous edition ASTM F 2139-01.
+1  Purpose
+1. 1      Secondary   ion   mass   spectrometry   (SIMS)   can
+measure  in  un-annealed,  polished   Czochralski   (CZ)
+silicon  substrates  the  nitrogen  concentration  that  may
+be  intentionally  introduced  to:  (1)  increase  the  V/G
+tolerance  for  grown-in  defects  free  region,  where  V  is
+the pull rate and G is the crystal temperature gradient at
+the  solid-liquid  interface;
+1
+(2)  increase  the  void-free
+denuded  zone  depth  and  the  bulk  micro-defect  density
+after  annealing  in  hydrogen  or  argon;
+2,3
+(3)  reduce  the
+crystal originated particle (COP) size after annealing;
+2,3
+
+or  (4)  enhance  the  precipitation  of  oxygen  in  epitaxial
+substrates under reduced temperature processing.
+4
+
+1. 2      SIMS   can   measure   total   bulk   nitrogen   in   CZ-
+silicon,  whereas  infrared  spectroscopy  is  negatively
+affected  by  the  chemical  state  in  oxygen-containing
+silicon.
+5
+In  addition,  SIMS  can  measure  the  total  bulk
+nitrogen   in   p
++
+(B)   and   n
++
+(Sb)   substrates   used   for
+epitaxial  silicon,  whereas  infrared  spectroscopy  cannot
+due to free electron absorption interferences.
+1. 3    SIMS  can  measure  in  un-annealed,  polished  Float-
+zoned (FZ) silicon substrates the nitrogen concentration
+
+
+1    Iida,  M.,  Kusaki,  W.,  Tamatsuka,  M.,  Iino,  E.,  Kimura,  M.,  and
+Muraoka,  S.,  “Effects  of  Light  Element  Impurities  on  the  Formation
+Grown-In   Defects   Free   Region   of   Czochralski   Silicon   Single
+Crystal,” in Defects in Silicon III, edited by W. M. Bullis, W. Lin, P.
+Wagner,  T.Abe,  and  S.  Kobayashi,  The  Electrochemical  Society
+Proceedings     Series     PV99-1     (The     Electrochemical     Society,
+Pennington, NJ, 1999) pp. 499-510.
+2    Tamatsuka,  M.,  Kobayashi,  N.,  Tobe,  S.,  and  Masui,  T.,  “High
+Performance Silicon Wafer with Wide Grown-in Void Free Zone and
+High  Density  Internal  Gettering  Site  Achieved  via  Rapid  Crystal
+Growth  with  Nitrogen  Doping  and  High  Temperature  Hydrogen
+and/or Argon Annealing,” ibid., pp.456-467.
+3  Minami, T., Takeda, R., Saito, H., Hirano, Y., Suzuki, O., Nitta, S.
+Kashima,  K.,  and  Matsushita,  Y.,  “Influence  of  Void  Size  on  the
+Formation of Defect Free Regions in Hydrogen Annealed CZ Silicon
+Wafers,”  ECS  Extended  Abstract  No.514,  197th  Meeting  of  the
+Electrochemical  Society,  (The  Electrochemical  Society,  Pennington,
+NJ, 2000).
+4    Shimura,  F.,  and  Hockett,  R.  S.,  “Nitrogen  effect  on  oxygen
+precipitation  in  Czochralski  silicon,”  Appl.  Phys.  Lett.  48,  224-226
+(1986).
+5    Abe,  T.,  Kikuchi,  K.,  Shirai,  S.,  and  Muraoka,  M.,  in  Semicon-
+ductor  Silicon  1981,  edited  by  H.  R.  Huff,  R.  J.  Kriegler  and  Y.
+Takeishi,  (The  Electrochemical  Society,  Pennington,  NJ,  1981)  pp.
+54-71.
+that   may   be   introduced   to   strengthen   low   oxygen
+substrates.
+1. 4  The SIMS method can be used for process check of
+crystal doping, and for research and development.
+2  Scope
+2. 1    This  test  method  covers  the  determination  of  total
+nitrogen  concentration  in  the  bulk  of  single  crystal
+substrates   using   secondary   ion   mass   spectrometry
+(SIMS).
+6,7
+
+2. 2    This  test  method  can  be  used  for  silicon  in  which
+the  dopant  concentrations  are  less  than  0.2%  (1  ×  10
+20
+
+atoms/cm
+3
+)     for     boron,     antimony,     arsenic,     and
+phosphorus.
+2. 3    This  test  method  is  for  bulk  analysis  where  the
+nitrogen concentration is constant with depth.
+2. 4    This  test  method  can  be  used  for  silicon  in  which
+the  nitrogen  content  is  1  ×  10
+14
+atoms/cm
+3
+or  greater.
+The   detection   capability   depends   upon   the   SIMS
+instrumental  nitrogen  background  and  the  precision  of
+the measurement.
+2. 5    This  test  method  is  complementary  to  infrared
+spectroscopy,  electron  paramagnetic  resonance,  deep
+level   transient   spectroscopy,   and   charged   particle
+activation analysis.
+8
+The infrared spectroscopy method
+detects  nitrogen  in  specific  vibrational  states,  rather
+than total nitrogen, and is limited to silicon with doping
+concentrations less than about 1 × 10
+17
+atoms/cm
+3
+.  The
+
+
+6    Hockett,  R.  S.,  Evans,  Jr.,  C.  A.,  and  Chu,  P.  K.,  “The  SIMS
+Measurement   of   Nitrogen   in   Nitrogen-Doped   CZ-Silicon,”   in
+Secondary    Ion    Mass    Spectrometry    SIMS    VI,    edited    by    A.
+Benninghoven, A. M. Huber, and H. W. Huber, (John Wiley & Sons,
+New York, 1988) pp. 441-444.
+7  Hockett, R. S. and Sams, D. B., “The Measurement of Nitrogen in
+Silicon Substrates by SIMS,” in High Purity Silicon VI, edited by C.
+L.  Claeys,  P.  Rai-Choudhury,  M.  Watanabe,  P.  Stallhofer,  and  H.  J.
+Dawson,  ECS  Proceedings  Vol  PV  2000-17  (The  Electrochemical
+Society, Pennington, NJ, 2000) pp. 584-595.
+8    Stein,  Herman  J.,  “Nitrogen  in  Crystalline  Si,”  in  Materials
+Research  Society  Symposia  Proceedings  Vol  59,  Oxygen,  Carbon,
+Hydrogen   and   Nitrogen   in   Crystalline   Silicon,   edited   by   J.   C.
+Mikkelsen,  Jr.,  S.  J.  Pearton,  J.  W.  Corbett,  and  S.  J.  Pennycook,
+(Materials Research Society, Pittsburgh, PA, 1986) pp. 523-535.
+
+
+SEMI MF2139-1103 © SEMI 2003 2
+charged particle activation analysis detection capability
+is limited by an interference from boron.
+NOTICE: This standard does not purport to address the
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1    Nitrogen  on  or  in  the  surface  silicon  oxide  can
+interfere with the bulk nitrogen measurement.
+3. 2    Nitrogen  adsorbed  on  the  test  specimen  surface
+from   the   SIMS   instrument   chamber   and   fixtures
+interfere with the bulk nitrogen measurement by raising
+the  background  signal.    The  vacuum  quality  of  the
+SIMS instrument can be used to minimize this.
+3. 3    Nitrogen  in  the  SIMS  primary  Cs  beam  may  be
+implanted into the silicon specimen as CsN and thereby
+increase  the  nitrogen  background  concentration.    A
+primary  beam  mass  filter  may  be  used  to  reduce  this
+interference, but in this case, a reduced Cs beam current
+density is needed to maximize the sputter rate.
+3. 4    Anomalous  nitrogen  intensity  spikes  can  interfere
+with the averaging of signal intensity which is assumed
+to be random (see Section 6.9).
+3. 5    Carbon  introduces  an  interference  as
+12
+C
+30
+Si  at
+mass 42 for detecting nitrogen as
+14
+N
+28
+Si.  This can be
+avoided by detecting the nitrogen as
+14
+N
+29
+Si at mass 43,
+but  the  signal  rate  is  reduced  greatly,  about  a  factor  of
+20 when the minor isotope of silicon is used.  There are
+methods   to   measure   the   carbon   interference,   and
+subtract  this  interference.    One  of  the  methods  to
+measure   the   carbon   interference   can   have   its   own
+interference from high levels of boron dopant.
+3. 6  The specimen surface must be flat in the specimen
+holder  window  so  that  the  inclination  of  the  specimen
+surface  with  respect  to  the  ion  collection  optics  is
+constant  from  specimen  to  specimen.    Otherwise,  the
+accuracy and precision can be degraded.
+3. 7      The   bias   and   precision   of   the   measurement
+significantly  degrade  as  the  roughness  of  the  specimen
+surface  increases.    This  degradation  can  be  avoided  by
+using chemical-mechanical polished wafers.
+3. 8    Variability  of  nitrogen  in  the  calibration  specimen
+can limit the measurement precision.
+3. 9    Variability  from  the  calibration  measurement  may
+increase    the    measurement    precision    of    the    test
+specimen.
+3. 10  Bias in the assigned nitrogen concentration of the
+calibration  specimen  can  introduce  bias  into  the  SIMS
+measured nitrogen.
+3. 11    Thermal  processing  above  800°C  of  the  silicon
+substrate  may  cause  diffusion  of  the  nitrogen,  so  that
+the nitrogen concentration is not constant with depth, a
+key assumption of this test method.
+3. 12    Thermal  processing  of  the  silicon  substrates  in  a
+nitrogen-containing    ambient    can    introduce    large
+amounts  of  nitrogen  from  the  ambient  deep  into  the
+silicon crystal.
+6
+
+4  Referenced Standards
+4. 1  ASTM Standards
+9
+
+E  122  —  Practice  for  Calculating  Sample  Size  to  Esti-
+mate, with a Specified Tolerable Error, the Average for
+a Characteristic of a Lot or Process
+E 673 — Terminology Relating to Surface Analysis
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions —  all  terms  in  this  test  method  are  in
+accordance  with  those  given  in  ASTM  Terminology
+E 673.
+6  Summary of Test Method
+6. 1          SIMS     is     utilized     to     determine     the     bulk
+concentration   of   nitrogen   in   single   crystal   silicon
+substrate.    Specimens  of  single  crystal  silicon  (one
+calibration specimen and the test specimens) are loaded
+into a sample holder.  The holder with the specimens is
+baked  at  100°C  in  air  for  1  h  and  then  transferred  into
+the analysis chamber of the SIMS instrument.
+6. 2    The  calibration  sample  is  analyzed  using  a  cesium
+(Cs) primary ion beam and negative ion spectrometry of
+
+14
+N
+28
+Si, or
+15
+N
+28
+Si, depending upon the nitrogen isotope
+in   the   calibration   sample,   to   determine   a   relative
+sensitivity factor (RSF) of nitrogen in silicon.
+6. 3      Each   test   specimen   in   the   sample   holder   is
+sputtered  by  the  primary  cesium  ion  beam,  without
+analyzing  secondary  ion  intensities,  in  order  to  reduce
+the nitrogen background.  The amount of time required
+for   this   pre-analysis   sputtering   depends   upon   the
+instrumentation  and  the  desired  background  nitrogen
+concentration.
+
+
+9  Available from ASTM International, 100 Barr Harbor Drive, West
+Conshohoken,  PA  19428-2959,  USA.    Telephone:  610.832.9585,
+Fax:  610.832-9555,  Web  site:    www.astm.org
+.    ASTM  E  122  is
+published in Volume 14.02 of Annual Book of ASTM Standards while
+ASTM E 673 is published in Volume 3.06.
+
+
+SEMI MF2139-1103 © SEMI 2003 3
+
+NOTE: Top curve (!) Mass 30 (
+30
+Si); middle curve (!)
+Mass 42 (
+14
+N
+28
+Si), bottom curve (") Mass 40 (
+12
+C
+28
+Si)
+Figure 1
+SIMS Signals in Nitrogen-Doped Silicon, Log Scale
+
+6. 4    For  the  analysis  of  the  test  specimens,  a  cesium
+primary   ion   beam   is   used   to   bombard   each   test
+specimen at two different sputter rates, by reducing the
+beam raster area for the second sputter rate, while at the
+same  time  maintaining  a  constant  detected  area.    This
+beam  raster  change  technique  is  used  for  two  reasons.
+Firstly,  this  technique  reduces  the  background  nitrogen
+contribution  from  the  sample  surface.    Secondly,  this
+technique    allows    the    determination    of    both    the
+instrumental  nitrogen  background  and  the  real  bulk
+nitrogen     concentration     in     each     test     specimen
+measurement   without   the   use   of   a   separate   blank
+specimen, and due to averaging is capable of separating
+the bulk nitrogen from the instrumental nitrogen even if
+the   bulk   nitrogen   is   less   than   the   instrumental
+nitrogen.
+10
+
+6. 5  The two sputter rates, and the amount of time they
+are   applied   in   each   measurement,   are   chosen   to
+optimize the detection capability; the values depend on
+the  instrumentation  being  used.    However,  the  second
+sputter rate is typically the maximum sputter rate of the
+instrumentation,  and  the  first  sputter  rate  is  typically
+less than half that of the second sputter rate.
+6. 6    The  negative  secondary  ion  of
+14
+N
+28
+Si  is  mass
+analyzed  by  a  mass  spectrometer,  and  detected  by  an
+electron  multiplier  (EM)  or  equivalent  high-sensitivity
+ion detector as a function of time.  The matrix negative
+secondary  ion  count  for  silicon  (
+28
+Si,
+29
+Si,
+30
+Si,  or  a
+
+
+10    Ishitani,  A.,  Okuno,  K.,  Karen,  A.,  Karen,  S.  and  Soeda,  F.,
+“Improvement  of  Oxygen  Detection  Limit  in  Silicon  by  Use  of  the
+Secondary  Ion  Energy  Distribution  and  Background  Subtraction,”  in
+Proceedings   of   the   International   Conference   of   Materials   and
+Process Characterization for VLSI, 1988 (ICMPC'88), edited by X-F
+Zong, Y-Y Wang, and J. Chen, (World Scientific, New Jersey, 1988)
+pp. 124-129.
+dimer such as
+30
+Si
+2
+) is measured by a Faraday cup (FC)
+or  appropriate  detector  during  the  profile.    If  multiple
+detectors    are    used    during    the    test,    the    relative
+sensitivities    of    the    detectors    are    determined    by
+measuring   standard   ion   signals   (either   the   same
+negative  secondary  ion  count  rate  or  ion  count  rates  of
+known  relative  intensity  such  as  natural
+28
+Si/
+30
+Si)  on
+each  detector.    Additional  negative  secondary  ions  of
+
+11
+B
+28
+Si,
+12
+C,  and
+12
+C
+28
+Si  may  also  be  detected  depen-
+ding  upon  the  boron  and  carbon  concentration  in  the
+test specimen.
+6. 7  For illustration purposes an example data profile is
+shown  in  Figure  1  where  the  log  of  counts  of
+12
+C
+28
+Si,
+14
+N,
+28
+Si,  and
+30
+Si  is  plotted  versus  sputter  time.    At
+about 200 s, the Cs beam raster area was changed from
+250 μm × 250 μm down to 50 μm × 50 μm, resulting in
+an  increase  in  signal  intensities,  because  the  volume  of
+material  analyzed  per  second  has  increased.    At  about
+350 s, the Cs beam raster area was reversed back to the
+first  condition,  and  the  signal  intensities  are  seen  to  be
+reduced  back  to  the  original  levels.    Since  the  surface
+analysis area was kept constant during the raster change
+(that  is,  the  actual  surface  area  detected  is  independent
+of  the  raster  area),  the  signal  intensities  have  two
+separate   contributions,   one   from   elements   that   are
+adsorbed  to  the  surface  and  one  from  elements  in  the
+volume  of  material  analyzed  each  second.    There  is
+some nitrogen (and carbon in this case) that is adsorbed
+to the surface from the local environment outside of the
+silicon, and there is some nitrogen that is from the bulk
+silicon.  A key point is that if there is no nitrogen in the
+bulk  silicon,  the  nitrogen  signal  intensity  does  not
+change as a result of the change in sputter rate, because
+the  adsorbed  nitrogen  (that  is,  instrumental  nitrogen
+signal)  is  only  dependent  on  the  analysis  area,  which
+has been held constant.  This understanding leads to the
+following equations:
+
+][][NNRSF
+I
+I
+b
+si
+n
++=×                       (1)
+
+][][NNRSF
+I
+I
+B
+SI
+N
++=×                      (2)
+
+RSF
+I
+I
+N
+si
+B
+b
+×=][                            (3)
+
+RSF
+I
+I
+N
+SI
+B
+B
+×=][                           (4)
+where:
+I
+n
+= secondary  ion  intensity  of
+14
+N
+28
+Si  under  the
+higher sputter rate conditions,
+I
+N
+= secondary  ion  intensity  of
+14
+N
+28
+Si  under  the
+lower sputter rate conditions,
+
+
+SEMI MF2139-1103 © SEMI 2003 4
+[N
+b
+]   =   contribution   of   background   nitrogen   to   the
+observed   nitrogen   concentration   under   the
+higher sputter rate conditions,
+[N
+B
+]   =   contribution   of   background   nitrogen   to   the
+observed   nitrogen   concentration   under   the
+lower sputter rate conditions,
+I
+B
+=   secondary   ion   intensity   from   the   adsorbed
+background  nitrogen  under  both  sputter  rate
+conditions,
+I
+si
+=  secondary  ion  intensity  of  the  silicon  matrix
+(e.g.,
+30
+Si)   under   the   higher   sputter   rate
+conditions,
+I
+SI
+=  secondary  ion  intensity  of  the  silicon  matrix
+(e.g.,
+30
+Si)    under    the    lower    sputter    rate
+conditions,
+RSF =  relative  sensitivity  factor  for  converting  the  ion
+intensity ratio to concentration, and
+[N]   =
+bulk    nitrogen    concentration    in    the    test
+specimen.
+6. 8  Equations (1) through (4) can be used to determine
+[N] and [N
+b
+] from measured data as follows:
+
+)/(1
+)/(1
+][
+siSI
+nN
+si
+n
+II
+II
+I
+I
+RSFN
+−
+−
+××=
+(5)
+
+][][N
+I
+I
+RSFN
+si
+n
+b
+−×=                       (6)
+In  these  equations,  the  secondary  ion  intensities  used
+are averages of these signal intensities.  In the example
+shown  in  Figure  1,  the  lower  sputter  rate  was  used  at
+the beginning of the profile, and the higher sputter rate
+in the middle of the profile.  For this example, [N] was
+determined  to  be  8  ×  10
+14
+/cm
+3
+and  [N
+b
+]  was  2  ×
+10
+14
+/cm
+3
+.      The   use   of   averages   for   I
+n
+and   I
+N
+is
+particularly critical for detecting low levels of nitrogen
+where  the  signal  intensity  count  rates  can  be  low  and
+therefore  noisy.    By  using  averages,  it  is  possible  to
+detect an [N] level that is less than [N
+b
+] in the analysis.
+6. 9    The  SIMS  measurement  of  nitrogen  in  bulk-doped
+silicon  sometimes  reveals  anomalous  intensity  spikes
+that  are  greater  than  a  random  fluctuation  of  signal
+intensity,  even  in  silicon  that  has  not  been  thermally
+processed  beyond  crystal  growth.
+6,7
+These  nitrogen
+intensity   spikes   are   not   well   understood,   but   are
+suspected   to   be   associated   with   oxygen   defects,
+possibly  a  co-aggregation  of  nitrogen  and  oxygen  in  a
+precipitate  form.    Similar  SIMS  effects  have  been  well
+known   for   oxygen   and   even   carbon   in   thermally-
+processed  silicon.
+11
+Figure  2  shows  an  expanded  view
+of  the  carbon  and  nitrogen  data  taken  from  Figure  1.
+
+
+11  Hockett, R. S., Fraundorf, P. B., Reed, D. A., and Wayne, D. R.,
+“Oxygen and Carbon Defect Characterization in Silicon by SIMS,” in
+Oxygen,  Carbon,  Hydrogen  and  Nitrogen  in  Crystalline  Silicon,
+edited  by  J.  C.  Mikkelsen,  Jr.,  S.  J.  Pearton,  J.  W.  Corbett,  and  S.  J.
+Pennycook,  Materials  Research  Society  Symposia  Proceedings  Vol
+59 (Materials Research Society, Pittsburgh, PA, 1986) pp. 433-438.
+The   vertical   scale   is   linear.      The   unusually   high
+nitrogen  signal  at  about  325  s  may  be  one  of  these
+anomalous intensity spikes.  The presence of such non-
+random  signals,  if  significant,  can  make  the  averaging
+method used here questionable.
+
+NOTE: Top curve (!) Mass 42 (
+14
+N
+28
+Si), bottom curve
+(") Mass 40 (
+12
+C
+28
+Si)
+Figure 2
+SIMS Signals from Nitrogen-Doped Silicon, Linear
+Scale
+
+6. 10    Depending  upon  the  carbon  concentration  in  the
+test  specimen  and  the  level  of  nitrogen,  it  may  be
+necessary  to  correct  the
+14
+N
+28
+Si  signal  for  an  interfer-
+ence  from
+12
+C
+30
+Si.    This  correction  is  done  by  co-
+detecting
+12
+C
+28
+Si   at   mass   40,   and   calculating   the
+contribution  of
+12
+C
+30
+Si  from  isotopic  ratios.    The
+contribution to mass 42 from a carbon-related signal at
+mass  40  is  0.0341  times  the  signal  at  mass  40.    In  the
+example  in  Figure  1,  where  the  actual  carbon  concen-
+tration is about 1.5 × 10
+15
+/cm
+3
+by SIMS calibration, the
+carbon  interference  is  insignificant.    A  carbon  concen-
+tration  of  5  ×  10
+15
+/cm
+3
+(the  detection  limit  of  most
+Fourier  Transform  Infrared  (FITR)  measurements  of
+carbon  in  silicon)  corresponds  to  an  interference  equi-
+valent  to  about  8  ×  10
+13
+/cm
+3
+of  nitrogen.    Thus,  in
+detecting  nitrogen  in  the  low  10
+14
+/cm
+3
+level,  a  co-
+measurement of the carbon interference is critical.
+6. 11    Depending  upon  the  boron  concentration  in  the
+test  specimen,  the  procedure  to  correct  for  the  carbon
+interference  may  need  to  be  modified  by  detecting
+
+11
+B
+28
+Si  at  mass  39,  and  calculating  the  contribution  of
+
+11
+B
+29
+Si  and
+10
+B
+30
+Si at mass 40.  This procedure
+becomes   important   for   test   specimens   with   boron
+concentrations  at  1  ×  10
+17
+/cm
+3
+and  greater.    In  the
+example  in  Figure  1,  the  boron  concentration  is  on  the
+order of 10
+15
+/cm
+3
+and does not interfere.
+
+
+SEMI MF2139-1103 © SEMI 2003 5
+7  Apparatus
+7. 1  SIMS   Instrument   —   Equipped   with   a   cesium
+primary  ion  source,  electron  multiplier  detector,  and
+Faraday  cup  detector,  capable  of  measuring  negative
+secondary   ions.      The   SIMS   instrument   should   be
+adequately prepared (that is, baked) so as to provide the
+lowest   possible   instrumental   background,   since   the
+instrumental   background   can   affect   the   detection
+capability.    High  quality  vacuum  is  desired.    A  liquid
+nitrogen-   or   liquid   helium-cooled   cryopanel,   which
+surrounds   the   test   specimen   holder   in   the   analysis
+chamber, may be helpful.
+7. 2  Test Specimen Holder
+7. 3  Oven — For baking the test specimen holder.
+7. 4  Stylus  Profilometer  —  Or  equivalent  device  to
+measure SIMS crater depths.  This device is required to
+calibrate   depth   scale   for   concentration   profiles   of
+calibration standard samples.
+8  Reagents and Materials
+8. 1    No  reagents  or  materials  are  required  for  this  test
+method.
+9  Safety Precautions
+9. 1    The  preparation  of  silicon  test  specimens  from
+silicon  substrates  requires  the  crystal  to  be  cleaved  or
+broken.      This   procedure   may   generate   very   sharp
+silicon  shards.    Care  must  be  taken  to  protect  the  body
+and particularly the eyes from these shards.
+10  Sampling, Test Specimens, and Test Units
+10. 1  Since  this  procedure is  destructive  in  nature,  a
+sampling   procedure   must   be   used   to   evaluate   the
+characteristics of a group of silicon wafers.  No general
+sampling  procedure  is  included  as  part  of  this  test
+method,   because   the   most   suitable   sampling   plan
+depends   upon   individual   conditions.      For   referee
+purposes,  a  sampling  plan  shall  be  agreed  upon  before
+conducting  the  test.    See  ASTM  Practice  E  122  for
+suggested choices of sampling plans.
+10. 2    The  calibration  or  reference  material  shall  be
+silicon crystal with boron concentration below 2 × 10
+17
+
+atoms/cm
+3
+and  implanted  with  ions  of
+14
+N  or
+15
+N;  an
+ion  implant  of  energy  200  keV  and  dose  of  about  1  ×
+10
+14
+atoms/cm
+2
+is preferred.
+10. 3  Sample specimens must have a chemo-mechanical
+polished surface on the side used for analysis.
+11  Calibration and Standardization
+11. 1  Calculate  the RSF  for  an  element  in  a  matrix
+experimentally  from  the  SIMS  profile  of  a  reference
+material   containing   a   known   areal   density   of   the
+impurity of interest as follows:
+
+)(nISId
+tInD
+RSF
+bi
+m
+−
+=
+(7)
+where:
+D =  a real density of the impurity, atoms/cm
+2
+,
+n =  number of data cycles in the profile,
+I
+m
+=  matrix isotope secondary ion intensity, counts/s,
+d       =       sputtered       depth,       cm,
+SI
+i
+=  sum of the impurity isotope secondary ion
+(counts over the depth of the profile),
+I
+b
+=  constant background intensity of the impurity
+isotope, counts/cycle and
+t =  analysis time for the species of interest, s/cycle.
+11. 2    Calculate  the  calibration  of  concentration  in  the
+SIMS profile as follows:
+
+EM
+FC
+RSF
+I
+I
+C
+m
+i
+i
+××=                        (8)
+where:
+C
+i
+=  impurity atomic concentration, atoms/cm
+3
+,
+I
+i
+=  isotope secondary ion intensity, counts/s,
+I
+m
+=  matrix isotope secondary ion-intensity,
+counts/s,
+RSF =  relative sensitivity factor, atoms/cm
+3
+, and
+EM
+FC
+
+=  ratio of matrix intensities on the Faraday
+cup (FC) to the electron multiplier (EM),
+when two detectors are used.
+11. 3    Complete  the  conversion  of  data  cycles  or  time
+into  depth  by  measuring  the  crater  depth  and  the  total
+time  (or  data  cycles)  of  the  sputtering  that  formed  the
+crater.
+NOTE 1:  The depth scale is assumed to be linear with time or
+data cycles.
+12  Procedure
+12. 1      Cleave   or   break   specimens   from   the   silicon
+substrates in order to fit within the SIMS sample holder.
+Specimens  must  be  handled  under  normal  analytical
+laboratory practices, but no special ambient is required.
+12. 2  Load the specimens into the SIMS sample holder,
+checking  to  see  that  the  specimens  are  flat  against  the
+backs  of  the  windows  and  cover  the  windows  as  much
+as   is   possible.      A   specimen   load   includes   one
+calibration specimen, and one or more test specimens.
+12. 3  Bake the loaded sample holder at 100 ± 10°C for
+a minimum of 1 h in air.
+12. 4    Turn  on  the  instrument  in  accordance  with  the
+manufacturer's instructions.
+
+
+SEMI MF2139-1103 © SEMI 2003 6
+12. 5    If  a  cryopanel  is  used,  fill  the  liquid  nitrogen  or
+helium cold trap.
+12. 6  For the calibration specimen use a cesium primary
+ion  beam  and  detect  the  negative  ion  of
+14
+N
+28
+Si  or
+
+15
+N
+28
+Si,  depending  upon  the  nitrogen  isotope  used  in
+the  ion  implantation;  detect  during  or  at  the  end  of  the
+profile  a  matrix  negative  ion  (
+28
+Si,
+29
+Si,  or
+30
+Si).    After
+the  entire  sample  load  is  analyzed,  measure  the  SIMS
+crater depth in this sample using a profilometer.
+12. 7  Position the specimen holder to sputter a crater in
+a test specimen near the center of the window.  Without
+detecting   secondary   ion   intensities,   begin   a   SIMS
+profile.
+12. 8  Repeat Section 12.7  for each test specimen.
+12. 9    If  the  boron  level  in  the  test  specimen  is  below  1
+× 10
+17
+/cm
+3
+, detect the negative ions of
+12
+C
+28
+Si,
+14
+N
+28
+Si,
+and  a  matrix  signal  (
+28
+Si,
+29
+Si,
+30
+Si,  or
+30
+Si
+2
+).    If  the
+boron  level  is  at  or  above  1  ×  10
+17
+/cm
+3
+,  include  the
+detection of the negative ion of
+11
+B
+28
+Si.
+12. 10  For the analysis of the test specimens, select two
+raster conditions, one to maximize the sputter rate, and
+one   that   provides   a   slower   sputter   rate.      Choose
+apertures  or  other  means  to  maintain  the  analysis  area
+under  raster  change  and  to  keep  the  negative  ion  count
+rates  on  the  electron  multiplier  detector  below  1  ×  10
+5
+
+counts/s for the test specimen.
+12. 11    Position  the  specimen  holder  to  sputter  a  new
+crater near the crater created in Section 12.7 or Section
+12. 8 .  Do not make the second crater in the same crater
+created in Section 12.7 or Section 12.8 .
+12. 12    Center  the  primary  ion  beam  and  begin  a  SIMS
+profile  with  the  raster  area  that  produces  the  lower
+sputter  rate.    Continue  the  profile  until  all  signals
+provide relatively constant intensity for at least 20 data
+points.
+12. 13    Change  the  raster  area  to  maximize  the  signal
+intensity.      Continue   the   profile   under   this   raster
+condition for at least 20 data points.
+12. 14  Reduce   the   raster   area   back   to   the   original
+condition.
+12. 15    If  the  boron  content  is  less  than  1  ×  10
+17
+/cm
+3
+,
+subtract  0.0341  times  the  measured  mass  40  signal
+(counts/s) from the measured mass 42 signal (counts/s)
+to obtain the corrected mass 42 signal corresponding to
+real nitrogen (
+14
+N
+28
+Si).
+NOTE 2:  If mass 40 carbon (
+12
+C
+28
+Si) is defined = 1, mass 42
+(
+12
+C
+30
+Si +
+13
+C
+29
+Si) = 0.0335 + 0.0006 = 0.0341.
+NOTE 3:  A hydride correction should be negligible for H on
+the order of 10
+19
+atoms/cm
+3
+or less.
+12. 16  If the boron concentration is at or greater than 1
+×  10
+17
+/cm
+3
+,  subtract  0.0583  times  the  mass  39  signal
+from  the  carbon  correction  to  correct  for  the  boron
+interference.
+NOTE 4:  The mass 39 boron (
+11
+B
+28
+Si +
+10
+B
+29
+Si) is defined =
+1, and mass 40 (
+11
+B
+29
+Si +
+10
+B
+30
+Si) = 0.0583.
+12. 17    Calculate  the  bulk  nitrogen  concentration  [N]
+and  the  background  nitrogen  concentration  [N
+b
+]  for
+each test specimen using Equations 5 and 6.
+12. 18  Record the specimen identification.
+13  Report
+13. 1  Report the following information:
+13. 2  The instrument used, the operator, and the date of
+the measurements,
+13. 3          Identification     of     the     test     and     calibration
+specimens,
+13. 4  The bulk nitrogen concentration values for the test
+specimens,
+13. 5    The  nitrogen  instrumental  background  concentra-
+tion during the faster sputter rate, and
+13. 6  Whether anomalous nitrogen spikes were present,
+and  if  so,  whether  the  averaging  included  or  excluded
+these spikes.
+14  Precision and Bias
+14. 1    The  precision  of  the  nitrogen  determination  has
+not  yet  been  determined  either  by  pilot  study  or  by
+interlaboratory test.
+14. 2      There   is   no   accepted   reference   material   for
+determining  the  bias  for  the  procedure  in  this  test
+method.  Therefore, no statement on bias can be made.
+15  Keywords
+15. 1        nitrogen    concentration;    secondary    ion    mass
+spectrometry; silicon; SIMS
+
+
+
+SEMI MF2139-1103 © SEMI 2003 7
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF2166-0304 © SEMI 2004 1
+SEMI MF2166-0304
+PRACTICES FOR MONITORING NON-CONTACT DIELECTRIC
+CHARACTERIZATION SYSTEMS THROUGH USE OF SPECIAL
+REFERENCE WAFERS
+This   standard   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   October   16,   2003.      Initially   available   at
+www.semi.org February 2004; to be published March 2004.  Originally published by ASTM International as
+ASTM F 2166-02.  Last previous edition SEMI MF2166-02.
+1  Purpose
+1. 1  Non-contact   dielectric   characterization   systems
+(NCDCS)  that  supply  surface  charge  by  means  of  a
+corona  instead  of  an  electrode  are  frequently  used  to
+determine  the  oxide  characteristics  of  MOS  device
+structures.  These instruments can measure a number of
+characteristic parameters, including:
+1. 1.1  initial surface voltage (V
+surf
+or V
+cpd
+),
+1. 1.2  flatband voltage (V
+fb
+),
+1. 1.3  effective charge (Q
+eff
+),
+1. 1.4  density of interface traps (D
+it
+),
+1. 1.5  mobile charge (Q
+m
+), and
+1. 1.6  electrical dielectric thickness (T
+ox
+).
+1. 2      To   determine   that   the   NCDCS   is   performing
+correctly, it is necessary to test the tester.  This practice
+provides  procedures  for  testing  these  systems  with  the
+use    of    special    reference    wafers    with    specified
+characteristics.
+1. 3    The  procedures  in  these  practices  are  designed  to
+ensure   that   the   NCDCS   being   evaluated   provides
+reliable data for selected device-related parameters.
+1. 4    Flatband  voltage  is  an  important  parameter  in  the
+fabrication  of  MOS  devices.    Its  value  is  dependent  on
+the charge structure within and on the dielectric as well
+as  at  the  silicon-dielectric  (Si-SiO
+2
+)  interface.    These
+charges  consist  of  interface  and  bulk  trapped  and  fixed
+charge,  mobile  charge  distributed  within  the  dielectric,
+and   charge   residing   on   the   top   of   the   dielectric.
+Although   the   total   charge   in   and   on   the   oxide
+determines flatband voltage, the charge near the silicon
+has the greatest effect.
+1. 4.1    Most  device  applications  require  that  the  mobile
+charge   be   minimized   to   provide   stable   threshold
+voltage.        Stability    of    the    charges    at    elevated
+temperatures  is  a  measure  of  mobile  charge  density
+within   the   dielectric.      The   mobile   charge   changes
+location  under  temperature  and  electric  field  stress.
+The  mobile  charge  density  can  be  calculated  from  the
+resulting change in flatband voltage.
+1. 4.2      Equipment   used   to   produce   dielectrics   can
+become  contaminated  in  various  ways.    When  such
+equipment becomes contaminated, it usually introduces
+an increased level of mobile ions into the dielectric.
+1. 4.3  Measuring V
+surf
+or V
+cpd
+,   the   contact   potential
+between   the   probe   and   the   semiconductor,   with   a
+Kelvin    or    Monroe    probe    allows    a    quantitative
+measurement   of   the   charges   associated   with   the
+semiconductor  surface  and  the  dielectric,  independent
+of  top  (contact)  electrode  variations  as  in  MOS  C-V
+measurements.      A   special   reference   wafer   has   the
+mobile ions confined to the top half of the dielectric.  It
+is  therefore  a  good  check  of  the  Kelvin  or  Monroe
+probe, which is most sensitive to charges near the top of
+the dielectric.
+1. 5    The  procedures  in  this  practice  can  be  used  to
+ascertain  that  the  dielectric  characterization  system(s)
+meet quality control requirements.  They can be used as
+a training tool for tester applications.
+1. 6    The  results  obtained  by  these  measurements  can
+also be used to expose and troubleshoot tester problems
+including wafer handling and software issues.
+2  Scope
+2. 1    These  practices  describe  the  use  of  wafers  with
+special    electrical    and    physical    characteristics    for
+controlling and monitoring performance of non-contact
+dielectric    characterization    systems    (NCDCS)    that
+employ  corona.    They  apply  in  general  to  dielectrics
+with  charge  structure  that  can  be  measured  by  the
+characterization    system.        Their    applicability    to
+dielectrics  of  less  than  3-nm  electrical  oxide  thickness
+depends  on  the  capability  of  the  NCDCS.    A  thickness
+correlation  between  the  reference  wafer(s)  and  thin-
+dielectric monitor wafers must be established.
+2. 1.1    The  reference  wafers  must  be  designed  to  check
+the  repeatability  and  functionality  of  all  the  parts  and
+subsystems  of  the  characterization  system.    Thermally
+oxidized  wafers  are  not  sufficient  for  this  purpose
+because  of  parametric  drift  due  to  temperature-bias
+stressing and exposure to the atmosphere.
+
+
+SEMI MF2166-0304 © SEMI 2004 2
+2. 2      Three   methods   are   described   to   cover   various
+experimental  arrangements  (see  Related  Information  1
+for a discussion on the two different types of corona).
+2. 2.1  Method  A  ó  For  systems  that  employ  point
+source corona,
+2. 2.2  Method B ó For systems that employ line source
+corona  and  can  be  programmed  to  obtain  a  full  set  of
+parameters, and
+2. 2.3  Method C ó For systems that employ line source
+corona but can only determine mobile ion density.
+2. 3  For each of the three methods, the total testing time
+can     be     reduced     by     using     a     short-cycle-time
+modification.
+2. 4  Special  reference  wafers  are  used  to  determine
+selected  performance  characteristics  of  these  dielectric
+characterization    systems,    including    initial    surface
+voltage  (V
+surf
+or  V
+cpd
+),  flatband  voltage  (V
+fb
+),  effective
+charge  (Q
+eff
+),  density  of  interface  traps  (D
+it
+),  mobile
+charge (Q
+m
+), and electrical dielectric thickness (T
+ox
+).
+2. 5    The  parameters  determined  relate  to  the  properties
+of the NCDCS subsystems in the following way:
+2. 5.1  V
+fb
+and  Q
+eff
+data  are  used  to  check  the  surface
+photovoltage   (SPV)   probe,   SPV   strobe   and   corona
+biasing  subsystems,  by  monitoring  behavioral  changes
+through    accumulation    and    around    the    flat    band
+condition.
+2. 5.2  D
+it
+data are used to check the same subsystems as
+in  Section  2.5.1  ,  by  monitoring  behavioral  changes
+through the depletion region of the Q
+bias
+vs SPV curve.
+2. 5.3  Q
+m
+data  are  used  to  check  the  temperature-stress
+subsystem,  the  corona  subsystem,  and  the  Kelvin  or
+Monroe probe.
+2. 5.4  T
+ox
+data  are  used  to  check  the  corona  stepping
+and  voltage  bias  and  the  Kelvin  or  Monroe  probe  air-
+gap setting.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1    The  presence  of  light  on  the  wafer  surface  during
+the  measurements  can  affect  the  results  obtained  and
+should    be    controlled    according    to    the    system
+manufacturerís recommendations.
+3. 2  Relative humidity in the measurement environment
+above 60% may affect measurement values.
+3. 3        Stray    electromagnetic    fields    external    to    the
+NCDCS may affect measurement results and should be
+limited    according    to    the    system    manufacturerís
+recommendations.
+3. 4  Wafer handling should be done in accordance with
+accepted    clean    room    practices,    because    surface
+contamination can affect the measurement results.
+3. 5      Change   in   the   characteristics   of   the   special
+reference wafers due to handling and other effects may
+affect   measurement   results.      The   special   reference
+wafers must be checked at least once every six months,
+to assure consistent performance.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  M20  ó  Specification  for  Establishing  a  Wafer
+Coordinate System
+SEMI MF1241 ó Terminology of Silicon Technology
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1    General  terms  related  to  testing  of  semiconductor
+materials may be found in SEMI MF1241.
+5. 2  Definitions
+5. 2.1  accumulation   condition   —   the   region   of   the
+capacitance-voltage   (C-V)   curve   for   which   a   5-V
+increment  toward  a  more  negative  voltage  for  p-type
+material,  or  toward  a  more    positive  voltage  for  n-type
+material,  results  in  a  change  of  less  than  1%  in  the
+maximum capacitance, C
+max
+.
+5. 2.2  bias   temperature   stress,   (BTS)   —   a   voltage
+applied  to  the  top  surface  of  a  dielectric  on  a  wafer
+whose temperature is maintained at a defined level for a
+specified time.
+5. 2.3  contact    potential    difference,    (V
+cpd
+)    —    the
+potential  measured  by  a  Kelvin  or  Monroe  probe  that
+results   from   the   potential   difference   between   two
+metals or between a semiconductor and a metal, due to
+their  difference  in  work  function. Also  called  surface
+voltage (V
+surf
+); see Section 5.2.16 .
+5. 2.4  corona  temperature  stress,  (CTS)  —  a  BTS  in
+which bias voltage is supplied by a corona discharge of
+known charge and voltage applied to the top surface of
+a dielectric on a wafer whose temperature is maintained
+at a defined level for a specified time.
+5. 2.5  density  of  interface  traps,  (D
+it
+)  —  the  calculated
+interface  charge  per  unit  area  that  accounts  for  the
+difference   in   gradient   between   the   measured   and
+
+
+SEMI MF2166-0304 © SEMI 2004 3
+theoretical Q
+bias
+vs.  SPV  curve  or  equivalent  ìQ-Qî
+plot, in the band gap region.
+5. 2.6  depletion condition — the condition that exists in
+the semiconductor surface region when  the free carrier
+density  is  insufficient  to  neutralize  the  fixed  dopant
+charge density of donors and acceptors.
+5. 2.7  dielectric (oxide) electrical thickness, (T
+ox
+) — the
+silicon  dioxide  equivalent  thickness  (when  the  silicon
+dioxide  dielectric  constant  is  assumed)  calculated  from
+electrical measurement of Q
+bias
+vs V
+surf
+(or V
+cpd
+) for the
+capacitor.
+5. 2.8  effective charge, (Q
+eff
+) — the oxide charge/cm
+2
+in
+the capacitor that gives the measured flatband voltage.
+5. 2.9  flatband   condition   —   the   point   at   which   an
+external  applied  voltage  causes  there  to  be  no  internal
+potential difference across the MOS structure.
+5. 2.9.1  Discussion  —  In  the  flatband  condition,  the
+SPV is zero.
+5. 2.10  flatband  voltage,  (V
+fb
+)  —-  the  applied  voltage
+necessary to produce the flatband condition.
+5. 2.11  inversion  condition  —  the  condition  in  which  a
+minority  carrier  layer  is  formed  at  the  semiconductor
+surface separated from the bulk by a depletion region.
+5. 2.12  Kelvin   probe   —   a   reference   electrode   that
+vibrates   perpendicular   to   the   wafer   surface   and
+generates  an  AC  signal  by  varying  the  electrode-wafer
+capacitance.
+5. 2.13  mobile  charge  density,  (Q
+m
+)  —  the  calculated
+charge/cm
+2
+that  moves  in  the  oxide  under  temperature
+and  electrical  field  stress,  creating  shifts  in  SPV,  V
+fb
+,
+and V
+cpd
+(or V
+surf
+).
+5. 2.14  Monroe  probe  —  a  reference  electrode  that  is
+stationary and generates an AC signal by the horizontal
+vibration  of  a  grounded  fork  which  shields  the  probe
+from the wafer.
+5. 2.15  surface  photovoltage,  (SPV)  ó  the  change  of
+the  electrostatic  potential  of  the  silicon  surface  caused
+by illumination.
+5. 2.16  surface voltage, (V
+surf
+) — the potential measured
+by  the  Kelvin  or  Monroe  probe  that  results  from  the
+potential  difference  between  two  metals  or  between  a
+semiconductor  and  a  metal,  due  to  their  difference  in
+work function.  Also called contact potential difference
+(V
+cpd
+); see Section 5.2.3 .
+6  Summary of Practices
+6. 1  Method A
+6. 1.1      A   special   reference   wafer   is   loaded   into   the
+NCDCS.
+6. 1.2    A  series  of  tests,  which  must  include  CTS,  is
+executed  to  position  mobile  ions  into  a  consistent  pre-
+test  condition.    All  CTS  times  must  be  at  least  4
+minutes to allow full movement of the mobile ions.
+6. 1.3      Three   additional   identical   test   sequences   are
+executed  to  collect  data  to  evaluate  performance  of  the
+instrument.
+NOTE  1:    The  bias,  temperature  and  time  used  for  the  last
+CTS prior to carrying out the above tests should be employed
+for these test sequences.
+6. 1.4  Performance   of   the   NCDCS   and   its   selected
+components  is  checked  by  measuring  the  following
+characteristics:  initial  surface  voltage  (V
+surf
+),  flatband
+voltage (V
+fb
+), effective charge (Q
+eff
+), density of interface
+traps (D
+it
+), mobile charge (Q
+m
+), and electrical dielectric
+thickness (T
+ox
+).
+6. 1.5    Measurements  are  made  at  three  points  on  the
+surface  of  the  wafer  and  the  mean,  standard  deviation
+and relative standard deviation of the results obtained in
+the   three   identical   sequences   (Section   6.1.3   )   are
+computed and recorded.
+6. 1.6      The   results   are   compared   with   the   values
+supplied with the special reference wafer to evaluate the
+NCDCS performance.
+6. 1.7    If  it  is  desired  to  check  the  system  over  its  full
+range of operation, this procedure is repeated using two
+or   more   additional   special   reference   wafers   with
+parameters  that  cover  the  typical  parameter  ranges  in
+Section 7.4 .
+6. 1.8  Short-cycle  Time  Modification  of  Method  A  ó
+The  short-cycle  time  modification  is  performed  in  the
+same  manner  except  that  the  measurement  of  Q
+m
+is
+carried out first, in order to assure consistent alignment
+of  the  mobile  ions  prior  to  the  other  measurements.
+The Q
+m
+measurement  is  followed  by  the  measurement
+of the other parameters.  No repetitions are required; the
+test sequence in this modification is only run once.
+6. 2  Method B
+6. 2.1    First  any  remaining  residual  charge  on  a  special
+reference  wafer  is  neutralized  by  immersing  it  in  DI
+water.
+6. 2.2    Then  the  special  reference  wafer  is  loaded  into
+the  NSCDS  and  the  surface  voltage  (contact  potential
+difference) is zeroed to within ± 0.3 V.
+6. 2.3  Then the steps in Sections 6.1.2 ñ6.1.4 and 6.1.6
+are followed.
+6. 2.4    If  it  is  desired  to  check  the  system  over  its  full
+range of operation, this procedure is repeated using two
+or   more   additional   special   reference   wafers   with
+
+
+SEMI MF2166-0304 © SEMI 2004 4
+parameters  that  cover  the  typical  parameter  ranges  in
+Section 7.4 .
+6. 2.5  Short-cycle  Time  Modification  of  Method  B  ó
+The  short-cycle  time  modification  is  performed  in  the
+same  manner  except  that  the  measurement  of  Q
+m
+is
+carried out first, in order to assure consistent alignment
+of  the  mobile  ions  prior  to  the  other  measurements.
+The Q
+m
+measurement  is  followed  by  the  measurement
+of the other parameters.  No repetitions are required; the
+test sequence in this modification is only run once.
+6. 3  Method C
+6. 3.1      The   steps   in   Sections   6.2.1   and   6.2.2   are
+followed.
+6. 3.2    Then  a  dummy  mobile  ion  run  is  performed  to
+position   the   mobile   ions   into   a   consistent   pre-test
+condition.
+6. 3.3    Then  three  additional  mobile  ion  runs  are  made
+and   the   average,   standard   deviation,   and   relative
+standard   deviation   of   the   mobile   ion   density   are
+determined.
+6. 3.4    The  results  are  compared  with  the  mobile  ion
+density data supplied with the special reference wafer to
+evaluate the system performance.
+6. 3.5    If  it  is  desired  to  check  the  system  over  its  full
+range of operation, this procedure is repeated using two
+or   more   additional   special   reference   wafers   with
+parameters  that  cover  the  typical  parameter  ranges  in
+Section 7.4 .
+6. 3.6  Short-cycle  Time  Modification of  Method  C  ó
+The  short-cycle  time  modification  is  performed  in  the
+same  manner  except  that  the  first  CTS  time  is  4  min
+and  the  second  is  8  min.    Only  a  single  mobile  ion  run
+is carried out.
+7  Special Reference Wafers
+7. 1  Fabricate the special reference wafers (SRW) from
+p-type silicon with a multi-layer dielectric including an
+embedded  layer  of  mobile  ions  confined  to  the  top
+portion of the dielectric.  These mobile ions drift during
+temperature-bias  stressing.    Since  the  drift  occurs  only
+in  the  top  of  the  dielectric,  the  Kelvin  (Monroe)  probe
+easily  senses  a  shift  in  V
+surf
+(V
+cpd
+)  for  the  mobile  ion
+concentration calculation.  Confining the mobile ions to
+the top of the dielectric also ensures that measurements
+associated  with  the  silicon-dielectric  interface  are  left
+unchanged after the mobile ion test.
+7. 2    Limit  the  thickness  of  the  dielectric  on  the  special
+reference  wafers  to  between  30  and  70  nm,  to  provide
+sufficient  distance  for  the  mobile  ions  to  drift  while
+remaining clear of the interface.
+7. 3    Ensure  the  dielectric  is  rugged  enough  so  that
+repeated use, for example, once a day for six months, of
+the  same  test  sites  does  not  result  in  shifts  in  electrical
+parameters.
+7. 3.1  Check parameter drift every 6 months.  Parameter
+drift  over  time  should  be  less  than  10%  in  six  months.
+If drift exceeds this value, replace the special reference
+wafers.
+7. 3.2          Test     wafers     must     be     re-calibrated     and
+documented semi-annually by testing the wafers on two
+documented  NCDCSs  that  have  been  maintained  using
+this  Practice.    The  results  must  match  within  10%.    If
+the   results   exceed   this   value,   replace   the   special
+reference wafers.
+7. 4  Test Parameter Ranges ó p-type special reference
+wafers  should  have  parameters  appropriate  for  the  test
+application.    Parameters  in  the  following  ranges  cover
+all anticipated applications of the SRWs.
+7. 4.1 V
+fb = −0.1 to −5.0 V,
+7. 4.2 Q
+eff = 0.5 to 10 × 10
+11
+charge/cm
+2
+,
+7. 4.3 Qm = 0.7 to 20 × 10
+10
+charge/cm
+2
+,
+7. 4.4 Dit = 0.5 to 50 × 10
+11
+charge/cm
+2
+, and
+7. 4.5 T
+ox = 30 to 200 nm.
+7. 5  Supporting Data
+7. 5.1  Data collected using the appropriate method shall
+be supplied with each special reference wafer.
+7. 5.2  Provide appropriate reference data for each wafer
+on a data sheet similar to that in Figure 1 (Methods A or
+B) or Figure 2 (Method C).
+7. 5.3    These  values  are  the  targets  against  which  the
+system is evaluated.
+7. 6    To  determine  the  suitability  of  the  system  over  its
+range  of  operation,  select  a  set  of  at  least  three  special
+reference  wafers  with  values  of  each  parameter  that
+span the ranges given in Section 7.4 .
+8  Calibration Data Sheet
+8. 1    A  test  plan  shall  be  agreed  upon  among  all  parties
+to   the   test.      Data   shall   be   recorded   on   a   Test
+Certification  Sheet  similar  to  that  supplied  with  the
+special   reference   wafers.      Examples   are   shown   in
+Figures 1 and 2.
+9  Procedure
+9. 1    Observe  and  record  the  temperature  and  relative
+humidity of the room where the testing is taking place.
+9. 2  Method  A  ó  for  NCDCDs  that  employ  a  point
+source corona:
+9. 2.1  Place a special reference wafer in the NCDCS.
+
+
+SEMI MF2166-0304 © SEMI 2004 5
+9. 2.2    Program  the  NCDCS  to  measure  the  following
+parameters  of  p-type  wafers:  initial  V
+surf
+, T
+ox
+, Q
+eff
+, V
+fb
+,
+D
+it
+, and Q
+m
+.
+9. 2.2.1      Program   the   CTS   portion   of   the   Q
+m
+mea-
+surement to run for at least 4 min at a temperature from
+170 to 200°C.
+9. 2.3      Align   the   point   probe   over   position   A,   then
+execute  a  dummy  measurement  to  stabilize  the  mobile
+ions.  Repeat this procedure at two other locations.  An
+example  would  be  the  locations  (0,0;  −40,40;  and  40,
+−40),  where  the  x  and  y  locations  are  expressed  in
+millimeters,   relative   to   the   wafer   center,   using   a
+Cartesian  wafer  coordinate  system  as  defined  in  SEMI
+M20.  (See Figure R1-1.)
+9. 2.4          Execute     three     additional,     identical     runs.
+Determine  and  record  the  parameters  listed  in  Section
+9. 2.2 .
+9. 2.5      Calculate   and   record   the   average,   standard
+deviation, and % standard deviation for each parameter
+measured  at  each  location  in  runs  2  through  4.    Enter
+the data on a data sheet such as the example in Figure 1.
+9. 2.6    To  check  the  NCDCS  over  its  full  range  of
+operation,  repeat  Sections  9.2.1  ñ9.2.5  using  at  least
+two  additional  special  reference  wafers  with  parameter
+values that span the typical parameter ranges in Section
+7. 4 .
+9. 3  Method A, Short-cycle Modification
+9. 3.1  Execute the procedure in Section 9.2.1 .
+9. 3.2    Next,  execure  the  procedure  in  Section  9.2.2  ,
+except   program   the   NCDCS   to   measure   Q
+m
+first,
+followed by the other listed measurements.
+9. 3.2.1    Run  the  CTS  portion  of  the  measurements  for
+at least 4 minutes at a temperature from 170ñ200°C.
+9. 3.3  Then, execute the procedure in Section 9.2.3 .
+9. 3.4  Enter the data on a data sheet such as the example
+in Figure 1.  Use the ìMeanî columns, leaving the ìStd
+Devî and ì% Std Devî columns blank.
+9. 4  Method  B  ó  for  NCDCSs  that  employ  a  line
+source  corona  and  can  be  programmed  to  obtain  a  full
+set of parameters:
+9. 4.1  Rinse a special reference wafer in a DI water bath
+for  10  min  then  dry  for  10  min  to  naturalize  any
+residual charge.
+9. 4.2  Place the special reference wafer in the NCDCS.
+9. 4.3  Measure the voltage on the wafer surface (V
+cpd
+).
+9. 4.4    Zero  the  voltage  on  the  wafer  (V
+cpd
+should  be
+between −0.3 V and +0.3 V).  Use positive or negative
+corona   sweeps   as   appropriate   to   erase   the   wafer
+voltage.    Re-measure  and  record  the  voltage  on  the
+wafer surface to verify it has been adjusted to zero.
+NOTE  2:    To  determine  the  voltage  change  for  one  corona
+sweep,  measure  the  voltage  on  the  wafer.    Then  sweep  the
+wafer  with  one  positive  sweep.    Re-measure  the  voltage  on
+the  wafer.    The  difference  in  voltage  on  the  wafer  is  the
+voltage change per corona sweep.
+9. 4.5    Program  the  NCDCS  to  measure  the  following
+parameters of p-type wafers: T
+ox,
+Q
+eff,
+V
+fb,
+D
+it,
+and Q
+m
+.
+9. 4.5.1      Program   the   CTS   portion   of   the   Q
+m
+mea-
+surement to run for at least 4 min at a temperature from
+170 to 200°C.
+9. 4.6    Choose  three  test  locations  such  as  (0,0;  −40,40;
+and   40,−40).      Execute   a   dummy   measurement   to
+stabilize the mobile ions.
+9. 4.7          Execute     three     additional,     identical     runs.
+Determine  and  record  the  parameters  listed  in  Section
+9. 4.5 .
+9. 4.8      Calculate   and   record   the   average,   standard
+deviation, and % standard deviation for each parameter
+measured  at  each  location  in  runs  2  through  4.    Enter
+the data on a data sheet such as the example in Figure 1.
+9. 4.9    To  check  the  NCDCS  over  its  full  range  of
+operation, repeat Sections 9.3.1ñ9.3.7 using at least two
+additional   special   reference   wafers   with   parameter
+values that span the typical parameter ranges in Section
+7. 4 .
+9. 5  Method B, Short-cycle Modification
+9. 5.1  Execute the procedures in Sections 9.2.1 ñ9.4.4 .
+9. 5.2  Next, execute the the procedure in Section 9.4.5 ,
+except   program   the   NCDCS   to   measure   Q
+m
+first,
+followed by the other listed measurements.
+9. 5.2.1  Run the CTS portion of the measurement for at
+least 4 minutes at a temperature from 170ñ200°C.
+9. 5.3  Execute the procedure in Section 9.4.6 .
+9. 5.4  Enter the data on a data sheet such as the example
+in Figure 1.  Use the ìMeanî columns, leaving the ìStd
+Devî and ì% Std Devî columns blank.
+9. 6  Method  C  —  for  NCDCSs  that  employ  a  line
+source   corona   but   can   only   determine   mobile   ion
+density.
+9. 6.1  Execute the procedures in Sections 9.4.1 through
+9. 4.4 .
+9. 6.2  Perform four mobile ion runs as follows:
+
+
+SEMI MF2166-0304 © SEMI 2004 6
+9. 6.2.1  Run (ñ) Corona sweeps to place −1.2 V on the
+special  reference  wafer  while  measurements  are  being
+taken. (Note 2)
+9. 6.2.2    Run  (ñ)  CTS  (2  min  at  170ñ200∞C)  on  the
+special  reference  wafer  while  measurements  are  being
+taken.
+9. 6.2.3  Run (+) Corona sweeps to place +2.4 V on the
+special  reference  wafer  while  measurements  are  being
+taken.
+9. 6.2.4    Run  (+)  CTS  (4  min  at  170ñ200∞  C)  on  the
+special  reference  wafer  while  measurements  are  being
+taken.
+9. 6.2.5  Calculate mobile ion density (Q
+m
+).
+9. 6.2.6  Zero the voltage on the special reference wafer
+using the method outlined in Section 9.4.4 .
+9. 6.3    Using  the  data  from  runs  2  through  4,  calculate
+and report on a data sheet such as the example in Figure
+2   the   average,   standard   deviation,   minimum,   and
+maximum   for   each   parameter   tested.      Record   the
+following:
+• (+) Corona,
+• (+) CTS,
+• (ñ) Corona,
+• (ñ) CTS,
+• Corona Voltage/Sweep, and
+• mobile charge density (Q
+m
+).
+9. 6.4    To  check  the  NCDCS  over  its  full  range  of
+operation,  repeat  Sections  9.6.1  ñ9.6.3  using  at  least
+two  additional  special  reference  wafers  with  parameter
+values that span the typical parameter ranges in Section
+7. 4 .
+9. 7  Method C, Short-cycle Modification:
+9. 7.1  Carry out the procedures in Sections 9.4.1 ñ9.4.4
+.
+9. 7.2  Perform one mobile ion run as follows:
+9. 7.2.1  Run (ñ) Corona sweeps to place −1.2 V on the
+special  reference  wafer  while  measurements  are  being
+taken. (Note 2)
+9. 7.2.2    Run  (ñ)  CTS  (4  min  at  170ñ200∞C)  on  the
+special  reference  wafer  while  measurements  are  being
+taken.
+9. 7.2.3  Run (+) Corona sweeps to place +2.4 V on the
+special  reference  wafer  while  measurements  are  being
+taken.
+9. 7.2.4    Run  (+)  CTS  (8  min  at  170ñ200∞  C)  on  the
+special  reference  wafer  while  measurements  are  being
+taken.
+9. 7.2.5  Calculate mobile ion density (Q
+m
+).
+9. 7.2.6  Zero the voltage on the special reference wafer
+using the method outlined in Section 9.4.4 .
+9. 7.3    Report  the  data  listed  in  Section  9.6.3  in  the
+ìMeanî  column  of  a  data  sheet  such  as  the  example  in
+Figure  2.    Ignore  the  columns  labeled  ìStd  Dev,î
+ìMinimum,î and ìMaximum.î
+10  Interpretation
+10. 1        Regardless    of    method    used,    compare    the
+measured  results  with  the  target  values  supplied  with
+the special reference wafer(s).
+10. 2  Record as ìIn toleranceî/ìNo repair requiredî any
+NCDCS for which the results of all measured values are
+within 10% of the target values.
+10. 3    Record  as  ìOut  of  toleranceî/ìRepair  requiredî
+any NCDCS for which any measured value differs from
+the   target   value   by   more   than   10%.      Repair   or
+recalibrate  the  system  before  returning  it  to  production
+use.
+11  Report
+11. 1    Report  the  following  information  for  each  test
+carried  out  in  accordance  with  Method  A  or  Method  B
+(see Figure 1 for an example data sheet that contains all
+the information to be reported):
+11. 1.1    Tester  identification,  including  supplier,  model
+number, corona method, and software Rev number,
+11. 1.2  Date of test,
+11. 1.3  Test operator identification,
+11. 1.4    Temperature  and  relative  humidity  of  the  test
+room,
+11. 1.5    Characteristics  of  the  special  reference  wafer
+used in the test, including serial number,
+11. 1.6  Three-run   average,   standard   deviation,   and
+relative  standard  deviation  for  each  parameter  value  in
+the list below across all locations,
+11. 1.6.1    Initial  value  of  surface  voltage,  V
+surf
+(or  V
+cpd
+),
+V,
+11. 1.6.2  Dielectric thickness, T
+ox
+, nm,
+11. 1.6.3  Flatband voltage, V
+fb
+, V,
+11. 1.6.4  Effective charge, Q
+eff,
+ions/cm
+2
+,
+11. 1.6.5  Density of traps, D
+it
+, ions/cm
+2
+, and
+
+
+SEMI MF2166-0304 © SEMI 2004 7
+11. 1.6.6  Mobile ion density, Q
+m
+, ions/cm
+2
+.
+11. 2    Report  the  following  information  for  each  test
+carried out in accordance with Method C (see Figure 2
+for   an   example   data   sheet   that   contains   all   the
+information to be reported):
+11. 2.1    Tester  identification,  including  supplier,  model
+number, corona method, and software Rev number,
+11. 2.2  Date of test,
+11. 2.3  Test operator identification,
+11. 2.4    Temperature  and  relative  humidity  of  the  test
+room,
+11. 2.5    Characteristics  of  the  special  reference  wafer
+used in the test, including serial number,
+11. 2.6  Stress voltages and temperature,
+11. 2.7  Duration of CTS, min, and
+11. 2.8  Three-run   average,   standard   deviation,   and
+relative  standard  deviation  of  mobile  ion  density, Q
+m
+,
+ions/cm
+2
+.
+12  Key Words
+12. 1    dielectric  tester;  dielectric  trap;  effective  charge;
+electrical     dielectric     thickness;     flatband     voltage;
+interface trap; line corona; mobile charge; point corona.
+
+
+SEMI MF2166-0304 © SEMI 2004 8
+
+Special Reference Wafer Calibration Data Sheet For
+Non-Contact Dielectric Characterization System
+System Supplier: System Model #:
+
+System Software Rev: Test Date:
+Calibration Organization
+
+Operator ID Method A ó Point Source Corona                      [  ]
+Method B ó Line Source Corona                        [  ]
+Measurement Data Statistics
+
+Mean
+Std Dev (1 sigma) % Std Dev (1S%)
+Location
+Parameter
+(0,0)        (-40,40)        (40,-40)        (0,0)        (-40,40)
+(40,-40)
+(0,0)       (-40,40)       (40,-40)
+V
+surf
+(V) (Method A)
+V
+cpd,
+(V) (Method B )
+
+T
+ox
+(nm)
+
+
+V
+fb
+(V)
+
+
+Q
+eff
+(◊10
+11
+charge/ cm
+2
+)
+
+
+D
+it
+(◊10
+11
+charge/ cm
+2
+)
+
+
+
+Q
+m
+(◊ 10
+11
+charge/ cm
+2
+)
+
+
+
+Environmental Data
+
+
+Special Reference Wafer Used
+
+Calibration Dates
+Temperature
+____ [  ]∞F      [  ]∞C
+Relative Humidity Serial Number Mfg.
+Wafer
+Dia.
+Last          Next
+
+Equipment Performance Summary
+In Tolerance     [  ] Out of Tolerance  [  ]
+Repair Required    Yes   [  ]        No  [  ]
+
+Comments
+
+Figure 1
+Example Data Sheet for Methods A and B
+
+
+SEMI MF2166-0304 © SEMI 2004 9
+
+Special Reference Wafer Calibration Data Sheet For
+Non-Contact Dielectric Characterization System
+System Supplier: System Model #:
+
+System Software Rev: Test Date:
+Calibration Organization
+
+Operator ID Method C ó Line Source Corona                       [  ]
+Measurement Data Statistics
+Parameter
+Mean
+Std Dev (1 sigma) Minimum Maximum
+V
+cpd,
+(V)
+
+
+Corona Voltage per
+Sweep
+
+(−) CTS Voltage
+
+
+(−) CTS Time
+
+
+(−) CTS
+Temperature
+
+
+(+) CTS Voltage
+
+
+(+) CTS Time
+
+
+(+) CTS
+Temperature
+
+
+Q
+m
+(◊ 10
+11
+charge/ cm
+2
+)
+
+
+
+Environmental Data
+
+
+Special Reference Wafer Used
+Calibration Dates
+Serial Number Mfg.
+Wafer
+Dia.
+Last             Next
+Temperature
+_____ [  ]∞F____ [  ]∞C
+Relative Humidity
+
+Equipment Performance Summary
+In Tolerance     [  ] Out of Tolerance  [  ]
+Repair Required    Yes   [  ]        No  [  ]
+
+Comments
+
+Figure 2
+Example Data Sheet for Method C
+
+
+SEMI MF2166-0304 © SEMI 2004 10
+RELATED INFORMATION 1
+CORONA SUBSYSTEMS
+NOTICE: This related information is not an official part of SEMI MF2166.  It was developed during the original
+development of the document.  This related information was approved for publication by full letter ballot on October
+16, 2003.
+R1-1.1  Two types of coronas are used in NCDCSs:
+R1-1.2  Point   Source   Corona   ó   This   corona   type
+applies   charge   at   discrete   locations   on   the   wafer
+surface.    The  area  of  the  corona  is  defined  by  a  mask.
+(See Figure R1-1.)
+R1-1.3  Line Corona ó In this corona, a wire applies a
+charge  uniformly  across  the  entire  wafer.    The  charge
+level  is  applied  in  increments  that  cause  a  V
+cpd
+change
+of between 0.3 and 0.6 V.  (See Figure R1-2.)
+
+High
+Voltage
+Wafer
+Linear Sam
+pling
+
++
+
++
+
++
+
+Figure R1-1
+Point Corona – Method A
+
+High
+Voltage
+Corona Wire
+Wafer
+High Voltage
+Corona Wire
+x
+-motion
+Area Scanning
+Silicon
+Chuc
+k
+
+Oxide
++  +  +  +  +  +  +  +  +  +  +
+
+
+Figure R1-2
+Wire Corona – Method B and C
+
+
+
+SEMI MF2166-0304 © SEMI 2004 11
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI INTERNATIONAL STANDARDS
+TRACEABILITY
+Semiconductor Equipment and Materials International
+
+
+SEMI T1-95 © SEMI 1993, 2003 1
+SEMI T1-95 (Reapproved 0303)
+SPECIFICATION FOR BACK SURFACE BAR CODE MARKING OF
+SILICON WAFERS
+This  specification  was  technically  approved  by  the  Global  Traceability  Committee  and  is  the  direct
+responsibility  of  the  North  American  Traceability  Committee.    Current  edition  approved  by  the  North
+American  Regional  Standards  Committee  on  October  25,  2002.    Initially  available  at  www.semi.org
+December 2002; to be published March 2003.  Originally published in 1993; previously published in 1995.
+NOTICE:   The   userís   attention   is   called   to   the
+possibility  that  compliance  with  this  specification  may
+require  use  of  an  invention  covered  by  patent  rights.
+By  publication  of  this  specification,  SEMI  takes  no
+position  respecting  the  validity  of  any  patent  rights
+asserted  in  connection  with  any  item  mentioned  in  this
+specification.    Users  of  this  specification  are  expressly
+advised  that  determination  of  any  such  patent  rights,
+and  the  risk  of  the  infringement  of  such  rights,  are
+entirely their own responsibility.
+1  Scope
+1. 1    This  specification  defines  the  content  and  location
+of  a  back  surface  bar  code  marking  for  silicon  wafers.
+The  code  is  variable  in  length  from  7  to  18  characters
+which  are  user-definable.    A  character  position  is  held
+constant  for  the  checksum  character,  but  all  else  is
+variable.    No  other  information  is  encrypted  into  the
+code.    This  allows  the  performance  requirements  of
+related bar code reading equipment to be simplified.  In
+addition,     provision     is     made     for     an     optional
+alphanumeric  marking  of  the  size  specified  in  SEMI
+M12  to  enable  operator  identification  of  wafers.    This
+alphanumeric   code   is   not   intended   to   be   machine
+readable.
+NOTE  1:    The  example  as  described  in  Table  1  and  Figure  1
+pertains   to   a   hard   mark   applied   by   the   silicon   wafer
+manufacturer.
+1. 2    This  specification  applies  to  flatted  or  notched
+silicon wafers of nominal diameter 125 mm and larger,
+as specified in SEMI M1.
+1. 3    The  bar  code  can  be  read  bi-directionally  without
+impairing its decodability.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+2  Referenced Standards
+2. 1  SEMI Standards
+SEMI      M1      —      Specifications      for      Polished
+Monocrystalline Silicon Wafers
+SEMI  M12  —  Specification  for  Serial  Alphanumeric
+Marking of the Front Surface of Wafers
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+3  Terminology
+3. 1  Definitions
+3. 1.1  background  —  of  a  bar  code  symbol  ó  the
+uniform  lighter  or  more  reflective  region,  including
+quiet zones, that provides contrast for the darker bars.
+3. 1.2  bar — in a bar code symbol ó the darker or less
+reflective element of  the symbol.
+3. 1.3  bar  code  density  ó  the  number  of  characters,
+exclusive  of  quiet  zones,  that  can  be  represented  in  a
+linear unit of measure.
+NOTE 2:  Bar code density can be expressed in characters per
+inch (cpi) or characters per millimeter (cpmm).
+3. 1.4  bar  code  symbol  ó  an  array  of  rectangular  bars
+and spaces that are arranged in a predetermined pattern
+following  specific  rules  to  represent  elements  of  data
+that are referred to as characters.
+NOTE 3:  The symbol is comprised of message characters and
+start/stop  characters,  check  characters,  and  quiet  zones  as
+required   by   a   particular   symbology   to   form   a   complete
+scannable entity.
+3. 1.5  bar code character ó a single group of bars and
+spaces  which  represent  an  individual  number,  letter,
+punctuation mark, or other symbol.
+3. 1.6  bar  height  —  of  a  bar  code  symbol  ó  the  bar
+dimension perpendicular to the bar width.
+3. 1.7  bar   width   —   of   a   bar   code   symbol   ó   the
+perpendicular  distance  across  a  bar  between  the  points
+on   opposite   edges   that   have   a   reflectance   that   is
+midway between the background and bar reflectance.

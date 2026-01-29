@@ -1,0 +1,3182 @@
+---
+title: "E72-0600 - © SEMI 1998, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E72-0600 - © SEMI 1998, 2005..."
+sidebar_position: 110
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-011.pdf'
+  chapter: 11
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/011.pdf"
+  pdfSize="0.86MB"
+  title="E72-0600 - © SEMI 1998, 2005..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI E72-0600 © SEMI 1998, 2005 3
+horizontal  dimensions.  Furthermore,  none  of  these  packages  may  weigh  more  than  Mm  each.  This  paragraph  does
+not apply to stockers and AMHS transport equipment.
+5. 4.2  Recommendations — Equipment suppliers and device manufacturers might also consider carrier stocker size,
+move-in timing, and move-in path during stocker and facility design. Equipment that conforms to these limits may
+still be too large to fit into standard truck trailers or aircraft cargo bays.
+5. 5  Maintenance Access
+5. 5.1  Requirements  —  To  avoid  interfering  with  carrier  transport  systems,  equipment  must  not  require  regularly
+scheduled  maintenance  from  the  front.  This  requirement  does  not  apply  to  maintenance  performed  on  user
+interfaces, cart-docking interfaces, load ports, carrier buffers, and load locks.
+5. 5.2  Recommendations — It is recommended that as little regularly scheduled maintenance as possible be required
+from the side.
+5. 6  Width vs. Depth
+5. 6.1  Recommendations  —  In  general,  to  minimize  the  number  of  bays  required  in  a  fab,  it  is  recommended  that
+equipment be designed to minimize width rather than depth.
+5. 7  Linked Equipment
+5. 7.1  Recommendations  —  To  make  linked  equipment  (such  as  cluster  tools  or  steppers  with  litho  tracks)  jointly
+space  efficient,  it  is  recommended  that  they  be  designed  to  minimize  the  cost  footprint  of  the  entire  system  as  a
+whole.
+6  Related Documents
+6. 1  SEMI Standards
+SEMI E6 — Facilities Interface Specifications Guideline and Format
+SEMI E26.1 — Radial Cluster Tool Footprint 300 mm Standard
+SEMI E35 — Cost of Ownership for Semiconductor Manufacturing Equipment Metrics
+SEMI E76 — Guide for 300 mm Process Equipment Points of Connection to Facility Services
+SEMI S2 — Safety Guidelines for Semiconductor Manufacturing Equipment
+NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions.
+rear user
+interface
+utilities supply
+access door
+swing-out
+E15.1-compliant
+load ports and
+carrier buffers
+front user
+interface
+possible wall
+locations, if any
+(see SEMI 15.1)
+load face plane
+of the tool
+Wt
+Ws
+DtDs
+easement space
+(required space
+around the tool)
+shadow footprint
+(includes all
+parts of the tool)
+
+Figure 1
+Equipment Footprint Dimensions
+
+
+SEMI E72-0600 © SEMI 2003 4
+
+Table 1  Equipment Footprint, Height, and Weight Dimensions
+Symbol Used Value Specified                                                            Dimension                                                            Description
+H 3.5 m (11 ft. 5 in.) maximum height of equipment in the main fab
+Hs 2 m (6 ft. 6 in.) maximum height of equipment in the sub-fab
+M 1500 kg/m
+2
+(2.1 lbm./in.
+2
+) maximum mass of equipment divided by its shadow footprint
+Mm 6000 kg (13227 lbm.) maximum mass of equipment move-in packages
+Mt 1000 kg (2204 lbm.) maximum mass of equipment on any
+0. 6 m by 0.6 m (2 ft. by 2 ft.) floor tile
+X 2.2 m (7 ft. 2 in.) maximum Length (perpendicular to Y) of equipment move-in packages destined
+for the main fab
+Xs 2 m (6 ft. 6 in.) maximum Length (perpendicular to Ys) of equipment move-in packages destined
+for the sub-fab
+Y 2.8 m (9 ft. 2 in.) maximum Length (perpendicular to X) of equipment move-in packages destined
+for the main fab
+Ys 1.7 m (5 ft. 6 in.) maximum Length (perpendicular to Xs) of equipment move-in packages destined
+for the sub-fab
+Z 2.8 m (9 ft. 2 in.) maximum Height of equipment move-in packages destined for the main fab
+Zs 2 m (6 ft. 6 in.) maximum Height of equipment move-in packages destined for the sub-fab
+
+
+SEMI E72-0600 © SEMI 1998, 2005 5
+RELATED INFORMATION 1
+APPLICATION NOTES
+NOTICE:  This related information is not an official part of SEMI E72 but  was  approved  for  publication  by  full  letter
+ballot procedures.
+R1-1   The  maximum  height  of  equipment  in  the  main  fab  was  set  so  that  the  equipment  could  be  installed  in
+existing fabs with ceilings just above the equipment height of 3.5 m (11 ft. 5 in) or in fabs with ceiling heights of
+3. 66  m  (12  ft.  0  in.)  where  more  clearance  is  provided  for  such  things  as  parts  of  some  overhead  carrier  transport
+systems, fire sprinkler systems at the ceiling, and/or extra room for installation of equipment.
+R1-2   The  maximum  height  of  equipment  in  the  sub-fab  was  set  so  that  no  part  of  the  equipment  (other  than
+connections  to  the  main  fab  area)  sticks  up  into  the  piping  and  duct-work  immediately  under  the  waffle  slab.  In
+those cases where a part of the equipment must be taller than 2 m (6 ft. 6 in.), it is recommended that it not be taller
+than 2.5 m (8 ft. 2 in.) to stay under the waffle slab.
+R1-3   If equipment must have easement space on the side, it is recommended that they be designed in mirror-image
+configurations with easement space needed on only one side or the other, so that half of the total easement space on
+the sides can be deleted. However, it is recommended that the resulting increase in equipment cost, complexity, and
+spare parts inventory be taken into account.
+R1-4    Equipment  that  conforms  to  the  limits  given  in  this  standard  may  be  too  large  or  heavy  to  fit  into  buildings
+that were originally designed for equipment that processes smaller wafers.
+
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E73-0301 © SEMI 1998, 20011
+SEMI E73-0301
+SPECIFICATION FOR VACUUM PUMP INTERFACES - DRY PUMPS
+This  specification  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is
+the direct responsibility of the Japanese Physical Interfaces & Carriers Committee. Current edition approved
+by  the  Japanese  Regional  Standards  Committee  on  December  1,  2000.    Initially  available  at  www.semi.org
+January  2001;  to  be  published  March  2001.  Originally  published  June  1998;  previously  published  February
+
+# 1999
+
+1999.
+1  Purpose
+1. 1   This  standard  specifies  the  phy sical  and  electrical
+interfaces  for  dry  pump  (DRP)  type  vacuum  pumps.
+Standardization   of   pump   interfaces   will   allow   for
+interchangeability  of  pumps.  Device  manufacturers  use
+this  standard  when  procuring  processing  equipment  to
+specify to the equipment supplier the interface required
+for  interchangeability  of  pumps.  This  document  is  also
+used  by  semiconductor  processing  equipment  suppliers
+to specify standardized interfaces to pump suppliers.
+2  Scope
+2. 1   This  standard  applies  to  vacuu m  pumps  supplied
+with 300 mm semiconductor processing equipment.
+2. 2    The   standard   specifies   the   mec hanical   and
+electrical   interfaces   for   dry   pumps   including   the
+following.
+• Mechanical connectors
+• Control signals and connector
+• Power supply and connector
+2. 3   Figure  1  shows  the  scope  of  th e  standardized
+interface.
+Tool
+Physical interface
+Electrical interface
+Signals for
+centralized supervisory
+Outlet
+Range of
+standardized
+items
+Utilities
+Figure 1
+Scope of Standardized Interface
+2. 4   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1  This guide is not intended to d ictate how to build a
+vacuum  pump  but  to  specify  interfaces  that  will  allow
+for interchangeabilty of individual pumps.
+3. 2   This  standard  does  not  include   specifications  for
+sensor-bus compliant interfaces.
+3. 3   This  standard  is  not  intended  t o  address  design
+issues  related  to  safety  considerations  and  containment
+issues  which  are  addressed  elsewhere  in  the  SEMI
+guidelines.
+3. 4   International,  national,  and  loc al  codes,  laws,  and
+regulations   should   be   consulted   to   ensure   that   the
+equipment   meets   regulatory   requirements   in   each
+location of use.
+4  Referenced Standards
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+4. 1  SEMI Documents
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+4. 2  ISO Documents
+1
+ISO 7-1 — Pipe threads where pressure-tight joints are
+made  on  the  threads  -  Part  1:  Dimensions,  tolerances
+and designation
+ISO 1609 — Vacuum Technology - Flange dimensions
+ISO  2861-1  —  Vacuum  technology  -  Quick-release
+couplings - Dimensions - Part 1: Clamped type
+5  Terminology
+5. 1   dry  pump  (DRP)   Dry  pump s  are  a  type  of
+mechanical  vacuum  pump.  Dry  pumps  can  work  at
+
+1 International Organization for Standardization, C.P. 56 CH-1211
+Geneva 20, Switzerland
+
+SEMI E73-0301 © SEMI 1998, 20012
+atmospheric   pressure.   They   are   called   dry   pumps
+because  no  liquid  sealing  materials  are  used  on  any
+surface contacted by gases.  Hereafter, the term “DRP”
+is substituted for “dry pump”.
+5. 2  pump alarm  A cautionary s ignal that the pump
+has stopped.
+5. 3  pump  warning   A  state  of  an   abnormal  or
+extraordinary   event   during   pump   operation   which
+means there is a probability the pump will stop.
+5. 4   vacuum  pump   A  pumping  a pparatus  which
+exhausts gas or air from an enclosed space to achieve a
+desired degree of vacuum.
+6  Requirements
+6. 1  Mechanical  Interfaces  —   Tabl e  1  specifies  the
+required DRP connector type and size by flange/port.
+Table 1  Mechanical Connectors
+No.ItemsConnector TypeConnector Size
+Referenced
+Standard
+Remarks
+Nominal
+bore 50 mm
+or less
+ISO KF flange≤ 50 mm
+Connector dimensions
+should be based on the
+referenced standard
+ISO 2861-1
+1Inlet
+flange
+Nominal
+bore over
+63 mm size
+ISO clamped flange≥ 63 mm
+Connector dimensions
+should be based on the
+referenced standard
+ISO 1609
+A port flange which connects the
+pump to a process tool to evacuate
+gases.
+2Outlet flangeISO KF flangeConnector dimensions
+should be based on the
+referenced standard
+ISO 2861-1   A port flange which connects the
+pump to the facility evacuation
+system.
+3Duct port (Option)Not specified50 mm or 100 mm
+diameter port
+Port to connect duct for evacuating
+flames inside the pump.
+4Purge gas portCompression type*1/4" ConnectorA connection port used to supply
+inert gas, typically N
+2
+, to the pump.
+The purge gas protects the inside of
+the pump from corrosion due to
+process gases.
+5Cooling water portISO taper pipe thread
+(female on pump side)
+1/4" or 3/8"ISO 7-1A connection port to supply water
+used to keep the pump cool.
+* For example Swagelock
+®
+6. 2  Electrical Interfaces
+6. 2.1  Control Signals
+6. 2.1.1  Table 2 specifies the required  DRP control signals. Table 3 and Figure 2 specify the required response time
+for DRP control signals. Table 4 specifies the required power and contacts for DPR control signals. Tables 5 and 6
+and Figure 3 specify the required connector and pin assignments for DRP control signals.
+Table 2  I/O Signals
+No.Signal NameDirectionTypeRemarks
+1Start (Run)/Stop    Input signal to PumpAlternatePump runs when closed
+2Start (Run)/Stop    Output signal from PumpAlternateClose on pump start
+3Remote/LocalOutput signal from PumpAlternateClose during remote
+operation
+4Pump WarningOutput signal from PumpAlternateOpen at warning
+5Pump AlarmOutput signal from PumpAlternateOpen at alarm
+Running status signals
+When input power is OFF,
+output status signals should
+become open (normally
+open).
+
+SEMI E73-0301 © SEMI 1998, 20013
+Table 3  Response Time for Signals
+No.ItemsAcceptable Response TimeRemarks
+1Input Power ONUnder 10 seconds
+After input power turns on
+Objects:
+All status signals shall be ready.
+2Control SignalsUnder 2 seconds
+After receiving a signal
+See Figure 2
+Objects:
+a) Start signal (input) ->> Start status (output)
+b) Stop signal (input) ->>Stop status (output)
+Under 2 seconds
+close
+open
+open
+close
+Start status
+(output)
+Supplied: Start/Stop signal
+(input)
+(Response time for the
+control signals)
+Figure 2
+Example of Response Time for Start Signal and Start Status
+Table 4  Signal Power and Contacts
+No.ItemsPowerRemarks
+Input signals to DRP
+(Control signal)
+Input signals shall be
+driven by the DC power
+supply in DRP.
+Example: See Figure 4.
+a) Photocoupler Input.
+b) Relay Input.
+1Signal power supply
+Output signals from
+DRP (Running status
+signal)
+Output signals shall be
+driven by DC power
+supply in tools.
+Example: See Figure 5.
+a) To photocoupler unit.
+b) To relay unit.
+c) To TTL unit.
+2Signal power supply
+voltage
+Signal power supply voltage is between 5 V
+DC
+and 24 V
+DC
+3Acceptable range of signal
+power supply voltage
+Acceptable voltage range is 4 V
+DC
+minimum, and
+30 V
+DC
+maximum.
+4Running status signal
+contact
+Dry contact or open
+collector
+Acceptable current
+100 mA maximum.
+
+SEMI E73-0301 © SEMI 1998, 20014
+Table 5  Control Signal Connector (pump side)
+No.ItemsConnector TypeReferenced StandardPin AssignmentsRemarks
+1
+Control and running
+status signals
+15 pin
+D sub-miniature
+Female receptacle
+See Table 6 and
+Figure 3
+See Related Documents for an
+example of the specifications
+for this connector type.
+Table 6  Pin Assignment for Control Signal Connector
+No.Pin No.Signal item (polarity)Remarks
+11DRP start input  ( + )
+22(MBP start input)  ( + )An upper pump, such as mechanical booster pump (MBP), to be used with
+dry pump systems.
+33DRP start/stop status  ( + )
+44(MBP start/stop status)  ( + )An upper pump, such as mechanical booster pump (MBP), to be used with
+dry pump systems.
+55Warning status  ( + )
+66Alarm status  ( + )
+77Remote/Local status  ( + )
+88
+99DRP start input  ( - )
+1010(MBP start input)  ( - )An upper pump, such as mechanical booster pump (MBP), to be used with
+dry pump systems.
+1111DRP start/stop status  ( - )
+1212(MBP start/stop status)  ( - )An upper pump, such as mechanical booster pump (MBP), to be used with
+dry pump systems.
+1313Warning status  ( - )
+1414Alarm status    ( - )
+1515Remote/Local status  ( - )
+16-
+MAX. 45.1 mm
+MAX. 18.0 mm
+Screw lock size : M2.6
+Contact pin surface : Au
+8
+1
+9
+15
+Figure 3
+15 pin D Sub-Miniature Female Receptacle
+
+SEMI E73-0301 © SEMI 1998, 20015
+DC Voltage
+DC Voltage
+ToolDRP
+(+)
+(-)
+(+)
+(-)
+DRPTool
+b)
+a)
+Figure 4
+Schematic Example of DRP Input Signals
+
+SEMI E73-0301 © SEMI 1998, 20016
+ToolDRP
+DC Voltage
+DC Voltage
+DC Voltage
+(+)
+(-)
+(+)
+(-)
+(+)
+(-)
+a)
+ToolDRP
+ToolDRP
+b
+)
+c)
+Figure 5
+Schematic Example of DRP Output Signals
+6. 3
+Incoming Power Supply
+6. 3.1
+Tables 7 and 8 specify the requ ired DRP incoming AC power supply connector and pin assignments.
+Table 7  Incoming AC Power Supply Connector (Pump Side)
+No.ItemsConnector TypeReferenced StandardPin AssignmentsRemarks
+1Three phase:
+200V
+AC
+− 230V
+AC
+± 10%
+50/60 Hz
+Receptacle (male)SEMI S2See Table 8
+
+SEMI E73-0301 © SEMI 1998, 20017
+Table 8  Pin Assignment for Incoming Power Supply Connector
+No.Pin No.ItemRemarks
+11 or ARACU
+22 or BS3 phaseV
+33 or CTW
+4maximum or last
+pin number in the
+connector
+Earth/GroundWhen using a connector that has a special grounding pin
+not included in the standard pin arrangement, the last pin
+becomes a blank pin. (See Related Documents for an
+example of specification for this connector.)
+7  Related Documents
+NOTE 2: As listed or revised, all documents cited shall be the latest publications of adopted standards.
+7. 1  DIN Standard
+2
+DIN VDE 0627 — Connectors and plug-and socket devices; for rated voltages up to 1000 V a.c., up to 1200 V d.c.
+and rated currents up to 500 A for each pole
+7. 2
+Military Standard
+3
+MIL-PRF-24308  —  General  Specification  for  Connectors,  Electric,  Rectangular,  Non-Environmental,  Miniature,
+Polarized Shell, Rack and Panel
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+2 Deutsches Institut für Normung e.V., Beuth Verlag GmbH Burggrafenstrasse 4-10, D-10787 Berlin, Germany
+3 Military Standards, Naval Publication and Form Center, 5801 Tabor Avenue, Philadelphia, PA 19120
+
+SEMI E73-0301 © SEMI 1998, 20018
+RELATED INFORMATION 1
+APPLICATION NOTES
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  E73  and  is  not  intended  to  modify  or  supercede  the  official
+standard. This related information is optional and contains information that is not required to conform to this standard.
+NOTE 1:  While this standard was developed to specify
+vacuum  pumps  installed  with  300  mm  equipment,  the
+standard  should  also  be  applied  to  vacuum  pumps
+installed with 200 mm equipment.
+NOTE  2:    Signal  items  for  centralized  supervisory
+diagnostics and maintenance could not be standardized,
+because  they  are  not  consistent  or  technically  well-
+established.     Additional     work     is     required     for
+standardization of these signals.
+NOTE  3:    In  order  to  save  space  and  reduce  cost,  the
+connector  for  the  control  and  running  status  signals
+should be the minimum size required for the number of
+pins   specified   in   the   standard.   If   additional   signal
+connections  are  required,  another  connector  should  be
+added to the pump.
+NOTE  4:  Utilizing  a  200  VAC  system  (range:  200  to
+230 VAC) rather than a 400 VAC system (range: 380 to
+480     VAC)     can     lower     costs     associated     with
+manufacturing    and    purchasing    pumps.    To    help
+minimize  pump  costs,  this  standard  incorporates  AC
+supply voltages in the range of 200 to 230 VAC.  Many
+400  VAC  systems  are  now  in  use  and  may  be  more
+widespread  in  the  future.    However,  standardizing  on
+supply voltage of 200 VAC can reduce pump costs now
+without  complications  as  long  as  pump  manufactures
+accommodate customers requesting 400 VAC units.
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E74-0301 © SEMI 1998, 20011
+SEMI E74-0301
+SPECIFICATION FOR VACUUM PUMP INTERFACES -
+TURBOMOLECULAR PUMPS
+This  specification  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers  Committee  and  is
+the direct responsibility of the Japanese Physical Interfaces & Carriers Committee. Current edition approved
+by  the  Japanese  Regional  Standards  Committee  on  December  1,  2000.    Initially  available  at  www.semi.org
+January  2001;  to  be  published  March  2001.  Originally  published  June  1998;  previously  published  February
+1999.
+1  Purpose
+1. 1   This  standard  specifies  the  phy sical  and  electrical
+interfaces    for    turbomolecular    pump    (TMP)    type
+vacuum  pumps.    Standardization  of  pump  interfaces
+will   allow   for   interchangeability   of   pumps.   Device
+manufacturers    use    this    standard    when    procuring
+processing   equipment   to   specify   to   the   equipment
+supplier  the  interface  required  for  interchangeability  of
+pumps.  This  document  is  also  used  by  semiconductor
+processing  equipment  suppliers  to  specify  standardized
+interfaces to pump suppliers.
+2   Scope
+2. 1   This  standard  applies  to  vacuu m  pumps  supplied
+with 300 mm semiconductor processing equipment.
+2. 2    The   standard   specifies   the   mec hanical   and
+electrical     interfaces     for     turbomolecular     pumps,
+including the following:
+• Mechanical connectors and locations
+• Control signals and connector
+• Power supply and connector
+Tool
+Power Supply
+Range of Standardization
+Area (within the broken line)
+Signal for
+equipment controller
+Physical Interface
+Electrical
+I/O signal
+& input power
+TMP
+DRP
+The cables between TMP and
+Power supply are not standardized
+Figure 1
+Scope of Standardized Interface
+2. 3   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1   This  standard  is  not  intended  t o  dictate  how  to
+build a vacuum pump, but to specify interfaces that will
+allow for interchangeability of individual pumps.
+3. 2   This  standard  does  not  include   specifications  for
+sensor-bus compliant interfaces.
+3. 3   This  standard  is  not  intended  t o  address  design
+issues  related  to  safety  considerations  and  containment
+issues  which  are  addressed  elsewhere  in  the  SEMI
+guidelines.
+3. 4  International, national and loca l codes, regulations
+and   laws   should   be   consulted   to   ensure   that   the
+equipment   meets   regulatory   requirements   in   each
+location of use.
+3. 5   This  standard  does  not  apply  to   turbomolecular
+pumps less than 300 l/s or greater than 3000 l/s. Pumps
+less  than  300  l/s  are  too  small  and  pumps  greater  than
+3000 l/s pumps are not commonly used.
+3. 6  Double flow turbomechanical  pumps are excepted
+from  this  standard,  because  their  shapes  and  structures
+are  different  from  turbomolecular  pumps  to  be  applied
+this standard.
+4  Referenced Standards
+4. 1 SEMI Standard
+SEMI   S2   —   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+4. 2  ISO Documents
+1
+ISO 7-1 — Pipe threads where pressure-tight joints are
+made  on  the  threads  -  Part  1:  Dimensions,  tolerances
+and designation
+
+1 International Organization for Standardization, C.P. 56 CH-1211
+Geneva 20, Switzerland
+
+SEMI E74-0301 © SEMI 1998, 20012
+ISO 1609 — Vacuum Technology - Flange dimensions
+ISO  2861-1  —  Vacuum  technology  -  Quick-release
+couplings - Dimensions - Part 1: Clamped type
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1  pump alarm  A cautionary s ignal that the pump
+has stopped or is to be stopped.
+5. 2   pump  warning   A  state  of  an   abnormal  or
+extraordinary   event   during   pump   operation   which
+means there is a probability the  pump will stop.
+5. 3   turbomolecular  pump  (TMP)   Equipment  used
+to  create  a  high  vacuum.  Rapidly  rotating  blades  force
+molecules  to  the  bottom  for  removal  by  a  mechanical
+pump.
+5. 4   Vacuum  Pump   A  pumping   apparatus  which
+exhausts gas or air from an enclosed space to achieve a
+desired degree of vacuum.
+6  Requirements
+6. 1  Mechanical Interfaces
+6. 1.1   Table  1  specifies  the  required   TMP  connector
+type  and  size  by  flange/port.  Axial  orientation  and
+position  of  the  connectors  are  specified  in  Table  2  and
+Figure  2.  Port  and  connector  positions  shall  be  at  the
+periphery  of  the  pump.  Put  inlet  port  on  the  z-axis  and
+the  outlet  port  on  the  x-axis.  Other  connector  locations
+are  specified  by  the  angle  between  the  x-axis  and  the
+center of the connector.
+Table 1  Mechanical Connectors
+No.ItemsConnector TypeConnector SizeReferenced
+Standard
+Remarks
+1Inlet flangeISO bolted flangeConnector dimensions
+should be based on the
+referenced standard
+ISO 1609A port flange which connects the
+pump to a process tool to evacuate
+gases.
+2Outlet flangeISO KF flangeConnector dimensions
+should be based on the
+referenced standard
+ISO 2861-1    A port flange which connects the
+pump to the DRP (Dry Pump).
+3Purge gas portISO KF flangeSize 10 or 16 connector    ISO 2861-1    A connection port used to supply
+inert gas, typically N
+2
+, to the pump.
+The purge gas protects the inside of
+the pump from corrosion due to
+process gases.
+4Cooling water portISO taper pipe thread
+(female on pump side)
+1/4" or 3/8"ISO 7/1A connection port to supply water
+used to keep the pump cool.
+Table 2  Connector Locations
+No.ItemsConnector
+Location
+Connector Angle
+(degrees)
+Remarks
+1Inlet flangez-axisFlange bolt holes shall be symmetrically located at equal
+distance from the center line of the outlet flange.
+2Outlet flangetransverse
+0°
+3Purge gas porttransverse
+- 90° to + 90°
+4Cooling water porttransverse
+- 90° to + 90°
+The forbidden area shall be symmetrically located at
+equal distances from the center of the outlet flange.
+Distance from the x-axis shall be more than 1.5 times the
+nominal bore of the outlet flange.
+5Electrical connectionstransverse
+0° to -120°
+6Other portstransverse
+- 90° to + 90°
+
+SEMI E74-0301 © SEMI 1998, 20013
+D: nominal bore of the outlet flange
+Top view
+1. 5D
+
+1. 5D
+X axis
+the area for the purge gas inlet
+& the cooling water connectors
+Purge gas
+inlet
+bolt holes
+the area
+for the electrical
+connectors
+Y axis
+the forbitten area
+for installation
+0 to –120 deg
+0 to –90 deg
+0 to +90 deg
+Inlet flange
+Outlet flange
+electrical
+connector(s)
+Cooling water
+connectors
+Side view
+Z axis
+Figure 2
+Connector Locations
+
+SEMI E74-0301 © SEMI 1998, 20014
+6. 2  Electrical Interfaces
+6. 2.1  Control Signals
+6. 2.1.1   Table  3.1  specifies  the  require d  TMP  control  signals.  In  cases  where  TMP  are  backed  up  by  battery  or
+regeneration power while input power failure, the status of output signals follows Table 3.2. Table 4 and Figure 3
+specify  the  required  response  time  for  TMP  control  signals.  Table  5  specifies  the  required  power  and  contacts  for
+TMP  control  signals.  Tables  6  and  7  and  Figure  4  specify  the  required  connector  and  pin  assignments  for  TMP
+control signals.
+Table 3.1  I/O Signals
+No.Signal NameDirectionTypeRemarks
+1Start (Run)/Stop    Input signal to PumpAlternatePump runs when
+closed
+2AccelerationOutput signal from Pump   AlternateClose during
+acceleration
+3Normal operation  Output signal from Pump   AlternateClose during normal
+operation
+4DecelerationOutput signal from Pump   AlternateClose during
+deceleration
+5Remote/LocalOutput signal from Pump   AlternateClose during remote
+operation
+6Pump AlarmOutput signal from Pump   AlternateOpen at alarm
+Running status signals
+When input power is OFF, output
+status signals should become open
+(normally open).
+Table 3.2  Status of output signals during back up operation mode
+Status of pumpSignal NameStatus of signals
+AccelerationOpen
+Normal operationOpen
+DecelerationClose
+Remote/LocalClose during remote operation
+During back up operation mode
+Pump alarmOpen
+Table 4  Response Time and Timing for Signals
+No.ItemsAcceptable Response TimeRemarks
+1Input
+Power
+ON
+Under 10 seconds
+After input power turns on
+Objects
+All status signals shall be ready.
+2
+Response
+Time
+Control
+Signals
+Under 2 seconds
+After receiving a signal
+Objects
+Start signal (input) ->> Acceleration (output)
+Stop signal (input) ->> Deceleration (output)
+3TimingRunning
+status
+signals
+Under 50 milliseconds
+Acceptable delay and/or dead time in a
+moment of shift of the running status
+Under 50 milliseconds
+Acceptable overlapped time in a
+moment of shift of the running status
+Objects (Example)
+Normal ->> Deceleration
+The running status signals of alarm and remote/local
+can be overlapped with other signals.
+
+SEMI E74-0301 © SEMI 1998, 20015
+under 2 seconds
+acceleration status(output)
+close
+open
+close
+open
+start signal (input)
+Response Time and Timing for Control Signals
+(delay and/or
+dead time)
+Under 50 milliseconds
+(Overlapped time of
+signal)
+deceleration
+normal operation
+open
+close
+Timing for the running status signals
+close
+open
+normal operation
+open
+close
+close
+open
+deceleration
+Under 50 milliseconds
+Figure 3
+Response Time and Timing for Control Signals
+Table 5  Signal Power and Contacts
+No.ItemsPowerRemarks
+Input signals to TMP
+(Control signal)
+Input signals shall be
+driven by DC power
+supply in TMP.
+Example: See Figure 5.
+a) Photocoupler Input.
+b) Relay Input.
+1
+Signal power supply
+Output signals from
+TMP (Running status
+signal)
+Output signals shall be
+driven by DC power
+supply in tools.
+Example: See Figure 6.
+a) To photocoupler unit.
+b) To relay unit.
+c) To TTL unit.
+2
+Signal power supply voltageSignal power supply voltage is between 5 V
+DC
+and 24 V
+DC
+3
+Acceptable range of signal power
+supply voltage
+Acceptable voltage range is 4 V
+DC
+minimum
+and 30 V
+DC
+maximum.
+4
+Running status signal contactDry contact or open
+collector
+Acceptable current 100
+mA maximum.
+
+SEMI E74-0301 © SEMI 1998, 20016
+Table 6  Control Signal Connector (Pump Side)
+No.ItemsConnector TypeReferenced StandardPin AssignmentsRemarks
+1Control and running
+status signals
+15 pin
+D sub-miniature
+Female receptacle
+See Table 7 and
+Figure 4
+(See Related Documents for an
+example of the specification for
+this connector type.)
+Table 7  Pin Assignment for Control Signal Connector
+No.Pin No.Signal item (polarity)Remarks
+11Start/Stop input  ( + )
+22
+33Acceleration status  ( + )
+44Normal status  ( + )
+55Deceleration status  ( + )
+66Alarm status  ( + )
+77Remote/Local status  ( + )
+88
+99Start/Stop input  ( - )
+1010
+1111Acceleration status  ( - )
+1212Normal status  ( - )
+1313Deceleration status  ( - )
+1414Alarm status  ( - )
+1515Remote/Local status  ( - )
+MAX. 45.1 mm
+MAX. 18.0 mm
+Screw lock size : M2.6
+Contact pin surface : Au
+Figure 4
+15 pin D sub-Miniature Female Receptacle
+
+SEMI E74-0301 © SEMI 1998, 20017
+DC Voltage
+DC Voltage
+ToolTMP
+(+)
+(-)
+(+)
+(-)
+TMPTool
+b)
+a)
+Figure 5
+Schematic Example of TMP Input Signals
+ToolTMP
+DC Voltage
+DC Voltage
+DC Voltage
+(+)
+(-)
+(+)
+(-)
+(+)
+(-)
+a)
+ToolTMP
+ToolTMP
+b
+)
+c)
+Figure 6
+Schematic Example of TMP Output Signals
+
+SEMI E74-0301 © SEMI 1998, 20018
+6. 3  Incoming Power Supply
+6. 3.1  Table 8 and Table 9 specify th e required TMP incoming AC power supply connector and pin assignments.
+Table 8  Incoming AC Power Supply Connector (pump side)
+No.ItemsConnector TypeReferenced StandardPin AssignmentsRemarks
+1Single phase,
+200V
+AC
+− 230V
+AC
+± 10%
+50/60 Hz
+Receptacle (male)SEMI S2See Table 9
+Table 9  Pin Assignment for Incoming Power Supply Connector
+No.Pin No.ItemRemarks
+11 or AHotAC
+22 or BColdsingle phase
+3maximum or last
+pin number in the
+connector
+Earth/GroundWhen using a connector that has a special grounding pin
+not included in the standard pin arrangement, the last pin
+becomes a blank pin. (See Related Documents for an
+example of specification for this connector.)
+7  Related Documents
+NOTE 2: All documents cited will be the latest published versions.
+7. 1  DIN Standard
+2
+DIN VDE 0627 — Connectors and plug-and-socket devices; for rated voltages  to 1000 V
+AC
+, up to 1200 V
+DC
+, and
+rated currents up to 500 A for each pole
+7. 2  Military Standard
+3
+MIL-PRF-24308  —  General  Specification  for  Connectors,  Electric,  Rectangular,  Non-Environmental,  Miniature,
+Polarized Shell, Rack, and Panel
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+2 Deutsches Institut für Normung e.V., Beuth Verlag GmbH Burggrafenstrasse 4-10, D-10787 Berlin, Germany
+3 Military Standards, Naval Publication and Form Center, 5801 Tabor Avenue, Philadelphia, PA 19120
+
+SEMI E74-0301 © SEMI 1998, 20019
+RELATED INFORMATION 1
+APPLICATION NOTES
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  E74  and  is  not  intended  to  modify  or  supercede  the  official
+standard.  This related information is optional and contains information that is not required to conform to this standard.
+NOTE 1:  While this standard was developed to specify
+vacuum  pumps  installed  with  300  mm  equipment,  the
+standard  should  also  be  applied  to  vacuum  pumps
+installed with 200 mm equipment.
+NOTE  2:    ICF  flange  is  available  on  request  for  inlet
+flange.
+NOTE  3:    In  order  to  save  space  and  reduce  cost,  the
+connector  for  the  control  and  running  status  signals
+should  be  a  minimum  size  required  for  the  number  of
+pins  specified  in  the  standard.  If  the  additional  signal
+connections  are  required  another  connector  should  be
+added to the pump.
+NOTICE:      SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E76-0299 
+
+ SEMI 1998, 1999
+1
+SEMI E76-0299
+GUIDE FOR 300 mm PROCESS EQUIPMENT POINTS OF
+CONNECTION TO FACILITY SERVICES
+This  Guide  was  technically  approved  by  the  Global  Facilities  Committee  and  is  the  direct  responsibility  of
+the  North  American  Facilities  Committee.  Current  edition  approved  by  the  North  American  Regional
+Standards Committee on August 15, 1998. Initially available at www.semi.org January 1999; to be published
+February 1999. Originally published September 1998.
+This document replaces E76-0998 in its entirety.
+1  Purpose
+1. 1    Factory   design   variations   make   it   difficult   for
+equipment   manufacturers   to   predict   or   agree   on
+consistent points of connection for hookup of equipment
+to   facility   services.   Similarly,   device   manufacturers
+cannot easily pre-facilitate their factories for equipment
+because   the   connections   on   the   equipment   are   not
+consistently   located.   Standardization   of   connection
+locations     and     utilizing     pre-facilitation     strategies
+decreases  the  cost  of  and  time  required  for  equipment
+installation.
+1. 2   This  document  is  a  guide  for  300  mm  equipment
+manufacturers    to    define    the    positioning    of    the
+equipment  points  of  connection  (EPOC),  required  on
+semiconductor   processing   equipment   for   hookup   to
+facility    utility    services.    The    document    identifies
+locations    for    the    EPOC’s    and    provides    EPOC
+consistency   recommendations   that   should   allow   for
+efficient    equipment    installation.    In    addition,    this
+document   defines   strategies   to   support   the   device
+manufacturer’s  ability  to  pre-facilitate  the  utility  point
+of  connection  (UPOC).  Recommendations  for  supplier-
+provided EPOC documentation are also included.
+2  Scope
+2. 1  This guide addresses three areas that are necessary
+to improve the efficiency of  and reduce the duration  of
+equipment installations.
+a) Recommendations  for  EPOC  location,  grouping,
+consistency and reduction to increase confidence in
+the   accuracy   and   repeatability   of   EPOC’s,   and
+reduce  the  amount  of  work  required  to  hookup
+equipment.  As  a  result,  device  manufacturers  can
+employ   standard   pre-facilitation   strategies   and
+increase the efficiency of equipment installation.
+b) Pre-facilitation  recommendations  that  provide  the
+ability  for  UPOC’s  to  be  efficiently  and  accurately
+installed prior to equipment delivery, thus allowing
+immediate  hook-up  of  the  equipment  upon  arrival
+in  the  wafer  fab.  This  includes  recommendations
+for   jigs,   templates,   mating   pedestal   bases,   and
+associated interface panels.
+c) Documentation recommendations to be required by
+the   device   manufacturer   and   provided   by   the
+equipment   supplier   relative   to   EPOC   location,
+group,  consistency,  pre-facilitation  strategies  and
+hardware.  This  includes  additional  documentation
+recommended  to  support  equipment  installations
+but not directly related to EPOC’s.
+2. 2    This   guide   applies   to   300   mm   semiconductor
+processing    equipment    and    any    supplier-provided
+support equipment for installation into new factories.
+2. 3  The following groups of utilities are covered in this
+guide.
+• Electrical Power
+• Data communications
+• Exhaust and other process effluents
+• Process fluids (liquids and gases)
+• Support equipment interconnects
+2. 4   The  primary  focus  for  this  guide  is  hookup  of
+semiconductor  processing  equipment  including  but  not
+limited to the following equipment types.
+• Etch equipment (Dry and Wet)
+• Film  deposition  equipment  (CVD,  PVD  and
+Plating)
+• Thermal equipment
+• Surface prep and clean
+• Photolithography    equipment    (Stepper    and
+Tracks)
+• Chemical Mechanical Polishing equipment
+• Ion Implant equipment
+• Metrology equipment
+3  Limitations
+3. 1   This  standard  does  not  apply  to  assembly  and  test
+equipment.
+3. 2  International, national, and local codes, regulations
+
+SEMI E76-0299
+
+ SEMI 1998, 1999
+2
+and   laws   should   be   consulted   to   ensure   that   the
+equipment   meets   regulatory   requirements   in   each
+location.
+3. 3   This  guide  is  not  intended  to  address  design  issues
+related  to  safety.  Safety  issues  are  addressed  in  other
+SEMI standards (See SEMI S2).
+4  Referenced Documents
+4. 1  SEMI documents
+SEMI    E6    —    Facilities    Interface    Specifications
+Guideline and Format
+SEMI   S2   —   Safety   Guideline   for   Semiconductor
+Manufacturing Equipment
+NOTE: All documents cited will be the latest published
+versions.
+5  Terminology
+5. 1  bottom feed — Equipment utility supply lines enter
+the  equipment  from  its  underside  typically  through  the
+floor.
+5. 2    equipment   configuration   —   Specifically,   the
+arrangement,  location,  type  and  quantity  of  EPOC’s
+needed for installation. Also know as tool configuration.
+5. 3   equipment  point  of  connection  (EPOC)  —      A
+fitting  or  other  terminal  provided  with  the  processing
+equipment   (either   external   or   internal)   for   utility
+connection,   the   equipment   end/termination   of   the
+hookup. Also know as tool point of connection.
+5. 4   external  connection  —  An  external  connection  is
+located outside the main frame of equipment.
+5. 5   facilities  interface  specification —  Documentation
+provided  by  an  equipment  supplier  that  contains  the
+equipment   requirements   for   utilities   and   installation
+[SEMI E6].
+5. 6    facility   services   —   Any   gas,   exhaust,   liquid,
+power, data communications or other material which are
+supplied  to  or  carried  away  from  the  equipment  and
+used  in  the  process.  Also  referred  to  as  utilities  or
+facilities.
+5. 7    footprint   —   The   total   area   or   floor   space
+consumed   by   a   piece   of   equipment   when   viewed
+perpendicular  to  the  area  of  reference  (e.g.,  normally,
+when  viewed  from  directly  overhead  and  considering
+the floor).
+5. 8    hazardous   production   materials   (HPM)   —   A
+solid, liquid, or gas that has a degree of hazard rating in
+health,  flammability,  or  reactivity  of  class  3  or  4  as
+ranked  by  NFPA  704  and  that  is  used  directly  in
+research,  laboratory,  or  production  processes  that  have
+as their end product materials that are not hazardous.
+5. 9   hookup  —  The  set  of  activities  and  organization
+required to accept incoming process equipment, move it
+into  place,  connect  the  equipment  to  all  facilities,  and
+test  the  connections.  The  connection  of  all  necessary
+facilities   and   interconnects   required   to   make   the
+equipment package fully operational.
+5. 10   interconnect  —  Connections  between  equipment
+mainframe    and    peripheral    equipment    subsystem
+equipment [SEMI E6].
+5. 11   internal  connection  —  An  internal  connection  is
+a  utility  connection  to  the  equipment  which  is  located
+internal  to  the  equipment  and  typically  associated  with
+hazardous utilities.
+5. 12   interface  box  —  An  enclosure  located  between
+the equipment mainframe and facility services typically
+containing   components   for   pressure   regulation   and
+filtration.  It  functions  to  consolidate  facility  service
+requirements   to   single   points   of   connection.   The
+interface  box  can  provide  location  and  ability  to  pre-
+facilitate  equipment  hookups  in  advance  of  equipment
+delivery.
+5. 13   jig  —  A  three  dimensional  fixture,  typically  a
+frame  that  contains  equipment  installation  aides  which
+serve to indicate location and type of connection needed
+for equipment hook-up.
+5. 14  location plane — The common area on a piece of
+equipment  where  EPOC’s  may  be  located  (e.g.,  back,
+side, top, bottom).
+5. 15    pedestal   —   Structural   support   element   upon
+which equipment or raised floor rests.
+5. 16   pre-facilitation  —  The  stage  in  the  equipment
+installation process that follows base build and precedes
+equipment  delivery/equipment  hookup.  Pre-facilitation
+brings  the  various  facilities  services  close  to  the  new
+equipment  location,  including  new  facilities  services
+and  structural  modifications  required  to  prepare  the
+facility to accept the equipment.
+5. 17      pre-facilitation     pedestal     —     A     matching
+equipment  floor  mounting  surface  intended  to  act  as  a
+means  to  expedite  equipment  hookup,  as  well  as,  save
+fab  floor  space  by  having  pre-plumbed  connections.
+Ideally, the pedestal would be installed and facilitated to
+the UPOC’s prior to the equipment arrival.
+5. 18    raised   floor   —   The   removable   floor   system
+installed    above    the    actual    building    floor    within
+cleanroom  environments  to  control  air  flow  and  allow
+access for utility routing and connection.
+
+SEMI E76-0299 
+
+ SEMI 1998, 1999
+3
+5. 19   seismic  bracing  —  Structural  reinforcement  to
+minimize damage due to earthquakes.
+5. 20   single  line  drop  —  A  hookup  strategy  where  a
+piece  of  processing  equipment  has  only  one  point  of
+connection  per  facility  service.  All  manifolding  for  an
+individual service is handled with in the equipment.
+5. 21  specialty gas — Non-bulk process gases typically
+stored  in  cylinders  and  used  to  supply  one  or  more
+process equipment through specialized manifolds.
+5. 22   subfab  —  The  area  below  or  outside  of  the
+cleanroom  production  area  that  can  be  a  single  or
+multiple levels and may or may not be clean.
+5. 23   support  equipment  —  Ancillary  equipment  not
+part of the main chassis.
+5. 24  template — Provides a dimensional outline of the
+equipment    footprint    including    overall    dimensions,
+equipment  datum  point,  utility  connection/penetration
+locations, equipment interconnect/penetration locations,
+maintenance  and  access  spaces,  and  wafer  load/unload
+stations. It can be made from any cleanroom compatible
+material.
+5. 25 tool —  Any  piece  of  semiconductor  fabrication  or
+inspection equipment designed to process wafers. Often
+used synonymously with equipment in the silicon wafer
+processing industry.
+5. 26  tool accommodation — A methodology by which
+semiconductor  processing  equipment  is  installed  in  a
+cost-effective and timely manner.
+5. 27   top  feed  —  Where  utility  supply  lines  enter  the
+equipment from the topside.
+5. 28  utility point of connection (UPOC) — The mating
+fitting    or    terminal    provided    by    the    facility    for
+interconnection  with  the  EPOC  for  utility  supply,  the
+facility end/termination of the hookup at the equipment.
+Table  1. Equipment Point of Connection Location Recommendations
+Facility Service / Utility
+Bottom Location Plane
+Preference
+Back Location Plane
+Alternate
+Gas, BulkBottomBack (lower)
+Gas, SpecialtyBottomBack (lower)Back
+Exhaust, CorrosiveBottomBack (lower)Back
+Exhaust, FlammableBottomBack (lower)Back
+Exhaust, SolventBottomBack (lower)Back
+Exhaust, GeneralBottomBack (lower)Back
+Chemical Supply, InorganicBottomBack (lower)
+Chemical Supply, OrganicBottomBack (lower)
+Ultrapure WaterBottomBack (lower)
+Cooling WaterBottomBack (lower)
+Hot Ultrapure WaterBottomBack (lower)
+Drain, InorganicBottomBottomBack (lower)
+Drain, Waste Chemical, OrganicBottomBottomBack (lower)
+Power, 100VBottomBack (above wet EPOC)
+Power, 200/400VBottomBack (above wet EPOC)
+Fire SuppressionBottomBack
+Ancillary Component InterconnectBottomBack (above wet EPOC)
+Signal CableBottomBack (above wet EPOC)
+Vacuum ForelineBottomBottomBack
+Process VacuumBottomBack
+NOTE: Connections located on the top are not recommended because of possible interference with overhead wafer
+handling and minienvironment equipment.
+
+SEMI E76-0299
+
+ SEMI 1998, 1999
+4
+Table  2. EPOC Consistency Recommendations
+Equipment Delivered Compared toEPOC LocationsEPOC TypesEPOC Sizes
+Supplier-provided          Facilities          Interface
+Specification
+Should matchShould matchShould match
+Similar Equipment (Same Model and Revision)
+for Same Process Application
+Should matchShould matchShould match
+Similar Equipment (Same Model and Revision)
+for Different Process Application
+Should match for same
+utilities.
+Could  match  unique
+utilities    to    unique
+locations  within  the
+appropriate     EPOC
+group.
+Should matchCould  match,  technical
+reasons    should    exist
+for differences.
+Similar  Equipment  (Different  Model)  for  Same
+Application
+Could matchCould matchCould Match
+6  EPOC Recommendations
+6. 1  Equipment Point of Connection Locations
+6. 1.1    Table   1,   EPOC   Location   Recommendations
+identifies  the  locations  for  the  specified  facility  utility
+services.  The  locations  noted  apply  to  all  equipment
+types,   as   listed   in   the   document   scope,   and   all
+equipment  configurations  including  but  not  limited  to
+boxed    equipment,    linked    equipment,    and    cluster
+equipment.
+6. 1.2    Bottom   Location   Plane:   Facility   services   are
+typically  provided  from  the  subfab  below  the  waffle
+slab. The bottom location of EPOC’s  allows for straight
+up  routing  of  supply  lines,  thus  reducing  equipment
+footprint   and   easing   facilitation.   The   locations   of
+EPOC’s need to be readily accessible to facilitate hook-
+up to the UPOC (i.e., accessible from the back or sides).
+(See Table 1.)
+6. 1.3   Back  Location  Plane:  If  the  bottom  location
+plane option is not utilized for hookup, EPOC’s should
+be  on  back  plane  of  equipment  just  above  the  raised
+floor. (See Table 1.)
+6. 2  Equipment Point of Connection Groups
+6. 2.1    Equipment   points   of   connection   should   be
+grouped  together  by  service  type  to  ensure  ease  of
+hookup   and   qualification   of   the   equipment.   The
+following   groups   should   be   considered   during   the
+configuration of the equipment.
+a) Electrical  Power  Connections    Includes  but
+is not limited to connections for main electrical
+utility power supply.
+b) Data      Communications      Connections      
+Includes  but  is  not  limited  to  factory  systems,
+automated    material    handling    system,    and
+support  equipment  communication  cables  and
+interface connectors.
+c) Gas  Delivery  System  Connections    Includes
+but   is   not   limited   to   fittings   for   bulk   and
+specialty gas lines.
+d) Liquid    Delivery    System    Connections    
+Includes but is not limited to fittings for liquid
+chemical,   slurry,   ultra   pure   water,   process
+cooling  water,  temperature  control  unit  fluids,
+and industrial water lines.
+e) Equipment  Effluent  Connections    Includes
+but  is  not  limited  to  fittings  for  exhaust,  drain,
+and vacuum lines.
+f) Life    and    Safety    System    Connections    
+Includes  but  is  not  limited  to  fire  protection,
+leak detection, emergency machine off (EMO),
+and hazard warning systems.
+6. 2.2   A  hierarchy  should  be  adhered  to  when  locating
+these   groups   of   connections   on   equipment.   Data
+communication wiring should be routed separately from
+power  wiring  and  connections.  Radio  frequency  (RF)
+interconnects  should  be  routed  and  grouped  separately.
+All electrical and electronic wiring should be away from
+and above water and drain lines.
+6. 3  Equipment Point of Connection Consistency
+6. 3.1   This  section  provides  key  elements  to  ensure  the
+required   consistency   of   the   equipment   points   of
+connection.   Connection   locations   on   the   equipment
+
+SEMI E76-0299 
+
+ SEMI 1998, 1999
+5
+should be consistent with those defined in the Facilities
+Interface  Specification  and  should  not  deviate  from
+equipment   to   equipment   of   a   specific   model   and
+revision. EPOC tolerances need to be +/- 6.35 mm (+/-
+1/4 inch) in all directions as measured from the supplier
+defined   equipment   datum   point.   Tighter   tolerances
+should be considered for inflexible or difficult to move
+hookups such as large diameter (over 2 inch) exhaust or
+water  lines.  Connector  sizes  and  types  should  match
+exactly.
+6. 3.2   Table  2  -  EPOC  Consistency  Recommendations
+identify  equipment  variations  and  levels  of  consistency
+required  for  equipment  points  of  connection  location,
+connector type and size.
+6. 3.3   In  Table  2,  the  term  “Should  Match”  identifies
+areas  that  have  traditionally  been  the  most  costly  and
+where   significant   gains   can   be   made   in   achieving
+installation   efficiency   .   The   term   “Could   Match”
+identifies  areas  where  modest  gains  can  be  made  in
+installation efficiency .
+6. 4  Equipment Point of Connection Reduction
+6. 4.1    The   number   of   connection   points   to   the
+equipment  should  be  kept  to  a  minimum.  The  EPOC’s
+located on wafer processing equipment should follow a
+strategy  commonly  referred  to  as  single  line  drops,
+where there is only one point of connection per service
+per  piece  of  equipment.  Where  feasible,  distribution  of
+a particular facility (e.g., chilled water, waste drains for
+the   same   type   of   chemicals)   should   be   distributed
+through    internal    manifolding.    Internal    equipment
+manifolding    should    be    configured    to    allow    for
+configurable    equipment    sub-systems    like    process
+chambers and gas panels. In addition to manifolding, all
+other  interface  box  functions  should  be  configured  on-
+board the equipment this includes any required shut-off
+valves,   regulators,   filters,   QC   sample   valves   and
+pressure indicators.
+6. 5  Equipment Point of Connection Interface Panel
+6. 5.1   Once  EPOC  locations  and  groupings  have  been
+defined  and  standardized  for  purposes  of  consistency,
+the supplier could utilize an interface panel concept for
+simplifying  equipment  hook-up.  The  interface  panel
+should  consist  of  a  physical  panel  that  becomes  part  of
+the   permanent   equipment   installation.   All   EPOC’s
+should  be  comprehended  in  the  layout  of  the  interface
+panel    using    the    recommendations    for    location,
+grouping,  and  consistency  as  discussed  in  Sections  6.1,
+6. 2,  and  6.3.  The  supplier  should  design  a  standard
+interface  panel  layout  that  supports  a  given  equipment
+type and all associated revisions.
+6. 5.2    Common   connector   technologies,   types,   and
+sizes   should   be   utilized   along   with   provisions   for
+containment     of     hazardous     materials.     Typically,
+hazardous     production     material     connections     are
+contained within the equipment
+6. 5.3   Spacing  of  multiple  gas  and  liquid  connections
+on  the  interface  panel  should  provide  sufficient  access
+and   spacing   for   installation   and   maintenance   for
+multiple  lines  (i.e.,  orbital  weld  head,  wrench,  and  test
+fittings).
+7  Pre-facilitation Recommendations
+7. 1   The  pre-facilitation  strategy  should  provide  the
+device  manufacturer  with  the  ability  to  efficiently  and
+accurately  install  UPOC’s  prior  to  equipment  delivery,
+allowing  immediate  hook-up  of  the  equipment  upon
+arrival   to   the   fab.   The   equipment   supplier   should
+provide  a  template  and/or  jig,  as  well  as  a  EPOC
+interface    panel    (if    applicable)    or    pre-facilitation
+pedestal  prior  to  the  equipment  delivery  as  part  of  a
+strategy  to  support  accurate  pre-facilitation  of  utility
+points  of  connection.  In  situations  where  a  pedestal  is
+being  utilized  (see  Section  7.4),  the  pedestal  can  serve
+as  an  aide  to  pre-facilitation.  The  supplier  and  device
+manufacturer  should  discuss  and  agree  on  the  chosen
+strategy.
+7. 2     Templates:    The    template    provides    a    two-
+dimensional  guide  that  projects  EPOC  locations  to  a
+two-dimensional surface, typically the floor. This would
+allow  the  device  manufacturer  to  open  popouts,  core
+holes, etc., and pre-facilitate to a point close to, but not
+necessarily  including,  the  UPOC.  See  Figure  1  for  a
+representative example of a Template.
+7. 3   Jigs:  The  jig  provides  a  guide  that  locates  the  -
+EPOC’s  in  three-dimensional  space.  This  would  allow
+the device manufacturer to pre-facilitate to the UPOC’s
+or  at  least  prefabricate  the  facility  lines  and  UPOC’s
+such    that    final    hookup    could    be    accomplished
+immediately  after  setting  the  equipment.  See  Figure  2
+for a representative example of a Jig.
+7. 4    Pre-facilitation   Pedestal:   Application   notes   and
+three   representative   examples   of   using   pedestals   to
+support   pre-facilitation   are   included   in   the   related
+information section at the end of this document.
+
+SEMI E76-0299
+
+ SEMI 1998, 1999
+6
+Figure 1
+Template Example
+Figure 2
+Jig Example
+
+SEMI E76-0299 
+
+ SEMI 1998, 1999
+7
+8  Documentation Recommendations
+8. 1   Equipment  suppliers  should  provide  the  following
+documentation     concerning     equipment     point     of
+connections  and/or  template,  jig,  and  pre-facilitation
+pedestal   to   the   device   manufacturers.   The   device
+manufacturer  should  provide  to  the  supplier,  the  dates
+the   documentation   is   required   if   it   is   not   already
+specified in this guide.
+a) All  documentation  should  be  supplied  prior  to
+the     equipment     delivery     to     the     device
+manufacturer  (as  deemed  appropriate  by  both
+the   device   manufacturer   and   supplier)   and
+includes  a  minimum  of  two  sets  per  piece  of
+equipment .
+b) Text  and  step-by-step  procedures  should  be
+written in a concise, coherent manner enabling
+the   device   manufacturers   to   achieve   and
+sustain all system performance goals.
+c) All       drawing       documentation       provided
+electronically  should  be  in  a  format  which  is
+compatible   with   standard   computer   aided
+design    (CAD)    software    used    by    device
+manufacturers.  The  CAD  format  should  be
+compatible  with  common  CAD  systems,  to
+include   but   not   limited   to,   .DWG,   .DXF,
+.DXB, .PS, and .WMF file extensions.
+d) The  documentation  should  match  the  revision
+of the equipment delivered.
+8. 2   The  equipment  supplier  should  notify  the  device
+manufacturer    within    30    days    of    any    equipment
+configuration  changes  which  have  an  impact  on  the
+facility   or   installation   requirements.   These   changes
+include,  but  are  not  limited  to,  equipment  dimensions,
+equipment    elevation,    and    equipment    points    of
+connection. There should be no changes made within 3
+weeks of equipment shipment.
+8. 3  EPOC Documentation
+8. 3.1     Equipment    requirements    for    utilities    and
+installation   should   be   provided   by   the   equipment
+supplier. Included EPOC documentation should contain
+but not be limited to the following information.
+a) Floor space requirements (footprint).
+b) EPOC  matrix  indicating  service,  size/type  of
+connection,     location     plane,     and     x,y,z
+dimensions relative to equipment datum point.
+c) Two    dimensional    drawings    showing    the
+equipment points of connection that specify the
+protrusion depths.
+8. 3.2    For   interface   panels,   the   equipment   supplier
+should   provide   documentation   that   includes   clear
+instruction  for  assembly  and  positioning  the  interface
+panel,  a  key  that  clearly  identifies  which  EPOC’s  are
+included, and appropriate design drawings such that the
+device  manufacturer  can  include  the  interface  panel  in
+their respective construction designs.
+8. 3.3   The  following  documentation  is  also  required  to
+support  the  equipment  installation  activity  but  is  not
+directly related to the EPOC.
+a) Equipment  elevation  drawings  representing  all
+sides of the equipment.
+b) Air  conditioning  and  ventilation  requirements
+(acceptable  temperature  and  humidity  ranges,
+exhaust plumbing, etc.).
+c) Vibration  requirements  (acceptable  amplitude
+and frequency).
+d) Electrical    requirements    (voltage,    current,
+wattage,   number   of   phases,   power   quality,
+supply voltage wave form requirements, etc.).
+e) Vacuum   amounts,   gases   (grade   and   flow),
+chilled  water  flow  and  other  environmental
+requirements  including  plumbing  requirements
+(type, size, etc.) for each.
+f) A   section   detailing   the   procedures   to   be
+followed   during   equipment   unpacking   and
+inspection.
+g) A     section     detailing     step-by-step     set-up
+procedures    that    will    specifically    outline
+machine   assembly   and   installation   on   the
+factory floor.
+8. 4  Template, Jig,    or    Pre-facilitation    Pedestal
+Documentation.
+8. 4.1  For templates, jigs, and pre-facilitation pedestals,
+the  equipment  supplier  should  provide  documentation
+that   includes   clear   instruction   for   assembly,   clear
+instruction   for   aligning   the   template,   jig,   or   pre-
+facilitation  pedestal  relative  to  the  equipment  datum
+point,  and  a  key  that  clearly  identifies  which  EPOC’s
+are  included.  The  documentation  should  also  clearly
+indicate which pieces of equipment (model and revision
+number)  that  are  supported  by  a  specific  template,  jig,
+or pre-facilitation pedestal.
+8. 4.2    For   pre-facilitation   pedestals,   the   equipment
+supplier    should    also    provide    appropriate    design
+drawings    and    information    such    that    the    device
+manufacturer  can  include  the  pedestal  design  in  their
+respective construction designs. In addition, the supplier
+should  provide  applicable  documentation  required  for
+structural certification.
+
+SEMI E76-0299
+
+ SEMI 1998, 1999
+8
+9  Related Documents
+NOTE: All documents cited will be the latest published
+versions.
+9. 1  SEMI Standards
+SEMI   E49   —   Guide   for   Standard   Performance,
+Practices,  and  Sub-Assembly  for  High  Purity  Piping
+Systems    and    Final    Assembly    for    Semiconductor
+Manufacturing Equipment
+SEMI   E49.1   —   Guide   for   Tool   Final   Assembly,
+Packaging and Delivery
+SEMI E49.2 — Guide for High Purity Deionized Water
+and  Chemical  Distribution  Systems  in  Semiconductor
+Manufacturing Equipment
+SEMI  E49.3  —  Guide  for  Ultrahigh  Purity  Deionized
+Water     and     Chemical     Distribution     Systems     in
+Semiconductor Manufacturing Equipment
+SEMI   E49.4   —   Guide   for   High   Purity   Solvent
+Distribution  Systems  in  Semiconductor  Manufacturing
+Equipment
+SEMI  E49.5  —  Guide  for  Ultrahigh  Purity  Solvent
+Distribution  Systems  in  Semiconductor  Manufacturing
+Equipment
+SEMI  E49.6  —  Guide  for  Subsystem  Assembly  and
+Testing Procedures — Stainless Steel Systems
+SEMI  E49.7  —  Guide  for  Subsystem  Assembly  and
+Testing Procedures — Polymer Systems
+SEMI E49.8 — Guide for High Purity Gas Distribution
+Systems in Semiconductor Manufacturing Equipment
+SEMI   E49.9   —   Guide   for   Ultrahigh   Purity   Gas
+Distribution  Systems  in  Semiconductor  Manufacturing
+Equipment
+SEMI E51 — Guide for Typical Facilities Services and
+Termination Matrix
+SEMI  S8  —  Safety  Guidelines  for  Ergonomics/Human
+Factors  Engineering  of  Semiconductor  Manufacturing
+Equipment.
+
+SEMI E76-0299 
+
+ SEMI 1998, 1999
+9
+RELATED INFORMATION 1
+Pre-facilitation Pedestal
+Application Notes
+NOTE: This related information was balloted, but is not
+an  official  part  of  SEMI  E76  and  is  not  intended  to
+modify  or  supersede  the  official  standard.  It  has  been
+derived  from  the  work  of  the  originating  task  force.
+Determination of the suitability of the material is solely
+the responsibility of the user.
+NOTE:  This  is  only  a  representative  example,  a  pre-
+facilitation pedestal can be of an open frame or enclosed
+box  design.  Due  to  bay  design  and  pass  thru  hole
+locations a pedestal leg may sometimes become located
+over  an  opening    thus,  a  design  that  allows  flexible  leg
+or foot locations should be incorporated.
+Figure R1-1
+Pre-facilitation Pedestal Example
+R1-1.  Pre-facilitation Pedestal
+R1-1.1  A pedestal provides a permanent base or frame
+to  support  the  equipment  and  could  be  considered  an
+extension  of  the  equipment  mainframe  In  addition,  the
+pedestal   could   emulate   a   docking   station   concept
+whereby   all   utilities   points   of   connection   could   be
+located and installed prior to equipment delivery. Once
+the  equipment  is  set  on  this  pre-facilitation  pedestal,
+hookup   is   relatively   quick   and   easy.   When   a   pre-
+facilitation    pedestal    is    used,    both    the    device
+manufacturer    and    supplier    should    agree    who    is
+responsible for coordinating space utilization within the
+pedestal.
+R1-1.2    When  pre-facilitation  pedestals  are  used,  the
+physical  location  of  the  EPOC’s  and  corresponding
+UPOC’s  can  be  determined  by  utilizing  templates,  jigs,
+and/or  EPOC  interface  panels  in  conjunction  with  the
+pedestal.  The  facility  utility  lines  can  be  prefabricated
+and   installed   to   the   UPOC’s   prior   to   setting   the
+equipment  on  the  pre-facilitation  pedestal.  See  Figure
+R1-1  for  a  representative  example  of  a  Pre-facilitation
+Pedestal.
+R1-1.3  The pre-facilitation pedestal should be provided
+by   the   equipment   supplier   and   standardized   for   a
+equipment  type.  In  addition,  the  equipment  supplier  is
+responsible for providing the engineering and design of
+the pre-facilitation pedestal (with input from the device
+manufacturer   as   required).   Installation   of   hardware
+within     the     pedestal     should     be     done     during
+manufacturing  or  during  pre-facilitation.  The  following
+pedestal features (as required by the equipment supplier
+and   end   user)   are   the   responsibility   of   the   pre-
+facilitation pedestal supplier.
+a) Vibration       isolation,       leveling,       seismic
+reinforcing,    and    load    distribution    point
+loading.
+b) Connection  points  from  the  pedestal  to  the
+facility   which   can   be   from   any   plane   but
+should    take    into    consideration    potential
+interference with adjacent tools.
+c) Routing  of  the  plumbing  and  harnesses  within
+the pedestal.
+d) Containment  of  gases  and  liquids  within  the
+pedestal, including possible HPM.
+e) Support   equipment   interconnects   within   the
+pedestal
+R1-1.4  To use the pre-facilitation pedestal, the distance
+from  the  highest  point  on  the  waffle  slab  to  the  bottom
+of  equipment  (typically  the  top  of  the  raised  floor)
+should be equal to or greater than 0.6 meters (2 feet).
+R1-1.5    The  pre-facilitation  pedestal  is  recommended
+for use when these conditions apply.
+a) connections   located   on   the   bottom   of   the
+equipment,
+b) maintenance   access   to   the   bottom   of   the
+equipment as required,
+c) repair  and  spilled  liquids  access  is  required
+underneath the equipment,
+d) pedestal is required as an appropriate structural
+base to set the equipment on,
+
+SEMI E76-0299
+
+ SEMI 1998, 1999
+10
+e) large   footprint   and/or   multiple   module   for
+equipment,
+f) large  number  of  connections  required  for  the
+equipment (more than 10), and
+g) peripheral    components    for    the    equipment
+(pumps,   RF   generators,   chiggers,   etc.)   are
+typically  located  beneath  the  equipment  in  a
+subfab area.
+R1-1.6          The     pre-facilitation     pedestal     is     not
+recommended for use when these conditions apply.
+a) small table mounted equipment,
+b) no more than one connection on the bottom of
+the equipment,
+c) other connections located on back, top, or side,
+d) no maintenance, repair, or spill clean up access
+requirements beneath equipment,
+e) few connections required (less than 10), and
+f) few  if  any  peripheral  components  required  or
+located below equipment in subfab area.
+R1-1.7  These conditions are only recommendations and
+dialog  between  the  supplier  and  device  manufacturer  is
+recommended to determine if a pre-facilitation pedestal
+is necessary or beneficial for a specific application.
+R1-1.8    The  Figure  R1-2  shows  the  facility  utility  lines
+running  up  through  the  waffle  slab  directly  underneath
+the  equipment.  The  UPOC  -  EPOC  connections  occurs
+at the EPOC interface panel which is located on the top
+plane  of  the  pre-facilitation  pedestal.  This  concept  is
+preferred  by  device  manufacturers  as  the  number  of
+connections   are   minimized,   no   additional   space   is
+required  on  the  sides  or  in  back  of  the  equipment  for
+routing, and the HPM lines can be pre-facilitation to the
+UPOC without additional connections or special double
+containment requirements.
+Figure R1-2
+Pre-facilitation Pedestal with Top Mounted Interface Panel
+
+SEMI E76-0299 
+
+ SEMI 1998, 1999
+11
+Figure R1-3
+Pre-facilitation Pedestal with Multiple Top Mounted Interface Panels
+R1-1.9    The  Figure  R1-3  also  shows  the  facility  line
+running  through  the  waffle  slab  directly  underneath  the
+equipment.  In  addition,  this  example  depicts  situations
+where   there   is   a   physical   requirement   to   manifold
+connections   underneath   the   equipment.   The   same
+advantages  as  Example  #1  apply  with  the  exception  of
+minimizing    the    number    of    connections    to    the
+equipment.
+R1-1.10  The Figure R1-4 shows the facility utility lines
+running  up  through  the  waffle  slab  to  the  side/back  of
+the pre-facilitation pedestal and connecting to the EPOC
+interface  panel  mounted  on  the  side/back  of  the  pre-
+facilitation  pedestal.  In  this  example  a  short  section  of
+line  is  required  to  complete  the  connection  from  the
+EPOC  interface  panel  to  the  connection  within  the
+equipment  itself.  This  short  section  of  line  should  be
+prefabricated  such  that  final  hookup  to  the  equipment
+can be accomplished quickly once the equipment is set.
+It  is  important  to  note  that  this  option  requires  careful
+consideration on how to accommodate HPM lines. It is
+generally  undesirable  to  have  additional  connections  in
+HPM  lines  or  to  design  the  pre-facilitation  pedestal
+itself    to    provide    secondary    containment.    In    this
+example,  the  equipment  supplier  is  responsible  for  the
+volume  in  the  pre-facilitation  pedestal  to  route  and
+manifold the plumbing as required
+
+SEMI E76-0299
+
+ SEMI 1998, 1999
+12
+Figure R1-4
+Pre-facilitation Pedestal with Side/Back Mounted Interface Panels
+NOTICE:  These  standards  do  not  purport  to  address
+safety  issues,  if  any,  associated  with  their  use.  It  is  the
+responsibility of the user of these standards to establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  standards  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability  of  the  standard  is  solely  the  responsibility  of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned herein. These standards are subject to change
+without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI E77-1104 © SEMI 1998, 2004 1
+SEMI E77-1104
+TEST METHOD FOR CALCULATION OF CONVERSION FACTORS FOR
+A MASS FLOW CONTROLLER USING SURROGATE GASES
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee.  Current edition approved by the North American Regional Standards
+Committee  on  July  11,  2004.    Initially  available  at  www.semi.org  September  2004;  to  be  published
+November 2004.  Originally published September 1998.
+1  Purpose
+1. 1  The  purpose  of  this  test  method  is  to  quantify  a
+nominal  average  conversion  factor  from  one  gas  to
+another  for  an  MFC  and  to  quantify  the  conversion
+factor as function of flow for an MFC.
+2  Scope
+2. 1  This procedure describes a method to determine the
+MFC   conversion   factor   and   function   between   two
+gases.
+2. 2  This   document   provides   a   common   basis   for
+communication between manufacturers and users.
+2. 3  The  intent  of  this  document  is  not  to  suggest  any
+specific testing program, but to specify the test method
+to  be  used  when  testing  for  parameters  covered  by  this
+method.    Reference  operating  conditions  represent  the
+environmental conditions where the “best” performance
+can be expected.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1  It is not practical to evaluate performance under all
+possible  combinations  of  operating  conditions.    This
+test   procedure   should   be   applied   under   laboratory
+(reference)  conditions;  its  intent  is  to  collect  sufficient
+data to form a judgment of the field performance of the
+MFC being tested.
+3. 1.1  The    results    from    this    test    represent    the
+performance  of  the  specific  device  tested  (i.e.,  make,
+model,  full  scale  flow  and  operating  conditions).    The
+results    may    not    apply    to    devices    of    different
+manufacture,  model,  full  scale  flow  or  under  different
+operating conditions.
+3. 2  This  procedure  does  not  apply  to  pressure  based
+MFC.
+4  Referenced Standard
+4. 1  None.
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations & Acronyms
+5. 1.1  CF (gasA/gasB) — conversion factor from Gas A
+to Gas B.
+5. 1.2  D.U.T.— device under test
+5. 1.3  kPa — kiloPascal
+5. 1.4  MFC — mass flow controller
+5. 1.5  psia — pounds per square inch absolute
+5. 1.6  sccm — standard cubic centimeters per minute
+5. 1.7  slm — standard liters per minute
+5. 1.8  %F.S.  — percent full scale
+5. 2  Definitions
+5. 2.1
+actual flow — the flow rate as determined by the
+flow standard used in the test procedure.
+5. 2.2  conversion  factor  —  the  ratio  of  the  mass  flow-
+rate  of  Gas  A  flowing  through  an  MFC  for  a  given
+setpoint to the mass flow rate of Gas B flowing through
+the same MFC and setpoint.
+5. 2.3  conversion    function    —    a    relationship    that
+describes the flow dependency of the conversion factor.
+The conversion function is graphically determined.
+5. 2.4  indicated  flow  —  the  flow  rate  as  determined  by
+the output of the D.U.T.
+5. 2.5  mean  —  the  sum  of  a  group  of  measurements
+divided by the number of measurements; average.
+5. 2.6  measured  value  —  the  actual  flow  through  a
+D.U.T., expressed in sccm or slm.
+5. 2.7  measured   value,   average   —   the   sum   of   all
+readings (both upscale and downscale) for all cycles, at
+a   single   setpoint,   divided   by   the   number   of   these
+readings.
+
+
+SEMI E77-1104 © SEMI 1998, 2004 2
+5. 2.8  nameplate   gas   —   the   gas   intended   to   be
+controlled by the MFC in operation.
+5. 2.9  range  —  the  algebraic  difference  between  the
+maximum and minimum values.
+5. 2.10  setpoint  —  the  input  signal  provided  to  achieve
+a  desired  flow,  reported  as  sccm,  slm,  or  percent  full
+scale.
+5. 2.11  span — the full scale range of the D.U.T.
+5. 2.12  surrogate  gas  —  the  gas  substituted  for  the
+nameplate gas during the calibration process.
+5. 2.13  zero  drift  —  the  undesired  change  in  electrical
+output  (i.e.,  indicated  flow),  at  a  no-flow  condition,
+over a specified time period, reported in sccm or slm.
+5. 2.14  zero  offset  —  the  deviation  from  zero  at  a  “no-
+flow” condition reported in sccm, slm, or mV.
+6  Summary of Test Method
+6. 1  Gas  flow  and  setpoint  data  are  collected  for  two
+gases.  This data is reduced to quantify the relationship
+between the flow measurement by the MFC on one gas
+to another gas.
+6. 2  This   method   allows   the   user   to   determine   the
+conversion  factor  between  two  gases  for  the  MFC  and
+to determine the onset of errors in the MFC calibration
+due to the conversion factor/function effects.
+7  Interferences
+7. 1  The  accuracy  rating  of  the  measuring  equipment
+shall  be  superior  to  that  of  the  D.U.T.    Preferably  the
+measuring equipment will have an accuracy that is four
+times  better  than  the  D.U.T.    Calibration  equipment
+must have a valid calibration certificate.
+7. 2  Take   care   when   using   test   instruments   with   a
+specified accuracy expressed in percent of full scale.
+7. 3  Installation    effects    on    the    flow    should    be
+minimized.    Monitor  pressure  upstream  of  the  D.U.T.
+to   ensure   that   flow   variations   due   to   pressure   are
+minimized.
+7. 4  Verify   electrical   signals   directly   at   the   D.U.T.
+connector  to  ensure  that  the  signals  at  the  D.U.T.    and
+standard  agree  with  the  signals  at  the  data  recording
+equipment.
+7. 5  Certain  gases  will  contaminate  the  D.U.T.    This
+test  should  be  considered  a  destructive  test  in  such
+cases.
+7. 6  All  electrical  measurements  should  be  read  on
+devices  with  at  least  4.5  digits  of  resolution.    These
+devices must have valid calibration certifications.
+7. 7  The    device    mounting    position    must    be    in
+accordance with the manufacturer’s specifications.
+8  Apparatus (See Figure 1.)
+8. 1  Flow   Standard   —   A   device   or   system   that
+accurately  measures  the  flow  and  reports  the  actual
+flow.
+8. 2  Data   Acquisition   System   —   The   system   that
+measures  the  electrical  signals  from  the  device  under
+test.    The  data  acquisition  system  may  also  read  the
+signals  from  the  flow  standard,  record  test  data  and
+control the test sequence.
+8. 3  Temperature  Probe  —  A  device  to  measure  the
+temperature of the flowing gas.
+8. 4  Three-Way  Valve  —  A  special  valve  to  switch  the
+system from one gas source to another.
+8. 5   Manual   Isolation   Valves   —   Valves   that   will
+positively shut off the gas line.
+8. 6  Pressure  Regulator  —  A  device  that  regulates  gas
+pressure to a set value.
+8. 7  Pressure Transducer — An instrument to measure
+the gas pressure and report it as an electrical signal.
+9  Materials
+9. 1  Clean,  Dry  N
+2
+—  With  99.999%  minimum  purity,
+to be used for purging.
+9. 2  Test Gas “A”
+9. 3  Test Gas “B”
+10  Safety Precautions
+10. 1  This    test    method    may    involve    hazardous
+materials, operations, and equipment.  This test method
+does  not  purport  to  address  the  safety  considerations
+associated  with  its  use.    It  is  the  responsibility  of  the
+user to establish appropriate safety and health practices
+and   to   determine   the   applicability   of   regulatory
+limitations before using this method.
+10. 2  Follow   the   manufacturer’s   specifications   and
+instructions  for  installation  and  operation  whenever
+possible.  Note any exceptions in the test report.
+11  Test Specimen
+11. 1  Allow  all  components  in  the  test  apparatus  to
+warm up following the manufacturer’s specification.
+11. 2  Take  necessary  steps  when  switching  gases  to
+ensure  that  only  the  desired  gas  is  in  the  D.U.T.    and
+flow standard at the time the test is performed.
+
+
+SEMI E77-1104 © SEMI 1998, 2004 3
+12  Preparation of Apparatus
+12. 1  Locate  the  D.U.T.    in  the  test  environment  to
+stabilize temperature for 24 hours prior to warm up.
+12. 2  The  reference  operating  conditions  shall  be  as
+follows:
+12. 2.1  Ambient Temperature — 23 ± 2°C
+12. 2.2  Gas  Temperature  —  Same  as  ambient.    In  the
+case  of  a  condensible  gas,  the  gas  temperature  should
+be maintained as a gradient, with highest temperature at
+the  outlet  end  of  the  test  set  up,  and  slightly  reduced
+temperatures  back  to  the  source.    This  will  ensure  that
+condensing vapors do not accumulate in the test set up.
+Gradient   should   simulate   actual   process   parameters
+where the MFC will be installed.
+12. 2.3  Ambient Pressure — 101.3 kPa (+ 4.7 or – 15.3
+kPa)
+12. 2.4  Gas  Pressure,  Inlet  —  172  ±  34  kPa  unless  the
+gas  is  not  capable  of  delivering  this  pressure,  then
+normal fab operating conditions should be observed.
+12. 2.5  Gas Pressure, Outlet — < 80 kPa
+12. 2.6  Relative    Humidity    —    40%    ±    5%,    non-
+condensing (suggestion: record if outside this range)
+12. 2.7  Magnetic Field — ≤ 50 μT
+12. 2.8  Electromagnetic Field — ≤ 100 μV/m
+12. 2.9  Vibration — ≤ 0.5 m/s at 50 to 200 Hz
+12. 3  Following  the  conditioning  period  (See  Section
+12. 1), warm up the device according to manufacturer’s
+specifications.
+12. 4  Perform  an  adequate  nitrogen  purge  to  ensure  all
+previous  gases  and  moisture  have  been  removed  from
+the  system.    Prior  to  corrosive  gas  testing,  a  cyclic
+pump and purge operation is recommended, alternately
+backfilling   with   nitrogen,   and   evacuating   the   test
+manifold.
+12. 5  Leak    check    the    manifold,    using    available
+methodologies  to  verify  the  test  system  leak  integrity.
+Introduce  the  test  gas  at  a  sufficient  rate  and  time  to
+ensure  the  test  apparatus  is  completely  filled  with  the
+test gas and only the test gas.
+12. 6  Record  the  zero  offset  with  line  pressure  inside
+the  MFC  to  best  simulate  normal  operating  conditions.
+Line  pressure  during  testing  is  to  be  170.30  kPa  (24.7
+psia)  unless  safety  practices  for  the  gas  under  test
+dictate that a lower line pressure be used.
+NOTE 1:  In  addition,  if  this  test  is  performed  on  hazardous
+gases,   bleeding   off   gas   pressure   to   obtain   atmospheric
+pressure inside the MFC may not be easy to do.
+12. 7  Command  100%,  and  establish  flow,  then  close
+the downstream isolation valve; then close the upstream
+isolation valve (see Figure 1).
+12. 8  With  both  isolation  valves  closed,  and  a  100%
+setpoint  wait  until  the  pressure  drop  across  the  MFC  is
+dissipated,  ensuring  a  “no  flow”  condition  through  the
+MFC.    Dissipation  of  the  pressure  across  the  MFC  is
+indicated  when  the  indicated  flow  drops  to  a  steady
+state value near zero.
+12. 9  After the electrical output signal has stabilized for
+at  least  three  minutes,  record  the  MFC  zero  offset  in
+Table 1.
+
+Figure 1
+Mass Flow Controller Test Fixture
+
+
+SEMI E77-1104 © SEMI 1998, 2004 4
+Table 1  Indicated and Actual Flow vs.  Setpoint
+MFC Mfg/Model/Serial # ____________________________________
+Name Plate Gas/Range ____________________________________
+Test                         Gas                         ____________________________________
+Temp    ___________ Bar    ___________ Date    ___________
+Factory Calibration Gas ____________________________________
+
+Column A
+D.U.T.  Setpoint
+Indication in % F.S.
+Column B
+D.U.T.  Flow
+Indication in % F.S.
+Column C
+Flow Standard
+Raw Data
+0%
+#1
+0
+50
+60
+70
+80
+90
+100
+90
+80
+70
+60
+50
+40
+30
+10
+0%                                                 __________________                                                   0
+10
+20
+30
+40                                                                                                                                       0
+50
+60
+70
+80
+90
+100
+90
+80
+70
+60
+50
+40
+30
+10
+0%                                                 __________________                                                   0
+10
+20
+30
+40
+
+
+SEMI E77-1104 © SEMI 1998, 2004 5
+Column A
+D.U.T.  Setpoint
+Indication in % F.S.
+Column B
+D.U.T.  Flow
+Indication in % F.S.
+Column C
+Flow Standard
+Raw Data
+50
+60
+70
+80
+90
+100
+90
+80
+70
+60
+50
+40
+30
+10
+0%                                                 __________________                                                   0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+90
+80
+70
+60
+50
+40
+30
+10
+0%                                                 __________________                                                   0
+10
+20
+30
+40                                                                                                                                       0
+50
+60
+70
+80
+90
+100
+90
+80
+
+
+SEMI E77-1104 © SEMI 1998, 2004 6
+Column A
+D.U.T.  Setpoint
+Indication in % F.S.
+Column B
+D.U.T.  Flow
+Indication in % F.S.
+Column C
+Flow Standard
+Raw Data
+70
+60
+50
+40
+30
+10
+0%                                                 __________________                                                   0
+10
+20
+30
+40
+0%                                                 __________________
+#1
+0%; the MFC is not controlling gas flow in this state but rather is in a no-flow condition during which MFC zero offset is to be recorded.
+
+12. 10  Set   the   D.U.T.      output   to   zero   per   the
+manufacturer’s  procedure.    This  may  entail  automatic
+re-zeroing  of  the  device,  or  may  require  an  adjustment
+by the operator.
+12. 11  Record the adjusted zero reading in Table 1.
+12. 12  The  reference  supply  conditions  used  shall  be
+the reference values specified by the manufacturer.  For
+those  instances  when  a  range  of  values  is  specified
+rather than a reference value, the midpoint of the range
+shall be taken to be the reference value.
+12. 13  The  power  supply  must  be  sufficiently  rated  for
+the device under test.  In addition, the following supply
+conditions and tolerances shall apply reference voltage:
+12. 13.1  AC Supply — ± 1%
+12. 13.2  DC Supply — ± 0.1%
+12. 13.3  Reference Frequency — ± 0.1 Hz
+12. 13.4  Harmonic Distortion of AC Supply — ≤ 1%
+12. 13.5  Ripple of DC Supply — ≤ 0.1% rms
+13  Procedure
+13. 1  For  the  gas  of  interest,  collect  flow  data  for  five
+cycles  of  11  different  setpoints.    The  setpoints  are
+100%,  90%,  80%,  70%,  60%,  50%,  40%,  30%,  20%,
+10%, and 0% of full scale.  Begin collecting data at the
+50%  level  then  60%,  70%  and  so  on.    Record  the  data
+on the form in Table 1.
+13. 1.1  When  a  non-zero  setpoint  is  given,  allow  the
+MFC  to  stabilize  at  the  desired  setpoint  by  observing
+the reading on the flow standard.  Record the data once
+the MFC has stabilized at the current setpoint.
+NOTE 2:  If, during data acquisition at a nominal setpoint, the
+instrument  fails  to  stabilize,  the  D.U.T.    is  not  stable  enough
+for the test to proceed.
+13. 1.2  When  a  zero  setpoint  is  given,  perform  the
+procedure   described   in   Sections   12.7–12.9   (do   not
+rezero   the   MFC)   to   ensure   a   “no-flow”   condition
+through  the  MFC  and  record  the  zero  offset  indicated
+by the MFC’s output in Table 1.
+13. 2  Use Table 1 to record the following:
+13. 2.1  Column A — D.U.T.  setpoint (% F.S.)
+13. 2.2  Column B — D.U.T.  flow indication (% F.S.)
+13. 2.3  Column C — Raw flow standard reading (sccm)
+14  Calculations or Interpretation of Results
+14. 1  For each test gas, calculate the mean and standard
+deviation  of  the  corrected  flow  readings,  for  common
+setpoints  on  the  same  gas.    For  example,  calculate  the
+mean and standard deviation for all the 0% readings for
+a  given  gas,  then  repeat  the  calculations  for  the  10%
+readings, etc.  Record the results on Table 2 in Columns
+B and C.  Plot the result as illustrated in Figure 2.
+
+
+SEMI E77-1104 © SEMI 1998, 2004 7
+Table 2  Statistical Performance
+MFC Mfg/Model/Serial # ____________________________________
+Name Plate Gas/Range ____________________________________
+Test                         Gas                         ____________________________________
+Temp    ___________ Bar    ___________ Date    ___________
+Factory Calibration Gas ____________________________________
+
+Column A
+D.U.T.  Setpoint
+(% F.S.)
+Column B
+Mean Corrected Standard
+Flow Reading (SCCM)
+Column C
+Standard Deviation
+Flow (SCCM)
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+
+Nameplate Gas/Range ___________ Test Gas ________________ Date _____________
+MFG/Serial # _________________ Barometric Pressure _______________
+Inlet Pressure _________________ Temperature _____________________
+
+
+Figure 2
+D.U.T.  Setpoint vs.  Gas Flow
+
+
+SEMI E77-1104 © SEMI 1998, 2004 8
+14. 2  Conversion Factors — The conversion factor between any Gas A and any Gas B at each setpoint is calculated
+as follows:
+conversionfactor(GasA/ GasB) @ X% setpoint=
+average actual flow @ X% setpoint on Gas A
+average actual flow @ X% setpoint on Gas B
+where X= setpoint value
+
+14. 3  Calculate the conversion factors for the gas tested and record in Table 3.
+Table 3  MFC Conversion Factors for Each Setpoint
+MFC Mfg/Model/Serial # ____________________________________
+Name Plate Gas/Range ____________________________________
+Test                         Gas                         ____________________________________
+Temp    ___________ Bar    ___________ Date    ___________
+Factory Calibration Gas ____________________________________
+
+Column A
+D.U.T.  Setpoint
+(% F.S.)
+
+Column B
+CF (Gas A / Gas B)
+100%
+90
+80
+70
+60
+50
+40
+30
+20
+10
+
+
+
+SEMI E77-1104 © SEMI 1998, 2004 9
+14. 4  Interpretation
+14. 4.1  Figure 3 illustrates the conversion factor between two specific gases as a function of setpoint.  It may be used
+to accurately map from one gas to the other and may predict the flow error that will result if the average conversion
+factor is used.
+Nameplate Gas/Range ___________ Test Gas ________________ Date _____________
+MFG/Serial # _________________ Barometric Pressure _______________
+Inlet Pressure _________________ Temperature _____________________
+
+
+Figure 3
+Conversion Factors vs.  D.U.T.  Setpoint
+15  Reporting Results
+15. 1  MFC Conversion Factors
+15. 1.1  Plot the conversion factor from Gas A to Gas B against the D.U.T.  setpoint.  Note the mean value and range
+of values (see Figure 3).
+16  Related Documents
+16. 1  ANSI Standards
+1
+
+
+ANSI C39.5 — Safety Requirements for Electrical and Electronic Measuring and Controlling Instrumentation
+ANSI C42.100 — Dictionary of Electrical and Electronics Terms
+ANSI MC4.1 — Dynamic Response Testing of Process Control Instrumentation
+16. 2  IEC Standard
+2
+
+
+IEC  546  —  Methods  of  Evaluating  the  Performance  of  Controllers  with  Analogue  Signals  for  Use  in  Industrial
+Process Control
+
+
+1 American National Standards Institute, Headquarters: 1819 L Street, NW, Washington, DC 20036, USA.  Telephone: 202.293.8020; Fax:
+202. 293.9287, New York Office: 11 West 42nd Street, New York, NY 10036, USA.  Telephone: 212.642.4900; Fax: 212.398.0023, Website:
+www.ansi.org
+2 International Electrotechnical Commission, 3, rue de Varembé, Case Postale 131, CH-1211 Geneva 20, Switzerland.  Telephone:
+41. 22.919.02.11; Fax: 41.22.919.03.00, Website: www.iec.ch
+
+
+SEMI E77-1104 © SEMI 1998, 2004 10
+16. 3  ISA Standard
+3
+
+
+ISA S51.1 — Process Instrumentation Terminology
+16. 4  MIL-STD
+4
+
+MIL-STD 45662 — Calibration Systems Requirements
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+
+
+3 Instrument Society of America, 67 Alexander Drive, Research Triangle Park, NC 27709, USA Telephone: 919.549.8411 Website: www.isa.org
+4 United States Military Standards, Available through the Naval Publications and Forms Center, 5801 Tabor Avenue, Philadelphia, PA 19120-
+5099, USA.  Telephone: 215.697.3321
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081  Zanker  Road,  San  Jose,  CA  95134.    Reproduction
+of  the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 1
+SEMI E78-1102
+ELECTROSTATIC COMPATIBILITY - GUIDE TO ASSESS AND
+CONTROL ELECTROSTATIC DISCHARGE (ESD) AND
+ELECTROSTATIC ATTRACTION (ESA) FOR EQUIPMENT
+This guide was technically approved by the Global Metrics Committee and is the direct responsibility of the
+North  American  Metrics  Committee.  Current  edition  approved  by  the  North  American  Regional  Standards
+Committee  on  August  29,  2002.    Initially  available  at  www.semi.org  September  2002;  to  be  published
+November 2002.  Originally published September 1998.
+1  Purpose
+1. 1    The  purpose  of  this  document  is  to  minimize  the
+negative impact on productivity caused by static charge
+in  semiconductor  manufacturing  environments.  It  is  a
+guide   for   establishing   electrostatic   compatibility   of
+equipment used in semiconductor manufacturing.
+1. 2    Electrostatic  surface  charge  causes  a  number  of
+undesirable   effects   in   semiconductor   manufacturing
+environments.  Electrostatic  discharge  (ESD)  damages
+both   products   and   reticles.   ESD   events   also   cause
+electromagnetic    interference    (EMI),    resulting    in
+equipment   malfunctions.   Charged   wafer   and   reticle
+surfaces   attract   particles   (electrostatic   attraction   or
+ESA)  and  increase  the  defect  rate.  Charge  on  products
+can  also  result  in  equipment  malfunction  or  product
+breakage.  Operating  problems  and  additional  product
+defects due to static charge can have a negative impact
+on     the     cost     of     ownership     of     semiconductor
+manufacturing equipment (refer to SEMI E35).
+1. 3  An increasing amount of semiconductor production
+is  done  in  minienvironments  or  within  the  production
+equipment.  The  majority  of  static  related  problems
+occur  while  the  product  is  in  its  carriers,  or  being
+transferred from them, by the production equipment.
+1. 4    Static  control  methods  can  be  incorporated  in  the
+equipment  design  to  reduce  static  charge  to  acceptable
+levels.  This  guide  will  be  used  primarily  by  equipment
+manufacturers  during  the  design  of  their  equipment.
+There  are  test  methods  available  (see  Sections  6  and  7
+of  this  guide)  to  demonstrate  the  effectiveness  of  the
+static control methods. The end user will be able to use
+the  same  test  methods  to  verify  compliance  with  an
+equipment purchase specification.
+2  Scope
+2. 1    The  scope  of  this  document  is  limited  to  methods
+of   measurement   and   a   guide   for   the   maximum
+recommended level of static charge on:
+• Product or reticles,
+• Carriers, and
+• Parts  of  the  input/exit  ports  of  equipment  and
+minienvironments.
+2. 2      This   document   presents   a   matrix   of   maximum
+recommended   levels   of   static   charge   on   products,
+reticles,   carriers,   and   the   input   and   exit   ports   of
+production    equipment    or    minienvironments.    The
+purpose is to:
+• Reduce  product,  reticle,  and  equipment  damage
+due to ESD,
+• Reduce  equipment  lock-up  problems  due  to  ESD
+events, and
+• Reduce   the   attraction   of   particles   to   charged
+surfaces.
+2. 3    This  document  references  SEMI  E43  and  other
+methods     of     measuring     static     charge.     Related
+Information  1  of  this  document  contains  a  theoretical
+investigation  of  electrostatic  particle  attraction,  as  well
+as     case     histories     from     users     and     equipment
+manufacturers    as    to    the    static    charge    problems
+encountered and how they were solved. A bibliography
+of  related  technical  papers  is  also  included.  Related
+Information    2    describes    static    control    methods
+commonly used in semiconductor manufacturing.
+2. 4    This  standard  does  not  purport  to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  health  practices  and  determine  the
+applicability or regulatory limitations prior to use.
+3  Limitations
+3. 1  Static     Measurements     ó     Measurements     of
+electrostatic  quantities  such  as  charge,  electric  field,
+and  voltage  are  difficult  to  make.  The  nature  of  the
+object   (insulator   or   conductor),   its   geometry,   its
+surroundings,  and  the  measuring  equipment  itself,  are
+only  a  few  of  the  factors  affecting  the  accuracy  of  an
+electrostatic measurement.
+3. 1.1  Similarly, it is difficult to relate the measurement
+of  an  electrostatic  quantity  to  its  effect  on  products  or
+equipment.  For  example,  an  ESD  simulator  produces  a
+standardized  discharge  waveform  when  a  capacitor  is
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 2
+discharged  at  a  known  voltage.  This  device  is  used  to
+establish  the  ESD  damage  threshold  for  semiconductor
+products, or the effect of ESD on equipment. While the
+amount  of  charge  transferred  is  known  (q  =  CV),  the
+maximum   current   that   results   is   not.   There   is   no
+guarantee   that   the   same   amount   of   charge   would
+produce   the   same   results   if   different   values   of
+capacitance and voltage were used.
+3. 2  Location   ó   The   test   methods   and   maximum
+recommended   levels   of   static   charge   on   product,
+reticles,  and  carriers  are  meant  to  be  applied  at  the
+input/exit  ports  of  production  equipment,  and  when
+possible  within  the  equipment.  This  document  is  not
+meant to be applied in any way that affects the process
+within the equipment.
+3. 3  Test  Methods  ó  The  test  methods  referenced  in
+this  document  do  not  guarantee  precise  measurements
+of  static  charge  levels.  The  maximum  static  charge
+levels   recommended   in   this   document   have   large
+tolerances. (See Section 15.1.)
+3. 4  Static  Charge  Control  ó  There  are  a  variety  of
+static  related  issues  in  a  semiconductor  manufacturing
+environment.  The  issues  are  complex  due  to  the  wide
+range    of    electrostatic    problems,    and    device    or
+equipment  sensitivities  to  these  problems.  This  guide
+contains   general   recommendations.   Users   of   this
+document   are   cautioned   that   specific   static   related
+problems may require or allow different levels of static
+charge than are recommended in this document.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI E10 ó Standard for Definition and Measurement
+of      Equipment      Reliability,      Availability,      and
+Maintainability (RAM)
+SEMI    E33    ó    Specification    for    Semiconductor
+Manufacturing Facility Electromagnetic Compatibility
+SEMI  E35  ó  Cost  of  Ownership  for  Semiconductor
+Manufacturing Equipment Metrics
+SEMI  E43  ó  Guide  for  Measuring  Static  Charge  on
+Objects and Surfaces
+4. 2  ESD Association Standards and Advisories
+1
+
+
+ESD  STM5.1  ó  Sensitivity  Testing  ñ  Human  Body
+Model (HBM) - Component Level
+ESD ADV1.0 ó Glossary of Terms
+
+
+1 ESD Association, 7900 Turin Road, Rome, NY 13440
+ESD   ADV   2.0   ó   Advisory   for   Protection   and
+Sensitivity     Testing     of     Electrostatic     Discharge
+Susceptible Items - Handbook
+ANSI/ESD  STM5.3.1  ó  Sensitivity Testing - Charged
+Device Model (CDM) - Component Level
+ANSI/ESD  STM5.2  ó  Sensitivity  Testing  --  Machine
+Model (MM) - Component Level
+4. 3  Other Documents
+IEC/TS  61000-4-2  ó  Transient  Immunity  Standard,
+International Electrotechnical Commission (IEC)
+2
+
+89/336/EEC    ó    European    Union    Directive    on
+Electromagnetic Compatibility
+NOTE 1: As listed or revised, all documents cited shall be the
+latest publications of adopted standards.
+5  Terminology
+5. 1  Definitions
+5. 1.1  deposition  velocity  ó  Particle  flux  to  a  surface
+(number  of  particles  deposited  per  unit  area  per  unit
+time)  divided  by  the  particle  concentration  adjacent  to
+the surface boundary layer.
+5. 1.2  electromagnetic    interference    (EMI)    ó    Any
+electrical   signal   in   the   non-ionizing   (sub-optical)
+portion   of   the   electromagnetic   spectrum   with   the
+potential  to  cause  an  undesired  response  in  electronic
+equipment.
+5. 1.3  electrostatic   attraction   (ESA)   ó   The   force
+between  two  or  more  oppositely  charged  objects.  The
+result  is  increased  deposition  rate  of  particles  onto
+charged surfaces, or movement of charged materials.
+5. 1.4  electrostatic   compatibility   ó   Charge   control
+adequate   for   interequipment   transfer   of   products,
+reticles, and carriers without electrostatic problems.
+5. 1.5  electrostatic   discharge   (ESD)   ó   The   rapid
+spontaneous  transfer  of  electrostatic  charge  induced  by
+a high electrostatic field.
+NOTE  2:  Usually  the  charge  flows  in  a  spark  between  two
+objects at different electrostatic potentials.
+5. 1.6  equipment  interrupt  ó  Any  variance  from  the
+specifications  of  equipment  operation,  whether  or  not
+the    equipment    recovers    automatically.    Interrupts
+include,  but  are  not  limited  to,  equipment  stoppage,
+equipment  data  errors,  and  physical  mishandling  of
+products (reference SEMI E10).
+5. 1.7  ESD  simulator  ó  An  instrument  providing  a
+specified   electrostatic   discharge   current   waveform
+
+
+2 IEC, 3, rue de Varembe, CH - 1211 Geneva 20 Switzerland
+
+
+SEMI E78-1102 © SEMI 1998, 2002 3
+when  discharged  directly  to  a  product  or  equipment
+part.
+5. 1.8  input  and  exit  ports  ó  The  locations  where
+product  and/or  product  carriers  are  placed  to  allow  the
+equipment to process them, or where they are removed
+from the equipment after processing.
+5. 1.9  minienvironments  ó  A  localized  environment
+created  by  an  enclosure  to  isolate  the  product  from
+contamination and people.
+5. 1.10  product  ó  Any  unit  intended  to  become  a
+functional semiconductor device.
+5. 1.11  sensitivity   level   1   ó   Product,   reticles,   and
+equipment  are  extremely  vulnerable  to  damage  and/or
+problems from static charge.
+5. 1.12  sensitivity   level   2   ó   Product,   reticles,   and
+equipment   are   highly   vulnerable   to   damage   and/or
+problems from static charge.
+5. 1.13  sensitivity   level   3   ó   Product,   reticles,   and
+equipment have nominal vulnerability to damage and/or
+problems from static charge.
+5. 1.14  sensitivity   level   4   ó   Product,   reticles,   and
+equipment   have   negligible   vulnerability   to   damage
+and/or problems from static charge.
+5. 2  Description of Terms Specific to this Standard
+5. 2.1  carrier  ó  A  device  for  holding  wafers,  dies,
+packaged  integrated  circuits,  or  reticles  for  various
+processing steps in semiconductor manufacturing.
+6  Requirements
+6. 1  Measurement  Methods  and  Instrumentation  ó  No
+single method of testing for static charge can determine
+a   ìsafeî   level.   The   amount   of   static   charge,   the
+distribution of static charge on an object, and the nature
+of  the  static  discharge  will  all  interact  to  determine  if
+the charge level is safe. It will be difficult to determine
+levels that guarantee static related problems are totally
+eliminated. The goal of this guide is to assist the user in
+identifying static charge levels likely to cause problems
+in  process  equipment.  This  guide  should  provide  the
+user  with  enough  insight  to  define  a  test  methodology
+for each static problem and understand its limitations.
+6. 2  ESD Damage
+6. 2.1      When   considering   direct   ESD   damage   to   an
+object  (product,  reticle,  or  equipment),  the  important
+parameter   is   the   current   accompanying   the   charge
+transfer  to  or  from  the  object.  Under  a  fixed  set  of  test
+parameters, the damaging amount of current due to the
+charge transfer to or from the object can be determined.
+Established   test   methods   exist   for   determining   the
+threshold   of   damage   to   a   particular   object.   ESD
+simulators  of  various  types  are  used  for  this  purpose.
+Refer   to   EOS/ESD   Association   Standards   listed   in
+Section  4  for  further  information  concerning  device
+testing.
+6. 2.2  The end user should determine what is damaging
+current   level   due   to   charge   transfer   to   product   or
+reticles  that  will  be  handled  in  a  particular  piece  of
+production equipment.
+6. 2.3  In the context of production equipment, it appears
+important   to   know   the   charge   on   the   product,   its
+carriers,   and   any   other   objects   that   might   directly
+contact  the  product.  Charge  is  measured  in  coulombs,
+or more conveniently in nanocoulombs (10
+-9
+coulombs)
+for   this   purpose.   The   measurement   is   made   with
+instrumentation  known  as  a  Faraday  Cup,  as  shown  in
+Section 7, Figure 1.
+6. 2.4    A  charged  object,  like  an  integrated  circuit,  is
+placed in the Faraday Cup and a reading is taken of the
+charge on it. It will be necessary to obtain an instrument
+with  a  large  enough  ìcupî  for  wafers,  cassettes,  and
+other  equipment  parts.  It  will  also  be  necessary  to  get
+the  objects  into  the  cup  without  altering  their  charge
+levels.     Further     information     on     making     these
+measurements     should     be     available     from     the
+manufacturers of the measuring equipment.
+6. 2.5        The    user    should    determine    with    an    ESD
+simulator  what  levels  of  ESD  cause  product,  or  reticle
+damage.   The   equipment   manufacturer   will   need   to
+determine  with  an  ESD  simulator  what  levels  of  static
+charge cause equipment damage.
+6. 2.6    It  will  be  the  responsibility  of  the  equipment
+manufacturer  to  demonstrate  that  equipment  operation
+does  not  generate  more  than  the  allowable  amount  of
+charge  on  product,  carriers  or  equipment  parts.  This  is
+shown in Section 7, Figure 2.
+6. 3  Particle Attraction
+6. 3.1    Electrostatic  attraction  (ESA)  of  particles  can
+occur due to the electrostatic field created by the charge
+on the surface of an object. Both the field strength and,
+usually  to  a  lesser  degree,  the  divergence  of  the  field
+influence   the   electrostatic   contribution   to   particle
+deposition   velocity.   Electrostatic   particle   deposition
+velocity   also   depends   on   particle   size   and   particle
+electrical  charge.  Unfortunately,  even  under  controlled
+laboratory    conditions,    accurate    measurements    of
+electric  field  strength,  particle  size  distribution,  and,
+especially,  particle  charge,  are  difficult.  Of  these  three
+parameters,  electric  field  measurements  are  the  most
+likely to be available.
+6. 3.2    Measurements  of  electrostatic  field  can  be  made
+with a commonly available electrostatic fieldmeter. The
+units  of  electrostatic  field  are  volts/cm  (volts/inch).
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 4
+Precise  measurements  will  be  difficult  as  the  presence
+of    the    measuring    instrument    changes    the    field
+characteristics  and  may  overstate  the  actual  level  of
+electrostatic field. This is shown in Section 7, Figure 3.
+SEMI  E43  describes  measurement  techniques  using  an
+electrostatic fieldmeter.
+6. 3.3  Electrostatic deposition velocity depends only on
+electric    field,    particle    size    and    particle    charge.
+However,  the  concentration  of  particles  deposited  on  a
+surface also depends on the particle concentration in the
+equipment  area  and  the  length  of  the  exposure  time
+during  which  particle  deposition  occurs.  Mechanisms
+other than electrostatic deposition, such as gravitational
+settling  and  diffusion,  can  also  contribute  to  particle
+deposition.  The  concentration  of  particles  deposited  by
+these  non-electrostatic  mechanisms  will  also  vary  with
+particle  concentration  in  the  equipment  ambient  and
+exposure time.
+6. 3.4        Comparisons    of    the    electrostatic    deposition
+velocity  with  the  deposition  velocities  associated  with
+these   other   deposition   mechanisms   is   the   key   for
+determining  threshold  values  of  allowed  electrostatic
+field  from  the  viewpoint  of  particle  deposition.  Such
+comparisons  are  the  basis  for  estimating  the  allowed
+values  of  electrostatic  field  presented  in  Appendix  A1-
+2. 2 and Related Information R1-2. Users and equipment
+manufacturers  should  determine  and  agree  on  ambient
+particle sizes and concentrations, and product exposure
+times.
+6. 4  Equipment ESD
+6. 4.1    Equipment  ESD  immunity  is  being  addressed  in
+general  through  a  number  of  international  standards
+including  IEC  61000-4-2  and  BS  EN  61000-6-2  for
+European   CE   compliance.   Measurements   are   made
+using  an  ESD  simulator  which  is  described  in  these
+standards.
+6. 4.2  The ESD simulator is used to create both a direct
+discharge  to  the  surface  of  the  equipment  and  an  air
+discharge  to  a  surface  10  cm  (4  inches)  away  from  the
+equipment. The ESD simulator charges a 150 picofarad
+capacitor   (C)   to   a   known   voltage   (V)   and   then
+discharges   it   to   produce   a   standardized   discharge
+waveform.   Knowing   the   voltage   and   capacitance
+involved  in  this  test  means  the  total  charge  can  be
+calculated by the equation q = CV. For example, a 4000
+volt  discharge  (IEC  61000-4-2  test  level)  transfers  a
+charge, q = 600 nanocoulombs.
+6. 4.3      The   value   of   the   capacitor   (C)   in   the   ESD
+simulator  is  specified  in  the  international  standards.  It
+should   not   be   assumed   that   a   different   value   of
+capacitance  and  voltage  that  produce  the  same  charge
+transfer  of  600  nanocoulombs  would  have  the  same
+affect  on  a  specific  piece  of  equipment.  Discharge
+currents  will  vary  with  the  impedance  of  the  discharge
+path and with the voltage. It is, however, impractical to
+test  all  possible  combinations.  For  the  purposes  of  this
+guide, the parameters of the ESD simulator specified in
+the  standards  for  equipment  ESD  immunity  will  be
+used.
+6. 4.4      For   true   ESD   immunity,   an   ESD   event   in
+equipment  must  not  disturb  either  the  equipment  it
+occurs in, or another nearby piece of equipment. Charge
+on  product  or  carriers  transferred  from  one  piece  of
+equipment must not disturb the operation of subsequent
+equipment. It will be a systems issue to make sure that
+all  equipment  in  a  facility  meets  the  required  ESD
+immunity standards.
+6. 4.5    The  range  of  reactions  in  equipment  to  an  ESD
+event  runs  from  transient  errors  that  are  automatically
+corrected,   to   hard   errors   that   cannot   be   corrected
+without  manual  intervention  or  damage  the  equipment.
+While   small   numbers   of   transient   errors   may   be
+acceptable   from   the   point   of   view   of   equipment
+operation,  they  may  still  cause  unacceptable  product
+losses.
+6. 4.6    The  user  and  manufacturer  must  determine  with
+an ESD simulator what levels of ESD cause equipment
+interruptions.  The  user  must  determine  if  any  of  these
+equipment interruptions caused by ESD are acceptable.
+6. 4.7      In  setting  a  level  to  provide  ESD  immunity  for
+an  individual  piece  of  equipment  from  static  charge  on
+products and carriers, the charge on these items should
+be  kept  below  the  levels  determined  by  ESD  simulator
+testing.
+6. 4.8    The  Faraday  Cup  measurement  can  be  used  for
+this  purpose.  If  equipment  has  been  tested  for  ESD
+immunity and passes a 4000 volt test, then total charge
+on  product  and  carriers  leaving  this  equipment  should
+be   kept   below   600   nanocoulombs.   Any   product
+transferred  at  this  level  should  not  be  handled  by  other
+equipment  with  a  lower  ESD  immunity.  A  possible
+implementation of this test method is shown in Section
+7, Figure 4.
+7  Apparatus
+7. 1  ESD Damage ó The apparatus for determining the
+ESD damage thresholds for products will depend on the
+test   methods   used.   See   Section   4   for   additional
+information.  For  measuring  the  charge  generated  on
+product,   reticles,   or   carriers,   the   Faraday   Cup   test
+method is shown in Figure 1.
+
+
+SEMI E78-1102 © SEMI 1998, 2002 5
+In
+Ground
+Electrometer
+Faraday
+Cup
+Isolated
+Inner Cup
+Shielding
+Outer Cup
+
+Figure 1
+Faraday Cup Charge Measurement
+
+7. 1.1    The  relationship  between  ESD  simulator  testing
+for product damage and charge measurements using the
+Faraday cup is shown in Figure 2.
+1000
+VOLTS
+DEVICE
+UNDER
+TEST
+ESD
+SIMULATOR
+HBM, MM, CDM
+100 NANOCOULOMB
+DISCHARGE IMMUNITY
+FARADAY
+CUP
+WAFER OR RETICLE CASSETTES
+WAFERS, RETICLES, OR ICs
+LESS THAN 100 NANOCOULOMB
+ALLOWABLE CHARGE LEVEL
+WAFER
+RETICLE
+IC
+
+Figure 2
+ESD Damage Testing
+
+7. 2    The  instrument  used  for  making  electrostatic  field
+measurements  is  known  as  an  electrostatic  fieldmeter.
+Instructions concerning its use should be obtained from
+the   instrument   manufacturer   and   SEMI   E43.   The
+measurement    configuration    shown    in    Figure    3
+illustrates    the    effect    of    the    instrument    on    the
+measurement.   In   most   cases   the   presence   of   the
+fieldmeter  will  increase  both  the  flux  from  the  charged
+surface  and  the  divergence  of  the  electric  field  lines.
+The fieldmeter will generally indicate a higher value of
+electric   field   than   would   be   present   without   the
+fieldmeter.
+7. 3        The    instrumentation    and    test    methods    for
+determining   the   ESD   sensitivity   of   equipment   are
+described  by  IEC  6100-4-2  or  other  acceptable  test
+methods.  The  amount  of  static  charge  determined  by
+this  test  method  is  to  be  compared  with  the  charge
+measured  on  products  and  carriers  with  the  Faraday
+Cup test method. Figure 4 illustrates the two methods.
+
+1999
++  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +
+2. 54 cm
+(1 inch)
+Electrostatic
+Fieldmeter
+(volts/cm)
++  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +
+Charged
+Surface
+Electric Field Lines
+Charged
+Surface
+
+Figure 3
+Electrostatic Field Measurement
+
+
+4000
+VOLTS
+EQUIPMENT
+UNDER
+TEST
+ESD
+SIMULATOR
+600 NANOCOULOMB
+DISCHARGE IMMUNITY
+FARADAY
+CUP
+WAFER CASSETTE
+AND WAFERS
+LESS THAN 600 NANOCOULOMB
+ALLOWABLE CHARGE LEVEL
+
+Figure 4
+ESD Immunity Testing
+
+8  Safety Precautions
+8. 1  Personnel   ó   Static   charges   can   create   safety
+hazards     during     some     semiconductor     production
+processes.   ESA   or   ESD   events   that   result   in   the
+jamming   or   breakage   of   product   in   high   speed
+equipment  may  create  a  personnel  hazard.  ESD  events
+that produce sparks must be prevented in areas that use
+flammable or explosive chemicals or gases. ESD events
+to  personnel  are  usually  not  harmful,  but  they  may
+result  in  an  unwanted  reflex,  or  ìstartleî  reaction.  This
+reflex may create a personnel hazard, particularly in the
+vicinity    of    moving    equipment    or    where    caustic
+chemicals   are   in   use.   It   may   be   necessary   to   use
+additional  static  charge  control  methods,  beyond  those
+used inside the equipment, to minimize these personnel
+hazards.
+8. 2  Measurement   Safety   ó   Users   should   exercise
+caution while making static charge measurements in the
+vicinity of moving parts of production equipment, or in
+areas where static potentials on ungrounded conductors
+may  exceed  30,000  volts.  Refer  to  SEMI  E43  for
+additional measurement safety considerations.
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 6
+9  Test Specimen
+9. 1    The  user  and  equipment  manufacturer  will  need  to
+agree on:
+• The type(s) of testing to be performed,
+• Who will do the testing,
+• The number and type of test samples,
+• The number of measurements, and
+• Acceptable test results.
+9. 2  The operating history of the equipment prior to, or
+during  testing  (e.g.,  warm-up  time,  type  of  carrier,
+number of products processed, operating speed), and all
+appropriate        environmental        conditions        (e.g.,
+temperature,  humidity,  airflow)  should  be  agreed  upon
+and documented.
+10  Preparation of Apparatus
+10. 1    Depending  on  the  type  of  testing  to  be  done,
+consult  the  appropriate  testing  document  for  apparatus
+preparation.   See   Sections   4   and   16   for   additional
+information.
+11  Calibration and Standardization
+11. 1    Depending  on  the  type  of  testing  to  be  done,
+consult  the  appropriate  testing  document  for  apparatus
+calibration  and  verification.  See  Sections  4  and  16  for
+additional information.
+12  Procedures
+12. 1  Refer to Sections 6 and 7 and the appropriate test
+methods of Sections 4 and 16.
+12. 2  ESD Damage
+12. 2.1  Users shall establish product damage thresholds
+for their products. Measurement methods for integrated
+circuits  are  described  in  the  documents  contained  in
+Sections  4  and  16.  Appropriate  measurement  methods
+for  ESD  damage  to  wafers,  reticles,  and  other  items
+may  be  adapted  from  the  instrumentation  used  in  these
+test     methods.     Appendix     A1-2.1     and     Related
+Information   R1-1   contain   additional   information   to
+select  an  appropriate  sensitivity  level  to  reduce  ESD
+damage.
+12. 2.2    Measurement  of  ESD  damage  thresholds  are
+made in units of nanocoulombs (nC = 10
+-9
+coulombs).
+12. 2.3    The  Faraday  Cup  method  is  used  to  determine
+the  static  charge  levels  on  products,  product  carriers
+and  equipment  parts.  Each  item  shall  be  transported  to
+the  Faraday  cup  in  a  way  that  does  not  alter  its  charge
+level.      Consult      the      measurement      equipment
+manufacturerís  instructions  for  recommendations  on
+how to achieve this.
+12. 2.4      Measurements   should   be   made   of   products,
+carriers, and materials in the equipment input/exit ports
+after significant amounts of product have been handled
+under  normal  manufacturing  conditions.  Measurements
+should be made of products and their carriers after they
+have  undergone  normal  processing  in  the  equipment
+under  test.  Typically  five  measurements  of  products
+and/or   carriers   should   be   sufficient   to   demonstrate
+compliance with the selected Sensitivity Level.
+12. 2.5  Measurements should be made on each of three
+successive  days  after  equipment  has  stabilized  in  its
+normal operating mode (e.g., after two hours).
+12. 3  Particle Attraction
+12. 3.1            Users      should      work      with      equipment
+manufacturers  to  determine  ambient  particle  levels  and
+product  exposure  times  during  processing.  Appendix
+A1-2.2    and    Related    Information    R1-2    contain
+information to select an appropriate Sensitivity Level to
+reduce electrostatic attraction of particles.
+12. 3.2    Electrostatic  field  measurements  on  products,
+product  carriers,  and  equipment  surfaces  should  be
+made  in  at  least  three  different  locations  on  any  item.
+Locations  should  be  separated  by  approximately  three
+times  the  distance  between  the  measuring  instrument
+and  the  measurement  location.  For  most  electrostatic
+fieldmeters   measuring   at   25.4   mm   (1   inch),   the
+measurement  locations  will  be  76.2  mm  (3  inches)
+apart.  Refer  to  SEMI  E43  for  additional  measurement
+considerations.  Measurements  of  electrostatic  field  are
+expressed in volts/cm or volts/inch.
+12. 3.3      Measurements   should   be   made   on   products,
+carriers, and materials in the equipment input/exit ports
+after significant amounts of product have been handled
+under  normal  manufacturing  conditions.  Measurements
+should be made of products and their carriers after they
+have  undergone  normal  processing  in  the  equipment
+under  test.  Typically  five  measurements  of  products
+and/or   carriers   should   be   sufficient   to   demonstrate
+compliance with the selected Sensitivity Level.
+12. 3.4  Measurements should be made on each of three
+successive  days  after  equipment  has  stabilized  in  its
+normal operating mode (e.g., after two hours).
+12. 4  Equipment ESD
+12. 4.1  Equipment  manufacturers  should  determine  the
+effects   of   ESD   on   their   equipment   using   an   ESD
+Simulator and the appropriate test methods (IEC 6100-
+4-2  or  others).  Users  should  agree  on  the  types  of
+equipment   interrupts   that   are   acceptable   (if   any).
+Appendix A1-2.3 and Related Information R1-3 contain
+
+
+SEMI E78-1102 © SEMI 1998, 2002 7
+additional    information    to    select    an    appropriate
+sensitivity   level   to   reduce   ESD-related   equipment
+interruptions.
+12. 4.2    Compliance  with  the  desired  Sensitivity  Level
+may  be  demonstrated  using  the  Faraday  Cup  method
+described in Sections 6.4 and 7.3.
+12. 4.3      Measurements   should   be   made   on   products,
+carriers, and materials in the equipment input/exit ports
+after significant amounts of product have been handled
+under  normal  manufacturing  conditions.  Measurements
+should be made of products and their carriers after they
+have  undergone  normal  processing  in  the  equipment
+under  test.  Typically,  five  measurements  of  products
+and/or   carriers   should   be   sufficient   to   demonstrate
+compliance with the selected Sensitivity Level.
+12. 5    Equipment  used  in  semiconductor  manufacturing
+should  meet  the  following  levels  shown  in  Table  1  for
+protection from problems caused by static charge.
+Table 1  Recommended Sensitivity Levels
+Electrostatic
+Discharge
+(Nanocoulombs)
+Particle
+Attraction
+(Volts/cm)
+Equipment
+Malfunction
+(Nanocoulombs)
+Level 4 100 4000 1200
+Level 3 50 400 600
+Level 2 10 200 300
+Level 1 1 100 150
+
+12. 5.1      Sensitivity   Level   4   compliance   means   that
+products, reticles, and carriers can leave the equipment
+with  up  to  the  recommended  amounts  of  static  charge
+or electrostatic field measured on them according to the
+test  method  used.  This  level  essentially  states  that  the
+equipment  is  used  in  a  process  that  has  no  significant
+problems handling charged product, nor are there issues
+associated with contamination or ESD damage.
+12. 5.2  At levels 1, 2, or 3 a decision should be made as
+to  what  is  the  most  serious  static  charge  problem.  The
+Sensitivity    Level    and    test    methods    are    chosen
+accordingly.   The   lower   the   level   of   static   charge
+allowed,    the    more    static    control    measures    the
+equipment manufacturer may need to install.
+12. 5.3  Level 1 may be used primarily by manufacturers
+of  specialized  components  such  as:  gallium  arsenide
+semiconductors  or  magneto-resistive  (MR)  disk  drive
+read heads; those experiencing significant losses due to
+contamination;  or  those  using  specialized  equipment
+with low immunity to ESD or EMI.
+12. 6  The levels listed in Table 1 have been determined
+as  the  result  of  analysis  of  working  conditions,  or
+experiments done in operating semiconductor facilities.
+Justifications  for  these  levels  are  found  in  Appendix  1.
+The actual levels to be used for any piece of production
+equipment  may  be  decided  by  agreement  between  the
+user and manufacturer of the equipment.
+12. 7    Other  levels  may  be  appropriate  under  specific
+equipment conditions and for specific devices.
+13  Calculations
+13. 1    A  series  of  five  measurements  should  be  made.
+The   average   of   the   five   measurements   should   not
+exceed the recommended level.
+14  Reporting Results
+14. 1        Data    records    should    contain    the    following
+information:
+• Description   of   equipment   under   test   including
+model and serial numbers.
+• Description  of  the  equipment  operating  conditions
+and environment.
+• Measurement equipment and last calibration date.
+• Description  of  objects  measured  and  measurement
+locations.
+• Humidity and temperature at measurement location
+when measurements were made.
+• Results of measurements.
+• Personnel making the measurements.
+• Any other relevant comments.
+15  Precision and Accuracy
+15. 1  Accuracy  of  Test  Methods  ó  The  test  methods
+referenced  in  this  document  do  not  guarantee  precise
+measurements    of    static    charge    levels.    Similarly,
+maximum  static  charge  levels  recommended  in  this
+document   are   not   stated   as   precise   requirements.
+Accuracy  of  approximately  ±  20%  is  acceptable  in  all
+measuring  instrumentation.  At  low  static  charge  levels
+or    for    more    accurate    measurements,    alternative
+instrumentation and test methods may need to be used.
+16  Related Documents
+16. 1  EIA/JEDEC Standards
+EIA/JESD22-A114  ó  Electrostatic  Discharge  (ESD)
+Sensitivity Testing Human Body Model (HBM)
+EIA/JESD22-A115  ó  Electrostatic  Discharge  (ESD)
+Sensitivity Testing Machine Model (MM)
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 8
+JESD22-C101A    ó    Field-Induced    Charged-Device
+Model    Test    Method    for    Electrostatic    Discharge
+Withstand Thresholds of Microelectronic Components
+16. 2  Other Documents
+EN   50082   ó   Generic   Immunity   Standard   for   CE
+Compliance, CENELEC European Union
+BS  EN  61000-6-2  ó  Electromagnetic  compatibility
+(EMC)  -  Generic  standards  -    Immunity  for  industrial
+environments - British Standards Institution (BSI).
+3
+
+MIL-STD   883C   ó   Notice   8   ñ   Method   3015.7   ñ
+Electrostatic Discharge Sensitivity Classification
+
+
+3 BSI, 389 Chiswick High Road, GB - LONDON W4 4AL

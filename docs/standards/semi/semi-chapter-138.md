@@ -1,0 +1,3793 @@
+---
+title: "S2-0703a - E © SEMI 1991,..."
+description: "SEMI标准文档"
+sidebar_label: "S2-0703a - E © SEMI 1991,..."
+sidebar_position: 1380
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-138.pdf'
+  chapter: 138
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/138.pdf"
+  pdfSize="0.65MB"
+  title="S2-0703a - E © SEMI 1991,..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 80
+R14-6.1.2  CAT.  4  —  Category  4  (according  to  ISO
+13859-1)
+R14-6.1.3  CPU — Central Processing Unit
+R14-6.1.4  EMO — Emergency Off
+R14-6.1.5  EUC — Equipment Under Control
+R14-6.1.6  FD — Field Device
+R14-6.1.7  FECS  —  Fail-to-Safe  Equipment  Control
+System
+R14-6.1.8  GUI — Graphical User Interface
+R14-6.1.9  I/O — Input/Output
+R14-6.1.10  IFD — Intelligent Field Device
+R14-6.1.11  ISFD — Intelligent Safety Field Device
+R14-6.1.12  PLC — Programmable Logic Controller
+R14-6.1.13  SIL — Safety Integrity Level (according to
+IEC 61508)
+R14-6.1.14  SRM — Safety Relay Module
+R14-6.2  Definitions
+R14-6.2.1  certified  —  Evaluated  and  approved  for  use
+in a particular intended function in conformance with a
+recognized standard by an accredited testing laboratory
+(ATL).
+NOTE 1:  See SEMI S2 for definition of ATL.
+R14-6.2.2  combined I/O — I/O systems of an FECS in
+which    non-safety-related    and   safety-related   signal
+modules are combined. (see Figure R14-2).
+R14-6.2.3  common  cause  failure  —  failure,  which  is
+the  result  of  one  or  more  events,  causing  coincident
+failures  of  two  or  more  separate  channels  in  a  multiple
+channel system, leading to system failure.
+R14-6.2.4  distributed  I/O  —  input/output  modules  for
+sensors and actuators interfacing to a network.
+R14-6.2.5  electrical/electronic/programmable
+electronic  (adj.)  —  based  on  electrical  OR  electronic
+OR programmable electronic technology.
+NOTE  6:  The  term  above  is  intended  to  cover  any  and  all
+devices or systems operating on electrical principles.
+R14-6.2.6  Fail-to-safe  equipment  control  system  —  A
+programmable  system  of  control  circuits  designed  and
+implemented  for  safety-related  functions  in  accordance
+with  internationally  recognized  standards  such  as  ISO
+13849-1 (EN 954-1) or IEC 61508.  These systems (e.g.
+safety   PLC,   safety-related   I/O   modules)   diagnose
+internal  and  external  faults  and  react  upon  detected
+faults  in  a  controlled  manner  in  order  to  bring  the
+equipment to a safe state.
+R14-6.2.7  field device — sensors and actuators such as
+valves  (electrical  or  pneumatic),  temperature  sensors,
+proximity switches, pumps, motors etc.
+R14-6.2.8  functional   safety   —   The   overall   safety
+design related to the EUC and the EUC control system.
+Effective    functional    safety    includes    the    correct
+functioning      of      the      electrical,      electronic,      or
+programmable-electronic  safety-related  systems;  or  on
+other-technology    safety-related    systems    and    may
+include risk reduction measures.
+R14-6.2.9  industrial   controller   —   general   term   for
+controller-technology,  which  includes  PLC  and  PC-
+based technology.
+R14-6.2.10  intelligent   field   device   —   sensors   and
+actuators    that    use    local    intelligence    to    perform
+functions    such    as    communication,    diagnosis    and
+interfacing to a network.
+R14-6.2.11  network     —     general     term     for     bus
+technology, which includes field bus technology used in
+control applications.
+R14-6.2.12  programmable      logic      controller      —
+microprocessor  based  controller  for  sequential  control;
+the  control  logic  of  which  can  be  changed  through  a
+programming  device  connected  to  the  controller,  e.g.
+programming  panel,  host  computer,  handheld  terminal,
+either directly or remotely through a network.
+R14-6.2.13  random    hardware    failure    —    failure,
+occurring  at  a  random  time,  which  results  from  one  or
+more  of  the  possible  degradation  mechanisms  in  the
+hardware.
+R14-6.2.14  safety     function     —     function     to     be
+implemented    by    an    electrical    or    electronic    or
+programmable  electronic  safety-related  system,  other
+technology   safety-related   system   or   external   risk
+reduction  facilities,  which  is  intended  to  achieve  or
+maintain  a  safe  state  for  the  EUC,  in  respect  of  a
+specific hazardous event.
+R14-6.2.15  safety  integrity  —  probability  of  a  safety-
+related  system  satisfactorily  performing  the  required
+safety functions under all the stated conditions within a
+stated period of time.
+R14-6.2.16  safety integrity level (SIL) — discrete level
+(one  out  of  a  possible  four)  for  specifying  the  safety
+integrity  requirements  of  the  safety  functions  to  be
+allocated to the electrical or electronic or programmable
+electronic safety-related systems, where safety integrity
+level  4  has  the  highest  level  of  safety  integrity  and
+safety integrity level 1 has the lowest.
+R14-6.2.17
+safety  network  —  a  network  certified  for
+safety  applications  (this  can  also  be  a  subpart  of  a
+standard network).
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 81
+R14-6.2.18  safety   PLC   —   a   programmable   logic
+controller  and  associated  I/O,  certified  as  having  the
+necessary  safety  integrity  to  execute  the  safety-related
+function.
+R14-6.2.19  safety  relay  (SR)  —-  A  positive  or  force-
+guided  relay,  that  is  used  in  safety  relay  modules
+(SRMs) to achieve a fail-to-safe circuit.
+R14-6.2.20  safety  relay  module  (SRM)  —  redundant
+self  monitoring  electro-mechanical/  solid  state  device
+certified for use in safety applications
+R14-6.2.21  safety-related  I/O  modules  —I/O  modules
+capable  of  diagnosing  internal  and  external  faults  and
+configured  to  be  redundant.  (e.g.,  a  second  shutdown
+path is included for output-circuits).
+R14-6.2.22  safety-related   programmable   system —
+systems designed and implemented for safety functions
+in  accordance  with  ISO  13849  or  IEC  61508.    These
+system   types   (e.g.   safety   PLC,   safety-related   I/O
+modules)  can  diagnose  internal  and  external  faults  and
+can react upon detected faults in a controlled manner.
+R14-6.2.23  safety     requirements     specification     —
+specification  containing  all  the  requirements  of  the
+safety  functions  that  have  to  be  performed  by  the
+safety-related systems.
+R14-6.2.24  solid  state  electronics  —  designation  used
+to  describe  devices  and  circuits  fabricated  from  solid
+materials such as semiconductors, ferrites, or thin films
+as  distinct  from  devices  and  circuits  making  use  of
+electromechanical  technology,  e.g.  solid  state  relay,
+micro controller.
+R14-6.2.25  systematic  failure  —  failure  related  in  a
+deterministic way to a certain cause, which can only be
+eliminated  by  a  modification  of  the  design  or  of  the
+manufacturing      process,      operational      procedures,
+documentation or other relevant factors.
+R14-7  State-of-the-Art Safety Control System
+— Comprised of Solid State Electronics
+R14-7.1  Failure   to   perform   normal   function   (for
+example  a  failure  of  a  computer  or  its  software)  may
+cause  economic  loss,  but  is  not  necessarily  a  safety
+issue.    However,  failure  of  a  safety-related  component
+to   perform   its   safety   function   could   result   in   a
+hazardous  condition.    A  fail-to-safe  system  should  be
+designed  in  a  manner  to  ensure  that  failures  do  not
+result in a hazardous situation.  It is therefore important
+to   perform   a   system   risk   assessment   to   determine
+safety-related  functions  and  the  -  safety  performance
+required.    The  process  outlined  in  following  figure
+should be followed.
+
+
+Figure R14-1
+Roadmap to Risk Assessment and System Design
+
+R14-7.2  Safety       Interlocks       —       Semiconductor
+manufacturing   equipment   requires   the   use   of   fast,
+reliable   and   efficient   means   of   safety   interlocking.
+Important     issues     concerning     complex     machine
+architectures    include    availability    and    diagnostic
+capabilities for quick troubleshooting.
+R14-7.2.1  A  FECS  should,  even  in  the  case  of  failure,
+maintain a safe state of the EUC.  Therefore, a FECS is
+able to detect faults and cause the system to go to a safe
+state.  A properly designed FECS – using methods such
+as  self-monitoring  for  fault  detection  and  subsequent
+well  defined  reaction  –  can  offer  high  availability  and
+diagnostics.
+R14-7.2.2  Section    11.6    of    SEMI    S2    (including
+exceptions   and   notes)   indicates   a   preference   for
+electromechanical  devices  and  components,  and  gives
+guidance      on      their      use.            However,      non-
+electromechanical     devices     and     components     are
+permitted and they can provide necessary risk reduction
+while  maintaining  safety  performance.    Section  11.6,
+Note   26   of   SEMI   S2,   suggests   some   tools   for
+investigation  of  suitability  for  use.    Additionally,  IEC
+61508, ANSI/ISA-SP84.01, and ISO 13849-1 (EN 954-
+1)   provide   guidance   on   the   safety   system   design,
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 82
+assessment    and    maintenance    of    suitable    control
+systems.
+R14-7.2.3  The      usage      conditions      and      safety
+performance  should  be  determined  by  the  finding  of  a
+risk   assessment   as   described   in   SEMI   S10.      Risk
+assessment    results    can    then    be    used    to    define
+appropriate SIL levels and Categories.
+NOTE 7:Emergency Off — Section 12.2.2 of SEMI S2 states
+that  the  EMO  system  should  consist  of  electromechanical
+components.    The  exceptions  give  guidance  to  the  design  of
+EMO   circuits   using   alternative   technologies.      Regional,
+national    or    industry    standards    may    have    additional
+requirements   (e.g.,   USA:   ANSI/NFPA   79,   Europe:   EN
+60204-1).
+R14-7.2.4  Any   deviation   from   the   risk   level   of
+electromechanical  devices  must  be  carefully  evaluated
+(see Section 8 of SEMI S2).
+R14-7.2.5  Compliance  with  Section  12  of  SEMI  S2,
+emergency    shutdown    will    depend    on    the    risk
+assessment allowed in Section 8.3.11 of SEMI S2.
+R14-7.3  Software and Programming
+R14-7.3.1  The  application  software  or  function  blocks
+have to be verified before being used in an FECS.  The
+automation   supplier   usually   provides   a   range   of
+approved software blocks.
+R14-7.3.2  Access  for  programming  of  safety-related
+functions   should   be   restricted   within   the   FECS   to
+trained people.
+R14-7.3.3  To    program    or    modify    safety-related
+programs  or  parts  of  it,  specially  trained  or  qualified
+personnel   are   required.      Any   changes   must   be
+documented and stored within the file history.
+R14-8  Philosophy and General Concept
+R14-8.1  Introduction — An    automated    machine
+system mainly comprises components such as industrial
+controller,   drives,   I/O   etc.      The   level   of   safety
+performance  of  equipment  can  differ  depending  on  the
+particular  application  of  FECS.    However,  irrespective
+of    the    particular    application,    the    FECS    always
+comprises   a   series   of   sensors,   logic   elements   and
+actuators for safe shutdown or a motion into a safe and
+stable machine state.
+R14-8.1.1  The term FECS according to IEC 61508 Part
+2,  is  equivalent  to  the  terms  SIS  (safety  instrumented
+system)   or   SRS   (safety   related   system)   in   other
+application   areas.      The   examples   in   this   Related
+Information  show  some  possible  architectures  of  the
+logic system.  Sensors, final elements and software are
+discussed  in  this  Related  Information.    Application
+handbooks  from  automation  suppliers  provide  users
+with   valuable   information   on   how   to   use   these
+components    in    order    to    achieve    a    fail-to-safe,
+equipment control system.
+R14-8.1.2  For   traditional   semiconductor   equipment,
+non-safety-related  and  safety-related  technology,  are
+separated.  In many cases non-safety-related and safety-
+related    technology    are    linked,    so    that    signals
+representing  diagnostics,  enable,  and  feedback  can  be
+exchanged.
+R14-8.1.3  Main     Characteristics     of     Architecture
+Concepts
+
+# 1
+
+1. Fail-to-safe equipment control system with
+conventional hardwired safety technology.
+
+# 2
+
+2. Fail-to-safe equipment control system with
+separation between fail-to-safe and standard
+network technology.
+
+# 3
+
+3. Fail-to-safe equipment control systems with
+combined network technology for transmission
+of fail-to-safe and standard data on a single
+medium.
+
+# 4
+
+4. Redundancy can be used in all concepts to
+increase availability.  Different redundancy
+concepts are in use (see R14-Section 9).
+
+# 5
+
+5. Visualization on the standard control part and
+on the fail-to-safe part can be realized with
+various interfaces on the standard part and on
+the fail-to-safe part.
+R14-8.2  Design of Architecture and Components
+R14-8.2.1  Possible Application Areas
+1. Semiconductor manufacturing industry
+2. Guarding of people, machines, environment
+and industrial processes
+• Emergency stop functions,
+• Emergency off functions,
+• Emergency shutdown functions,
+• Light gates,
+• Guard doors,
+• Scanners,
+• Motion control with safety functions,
+• Motor control with safety functions,
+• Process valves with safety functions, and
+• Process monitoring using safety-related interlocks.
+R14-8.2.2  Safety-related Equipment Control System —
+The   design   of   FECS   should   be   carried   out   in
+accordance with IEC 61508 and applicable parts of the
+other  referenced  standards.    The  safety  controller  is
+used    to    control    (open-loop)    processes    that    can
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 83
+immediately   achieve   a   safe   condition.      An   FECS
+consists of sensors, logic systems and final elements as
+shown   in   Section   R14-11.      Replacing   an   existing
+electromechanical  system  with  a  safety  controller  does
+not  provide  a  safe  system.    Sensors  and  final  elements
+have to be considered as well.
+R14-8.2.3  Safety  Requirements – The  FECS  should  be
+suitable  for  SIL1  to  SIL3  safety  integrity  level  in
+compliance with IEC 61508 or control categories 2 to 4
+in  compliance  with  ISO  13849-1  (EN  954-1).    The
+required   safety   performance   requirements   will   be
+determined  in  the  system  safety  risk  assessment.    For
+application  assessment,  local  authorities  and  notified
+bodies    should    request    a    safety    handbook    and
+certification  according  to  IEC  61508  or  ISO  13849.
+The safety-related system and its components should be
+validated  to  ensure  it  fulfills  the  safety  requirements
+(SIL, CAT) determined from the risk analysis.
+R14-8.2.4  Principle  Of  The  Safety  Functions  —  The
+FECS executes safety functions to bring the equipment
+into  a  safe  state  or  to  maintain  it  in  a  safe  condition
+when a hazardous event occurs.  The safety function for
+a production process can be realized using a user safety
+function or a fault response function.  The safe state can
+be achieved by de-energizing the output modules.
+R14-8.2.5  Communications  —  Non-safety-related  and
+safety-related  communications  between  an  industrial
+controller   and   I/O   modules   should   pass   through   a
+standard network system or a safety network system in
+sequence  or  through  a  combined  network  system  (see
+Figures  R14-2-R14-7).    Bridges,  routers  and  repeaters
+can  be  used  in  either  standard  networks  or  in  safety
+networks   to   adapt   the   network   topology   to   the
+individual layout of production process and equipment.
+R14-8.3  Basic  Topologies  —  Sections  7.3.1  through
+7. 3.3 describe examples of network-based architectures
+that  are  capable  of  achieving  a  FECS.    The  suppliers
+should  take  into  account  performance,  timing,  ease  of
+use,  and  other  factors  when  selecting  an  architecture
+type.
+NOTE  8:  These  examples  are  not  represented  to  be  all-
+inclusive.
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 84
+R14-8.3.1  Use  of  Fail-to-safe  Equipment  Control  Systems  with  Conventional  Safety  Technology  —  Equipment
+manufacturers can achieve functional safety by the use of hardwired circuits.  Such hardwired circuits are realized
+with terminals, electromechanical or electronic safety relays, and contactors.  The relays would be certified for use
+in  CAT  4  applications  according  to  ISO  13849.    In  Figure  R14-2,  a  standard  industrial  controller  is  used  with
+standard I/O over a standard network to provide for the non-safety aspects of the machine and to provide diagnostics
+and visualization of the hardwired safety functions.
+
+
+Figure R14-2
+Fail-to-safe Equipment Control System with Conventional Safety Technology
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 85
+R14-8.3.1.1    Use  of  Fail-to-safe  Equipment  Control  Systems  with  Dual  Networks  for  Standard  and  Fail-to-safe
+Communications and Combined Controllers — Figures R14-3 and R14-4 are dual network systems with control of
+the non-safety functions remaining the same as in Fail-to-safe Equipment Control Systems with Conventional Safety
+Technology.    Safety  functions,  however,  are  achieved  using  FECS  with  safety-related  information  and  control
+managed over a separate dedicated safety network.
+
+
+Figure R14-3
+Fail-To-Safe Equipment Control System with Dual Network for Standard and Fail-To-Safe Communication
+and Separated Standard and Safety Controllers
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 86
+
+Figure R14-4
+Fail-To-Safe Equipment Control System with Dual Network for Standard and Fail-To-Safe Communication
+and Combined Controller
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 87
+R14-8.3.2  Fail-to-safe   Equipment   Control   System   With   Combined   Network   For   Standard   And   Fail-to-safe
+Communication — In Figures R14-5 and R14-6 the standard network and safety network have been combined into
+one  physical  network.    The  standard  controller  and  the  safety  controller  can  physically  be  consolidated  into  one
+single unit.  A combined network system is composed of technology that allows the non-safety-related and safety-
+related  communication  to  function  on  the  same  bus  cable.    Standard  I/O,  safety  I/O  and  combined  standard/safety
+I/O can all connect to the network.
+
+
+Figure R14-5
+Fail-To-Safe Equipment Control System with Combined Network for Standard and Fail-To-Safe
+Communication and Combined Controller
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 88
+
+Figure R14-6
+Fail-To-Safe Equipment Control System with Combined Network for Standard and Fail-To-Safe
+Communication and Separated Controller
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 89
+R14-8.3.3  Fault Tolerant Equipment Control System With High Availability And Redundant Network — In Figures
+R14-2  through  R14-6,  the  FECS  enters  a  safe-state  condition  if  a  failure  should  occur;  however,  the  production
+process  would  be  interrupted.    In  order  to  increase  the  availability  of  the  automation  system  and  therefore  avoid
+process downtime resulting from control system faults as well as faults and errors of components such as the power
+supply, the industrial controller, the network connection, and the I/O modules need to be made redundant.  Possible
+architectures (see Figure R14-7) for achieving high availability include 2 oo 2, 2 oo 3, 2 oo 4, etc. (see R14-Section
+9).  Using fail-to-safe and high availability systems, injury to people or environmental damage can be prevented and
+the production process can be continued without interruption.
+
+
+Figure R14-7
+Fault-Tolerant Equipment Control System with High Availability FECS and Redundant Network
+R14-9  Guide to Assessment and Test Methods
+R14-9.1  Assessment  and  testing  of  an  electronic  system  (especially  programmable  systems)  for  safety  integrity
+levels (SIL) according to IEC 61508/ANSI/ISA-84.01 or risk categories according to ISO 13849-1 (EN 954-1) is a
+complex  and  time  consuming  task,  requiring  a  considerable  level  of  knowledge  and  expertise.    The  use  of
+components  such  as  safety  PLCs  and  safety  networks,  that  are  certified  by  third  parties  for  use  in  systems,  and
+include specific SILs and risk categories, simplifies the process of assessing the whole system.
+NOTE  9:  Certified  (or  listed)  components  need  to  be  certified  for  functional  safety  use  in  safety  critical  systems.    The  final
+integrated  system  should  be  fully  assessed;  using  tools  such  as  IEC  61508/ANSI/ISA-84.01  or  ISO  13849-1  (EN954-1).
+Assessments can often simplified by using combinations of certified components or FECS.
+R14-9.2  Commissioning and Site Approval — Commissioning and site approval as described in IEC 61508 may be
+confusing and therefore the following criteria are necessary for understanding:
+R14-9.2.1  Safety-related components should meet the safety requirements defined during the risk analysis.
+NOTE  10:  Use  of  Notified  Bodies,  ATLs  or  a  Professional  Engineer  to  perform  system  assessment,  type  approval/site
+approval/commissioning of electronic components and for machinery with industrial controllers is defined by the jurisdiction of
+use.
+R14-9.2.2  During  control  system  commissioning,  all  relevant  documentation  of  the  pre-inspection  should  be
+available.  A pre-inspection usually is the first phase of a control system commissioning.
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 90
+R14-9.2.3  During     pre-inspection,     control     system
+commissioning protocols should be prepared.
+R14-9.2.4  If  a  safety  analysis  or  safety  case  has  been
+prepared  for  the  specific  installation,  all  documents
+regarding this activity should be made available.
+R14-9.2.5  Whether a safety analysis or safety case has
+been    prepared    or    not,    a    directory    of    available
+documents should be generated.
+R14-9.2.5.1  This  list  should  include  the  titles,  dates
+and number of pages of all documents.
+R14-9.2.5.1.1  If possible, all documents should also be
+available in electronic form.
+R14-9.2.5.2  The documentation should include:
+a. Safety Specification (if possible as formal
+specification),
+b. Top-level diagram of the application (1 or 2
+pages),
+c. Technical implementation (e.g. block, flow
+and timing diagrams),
+d. Explanation of separation between safety
+critical and not safety critical parts of the
+application,
+e. Safety handbooks of the system components
+(safety handbooks of the safety controllers,
+sensors and actuators),
+f. Description of interfaces,
+g. Specification of all safety relevant program
+parts,
+h. I/O documentation,
+i. Software program documentation,
+j. Wiring documents,
+k. Diagram and listing of the interaction
+between input- and output-data (e.g. safety
+matrix, cause-effect diagrams or comparable
+documents),
+l. Cross reference listing,
+m. Source programs on storage medium, and
+n. Description of the procedure to verify, that
+the documentation, respectively the files on
+the storage medium, are identical to the
+programs in the application (upload verify,
+CRC checksums, or comparable).
+R14-10  Safety Performance
+R14-10.1  For  details  on  how  to  achieve  the  necessary
+safety system requirements, see ISO 13849.
+NOTE  11:  An  update  of  document  IEC  62061  is  currently
+under  preparation,  and  it  should  be  consulted  for  further
+details.
+R14-11  Application Examples
+R14-11.1  Safety    is    important    in    semiconductor
+equipment  (especially  in  the  area  of  wafer  fabrication)
+where toxic media (e.g. gases or chemicals), high-speed
+motion,  or  lasers  may  be  present.    The  following  are
+examples  of  some  wafer  fabrication  equipment  which
+could be adapted to a FECS:
+a. CVD
+b. Cleaning Equipment
+c. CMP
+d. Diffusion/Oxidation
+e. Dry Etch Systems
+f. Epitaxy
+g. Ion Implantation
+h. Lithography
+i. Physical Vapor Deposition
+j. Vacuum Deposition
+k. Wet Etch Systems
+R14-12  Related Documents
+R14-12.1  DIN V VDE Standards
+24
+
+DIN V VDE 19250 — Control Technology; Functional
+Safety Aspects to be Considered for Measurement and
+Control Equipment
+
+
+
+24 VDE-Verlag GmbH, Bismarkstrasse 33, 10625 Berlin, Germany,
+www.vde.de
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 91
+RELATED INFORMATION 15
+ADDITIONAL CONSIDERATIONS FOR FIRE SUPPRESSION SYSTEMS
+NOTICE:  This related information is not an official part of SEMI S2.  It was derived from editorial work by the
+Fire Protection Task Force.  This related information was approved for publication by Technical Ballot and formal
+adjudication as an Effective date line item on March 18, 2004.
+R15-1  Introduction
+R15-1.1  Preventing      discharges      from      occurring
+accidentally and ensuring that systems are able to fulfill
+their intended function requires attention to detail from
+the   specification   of   the   system,   through   design,
+installation  and  commissioning  and  then  through  on-
+going maintenance.
+R15-1.2  The following information is intended to assist
+stakeholders   involved   in   the   process   of   designing,
+installing,     and     maintaining     fire     protection     of
+semiconductor   manufacturing   equipment.      Further
+information   can   be   found   in   the   appropriate   fire
+protection codes and standards applicable to the type of
+fire protection system and in related documents.
+NOTE 1:  The    term    “fire    suppression”    is    limited    to
+extinguishing   fire,   once   it   has   begun.      The   term   “fire
+protection”  incorporates  fire  suppression  and  other  means  of
+mitigating   the   risk   of   fires,   including   fire   detection   and
+materials selection.
+R15-1.3  The    use    of    contractors    with    previous
+experience   in   the   design   and   installation   of   fire
+protection      of      cleanrooms      and      semiconductor
+manufacturing equipment is desirable.
+R15-1.4  Independent    third    party    review    of    fire
+protection designs and installations by a fire protection
+engineer  with  relevant  experience  can  also  help  to
+ensure that systems are correctly designed and installed.
+NOTE 2:  The   material   in   this   Related   Information   is
+presented  as  additional  guidance  in  designing,  installing,  and
+maintaining    fire    protection    systems    in    semiconductor
+manufacturing   equipment.      Although   this   information   is
+believed to be useful in optimizing such systems, the material
+in  this  Related  Information  does  not  comprise  additional
+criteria  for  determining  conformance  to  the  provisions  of
+SEMI S2 or SEMI S14.
+R15-2  Design Review
+R15-2.1  Ensure that system proposed uses approved or
+listed  components  and  that  they  are  used  within  their
+listing  or  approval,  e.g.,  FM  Approved  wet  bench  fire
+suppression systems should be used for open-faced wet
+bench  whereas  an  enclosed  tool  can  use  a  system
+comprising of FM approved & compatible components.
+R15-2.2  Detection  needs  to  be  selected  to  suit  the
+working environment and the type of fire/smoke that is
+anticipated.    For  example,  optical  detectors  need  to
+have   been   tested   and   approved/listed   for   use   with
+specific flammable liquids or gases. Flames and smoke
+from    burning    materials    have    varying    physical
+characteristics which mean that some detection devices
+will not always react promptly.
+R15-2.3  The location of detection devices in relation to
+hazards  needs  to  be  carefully  considered.    A  detector
+that  is  located  too  close  to  a  heat  source  may  activate
+when  it  sees  normal  process  conditions  rather  than  fire
+conditions.
+R15-2.4  Some     optical     detectors     may     also     be
+susceptible  to  accidental  activation  if  they  are  exposed
+to welding flashes.  Care in detector selection can avoid
+this,   but   implementing   strict   cutting   and   welding
+working  practices  and  permissions  can  also  play  an
+important part.
+R15-3  Installation Review
+R15-3.1  Once    completed    by    the    fire    protection
+installer,   the   fire   protection   installation   should   be
+inspected    and    reviewed    by    a    competent    and
+experienced fire protection engineer.  This review will:
+R15-3.1.1  Verify     installation     against     previously
+working drawings.
+R15-3.1.2  Ensure  that  specified  equipment  has  been
+installed  as  indicated  on  the  working  drawings  and  in
+line with equipment approvals and listings.
+R15-3.2  Distribution   pipework   networks   should   be
+complete     (including     all     connections),     properly
+supported    using    listed    and    approved    equipment.
+Frequent   failures   of   piped   systems,   including   CO
+2
+
+systems,  occur  due  to  incorrectly  connected  pipes  or
+where   fittings   have   not   been   made   or   sufficiently
+tightened.
+R15-3.3  Supports   for   pipework   should   be   able   to
+withstand  the  expected  forces  that  will  be  experienced
+during  discharge  of  the  suppression  system.    This  is
+important   to   protect   personnel   and   property   from
+moving  pipes  in  high-pressure  systems  using  agents
+such as carbon dioxide.
+R15-3.4  Detection  systems  should  have  components
+installed  as  per  reviewed  drawings,  however  it  is  not
+always   possible   during   desktop   drawing   review   to
+identify  that  detectors  are  correctly  sited.    As  a  result,
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 92
+the  field  review  should  concentrate  on  ensuring  that
+components are located so that they can see the hazard
+without   obstruction,   including   clear   vision   panels,
+which may prevent detector from “seeing” the flame.
+R15-3.5  Similarly,  detectors  need  to  be  sited  so  that
+they  will  not  experience  normal  process  temperatures,
+radiation  or  be  exposed  to  chemical,  liquid  or  particles
+that could result in an accidental activation.
+R15-3.6  Where  linear  heat  detection  cable  is  used  it
+should be located where it will not be exposed to levels
+of ambient or process related heat that could trigger an
+alarm  signal.    In  addition,  the  cable  should  be  securely
+attached   to   prevent   it   dislodging   and   coming   into
+contact with hot surfaces.
+R15-3.7  Nozzle locations in many suppression systems
+can  be  critical  to  ensuring  functionality,  reliability  and
+safety.        For    example,    CO
+2
+nozzles    incorrectly
+positioned    can    result    in    chemical    splashing    or
+dislodging   product   or   quartzware.      If   nozzles   are
+exposed    to    chemical    action    including    corrosive
+chemicals, it is important that the materials are resistant
+to the chemical
+R15-3.8  Where automatic sprinkler heads are used, the
+fusible   link   should   be   adequately   protected   from
+chemical and mechanical attack.
+R15-4  Commissioning Tests
+R15-4.1  All  installations  should  undergo  a  thorough
+commissioning  and  acceptance  test  conducted  by  the
+installer   and   witnessed   by   the   owner   or   owner’s
+representative.
+R15-4.2  Functional    Tests    are    essential,    but    not
+sufficient  to  ensure  that  system  will  operate  as  in
+tended.  The types of problems that can be picked up by
+functional testing are:
+R15-4.2.1  Inability  of  detection  system  to  detect  as
+intended,
+R15-4.2.2  Inability  of  control  system  to  receive  signal
+from individual detectors, and
+R15-4.2.3  Inability  of  alarm  panel  to  initiate  system
+discharge  or  send  alarm  signals  to  connected  devices
+and safety systems, e.g.,
+• local or remote alarm panels,
+• sounders & warning devices, and
+• interlocks   to   equipment   shutdown   and   safety
+systems, EMO.
+R15-4.3  Discharge Testing is the only way that we can
+ensure   that   that   a   system   will   fulfill   its   intended
+function.  The types of problems that can be picked up
+by discharge testing are:
+R15-4.3.1  Lack of extinguishing agent
+R15-4.3.2  Inability  to  transfer  agent  from  supply  to
+nozzles due to:
+• Blockages arising from incorrect equipment,
+• Incomplete piping, loose fittings & supports, and
+• Installation, design problems (e.g., icing up of CO
+2
+
+pipes or nozzles).
+R15-4.4  In  many  cases  discharge  testing  within  the
+cleanroom environment is not considered acceptable or
+practical.  Accordingly, alternatives such as type testing
+can  prove  that  the  design  will  provide  the  necessary
+protection, but may need to be supplemented by a more
+rigorous  commissioning  test  of  the  final  systems.  Type
+testing  would  involve  the  installation  and  discharge
+testing of a system on a tool during manufacture or on a
+mock  up  of  the  tool.    The  aim  would  be  to  prove  that
+distribution  pipework  and  nozzles  have  been  correctly
+designed   and   that   the   concentration   of   agents   and
+distribution  patterns  from  nozzles  is  acceptable.    This
+would  be  supplemented  by  additional  tests  on  each
+installation,  including  pressure  tests  of  pipework  and
+“puff” tests to verify pipework integrity.
+R15-5  Burn In
+R15-5.1  In  order  to  avoid  unnecessary  discharges,  a
+period  of  burn-in  for  the  detection  system  is  advisable.
+This  involves  the  detection  system  operating,  enabling
+detection  of  fires  and  initiation  of  alarms,  but  the
+detection  is  not  interlocked  to  shut  down  the  process
+equipment or initiate a discharge.
+R15-5.2  A period of days or weeks may be appropriate
+depending  on  the  effect  of  an  accidental  activation  of
+the   system   in   terms   of   interruption   to   processing,
+damage     to     product     or     contamination     of     the
+environment.
+R15-6  Maintenance & Servicing
+R15-6.1  Once systems are installed and commissioned
+it    is    important    that    the    routine    inspection    and
+maintenance        procedures        recommended        by
+manufacturers   and   those   required   by   codes   and
+standards, are adequately implemented.
+R15-6.2  The  inspection  frequencies  may  need  to  be
+modified if the ambient conditions can adversely affect
+the  protection  systems.    For  example,  sprinkler  heads
+protecting corrosive fume exhaust ducts may need to be
+inspected   weekly   or   monthly   until   the   appropriate
+frequency for that particular system can be determined.
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 93
+R15-6.3  Annual  and  semi-annual  maintenance  should
+be  carried  out  by  competent  personnel  with  adequate
+training for the tasks in hand.
+
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 94
+DELAYED REVISIONS SECTION 1 (EFFECTIVE JULY 1, 2006)
+LASER MODIFICATIONS TO SEMI S2
+NOTICE:  This  Delayed  Revisions  Section  contains  material  that  has  been  balloted  and  approved  by  the
+SEMI Environmental Health and Safety Committee, but is not immediately effective.  The provisions of this
+material are not an authoritative part of the document until their effective date.  The main body of SEMI S2-
+0703  remains  the  authoritative  version.    Some  or  all  of  the  provisions  of  revisions  not  yet  in  effect  may
+optionally  be  applied  prior  to  the  effective  date,  providing  they  do  not  conflict  with  portions  of  the
+authoritative version other than those that are to be revised or replaced as part of the deferred revision, and
+are labeled accordingly.
+NOTICE:  Unless otherwise noted, all material to be added shall be underlined
+, and all material to be deleted shall
+be struck through
+.
+D1-1  Revisions to Section 4 (Referenced Standards) — OPTIONAL Before Effective Date
+D1-1.1  Addition of the following in alphanumeric order to Section 4.5 (IEC Standards):
+IEC 60825-1 — Safety of Laser Products, Part 1: Equipment Classification, Requirements, and User’s Guide
+
+D1-1.2  Addition of the following in alphanumeric order to Section 4:
+4. #  US Code of Federal Regulations
+25
+
+21CFR  Parts  1000-1050  —  Food  and  Drug  Administration  /  Center  for  Devices  and  Radiological  Health
+(FDA/CDRH),  Performance  Standards  for  Electronic  Products,  Title  21  Code  of  Federal  Regulations,  Parts  1000-
+1050
+D1-2  Revisions to Section 5 (Terminology) — OPTIONAL Before Effective Date
+D1-2.1  Addition of the following in alphabetical order to Section 5.1 (Abbreviations & Acronyms):
+5. 1.#  MPE — maximum permissible exposure
+
+5. 1.#  NOHD — nominal ocular hazard distance
+
+D1-2.2  Addition of the following in alphabetical order to Section 5.2 (Definitions):
+5. 2.#    maximum  permissible  exposure  (MPE)  –  Level  of  laser  radiation  to  which,  under  normal  circumstances,
+persons may be exposed without suffering adverse effects.
+5. 2.#  nominal ocular hazard distance (NOHD) – Distance at which the beam irradiance or radiant exposure equals
+the appropriate corneal maximum permissible exposure (MPE).
+D1-3  Revisions to Section 26 (Lasers) — OPTIONAL Before Effective Date
+D1-3.1  Revision of the existing Section 26 (Lasers) as shown below:
+26         Lasers
+26. 1  Equipment  containing  lasers
+should  be  properly  identified  with  a  laser  product  classification.    This
+classification  should  be  based  on  the  laser  radiation  level  energy  accessible  during  operation,  per  the  applicable
+standard or regulation.  The laser product classification, applicable standard, and the certification file number (where
+appropriate) should be documented on a Laser Data Sheet (format in Part 1 of Appendix 7) that is provided to the
+user.
+NOTE122:  A Class 1 label may be required in some jurisdictions, but is not currently required in the United States.
+26. 1.1 The  laser  energy  (or  power),  wavelength,  and  temporal  mode  (continuous  wave  or  pulsed)  should  be
+identified in the documentation to the user.
+
+
+25  United States Food and Drug Administration/ Center for Devices and Radiological Health (FDA/CDRH).  Available from FDA/CDRH
+Website:  http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 95
+26. 1.1.1    If  pulsed,  the  pulse  repetition  rate,  pulse  duration  and  description  of  the  pulse  waveform  should  be
+identified in the documentation provided to the user.
+26. 1.1.2    For  Class  3b  or  4  embedded  laser  systems,
+the  above  information  and  the  physical  location  of  the  laser
+sources  within  the  product  should  be  identified  in  the  documentation  provided  to  the  user  and  in  the  maintenance
+manual.
+26. 1.1    As  an  alternative  to  completing  a  Laser  Data  Sheet,  the  equipment  manufacturer  may  provide  the
+information that is specified on the Laser Data Sheet in another format.  The information should be organized so the
+user can easily read and understand it.
+26. 1.2    Equipment  should  not  exceed  the  laser  product  classification  of  Class  2;  however,  individual  lasers  may
+exceed this classification prior to integration into the final equipment assembly.
+26. 1.3    Equipment  and  lasers  should  be  labeled  according  to  the  appropriate  standards  (e.g.,  IEC  60825-1,  21CFR
+1040. 10).
+NOTE 1:  A Class 1 product label may be is required in some jurisdictions. but is not currently required in the United States.
+NOTE 2:  The laser product classification for some equipment is
+will be Class 1 or 2, even though an embedded laser is of higher
+hazard classification.
+26. 1.4    Equipment  suppliers  should  provide  maintenance  or  service  task  information  in  the  documents  provided  to
+users for equipment that requires access to laser radiation in excess of the maximum permissible exposure (MPE).
+26. 1.4.1    The  information  for  these  tasks  should  be  documented  on  a  Laser  Data  Sheet  (See  Appendix  7)  in  the
+documents  provided  to  users  and  should  include  the  accessible  laser  and  beam  parameters  (A7-2),  laser  control
+measures (A7-3) and personal protective equipment (A7-4) for each laser or task requiring this access.
+EXCEPTION:      In  the  case  of  proprietary  beam  parameters,  an  acceptable  alternative  is  to  provide  the  nominal
+ocular  hazard  distance  (NOHD)  results  (according  to  IEC  60825  or  its  equivalent)  for  each  task  requiring  access
+above the MPE.
+EXCEPTION: If a laser system is a stand-alone laser product delivered as a component or spare for laser
+equipment, the laser system supplier’s responsibility for Laser Data Sheet information is limited to that which
+applies specifically to the stand-alone laser product and not the integrated laser equipment.
+26. 1.5    The  physical  location  of  the  embedded  laser  sources  and  access  points  within  the  laser  product  should  be
+identified in the documents provided to users.
+26. 2  Equipment, including beam diagnostic or alignment tools, should be designed to prevent injury from all lasers
+during normal operation, and should minimize the risk of injury during maintenance or service.  Potential exposures
+should be controlled in the following order of preference:
+26. 2.1  Engineering controls (e.g., enclosures, shielding, filters, use of fiber optics to transmit energy, interlocks).
+26. 2.2  Temporary enclosures or control measures for maintenance, service, and non-routine tasks.
+26. 2.3  Administrative controls (e.g., written warnings, standard operating procedures, labeling).
+26. 2.4  Personnel protective equipment.
+NOTE 3:  Temporary  enclosures  and  personal  protective  equipment  are  considered  to  be  administrative  controls,  because  they
+require human action to implement.
+NOTE 4:  Certain  classes  of  laser  products  are  regulated  around  the  world.    Regulations  and  licensing  requirements  may  cover
+activities such as importing, exporting, distributing, demonstrating, installing, servicing, and using these laser products.
+26. 3  The equipment supplier should provide the following in the operation and maintenance manuals:
+• A  description  of  laser  related  hazards  present  during  operation,  maintenance,  or  service,  and  methods  to
+minimize the hazard;
+• Justification for any procedures that require a laser controlled area and the dimensions of this hazard zone;
+• Administrative controls used in maintenance and service activities; and
+• A description of the necessary personal protective equipment.
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 96
+26. 4  The following detailed information should be available to an evaluator:
+• Justification  for  when  engineering  controls  are  not  feasible  to  limit  exposure  during  operation  or  maintenance
+tasks, and how administrative controls provide equivalent protection (See Section 26.2); and
+• Documentation showing compliance with an appropriate international laser product safety or industry standard,
+or the national standard of the country of use.
+D1-4  Addition of Appendix 7 (Laser Data Sheet – SEMI S2) — OPTIONAL Before Effective Date
+D1-4  Addition of the following as Appendix 7 (Laser Data Sheet – SEMI S2):
+APPENDIX 7
+Laser Data Sheet – SEMI S2
+
+A7-1  Equipment Information - (All Laser Product Classes)
+Laser Equipment Manufacturer ____________________________________________________
+
+Equipment Model # ________________________
+
+Date Laser Data Sheet Completed   ________________
+
+Laser Product Classification  ____________     (e.g., 1, 1M, 2, 2M, 3A, 3R, 3B, 4)
+
+Classification Standard(s)   ____________     (e.g., IEC, FDA/CDRH, JIS)
+
+Certification File Identification Number ______________(e.g., CDRH accession number, or if CDRH accession
+number  has  been  applied  for,  but  not  yet  received,  a  statement  of  ‘pending’  along  with  the  submittal  date  may  be
+used instead.  If self declaring under IEC 60825-1 or if certification is not required, e.g., if class 1 laser product is
+incorporated without changes, then ‘N/A’ may be used)
+A7-2  Laser Information  (Greater than Class 2 & embedded Class 3R (3A), 3B & 4)
+
+Is access to laser radiation above the maximum permissible exposure (MPE) level     YES       NO
+
+required during maintenance or service tasks?       ____     _____
+
+If NO, then the information in Parts A7-2, A7-3 and A7-4 need not be provided.
+
+If YES, complete the information in Parts A7-2, A7-3 and A7-4 for each task and laser that requires access.
+
+If there are multiple lasers contained within the laser equipment, provide the following for each task/laser
+combination that meets the above criteria.
+Laser              Parameters                                                                                    Laser              ___1___,              ___2___,              __etc.__
+
+Laser              Manufacturer                                                                                                  _______,              _______,              _______
+
+Laser              Model              No.                                                                                                                              _______,              _______,              _______
+
+A7-2.1  Laser Medium Type (HeNe, Nd:YAG, Argon, KrF, Diode, etc.) _______, _______, _______
+
+A7-2.2  Wavelength(s)              in              nanometers              (nm)                                                                      _______,              _______,              _______
+
+A7-2.3  Laser Hazard Classification (individual laser)    _______, _______, _______
+
+NOTE 3:  If a laser is used in both continuous wave and pulsed modes, complete both A7-2.4 and A7-2.5.
+A7-2.4  Continuous Wave Lasers
+A.              Power              in              Watts              (W)                                                                      _______,              _______,              _______
+
+B. Irradiance in Watts/square centimeter (W/cm
+2
+at aperture) _______, _______, _______
+A7-2.5  Pulsed Laser Characteristics
+
+A.              Pulse              Duration              in              Seconds              (s)                                                        _______,              _______,              _______
+
+B. Energy per Pulse in Joules (J)    _______, _______, _______
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 97
+C. Pulse Repetition Frequency in Hertz (Hz)   _______, _______, _______
+D.              Average              Power              in              Watts              (W)                                                        _______,              _______,              _______
+
+E. Radiant Exposure Joules/square centimeter (J/cm
+2
+)          _______,     _______,     _______
+F. Q-Switch controlled pulses  (Yes/No)  _______, _______, _______
+
+A7-2.6  Beam Parameters at maintenance or service access points
+
+Exception:    In the case of proprietary information, an acceptable alternative to providing the Beam
+Parameters is to provide NOHD results for each access point according to IEC 60825 or equivalent.
+A. Beam shape  Circular (C), Rectangular (R), Elliptical (E)  _______, _______, _______
+
+B. Beam size (mm)  Major axis (R/E) or diameter (C)      _______, _______, _______
+
+Minor              axis              (R/E)                                                                      _______,              _______,              _______
+
+Laser              Parameters                                                                                    Laser              ___1___,              ___2___,              __etc.__
+
+C. Beam divergence in milliradians (mr)
+
+Major axis (R/E) or diameter (C)     _______, _______, _______
+
+Minor axis (R/E)    _______, _______, _______
+
+D. Focal length in millimeters (mm)    (of the emitting lens)
+
+Major axis (R/E) or diameter (C)     _______, _______, _______
+
+Minor axis (R/E)    _______, _______, _______
+
+E. Is there a collecting optics hazard?  (Yes/No)  _______, _______, _______
+
+A7-3  Laser Control Measures
+
+A7-3.1  Specify   maintenance/service   tasks   requiring   access   to   laser   radiation   in   excess   of   the   MPE   and
+recommended laser control measures.
+A.              Task              1              ________________________________________________________________
+
+B.              Task              2              ________________________________________________________________
+
+C.              Etc.              ________________________________________________________________
+
+Note  1:    Suppliers  may  alternately  provide  a  reference  to  laser  control  measures  information  that  is  located  in  a  document
+available to users.
+A7-3.2  Of the tasks in A7-3.1, which tasks need a Laser Controlled Area (for Class 3b or 4 lasers)?
+_______________________________________________________________________________
+
+A7-3.3  If  a  nominal  ocular  hazard  distance  (NOHD)  is  used  as  a  control  measure,  then  provide  the  NOHD
+calculations and assumptions.  See IEC 60825-1 for NOHD calculations.
+Exception:  If  specific  information  required  by  A7-2.6  is  proprietary,  suppliers  may  provide  the  NOHD  results  and
+an explanation of the assumptions made.
+A7-3.4  Include a beam path diagram identifying the accessible points.
+
+NOTE 1:  A description of the access points from the exterior of the tool can be considered equivalent to a diagram.
+A7-4  Personnel Protective Equipment (PPE)
+Provide information for accessible laser radiation hazards in excess of the Maximum Permissible Exposure (MPE)
+Laser              Parameters                                                                                    Laser              ___1___,              ___2___,              __etc.__
+A. Optical Density (OD) of PPE required during maintenance _______, _______, _______
+
+B. OD of PPE required during service activities   _______, _______, _______
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 98
+C. Other types of PPE (e.g., skin protection) if needed      _______, _______, _______
+Note 2:    Suppliers may alternately provide a reference to PPE information located in a document available to users.
+D1-5  Revisions to Related Information 9 (Laser Checklist) — OPTIONAL Before Effective Date
+D1-5.1  Revision of the existing Related Information 9 (Laser Checklist) as shown below:
+RELATED INFORMATION 9
+LASER CHECKLIST
+LASER EQUIPMENT SAFETY FEATURES
+NOTICE: This related information is not an official part of SEMI S2 and was derived from practical application by
+task force members.  This related information was approved for publication by vote of the responsible committee on
+Oct
+ober 21, 1999 April 22, 2004 with an effective date of July 1, 2006.
+Laser Manufacturer:
+__________________________________
+Model #:
+__________________________________
+Serial #:
+__________________________________
+Laser Hazard Classification:  (During Op
+eration)
+1.   Classification Number (e.g. 1, 2, 3a, 3b, 4):
+________
+2.   Classification Standard(s)  (e.g. FDA/CDRH, IEC, JIS, etc.):
+________
+NOTE R9-1:  If any laser contained in the equipment is Class 2, 3a, 3b or 4 laser system or product, the vendor should
+make available upon request a hazard evaluation to include the following information for each laser in the equipment
+(where applicable):
+Laser Parameters
+1. Laser medium type (HeNe, Nd:YAG, CO
+2
+, Argon, Excimer, GaAs, etc.): __________
+
+Note: For Excimer lasers, specify gases:   _______________
+2. Wavelength(s) in nanometers (nm):
+_______________
+3. Continuous Wave
+
+
+A. Peak Power in Watts (W):    ________
+
+B. Available Power in Watts (W):    ________
+
+C. Irradiance in Watts/square centimeter (W/cm
+2
+): _ ________
+4.
+Pulse Characteristics
+
+A. Duration of Pulse in Seconds (s):     ________
+
+B. Energy per Pulse in Joules (J):      ________
+
+C. Frequency of Pulses (Pulse Repetition Frequency) in Hertz (Hz):  ________
+
+D. Average Power in Watts (W):      ________
+
+E. Radiant Exposure in Joules/square centimeter (J/cm
+2
+):   ________
+
+F. Q-Switch controlled pulses        (  ) Yes   (  ) No
+5.
+Beam Parameters
+
+A. Emerging beam diameter in millimeters (mm):  ________
+
+B. Expanded beam diameter in millimeters (mm):  ________
+
+C. Beam divergence in milliradians (mr):   ________
+
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 99
+D. Collecting optics type:     ________
+
+E. Focal length in millimeters (mm):   ________
+Laser Control Measures
+
+1.
+Identify protective measures required during maintenance. __________________
+
+____________________________________________________________________
+2.
+Laser Controlled Area required for Maintenance procedures?   (  ) Yes   (  ) No
+3.
+Laser Controlled Area required for Service procedures.   (  ) Yes   (  ) No
+4.
+If  a  Nominal  Ocular  Hazard  Distance  (NOHD)  is  used  as  a  control  measure,  then  provide  the  NOHD
+calculations. See IEC 60825-1 for NOHD calculations.
+NOTE R9-2: Attach a diagram of the laser beam path and the irradiance/radiant exposure at each significant point.
+Personnel Protective Equipment (PPE) (for laser radiation hazards in excess of the MPE)
+1.
+Optical Density (OD) of PPE required during maintenance activities:  ___________
+2.
+OD of PPE required during service activities:    ___________
+3.
+Recommended PPE manufacturer and model #: ______________________________
+Table R9-1  Equipment Safety Features Reference Table
+Reference
+Number
+Equipment
+Safety Features
+(not an inclusive
+list)
+D
+
+USA
+21 CFR
+1040. 10
+A
+
+Europe
+ENIEC
+60825-1
+B
+
+Japan
+JIS
+C 6802
+C
+
+Examples
+Paragrap
+h
+P
+aragrap
+h
+Paragrap
+h
+Examples
+
+1.                       Protective
+Housing
+(  ) Yes   (
+) No
+
+(f)(1) 4.2 4.2.1 Aluminum or steel enclosures,
+windows that provide adequate
+attenuation, optical fibers or
+beam tubes.
+2.                          Safety
+Interlocks
+(  ) Yes
+(  ) No
+
+(f)(2)               4.3                4.2.2               See               Interlock
+Section 11 of
+SEMI S2.
+3.                         Remote
+Interlock
+Connector
+(  ) Yes
+(  ) No
+(f)(3) 4.4 4.2.3 Usually a 12 to 24 volt set of
+contacts available to the user to
+integrate additional room control
+measures.
+4. Key Control (  ) Yes
+(  ) No
+(f)(4) 4.5 4.2.4 A key that is not removable in
+the operations mode.
+5.                  Laser                  Radiation
+Emission
+Warning
+(  ) Yes
+(  ) No
+(f)(5) 4.6 4.2.5 A light or indicator that warns
+the user of the emission through
+the aperture.
+
+# 6
+
+6.                          Beam
+Attenuator
+(  ) Yes
+(  ) No
+(f)(6) 4.7 4.2.6 Shutters, beam blocks or water-
+cooled beam dumps
+
+# 7
+
+7.                     Location                     of
+Controls
+(  ) Yes
+(  ) No
+(f)(7)               4.8                4.2.7
+
+# 8
+
+8. Viewing Optics (  ) Yes
+(  ) No
+(f)(8) 4.9 4.2.8 Must block all hazardous
+wavelengths to acceptable
+levels.
+
+# 9
+
+9.                       Scanning
+Safeguard
+(  ) Yes
+(  ) No
+
+(f)(9) 4.10 4.2.9 Shuts down if the scanning
+mechanism (such as a rotating
+mirror or galvanometer) fails.
+
+# 10
+
+10.                   Manual                   Reset
+Mechanism
+(  ) Yes
+(  ) No
+(f)(10) 4.3.1 4.2.2(c) A button or circuit that must be
+energized before the equipment
+resumes its functions.
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 100
+Reference
+Number
+Equipment
+Safety Features
+(not an inclusive
+list)
+D
+
+USA
+21 CFR
+1040. 10
+A
+
+Europe
+ENIEC
+60825-1
+B
+
+Japan
+JIS
+C 6802
+C
+
+Examples
+
+# 11
+
+11.                         Class
+Designation &
+Warning Labels
+(  ) Yes
+(  ) No
+(g)(1)-
+(g)(4)
+5. 1-5.6,
+5. 8-5.11
+4. 3 Identify which standard was
+used for each hazard
+classification.
+
+# 12
+
+12. Aperture Label (  ) Yes
+(  ) No
+(g)(5)               5.7                4.3.7               Identify               the               aperture.
+
+# 13
+
+13.                  Positioning                  of
+Labels
+(  ) Yes
+(  ) No
+(g)(9) 5.1 4.3.1 Conspicuous, but size is not
+specified.
+
+# 14
+
+14.                          User
+Information
+(  ) Yes
+(  ) No
+(h)(1) 6.1 4.4.1 SOPs, instruction manuals
+
+# 15
+
+15.                        Service
+Information
+(  ) Yes
+(  ) No
+(h)(2)               6.2                4.4.2               Accessible               laser radiation levels
+during Service
+
+# 16
+
+16. Measurements (  ) Yes
+(  ) No
+(e)                  8
+9                 3.4
+
+# 17
+
+17. Classification (  ) Yes
+(  ) No
+(c)                  9
+8                3.3.3
+
+# 18
+
+18.                    Certification
+Information
+21 CFR TBD by
+Europe
+TBD by
+Japan
+
+# 19
+
+19.                    Certification
+Label
+(  ) Yes
+(  ) No
+1010. 2
+
+# 20
+
+20.                   Identification
+Label
+(  ) Yes
+(  ) No
+1010. 3
+A. The US FDA/CDRH makes 21 CFR 1040.10 available, so the latest version should be used.  The version used to update this table was dated
+April 1, 2003.
+B. The IEC laser products standard used to update this table was 60825-1
+© IEC:1993+A1:1997+A2:2001(E)
+C. The      Japanese      Standards      Association      does      not      offer      the      current      version      of      JIS      C      6802      in      English.
+However,       the       current       version       should       be       used       and       the       Japanese       version       is       the       official       version
+The sections referenced in the table above are from the 1991 English version of C 6802.
+D. This requirement applies only to certain classes of lasers.
+
+NOTE 4:  Both the IEC and the US FDA/CDRH have published guides to assist manufacturers with laser product conformance.
+NOTE 5:  The FDA/CDRH has published Laser Notice 50.  This laser notice provides guidance to manufacturers relating to the
+FDA/CDRH  acceptance  of  laser  products  conforming  to  the  IEC  60825-1  standard.    There  are  conditions  and  additional
+requirements, so manufacturers should obtain this laser notice for the details.
+R9-2  Referenced Documents
+R9-2.1  IEC Standards
+26
+
+IEC 60825-1 — Safety of Laser Products, Part 1: Equipment Classification, Requirements, and User’s Guide
+
+R9-2.2  US Code of Federal Regulations
+27
+
+21CFR Parts 1000-1050 — Food and Drug Administration / Center for Devices and Radiological Health
+(FDA/CDRH), Performance Standards for Electronic Products, Title 21 Code of Federal Regulations, Parts 1000-
+1050
+
+
+
+26  International Electrotechnical Commission,  No. 3, rue de Varembé, Case Postale 131, CH-1211 Geneva 20, Switzerland. Telephone:
+41. 22.919.02.11; Fax: 41.22.919.03.00.  Website: www.iec.ch
+27  United States Food and Drug Administration/ Center for Devices and Radiological Health (FDA/CDRH).  Available from FDA/CDRH
+Website: http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 101
+DELAYED REVISIONS SECTION 2 (EFFECTIVE JULY 1, 2006)
+SEMI S10 CHANGES TO SEMI S2
+NOTICE:  This  Delayed  Revisions  Section  contains  material  that  has  been  balloted  and  approved  by  the
+SEMI Environmental Health and Safety Committee, but is not immediately effective.  The provisions of this
+material are not an authoritative part of the document until their effective date.  The main body of SEMI S2-
+0703  remains  the  authoritative  version.    Some  or  all  of  the  provisions  of  revisions  not  yet  in  effect  may
+optionally  be  applied  prior  to  the  effective  date,  providing  they  do  not  conflict  with  portions  of  the
+authoritative version other than those that are to be revised or replaced as part of the deferred revision, and
+are labeled accordingly.
+NOTICE:  Unless otherwise noted, all material to be added shall be underlined
+, and all material to be deleted shall
+be struck through
+.
+D2-1  Revisions to Section 5 (Terminology) — OPTIONAL Before Effective Date
+D2-1.1  Addition of the following at the beginning of Section 5.2 (Definitions):
+NOTE  #:    Composite  reports  using  portions  of  reports  based  upon  earlier  versions  of  SEMI  S2  and  SEMI  S10  may  require
+understanding of the SEMI S2-0703 or SEMI S10-12-96 definitions for the terms hazard, likelihood, mishap, severity, and risk.
+D2-1.1  Addition (in alphabetical order), deletion, and revision of the following in Section 5.2 (Definitions):
+5. 2.#  harm — physical injury or damage to health of people, or damage to equipment, buildings or environment.
+
+5. 2.25  hazard — a condition that is a prerequisite to a mishap
+condition that has the potential to cause harm.
+5. 2.38    likelihood  —  the  expected  frequency  with  which  a  mishap  will  occur.  Usually  expressed  as  a  rate  (e.g.,
+events  per  year,  per  product,  or  per  substrate  processed).    the  expected  frequency  with  which  harm  will  occur.
+Usually expressed as a rate (e.g., events per year, per product, or per substrate processed).
+5. 2.44  mishap
+— an unplanned event or series of events that results in death, injury, occupational illness, damage to
+or loss of equipment or property, or environmental damage.
+5. 2.60    risk  —  the  expected  losses  from  a  mishap,  expressed  in  terms  of  severity  and  likelihood.
+the  expected
+magnitude of losses from a hazard, expressed in terms of severity and likelihood.
+5. 2.64    severity  —  the  extent  of  the  worst  credible
+loss  from  a  mishap  caused  by  a  specific  hazard.    the  extent  of
+potential credible harm.
+D2-2  Revisions to Section 6.5 — OPTIONAL Before Effective Date
+D2-3.1  Revision of the following in Section 6.5:
+NOTE 7  The intent is to control single fault conditions that result in significant risks (i.e., Critical Very High, High, or Medium
+risks based on the example risk assessment matrix in SEMI S10).
+NOTE #:   The risk category of “Very High” corresponds identically to the risk category, used in previous SEMI documents (e.g.,
+S10-1296, SEMI S2, and SEMI S14) of “Critical”.  The term was changed to facilitate translation from English.
+D2-3  Revisions to Section 6.8.1 — OPTIONAL Before Effective Date
+D2-3.1  Revision of the existing Section 6.8.1 as shown below:
+6. 8.1 The hazard analysis should include consideration of:
+• the application or process;
+• the hazards associated with each task;
+• anticipated failure modes;
+• the probability of occurrence and severity of a mishap
+harm;
+• the level of expertise of exposed personnel and the frequency of exposure;
+
+
+SEMI S2-0703a
+E
+© SEMI 1991, 2004 102
+• the frequency and complexity of operating, servicing and maintenance tasks; and
+• safety critical parts.
+NOTE #:  The term mishap was replaced with the results of harm in the SEMI S10 1103 revision.
+D2-4  Revisions to Section 11.6 — OPTIONAL Before Effective Date
+D2-4.1  Revision of the following in Section 11.6:
+NOTE 26: Where a safety interlock is provided to safeguard personnel from a severe or catastrophic mishap harm as categorized
+by SEMI S10, consideration of positive-opening type of switches is recommended.
+
+NOTICE:  Paragraphs  entitled  “NOTE”  are  not  an  official  part  of  this  safety  guideline  and  are  not  intended  to
+modify or supersede the official safety guideline. These have been supplied by the committee to enhance the usage
+of the safety guideline.
+SEMI makes no warranties or representations as to the suitability of the guideline set forth herein for any particular
+application.  The  determination  of  the  suitability  of  the  guideline  is  solely  the  responsibility  of  the  user.  Users  are
+cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant  literature
+respecting any materials mentioned herein. This guideline is subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance with this guideline may require use of copyrighted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  guideline,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+guideline.  Users  of  this  guideline  are  expressly  advised  that  determination  of  any  such  patent  rights  or  copyrights,
+and the risk of infringement of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI S3-91 © SEMI 19911
+SEMI S3-91
+SAFETY GUIDELINES FOR HEATED CHEMICAL BATHS
+NOTICE:  These  guidelines  do  not  purport  to  address
+all of the safety issues associated with their use. It is the
+responsibility   of   the   users   of   these   guidelines   to
+establish  appropriate  safety  and  health  practices  and
+determine  the  applicability  of  regulatory  limitations
+prior to use.
+NOTE:  As  listed  or  revised,  all  documents  cited  shall  be  the
+latest publications of adopted standards.
+1  Purpose/Scope
+This   safety   guideline   pertains   to   open   top   heated
+chemical    baths,    or    “wet    stations”,    used    in    the
+manufacturing  of  semiconductors.  The  purpose  of  this
+guideline  is  to  provide  general  safety  information  for
+the    construction,    operation,    and    maintenance    of
+chemical baths heated by electric immersion, externally
+bonded  or  heat  exchange  type  heating  devices.  This
+guideline  is  not  intended  to  provided  detailed  design
+information   for   the   individual   components   of   the
+heating  systems,  but  rather  to  supply  the  safety  criteria
+for the design of these systems. (See Figure 1.)
+2  Introduction
+2. 1  Failure to follow the manufact urer’s instructions as
+to the application or installation of heating systems used
+for  chemical  baths  can  result  in  accidents  and  fires  in
+which such systems may be implicated.
+2. 2  The human element plays a maj or role in how well
+the hardware is used. The user of heated chemical bath
+systems needs to understand the available technology to
+minimize the risk involved.
+2. 3   The  issue  of  bath  operation  an d  maintenance  has
+been  included  in  this  guideline  to  support  the  safe  use
+and  maintenance  of  heated  baths  over  their  normal
+service life.
+3  Heated Bath Methodology
+3. 1  Electric Immersion Heaters —  Electric immersion
+bath  heaters  are  resistive  element  heaters.  The  element
+itself is typically protected by an outer sheathing which
+acts as a corrosion and electrical barrier. The element is
+mounted to the inside of the bath.
+3. 2   External  Tank  Heaters  —  Exte rnal  type  heaters
+are  normally  bonded  by  a  mastic  to  the  outside  of  a
+chemical    bath.    The    most    common    types    are
+manufactured from a thin metal foil material that results
+in a very low profile configuration.
+3. 3   Heat  Exchangers  —  The  most   common  type  of
+heat  exchanger  employs  a  separate  heating  source  that
+may be remote from the station. This heating source can
+be electrically powered to generate steam or some other
+heat   transfer   fluid.   The   heat   transfer   fluid   is   then
+delivered  by  chemically  compatible  plumbing  to  the
+bath and recirculated to the heater.
+4  Minimum Heated Bath Saf ety Requirements
+To   ensure   the   safe   operation   and   maintenance   of
+heating systems, the following features are required.
+• overcurrent protection
+• power interrupt
+• manual reset
+• automatic temperature controller
+• liquid level sensor
+• overtemperature protection
+• proper grounding and ground fault protection
+• compatible construction materials
+NOTE:  Interlocks  should  operate  as  outlined  in  SEMI  S2.
+These features should be totally compatible with each other.
+4. 1   Overcurrent  Protection  —  A  f used  disconnect
+switch  or  circuit  breaker  sized  for  the  amperage  of  the
+heater.
+4. 2     Power    Interrupt    —    In    the    even t    of    an
+overtemperature,   low   liquid   level,   or   ground   fault
+condition,  power  to  the  heater(s)  is  interrupted  upon
+receiving the respective signal. The interrupt should be
+separate from any relay incorporated into the automatic
+temperature controller. The interrupt should be wired in
+such  a  manner  that  any  signal  from  the  liquid  level
+sensor,    overtemperature    sensor,    or    ground    fault
+condition should shut off power to the heaters and place
+the system in a “fail safe” condition.
+4. 3  Manual Reset — This reset sh o uld be incorporated
+into the power interrupt device so that when the system
+shuts  off  power  to  the  heating  element,  a  manual  reset
+is required to re-energize the system.
+4. 4     Automatic    Temperature    Contr oller    —    An
+automatic temperature controller maintains the liquid at
+a set temperature by turning the heating element on and
+off. The controller is activated by signals from a sensor
+that  is  located  at  the  bath.  To  preserve  the  integrity  of
+this  system,  quarterly  service/testing  and  calibration  in
+
+SEMI S3-91 © SEMI 19912
+accordance  with  the  manufacturer’s  recommendations
+should be performed.
+4. 5  Liquid Level Sensor — This se nsor will act to shut
+down the heating element if the liquid level falls below
+a   safe   operating   level.   When   employing   either   an
+immersion  or  externally  mounted  type  heater,  it  is
+recommended   that   this   level   be   no   less   than   five
+centimeters  (two  inches)  above  the  heating  element’s
+“hot  zone”  as  established  by  the  manufacturer.  This
+should  prevent  the  element  from  losing  the  heat  sink
+created by the liquid.
+4. 5.1   The  selection  of  a  suitable  sen sor  should  take
+into account:
+4. 5.1.1   The  physical  properties  of  the   liquids  being
+heated  and  the  environmental  conditions  to  which  the
+sensor(s) will be subjected.
+4. 5.1.2  The mode of failure, if the sen sor fails.
+4. 5.2   To  preserve  the  integrity  of  the se  components,
+they  should  be  tested  on  a  quarterly  basis  and  serviced
+following the manufacturer’s recommendations.
+4. 6  Overtemperature Protection
+4. 6.1   Liquid  Overtemperature  —  A  dedicated  liquid
+overtemperature sensor should typically be set to trip at
+a temperature below the autoignition temperature of the
+chemical  being  used  in  the  bath,  and  in  no  case  higher
+than    10°C    (18°F)    above    the    normal    operating
+temperature.
+4. 6.1.1   This  temperature  setting  shoul d  compensate
+for   the   initial   over-shoot   often   encountered   when
+bringing    the    liquid    from    ambient    to    operating
+temperature.
+4. 6.1.2  The sensor should be located i n the liquid at an
+elevation approximating the top of the heating elements
+“hot  zone”  and  no  more  than  seven  centimeters  (three
+inches) away from the heater.
+4. 6.2    Heating   Element   Overtempera ture   —   When
+using  an  electrical  immersion  type  heater,  a  sensor
+should be used to shut down the heating element if the
+surface  temperature  of  the  element  exceeds  a  preset
+value.   The   sensor   is   typically   placed   between   the
+resistance coil and the protective sheath covering.
+4. 7  Proper Grounding & Ground  Fault Protection —
+The amount of insulation surrounding a heater element
+depends  upon  the  type  of  heater.  This  insulation  not
+only  provides  protection  from  the  corrosive  properties
+of  the  solution,  but  also  acts  as  an  electrical  barrier.  If
+the barrier breaks down, it is possible for the solution to
+become energized.
+4. 7.1  The electric heater elements sh ould be equipped
+with  a  ground,  the  construction  of  which  should  be
+approved  by  a  nationally  recognized  testing  laboratory
+(NRTL).
+4. 7.2  A ground fault circuit interrup ter (GFCI) should
+be  used  to  preclude  worker  exposures  to  potential
+electrical shock.
+4. 7.3   The  station  or  equipment  in  wh ich  the  heated
+bath will be used needs to be reviewed to ensure that all
+National   Electrical   Code   requirements   have   been
+addressed.
+4. 8     Compatible    Construction    Mate rials    —    All
+portions  of  the  station  that  could  come  in  contact  with
+process chemicals should be constructed from materials
+compatible  with  these  chemicals.  It  is  recommended
+that metal materials be used in the station’s construction
+when using combustible or flammable solutions.
+5  Operation and Maintenanc e
+5. 1  Before heated baths are put int o service, a detailed
+review  of  the  wet  station  operation  and  maintenance
+should  be  conducted  for  all  employees  operating  or
+servicing the station. New employees should receive the
+same information prior to work assignment.
+5. 1.1   All  safety  features  included  wi th  the  station’s
+heating system should be user tested, and the frequency
+of   testing   should   be   noted   in   the   user’s   periodic
+maintenance procedures.
+NOTE:   Recommended   minimum   frequency   of   testing   is
+quarterly and after any station maintenance.
+5. 1.2     Vendor-supplied    information    o n    the    bath
+operation  and  limitations  that  may  apply  should  be
+reviewed and appropriate employee training conducted.
+5. 1.3   When  the  user  plans  to  install   the  baths  and  to
+perform   maintenance,   the   suppliers   should   provide
+guidance  to  ensure  that  all  aspects  of  the  system,  such
+as the controller and the heated bath safety systems, are
+integrated properly.
+5. 1.4   Review  the  process  requireme nts  to  ensure  that
+operating   temperatures   are   within   the   range   and
+capability  of  the  safety  controls.  For  flammable  and
+combustible  liquids,  operating  temperatures  should  be
+below the ignition temperature.
+5. 1.5   Limit  the  interchanging  of  par ts  that  were  not
+included in the original design unless so advised by the
+supplier. Alternate parts can lead to failures resulting in
+a fire or physical injury.
+6  Related Documents
+6. 1  UFC 1988 edition.
+6. 2  OSHA Safety & Health Standa rds (29 CFR 1910).
+
+SEMI S3-91 © SEMI 1991, 19963
+6. 3     Joseph    Lotti,    “Electric    Immers ion    Heater
+Redundant       Control       System”,       presented       to
+Semiconductor  Safety  Association  Annual  Conference,
+May 1986.
+6. 4   Factory  Mutual  Insurance  Cor poration,  “Plastics
+and   Plastic-Lined   Tanks   with   Electric   Immersion
+Heaters,” 7-6.
+6. 5    National   Electrical   Code,   “Art icles   500,   501,
+Hazardous Locations,” latest edition.
+6. 6  National Electrical Code, “Art icles 250, 422, 427,
+and   516,   Grounding,   Appliances,   Fixed   Electrical
+Heating   for   Pipe   Lines   and   Vessels   and   Spray
+Application, Dipping and Coating Processes.”
+6. 7   SEMI  S2,  Safety  Guidelines  fo r  Semiconductor
+Manufacturing Equipment.
+
+SEMI S3-91 © SEMI 19914
+Figure 1
+
+SEMI S3-91 © SEMI 1991, 19965
+NOTICE:  These  guidelines  do  not  purport  to  address
+all of the safety issues associated with their use. It is the
+responsibility   of   the   users   of   these   guidelines   to
+establish  appropriate  safety  and  health  practices  and
+determine  the  applicability  of  regulatory  limitations
+prior    to    use.    SEMI    makes    no    warranties    or
+representations as to the suitability of the guidelines set
+forth    herein    for    any    particular    application.    The
+determination  of  the  suitability  of  these  guidelines  is
+solely the responsibility of the user. Users are cautioned
+to  refer  to  manufacturer’s  instructions,  product  labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+guidelines are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI S4-0304 © SEMI 1992, 2004 1
+SEMI S4-0304
+SAFETY GUIDELINE FOR THE SEPARATION OF CHEMICAL
+CYLINDERS CONTAINED IN DISPENSING CABINETS
+This safety guideline was technically approved by the Global Environmental, Health, and Safety Committee
+and is the direct responsibility of the North American Environmental, Health, and Safety Committee. Current
+edition  approved  by  the  North  American  Regional  Standards  Committee  on  December  4,  2003.    Initially
+available at www.semi.org February 2004; to be published March 2004. Originally published in 1992.
+NOTICE:   This   safety   guideline   was   completely
+rewritten in 2003.
+NOTICE: Paragraphs   entitled   “NOTE”   are   not   an
+official  part  of  this  document  and  are  not  intended  to
+modify   or   supersede   the   official   Safety   Guideline.
+These have been supplied by the Task Force to enhance
+usage of the Safety Guideline.
+NOTICE: The  intent  of  the  task  force  that  produced
+this  document  is  that  conformance  to  the  “should”
+
+provisions  of  this guideline  comprises  conformance
+with this guideline.
+1  Purpose
+1. 1      This   safety   guideline   provides   a   method   for
+determining  cylinders  of  which  types  of  chemicals
+should  be  in  separate  gas  cabinets  and  which  cylinders
+may be in gas cabinets with each other.
+1. 2  The safety guideline is intended to be used by those
+working  or  doing  research  in  semiconductor-related
+technology.
+2  Scope
+2. 1    This  safety  guideline  refers  to  chemicals,  which
+includes  gases  and  liquids,  contained  in  cylinders,  that
+are   used   in   gaseous   form   because   of   their   vapor
+pressure or because they may be transported as a vapor
+by a carrier gas.
+2. 2    It  also  pertains  to  all  types  of  cylinders,  up  to  and
+including an internal volume of 1000 liters.
+2. 3  The primary intent of this guideline is directed to a
+cylinder  gas  in  use  in,  or  being  dispensed  in,  the
+research and manufacturing processes.
+2. 4        This    safety    guideline    addresses    purge    gases
+supplied   in   cylinders   and   used   to   purge   process
+chemical lines.
+2. 5    This  safety  guideline  addresses  process  chemicals
+in  cylinders  which  are  designed  to  provide  them  at
+pressures less than 101.3 kPa (one atmosphere).
+NOTICE:  This  safety  guideline  does  not  purport  to
+address  all  of  the  safety  issues  associated  with  its  use.
+It   is   the   responsibility   of   the   users   of   this   safety
+guideline  to  establish  appropriate  safety  and  health
+practices  and  determine  the  applicability  of  regulatory
+or other limitations prior to use.
+3  Limitations
+3. 1    This  safety  guideline  does  not  pertain  to  those
+cases where chemical cylinders are incorporated within
+a piece of process equipment.
+NOTE 1:  Guidance  regarding  other  aspects  of  the  safety  and
+management  of  gas  cylinders  is  contained  in  several  of  the
+documents  listed  in  the  Related  Documents  section  of  this
+safety guideline.
+3. 2  This safety guideline does not pertain to chemicals
+used in fabrication facilities for ancillary purposes, such
+as welding.
+4  Referenced Standards
+4. 1  United States Code of Federal Regulations
+16  CFR  1500.41  —  Method  of  testing  primary  irritant
+substances
+1
+
+49  CFR  173  —  Shippers  –  General  Requirements  for
+Shipment and Packaging
+2
+
+4. 2  National Fire Protection Association
+3
+
+NFPA 49 — Hazardous Chemicals Data
+NOTE  2:    NFPA  49  is  no  longer  part  of  the  NFPA  codes  in
+either the compact disc or hard copy version.  It is now part of
+the  NFPA  Fire  Protection  Guide  to  Hazardous  Materials  and
+must be purchased separately from NFPA.
+NFPA   704   —   Identification   of   Fire   Hazards   of
+Materials
+
+
+1 The Office of the Federal Register, Washington, D.C. 20037
+http://www.access.gpo.gov/nara/cfr/waisidx_00/16cfr1500_00.html
+2 The Office of the Federal Register, Washington, D.C. 20037
+http://www.access.gpo.gov/nara/cfr/waisidx_00/49cfr173_00.html
+3 National Fire Protection Association, 1 Batterymarch Park, Quincy,
+MA 02269, Website: www.nfpa.org
+
+
+SEMI S4-0304 © 1992, 2004 2
+4. 3  Compressed Gas Association
+4
+
+P20  —  Standard  for  the  Classification  of  Toxic  Gas
+Mixtures
+P23   —   Standard   for   Categorizing   Gas   Mixtures
+Containing Flammable and Nonflammable Components
+4. 4  International Organization for Standardization
+(ISO)
+5
+
+10156:1996 — Gases and gas mixtures - Determination
+of  fire  potential  and  oxidizing  ability  for  the  selection
+of cylinder valve outlets
+4. 5  European Directives
+6
+
+67/548/EEC —  On  The  Approximation  Of  The  Laws,
+Regulations And Administrative Provisions Relating To
+The    Classification,    Packaging    And    Labeling    Of
+Dangerous  Substances  Including  Its  Amendments  And
+Adaptations To Technical Progress
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Abbreviations and Acronyms
+5. 1.1  CGA — Compressed Gas Association
+5. 1.2  CFR  —  Code  of  Federal  Regulations  (United
+States)
+5. 1.3  HPM— Hazardous Production Material
+5. 1.4  ISO      —      International      Organization      for
+Standardization
+5. 1.5  LC
+50
+— median lethal concentration in air
+5. 1.6  NFPA — National Fire Protection Association
+5. 2  Definitions
+5. 2.1  acid  —  a  corrosive  chemical  whose  chemical
+reaction characteristic is that of an electron acceptor.
+5. 2.2  base  —  a  corrosive  chemical  whose  chemical
+reaction characteristic is that of an electron donor.
+5. 2.3  chemical — a liquid or gas used in a process for
+its ability to react with or displace other substances.
+
+
+4 Compressed Gas Association, 4221 Walney Road, 5th Floor,
+Chantilly VA 20151-2923.,  Phone: 703-788-2700, Fax: 703-961-
+1831, Email: cga@cganet.com
+, www.cganet.com
+5 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30,
+Website: /www.iso.ch
+6 http://europa.eu.int/comm/environment/dansub/main67_548/index-
+_en.htm
+5. 2.4  combustible  material  —  a  material  that,  in  the
+form  in  which  it  is  used  and  under  the  conditions
+anticipated,  may  ignite,  burn,  or  release  flammable
+vapors when subjected to fire or heat.
+5. 2.5  corrosive   —   a   chemical   that   causes   visible
+destruction of, or irreversible alterations in, living tissue
+by chemical action at the site of contact. A chemical is
+considered to be corrosive if, when tested on the intact
+skin of albino rabbits by the method described in the U.
+S.  Department  of  Transportation  in  Appendix  A  to  49
+CFR   173,   it   destroys   or   changes   irreversibly   the
+structure of the tissue at the site of contact following an
+exposure period of four hours. This term shall not refer
+to action on inanimate surfaces.
+5. 2.6  cylinder   —   a   pressure   vessel   designed   for
+containing  chemicals  at  positive  gauge  pressure  and
+having   a   circular   cross   section.   The   definition   of
+“cylinder”  does  not  include  a  portable  tank,  multiunit
+tank car tank, cargo tank, or tank car.
+5. 2.7  flammable gas — any gas that forms an ignitable
+mixture  with  air  at  20  °C  (68  °F)  and  101.3  kPa  (14.7
+psia).  [SEMI S2, S18]
+5. 2.8  gas  —  the  fluid  form  of  a  substance  in  which  it
+can    expand    indefinitely    and    completely    fill    its
+container;  form  that  is  neither  liquid  or  solid.    [SEMI
+F78]
+5. 2.9  gas   cabinet   —   a   metal   enclosure   which   is
+intended to provide local exhaust ventilation, protection
+for  the  gas  cylinder  from  fire  from  outside  the  cabinet,
+and  protection  for  the  surroundings  from  fire  from
+inside the cabinet.
+5. 2.10  hazardous   production   material   (HPM)   —   a
+solid, liquid, or gas that has a degree of hazard rating in
+health,  flammability,  or  reactivity  of  Class  3  or  4  as
+ranked  by  NFPA  704  and  which  is  used  directly  in
+research,  laboratory,  or  production  processes  which
+have  as  their  end  product  materials  which  are  not
+hazardous. [SEMI S2]
+5. 2.11  highly  toxic  chemical  —  a  chemical  that  has  a
+median  lethal  concentration  (LC
+50
+)  in  air  of  200  parts
+per  million  by  volume  or  less  of  gas  or  vapor,  or  2
+milligrams per liter or less of mist, fume, or dust, when
+administered  by  continuous  inhalation  for  one  hour  (or
+less  if  death  occurs  within  one  hour)  to  albino  rats
+weighing between 200 and 300 grams each.
+5. 2.12  inert  gas  —  a  gas  which  at  ambient  conditions
+does not react chemically with other chemicals.
+5. 2.13  irritant  —  A  chemical  is  considered  to  be  an
+irritant if:
+a) It is classified as a “primary skin irritant” per 16 CFR
+1500, or
+
+
+SEMI S4-0304 © SEMI 1992, 2004 3
+b)  It  is  designated  as  an  irritant  according  to  European
+Directive  67/548/EEC,  on  the  approximation  of  the
+laws, regulations and administrative provisions relating
+to    the    classification,    packaging    and    labeling    of
+dangerous  substances  including  its  amendments  and
+adaptations to technical progress.
+5. 2.14  liquid  —  having  its  molecules  moving  freely
+with respect to each other so as to flow readily, unlike a
+solid,  but  because  of  cohesive  forces  not  expanding
+infinitely like a gas. [SEMI F78]
+5. 2.15  other  health  hazard  —A  chemical  for  which
+there  is  statistically  significant  evidence  based  on  at
+least    one    study    conducted    in    accordance    with
+established  scientific  principles  that  acute  or  chronic
+health  effects  may  occur  in  exposed  employees,  other
+than those for which a separate classification is defined.
+The  term  “other  health  hazard”  includes  chemicals
+which  are  carcinogens,  reproductive  toxins,  sensitizers,
+hepatotoxins,   nephrotoxins,   neurotoxins,   mutagens,
+agents  which  act  on  the  hematopoietic  system,  and
+agents  which  damage  the  lungs,  skin,  eyes,  or  mucous
+membranes.
+5. 2.16  oxidizer  chemical  —  a  chemical  which  will
+support  combustion  or  increase  the  burning  rate  of  a
+combustible  or  flammable  material  with  which  it  may
+come in contact.
+5. 2.17  pyrophoric chemical  —  a  chemical  which  upon
+contact with air will ignite spontaneously at or below a
+temperature of 54°C (130°F).
+5. 2.18  separation —  the  condition  of  having  the  risks
+of mixing of chemicals and of exposure of cylinders to
+chemicals other than those they contain managed by the
+cylinders being in different gas cabinets.
+5. 2.19  toxic  chemical  —  A  chemical  is  considered  to
+be toxic if:
+a) It that has a median lethal concentration (LC
+50
+) in air
+of  more  than  200  parts  per  million  but  not  more  than
+2,000  parts  per  million  by  volume  of  gas  or  vapor,  or
+more than 20 milligrams per liter of mist, fume, or dust,
+when  administered  by  continuous  inhalation  for  one
+hour (or less if death occurs within one hour) to albino
+rats weighing between 200 and 300 grams each, or
+b)  It  is  designated  as  “Toxic”  according  to  European
+Directive  67/548/EEC  on  the  approximation  of  the
+laws, regulations and administrative provisions relating
+to    the    classification,    packaging    and    labeling    of
+dangerous  substances  including  its  amendments  and
+adaptations to technical progress.
+5. 2.20  unstable  (reactive)  —  a  chemical  which  in  the
+pure    state,    or    as    produced   or   transported,   will
+vigorously  polymerize,  decompose,  condense,  or  will
+become    self-reactive    under    conditions    of    shock,
+pressure, or temperature.
+5. 2.21  water  reactive  —  a  chemical  that  reacts  with
+water  to  release  a  chemical  that  is  either  flammable  or
+presents a health hazard.
+6  Classification
+6. 1    Chemicals  should  be  classified  according  to  the
+categories and associated symbols as shown in Table 1.
+6. 2    Information  on  the  properties  of  chemicals  (other
+than     mixtures)     should     be     obtained     through
+measurement or from literature, such as MSDSs.
+Table 1  Classifications and Symbols
+Classification                                  Symbol
+Flammable                                         F
+Pyrophoric                                         P
+Corrosive Acid CA
+Corrosive Base CB
+Toxic  T
+Highly Toxic HT
+Oxidizer                                           O
+Inert                                               I
+Irritant                                          IRR
+Water Reactive WR
+Unstable (Reactive) UR
+Other Health Hazard  OHH
+
+6. 3    A  chemical  should  be  assigned  more  than  one
+classification  if  it  possesses  more  than  one  of  the
+characteristics listed in the table.
+6. 4      The   properties   of   mixtures   of   two   or   more
+chemicals   should   be   determined   experimentally   or
+estimated  using  accepted  principles,  such  as  those  in
+ISO 10156, CGA P20 and P23.
+NOTE 3:  The    experimentation    or    estimation    may    be
+performed  by  the  user,  or  the  user  may  rely  on  experimental
+results  or  estimations  by  accepted  principles  performed  by
+others and reported in a document, such as an MSDS.
+NOTE 4:  A list of some chemicals used in the semiconductor
+industry  and  their  classification  symbols  appears  in  Related
+Information 1.
+7  Separation
+7. 1    Where  practical,  each  chemical  (except  for  inert
+gases) should be contained in a separate cabinet.
+
+
+SEMI S4-0304 © 1992, 2004 4
+7. 2  Containing Different Chemicals in a Cabinet
+7. 2.1    Except  as  described  below,  chemicals  should  be
+contained   in   different   gas   cabinets   if   they   do   not
+possess exactly the same classification symbols.
+7. 2.2    An  inert  (I)  gas  does  not  have  to  be  separated
+from any other chemical.
+7. 2.3  An irritant (IRR) chemical may be contained in a
+gas cabinet with a chemical that is not an irritant, if the
+remaining classification symbols are exactly the same.
+7. 2.4    A  toxic  (T)  chemical  may  be  contained  in  a  gas
+cabinet   with   a   highly   toxic   (HT)   chemical,   if   the
+remaining classification symbols are exactly the same.
+NOTE     5:          Related     Information     2     contains     additional
+information and references on the separation of chemicals, as
+practiced or regulated in specific geographical regions.
+8  Related Documents
+8. 1  SEMI Standards
+F13 — Guide for Gas Source Control Equipment
+F14 — Guide for the Design of Gas Source Equipment
+Enclosures
+S14 — Safety Guidelines for Fire Risk Assessment and
+Mitigation       for       Semiconductor       Manufacturing
+Equipment
+S18  —  Environmental,  Health,  and  Safety  Guideline
+for Silane Family Gases Handling
+8. 2  Building Officials and Code Administrators
+7
+
+BOCA National Fire Prevention Code
+8. 3  Compressed Gas Association
+8
+
+P-1 — Safe Handling of Compressed Gas in Containers
+8. 4  International  Conference  of  Building  Officials  and
+Western Fire Chiefs Association
+9
+
+Uniform Fire Code
+8. 5  Southern  Building  Code  Conference  International,
+Inc
+10
+
+SBCCI Standard Fire Prevention Code
+8. 6  United States Code of Federal Regulations
+11
+
+
+
+7 Building Officials & Code Administrators International, Inc. , 4051
+West Flossmor Road, Country Club Hills, IL 60477
+8 Compressed Gas Association, 4221 Walney Road, 5th Floor,
+Chantilly VA 20151-2923.,  Phone: 703-788-2700, Fax: 703-961-
+1831, Email: cga@cganet.com
+, www.cganet.com
+9 International Fire Code Institute, 5360 Workman Mill Road,
+Whittier, California 90601-2298, USA, www.ifci.org
+10 Southern Building Code Congress International (SBCCI), 900
+Montclair Road, Birmingham, AL  35213
+29 CFR 1910.1200 — Hazard Communication
+49  CFR  172.101  —  Hazardous  Materials  Regulations
+and Procedures
+8. 7  Dangerous Properties of Industrial Materials — N.
+Irving Sax, Seventh Edition, 1988.
+8. 8  Matheson Gas Data Book — 7th Edition
+12
+
+
+NOTICE: SEMI      makes      no      warranties      or
+representations   as   to   the   suitability   of   the   Safety
+Guidelines    set    forth    herein    for    any    particular
+application.  The  determination  of  the  suitability  of  the
+Safety  Guidelines  is  solely  the  responsibility  of  the
+user.  Users  are  cautioned  to  refer  to  manufacturer's
+instructions,  product  labels,  product  data  sheets,  and
+other  relevant  literature,  respecting  any  materials  or
+equipment  mentioned  herein.  These  Safety  Guidelines
+are subject to change without notice.
+By publication of this Safety Guideline, Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   item
+mentioned  in  this  Safety  Guideline.    Users  of  this
+guideline  are  expressly  advised  that  determination  of
+any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement   of   such   rights   are   entirely   their   own
+responsibility.
+
+
+11 The Office of the Federal Register, Washington, D.C. 20037
+12 Available from www.mathesontrigas.com
+
+
+SEMI S4-0304 © SEMI 1992, 2004 5
+RELATED INFORMATION 1
+CLASSIFICATIONS OF CHEMICALS
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  S4  and  was  derived  from  task  force  members'
+knowledge, S4-92, and various references.  This related information was approved for publication by letter ballot on
+December 4, 2003.
+R1-1  Classifications of chemicals
+R1-1.1  Table R1-1 provides the classifications of some
+chemicals in common use in the semiconductor and flat
+panel  industries.    This  table  is  sorted  alphabetically  by
+name of the chemical.  (See Table 1 for the definitions
+of the symbols.)
+NOTE  1:    The  classifications  are  presented  in  alphabetical
+order   for   each   chemical   so   that   classifications   can   be
+compared, and the second table could be created, more easily.
+There  is  no  technical  significance  to  the  order  in  which  the
+classifications are listed.
+R1-1.2    Table  R1-2  contains  the  same  information  as
+Table  R1-1,  but  it  is  sorted  by  classification  to  be  a
+more convenient way to identify chemicals that may be
+contained in the same gas cabinet.
+Table R1-1  Classifications, sorted by chemical
+name
+Chemicals  Classifications
+Ammonia (NH
+3
+)                                 CB-F
+Argon (Ar) I
+Arsenic Pentafluoride (AsF
+5
+)                CA-HT-OHH-
+WR
+Arsine (AsH
+3
+)                              F-HT-OHH
+Boron Trichloride (BCl
+3
+)                        CA-WR
+Boron Trifluoride (BF
+3
+)                       CA-T-WR
+Carbon Dioxide (CO
+2
+)                                I
+Carbon Tetrachloride (CCl
+4
+)                        OHH
+Chlorine (Cl
+2
+)                                 CA-O-T
+Diborane (B
+2
+H
+6
+)                         HT-IRR-P-WR
+Dichlorosilane (SiCl
+2
+H
+2
+)                     CA-P-T-WR
+Diethyl Telluride ((C
+2
+H
+5
+)
+2
+Te)                      P-IRR
+Diethyl Zinc ((C
+2
+H
+5
+)
+2
+Zn)                   CA-P-UR-WR
+Dimethyl Zinc ((CH
+3
+)
+2
+Zn)                  CA-P-UR-WR
+Germane (GeH
+4
+)                           F-IRR-T-UR
+Halocarbon 11 (trichlorofluoromethane,
+CCl
+3
+F)
+I
+Halocarbon 115 (chloropentafluoroethane,
+C
+2
+ClF
+5
+)
+I
+Halocarbon 116 (hexafluoroethane, C
+2
+F
+6
+)                 I
+Halocarbon 12 (dichlorodifluoromethane,
+CCl
+2
+F
+2
+)
+I
+Halocarbon 13 (chlorotrifluoromethane,
+CClF
+3
+)
+I
+Chemicals  Classifications
+Halocarbon 13B1
+(bromotrifluoromethane, CBrF
+3
+)
+I
+Halocarbon 14 (tetrafluoromethane, CF
+4
+)                  I
+Halocarbon 23 (fluoroform, CHF
+3
+)                       I
+Helium (He) I
+Hydrogen (H
+2
+)                                      F
+Hydrogen Chloride (HCl) CA
+Hydrogen Fluoride (HF) CA-T
+Hydrogen Sulfide (H
+2
+S)                         T-F-IRR
+Methyl Chloride (CH
+3
+Cl)                          F-IRR
+Methyl Fluoride (CH
+3
+F)                           F-IRR
+Nitric Oxide (NO) IRR-O-T
+Nitrogen (N
+2
+)                                       I
+Nitrogen Trifluoride (NF
+3
+)                        IRR-O
+Nitrous Oxide (N
+2
+O)                                 O
+Oxygen (O
+2
+)                                       O
+Perfluoropropane (C
+3
+F
+8
+)                               I
+Phosphine (PH
+3
+)                                 HT-P
+Phosphorous Pentafluoride (PF
+5
+)                CA-T-WR
+Silane (SiH
+4
+)                                       P
+Silicon Tetrachloride (SiCl
+4
+)                      CA-WR
+Silicon Tetrafluoride (SiF
+4
+)                     CA-T-WR
+Sulfur Hexafluoride (SF
+6
+)                              I
+Trichlorosilane (SiCl
+3
+H)                       CA-F-UR
+Triethyl Aluminum ((C
+2
+H
+5
+)
+3
+Al)                         P
+Trimethyl Aluminum ((CH
+3
+)
+3
+Al)                        P
+Trimethyl Antimony ((CH
+3
+)
+3
+Sb)                      F-T
+Trimethyl Arsine ((CH
+3
+)
+3
+As)                         F-T
+Trimethyl Gallium ((CH
+3
+)
+3
+Ga)                         P
+Trimethyl Indium ((CH
+3
+)
+3
+In)                           P
+Trimethyl Phosphine ((CH
+3
+)
+3
+P)                       F-T
+Tungsten Hexafluoride (WF
+6
+)                   CA-T-WR
+Note 1:  Additional chemicals may be used at the present time or may
+be  suggested  in  the  future.  Any  new  chemical  should  be  categorized
+in a way that chemicals of similar chemical characteristics are treated.
+If  detailed  chemical  data  are  not  available,  the  chemical  should  be
+considered to present unkown hazards and should be stored with only
+inert chemicals.
+
+
+SEMI S4-0304 © 1992, 2004 6
+Table R1-2  Classifications, sorted by
+Classifications
+Classifications                               Chemicals
+CA                                 Hydrogen                                 Chloride
+CA-F-UR                               Trichlorosilane
+CA-HT-OHH-WR                   Arsenic                   Pentafluoride
+CA-O-T                                     Chlorine
+CA-P-T-WR                             Dichlorosilane
+CA-P-UR-WR                             Diethyl                             Zinc
+CA-P-UR-WR                            Dimethyl                            Zinc
+CA-T                               Hydrogen                               Fluoride
+CA-T-WR                            Boron                            Trifluoride
+CA-T-WR                     Phosphorous                     Pentafluoride
+CA-T-WR                          Silicon                          Tetrafluoride
+CA-T-WR                        Tungsten                        Hexafluoride
+CA-WR                              Boron                              Trichloride
+CA-WR                            Silicon                            Tetrachloride
+CB-F                                       Ammonia
+F                                          Hydrogen
+F-HT-OHH                                    Arsine
+F-IRR                                 Methyl                                 Chloride
+F-IRR                                 Methyl                                 Fluoride
+F-IRR-T-UR                                 Germane
+F-T                                Trimethyl                                Antimony
+F-T                                  Trimethyl                                  Arsine
+F-T                               Trimethyl                               Phosphine
+HT-IRR-P-WR                               Diborane
+HT-P                                      Phosphine
+I                                             Argon
+I                                      Carbon                                      Dioxide
+I Halocarbon 14 (tetrafluoromethane)
+Classifications                               Chemicals
+I                      Halocarbon                      116                      (hexafluoroethane)
+I                                             Helium
+I                                           Nitrogen
+I  Perfluoropropane
+I  Sulfur Hexafluoride
+I                                       Halocarbon                                       11
+(trichlorofluoromethane)
+I                                       Halocarbon                                       12
+(dichlorodifluoromethane)
+I                                       Halocarbon                                       13
+(chlorotrifluoromethane)
+I                                    Halocarbon                                    13B1
+(bromotrifluoromethane)
+I Halocarbon 23 (fluoroform)
+I                                      Halocarbon                                      115
+(chloropentafluoroethane)
+IRR-O                             Nitrogen                             Trifluoride
+IRR-O-T                                  Nitric                                  Oxide
+O                                      Nitrous                                      Oxide
+O                                           Oxygen
+OHH                              Carbon                              Tetrachloride
+P                                             Silane
+P                                   Triethyl                                   Aluminum
+P                                 Trimethyl                                 Aluminum
+P                                   Trimethyl                                   Gallium
+P                                    Trimethyl                                    Indium
+P-IRR                                Diethyl                                Telluride
+T-F-IRR                              Hydrogen                              Sulfide
+
+
+
+SEMI S4-0304 © SEMI 1992, 2004 7
+RELATED INFORMATION 2
+REGIONAL INFORMATION
+NOTICE:    This  related  information  is  not  an  official  part  of  SEMI  S4  and  was  derived  from  task  force  members'
+knowledge  and  various  references.    This  related  information  was  approved  for  publication  by  letter  ballot  on
+December 4, 2003.
+R2-1  Purpose of this Related Information
+R2-1.1    This  Related  Information  was  intended,  at  the
+time  of  original  publication,  by  the  EHS  Committee  to
+provide  additional  information  and  references  on  the
+separation  of  chemicals,  as  practiced  or  regulated  in
+specific geographical regions.
+R2-1.2    It  is  envisioned  that  the  EHS  Committee  in
+each   Region   of   the   SEMI   Standards   Program   will
+provide the appropriate text for its geographical region.
+R2-2  North America
+R2-2.1    Requirements  for  the  separation  of  chemicals
+can  be  found,  for  example,  in  both  the  International
+Building  Code  (IBC)  and  the  International  Fire  Code
+(IFC).  These requirements deal with the segregation of
+incompatible    chemicals    in    separate    cabinets    and
+separation by barriers/distance in storage rooms. These
+requirements  can  be  found  in  the  2000  IBC  section
+415. 9.5.9  and  Table  415.9.5.9  and  in  the  2000  IFC
+sections 2703.8.5 and 2703.9.8.
+R2-3  Japan
+R2-3.1    In  Japan,  requirements  for  the  separation  of
+incompatible  gases  can  be  found  in  the  High  Pressure
+Gas  Safety  law  and  related  notifications  from  Ministry
+of  Economy  and  Industry,  such  as  in  section  11  of
+“Notification     regarding     technical     standards     for
+Location,  Construction,  and  Facility  of  Manufacturing
+Plant”.
+
+
+NOTICE: SEMI      makes      no      warranties      or
+representations   as   to   the   suitability   of   the   safety
+guidelines    set    forth    herein    for    any    particular
+application.  The  determination  of  the  suitability  of  the
+safety guidelines is solely the responsibility of the user.
+Users    are    cautioned    to    refer    to    manufacturer's
+instructions,  product  labels,  product  data  sheets,  and
+other  relevant  literature,  respecting  any  materials  or
+equipment  mentioned  herein.  These  safety  guidelines
+are subject to change without notice.
+By  publication  of  this  safety  guideline,  Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   item
+mentioned   in   this   safety   guideline.      Users   of   this
+guideline  are  expressly  advised  that  determination  of
+any  such  patent  rights  or  copyrights,  and  the  risk  of
+infringement   of   such   rights   are   entirely   their   own
+responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI S5-0703 © SEMI 1993, 2003 1
+SEMI S5-0703
+SAFETY GUIDELINE FOR SIZING AND IDENTIFYING FLOW LIMITING
+DEVICES FOR GAS CYLINDER VALVES
+This   safety   guideline   was   technically   approved   by   the   Global   Gases   Committee   and   is   the   direct
+responsibility  of  the  North  American  Gases  Committee.  Current  edition  approved  by  the  North  American
+Regional  Standards  Committee  on  April  11,  2003.    Initially  available  at  www.semi.org  June  2003;  to  be
+published July 2003.  Originally published in 1993.
+NOTICE:  This  document  was  completely  rewritten  in
+
+# 2003
+
+2003.
+1  Purpose
+1. 1  The purpose of this safety guideline is to provide a
+method  to  size  and  identify  flow  limiting  devices  that
+limit the rate of release of hazardous gases from the gas
+cylinder valve during transportation, storage, and use.
+2  Scope
+2. 1  This safety guideline provides a method to identify
+flow   limiting   devices   by   size,   and   to   calculate
+maximum  and  minimum  flow  rates  so  that  the  size
+required    can    be    determined.    Specific    SAFETY
+WARNINGS are contained in Section 3.
+2. 2      This   safety   guideline   pertains   to   flow   limiting
+devices  for  valves  on  cylinders  containing  hazardous
+gases. These devices are intended to limit the flow rate
+of  uncontrolled  releases  of  gases  at  or  downstream  of
+the valve outlet.  This guideline does not pertain to gas
+releases  caused  by  failure  of  the  cylinder,  the  valve
+connection  to  the  cylinder,  actuation  of  the  cylinder
+pressure relief device, or some failures of the valve.
+2. 3      This   safety   guideline   pertains   to   flow   limiting
+devices  operating  at  critical  flow  rates  that  result  from
+cylinder   pressures   greater   than   103   kPa   (15   psig).
+Generally,
+flow   limiting   devices   are   not   used   for
+cylinders   pressurized   less   than   103   kPa   (15psig)
+because  the  size  required  to  provide  adequate  flow  for
+the  process  is  so  large  that  flow  reduction  resulting
+from the flow limiting device would be minimal.
+NOTICE:  This  safety  guideline  does  not  purport  to
+address  all  of  the  safety  issues  associated  with  its  use.
+It  is  the  responsibility  of  the  user  of  this  guideline  to
+establish  appropriate  safety  and  health  practices,  and
+determine  the  applicability  of  regulatory  limitations
+prior to use.
+3  SAFETY WARNINGS
+3. 1  Installation   Only  the  gas  supplier  or  cylinder
+owner  should  install,  remove,  or  otherwise  service  the
+flow    limiting    device.        Special    equipment    and
+procedures may be required to perform any installation
+or  service  operation  safely.    No  other  person  should
+install, remove, replace, clean, adjust, or otherwise alter
+the   flow   limiting   device   unless   authorized   by   the
+cylinder owner.
+3. 2  Verification ó  When  a  flow  limiting  device  is
+required,  the  user  should  always  verify  that  the  size  is
+identified  by  tag,  label  or  marking  on  the  cylinder  or
+cylinder   valve   exterior,   and   that   the   device   size
+indicated  matches  the  requirement.    If  a  required  flow
+limiting   device   is   missing,   the   cylinder   should   be
+rejected prior to use.
+3. 3  Purging   The  addition  of  a  flow  limiting  device
+in  the  cylinder  valve  may  restrict  gas  flow  during
+purging.  The user should assure  that  adequate  purging
+methods are used to prevent plugging the flow limiting
+device.    As  a  minimum,  the  operator  should  purge  the
+valve outlet after use with the same procedure used for
+purging  the  valve  outlet  just  after  installation  of  the
+cylinder.  This is important to prevent contamination in
+the valve outlet and reduce the probability of creating a
+hazard at the cylinder supplierís plant.
+3. 4  Blockage     Under   certain   conditions,   some
+hydrides  such  as  diborane  can  polymerize  and  cause
+obstruction  or  total  blockage  of  flow  limiting  devices.
+Care  should  be  taken  with  cylinders  that  seem  to  be
+empty, but may contain product.
+4  Referenced Standards
+4. 1  SEMI Standard
+SEMI   S2   ó   Environmental,   Health,   and   Safety
+Guideline for Semiconductor Manufacturing Equipment
+4. 2  NFPA Document
+1
+
+NFPA 704  Standard System for the Identification of
+Fire Hazards of Materials
+NOTICE:    As  listed  or  revised,  all  documents  cited
+shall  be  the  latest  publications  of  adopted  standards.
+Regional  standards  may  be  substituted  provided  they
+are  equivalent.    Equivalent  international  standards  if
+adopted,  will  be  referenced  in  the  next  revision  of  this
+guideline.
+
+
+1 National Fire Protection Association, Batterymarch Park, Quincy,
+MA 02269 Website: www.nfpa.org
+
+
+
+SEMI S5-0703 © SEMI 1993, 2003 2
+5  Terminology
+5. 1  Definitions
+5. 1.1  equivalent  orifice  ó  a  passage  that  will  allow
+fluid flow equivalent to a round hole at 80% efficiency.
+The  efficiency,  known  as  the  orifice  coefficient,  will
+typically  vary  from  65%  (.65)  for  a  sharp  entrance  to
+95%  (.95)  for  a  well-rounded  entrance.    A  flow  rate
+tolerance  of  ±  20%  is  used  in  Table  1  to  allow  for
+variations  in  the  entrance  geometry  and  passage  size.
+Figure  1  illustrates  the  flow  rate  variation  resulting
+from this tolerance for different equivalent orifice sizes.
+5. 1.2  flow limiting device  a device installed in a gas
+cylinder valve that will reduce maximum flow from the
+valve under full flow conditions.
+5. 1.3  flow rate  flow rates in this guideline are given
+in  standard  liters  per  minute  (slm)  at  the  standard
+conditions  of  0∞C  (32∞F)  and  101  kPa  absolute  (14.7
+psia).  This  corresponds  to  the  standard  conditions  used
+for   calibration   of   mass   flow   controllers   used   in
+semiconductor processing systems.
+5. 1.4  hazardous  gases   gases  that  have  a  degree  of
+hazard  rating  in  health,  flammability,  or  reactivity  of
+class   3   or   4   in   accordance   with   NFPA   704,   or
+equivalent rating by a regional standard.
+5. 1.5  mixing gas ó an inert gas used to dilute another
+gas.
+6  Flow Limiting Device Criteria
+6. 1  Where  Used   Flow  limiting  devices  should  be
+installed  or  incorporated  into  cylinder  valves  that  are
+used  for  gas  cylinders  containing  the  hazardous  gases
+listed  in  Table  2.    Table  2  lists  hazardous  gases  for
+which  devices  are  known  to  be  feasible  by  reason  of
+testing and experience.  SEMI encourages testing by its
+members  of  hazardous  gases  not  listed  in  Table  2  so
+that new information can be added.
+6. 2  Materials   The  flow  limiting  device  should  be
+made  of  materials  that  are  compatible  with  the  gas  in
+the cylinder.
+6. 3  Installation   The  flow  limiting  device  should  be
+installed  by  the  gas  supplier  or  cylinder  owner.    See
+Safety Warnings.
+6. 4  Identification     The    preferred    method    of
+identifying   flow   limiting   devices   is   by   equivalent
+orifice  size  as  shown  in  Table  1.    Other  means  of
+identification, requiring identification by the supplier as
+to the device installed, may be used if unambiguous.
+6. 5  Service  Life   Removable  flow  limiting  devices
+may be reused, but should be tested by the gas supplier
+or  cylinder  owner  before  each  use  to  assure  that  the
+flow rate is as listed in Table 1.
+6. 6  Sizing  A flow limiting device that will not allow
+nitrogen flows out of the valve outlet to exceed the flow
+rates  listed  for  its  equivalent  orifice  size  in  Table  1.
+The  flow  limiting  device  should  be  the  smallest  size
+that satisfies the process requirements. The user should
+make   the   choice   of   flow   rate   based   on   safety
+philosophy contained in SEMI S2.
+NOTE  1:    Flow  rates  determined  by  the  calculations  in  this
+safety guideline are based on critical flow where the cylinder
+pressure is equal or greater than 2 atmospheres and pressure at
+the   outlet   of   the   flow   limiting   device   is   1   atmosphere.
+Consult  the  flow  limiting  device  supplier  to  determine  the
+minimum size that will provide the required process flow rate
+when  cylinder  absolute  pressure  is  less  than  2  times  outlet
+absolute pressure.
+7  Flow Rate Calculations
+7. 1    The  flow  rates  in  Table  1  are  specified  for  critical
+flow  of  nitrogen  through  the  flow  limiting  device  at
+several cylinder pressure levels.  Densities are given in
+Table 2 for some hazardous gases.  First determine the
+critical   flow   of   nitrogen   through   the   flow   limiting
+device  from  Table  1,  or  calculate  using  the  method
+specified   in   Section   7.2.   Then,   using   the   method
+specified in Section 7.3, calculate the gas and pressure-
+corrected   flow   rates   to   determine   the   proper   flow
+limiting   device   size   for   the   application.      For   gas
+mixtures,   the   density   can   be   calculated   using   the
+method specified in Section 7.4.
+7. 2  Nitrogen    Flow    Rateó    Nitrogen    flow    rate
+correction  for  cylinder  pressures  not listed  in  Table  1
+follows:
+NOTE  2:    This  equation  is  only  valid  for  ideal  gases,  and
+critical  flow  that  results  for  most  gases  when  P
+cyl
+/P
+atm
+≥  2.
+It  is  necessary  to  multiply  the  equation  by  a  compressibility
+factor   (Z)   for   better   accuracy,   however   for   nitrogen   at
+temperatures  between  -54  to  +60∞C  (-65  to  +140∞F) and  at
+cylinder pressures less than 21,000 kPa gauge (3045 psig), the
+result will be accurate within a few percent.
+Q
+N
+= Q
+NT
+x
+atmNT
+atmcyl
+PP
+PP
++
++
+Equation 1.
+Q
+N
+is  the  critical  flow  rate  in  slm  of  nitrogen  at
+pressures not listed in Table 1.
+Q
+NT
+is  the  critical  flow  rate  in  slm  of  nitrogen  from
+Table  1  that  corresponds  to  a  given  equivalent  orifice
+size at pressure.
+P
+cyl  is  the  gauge  pressure  kPa  gauge  (psig)  in  the  gas
+cylinder for which the flow rate is being calculated.
+
+
+SEMI S5-0703 © SEMI 1993, 2003 3
+P
+atm   is   standard   atmospheric   pressure   101   kPa
+absolute (14.7 psia) at sea level.
+P
+NT
+is  the  pressure  in  kPa  gauge  (psig)  from  Table  1
+that   produces   critical   flow   rate   Q
+NT
+for   a   given
+equivalent orifice size.
+
+EXAMPLE  1:  What  is  the  minimum  flow  rate  of
+nitrogen  through  a  0.25  mm  (0.01  inch)  equivalent
+orifice at 862 kPa gauge (125 psig)?
+Q
+N
+= 2.90 ◊
+101700
+101862
++
++
+= 3.5 slm nitrogen (Q
+NT
+= 2.90 is
+the minimum flow rate at 700 kPa gauge, the minimum
+flow rate for a 0.25 mm orifice at any pressure listed in
+Table 1 will provide the same result.)
+EXAMPLE  2:  What  is  the  maximum  flow  rate  of
+nitrogen  through  a  0.25  mm  (0.01  inch)  equivalent
+orifice at 12,414 kPa gauge (1,800 psig)?
+Q
+N
+=  4.35  ◊
+101700
+10112414
++
++
+=  68  slm  nitrogen  (Q
+NT
+= 4.35
+is the maximum flow rate at 700 kPa gauge.)
+7. 3
+Hazardous  Gas  Flow  Rateó  Flow  rate  correction
+for gases listed in Table 2 other than nitrogen follows:
+NOTE 3:  This   formula   is   only   valid   for   critical   flow,
+typically where P
+cyl
+/ P
+atm
+> 2
+Q
+g
+=  Q
+N
+◊
+g
+DZ)(
+25. 1
+Equation  2.  (Use  Q
+NT
+in  place  of
+Q
+N
+when  the  applicable  cylinder  pressure  is  listed  in
+Table 2.)
+Q
+g
+is  the  critical  flow  rate  in  slm  of  the  gas  listed  in
+Table 2.
+
+D
+g
+is  the  standard  density  of  the  gas  in  kg/m
+3
+at  one
+atmosphere and 0∞C (32∞F) listed in Table 2.
+Z  is  the  compressibility  factor  at  P
+cyl
+for  the  gas  listed
+in  Table  2.    For  pressures  not  listed,  interpolation  of  Z
+with  Z  assumed  proportional  to  pressure  and  equal  to
+1. 0  at  zero  pressure  should  provide  adequate  accuracy
+in  the  pressure  and  temperature  ranges  found  in  this
+document.    For  gas  mixtures  with  the  mixing  gas  95%
+by  volume  or  greater,  use  of  Z  for  the  mixing  gas
+should     provide     adequate     accuracy,     for     lower
+percentages consult the gas supplier.
+NOTE   4:      Density   is   the   reciprocal   of   specific   volume.
+Density   or   specific   volume   is   frequently   given   at   a
+temperature  of  21.1∞C  (70∞F).  To  convert  21.1∞C  (70∞F)  to
+0∞C (32∞F) standard density, multiply by 1.077.
+EXAMPLE 3:  What is the minimum flow for Nitrogen
+Trifluoride  through  a  0.75  mm  (0.03  inch)  equivalent
+orifice at 700 kPa gauge?
+Q   =   26.1   ◊
+)20.3)(97.0(
+25. 1
+=   16.6   slm   Nitrogen
+Trifluoride (Z is interpolated at 700 kPa)
+7. 4
+Density  For  Gas  Mixtures  ó  Density  correction
+for  mixtures  of  gases  listed  in  Table  2,  or  Table  2  and
+Table 3 follows:
+D
+mix
+=
+∑
+V
+g
+◊ D
+g
+Equation 3.  (For gas mixtures, use
+D
+mix
+in place of D
+g
+in Equation 2.)
+V
+g
+is the volume fraction of each gas in the mixture.
+EXAMPLE 4: What is the density for a mixture of 5%
+arsine and 95% nitrogen?
+D
+mix
+= (.05 ◊ 3.45) + (.95 ◊ 1.25) = 1.36 kg/m
+3
+
+8  Related Documents
+8. 1
+CGA Standard
+2
+
+CGA V-9
+ Compressed Gas Association Standard for
+Compressed Gas Cylinder Valves
+
+
+2 Compressed Gas Association, Inc., 1725 Jefferson Davis Highway,
+Suite 1004, Arlington, VA 22202
+
+
+
+SEMI S5-0703 © SEMI 1993, 2003 4
+Table 1  Critical Nitrogen Flow Rates (Q
+NT
+) For Flow Limiting Devices
+Critical Flow Rate (slm) of nitrogen at the following cylinder pressures:
+Equivalent Orifice
+Size
+700 kPa gauge
+(102 psig)
+2100 kPa gauge
+(305 psig)
+7000 kPa gauge
+(1015 psig)
+21000 kPa gauge
+(3045 psig)
+min.       nom.       max.        min.       nom.       max.       min.       nom.       max.        min.       nom.       max.
+mm           inch
+−20%
++20% −20%          +20%−20%          +20% −20%           +20%
+0. 15 0.006
+1. 04
+1. 31
+1. 57        2.86
+3. 57
+4. 29        9.21
+11. 5
+13. 8        27.4
+34. 2
+41. 0
+0. 25 0.01
+2. 90
+3. 62
+4. 35        7.94
+9. 93
+11. 9        25.6
+31. 0
+38. 4        76.0
+95. 0
+114
+0. 50 0.02
+11. 6
+14. 5
+17. 4        31.8
+39. 7
+47. 7         102
+128
+153         304
+380
+456
+0. 75 0.03
+26. 1
+32. 6
+39. 1        71.5
+89. 4
+107         230
+288
+345         684
+855
+1026
+1. 00 0.04
+46. 4
+58. 0
+69. 6         127
+159
+191         409
+512
+614        1216
+1520
+1824
+1. 25          0.05
+72. 5
+90. 6
+108         199
+248
+298         640
+799
+959        1900
+2375
+2850
+1. 50          0.06
+104
+130
+157         286
+357
+429         921
+1151
+1381       2736
+3421
+4105
+
+Table 2  Hazardous Gases for Which Flow Limiting Devices May be Used
+Hazardous
+Gas Type
+Standard
+Density (D), 1
+atm., 0°C
+[kg/m
+3
+(lbs/ft
+3
+)]
+Cylinder Pressure
+(P
+cyl
+) Typical Max.
+@ Room Temp.
+[kPa_gauge (psig)]
+(See Note 1.)
+Compressibility
+Factor (Z) @ Typ.
+Max.Cylinder
+Pressure (See Note 2.)
+Compressibility
+Factor (z) @ 10%
+Typ. Max.Cylinder
+Pressure (See Note 2.)
+Max. Flow
+Rate (q) 0.25
+mm (0.01 in.)
+Equiv.Orifice
+(slm)
+Arsine, AsH3 3.45 (0.216)                1,410                (205)                0.81                0.98                5.5
+Carbon
+Monoxide,
+CO
+1. 250 (0.078) 11,385 (1,650) 0.97 1.0 63
+Diborane,
+B2H6
+1. 250 (0.078) 1% in N2 12,410
+(1,800)
+0. 29 @ 7,000 (1,015) 0.93 @ 700 (103) 1% in N2 68
+Germane,
+GeH4
+3. 415 (0.213) 607 (88) 0.94 0.99   2.4
+Hydrogen,
+H2
+.090 (0.0056) 15,180 (2,200) 1.03 1.0  303
+Nitrogen
+Trifluoride,
+NF3
+3. 200 (0.199) 10,000 (1,450) 0.64 0.96   43
+Phosphine,
+PH3
+1. 519 (0.095) 4,095 (594) 0.52 0.95  29
+Silane, SiH4 1.433 (0.090) 8,280 (1,200) 0.36 0.94  70
+Stibine, SbH3 1.444 (0.090) --- --- --- ---
+NOTE 1: Cylinder pressures will vary, consult gas supplier to verify the actual cylinder pressure.
+NOTE 2: Compressibility factors are interpolated from available data, consult gas supplier for alternate pressures.
+Table 3  Mixing Gases
+Mixing Gas Type
+
+Standard Density
+(D), 1 atm., 0°C
+[kg/m
+3
+(lbs/ft
+3
+)]
+Cylinder
+Pressure* (P
+cyl
+)
+Typical Max. @
+Room Temp
+[kPa
+gauge (psig)]
+Compressibility
+Factor (Z) @ Typ.
+Max. Cylinder
+Pressure
+Compressibility
+Factor (Z) @ 10%
+Typ. Max.Cylinder
+Pressure
+Max. Flow Rate
+(Q) thru  0.25 mm
+(0.01 in.)
+Equivalent Orifice
+(slm)
+Argon, Ar 1.788 (0.111) 17,180 (2,490) 0.93 0.99  81
+Helium, He 0.179 (0.011)  17,180 (2,490) 1.1 1.0  235
+Nitrogen, N
+2
+1. 250 (0.078) 17,180 (2,490) 1.0 1.0  93
+
+
+
+SEMI S5-0703 © SEMI 1993, 2003 5
+Figure 1 Nitrogen Flow Rate
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+700210070001400021000
+Cylinder Pressure (kPa)
+Nitrogen Flow Rate (slm)
+0. 15 lo
+0. 15 hi
+0. 25 lo
+0. 25 hi
+0. 50 lo
+0. 50 hi
+0. 75 lo
+0. 75 hi
+1. 00 lo
+1. 00 hi
+1. 00 mm equiv. orifice
+0. 75 mm equiv. orifice
+0. 50 mm equiv. orifice
+0. 25 mm equiv. orifice
+0. 15 mm equiv. orifice
+
+Figure 1
+Nitrogen Flow Rate
+
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacture's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature,  respecting  any  materials  or  equipment  mentioned  herein.  These  standards  are  subject  to  change  without
+notice.
+The  userís  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copyrighted
+material  or  of  an  invention  covered  by  patent  rights.    By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, is entirely their own responsibility.
+
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI S6-93 © SEMI 19931
+SEMI S6-93
+SAFETY GUIDELINE FOR VENTILATION
+NOTICE:  This  guideline  does  not  purport  to  address
+all  of  the  safety  issues  associated  with  its  use.  It  is  the
+responsibility  of  the  user  of  this  guideline  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+NOTE:  As  listed  or  revised,  all  documents  cited  shall  be  the
+latest publications of adopted standards.
+1  Introduction
+The   equipment   supplier   should   design   an   internal
+equipment   exhaust   system   that   is   efficient   when
+connected  to  potential  users’  exhaust  systems.  Seldom,
+if ever, are users’ systems designed for a specific piece
+of process equipment or set of process equipment. Most
+users’  exhaust  systems  are  designed  and  installed  to
+industry-accepted exhaust principles.
+2  Purpose
+This  document  is  intended  to  help  the  semiconductor
+equipment  supplier  design  equipment  exhaust  systems
+to  a  common  set  of  performance  criteria  as  well  as  to
+provide  assistance  to  both  users  and  suppliers  in  the
+understanding  of  exhaust  requirements  for  equipment
+systems.    It    is    not    intended    to    establish    design
+specifications.   The   supplier   will   still   own,   and   be
+responsible   for,   the   information   it   specifies.   This
+guideline    has    six    concurrent    performance-related
+objectives.
+2. 1   Ensure  hazardous  gases,  fume s,  and  vapors  are
+controlled  (during  normal  operations  of  equipment  and
+facilities  services)  such  that  concentrations  present  in
+the  work  room  air  should  be  less  than  1.0%  of  the
+Threshold  Limit  Value  (TLV),  as  established  by  the
+American    Conference    of    Governmental    Industrial
+Hygienists  (ACGIH)  or  Permissible  Exposure  Limit
+(PEL)   as   published   by   the   appropriate   regulatory
+agency, whichever is lower.
+2. 2  Ensure exhaust is provided wi thin specifications to
+support the proper operation of equipment.
+2. 3  Optimize the user’s exhaust sy stem(s).
+2. 4   Use  the  most  cost  effective  me thods  to  interface
+with user’s exhaust systems.
+2. 5   Provide  a  platform  for  commu nicating  “special
+case” exhaust requirements.
+2. 6     Establish    guidelines    for    measu rement    and
+communication of equipment exhaust requirements.
+3  Scope
+This  guideline  applies  to  all  semiconductor  equipment
+that incorporates exhausted enclosures that are intended
+to  be  connected  to  user  facilities’  exhaust  system(s).
+This  document  is  written  with  the  assumption  that  the
+users’  exhaust  distribution  systems  will  be  designed
+with   central   fans,   ducting,   and,   where   applicable,
+abatement  equipment.  Where  users  use  other  types  of
+exhaust  systems,  equipment  suppliers  should  acquire
+exhaust    specifications    from    the    users.    Whether
+equipment  is  connected  to  a  central  exhaust  system  or
+to  one  which  serves  only  that  piece  of  equipment,  this
+guideline should be applied.
+4  Referenced Documents (s ee Appendix 2)
+5  Terminology
+5. 1     balancing    —    Adjustments    mad e    after    the
+ventilated  equipment  and  the  ventilation  system  are
+installed   to   assure   that   airflow   to   each   piece   of
+ventilated equipment is within design specifications.
+5. 2  capture — To entrain undesira ble elements (gases,
+fumes,  vapor,  and  particles)  in  the  exhaust  stream  for
+removal.
+5. 3     dilute    —    To    reduce    the    concen tration    of
+undesirable  elements  to  acceptable  levels.  Dilution  is  a
+function of flow volume.
+5. 4   flow  velocity  (V)  —  The  avera ge  speed  at  which
+the  effluent  stream  travels  through  the  exhaust  duct.  It
+is  measured  in  meters  per  second  (m/s)  or  feet  per
+minute (fpm).
+5. 5   flow  volume  (Q)  —  The  volum etric  flow  rate  of
+the  effluent  stream  passing  a  given  location  in  the
+exhaust system per unit of time. It is measured in cubic
+meters per second (m
+3
+/s) or cubic feet per minute (cfm).
+5. 6  initiate motion — To use an ex haust stream to start
+contaminants  (or  machine  parts)  moving  from  a  rest
+position.
+5. 7   long  radius  elbow  —  An  exha ust  duct  elbow  that
+has  a  center  line  radius  1.5  or  more  times  the  duct
+diameter.
+5. 8   set  point  tolerance  —  The  rang e  (+/-)  of  static
+pressure   within   which   an   exhaust   enclosure   will
+perform efficiently and effectively.
+5. 9  static pressure (SP) — The me asure of differential
+pressure  across  the  duct  wall  to  the  ambient  pressure
+
+SEMI S6-93 © SEMI 19932
+(inside  the  duct).  The  unit  of  measure  is  pascals  (Pa,
+Newtons per square meter (N/m
+2
+)) or inches of water.
+5. 10    traverse   measurements   —   Mu ltiple   air   flow
+measurements  taken  at  points  of  equal  separation,  in  a
+matrix  pattern,  along  the  face  plane  of  an  exhaust  duct
+or opening in an exhaust enclosure.
+5. 11   vena  contracta  —  A  point  in  a   duct  where  the
+diameter  of  the  air  stream  is  smaller  than  the  diameter
+of the duct.
+6  Attributes of Typical Sem iconductor
+Facilities’ Exhaust Systems
+6. 1   A  typical  semiconductor  facili t y’s  exhaust  system
+has   three   measurable   working   elements:   (1)   flow
+velocity, (2) flow volume, and (3) pressure.
+6. 1.1  Flow Volume is related to the  Flow Velocity by
+the equation Q = VA. In this equation, Q = volumetric
+flow  rate,  V  =  average  velocity,  and  A  =  duct  cross
+sectional area (m
+2
+or ft
+2
+).
+6. 2    There   are   three   duct   pressure   m easurements
+possible:  (1)  static  pressure,  (2)  velocity  pressure,  and
+(3) total pressure.
+6. 2.1  In exhaust distribution systems  with central fans
+and  abatement  equipment  (typical  of  semiconductor
+facilities), exhaust duct pressure (static) upstream of the
+fan is less than the ambient pressure outside of the duct.
+6. 2.2  While Velocity Pressure (VP)  and Total Pressure
+(TP)  provide  a  more  reliable  measure  of  Flow  than
+Static  Pressure,  VP  and  TP  are  normally  not  specified
+for semiconductor facilities’ exhaust systems; therefore,
+they  will  not  be  discussed  in  these  guidelines.  If  more
+information  is  desired  on  VP  or  TP,  it  can  be  found  in
+“Industrial Ventilation” (Appendix 2, Reference 1).
+7  Exhaust Usage Typical of   Semiconductor
+Operations
+Semiconductor   equipment   typically   uses   exhaust   to
+perform one or more of the following tasks:
+7. 1   Capture  —  Capture  should  oc cur  as  close  to  the
+source  as  practical  to  prevent  exposure  of  personnel  or
+products to the undesirable elements.
+7. 1.1   Capture  is  a  function  of  Flow  V elocity.  Chapter
+3     of     “Industrial     Ventilation,”     A     Manual     of
+Recommended  Practice,  20th  Edition,  (Appendix  2,
+Reference 1) outlines the design principles and required
+velocity   calculations   for   proper   capture   of   process
+emissions.
+7. 2   Moving  is  also  a  function  of  Fl o w  Velocity.  The
+exhaust   requirements   specified   by   the   equipment
+supplier  should  be  adequate  to  maintain  motion  of
+undesirable  elements  once  they  are  captured  in  the
+exhaust stream.
+7. 3   Dilution  is  a  function  of  Flow   Volume.  Dilution
+may   also   provide   reactive   elements   to   undesirable
+elements entrained in the exhaust stream (for example,
+air and silane).
+7. 4  Holding — The movement of  t he exhaust stream is
+often  used  to  activate  and  hold  safety  control  devices,
+such as vane switches or differential pressure gauges in
+the  active  state.  Such  safety  control  devices  should  be
+used  to  sense  adequate  exhaust  pressure  or  flow  to
+ensure safe operation of the process equipment.
+7. 5   Initiation  of  Motion  —  The  us e  of  exhaust  to
+intiate motion in the semiconductor industry is a special
+case  application  and  should  be  resolved  at  the  time  of
+purchase.  Most  semiconductor-related  gases,  vapors,
+fumes,  and  fine  particles  (less  than  20  microns  in
+diameter) move with the air in which they are mixed.
+8  Key Elements of Exhaust  Specifications
+8. 1   SEMI  S2  establishes  specific  r equirements  for
+exhaust  enclosures  of  equipment  that  use  hazardous
+materials.   Access   to   enclosures   serving   hazardous
+materials  requires  special  design.  If  there  is  a  potential
+for  exposure  of  personnel  to  hazardous  materials  when
+the  access  hatch  is  open,  an  average  face  velocity
+(measured  at  the  hatch  opening)  sufficient  to  capture
+the  hazardous  materials  should  be  maintained  in  the
+hatch opening. (SEMI S2 also has recommendations for
+exhaust  monitoring  and  alarms.  S2  should  be  fully
+understood   before   designing   exhaust   systems   for
+hazardous materials.)
+8. 2   Properties  of  chemicals  (densi ty,  vapor  pressure,
+boiling   point,   flammability,   etc.),   the   state   of   the
+materials  within  the  exhausted  enclosure  (solid,  liquid,
+or   gas),   and   conditions   such   as   temperature   and
+concentration   will   determine   the   final   design   and
+exhaust   specifications   of   the   equipment   enclosure.
+Equipment   suppliers   should   use   available   reference
+books  and  Material  Safety  Data  Sheets  (MSDS)  to
+obtain    information    on    chemical    properties.    The
+equipment’s  process  requirements  will  dictate  the  state
+and condition of the material.
+8. 3   When  developing  specification s  for  equipment
+exhaust  systems  to  be  given  to  the  equipment  user,
+equipment  suppliers  should  incorporate  all  of  the  key
+elements    that    will    provide    clear    and    accurate
+information. These key elements are:
+1.   Point of measurement.
+2.   Duct size at the point of measurement.
+3.   Flow through the duct.
+
+SEMI S6-93 © SEMI 19933
+4.   Air density.
+5.   Temperature  of  the  exhaust  stream  when  it  enters
+the exhaust system.
+6.   Static pressure at the point of measurement.
+7.   Physical  condition  of  the  process  equipment  at  the
+time of measurement.
+8.   Peak, normal, and special exhaust requirements.
+9.   Equipment   environmental   conditions   anticipated
+(installed).
+10. Stability    and    tolerance    requirements    of    the
+specifications.
+11. Priority  of  exhaust  attributes  when  the  system  is
+balanced. (What is the primary intent of the exhaust,
+secondary, etc.?)
+12. Instruments  and  practices  used  (and  recommended)
+for taking measurements.
+13. Design   information   on   the   complete   equipment
+exhaust       system       (including       materials       of
+construction).
+14. Constituents of the exhaust stream.
+Each  of  these  key  elements  is  discussed  in  detail  in
+Sections 8.3.1 through 8.3.14.
+8. 3.1   The  point  of  measurement  for   the  equipment
+exhaust  duct  should  be  clearly  defined.  Information
+given to locate the point of measurement should include
+a  diagram  of  the  exhaust  connection  with  locations  of
+the traverse points used.
+8. 3.1.1    Turbulence   in   the   duct   at   the   p oint   of
+measurement  should  be  minimized.  The  measurement
+point should be in a straight section of duct. It should be
+downstream   in   the   connecting   duct   past   the   vena
+contracta    from    the    last    transition    made    in    the
+equipment.   It   should   be   far   enough   from   fittings,
+dampers,    or    sprinkler    heads    to    minimize    their
+interference      with      the      measurements.      Normal
+recommended  practice  is  7.5  duct  diameters  from  any
+point  of  connection  or  fitting.  See  “HVAC  Systems
+Testing,   Adjusting,   and   Balancing,”   (Appendix   2,
+Reference 3).
+8. 3.1.2    Equipment   users   typically   use    a   throttling
+damper  for  exhaust  balancing  where  the  equipment
+drop   connects   to   the   rest   of   the   exhaust   system.
+Balancing   measurements   should   be   taken   on   the
+equipment   side   of   these   balancing   dampers.   The
+supplier  may  elect  to  provide  a  damper,  at  or  near  the
+equipment  connection  point,  to  be  used  only  as  a
+trimming   device   over   a   narrow   performance   band
+around the equipment flow and pressure specifications.
+Features  of  this  damper  should  be  designed  to  prevent
+complete blockage of exhaust flow.
+8. 3.2   Duct  size  is  the  inside  diamete r  of  the  exhaust
+connection  from  the  equipment.  The  supplier  should
+provide  any  other  dimensions  needed  to  design  the
+connection of the exhaust system to the equipment.
+8. 3.2.1   The  duct  size  of  the  equipmen t  connection
+should  fall  in  the  low  flow  velocity  range  of  the  duct
+friction   table.   See   “HVAC   Systems   Duct   Design”
+(Appendix  2,  Reference  2).  Low  flow  velocity  ducts
+will promote flexibility and ease of interface to exhaust
+systems serving multiple equipment. When particles are
+to  be  captured  and  removed,  design  the  system  for  the
+minimum flow velocity that will ensure capture.
+NOTE: Exhaust system designers should always keep in mind
+the   difficulty   that   can   be   experienced   in   flow   velocity
+measurements in unduly large ducts. Tool connections should
+be sized for accurate flow measurements.
+8. 3.2.2     The    design    of    the    equipment    e xhaust
+connection  should  allow  for  long  radius  connecting
+elbows  at  the  point  of  connection.  This  will  reduce
+friction  losses.  Additionally,  the  equipment  supplier
+should avoid configurations that would require an angle
+of entrance into the user’s branch ducts of greater than
+30 degrees.
+8. 3.2.3   Duct  connection  configuration   should  be  such
+that   liquid   spills   or   releases   within   the   equipment
+enclosures will not enter the facility’s exhaust system.
+8. 3.3   Flow  through  the  equipment  e nclosure,  and  the
+duct  at  the  point  of  connection,  can  be  specified  in
+velocity  or  volume.  Normally,  the  balancing  engineer
+will  measure  Flow  Velocity  and  convert  velocity  to
+Flow Volume using the equation Q = VA. (See Section
+6. 1.1.)
+8. 3.3.1   Section  8.3.6  of  this  document   shows  the
+pressure guidelines for semiconductor exhaust systems.
+The   equipment   supplier   should   establish,   through
+testing,  the  Flow  Velocity  and  Volume  required  for
+efficient  operation  of  its  equipment’s  exhaust  system.
+The  user  and  the  supplier  should  agree,  before  the
+purchase   of   the   equipment,   on   the   safety   control
+devices to be used. Any safety control device requiring
+flows or pressures outside these ranges is a special case
+and should be resolved at the time of purchase.
+8. 3.4    Exhaust   specifications   should    be   stated   in
+Standard  Air  Density  (kg/m
+3
+or  lb/ft
+3
+),  as  defined  in
+“Industrial  Ventilation,”  (Appendix  2,  Reference  1).  If
+the  measurements  are  of  non-standard  air,  state  the
+correction factor for density. Users should correct field
+balancing measurements taken above 600 meters (2000
+
+SEMI S6-93 © SEMI 19934
+feet)  elevation  before  comparing  them  to  suppliers’
+specified data. Additionally, the supplier-specified data
+must be corrected to sea level if it was measured above
+600 meters elevation.
+8. 3.4.1    Flow   measurements   taken   at   o ther   than
+standard  air  temperatures  (21.1°C  (70°F))  should  be
+corrected to standard conditions.
+8. 3.4.2  Corrections for altitude and tem perature should
+use the following relationship:
+M
+3
+/s = (m
+3
+/s)(294.3/T
+K
+)(D)
+CFM = (cfm)(530/T
+R
+)(D)
+M
+3
+/s = Standard cubic meters per second
+m
+3
+/s = Measured cubic meters per second
+CFM = Standard cubic feet per minute
+cfm = Measured cubic feet per minute
+T
+K
+=  Measured  temperature  in  degrees  K  (T
+K
+=  T
+C
++
+273. 2)
+T
+C
+= Measured temperature in degrees C
+T
+R
+=  Measured  temperature  in  degrees  R  (T
+R
+=  T
+F
++
+459. 7)
+T
+F
+= Measured temperature in degrees F
+D = Altitude density correction factor
+AltitudeDensity Correction Factor
+sea level1.00
+300 m (1000 ft)0.96
+600 m (2000 ft)0.93
+900 m (3000 ft)0.89
+1200 m (4000 ft)0.86
+1500 m (5000 ft)0.83
+8. 3.5   The  expected  temperature  of  th e  exhaust  stream
+(from the supplier’s equipment) at the connection to the
+user’s   exhaust   system   should   be   included   in   the
+specifications.  The  connecting  duct  material  should  be
+compatible with this temperature. The normal operating
+and  maximum  high  and  minimum  low  temperatures
+should be specified.
+8. 3.6   Static  pressure  is  measured  at   the  same  traverse
+point  as  discussed  in  Section  8.3.1.  The  equipment
+specifications    should    define    the    minimum    Static
+Pressure, at the point of connection, required for proper
+equipment operation.
+8. 3.6.1  The target Static Pressure rang e at the point of
+connection to equipment is -125 to -250 Pa (-0.5 inches
+to  -1.0  inches  of  water).  This  permits  flexibility  of
+equipment  placement  with  minimal  need  for  pressure
+boosting devices, such as booster fans.
+8. 3.6.2  For exhaust Static Pressure req uirements lower
+than  -1.0  inches  of  water,  the  equipment  supplier  must
+establish, with the user’s concurrence, the specifications
+for  a  safe  booster  add-on  device.  A  larger  negative
+number  is  a  lower  exhaust  pressure.  Normally,  users
+will    install    boosters    only    when    their    exhaust
+distribution  system  cannot  reach  the  specified  static
+pressure. As each user’s facility is unique, booster add-
+on  devices  should  be  separate  from  the  equipment’s
+functional design and used only as a last resort.
+8. 3.7   The  physical  settings  and  conf iguration  of  the
+process  equipment  when  specified  flow  and  pressure
+measurements are made is critical to the repeatability of
+the measurements.
+8. 3.7.1   Exhaust  enclosures,  capture  zo nes,  and  entry
+points  in  the  equipment  should  isolate  the  area  to  be
+exhausted    from    adjacent    areas.    Internal    ducts,
+partitions,  and  guide  plates  in  the  equipment  should  be
+leak  tight  to  prevent  the  release  of  contamination  from
+the exhaust stream.
+8. 3.7.2    To   capture,   move,   or   dilute   co ntaminants
+effectively  within  the  equipment’s  exhaust  enclosure,
+there must be a continuous supply of make-up air. The
+enclosure should be designed such that the make-up air
+is   drawn   from   a   selected   area   through   designed
+openings in the enclosure walls. Care should be taken to
+ensure  the  make-up  air  does  not  contain,  or  potentially
+contain,  vapors  or  fumes  that  could  be  incompatible
+with  the  exhaust  enclosures  material  of  construction,
+components, or target materials being exhausted.
+8. 3.7.3   Minimize  the  volume  of  the  en closures  where
+possible  to  reduce  the  load  on  the  exhaust  system  and
+on its companion make-up air system.
+8. 3.7.4    Enclosures   supplied   with,   or   a s   part   of,
+equipment should be designed so that exhaust properly
+sweeps all potential emission release points.
+8. 3.7.5  Aerodynamic “dead spots” ins ide the enclosure
+should be minimized.
+8. 3.7.6   Components  that  have  no  pote ntial  for  release
+should be located outside the enclosure, when possible.
+Additionally,  the  handles  for  any  valves  located  inside
+the exhausted enclosure should be positioned outside of
+the enclosure to reduce the need to open the enclosure.
+8. 3.7.7     Verification    that    the    exhaust    e nclosure
+provides  the  desired  capture  of  contaminants  can  be
+accomplished  by  using  Sulfur  Hexafluoride  as  a  tracer
+gas  (see  SEMI  F15).  Verification  that  aerodynamic
+“dead spots” have been eliminated can be accomplished
+
+SEMI S6-93 © SEMI 19935
+by  use  of  “clean  smoke”  generated  from  a  deionized
+water vapor generating system.
+8. 3.7.8  Once capture has been verified , measurements
+should be taken at specific openings (make-up air slots,
+access   ports,   or   windows,   etc.)   to   establish   the
+minimum   flow   velocity   necessary   at   these   specific
+openings to achieve capture.
+8. 3.7.9  Record the position of covers,  doors, dampers,
+valved  openings,  etc.,  and  flow  restrictions  (such  as
+fluid levels in vessels which exhaust air serves or flows
+through)  at  the  time  of  the  ventilation  tests  so  that  the
+test can be duplicated.
+8. 3.7.10  The supplier should specify ho w to duplicate
+these  conditions  at  the  time  of  field  adjustment  and
+balance.  If  the  original  conditions  are  not  duplicated,
+the  exhaust  losses  through  the  equipment  may  vary.
+The  major  risk  is  that  the  equipment  exhaust  level  will
+be   set   as   close   to   the   suppliers’   specifications   as
+possible  and  may  not  provide  the  safety  level  intended
+during actual equipment operation.
+8. 3.8   The  equipment  may  require  di fferent  exhaust
+flow   or   pressure   during   the   process   cycle   than   in
+standby  or  maintenance  modes.  The  supplier  should
+provide   specifications   for   normal   operating   mode
+demands,  peak  demand,  and  any  other  demand  level
+required  for  employee  safety.  The  normal,  peak,  and
+other   critical   safety   condition   demands   should   be
+compensated for in both the system design and the field
+balance.
+8. 3.9    Equipment   data   used   to   establi sh   exhaust
+specifications      should      reflect      the      equipment’s
+environmental   conditions   anticipated   when   installed
+(e.g.,  bulkhead  mounted  equipment  is  supplied  with
+data for a bulkhead installation).
+8. 3.9.1   Typical  user  clean  rooms  are  d esigned  using
+the  “bay”  and  “chase”  concept.  The  bay  is  served  with
+100%  ceiling-supplied,  HEPA-filtered  air.  Vertical  air
+flow  below  the  ceiling  is  typically  0.5  m/s  (100  FPM)
+across the entire bay. The chase section is the return air
+plenum  for  the  bay  air  supply  system.  The  typical
+pressure differential across the bay wall is 2.5 to 7.5 Pa
+(0.01  to  0.03  inches  of  water),  with  the  lower  pressure
+on the chase side.
+8. 3.9.2     Bulkhead    or    through-the-wall     mounted
+equipment should tolerate this pressure differential.
+8. 3.9.3    Cabinet   or   enclosure   exhaust   a pplications
+should  be  designed  so  that  back  streaming  into  the
+clean bay or chase is prevented.
+8. 3.10    The   set   point   tolerance   at   time    of   initial
+installation  should  be  included  in  the  specification.
+Performance  stability  over  time  for  the  exhaust  flow
+and     pressure     requirements,     needed     to     support
+equipment   operations   and   safe   working   conditions,
+should also be specified.
+8. 3.10.1    The   users’   exhaust   distribution    systems
+typically hold a balance setting ±10% of the set point(s)
+over  time.  Equipment  which  integrates  high  or  low
+exhaust  level  alarms,  requiring  tighter  stability  control,
+are special cases and should be identified at the time of
+purchase.
+8. 3.10.2   The  supplier-specified  set  poin ts  for  Exhaust
+Flow, Volume, and Pressure should include a tolerance
+of  -0%  +10%.  (This  is  the  common  acceptance  range
+established for exhaust distribution system balance.)
+8. 3.11   The  five  methods  of  exhaust  u se  discussed  in
+Section  7  drive  different  priorities  when  establishing
+exhaust specifications.
+8. 3.11.1   The  “initiate  motion”  and  “hol d”  functions
+are either pressure or velocity driven, depending on the
+safety equipment selected by the supplier.
+8. 3.11.2    “Capturing”   and   “moving”   are    typically
+velocity-dependent.
+8. 3.11.3  “Dilution” is flow volume dep endent.
+8. 3.11.4   The  equipment  exhaust  specifi cation  should
+focus on the exhaust attribute (see Section 6) associated
+with  the  exhaust  use  (see  Section  7).  If  multiple  uses
+are  being  met,  the  supplier  should  prioritize  Pressure,
+Flow, and Flow Volume for balancing.
+8. 3.12   The  instruments  and  practices   used  for  taking
+measurements   to   establish   equipment   specifications
+should  be  recommended  in  the  specifications  and  used
+in field balance operations.
+8. 3.12.1   A  hot  wire  anemometer  is  acce ptable  for
+velocities  less  than  150  m/s  (500  FPM).  A  low  range
+differential  pressure  gauge  (0  to  60  Pa  or  0.0  to  0.25
+inches  of  water)  is  acceptable  for  velocities  over  150
+m/s (500 FPM).
+8. 3.12.2  An inclined/vertical manomete r or high range
+differential  pressure  gauge  is  acceptable  for  measuring
+static pressure.
+8. 3.12.3   Conversion  charts  should  be  d eveloped  to
+indicate  what  flow  volume  is  present  at  various  points
+on   the   inclined/vertical   manometer   or   differential
+pressure gauge.
+8. 3.12.4      Equipment     suppliers     should     in clude
+recommendations  in  the  equipment  specifications  for
+the  proper  selection  of  the  pitot  tube,  static  tip,  etc.,  to
+use when measuring exhaust flow and pressure.
+8. 3.12.5   The  description,  operation,  ma intenance,  and
+limitations of these and alternate instruments is covered
+
+SEMI S6-93 © SEMI 19936
+8. 3.12.6 in  Chapter  9  of  “Industrial  Ven tilation,”  A
+Manual   of   Recommended   Practice,   20th   Edition,
+(Appendix  2,  Reference  1).  A  companion  reference  is
+Chapter  5  of  HVAC  Systems  Testing,  Adjusting,  and
+Balancing, (Appendix 2, Reference 3).
+8. 3.12.7   As  with  any  test  performed  to   establish  or
+verify  specifications,  the  measuring  instruments  used
+should   be   in   good   working   condition   and   current
+calibration.
+8. 3.12.8   If  an  air  balancing  contractor  i s  used,  it
+should  be  certified  by  the  Associated  Air  Balance
+Council    (AABC)    or    the    National    Environmental
+Balancing  Bureau  (NEBB)  as  meeting  their  technical
+standards for membership.
+8. 3.12.9    For   additional   information,   see    National
+Standards for Field Measurement and Instrumentation -
+Total   System   Balance,   Volume   Two,   No.   12173,
+(Appendix   2,   Reference   6).   Also   see   Procedural
+Standards  for  Testing  of  Cleanrooms,  (Appendix  2,
+Reference 4).
+8. 3.13   The  exhaust  specification  prov ided  to  the  user
+by  the  supplier  should  include  design  information  on
+the  complete  equipment  exhaust  system.  A  prototype
+exhaust  data  worksheet  is  shown  in  Appendix  1.  The
+supplier should also provide:
+8. 3.13.1   A  scaled  drawing  of  the  equipm ent  exhaust
+system  showing  all  connections,  dampers,  monitoring
+devices, etc.
+8. 3.13.2   A  diagram  of  the  exhaust  conn ection  with
+critical   dimensions,   established   set   point,   and   the
+location   of   the   traverse   point   used   to   develop   the
+specifications.
+8. 3.13.3  Any special case exceptions.
+8. 3.13.4  A list of materials used in the c onstruction of
+the  exhaust  enclosure  and  materials  for  components  of
+the exhaust system.
+8. 3.14  The supplier should provide th e user with a list
+of  constituents  that  could  be  expected  in  the  exhaust
+stream  when  the  equipment  and  the  users’  exhaust
+system   are   operating   within   design   specifications.
+Information typically required is:
+8. 3.14.1  Percent by volume.
+8. 3.14.2  Percent by weight.
+8. 3.14.3  State of constituent (liquid, ga s, or solid).
+8. 3.14.4  Temperature of the composite  exhaust stream
+under normal operations.
+8. 3.14.5  Information should be based o n a continuous
+twenty-four     hour     operation     of     the     equipment.
+(Extrapolation  is  generally  acceptable  if  the  method
+used   is   well-documented   and   can   be   duplicated.)
+
+SEMI S6-93 © SEMI 19937
+APPENDIX 1
+PROCESS EQUIPMENT EXHAUST REQUIREMENT SUMMARY
+Page 1 of 2
+Manufacturer
+Equipment Name                                                                          Model
+Supplier Representative                                                                Date
+Demand Status                        Normal                      Peak                         Other (Explain)
+Doors, Hatches & Covers                          Closed                       % Open                    Removed
+Chemical Location                Chemical Contents                                            Condition
+1. ____________________  _____________________  ______Empty ______Full
+2. ____________________  _____________________  ______Empty ______Full
+3. ____________________  _____________________ ______Empty ______Full
+4. ____________________  _____________________ ______Empty ______Full
+5. ____________________  _____________________ ______Empty ______Full
+6. ____________________  _____________________ ______Empty ______Full
+Electrical Power______On   ______Off _______Disconnected
+Equipment at Operating Temperature             Yes ______No
+Other Utilities             On   ______Off _______Disconnected
+Process Material Positions______Occupied ________Empty
+Equipment Status at Time of Measurement
+_______Up and at Idle          _______Up and Ready to Start Cycle
+_______Specific Point in the Process Cycle
+(Explain)___________________________________________________________________________________
+___________________________________________________________________________________________
+_______Down for Installation/Modification               _______Down for Cleaning
+_______Down for Preventive Maintenance                _______Down for Repair
+
+SEMI S6-93 © SEMI 19938
+PROCESS EQUIPMENT EXHAUST REQUIREMENT SUMMARY (continued)
+Page 2 of 2
+NOTE: Repeat this sheet for each exhaust connection to the machine.
+Manufacturer
+Equipment Name________________________________________________          Model
+Demand Status        __________________Normal ___________Peak ____________Other (Explain)__________
+Duct Connection Identity
+Connection Inside Diameter_____________________________________________centimeters (inches)
+Connection Outside Diameter____________________________________________centimeters (inches)
+*Priority       Target Tolerance Stability
+Flow Volume m/s (CFM)     _______      ______     -0% +______%   ±_______%
+Flow Velocity m/s (FPM)    _______      ______     -0% +______%   ±_______%
+Static Pressure                      _______      ______     -0% +______%   ±_______%
+pascals (inches of water)
+Data Corrected to Sea Level                    ______Yes        ______No
+Data Corrected to Std Air Density           ______Yes        ______No
+Exhaust Stream Temperature______°C (°F) ______°C (°F) ______°C (°F)
+MinNormalMax
+Measurement Location
+Altitude____________m (ft)ambient temperature____________°C (°F)Humidity
+Chemical Make-up of Expected Effluent Stream
+ElementState% ConcentrationVolumeWeight
+_________________________________________________
+___________________________________________
+___________________________________________
+___________________________________________
+___________________________________________
+Exhaust Schematic Diagram Included_______Yes             _______No
+*  Priority  is  the  rank  order  importance  (from  one  to  four)  of  the  indicated  value  in  proper  operation  of  the
+equipment. The balance will adjust to priority one values at the expense of other values in this sheet.
+
+SEMI S6-93 © SEMI 19939
+APPENDIX 2
+REFERENCED DOCUMENTS
+A2-1  Industrial Ventilation
+A Manual of Recommended Practice
+20th EditionCopyright 1988
+Library of Congress Catalog Card Number:  62-12929
+Published by:  ACGIH (American Conference of
+Government Industrial Hygienists)
+6500 Glenway Ave., Building D-7
+Cincinnati, OH  45211-4438
+Telephone:  513-661-7881
+A2-2  HVAC Systems Duct Design
+1981 Second Edition
+Published by:   SMACNA (Sheet Metal and Air
+Conditioning Contractors’ National Association, Inc.)
+8224 Old Courthouse RoadTyson’s Corner
+Vienna, VA  22183
+Telephone:  703-790-9890
+A2-3  HVAC Systems
+Testing, Adjusting, and Balancing
+Third Printing - June 1986
+Published    by:    SMACNA    (Sheet    Metal    and    Air
+Conditioning Contractors’ National Association, Inc.)
+A2-4  Procedural Standards for Certified
+Testing of Cleanrooms
+First Edition — October 1988
+Published     by:     NEBB     (National     Environmental
+Balancing Bureau) 8224 Old Courthouse Road Tyson’s
+Corner Vienna, VA  22180
+A2-5  Threshold Limit Values for Chemical
+Substances and Physical Agents and
+Biological Exposure Indices
+Published by:  ACGIH
+A2-6  AABC National Standards for Field
+Measurement and Instrumentation — Total
+System Balance
+Volume Two, No. 12173
+Published by: AABC (Associated Air Balance Council)
+1518 K Street Northwest
+Suite 503
+Washington, D.C.  20005
+Telephone:  202-737-0202
+A2-7  ASHRAE 1981 Fundamentals Handbook
+Chapter 33 Duct Design
+Published by:  ASHRAE (American Society of
+Heating, Refrigerating, and Air Conditioning
+Engineers, Inc.)
+1791 Tullie Circle, N.E.Atlanta, GA  30329
+Telephone:  404-636-8400
+A2-8  SEMI S2, Safety Guidelines for
+Semiconductor Manufacturing Equipment
+Published  by:  SEMI  (Semiconductor  Equipment  and
+Materials International)
+3081 Zanker Road
+San Jose, CA 95134
+Telephone:  408-428-9600
+A2-9  SEMI F15, Test Method for Enclosures
+Using Sulfur Hexafluoride Tracer Gas and Gas
+Chromatography
+Published by: SEMI
+
+SEMI S6-93 © SEMI 1993, 199610
+SEMI  S6-93  ©  SEMI  1993,  1996  Copyright  by  SEMI®
+(Semiconductor Equipment and Materials International),
+3081 Zanker Road, San Jose, CA 95134. Reproduction of the
+contents  in  whole  or  in  part  is  forbidden  without  express
+NOTICE: This  guideline  does  not  purport  to  address
+all  of  the  safety  issues  associated  with  its  use.  It  is  the
+responsibility  of  the  user  of  this  guideline  to  establish
+appropriate  safety  and  health  practices  and  determine
+the  applicability  of  regulatory  limitations  prior  to  use.
+SEMI  makes  no  warranties  or  representations  as  to  the
+suitability  of  the  guideline  set  forth  herein  for  any
+particular    application.    The    determination    of    the
+suitability of the guideline is solely the responsibility of
+the user. Users are cautioned to refer to manufacturer’s
+instructions,  product  labels,  product  data  sheets,  and
+other    relevant    literature    respecting    any    materials
+mentioned  herein.  This  guideline  is  subject  to  change
+without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of  such  rights,  are  entirely  their  own  responsibility.

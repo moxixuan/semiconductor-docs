@@ -1,0 +1,4405 @@
+---
+title: "SEMI Standards - Chapter 151"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 151"
+sidebar_position: 1510
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-151.pdf'
+  chapter: 151
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/151.pdf"
+  pdfSize="6.04MB"
+  title="SEMI Standards - Chapter 151"
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI MF1723-1104 © SEMI 2004 7
+be  acceptable,  choose  sampling  points  for  acceptor,
+donor,  and  carbon  sample  wafers.    Cut  the  sample
+wafers  at  the  proper  points,  then  analyze  for  acceptor
+and  donor  content  by  SEMI  MF1389  and/or  SEMI
+MF1630, and for carbon by SEMI MF1391.  Cut wafers
+about 2-mm thick from the ingot for these analyses and
+prepare  the  samples  in  accordance  with  the  method
+being    used.        Choose    the    ingot    sampling    plan
+appropriate   to   the   type   of   core   being   sampled   in
+accordance  with  the  procedure  in  Sections  12.6.2  or
+12. 6.3 as appropriate.
+12. 6.2  Parallel   Cores   —   For   parallel   cores   (see
+Section 10.2.1), single crystal ingot size is about 10 mm
+diameter  by  about  200  mm  in  length.    Select  the
+sampling points according to the individual segregation
+coefficients  for  the  specific  impurities  so  these  are
+representative   of   more   than   90%   of   the   impurity
+concentration as follows:
+12. 6.2.1  Segregation  Effects  —  During  the  growth  of
+the  crystal,  crystallization  from  the  melt,  the  impurity
+concentration in the solid phase is different from that of
+the  liquid  phase  due  to  segregation.
+1,2
+The  different
+impurities    have    different    segregation    coefficients,
+defined as:
+l
+s
+C
+C
+K=
+0
+(1)
+where:
+K
+0
+= equilibrium segregation coefficient,
+C
+s
+=  concentration  of  the  impurity  in  the  solid  phase,  in
+atoms/cm
+3
+, and
+C
+l
+= concentration of the impurity in the liquid phase, in
+atoms/cm
+3
+.
+12. 6.2.2  Do    not    use    the    equilibrium    segregation
+coefficient  for  calculations  since  it  is  applicable  only
+for  solidification  at  a  negligibly  slow  growth  rate.    For
+higher   solidification   rates,   the   impurity   atoms   are
+rejected  by  the  advancing  melt  at  a  greater  rate  than
+they  can  diffuse  into  the  melt.    The  impurity  atoms
+accumulate  in  the  melt  layer  near  the  growth  interface,
+developing  an  impurity  concentration  gradient.    The
+concentration  of  this  gradient  depends  on  the  growth
+rate,  fluid  flow  in  the  melt,  and  diffusion  behavior  of
+the dopant.  An effective segregation coefficient, K
+eff
+, is
+described as:
+
+)/exp()1(
+00
+0
+DVKK
+K
+K
+eff
+δ−−+
+=
+(2)
+where:
+V     =   the growth rate, in cm/s,
+δ
+=   the diffusion layer thickness, in cm, and
+D     =   the  diffusion  coefficient  of  the  impurity  in  the
+melt, in cm
+2
+/s.
+12. 6.2.3  In   practice,   measure   a   doping   profile   to
+determine  the  concentrations  of  impurities  along  the
+length  of  the  ingot.    The  zone  length,  shown  in  Figure
+3,  is  dependent  on  sample  diameter,  coil  design,  and
+pull rate.  After initial determination of the zone length,
+re-measure  it  only  after  changes  occur  in  the  method
+and  apparatus.    The  doping  profile,  measured  for  each
+impurity,  determines  where  the  ingot  should  be  cut  to
+provide accurate impurity values.  Sample points should
+be chosen to be representative of more than 90% of the
+impurity concentration.  In Figure 3, the zone length is
+measured at 15 mm.  If the doping profile indicates that
+the flat portion of the curve is at 12-zone lengths for an
+impurity,  take  the  sample  at  12-zone  lengths  (12  ×  15
+mm  =  180  mm)  from  the  start  of  solidification  on  the
+ingot.
+Figure 3
+Zone Length Measurement and Ingot Sampling
+Point
+
+12. 6.2.4  Ingot  Profiling—  For  the  type  of  float  zone
+furnace,  coil  design,  pull  rates,  and  ingot/core  sample
+diameter  used,  the  effective  segregation  coefficient  for
+the  impurities  can  vary.    To  calibrate  the  individual
+zoner   parameters   and   technique   used,   measure   the
+actual  segregation  coefficient  profile.    For  example,  to
+determine  the  carbon  profile,  cut  an  ingot  into  wafers
+along its length, and measure the carbon content in each
+of   the   wafers.      Then   make   a   plot   of   carbon
+concentration as a function of zone length.  The number
+
+
+SEMI MF1723-1104 © SEMI 2004 8
+of zone lengths required to reach the flat portion of the
+axial  concentration  profile  determines  the  length  of
+ingot that must be grown to achieve an accurate carbon
+value.    Figure  4  shows  an  axial  doping  profile  for
+carbon where a 20-mm diameter sample core was zoned
+to  a  10-mm  diameter  ingot  with  a  zone  length  of  15
+mm.    The  effective  segregation  coefficient  was  0.175.
+In  this  case,  growing  the  ingot  to  a  zone  length  of  12
+ensures  that  the  maximum  amount  of  carbon  has  been
+incorporated  into  the  ingot.    Sampling  the  ingot  for
+carbon at a zone length of 12 gives reproducible carbon
+values  that  accurately  reflect  the  amount  of  carbon  in
+the polysilicon sample.
+12. 6.2.5  Slice  Locations  —  Once  the  concentration
+gradient  for  each  element  for   the   individual   zoner
+conditions  is  established,  establish  sampling  rules  for
+each   element.      Boron,   with   a   high   segregation
+coefficient,  has  a  relatively  flat  profile.    A  wafer  taken
+from  the  ingot  at  6  zone  lengths  has  a  value  nearly
+equal  to  that  taken  at  12  zone  lengths.    If  one  value  is
+significantly higher than the other, a contamination has
+probably occurred, and the analysis should be repeated.
+Phosphorus,  with  a  smaller  segregation  coefficient,  has
+different  values  at  the  6-  and  12-zone  length  points.
+The  midpoint  should  have  a  value  about  10  to  15%
+lower  than  the  end  point.    If  not,  contamination  is
+indicated and the analysis should be repeated.  Carbon,
+with a very small segregation coefficient, varies greatly
+between  the  6-  and  12-zone  length  points.    If  not,
+contamination  is  indicated  and  the  analysis  should  be
+repeated.    Carbon  value  at  the  maximum  ingot  length
+should be reported.
+12. 6.3  Perpendicular Cores — For perpendicular cores
+(see  Section  10.2.2),  single  crystal  ingot  size  is  about
+14-mm  diameter  with  a  length  determined  by  the  poly
+rod   diameter,   about   100   mm.      For   these   ingots,
+sampling  for  acceptor-donor  content  is  different  than
+the   carbon   sampling,   due   to   the   small   segregation
+coefficient  for  carbon.    Sampling  points  are  selected
+according to the following:
+12. 6.3.1  Resistivity     Profile     —     Determine     the
+distribution   of   acceptor/donor   impurities   along   the
+length of the ingot by plotting a resistivity profile of the
+ingot  at  10-mm  intervals,  in  accordance  with  SEMI
+MF397.    Also  profile  conductivity  type,  in  accordance
+with  SEMI  MF42,  at  10-mm  intervals.    Due  to  the
+segregation   effects   discussed   in   Section   12.6.2.1,
+characteristic    purity    of    the    filament,    and    other
+interferences   discussed   in   Section   3,   the   resistivity
+profile  will  differ  between  laboratories.    A  typical
+resistivity/type profile is established after repeated runs
+on control rods and production samples.  Significant in
+the  resistivity  profile  indicates  point  contamination  or
+nonuniformity of the deposition layer.
+12. 6.3.2  Slice  Locations  —  Establish  sampling  rules
+for  each  element  based  on  the  resistivity/type  profile.
+The  single  crystal  ingot  length  is  correlated  to  the
+polysilicon    rod    diameter;    take    a    slice    at    the
+representative  midpoint  between  the  filament  and  the
+outer  skin  of  the  polysilicon  rod.    Analyze  this  wafer
+for  acceptor/donor  values  in  accordance  with  SEMI
+MF1389  or  SEMI  MF1630.    For  the  cross  section  of  a
+polysilicon rod, these values represent the R/2 location.
+If  the  resistivity/type  profile  has  significant  variation
+from   the   standard   profile,   other   locations   may   be
+sampled to determine the distribution of each impurity.
+Repeat the analysis for ingots with significant variation
+suggesting point contamination.
+
+
+Figure 4
+Axial Doping Profile for Carbon
+
+12. 6.3.3  Carbon  Analysis  —  Since  accurate  carbon
+values  can  not  be  obtained  on  short  ingot  lengths,
+perform  the  analysis  on  polysilicon  sections  that  have
+been    annealed.
+6
+Take    a    second    perpendicular
+polysilicon  core  sample  and  anneal  it  at  approximately
+1360°C  for  2  h.    Take  two  2-mm  thick  slices  for  the
+carbon    measurement    in    accordance    with    SEMI
+MF1391.        Take    one    sample    from    the    point
+representative  of  the  midpoint  of  the  growth  layer  and
+the  other  sample  at  the  point  representative  of  the
+filament location.  If desired, sample other locations for
+measurement of radial distribution.
+
+
+6 Hwang, L.  L., Bucci, J., McCormick, J.  R., “Measurement of Car-
+bon Concentration in Polysilicon Using FTIR,” J.  Electrochem.  Soc.
+138, 576-581 (1991).
+
+
+SEMI MF1723-1104 © SEMI 2004 9
+13  Calculation
+13. 1  After  measurement  of  the  acceptor,  donor,  and
+carbon  impurities  in  the  cut  wafers,  relate  these  values
+to the levels in the polysilicon by making the following
+calculations.
+13. 2  Parallel Cores — For sampling parallel cores (see
+Section  10.2.1)  in  cases  where  the  filament  may  be
+doped   or   have   a   different   composition   than   the
+deposition  layer,  make  the  following  calculation  in
+order to determine values for the total rod product:
+t
+LDftff
+TRP
+A
+CAACA
+C
+..
+)()(−+×
+=
+(3)
+where:
+C
+TRP
+=     total  rod  product  concentration  of  impurity,  in
+ppba  for  donor  and  acceptor,  and  in  ppma  for
+carbon,
+A
+f
+=    area  of  filament,  in  cm
+2
+,
+C
+f
+=    concentration  of  impurity  in  the  filament,  in
+ppba  for  donor  and  acceptor,  and  in  ppma  for
+carbon,
+A
+t
+=    area of polysilicon rod, in cm
+2
+, and
+C
+D.L.
+=    concentration  of  impurity  in  deposition  layer,
+in  ppba  for  donor  and  acceptor,  and  in  ppma
+for carbon.
+13. 2.1
+This  calculation  assumes  that  the  deposition
+layer  is  uniform  across  the  diameter  of  the  polysilicon
+rod.    Verify  this  assumption  by  taking  sufficient  core
+samples to cover the entire deposition layer.
+13. 3
+Perpendicular      Cores      —      For      sampling
+perpendicular  cores  (see  Section  10.2.2)  where  ingots
+have   been   grown   as   in   Section   12.6.3,   make   the
+following  calculation  in  order  to  determine  values  for
+the total rod product.
+13. 3.1
+Correlate  the  single  crystal  ingot  length  to  the
+polysilicon  rod  cross  section  as  shown  in  Figure  5.    A
+zone  length  is  related  to  a  cross  section  area.    Boron,
+with a large segregation coefficient, is assumed to have
+an even distribution throughout the entire cross section.
+Phosphorus,   with   a   smaller   segregation   coefficient,
+needs  to  be  corrected  for  segregation  factor  for  each
+zone  length  across  the  cross  section.    Determine  the
+effective  segregation  coefficient  for  phosphorus,  based
+on repeated measurements of control rods for a specific
+sample diameter, coil design, and pull rate.
+NOTE 3:  At one laboratory, segregation factors, based on an
+effective  segregation  factor  of  0.5,  were  calculated  for  the
+zone lengths of Figure 5 as shown in Table 1.
+
+
+Figure 5
+Polisilicon Rod Cross Section
+Table 1  Example of Phosphorus Segregation
+Factors
+Zone Length Segregation Factor
+1                                                                                        0.697
+2                                                                                        0.816
+3                                                                                        0.888
+4                                                                                        0.932
+5                                                                                        0.959
+6                                                                                        0.975
+7                                                                                        0.985
+8                                                                                        0.991
+
+13. 3.2  Use    spectrophotometric    values    for    boron
+concentration  (see  SEMI  MF1389  or  SEMI  MF1630)
+directly  in  the  following  formula  to  calculate  the  total
+boron  concentration  in  the  total  rod  product  with  no
+correction for segregation:
+Af2A1A
+AfCf2C2A1C1A
+C
+VAC
++++
+++
++
+=
+K
+K
+(4)
+where:
+C
+VAC
+= volume averaged concentration,
+A1,
+A2,
+Af
+= corresponding area of poly rod cross section (see
+Figure 5), and
+C1,
+C2,
+Cf
+= concentration of impurity at corresponding area,
+corrected     for     segregation     factor,     where
+necessary.
+
+
+SEMI MF1723-1104 © SEMI 2004 10
+13. 3.3  Obtain    values    for    arsenic    and    aluminum
+concentrations      from      photoluminescence      (SEMI
+MF1389) or FT-IR (SEMI MF1630) measurement and,
+if   greater   than   detection   limit,   correct   them   by   a
+measured  segregation  coefficient.    Then  calculate  the
+concentrations in the total rod product from Equation 4
+using  the  corrected  concentrations  at  each  location  in
+the rod.
+13. 3.4
+Obtain the bulk phosphorus value by photolumi-
+nescence  measurement  at  the  midpoint  between  the
+filament and the outer skin.
+13. 3.5
+Calculate  the  phosphorus  concentrations  from
+each  point  of  the  resistivity  profile  measurement  of
+12. 6.3.1 using the following equation:
+As-AlB
+85
+P++=
+ρ
+(5)
+where:
+P
+
+=  calculated  phosphorus  concentration  at  the  desired
+point, in ppba,
+ρ
+=
+measured resistivity at the desired point, in Ω·cm,
+B  =  measured  boron  concentration  at  the  desired  point,
+in ppba,
+Al  =  measured  aluminum  concentration  at  the  desired
+point, in ppba, and
+As = measured arsenic concentration at the desired point,
+in ppba.
+13. 3.5.1
+This  equation  assumes  that  the  conversion
+factor for phosphorus is approximately 85 in the 100 to
+5000 Ω·cm  resistivity  range,  as  indicated  in  SEMI
+MF723.    Take  the  boron,  arsenic,  and  aluminum  from
+the  photoluminescence  or  FT-IR  data  (see  Sections
+13. 3.2 and 13.3.3).  Use these values and resistivity data
+to  calculate  the  P  value  for  use  in  Equation  4  to  obtain
+the volume averaged calculation of phosphorus.
+13. 3.6
+Carbon    Calculation —    Calculate    carbon
+values,  analyzed  as  described  in  12.6.3.3,  according  to
+the procedure described in 13.2.
+14  Precision and Bias
+14. 1  In  Section  11,  the  use  of  control  rod  samples  to
+monitor  was  discussed.    Data  was  collected  for  156
+control  rods,  as  discussed  in  Section  11  for  monitoring
+interfering  contamination  levels  in  the  sample  prepara-
+tion, etch procedure, and zoner furnace.  The rods were
+zoned  in  three  different  growth  furnaces,  over  a  1-year
+period.      All   samples   were   etched   by   the   same
+procedure,  using  freshly  prepared  acid  for  each  etch
+bath.    Boron  and  phosphorus  values  were  measured  by
+photoluminescence  spectroscopy.    Carbon  values  were
+measured by cryogenic FTIR spectroscopy.  Boron was
+measured  at  6  zone  lengths  of  the  ingot,  phosphorus  at
+12 zone lengths, and carbon at 12 zone lengths.  Results
+are  shown  in  Table  2.    Precision  for  the  boron  and
+phosphorus  measurement,  as  two  sigma,  is  stated  in
+SEMI MF1389 as 0.002 ppba.  Precision for the carbon
+measurement for SEMI MF1391 is stated as 0.02 ppma.
+Table 2  Control Rod Analysis Using Three Zoners
+Zoner 1 Zoner 2 Zoner 3
+
+Avg.
+Std.
+Dev.
+Avg.
+Std.
+Dev.
+Avg.
+Std.
+Dev.
+Phos-
+phorus
+(ppba)
+0. 011     0.007     0.010          0.010     0.010     0.004
+Boron
+(ppba)
+0. 008     0.006     0.006          0.006     0.009     0.006
+Carbon
+(ppma)
+0. 06       0.03       0.05              0.05       0.06       0.03
+
+14. 2  To     compare     sample     preparation,     etching
+techniques,  and  zoning  techniques  between  different
+laboratories, polysilicon rod sections were cut from one
+large  polysilicon  rod  and  the  sections  sent  to  three
+different   laboratories.      Following   the   procedures
+outlined   in   this   practice,   each   laboratory   prepared,
+etched,  and  zoned  its  own  samples,  using  different
+diameters.  Each laboratory zoned the ingots in one pass
+in    argon,    and    then    prepared    the    samples    for
+photoluminescence analysis.  Data is shown in Table 3.
+Table 3  Comparison of Zoned Ingots
+
+Boron (ppba) Phosphorus (ppba)
+Laboratory A 0.008 0.008
+Laboratory B 0.007 0.010
+Laboratory C 0.012 0.013
+
+15  Keywords
+15. 1  contaminants;  float-zone  crystal  growth;  impuri-
+ties;   polycrystalline   silicon;   polysilicon   evaluation;
+segregation coefficient; single crystal silicon
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+
+
+SEMI MF1723-1104 © SEMI 2004 11
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1724-1104 © SEMI 2004 1
+SEMI MF1724-1104
+TEST METHOD FOR MEASURING SURFACE METAL
+CONTAMINATION OF POLYCRYSTALLINE SILICON BY ACID
+EXTRACTION-ATOMIC ABSORPTION SPECTROSCOPY
+This guide was technically approved by the Global Silicon Wafer Committee and is the direct responsibility
+of  the  North  American  Silicon  Wafer  Committee.    Current  edition  approved  for  publication  by  the  North
+American  Regional  Standards  Committee  on  August  16,  2004.    Initially  available  at  www.semi.org
+
+September  2004;  to  be  published  November  2004.    Original  edition  published  by  ASTM  International  as
+ASTM F 1724-96.  Last previous edition SEMI MF1724-01.
+
+1  Purpose
+1. 1  Surface  metal  contamination  is  a  parameter  that  is
+frequently included in polysilicon specifications such as
+JEITA EM-3601 and SEMI M16.
+1. 2  This   test   method   can   measure   the   elemental,
+particularly metal, surface contamination on polysilicon
+chunks.  Values are related to sample weight rather than
+area due to the irregular size and form of the sample.
+1. 3  This  surface  measurement  of  metal  contamination
+is used for monitoring polysilicon production processes,
+development    of    new    processes,    and    materials
+acceptance purposes.
+1. 4  This test method is used as a standard for defining
+detection limits, and quantifying variations and method
+interferences to allow interlaboratory correlations.
+2  Scope
+2. 1  This     test     method     covers     the     quantitative
+determination  of  surface  trace  metal  contamination  on
+the  surface  of  polycrystalline  silicon  chunks  using  an
+acid to extract the metals from the surface.  The metals
+content  of  the  acid  is  then  diluted  and  analyzed  by
+graphite furnace atomic-absorption spectroscopy.  With
+suitable modifications that are not included herein, this
+method  can  be  extended  to  analysis  of  granular  and
+chip polysilicon.
+2. 2  This  test  method  can  be  used  for  various  rod,
+chunk,  granule  and  chip  sizes,  for  polycrystalline  or
+single   crystal   silicon,   to   determine   surface   metal
+contaminants.    Since  the  area  of  irregularly-shaped
+chunks,   chips,   or   granules   is   difficult   to   measure
+accurately, values are based on sample weight.  Using a
+sample weight of 50 to 300 g allows detection limits at
+the 0.01 ppbw (parts per billion weight) level.
+2. 3  The    strength,    composition,    temperature,    and
+exposure   time   of   the   acid   determine   the   depth   of
+surface  etching  and  the  efficiency  of  the  extraction  of
+the contaminants from the surface.  Less than 1% of the
+sample weight is removed in this test method.
+2. 4  This test method is useful for determining the alkali
+elements,   alkali   earth,   and   first   series   transition
+elements,  such  as  sodium,  potassium,  calcium,  iron,
+chromium,   nickel,   copper,   zinc,   as   well   as   other
+elements  such  as  aluminum.    The  recovery  of  these
+elements from the silicon surface is measured as greater
+than  95%,  using  control  standards  intentionally  added
+to the polysilicon surface.
+2. 5  This test method suggests a particular sample size,
+acid  composition,  etch  cycle,  testing  environment,  and
+instrument  protocol.    Variations  in  these  parameters
+may be used, but may affect the recovery efficiency or
+retention  of  metals  during  processing.    In  practice,  this
+test method is used for sample weights of 25 to 5000 g.
+For   referee   purposes,   this   test   method   specifies   a
+sample  weight  of  300  g.    This  test  method  includes
+guidelines  to  alert  the  analyst  to  the  interferences  and
+resultant  variations  in  this  test  method,  and  includes
+standard  methods  for  quantifying  and  reporting  these
+variations.
+2. 6  This   test   method   specifies  the  use  of  graphite
+furnace   atomic-absorption   spectroscopy   to   analyze
+trace  metals  content  of  the  acid  extract.    Other  instru-
+ments  of  equivalent  sensitivity,  such  as  inductively-
+coupled plasma/mass spectrometry, may be used.
+2. 7  The  detection  limit  and  method  variation  depend
+on  the  efficiency  of  the  acid  extraction  procedure,
+sample  size,  the  method  interferences,  the  absorption
+spectrum   of   each   element,   and   the   instrumental
+sensitivity, background, and blank value.
+2. 8  This  test  method  uses  hot  acid  to  etch  away  the
+surface   of   the   silicon.      The   etchant   is   potentially
+harmful  and  must  be  handled  in  an  acid  exhaust  fume
+hood,  with  utmost  care  at  all  times.    Hydrofluoric  acid
+solutions  are  particularly  hazardous  and  should  not  be
+used  by  anyone  who  is  not  familiar  with  the  specific
+preventive  measures  and  first  aid  treatments  given  in
+the appropriate Material Safety Data Sheet.
+
+
+SEMI MF1724-1104 © SEMI 2004 2
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  guides  and  determine  the
+applicability  of  regulatory  or  other  limitations  prior  to
+use.
+3  Limitations
+3. 1  The   common   interferences   of   absorption   spec-
+troscopy  are  present  in  this  test  method,  including
+overlap  of  absorption  peaks,  nonlinearity  of  absorption
+peaks,  matrix  effects,  background  noise,  interelement
+interferences, cross contamination, and instrument drift.
+3. 2  Interferences  from  contamination  due  to  reagent
+purity, cleanliness of apparatus, cleanliness of the room,
+and  handling  techniques  during  sampling  and  proces-
+sing are critical concerns.  This test method describes a
+series  of  blanks  and  controls  to  monitor  and  quantify
+these interferences.
+3. 3  The  recovery  efficiency  of  the  acid  mixture  and
+extraction   process   must   be   measured   in   order   to
+monitor   any   interference   from   this   source.      Metal
+contaminants   chemically   bound   to   the   surface   by
+various treatments or in the bulk of the polysilicon may
+not  be  recovered  by  this  acid  mixture.    Recovery  effi-
+ciency can be confirmed by neutron activation analyses,
+or by another test method.
+3. 4  This    test    method    requires    a    sample    size
+representative   of   the   lot   sample.      Since   surface
+contamination  is  not  distributed  evenly  upon  a  surface,
+sample   size   and   volume   must   be   chosen   to   be
+representative of the lot.  If the sample size is too small,
+the   sample   may   not   be   representative   of   the   lot,
+resulting in excessive variation in duplicate samples.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI   C28   —   Specifications   and   Guidelines   for
+Hydrofluoric Acid
+SEMI   C30   —   Specifications   and   Guidelines   for
+Hydrogen Peroxide
+SEMI  C35  —  Specifications  and  Guideline  for  Nitric
+Acid
+SEMI M16 — Specification for Polycrystalline Silicon
+4. 2  ASTM Standards
+D  5127  —  Guide  for  Ultra  Pure  Water  Used  in  the
+Electronics and Semiconductor Industry
+1
+
+E   122   —   Practice   for   Choice   of   Sample   Size   to
+Estimate a Measure of Quality of a Lot or Process
+2
+
+4. 3  Federal Standard
+209E  —  Airborne  Particulate  Cleanliness  Classes  in
+Cleanrooms and Clean Zones
+3
+
+4. 4  ISO Standard
+ISO  14644–1  Cleanrooms  and  associated  controlled
+environments   —   Part   1:   Classification   of   airborne
+particulates
+4
+
+4. 5  JEITA Standard
+JEITA  EM-3601  —  Standard  specification  for  high
+purity polycrystalline silicon
+5
+
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Acronyms
+5. 1.1  GFAAS —  graphite  furnace  atomic  absorption
+spectrophotometer.
+5. 1.2  PTFE — polytetrafluoroethylene.
+5. 2  Definitions
+5. 2.1  acid  blank  —  a  sample  of  acid  used  to  establish
+the background spectrum and trace metal contamination
+of the extraction acid used in the procedure.
+5. 2.2  carrousel  protocol  —  the  order  and  function  of
+samples, standards, and blanks loaded into the sampling
+tray of the atomic absorption spectrograph (AAS).
+
+
+1 Annual  Book  of  ASTM  Standards,  Vol  11.01,  ASTM  International,
+100 Barr Harbor Drive, West Conshohocken, PA  19428.  Telephone:
+610-832-9500, Fax: 610-832-9555, Website: www.astm.org
+
+2 Annual Book of ASTM Standards, Vol 14.02.
+3 Standardization Documents Order Desk, Bldg.  4 Section D, 700
+Robbins Ave., Philadelphia, PA 19111-5094, Attn: NPODS.  (This
+standard has been superseded by ISO 14644-1 and may no longer be
+available.)
+4 International Organization for Standardization, ISO Central
+Secretariat, 1, rue de Varembé, Case postale 56, CH-1211 Geneva 20,
+Switzerland.  Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30
+Website: www.iso.ch
+; also available in the US from American
+National Standards Institute, New York Office: 11 West 42nd Street,
+New York, NY 10036, USA.  Telephone: 212.642.4900; Fax:
+212. 398.0023 Website: www.ansi.org
+, and in other countries from
+ISO member organizations.
+5  Japan  Electronics  and  Information  Technology  Industries  Asso-
+ciation,  3
+rd
+floor,  Mitsui  Sumitomo  Kaijo  Bldg.    Annex,  11,  Kanda-
+Surugadai  3-chome,  Chiyoda-ku,  Tokyo  101-0062,  Japan,  Web  site:
+www.jeita.or.jp
+
+
+
+SEMI MF1724-1104 © SEMI 2004 3
+5. 2.3  digested   blank   —   samples   of   acid,   with   no
+analytes added, taken through the digestion process and
+analyzed to provide a monitor of the analytical process
+that  includes  acid  purity,  digestion  bottles  cleanliness,
+cross contamination, and environment purity.
+5. 2.4  digested control standard — samples prepared to
+known   concentrations   of   the   analytes   to   provide
+calibration  checks  on  the  instrument  and  the  digestion
+procedure.
+5. 2.5  digestion — holding the polysilicon chunks in the
+acid  mixture  at  temperature  until  the  surface  metal
+contaminants are dissolved into solution.
+5. 2.6  polytetrafluoroethylene —     an     HF-resistant
+material for sample bottles, lids, and tongs.
+5. 2.7  standard samples —  samples  prepared  to  known
+concentrations  of  the  analytes,  typically  5  ppbw,  10
+ppbw,  and  20  ppbw  to  provide  a  calibration  standard
+and set absorption values for the GFAAS instrument.
+6  Summary of Test Method
+6. 1  A  standard  weight  and  volume  of  chunk  sample  is
+chosen  in  order  to  provide  a  consistent  basis  for  the
+analysis   and   provide   a   basis   for   interlaboratory
+correlation of analytical values.  For referee purposes, a
+total sample weight of 300 g, taken as six chunks, each
+approximately  3  by  3  by  3  cm,  at  50  g  each,  is
+recommended.    A  minimum  of  three  of  the  six  pieces
+should have an outside surface.  The outside surface, or
+skin  of  the  polysilicon  rod,  is  thought  to  be  the  most
+susceptible  to  contamination  during  the  rod  removal
+and  chunk  processing  steps.    Choosing  a  minimum  of
+half of the chunk samples to have an outside surface is
+assumed to be representative of the lot characteristics.
+6. 2  Making  sure  to  avoid  cross  contamination,  the
+chunks  are  loaded  into  clean  PTFE  bottles,  covered
+with  acid  etchant,  heated  in  a  fume  hood  and  the
+surface of the chunks etched.  The chunks are removed
+from the etchant, and the etchant heated to dryness on a
+hotplate.
+6. 3  The  dried  etchant  residue  is  dissolved  by  adding  2
+mL of 5% HNO
+3
+and 8 mL of H
+2
+O to make a total of 10
+mL.  This extract is then analyzed by GFAAS for trace
+metals.
+6. 4  The    sample    carrousel    tray    of    the    GFAAS
+instrument is loaded with a series of blanks, calibration
+standards,  and  monitor  standards,  along  with  the  acid
+extract  samples.    The  temperature  program  for  the
+graphite  furnace  is  optimized  for  maximum  sensitivity
+and  the  absorption  spectral  lines  chosen  for  maximum
+sensitivity    and    minimum    interferences    for    each
+element.
+6. 5  Data  from  the  GFAAS  instrument  is  collected  and
+the  value  for  each  analyte  in  the  lot  sample  calculated.
+For  each  analyte,  the  digested  blanks  are  averaged  to
+provide   a   zero   reference.      This   average   value   is
+subtracted from the lot sample value, and the remaining
+value  multiplied  by  the  dilution  factor  to  obtain  the
+reported  result.    The  dilution  factor  is  the  final  volume
+of  the  acid  extract,  10  mL,  divided  by  the  starting
+weight of the polysilicon sample.
+6. 6  This   acid   mixture   has   a   measured   recovery
+efficiency of 95% or greater for iron, chromium, nickel,
+sodium,    zinc,    aluminum,    copper,    calcium,    and
+potassium, in the chemically-bound form usually found
+on  the  polysilicon  surface,  after  one  etch  cycle.    By
+measuring  the  analytes  after  a  second  etch  cycle,  the
+recovery  efficiency  of  the  first  cycle  is  determined.
+Recovery efficiencies above 90% are required to verify
+the  accuracy  of  the  analysis.    Recovery  efficiency  was
+confirmed  by  neutron  activation  analyses.
+6
+To  ensure
+that  no  analytes  are  lost  through  chemical  reaction  or
+evaporation  processes,  digested  control  standards  are
+prepared and monitored for each analyses.
+6. 7  Contamination    from    the    room    environment,
+apparatus,  reagents,  sampling  techniques,  and  handling
+techniques  is  monitored  statistically  by  the  absorption
+values  for  the  digested  blanks  and  digested  control
+standards.
+6. 8  The  detection  limit  depends  on  the  dilution  factor,
+instrument  sensitivity,  spectral  response  of  the  analyte,
+acid   recovery   efficiency,   blank   value,   and   method
+interferences.    Instrument  and  method  variations  are
+given in Section 14.
+7  Apparatus
+7. 1  GFAAS  Instrument  —  Graphite  furnace  atomic
+absorption    spectrometer,    with    sufficient    resolving
+power  to  perform  elemental  analysis  at  the  sub-ppb
+level.  A sample tray with selective sampling capability
+is  integral  to  the  instrument.    A  computerized  data
+system calculates peak absorbance values, provides the
+instrument calibration curve, and reports sample values.
+7. 2  Air Environment — The area for sample collection,
+acid extraction, and GFAAS analysis must be enclosed
+in a clean room with a minimum standard of Class 6 as
+defined in ISO 14644–1.
+NOTE 1:  This  class  is  about  the  same  as  Class  1000  as
+defined in Federal Standard 209E.
+
+6  Maurits, J.  E.  A., Dawson, H.  J., and Barker, T.  H., “The
+Analysis of Surface Metals in Polycrystalline Silicon,” Abstract No.
+401, Extended Abstracts, Vol 94-2, Fall Meeting of the
+Electrochemical Society, October 9–14, 1994, Miami Beach, FL.
+
+
+SEMI MF1724-1104 © SEMI 2004 4
+7. 3  Cleanroom Clothing — Analysts must be attired in
+full clean room clothing, including hoods, masks, boots,
+and gloves.  Cleanroom practices must be observed.
+7. 4  Acid Exhaust Fume Hood — An acid exhaust fume
+hood,  equipped  to  provide  a  clean  air  (ISO  Class  6
+minimum, Note 1) environment, and with hot plates for
+the acid extraction and extract concentration steps.
+7. 5  Sample  Bottles  and  Tongs  —  Sample  bottles,  size
+500-mL,   lids,   and   tongs   are   made   of   polytetra-
+fluoroethylene (PTFE) or similar polymer material that
+will  not  be  attacked  by  hydrofluoric  acid  and  can  be
+cleaned to avoid contamination interferences.
+7. 6  Analytical Balance — Balance capable of weighing
+300 g to an accuracy of 0.01 g.
+8  Reagents
+8. 1  Purity  of  Water  —  Reference  to  water  shall  be
+understood   to   mean   Type   E-1   or   better   water   as
+described in ASTM Guide D 5127.
+8. 2  Nitric  Acid  (HNO
+3
+)  —  65%,  in  accordance  with
+Grade 2 of SEMI C35.
+8. 3  Hydrofluoric  Acid  (HF)  —  48%,  in  accordance
+with Grade 2 of SEMI C28.
+8. 4  Hydrogen  Peroxide  (H
+2
+O
+2
+)  —  30%,  in  accordance
+with Grade 2 of SEMI C30.
+8. 5  Acid       Cleaning       Mixture       —       (1:1:1:25)
+HNO
+3
+:HF:H
+2
+O
+2
+:H
+2
+O.
+8. 6  Acid        Etching        Mixture        —        (1:1:1:50)
+HNO
+3
+:HF:H
+2
+O
+2
+:H
+2
+O.
+9  Sampling
+9. 1  This   test   method   is   intended   for   sampling   of
+polysilicon  lots.    Typically,  one  5-kg  bag  from  a  lot  is
+selected  for  sampling.    The  sample  is  taken  from  this
+bag,   and   the   surface   metals   values   analyzed   are
+assumed    representative    of    the    lot.        Statistical
+techniques, such as process capability ratios, are used to
+determine   actual   sampling   plans   for   manufacturing
+processes.    A  choice  of  sampling  plans  is  found  in
+ASTM   Practice   E   122.      For   referee   purposes,   a
+sampling  plan  shall  be  agreed  upon  before  conducting
+the test.  Contamination during the sampling procedure
+is a critical concern and must be avoided.
+10  Calibration
+10. 1  Prepare calibration and control standards for each
+analyte,    according    to    instrument    manufacturer's
+instructions,    from    commercially-available    atomic-
+absorption   elemental   calibration   standards,   at   1000
+ppm, traceable to NIST Reference Standards.
+10. 2  Prepare   a   series   of   calibration   and   control
+standards  for  each  analyte  to  determine  the  instrument
+calibration  curve,  monitor  recovery  efficiency  of  the
+acid  etchant,  and  monitor  reagent  purity  and  purity  of
+the environment.  Purpose of the calibration and control
+standards is shown in Table 1.
+10. 2.1  Determine  a  calibration  curve  for  each  element
+with   a   blank   and   a   minimum   of   three   elemental
+standards.  Dilute the 1000-ppm elemental standards to
+1-ppm standards (0.1 mL/100 mL in acid etch mixture).
+Prepare  calibration  standards  of  5  ppb,  10  ppb,  and  20
+ppb  by  diluting  0.5  mL,  1  mL  and  2  mL  of  the  1-ppm
+standard  to  100  mL  with  18-mL  acid  etch  mixture  and
+deionized (DI) water.  Prepare the standards to provide
+a  range  close  to  the  suspected  concentration  of  the
+analyte.    Determine  the  four-point  calibration  curve
+according    to    the    instructions    of    the    instrument
+manufacturer.    Monitor  any  changes  in  the  calibration
+curve by checking the linearity against previous runs.
+NOTE 2:  These standards were chosen to provide calibration
+for various samples over a range corresponding to 0.1 to 100
+ppbw in the polysilicon sample.  The use of a 1-ppb standard
+will provide a lower method variation for analytes in the sub-
+ppb range.
+10. 2.2  Collect  the  absorption  values  for  the  5  ppb,  10
+ppb, and 20 ppb calibration standards in a database, and
+establish   statistical   rules   to   determine   any   drift   or
+excessive  variation  in  the  instrument  readings.    Repeat
+the  analysis  if  these  values  exceed  the  statistical  limit.
+Make corrections in the procedure or instrument if these
+values continue out of statistical control.
+10. 2.3  Prepare  two  control  standards,  at  10  ppb,  by
+adding  10  mL  of  the  10-ppb  calibration  standards  to
+samples  of  clean  polysilicon  chunks.    Digest  these
+standards along with the lot samples.
+NOTE 3:  These  standards  have  a  similar  matrix  to  the  lot
+samples.      The   analysis   of   these   standards   provides   a
+quantification  of  the  variation  in  metals  retention  efficiency,
+instrument matrix effects, and variations due to cleanliness of
+apparatus  and  contamination  during  handling  and  sample
+processing.
+10. 2.4  Collect  the  absorption  values  for  the  10-ppb
+digested  control  standards  in  a  database,  and  establish
+statistical  rules  to  determine  if  metals  retention  and
+variations  due  to  method  interferences  are  in  statistical
+control.    Repeat  the  analysis  if  these  values  exceed  the
+statistical  limits.    Make  corrections  in  the  procedure  or
+improvements in cleanliness of the apparatus and room
+if these values continue out of statistical control.
+
+
+SEMI MF1724-1104 © SEMI 2004 5
+Table 1  Sample Cup Loading Protocol with Function of Calibration and Control Standards
+Sample Cup Function
+Acid Blank
+5-ppb calibration standard
+10-ppb calibration standard
+20-ppb calibration standard
+To provide a 4-point calibration curve in the range of the analyte and set the 5-ppb
+instrument absorption value.
+Two 10-ppb digested control standards    To monitor the dissolved metals retention of the method and quantify variations in the
+method.
+Two digested blanks, acid etch mixture  To monitor reagent purity and purity of the environment and to provide a zero reference
+for the lot sample.
+Lot samples To determine concentrations of the analytes.
+
+10. 2.5  Prepare  two  acid  blanks  and  digest  along  with
+the  lot  samples.    Measure  these  blanks  to  provide  a
+quantification   of   variations   in   reagent   purity   and
+contamination  that  occurs  from  the  room  environment
+during processing.  Enter the values for the blanks into
+a  database  and  establish  statistical  rules  to  determine
+any excessive variation in the current value.  Repeat the
+analysis if the current value is out of statistical control.
+10. 3  For  purposes  of  interlaboratory  correlation  and
+comparison  of  techniques,  definitions  of  instrument
+variation  and  this  test  method  variation  and  detection
+limit are as follows:
+10. 3.1  Measure the instrument variation by analyzing a
+2-ppb  standard  for  15  runs,  calculating  the  standard
+deviation of the 15 values, then calculating the 3-sigma
+value for each element.  Multiply the 3-sigma value by
+the dilution factor to define the instrument variation.
+NOTE 4:  Concentration  of  standards  are  chosen  based  on
+instrument  manufacturer  recommendations  for  signal/noise
+ratio and sensitivity values.
+10. 3.2  Measure  the  method  variation  by  analyzing  a
+minimum  of  30  values  for  the  10-ppb  digested  control
+standards.  Calculate the standard deviation for these 30
+values  and  multiply  the  3-sigma  value  by  the  dilution
+factor for each element to define the method variability
+of this test method.
+NOTE 5:  Method  variation  can  be  reduced  by  using  lower
+concentration control standards and by making improvements
+in  the  procedure,  room  cleanliness,  and  acid  purity.    These
+improvements  are  monitored  by  continually  tracking  the  3-
+sigma values for the digested control standards.
+10. 3.3  Measure   the   detection   limit   by   analyzing   a
+minimum  of  30  values  for  the  digested  acid  blanks.
+Calculate the standard deviation for these 30 values and
+multiply  the  3-sigma  value  by  the  dilution  factor  for
+each  element  to  define  the  detection  limit  of  this  test
+method.
+11  Procedure
+11. 1  Clean  bottles,  lids  and  tongs  between  analyses.
+Conduct  additional  cleaning  and  analyses  of  blanks
+when  using  new  bottles,  when  blank  values  indicate
+contamination,  and  when  performing  referee  analyses.
+Prepare clean bottles and lids as follows:
+11. 1.1  Rinse three times with DI water.
+11. 1.2  Fill the bottles with 500 mL of the acid cleaning
+mixture and heat on the hot plate, lids fit loosely, for 6
+h  at  100°C;  refill  the  bottles  with  the  acid  cleaning
+mixture  and  heat  on  the  hot  plate,  no  lids,  for  6  h  at
+100°C.
+11. 1.3  Rinse bottles and lids three times with DI water;
+11. 1.4  Fill  bottles  with  250-mL  acid  etch  mixture,  no
+lids, and heat at 130 to 150°C until dryness, about 10 h.
+11. 1.5  Dissolve residue with 2 mL of 5% HNO
+3
+and 8
+mL DI water; analyze using the GFAAS instrument.
+11. 1.6  Repeat  entire  procedure  if  the  GFAAS  analysis
+shows contaminants are present in the sample bottles.
+11. 1.7  Triple rinse bottles and lids.
+11. 1.8  Fill  bottles  with  acid  cleaning  mixture  and  heat
+for 6 h at 100°C.
+NOTE 6:  Other  cleaning  procedures  may  be  used,  but  must
+be monitored to prove effectiveness.
+11. 2  Choose  one  5-kg  bag  of  polysilicon  from  a  lot  to
+be  sampled.    Deliver  the  bag  to  the  clean  room  for
+sampling.    Choose  six  chunks  from  the  bag  as  the  lot
+sample.    At  least  three  of  the  six  chunks  must  have  an
+outside   surface.      Each   chunk   shall   be   about   50-g
+weight,  with  an  approximate  size  of  3  by  3  by  3  cm,
+total  weight  about  300  g.    If  the  sample  must  be  taken
+in  a  location  other  than  the  analytical  laboratory,  seal
+the  sample  in  double  bags  and  send  to  the  laboratory.
+To minimize contamination from the room environment
+and     the     analyst,     all     sample     collection     and
+
+
+SEMI MF1724-1104 © SEMI 2004 6
+analysis  steps  are  carried  out  in  a  clean  room  and
+laminar  flow  hood,  with  analysts  in  full  clean  room
+attire.      A   minimum   of   a   Class   6   clean   room,   as
+established  in  ISO  14644–1  (Note  1),  is  required  to
+minimize interferences from environmental sources.  In
+the   laboratory,   open   the   double   bag   according   to
+standard clean room practice and transfer the chunks to
+a  clean,  numbered  PTFE  bottle  and  weigh  to  two
+decimal  places.    Add  about  250  mL  of  acid  etching
+mixture to each bottle to cover the chunks and seal with
+PTFE lids.
+11. 3  Place  the  sealed  bottles  onto  the  hot  plate  in  the
+fume  hood  and  heat  for  about  60  min  at  about  70°C.
+Remove  from  heat  and  cool,  then  remove  each  chunk
+with PTFE tongs, rinsing the surface with DI water into
+the  bottle.    Return  the  etchant  in  the  open  bottle  to  the
+hot plate and heat to dryness at 110 to 150°C.
+NOTE 7:  A  microwave  oven  may  be  used  in  place  of  a  hot
+plate to reduce the digestion time required to take to dryness.
+11. 4  Remove  the  bottle  from  the  hot  plate,  replace  the
+lid  and  leave  to  cool.    Add  2  mL  of  5%  HNO
+3
+to  the
+dried  etchant  residue  and  let  stand  for  about  20  min  to
+dissolve  all  salts.    Add  8  mL  of  DI  water,  replace  lid,
+and swirl to mix.  No solids should be observed in this
+solution.
+11. 5  Prepare  5-ppb,  10-ppb,  and  20-ppb  calibration
+standards, control standards, and blanks (see 10.2).
+11. 6  Load  samples  and  standards  into  the  GFAAS
+instrument   sample   carrousel   tray.      Each   run   shall
+include the following:
+• Acid blank,
+• 5-ppb calibration standard,
+• 10-ppb calibration standard,
+• 20-ppb calibration standard,
+• First 10-ppb digested control standard,
+• Second 10-ppb digested control standard,
+• First digested blank,
+• Second digested blank, and
+• Lot samples.
+11. 7  Choose  the  analysis  pattern  so  that  standards  and
+blanks  are  run  before  and  after  samples  in  order  to
+detect any shift in calibration during the analysis.
+11. 8  Analytical Conditions
+11. 8.1  Choose  and  record  the  furnace  and  instrument
+parameters,  according  to  the  instrument  manufacturer's
+instructions,   for   the   sample   measurement.      This
+includes the following:
+• Furnace time/temperature profile,
+• Slit width,
+• Sample injection size, and
+• Wavelength.
+12  Calculation
+12. 1  Calculate the results as follows:
+DFBIM×−=)(                            (1)
+where:
+M =   concentration of analyte, ppbw,
+I =   instrument reading of analyte, ppbw,
+B       =   instrument   reading   of   average   of   two   blanks,
+ppbw, and
+D
+F=   dilution   factor,   final   volume   of   acid   extract
+divided  by  the  polysilicon  sample  weight  =  10
+mL ÷ sample weight in grams.
+13  Report
+13. 1  Report the following information:
+13. 1.1  Polysilicon lot sample identification,
+13. 1.2  Date,
+13. 1.3  Manufacturer, type, and model of instrument,
+13. 1.4  Location of laboratory and analyst,
+13. 1.5  Analyte values in ppbw,
+13. 1.6  Blank values in ppbw,
+13. 1.7  Weight of polysilicon sample, and
+13. 1.8  Confirmation of calibration standards in control.
+14  Precision and Bias
+14. 1  Precision  —  The  precision  was  determined  by
+making  several  analyses  of  a  calibration  standard  to
+measure  within-laboratory  variation  and  by  conducting
+interlaboratory correlations where polysilicon lots were
+analyzed.
+14. 2  Within-laboratory  Precision  —  Study  of  within-
+laboratory   variation   consisted   of   daily   analyses   of
+standards and lot samples over a one-year period using
+the  acid  mixture,  procedure,  conditions,  and  statistical
+control methods described in this test method.
+14. 2.1  Variation  of  the  GFAA  instrument  used  was
+determined  by  analyzing  a  2-ppb  standard  of  each
+analyte   for   15   times.      The   instrument   reading   is
+multiplied  by  the  dilution  factor,  10/300.    This  set  of
+analyses was repeated over a period of several months.
+The standard deviation of this set of analyses represents
+the  variation  due  to  instrument  drift,  analyst  technique,
+and room environment.
+
+
+SEMI MF1724-1104 © SEMI 2004 7
+14. 2.2  Method  variation  was  determined  by  analyzing
+the  10-ppb  digested  control  standards  over  a  period  of
+one  year.    Instrument  readings  of  concentration  values
+are about 10 μg/L.  The standard deviation of this set of
+values  represents  the  variation  due  to  metals  retention
+efficiency,  reagent  purity,  apparatus  purity,  environ-
+ment purity, and analyst technique.
+14. 2.3  Lot  sample  analysis  variation  was  determined
+by  analyzing  polysilicon  lot  samples  over  a  one-year
+period.    The  standard  deviation  of  this  set  of  analyses
+represents  the  variation  due  to  sampling  techniques,
+contamination  during  sampling  and  processing  of  lots,
+and the total analytical method variation.
+14. 2.4  The  standard  deviations  in  these  studies  are
+summarized in Table 2.
+Table 2  Standard Deviation (ppbw) Values for a
+One-Laboratory Study of Variations for a One-Year
+Period
+Analyte
+Instrument
+Variation
+Method
+Variation
+Lot Sample
+Variation
+Sodium                            0.01               0.08              0.15
+Aluminum           <0.01              0.10           0.28
+Iron                <0.01                0.10                  0.13
+Chromium           <0.01              0.05           <0.01
+Nickel              <0.01              0.03                 <0.01
+Zinc                <0.01                0.08                  0.13
+
+14. 3  Interlaboratory    Variation    —    Interlaboratory
+correlation studies were conducted to test the ability of
+the   method   to   analyze   surface   contamination   in
+polysilicon lots at the sub-ppbw level.  Each laboratory
+used    different    polysilicon    sample    weights,    acid
+mixtures,  and  dilution  factors,  but  all  performed  the
+analyses  in  clean  rooms  with  high  purity  reagents,  and
+calibration   controls.      All   polysilicon   samples   were
+supplied  by  Laboratory  A,  with  lots  chosen  to  be
+representative     of     polysilicon     with     only     trace
+contaminants,  at  sub-ppbw  levels.    No  samples  with
+added   contaminants   were   supplied;   this   correlation
+study  was  to  determine  variation  at  these  levels  due  to
+sampling,   the   different   analytical   procedures,   and
+different   laboratory   environments.      Laboratory   A
+followed  this  test  method,  while  Laboratories  B,  C,  D,
+and  E  used  variations  of  this  test  method  and  the  acid
+mixture  and  dilution  factor  for  these  laboratories  were
+not reported.  The ability of the method to detect values
+above the sub-ppbw level is determined by the recovery
+of  the  control  standards  as  discussed  in  Section  14.2.
+Requested   weights   of   samples   were   taken   from   a
+polysilicon lot, sealed in double polyethylene bags, and
+sent to the labs for analysis.
+14. 3.1  Laboratory  A  and  Laboratory  B  used  300-g
+sample  weights.    Five  polysilicon  lots  were  analyzed.
+Detection limits for Laboratory A are based on 3 sigma
+of the method variation listed in Table 2.
+14. 3.2  Laboratory C used 200-g sample weights.  Five
+polysilicon lots were analyzed.
+14. 3.3  Laboratory   D   used   200-g   sample   weights.
+Seven polysilicon lots were analyzed.
+14. 3.4  Laboratory E used 80-g sample weights.  Three
+polysilicon lots were analyzed.
+14. 3.5  In  each  case,  the  average  value  and  standard
+deviation  are  given  for  each  analyte  reported.    Values
+less than the detection limit are reported as <“detection
+limit”  and  no  standard  deviation  is  reported.    Results
+are tabulated in Table 3.
+14. 4  Bias —  Although  liquid  standard  samples  are
+available,   no   reference   materials   of   contaminated
+silicon  are  available  to  calibrate  this  measurement;
+therefore, no bias statement is possible.
+15  Keywords
+15. 1  acid  extraction;  contamination;  graphite  furnace
+atomic absorption spectroscopy; metals; polycrystalline
+silicon; surface contamination
+
+Table 3  Surface Metals Analysis Comparison (ppbw) for a Five-Laboratory Correlation Study
+Laboratory                                                        Sodium                            Aluminum                            Iron            Chromium            Nickel            Zinc
+Average <0.24             <0.30              <0.30              <0.15             <0.09             <0.24             Laboratory A
+Standard Deviation ...                  ...                   ...                   ...                  ...                  ...
+Average 0.23               0.27                              0.03               <0.01               <0.06               0.09               Laboratory B
+Standard Deviation
+0. 03               0.04                              0.02                ...                  ...               0.03
+Average 0.04               0.02                              0.11               0.02               0.02               0.04               Laboratory C
+Standard Deviation
+0. 01              <0.01                            0.07              <0.01              0.01              0.01
+Average 0.18                 ...                                  0.12                 0.02                 0.02                 0.20                 Laboratory D
+Standard Deviation
+0. 07                 ...                                  0.07                 0.02                 0.02                 0.05
+Average <0.20             <0.25              <0.10              <0.13             <0.20             0.12             Laboratory E
+Standard Deviation ...                  ...                   ...                   ...                  ...
+0. 06
+
+
+SEMI MF1724-1104 © SEMI 2004 8
+NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any
+particular  application.    The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer's  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature, respecting any materials or equipment mentioned herein.  These standards are subject to change without
+notice.
+By  publication  of  this  standard,  Semiconductor  Equipment  and  Materials  International  (SEMI)  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  items  mentioned  in  this
+standard.  Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights are entirely their own responsibility.
+
+
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1725-1103 © SEMI 2003 1
+SEMI MF1725-1103
+PRACTICE FOR ANALYSIS OF CRYSTALLOGRAPHIC PERFECTION
+OF SILICON INGOTS
+This   standard   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   September   16,   2003.      Initially   available   at
+www.semi.org October 2003; to be published November 2003.  Originally published by ASTM International
+as ASTM F 1725-97.  Last previous edition ASTM F 1725-02.
+1  Purpose
+1. 1    The  use  of  silicon  wafers  in  many  semiconductor
+devices  requires  a  consistent  atomic  lattice  structure.
+Crystal  defects  disturb  local  lattice  energy  conditions
+that  are  the  basis  for  semiconductor  behavior.    These
+defects have distinct effects on essential semiconductor
+device-manufacturing  processes  such  as  alloying  and
+diffusion.
+1. 2          This     practice     provides     guidance     regarding
+procedures  for  analysis  of  crystal  defects  of  silicon
+ingots from which silicon wafers are cut.
+1. 3  This practice together with the referenced standards
+may   be   used   for   process   control,   research   and
+development, and materials acceptance purposes.
+2  Scope
+2. 1        This    practice    covers    the    analysis    of    the
+crystallographic  perfection  in  silicon  ingots.    The  steps
+described   are   sample   preparation,   etching   solution
+selection   and   use,   defect   identification,   and   defect
+counting.
+2. 2      This   practice   is   suitable   for   use   in   evaluating
+silicon  grown  in  either  the  [111]  or  the  [100]  direction
+and doped either p or n type with resistivity greater than
+0. 005 Ω·cm.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI C18 — Specification for Acetic Acid
+SEMI   C28   —   Specifications   and   Guidelines   for
+Hydrofluoric Acid
+SEMI  C35  —  Specifications  and  Guidelines  for  Nitric
+Acid
+SEMI   MF26   —   Test   Method   for   Determining   the
+Orientation of a Semiconductor Single Crystal
+SEM MF523 — Practice for Unaided Visual Inspection
+of Polished Silicon Wafers
+
+SEMI MF1241 — Terminology of Silicon Technology
+SEMI  MF1809  —  Guide  for  Selection  and  Use  of
+Etching  Solutions  to  Delineate  Structural  Defects  in
+Silicon
+SEMI    MF1810    —    Test    Method    for    Counting
+Preferentially  Etched  or  Decorated  Surface  Defects  in
+Silicon Wafers
+3. 2  ASTM Standard
+D  5127  —  Guide  for  Ultra  Pure  Water  Used  in  the
+Electronics and Semiconductor Industry
+1
+
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Defect-related  terminology  may  be  found  in  SEMI
+MF1241.
+5  Summary of Practice
+5. 1      The   end   portion   of   the   silicon   crystal,   which
+solidified last, may contain dislocations or other defects
+such  as  slip.    The  portion  containing  the  defects  is
+removed by sawing the crystal.  A specimen wafer from
+the end of the remaining ingot is obtained with a second
+cut.
+5. 2      This   wafer   is   mechanically   lapped,   chemically
+polished,   and   then   etched   in   a   preferential   defect
+etching solution.
+5. 3    The  etched  surface  is  examined  under  bright  light
+illumination  and  examined  microscopically  to  count
+and   classify   the   imperfections   highlighted   by   the
+preferential defect etching solution.
+
+
+1 Annual Book of ASTM Standards, Vol 11.01.  ASTM International,
+100  Barr  Harbor  Drive,  West  Conshohocken,  PA  10428,  USA.
+Telephone:      610-832-9585,      Fax:      610-832-9555.      Website:
+www.astm.org
+
+
+SEMI MF1725-1103 © SEMI 2003 2
+6  Apparatus
+6. 1  Slicing Equipment — Suitable for removing wafers
+of varied thickness from ingots.
+6. 2  Lapping   or   Grinding   Equipment   (optional)   —
+Suitable for removing saw damage.
+6. 3  Laboratory  Equipment  —  Suitable  for  use  with
+hydrofluoric    acid    (fluorocarbon,    polyethylene,    or
+polypropylene     beakers,     graduates,     pipettes,     and
+nonmetallic wafer pickup tools).
+6. 4  Acid  Sink  —  In  a  fume  hood  and  facilities  for
+disposing of acids and their vapors.
+6. 5  Personnel Safety Equipment — For handling acids,
+such as gloves, safety glasses, face shield, and gown.
+7  Reagents and Materials
+7. 1  Purity of Reagents — All chemicals for which such
+specifications  exist  shall  conform  to  the  assay  and
+impurity levels of Grade 1 SEMI Specifications.  Other
+grades  may  be  used  provided  it  is  first  ascertained  that
+the  reagent  is  of  sufficiently  high  purity  to  permit  its
+use without lessening the accuracy of the determination.
+7. 2  Purity  of  Water  —  Reference  to  water  shall  be
+understood   to   mean   Type   E-3   or   better   water   as
+described in ASTM Guide D 5127.
+7. 3  Chemical   Polishing   Solution   —   A   variety   of
+chemical  polishing  solutions  exist.    Those  listed  in
+Table 1 have been found to produce satisfactory results.
+Table 1  Volume Proportions
+Formulation      Nitric      Acid,
+(Assay:
+> 99.7%)
+Hydrofluoric
+Acid,
+(Assay:
+49 ± 0.25%)
+Acetic Acid,
+(Assay: 70
+to 71%)
+A                       6                       1                        1
+B                       5                       3                        3
+C                       5                       10                       14
+D                       5                       1                        2
+
+7. 4  An aqueous, nonionic surfactant detergent solution.
+8  Safety Precautions
+8. 1      The   chemicals   used   in   polishing   etches   are
+potentially  harmful  and  must  be  handled  in  a  chemical
+exhaust fume hood, with the utmost care.
+8. 2        Hydrofluoric    acid    solutions    are    particularly
+hazardous and the specific preventive measures must be
+strictly observed.
+8. 3    Safety  or  protective  gear  should  be  worn  while
+handling   these   acid   solutions   or   their   components.
+Safety requirements vary, but the essentials are: plastic
+gloves, safety glasses, face shield, acid gown, and shoe
+covers.
+9  Procedure
+9. 1  Sample Selection — Take the sample for evaluation
+from  the  crystal  close  to  the  discarded  crystal  portion
+found at the last of the solidified crystal.  Other samples
+may be specified in producer-consumer relationships.
+NOTE 1:  Determination  of  the most  logical  point  of  sample
+selection may be established by inspection of the bottom taper
+of the crystal.  If the crystal has a complete bottom taper, then
+the  sample  should  be  obtained  from  the  last  point  of  a  full
+crystal  diameter.    If  the  crystal  has  lost  zero  dislocation
+growth  before  the  formation  of  a  tapered  bottom,  obtain  the
+sample   1–crystal   diameter   above   the   point   of   lost   zero
+dislocation structure.
+9. 2  Orient the ingot to be sliced with either the x-ray or
+optical method of SEMI MF26 so that the surface to be
+exposed is within 5° of the desired plane.  Slice a wafer,
+0. 5-  to  2-mm  thick,  from  the  crystal.    Identify  ingot
+growth  lines  on  the  sample  by  a  mark  or  a  ground  flat
+for future reference in counting defects.
+NOTE  2:    Defects  observed  by  preferential  etching  may  be
+increasingly   distorted   as   misalignment   from   the   major
+crystallographic plane increases.
+9. 3    Remove  the  residual  saw  damage  by  mechanical
+lapping    and    chemical    polishing    or    by    chemical
+polishing alone.
+9. 3.1    Wash  the  as-cut  or  lapped  wafer  in  a  nonionic
+surfactant  detergent  solution  and  rinse  thoroughly  in
+water.    Drying  may  be  hastened  by  use  of  a  lint-free
+paper  towel.    The  surface  must  be  uniformly  matte  in
+appearance with no scratches, wax, dirt or water stains.
+9. 3.2  Chemical Polish
+9. 3.2.1        Place    the    sample    in    the    bottom    of    a
+hydrofluoric  acid  resistant  beaker  with  the  side  to  be
+inspected  facing  upward.    The  beaker  diameter  need
+only be larger than the wafer diameter.
+9. 3.2.2  Pour the room temperature chemical polish etch
+(from  Section  7.3)  until  the  surface  of  the  sample  is
+covered with about 1 cm of solution.
+9. 3.2.3        Agitate    during    etching    to    reduce    bubble
+formation and surface artifacts.
+NOTE  3:    The  polish  etch  procedure  in  Section  9.3  describes
+a facility for evaluation of a small number of samples.  More
+sophisticated facilities are used in commercial environments.
+9. 3.2.4    Rapidly  dilute  the  etching  solution  with  water
+and  flush  the  solution  from  the  beaker  after  the  sample
+wafer develops mirror-polished surfaces.
+
+
+SEMI MF1725-1103 © SEMI 2003 3
+NOTE   4:      Staining   may   occur   on   heavily   doped,   p-type
+material with resistivity of ≤ 0.1 Ω·cm, during dilution of the
+polishing  etch.    Rapid  transfer  to  fresh  polish  etch  for  less
+than 30 s additional etching, followed by rapid flushing of the
+polish etch can reduce silicon staining.  If necessary, dilution
+of  the  polishing  etch  with  nitric  acid  flushing  with  water  is
+also effective in reducing stains.
+9. 3.2.5    Dry  with  filtered  air  or  nitrogen  after  thorough
+rinsing of the polish-etched sample.
+9. 4    Select  an  appropriate  etching  solution  to  decorate
+the defects.
+9. 4.1    Refer  to  SEMI  MF1809  to  select  an  appropriate
+etching solution.
+9. 4.2  Etch the samples to remove an amount of silicon
+from   the   surface   being   evaluated,   as   agreed   upon
+between the parties to the test.  If no removal amount is
+defined, remove 5 to 15 μm of silicon from the surface
+being evaluated.
+9. 5    Evaluate  the  preferentially  etched  sample  in  two
+stages, macroscopic and microscopic.
+9. 5.1  Macroscopic  Inspection  —  Use  a  high  intensity
+light, such as that specified in SEMI MF523, to inspect
+the  full  sample  surface.    The  characteristic  patterns  of
+slip defects as shown in Figure 1 are easily identified in
+macroscopic    inspection.        If    evidence    exists    of
+mechanically     or     handling     induced     damage     or
+contamination, repeat Sections 9.3 to 9.5 .
+9. 5.2  Microscopic   Defect   Counting   —   Count   and
+report    the    density    of    observed    defects    using
+SEMI MF1810.
+10  Keywords
+10. 1                  dislocation;         grain         boundaries;         ingot;
+polycrystalline  imperfections;  preferential etch; silicon;
+slip
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+{100}                                {111}
+NOTE: The orientation of the wafer defines the location and
+direction of the line defects.
+Figure 1
+Slip Defects as Seen with Macroscopic High-
+Intensity Light Inspection
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1726-1103 © SEMI 2003 1
+SEMI MF1726-1103
+PRACTICE FOR ANALYSIS OF CRYSTALLOGRAPHIC PERFECTION
+OF SILICON WAFERS
+This   standard   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   September   3,   2003.      Initially   available   at
+www.semi.org October 2003; to be published November 2003.  Originally published by ASTM International
+as ASTM F 1726-97.  Last previous edition ASTM F 1726-02.
+1  Purpose
+1. 1    The  use  of  silicon  crystals  in  many  semiconductor
+devices  requires  a  consistent  atomic  lattice  structure.
+Crystal  defects  disturb  local  lattice  energy  conditions
+that  are  the  basis  for  semiconductor  behavior.    These
+defects have distinct effects on essential semiconductor-
+device  manufacturing  processes  such  as  alloying  and
+diffusion.
+1. 2    Epitaxial  growth  processes  are  used  extensively  in
+the manufacture of silicon electronic devices.  Stacking
+faults  introduced  during  epitaxial  growth  can  cause
+“soft”  electrical  characteristics  and  preferential  micro
+plasma breakdowns in diodes.
+1. 3    Epitaxial  defects  are  more  clearly  delineated  with
+the use of this destructive etching procedure.  Epitaxial
+wafers  may  however  be  classified  nondestructively  by
+this method without the destructive preferential etching
+and inspection steps.
+1. 4    This  practice  provides  guidance  regarding  proce-
+dures  for  analysis  of  crystal  defects  of  silicon  ingots
+from which silicon wafers are cut.
+1. 5  This    practice,    together    with    the    referenced
+standards,  may  be  used  for  process  control,  research
+and development, and material acceptance purposes.
+2  Scope
+2. 1      This   practice   covers   the   determination   of   the
+density   of   crystallographic   defects   in   unpatterned
+polished  and  epitaxial  silicon  wafers.    Epitaxial  silicon
+wafers  may  exhibit  dislocations,  hillocks,  shallow  pits
+or  epitaxial  stacking  faults,  while  polished  wafers  may
+exhibit  several  forms  of  crystallographic  defects  or
+surface damage.  Use of this practice is based upon the
+application   of   several   referenced   standards   in   a
+prescribed  sequence  to  reveal  and  count  microscopic
+defects or structures.
+2. 2    This  practice  is  suitable  for  use  with  epitaxial  or
+polished wafers grown in either [111] or [100] direction
+and  doped  either  p  or  n-type  with  resistivity  greater
+than 0.005 Ω·cm.
+2. 3    This  practice  is  suitable  for  use  with  epitaxial
+wafers with layer thickness greater than 0.5 μm.
+2. 4      Additional   requirements   on   the   material   to   be
+tested are listed in SEMI MF1810.
+NOTICE: This standard does not purport to address the
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI  MF95  —  Test  Method  for  Thickness  of  Lightly
+Doped   Silicon   Epitaxial   Layers   on   Heavily   Doped
+Silicon    Substrates    Using    an    Infrared    Dispersive
+Spectrophotometer
+1
+
+SEMI    MF523    —    Practice    for    Unaided    Visual
+Inspection of Polished Silicon Wafers Surfaces
+1
+
+SEMI MF1241 — Terminology of Silicon Technology
+1
+
+SEMI  MF1809  —  Guide  for  Selection  and  Use  of
+Etching  Solutions  to  Delineate  Structural  Defects  in
+Silicon
+1
+
+SEMI    MF1810    —    Test    Method    for    Counting
+Preferentially  Etched  or  Decorated  Surface  Defects  in
+Silicon Wafers
+1
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1      Defect-related   terminology   may   be   found   in
+SEMI MF1241.
+5  Summary of Practice
+5. 1  Clean, unprocessed polished or epitaxial wafers are
+selected.    The  wafers  are  examined  under  bright  light
+illumination    to    ensure    that    they    are    free    from
+contamination  and  obvious  surface  damage.    Epitaxial
+
+
+1  Currently available in Annual Book of ASTM Standards, Vol 10.05.
+These  documents  have  been  transferred  to  SEMI,  and  will  appear  in
+SEMI  Standards  Publications  beginning  with  the  November  2003
+edition.
+
+
+SEMI MF1726-1103 © SEMI 2003 2
+wafers  may  also  be  microscopically  inspected  before
+etching  to  count  and  classify  visible  imperfections.
+Wafers  are  then  etched  in  a  preferential  defect  etchant
+solution.    The  etched  surface  is  again  examined  under
+bright light illumination to identify patterns that may be
+related  to  contamination  or  improper  handling.    The
+imperfections highlighted by the preferential etchant are
+then microscopically counted and classified.
+6  Apparatus
+6. 1  Safety Equipment and Facility — for defect etching
+as described in SEMI MF1809.
+6. 2  Wafer     Inspection     Facilities     and     Handling
+Equipment  —  consistent  with  industry  practice  and
+suitable for use with SEMI MF523.
+7  Reagents and Materials
+7. 1  Refer to SEMI MF1809 for specific information on
+reagents and materials.
+8  Procedure
+8. 1    Select  an  unprocessed,  polished  or  epitaxial  wafer,
+ready for use in the fabrication of electronic devices.
+8. 1.1    Open  the  wafer  container  in  a  particle-controlled
+environment.
+8. 1.2      Transfer   the   wafer   with   a   robotic   tool   or   a
+nonmetallic  vacuum  pencil,  contacting  the  wafer  edge
+or  back  surface.    Ensure  that  the  front  surface  of  the
+adjacent wafer is not contacted during the removal.
+NOTE  1:    Any  contact  with  the  front  surface  of  the  adjacent
+wafer  can  transfer  contamination  and  generally  scratch  the
+surface.
+8. 2  Preliminary Sample Inspection:
+8. 2.1  Inspect the first sample using high intensity light
+conditions as described in SEMI MF523 to identify any
+surface   imperfections,   scratches,   or   contamination
+hazes  that  may  interfere  with  the  etching  process  or
+confound  the  result.    If  any  of  these  interferences  are
+detected, select a separate sample for analysis.
+NOTE  2:    These  interferences  can  generate  artifacts  that  may
+be confused with the true defects.
+8. 2.2  Epitaxial Wafer, Nondestructive Defect Counting
+—    Inspect    epitaxial    wafers    microscopically    in
+accordance  with  SEMI  MF1810  before  defect  etching
+to count most of the epitaxial stacking fault defects.
+
+{100}                                {111}
+
+NOTE: The orientation of the wafer defines the location and
+direction of the line defects.
+Figure 1
+Slip Defects as Seen with Macroscopic High-
+Intensity Light Inspection
+
+NOTE  3:    Epitaxial  defects  are  more  clearly  delineated  with
+etching, but that is a destructive process.
+8. 3  Defect Etching
+8. 3.1  Epitaxial  Wafers  —  Etch  samples  with  epitaxial
+layers  greater  than  2-μm  thickness  (as  measured  by
+SEMI  MF95)  with  removal  of  at  least  0.5  μm  to
+highlight  the  crystal  defects  for  quantification.    Etch
+samples  with  epitaxial  layers  less  than  2  μm  with
+removal  of  no  more  than  50%  of  the  layer  thickness.
+Other   removal   amounts   are   acceptable   based   upon
+producer-consumer agreement. (See Note 4.)
+8. 3.2  Polished  Wafers  —  The  sample  must  be  etched
+with  a  removal  of  5  to  15  μm  to  highlight  the  crystal
+defects  for  quantification.    Other  removal  amounts  are
+acceptable based upon producer/consumer agreement.
+8. 3.3      Refer   to   SEMI   MF1809   for   more   etching
+information.
+NOTE  4:    Crystal  defects  become  more  clearly  visible  for
+unaided eye inspection with increased removal, but resolution
+of  the  epitaxial  induced  defects  is  reduced  with  increasing
+etch times.
+8. 4  Sample  Inspection  —  Evaluate  the  preferentially
+etched    sample    in    two    stages,    macroscopic    and
+microscopic.
+8. 4.1    First  inspect  the  sample  macroscopically  under
+high    intensity    light    conditions    as    described    in
+SEMI  MF523  to  detect  patterns  of  defects,  such  as  the
+slip patterns shown schematically in Figure 1.
+
+
+SEMI MF1726-1103 © SEMI 2003 3
+
+
+a                                             b
+NOTE: The orientation of the wafer does not define the
+locations and direction of the line defects.
+Figure 2
+Typical Scratches (a) or Mechanically Induced
+Defects (b) as Seen With High-Intensity Light
+Inspection
+
+8. 4.2        Obtain    a    second    sample    if    evidence    of
+mechanically     or     operator     induced     damage     or
+contamination   is   observed,   because   these   artifacts
+interfere   with   the   identification   of   crystal   growth
+defects.
+NOTE  5:    Slip  defects  may  be  differentiated  from  the  crystal
+growth  defects  by  insuring  that  all  of  the  defects  are  aligned
+as  shown  in  Figure  1.    Figure  2  shows  the  characteristics  of
+scratches  or  mechanical  damage  when  viewed  under  high
+intensity light conditions.
+8. 4.3  Microscopic Defect Counting — Count and report
+the density of observed defects using SEMI MF1810.
+9  Keywords
+9. 1      dislocation;   epitaxy;   grain   boundaries;   hillock;
+polycrystalline imperfections; preferential etch; shallow
+pit; silicon; slip; stacking fault
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights or copyrights and the risk of infringement of such
+rights are entirely their own responsibility.
+
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1727-0304 © SEMI 2003, 2004 1
+SEMI MF1727-0304
+PRACTICE FOR DETECTION OF OXIDATION INDUCED DEFECTS IN
+POLISHED SILICON WAFERS
+This   practice   was   technically   approved   by   the   Global   Silicon   Wafer   Committee   and   is   the   direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   December   4,   2003.      Initially   available   at
+www.semi.org February 2004; to be published March 2004.  Originally published by ASTM International as
+ASTM F 1727-97.  Last previous edition SEMI MF1727-02.
+1  Purpose
+1. 1    Defects  induced  by  thermal  processing  of  silicon
+wafers  may  adversely  influence  device  performance
+and yield.
+1. 2          These     defects     are     influenced     directly     by
+contamination,  ambient  atmosphere,  temperature,  time
+at  temperature,  and  rate  of  change  of  temperature  to
+which  the  specimens  are  subjected.    Conditions  vary
+significantly among device manufacturing technologies.
+The  thermal  cycling  procedures  of  this  practice  are
+intended     to     simulate     basic     device     processing
+technologies.    Oxidation  cycles  other  than  specified
+herein,  or  multiple  oxidation  cycles,  may  sometimes
+more accurately simulate device-processing procedures.
+The results obtained may differ significantly from those
+obtained with the specified oxidation cycles.
+1. 3    The  geometry  of  some  patterns  revealed  by  this
+practice  suggests  that  they  are  related  to  the  crystal
+growth  process  while  others  seem  related  to  surface
+preparation or thermal cycling conditions.
+1. 4      This   practice   is   suitable   for   acceptance   testing
+when used with referenced practices and methods.
+2  Scope
+2. 1    This  practice  covers  the  detection  of  crystalline
+defects  in  the  surface  region  of  silicon  wafers.    The
+defects  are  induced  or  enhanced  by  oxidation  cycles
+encountered    in    normal    device    processing.        An
+atmospheric  pressure  oxidation  cycle  representative  of
+bipolar,     metal-oxide-silicon     (MOS)     and     CMOS
+technologies  is  included.    This  practice  reveals  strain
+fields   arising   from   the   presence   of   precipitates,
+oxidation induced stacking faults, and shallow etch pits.
+Slip  is  also  revealed  that  arises  when  internal  or  edge
+stresses are applied to the wafer.
+2. 2  Application of this practice is limited to specimens
+that   have   been   chemical   or   chemical/mechanical
+polished  to  remove  surface  damage  from  at  least  one
+side of the specimen.  This practice may also be applied
+to detection of defects in epitaxial layers.
+2. 3  The surface of the specimen opposite the surface to
+be   investigated   may   be   damaged   deliberately   or
+otherwise  treated  for  gettering  purposes  or  chemically
+etched to remove damage.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1      Material   having   residual   work   damage   in   the
+polished   surface   exhibits   visible   patterns   when   the
+procedures  of  this  practice  are  used.    Usually,  edge
+damage,  lapping  damage,  tool  marks,  or  scratches  are
+easily identified by the location and pattern observed.
+3. 2        Contamination    not    removed    by    preparatory
+cleaning  procedures  or  deposited  following  cleaning,
+may  become  visible  after  oxidation  and  preferential
+etching.
+3. 3  Slip may be introduced by differential expansion at
+the  points  of  wafer  support  in  the  furnace  boat.    Slip
+radiating from the points of support may be assumed to
+originate from this boat pinch and not be inherent in the
+unprocessed  wafer.    Slip  may  also  be  caused  by  large
+thermal   gradients   imposed   across   a   wafer   by   fast
+insertion or removal from the furnace.
+3. 4        If    the    oxidation    furnace    or    apparatus    is
+contaminated,   it   can   cause   extraneous   artifacts   or
+defects.
+3. 5      Striations,   helical   features   on   the   surface   of   a
+silicon    wafer,    are    ascribed    to    periodic    dopant
+incorporation differences occurring at the rotating solid-
+liquid  interface  during  crystal  growth.    These  features
+are visible to the unaided eye after preferential etching,
+seem continuous under 100× magnification, and may be
+confused with ring patterns of oxidation stacking faults.
+3. 6      Otherwise   identical   wafers   with   different   back
+surface  conditions  may  yield  different  results  by  this
+practice.
+
+
+SEMI MF1727-0304 © SEMI 2003, 2004 2
+3. 7    Wafers,  particularly  <111>  orientation,  may  show
+lower shallow-pit defect density when the back surface
+of  the  wafer  is  gettered.    Backside  gettering  should  be
+noted   in   the   sample   classification   when   data   are
+reported.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI C3.19 — Standard for Hydrogen (H
+2
+) 99.9995%
+Quality
+SEMI   C28   —   Specifications   and   Guidelines   for
+Hydrofluoric Acid
+SEMI   C54   —   Specifications   and   Guidelines   for
+Oxygen
+SEMI MF1241 — Terminology of Silicon Technology
+SEMI  MF1809  —  Guide  for  Selection  and  Use  of
+Etching  Solutions  to  Delineate  Structural  Defects  in
+Silicon
+SEMI    MF1810    —    Test    Method    for    Counting
+Preferentially  Etched  or  Decorated  Surface  Defects  in
+Silicon Wafers
+4. 2  ASTM Standard
+1
+
+D  5127  —  Guide  for  Ultra  Pure  Water  Used  in  the
+Electronics and Semiconductor Industry
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Defect-related  terminology  may  be  found  in  SEMI
+MF1241.
+6  Summary of Practice
+6. 1    Wet  oxidation  is  used  to  generate  or  highlight
+defects, or both, in silicon wafers.  This oxidation may
+also simulate simple device production processes.
+6. 2        The    defects    are    revealed    subsequently    by
+preferential  etching  and  examination  by  interference
+contrast   microscopy   according   to   referenced   SEMI
+standards.
+7  Apparatus
+7. 1  Oxidation  Furnace  —  furnace  shall  be  consistent
+with the intended process application and shall sustain a
+designated  temperature  with  uniformity  less  than  ±5°C
+over a zone at least 0.3-m long.
+
+
+1  Annual Book of ASTM Standards, Vol 11.01.  ASTM International,
+100 Barr Harbor Drive, West Conshohocken, PA  19428.  Telephone:
+610-832-9500. Fax: 610-832-9555.  Website: www.astm.org
+.
+7. 2  Steam Source — Wet oxidation shall be carried out
+using a pyrogenic steam generator to provide steam.
+7. 3  Working Chamber — A pure, fused quartz, silicon
+carbide,  or  silicon  tube  of  an  inside  diameter  sufficient
+to  hold  the  specimen  wafers.    The  inlet  end  shall  be
+fitted  with  the  appropriate  pyrogenic  torch  apparatus.
+The  exhaust  end  shall  be  fitted  to  exhaust  the  process
+gases  to  satisfy  applicable  environmental  requirements
+and  prevent  back  streaming  of  outside  air  into  the
+working chamber.
+7. 4  Wafer  Boat  —  A  quartz,  silicon  or  silicon  carbide
+fixture  for  holding  the  specimen  wafers  either  parallel
+or perpendicular to the gas flow in the furnace.
+7. 5  Pickup  Tool  —  A  manual  or  automated  transfer
+tool fitted with a nonmetallic material such as quartz or
+TFE-fluorocarbon.        The    pickup    tool    shall    be
+constructed  so  that  no  metal  can  contact  the  specimen
+wafer.
+8  Reagents and Materials
+8. 1  Purity  of  Reagents  —  Chemicals  shall  conform  to
+the   assay   and   impurity   levels   of   Grade   1   SEMI
+Specifications  where  they  exist.    Reagents  for  which
+SEMI  specifications  have  not  been  developed  shall
+conform  to  the  specifications  of  the  Committee  on
+Analytical    Reagents    of    the    American    Chemical
+Society,
+2
+where   such   specifications   are   available.
+Gases  shall  conform  to  the  purity  requirements  of  the
+cited  SEMI  specifications.    Other  grades  may  be  used
+provided  it  is  first  ascertained  that  the  reagent  is  of
+sufficiently   high   purity   to   permit   its   use   without
+lessening the accuracy of the determination.
+8. 2  Purity  of  Water  —  Reference  to  water  shall  be
+understood   to   mean   Type   E-3   or   better   water   as
+described in ASTM Guide D 5127.
+8. 3  Hydrofluoric  Acid  —  Concentrated,  in  accordance
+with Grade 1 of SEMI C28.
+8. 4  Hydrogen Gas — In accordance with SEMI C3.19,
+for use in pyrogenic steam generator.
+8. 5  Oxygen Gas — In accordance with SEMI C54, for
+use  both  as  furnace  ambient  and  in  pyrogenic  steam
+generator.
+
+
+2    Reagent  Chemicals,  American  Chemical  Society  Specifications,
+American Chemical Society, Washington, DC. For suggestions on the
+testing  of  reagents  not  listed  by  the  American  Chemical  Society,  see
+Analar   Standards   for   Laboratory   Chemicals,   BDH   Ltd.,   Poole,
+Dorset,  U.K.,  and  the  United  States  Pharmacopeia  and  National
+Formulary, U.S. Pharmacopeial Convention, Inc., (USPC), Rockville,
+MD.
+
+
+SEMI MF1727-0304 © SEMI 2003, 2004 3
+9  Sampling
+9. 1  Select specimens to represent the lot to be tested as
+specified in producer/consumer agreements.
+10  Specimen Preparation
+10. 1    Commonly  this  practice  may  be  used  for  wafers
+as  they  are  received;  however,  the  parties  using  this
+practice  may  establish  a  uniform  cleaning  procedure
+before oxidation.
+11  Preparation of Apparatus
+11. 1    The  oxidation  furnace  tube  (working  chamber)
+and associated quartzware shall be maintained in a state
+suitable   for   producing   oxides   appropriate   for   the
+process for which the wafers are being tested.
+11. 2    Immediately  before  use,  clean  the  pickup  tool
+using standard industry practices.
+12  Procedure
+12. 1    Handle  wafers  only  with  a  clean,  nonmetallic
+pickup   tool   or   automated   transfer   unit   to   avoid
+scratching or contaminating the surface.
+12. 2  Oxidize the wafers by the thermal sequence listed
+in  Table  1  or  by  a  process  acceptable  to  both  producer
+and consumer.
+12. 2.1  Caution —   Pyrogenic   steam   oxidation   uses
+heated hydrogen and oxygen to grow a wet oxide layer.
+Improper  or  uncontrolled  combination  of  these  gases
+can result in fire or explosion.
+12. 2.2  Preheat the furnace to the push temperature.
+Table 1  Oxidation Procedure
+Step                      Function                      Conditions
+Ambient                 Dry                 Oxygen
+Temperature                   800°C
+
+# 1
+
+1. Push (Load)
+Push Rate 200 mm/minute
+Ambient                 Dry                 Oxygen
+Ramp Rate +5°C/minute
+
+# 2
+
+2. Temperature
+Ramp
+Final Temperature 1100°C
+Ambient Steam (wet oxide)
+Temperature  1100°C
+
+# 3
+
+3. Oxidation
+Time                      60                      minute
+Ambient                 Dry                 Oxygen
+Ramp Rate –3°C/minute
+
+# 4
+
+4. Temperature
+Ramp
+Final Temperature 800°C
+Ambient                 Dry                 Oxygen
+Temperature                   800°C
+
+# 5
+
+5. Pull (Unload)
+Pull Rate 200 mm/minute
+
+12. 2.3    Load  the  specimen  wafers  into  the  wafer  boat,
+being    careful    to    avoid    binding,    scratching,    or
+contamination.
+12. 2.4  Insert the boat into the hot zone at the rate called
+for in the thermal sequence being employed.  The wafer
+boat shall be centered in the uniform hot zone.
+12. 2.5  Follow the ramp up, oxidation, ramp down, and
+pull  procedures  as  specified  in  the  thermal  sequence
+being employed.
+12. 2.6    Because  silicon  wafers  and  quartz  accessories
+are  extremely  hot  when  they  are  removed  from  the
+oxidation furnace, allow the materials adequate time to
+cool before handling.
+12. 3    Transfer  the  room  temperature  wafers  from  the
+quartz  boat  to  a  wafer  carrier  using  the  pickup  tool  or
+automated transfer unit.
+12. 4          Remove     the     thermal     oxide     layer     using
+hydrofluoric acid for 2 min followed by water rinse and
+spin dry.
+12. 4.1  Caution —   Hydrofluoric   acid   solutions   are
+particularly hazardous and specific preventive measures
+must  be  strictly  observed.    Safety  or  protective  gear
+should  be  worn  while  handling  acid  solutions.    Safety
+requirements  vary,  but  the  essential  items  are:  plastic
+gloves, safety glasses, face shield, acid gown, and shoe
+covers.
+12. 5    Select  and  use  an  appropriate  etching  solution  as
+described in SEMI MF1809 to allow defect delineation
+while  removing  4  μm  (or  another  amount  as  agreed
+upon between the parties to the test) of silicon from the
+surface being evaluated.
+12. 6    Count  and  report  the  density  of  observed  defects
+using SEMI MF1810.
+13  Keywords
+13. 1                defects;        dislocation;        epitaxy;        hillock;
+imperfections;  oxidation;  preferential  etch;  shallow  pit;
+silicon; slip; stacking fault; swirl
+
+
+SEMI MF1727-0304 © SEMI 2003, 2004 4
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 1
+SEMI MF1771-0304
+TEST METHOD FOR EVALUATING GATE OXIDE INTEGRITY BY
+VOLTAGE RAMP TECHNIQUE
+This  test  method  was  technically  approved  by  the  Global  Silicon  Wafer  Committee  and  is  the  direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   December   4,   2003.      Initially   available   at
+www.semi.org February 2004; to be published March 2004.  Originally published by ASTM International as
+ASTM F 1771-97.  Last previous edition SEMI MF1392-97 (Reapproved 2002).
+1  Purpose
+1. 1  The technique outlined in this test method is meant
+to  standardize  the  procedure,  analysis  and  reporting  of
+oxide  integrity  data  via  the  voltage  ramp  technique
+among  interested  parties.    However,  since  the  values
+obtained  cannot  be  entirely  divorced  from  the  process
+of  fabricating  the  test  structure,  suitable  correlations
+should   be   performed   based   on   process   needs   and
+structure  selection.    This  correlation  should  include
+sample size as well as device geometry.
+1. 2    Measurement  of  the  electrical  integrity  of  oxides
+grown on silicon wafers may also be used in-house as a
+means  of  monitoring  the  quality  of  furnaces  and  other
+processing  steps  as  well  as  judging  the  impact  of
+changing some processing steps.
+1. 3      Selection   of   various   edge   and   area   intensive
+structures  is  crucial  for  isolating  the  nature  of  the
+defects.  Techniques for using such structures to isolate
+the  nature  of  detected  defects  is  beyond  the  scope  of
+this test method.
+1. 4    The  actual  results  are  somewhat  dependent  on  the
+choice  of  gate  electrode.    Polysilicon  gates  have  the
+advantage  of  being  identical  to  finished  product  in
+many  instances.    Even  for  polysilicon  gates,  exact
+results   depend   upon   values   chosen   for   polysilicon
+thickness, doping, and sheet resistance.
+2  Scope
+2. 1  The techniques outlined in this standard are for the
+purpose  of  standardizing  the  procedure  of  measure-
+ment,  analysis,  and  reporting  of  oxide  integrity  data
+between interested parties.
+2. 1.1        This    test    method    makes    no    representation
+regarding       actual       device       failure       rates       or
+acceptance/rejection criteria.
+2. 1.2    While  some  suggestions  for  data  analysis  are
+included    in    later    sections    of    this    test    method,
+interpretation  of  results  is  beyond  the  scope  of  this
+standard.    Any  such  interpretations  should  be  agreed
+upon  between  interested  parties  prior  to  testing.    For
+example,  a  variety  of  failure  criteria  are  included  to
+permit  separation  of  so-called  intrinsic  and  extrinsic
+oxide failures.
+NOTE 1:  In  this  regard  this test  method  differs  from  that
+given  in  SEMI  M51,  which  is  focused  on  application  of  gate
+oxide   integrity   measurements,   as   described   in   this   test
+method,  to  determine  the  density  of  crystal  originated  pits  in
+the wafer under test.  SEMI M51 also provides a standardized
+procedure for fabricating the MOS capacitors.
+2. 2    The  background  of  this  test  method  is  provided  in
+Related Information 1.
+2. 3    This  test  method  covers  the  procedure  for  gaging
+the electrical strength of silicon dioxide thin films with
+thicknesses ranging from approximately 3 nm to 50 nm.
+In  the  analysis  of  films  of  4  nm  or  less,  the  impact  of
+direct  tunneling  on  the  current-voltage  characteristics,
+and   hence   the   specified   failure   criteria   defined   in
+Section  5.4,  must  be  taken  into  account.    Since  oxide
+integrity     strongly     depends     on     wafer     defects,
+contamination,  cleanliness,  as  well  as  processing,  the
+users  of  this  test  method  are  expected  to  include  wafer
+manufacturers and device manufacturers.
+2. 4  This test method is not structure specific, but notes
+regarding options for different structures may be found
+in  the  appendix.    The  three  most  likely  structures  are
+simple    planar    metal-oxide    semiconductor    (MOS-
+capacitors)   (fabricated   or   mercury   probe),   various
+isolation  structures  (for  example,  local  oxidation  of
+silicon (LOCOS)), and field effect transistors.  This test
+method  assumes  that  a  low  resistance  ohmic  contact  is
+made to the backside of each wafer in each case.  For a
+more detailed discussion of the design and evaluation of
+test structures for this test method, the reader is referred
+to the EIA/JEDEC Standard 35-1.
+2. 5  Failure criteria specified in this test method include
+both the fixed current limit (soft) and destructive (hard)
+types. In the past, use of a fixed current limit of 1 μA or
+more  virtually  ensured  measurement  of  hard  failure,  as
+the  thicker,  more  heavily  contaminated  oxides  of  those
+days   typically   failed   catastrophically   as   soon   as
+measurable    currents    were    passed.    The    cleaner
+processing of thinner oxides now means that oxides will
+sustain   relatively   large   currents   with   little   or   no
+evidence  of  failure.  While  use  of  fixed  current  limit
+testing  may  still  be  of  value  for  assessing  uniformity
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 2
+issues,  it  is  widely  felt  that  failure  to  continue  oxide
+breakdown  testing  to  the  point  of  catastrophic  oxide
+failure may mask the presence of defect tails, which are
+of  critical  importance  in  assessing  long-term  oxide
+reliability.  For  this  reason,  this  test  method  makes
+provision for use of fixed limit failure criteria if desired
+and  agreed  upon  by  the  parties  to  the  testing,  but
+specifies  that  testing  be  continued  until  hard  failure  is
+sensed.
+2. 6      This   test   method   specifically   does   not   include
+measurement     of     a     charge-to-breakdown     (Q
+bd
+)
+parameter.   Industry   experience   with   this   parameter
+measured in a ramp-to-failure test such as this indicates
+that Q
+bd
+values   so   obtained   may   be   unreliable
+indicators  of  oxide  quality.  This  is  because  a  large
+fraction  of  the  value  determined  is  collected  in  the  last
+steps  of  the  test,  and  the  result  is  subject  to  large
+deviations. Q
+bd
+should  be  measured  in  a  constant
+current  or  bounded  current  ramp  test.  This  test  method
+is applicable to both n-type and p-type wafers, polished
+or  having  an  epitaxial  layer.    In  wafers  with  epitaxial
+layers,  the  conductivity  type  of  the  layer  should  be  the
+same  as  that  of  the  bulk  wafer.    While  not  excluding
+depletion  polarity,  it  is  preferred  that  measurement
+polarity   should   be   in   accumulation   to   void   the
+complication  of  a  voltage  drop  across  the  depletion
+layer.
+2. 7  While this test method is primarily intended for use
+in  characterizing  the  SiO
+2
+-silicon  systems  as  stated
+above,   it   may   be   applied   in   general   terms   to   the
+measurement   of   other   metal-insulator-semiconductor
+structures     if     appropriate     consideration     of     the
+characteristics of the other materials is made.
+2. 8      Measurement   conditions   specified   in   this   test
+method are conservative, intended for thorough analysis
+of  high  quality  oxide-silicon  systems,  and  to  provide  a
+regime  in  which  new  users  may  safely  begin  testing
+without encountering undue experimental artifacts.  It is
+recognized   that   some   experienced   users   may   be
+working   in   applications   where   less   precise   data   is
+required and a more rapid test is desirable.  An example
+of  this  situation  is  the  evaluation  of  silicon  wafer
+quality,  where  a  staircase  voltage  step  providing  0.5
+MV/cm  oxide  field  strength  resolution  and  a  voltage
+step   duration   of   0.2   s   has   been   used.      Such   test
+conditions   may   be   specified   when   agreed   upon   as
+adequate by all participants to the testing.  Because the
+dependence    of    measured    parameters    upon    test
+conditions may increase as these conditions depart from
+those  specified  in  this  test  method,  it  is  important  that
+all   parties   to   these   tests   use   the   same   set   of   test
+conditions, so that their results are comparable.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1  Since this is a dc measurement, care must be taken
+to make sure that the wafer has a low resistance ohmic
+return   contact.      This   is   preferably   done   with   a
+metallized  contact  to  the  back  side  of  the  wafer  under
+test.  In cases where testing must be done on capacitors
+in  diffused  wells  of  conductivity  type  opposite  to  the
+substrate,   top   side   contacts   carefully   designed   to
+provide  uniform,  low  resistance  to  all  parts  of  the  test
+capacitor should be used.  A discussion of these design
+criteria is given in Standard 35-1.
+3. 2    It  is  strongly  suggested  that  testing  be  done  with  a
+voltage   polarity   to   accumulate   the   silicon   surface
+underlying   the   oxide;   positive   voltages   for   n-type
+substrates  and  negative  voltages  for  p-type  substrates.
+If this is not done, a topside contact to a diffused region
+of opposite conductivity type surrounding the capacitor
+(a gated diode or transistor) should be used to minimize
+the  problem  of  uncontrolled  voltage  drops  across  the
+inversion  layer  during  testing.    This  is  an  absolute
+requirement   for   testing   p-type   substrate   capacitors
+under   positive   bias,   where   sufficient   electrons   to
+support  conduction  and  breakdown  are  not  available
+without the n-type region.
+3. 3    Evaluation  and  control  of  electrical  noise  in  the
+current-voltage data taken as part of this test method is
+crucial to the proper identification of the failure criteria,
+particularly the ln J-V slope change criterion defined in
+Section  9.9.4.    Approaches  for  minimizing  electrical
+noise  in  the  measurements  are  suggested  in  Section  7
+on  Apparatus,  and  an  approach  for  noise  evaluation  is
+given in Section 10.3.
+3. 4    Control  of  the  voltage  step  time  may  be  difficult
+when   using   automated   electrometers   in   a   voltage
+staircase  regime.    While  the  required  100-ms  step  time
+may  be  set  using  a  delay  in  the  measurement  loop,  an
+additional,  uncontrolled  delay  may  be  incurred  due  to
+autoranging  of  the  electrometer.    The  effect  is  most
+pronounced  for  very  low  currents,  where  the  measured
+value   is   several   orders   of   magnitude   below   the
+minimum  range  set  by  the  electrometer  software.    An
+example of this effect is discussed in Section 10.3.
+3. 5    The  method  of  probing  the  device  may  affect  the
+results.      Examples   of   possible   variables   are   probe
+pressure  and  use  of  a  contact  pad  versus  direct  contact
+to the gate.
+3. 6        Use    of    gate    electrode    material    other    than
+polysilicon   may   mask   differences   in   materials   and
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 3
+make  the  material  look  worse  than  it  might  otherwise
+appear if polysilicon gates are used.  This is because the
+process of forming a gate electrode on an oxide sample
+may affect the integrity of that oxide either for better or
+for     worse.          Sputtering     or     radiation     damage
+accompanying metal gate deposition may degrade oxide
+integrity,  while  the  high  temperature  annealing  and
+gettering  associated  with  polysilicon  deposition  and
+doping may improve oxide quality.  On the other hand,
+stress  arising  from  crystal  formation  in  the  polysilicon,
+or impurity diffusion along polysilicon grain boundaries
+may degrade oxide integrity.  Changes of gate-substrate
+work function difference may also affect the breakdown
+and  wearout  mechanisms  in  the  oxide.    Therefore,
+potential  effects  of  gate  electrode  material  choice  on
+test results must not be neglected.
+3. 7    The  actual  values  obtained  depend  somewhat  on
+the processing involved in fabricating the test structure.
+Care must be taken to ensure a consistent processing.
+3. 8  Wafer temperature during testing should be clearly
+defined.    While  oxide  breakdown  voltages  are  not
+strongly   temperature-dependent,   the   oxide   wearout
+mechanism     is     temperature-sensitive,     and     large
+temperature variations might have an impact on results.
+3. 9  Warning —   Since   the   voltage   and   currents
+involved  are  potentially  dangerous,  appropriate  means
+of  preventing  the  operator  from  coming  into  contact
+with  the  probe  tip  or  other  charged  surfaces  should  be
+in place before testing.
+3. 10  When testing very thin oxides, those 10 nm or less
+in  thickness,  special  care  must  be  taken  to  account  for
+effects  arising  from  the  very  high  specific  capacitance
+of these films.  These may include voltage drops across
+the  polysilicon  gate  electrode  and  the  silicon  substrate,
+and high conduction due to direct tunneling.
+3. 11  When using a mercury probe for measurements of
+this  type,  care  must  be  taken  in  the  preparation  and
+control   of   the   oxide   surface.      Adsorbed   organic
+contaminant    films    may    affect    the    electric    field
+distribution in the oxide.  Such films may sometimes be
+removed with hot SC-1 cleaning solution; a mixture of
+NH
+4
+OH-H
+2
+O
+2
+-H
+2
+O.  Use of a dry nitrogen purge of the
+probing  ambient  is  also  recommended  to  minimize
+surface contamination effects.
+4  Referenced Standards
+4. 1  SEMI Standard
+SEMI  M51  —  Test  Method  for  Characterizing  Silicon
+Wafers by Gate Oxide Integrity
+4. 2  EIA/JEDEC Standards
+1
+
+Standard  35  —  Procedure  for  the  Wafer-Level  Testing
+of Thin Dielectrics
+Standard  35-1  —  General  Guidelines  for  Designing
+Test  Structures  for  the  Wafer-Level  Testing  of  Thin
+Dielectrics
+Standard  35-2  —  Test  Criteria  for  the  Wafer-Level
+Testing of Thin Dielectrics
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Definitions
+5. 1.1  hard  failure  —  destructive  failure  of  an  MOS
+capacitor associated with rupture of the oxide film.
+5. 1.1.1  Discussion  —  This  is  sensed  by  an  abrupt,
+irreversible change in the current-voltage characteristics
+of  the  capacitor.    In  this  test  method,  hard  failure  is
+determined    by    a    relatively    large    change    in    dc
+conduction  level  between  voltage  steps,  or  as  a  change
+in  the  logarithmic  slope  of  the  current  density-voltage
+characteristic.
+5. 1.2  soft failure — failure of an MOS capacitor sensed
+by its passage of an electrical current equal to or greater
+than a predetermined value.
+5. 1.2.1  Discussion — This type of failure may be either
+destructive or nondestructive, as in the case of Fowler-
+Nordheim or direct tunneling currents.
+5. 1.3  failure  modes  A,  B,  and  C  —  in  the  reporting  of
+hard   and   soft   breakdown   failure   results,   data   is
+sometimes summarized in terms of ranges of oxide field
+strength in which the breakdown occurred.
+5. 1.3.1  Discussion  —  One  set  of  categories  widely
+used
+2
+,
+3
+is as follows:
+• A mode failure:  E
+ox
+< 1 MV/cm
+• B mode failure:  1 MV/cm ≤ E
+ox
+≤ 8 mV/cm
+• C mode failure:  8 MV/cm < E
+ox
+
+
+
+1  Available from Electronic Industries Alliance, 2500 Wilson Blvd.,
+Arlington, VA 22201 USA.  Tel: 703-907-7500, Fax: 703-907-7501,
+Website: www.eia.org
+.
+2    Yamabe,  K.,  Ozawa,  Y.,  Nadahara,  S.,  and  Imai,  K.,  “Thermally
+Grown  Silicon  Dioxide  with  High  Reliability,”  in  Semiconductor
+Silicon   1990,   Proceedings   Volume   90-7,   The   Electrochemical
+Society, (Pennington, NJ, 1990) pp. 349-363.
+3    Yamabe,  K.,  Taniguchi,  K.,  and  Matsushita,  Y.,  “Thickness
+Dependence   of   Dielectric   Breakdown   Failure   of   Thermal   SiO2
+Films,” Reliability Physics—21st Annual Proceedings,  1983, p. 184.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 4
+
+Figure 1
+Flow Diagram for Ramp Voltage Test Method
+
+5. 1.3.2    These  categories  have  traditionally  been  used
+for oxides thicker than about 20 nm.  For thinner films,
+care must be taken in their use and in proper derivation
+of the oxide field strengths as described in Section 10.2.
+The break point between A mode and B mode failure in
+this  set  of  categories  is  different  from  the  3  MV/cm
+given in SEMI M51.
+6  Summary of Test Method
+6. 1      A   flow   diagram   for   the   ramp   voltage   test   is
+pictured in Figure 1.
+6. 2  Record the test specimen ID and other test identity.
+6. 3    Establish  the  test  parameters  relevant  to  the  test
+system and to the test specimen.
+6. 4  A capacitor unit on the test specimen is selected for
+test,  and  an  optional  pretest  of  capacitor  leakage  is
+carried out, if desired.
+6. 5    If  the  capacitor  fails  this  pretest,  the  capacitor  is
+recorded as a category 0 failure and a new capacitor on
+the test specimen is selected for test.
+6. 6    Otherwise,  the  voltage  on  the  capacitor  is  set  to  0
+(if no pretest was conducted) or to the voltage of use (if
+a pretest was carried out).
+6. 7    The  voltage  applied  to  the  capacitor  under  test  is
+increased  linearly  with  time  at  a  specified  rate,  with
+measurements  of  current  made  at  intervals  that  must
+correspond  to  oxide  electric  field  changes  less  than  a
+maximum specified value.
+6. 8      The   voltage   ramp   continues   until   hard   failure
+(destructive  breakdown),  as  defined  by  one  of  several
+specified  failure  criteria,  is  sensed  and  stored  along
+with the appropriate hard failure criterion.
+6. 9  During    the    measurement    cycle,    soft    failures
+corresponding   to   predetermined   current   levels   are
+sensed and stored.
+6. 10      The   measurement   cycle   for   this   capacitor   is
+completed  when  hard  failure  is  detected  or  when  the
+upper voltage limit of the test is reached.
+6. 11    After  the  test  is  completed  (without  observing
+hard  failure),  a  post-test  is  performed  to  evaluate  hard
+failure by sensing current at a low voltage.
+6. 12      The   test   cycle   is   then   repeated   for   the   next
+capacitor  in  the  array,  and  this  is  continued  until  all
+units in the specified group have been tested.
+6. 13    When  testing  is  complete,  calculations  and  cate-
+gorizing of data is done and a report is generated.
+7  Apparatus
+7. 1      Although   the   test   method   is   independent   of
+equipment    configuration,    the    use    of    computer-
+controlled   probing   equipment   is   essential   as   the
+measurement  speed  precludes  manual  data  gathering.
+What is included here shall be considered a minimum.
+7. 1.1  Voltage  Source  and  Sink  —  That  is  capable  of
+delivering/receiving between 0 and ±100 V in the form
+of an effective ramp rate of 1.0 ± 0.1 MV/cm
+–1
+/s
+–1
+either
+automatically  or  under  computer  control.    If  use  of
+other  ramp  rates  is  mutually  agreed  upon  (see  Section
+9. 6), it must be established that hardware is available to
+perform  the  measurement  adequately.    This  voltage
+source/sink  may  consist  of  two  source-measurement
+units  (SMU's)  with  a  common  ground,  or  just  a  single
+SMU  with  a  dedicated  sink.    The  voltage  source  shall
+be capable of sourcing at least 100 mA of current.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 5
+7. 2  Shielded  Triaxial  Cables  —  Involving  guarding  to
+minimize the noise when measuring low current values.
+7. 3  Wafer   Chuck   —   Electrically   isolated   from   its
+case/probe  platen.    While  the  chuck  may  be  connected
+to   the   reference   voltage   (zero,   not   ground),   lower
+electrical  noise  may  be  obtained  by  connecting  the
+voltage  ramp  source  to  the  chuck  and  measuring  the
+current through the probe connection.
+7. 4  Probe  —  To  contact  the  gate  electrode.    Either  a
+hard needle-type probe such as tungsen carbide (which
+may  be  a  single  probe  or  a  probe  card)  or  a  mercury
+probe may be used.
+8  Sampling
+8. 1    Sampling  is  the  responsibility  of  the  user  of  this
+test  method.    However,  if  testing  is  done  as  part  of  a
+comparison  or  correlation,  sampling  shall  be  agreed
+upon in advance by all participants.
+NOTE  2:    Refer  to  the  appendix  of  Standard  35  for  a  good
+discussion of sampling plan statistics.
+9  Procedure
+9. 1  Before   the   measurement,   record   the   following
+information  for  each  sample:  sample  identity,  date,
+time,   operator,   instrument   station   identity   (if   any),
+average    oxide    thickness,    gate    area    in    square
+centimeters, gate material, oxide type (example thermal
+versus  deposited),  structure  type,  conductivity  type  (n
+or p),   bias   mode   (accumulation   or   depletion),   test
+temperature.
+9. 2    Establish  the  test  parameters  relevant  to  the  test
+system and the sample.  These include the voltage ramp
+rate,  computed  in  accordance  with  the  calculation  in
+Section 10.2, and the noise threshold level and in some
+instances  the  ln  J-V  slope  ratio  for  the  hard  failure
+criterion    in    Section    9.9.5,    both    determined    in
+accordance with the calculation in Section 10.3.
+9. 3  Set the applied voltage to zero volts.
+9. 4    Recognizing  that  some  information  on  extrinsic
+defects may be lost, perform a pretest as follows.  If it is
+desired not to lose the information on extrinsic defects,
+proceed to Section 9.5.
+9. 4.1    Bias  the  gate  into  accumulation  at  the  voltage  of
+use.  If the measured current exceeds a value equivalent
+to  1.0  ×  10
+–5
+A/cm
+2
+(or  a  current  value  of  10  nA  if  the
+device area is at or below 10
+–3
+cm
+2
+), record this device
+as a Category 0 failure and proceed to Section 9.11.
+9. 5    From  the  starting  bias  condition  (zero  if  no  pretest
+was  done,  or  the  voltage  of  use  if  a  pretest  was  used)
+record voltage and current.
+9. 6      Begin   increasing   the   voltage   bias   at   a   rate
+equivalent  to  an  electric  field  increment  of  1.0  ±  0.1
+MV-cm
+–1
+-s
+–1
+.  Note that other ramp rates may be used
+if it can be shown that it does not affect the results, or if
+it is agreed upon by all parties to the test.
+9. 7    Record  current-voltage  data  at  an  interval  no  more
+than  0.1  s  between  readings,  or  at  least  once  near  the
+end of each voltage step.
+9. 8  After each current reading, test to see if any of the
+soft  failure  criteria  have  been  met.    If  so,  store  the
+appropriate value.
+9. 9    After  each  current  reading,  check  to  see  if  one  of
+the hard failure criteria has been reached.
+9. 9.1    Check  to  see  if  the  current  has  increased  to  a
+value greater than or equal to 0.98 times the compliance
+limit  of  the  voltage  ramp  source.    If  so,  record  the
+previous  voltage  level  as  the  hard  failure  voltage,  and
+set the failure category to 1.  Divide the current level at
+the  previous  measurement  point  by  the  capacitor  area,
+and record this value as the hard failure current density
+for this unit.
+9. 9.2    Check  to  see  if  the  current  has  increased  by  a
+factor of 1000 or more from the previous reading.  If so,
+record  the  previous  voltage  level  as  the  hard  failure
+voltage,  and  set  the  failure  category  to  2.    Divide  the
+current  value  measured  at  the  previous  point  by  the
+capacitor area, and record this value as the hard failure
+current density.
+9. 9.3    Check  to  see  if  the  current  has  increased  by  a
+factor  of  10  or  more  in  two  consecutive  voltage  steps.
+If  so,  record  the  previous  voltage  level  as  the  hard
+failure voltage, and set the failure category to 3.  Divide
+the current value measured at the previous point by the
+capacitor area, and record this value as the hard failure
+current density.
+9. 9.4    If  the  current  is  above  the  noise  threshold  level,
+check for an abrupt increase in the current by a factor of
+ten.    If  this  has  occurred,  record  the  previous  voltage
+level  as  the  hard  failure  voltage,  and  set  the  failure
+category to 4.  Divide the current value measured at the
+previous  point  by  the  capacitor  area,  and  record  this
+value as the hard failure current density.
+9. 9.5    If  the  current  is  above  the  noise  threshold  level,
+check  for  an  abrupt  change  in  the  logarithmic  slope  of
+the  current  density-voltage  characteristic  of  the  unit.
+To  minimize  the  chance  of  detecting  a  false  reading,
+use  the  average  of  the  previous  five  (V,I)  data  pairs  to
+compute  the  established  slope,  and  the  current  and
+previous (V, I) data pairs to compute the new slope.  A
+change by a factor of three shall constitute a failure.  If
+this  has  occurred,  record  the  previous  voltage  level  as
+the  hard  failure  voltage,  and  set  the  failure  category  to
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 6
+5.    Divide  the  current  value  measured  at  the  previous
+point by the capacitor area, and record this value as the
+hard failure current density.
+9. 10  After hard failure has been detected by one of the
+criteria in Section 9.9 or the upper test voltage limit has
+been   reached,   perform   a   post-test   using   the   same
+criteria defined for the pretest in Section 9.4.1.  This is
+to be done whether a pretest was elected in Section 9.4
+or not.  If the unit fails the post-test conditions, modify
+the   failure   category   in   some   way   to   reflect   this
+observation.  For example, one may change the sign of
+the failure category number, or add an asterisk.
+9. 11  Proceed to the next device to be tested, and repeat
+Sections 9.3–9.10 until all devices are tested.
+10  Calculations
+10. 1  Current   and   Current   Density   —   To   calculate
+current  (I)  from  a  current  density  (J),  multiply  the
+current  density  by  the  area  of  gate  contact  (A)  as
+follows:
+
+AJI×=                                     (1)
+NOTE  3:    Example:  Given  a  current  density  (J)  of  1  μA/cm
+2
+and a gate area (A) of 0.08 cm
+2
+, the current would be 80 nA.
+10. 1.1  Similarly, compute current density (J  in  A/cm
+2
+)
+from  measured  current  (I  in  A)  and  area  (A  in  cm
+2
+)
+using
+
+A
+I
+J=
+(2)
+10. 2  Oxide  Voltage  and  Electric  Field  Strength  as  a
+Function of Applied Voltage — Since ramp voltage test
+increments  and  ramp  rates  as  well  as  some  breakdown
+voltage  data  analyses  are  specified  in  terms  of  oxide
+electric  field  strength,  it  is  important  to  consider  the
+conversion  of  applied  voltages  to  oxide  voltage  and
+electric  field  values  for  these  two  cases.    Historically,
+oxide  electric  field  strength  has  been  approximated
+simply by dividing the applied voltage by the thickness
+of the oxide.  This approximation is in error because it
+neglects  the  offset  in  the  zero  values  of  applied  and
+oxide   voltage   brought   about   by   the   work   function
+difference between gate electrode and silicon substrate,
+and  the  voltages  dropped  across  the  substrate  (and  the
+gate  electrode,  if  it  is  non-metallic)  when  the  capacitor
+is  strongly  biased  during  breakdown  testing.    These
+voltage  drops  are  made  up  of  two  components;  one
+associated  with  band  bending  at  the  interfaces  with  the
+oxide   that   establishes   the   high   fields   required   for
+testing,  and  another  involving  additional  voltage  drops
+due to series resistances that become significant at very
+high   currents.      These   corrections,   which   together
+normally  range  up  to  1  to  2  V  in  magnitude,  might
+reasonably be neglected for samples with oxides greater
+than 20-nm thick, as the correction amounted to only a
+few  percent  of  the  breakdown  voltage  values.    For
+thinner  oxides,  these  additional  voltage  components
+must be taken into account.
+10. 2.1  The   voltage V
+app
+applied   across   an   MOS
+capacitor  with  a  given  gate-substrate  work  function
+difference Φ
+ms
+and   oxide   fixed   charge   Q
+f
+may   be
+expressed as follows:
+
+gatesubms
+ox
+f
+oxapp
+VV
+C
+Q
+VV++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Φ+−=
+(3)
+where:
+V
+ox
+=   voltage across the oxide, V,
+C
+ox
+=   oxide capacitance, F/cm
+2
+,
+V
+sub
+=   voltage across the substrate, V,
+V
+gate
+=    voltage  across  the  gate  electrode  (arising
+from     polysilicon     depletion     or     series
+resistance, V.
+10. 2.2  At zero volts applied, the offset due to the work
+function     difference     and     oxide     charge     appears
+predominantly  across  the  oxide.    For  setting  a  voltage
+ramp rate, the incremental change in V
+ox
+with changing
+V
+app
+is not affected by this offset, but may be decreased
+by  voltage  increases  across  the  silicon  substrate  or  the
+gate electrode due to band bending and series resistance
+drops.    For  a  sample  in  which  the  applied  bias  voltage
+polarity   accumulates   the   substrate,   and   the   gate
+electrode  is  metallic  or  of  the  opposite  conductivity
+type  from  the  substrate  (for  example,  p-type  silicon
+substrate  and  n+  polysilicon  gate),  these  effects  are
+appreciable  only  for  very  small  and  very  large  applied
+voltages.    At  low  bias,  silicon  bands  bend  until  the
+surface  becomes  degenerate,  after  which  the  rate  of
+band  bending  becomes  very  low.    At  high  biases,
+significant  resistive  voltage  drops  may  develop  if  the
+test structure design is not optimized.  Over the largest
+portion  of  the  test  in  which  neither  of  these  effects  are
+large,   ramp   rates   may   be   computed   assuming   that
+voltage  increments  applied  to  the  device  under  test
+appear   completely   across   the   oxide,   and   ∆E
+ox
+,   the
+electric  field  increment  across  the  oxide,  is  given  as
+follows:
+
+ox
+app
+ox
+W
+V
+E
+∆
+=∆                                 (4)
+where:
+W
+ox
+=   oxide thickness, cm.
+10. 2.3        For    computations    of    oxide    field    strength
+associated with the various hard and soft failure criteria,
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 7
+all  corrections  indicated  in  Equation  3  must  be  taken
+into account.
+
+
+
+Figure 2
+Determination of Noise Threshold Current Level,
+Slope Ratio Applicability, and Voltage Step Time
+Variations
+
+10. 3  Determination  of  Noise  Threshold  Current  Level
+and ln J-V Slope Ratio Specification — Useable values
+of  noise  threshold  current  level  and  ln  J-V  slope  ratio
+depend upon properties of the test system as well as the
+samples to be evaluated, and a preliminary test may be
+required in order to specify them properly.  To do this,
+it is necessary to store all the current-voltage data pairs
+as well as the incremental voltage step time readings in
+data arrays.  This is not required for performance of the
+bulk  of  the  testing,  but  is  sometimes  useful  for  more
+thorough analysis of the test results.  When such data is
+stored,  it  is  possible  to  construct  a  figure  like  that
+shown  in  Figure  2,  which  is  a  semi-logarithmic  plot  of
+sample current, step time, and slope ratio versus applied
+voltage.  Data given here was taken on a 3-nm oxide on
+a p-type  silicon  substrate,  so  the  current  and  voltage
+values are magnitudes of negative readings.  Both direct
+and  Fowler-Nordheim  tunneling  components  are  seen
+in the I-V data.
+10. 3.1    To  determine  the  noise  threshold  current  level,
+examine the ln J-V slope ratio, shown as open triangles
+in  Figure  2.    It  is  seen  to  be  quite  noisy  for  this  test
+system  and  sample  up  to  a  current  level  just  below  1
+nA.    This  value,  1  nA,  is  thus  a  good  choice  for  noise
+threshold current level for this test.  Further analysis of
+the slope ratio data shows that its maximum value in the
+range  from  1  nA  up  to  catastrophic  failure  is  1.21,  so
+the   standard   specified   ratio   value   of   three   (3)   is
+adequate to avoid significant noise interference.
+10. 3.2    The  step  time-voltage  dependence  plotted  as
+light squares in Figure 2 illustrates shortcomings in the
+step    time    control    for    this    configuration    of    the
+measurement  system.    A  voltage  step  time  of  0.1  s  is
+specified  for  this  test  method  in  Sections  5.3  and  9.7.
+Because of the high, time-dependent currents measured
+below 0.5 V, there is a regime below 1 V where this is
+observed,  but  most  readings  from  there  up  to  a  current
+value of 0.1 μA fall in the range 0.2 to 0.4 s.  Also, for
+higher   current   values,   there   are   singular   points   at
+electrometer   range   changes   where   0.2-s   delays   are
+encountered.      It   has   been   shown   (Klema
+4
+)   that
+deviations  of  this  amount  do  not  have  large  effects  on
+breakdown  voltage  distributions,  but  these  extended
+delays  affect  total  measurement  time,  and  it  would  be
+worthwhile  to  eliminate  them  if  possible.    Approaches
+depend  upon  measurement  hardware  being  used,  but
+trading   off   low   current   resolution   for   electrometer
+autoranging  time  and  look-ahead  range  changing  code
+are possibilities.
+10. 4  ln  J-V  Slope  Hard  Failure  Criterion  —  Hard
+breakdown  failure  of  oxides  is  increasingly  difficult  to
+detect   as   oxide   thickness   decreases   below   10   nm.
+Fowler-Nordheim    emission,    the    dominant    current
+transport  mechanism  for  SiO
+2
+films  in  this  thickness
+range,   predicts   that   at   a   given   field   strength,   the
+logarithmic slope of the J-V characteristic increases for
+decreasing film thickness, but decreases with increasing
+field  strength  for  a  given  oxide  thickness.    Thus,  a
+change in ln J-V slope may be a more sensitive detector
+of  failure  for  these  very  thin  films,  where  high  failure
+current  density,  low  oxide  impedance  at  failure,  and
+high  voltage  drops  in  series  resistances  might  lead  to
+very small current changes when the oxide ruptures.
+10. 4.1    Experience  with  this  failure  criterion  for  oxide
+thicknesses  ranging  down  to  3  nm  indicates  that  a
+change  by  a  factor  of  3  provides  good  detection  of
+failure  while  remaining  above  the  noise  level  in  the
+data.      Users   may   verify   this   condition   for   their
+particular  sample  and  test  conditions,  and  change  the
+failure  factor  accordingly.    Any  such  change  must  be
+agreed  upon  by  the  parties  to  the  test,  and  clearly
+identified in the report of the data.
+10. 4.2    In  order  to  minimize  noise  in  the  calculated
+values   and   optimize   the   sensitivity   of   the   failure
+detection,  it  has  been  found  advisable  to  use  a  set  of
+five  data  points  to  calculate  the  established  and  new
+values of the ln J-V slope.  This illustrated in Figure 3,
+which  shows  the  last  few  data  points  in  the  ramp
+voltage test of a 50-nm oxide.  Data points are spaced at
+0. 1 MV/cm increments, as dictated by this test method.
+10. 4.3  In particular, the last five data points are labeled
+(V(n), I(n))  through  (V(n  –  5),  I(n  –  5),  respectively.
+The established logarithmic slope is as follows:
+
+
+4    Klema,  J.,  “Ramp  Rate  Effect  on  Dielectric  Breakdown,”  Final
+Report, IEEE  International  Integrated  Reliability  Workshop  (IRW),
+IEEE Electron Devices Society, 1989, p. 87.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 8
+
+()
+()
+()( )()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−−−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+−
+51
+5
+1
+absln
+abs
+nVnV
+nI
+nI
+(5)
+while  the  new  slope  is  computed  from  the  last  two
+points,
+
+()
+()
+()   (    )()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+1
+1
+absln
+abs
+nVnV
+nI
+nI
+(6)
+10. 4.4  Testing for the failure criterion is done by taking
+the  ratio  of  Equation  6  to  Equation  5.    As  can  be  seen
+from Figure 3, this failure would be identified by failure
+criteria  Sections  9.9.2  and  9.9.3,  as  well  as  the  slope
+criterion Section 9.9.5.
+
+
+Figure 3
+Calculation of In J-V Slope Ratio Failure
+Criterion for a p-Type Sample with 50-nm Gate
+Oxide
+
+10. 5  Defect Density — To calculate a defect density, a
+minimum criterion must be chosen by either the user or
+negotiated  with  the  user's  customer.    This  criterion  can
+take  the  form  of  a  minimum  breakdown  voltage  or
+electric   field   strength,   or   a   discontinuity   in   the
+breakdown  voltage  distribution  of  the  sample.    Given
+the fraction of devices reaching this criterion, the defect
+density   calculation   may   be   based   on   a   Poisson
+relationship   (see   Standard   35)   using   the   following
+equation:
+
+)exp(ADY−=                                 (7)
+where:
+Y   =     yield  of  good  units  in  terms  of  the  defined
+failure criterion,
+A =    area of sample, cm
+2
+, and
+D =   defect density, defects/cm
+2
+.
+NOTE  4:    Example:  Given  a  total  of  100  devices  tested  with
+87  devices  passing  the  minimum  criterion  for  success  and  a
+gate area of 0.08 cm
+2
+, the defect density would be as follows:
+
+2
+defects/cm7.1
+08. 0
+)100/87ln(
+==D
+(8)
+10. 5.1  An undefined condition results if the number of
+successes  is  zero.    It  may  be  necessary  to  change  the
+area  of  the  test  capacitor  chosen  for  testing  in  order  to
+resolve meaningful defect densities.  Figure 4 shows the
+relationship  between  defect  density  and  test  capacitor
+area  required  for  resolution  in  terms  of  a  minimum  of
+10% good or defective units in the sample.
+NOTE  5:    For  example,  a  test  capacitor  with  an  area  of  0.1
+cm
+2
+can    resolve    defect    densities    between    1    and    25
+defects/cm
+2
+, with 10 and 90% defective samples.
+
+
+Figure 4
+Test Capacitor Area Required to Resolve Various
+Oxide Defect Densities, Assuming Poisson Statistics
+
+10. 6  Weibull  Distributions  —  To  convert  cumulative
+percentages  to  Weibull  format  (sometimes  referred  to
+as “smallest extreme value probability distribution III”),
+use the following equation:
+
+()
+)1ln(lnF−−                                 (9)
+where ln is the natural log operator and F is the fraction
+of accumulated failures.  Care should be taken so that F
+is  never  exactly  1  since  this  results  in  an  undefined
+situation.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 9
+11  Report
+11. 1        Report    the    following    for    each    wafer,    as
+appropriate  for  the  test  conditions  and  as  agreed  upon
+by the parties to the test:
+11. 1.1  Test Description:
+11. 1.1.1  Date,
+11. 1.1.2  Time,
+11. 1.1.3  Operator,
+11. 1.1.4  Instrument station identity (if any),
+11. 1.1.5  Test temperature, and
+11. 1.1.6  Total number of devices tested.
+11. 1.2  Sample Description:
+11. 1.2.1  Average oxide thickness,
+11. 1.2.2  Gate area, cm
+2
+,
+11. 1.2.3  Gate material,
+11. 1.2.4          Oxide     type     (example     thermal     versus
+deposited),
+11. 1.2.5  Structure type,
+11. 1.2.6  Conductivity type (n or p),
+11. 1.2.7  Bias mode (accumulation or depletion), and
+11. 1.2.8  Average  computed  series  resistance  (R
+s
+),  if
+performed.
+11. 1.3  Test Results:
+11. 1.3.1    Medians  and  means  for  the  hard  and  soft
+breakdown  voltage  distributions  (V
+BD
+)  and  the  current
+densities at breakdown (J
+BD
+),
+11. 1.3.2    Histograms  of  the  hard  and  soft  breakdown
+voltage  and  breakdown  current  density  data.    These
+results may also be presented in Weibull plot format,
+11. 1.3.3  Percentage of devices falling into each failure
+mode  category  by  hard  or  soft  failure  voltage,  or  by
+oxide  electric  field.    Include  results  of  the  post-test  for
+each category, and
+11. 1.3.4      Defect   densities   computed   as   described   in
+Section   10.5,   and   as   agreed   upon   by   participating
+parties.
+NOTE 6:  For homogenous groups, data can be combined for
+the purposes of comparison.
+12  Precision and Bias
+12. 1  At this time, precision has not been established. A
+reproducibility test for the similar Standard 35 has been
+reported.
+5
+
+13  Keywords
+13. 1  current   density;   defect   density;   electric   field
+strength;   extrinsic   breakdown;   intrinsic   breakdown;
+oxide breakdown
+
+
+5  Suehle, John S., “Reproducibility of JEDEC Standard Current and
+Voltage   Ramp   Test   Procedures   for   Thin-Dielectric   Breakdown
+Characterization,”   Final   Report,   IEEE   International   Integrated
+Reliability  Workshop  (IRW),    IEEE  Electron  Devices  Society,  1993,
+pp. 22–34.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 10
+RELATED INFORMATION 1
+BACKGROUND OF METHOD
+NOTICE: This related information is not an official part of SEMI MF1771.  It was developed during the original
+development of the document.  This related information was approved for publication by full letter ballot on
+December 4, 2003.
+R1-1  Overview
+R1-1.1  This is a voltage ramp test.  It is most useful in
+determining  changes  in  a  given  process.    It  is  intended
+to be applied to arrays of similar capacitors on a silicon
+wafer   or   group   of   wafers   representing   a   process
+condition specified by the user.
+R1-2  Voltage Ramp
+R1-2.1    While  this  test  can,  and  might  best  be  done
+using  a  true  linear  voltage  ramp,  constraints  of  the
+automated   test   equipment   most   often   used   in   its
+performance  lead  to  widespread  use  of  a  staircase  of
+voltage  steps  to  simulate  the  ramp.    The  ramp  rate  is
+specified  in  terms  of  the  rate  of  increase  of  the  oxide
+electric field.  For oxides thicker than about 20 nm, the
+oxide  electric  field  has  been  commonly  estimated  by
+dividing the applied voltage by the oxide thickness, but
+for  thinner  films,  significant  errors  may  be  introduced
+by ignoring the effects of non-zero flat band voltage of
+the  MOS  capacitor  and  voltages  developed  across  the
+silicon  substrate  (and  the  gate  electrode  as  well,  if  it  is
+polysilicon)  due  to  band  bending  and  series  resistance.
+One approach to estimation of the relationship between
+sample  parameters  and  oxide  field  strength  is  found  in
+Section 10.2.
+R1-3  Current Sampling
+R1-3.1    In  order  to  provide  adequate  breakdown  field
+strength  resolution,  it  is  specified  that  current  readings
+be  taken  after  a  maximum  electric  field  change  of  0.1
+MV/cm.    Taken  together  with  the  specified  voltage
+ramp  rate,  this  leads  to  a  maximum  time  between
+current  readings  of  100  ms.    In  the  case  in  which  the
+test is done using a voltage staircase, this implies use of
+a   100-ms   voltage   step   duration,   with   one   current
+reading taken at each step.
+R1-4  Failure Criteria
+R1-4.1      Both   “hard”   and   “soft”   failure   criteria   are
+provided for in this test methods.
+R1-4.2    Techniques  for  detection  of  hard  oxide  failure
+for  thin  dielectrics  may  require  high  resolution,  low
+noise current-voltage data.  For this reason, hard failure
+criteria  are  defined  in  two  measurement  regimes,  one
+below  and  one  above  a  threshold  current  level  where
+noise is reduced.  This current level is commonly in the
+range  1  nA  to  0.1  μA  for  most  test  systems.    Hard
+failure   criteria   below   the   noise   threshold   level   are
+defined as follows:
+R1-4.2.1  Current  greater  than  or  equal  to  0.98  times
+the  compliance  limit  of  the  current  score  —  This
+condition signals total collapse of the capacitor.
+R1-4.2.2  Current  change  by  a  factor  of  1000  in  a
+single voltage step — Units with gross defects failing at
+low   voltages   where   currents   are   below   the   noise
+threshold  commonly  fail  with  very  large  increases  in
+current.
+R1-4.2.3  Consecutive  current  increases  by  a  factor  of
+10  in  each  of  two  voltage  steps  —  Test  capacitors  that
+are initially highly conductive, as from a pinhole, often
+do  not  display  destructive  breakdown,  but  rather  show
+steeply  rising  diodic  leakage  currents.    This  failure
+criterion is designed to identify these defective units at
+low  voltage.    Above  the  noise  threshold  current  level,
+the  two  criteria  above  remain  in  force,  and  two  others
+are added, as follows:
+R1-4.2.4  Current  change  by  a  factor  of  10  in  a  single
+step   —   In   the   Fowler-Nordheim   regime,   current
+changes  are  much  less  than  this  value  for  the  small
+increment in oxide field associated with a single voltage
+step.
+R1-4.2.5  Change  in  the  logarithmic  slope  of  the  J-V
+curve  by  a  factor  of  3  —  This  criterion  becomes  of
+increasingly great value for oxide films thinner than 10
+nm, where destructive breakdown is often accompanied
+by  very  small  changes  in  current,  because  of  the  very
+low  resistance  of  these  oxides  at  very  high  fields  (see
+Standard 35-2).
+R1-4.3    Another  parameter  associated  with  hard  failure
+is  the  hard  failure  current  density,  defined  as  the  value
+of  the  current  at  the  last  measurement  point  prior  to
+detection  of  hard  failure,  divided  by  the  area  of  the
+capacitor.
+R1-4.4    Soft  failures  are  associated  with  the  passage  of
+a  predetermined  current  through  the  capacitor  under
+test.    This  type  of  criterion  has  been  traditionally  used,
+since  in  the  past,  passage  of  any  measurable  current
+through  an  oxide  was  normally  associated  with  hard
+failure.    More  recently,  where  oxides  have  commonly
+been  capable  of  sustaining  Fowler-Nordheim  tunneling
+conduction,   use   of   such   a   criterion   yields   results
+indicative of the uniformity of the samples being tested.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 11
+As   such,   soft   failure   criteria   may   be   agreed   upon
+between  users  of  this  test  method  in  order  to  meet
+individual needs of the testing.  Following are examples
+of commonly used criteria:
+R1-4.4.1  V
+crit
+— The voltage associated with the noise
+threshold current level.
+R1-4.4.2  Vsoft  fail  =  V  at  J  =  100  mA/cm
+2
+—  For
+many  oxides,  this  current  level  is  close  to  hard  failure,
+but    avoids    the    dispersion    associated    with    high
+resistance voltage drops at high breakdown currents.
+R1-4.4.3  Vsoft fail = V at I = 1.5
+μA — This criterion
+is  widely  used  in  Japan.
+3
+Other  values  of  current  or
+current  density  may  be  used  as  soft  failure  criteria  by
+agreement of the parties to the test.
+
+
+SEMI MF1771-0304 © SEMI 2003, 2004 12
+RELATED INFORMATION 2
+SAMPLES AND TEST STRUCTURES
+NOTICE: This related information is not an official part of SEMI MF1771.  It was developed during the original
+development  of  the  document.    This  related  information  was  approved  for  publication  by  full  letter  ballot  on
+December 4, 2004.
+R2-1 Proper choice and fabrication of test structures
+to be used with this test method is crucial to the success
+of the testing.  Because of the diverse group of intended
+users,   specific   types   of   test   devices   or   fabrication
+procedures  have  not  been  stipulated.    It  is  emphasized
+that  planning  of  any  test  procedure  must  include  a
+complete  definition  of  the  test  structures,  including
+fabrication parameters such as silicon starting material,
+insulator   material,   deposition   technique,   thickness,
+isolation  technique  (planar,  LOCOS,  or  direct  moat),
+electrode  material,  including  thickness  doping  tech-
+nique  and  level,  sheet  resistance,  and  sample  geometry
+(capacitor  shape  and  area).    All  these  parameters  must
+be  included  in  the  completed  report  of  the  experiment.
+A  good  discussion  of  factors  affecting  the  choice  and
+fabrication  of  test  structures  for  this  test  may  be  found
+in Standard 35-1.
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.    These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.    Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 1
+SEMI MF1809-0704
+GUIDE FOR SELECTION AND USE OF ETCHING SOLUTIONS TO
+DELINEATE STRUCTURAL DEFECTS IN SILICON
+This guide was technically approved by the Global Silicon Wafer Committee and is the direct responsibility
+of  the  North  American  Silicon  Wafer  Committee.    Current  edition  approved  for  publication  by  the  North
+American Regional Standards Committee on April 22, 2004.  Initially available at www.semi.org May 2004;
+to  be  published  July  2004.    Original  edition  published  by  ASTM  International  as  ASTM  F  1809-97.    Last
+previous edition SEMI MF1809-02.
+1  Purpose
+1. 1    Structural  defects  formed  in  the  bulk  of  a  silicon
+wafer during its growth or induced by electronic device
+processing  can  affect  the  performance  of  the  circuitry
+fabricated on that wafer.  These defects take the form of
+dislocations,   slip,   stacking   faults,   shallow   pits,   or
+precipitates.
+1. 2  The exposure of the various defects found on or in
+a   silicon   wafer   is   often   the   first   critical   step   in
+evaluating wafer quality or initiating failure analysis of
+an  errant  device  structure.    Etching  often  accomplishes
+this  task.    This  guide  provides  information  on  the
+selection    and    application    of    appropriate    etching
+solutions.
+2  Scope
+2. 1    This  guide  covers  the  formulation,  selection,  and
+use of chemical solutions developed to reveal structural
+defects in silicon wafers.
+2. 2    Sample  preparation,  temperature  control,  etching
+technique,  and  choice  of  etchant  are  all  key  factors  in
+the  successful  use  of  an  etching  method.    This  guide
+provides  information  for  several  etching  solutions  and
+provides guidance for the user to select according to the
+need.      Illustrations   of   results   obtained   with   these
+etching solutions are provided in Figures 1–32.
+2. 3    This  guide  is  intended  for  use  with  other  practices
+and  test  methods.    SEMI  MF1725  and  SEMI  MF1726
+are  practices  for  analysis  of  crystallographic  perfection
+of   silicon   ingots   and   wafers,   respectively,   utilizing
+etching  solutions  found  in  this  guide,  and  followed  by
+counting  in  accordance  with  the  test  method  SEMI
+MF1810.    SEMI  MF1727  defines  the  procedures  for
+oxidation   of   the   wafer   prior   to   etching,   if   that   is
+required to expose the defect structures of interest.  JIS
+H 0609 is a test method that covers the entire process of
+determining crystalline defects in silicon wafers.
+2. 4  Both this guide and JIS H 0609 emphasize the use
+of  etching  solutions  that  do  not  contain  chromic  acid,
+which  is  biologically  and  ecologically  very  hazardous
+(see  Section  7.6).    Because  of  the  hazardous  nature  of
+chrome  containing  etchants,  the  use  of  chromic  acid
+containing  etchants  is  prohibited  in  some  jurisdictions
+located in various parts of the world.
+NOTE 1:  See  Related  Information  1  for  a  discussion  of  the
+relationships between this guide and JIS H-0609.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1  Complicating factors are different for each etchant.
+Research  the  choice  of  etchants  in  advance  to  ensure
+the method and solution are compatible with the sample
+and objectives.  Commonly encountered problems are:
+3. 1.1    Inadvertent  etching  through  the  denuded  zone  of
+an  oxidized  sample  delineates  irrelevant  bulk  defects
+instead of the surface oxidation induced stacking faults
+(OISF) expected.
+3. 1.2      Accelerated   etching   and   etching   artifacts   can
+result   from   excessive   solution   heating   during   the
+etching process.
+3. 1.3        Insufficient    agitation,    bubble    formation    or
+particles  in  the  etching  solution  can  generate  artifacts
+on   the   silicon   surface   that   mimic   actual   defects.
+Insufficient    agitation    can    alter    the    etching    rate,
+increasing    or    decreasing    it    depending    upon    the
+formulation.
+3. 1.4      Any   solution   in   which   the   oxidation   rate   is
+greater  than  the  oxide  dissolution  rate  may  form  oxide
+layers  that  slow  or  even  quench  the  etching  process.
+The  presence  of  these  oxide  layers  (especially  for  n
++
+and p
++
+material)  obstructs  the  interpretation  of  etched
+defects.  Before evaluation, remove any surface oxides.
+3. 1.5    The  wafer  surface  becomes  rougher  with  longer
+etch time.  This rougher surface does not prevent evalu-
+ation  under  the  microscope,  but  it  greatly  reduces  the
+effectiveness of visual inspection under bright light.
+3. 1.6    Etching  solutions  can  generate  false  pits  that  are
+not associated with defects.
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 2
+3. 1.7      The   samples   must   be   free   of   work   damage,
+contamination, and other complicating residues.  Clean,
+specular    surfaces    are    suitable    for    metallographic
+examination  and  provide  the  best  results.    Surfaces
+examined should be flat with parallel faces, to simplify
+microscope inspection.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI C18 — Specification for Acetic Acid
+SEMI   C28   —   Specifications   and   Guidelines   for
+Hydrofluoric Acid
+SEMI  C35  —  Specifications  and  Guidelines  for  Nitric
+Acid
+SEMI    MF523    —    Practice    for    Unaided    Visual
+Inspection of Polished Silicon Wafer Surfaces
+SEMI MF1241 — Terminology of Silicon Technology
+SEMI     MF1725     —     Practice     for     Analysis     of
+Crystallographic Perfection of Silicon Ingots
+SEMI     MF1726     —     Practice     for     Analysis     of
+Crystallographic Perfection of Silicon Wafers
+SEMI  MF1727  —  Practice  for  Detection  of  Oxidation
+Induced Defects in Polished Silicon Wafers
+SEMI    MF1810    —    Test    Method    for    Counting
+Preferentially  Etched  or  Decorated  Surface  Defects  in
+Silicon Wafers
+4. 2  ASTM Standard
+1
+
+D  5127  —  Guide  for  Ultra  Pure  Water  Used  in  the
+Electronics and Semiconductor Industry
+4. 3  Japan Industrial Standard
+2
+
+JIS  H  0609  —  Test  Methods  Of  Crystalline  Defects  In
+Silicon By Preferential Etch Techniques
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1  Defect-related  terminology  may  be  found  in  SEMI
+MF1241.
+
+
+1  Annual Book of ASTM Standards, Vol. 11.01. ASTM International,
+100 Barr Harbor Drive, West Conshohocken, PA  19428. Telephone:
+610-832-9500. Fax: 610-832-9555. Website: www.astm.org
+.
+2 Available, in Japanese language edition only, through the Japanese
+Standards Association, 1-24, Akasaka 4-Chome, Minato-ku, Tokyo
+107-8440, Japan. Telephone: 81.3.3583.8005; Fax: 81.3.3586.2014
+Website: www.jsa.or.jp
+6  Apparatus
+6. 1      No   standard   apparatus   or   facility   satisfies   the
+universal  needs  for  the  various  applications  of  these
+etching  solutions.    Systems  range  from  a  simple  HF-
+resistant  beaker  to  large  etching  tanks  complete  with
+nitrogen   bubblers,   temperature   control   and   nitrous
+oxide and hydrofluoric acid (HF) scrubbers.
+6. 1.1    For  larger  samples  (wafers  or  slugs),  use  large
+etching    tanks    with    nitrogen    bubble    agitation    or
+ultrasonic agitation.  Most of the etchant solutions listed
+work  more  effectively  with  the  aid  of  agitation.    Heat
+exchangers or just the thermal mass of the solution can
+control  temperature.    Large  volumes  of  acid  heat  more
+slowly   and   allow   an   intrinsic   form   of   temperature
+control.    To  reduce  heating  effects,  maintain  1  L  of
+solution for each 1,000 cm
+2
+of sample surface area.
+6. 1.2    Maintain  proper  environmental  controls.    Make
+provisions  to  dispose  of  nitrous  oxides,  HF  fumes,  and
+any  solid  wastes  evolved  whatever  system  is  chosen.
+Chromium and copper-based etching solutions produce
+solid  waste  and  gaseous  byproducts.    Chromium-free
+etching  solutions  produce  no  measurable  solid  waste
+but do generate nitrous oxides and HF fumes.
+7  Reagents and Materials
+7. 1  Purity  of  Reagents  —  Chemicals  shall  conform  to
+the   assay   and   impurity   levels   of   Grade   1   SEMI
+Specifications  where  they  exist.    Reagents  for  which
+SEMI  specifications  have  not  been  developed  shall
+conform  to  the  specifications  of  the  Committee  on
+Analytical    Reagents    of    the    American    Chemical
+Society,
+3
+where such specifications are available.  Other
+grades  may  be  used  provided  it  is  first  ascertained  that
+the  reagent  is  of  sufficiently  high  purity  to  permit  its
+use without lessening the accuracy of the determination.
+7. 2  Purity  of  Water  —  Reference  to  water  shall  be
+understood   to   mean   Type   E-3   or   better   water   as
+described in ASTM Guide D 5127.
+7. 3    Volume  of  components  describes  all  solutions  in
+parts  of  a  standard  assay.    The  formulas  give  solid  or
+dissolved  components  in  grams  per  100  mm  of  total
+solution.
+7. 4      All   formulations   employ   a   Standard   Solution
+Convention    (SSC)    that    specifies    each    solution
+component  as  an  acceptable  assay  ±  some  tolerance.
+
+
+3    Reagent  Chemicals,  American  Chemical  Society  Specifications,
+American Chemical Society, Washington, DC. For suggestions on the
+testing  of  reagents  not  listed  by  the  American  Chemical  Society,  see
+Analar   Standards   for   Laboratory   Chemicals,   BDH   Ltd.,   Poole,
+Dorset,    U.K.,  and  the  United  States  Pharmacopeia  and  National
+Formulary, U.S. Pharmacopeial Convention, Inc., (USPC), Rockville,
+MD.
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 3
+Formulations of the standard assay follow this example:
+A  HF/HNO
+3
+/Acetic  solution,  in  the  1:1:2  ratio  is  the
+same  as  25%  (49%  HF)  +  25%  (70%  HNO
+3
++  50%
+(glacial  acetic)  by  volume.    The  specified  chemicals
+shall have the following nominal assay:
+• Acetic acid, glacial >99.7%
+• Chromium trioxide >98%
+• Copper nitrate >98%
+• Hydrofluoric acid 49± 0.25%
+• Nitric acid      70 to 71%
+7. 5    The  chemicals  used  in  these  etching  solutions  are
+potentially harmful.  Handle and use them in a chemical
+exhaust fume hood, with the utmost care.  Hydrofluoric
+acid solutions are particularly hazardous.
+7. 6    Release  of  chromic  acid  or  solutions  of  chromic
+acid   into   domestic   sewer   systems   is   usually   not
+allowed.      Chromates   are   extreme   biological   and
+ecological hazards.  Chromic acid is a strong oxidizing
+agent  and  should  not  contact  organic  solvents  or  other
+easily oxidized materials.
+7. 7    Safety  or  protective  gear  should  be  worn  while
+handling   these   acid   solutions   or   their   components.
+Safety requirements vary, but essential items are plastic
+gloves, safety glasses, face shield, acid gown, and shoe
+covers.    The  handling  of  large  quantities  of  powdered
+chromic acid may require a respirator or other breathing
+apparatus.
+8  Procedure
+8. 1  Selection of Etching Solutions
+8. 1.1    The  following  tables  show  two  broad  categories
+of solutions.  The first group in Tables 1 and 3 includes
+only  chromium-free  etching  solutions.    Although  uses
+may  be  limited,  these  solutions  should  be  considered
+whenever  appropriate.    The  second  group  in  Tables  2
+and  4  includes  only  solutions  that  contain  chromium
+compounds.      These   do   well   for   their   intended
+applications,    but    they    can    be    harmful    to    the
+environment.    Use  these  highly  contaminated  etching
+solutions with caution.  Release into the environment of
+hexavalent chromium waste is a recognized hazard (see
+Section 7.6).  Exposure can cause cancer.
+NOTE 2:  Copper-3  solution  is  also  identified  as  “MEMC
+etch” in referenced publications.
+NOTE  3:    Sopori  and  Sato  etches  have  been  suggested  for
+inclusion in Tables 2 and 4, and these solutions may be added
+when  solution  information  and  pictures  become  available
+from    sponsors    (see    Related    Information    2    for    the
+methodology  by  which  new  solutions  can  be  added  to  the
+guide).
+8. 1.2    Tables  1  and  2  list  the  figure  numbers  of  the
+etched   defect   examples   for   these   etching   solutions
+together with their etching rates.
+8. 1.3    Tables  3  and  4  classify  the  suitability  of  each
+listed  etching  solution  for  the  various  applications.    In
+the tables,
+• A = Excellent,
+• B = Good,
+• C = Acceptable, and
+• D = Unacceptable.
+Each  solution  has  advantages  and  disadvantages  and
+this  guide  does  not  endorse  one  in  favor  of  another.
+Selection  of  an  etchant  solution  should  be  based  upon
+etch  rate,  etchant  life,  solution  heating,  environmental
+harm, ease of interpretation, and range of use.
+8. 1.4  Investigate    local environmental    and    safety
+requirements   before   selecting   an   etchant   solution.
+Identify  the  sample  orientation,  type,  resistivity  level,
+and  primary  defects  of  interest;  this  information  helps
+the  user  rank  the  various  possible  solutions  and  then
+select the most appropriate choice.
+8. 1.4.1    Although  this  guide  does  not  require  a  specific
+solution,  it  is  highly  recommended  that  chromium-free
+etching solutions should be used whenever possible, for
+environmental and biological reasons.
+8. 2  Sample Preparation
+8. 2.1    Most  silicon  samples  have  residual  oxide  on  the
+surface,    either    thermally    grown    as    part    of    the
+fabrication   process   or   occurring   naturally   due   to
+exposure to air.
+8. 2.2    Immediately  before  defect  etching,  submerge  the
+sample  in  concentrated  HF  solution  for  1  min  or  until
+the  surface  becomes  hydrophobic  to  remove  surface
+oxide layers.
+8. 2.3    Rinse  and  hold  the  samples  in  deionized  water
+until transferred to the etching solution.
+8. 3  Defect Etching
+8. 3.1    No  standard  design  for  etching  systems  exists
+(see Section 6.1).  In general, the procedures defined for
+the  etching  system  available  to  the  user  of  this  guide
+must  be  followed.    A  simple  system  for  manual  use  is
+as follows:
+8. 3.1.1  Place the specimen in the bottom of a HF-proof
+beaker with the surface to be inspected facing upward.
+8. 3.1.2  Pour in sufficient etchant to cover the specimen
+with about 2 cm of solution.
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 4
+8. 3.1.3  Maintain 1 L of solution for each 1,000 cm
+2
+of
+sample surface area to control temperature effects.
+8. 3.1.4  Etch the specimen according to the removal and
+agitation  restriction  provided  in  the  selection  tables.
+The time of the etching process may be derived by use
+of the suggested etching depth for specific defects.
+NOTE   4:      Suggested   removals   may   be   found   in   SEMI
+MF1725 and SEMI MF1726.
+8. 3.1.5  If the etching solution must be contained at the
+point  of  use,  decant  the  solution  into  a  container  for
+(hazardous)  waste  and  rinse  the  specimen  thoroughly
+with  running  water.    If  the  solution  is  chromium-free
+and  is  not  contained  for  disposal,  the  solution  may  be
+quenched with water and thoroughly rinsed in the same
+beaker.
+8. 3.1.6    Blow  the  specimen  dry  with  filtered,  organic
+free nitrogen.
+8. 3.1.7    Store  the  specimen  in  a  clean  container  until
+inspected.
+9  Related Documents
+9. 1      Additional   information   may   be   found   in   the
+following   references   that   report   details   of   various
+etching solutions:
+Sirtl,  E.,  and  Adler,  A.    “Chromic  Acid-Hydrofluoric
+Acid  as  Specific  Reagents  for  the  Development  of
+Etching Pits in Silicon,” Z. Metalkunde, 52, 529 (1961).
+Secco   d’Arragona,   F.,   “Dislocation   Etch   for   (100)
+Planes  in  Silicon,”  J.  Electrochem.  Soc., 110,  948,
+(1972).
+Schimmel,   D.G.,   “Defect   Etch   for   <100>   Silicon
+Evaluation,” J. Electrochem. Soc., 126, 479 (1979).
+Wright-Jenkins,  M.,  “A  New  Preferential  Etch  For
+Defects in Silicon Crystals,” J. Electrochem. Soc., 124,
+757, (1977).
+Yang, K.H., “ An Etch for the Delineation of Defects in
+Silicon,” J. Electrochem. Soc., 131, 1140 (1984).
+Dash,  W.C.,  “Copper  Precipitation  on  Dislocations  in
+Silicon,” J. Appl. Phys., 27, 1193 (1956).
+Chandler,  T.C.,  “MEMC  Etch-A  Chromium  Trioxide-
+free  Etchant  for  Delineating  Dislocation  and  Slip  in
+Silicon,” J. Electrochem. Soc., 137, 944 (1990).
+Sopori,  B.L.,  “A  New  Defect  Etch  for  Polycrystalline
+Silicon,” J. Electrochem. Soc., 131, 667 (1984).
+10  Keywords
+10. 1        defect    density;    dislocation;    grain    boundary;
+microscopic;  polycrystalline  imperfection;  preferential
+etch; silicon; slip
+Table 1  Recipes, Figure Index, and Approximate Etch Rates for Chromium Free Etching Solutions
+Solution Name See Figures Recipe Approximate Etch Rate
+Copper-3
+1−2
+(with agitation)
+HF : HNO
+3
+: HAc : H
+2
+O : Cu(NO
+3
+)
+2
+·3H
+2
+O
+@
+36 : 25 : 18 : 21 : 1 g/100 ml total volume
+1 μm/min
+Copper-3
+3−8
+(without agitation)
+HF : HNO
+3
+: HAc : H
+2
+O : Cu(NO
+3
+)
+2
+·3H
+2
+O
+@
+36 : 25 : 18 : 21 : 1 g/100 ml total volume
+5 μm/min
+Modified Dash  9-16
+HF : HNO
+3
+: HAc : H
+2
+O
+@
+1 : 3 : 12: 0.17 + AgNO
+3
+0. 005 to 0.05 g/L
+1 μm/min
+
+Table 2  Recipes, Figure Index, and Approximate Etch Rates for Chromium Containing Etching Solutions
+Solution Name See Figures Recipe Approximate Etch Rate
+Secco
+17−22
+HF : K
+2
+Cr
+2
+O
+7
+(0.15 M)
+@
+2 : 1
+1 μm/min
+Wright
+23−32
+HF : HNO
+3
+: CrO
+3
+(5 M) : HAc : H
+2
+O : Cu(NO
+3
+)
+2
+·3H
+2
+O
+@
+2 : 1 : 1 : 2 : 2 : 2 g/240 ml total volume
+0. 6 μm/min
+
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 5
+Table 3  Classification of Application and Issue Suitability for Chromium Free Etching Solutions
+Application                                                                   Issue
+Solution Name
+100 Orientation 111 Orientation
+p-Type
+P+ Type
+n- Type
+n+ Type
+OISF
+Shallow Pits
+Hillocks
+Dislocations
+Epi Stacking
+Faults
+Bubble Formation
+Agitation Required
+Temperature
+Flow Patterns
+Copper-3 with Agitation A A A D A D A A C A A Yes Yes     ~25°C   No
+Copper-3 without Agitation     A A A D A D A A C A A Yes No ~25°C   No
+Modified      Dash      A      A        A       C      A      D      A        A        -         A          A          Yes        Yes        ~25°C   No
+NOTE1:  Classifications in Tables 3 and 4 are as follows: A = Excellent, B= Good, C= Acceptable, D = Unacceptable.
+
+Table 4  Classification of Application and Issue Suitability for Chromium Containing Etching Solutions
+Application                                                                   Issue
+Solution Name
+100 Orientation 111 Orientation
+p-Type
+P+ Type
+n- Type
+n+ Type
+OISF
+Shallow Pits
+Hillocks
+Dislocations
+Epi Stacking
+Faults
+Bubble Formation
+Agitation Required
+Temperature
+Flow Patterns
+Secco (NOTE 2) A B A D A C A B C A A Yes Yes    < 30°CNo
+Wright      A      A        A       B      A      C      A      B       B        A          A         Yes      Yes      <      30°CNo
+NOTE 1: Classifications in Tables 3 and 4 are as follows: A = Excellent, B= Good, C= Acceptable, D = Unacceptable.
+NOTE 2: Flow pattern defects form a characteristic “ v” shaped pattern when the wafer is etched in a vertical position without acid agitation (see
+Figure 19).  Other applications of Secco etch require some form of agitation to avoid confusing artifacts associated with bubble formation.
+
+
+type, 10 Ω·cm, (100) Wafer; 1100°C Steam, 80 minute
+Oxidation; Copper-3 Etch with Agitation; 2 μm removal
+Figure 1
+Oxidation Stacking Fault, 500×
+
+
+p type, 10 Ω·cm, (111) Wafer; 1100°C Steam, 80 minute
+Oxidation; Copper-3 Etch with Agitation; 2 μm removal
+Figure 2
+Shallow Pits (Haze), 500×
+
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 6
+
+p type, 10 Ω·cm, (100) Wafer; 1100°C Steam, 80 minute
+Oxidation; Copper-3 Etch without Agitation; 1 μm removal
+Figure 3
+Oxidation Stacking Fault, 1000×
+
+p type, 10 Ω·cm, (100) Wafer; 1100°C Steam, 80 minute
+Oxidation; Copper-3 Etch without Agitation; 1 μm removal
+Figure 4
+Oxidation Stacking Fault, 1000×
+
+
+p type, 10 Ω·cm, (111) Wafer; Copper-3 Etch without
+Agitation; 10 μm removal
+Figure 5
+Dislocations, 500×
+
+p type, 10 Ω·cm, (100) Wafer; Copper-3 Etch without
+Agitation; 10 μm removal
+Figure 6
+Dislocations, 500×
+
+
+p type, 10 Ω·cm, (111) Wafer; Copper-3 Etch without
+Agitation; 10 μm removal
+Figure 7
+Slip Dislocations, 500×
+
+
+p type, 10 Ω·cm, (100) Wafer; Copper-3 Etch without
+Agitation; 10 μm removal
+Figure 8
+Slip Dislocations, 100×
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 7
+
+p type, 10 Ω·cm, (100) Wafer; 1100°C, O
+2
+, 8 hour Oxidation;
+Modified Dash Etch; ~4 μm removal
+Figure 9
+Oxidation Induced Stacking Faults, 400×
+
+
+n type, 10 Ω·cm, (111) Wafer; 1100°C, O
+2
+, 8 hour Oxidation;
+Modified Dash Etch; ~ 4 μm removal
+Figure 10
+Oxidation Induced Stacking Faults, 400×
+
+
+p type, 0.007 Ω·cm, (100) Wafer; 1100°C, O
+2
+, 8 hour
+Oxidation; Modified Dash Etch; ~5 μm removal
+Figure 11
+Oxidation Induced Stacking Faults, 400×
+
+p type, <0.02 Ω·cm, (100) Wafer; 1100°C, O
+2
+, 8 hour
+Oxidation; Modified Dash Etch; ~5 μm removal
+Figure 12
+Oxidation Induced Stacking Faults, 400×
+
+
+p/p
++
+(100) Epitaxial Wafer; Modified Dash Etch; ~4 μm
+removal
+Figure 13
+Slip Dislocations, 400×
+
+
+n/n
++
+(111) Epitaxial Wafer; Modified Dash Etch; ~4 μm
+removal
+Figure 14
+Slip Dislocations, Epitaxial Stacking Faults, and
+Shallow Pits, 400×
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 8
+
+p type (100) Wafer; 1100°C, O
+2
+, 1 minute Oxidation;
+Modified Dash Etch; ~4 μm removal
+Figure 15
+Damage Induced Slip Dislocations, 400×
+
+
+n type, (111) Wafer; 1100°C, O
+2
+, 1 minute Oxidation;
+Modified Dash Etch; ~4 μm removal
+Figure 16
+Damage Induced Slip Dislocations, 400×
+
+
+(100) Wafer; 1100°C Steam, 80 minute Oxidation; Secco
+Etch with Agitation; ~4 μm removal
+Figure 17
+Oxidation Stacking Fault, 1000×
+
+(100) Wafer; 1100°C Steam, 80 minute Oxidation; Secco
+Etch with Agitation; ~4 μm removal
+Figure 18
+Oxidation Stacking Fault, 400×
+
+
+(100) Wafer; Secco Etch without Agitation; ~8 μm removal
+Figure 19
+Flow Pattern Defect, 200×
+
+
+(100) Wafer; Secco Etch with Agitation; ~4 μm removal
+Figure 20
+Epitaxial Stacking Fault, 150×
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 9
+
+
+(100) Wafer; 1100°C Steam, 80 minute Oxidation; Secco
+Etch with Agitation; ~15 μm removal
+Figure 21
+Bulk Oxidation Stacking Fault, 200×
+
+
+(100) Wafer; 1100°C Steam, 80 minute Oxidation; Secco
+Etch with Agitation; ~15 μm removal
+Figure 22
+Scratch Induced Oxidation Stacking Faults, 100×
+
+
+(100) Wafer; 1100°C Steam, 80 minute Oxidation; Wright
+Etch with Agitation
+Figure 23
+Damage Induced Oxidation Stacking Fault, 1000×
+
+(100) Wafer; 1100°C Steam, 80 minute Oxidation; Wright
+Etch with Agitation
+Figure 24
+Bulk Oxidation Stacking Fault, 1000×
+
+
+Boron doped (100) Wafer; 1100°C Steam, 80 minute
+Oxidation; Wright Etch with Agitation
+Figure 25
+Scratch Induced Oxidation Stacking Faults, 500×
+
+
+Antimony doped (100) Wafer; 1100°C Steam, 80 minute
+Oxidation; Wright Etch with Agitation
+Figure 26
+Scratch Induced Oxidation Stacking Faults, 500×
+
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 10
+
+Low Resistivity Boron Doped (100) Wafer; 1100°C Steam,
+80 minute Oxidation; Wright Etch with Agitation
+Figure 27
+Oxidation Stacking Faults, 500×
+
+
+(111) Wafer; 1100°C Steam, 80 minute Oxidation; Wright
+Etch with Agitation
+Figure 28
+Oxidation Induced Stacking Faults, 500×
+
+
+(111) Wafer; Wright Etch with Agitation
+Figure 29
+Slip Dislocations, 500×
+
+
+(100) Wafer; Wright Etch with Agitation
+Figure 30
+Slip Dislocations, 200×
+
+
+Boron doped (100) Wafer; 1100°C Steam, 80 minute
+Oxidation; Wright Etch with Agitation
+Figure 31
+Shallow Pits (Haze), 500×
+
+
+Boron Doped Wafer; Wright Etch
+Figure 32
+Etching Stain Artifact, 200×
+
+
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 11
+RELATED INFORMATION 1
+RELATIONSHIPS BETWEEN SEMI MF1809 AND JIS H-0609
+NOTICE: This related information is not an official part of SEMI MF1809.  It was developed by the task
+force during the revision of the document in 2003.  This related information was approved for publication
+by full letter ballot on April 22, 2004.
+R1-1    Both  this  guide  and  test  method  JIS  H-0609
+identify   etching   solutions   for   use   in   delineating
+structural  defects  in  silicon.    As  indicated  in  2.3,  this
+guide  is  intended  to  be  used  with  other  practices  and
+test   methods   while   JIS   H-0609   covers   the   entire
+delineation and counting process.
+R1-2    JIS  H-0609  contains  sections  on  terminology,
+sample  preparation,  including  thermal  oxidation,  selec-
+tion of etchants, etching procedures, measurement loca-
+tions, and measurement methods for various crystalline
+defects.
+R1-2.1    The  definitions  of  the  various  crystal  defects
+are  generally  similar  to  those  in  SEMI  MF1241  with
+only minor differences in emphasis.
+R1-2.2  Sample  preparation and  etching  procedures  are
+similar  in  most  respects  to  the  procedures  in  SEMI
+MF1725,  SEMI  MF1726,  and  (for  thermal  oxidation)
+SEMI  MF1727.    The  minor  differences  in  definitions
+are not considered to be technically significant.
+R1-2.3    JIS  H-0609  covers  only  non-chromic  etching
+solutions  that  differ  from  those  covered  in  this  guide.
+Tables   R1-1   and   R1-2   list   the   etching   solutions
+discussed  in  JIS  H-0609.    Detailed  discussions  of  the
+suitability    of    the    various    etching    solutions    and
+microphotographs    of    exposed    crystal    defects    are
+provided  in  JIS  H-0609,  similarly  to  the  manner  in
+which  similar  information  is  provided  in  this  guide.
+Although JIS H-0609 does not cover the use of chrome-
+containing   etching   solutions,   it   does   contain   com-
+parisons  with  the  etch  rates  of  several  chrome-con-
+taining  etching  solutions,  including  Secco,  Wright,  and
+Sirtl   etches   (see   Section   9   for   references   to   these
+etching solutions).
+R1-2.4  JIS  H-0609  covers a  variety  of  different  mea-
+suring  locations  and  counting  procedures  for  various
+different  crystal  defects,  unlike  SEMI  MF1810,  which
+describes  only  a  method  for  counting  etch  pits  in  a
+specified  pattern.    Visual  inspection  of  some  defect
+types  is  recommended  by  JIS  H-0609;  such  visual
+inspection is also covered in SEMI MF523.  JIS H-0609
+includes  a  discussion  of  observation  of  denuded  zone,
+but  because  of  the  variety  of  technologies  in  place  for
+this  aspect,  no  standardized  measurement  method  is
+defined.
+Table R1-1  Composition of preferential etching solutions (I) (volume ratio) from JIS H-0609
+Etching Solution Hydrofluoric Acid Nitric Acid Acetic Acid Water
+A                                       1                                       12.7                                       3                                       3.7
+B                                       1                                       12.7                                       3                                       5.7
+C                                       1                                       12.7                                       1                                       6.7
+D                                       2                                       12.7                                       2                                       6.7
+
+Table R1-2  Composition of preferential etching solutions (II) (volume ratio) from JIS H-0609
+Applicable Wafer
+Dopant, Crystal Surface
+Etching
+Solution
+HF         HNO
+3
+CH
+3
+COOH       H
+2
+O
+Additive Reagent Name:
+Concentration
+E(Note 1) 1 2.5 — 10.5 AgNO
+3
+: 0.005 mol/L(Note 2)
+F(Note 1) 3 5.1 — 7.9
+B (100)
+G                 1                 12.7                 —                 6.3
+Sb (100) H 2 5.9 2 6.1 KI: 0.1~0.5 g/L(Note 3)
+Sb (111) I 2 6.8 2 6.2 KI: 0.1~0.5 g/L(Note 3)
+NOTE 1: E and F Etches form a stain film.  The stain film can be removed by rinsing the stained wafer and dipping it into B Etch for 5~10 s.
+NOTE 2: By mixing 8 mL of 0.005 mol/L silver nitrate (AgNO
+3
+) aqueous etching solution into E Etch, the starting time of the reaction can be
+advanced.
+NOTE 3: By mixing 0.1~0.5 g/L potassium iodide (KI) to H and I Etches, stain film formation can be suppressed.
+
+
+SEMI MF1809-0704 © SEMI 2003, 2004 12
+RELATED INFORMATION 2
+GUIDELINES FOR SPONSORS OF ADDITIONAL ETCHING
+SOLUTIONS
+NOTICE: This related information is not an official part of SEMI MF1809.  It was developed during the original
+development of the document.  This related information was approved for publication by full letter ballot on April
+22, 2004.
+R2-1    A  sponsor  of  additional  etching  solutions  shall
+submit tabular information and pictures of etched defect
+examples (see Figures 1–32) to the SEMI staff engineer
+or  coordinator  for  the  Silicon  Wafer  Committee  as
+follows:
+R2-1.1    A  preferential  etching  solution  submitted  as  an
+addition   to   this   guide   must   be   sponsored   by   an
+individual  willing  to  supply  information  for  Tables  1
+and  3  or  Tables  2  and  4  as  appropriate  for  the  type  of
+etching solution.
+R2-1.2    Defect  pictures,  approximately  2  by  3  in.    (50
+mm  by  75  mm)  in  size,  demonstrating  the  applications
+of  the  solution  shall  include  the  following  descriptive
+information:
+• Image      magnification      (approximately      400×
+preferred),
+• Surface removal during etch (in micrometers),
+• Relevant  sample  history  (that  is,  thermal  cycle
+type, resistivity, agitation, etc.), and
+R2-1.3  Images  submitted should  include  OISF's  and
+dislocations   for   (100)   and   (111)   surfaces   and,   in
+addition  as  available,  shallow  pits  (s-pits),  hillocks,
+artifacts, and epitaxial defects.
+NOTICE: SEMI    makes    no    warranties    or
+representations as to the suitability of the standards
+set forth herein for any particular application.  The
+determination  of  the  suitability  of  the  standard  is
+solely  the  responsibility  of  the  user.    Users  are
+cautioned  to  refer  to  manufacturer's  instructions,
+product   labels,   product   data   sheets,   and   other
+relevant   literature,   respecting   any   materials   or
+equipment  mentioned  herein.    These  standards  are
+subject to change without notice.
+By  publication  of  this  standard,  Semiconductor
+Equipment   and   Materials   International   (SEMI)
+takes  no  position  respecting  the  validity  of  any
+patent  rights  or  copyrights  asserted  in  connection
+with  any  items  mentioned  in  this  standard.    Users
+of    this    standard    are    expressly    advised    that
+determination    of    any    such    patent    rights    or
+copyrights,  and  the  risk  of  infringement  of  such
+rights are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+SEMI MF1810-0304 © SEMI 2003, 2004 1
+SEMI MF1810-0304
+TEST METHOD FOR COUNTING PREFERENTIALLY ETCHED OR
+DECORATED SURFACE DEFECTS IN SILICON WAFERS
+This  test  method  was  technically  approved  by  the  Global  Silicon  Wafer  Committee  and  is  the  direct
+responsibility of the North American Silicon Wafer Committee.  Current edition approved for publication by
+the   North   American   Regional   Standards   Committee   on   December   4,   2003.      Initially   available   at
+www.semi.org February 2004; to be published March 2004.  Originally published by ASTM International as
+ASTM F 1810-97.  Last previous edition SEMI MF1810-97 (Reapproved 2002).
+1  Purpose
+1. 1    Defects  on  or  in  silicon  wafers  may  adversely
+affect device performance and yield.
+1. 2    Crystal  defect  analysis  is  a  useful  technique  in
+troubleshooting  device  process  problems.  The  type,
+location,  and  density  of  defects  counted  by  this  test
+method  may  be  related  to  the  crystal  growth  process,
+surface  preparation,  contamination,  or  thermal  history
+of the wafer.
+1. 3    This  test  method  is  suitable  for  acceptance  testing
+when used with referenced standards.
+2  Scope
+2. 1    This  test  method  describes  the  technique  to  count
+the  density  of  surface  defects  in  silicon  wafers  by
+microscopic analysis.
+NOTE  1:    Practical  use  of  a  defect  counting  method  requires
+an  assumption  be  made  that  defects  are  randomly  distributed
+on the surface. If this assumption is not met, the accuracy and
+precision of this test method will be diminished.
+2. 2      Application   of   this   test   method   is   limited   to
+specimens  that  have  discrete,  identifiable  artifacts  on
+the surface of the silicon sample.  Typical samples have
+been  preferentially  etched  according  to  SEMI  MF1809
+or  epitaxially  deposited,  forming  defects  in  a  silicon
+layer structure.
+2. 3    Wafer  thickness  and  diameter  for  this  test  method
+is   limited   only   by   the   range   of   microscope   stage
+motions available.
+2. 4    This  test  method  is  applicable  to  silicon  wafers
+with defect density between 0.01 and 10,000 defects per
+cm
+2
+.
+NOTE  2:    The  commercially  significant  defect  density  range
+is  between  0.01  to  10  defects  per  cm
+2
+,  but  this  test  method
+extends to higher defect levels due to the improved statistical
+sampling obtained with higher counts.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  user  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1      Improper   identification   of   defects   is   possible
+during the counting process.
+3. 1.1          Contamination     not     removed     by     cleaning
+procedures   or   deposited   following   cleaning,   may
+become visible after preferential etching.
+3. 1.2      Insufficient   agitation   during   the   preferential
+etching   process   may   cause   artifacts   that   may   be
+mistaken as crystallographic defects.
+3. 2    The  accuracy  of  the  defect  density  calculation  is
+directly   affected   by   calibration   of   the   area   of   the
+microscope field of view.
+3. 3    The  defect  density  determined  by  this  test  method
+requires   an   assumption   be   made   that   defects   are
+randomly   distributed   on   the   surface.      Nonuniform
+patterns of defects alter the defect density measurement
+by their size and location.
+3. 4  Multiple scan patterns intersect at the center of the
+wafer.  If a defect is found at this single, common point,
+it   is   counted   more   than   once   and   thus   alters   the
+accuracy of the count.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI  M1  —  Specifications  for  Polished  Monocrystal-
+line Silicon Wafers
+SEMI MF1241 — Terminology of Silicon Technology
+SEMI  MF1725  —  Practice  for  Analysis  of  Crystal-
+lographic Perfection of Silicon Ingots
+SEMI  MF1726  —  Practice  for  Analysis  of  Crystal-
+lographic Perfection of Silicon Wafers
+SEMI  MF1727  —  Practice  for  Detection  of  Oxidation
+Induced Defects in Polished Silicon Wafers
+SEMI  MF1809  —  Guide  for  Selection  and  Use  of
+Etching  Solutions  to  Delineate  Structural  Defects  in
+Silicon
+
+
+SEMI MF1810-0304 © SEMI 2003, 2004 2
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+5  Terminology
+5. 1    Definitions  of  terms  related  to  silicon  technology
+are found in SEMI M1 and SEMI MF1241.
+6  Summary of Test Method
+6. 1    Samples  for  this  test  are  selected  and  prepared  in
+accordance  with  SEMI  MF1725,  SEMI  MF1726  or
+SEMI  MF1727.    As  indicated  in  these  practices,  the
+defect  to  be  analyzed  is  exposed  using  one  of  the
+specific etching solutions listed in SEMI MF1809.
+6. 2  The wafer is aligned on a microscope stage.
+6. 3      It   is   then   inspected   according   to   predefined
+inspection pattern.
+6. 3.1  The basic inspection pattern is a single scan along
+a wafer diameter.  The starting and ending points of the
+scan  pattern  are  5  mm  from  the  edges  of  the  wafer.
+Figure  1  represents  the  characteristics  of  the  basic
+pattern.
+6. 3.2      The   complete   inspection   pattern   of   this   test
+method is based upon the combination of four separate
+basic scans across different diameters.
+6. 4    Finally,  specific  defects  distinguished  by  shape  or
+size are counted.
+7  Apparatus
+7. 1  Nonmetallic  Vacuum  Pickup  Tool  —  Of  suitable
+material  such  as  quartz  or  TFE-fluorocarbon.    The
+pickup  tool  shall  be  constructed  so  that  no  metal  can
+contact the specimen wafer.
+7. 2  Optical  Microscope  —  Equipped  with  interference
+contrast attachment.
+NOTE 3:  Nomarski  differential interference  contrast  is  an
+example of interference contrast.
+7. 2.1  Eyepiece  and  Objective  Lens  —  In  combination
+shall give a magnification range of approximately 100×
+to 400× magnification of the specimen.  The dimension
+of  the  field  of  view  at  each  magnification  option  is
+calibrated to allow defect density calculations.
+
+NOTE: Begin scan 5 mm from the edge.
+Figure 1
+The Basic Microscopic Inspection Scan Pattern
+
+7. 2.2  Graduated Metric X-Y Microscope Stage — Used
+for sample positioning.
+8  Sampling
+8. 1    Specimens  shall  be  selected  to  represent  the  lot  to
+be     tested     as     specified     in     producer-consumer
+agreements.
+9  Procedure
+9. 1  Four Scan Inspection Pattern
+9. 1.1    Place  the  specimen  wafer  onto  the  microscope
+inspection  stage.    Handle  wafers  only  with  a  clean
+nonmetallic  vacuum  pickup  tool  to  avoid  scratching  or
+contaminating the surface.
+9. 1.2      Place   the   specimen   such   that   a   single   linear
+motion  of  the  stage  (either  x  or  y)  allows  counting  of
+defects  contained  in  the  field  of  view  along  the  path
+labeled AB in Figure 1.  Points A and B are 5 mm from
+the  wafer  edge  and  the  line  AB  is  rotated  45°  from  the
+location   of   the   major   orientation   flat   or   notch.
+Alternative   edge   exclusion   positions   are   acceptable
+with the agreement of the parties involved.
+9. 1.3    Scan  the  path  and  record  the  classification  and
+numbers of the defects observed during the scan.  Refer
+to descriptions and pictures in SEMI MF1809.
+9. 1.4      Rotate   the   wafer   by   45°   clockwise   on   the
+microscope   stage   and   repeat   Section   9.1.3   for   the
+second scan.  Refer to Figure 2 for improved definition
+of the scan pattern.
+9. 1.5      Rotate   the   wafer   by   45°   clockwise   on   the
+microscope  stage  and  repeat  Section  9.1.3  for  the  third
+scan.
+9. 1.6      Rotate   the   wafer   by   45°   clockwise   on   the
+microscope stage and repeat Section 9.1.3 for the fourth
+scan.
+
+
+SEMI MF1810-0304 © SEMI 2003, 2004 3
+
+Figure 2
+Four Scan, Multiple Microscopic Inspection Pattern
+
+9. 2  Defect Density Calculation
+9. 2.1      Count   each   defect   class   separately   for   each
+diameter scanned.  Calculate the total area inspected by
+multiplying  four  (4)  times  the  calibrated  width  of  the
+field of view in centimeters by the length of the scan in
+centimeters.  The length (L) in centimeters is the wafer
+diameter  (D)  in  centimeters  minus  twice  the  0.5  cm
+edge exclusion (E):
+
+0. 12−=−=DEDL                             (1)
+The density is the defect count divided by the total area.
+NOTE  4:    When  a  scan  intersects  a  flat,  notch  or  laser  mark,
+the total area must be adjusted according to the reduced length
+of  the  affected  scans.    Failure  to  adjust  the  area  results  in
+inaccuracy.
+10  Report
+10. 1  Report the following information:
+10. 1.1  Date of test, laboratory and operator,
+10. 1.2            Identification      of      the      specimen      wafer,
+conductivity type, orientation, and diameter,
+10. 1.3  Specimen  history; thermal  cycle,  preferential
+etchant     formulation,     thickness     removal     during
+preferential etching,
+10. 1.4    Inspection  conditions;  magnification,  and  total
+area inspected, and
+10. 1.5        Defect    density    and    precision    by    defect
+classification.
+11  Precision and Bias
+11. 1  Precision —  The  multi  laboratory  precision  of
+this  test  method  was  established  through  a  round-robin
+experiment.        Seven    (7)    wafers    with    randomly
+distributed  oxidation  induced  stacking  faults  (OISFs)
+were  analyzed  by  sixteen  (16)  laboratories  over  eleven
+(11)  diameter  scans.    Repeatability  and  reproducibility
+of  this  test  method  were  calculated  using  two  sets  of
+four   scan   measurements   from   each   laboratory   and
+wafer.    The  wafer  samples  were  prepared  according  to
+SEMI   MF1727   and   etched   with   Wright   Etch   in
+accordance with SEMI MF1809.
+11. 1.1  Repeatability —  The  method  repeatability  is
+equal   to   2.8   times   the   within-laboratory   standard
+deviation or 5.22 defects/cm
+2
+.  Repeatability contributes
+23. 81%  of  the  total  variation.    The  variability  of  the
+measurement   is   sample   dependent;   assumptions   of
+random  OISF  location  were  described  as  a  limitation
+(see Section 3.3).
+11. 1.2  Reproducibility —  The  method  reproducibility
+is  equal  to  2.8  times  the  between-laboratory  standard
+deviation     or     9.31     defects/cm
+2
+.     Reproducibility
+contributes 75.73% of the total variation.
+NOTE    5:        Additional    analysis    is    presented    in    Related
+Information 1.  A study of two repetitions of this test method
+was  extracted  from  the  existing,  multiple  scan  data  measured
+at each laboratory.
+11. 1.3  The  wafers  exhibited single  diameter  scans  that
+ranged   from   0   to   13   defects/cm
+2
+while   the   grand
+average  of  all  measurements  for  each  wafer  yielded
+densities  of  0.21  to  3.60  defects/cm
+2
+.    The  range  in
+measurement  density  is  related  to  differences  between
+laboratories and local variation of the defect density on
+the wafer itself.
+11. 1.4    Ten  separate  diameters  were  measured  on  each
+of  7  wafers  by  16  laboratories.    The  total  number  of
+scans  for  each  sample  was  160.    Table  1  shows  the
+sample  dependence  of  the  results  with  the  standard
+deviation  versus  mean  OISF  count  for  ten  independent
+scans.
+Table 1  Ten Scan Inspection Data
+Wafer Identity
+Standard
+Deviation
+Mean OISF
+Density All Data
+(OISF/cm
+2
+)
+A                            0.49                            0.21
+B                            1.79                            1.43
+C                            1.93                            1.98
+D                            1.02                            0.82
+E                             2.51                             3.60
+F                             0.63                             0.42
+G                            0.71                            0.51
+ALL                          1.49                           1.28
+11. 2  Bias —   No   standard   reference   materials   are
+available  to  calibrate  this  measurement;  therefore  a
+target density for each wafer was assigned by averaging
+the   combined   data   from   all   scans   of   each   wafer.
+Analysis of the round robin is based upon the individual
+deviation  from  the  target  for  each  measurement  and

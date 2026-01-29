@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E64-0600 © SEMI 1997, 2005 6 NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any particular  application.  The  determination  o..."
-sidebar_label: "Chapter 10"
+title: "E64-0600 - © SEMI 1997, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E64-0600 - © SEMI 1997, 2005..."
 sidebar_position: 100
-tags: ['SEMI', 'Standard', 'Chapter 10']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-010.pdf'
   chapter: 10
   page_count: 50
-  file_size_mb: 0.57
-  processing_date: '2026-01-28T09:17:29.942Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-010.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/010.pdf"
   pdfSize="0.57MB"
-  title="Chapter 10"
-  description="SEMI标准文档 - Chapter 10，共50页"
-/>
+  title="E64-0600 - © SEMI 1997, 2005..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 
@@ -1195,7 +1195,7 @@ nφ rφ
 pÆ 0.005 0.01          0.025          0.05            0.1             0.5          0.9            0.95          0.975          0.99          0.995
 2     2       -183.9        -88.09         -36.3     -16.4         -7.869       -1.405       -0.327       -0.118        0.083        0.444        0.888
 3       2       -117.6       -59.41       -26.14       -13.45       -6.786       -1.38        -0.495        -0.256        -0.0715        0.898        2.072
-3       2       -17.6        -12.28       -7.761       -5.497       -3.691       -1.326       -0.473       -0.305       -0.154       0.047`        0.172
+3       2       -17.6        -12.28       -7.761       -5.497       -3.691       -1.326       -0.473       -0.305       -0.154       0.047        0.172
 4       2       -113.5       -56.59        -21.5        -11.55       -5.934       -1.348       -0.537        -0.28         0.236        1.864        4.305
 4       3       -15.58       -11.52       -7.112       -5.071       -3.503       -1.313       -0.558       -0.399       -0.252       -0.0573       0.107
 4       4       -9.617       -7.008       -4.985       -3.792       -2.921        -1.29        -0.559       -0.409       -0.265       -0.124       -0.0141

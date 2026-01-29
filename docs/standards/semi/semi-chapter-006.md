@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E35.1-95 © SEMI 1995, 2004 1 SEMI E35.1-95 (Withdrawn 0304) GUIDE FOR COST OF EQUIPMENT OWNERSHIP COMPARISON METRIC NOTICE:  This document was balloted and approved for withdrawal in 2004. 1  ..."
-sidebar_label: "Chapter 6"
+title: "E43-0301 - © SEMI 1995, 20011..."
+description: "SEMI标准文档"
+sidebar_label: "E43-0301 - © SEMI 1995, 20011..."
 sidebar_position: 60
-tags: ['SEMI', 'Standard', 'Chapter 6']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-006.pdf'
   chapter: 6
   page_count: 50
-  file_size_mb: 0.80
-  processing_date: '2026-01-28T09:17:26.303Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-006.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/006.pdf"
   pdfSize="0.80MB"
-  title="Chapter 6"
-  description="SEMI标准文档 - Chapter 6，共50页"
-/>
+  title="E43-0301 - © SEMI 1995, 20011..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

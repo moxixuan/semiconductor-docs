@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E25-92 © SEMI 1992, 2004 4 SEMI  E26  —  Radial  Cluster  Tool:  Module  Footprint Standard. NOTICE: SEMI      makes      no      warranties      or representations as to the suitability of th..."
-sidebar_label: "Chapter 5"
+title: "E25-92 - © SEMI 1992, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E25-92 - © SEMI 1992, 2004..."
 sidebar_position: 50
-tags: ['SEMI', 'Standard', 'Chapter 5']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-005.pdf'
   chapter: 5
   page_count: 50
-  file_size_mb: 0.76
-  processing_date: '2026-01-28T09:17:25.197Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-005.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/005.pdf"
   pdfSize="0.76MB"
-  title="Chapter 5"
-  description="SEMI标准文档 - Chapter 5，共50页"
-/>
+  title="E25-92 - © SEMI 1992, 2004..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

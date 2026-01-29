@@ -1,0 +1,4811 @@
+---
+title: "E78-1102 - © SEMI 1998, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "E78-1102 - © SEMI 1998, 2002..."
+sidebar_position: 120
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-012.pdf'
+  chapter: 12
+  page_count: 50
+---
+
+import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+
+PdfDownloadCard
+  pdfLink="/pdfs/semi/012.pdf"
+  pdfSize="0.56MB"
+  title="E78-1102 - © SEMI 1998, 2002..."
+  description="SEMI标准文档，共50页"
+/
+
+
+
+# 文档标题
+
+SEMI E78-1102 © SEMI 1998, 2002 9
+APPENDIX 1
+DETERMINING STATIC SENSITIVITY LEVELS
+NOTE:  This  appendix  was  approved  as  an  official  part  of  SEMI  E78  by  full  letter  ballot  procedure.  This  appendix  offers
+information related to the Sensitivity Levels contained in Section 12.5.
+A1-1  Recommended Levels
+A1-1.1    The  recommended  charge  and  electrostatic
+field  levels  in  this  guide  are  not  based  on  specific
+protection  thresholds  for  individual  devices  or  process
+tools.  Rather,  their  aim  is  to  classify  the  types  of  ESD
+events  or  static  levels  that  are  likely  to  be  of  concern.
+Tool manufacturers and users should determine the type
+of events that are of most concern to their products and
+process,   so   as   to   apply   this   guide   to   their   needs.
+Information  on  specific  device  damage  thresholds  and
+tool  sensitivities  is  best  determined  on  an  individual
+basis.
+A1-2  Justification of Guide Recommendations
+in Section 12.5 and Table 1
+A1-2.1  Recommendations for ESD Damage
+A1-2.1.1      Related   Information   R1-1   discusses   test
+methods  for  determining  ESD  damage  thresholds  for
+semiconductor devices. Devices are qualified according
+to the highest ESD stresses they can withstand without
+measurable  change  in  their  operating  parameters.  This
+section attempts to develop guide recommendations for
+minimizing ESD damage based on that discussion.
+A1-2.1.2    Industry  Device  Damage  Levels  ó  Each  of
+the  test  methods,  HBM,  MM,  and  CDM  have  a  set  of
+qualification levels defined. These are contained below.
+
+HBM Classification Levels
+Class                                       Voltage
+0                                            <                                            250
+1A                                         250ñ499
+1B                                         500ñ999
+1C                                       1000ñ1999
+2                                        2000ñ3999
+3A                                       4000ñ7999
+3B ≥ 8000
+
+MM Classification Levels
+Class                                       Voltage
+M1                                           <                                           100
+M2                                        100ñ199
+M3                                        200ñ399
+M4 ≥ 400
+
+
+CDM Classification Levels
+Class                                       Voltage
+C1                                           <                                           125
+C2                                         125ñ249
+C3                                         250ñ499
+C4                                         500ñ999
+C5                                       1000ñ1499
+C6                                       1500ñ1999
+C7 ≥  2000
+
+
+A1-2.1.3    Charge  Levels  for  ESD  Damage  ó  As
+discussed    in    Related    Information    R1-1.4,    ESD
+Simulator  testing  uses  different  capacitances  for  each
+model. For HBM it is 100 picofarads, for MM it is 200
+picofarads, and for CDM it depends on the capacitance
+of  the  actual  device  being  tested.  In  any  case,  it  is
+charge  (charge  =  voltage  × capacitance)  that  damages
+the  device.  It  would  seem  appropriate,  therefore,  that
+the  guide  recommendations  in  Table  1  Section  12.5  be
+stated in units of charges (e.g. nanocoulombs).
+A1-2.1.4      Guide   Recommendations   ó   Based   on
+industry  testing  reflected  in  device  data  sheets,  there
+appears  to  be  a  wide  range  for  ESD  immunity  in
+semiconductor  devices.  This  document  deals  primarily
+with ESD occurring within equipment. HBM type ESD
+discharges    are    the    least    likely    to    occur    within
+equipment. Charged equipment parts contacting devices
+(MM)  and  charged  devices  contacting  machine  parts
+(CDM)  are  the  most  likely  causes  of  ESD  damage  to
+devices  in  equipment.  The  following  sensitivity  levels
+are  defined  with  respect  to  the  existing  industry  MM
+and CDM classifications.
+A1-2.1.4.1      Level   4   ó   Devices   are   essentially
+unaffected by any reasonable level of ESD encountered
+in equipment. Devices pass testing at levels higher than
+MM  Class  M4  (400  volts  ×   200   picofarads   =   80
+nanocoulombs).  Equipment  should  not  create  or  store
+charge  on  itself  or  on  devices  in  excess  of  the  guide
+recommendation.  Guide  recommendation  (table  1  in
+Section 12.5) ñ 100 nanocoulombs.
+A1-2.1.4.2      Level   3   ó   Devices   are   affected   by
+moderate  levels  of  static  charge  in  equipment.  Devices
+pass testing for MM Class M4 (400 V × 200 picofarads
+=  80  nanocoulombs)  and  most  of  MM  Class  M3  (over
+250 volts × 200 picofarads = 50 nanocoulombs). Guide
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 10
+recommendation   (Table   1   in   Section   12.5)   ñ   50
+nanocoulombs.
+A1-2.1.4.3    Level  2  ó  Devices  are  damaged  by  lower
+levels  of  static  charge  in  equipment.  Devices  pass
+testing at MM Class M1 (100 V × 200 picofarads = 20
+nanocoulombs)   and   CDM   Class   C4   (1   kV   ×   10
+picofarad     device     =     10     nanocoulombs).     Guide
+recommendation   (Table   1   in   Section   12.5)   ñ   10
+nanocoulombs.
+A1-2.1.4.4    Level  1  ó  Devices  are  easily  damaged  by
+even  low  levels  of  static  charge  in  equipment.  Devices
+pass  testing  at  CDM  Class  1  (125  V  ×  10  picofarads
+device  =  1.25  nanocoulombs).  In  most  cases  simulator
+equipment  is  not  designed  to  do  testing  at  these  very
+low levels for MM. Guide recommendation (Table 1 in
+Section 12.5) ñ 1 nanocoulombs.
+A1-2.2  Recommendations for Particle Deposition
+A1-2.2.1      Related   Information   R1-2   discusses   the
+enhancement  of  particle  deposition  due  to  electrostatic
+fields  from  charges  on  the  wafer  surface.  This  section
+attempts  to  develop  the  guideline  recommendations  for
+minimizing particle deposition based on that discussion.
+A1-2.2.1.1    From  Equation  3  of  Related  Information
+R1-2.2,
+N/A=cv
+elect
+t                                      (12)
+
+where N/A  equals  the  particulate  burden  added  to  a
+wafer  during  exposure  time  t,  exposed  to  a  particle
+concentration c,  in  an  environment  characterized  by  an
+electrostatic particle deposition velocity, v
+elect
+.
+A1-2.2.1.2    Target  values  for  N/A  are  given  in  the
+National   Technology   Roadmap   for   Semiconductors
+(NTRS, 1994). These target values vary from 0.02ñ0.01
+defects/cm
+2
+, depending on the critical dimensions of the
+technology,   and   represent   an   upper   value   of   the
+acceptable  particulate  concentration  on  a  wafer  at  the
+conclusion  of  the  fabrication  sequence.  For  individual
+processing steps making up the fabrication sequence the
+target values are lower yet.
+
+A1-2.2.1.3    The  variables  c  and  t  are  process  step
+dependent and may or may not be controllable. Clearly
+minimizing both of these variables is desirable in order
+to  minimize  particle  deposition  on  a  wafer  in  any
+environment.
+A1-2.2.1.4    The  only  variable  in  Equation  12  that
+depends  on  electrical  forces  is  v
+elect
+.  Both  the  particle
+charge and the electric field in the vicinity of the wafer
+affect   the   magnitude   of   v
+elect
+.   Particle   charge   is
+generally  unknown  unless  it  is  deliberately  controlled
+by    a    neutralizing    action,    such    as    flooding    the
+environment  with  both  positive  and  negative  charges.
+Under these conditions a Fuchs type charge distribution
+is a reasonable assumption for the particle charge. This
+assumption  was  used  to  calculate  the  values  of  E
+0
+in
+Table R1-2 of Related Information R1-2.3.2.
+A1-2.2.1.5    When  the  environmental  electric  field  is
+less  than  E
+0
+,  deposition  of  electrically  ìneutralizedî
+particles    is    dominated    by    diffusion.    When    the
+environmental    electric    field    is    greater    than    E
+0
+,
+electrostatic  forces  dominate  particle  deposition  even
+when particle charge has been ìneutralized.î Values of
+E
+0
+for  a  Fuchs  charge  distribution  can  be  calculated
+from  Related  Information  R1-2.3.2  Equation  10.  For
+particle  charge  greater  than  the  Fuchs  charge,  v
+elect
+
+increases  by  a  factor  of  q/q
+Fuchs
+.  Unfortunately,  the
+actual particle charge q is generally unknown.
+A1-2.2.1.6  Using the process step values of c and t and
+the value of v
+elect
+calculated from Equation 10, the value
+of N/A for   any   process   step   can   be   estimated.
+Alternatively,   having   a   target   value   of   N/A   and
+estimating the value of v
+elect
+as outlined in the previous
+paragraphs,  allows  one  to  calculate  the  tolerable  value
+of ct:
+ct=[N/A]/v
+elect
+(13)
+
+A1-2.2.1.7  Setting N/A = 0.01/cm
+2
+and using Equation
+10  to  calculate  v
+elect
+for  a  0.1  μm  particle  at  various
+values of electric field and particle charge, target values
+of ct  can  be  calculated  from  Equation  13.  The  allowed
+exposure times in an ISO Class 1 environment (c ≤ 10
+-5
+
+particles/cm
+3
+)   can   be   deduced   as   shown   in   the
+following table:
+Table A1-1  Allowed Exposure Times in an ISO
+Class 1 Environment
+E V/cm at One
+Wafer Radius
+
+q/q
+Fuchs
+
+v
+elect
+
+cm/sec
+
+ct sec/cm
+3
+
+max t in ISO
+Class 1 sec
+4000                1                0.8                0.01250                1250
+2                    1.6                    0.00625                    625
+10                   8.0                   0.00125                   125
+400                 1                 0.08                 0.1250                 12500
+2                    0.16                    0.0625                    6250
+10                   0.8                   0.0125                   1250
+200                 1                 0.04                 0.250                 25000
+2                    0.08                    0.125                    12500
+10                   0.4                   0.025                   2500
+100                 1                 0.02                 0.50                 50000
+2                    0.04                    0.25                    25000
+10                   0.2                   0.05                   5000
+
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 11
+A1-2.2.1.8  Using higher values of N/A in Equation 13
+will  increase  the  acceptable  values  of  ct  and  max  t.
+Accepting  higher  values  of  c  will  reduce  max  t.  The
+guideline    table    provides    an    order    of    magnitude
+assessment  of  the  degree  of  electric  field  and  charge
+control  needed  in  specific  operations.  Minimum  field
+and  minimum  particle  charge  are  always  the  goal  but
+usually  not  practically  achievable.  This  guideline  table
+provides    background    estimates    of    envelopes    for
+acceptable      operation      in      electrically      charged
+environments.
+A1-2.2.2    The  following  simplified  table  is  offered  as
+an  alternative  to  Table  A1-2  based  on  the  following
+assumptions:
+
+# 1
+
+1.   Calculations  made  for  Federal  Standard  209E  Class
+1 (c ≤ 0.00124 particles/cm
+3
+).
+
+# 2
+
+2.  The value of the electrostatic field is referenced at a
+distance  of  one  wafer  radius  from  the  wafer.  While
+electrostatic  field  measurements  can  certainly  be
+made at this distance, they are typically made at 2.5
+cm  (1  inch)  with  common  instrumentation.  This  is
+described in SEMI E43. Measurements made at this
+smaller  distance  will  be  proportionally  higher,  but
+under varying measurement conditions, it is difficult
+to  determine  a  precise  relationship  between  electric
+field   and   measurement   distance.   To   provide   a
+suitable  safety  factor,  assume  a  linear  relationship,
+rather  than  one  proportional  to  the  square  of  the
+distance.  For  example,  with  a  200  mm  wafer,  4000
+Volts/cm at 2.5 cm would result in 1000 Volts/cm at
+10 cm, rather than 250 Volts/cm.
+
+# 3
+
+3.   The   proportionality   effect   of   q/q
+Fuchs
+has   been
+explained,    as    has    the    difficulty    in    actually
+determining  any  value  for  it.  For  simplicity,  the
+table includes only the q = q
+Fuchs
+condition.
+
+# 4
+
+4. N/A  =  0.016  defects/cm
+2
+as  specified  for  0.25  μm
+technology  in  the  National  Technology  Roadmap
+for Semiconductors.
+
+Table A1-2.1  Alternative to Allowed Exposure Times
+in an ISO Class 1 Environment
+EV/cm at 2.5
+cm
+N/A defects
+per cm
+2
+
+v
+elect
+
+cm/sec
+
+ct
+sec/cm
+3
+
+max t in
+Class 1 sec
+4000             0.016             0.21             0.0762             61
+400              0.016              0.021              0.762              610
+200              0.016              0.0105              1.524              1220
+100              0.016              0.00525              3.048              2440
+
+A1-2.3        Guide    Recommendations    for    Equipment
+Malfunctions
+A1-2.3.1 Equipment  Survey  ó  Most  semiconductor
+production  equipment  should  comply  with  the  ESD
+immunity   requirements   of   the   European   Economic
+Community  (EEC).  The  testing  mandated  by  the  EEC
+uses   the   test   methods   and   ESD   immunity   levels
+specified  in  IEC  6100-4-2.  A  recent  survey  of  262
+semiconductor  equipment  suppliers  revealed  that  71%
+were compliant with the EEC requirements. There is an
+expectation  that  all  equipment  to  be  used  in  future  300
+mm  wafer  fabrication  will  meet  or  exceed  the  ESD
+immunity requirements of IEC 6100-4-2.
+A1-2.3.1.1  To test for compliance, measurements were
+made with the ESD simulator described by IEC 6100-4-
+2    on    a    representative    sample    of    semiconductor
+equipment. The results were as follows:
+
+ESD Simulator Testing Direct Contact Discharge
+
+
+
+Equipment
+Test
+Voltage
+Level 1
+(2 kV)
+Test
+Voltage
+Level 2
+(4 kV)
+Test
+Voltage
+Level 3
+(6 kV)
+Test
+Voltage
+Level 4
+(8 kV)
+Test
+Voltage
+Level X
+(NOTE 1)
+A                                X
+B                                X
+C                                                                X
+D                                X
+E                                                                X
+F                                X
+G                                X
+H                                X
+I                                  X
+J                                  X
+
+ESD Simulator TestingAir Discharge at 10 cm
+EquipmentTest
+Voltage
+Level 1
+(2 kV)
+Test
+Voltage
+Level 2
+(4 kV)
+Test
+Voltage
+Level 3
+(8 kV)
+Test
+Voltage
+Level 4
+(15 kV)
+Test
+Voltage
+Level X
+(NOTE 1)
+A                                                X
+B                                                X
+C                                                                                X
+D                                                X
+E                                                                                X
+F                                X
+G                                                X
+H                                                X
+I                                                   X
+J                                                   X
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 12
+ìXî indicates that the equipment passes ESD simulator testing at this
+level.
+NOTE  1:  This  level  is  subject  to  negotiation  and  has  to  be
+specified  in  the  dedicated  equipment  specification.  If  higher
+voltages   than   those   shown   are   specified,   special   test
+equipment may be needed.
+A1-2.3.2    Static  Audit  ó  While  equipment  may  meet
+the  ESD  immunity  levels  specified  in  IEC  6100-4-2,  it
+should   be   remembered   that   static   charge   levels   in
+manufacturing   environments   may   be   substantially
+higher.   Direct   measurements   of   static   charge   are
+difficult,  and  the  presence  of  a  charge  does  not  always
+imply   that   an   ESD   event   causing   an   equipment
+malfunction   will   occur.   Some   information   may   be
+gained    by    using    a    fieldmeter    to    measure    the
+electrostatic   field   created   by   the   surface   charge.
+Instruments known as EMI locators may also be used in
+some   cases   to   determine   if   ESD-related   EMI   is
+occurring.    Some    representative    measurements    of
+electric   fields   from   objects   in   various   areas   of   a
+semiconductor wafer fab are as follows:
+• Wet Etch ó 0.1 kV/inch to 30 kV/inch
+• Planarization ó 0.1 kV/inch to 20 kV/inch
+• Lithography ó 0.1 kV/inch to 20 kV/inch
+• Dry Etch ó 0.1 kV/inch to 15 kV/inch
+• Thin Film ó 0.1 kV/inch to 15 kV/inch
+• Diffusion ó 0.1 kV/inch to 30 kV/inch
+• Implant ó 0.1 kV/inch to 15 kV/inch
+A1-2.3.2.1    A  knowledge  of  object  capacitance  and
+other  physical  properties  is  needed  to  determine  if  any
+of   the   above   measurements   indicate   an   equipment
+hazard  due  to  ESD  events.  However,  the  range  of  the
+measurements  strongly  indicate  that  such  ESD  events
+can occur. The examples in Related Information R1-3.3
+support this conclusion.
+A1-2.3.3 Guide  Recommendations  ó  Based  on  the
+static audits and equipment test data, there appears to be
+a wide range of static immunity in equipment as well as
+in  the  static  charge  levels  in  work  environments.  As
+stated  previously,  it  is  difficult  to  establish  a  direct
+correlation    between    ESD    events    and    fieldmeter
+measurements  made  on  products,  carriers,  or  any  other
+objects   in   the   work   environment.   The   following
+sensitivity  levels  are  defined  with  recommended  test
+levels for each.
+A1-2.3.3.1    Level  4  ó  Field  measurements  of  static
+charge  at  input/exit  ports  are  expected  to  exceed  10
+kV/inch. Equipment should pass ESD simulator testing
+at  8  kV  direct  contact  discharge,  18  kV  air  discharge.
+Guide    recommendation    (Section    12.5)    -    1200
+nanocoulombs (8 kV × 150 picofarads).
+A1-2.3.3.2    Level  3  ó  Field  measurements  of  static
+charge  at  input/exit  ports  are  expected  to  exceed  4
+kV/inch,   but   are   less   than   10   kV/inch.   Equipment
+should   pass   ESD   simulator   testing   at   4   kV   direct
+contact    discharge,    8    kV    air    discharge.    Guide
+recommendation (Section 12.5) - 600 nanocoulombs (4
+kV  × 150 picofarads).
+A1-2.3.3.3    Level  2  ó  Field  measurements  of  static
+charge  at  input/exit  ports  are  expected  to  exceed  500
+V/inch,  but  are  less  than  4  kV/inch.  Equipment  should
+pass  ESD  simulator  testing  at  2  kV  direct  contact
+discharge,  4  kV  air  discharge.  Guide  recommendation
+(Section   12.5)   -   300   nanocoulombs   (2   kV   ×   150
+picofarads).
+A1-2.3.3.4    Level  1  ó  Field  measurements  of  static
+charge  at  input/exit  ports  are  expected  to  exceed  zero,
+but  are  less  than  500  V/inch.  Equipment  should  pass
+ESD  simulator  testing  at  1  kV  direct  contact,  2  kV  air
+discharge.  Guide  recommendation  (Section  12.5)  -  150
+nanocoulombs (1 kV × 150 picofarads).
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturerís   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 13
+RELATED INFORMATION 1
+STATIC CHARGE PROBLEMS
+NOTE:  The  material  contained  in  this  related  information  is  not  an  official  part  of  SEMI  E78  and  is  not  intended  to  modify  or
+supersede the guide in any way. These notes are provided as a source of information to aid in the application of the guide, and are
+to be considered reference material. Determination of the suitability of the material is solely the responsibility of the user.
+R1-1  ESD Damage
+Contributed  by  Leo  G.  Henry,  Ph.D.,  Advanced  Micro
+Devices,  EOS/ESD/LU/EMC  Department,  Sunnyvale,
+CA 94538, leogesd@pacbell.net.
+R1-1.1  Introduction ó ESD damage to devices occurs
+when   they   come   into   contact   with   personnel   and
+equipment.  Either  may  store  a  residual  charge  large
+enough  to  destroy  the  device  if  a  discharge  occurs.  In
+the semiconductor industry, it has been established that
+a  significant  proportion  of  customer  field  returns  are
+attributed to damage resulting from ESD.
+R1-1.2    Description  of  ESD  Damage  Mechanisms  ó
+ESD  failures  are  the  result  of  either  a  current-induced
+phenomenon or a charge-induced phenomenon, and the
+damage  can  either  be  junction,  contact,  dielectric  or
+oxide   related.   The   apparent   similarity   in   current-
+induced  damage  resulting  from  ESD  due  to  human
+body   model   discharges   (HBM)   or   machine   model
+discharges  (MM)  results  from  the  thermal  nature  of
+both  of  these  process.  The  HBM  and  MM  damages
+result   when   the   temperature   (joule   heating)   of   the
+region  dissipating  the  ESD  pulse  energy  reaches  a
+critical value and melting occurs.
+R1-1.2.1    Charge-induced  phenomena  are  predicted  by
+the   charged   device   model   (CDM).   For   CDM   type
+discharges,  oxide  punch  through  occurs  when  the  ESD
+voltage  applied  across  the  oxide  creates  a  high  enough
+field  to  break  down  the  oxide.  Excessive  current  flow
+results,  causing  an  oxide  short,  but  there  is  no  heat
+transfer (adiabatic process).
+R1-1.2.2  It should be noted here that the time duration
+for   typical   ESD   events   from   charged   objects   and
+personnel  ranges  from  10  to  100  nanoseconds,  while
+CDM type events occur in less than 1 nanosecond.
+R1-1.3  Device Testing Models
+R1-1.3.1    Human  Body  Model  (HBM)  ó  The  Human
+Body  Model  is  the  oldest  and  the  most  widely  used  of
+the three ESD models. The model attempts to replicate
+the discharge from a real human when the latter touches
+a   device   that   is   at   a   lower   potential.   The   human
+capacitance  and  resistance  have  been  ideally  chosen  to
+be  100  picofarads  and  1500  ohms  respectively.  The
+values  were  chosen  after  measurements  were  made  on
+humans   in   varying   positions   with   respect   to   their
+surroundings.  The  resulting  discharge  waveform  has  a
+double  exponential  shape  with  risetime  range  of  2ñ10
+nsec  and  a  decay  constant  (1/e  position)  of  150  ±  20
+nsecs. The typical peak currents range from 0.67 Amps
+at 1000 volts to 2.67 Amps at 4000 volts.
+R1-1.3.2      Machine   Model   (MM)   ó   The   Machine
+Model is described by Electronic Industries Association
+of  Japan  (EIAJ)  as  a  worst  case  HBM.  The  model
+attempts  to  replicate  the  discharge  from  a  metallic  arm
+of  an  automatic  handler  coming  into  contact  with  the
+metallic  leads  of  a  semiconductor  device  which  is  at  a
+lower  potential.  A  capacitance  of  200  picofarads  and
+ideally  zero  resistance  produces  a  sinusoidal  decaying
+waveform with an effective pulse duration of 200 nsec.
+The typical peak currents range from 1.75 Amps at 100
+volts to 14.0 Amps at 800 volts. Note that MM failures
+occur at 5ñ10 times lower voltage than HBM.
+R1-1.3.3 Charged   Device   Model   (CDM)   ó   The
+Charged  Device  Model  in  its  purest  form  is  actually  a
+field  induced  model  because  the  device  is  actually  part
+of  model.  This  model  attempts  to  describe  a  device
+which  itself  becomes  charged  due  to  an  external  field,
+or  due  to  triboelectric  charging  of  the  device  surfaces.
+During     discharge,     the     parasitics     (capacitance,
+inductance   and   impedance)   in   the   device   play   a
+significant  role  in  the  resulting  failure.  The  discharge
+pulse  is  a  sinusoidal  waveform  with  an  extremely  fast
+risetime  of  less  than  500  picoseconds.  The  waveform
+decays rapidly with a total pulse duration of less than 5
+nano-seconds.  The  peak  currents  range  from  2.0  Amps
+at  250  volts  charging  voltage,  to  18.0  Amps  at  2000
+volts charging voltage.
+R1-1.3.4    Correlation  Between  Models  ó  There  is
+much  debate  on  whether  or  not  there  is  any  type  of
+correlation   between   HBM   and   MM.   While   some
+companies report a correlation of roughly 10:1 between
+the  two  models,  other  companies  have  seen  anywhere
+from  5ñ20:1  differences  in  passing  voltages  between
+the  two  models.  There  is  also  no  established  voltage
+correlation  between  CDM  damage  and  HBM  or  MM
+ESD events. In equipment, ESD damage events will be
+related  to  the  MM  or  CDM  types  of  ESD.  Users  will
+need  to  determine  the  type  of  ESD  hazard  to  their
+devices and choose the test method accordingly.
+R1-1.4  ESD Laboratory Simulation Testing
+R1-1.4.1 Description    of    Test    Methods    ó    Test
+procedures discussed here for ESD simulation conform
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 14
+to  those  established  by  the  ESD  Association  Standards
+ESD  STM  5.1  (for  HBM),  ESD  S5.2  (for  MM),  and
+MIL-STD-883,     C/3015.7-method     8.     The     ESD
+Association  is  presently  considering  two  documents
+related to CDM Testing. Details are to be found in these
+standards.
+R1-1.4.1.1        Devices    are    qualified    at    a    level
+corresponding to the highest ESD stress they are able to
+withstand.  These  levels  are  discussed  in  more  detail  in
+Appendix A1-2.1.
+R1-1.4.2  Simulation Test Results ó In general all units
+must be data-logged both pre- and post-stress test. Any
+leakage  current  equal  to  or  greater  than  a  specific
+amount  (company  dependent  ó  typically  10  micro-
+amps  or  less)  is  ìflaggedî  as  a  failure,  and  any  current
+shift greater than about 200 nano-Amp is marked on the
+record.
+R1-1.4.3    HBM  Stress  Testing  ó  An  R-C  network  is
+used  to  simulate  the  ESD  event.  In  an  HBM  ESD
+Simulator, a high voltage is used to charge the capacitor
+(100  pF)  which  discharges  through  the  resistor  (1500
+ohms)  into  the  device  under  test.  The  present  draft
+standard  (1997)  requires  a  minimum  of  two  discharges
+(1 positive and 1 negative) per voltage level.
+R1-1.4.4  MM Stress Testing ó An R-C network is also
+used  in  the  MM  ESD  Simulator  for  ESD  testing.  High
+voltage    charges    the    capacitor    (200    pF)    which
+discharges  through  the  short  wire  (zero  ohm)  into  the
+device   under   test.   The   present   standard   requires   a
+minimum of six discharges (3 positive and 3 negative).
+R1-1.4.5    CDM  Stress  Testing  ó  The  package  and
+leadframe  of  the  device  are  charged  by  direct  charging
+or  field  induction.  For  the  Direct  Charging  Method,
+direct  contact  is  made  to  one  of  the  device  leads
+connected  to  the  substrate  or  bulk  material  of  the
+device.  The  device  is  then  discharged  via  a  one  ohm
+resistor to ground.
+R1-1.4.5.1  For the Field Induced Method, the device is
+placed  on  a  metallic  charging  plate  with  the  device
+packaging  material  touching  the  plate.  The  potential  of
+the   device   is   raised   by   applying   a   voltage   to   the
+charging  plate.  The  induced  voltage  on  the  device  is
+discharged  to  ground  through  a  1  ohm  resistor  that
+contacts  each  device  lead.  The  present  draft  standard
+(1996)  requires  a  minimum  of  6  discharges  (3  positive
+and 3 negative) from each device lead.
+R1-1.5  Examples of Damage from Device Testing
+R1-1.5.1  HBM ESD Damage
+
+Figure R1-1
+Example of HBM Damage
+
+R1-1.5.1.1    In  this  example  of  HBM  damage  (refer  to
+Figure  R1-1),  de-processing  (removal  of  the  processed
+layers)   down   to   the   poly   level   and   very   high
+magnification   (SEM)   examination   were   required   in
+order  to  see  the  failure  site  morphology  of  arcing  from
+source  to  drain  within  the  ESD  protective  structures.
+The   electrical   characteristics   found   were:   resistive
+shorts,   leakages,   low   breakdown   voltages   and   Icc
+failures.
+R1-1.5.2  MM ESD Damage
+
+Figure R1-2
+Example of MM Damage
+R1-1.5.2.1    In  the  above  MM  example  (refer  to  Figure
+R1-2), the damage was more severe than for HBM. De-
+processing   down   to   the   poly   level   and   the   SEM
+examination  showed  the  failure  site  morphology  of
+large  deep  pits  occurring  at  the  contact(s)  suggesting
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 15
+high   current   parasitic   bipolar   action   deep   in   the
+substrate and also within the ESD protective structures.
+The electrical characteristics found also resistive shorts,
+leakages, low breakdown voltages and Icc failures.
+R1-1.5.3  CDM ESD Damage
+
+Figure R1-3
+Example of CDM Damage
+R1-1.5.3.1  In the above CDM example (refer to Figure
+R1-3), the gate oxide damage is seen as a unique failure
+signature  beyond  the  input  protection  structures  at  an
+internal location of the die. Most often the oxide failure
+is located beneath the poly at the field oxide edge, or is
+located  at  the  poly  edge  adjacent  to  the  source/drain
+junction. To date all CDM ESD damage has been found
+in the gate oxide at the input buffer circuitry.
+R1-1.6  References
+Cook,     C.,     Daniel,     S.,     Proceedings     EOS/ESD
+Symposium, Dallas, TX (1992), p. 149ñ157
+Euzent,    B.L.,    Maloney,    T.J.,    Donner    II,    J.C.,
+Proceedings  EOS/ESD  Symposium,  Las  Vegas,  NV
+(1991), p. 59ñ64
+Morgan,  I.H.,  A  Handbook  of  EOS  and  ESD  Models,
+AMD Internal Publication (1992)
+Pierce  D.G.,  Shiley,  W.,  Mulcahy,  B.,  Wunder,  M.,
+Proceedings   EOS/ESD   Symposium,   Anaheim,   CA
+(1988), p. 137ñ146
+May,  J.T.,  Guravage,  J.F.,  Proceedings  ISTFA,  Los
+Angeles, CA (1990), p. 143ñ147
+Avery,  L.R.,  EOS/ESD  Symposium,  Orlando,  Florida
+(1987), p. 186ñ191
+Avery,  L.R.,  Proceedings  EOS/ESD  Symposium,  FL
+(1987), p. 88ñ92
+Renninger,   R.G.,   Jon,   M.C.,   Lin,   D.L.,   Diep,   T.,
+Welsher,   T.L.,   Proceedings   EOS/ESD   Symposium,
+New Orleans, LA (1989), p. 59ñ71
+Bossard,     P.R.,     Chemelli,     R.G.,     Unger,     B.A.,
+Proceedings  EOS/ESD  Symposium,  San  Diego,  CA
+(1980), p. 17ñ22
+AMD   Internal   Publications,   PLD/CQD   EOS/ESD,
+EOS/ESD  Task  Force  Reports,  July  1993  and  January
+1994
+Raymond,  T.,  Chang,  K.L.,  Henry,  Leo  G.,  AMD  3
+rd
+
+Engineering Conference, February 1994
+ESD  STM5.1  ó  Sensitivity  Testing  ñ  Human  Body
+Model (HBM) - Component Level
+ANSI/ESD  STM5.2  ó  Sensitivity  Testing  --  Machine
+Model (MM)  - Component Level
+MIL-STD-883, Method 3015.7, March,1989
+Gieser,  H.A.,  Egger,  P.,  Herrmann,  M.R.,  Reiner,  J.C.,
+Birolini,  A.,  ESREF  Proceedings,  Bordeaux,  France
+(1993)
+Henry, Leo G., Raymond, T., Mahanpour, M., Morgan,
+I.,   20th   International   Symposium   for   Testing   and
+Failure Analysis (ISTFA), 1994
+R1-2  Enhanced Particle Deposition
+Attributable to Electrical Charge on a Wafer
+Contributed   by   Douglas   W.   Cooper,   Ph.D.,   The
+Texwipe Company, Upper Saddle River, NJ 07458.
+R1-2.1 Introduction   ó   The   presence   of   excess
+electrical  charge  on  a  wafer  can  create  an  electrostatic
+field that will lead to accelerated deposition of particles
+onto the wafer. This undesirable consequence is but one
+of several threats to product yield posed by the presence
+of  excess  electrical  charge  on  a  wafer.  Sections  R1-1
+and  R1-3  of  this  related  information  discuss  two  other
+important  and  potentially  damaging  consequences  of
+surface charge.
+R1-2.1.1    The  purpose  of  the  discussion  in  this  section
+is  to  estimate  the  magnitude  of  electrostatic  field  that
+can   be   tolerated   before   electrostatically   enhanced
+particle   deposition   becomes   the   dominant   particle
+deposition mechanism. Over the particle size range 0.01
+to  0.3  μm,  diffusion  is  the  dominant,  non-electrostatic
+mechanism   of   particle   deposition.   Thus,   values   of
+electrostatic    fields    that    do    not    produce    particle
+deposition  velocities  greater  than  those  attributable  to
+particle  diffusion  will  be  deemed  tolerable.  A  set  of
+such   values   calculated   under   a   specific   and   very
+restrictive set of conditions are presented in this section.
+R1-2.2    Theoretical Background ó Although there are
+numerous  electrostatic  interactions  between  particles
+and  surfaces,  the  dominant  one  is  almost  always  the
+ìCoulombicî interaction: the attraction (or repulsion) of
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 16
+a charged particle by a charged surface. This is the only
+electrostatic effect considered here.
+For particles of one diameter, d, and one charge, q, the
+particle  deposition  flux,  j,  (the  number  of  particles
+deposited  per  unit  area  per  unit  time)  is  the  product  of
+aerosol   particle   number   concentration,   c;   particle
+charge, q;  the  electric  field  created  by  the  charged
+wafer, E; and particle mechanical mobility, B (terminal
+velocity per unit external force):
+j=cqEB                                             (1)
+
+The    group    qEB    is    the    ìelectrostatic    deposition
+velocityî, v
+elect
+
+v
+elect
+=qEB=jc                               (2)
+
+The variables q and E are those containing the electrical
+parameters that affect the magnitude of v
+elect
+; B depends
+on particle diameter but not electrical properties.
+It   is   the   v
+elect
+values   that   will   be   calculated   for
+comparison  with  those  of  v
+diff
+,  the  particle  deposition
+velocity  attributable  to  particle  diffusion.  Values  of  E
+for  which  v
+elect
+<  v
+diff
+will  be  those  deemed  tolerable  in
+wafer manufacturing.
+Note that the total number of particles, N, deposited on
+a  wafer,  obtained  by  integrating  Equation  (1)  over  the
+wafer area, A, and the time of exposure, t, depends on c
+as well as the deposition velocity:
+N=cqEBAt or N/A=ctv
+elect
+(3)
+
+Reducing c   obviously   reduces   N,   but   the   relative
+importance of the differing deposition mechanisms and
+the  values  of  the  deposition  velocities  associated  with
+these mechanisms are assumed to not depend upon c, at
+least  to  a  first-order  approximation  (see,  for  example,
+Peters and Cooper, 1991).
+R1-2.2.1  Effect of the Particle Charge, q ó There are
+many    charging    and    discharging    mechanisms    for
+particles, so q is hard to predict and likely to be highly
+variable.   In   a   normal   atmosphere   the   positive   and
+negative    air    ions    tend    to    have    roughly    equal
+effectiveness  in  charging  particles,  so  that  the  number
+of  positively  charged  particles  is  roughly  equal  to  the
+number  of  negatively  charged  particles.  Thus,  about
+half the particles will be attracted and half repelled by a
+net charge on the wafer. Special circumstances, such as
+corona  discharge  ionizers  that  are  not  balanced,  could
+alter this conclusion. Without ionizers, cleanrooms tend
+to  have  relatively  low  levels  of  ions  compared  to  the
+outdoor   or   other   indoor   atmospheres,   because   the
+HEPA/ULPA  filters  efficiently  remove  ions  from  the
+recirculating air.
+R1-2.2.1.1      A   Boltzmann   charge   equilibrium,   the
+charge  distribution  approximated  by  aerosol  particles
+exiting  a  radioactive  neutralizer,  is  a  plausible  lower
+limit  for  particle  charge  and  will  be  assumed  in  the
+calculations  of  v
+elect
+,  using  an  improved  version  of  this
+distribution  developed  by  Fuchs  (1964).  Upper  limits
+on particle charge are determined by ion emission limits
+or,  in  the  case  of  water  droplets,  the  Rayleigh  limit.
+However, assuming higher particle charge distributions
+usually means that v
+elect
+> v
+diff
+for virtually any value of
+E   >   0   and   that   the   only   method   for   avoiding
+electrostatically   enhanced   particle   deposition   is   to
+reduce  wafer  charge  to  zero.  Thus,  the  Fuchs  charge
+distribution  will  be  assumed  in  calculating  v
+elect
+even
+though  it  represents  the  most  favorable  particle  charge
+distribution  for  minimizing  electrostatically  enhanced
+particle deposition. Under many practical circumstances
+the  particle  charge  will  be  greater  and  the  maximum
+tolerable  electrostatic  field  will  be  lower  than  that
+calculated for the Fuchs charge levels.
+R1-2.2.2    The  Electrostatic  Field,  E,  Induced  by  the
+Wafer  Surface  Charge  ó  The  electrostatic  field  will
+depend on the charge on the wafer divided by a quantity
+with  the  units  of  length  squared;  either  a  distance
+squared  (far  from  the  wafer)  or  an  area  (close  to  the
+wafer)  or  some  combination  at  intermediate  distances.
+While  field  is  not  properly  measured  as  a  voltage,
+measuring the voltage, V, at a fixed distance, s, from the
+wafer   allows   inferring   the   field   from   V/s   and   the
+appropriate  geometric  and  dimensional  factors.  The
+electrostatic  field  to  be  used  in  Equation  (2)  can  be
+estimated  from  the  ratio  of  the  wafer  charge  to  the
+wafer surface area, or the average field near the surface
+at the center, E
+0
+.
+R1-2.2.2.1    Very  far  from  the  wafer,  many  wafer
+diameters  away,  the  field  created  by  the  net  wafer
+charge, Q, will be similar to that from a point charge:
+E
+1
+=k
+1
+Qr
+2
+(4)
+
+where k
+1
+depends  on  the  system  of  units  used;  and  r  is
+the distance from the center of the wafer to the particle.
+R1-2.2.2.2    Very  close  to  the  wafer,  a  fraction  of  a
+wafer diameter away, the field created by the net wafer
+charge is:
+E
+2
+=k
+2
+′ Q   r
+2
+(5)
+
+where Q' is   the   net   wafer   charge,   assumed   to   be
+uniformly  distributed,  contained  within  the  intersection
+of a sphere of radius, r, and centered on the point of the
+wafer closest to the particle.
+R1-2.2.2.3    This  equation  indicates  that  the  charge
+distribution on the wafer can make a difference close to
+the  wafer.  For  an  insulating  wafer  with  a  uniform
+charge and a radius, R:
+E
+2
+=E
+0
+=k
+2
+QπR
+2
+(6)
+
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 17
+at a distance r = R from the center of the wafer.
+R1-2.2.2.4  For a conductive wafer, or for a wafer with
+localized  regions  of  charge,  the  electric  field  will  vary
+over  the  surface,  causing  greater  and  lesser  deposition
+velocities.  A  conductive  wafer  will  have  the  charge
+concentrated near the edges, producing a relatively high
+field  there  and  much  lower  fields  as  the  center  is
+approached.
+R1-2.2.2.5  Note that both E
+1
+and E
+2
+are proportional to
+Q    and    therefore,    other    variables    being    equal,
+electrostatic deposition is expected to be proportional to
+Q. Thus, the criterion to be specified is not the tolerable
+charge  on  the  wafer  but  the  tolerable  electrostatic  field
+near  the  wafer  surface  (such  as  that  evaluated  at  a
+distance   of   one   radius   perpendicular   to   the   wafer
+surface  above  its  center),  E
+0
+.  A  maximum  tolerable
+value   of   E
+0
+will   be   estimated   by   calculating   the
+maximum E
+0
+values  for  which  v
+elect
+<  v
+diff
+,  assuming  a
+Fuchs distribution for the particle charge.
+R1-2.3  Tolerable Electrostatic Field
+R1-2.3.1    Particle  Deposition  Velocity  Attributable  to
+Convective  Diffusion  (vdiff)  ó  In  a  microelectronics
+cleanroom,        airflow        is        generally        laminar
+(ìunidirectionalî)  downward  at  about  50  cm/sec  (100
+ft/min). If the flow is perpendicular to a surface, such as
+a wafer of diameter, Dw, a boundary layer forms across
+which  particles  diffuse  to  the  surface.  Liu  and  Ahn
+(1987)  adapted  the  correlation  of  Sparrow  and  Geiger
+(1985)   and   obtained   a   correlation   for   the   average
+diffusive deposition velocity as:
+v
+diff
+=1.08 Sc
+13
+Re
+12
+D*D
+w
+(7)
+where   Sc=
+μ/ρD*  is the Schmidt Number
+
+μ is the gas viscosity
+
+ρ is the gas density
+and D*=  kTB is the particle diffusivity
+k is the Boltzmann constant
+T is the absolute temperature and
+B is the particle mobility
+and Re =
+ρUD
+w
+/μ is the Reynolds number
+U is the gas velocity and
+D
+w
+is the wafer diameter
+
+Bae  et  al.  (1994)  reviewed  the  experimental  work  of
+others   and   presented   their   own,   supporting   this
+correlation;  Cooper  et  al.  (1990)  obtained  a  similar
+equation  by  a  somewhat  different  method.  Oh  et  al.
+(1996)  summarized  prior  experimental  and  theoretical
+work   and   extended   the   numerical   analysis   with   a
+turbulent  transport  properties  model,  finding  a  small
+increase   in   deposition   for   the   conditions   modeled.
+These  authorsí  publications  support  the  approximation
+that  the  diffusional  deposition  velocity  is  about  0.006
+cm/sec  at  particle  diameter  of  0.25  μm  and  about  0.03
+cm/sec at particle diameter of 0.01 μm, or:
+v
+diff
+=(0.03 cm/sec)/(d/0.01 μm)
+12
+(8)
+
+for 0.01 μm ≤ d ≤ 0.3 μm in cleanroom air.
+R1-2.3.2    Particle  Deposition  Velocity  Attributable  to
+Electrostatic  Forces  (v
+elect
+)  ó  Using  a  power  law  to
+approximate   the   Fuchs   particle   charge   distribution
+yields   the   following   approximation   for   electrical
+mobility (Cooper et al., 1990):
+Z=qB=(0.002cm/s)/(d/0.01 μm)(1 V/cm) (9)
+
+from   which   the   deposition   velocity   attributable   to
+electrostatic forces becomes:
+v
+elect
+=( 0.002cm/s)[E
+0
+/(V/cm)] /(d/0.01 μm)  (10)
+
+Setting v
+elect
+/v
+diff
+= 1 results in the following expression
+for tolerable E
+0
+:
+[(E
+0
+/(V/cm)]=15 [d/(0.01 μm)]
+12
+(11)
+
+Table  R1-2  lists  the  values  of  tolerable  electrostatic
+field  adjacent  to  a  wafer  surface  as  calculated  from
+Equation  (11).  Note  that  the  electrostatic  fields  are
+calculated  at  a  distance  of  one  wafer  radius  from  the
+center  of  the  wafer.  E
+0
+is  the  value  of  electric  field  at
+which  electrostatically  enhanced  particle  deposition  is
+estimated   to   match   the   particle   deposition   velocity
+attributable   to   diffusion,   assuming   a   Fuchs   charge
+distribution  on  the  particles.  This  charge  distribution
+represents a minimal particle charge. With most particle
+charge distributions to be encountered in practice, even
+lower   values   of   electrostatic   fields   will   produce
+enhanced  deposition.  A  safe  conclusion  is  that  there  is
+no  safe  value  of  electrostatic  field  that  will  avoid
+enhanced  particle  deposition  unless  neutralization  of
+particle  charge  has  been  achieved,  in  which  case  the
+very  modest  values  of  electrostatic  fields  calculated
+from  Equation  (11)  and  tabulated  in  Table  Rl-2  should
+be tolerable.
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 18
+Table R1-2  Tolerable Levels of Electrostatic Field at
+a Distance of One Radius from the Center of a
+Wafer, Assuming a Fuchs Charge Distribution on
+the Particles
+Minimum Particle Diameter d in
+μm
+Tolerable Field E
+0
+, in
+Volts/cm
+
+0. 01                                            15
+0. 02                                            21
+0. 03                                            26
+0. 05                                            34
+0. 10                                            47
+0. 20                                            67
+0. 30                                            82
+
+R1-2.4  Conclusions ó As indicated in Table R1-2, the
+calculated  value  of  tolerable  electrostatic  field  (the
+value  of  electrostatic  field  above  which  electrostatic
+particle  deposition  becomes  the  dominant  mechanism
+of  particle  deposition)  is  just  47  V/cm  for  particles  of
+0. 1  μm  diameter  when  the  particle  electrical  charge  is
+that   described   by   the   Fuchs   charge   distribution,   a
+minimum  value  of  particle  charge  that  is  normally
+exceeded   in   most   environments.   In   most   realistic
+environments the particle charge will be greater and the
+tolerable   electrostatic   field,   even   lower.   Hence   the
+conclusion that in all practical processing environments
+electrical  forces  will  be  the  dominant  mechanism  of
+particle deposition on wafers.
+R1-2.4.1      In   a   Federal   Standard   209E   Class   1
+environment  (c ≤  0.00124  particles/cm
+3
+)  with  v
+elect
+,  ~
+0. 01 cm/s (the value predicted by Equation 10 for a 0.1
+μm  particle  in  an  electric  field  of  47  Volts/cm)  the
+target areal particle densities (N/A = 0.016 particles/cm
+2
+
+for  the  0.25  μm  technology  of  1998)  specified  in  the
+National   Technology   Roadmap   for   Semiconductors
+(NTRS, 1994) will be reached after an exposure time of
+about  1300  seconds,  assuming  c  is  at  its  maximum
+allowed concentration.
+R1-2.4.2    With  less  favorable  electrical  conditions,  or
+higher  particle  concentration,  the  maximum  allowed
+exposure  time  becomes  shorter.  In  addition,  the  target
+values   for   N/A   continue   to   decrease   with   each
+technology  generation.  Fortunately,  one  or  more  of  the
+parameters,  particle  concentration  in  the  ambient,  the
+charge level on a surface, or the time a charged surface
+is   exposed   to   a   given   particle   ambient,   can   be
+controlled.
+R1-2.4.3      Charge   Neutralization   ó   Achieving   the
+Fuchs   charge   distribution   by   means   of   radioactive
+isotopes  or  balanced  corona  neutralizers  ó  is  the  first
+step  in  controlling  particle  deposition  on  wafers.  This
+step, while clearly necessary, is unlikely to be sufficient
+to  guarantee  meeting  the  NTRS  requirements  of  the
+future.   Steps   to   minimize   environmental   particle
+concentration, c, and time of exposure, t, will have to be
+part  of  the  strategy  for  creating  acceptable  processing
+environments.   Minimizing   these   variables   reduces
+particle  deposition  attributable  to  all  mechanisms,  not
+just electrostatic deposition.
+R1-2.4.4    Contemporary  standards  recognize  the  need
+for     reduced     particle     concentrations     in     wafer
+environments. For example, the classification ISO Class
+1 (of the proposed international standard for classifying
+cleanrooms   according   to   concentration   of   airborne
+particulate  cleanliness)  describes  an  environment  in
+which  the  concentration  of  particles  >  0.1  μm  is  10
+-5
+
+particles/cm
+3
+or less. In an environment of this quality,
+wafer  exposure  can  be  as  long  as  10
+5
+seconds  at  the
+deposition  velocity  predicted  for  neutralized  0.1  μm
+particles  (~0.01  cm/s)  and  still  meet  the  target  defect
+density  that  the  NTRS  recommends  for  the  0.1  μm
+technology  anticipated  in  2007.  Fractional  increases  in
+the  electric  field  above  47  Volts/cm  will  decrease  the
+allowed exposure time by that same fraction (Equations
+10,  12)  ó  an  electric  field  of  94  Volts/cm  reduces  the
+allowed exposure time to 5 × 10
+4
+seconds, etc.
+R1-2.5  References
+Bae, G.N., Lee, C. S., and Park, S. O., ìMeasurement of
+Particle   Deposition   Velocity   Toward   a   Horizontal
+Semiconductor   Wafer   by   Using   a   Wafer   Surface
+Scannerî, Aerosol  Science  Technology  21:  p.  72ñ82
+(1994)
+Cooper,  D.  W.,  Miller,  R.  J.,  Wu,  J.  J.,  and  Peters,  M.
+H., ìDeposition of Submicron Aerosol Particles During
+Integrated  Circuit  Manufacturing:  Theoryî,  Particulate
+Science Technology 8 (3 and 4): p. 209ñ224 (1990)
+Fuchs,  N.  A.,  The  Mechanics  of  Aerosols,  Pergamon
+Press, Oxford (1964)
+Liu, B. Y. H., and Ahn, K. H., ìParticle Deposition on
+Semiconductor Wafersî, Aerosol Science Technology 6:
+p. 215ñ224 (1987)
+National   Technology   Roadmap   for   Semiconductors,
+Semiconductor   Industry   Association,   4300   Stevens
+Creek Boulevard, Suite 271, San Jose, CA 95129, 1994
+Oh, M. D., Yoo, K. H., and Myong, H. K., ìNumerical
+Analysis    of    Particle    Deposition    onto    Horizontal
+Freestanding   Wafer   Surfaces   Heated   or   Cooledî,
+Aerosol Science Technology 25: p. 141ñ156 (1996)
+Peters,   M.   H.,   and   Cooper,   D.   W.,   ìApproximate
+Analytical Solutions for Particle Deposition in Viscous
+Stagnation-Point Flow in the Inertial-Diffusion Regime
+with  External  Forcesî,  J.  Colloid  Interface  Science
+142(1): p. 140ñ148 (1991)
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 19
+Sparrow, E. M. and Geiger, G. T., ìLocal and Average
+Heat   Transfer   Characteristics   for   a   Disk   Situated
+Perpendicular  to  a  Uniform  Plowî,  J.  Heat  Transfer
+127: p. 321ñ326 (1985)
+Federal   Standard   209E   ó   ìAirborne   Particulate
+Cleanliness Classes in Cleanrooms and Clean Zonesî
+R1-2.6  Experimental Reference
+R1-2.6.1    Deposition  of  0.1  to  1.0  Micron  Particles,
+Including  Electrostatic  Effects,  onto  Silicon  Monitor
+Wafers (Experimental)
+R1-2.6.2      William   J.   Fosnight,   Vaughn   P.   Gross,
+Kenneth    D.    Murray,    Richard    D.    Wang,    IBM
+Corporation   published   in   1993   Microcontamination
+Conference proceedings
+R1-2.6.3    Summary:  Submicron  particle  contamination
+continues   to   be   a   concern   in   the   manufacture   of
+integrated   circuits.   Quantifying   particle   deposition
+velocity (the ratio of particle deposition rate to airborne
+particle  concentration)  is  of fundamental importance in
+understanding  the  defect-density  impact  of  airborne
+contamination.
+R1.2.6.4      As   particle   size  decreases,  the  effect  of
+electrostatic  charge  plays  an  increasing  role  in  the
+deposition  of  particles  onto  surfaces.  This  four-trial
+study  examines  the  deposition  of  0.1  to  1.0  micron
+particles onto horizontal, grounded and electrostatically
+charged, silicon monitor wafers in an 80 feet per minute
+vertical    unidirectional    airflow.    The    experimental
+deposition velocity results were compared to theoretical
+predictions found in the literature.
+R1-2.6.5    Three  primary  observations  were  obtained
+from  this  study.  First,  measured  values  of  deposition
+velocity  agreed  reasonably  well  with  predicted  values.
+However,   deposition   velocity   was   not   observed   to
+increase below 0.2 micron. Secondly, particles less than
+0. 5  micron  were  observed  to  deposit  onto  charged
+wafers approximately three to ten times faster than onto
+grounded (not charged) wafers. Finally, settling monitor
+wafers   may   be   a   time   consuming   (and   expensive)
+means  of  certifying  the  cleanliness  of  a  ìcleanî  (less
+than   10   ppcf   at   scanner   threshold   particle   size)
+environment.  However,  settling-monitor  studies  should
+not  be  confused  with  particles-per-wafer-pass  (PWP)
+measurements;    PWP    measurements    often    provide
+useful  information  regarding  the  performance  of  the
+automation  and/or  process  of  a  tool,  even  if  it  is  in  a
+very clean environment.
+R1-3  ESD Impacts in Semiconductor
+Equipment
+Contributed  by  Julian  A.  Montoya,  Intel  Corporation,
+5200  NE  Elam  Young  Parkway,  Hillsboro  OR,  97124-
+
+# 6497
+
+6497.
+R1-3.1 Introduction ó Electrostatic phenomena impact
+semiconductor  manufacturing  in  many  ways.  These
+range  from  increased  particle  accumulation  on  wafer
+surfaces  to  electrostatic  discharge  (ESD)  events  which
+impact   equipment   performance,   and   in   some   cases
+impact factory yields and throughput.
+R1-3.1.1          All     areas     within     a     semiconductor
+manufacturing  environment  must  be  concerned  with
+electrostatic  control.  This  encompasses  initial  wafer
+receiving  to  shipping  of  final  product.  In  addition,  the
+equipment    which    will    be    housed    within    that
+environment  must  also  be  concerned  with  electrostatic
+control and electrostatic immunity.
+R1-3.1.2  This section highlights issues associated with
+static     charge     and     ESD     in     a     semiconductor
+manufacturing    environment    and    its    effects    on
+production equipment.
+R1-3.2        Overview    ó    Static    charge    issues    in
+semiconductor  manufacturing  manifest  themselves  in
+many  ways.  Problems  occur  by  direct  contact  with
+charged  items,  by  induction  from  electrostatic  fields,
+and      indirectly      by      radiated      and      conducted
+electromagnetic  interference  (EMI)  emitted  into  the
+environment as a result of the ESD event.
+R1-3.3    Equipment  ESD  Examples  ó  The  following
+section  presents  real  world  examples  of  the  cause  and
+impacts   associated   with   electrostatic   discharge   and
+semiconductor manufacturing equipment.
+R1-3.3.1    Charged  operators  came  into  direct  contact
+with diffusion furnace control panel. Process aborted on
+many occasions resulting in loss of product and reduced
+equipment utilization.
+R1-3.3.2    Numerous  instances  where  charged  reticles
+(photomasks) came into direct contact with a grounded
+object.  This  caused  damage  to  reticles  and  impacted
+factory    throughput.    Costs    were    associated    with
+replacing damaged reticles and requalifying reticle sets.
+R1-3.3.3    Charged  operators  came  into  direct  contact
+with  electronic  card  cage  of  chemical  vapor  deposition
+tool. This resulted in process abort, loss of product, and
+reduced equipment availability.
+R1-3.3.4    Charged  wafer  cassette  induced  charge  onto
+robot  arm  on  wafer  transfer  tool.  Robot  arm  came  into
+contact  with  grounded  screw  creating  an  ESD  event.
+This  resulted  in  data  corruption  which  caused  robot
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 20
+arms  to  open,  dropping  fully  loaded  wafer  cassettes  to
+the floor. Costs were associated with loss of product.
+R1-3.3.5    Automated  material  handling  system  ìcarî
+became  charged  while  coming  in  close  proximity  to
+ionizer.  Car  came  into  contact  with  grounded  object
+during    charging;    creating    data    corruption    which
+resulted   in   system   downtime,   impact   to   factory
+throughput, and cost associated with the replacement of
+control electronics.
+R1-3.3.6    Wafer  taping/detaping  tool  generated  charge
+during  normal  operation.  Chassis  ground  of  the  tool
+was  inadvertently  removed,  causing  high  charge  to  be
+developed   within   the   tool.   Electrostatic   Discharge
+occurred   at   random   time   intervals   within   the   tool.
+Impact  to  equipment  availability,  and  long  solution
+time.
+R1-3.3.7    Wafers  became  charged  during  spin  rinse
+process.   During   transfer   to   wafer   metrology   tool
+electrostatic     discharge     occurred,     causing     data
+corruption.  This  resulted  in  unexpected  tool  lockups,
+and reduced equipment availability.
+R1-3.3.8  Ungrounded wall panels became charged and
+generated ESD events. EMI produced from ESD events
+coupled  into  photolithography  equipment  and  created
+data  corruption.  This  resulted  in  impacts  to  equipment
+utilization. Long solution time.
+R1-3.3.9  Insulative ceiling panels became charged and
+generated  ESD  events  which  produced  high  levels  of
+radiated and conducted EMI in a test area. EMI coupled
+into  tester/handler  and  produced  data  scramble.  This
+resulted in reduced equipment availability.
+R1-3.3.10    Finished  product  became  charged  during
+manual handling. Product came into direct contact with
+test/handler   equipment.   This   resulted   in   damaged
+circuit   cards   which   needed   to   be   replaced,   and
+decreased equipment availability.
+R1-3.3.11    Wafer  transfer  cart  became  charged  while
+rolling  over  temporary  ìinsulativeî  floor.  Cart  came
+into   contact   with   plasma   etcher   control   cabinet.
+Resulting  ESD  event  caused  product  loss  and  reduced
+equipment availability.
+R1-3.3.12    Wafer  polisher  robot  arm  became  charged
+during normal operation. Chassis ground wire for robot
+left  off.  ESD  event  occurred  causing  data  scramble
+which resulted in process being aborted.
+R1-3.4    Conclusion  ó  Electrostatic  Discharge  (ESD)
+affects   semiconductor   manufacturing   equipment   in
+many  ways.  The  issues  are  wide  ranging  from  trivial
+lock-ups  and  aborts  of  process  equipment  to  factory
+throughput  and  yields  impacts.  The  scope  of  the  ESD
+problem is very broad and encompasses every aspect of
+semiconductor manufacturing.
+
+
+
+SEMI E78-1102 © SEMI 1998, 2002 21
+RELATED INFORMATION 2
+STATIC CONTROL METHODS
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  E78  and  is  not  intended  to  modify  or  supercede  the  official
+standard. Determination of the suitability of the material is solely the responsibility of the user.
+R2-1  Static Charge Control
+R2-1.1    It  is  usually  impossible  to  totally  eliminate
+static electricity from work areas, but with proper use of
+equipment    and    remedial    procedures,    most    static
+problems   can   be   controlled.   Many   approaches   to
+controlling  static  charge  have  been  tried  over  the  years
+and  it  is  clear  that  there  exists  no  single  method  for
+controlling all static charge problems.
+R2-2  Grounding Conductors and Static
+Dissipative Materials
+R2-2.1      An   important   consideration   in   selecting   a
+method  is  whether  the  charged  material  is  a  conductor
+or  an  insulator.  Static  dissipative  materials  are  created
+by   lowering   the   resistivity   of   insulating   materials
+through  the  addition  of  metal  or  carbon  particles,  or
+other chemical additives. Static charge on a conductive
+or static dissipative object can be easily controlled if the
+object is provided with a path for the charge to flow to
+earth ground. While charge is mobile in a conductor (or
+in  a  static  dissipative  material),  in  insulators  charge  is
+not  mobile,  and  earth  grounding  is  not  an  effective
+means of eliminating the static charge.
+R2-2.2      Equipment   manufacturers   can   use   both
+conductive and static dissipative materials to reduce the
+presence  of  static  charge.  If  there  is  a  path  for  the
+charge  to  flow  to  earth  ground,  the  static  charge  on
+equipment,  and  materials  handled  by  the  equipment,
+can be rapidly, and harmlessly, neutralized. Obviously,
+the success of earth grounding depends on maintaining
+the  integrity  of  the  ground  path.  This  is  sometimes  a
+problem  when  high-speed,  moving  parts  of  equipment
+must be connected to earth ground.
+R2-2.3    Static  dissipative  materials  will  need  to  retain
+their    dissipative    properties    over    the    range    of
+temperature    and    humidity    conditions    they    will
+encounter,  and  not  change  significantly  over  time.  In
+cleanrooms   they   must   also   meet   requirements   for
+avoiding  micro-particle  production  and  outgassing.  As
+long  as  the  ground  connection  is  maintained,  these
+ìpassiveî  procedures  offer  reasonable  protection  to  the
+equipment and product from sources of static charge.
+R2-2.4    Unfortunately,  these  methods  do  not  provide
+complete  protection  from  static-related  problems.  Even
+when  earth  grounding  is  an  option,  it  is  subject  to
+human error. In applications where contamination is an
+issue,  additives  and  carbon  particles  used  in  static-
+dissipative     materials     may     become     sources     of
+contamination themselves. When earth grounding or the
+use of dissipative materials is either inappropriate or not
+cost effective, ionization can be used.
+R2-3  Ionization
+R2-3.1    More  often  than  not,  the  product  itself  uses
+insulating      materials,      making      earth      grounding
+unavailable    as    an    option.    While    silicon    is    a
+semiconductor,  its  oxide  coating  transforms  it  into  an
+insulator.  Teflon  is  used  in  many  chemical  processes,
+and  quartz  in  high  temperature  processes.  Epoxy  and
+ceramic   packages   are   used   for   integrated   circuits.
+Insulators  are  easily  charged,  retain  their  charge  for
+long periods of time, and are often close to the product.
+Dealing  with  static  charge  on  insulators  and  isolated
+conductors  will  often  require  the  use  of  some  type  of
+ionization.  Ionizers  are  the  most  effective  means  of
+dealing  with  static  charges  on  insulators  and  isolated
+conductors.
+R2-3.2    For  purposes  of  static  charge  control,  ions  are
+molecules  of  the  gases  in  air  (nitrogen,  oxygen,  water
+vapor,  and  carbon  dioxide)  that  have  lost  or  gained  an
+electron.  Ions  are  present  in  normal  outside  air  but  are
+removed  when  air  is  subjected  to  filtration  and  air
+conditioning. Ionization systems work by increasing the
+conductivity  of  the  air  with  the  ionized  gas  molecules.
+When  ionized  air  comes  in  contact  with  a  charged
+surface, the charged surface attracts ions of the opposite
+polarity.  As  a  result,  the  static  electricity  that  has  built
+up on products, equipment and surfaces is neutralized.
+R2-3.3    The  most  common  methods  of  producing  air
+ions are radioisotopes and ìcorona dischargeî resulting
+from  the  electric  field  created  when  high  voltage  is
+applied to a sharp point.
+R2-3.4      The   radioisotope   most   commonly   used   to
+produce  ionization  is  Polonium
+210
+,  an  alpha  particle
+emitter. The alpha particle collides with the surrounding
+gas  molecules,  dislodging  electrons,  which  results  in
+pairs of positive and negative ions.
+R2-3.5    The  corona  discharge  method  produces  a  very
+high electric field that interacts with the electrons in the
+surrounding  gas.  The  polarity  of  the  ions  depends  on
+the  polarity  of  the  high  voltage  on  the  emitter  point.
+Ions  of  opposite  polarity  to  the  charged  surface  are
+required. Either polarity of static charge may be created
+in the equipment or on the product.
+
+
+SEMI E78-1102 © SEMI 1998, 2002 22
+R2-3.6    Ionizers  in  equipment  must  deliver  ionization
+over   a   wide   range   of   humidity   and   temperature
+conditions.  Back-end  assembly  and  test  areas  often  do
+not  have  the  level  of  temperature  and  humidity  control
+found  in  front-end  wafer  production.  Ionizers  installed
+in the cramped spaces of production equipment will be
+close  to  the  product,  in  areas  surrounded  by  grounded
+metal  parts.  Ionizers  should  isolate  the  emitter  points
+from  both  the  product  and  adjacent  grounded  surfaces.
+Ionizers  should  produce  sufficient  ions  to  discharge
+static  on  surfaces  and  products  moving  at  high  speeds
+despite    losses    to    ground.    Most    ionizers    require
+maintenance    and    periodic    verification    of    their
+performance.
+R2-4  Problem of Controlling Static Charge in
+Manufacturing Equipment
+R2-4.1      The   interior   of   high   speed   production
+equipment  presents  a  challenge  to  most  static  control
+methods.  The  cost  of  production  space  is  high  and
+requires   that   equipment   occupying   the   space   be
+compact  and  operate  at  as  high  a  speed  as  practical.
+Product is moved through small spaces at high speed by
+a variety of robotic and other mechanisms. Triboelectric
+charging  (charge  generation  due  to  friction  or  contact
+and separation of dissimilar materials) and contact with
+ground    are    almost    unavoidable.    Grounding    of
+equipment parts that contact the product presents added
+difficulties  when  the  equipment  parts  are  moving  at
+high    speeds.    Dissipating    charge    from    insulating
+surfaces  and  integrated  circuit  (IC)  packages  may  be
+difficult  if  the  charged  surfaces  are  not  accessible.
+Using   ionizers   in   these   confined   spaces   presents
+challenges.
+
+
+SEMI E78-1102 © SEMI 1998,2002 23
+RELATED INFORMATION 3
+EXAMPLE FOR ADDING ELECTROSTATIC COMPATABILITY
+REQUIREMENTS TO PURCHASING DOCUMENTS FOR
+SEMICONDUCTOR MANUFACTURING EQUIPMENT
+NOTE:  This  related  information  is  not  an  official  part  of  SEMI  E78  and  is  not  intended  to  modify  or
+supercede the official standard. Determination of the suitability of the material is solely the responsibility of
+the user.
+R3-1 Purpose
+Purchasing   semiconductor   manufacturing   equipment
+that   meets   SEMI   E78   Electrostatic   Compatibility
+requirements  can  reduce  the  cost  of  ownership  of  the
+equipment by reducing operating problems and product
+defects,  by  eliminating  costly  equipment  modifications
+after  delivery,  and  by  making  the  equipment  available
+for use more quickly after delivery.
+The  purpose  of  this  Related  Information  3  is  only  to
+describe  an  example  of    specifications  for  electrostatic
+compatibility  that  are  meant  to  form  part  of  a  general
+purchasing   document   for   production   equipment   or
+minienvironments.
+R3-1.1 Limitations  ó  Related  Information  3  is  only
+one   possible   example   of   defining   E78   compliance
+requirements  for  equipment.  Users  may  include  all,  or
+any   part   of   it,   modifying   it   as   necessary   in   their
+purchase    documents.    Users    are    responsible    for
+determining   the   appropriate   level   of   static   control
+protection depending on their specific circumstances.
+R3-2 Terminology (Reference: ESD
+Association Glossary ADV1.0)
+R3-2.1 conductive  material  —  electrostatic  conductive
+materials have a surface resistance of < 1 ◊ 10
+4
+Ω or a
+surface  resistivity  of <  1  ◊  10
+5
+Ω/square  when  tested
+according  to  ESD  Association  ESD  STM11.11,  or  a
+volume resistance of < 1 ◊ 10
+4
+Ω or a volume resistivity
+of  <  1  ◊  10
+4
+Ω-cm  when  tested  according  to  ESD
+Association  ANSI/ESD  STM11.12.  (Other  national  or
+international (IEC) standards  may be substituted).
+R3-2.2 static   dissipative   material   ó   electrostatic
+dissipative  materials  have  a  surface  resistance  between
+1  ◊  10
+4
+Ω  and  <  1  ◊  10
+11
+Ω  or  a  surface  resistivity  of
+between  1  ◊  10
+5
+Ω/square  and  <  1  ◊  10
+12
+Ω/square
+when tested using ESD Association ESD STM11.11, or
+a  volume  resistance  of  between  1  ◊  10
+4
+Ω  and  <  1  ◊
+10
+11
+Ω or volume resistivity between 1 ◊ 10
+4
+Ω-cm and
+<  1  ◊  10
+11
+Ω-cm  when  tested  using  ESD  Association
+ESD STM 11.12. (Other national or international (IEC)
+standards  may be substituted)
+R3-3 General Static Control System
+Description
+R3-3.1    The    static    control    system    shall    provide
+electrostatic   charge   and   ESD   control   to   meet   the
+recommendations  for  Level  2  (or  1,  3,  or  4  as  agreed
+upon)  contained  in  SEMI  standard  E78  Electrostatic
+Compatibility:     Guide     to     Assess     and     Control
+Electrostatic    Discharge    (ESD)    and    Electrostatic
+Attraction        (ESA)        for        Equipment.        These
+recommendations are defined in Section 12.5 Table 1.
+R3-3.2  The  static  control  system  shall  consist  of  the
+following    items,    applied    as    needed    to    assure
+compliance.
+R3-3.2.1   Grounding   of   conductive   equipment   parts
+when feasible.
+R3-3.2.2    Static    dissipative    materials    to    replace
+insulators when feasible.
+R3-3.2.3  Ionization  sources  to  control  static  charge  on
+process   essential   insulators   or   isolated   conductors,
+particularly  when  they  are  part  of  the  product  (e.g.,
+oxide-coated silicon, epoxy-packaged devices, reticles).
+R3-4 General Static Control System Design
+Requirements
+R3-4.1 Grounding
+R3-4.1.1  Conductive  equipment  parts  shall  maintain  a
+resistance  to  chassis  ground  or  to  electrical  ground  of
+less   than   1   ohm.   (Reference   ñ   ESD   Association
+standards    ANSI    EOS/ESD    S6.1    Grounding    --
+Recommended  Practice  and  ESD  SP10.1  Automated
+Handling  Equipment.  Other  national  or  international
+(IEC) standards  may be substituted)
+R3-4.1.2    In  critical  applications,  as  determined  by  the
+user, constant monitoring of equipment grounding shall
+be   required.   In   some   cases,   local   electrical   safety
+regulations  may  prohibit  the  use  of  this  method.  A
+suitable  test  method  to  capture  short  interruptions  of
+ground connections may need to be used.
+R3-4.1.3        Resistance    measurements    for    moving
+equipment  parts  shall  be  made  with  the  equipment  in
+operation.
+
+
+SEMI E78-1102 © SEMI 1998, 2002 24
+NOTE  3:  Grounding  methods  to  prevent  the  generation  and
+accumulation of static charge are not necessarily sufficient for
+conduction at high frequencies, or to provide electrical safety.
+R3-4.2  Static Dissipative Materials
+R3-4.2.1    Insulators  shall  be  replaced  with  grounded
+static dissipative materials when feasible.
+R3-4.3 Ionizers
+R3-4.3.1  Charge on insulators or isolated conductors in
+the  product  handling  path,  product,  or  reticles  (if  used
+by   the   equipment   to   produce   product)   shall   be
+controlled with ionizers.
+R3-4.3.2  Ionizer  performance  shall  be  measured  using
+ESD    Association    standard    ANSI    ESD    STM3.1
+Ionization.   (Other   national   or   international   [IEC]
+standards may be used.)
+R3-4.4  Cleanroom Compatibility
+If  equipment  or  materials  are  to  be  installed  in  a
+cleanroom,  all  static  control  system  components  shall
+demonstrate    compatibility    with    cleanroom    class
+requirements.
+NOTE    4:        The    user    may    need    to    define    cleanroom
+compatibility  requirements  for  static  control  materials  here
+(such    as,    particle    shedding,    outgassing,    and    chemical
+compatibility) if such requirements are not defined elsewhere
+in  the  purchasing  document.  (Reference  ESD  TR11-01
+−
+Electrostatic  Guidelines  and  Considerations  for  Cleanrooms
+and Clean Manufacturing)
+R3-5  Compliance Testing
+R3-5.1  Compliance testing shall be done by:
+a) a capable independent third party, or
+b) the equipment manufacturer, or
+c) the end user
+to    demonstrate    that    the    equipment    meets    the
+recommendations  for  Level  2  (or  1,  3,  or  4  as  agreed
+upon) contained in SEMI standard E78.
+R3-5.2    Acceptance  testing  of  the  static  control  system
+performance   shall      be   performed   at   the   actual
+equipment use location.
+R3-6 Referenced Standards
+(The    following    ESD    Association    Standards    and
+Advisories
+4
+are  referenced  above.  The  may  be  other
+equivalent  national  or  international  standards  covering
+these areas.)
+ESD ADV1.0 ó Glossary of Terms
+
+
+4 ESD Association, 7900 Turin Road, Rome, NY 13440 USA.
+ANSI ESD STM3.1 ó Ionization
+ANSI/ESD   S6.1   ó   Grounding   ñ   Recommended
+Practice
+ESD SP10.1 ó Automated Handling Equipment
+ESD STM11.11 ó Surface Resistance Measurement of
+Static Dissipative Planar Materials
+ANSI/ESD     STM11.12     ó     Volume     Resistance
+Measurement of Static Dissipative Planar Materials
+ESD    TR11-01    ó    Electrostatic    Guidelines    and
+Considerations       for       Cleanrooms       and       Clean
+Manufacturing
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturerís   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  userís  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.  By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item  mentioned  in  this  standard.  Users  of  this  standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.
+
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International),3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 1
+SEMI E79-0304
+SPECIFICATION FOR DEFINITION AND MEASUREMENT OF
+EQUIPMENT PRODUCTIVITY
+This specification was technically approved by the Global Metrics Committee and is the direct responsibility
+of  the  North  American  Metrics  Committee.  Current  edition  approved  by  the  North  American  Regional
+Standards  Committee  on  October  15,  2003  and  December  4,  2003.    Initially  available  at  www.semi.org
+February  2004;  to  be  published  March  2004.  Originally  published  February  1999;  last  published  February
+
+# 2000
+
+2000.
+1  Purpose
+1. 1      The   document   provides   metrics   for   measuring
+equipment productivity.
+2  Scope
+2. 1    The  document  defines  metrics  and  calculations  for
+measurement of equipment productivity.
+2. 2    In  the  context  of  this  document,  it  is  important  to
+note  that  “equipment  productivity”  is  impacted  greatly
+by  factors  far  beyond  the  equipment  itself,  including
+operator,     recipe,     facilities,     material     availability,
+scheduling requirements, etc.
+2. 3    Effective  application  of  this  specification  requires
+that equipment performance is tracked using the metrics
+for      Equipment      Reliability,      Availability,      and
+Maintainability   (RAM)   established   in   SEMI   E10.
+Additionally,  the  Automated  Reliability,  Availability,
+and Maintainability Standard (ARAMS) SEMI E58 can
+be   used   for   equipment   with   ARAMS   capability.
+Productivity  metrics  for  flexible-sequence  cluster  tools
+require  tracking  of  SEMI  E10  equipment  states  and
+recipes  at  the  level  of  individual  processing  modules.
+The  Equipment  Performance  Tracking  (EPT)  Standard
+SEMI  E116  assists  SEMI  E79  by  providing  the  status
+of   the   major   modules   of   the   equipment   allowing
+performance  metrics  to  be  tracked  at  the  module  level.
+SEMI  E116  also  assists  SEMI  E79  by  providing  task-
+level   detail   of   the   equipment   or   module’s   current
+activity,  allowing  performance  metrics  to  be  tracked  at
+the  task  level.  Productivity  performance  of  a  flexible-
+sequence cluster tool is then calculated as the aggregate
+productivity  performance  of  its  individual  processing
+modules.
+2. 4    This  document  is  currently  limited  to  measuring
+equipment    productivity    using    Overall    Equipment
+Efficiency  (OEE)  as  the  metric,  and  does  not  address
+the  impact  of  productivity  changes  on  cost,  cycle  time,
+or other measures. This document does not address any
+RAM issues over and above those in SEMI E10.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Referenced Standards
+3. 1  SEMI Standards
+SEMI    E10    —    Specification    for    Definition    and
+Measurement  of  Equipment  Reliability,  Availability,
+and Maintainability (RAM)
+SEMI  E38  —  Cluster  Tool  Module  Communications
+(CTMC)
+SEMI  E58  —  Automated  Reliability,  Availability,  and
+Maintainability    Standard    (ARAMS):        Concepts,
+Behavior, and Services
+SEMI E116 — Provisional Specification for Equipment
+Performance Tracking
+NOTICE:  Unless  otherwise  indicated,  all  documents
+cited shall be the latest published versions.
+4  Terminology
+4. 1  Terminology   Applicable   to   Computation   of   the
+OEE Metric
+4. 1.1  actual  unit  output  (units)  — the  number  of  units
+processed by the equipment during production time.
+4. 1.2  availability  efficiency  (time  divided  by  time)  —
+the  fraction  of  total  time  that  the  equipment  is  in  a
+condition to perform its intended function.
+4. 1.3  cluster  tool  —  a  manufacturing  system  made  up
+of  integrated  processing  modules  mechanically  linked
+together  (the  modules  may  or  may  not  come  from  the
+same supplier)  (SEMI E10).
+4. 1.4  downtime  (equipment  downtime)  (time)  —  the
+time when the equipment is not in a condition, or is not
+available,  to  perform  its  intended  function.    It  does  not
+include any portion of non-scheduled time (SEMI E10).
+4. 1.5  effective  unit  output  (units)  —  the  number  of
+units  processed  by  the  equipment  during  production
+time  that  were  of  acceptable  quality,  i.e.,  actual  unit
+output less equipment assignable rework and equipment
+assignable scrap.
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 2
+4. 1.6  equipment-assignable rework (units) — any units
+being reworked due to a fault or defect assignable to the
+subject  equipment.  The  units  may  be  reworked  at  the
+equipment  where  the  fault  or  defect  occurred,  or  at
+other equipment.
+4. 1.7  equipment-assignable  scrap  (units)  —  any  units
+that are permanently removed from production due to a
+fault or defect assignable to the subject equipment.  The
+units may be removed from production at the operation
+where  the  fault  or  defect  occurred,  or  at  a  subsequent
+operation.
+4. 1.8  equipment  module  ó  an  indivisible  entity  within
+a system.
+4. 1.9  fixed-sequence  cluster  tool  —  a  cluster  tool  in
+which   all   units   of   production   visit   all   processing
+modules making up the tool in a fixed sequence.
+1
+
+4. 1.10  flexible-sequence cluster tool — a cluster tool in
+which  the  units  of  production  visit  a  subset  of  the
+processing  modules  of  the  tool  in  sequences  that  may
+vary  from  unit  to  unit.  In  such  tools,  the  processing
+modules  that  are  engaged  in  processing  activity  vary
+from  unit  to  unit  according  to  dispatching  decisions
+made by software internal to the tool (CSM 42).
+4. 1.11  non-processing  module  — an  equipment  entity
+that  supports  the  movement  or  conditioning  of  units
+through the system, such as,
+• robotic handler
+• load/unload lock
+• pre-aligner
+4. 1.12  non-scheduled  time  (time)  — time  when  the
+equipment  is  not  scheduled  to  be  used  in  production
+(SEMI E10).
+4. 1.13  operational efficiency (time divided by time) —
+the  fraction  of  equipment  uptime  that  the  equipment  is
+processing actual units.
+4. 1.14  operations time (time) — total time minus  non-
+scheduled time (SEMI E10).
+4. 1.15  overall    equipment    efficiency    (OEE)    (time
+divided by time) — a metric of equipment performance,
+expressing   the   theoretical   production   time   for   the
+effective unit output divided by the total time.
+2
+.
+NOTE  1:    The  overall  equipment  efficiency  metric  accounts
+for  all  losses  that  reduce  equipment  performance  from  its
+
+1 CSM 42:  Productivity Metrics for Flexible-Sequence Cluster
+Tools,
+Engineering Systems Research Center, University of
+California, Berkeley, 1998
+2 CSM 21:  Closed-Loop Measurement of Equipment Efficiency and
+Equipment Capacity, Engineering Systems Research Center,
+University of California, Berkeley, 1997.
+maximum    potential    performance    taking    the    existing
+equipment design and recipe specifications as given.
+4. 1.16  performance  efficiency  (time  divided  by  time)
+— the fraction of equipment uptime that the equipment
+is processing actual units at theoretically efficient rates.
+4. 1.17  processing  module  ó  an  indivisible  production
+entity  within  an  equipment  system,  e.g.,  a  processing
+chamber or station within a cluster tool.
+4. 1.18  processing   module   recipe   —   all   processing
+steps  of  a  recipe  performed  within  a  single  processing
+module  without  requiring  reloading  of  that  processing
+module (CSM 42).
+4. 1.19  production  time  (time)  —  sum  of  all  periods  of
+time  in  which  a  processing  module  is  performing  its
+intended function.
+• For  a  non-cluster  tool,  a  fixed-sequence  cluster
+tool,  or  an  individual  processing  module  within  a
+flexible-sequence  cluster  tool,  production  time  is
+equivalent  to  the  SEMI  E10  productive  time  for
+that entity.
+• For  a  flexible-sequence  cluster  tool,  production
+time  is  the  sum  of  the  productive  times  of  all
+processing  modules  encompassed  by  the  cluster
+tool (CSM 42).
+4. 1.20  productive state — a period of time (productive
+time)  when  the  equipment  is  performing  its  intended
+function (SEMI E10).
+4. 1.21  quality  efficiency  (time  divided  by  time)  —  the
+theoretical  production  time  for  Effective  Units  divided
+by the theoretical production time for Actual Units.
+4. 1.22  rate  efficiency  (time  divided  by  time)  —  the
+fraction   of      production   time   that   equipment   is
+processing actual units at theoretically efficient rates.
+4. 1.23  recipe —  the  pre-planned  and  reusable  portion
+of the set of instructions, settings, and parameters under
+control   of   a   processing   agent   that   determines   the
+processing  environment  seen  by  the  material.    Recipes
+may  be  subject  to  change  between  runs  or  processing
+cycles (SEMI E38).
+4. 1.24  system — an integrated structure of components
+and  subsystems  capable  of  performing,  in  aggregate,
+one  or  more  specific  functions.  For  the  purpose  of  this
+specification,   a   system   consists   of   one   or   more
+processing or non-processing modules.
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 3
+4. 1.25  theoretical production time per unit (THT) (time
+per  unit)  —  the  minimum  rate  of  time  per  unit  to
+complete processing, given:
+• the specified recipe
+• the equipment design
+• continuous operation
+• no efficiency losses
+NOTE  2:    Recipe  specifications  and  settings  for  THT  are  the
+ones   actually   used   in   production   and   are   not   idealized.
+Equipment  of  the  same  design  (e.g.,  same  make  and  model)
+are expected to have the same THTs, whereas equipment of a
+different   design   may   have   different   THTs   even   if   they
+perform  the  same  intended  function.  Continuous  operation
+requires  that  equipment  loading  is  optimized  for  throughput
+and there are no internal or external interruptions or delays to
+processing.    Given    the    constraints    of    specified    recipe,
+equipment   design,   and   continuous   operation,   THTs   shall
+not  include  allowances  for  any  other  efficiency  losses  (e.g.,
+slower  than  ideal  changes  in  temperature  or  pressure,  longer
+than ideal reaction times for valves or moving parts, different
+moments  within  a  maintenance  cycle  or  the  life-cycle  of  a
+consumable, etc.).
+
+4. 1.26  theoretical production time (time) — production
+time  during  a  period  that  is  theoretically  required  to
+complete  the  unit  quantities  of  the  production  recipes
+undertaken  during  the  period.  Theoretical  production
+time is computed as the aggregation over all recipes of
+the  theoretical  production  time  per  unit  for  the  recipe
+applied  to  the  unit  quantity  of  that  recipe  (CSM  21,
+CSM    42).    For    flexible-sequence    cluster    tools,
+theoretical production time is the sum of the theoretical
+production times for the set of virtual machines.
+4. 1.27  theoretical  unit  throughput  by  recipe  (units  per
+time)  —  for  a  given  production  recipe,  the  number  of
+units  per  period  of  time  that  theoretically  could  be
+processed   by   the   equipment.      For   each   recipe,
+theoretical  unit  throughput  is  equal  to  the  reciprocal  of
+theoretical production time per unit.
+4. 1.28  total  time  (time)  —  all  time  (at  the  rate  of  24
+hours  per  day,  seven  days  per  week)  during  the  period
+being measured.  In order to have a valid representation
+of total  time  all  six  basic  equipment  states  shall  be
+accounted for and tracked accurately (SEMI E10). For a
+flexible-sequence  cluster  tool,  total  time  is  defined  as
+the  aggregate  total  time  of  the  set  of  virtual  machines
+encompassed by the cluster tool (CSM 42).
+4. 1.29  unit —  any  wafer,  die,  packaged  device,  or
+piece  part  thereof  (includes  product  and  non-product
+units) (SEMI E10).
+4. 1.30  uptime  (equipment  uptime)  (time)  —  the  time
+when  the  equipment  is  in  a  condition  to  perform  its
+intended function.  It includes productive, standby, and
+engineering  time,  and  does  not  include  any  portion  of
+non-scheduled   time   (SEMI   E10).   For   a   flexible-
+sequence   cluster   tool,   uptime   is   defined   as   the
+aggregate   uptime   of   the   set   of   virtual   machines
+encompassed by the cluster tool (CSM 42).
+4. 1.31  virtual   machine   —   an   individual   processing
+module   within   a   flexible-sequence   cluster   tool,   in
+combination  with  the  transport  module(s)  serving  that
+processing module. A flexible-sequence cluster tool has
+one  virtual  machine  defined  for  each  of  its  processing
+modules (CSM 42).
+4. 2  Terminology     Applicable     to     Computation     of
+Additional Productivity Metrics Defined in Appendix 2
+4. 2.1  demand    equipment    efficiency    (DEE)    (time
+divided    by    time)    —    a    measure    of    equipment
+productivity  during  the  time  that  products  are  planned
+to be available to process at the equipment.
+4. 2.2  engineering   overall   equipment   efficiency   (E-
+OEE)   (time   divided   by   time)   —   a   measure   of
+equipment productivity assuming process specifications
+are optimized for minimum production time.
+4. 2.3  engineering  theoretical  production  time  per  unit
+(ETHT) –   (time   per   unit)   —   the   theoretical   time
+required  to  process  a  given  recipe  assuming  the  recipe
+specification   is   optimized   for   minimum   production
+time. ETHT  is  based  on  minimum  durations  for  the
+objective  processing  steps,  e.g.,  implant  time  for  ion
+implant  systems,  plus  minimum  allowances  for  any
+additional   supporting   process   steps,   e.g.,   heating,
+cooling,  gas  stabilization,  that  are  deemed  absolutely
+necessary. ETHT
+
+shall  be  defined  to  be  less  than  or
+equal  to  the  corresponding theoretical  time  per  unit
+(THT) used in calculating OEE.
+4. 2.4  equipment  down  no  product  time  (time)  —  the
+period  of  equipment  downtime  during  which  there  are
+no units available at the equipment to process.
+4. 2.5  intrinsic equipment efficiency (IEE) (time divided
+by  time)  —  a  measure  of  equipment  productivity  that
+considers  the  combined  effect  of  rate  efficiency  losses,
+recipe design, and equipment design.
+4. 2.6  no  product  time  (time)  —  the  period  of  standby
+time  that  the  equipment  is  idle  because  there  are  no
+units available at the equipment to process.
+4. 2.7  planned  no  product  time  (time)  —  the  period  of
+operations  time  that  the  factory  model  or  production
+schedule expects the equipment to be idle because there
+are no units available to process at the equipment.
+4. 2.8  production   equipment   efficiency   (PEE)   (time
+divided    by    time)    ó    a    measure    of    equipment
+productivity during the time that products are available
+to process at the tool.
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 4
+NOTE 3:  One   application   of PEE is   to   measure   the
+productivity  of  non-constraint  tools  that  are  expected  to  have
+periods of idle time due to lack of available work.
+4. 2.9  reference  overall  equipment  efficiency    (R-OEE)
+(time  divided  by  time)  —  a  measure  of  equipment
+productivity    relative    to    a    benchmark    theoretical
+production time.
+4. 2.10  reference  theoretical  production  time  per  unit
+(RTHT) (time per unit) — the theoretical time required
+to process a given recipe on benchmark equipment (i.e.,
+the  fastest  equipment  model  of  similar  type),  for  a
+benchmark product and process design.  RTHT
+
+shall be
+defined  to  be  less  than  or  equal  to  the  corresponding
+theoretical  time  per  unit (THT)  used  in  calculating
+OEE.
+4. 2.11  value-added     in-process     overall     equipment
+efficiency   (VA-OEE)   (time   divided   by   time)   ó   a
+measure  of  equipment  productivity  assuming  all  time
+except  the  value-added  portion  of  processing  cycles  is
+wasted equipment time.
+4. 2.12  value-added  in-process  theoretical  production
+time  per  unit (VTHT)  (time  per  unit)  —  theoretical
+production  time  per  unit  that  credits  only  the  objective
+processing steps that add value to products.  VTHT
+
+shall
+be  defined  to  be  less  than  or  equal  to  engineering
+theoretical  production  time  per  unit (ETHT)  used  in
+calculating engineering OEE (E-OEE).
+5  Equipment Productivity Measurement
+5. 1    The  OEE  calculation  has  been  stated  in  terms  that
+are consistent with SEMI E10.  Reference may be made
+to Figure 1.
+5. 1.1  Figure 2 indicates how total time may be divided
+into  portions  representing  theoretical  production  time
+for  effective  units  and  various  sources  of  productivity
+loss.  The  domain  for  productivity  improvement  of  all
+losses  except  operational  efficiency  is  shared  between
+the     equipment     supplier     and     equipment     user.
+Productivity  improvement  of  operational  efficiency  is
+the exclusive domain of the equipment user.
+5. 1.2  The formulas introduced in this section require as
+inputs  the  following  fundamental  quantities:  total  time,
+equipment   uptime,   production   time,   and   theoretical
+production  time.  Sample  calculations  for  each  of  the
+formulas are provided in Appendix 1.
+5. 1.3        For    efficiency    measurement    of    individual
+processing  modules  or  of  fixed-sequence  cluster  tools,
+the   fundamental   quantities   may   be   tallied   in   a
+straightforward manner, and consequently the formulas
+of  this  section  may  be  applied  in  a  straightforward
+fashion.
+5. 1.4  For  efficiency  measurement  of  flexible-sequence
+cluster    tools,    determination    of    the    fundamental
+quantities     requires     more     involved     calculations.
+Formulas  are  provided  in  Section  6  for  computing  the
+fundamental   quantities   for   flexible-sequence   cluster
+tools.  These  fundamental  quantities  then  may  be  used
+as inputs to the formulas of this section to compute the
+efficiency of a flexible-sequence cluster tool.
+5. 1.5    Additional  supplemental  efficiency  metrics  that
+will  enable  users  to  assess  more  specific  aspects  of
+equipment productivity are:
+• Reference OEE,
+• Engineering OEE,
+• Value-Added In-Process OEE,
+• Demand Equipment Efficiency,
+• Production Equipment Efficiency, and
+• Intrinsic Equipment Efficiency.
+Definitions and formulas for these metrics are presented
+in Appendix 2.
+5. 2  Overall   Equipment   Efficiency   (OEE)   ó   The
+fraction   of   total   time   that   equipment   is   producing
+effective units at theoretically efficient rates.
+Overall Equipment Efficiency (OEE)
+= (Theoretical Production Time for Effective Units)
+/(Total Time)
+= (Availability Efficiency) ◊ (Performance Efficiency)
+◊ (Quality Efficiency)
+
+5. 2.1  Availability  Efficiency  —  The  fraction  of  total
+time that the equipment is in a condition to perform its
+intended function.
+Availability Efficiency =
+(Equipment Uptime)/(Total Time)
+5. 2.2  Performance   Efficiency   —   The   fraction   of
+equipment  uptime  that  the  equipment  is  processing
+actual units at theoretically efficient rates.
+Performance Efficiency =
+(Operational Efficiency) ◊ (Rate Efficiency)
+5. 2.2.1  Operational   Efficiency   —   The   fraction   of
+equipment  uptime  that  the  equipment  is  processing
+actual units.
+Operational Efficiency =
+(Production Time)/(Equipment Uptime)
+
+5. 2.2.2
+Rate  Efficiency  —  The  fraction  of  production
+time   that   equipment   is   processing   actual   units   at
+theoretically efficient rates.
+
+Rate Efficiency =
+= (Theoretical Production Time for Actual Units)
+/(Production Time)
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 5
+5. 2.2.3  Theoretical  Production  Time  (for  Actual  Units
+or  for  Effective  Units)  —  Production  time  (for  actual
+units   or   for   effective   units)   during   a   period   of
+observation   that   is   earned   at   strictly   theoretically
+efficient rates and assumes no efficiency losses.
+
+Theoretical Production Time for Actual Units =
+∑
+i
+(Actual Units of Recipe i ◊ THT
+i
+)
+
+Theoretical Production Time for Effective Units =
+∑
+i
+(Effective Units of Recipe i ◊ THT
+i
+)
+where
+
+THT
+i
+= theoretical production time per unit of recipe
+i
+
+NOTE 4:  Theoretical Production Time (for actual units or for
+effective units) may be calculated in terms of theoretical unit
+throughput by recipe.
+
+Theoretical Production Time for Actual Units =
+∑
+i
+(Actual Units of Recipe i/UPH
+i
+)
+
+Theoretical Production Time for Effective Units =
+∑
+i
+(Effective Units of Recipe i/UPH
+i
+)
+where
+
+UPH
+i
+=    theoretical unit throughput by recipe
+of recipe i
+
+
+5. 2.3  Quality  Efficiency  —  The  theoretical  production
+time  for  Effective  Units  divided  by  the  theoretical
+production time for Actual Units.
+
+Quality Efficiency =
+(Theoretical Production Time for Effective Units)
+/(Theoretical Production Time for Actual Units)
+
+
+Total Time
+Operations Time
+Engineering Time
+Uptime
+Manufacturing Time
+•Process experiments
+•Equipment experiments
+Productive TimeStandby Time
+•Regular production
+•Work for 3rd party
+•Engineering runs
+•Rework
+•Scrap
+•No operator
+•No product
+•No support tool
+•Associated cluster
+module down
+Operational
+Efficiency
+Quality Efficiency
+Non-Scheduled Time
+•Unworked shifts, days
+•Installation, modification
+rebuild or upgrade
+•Off-line training
+•Shutdown/startup
+Downtime
+Unscheduled DowntimeScheduled Downtime
+•Maintenance delay
+•Repair time
+•Change of consumables
+•Out of spec input
+•Facilities related
+•Maintenance delay
+•Production tests
+•Preventive maintenance
+•Change of consumables
+•Setup
+•Facilities related
+Availability
+Efficiency
+Rate Efficiency
+Not specified in
+SEMI E10 but occurs
+during Productive Time
+
+
+Figure 1
+The Relationship Between SEMI E10 and OEE
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 6
+Availability Efficiency
+Losses
+(Supplier and User Domain)
+Non-Scheduled Time
+Scheduled Downtime
+Unscheduled Downtime
+Engineering
+Standby
+Production
+Time
+E10 States
+Theoretical
+Production
+Time for
+Actual Units
+Operational
+Efficiency Losses
+(User Domain)
+Rate Efficiency
+Losses
+(Supplier and User Domain)
+Performance
+Efficiency
+Losses
+(Supplier and
+User Domain)
+Assignable Quality
+Efficiency Losses
+(Supplier and User Domain)
+Theoretical
+Production Time
+for Effective Units
+E79 Productivity Losses and
+Improvement Domains
+
+Figure 2
+Stack Chart of Productivity Losses and Improvement Domains
+
+6  Flexible-Sequence Cluster Tools
+6. 1      This   section   provides   definitions   and   formulas
+applicable    to    flexible-sequence    cluster    tools    for
+computing    the    following    fundamental    quantities:
+theoretical production time, production time, equipment
+uptime  and  total  time.  These  quantities  serve  as  inputs
+to    the    formulas    of    Section    5    for    efficiency
+measurement.
+6. 1.1      Flexible-sequence   cluster   tool   productivity   is
+measured  at  the  individual  processing  module  level  of
+detail according to a virtual machine model described in
+this  section.    Productivity  performance  for  the  entire
+flexible-sequence  cluster  tool  is  then  calculated  as  the
+aggregate  productivity  performance  of  its  individual
+processing modules.
+NOTE    5:        Evaluation    of    flexible-sequence    cluster    tool
+productivity  does  not  necessarily  apply  to  the  evaluation  of
+flexible-sequence cluster tool RAM.
+6. 2  Virtual Machine Model
+6. 2.1    A  virtual  machine  is  an  individual  processing
+module  in  combination  with  the  transport  mechanisms
+that  serve  that  processing  module.    When  a  transport
+mechanism is engaged in a material handling operation
+that does not involve a particular processing module, it
+is  not  considered  to  be  operating  as  part  of  the  virtual
+machine defined for that processing module.
+6. 2.2    Theoretical  production  time  per  unit  for  a  recipe
+is   the   sum   of   theoretical   times   for   all   required
+operational elements:
+• Wafer loading,
+• Elements occurring within a process module, and
+• Wafer unloading.
+6. 2.2.1    Where  appropriate,  a  combined  loading  and
+unloading   time   may   be   replaced   with   a   single
+theoretical value for a wafer exchange.
+6. 3  Fundamental  Quantities  for  Virtual  Machines  and
+Flexible-Sequence Cluster Tools ó This section defines
+fundamental quantities that are evaluated for individual
+virtual  machines  and  flexible-sequence  cluster  tools  as
+inputs  to  the  formulas  presented  in  Section  5.    In  each
+case,  the  fundamental  quantity  is  determined  for  each
+individual  virtual  machine  within  a  flexible-sequence
+cluster  tool.    The  equivalent  fundamental  quantity  for
+the  flexible-sequence  cluster  tool  is  the  sum  of  the
+quantities for the individual virtual machine.
+NOTE 6:  It is recognized that application-specific
+interactions    between    virtual    machines    within    flexible-
+sequence   cluster   tools   may   impose   varying   amounts   of
+standby   time   on   the   individual   virtual   machines.   This
+approach  treats  these  interactions  as  standby  losses  for  the
+flexible-sequence   cluster   tool   and   does   not   make   any
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 7
+allowances  for  them  in  either  production  time  or  theoretical
+production time.
+6. 3.1  Theoretical  Production  Time  (for  Actual  Units
+and for Effective Units)
+6. 3.1.1  Virtual  Machine  Theoretical  Production  Time
+(for Actual Units and for Effective Units) — Theoretical
+production   time   earned   by   an   individual   virtual
+machine according to the virtual machine model.
+
+Virtual Machine
+Theoretical Production Time for Actual Units =
+Σ
+i
+[(Theoretical Production Time Per Unit
+for Virtual Machine Recipe i)
+◊ (Actual Units of Virtual Machine Recipe i)]
+
+Virtual Machine
+Theoretical Production Time for Effective Units
+= Σ
+i
+[(Theoretical Production Time Per Unit
+for Virtual Machine Recipe i)
+◊ (Effective Units of Virtual Machine Recipe i)]
+
+
+6. 3.1.2  Flexible-Sequence   Cluster   Tool   Theoretical
+Production  Time  (for  Actual  Units  and  for  Effective
+Units) — Aggregate theoretical production time earned
+by all virtual machines according to the virtual machine
+model.
+Flexible-Sequence Cluster Tool
+Theoretical Production Time for Actual Units
+= Σ
+j
+(Theoretical Production Time
+for Actual Units for Virtual Machine j)
+
+Flexible-Sequence Cluster Tool
+Theoretical Production Time for Effective Units
+= Σ
+j
+(Theoretical Production Time
+for Effective Units for Virtual Machine j)
+6. 3.2  Production Time
+6. 3.2.1  Virtual  Machine  Production  Time  ó  The  sum
+of  all  periods  of  manufacturing  time  in  which  a  virtual
+machine   is   performing   operations   according   to   the
+virtual  machine  model.    When  SEMI  E10  equipment
+states   are   tracked   at   the   virtual   machine   level,
+processing module production time is equivalent to E10
+productive  time.    Automated  tracking  is  required  for
+accurate results.
+6. 3.2.2  Flexible-Sequence   Cluster   Tool   Production
+Time   —   Aggregate   production   time   for   all   virtual
+machines   tracked   according   to   the   virtual   machine
+model.
+
+Flexible-Sequence Cluster Tool Production Time =
+=Σ
+j
+(Production Time for Virtual Machine j)
+
+NOTE   7:      In   this   quantity,   elapsed   times   for   transport
+operations  that  reposition  units  from  one  virtual  machine  to
+another are intentionally credited to both modules.  Also note
+that  this  aggregate  measure  may  be  larger  than  the  elapsed
+time   observed   and   can   only   be   compared   with   similar
+aggregate flexible-sequence cluster tool metrics.
+6. 3.3  Equipment Uptime
+6. 3.3.1    Equipment  uptime  is  defined  to  measure  the
+total time, during a period of observation, that a virtual
+machine  or  a  flexible-sequence  cluster  tool  is  in  a
+condition to perform processing in some form.
+6. 3.3.2        SEMI    E10    defines    equipment    uptime    as
+including  E10  productive  time,  engineering  time,  and
+standby  time.    This  definition  applies  to  individual
+virtual  machines  of  a  flexible-sequence  cluster  tool.
+For  the  flexible  sequence  cluster  tool  as  a  whole,
+production  time  is  the  sum  of  production  times  for  the
+individual  virtual  machines.  This  production  time  is
+used in lieu of productive time.
+6. 3.3.3  Virtual Machine Equipment Uptime
+Virtual Machine Equipment Uptime =
+Virtual Machine Production Time
++ Virtual Machine Engineering Time
++ Virtual Machine Standby Time
+
+6. 3.3.3.1  Virtual  Machine  Engineering  Time  —  The
+sum of all periods of time in which a virtual machine is
+user-selected   for   the   exclusive   use   of   engineering
+product,    process,    and/or    equipment    experiments.
+Engineering   time   may   be   declared   for   one   virtual
+machine without having to declare engineering time for
+all virtual machines.
+6. 3.3.3.2  Virtual Machine Standby Time — The sum of
+all   periods   of   manufacturing   time   not   counted   in
+production time, when the virtual machine is capable of
+starting new work.
+6. 3.3.4  Flexible-Sequence    Cluster    Tool    Equipment
+Uptime
+
+Flexible-Sequence Cluster Tool Equipment Uptime =
+Σ
+j
+(Virtual Machine Equipment Uptime
+for Virtual Machine j)
+
+
+6. 3.4  Total Time
+6. 3.4.1  Virtual  Machine  Total  Time  ó  For  individual
+virtual  machines,  virtual  machine  total  time  is  trivially
+defined as all time observed (at the rate of 24 hours per
+day and seven days per week).
+6. 3.4.2  Flexible-Sequence Cluster Tool Total Time
+Flexible-Sequence Cluster Tool Total Time =
+Σ
+j
+(Virtual Machine Total Time
+for Virtual Machine j) =
+(Total Time Observed) ◊ (Number of Virtual Machines)
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 8
+7  Related Reference Material
+Nakajima,  S.,  Introduction  to  TPM:    Total  Productive
+Maintenance,   Productivity   Press,   Cambridge,   MA.
+
+# 1988
+
+1988.
+TPM   in   Process   Industries
+;   Edited   by   Tokutaroo
+Suzuki, Productivity Press, 1994.  (Originally published
+as  Sochi  Kogyo  no  TPM
+:    Japan  Institute  of  Plant
+Maintenance, 1992).
+TPM  Encyclopedia
+;  Edited  by  Japan  Institute  of  Plant
+Maintenance, 1996.
+TPM    Focused    Improvement
+:        Loss    Assessment
+Training Module, International SEMATECH, Available
+to  International  SEMATECH  and  SEMI-SEMATECH
+member companies, 1999.
+TPM  New  Implementation  Program  in  Fabrication  and
+Assembly  Industries,  Edited  by  Kunio  Shirose,  Japan
+Institute of Plant Maintenance, 1996.
+Konopka,     John     M.,     Improvement     Output     in
+Semiconductor  Manufacturing  Environments,  doctoral
+dissertation,  Arizona  State  University,  Temp,  Arizona,
+
+# 1996
+
+1996.
+Konopka,  John.,  Trybula,  Walt.,  Overall  Equipment
+Effectiveness      (OEE)      and      Cost      Measurement,
+Proceedings     of     the          1996     IEEE/CPMT     19
+th
+
+International   Electronics   Manufacturing   Technology
+Symposium, Austin, TX, USA, 1996.
+Leachman,  Robert    C.,  Closed-Loop  Measurement  of
+Equipment  Efficiency  and  Equipment  Capacity,  IEE
+Trans. Sem. Manuf. 10(1), 84097, 1997.
+Busing,     David     P.,     Automated     Procedures     for
+Characterizing    Specific    Productivity    Losses    with
+Applications   in   the   Semiconductor   Manufacturing
+Industry
+, doctoral dissertation, University of California,
+Berkeley, 1998.
+CSM-44:      Performance   Models   of   Theoretical   and
+Average  Process  Times  for  Selected  Semiconductor
+Fabrication  Equipment;  Engineering  Systems  Research
+Center, University of California, Berkeley, 1999.
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 9
+APPENDIX 1
+CALCULATING PRODUCTIVITY METRICS
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E79  and  was  approved  by  full  letter  ballot
+procedures on December 15, 1999 by the North American Regional Standards Committee.
+A1-1  Example Calculations for an Individual
+Processing Module or a Fixed-Sequence
+Cluster Tool
+A1-1.1  Sample Data — The calculations in this section
+are  based  on  the  following  sample  data.    The  sample
+data is for a seven-day period.
+
+
+Non-Scheduled Time                        0.00                        hours
+
+Unscheduled Downtime 4.00 hours
+
+Scheduled Downtime 8.00 hours
+
+Engineering Time 3.00 hours
+
+Standby Time  6.00 hours
+
+Production Time                       147.00                      hours
+
+Total Time 168.00 hours
+
+
+
+
+Recipe
+
+Theoretical
+Production
+Time
+Per Unit
+
+
+Theoretical
+Units
+Per Hour
+
+Actual
+Units
+of
+Recipe
+
+Effective
+Units
+of
+Recipe
+
+A            0.03333
+hr/unit
+30. 00
+units/hr
+1420          1400
+B            0.04000
+hr/unit
+25. 00
+units/hr
+600            600
+C            0.05000
+hr/unit
+20. 00
+units/hr
+800            800
+D            0.06667
+hr/unit
+15. 00
+units/hr
+500            480
+
+A1-1.2  Fundamental Quantities
+
+Equipment Uptime
+= (Production Time) + (Standby Time) + (Engineering Time)
+= (147.00 hours) + (6.00 hours) + (3.00 hours)
+= 156.00  hours
+
+Production Time (given)
+
+Theoretical Production Time for Actual Units
+= ∑
+i
+(Actual Units of Recipe i  ◊  THT
+i
+)
+=  [(1420 units ◊ 0.03333 hr/unit)
++ (600 units ◊ 0.04000 hr/unit)
++ (800 units ◊ 0.05000 hr/unit)
++ (500 units ◊ 0 .06667 hr/unit)]
+= 144.66  hours
+
+Theoretical Production Time for Effective Units
+= ∑
+i
+(Effective Units of Recipe i  ◊ THT
+i
+)
+=  [(1400 units ◊ 0.03333 hr/unit)
++ (600 units ◊ 0.04000 hr/unit)
++ (800  units ◊ 0.05000 hr/unit)
++ (480 units ◊ 0.06667 hr/unit)]
+= 142.67  hours
+
+
+A1-1.3  Productivity Metrics
+
+Availability Efficiency
+= (Equipment Uptime)/(Total Time)
+= (156.00  hours)/(168.00  hours)
+= 0.9286
+
+Operational Efficiency
+= (Production Time)/(Equipment Uptime)
+= (147.00  hours)/(156.00  hours)
+= 0.9423
+
+Rate Efficiency
+=  (Theoretical Production Time for Actual Units)
+/(Production Time)
+= (144.66 hours)/(147.00 hours)
+= 0.9840
+
+Performance Efficiency
+= (Operational Efficiency) ◊ (Rate Efficiency)
+= (0.9423) ◊ (0.9840)
+= 0.9272
+
+Quality Efficiency
+= (Theoretical Production Time for Effective Units)
+/(Theoretical Production Time for Actual Units)
+= (142.67 hours)/(144.66 hours)
+= 0.9862
+
+Overall Equipment Efficiency (OEE)
+= (Theoretical Production Time for Effective Units)
+/(Total Time)
+= (142.67 hours)/(168.00 hours)
+= 0.8492
+
+
+
+
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 10
+A1-2  Example Calculations for a Flexible-Sequence Cluster Tool
+A1-2.1  Sample Data — The calculations in this section are based on the following sample data.  The sample data is
+over a seven-day period for a flexible-sequence cluster tool encompassing three virtual machines. This example will
+calculate the theoretical OEE for the cluster tool without consideration of OEE degrading module interactions.
+
+
+Virtual                                              Machine
+A
+
+Virtual Machine
+B
+Virtual Machine
+C
+Non-Scheduled Time 0.00 hours 0.00 hours 0.00 hours
+Unscheduled Downtime 5.00 hours 5.00 hours 0.00 hours
+Scheduled Downtime 0.00 hours 5.00 hours 0.00 hours
+Engineering Time 3.00 hours 5.00 hours 0.00 hours
+Standby Time 10.00 hours 5.00 hours 88.00 hours
+Production Time
+150. 00                    hours           148.00           hours  80.00 hours
+Total Time 168.00 hours 168.00 hours 168.00 hours
+
+Process Sequence for
+Flexible-Sequence
+Cluster Tool
+
+Virtual
+Machine A
+Recipe
+
+Virtual
+Machine B
+Recipe
+
+Virtual
+Machine C
+Recipe
+
+Actual
+Units of
+Sequence
+
+Effective
+Units of
+Sequence
+
+S1                              R1                              R2                                                            300                              275
+S2                                                                  R2                                 R4                                 100                                 100
+S3                              R2                              R3                                                            250                              240
+S4                                                                  R3                                 R4                                 400                                 400
+
+Virtual
+Machine
+Recipe
+
+Theoretical Production
+Time Per Unit (THT
+i
+)
+including Load/Unload Time
+
+R1 0.3000 hr/wafer
+R2 0.2000 hr/wafer
+R3 0.1000 hr/wafer
+R4 0.1500 hr/wafer
+
+A1-2.2  Fundamental Quantities
+Virtual Machine Theoretical Production Time for Actual Units
+= ∑
+i
+(Actual Units of Recipe i  ◊  THT
+i
+)
+
+
+Sequence
+
+Actual
+
+Units
+
+
+Virtual Machine A
+
+Virtual Machine B
+
+Virtual Machine C
+S1                   300                                  300  units ◊ 0.3000
+hr/unit
+300 units ◊  0.2000
+hr/unit
+
+S2                   100                                   100 units ◊ 0.2000 hr/unit 100 units ◊ 0.1500 hr/unit
+S3                   250                                  250 units ◊ 0.2000 hr/unit 250 units ◊ 0.1000 hr/unit
+S4                   400                                  _____________________                 400 units
+◊ 0.1000 hr/unit      400      units      ◊ 0.1500 hr/unit
+
+Virtual Machine
+Theoretical Production
+Time for Actual Units =
+
+Σ =
+140. 00 hours
+
+Σ =
+145. 00  hours
+
+Σ =
+75. 00 hours
+
+Flexible-Sequence Cluster Tool Theoretical Production Time for Actual Units
+= ∑
+j
+(Theoretical Production Time for Actual Units for Virtual Machine j)
+= (140.00 hours) + (145.00  hours) + (75.00  hours)
+= 360.00 hours
+
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 11
+Virtual Machine Theoretical Production Time for Effective Units
+= ∑
+i
+(Effective Units of Recipe i  ◊  THT
+i
+)
+
+
+Sequence
+
+Effective
+
+Units
+
+
+Virtual Machine A
+
+VirtualMachine B
+
+Virtual Machine C
+S1                   275                                  275 units ◊ 0.3000 hr/unit 275 units ◊ 0.2000 hr/unit
+S2                   100                                   100 units ◊ 0.2000 hr/unit 100 units ◊ 0.1500 hr/unit
+S3                   240                                  240 units ◊ 0.2000 hr/unit 240 units ◊ 0.1000 hr/unit
+S4                   400                                  _____________________                 400 units
+◊ 0.1000 hr/unit      400      units      ◊ 0.1500 hr/unit
+Virtual                      Machine
+Theoretical Production
+Time for Actual Units =
+
+Σ =
+130. 50  hours
+
+Σ =
+139. 00  hours
+
+Σ =
+75. 00 hours
+
+Flexible-Sequence Cluster Tool Theoretical Production Time for Effective Units
+= ∑
+j
+(Theoretical Production Time for Effective Units for Virtual Machine j)
+= (130.50 hours) + (139.00 hours) + (75.00 hours) = 344.50 hours
+
+Virtual Machine Production Time (given)
+
+Flexible-Sequence Cluster Tool Production Time
+= ∑
+j
+(Production Time for Virtual Machine i)
+= (150.00 hours) + (148.00 hours) + (80.00 hours) = 378.00 hours
+
+Virtual Machine Equipment Uptime
+=  (Virtual Machine Production Time) + (Virtual Machine Standby Time)
++ (Virtual Machine Engineering Time)
+
+Virtual Machine A
+Virtual Machine B Virtual Machine C
+Engineering Time 3.00 hours 5.00 hours 0.00 hours
+Standby Time 10.00 hours 5.00 hours 88.00 hours
+Production              Time
++150.00                   hours                   +148.00 hours +80.00 hours
+Equipment              Uptime              163.00              hours 158.00 hours 168.00 hours
+
+Flexible-Sequence Cluster Tool Equipment Uptime = ∑
+j
+(Equipment Uptime for Virtual Machine j)
+= (163.00 hours) + (158.00 hours) + (168.00 hours) = 489.00 hours
+
+Virtual Machine Total Time (given)
+
+Flexible-Sequence Cluster Tool Total Time = (Number of Virtual Machines) ◊ (Total Time Observed)
+= (3 Virtual Machines) ◊ (168 hours) = 504 hours
+
+A1-2.3  Productivity Metrics
+
+Virtual Machine Availability Efficiency = (Virtual Machine Equipment Uptime)/(Total Time)
+
+Virtual Machine A
+Virtual Machine B Virtual Machine C
+= (163.00 hours)/(168.00 hours)
+= 0.9702
+= (158.00 hours)/(168.00 hours)
+= 0.9405
+= (168.00 hours)/(168.00 hours)
+= 1.000
+
+Flexible-Sequence Cluster Tool Availability Efficiency
+= (Flexible-Sequence Cluster Tool Equipment Uptime)/(Flexible-Sequence Cluster Tool Total Time)
+= (489.00 hours)/(504.00 hours)
+= 0.9702
+
+Virtual Machine Operational Efficiency
+= (Virtual Machine Production Time)
+÷ (Virtual Machine Equipment Uptime)
+
+Virtual Machine A
+Virtual Machine B Virtual Machine C
+= (150.00 hours)/(163.00 hours)
+= 0.9202
+= (148.00 hours)/(158.00 hours)
+= 0.9367
+= (80.00 hours)/(168.00 hours)
+= 0.4762
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 12
+Flexible-Sequence Cluster Tool Operational Efficiency
+= (Flexible-Sequence Cluster Tool Production Time)/(Flexible-Sequence Cluster Tool Equipment Uptime)
+= (378.00 hours)/(489.00 hours)
+= 0.7730
+
+Virtual Machine Rate Efficiency
+=  (Virtual Machine Theoretical Production Time for Actual Units)/(Virtual Machine Production Time)
+
+Virtual Machine A
+Virtual Machine B Virtual Machine C
+= (140.00 hours)/(150.00 hours)
+= 0.9333
+= (145.00 hours)/(148.00 hours)
+= 0.9797
+= (75.00 hours)/(80.00 hours)
+= 0.9375
+
+Flexible-Sequence Cluster Tool Rate Efficiency
+= (Flexible-Sequence Cluster Tool Theoretical Production Time for Actual Units)
+/(Flexible-Sequence Cluster Tool Production Time)
+= (360.00 hours)/(378.00 hours)
+= 0.9524
+
+Virtual Machine Quality Efficiency
+= (Virtual Machine Theoretical Production Time for Effective Units)
+/(Virtual Machine Theoretical Production Time for Actual Units)
+
+Virtual Machine A
+Virtual Machine B Virtual Machine C
+= (130.50 hours)/(140.00 hours)
+= 0.9321
+= (139.00 hours)/(145.00 hours)
+= 0.9586
+= (75.00 hours)/(75.00 hours)
+= 1.0000
+
+Flexible-Sequence Cluster Tool Quality Efficiency
+=(Flexible-Sequence Cluster Tool Theoretical Production Time for Effective Units)
+/(Flexible-Sequence Cluster Tool Theoretical Production Time for Actual Units)
+= (344.50 hours)/(360.00 hours)
+= 0.9569
+
+Virtual Machine Overall Equipment Efficiency (OEE)
+= (Virtual Machine Theoretical Production Time for Effective Units)/(Virtual Machine Total Time)
+
+Virtual Machine A
+Virtual Machine B Virtual Machine C
+= (130.5 hours)/(168.00 hours)
+= 0.7768
+= (139.00 hours)/(168.00 hours)
+= 0.8274
+= (75.00 hours)/(168.00 hours)
+= 0.4464
+
+Flexible-Sequence Cluster Tool Overall Equipment Efficiency (OEE)
+=(Flexible-Sequence Cluster Tool Theoretical Production Time for Effective Units)
+/(Flexible-Sequence Cluster Tool Total Time)
+= (344.50 hours)/(504.00 hours)
+= 0.6835
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 13
+APPENDIX 2
+SUPPLEMENTAL PRODUCTIVITY METRICS FOR FOCUSED
+PRODUCTIVITY STUDIES
+NOTICE:  The  material  in  this  appendix  is  an  official  part  of  SEMI  E79  and  was  approved  by  full  letter  ballot
+procedures on December 15, 1999 by the North American Regional Standards Committee.
+A2-1  Supplemental Productivity Metrics with
+Total Time as the Denominator
+A2-1.1      OEE   is   based   on   “as-is”   assumptions   with
+respect  to  process  specifications  (recipes),  equipment
+type, and equipment design. In this way, OEE measures
+the    performance    of    the    organizations    of    the
+manufacturer   and   the   equipment   supplier   as   they
+attempt  to  drive  equipment  performance  to  a  potential
+defined  by  given  process  specifications  and  a  given
+equipment type and design.
+A2-1.2    This  section  presents  three  variations  on  the
+OEE    calculation    that    additionally    measure    the
+performance of engineering and design organizations as
+they  attempt  to  improve  equipment  selection,  process
+specifications   and   equipment   design.   These   three
+variants   are   each   based   on   more   discriminating
+definitions  of  the  theoretical  production  time  per  unit,
+as shown in Figure A2-1. Total time is the denominator
+for each metric.
+
+Availability Efficiency
+Losses
+(Supplier and User Domain)
+Non-Scheduled Time
+Scheduled Downtime
+Unscheduled Downtime
+Engineering
+Standby
+Production
+Time
+E10 States
+Theoretical
+Production
+Time for
+Actual Units
+Operational
+Efficiency Losses
+(User Domain)
+Rate Efficiency
+Losses
+(Supplier and User Domain)
+Performance
+Efficiency
+Losses
+(Supplier and
+User Domain)
+Assignable Quality
+Efficiency Losses
+(Supplier and User Domain)
+Theoretical
+Production
+Time for
+Effective
+Units
+E79 Productivity Losses and
+Primary Improvement Domains
+Engineering
+Theoretical
+Production
+Time for
+Effective
+Units
+Process Specification Losses
+(Process and Product
+Engineering Domain)
+Equipment Overhead
+Design Losses
+(Supplier Domain)
+Value-Added In-Process
+Theoretical Production Time
+for Effective Units
+Benchmark Equipment
+Productivity Losses
+(Supplier and User Domain)
+Reference
+Theoretical Production
+Time for
+Effective Units
+
+
+Figure A2-1
+Incompatibility of R-OEE with E-OEE and VA-OEE
+(Data for sample calculations are given on the following page.)
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 14
+
+Operations Time = 168 hours
+Theoretical Production Time
+for Effective Units  = 146  hours
+No Product Time = 6 hours
+Equipment Unavailable No Product Time = 4 hours
+Planned No Product Time = 8 hours
+
+
+
+
+
+Recipe
+
+
+Theoretical
+Production Time
+Per Unit (THT
+i
+)
+Reference
+Theoretical
+Production Time
+Per Unit (RTHT
+i
+)
+Engineering
+Theoretical
+Production Time
+Per Unit (ETHT
+i
+)
+Value-Added In-Process
+Theoretical
+Production Time
+Per Unit (VTHT
+i
+)
+
+Actual
+Units of
+Recipe
+
+
+Effective
+Units   of
+Recipe
+
+A 0.03333 hr/unit 0.03333 hr/unit 0.02500 hr/unit 0.01000 hr/unit 1500 1500
+B 0.04000 hr/unit 0.03333 hr/unit 0.02000 hr/unit 0.00500 hr/unit 600 600
+C 0.05000 hr/unit 0.03333 hr/unit 0.01500 hr/unit 0.00500 hr/unit 800 800
+D 0.06667 hr/unit 0.03333 hr/unit 0.03250 hr/unit 0.01000 hr/unit 500 480
+
+A2-1.3  Reference OEE (R-OEE)
+A2-1.3.1        Reference    OEE    provides    a    measure    of
+equipment    productivity    relative    to    a    benchmark
+theoretical  production  time.  The  reference  theoretical
+production  time  per  unit  for  a  given  recipe  is  the  time
+required  by  the  benchmark  equipment  (i.e.,  the  fastest
+equipment    model    of    similar    type),    running    the
+comparable recipe for a benchmark product and process
+design.  Reference  theoretical  production  time  per  unit
+(RTHT)  shall  be  defined  to  be  less  than  or  equal  to
+theoretical  time  per  unit  (THT)  used  in  calculating
+standard  OEE.  The  R-OEE
+
+score  may  be  compared
+against    the    standard    OEE    score    to    assess    the
+productivity loss arising from the application of inferior
+equipment.
+
+Reference OEE  (R-OEE)
+=[∑
+i
+(Effective Units of Recipe i  ◊  RTHT
+i
+)]
+/(Total Time)
+
+
+where RTHT
+i
+= reference theoretical production time per unit
+of  recipe  i  (based  on  the  benchmark  equipment  performing  a
+comparable  recipe  for  a  benchmark  product  and  process
+design).  Reference OEE utilizes an incompatible definition of
+theoretical  production  time  for  effective  units  compared  to
+that utilized in Engineering OEE and Value-Added In-Process
+OEE.  Productivity losses indicated by R-OEE and by E-OEE
+and VA-OEE may overlap. (See Figure A2-1.)
+
+A2-1.3.2  Sample Reference OEE (R-OEE) Calculation
+
+Reference OEE  (R-OEE)
+= [∑
+i
+(Effective Units of Recipe i  ◊  RTHT
+i
+)]
+/(Total Time)
+= [(1500 units × 0.03333 hr/unit)
++ (600 units × 0.03333 hr/unit)
++ (800 units × 0.03333 hr/unit)
++ (480 units × 0.03333 hr/unit)]/(168.00  hours)
+= 0.6706
+
+A2-1.4  Engineering OEE (E-OEE)
+A2-1.4.1  Engineering   OEE   provides   a   measure   of
+equipment productivity assuming process specifications
+are     optimized     for     minimum     production     time.
+Engineering    theoretical    production    time    per    unit
+(ETHT)  shall  be  defined  to  be  less  than  or  equal  to
+theoretical  time  per  unit  (THT)  used  in  calculating
+standard OEE.  Engineering theoretical production time
+per   unit   may   include   minimum   durations   for   the
+objective  processing  steps,  e.g.,  implant  time  for  ion
+implant  systems,  and  minimum  allowances  for  any
+additional   supporting   process   steps,   e.g.,   heating,
+cooling,   gas   stabilization,   only   if   those   steps   are
+deemed  absolutely  necessary.    Time  to  perform  test
+wafers,   sample   wafers,   send-aheads,   clean   cycles,
+seasoning  cycles,  and  allowances  for  non-continuous
+cascading  of  lots  through  tools  are  to  be  specifically
+excluded.
+Engineering OEE  (E-OEE)
+=[∑
+i
+(Effective Units of Recipe i  ◊  ETHT
+i
+)]
+/(Total Time)
+
+where ETHT
+i
+=  engineering  theoretical  production  time  per
+unit of recipe i.
+A2-1.4.2  Sample       Engineering       OEE       (E-OEE)
+Calculation
+Engineering OEE  (E-OEE)
+=  [∑
+i
+(Effective Units of Recipe i  ◊  ETHT
+i
+)]
+/(Total Time)
+= [(1500 units ◊ 0.02500 hr/unit)
++ (600 units ◊ 0.02000 hr/unit)
++ (800 units ◊ 0.01500 hr/unit)
++ (480 units ◊ 0.03250 hr/unit)]/(168 hours)
+= 0.4589
+
+
+A2-1.5  Value-added In-Process OEE (VA-OEE)
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 15
+A2-1.5.1  Value-added   In-Process   OEE   provides   a
+measure  of  equipment  productivity  assuming  the  non-
+value-added  portion  of  processing  cycles  is  wasted
+equipment  time.  The  non-value-added  time  should  be
+the focus of efforts by the equipment supplier to reduce
+or  eliminate  it  through  improved  equipment  design.
+Value-added In-Process theoretical production time per
+unit (VTHT) shall be defined to be less than or equal to
+engineering theoretical production time per unit (ETHT)
+used in calculating engineering E-OEE (OEE).
+
+Value-Added In-Process OEE  (VA-OEE)
+= [∑
+i
+(Effective Units of Recipe i  ◊  VTHT
+i
+)]
+/(Total Time)
+
+where VTHT
+i
+= value-added in-process theoretical production
+time per unit of recipe i.
+
+
+A2-1.5.2  Value-added in-process          theoretical
+production  time  per  unit  credits  time  only  for  the
+objective  processing  steps.  The  objective  processing
+steps  for  recipes  performed  by  major  types  of  wafer
+fabrication equipment are indicated in Table A2-1.
+A2-1.5.3  Value-added in-process          theoretical
+production   time   per   unit   specifically   excludes   the
+following items (partial list):
+
+• All wafer handling time,
+• All load-lock time,
+• Pre-etch and pre-deposition time,
+• Thermal stabilization time,
+• Gas stabilization time,
+• Wafer heating and cooling time,
+• Time for clean cycles, and
+• High-etch and seasoning time.
+A2-1.5.4  Sample  Value-Added  In-Process  OEE  (VA-
+OEE) Calculation
+Value-added In-Process OEE  (VA-OEE)
+= [∑
+i
+(Effective Units of Recipe i  ◊  VTHT
+i
+)]
+/(Total Time)
+= [(1500 units ◊ 0.01000 hr/unit)
++ (600 units ◊ 0.00500 hr/unit)
++ (800 units ◊ 0.01000 hr/unit)
++ (480 units ◊ 0.0050 hr/unit)]/(168 hours)
+= 0.1690
+
+Table A2-1  Identification of Objective Process Steps for Value-Added In-Process Theoretical Time Per Unit
+Equipment Type VTHT
+i
+Includes VTHT
+i
+Excludes
+Resist Processing Coat, Develop, Bake, Cool Time at
+Process Temperature
+Temp. Ramp Up/Down
+Photolithography Exposure Exposure Time Pre-Alignment, Align, Stepping Time
+Etch, Oxide, Metal, Poly Flood Expose Time Chamber Clean Time
+Asher, Dry  Ashing Time
+Clean Wet Processing Station Acid, Rinse and Dry Time Robot Transport Time
+Furnace Atmospheric Process,
+Furnace LPCVD Process, and
+Rapid Thermal Processing
+Main Oxidation, Anneal Time at
+Defined Fixed Process Temperatures
+Resulting in Thermal (Film) Treatment
+Ramp Up/Down, Boat Push/Pull
+Implanter HC, MC, HE ... Implant Time Beam Setup Time
+Metal Deposition - PVD, CVD Metal Deposition Time Chambers Clean Time
+Dielectric - CVD Dielectric Deposition Time Chambers Clean Time
+CMP Planarization  Polishing Time Pad Dressing Dedicated Time
+Measure CD SEM Measurement Time Pattern Recognition Time
+Measure Overlay Measurement Time Pattern Recognition Time
+Defect Detection Patterned Wafers Scanning Measurement Time Pattern Recognition Time
+Defect Detection Unpatterned Wafers Scanning Measurement Time
+Measure Film Thickness Measurement Time Pattern Recognition Time
+
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 16
+A2-2  Additional Productivity Metrics Involving
+Denominators Other Than Total Time
+A2-2.1  This section presents three productivity metrics
+for   assessing   efficiency   of   the   equipment   resource
+relative to a time frame less than total time.
+A2-2.2  Production  Equipment  Efficiency  and  Demand
+Equipment  Efficiency  exclude  portions  of  no  product
+time from productivity losses, as depicted in Figure A2-
+2.  While  the  idle  time  due  to  no  product  is  excluded
+from the operational losses in these particular measures
+of  equipment  efficiency,  the  user  should  be  aware  that
+the  additional  productivity  losses  due  to  sub-optimal
+load   or   batch   sizes   may   also   be   present   as   rate
+efficiency   losses.      Such   losses,   which   result   from
+fluctuations in product flow or tool loading policies, are
+considered in any equipment efficiency calculation that
+uses theoretical time per unit.
+A2-2.3  Production  Equipment  Efficiency  (PEE)
+ A
+measure of equipment productivity during the time that
+work is available to process at the tool.  One application
+of PEE is to measure the productivity of non-constraint
+tools,  which  are  expected  to  have  periods  of  idle  time
+due to lack of available work.
+
+Production Equipment Efficiency  (PEE)
+= (Theoretical Production Time for Effective Units)
+/[(Operations Time) - (No Product Time)
+- (Equipment Down No Product Time)]
+
+= Overall Equipment Efficiency ◊ Total Time
+/[(Operations Time) - (No Product Time)
+- (Equipment DownNo Product Time)]
+
+A2-2.3.1  Sample    Production    Equipment    Efficiency
+(PEE) Calculation
+
+Production Equipment Efficiency  (PEE)
+= (146 hours)/[(168 hours) - (6 hours) - (4 hours)]
+= 0.9241
+
+
+A2-2.4  Demand   Equipment   Efficiency   (DEE)      A
+measure of equipment productivity during the time that
+work  is  planned  to  be  available  to  process  at  the
+equipment.    A  factory  model  or  production  schedule
+that  defines  the  expected  or  planned  idle  time  at  the
+equipment  is  required  to  calculate  Demand  Equipment
+Efficiency. DEE   measures   the   productivity   of   the
+equipment  relative  to  the  requirements  of  the  factory
+model or production schedule.
+
+Demand Equipment Efficiency (DEE)
+= (Theoretical Production Time for Effective Units)
+/[(Operations Time) - (Planned No Product Time)]
+
+= Overall Equipment Efficiency ◊ Total Time
+/[(Operations Time) - (Planned No Product Time)]
+
+A2-2.4.1  Sample Demand Equipment Efficiency (DEE)
+Calculation
+
+Demand Equipment Efficiency (DEE)
+= (146 hours)/[(168 hours) - (8 hours)]
+= 0.9125
+
+A2-2.5  Intrinsic   Equipment   Efficiency   (IEE)    A
+measure   of   equipment   productivity   that   compares
+value-added,  in-process  theoretical  production  time  to
+the actual production time. IEE measures the combined
+productivity  losses  due  to  rate  efficiency  losses,  recipe
+design, and equipment design.
+
+Intrinsic Equipment Efficiency (IEE)
+= [
+∑
+i
+(Actual Units of Recipe i  ◊  VTHT
+i
+)]
+/(Production Time)
+
+where VTHT
+i
+= value-added in-process theoretical production
+time per unit for recipe i. See Section A2-1.3.
+
+A2-2.5.1  Sample  Intrinsic  Equipment  Efficiency  (IEE)
+Calculation
+
+Production Time = 155.00 hours
+
+Intrinsic Equipment Efficiency (IEE)
+= [∑
+i
+(Actual Units of Recipe i  ◊  VTHT
+i
+)]
+/(Production Time)
+=  [(1500 units ◊ 0.01000 hr/unit)
++ (600 units ◊ 0.00500 hr/unit)
++ (800 units ◊ 0.01000 hr/unit)
++ (500 units ◊ 0.0050 hr/unit)]/(155 hours)
+= 0.1839
+
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 17
+Non-Scheduled
+Scheduled
+and
+Unscheduled
+Downtime
+Standby
+Engineering
+DEE
+Losses
+Theoretical
+Production
+Time for
+Effective Units
+No Product
+Time
+Equipment
+Down
+No Product
+Time
+Planned
+No Product
+Time
+(Downtime)
+PEE
+Losses
+Value-Added
+In-Process
+Theoretical
+Production
+Time for
+Actual Units
+IEE
+Losses
+Planned
+No Product
+Time
+(Standby)
+Production Time
+No Product
+Time
+(Planned)
+No Product
+Time
+(Actual)
+
+
+Figure A2-2
+Productivity Losses Included in PEE and DEE, and IEE Metrics (shaded regions)
+
+NOTICE:  SEMI makes no warranties or representations as to the suitability of the standard set forth herein for any
+particular  application.  The  determination  of  the  suitability  of  the  standard  is  solely  the  responsibility  of  the  user.
+Users  are  cautioned  to  refer  to  manufacturer’s  instructions,  product  labels,  product  data  sheets,  and  other  relevant
+literature respecting any materials mentioned herein. These standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that  compliance  with  this  standard  may  require  use  of  copy-righted
+material  or  of  an  invention  covered  by  patent  rights.  By  publication  of  this  standard,  SEMI  takes  no  position
+respecting  the  validity  of  any  patent  rights  or  copyrights  asserted  in  connection  with  any  item  mentioned  in  this
+standard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, and
+the risk of infringement of such rights, are entirely their own responsibility.
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 18
+RELATED INFORMATION 1
+GUIDELINES FOR DETERMINING THEORETICAL PRODUCTION TIME
+PER UNIT
+NOTICE: This related information is not an official part of SEMI E79. This related information was approved for
+publication by vote of the responsible committee on December 15, 1999.
+R1-1  Background
+R1-1.1  Overall    Equipment    Efficiency    (OEE)    is
+computed  in  terms  of  the  theoretical  production  time
+per unit for each recipe performed. This theoretical time
+per   unit   is   based   on   the   actual   recipe,   the   actual
+equipment design in use, and an assumed load size that
+optimizes  equipment  throughput  (expressed  in  units  of
+output per hour) for that recipe.
+R1-1.2    OEE  is  intended  to  express  the  true  efficiency
+of   the   equipment   resource.   A   score   of   50%   OEE
+indicates  that  exactly  half  of  the  maximum  productive
+potential of the equipment resource is being realized; a
+score  of  100%  indicates  that  no  further  increase  in
+productivity  is  feasible,  taking  the  existing  process
+recipes and equipment design as given.
+R1-1.3    To  accurately  calculate  OEE  in  turn  requires
+that  theoretical  production  times  per  unit  be  accurately
+defined.    In  particular,  theoretical  production  times  per
+unit shall be defined so that the speed losses are always
+non-negative, i.e.,
+
+
+Speed Losses
+= (Production Time) - (Theoretical Production Time for
+Actual Units) ≥ 0
+
+R1-1.4              According       to       now-classical       industrial
+engineering  practice,  standards  for  ideal  performance
+are determined by application of the following:
+• Break  work  methods  down  into  their  operational
+elements (hereafter simply referred to as elements).
+• Study   each   of   these   elements   separately   to
+determine its ideal duration.
+• Design  a  new  ideal  method  offering  the  shortest
+sequence of only the necessary elements (where the
+term   “sequence”   as   used   herein   may   involve
+parallel performance of some or all elements).
+R1-1.5    It  is  remarked  that  even  when  the  durations  of
+all elements are ideal, if the sequence of elements is not
+ideal,  ideal  overall  performance  cannot  be  achieved.
+Based   on   this   understanding,   theoretical   processing
+time for an equipment recipe shall be based on both an
+ideal element sequence as well as ideal durations for all
+elements.
+R1-2  Modeling Operational Element
+Sequences
+R1-2.1        A    graphical    model    of    the    sequence    of
+operational elements comprising the performance of an
+equipment   recipe   can   be   helpful   for   determining
+theoretical production time per unit. This model has the
+following components:
+R1-2.2  Resource  Utilization  Chart  —  a  Gantt  chart
+displaying a separate timeline for each primary resource
+within  the  equipment.  Utilization  sequences  displayed
+for  each  primary  resource  may  be  used  to  show  how
+each  resource  within  an  equipment  system  is  utilized,
+and how resources may interact.
+R1-2.3  Operational    Element    —    An    operational
+element   occurring   within   a   utilization   sequence   is
+depicted by a box-shaped bar with a label.  The time for
+this element to execute may be fixed, recipe-dependent,
+or  calculated  from  parameters.    Operational  elements
+that are not related to material handling operations have
+a thick outline.
+Operational Element
+
+R1-2.3.1  Material   handling   elements   have   a   thin
+outline.
+Material Handling
+Operational Element
+
+R1-2.4  Repeated  Groups  —  A  bracket  underneath  a
+group  of  operational  elements  indicates  that  the  group
+repeats  multiple  times  based  on  the  parameter  shown.
+For  elements  that  occur  conditionally,  the  number  of
+repetitions  may  be  zero.  These  repetitions  apply  to  all
+elements in all timelines positioned in the vertical range
+of the bracket.
+Repeated
+Operational Element(s)
+x (# repetitions)
+
+R1-2.5  Sub-Sequences  —  A  number  in  front  of  an
+element  label  indicates  that  the  element  represents  a
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 19
+group  of  elements  defined  elsewhere.  This  group  is
+referred to as a sub-sequence.
+1. 1 Sub-Sequence
+Operational Element
+
+R1-2.6  Calculating  Theoretical  Production  Time  Per
+Unit  —  Any  element  sequence  may  be  modeled  as  an
+activity-on-node   network   derived   from   precedence
+constraints on the operational elements and precedence
+constraints  on  the  allocation  of  equipment  resources  to
+the elements.  Using the network model, the duration of
+the  element  sequence  is  simply  the  duration  of  the
+critical path through the network.
+R1-2.6.1    Theoretical  production  time  per  unit  is  then
+the   theoretical   duration   for   the   element   sequence
+divided  by  the  number  of  units  processed  during  the
+sequence.
+Theoretical Production Time Per Unit for recipe i [THT
+i
+]=
+= (Theoretical Duration for the Element Sequence)
+/(Number of Units Processed During Sequence)
+R1-2.7  Allowances for Non-Steady-State Processing —
+For  complicated  batch-load  equipment  models,  it  is
+useful  to  divide  resource  sequences  into  a  beginning
+phase,  a  steady-state-phase,  and  an  ending  phase.  For
+modeling  theoretical  time,  it  is  important  to  determine
+what allowances to make, if any, for the beginning and
+ending  phases.    For  machines  that  are  limited  in  the
+number  of  lots  that  can  be  processed  in  a  continuous
+cascade,   appropriate   allowances   shall   be   made   for
+beginning  and  ending  phases.  However,  for  machines
+that are capable of running continuously, the beginning
+and   ending   phases   should   not   be   considered   in
+determining theoretical production time.
+R1-2.7.1          Under     certain     conditions,     setup     type
+operations that are not tracked as part of downtime shall
+be   considered   as   part   of   the   theoretical   resource
+sequence   for   a   tool.      These   conditions   include
+operations that shall occur in every machine cycle, e.g.
+recipe  download,  as  well  as  operations  that  occur  on
+other  regular  intervals,  e.g.,  one  clean  cycle  every  75
+wafers.   In   general,   any   activity   that   occurs   on
+predictable intervals and is a necessary part of a recipe
+specification  should  be  considered  in  the  equipment
+sequence for determining theoretical production time.
+R1-2.7.2    Operations  that  occur  at  irregular  intervals  or
+that  apply  to  an  unpredictable  quantity  of  wafers,  lots,
+or   loads   are   not   counted.      An   example   of   an
+unpredictable  frequency  setup  is  a  recipe  changeover,
+when the machine is changed from the requirements of
+one process recipe to meet the needs of another, e.g., a
+species  change  as  on  an  ion  implant  system.  The  ideal
+frequency of these events is taken as zero.
+R1-2.8  Optimality  —  Theoretical  sequences  shall  be
+designed  so  as  to  optimize  equipment  throughput  by
+using  only  the  best  configuration  of  elements  and  an
+optimal  load  size.    Optimal  sequences  may  differ  for
+different   recipes   performed   on   the   same   machine.
+Optimal  load  sizes  are  not  necessarily  maximum  load
+sizes.
+R1-2.9  Error-Checking  Element  Sequences   Once  a
+theoretical   sequence   is   specified   for   a   piece   of
+equipment, it can be compared against actual equipment
+operations  to  check  for  errors.    If  discrepancies  are
+found, three possibilities to investigate are:
+• The sequence contains extraneous elements.
+• The sequence is missing necessary elements.
+• The   series   and   parallel   relationships   between
+elements are not correctly specified.
+R1-2.9.1    What  may  at  first  appear  to  be  sequence
+specification  errors  may  in  fact  be  undiscovered  rate
+efficiency losses embedded in the equipment sequence.
+Because    sequences    are    fundamental    to    overall
+performance,   it   is   important   to   rule   out   sequence
+specification errors to preclude erroneous assignment of
+rate efficiency losses to individual elements.
+R1-2.10  Example Resource Utilization Sequence  An
+example  of  a  resource  utilization  sequence  is  given  in
+Figure   R1-1.   This   example   represents   a   particular
+instance  of  a  photolithography  stepper  that  exposes
+patterns  from  a  reticle  onto  a  wafer.  This  example
+assumes that the stepper receives individual unexposed
+wafers from a linked coat track and transfers individual
+exposed wafers to a linked develop track.
+R1-2.10.1    First,  a  reticle  box  shall  be  loaded  into  the
+stepper  reticle  handling  system  (“load  box”).  Before  a
+wafer  may  be  exposed,  the  reticle  shall  be  set  and
+aligned. A wafer shall also be loaded onto the pre-align
+chuck,  pre-aligned,  and  transferred  to  the  exposure
+stage.  Each  wafer  is  exposed  then  transferred  to  a  post
+processing    relay    chuck.    The    transfer    operation
+simultaneously removes an exposed wafer and replaces
+it with an unexposed wafer.
+R1-2.10.2    The  expose  operation  is  represented  by  the
+sub-sequence shown in Figure R1-2. Depending on the
+recipe  to  be  executed,  the  expose  sub-sequence  may
+consist  of  several  different  reticle  images  requiring
+changes of “blade” positioning. For each image, there is
+one  “align”  operation.  For  each  individual  exposure,
+there is a “step” operation, a “level” operation, and the
+“expose”   operation   itself.   Within   the   same   image,
+different   exposures   may   require   different   leveling
+times, as well as different stepping times.
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 20
+
+Pre-AlignLoad
+Set & Align
+Load Box
+Reticle Handler
+Pre-Align Chuck
+x (# wafers per reticle)
+Exposure Stage
+1. 1 ExposeTransferTransfer
+Pre-AlignLoad
+
+Figure R1-1
+Example Resource Utilization Sequence
+
+StepAlignLevelExpose
+x (# exposures)
+Blade
+Align
+x (# exposures)
+x (# images-1)
+StepLevelExpose
+
+Figure R1-2
+Example of Equipment Sub-Sequence
+
+R1-2.10.3  The  operations indicated  by  dashed  boxes
+represent  the  beginning  phase  of  the  main  equipment
+sequence. If the stepper is capable of processing wafers
+of  the  same  reticle  indefinitely,  then  the  beginning
+phase is not included in theoretical production time. If,
+however,  there  is  a  hardware  and/or  software  limit  to
+the  number  of  wafers  that  may  be  run  consecutively,
+then the beginning phase shall be counted in theoretical
+production time.
+R1-3  Modeling Theoretical Durations for
+Operational Elements
+R1-3.1      Once   a   theoretical   equipment   sequence   is
+defined,  the  next  step  is  to  measure  and/or  model
+theoretical durations for each operational element in the
+sequence.  As  a  rule,  it  is  preferable  to  acknowledge  in
+the  model  an  elemental  speed  loss  that  can  never  be
+recovered  in  lieu  of  inadvertently  overlooking  another
+loss that could be reduced or eliminated.
+R1-3.2  Legitimate  Observations  —  Each  theoretical
+element duration should always be less than or equal to
+any legitimate  observation  for  that  element,  where  a
+legitimate  observation  is  a  traceable  instance  of  an
+operational  element  that  does  not  result  in  a  loss  of
+quality.  The  time  for  any  legitimate  observation  that  is
+less   than   the   existing   theoretical   element   duration
+should  become  the  new  theoretical  element  duration.
+For   legitimate   instances   of   the   same   operational
+element on different instances of identically configured
+equipment, the best time observed among all equipment
+of  that  type  should  be  used  as  the  theoretical  element
+duration.
+R1-3.3  Basis  for  Theoretical  Element  Durations  —
+Theoretical  element  durations  may  be  based  on  time
+studies,     nominal     parameters,     and/or     parametric
+modeling.
+R1-3.3.1  Time Studies  Most mechanical operational
+elements that have fixed execution times, like transport
+and load lock operations, can be accurately determined
+by  time  studies  using  either  stopwatches,  equipment
+data  acquisition  systems,  timing  systems  built  into  the
+equipment, or stand-alone data acquisition systems that
+use  sensors  to  detect  equipment  events  and/or  state
+changes.
+R1-3.3.1.1      When   it   is   difficult   to   directly   measure
+individual  elements,  collections  of  elements  may  be
+observed   and   timed   instead.   On   systems   where   a
+number of consecutive identical elements occur too fast
+to be measured individually, a set of elements should be
+timed, and the time should be divided by the number of
+elements   in   the   set.      For   even   more   complicated
+situations,  element  times  may  be  derived  algebraically
+from  observations  of  several  linearly  independent  sets
+of operational elements.
+R1-3.3.2  Nominal  Parameters  —  There  are  instances
+where  it  is  desirable  to  use  nominal  parameters  to
+represent  theoretical  conditions  rather  than  using  direct
+observations, such as when:
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 21
+• Nominal parameters are more representative of the
+physical systems being studied.
+• Nominal parameters are more representative of the
+desired system performance.
+• It is not practical to obtain reliable data.
+R1-3.3.3  Parametric  Models  —  For  cases  where  the
+time  for  an  operational  element  may  have  a  range  of
+values   that   are   dependent   on   recipe   specifications,
+theoretical  time  is  best  represented  by  a  parametric
+model.      Parametric      models      for      representing
+semiconductor     operations     may     be     based     on
+mathematical  formulas,  e.g.,  implant  time  versus  beam
+current, and/or “lookup” tables, e.g., best observed etch
+time vs. etch end point.
+R1-3.3.3.1    For  the  photolithography  example,  one  of
+the  recipe  parameters  is  the  exposure  energy  (EE).
+Given the ideal or theoretical lamp intensity (LI) of the
+stepper,  the  theoretical  duration  per  exposure  (THT
+EX
+)
+for the recipe may be calculated as THT
+EX
+= EE / LI .
+
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 22
+RELATED INFORMATION 2
+RAPID CHARACTERIZATION OF INTRINSIC EQUIPMENT EFFICIENCY
+(IEE) AND THE PRODUCTIVITY EFFICIENCY PLANE
+NOTICE: This related information is not an official part of SEMI E79. This related information was approved for
+publication by vote of the responsible committee on December 15, 1999.
+R2-1  Rapid Characterization of Intrinsic
+Equipment Efficiency
+R2-1.1    IEE  may  be  rapidly  characterized  as  follows
+using a limited number of production experiments.
+R2-1.2  Step   1:   Design   Production   Experiments   —
+Select  a  limited  number  of  scenarios  to  execute  as
+equipment   experiments.   It   may   be   of   interest   to
+characterize  IEE  according  to  either  operating  modes,
+processing  diversity,  or  a  combination  of  operating
+modes and process diversity.
+R2-1.2.1          Determine     the     value-added     in-process
+theoretical production time per unit (VTHT) – (time per
+unit)   for   all   recipes   involved.   This   information   is
+required for determining IEE. See Table A2-1.
+R2-1.2.2  For assessment     of     operating     modes,
+experiments should examine only a single typical recipe
+that   is   likely   to   be   used   most   frequently.   Each
+experiment  should  examine  a  separate  operating  mode,
+where   examples   of   various   equipment   operational
+modes may be as follows:
+One  wafer  at  a  time  mode  (production  monitor
+wafer).
+
+One batch is run, then the tool stops.
+Two batches are run, then the tool stops.
+Three batches are run, then the tool stops.
+
+Continuous  (cascade)  mode.  A  larger  number  of
+batches is run, then the tool stops.
+R2-1.2.3    For  assessment  of  process  diversity,  select  a
+limited  number  of  representative  recipes  that  will  be
+processed  by  a  tool.  This  population  should  include  at
+least  one  recipe  representing  the  minimum  expected
+processing duration and one representing the maximum.
+R2-1.2.4      Each   experiment   should   be   designed   and
+executed   to   eliminate   rate   efficiency   losses   to   the
+greatest   extent   possible.   It   is   further   assumed   that
+quality    efficiency    losses    are    zero.    Under    this
+approximation,  (VA-OEE) = (OEE)
+◊ (IEE).
+R2-1.3  Step    2:    Execute    Process    Experiments    ó
+Perform   process   experiments   recording   all   relevant
+input  variables  including  the  configuration  of  lots  and
+wafers,  and  recipes.  For  each  experiment,  record  the
+elapsed  production  time  using  convenient  means,  e.g.,
+stopwatch or existing data acquisition system.
+R2-1.4  Step 3: Calculate Results ó Calculate IEE and
+throughput  for  each  experiment.    IEE  may  be  used  to
+measure  the  effect  of  non-value-added  overhead  time
+during equipment processing. Approximately:
+
+Intrinsic Equipment Efficiency (IEE)
+= (Value-Added In-Process Theoretical Time)
+/(Non-Value-Added Overhead  Time
++ Value-Added In-Process Theoretical Time)
+R2-1.4.1  Hence, non-value-added  overhead  time  for
+each experiment may be calculated as:
+Non-Value-Added Overhead Time
+= [(Production Time)
+- ( Value-Added In-Process Theoretical Time)]
+R2-1.4.2      It   should   be   the   focus   of   efforts   by   the
+equipment   supplier   and   the   end-user   to   reduce   or
+eliminate   non-value-added   overhead   time   through
+improved   equipment   design,   including   scheduling
+software,  as  well  as  hardware  components  (carrier  and
+wafer    handling    systems,    valves,    pumps,    heaters,
+coolers, etc.).
+R2-1.4.3    Results  may  be  shown  in  either  tabular  form
+or  plotted  graphically  on  a  Productivity  Effectiveness
+Plane. See Section R2-2.
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 23
+Sample Rapid Characterization of Intrinsic Equipment
+Efficiency (IEE)
+
+Four experiments were designed and executed with the
+following results:
+
+Exp.
+Units of Recipe i
+Per Experiment
+Value-Added
+In-Process
+Theoretical
+Production Time
+Per Unit
+(VTHT
+i
+)
+Production
+Time Per
+Experiment
+
+1 50 of recipe A 0.00670 hr/unit 3.3333 hr
+2 100 of recipe B 0.00550 hr/unit 5.0000 hr
+3 150 of recipe B 0.00550 hr/unit 6.0000 hr
+4 300 of recipe A 0.00670 hr/unit 10.0000 hr
+
+Effective Unit Throughput Per Experiment
+= (Total Units Per Experiment)
+/(Production Time Per Experiment)
+
+
+Intrinsic Equipment Efficiency (IEE) Per Experiment
+= [Σ
+i
+(Units of Recipe i Per Experiment ◊ VTHT
+i
+)
+/(Production Time Per Experiment)] ◊ 100%
+
+Non-Value-Added Overhead Time Per Experiment
+=  [(Production Time Per Experiment)
+- Σ
+i
+(Units of Recipe i Per Experiment ◊ VTHT
+i
+)]
+
+Experiment
+Effective
+Unit
+Throughput
+
+Intrinsic
+Equipment
+Efficiency
+
+Non-Value-
+Added
+Time
+in Hours
+
+1 15 units/hr 10.05% 2.9983 hr
+2 20 units/hr 11.00% 4.4500 hr
+3 25 units/hr 13.75% 5.1750 hr
+4  30 units/hr 20.10% 7.9900 hr
+
+R2-2  Productivity Efficiency Plane (PEP)
+R2-2.1    It  is  recognized  that  OEE  and  throughput  are
+separate   metrics   whose   relationship   may   not   be
+straightforward.    Because  theoretical  production  time
+per  unit  may  vary  widely  by  recipe,  good  throughput
+performance  may  not  indicate  correspondingly  good
+performance  in  terms  of  overall  equipment  efficiency.
+Similarly,  a  high  OEE  score  may  not  be  indicative  of
+high throughput. Given this disparity, it is essential that
+both  metrics  be  analyzed  and  compared  as  separate
+entities.
+R2-2.2    Data  from  rapid  characterization  experiments
+may   be   displayed   graphically   on   a   Productivity
+Effectiveness Plane (PEP) diagram, Figure R2-1.
+R2-2.3  In PEP diagrams, IEE is plotted as a function of
+throughput.  Points  that  appear  further  to  the  right  have
+higher throughput and points that appear higher up have
+higher  IEE.  It  is  desired  to  have  combined  equipment
+and  process  designs  whose  performance  would  appear
+in  the  upper  right  quadrant  of  the  plane  for  the  entire
+operating range of the tool.
+R2-2.4    The  four  experimental  data  points  from  the
+sample  problem  are  plotted  in  Figure  R2-1  and,  when
+connected,  appear  to  approximate  an  upward  sloping
+curve. This curve is referred to as a tool signature.
+R2-2.5    Tool  signatures  may  be  used  to  describe  tool
+performance    relative    to    isolated    variables.    This
+representation   helps   equipment   suppliers   and   users
+visualize the effects of tool operating modes on IEE and
+throughput.    For    more    complex    multi-dimensional
+experiment  sets,  the  tool  signature  would  appear  as  a
+hyper-surface.
+R2-2.6  OEE can be plotted for comparison against tool
+signatures.  In  Figure  R2-1,  an  OEE  measurement  of  a
+typical  week  is  plotted.  For  the  known  throughput
+corresponding  to  this  OEE  score,  the  value  of  IEE  on
+the tool signature for the same throughput may be used
+to  approximate  the  IEE  score  for  the  week  without
+calculating IEE explicitly.
+
+
+
+
+SEMI E79-0304 © SEMI 1999, 2004 24
+
+
+Figure R2-1
+Productivity Efficiency Plane
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standard  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.   These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance with this standard may require use of copy-
+righted  material  or  of  an  invention  covered  by  patent
+rights.  By  publication  of  this  standard,  SEMI  takes  no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   item
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights, are entirely their own responsibility.
+
+
+Productivity Efficiency Plane [PEP]
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+010203040
+Effective Unit Throughput (uph)
+IEE
+and
+OEE
+(%)
+OEE
+IEE
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction o
+f
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+
+
+SEMI E80-0299 (Reapproved 1104)
+TEST METHOD FOR DETERMINING ATTITUDE SENSITIVITY OF MASS
+FLOW CONTROLLERS (MOUNTING POSITION)
+This test method was technically approved by the Global Gases Committee and is the direct responsibility of
+the North American Gases Committee. Current edition approved by the North American Regional Standards
+Committee  on  July  11,  2004.    Initially  available  at  www.semi.org  September  2004;  to  be  published
+November 2004.  Originally published in 1999; last published November 2004.
+1  Purpose
+1. 1  The  purpose  of  this  test  method  is  to  provide  a
+standardized   method   for   quantifying   the   effect   of
+mounting attitude on an MFC.
+1. 2  This   document   provides   a   common   basis   for
+communication    between    manufacturers    and    users
+regarding testing and describing MFC mounting effects.
+2  Scope
+2. 1  This procedure describes a method to determine the
+effect  of  attitude  (mounting  position)  of  a  Mass  Flow
+Controller on flow span and zero.
+2. 2  The  intent  of  this  document  is  not  to  suggest  any
+specific  testing  program  but  to  specify  the  test  method
+to  be  used  when  testing  for  parameters  covered  by  this
+method.  Reference  operating  conditions  represent  the
+environmental conditions where the "best" performance
+can be expected.
+2. 3  The minimum test described in this document is to
+test  one  MFC  in  5  common  mounting  positions  using
+Nitrogen gas at 135.8 kPa (19.7 psia) and 308 kPa (44.7
+psia).   This   test   method   can   be   used   to   evaluate
+additional gases, pressures or mounting attitudes.
+NOTICE:  This  standard  does  not  purport  to  address
+safety  issues,  if  any,  associated  with  its  use.    It  is  the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory or other limitations prior
+to use.
+3  Limitations
+3. 1  It is not practical to evaluate performance under all
+possible combinations of operating conditions. This test
+procedure    should    be    applied    under    laboratory
+(reference)  conditions;  its  intent  is  to  collect  sufficient
+data to form a judgment of the field performance of the
+MFC being tested.
+3. 2  The results from this test represent the performance
+of the specific device tested i.e., make, model, full scale
+flow  and  operating  conditions.  The  results  may  not
+apply  to  devices  of  different  manufacture,  model,  full
+scale flow or under different operating conditions.
+3. 3  Due     to     manufacturing     variability,     attitude
+sensitivity  may  vary  for  the  same  model  of  MFC.  To
+statistically  quantify  attitude  sensitivity  for  a  particular
+model of MFC, multiple samples should be tested.
+4  Referenced Standards
+None.
+5  Terminology
+5. 1  Acronyms and Abbreviations
+5. 1.1  % F.S. — Percent Full Scale
+5. 1.2  DUT — Device Under Test
+5. 1.3  HBD — Horizontal Base Down. Mounting attitude
+1, as shown in Figure 1.
+5. 1.4  HED  —  Horizontal  Either  side  Down.  Mounting
+attitude 3, as shown in Figure 1.
+5. 1.5  HUD   —   Horizontal   Upside   Down.   Mounting
+attitude 5, as shown in Figure 1.
+5. 1.6  kPa — KiloPascal
+5. 1.7  MFC — Mass Flow Controller
+5. 1.8  psia ⎯ Pounds per Square Inch Absolute
+5. 1.9  SAS
+max
+⎯     the     maximum     Span     Attitude
+Sensitivity between two attitudes
+5. 1.10  SAS
+nm
+⎯  Span  Attitude  Sensitivity  between
+attitudes n and m
+5. 1.11  Sccm — Standard cubic centimeters per minute
+5. 1.12  Slm — Standard liters per minute
+5. 1.13  VFD  —  Vertical  Flow  Down.  Mounting  attitude
+2, as shown in Figure 1.
+5. 1.14  VFU —  Vertical  Flow  Up.  Mounting  attitude  4,
+as shown in Figure 1.
+5. 1.15  VID — Vertical Inlet Down. Mounting attitude 4,
+as shown in Figure 1.
+5. 1.16  VIU — Vertical Inlet Up. Mounting attitude 2, as
+shown in Figure 1.
+SEMI E80-0299 © SEMI 1999, 2004 1
+
+
+5. 1.17  ZAS
+max
+⎯ the maximum Zero Attitude Sensitivity
+between two attitudes.
+5. 1.18  ZAS
+nm
+⎯   Zero   Attitude   Sensitivity   between
+attitudes n and m.
+5. 2  Definitions
+5. 2.1  actual flow — the flow rate as determined by the
+flow standard used in the test procedure.
+5. 2.2  attitude —  the  mounting  position  of  the  MFC
+with  respect  to  the  surface  of  the  earth,  as  shown  in
+Figure 1.
+5. 2.3  indicated  flow  —  the  flow  rate  as  determined  by
+the output of the DUT.
+5. 2.4  measured  value  —  the  actual  flow  through  a
+DUT, expressed in sccm or slm.
+5. 2.5  nameplate   gas   —   the   gas   intended   to   be
+controlled by the MFC in operation.
+5. 2.6  setpoint — the input signal provided to achieve a
+desired  flow,  reported  as  sccm,  slm,  or  percent  full
+scale.
+5. 2.7  span — the full scale range of the DUT.
+5. 2.8  zero  drift  —  the  undesired  change  in  electrical
+output  (i.e.,  indicated  flow),  at  a  no-flow  condition,
+over a specified time period, reported in sccm or slm.
+5. 2.9  zero  offset  —  the  deviation  from  zero  at  a  “no-
+flow” condition reported in sccm, slm, % F.S. or mV.
+6  Summary of Test Method
+6. 1  Gas  flow,  indicated  flow  and  setpoint  data  are
+collected  for  an  MFC.  This  data  is  reduced  to  quantify
+the  relationship  between  the  flow  control  by  the  MFC
+and its relationship to the attitude of the MFC.
+6. 2  This method allows the user to determine the effect
+of different mounting attitudes on MFC zero and span.
+6. 3  The   standard   test   is   determining   the   effect   of
+changing between attitudes 1 and 2 on Nitrogen. Other
+typical MFC attitudes and gases may also be tested (see
+Figure 1).
+7  Interferences
+7. 1  The  accuracy  rating  of  the  measuring  equipment
+shall  be  superior  to  that  of  the  DUT.    Preferably,  the
+measuring equipment will have an accuracy that is four
+times better than the DUT.  Calibration equipment must
+have a valid calibration certificate.
+7. 2  Take   care   when   using   test   instruments   with   a
+specified accuracy expressed in percent of full scale.
+7. 3  Installation    effects    on    the    flow    should    be
+minimized.    Monitor  pressure  upstream  of  the  DUT  to
+ensure   that   flow   variations   due   to   pressure   are
+minimized.
+7. 4  Verify   electrical   signals   directly   at   the   DUT
+connector  to  ensure  that  the  signals  at  the  DUT  and
+standard  agree  with  the  signals  at  the  data  recording
+equipment.
+7. 5  All  electrical  measurements  should  be  read  on
+devices  with  at  least  4.5  digits  of  resolution.    These
+devices must have valid calibration certifications.
+7. 6
+All   instrumentation   in   the   test   apparatus   must
+remain in a constant orientation except the device under
+test.
+8  Significance and Use
+8. 1  The  data  generated  by  this  method  is  used  to
+estimate  the  effect-mounting  attitude  will  have  on  the
+performance   of   a   mass   flow   controller.      It   would
+typically  be  used  to  estimate  the  potential  flow  error
+caused by using an MFC in attitude, other than the one
+it was calibrated for.
+9  Apparatus (see Figure 2)
+9. 1  Flow   Standard ⎯   A   device   or   system   that
+accurately  measures  the  flow  and  reports  the  actual
+flow.
+9. 2  Data   Acquisition   System ⎯   The   system   that
+measures  the  electrical  signals  from  the  device  under
+test.    The  data  acquisition  system  may  also  read  the
+signals  from  the  flow  standard,  record  test  data  and
+control the test sequence.
+9. 3  Isolation  Valves  ⎯  Valves  that  will  positively  shut
+off the gas line.
+9. 4  Pressure  Regulator
+⎯ A  device  that  regulates  gas
+pressure to a set value.
+9. 5  Pressure Transducer ⎯ An instrument to measure
+the gas pressure and report it as an electrical signal.
+9. 6  Flexible  Gas  Line ⎯  Flexible  tubing  that  will
+allow the DUT to be moved to the various test attitudes
+while  the  other  components  can  remain  in  a  fixed
+position.
+10  Materials
+10. 1  Clean, Dry N
+2
+, with 99.9% minimum purity.
+10. 2  MFC Calibration Test Gas as desired.
+SEMI E80-0299 © SEMI 1999, 2004 2
+
+
+11  Safety Precautions
+11. 1  Follow   the   manufacturer’s   specifications   and
+instructions  for  installation  and  operation  whenever
+possible.  Note any exceptions in the test report.
+12  Test Specimen
+12. 1  Allow  all  components  in  the  test  apparatus  to
+warm up following the manufacturer’s specification.
+12. 2  Take  necessary  steps  when  switching  gases  to
+ensure that only the desired gas is in the DUT and flow
+standard at the time the test is performed.
+13  Preparation of Apparatus
+13. 1  Locate   the   DUT   in   the   test   environment   to
+stabilize temperature prior to warm up.
+13. 2  The  reference  operating  conditions  shall  be  as
+follows:
+13. 2.1  Ambient temperature ⎯ 21 ± 4 °C
+13. 2.2  Ambient   Temperature   Stability ⎯   Ambient
+temperature  to  stay  constant  within  ±  1  °C  during  data
+acquisition period.
+13. 2.3  Gas temperature ⎯ Same as ambient.
+13. 2.4  Gas pressure, Outlet ⎯ Ambient Pressure
+13. 3  Following  the  conditioning  period  (Section  12.1)
+warm   up   the   device   according   to   manufacturer's
+specifications.
+13. 4  Perform  an  adequate  purge  to  ensure  all  previous
+gases and atmospheric moisture has been removed from
+the system.
+13. 5  Leak   check   the   test   set   up,   using   available
+methodologies to verify the test system leak integrity.
+13. 6  The  power  supply  must  be  sufficiently  rated  for
+the device under test.
+14  Procedure
+14. 1  Open  V1  and  V2.  DUT  and  allow  the  flow  to
+stabilize.  Adjust  the  inlet  pressure  to  135.8  kPa  (19.7
+psia).
+14. 2  Close  the  downstream  isolation  valve  (V2);  then
+close the upstream isolation valve (V1), (see Figure 2).
+14. 3  With  both  isolation  valves  closed,  and  a  100%
+setpoint  wait  until  the  pressure  drop  across  the  MFC  is
+dissipated,  ensuring  a  “no  flow”  condition  through  the
+MFC.    Dissipation  of  the  pressure  across  the  MFC  is
+indicated  when  the  indicated  flow  drops  to  a  steady
+state value near zero.
+14. 4  Once  the  indicated  flow  has  dropped  to  a  steady
+value  set  the  MFC  setpoint  so  there  is  no  power  being
+dissipated  by  the  control  valve.    For  a  normally  closed
+valve  this  is  0%  and  for  a  normally  open  control  valve
+it is 100%.
+14. 5  After the electrical output signal has stabilized for
+at least three minutes, record the MFC indicated zero in
+Table 1.
+14. 6  Open V1 and V2, command 100%.
+14. 7  After the electrical output signal has stabilized for
+at least three minutes, record the actual flow as reported
+by the flow standard and the indicated flow in Table 1.
+14. 8  Change   the   attitude   of   the   DUT   to   the   next
+desired attitude.
+14. 9  Close  the  downstream  isolation  valve  (V2);  then
+close the upstream isolation valve (V1) (see Figure 2).
+14. 10  With  both  isolation  valves  closed,  and  a  100%
+setpoint  wait  until  the  pressure  drop  across  the  MFC  is
+dissipated,  ensuring  a  “no  flow”  condition  through  the
+MFC.    Dissipation  of  the  pressure  across  the  MFC  is
+indicated  when  the  indicated  flow  drops  to  a  steady
+state value near zero.
+14. 11  Once the indicated flow has dropped to a steady
+value  set  the  MFC  setpoint  so  there  is  no  power  being
+dissipated  by  the  control  valve.    For  a  normally  closed
+valve  this  is  0%  and  for  a  normally  open  control  valve
+it is 100%.
+14. 12  After  the  electrical  output  signal  has  stabilized
+for  at  least  three  minutes,  record  the  MFC  indicated
+zero in Table 1.
+14. 13  Open V1 and V2, command 100%.
+14. 14  After  the  electrical  output  signal  has  stabilized
+for  at  least  three  minutes,  record  the  actual  flow  as
+reported by the flow standard and the indicated flow in
+Table 1.
+14. 15  Repeat  Sections  14.8  to  14.14  for  each  of  the
+desired attitudes.
+14. 16  Return the DUT to attitude 1.
+14. 17  Adjust the inlet pressure to 308 kPa (44.7 psia).
+14. 18  Repeat Sections 14.8 to 14.14.
+SEMI E80-0299 © SEMI 1999, 2004 3
+
+
+15  Calculations or Interpretation of Results
+15. 1  Attitude sensitivity between two mounting positions is calculated as follows:
+ZAS
+nm =
+Z
+m
+− Z
+n
+
+Where,
+ZAS
+nm
+= Zero attitude Sensitivity between attitude n and attitude m
+Z
+n
+= zero indication at attitude n
+Z
+m
+= zero indication at attitude m
+SAS
+nm
+= S
+n
+− S
+m
+Where,
+SAS
+nm
+= Span attitude Sensitivity between attitude n and attitude m
+S
+n
+= Actual flow in attitude n
+S
+m
+= Actual flow in attitude mZAS
+max
+= The maximum zero attitude sensitivity for all attitudes.
+SAS
+max
+= The maximum span attitude sensitivity for all attitudes
+15. 2  Interpretation
+15. 2.1  Table 2 shows examples of raw and reduced data.  For the MFC tested, the maximum zero shift was 0.3%
+F.S. and the maximum span shift was 0.4% F.S.
+Table 1  Attitude Test Data
+
+MFC Mfg/Model/Serial # ____________________________________________
+Name Plate Gas/Range ______________________________________________
+Test Gas   _________________________________________________________
+Temp  ____________________________________  Date   __________________
+Factory Calibration Gas _____________________________________________
+
+Attitude           Pressure
+(kPa)
+
+Indicated Flow
+by DUT with
+Zero Actual Flow
+(% F.S.)
+Zero Attitude
+Sensitivity Compared
+to Attitude 1
+(% F.S.)
+Actual Flow by Flow
+Standard at 100%
+DUT Setpoint
+(% F.S.)
+Span Attitude
+Sensitivity Compared
+to Attitude 1
+(% F.S.)
+1                 135.8
+0                                                                  0
+2                 135.8
+
+3                 135.8
+
+4                 135.8
+
+5                 135.8
+
+
+ZAS
+max
+=                                                      SAS
+max
+=
+1                  308
+0                                                                  0
+2                  308
+
+3                  308
+
+4                  308
+
+5                  308
+
+
+ZAS
+max
+=                                                      SAS
+max
+=
+SEMI E80-0299 © SEMI 1999, 2004 4
+
+
+Table 2  Sample Attitude Test Data
+
+MFC Mfg/Model/Serial #    Acme/ XYZ-100/0001
+Name Plate Gas/Range     Nitrogen 100 sccm
+Test Gas     Nitrogen
+Temp
+20. 2 °C Date   3/9/98
+Factory Calibration Gas    Nitrogen
+
+Attitude           Pressure
+(kPa)
+
+Indicated Flow
+by DUT with
+Zero Actual Flow
+(% F.S.)
+Zero Attitude
+Sensitivity Compared
+to Attitude 1
+(% F.S.)
+Actual Flow by Flow
+Standard at 100%
+DUT Setpoint
+(% F.S.)
+Span Attitude
+Sensitivity Compared
+to Attitude 1
+(% F.S.)
+1                 135.8
+0
+0
+100
+0
+2                 135.8
+0. 1
+-0.1
+100. 2
+0. 2
+3                 135.8
+0
+0
+100
+0
+4                 135.8
+-0.1
+0. 1
+99. 8
+-0.2
+5                 135.8
+0
+0
+100
+0
+
+ZAS
+max
+=
+0. 2
+SAS
+max
+=
+0. 4
+1                  308
+0
+0
+100
+0
+2                  308
+0. 15
+-0.15
+100. 2
+0. 2
+3                  308
+0
+0
+100
+0
+4                  308
+-0.15
+0. 15
+99. 8
+-0.2
+5                  308
+0
+0
+100
+0
+
+ZAS
+max
+=
+0. 3
+SAS
+max
+=
+0. 4
+NOTE 1:  The values in bold italics are calculated values.
+
+SEMI E80-0299 © SEMI 1999, 2004 5
+
+
+16  Illustrations
+
+Flow
+Flow
+Flow
+Flow
+12
+3
+45
+HBDVIU
+VFD
+HEDVID
+VFU
+HUD
+HBD = Horizontal Base Down
+VIU = Vertical Inlet Up
+VFD = Veritical Flow Down
+HED = Horizontal Either side Down
+VID = Vertical Inlet Down
+VFU = Vertical Flow Up
+HUD = Horizontal Upside Down
+* For this test method the DUT
+must be mounted ±1
+O
+in all
+axes
+*****
+
+
+Figure 1
+MFC Mounting Attitudes
+
+SEMI E80-0299 © SEMI 1999, 2004 6
+
+
+DUT
+Flow
+Standard
+Flexible Gas Line
+V1V2R1F1
+P
+P1
+P
+DUT
+Flow
+Standard
+Regulator
+Filter
+Isolation Valve
+Pressure Transducer
+Device Under Test
+Flow Standard
+
+
+Figure 2
+Test Setup
+
+SEMI E80-0299 © SEMI 1999, 2004 7
+
+
+17  Related Documents
+17. 1  ANSI Standards
+1
+
+ANSI  C39.5  ⎯  Safety  Requirements  for  Electrical  and
+Electronic Measuring and Controlling Instrumentation
+ANSI    C42.100    ⎯    Dictionary    of    Electrical    and
+Electronics Terms
+17. 2  ISA Standard
+2
+
+ISA S51.1 ⎯ Process Instrumentation Terminology
+17. 3  ISO Standard
+3
+
+ISO  10012-1 ⎯  Quality  Assurance  Requirements  for
+Measuring Equipment
+
+NOTICE: SEMI      makes      no      warranties      or
+representations  as  to  the  suitability  of  the  standards  set
+forth    herein    for    any    particular    application.    The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.  Users  are  cautioned  to
+refer   to   manufacturer's   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature,
+respecting   any   materials   or   equipment   mentioned
+herein.  These  standards  are  subject  to  change  without
+notice.
+By    publication    of    this    standard,    Semiconductor
+Equipment and Materials International (SEMI) takes no
+position  respecting  the  validity  of  any  patent  rights  or
+copyrights   asserted   in   connection   with   any   items
+mentioned  in  this  standard.  Users  of  this  standard  are
+expressly advised that determination of any such patent
+rights  or  copyrights,  and  the  risk  of  infringement  of
+such rights are entirely their own responsibility.
+
+
+
+1
+
+American National Standards Institute, Headquarters: 1819 L
+Street, NW, Washington, DC 20036, USA. Telephone: 202.293.8020;
+Fax: 202.293.9287, New York Office: 11 West 42nd Street, New
+York, NY 10036, USA. Telephone: 212.642.4900; Fax:
+212. 398.0023, Website: www.ansi.org
+2 The Instrumentation, Systems, and Automation Society, 67
+Alexander Drive, PO Box 12277, Research Triangle Park, NC 27709,
+Telephone: 919-549-8411, Fax: 919-549-8288, http://www.isa.org
+3 International Organization for Standardization (ISO), 1, rue de
+Varembé, Case postale 56, CH-1211 Geneva 20, Switzerland,
+Telephone +41 22 749 01 11; Fax +41 22 733 34 30,
+http://www.iso.org/
+SEMI E80-0299 © SEMI 1999, 2004 8
+Copyright   by   SEMI®   (Semiconductor   Equipment   and   Materials
+International), 3081 Zanker Road, San Jose, CA 95134. Reproduction of
+the  contents  in  whole  or  in  part  is  forbidden  without  express  written
+consent of SEMI.
+
+SEMI E83-1000 © SEMI 1999, 20001
+SEMI E83-1000
+SPECIFICATION FOR 300 mm PGV MECHANICAL DOCKING FLANGE
+This  Provisional  Specification  was  technically  approved  by  the  Global  Physical  Interfaces  &  Carriers
+Committee and is the direct responsibility of the North American Physical Interfaces & Carriers Committee.
+Current edition approved by the North American Regional Standards Committee on July 14, 2000.  Initially
+available at www.semi.org August 2000; to be published October 2000. Originally published June 1999.
+1  Purpose
+1. 1     This    specification    is    intended    t o    promote
+consistent  interface  features  between  Person  Guided
+Vehicles and SEMI E15.1 equipment.
+2  Scope
+2. 1   This  specification  defines  a  me chanical  standard
+for   the   stationary   (equipment)   side   of   the   docking
+flange   used   by   300   mm   Person   Guided   Vehicles
+(PGVs). This flange is to be mounted to the floor within
+the  volume  defined  by  SEMI  E64  at  SEMI  E15.1  and
+SEMI E64 compliant equipment.
+2. 2   This  standard  does  not  purport   to  address  safety
+issues,   if   any,   associated   with   its   use.      It   is   the
+responsibility  of  the  users  of  this  standard  to  establish
+appropriate  safety  and  health  practices  and  determine
+the applicability of regulatory limitations prior to use.
+3  Limitations
+3. 1   This  standard  does  not  define  t he  PGV  (active)
+side  of  the  docking  interface  or  carrier  transfer.    The
+PGV and the PGV side of the docking interface designs
+should    comprehend    the    physical    limitations    of
+equipment to which they are being applied.
+4  Referenced Standards
+4. 1  SEMI Standards
+SEMI E15 — Specification for Tool Load Port
+SEMI  E15.1  —  Provisional  Specification  for  300  mm
+Tool Load Port
+SEMI  E64  —  Provisional  Specification  for  300mm
+Cart to SEMI E15.1 Docking Interface Port
+5  Terminology
+5. 1  Acronyms and Abbreviations
+5. 1.1  PGV — Person Guided Vehicl e (cart)
+5. 2  Definitions
+5. 2.1   carrier  —  Any  cassette,  box,  p od,  or  boat  that
+contains wafers (per SEMI E15).
+5. 2.2  cart — A floor based carrier tr ansfer vehicle (per
+SEMI E64).
+5. 2.3   docking  —  The  act  of  locating   a  floor-based
+carrier  transport  vehicle  for  carrier  transfer  to/from
+equipment (per SEMI E64).
+5. 2.4   facial  datum  plane  —  A  vertic al  plane  that
+bisects the wafers and that is parallel to the front side of
+the  carrier  (where  wafers  are  removed  or  inserted).  On
+tool load ports, it is also parallel to the load face plane
+specified in SEMI E15 on the side of the tool where the
+carrier is loaded and unloaded (per SEMI E57).
+5. 2.5  load face plane — The furthes t physical vertical
+boundary  plane  from  carrier  centroid  on  the  side(s)  of
+the equipment where loading of the tool is intended (per
+SEMI E15).
+5. 2.6   load  port  —  The  interface  loca tion  on  a  tool
+where  carriers  are  placed  to  allow  the  tool  to  process
+wafers (per SEMI E15).
+5. 2.7   transfer  —  To  either  load  or  u nload  (per  SEMI
+E15).
+6  Requirements
+6. 1   The  dimensions  that  define  the    universal  docking
+flange are listed in Table 1 and shown on Figure 1.
+6. 1.1   The  minimum  length  of  the  do cking  flange  is
+defined by 2×w11.  This minimum length is intended to
+fit  under  the  shadow  of  the  smallest  possible  width
+SEMI E15.1 compatible load port.  The PGV and PGV
+docking   must   provide   full   functionality   given   a
+minimum  length  docking  flange.    No  maximum  length
+has been specified.
+6. 1.2   One  vertical  pin  (labeled  VP  in   Figure  2)  is
+intended  to  be  used  for  horizontal  registration  of  the
+PGV to the docking flange.  This pin is also intended as
+a  feature  for  an  active  mechanism  on  the  PGV  to  lock
+on to.
+6. 2  There are three surfaces on the  flange and a verti-
+cal  pin  that  can  be  used  as  the  initial  docking  contacts
+point(s)  with  the  PGV.    These  have  been  identified  as
+surfaces A, B and C and pin VP as shown in Figure 2.
+These  features  are  the  primary  load  bearing  features
+during the act of docking, no other features or surfaces
+shall be used as initial docking contact points.
+
+SEMI E83-1000 © SEMI 1999, 20002
+Table 1  Dimensional Requirements
+SymbolValue, mm (in.)Tolerance (mm)Type
+a110 deg.+/- 0.25 deg.angle
+∅d11
+15. 0 (.591)+/- 0.2diameter
+d1233.0 (1.299)+/- 0.2distance
+d1339.0 (1.535)+/- 0.2distance
+d1462.0 (2.441)+/- 0.2distance
+d1580.0 (3.150)+/- 0.2distance
+d16237.5 (9.350)+/- 2.5distance
+d1768.0 (2.677)minimumdistance
+h1124.0 (.945)+/- 0.2distance
+h1239.0 (1.535)+/- 0.2distance
+h1340.0 (1.575)+/-0.2distance
+h1483.0 (3.268)+/-0.2distance
+h1520.0 (.787)maximumdistance
+r112.0 (.079)+/-0.2radius
+r134.0 (.157)+/-0.2radius
+r145.0 (.197)+/-0.2radius
+w11200 (7.874)minimumdistance
+Figure 1
+Side Elevation View I
+6. 3  The flange must be installed su ch that the vertical
+pin (VP) is capable of being aligned with the load port
+bilateral  datum  plane  (as  defined  in  SEMI  E15.1)  and
+surface A is a distance of d16 from the load port facial
+datum plane (as defined in SEMI E15.1).  The angle of
+incidence between surface A and the facial datum plane
+should  be  capable  of  adjustment  to  a11  listed  in  Table
+1.
+6. 3.1   The  docking  flange  is  to  be  ph ysically  isolated
+from  the  equipment  and  should  be  mounted  such  that
+the  equipment  and  equipment  load  port  are  protected
+from the impact incurred during docking.
+Figure 2
+Side Elevation View II
+6. 4    When   the   flange   is   removed,   n o   mounting
+hardware shall remain protruding from the floor.
+6. 5   Surfaces  A,  B,  B’  and  C  show n  on  Figure  2  must
+exist per tolerances listed in Table 1.
+Figure 3
+Front Elevation View
+NOTICE:.          SEMI     makes     no     warranties     or
+representations  as  to  the  suitability  of  the  standards  set
+forth   herein   for   any   particular   application.      The
+determination of the suitability of the standard is solely
+the  responsibility  of  the  user.    Users  are  cautioned  to
+refer   to   manufacturer’s   instructions,   product   labels,
+product   data   sheets,   and   other   relevant   literature
+respecting   any   materials   mentioned   herein.      These
+standards are subject to change without notice.
+The  user’s  attention  is  called  to  the  possibility  that
+compliance   with   this   standard   may   require   use   of
+copyrighted  material  or  of  an  invention  covered  by
+patent  rights.    By  publication  of  this  standard,  SEMI
+takes  no  position  respecting  the  validity  of  any  patent
+rights  or  copyrights  asserted  in  connection  with  any
+item mentioned in this standard.  Users of this standard
+are  expressly  advised  that  determination  of  any  such
+patent rights or copyrights, and the risk of infringement
+of such rights, are entirely their own responsibility.

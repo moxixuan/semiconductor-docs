@@ -1,26 +1,26 @@
 ---
-title: "文档标题"
-description: "SEMI E49.8-1103 © SEMI 1996, 2003 1 SEMI E49.8-1103 GUIDE FOR HIGH PURITY AND ULTRAHIGH PURITY GAS DISTRIBUTION SYSTEMS IN SEMICONDUCTOR MANUFACTURING EQUIPMENT This  guide  was  technically  appro..."
-sidebar_label: "Chapter 8"
+title: "E51-0200 - © SEMI 1995, 20001..."
+description: "SEMI标准文档"
+sidebar_label: "E51-0200 - © SEMI 1995, 20001..."
 sidebar_position: 80
-tags: ['SEMI', 'Standard', 'Chapter 8']
+tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-008.pdf'
   chapter: 8
   page_count: 50
-  file_size_mb: 0.48
-  processing_date: '2026-01-28T09:17:28.124Z'
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
 
-<PdfDownloadCard
-  pdfLink="/pdfs/semi/semi-chapter-008.pdf"
+PdfDownloadCard
+  pdfLink="/pdfs/semi/008.pdf"
   pdfSize="0.48MB"
-  title="Chapter 8"
-  description="SEMI标准文档 - Chapter 8，共50页"
-/>
+  title="E51-0200 - © SEMI 1995, 20001..."
+  description="SEMI标准文档，共50页"
+/
+
+
 
 # 文档标题
 

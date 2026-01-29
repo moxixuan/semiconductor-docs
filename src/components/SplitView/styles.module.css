@@ -1,0 +1,351 @@
+/* ===== SplitView 主容器 ===== */
+.splitViewContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--dark-surface, #12121a);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  margin: 1.5rem 0;
+}
+
+/* ===== 控制栏 ===== */
+.controlBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg,
+    rgba(0, 212, 255, 0.05),
+    rgba(168, 85, 247, 0.05)
+  );
+  border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+  gap: 12px;
+}
+
+.controlGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.hint {
+  font-size: 12px;
+  color: var(--ifm-font-color-secondary, #a1a1aa);
+  opacity: 0.8;
+}
+
+/* ===== 控制按钮 ===== */
+.controlButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: linear-gradient(135deg, #00d4ff, #a855f7);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.controlButton:hover {
+  box-shadow: 0 6px 25px rgba(0, 212, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.controlButton:active {
+  transform: translateY(0);
+}
+
+.controlButton.collapsed {
+  opacity: 0.5;
+  filter: grayscale(50%);
+}
+
+/* 按钮光效 */
+.controlButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.controlButton:hover::before {
+  left: 100%;
+}
+
+/* ===== 面板容器 ===== */
+.panesContainer {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ===== 分隔条 (Resizer) ===== */
+.resizer {
+  position: relative;
+  width: 6px;
+  background: linear-gradient(180deg,
+    rgba(0, 212, 255, 0.1),
+    rgba(0, 212, 255, 0.2)
+  );
+  border-left: 1px solid rgba(0, 212, 255, 0.3);
+  border-right: 1px solid rgba(0, 212, 255, 0.3);
+  cursor: col-resize;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+/* Resizer悬停效果 */
+.resizer:hover {
+  background: linear-gradient(180deg,
+    rgba(0, 212, 255, 0.3),
+    rgba(168, 85, 247, 0.3)
+  );
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.5),
+              inset 0 0 10px rgba(0, 212, 255, 0.2);
+  width: 8px;
+}
+
+/* Resizer拖拽状态 */
+.resizer.isDragging {
+  background: linear-gradient(180deg,
+    rgba(0, 212, 255, 0.5),
+    rgba(168, 85, 247, 0.5)
+  );
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.8),
+              inset 0 0 15px rgba(0, 212, 255, 0.3);
+  width: 10px;
+}
+
+/* Resizer禁用状态 (移动端) */
+.resizer.disabled {
+  display: none;
+}
+
+/* Resizer焦点样式 */
+.resizer:focus {
+  outline: 2px solid rgba(0, 212, 255, 0.5);
+  outline-offset: 2px;
+}
+
+/* Resizer视觉指示器 */
+.resizer::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg width='4' height='20' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2' cy='2' r='1' fill='rgba(0, 212, 255, 0.5)'/%3E%3Ccircle cx='2' cy='10' r='1' fill='rgba(0, 212, 255, 0.5)'/%3E%3Ccircle cx='2' cx='18' r='1' fill='rgba(0, 212, 255, 0.5)'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.resizer:hover::after,
+.resizer.isDragging::after {
+  opacity: 1;
+}
+
+/* ===== 面板 (Pane) ===== */
+.splitPane {
+  flex: 1;
+  overflow: auto;
+  min-width: 0;
+  transition: flex 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.3s ease,
+              padding 0.3s ease;
+  position: relative;
+}
+
+/* 面板内容样式优化 */
+.splitPane > :first-child {
+  margin-top: 0;
+}
+
+.splitPane > :last-child {
+  margin-bottom: 0;
+}
+
+/* 折叠状态 */
+.splitPane.collapsed {
+  flex: 0 !important;
+  min-width: 0 !important;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* 左侧面板特殊样式 */
+.leftPane {
+  background: var(--dark-surface, #12121a);
+  border-right: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+/* 右侧面板特殊样式 */
+.rightPane {
+  background: var(--dark-card, #1a1a24);
+  border-left: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+/* ===== 拖拽遮罩层 ===== */
+.dragOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: 1000;
+  cursor: col-resize;
+}
+
+/* ===== 移动端响应式 ===== */
+.splitViewContainer.mobile {
+  margin: 1rem 0;
+}
+
+.splitViewContainer.mobile .panesContainer {
+  flex-direction: column;
+}
+
+.splitViewContainer.mobile .leftPane,
+.splitViewContainer.mobile .rightPane {
+  width: 100% !important;
+  max-height: 50vh;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.splitViewContainer.mobile .resizer {
+  display: none;
+}
+
+.splitViewContainer.mobile .controlBar {
+  flex-wrap: wrap;
+}
+
+.splitViewContainer.mobile .hint {
+  display: none;
+}
+
+/* ===== 平滑滚动 ===== */
+.splitPane {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 自定义滚动条 */
+.splitPane::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.splitPane::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.splitPane::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,
+    rgba(0, 212, 255, 0.3),
+    rgba(168, 85, 247, 0.3)
+  );
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.splitPane::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg,
+    rgba(0, 212, 255, 0.5),
+    rgba(168, 85, 247, 0.5)
+  );
+}
+
+/* ===== 动画效果 ===== */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.resizer.isDragging {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+/* ===== 响应式断点 ===== */
+@media (max-width: 768px) {
+  .splitViewContainer {
+    margin: 0.5rem 0;
+    border-radius: 8px;
+  }
+
+  .controlBar {
+    padding: 10px 12px;
+  }
+
+  .controlButton {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .splitPane {
+    font-size: 14px;
+  }
+}
+
+/* ===== 打印样式 ===== */
+@media print {
+  .splitViewContainer {
+    border: none;
+    box-shadow: none;
+  }
+
+  .controlBar {
+    display: none;
+  }
+
+  .resizer {
+    display: none;
+  }
+
+  .splitPane {
+    overflow: visible;
+  }
+}
+
+/* ===== 深色模式优化 ===== */
+@media (prefers-color-scheme: dark) {
+  .splitViewContainer {
+    background: var(--dark-surface, #12121a);
+  }
+
+  .leftPane,
+  .rightPane {
+    background: var(--dark-surface, #12121a);
+  }
+}

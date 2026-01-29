@@ -7,12 +7,12 @@ tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-002.pdf'
-  chapter: 2
+  chapter: 002
   page_count: 50
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/002.pdf"
@@ -23,11 +23,9 @@ import PdfViewer from '@site/src/components/PdfViewer';
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/002.pdf" />
-
-
+<PdfSplitView pdfPath="/pdfs/semi/002.pdf">
 
 &lt;!-- Page 1 --&gt;
 
@@ -228,3 +226,5 @@ SEMI E10-0304E © SEMI 1986, 200413 Table A1-1 1-Sided Lower Confidence Bound Fa
 &lt;!-- Page 50 --&gt;
 
 SEMI E10-0304E © SEMI 1986, 2004 14 Table A1-3 1-Sided Lower Confidence Bound Factors for the MTBF p (Failure Censored Data)Use for failure censored data to multiply the MTBFp estimate to obtain a lower bound at the given confidence level. Failure censored data meansthe test or observation period lasts as long as needed to obtain a preset number of failures.CONFIDENCE LEVEL# FAILSr60% 70% 80% 85% 90% 95% 97.5% 1 1.091 0.831 0.621 0.527 0.434 0.334 0.2712 0.989 0.820 0.668 0.593 0.514 0.422 0.3593 0.966 0.830 0.701 0.635 0.564 0.477 0.4154 0.958 0.840 0.725 0.665 0.599 0.516 0.4565 0.955 0.849 0.744 0.688 0.626 0.546 0.4886 0.954 0.856 0.759 0.706 0.647 0.571 0.5147 0.953 0.863 0.771 0.721 0.665 0.591 0.5368 0.954 0.869 0.782 0.734 0.680 0.608 0.5559 0.954 0.874 0.791 0.745 0.693 0.623 0.57110 0.955 0.878 0.799 0.755 0.704 0.637 0.58512 0.956 0.886 0.812 0.771 0.723 0.659 0.61015 0.958 0.895 0.828 0.790 0.745 0.685 0.63920 0.961 0.906 0.846 0.812 0.772 0.717 0.67430 0.966 0.920 0.870 0.841 0.806 0.759 0.72050 0.971 0.935 0.896 0.872 0.844 0.804 0.772100 0.978 0.952 0.923 0.906 0.885 0.855 0.830500 0.989 0.978 0.964 0.956 0.945 0.930 0.918 Table A1-4 Test Length GuideUse to determine the test time needed to demonstrate a desired MTBFp at a given confidence level if r failures occur. Multiply the desired MTBF pby the k factor corresponding to r and the confidence level.k FACTOR FOR GIVEN CONFIDENCE LEVELS# FAILSr50% 60% 75% 80% 90% 95% 0 0.693 0.916 1.39 1.61 2.30 3.001 1.68 2.02 2.69 2.99 3.89 4.742 2.67 3.11 3.92 4.28 5.32 6.303 3.67 4.18 5.11 5.52 6.68 7.754 4.67 5.24 6.27 6.72 7.99 9.155 5.67 6.29 7.42 7.90 9.28 10.516 6.67 7.35 8.56 9.07 10.53 11.847 7.67 8.38 9.68 10.23 11.77 13.158 8.67 9.43 10.80 11.38 13.00 14.439 9.67 10.48 11.91 12.52 14.21 15.7010 10.67 11.52 13.02 13.65 15.40 16.9615 15.67 16.69 18.48 19.23 21.29 23.1020 20.68 21.84 23.88 24.73 29.06 30.89
+
+</PdfSplitView>

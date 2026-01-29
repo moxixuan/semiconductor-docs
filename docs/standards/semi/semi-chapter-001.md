@@ -7,12 +7,12 @@ tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-001.pdf'
-  chapter: 1
+  chapter: 001
   page_count: 50
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/001.pdf"
@@ -23,11 +23,9 @@ import PdfViewer from '@site/src/components/PdfViewer';
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/001.pdf" />
-
-
+<PdfSplitView pdfPath="/pdfs/semi/001.pdf">
 
 &lt;!-- Page 1 --&gt;
 
@@ -228,3 +226,5 @@ SEMI E2.3-93 © SEMI 1993, 20031 SEMI E2.3-93 (Withdrawn 1103)STANDARD FOR 100 m
 &lt;!-- Page 50 --&gt;
 
 SEMI E2.3-93 © SEMI 1993, 2003 2 NOTICE: These standards do not purport to address safety issues, if any, associated with their use. It is theresponsibility of the user of these standards to establish appropriate safety and health practices and determine theapplicability of regulatory limitations prior to use. SEMI makes no warranties or representations as to the suitabilityof the standards set forth herein for any particular application. The determination of the suitability of the standard issolely the responsibility of the user. Users are cautioned to refer to manufacturer's instructions, product labels,product data sheets, and other relevant literature respecting any materials mentioned herein. These standards aresubject to change without notice.The user's attention is called to the possibility that compliance with this standard may require use of copyrightedmaterial or of an invention covered by patent rights. By publication of this standard, SEMI takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any item mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

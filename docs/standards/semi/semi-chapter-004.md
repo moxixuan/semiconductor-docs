@@ -7,12 +7,12 @@ tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-004.pdf'
-  chapter: 4
+  chapter: 004
   page_count: 50
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/004.pdf"
@@ -23,11 +23,9 @@ import PdfViewer from '@site/src/components/PdfViewer';
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/004.pdf" />
-
-
+<PdfSplitView pdfPath="/pdfs/semi/004.pdf">
 
 &lt;!-- Page 1 --&gt;
 
@@ -228,3 +226,5 @@ SEMI E25-92 © SEMI 1992, 2004 2 4.3 Outboard Plane  The outboard surface should
 &lt;!-- Page 50 --&gt;
 
 SEMI E25-92 © SEMI 1992, 20043 Figure 1 Figure 2 7 Related Documents7.1 SEMI Documents SEMI E6  SEMI Facilities Interface SpecificationsGuideline and Format
+
+</PdfSplitView>

@@ -7,12 +7,12 @@ tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-005.pdf'
-  chapter: 5
+  chapter: 005
   page_count: 50
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/005.pdf"
@@ -23,11 +23,9 @@ import PdfViewer from '@site/src/components/PdfViewer';
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/005.pdf" />
-
-
+<PdfSplitView pdfPath="/pdfs/semi/005.pdf">
 
 &lt;!-- Page 1 --&gt;
 
@@ -228,3 +226,5 @@ SEMI E35-0305 © SEMI 1995, 2005 18 RELATED INFORMATION 2EXAMPLE VALUES TABLENOT
 &lt;!-- Page 50 --&gt;
 
 SEMI E35-0305 © SEMI 1995, 200519 Example Values Description 150 mm Example #1 200 mm Example #2 300 mm Example #3 8. Installation Cost as Percent of Equipment CostLithography NA NA 8%Metrology NA NA 5%Other NA NA 12%#1 Derived from SEMATECH Cost of Ownership Rev. B December 1990.#2 Approved, Metrics Committee, July 11, 1995.#3 Derived from joint Selete and International 300mm Initiative (I300I) inputs, 1997. NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for anyparticular application. The determination of the suitability of the standard is solely the responsibility of the user.Users are cautioned to refer to manufacturer's instructions, product labels, product data sheets, and other relevantliterature, respecting any materials or equipment mentioned herein. These standards are subject to change withoutnotice.By publication of this standard, Semiconductor Equipment and Materials International (SEMI) takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any items mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

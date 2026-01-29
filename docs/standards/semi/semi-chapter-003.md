@@ -7,12 +7,12 @@ tags: ['SEMI', 'Standard']
 custom_props:
   source_type: 'pdf'
   source_file: 'semi-chapter-003.pdf'
-  chapter: 3
+  chapter: 003
   page_count: 50
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/003.pdf"
@@ -23,11 +23,9 @@ import PdfViewer from '@site/src/components/PdfViewer';
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/003.pdf" />
-
-
+<PdfSplitView pdfPath="/pdfs/semi/003.pdf">
 
 &lt;!-- Page 1 --&gt;
 
@@ -228,3 +226,5 @@ SEMI E19.4-0998E © SEMI 1992, 20035 Figure 2Port Dimensions
 &lt;!-- Page 50 --&gt;
 
 SEMI E19.4-0998E © SEMI 1992, 2003 6 Figure 3Dimensions of Pod Hold Down Latches Figure 4Dimensions of Pod Latch Hole
+
+</PdfSplitView>

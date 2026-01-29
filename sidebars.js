@@ -190,7 +190,6 @@ module.exports = {
             'standards/semi/semi-chapter-062',
             'standards/semi/semi-chapter-020',
             'standards/semi/semi-chapter-063',
-            'standards/semi/semi-chapter-064',
             'standards/semi/semi-chapter-065',
             'standards/semi/semi-chapter-070',
             'standards/semi/semi-chapter-071',
@@ -270,8 +269,6 @@ module.exports = {
             'standards/semi/semi-chapter-115',
             'standards/semi/semi-chapter-116',
             'standards/semi/semi-chapter-117',
-            'standards/semi/semi-chapter-118',
-            'standards/semi/semi-chapter-119',
             'standards/semi/semi-chapter-121'
           ],
         },
@@ -300,10 +297,7 @@ module.exports = {
             'standards/semi/semi-chapter-152',
             'standards/semi/semi-chapter-153',
             'standards/semi/semi-chapter-154',
-            'standards/semi/semi-chapter-155',
-            'standards/semi/semi-chapter-156',
-            'standards/semi/semi-chapter-157',
-            'standards/semi/semi-chapter-159'
+            'standards/semi/semi-chapter-155'
           ],
         }
           ],

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/018.pdf"
   pdfSize="N/A"
   title="E114-0302 - E © SEMI 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/018.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/018.pdf">
+
+---
+title: "E114-0302 - E © SEMI 2002..."
+description: "SEMI标准文档"
+sidebar_label: "E114-0302 - E © SEMI 2002..."
+sidebar_position: 18
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-018.pdf'
+  chapter: 18
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E117-1104 © SEMI 2002, 20041 SEMI E117-1104SPECIFICATION FOR RETICLE LOAD 
 &lt;!-- Page 50 --&gt;
 
 SEMI E117-1104 © SEMI 2002, 2004 2 6 Requirements6.1 Figures and Tables  The dimensionalrequirements for a reticle load port (and for theplacement of an RSP on that load port) are given inTable 1 with reference to the figures in this document.Although the carrier transport systems shown in thesefigures represent an overhead transport system using anOHT delivery vehicle, they are intended to represent alltypes of transport systems (AGV, PGV, conveyor,overhead track, etc.).6.2 Orientation  The reticles are to be orientedhorizontally (chrome down) with zero nominal tiltwhen the RSP is placed on the load port. The tolerancein the horizontal plane is determined by the registrationand alignment feature between the RSP and the loadport, as specified in SEMI E19.3 or SEMI E19.4. TheRSP shall be loaded and unloaded with its front (wherereticles are inserted and extracted after the SMIF pod isopened) parallel to and away from the load face plane(see Figure 2).6.3 Side Clearances  Clearances C1 and C2 aredefined with respect to the maximum dimensions of thefootprint of the RSP (as specified in SEMI E19.3 orSEMI E19.4), not to the rectangular carrier envelope(defined in SEMI E15). Note that C1 is lateral clearanceto the left and right of the RSP, but C2 is a radialclearance from the nearest point of the RSP.6.4 Overhead Clearances  All load ports intendedfor automated overhead access must be open fromabove to facilitate automatic RSP delivery. The openvolume required for automated overhead delivery isdefined by a projection of the load port area, includingthe area required for C1 and C2 clearances, projectedupward to the top of the equipment. To allow space foroverhead delivery above H2, D1 also defines the openvolume. Note that this condition need only be met whenthe equipment is being loaded or unloaded. Forexample, the load port may be formed by a surface thatextends outward during loading to provide overheadaccess.6.5 Easement for Overhead Transport  As shown inFigure 1 and Figure 2, to add clearance for overheadRSP transport, no part of the equipment may be higherthan H2 above the floor along an easement between theload ports of adjacent equipment down the bay. On areticle stocker, on inspection equipment, and onlithography exposure equipment that has the load portson the far end from the litho track, this easement isbetween the load face plane and a plane parallel to itthat is D1 beyond the facial reference plane. Onlithography exposure equipment that has the load portson a side adjacent to the litho track, this easement isbetween two planes parallel to the bilateral reference plane at the furthest reach of clearance C1 to the leftand right of the set of load ports. Such tools must alsohave an additional easement above H6 between the loadface plane and a plane parallel to it that is D1 beyondthe facial reference plane. It is recommended thattransport equipment using these easements have extraclearance to avoid contacting any equipmentboundaries.6.6 Loading Obstructions  As shown in Figure 3, themaximum allowable height of an obstruction on theload port over which the RSP must be lifted (beforebeing set down on the SMIF interface) is H1.Examples of such obstructions include alignmentdevices and identification tag readers (as well as theSMIF port itself). In the volume between the horizontalreference plane and H1 above it, clearances C1 and C2no longer apply.6.7 Load Port Lead In  The load port must provide alead-in capability (in addition to that required on theSMIF port) that corrects an RSP misalignment distanceof R in any horizontal direction.6.8 Adjacent Load Ports  All reticle load ports forautomated access must be on the same side of theequipment. All equipment must have at least one loadport with access for automated overhead delivery. Atleast two of these load ports are recommended tosupport equipment throughput. Auxiliary load portsintended for manual delivery may be located on adifferent side of the equipment. On each piece ofequipment, reticle load ports are numbered inincreasing order (beginning with 1) from left to right(as seen by a person facing the load face plane)beginning with reticle load ports in the lowest level andthen continuing (from left to right) with any reticle loadports at higher levels. Dimension S specifies thespacing between adjacent reticle load ports.6.9 As shown in Figure 4, reticle load ports mustconform to one of the following configuration options.If no option is specified, Option 1 is assumed.6.9.1 In Option 1, the load port must nominally be atH, and it must be open from above to facilitateautomatic carrier delivery from an overhead transportsystem. The open volume required for vertical deliveryis defined by a projection of the tool load port area,including the area required for C1 and C2 clearances,projected upward to the top of the tool. Note that thiscondition need only be met when the tool is beingloaded. For example, the load port may be formed by asurface that extends outward during loading to provideoverhead access.6.9.2 In Option 2 (which allows faster automaticcarrier delivery from an overhead transport system), thetop of the carrier must be ≤H2 (2900 for exposure
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/026.pdf"
   pdfSize="N/A"
   title="E5-1104 - © SEMI 1982, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/026.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/026.pdf">
+
+---
+title: "E5-1104 - © SEMI 1982, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E5-1104 - © SEMI 1982, 2004..."
+sidebar_position: 26
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-026.pdf'
+  chapter: 26
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E5-1104 © SEMI 1982, 2004241 Stream,Function Name (Mnemonic) DirectionS17,
 &lt;!-- Page 50 --&gt;
 
 SEMI E5-1104 © SEMI 1982, 2004 242 Stream,Function Name (Mnemonic) DirectionS17,F6 Trace Create Acknowledge (TRCA) S,H&lt;-EDescriptionEquipment confirms creation of an Event Report and returns a TRID.StructureL,21. 2\. ExceptionIf ERRCODE is a zero length item, then no error occurred. Stream,Function Name (Mnemonic) DirectionS17,F7 Trace Delete Request (TRD) S,H-&gt;E,replyDescriptionThe host requests to delete one or more Trace Reports.StructureL,n1. 2\. ..n. ExceptionNone Stream,Function Name (Mnemonic) DirectionS17,F8 Trace Delete Acknowledge (TRDA) S,H&lt;-EDescriptionThis message is required to inform the host when a Trace Report could not be deleted. This message does not need to be sent toconfirm the successful deletion of a Trace Report. If the report is sent for a successfully deleted Trace Report, then theERRCODE item length shall be set to zero.StructureL,21. 2\. L,m1. L,31. 2\. 3\. ..m. L,31. 2\. 3\. ExceptionIf ACKA is TRUE, then no errors were encountered, meaning all report requests were completed successfully and a zero-lengthlist (m = 0) shall be sent.If some reports could not be deleted, then their TRIDs shall be provided in a space separated list in ERRTEXT.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/108.pdf"
   pdfSize="N/A"
   title="M53-1103 - © SEMI 2003 2..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/108.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/108.pdf">
+
+---
+title: "M53-1103 - © SEMI 2003 2..."
+description: "SEMI标准文档"
+sidebar_label: "M53-1103 - © SEMI 2003 2..."
+sidebar_position: 108
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-108.pdf'
+  chapter: 108
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M57-0705 © SEMI 2004, 20053 NOTICE: Unless otherwise indicated, all docume
 &lt;!-- Page 50 --&gt;
 
 SEMI M57-0705 © SEMI 2004, 2005 4 Table 1 Silicon Wafer Specification Format for Order Entry, Part 5 Annealed Wafers ITEM SPECIFICATION MEASUREMENT METHOD 5-1. ANNEALING CONDITIONS5-1.1 Annealing Atmosphere \[ \]Hydrogen; \[ \]Argon; \[ \]Other: (specify)\_\_\_\_\_ 5-2. POST-ANNEAL WAFER PREPARATION CHARACTERISTIC5-2.1 Edge Surface Condition \[ \]Ground; \[ \]Etched; \[ \]Polished A 5-3. POST-ANNEAL DIMENSIONAL CHARACTERISTICS5-3.1 Warp \[ \] m; max. \[ \]SEMI MF657; \[ \]SEMI MF1390; \[ \]Other: (specify)\_\_\_\_\_\_\_\_ 5-3.2 Flatness, Site Acronym #2: \[ \] \[ \] \[ \] \[ \] Value: Not greater than \[ \]m Site Size \_\_\_ mm  \_\_\_ mm% Usable Area\_\_\_\_\_\_\_\_\[ \]Include partial sites; \[ \]Do not include partial sitesOffset: x = \[ \] mm, y = \[ \] mm \[ \]SEMI MF1530; \[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4. POST-ANNEAL FRONT SURFACE CHEMISTRY5-4.1 Surface Metal Contamination 5-4.1.1 Sodium \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4.1.2 Aluminum \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4.1.3 Potassium \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]SEMI M33 (TXRF); \[ \]ISO 14706 (TXRF);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4.1.4 Chromium \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]SEMI M33 (TXRF); \[ \]ISO 14706 (TXRF);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4.1.5 Iron \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]SEMI M33 (TXRF); \[ \]ISO 14706 (TXRF);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4.1.6 Nickel \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]SEMI M33 (TXRF); \[ \]ISO 14706 (TXRF);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_ 5-4.1.7 Copper \[ \]Not greater than \[  10 \]atoms/cm 2 \[ \]ICP/MS; \[ \]AAS; \[ \]SEMI MF1617 (SIMS);\[ \]SEMI M33 (TXRF); \[ \]ISO 14706 (TXRF);\[ \]Other: (specify)\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+</PdfSplitView>

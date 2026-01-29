@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/120.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 120"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/120.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/120.pdf">
+
+---
+title: "SEMI Chapter 120"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 120"
+sidebar_position: 120
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-120.pdf'
+  chapter: 120
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P43-0304 © SEMI 2004 8 (clipped) feature area loss. Note that the value of
 &lt;!-- Page 50 --&gt;
 
 SEMI P43-0304 © SEMI 20049 Figure 12The 4 Default Orientations of a 90 Corner 8.2.3.2 corner area gain  special case of clippedfeature area gain, in which the region of interestcontains one corner of a feature.8.2.3.3 corner area loss  special case of clippedfeature area loss, in which the region of interestcontains one corner of a feature.NOTE 22: In non-corrected isolated cases normally there isonly a loss for outer corners and a gain for inner corners. Inother cases (i.e., corrected corners) there may be a loss and again, which makes it necessary to also define the differenceand deviation, as done below.8.2.3.4 corner area difference  corner area gainminus corner area loss. As such it is a special case ofclipped feature area difference, in which the region ofinterest contains one corner of a feature.8.2.3.5 corner area deviation  the sum of cornerarea gain and corner area loss. As such it is a specialcase of clipped feature area deviation, in which theregion of interest contains one corner of a feature.NOTE 23: As the corner shape is expected not to be decisivefor its printability (at least for an isolated corner), but ratherthe balance between area gain and loss, it is recommended touse area difference for corner qualification rather than areadeviation.NOTE 24: Certain features with non-isolated corners, such asline-ends and contacts, have specific definitions listed inSections 8.2.4 and beyond.8.2.3.6 In present practice, corner rounding quantifica-tion is done without comparison to the nominal corner.However, this is only valid if the corner is isolated,non-corrected, and its area gain is negligible. Typicallyit is done based on the determination of a referencecorner which is obtained by the extrapolation of thelinear sections of the corner, if present (Figure 13). Figure 13Corner Rounding Determination by Extrapolationof the Linear Sections of the Actual Feature Contour 8.2.3.7 equivalent corner rounding radius (ECRR) an equivalent, effective corner rounding radiuscalculated from the area difference. It assumes that thecorner is a circular arc. The ECRR is calculated asECRR = sqrt( 4 \* corner area difference / ( - 4) ), for a90 degree corner.8.2.3.7.1 The ECRR is defined only for negative cornerarea differences, i.e., where the corner area loss islarger than the corner area gain.NOTE 25: This definition actually gives a 1D representationfor a 2D quality assessement, but it is found useful whencomparing mask quality to wafer printing results, which aretypically characterized by 1D measurements, such that adimensionless MEEF (mask error enhancement factor) can beused. As with area based assessment, also this termdisregards the shape at the feature corner.NOTE 26: Current methods to determine a corner roundingradius based on fitting a circle to an actual corner have beenexperimentally shown to deliver unreliable results and aretherefore strongly discouraged.8.2.3.8 corner pull-back (CPB)  the distancebetween the reference corner and the actual featurecontour. This may be based on the minimum distance(minimum CPB) or that determined along the bisectric(bisectric CPB) (see Figure 14). The choice of CPBtechnique is mandatory information.NOTE 27: Edge roughness may have an important influenceon the corner pull-back, such that contour averaging may benecessary to produce a meaningful result. The method ofcontour averaging is mandatory information for corner pull-back, if used.
+
+</PdfSplitView>

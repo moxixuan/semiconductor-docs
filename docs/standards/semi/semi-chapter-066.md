@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/066.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 066"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/066.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/066.pdf">
+
+---
+title: "SEMI Chapter 066"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 066"
+sidebar_position: 66
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-066.pdf'
+  chapter: 66
+  page_count: 1
+---
 
 
 
@@ -240,3 +253,5 @@ SEMI E130-1104 © SEMI 2003, 200413 18.5.2.3 ReferenceDeviceX  This is the Colum
 &lt;!-- Page 50 --&gt;
 
 SEMI E130-1104 © SEMI 2003, 2004 14 90 deg. 270 deg. 180 deg. 0 deg.Figure 6Orientation of the Substrate Notch 18.8 Orientation Attributes18.8.1 Orientation  Identifies the orientation of the fiducial when defining the coordinate system on a substrate.This parameter in conjunction with the OriginLocation recipe attribute determines the coordinate and size attributesof devices on a substrate.18.8.2 OrientationOnChuck  Identifies the orientation of a substrate loaded on the chuck. This attribute does notaffect the coordinate and size attributes of devices on a substrate.18.9 Example Coordinate References  The values presented in this section are for demonstration purposes(measurements are not exact).18.9.1 Orientation  The recipe attributes presented in Figure 7 reflect an Orientation attribute setting of 0. Therecipe attributes presented in Figure 8 reflect an Orientation attribute setting of 90.
+
+</PdfSplitView>

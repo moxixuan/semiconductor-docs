@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/150.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 150"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/150.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/150.pdf">
+
+---
+title: "SEMI Standards - Chapter 150"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 150"
+sidebar_position: 150
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-150.pdf'
+  chapter: 150
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF1723-1104 © SEMI 20045 10.2.1 Parallel Cores  As shown in Figure 1, core
 &lt;!-- Page 50 --&gt;
 
 SEMI MF1723-1104 © SEMI 2004 6 12.2 Core Etching12.2.1 Do all operations in the etch bench clean roomand zoner clean room with operators in full clean roomattire, including gloves, hood, and mask.12.2.2 Make a fresh acid etch mixture and fill the tanksin the etch bench. When the proper temperatures andwater flows are achieved, place the core samples intoclean etch boats and etch, rinse, and dry the cores. Usethe HNO 3-HF acid etching mixture, etching at least twocycles, to remove a minimum of 100 m from thesurface of the core sample. This is necessary in order toremove surface damage caused by the coring process.Other acid etch mixtures can be used, but must beevaluated and controlled to ensure effectiveness andavoid impurity interferences.12.2.3 After etching, float zone cores as soon aspossible to reduce the probability of contamination.Re-etch cores if the maximum holding period isexceeded. To extend the holding period, seal the coresin a suitably clean material and store in a clean roomenvironment.12.3 Preparation of Apparatus12.3.1 Clean the core drilling apparatus to preventcontamination of the core sample.12.3.2 Clean the etch bench and check the DI rinsewater purity, temperature, total organic carbon, andresistivity.12.3.3 Clean the float zone chamber. Using the stain-less steel wire brush, scrub the walls of the chamber toloosen silicon deposits and remove the loose particleswith the vacuum cleaner. Wipe the walls, holders, andcoil with clean room wipes soaked with a high puritysolvent. Inspect cooling water reservoir, water flow,water temperature, coil and preheater connections,shaft, coil feedthroughs, door seals, hose connections,travel stops, and rotations.12.3.4 Carry out major cleaning, including acidcleaning of coil and associated parts, and changing ofseals on a periodic basis. After cleaning, argon drying,and vacuum pumping, perform a chamber and preheaterbakeout of at least 15 min.12.4 Ingot Growth12.4.1 Place the core samples and seed in the furnacechamber so that both hang plumb and are centered andaligned with the vertical axis of rotation.12.4.2 Remove air from the chamber with a series ofevacuation and argon purge cycles. Fill the chamberwith argon and continue the argon purge throughout thegrowth cycle, maintaining a positive pressure of argonin the chamber. 12.4.3 Position the seed end of the core sample in thecoil, and the preheater close to the seed end of the core.Adjust the preheater power to make the initial inductioncoupling of the preheater and sample, and heat until thesample begins to glow, about 600 to 700°C. Move thepreheater away from the sample and move the coresample close to the coil opening to establish a moltenzone controlled by power to the coil.12.4.4 After a small molten zone has been establishedat the seed end, move the seed vertically until it touchesthe molten zone. Withdraw the seed to form a conicalmelt, making sure the seed has melted in, and begin thenecking phase in order to form a zero dislocationcrystal.12.4.5 Adjust top and bottom travel and rotation ratesto complete the necking phase, check for the three-growth facet lines to ensure the ingot is single crystal,and adjust travel and power level to form the finaldiameter of the ingot. Adjust the travel and rotationsand grow a single crystal zero dislocation ingot.12.4.6 When the desired ingot length has been attained,pull the ingot from the melt, making sure the ingot andmelt separate without freezing. After separation,reduce power, stop all travels and rotation, turn offpower, and allow to cool.12.5 Ingot Evaluation12.5.1 Visual Examination  Examine the ingotvisually for uniformity of diameter, continuousuniform-growth facet line, and color, to determinewhether the ingot is zero dislocation single crystal andwhether oxide deposits are present as a result of airleaks.12.5.2 Structural and Electrical Examination12.5.2.1 Determine crystallographic orientation in ac-cordance with SEMI MF26 on a sampling basis toconfirm the visual examination.12.5.2.2 Determine the crystallographic perfection ofthe grown ingot in accordance with SEMI MF1725 on asampling basis to confirm the visual examination.12.5.2.3 Test for uniform distribution ofacceptor/donor impurities by plotting a resistivityprofile along the length of the ingot in accordance withSEMI MF397. Note that resistivity values should varyalong the length consistent with the net acceptor/donorvalues measured at the various points and that sharpchanges in the profile indicate point contamination ornonuniformity of the sample deposition layer.12.6 Ingot Sampling12.6.1 After the ingot is inspected for crystallographicperfection, appearance, and uniformity, and judged to
+
+</PdfSplitView>

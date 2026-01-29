@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/015.pdf"
   pdfSize="N/A"
   title="E92-0302 - E © SEMI 1999,..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/015.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/015.pdf">
+
+---
+title: "E92-0302 - E © SEMI 1999,..."
+description: "SEMI标准文档"
+sidebar_label: "E92-0302 - E © SEMI 1999,..."
+sidebar_position: 15
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-015.pdf'
+  chapter: 15
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E100-1104 © SEMI 2000, 2003 12 Table 3 Internal Dimensions Unique to the 2
 &lt;!-- Page 50 --&gt;
 
 SEMI E100-1104 © SEMI 2000, 200413 APPENDIX 1APPLICATION NOTES NOTICE: The material in this appendix is an official part of SEMI E100 and was approved by full letter ballotprocedures on September 3 and December 15, 1999 by the North American Regional Standards Committee, but therecommendations in this appendix are optional and are not required to conform to this standard.A1-1 Edge contact only with the photomask ispreferred when handling, transporting, or storing.A1-2 Skewness, warp, rock, and stiffness are implicitlydefined in the geometric tolerances.A1-3 A 6 inch reticle with a 140 mm wide pellicle canbe accommodated in the RSP, but may requireautomation which approaches from above the reticle.A1-4 Features on the RSP which enable stacking maybe required by end users. It is preferred that thesefeatures allowing stacking in only one orientation.A1-5 Features on the RSP which provide visualorientation of the RSP top and RSP door may berequired by end users.A1-6 In order to permit end-effectors, which canhandle both 230 mm and 6 inch reticles, it is recom-mended to include the 230 mm end-effector exclusionvolumes in RSPs configured for 6 inch reticles.
+
+</PdfSplitView>

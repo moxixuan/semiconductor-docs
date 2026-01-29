@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/070.pdf"
   pdfSize="N/A"
   title="E134-0305 - © SEMI 2004, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/070.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/070.pdf">
+
+---
+title: "E134-0305 - © SEMI 2004, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E134-0305 - © SEMI 2004, 2005..."
+sidebar_position: 70
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-070.pdf'
+  chapter: 70
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E134-0305 © SEMI 2004, 2005 52 realValRealValueboolValBooleanValuebinValBi
 &lt;!-- Page 50 --&gt;
 
 SEMI E134-0305 © SEMI 2004, 200553 14.3.1.10 BinaryValue  Represents a binary value.14.3.1.11 BinaryValue Attribute Definition TableTable 72 BinaryValue Attribute DefinitionAttribute Name Definition FormbinVal The value of the binary item. Binary 14.4 Structured and Enumerated Parameter Values14.4.1 To make the data requested in a DCP available to a consumer, there must be a mechanism for representingthe values of structured types such as arrays and structures in the type system being used. The specific structuredtypes that should be represented are typically determined by the implementation technology that will be used tocommunicate values of the declared type (e.g., SECS-II, XML, OMG IDL, etc.). The primitive types described hereshould be considered a minimum set that could be refined and extended to work best with the type system in use.Any specification that translates these types into a specific type system shall define how it has mapped theseprimitive types into the technology-specific type system in addition to specifying any extended primitive typesbeyond those described here. stringEnumValEnumeratedStringValueintEnumValEnumeratedIntegerValue AbstractValue Figure 30Enumerated Values 14.4.2 Figure 30 shows how to represent values of enumerated types, which have a discrete set of possible values,only one of which is provided by an instance of these classes (definition of the complete set of possible values is outof scope for this specification).14.4.2.1 EnumeratedStringValue  Represents a single value from a string-based enumeration.14.4.2.2 EnumeratedStringValue Attribute Definition TableTable 73 EnumeratedStringValue Attribute DefinitionAttribute Name Definition FormstringEnumVal The value of the enumerated item. Text, restricted to one of the legal values of theenumeration. 14.4.2.3 EnumeratedIntegerValue  Represents a single value from an integer-based enumeration.14.4.2.4 EnumeratedIntegerValue Attribute Definition TableTable 74 EnumeratedIntegerValue Attribute DefinitionAttribute Name Definition FormintEnumVal The value of the enumerated item. Integer, restricted to one of the legal values of theenumeration.
+
+</PdfSplitView>

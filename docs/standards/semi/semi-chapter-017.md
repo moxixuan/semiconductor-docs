@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/017.pdf"
   pdfSize="N/A"
   title="E110-1102 - © SEMI 2001, 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/017.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/017.pdf">
+
+---
+title: "E110-1102 - © SEMI 2001, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "E110-1102 - © SEMI 2001, 2002..."
+sidebar_position: 17
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-017.pdf'
+  chapter: 17
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E114-0302E © SEMI 20023 9 Test Procedure for Determining ElectricalLength9
 &lt;!-- Page 50 --&gt;
 
 SEMI E114-0302E © SEMI 2002 4 9.4.4 After calibration, the cable assembly to be tested(DUT) shall be attached to Port 1 on the NetworkAnalyzer. The other end of the DUT shall beterminated with a short circuit. After all connectionshave been visually inspected to ensure proper contactand the Network Analyzer measurement has stabilized,the value of the reflection coefficient phase angle canbe examined.9.4.5 The indicated frequency where the reflectioncoefficient phase angle is ± 180 degrees shall berecorded. The electrical length of the DUT at thedesired nominal operating frequency (for example,13.56 MHz) is equal to 180 degrees multiplied by theratio of the nominal operating frequency divided by themeasured frequency where the phase angle of the DUTis equal to ± 180 degrees. For example, if the measuredfrequency where the reflection coefficient is ± 180degrees is 6.1 MHz, then the electrical length of theDUT at 13.56 MHz is 400.13 degrees (180  13.56 /6.1). 10 Test Setup for Power Dissipation (Loss)Test10.1 The Test Setup for the power dissipation (loss)test consists of the Network Analyzer, the cableassembly to be tested (DUT), an additional short testcable (for transmission calibration), the appropriateadapter (if any) to connect the DUT input to thenetwork analyzer, and the appropriate adapter (if any)to connect the DUT output to the network analyzer. Aschematic of the Test Setup is shown in Figure 3. 11 Test Procedure for Determining PowerDissipation11.1 The test procedure for determining powerdissipation in cable assemblies will also use a NetworkAnalyzer. In this case, both Ports of the NetworkAnalyzer will be used. The transmission coefficientwill be measured (also called the S21 S-parameter).11.2 Calibrate the Network Analyzer at the desiredoperating frequency (for example, 13.56 MHz). Ifadapters are to be used to connect the DUT to theNetwork Analyzer and/or to the short circuittermination, then the calibration shall be made with theadapters in place, along with the additional section oftest cable needed for the calibration. The NetworkAnalyzer shall be calibrated for measuring thetransmission coefficient, S21 (see Figure 3). Thecalibration shall be performed at fixed frequency(continuous-wave operation) using the lowestbandwidth possible (typically 10 Hz).11.3 Connect the cable assembly DUT between the twotest Ports on the Network Analyzer (including the additional test cable used for calibration). Aftervisually inspecting the connections to ensure propercontact and the Network Analyzer measurement hasstabilized, the value of the transmission coefficient(S21) shall be recorded.11.4 The recorded number shall be expressed in termsof dB (decibels) and percentage of power transferred inthe DUT. The conversion between dB and percentageis expressed as:)10/dBinloss(10100% =TransferPower For example, if the transmission coefficient is measuredto be 0.4 dB, then the power transfer percentage wouldbe 91.2%. In other words, 8.8% of the power is lost inthe DUT. 12 Test Setup for Characteristic ImpedanceVariation Measurement12.1 The Test Setup for the Characteristic Impedancevariation measurement consists of a Time DomainReflectometer (TDR), the cable assembly to be tested(DUT), the appropriate adapter (if any) to connect theDUT input to the TDR, and a standard 50-ohm loadtermination (see Figure 4).12.2 Prior to making any measurements, the TDR shallbe turned on and allowed to warm up. This time allowsfor electronics to come to a stable operating conditionfor the measurements. 13 Test Procedure for DeterminingCharacteristic Impedance13.1 Connect a standard 50-ohm load termination tothe input of the TDR and measure the impedance. Thismeasurement determines the normalization factor forthe measured impedances. All reported measurementsshall be scaled by this factor by multiplying subsequentmeasurements by the ratio of 50 divided by theimpedance value measured with the 50-ohm standardload.13.2 Prior to measuring the DUT, the nominal velocityof propagation of the cable shall be entered into theTDR. For example, the velocity of propagation is 0.66for cable type RG-217.13.3 Connect one end of the DUT to the TDR andterminate the other end of the DUT with a short circuit.Measure the characteristic impedance as a function ofdistance along the DUT by moving the measurementdistance indicator of the TDR. Record the minimumand maximum impedance measured over the length ofthe cable assembly. The measurement shall be madethroughout the length of the DUT, including theconnectors, up to the short circuit termination.
+
+</PdfSplitView>

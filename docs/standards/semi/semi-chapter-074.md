@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/074.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 074"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/074.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/074.pdf">
+
+---
+title: "SEMI Chapter 074"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 074"
+sidebar_position: 74
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-074.pdf'
+  chapter: 74
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI PR8-0703 © SEMI 200329 1) Control Job related1. ControlJob ID2. CarrierInp
 &lt;!-- Page 50 --&gt;
 
 SEMI PR8-0703 © SEMI 2003 30 RELATED INFORMATION 4MESSAGE EXAMPLES NOTICE: This related information is not an official part of SEMI PR8. This related information is not intended tomodify or supersede the official proposed standard. Determination of the suitability of the material is solely theresponsibility of the user. R4-1 Example EDA MessagesR4-1.1 This section provides simple examples of each of the EDA messages defined in the specification. HTTPheaders are shown in full only for the IsEdaEnabled request. Thereafter, only the SOAPAction header is shown forbrevity.R4-1.2 Data Management Messages (supported by the equipment)R4-1.2.1 IsEdaEnabled Request POST /EDAEquipmentService HTTP/1.1User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol1.0.3705.0)Content-Type: text/xml; charset=utf-8SOAPAction: "urn:semi-org:ws:eda\_ps\_v0.0:IsEdaEnabled"Content-Length: 433Expect: 100-continueConnection: Keep-AliveHost: localhost urn:robofurnace:zippo:furnace-00899urn:icm:equipment.client:app-1RoboFurnace, Inc.Zippo 35539d-JDII-Uj399
+
+</PdfSplitView>

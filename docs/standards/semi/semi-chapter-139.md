@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/139.pdf"
   pdfSize="N/A"
   title="S7-96 - © SEMI 1994, 19961..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/139.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/139.pdf">
+
+---
+title: "S7-96 - © SEMI 1994, 19961..."
+description: "SEMI标准文档"
+sidebar_label: "S7-96 - © SEMI 1994, 19961..."
+sidebar_position: 139
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-139.pdf'
+  chapter: 139
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S8-0705 © SEMI 1995, 2005 46 Section 6: Handle DesignSection Indicator Fig
 &lt;!-- Page 50 --&gt;
 
 SEMI S8-0705 © SEMI 1995, 200547 Section 6: Handle DesignSection Indicator Figure6.7.3 Enclosed handle, two fingersWidth (W): minimum 60 mm (2.5 in.)Depth (D): minimum 38 mm (1.5 in.)Diameter (d): minimum 6.3 mm (0.25 in.)Force maximum: 51 N (11.5 lbf) Width Depth Diameter 6.7.4 Enclosed handle, one fingerWidth (W): minimum 38 mm (1.5 in.)Depth (D): minimum 38 mm (1.5 in.)Diameter (d): minimum 3.2 mm (0.13 in.)Force: maximum 27 N (6 lbf) Width Depth Diameter 6.8 Hook Grasp Handle6.8.1 Hook Grasp Handle (4 fingers)Opening length (L): minimum 90 mm (3.5 in.)Opening width (W): minimum 38 mm (1.5 in.)Depth (d): minimum 50 mm (2.0 in.)Lip length (l): minimum 50 mm (2.0 in.) OpeningWidth Opening Length LipLengthOpeningDepth 6.8.2 Hook grasp handle pull force (four fingers)Pull force: maximum 80 N (18.0 lbf)6.9 Finger Pull Handle6.9.1 Finger pull Handle (4 fingers)Opening length (L): minimum 90 mm (3.5 in.)Opening width (W): minimum 25 mm (1.0 in.)Depth (d): minimum 19mm (0.75 in.)Lip length (l): minimum 19mm (0.75 in.)6.9.2 Finger pull handles pull force (four fingers)Pull force: maximum 9.8 N (2.2 lbf) OpeningWidth Opening Length LipLengthOpeningDepth
+
+</PdfSplitView>

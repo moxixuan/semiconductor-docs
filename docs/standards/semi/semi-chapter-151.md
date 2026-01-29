@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/151.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 151"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/151.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/151.pdf">
+
+---
+title: "SEMI Standards - Chapter 151"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 151"
+sidebar_position: 151
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-151.pdf'
+  chapter: 151
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF1810-0304 © SEMI 2003, 2004 2 NOTICE: Unless otherwise indicated, all do
 &lt;!-- Page 50 --&gt;
 
 SEMI MF1810-0304 © SEMI 2003, 20043 Figure 2Four Scan, Multiple Microscopic Inspection Pattern 9.2 Defect Density Calculation9.2.1 Count each defect class separately for eachdiameter scanned. Calculate the total area inspected bymultiplying four (4) times the calibrated width of thefield of view in centimeters by the length of the scan incentimeters. The length (L) in centimeters is the waferdiameter (D) in centimeters minus twice the 0.5 cmedge exclusion (E):0.12 == DEDL (1)The density is the defect count divided by the total area.NOTE 4: When a scan intersects a flat, notch or laser mark,the total area must be adjusted according to the reduced lengthof the affected scans. Failure to adjust the area results ininaccuracy. 10 Report10.1 Report the following information:10.1.1 Date of test, laboratory and operator,10.1.2 Identification of the specimen wafer,conductivity type, orientation, and diameter,10.1.3 Specimen history; thermal cycle, preferentialetchant formulation, thickness removal duringpreferential etching,10.1.4 Inspection conditions; magnification, and totalarea inspected, and10.1.5 Defect density and precision by defectclassification. 11 Precision and Bias11.1 Precision  The multi laboratory precision ofthis test method was established through a round-robinexperiment. Seven (7) wafers with randomlydistributed oxidation induced stacking faults (OISFs)were analyzed by sixteen (16) laboratories over eleven(11) diameter scans. Repeatability and reproducibilityof this test method were calculated using two sets of four scan measurements from each laboratory andwafer. The wafer samples were prepared according toSEMI MF1727 and etched with Wright Etch inaccordance with SEMI MF1809.11.1.1 Repeatability  The method repeatability isequal to 2.8 times the within-laboratory standarddeviation or 5.22 defects/cm2 . Repeatability contributes23.81% of the total variation. The variability of themeasurement is sample dependent; assumptions ofrandom OISF location were described as a limitation(see Section 3.3).11.1.2 Reproducibility  The method reproducibilityis equal to 2.8 times the between-laboratory standarddeviation or 9.31 defects/cm2. Reproducibilitycontributes 75.73% of the total variation.NOTE 5: Additional analysis is presented in RelatedInformation 1. A study of two repetitions of this test methodwas extracted from the existing, multiple scan data measuredat each laboratory. 11.1.3 The wafers exhibited single diameter scans thatranged from 0 to 13 defects/cm2 while the grandaverage of all measurements for each wafer yieldeddensities of 0.21 to 3.60 defects/cm2. The range inmeasurement density is related to differences betweenlaboratories and local variation of the defect density onthe wafer itself.11.1.4 Ten separate diameters were measured on eachof 7 wafers by 16 laboratories. The total number ofscans for each sample was 160. Table 1 shows thesample dependence of the results with the standarddeviation versus mean OISF count for ten independentscans.Table 1 Ten Scan Inspection Data Wafer Identity StandardDeviationMean OISFDensity All Data(OISF/cm 2)A 0.49 0.21B 1.79 1.43C 1.93 1.98D 1.02 0.82E 2.51 3.60F 0.63 0.42G 0.71 0.51ALL 1.49 1.28 11.2 Bias  No standard reference materials areavailable to calibrate this measurement; therefore atarget density for each wafer was assigned by averagingthe combined data from all scans of each wafer.Analysis of the round robin is based upon the individualdeviation from the target for each measurement and
+
+</PdfSplitView>

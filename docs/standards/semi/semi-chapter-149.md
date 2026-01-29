@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/149.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 149"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/149.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/149.pdf">
+
+---
+title: "SEMI Standards - Chapter 149"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 149"
+sidebar_position: 149
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-149.pdf'
+  chapter: 149
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF1535-1104 © SEMI 20047 Note: The maximum bulk recombination lifetime tha
 &lt;!-- Page 50 --&gt;
 
 SEMI MF1535-1104 © SEMI 2004 8 automatically by the apparatus, set the injection level asfollows:12.5.1 If the test specimen is oxidized and thethickness of the oxide layer is not known, measure orestimate it, using a method acceptable to the parties tothe test. Record the thickness.12.5.2 Determine and record the fraction of theincident light that penetrates the oxide and is absorbedby the specimen from the dashed curve in Figure 3. Note: For these calculations the wavelength of the incidentradiation,  , is assumed to be 905 nm, the index of refractionof silicon is taken as 3.610, and the index of refraction of SiO2is taken as 1.462. Maximum absorption occurs at an oxidethickness d = (2n + 1)/4 while minimum absorption occursat an oxide thickness d = n/2, when n = 0, 1, 2, etc.Therefore, if the wavelength of the incident radiation, 1,differs from 905 nm, these curves can be used by determiningthe relative intensity for an effective oxide thickness d 0 = 905d1/ 1 where d1 is the actual thickness of the oxide.Figure 3Fraction of Incident Radiation Reflected from (solidline) or Absorbed in (dashed line) a Silicon WaferCovered with a Silicon Dioxide (SiO2) Layerbetween 0 and 1 m Thick 12.5.3 Adjust the light source intensity so that thephoton density absorbed in the silicon during the pulse,, is equal ton maj, where is the desired injectionlevel and n maj is the density of majority carriers in thewafer as determined in Section 12.1. The photondensity,, in photons/cm3, is given by: L tfptI= 0d (2) where:f = the fraction absorbed found from Figure 3 (seeSection 12.5.2),I = the intensity of the incident light, in photons/cm2 s,tp = the length of the light pulse, in s, andL = wafer thickness, in cm.12.6 Turn on the microwave power source and viewthe photoconductivity decay on the display unit. Adjustthe time and voltage scales so as to display the desiredportion of the decay signal. In the absence ofindications to the contrary, observe the decay signalfrom 45 to 5% of the peak voltage.12.7 Determine that the decay is exponential over thedesired range. Determine the time constant by fittingan exponential curve to the voltage, V, as a function oftime, t, or (for manual data collection) a straight line tothe curve of lnV as a function of t.12.8 Record this time constant as the recombinationlifetime.12.9 If desired, move the wafer position and repeatSections 12.6 through 12.8 as required to obtain a wafermap, noting the point spacing and pattern together withthe radius of the mapped area.12.10 Alternatively, if desired, repeat Sections 12.2and 12.6 through 12.8 at the same location for differenttemperatures or repeat Sections 12.5 through 12.8 at thesame location for different values of injection level. 13 Report13.1 Report the following information:13.1.1 Date and location of the test,13.1.2 Operator,13.1.3 Instrument type, model number, and, ifcomputer controlled, software version,13.1.4 Wafer description including any identificationmarkings, center-point resistivity, center-pointthickness, conductivity type, surface condition (frontand back), and nominal diameter,13.1.5 Portion of the decay signal from which the timeconstant was determined,13.1.6 Injection level,, as established in Section 12.5,13.1.7 Surface passivation procedure used (see Section11), and13.1.8 Carrier recombination lifetime,, in s.13.2 If measurements were made at several injectionlevels, report for each value of.
+
+</PdfSplitView>

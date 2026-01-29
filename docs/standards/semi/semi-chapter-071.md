@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/071.pdf"
   pdfSize="N/A"
   title="E134-0305 - © SEMI 2004, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/071.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/071.pdf">
+
+---
+title: "E134-0305 - © SEMI 2004, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E134-0305 - © SEMI 2004, 2005..."
+sidebar_position: 71
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-071.pdf'
+  chapter: 71
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E134.1-0305 © SEMI 2005 36 7.2.18 GetParameterValues7.2.18.1 WSDL Operatio
 &lt;!-- Page 50 --&gt;
 
 SEMI E134.1-0305 © SEMI 200537 Figure 27GetParameterValuesResponse 7.2.18.4.2 GetParameterValuesResponse  This global element acts as a top-level container entity representing theSOAP body of the response to an SEMI E134 GetParameterValues request. It contains either an element namedPV of complexType ParameterValueType or an element named Error of complexTypeGetParameterValuesErrorType. GetParameterValuesErrorType contains the Common Components Error classand the ability to specify specific errors as described in the following table.Table 74 Translation Table for Output Arguments for the GetParameterValues OperationArgument Name Format XML Element or Attribute XML Name/TypeparameterValues List of elements of typeParameterValue.Element PV: dcm:ParameterValueType error N/A Element ErrorType: ccs:Errorerror Structured data, of typeUnauthorizedOperation.Element UnauthorizedOperationError:eca:UnauthorizedOperationType, see7.2.11.4.12 7.2.18.4.3 ParameterValueType  This global complexType is the XML Schema representation of the SEMI E134ParameterValues class. The following table describes the mapping of the UML class to this XML SchemacomplexType.7.2.18.4.4 Extended Parameter Value Types7.2.18.4.4.1 This specification adds new parameter value elements to the minimal set defined in SEMI E134. Thefollowing table shows how each SEMI E134 element has been mapped to the XML Schema element in thisspecification, and lists the additional classes not defined in SEMI E134.
+
+</PdfSplitView>

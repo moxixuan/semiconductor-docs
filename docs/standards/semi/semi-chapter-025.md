@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/025.pdf"
   pdfSize="N/A"
   title="E5-1104 - © SEMI 1982, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/025.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/025.pdf">
+
+---
+title: "E5-1104 - © SEMI 1982, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E5-1104 - © SEMI 1982, 2004..."
+sidebar_position: 25
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-025.pdf'
+  chapter: 25
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E5-1104 © SEMI 1982, 2004191 Stream,Function Name (Mnemonic) DirectionS14,
 &lt;!-- Page 50 --&gt;
 
 SEMI E5-1104 © SEMI 1982, 2004 192 1. 2\. ..m. B) L,21. 2\. L, n1. L,21. 2\. ..n. L,21. 2.
+
+</PdfSplitView>

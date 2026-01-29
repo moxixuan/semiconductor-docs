@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/110.pdf"
   pdfSize="N/A"
   title="M60-0305 - © SEMI 2005 19..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/110.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/110.pdf">
+
+---
+title: "M60-0305 - © SEMI 2005 19..."
+description: "SEMI标准文档"
+sidebar_label: "M60-0305 - © SEMI 2005 19..."
+sidebar_position: 110
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-110.pdf'
+  chapter: 110
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P8-0997 © SEMI 1984, 19971 SEMI P8-0997METHOD FOR THE DETERMINATION OF WAT
 &lt;!-- Page 50 --&gt;
 
 SEMI P8-0997 © SEMI 1984, 1997 2 4.2.4 Wipe the needle with lint-free tissue.4.2.5 Weigh the syringe assembly to the nearest 0.1mg (W 3).4.2.6 Inject the sample into the titrat ion vessel.4.2.7 Titrate to the same endpoint us ed for themethanol blank.4.2.8 Reweigh the syringe assembly to the nearest 0.1mg (W 4).4.2.9 Record the number of millilite rs of titrant used(V2).4.2.10 Calculate the water content of the sample. Weight % H 2 O = mL KF titrant  Fsample weight in mg  100 = V2  FW3  W4 100 4.3 Remarks  Photoresists which contain interferingcompounds (such as aldehydes and ketones) mayrequire modification of the solvent or titrationconditions. For further information, see Section 3.4 ofASTM Standard E 203. For some negative(polyisoprene) photoresists, solubility can be improvedby substituting ethylene glycol as the solvent formethanol. NOTICE: These standards do not purport to addresssafety issues, if any, associated with their use. It is theresponsibility of the user of these standards to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use.SEMI makes no warranties or representations as to thesuitability of the standards set forth herein for anyparticular application. The determination of thesuitability of the standard is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materialsmentioned herein. These standards are subject tochange without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

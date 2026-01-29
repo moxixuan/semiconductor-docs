@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/038.pdf"
   pdfSize="N/A"
   title="E42-0704 - © SEMI 1995, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/038.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/038.pdf">
+
+---
+title: "E42-0704 - © SEMI 1995, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E42-0704 - © SEMI 1995, 2004..."
+sidebar_position: 38
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-038.pdf'
+  chapter: 38
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.1-1000 © SEMI 1996, 20005 6.4.2.1 Service Message Definition  There is
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.1-1000 © SEMI 1996, 2000 6 Table 2 Device Objects and Identifiers Object Name Object Identifier (tag) Support Requiredin a DeviceComment Sensor/Actuator/Controller SacI0\* Yes Only one instance per device allowed.Sensor SenIn\*\* No Zero or more instances per device allowed.\*\*\*Actuator ActIn\*\* No Zero or more instances per device allowed.\*\*\*Controller CntIn\*\* No Zero or more instances per device allowed.\*\*\*Device Manager DmI0\* Yes Only one instance per device allowed.\* Only one object instance per device; identifier uses I0 to specify instance zero.\*\* In is used to indicate the instance number of the object; n is a non-negative integer.\*\*\* The specification of the number of sensor, actuator, and/or controller object instances allowed per device may be further constrained by theappropriate sensor/actuator network specification. The objects described in this document collectively define a devices capabilities, including how it has beenconfigured for network interoperability. The information in the attributes of these object instances must beaccessible over the network and stored at the device.Character strings described in this document have a prescribed maximum length. If the contents of the string areshorter than the prescribed length, the string must be terminated with the null character: a byte whose value is 00h.Note that this specification of null termination does not indicate that a sensor/actuator network protocolimplementation communicating a character string over a network must send the null termination; the presentation ofcharacter string data over a network is sensor/actuator network communication protocol-specific. 7.2 Sensor/Actuator/Controller (S AC) Object  The SAC object is the device component responsible forcoordinating the interaction of the device with the sensory/actuation/control environment. A view of the SAC objectis shown in Figure 4. The SAC object coordinates operation of one or more sensor, actuator, and/or control objectinstances that collectively form the sensory/actuation/control portion of the device, so as to enable desired devicebehavior. For example, it could coordinate the operation of the device sensor, actuator, and/or control elements toenable device level data reporting or actuation, alarming detection and servicing, status reporting, device self-testing, device shutdown, etc. The number of sensor, actuator, and/or controller object instances allowed per devicemay be specified by the appropriate sensor/actuator network specific device model. An operating device shallcontain exactly one instance of a SAC object.The SAC object has embedded in it other objects that address specific tasks associated with coordinating theinteraction of the device with the sensor/actuation/control environment. These objects are listed in Table 3. Note thatalthough only one instance of the SAC object is allowed per device, a device can have multiple instances ofembedded objects. These objects are described in Section 7.2.4. m + n + p &gt; 1 Sensor / Actuator /Controller Object(SAC) Sm A n C pSensorObject(s)ActuatorObject(s) Coordinates ControllerObject(s) m n p Figure 4Detailed View of the Sensor/Actuator/Controller Object
+
+</PdfSplitView>

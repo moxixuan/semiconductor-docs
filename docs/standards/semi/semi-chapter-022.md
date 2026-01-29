@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/022.pdf"
   pdfSize="N/A"
   title="E4-0699 - © SEMI 1980, 199913..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/022.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/022.pdf">
+
+---
+title: "E4-0699 - © SEMI 1980, 199913..."
+description: "SEMI标准文档"
+sidebar_label: "E4-0699 - © SEMI 1980, 199913..."
+sidebar_position: 22
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-022.pdf'
+  chapter: 22
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E5-1104 © SEMI 1982, 200441 Name Format Description Values Where UsedUNFLE
 &lt;!-- Page 50 --&gt;
 
 SEMI E5-1104 © SEMI 1982, 2004 42 Table 4 Variable Item DictionaryName Format Description Values ClassAlarmID 3(), 5() This variable is valid only uponthe setting or clearing of an alarmcondition and contains the currentalarm identification (ALID),regardless of whether that alarm isenabled for reporting DVVAL AlarmsEnabled 0 Contains the list of alarms(ALIDs) enabled for reporting(via Stream 5) Structure:L,n n = # of alarms enabled1...n. SV AlarmsSet 0 Contents of this variable is a listof alarms (ALIDs) currently in theUNSAFE (alarm set) state,regardless of whether the alarmsare enabled for reporting Structure:L,n n = # of alarms set1...n. SV ARAMSAccumReset 20 The timestamp of when the set ofaccumulators EngTime,InterruptionCtr, PrdTime,NSTime, SbyTime, SDTime, andUDTime were reset to zero. Usesformat defined for CLOCK. SV ARAMSInfo 20 Text field set by the equipment toprovide additional informationconcerning an ARAMS statechange. SV ARAMSState 20 The ARAMS code correspondingto the current state/substate. Fourcharacters. SV ARAMSText 20 Text describing the ARAMSState.380 characters.SV ARAMSTimeStamp 20 The timestamp of the last ARAMstate change. This is a formatrequirement only and does notimply precision or accuracy.Uses format defined for CLOCK. SV CLOCK 20 The value of the equipmentsinternal clock. This is a formatrequirement only and does notimply precision or accuracy. Format: YYYYMMDDhhmmssccYYYY = Year 0000 to 9999MM = Month 01 to 12DD = Day 01 to 31hh = Hour 00 to 23mm = Minute 00 to 59ss = Second 00 to 59cc = centisecond 00 to 99 SV ControlState 10, 51 This status variable contains thecode which identifies the currentcontrol state of the equipment.When reported related to a controlstate transition, its value shouldrepresent the state current afterthe transition. 1 = OFF-LINE/EQUIPMENT OFF-LINE2 = OFF-LINE/ATTEMPT ON-LINE3 = OFF-LINE/HOST OFF-LINE4 = ON-LINE/LOCAL5 = ON-LINE/REMOTE6-63 Reserved SV CycleCtr 5() The number of machine cyclesduring the lifetime of theequipment. Non-resettable. SV
+
+</PdfSplitView>

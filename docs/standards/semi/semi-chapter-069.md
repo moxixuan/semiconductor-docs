@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/069.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 069"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/069.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/069.pdf">
+
+---
+title: "SEMI Chapter 069"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 069"
+sidebar_position: 69
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-069.pdf'
+  chapter: 69
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E134-0305 © SEMI 2004, 2005 2 15.2 DCPConsumer............................
 &lt;!-- Page 50 --&gt;
 
 SEMI E134-0305 © SEMI 2004, 20053 4 Referenced Standards4.1 SEMI StandardsSEMI E30  Generic Model for Communications and Control of Manufacturing Equipment (GEM)SEMI E40  Standard for Processing ManagementSEMI E94  Provisional Specification for Control Job Management4.2 Non-SEMI StandardsInternational Standards Organization (ISO) 11578:19961  Information technology Open Systems Interconnection Remote Procedure Call definition of UUIDISO 86012  Representations of dates and times, 1988-06-15ISO 8601 Draft Revision  Representations of dates and times, draft revision, 2000Unified Modeling Language (UML) Specification, Version 1.4, OMG Specification 01-09-673 NOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions. 5 Terminology5.1 Abbreviations and Acronyms5.1.1 Descriptions of many of the abbreviations and acronyms used in this specification may be found in the SEMICompilation of Terms, available on the SEMI web site, http://www.semi.org/. In most cases, these terms are notincluded in this section.5.1.2 DCP  Data Collection Plan5.1.3 UML  Unified Modeling Language5.2 Definitions5.2.1 Definitions or descriptions of many of the terms used in this specification may be found in the SEMICompilation of Terms, available on the SEMI web site, http://www.semi.org/. In most cases, these terms are notincluded in this section.5.2.2 Related Information, Section 1, contains useful definitions of UML terms taken directly from the UMLstandard. UML terms used in this document conform to these definitions. Please refer to this Section as needed.5.2.3 collection result  the set of data values obtained during trace data collection.5.2.4 collection frequency  the rate at which the collection of one or more data values is performed. This is notthe same as the frequency with which the equipment internally samples these data from its components.5.2.5 data source  a physical or logical entity associated with the equipment that is capable of providing datavalues independently of other equipment entities.5.2.6 event source  a physical or logical entity associated with the equipment that is capable of generating eventsindependently of other equipment entities5.2.7 exception source  a physical or logical entity associated with the equipment that is capable of generatingexceptions independently of other equipment entities5.2.8 parameter source  a physical or logical entity associated with the equipment that is capable of providingparameters independently of other sources. This term may be used interchangeably with data source.5.2.9 source id  a name or other token that uniquely identifies a specific origin or producer of information fromamong possible sources. 1 http://www.iso.ch/cate/d2229.html2 http://www.iso.ch/cate/d26780.html3 http://www.omg.org/technology/documents/modeling\_spec\_catalog.htm
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/030.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 030"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/030.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/030.pdf">
+
+---
+title: "SEMI Standards - Chapter 030"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 030"
+sidebar_position: 30
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-030.pdf'
+  chapter: 30
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E30.5-0302 © SEMI 2001, 200227 14 SEMI E30 Capabilities14.1 The purpose of
 &lt;!-- Page 50 --&gt;
 
 SEMI E30.5-0302 © SEMI 2001, 2002 28 RELATED INFORMATION 1SEM UNIQUE CAPABILITIES NOTE: This related information is not an official part of SEMI E30.5 and was derived from work developed in the MetrologySpecific Equipment Model Task Force in North America. This related information was approved for publication by full letterballot on April 30, 2001.R1-1. Measurement Site Location Metrologyequipment most often is used to make measurementsand report results at specific sites on a substrate.Unfortunately, equipment suppliers and users haveadopted different formats for describing measurementsite location information. This has led to threeproblems which increase the cost of metrology. First,metrology equipment suppliers must provide formatswhich meet conflicting requirements of their customers,adding to equipment development costs. Second, usersmust transpose information from different systems totheir own format in order to use metrology data. Third,site location information is often an integral part ofrecipe set up, often requiring that an actual productsample be available for training the site locationinformation on the equipment. For users whomanufacture many different products on commonsubstrates, multiple metrology recipes must bedeveloped where the only differences are site locationinformation. This information is known to the userfrom product design data, and should not need to be"learned" uniquely on various metrology equipment. R1-1.1 In order to avoid these problems, MSEMdefines specific formats for identifying and reportingsite location information on substrates. TheMSEM-required formats are intended to minimize thenumber and type of site location format transformationsneeding to be supported by both metrology equipmentsuppliers and users. All MSEM-required site locationformats involve the use of an MSEM-definedright-handed Cartesian coordinate system, establishedon substrates in an MSEM-defined manner. Thisrelease of MSEM defines these only for silicon wafersubstrates, based on SEMI standard M20. Additionalsubstrate types may be included in future revisions ofMSEM, if required. R1-1.2 MSEM requires that equipment have thecapability to use site location information that is basedon the user's product designs, which the user mustprovide in the appropriate MSEM-required format. Inother words, equipment shall not require that a samplesubstrate be used to train site locations when userscan provide this information from product design data. R1-1.3 MSEM-compliant equipment shall have thecapability to define, locate, measure, and report siteinformation using only the MSEM-defined right-handed Cartesian coordinate system formats. Thisrequirement does not preclude equipment from havingadditional capability for defining or reporting sitelocation information using other formats. One suchadditional format is defined in MSEM for patternedsilicon wafer substrates, based on SEMI standard SEMIM21. MSEM-compliant equipment is not required tohave this M21 format capability, but must use theMSEM M21 format if it is provided. R1-1.4 Specific MSEM information that defines sitelocation information includes ; the data items AlignListand SiteList; the CPNAMEs CP-ALIGNLIST andCP-SITELIST and the TABLE type named ALIGN-DEF-LIST and SITE-DEF-LIST. Notice that multiplesites can first be Defined using the appropriate ProcessProgram class named ALIGN-DEF-LIST or SITE-DEF-LIST, then selected by using the ALIGN-NAMEor SITENAME in an MSEM defined remote commandthat use CP-ALIGNLIST AND CP-SITELIST. Thisinformation is similarly defined for the M21coordinate system plus an additional CPNAME ofELEMENTLIST which lists the ElementIDs to bemeasured on the silicon wafers.R1-2 Coordinate Systems For A Silicon WaferR1-2.1 Requirements MSEM defines tworight-handed Cartesian coordinate systems for use onsilicon wafers. These are identified as the M20 andM20P coordinate systems. Both are based on SEMIstandard M20. The SEMI M20 standard describes howto map a right-handed Cartesian coordinate system to awafer so that its origin is at the center of the wafer, andits negative y-axis bisects the wafer's primary fiducial.This coordinate system is defined by MSEM to be theM20 coordinate system. MSEM defines the "M20P"coordinate systems to be one which is aligned to thepattern on the wafer. Ideally, there is no differencebetween the M20P and M20 coordinate system. Inthe real world, there is a difference, due to experimentalerrors. This is explained further in the followingsections.R1-2.2 Implementation The only informationrequired by equipment in order to establish an M20coordinate system is the wafer size and type of fiducial.This is provided by way of the MSEM data itemsnamed WaferSize and Fiducial. Another data itemnamed Orientation provides for control over how thewafer is loaded on equipment. Note that the SEMI
+
+</PdfSplitView>

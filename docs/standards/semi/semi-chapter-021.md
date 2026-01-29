@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/021.pdf"
   pdfSize="N/A"
   title="E135-0704 - © SEMI 2004 6..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/021.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/021.pdf">
+
+---
+title: "E135-0704 - © SEMI 2004 6..."
+description: "SEMI标准文档"
+sidebar_label: "E135-0704 - © SEMI 2004 6..."
+sidebar_position: 21
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-021.pdf'
+  chapter: 21
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E4-0699 © SEMI 1980, 199911 Figure 4Message Receive Algorithm
 &lt;!-- Page 50 --&gt;
 
 SEMI E4-0699 © SEMI 1980, 1999 12 APPENDIX 1 A1-1 Differences from SECS-I 1980This appendix describes the major differences betweenthis version of the standard and the version originallyadopted in 1980.A1-1.1 Signal Connections  The required voltagelevels for pins 18 and 25 on the 25 pin "D" connectorare now optional.A1-1.2 Data Rate  The 150 baud data rate has beenmade optional.A1-1.3 Timeout Parameters  The T4 timeout, whichlimits the inter-block arrival time of multi-blockmessages, has been added. Use of the T3 timeout hasbeen clarified.A1-1.4 Time Before Length Byte  The protocol timewith limit T2 is now used while waiting for the lengthbyte after sending an EOT.A1-1.5 Block Send Acknowledgment  Any characterother than an ACK received after sending the secondchecksum byte is treated as an NAK.A1-1.6 Illegal Block Lengths and Bad Checksums An NAK code is sent for an illegal block length or for abad checksum, but only after waiting for the sender tostop sending by forcing an inter-character (T1) timeout.A1-1.7 Block Number  The wording describing theblock number has been clarified to say that the value,zero, is allowed only for single block messages.A1-1.8 System Bytes  The handling of the systembytes for secondary messages sent by a host is now thesame as for the equipment. Also, specific functionalrequirements have been added for the content of thesystem bytes field.A1-1.9 Duplicate Blocks  A mechanism for thedetection of duplicate blocks has been added.A1-1.10 Messages  The discussion of messageassembly from blocks has been clarified and expanded.A1-1.11 Transactions  The discussion of transactionhandling and reply linking has been moved from SECS-II and expanded.A1-1.12 Appendix  Parts of the Appendix have beenmoved to a new section called Related Information todistinguish the content from the standard itself. Thegeneral node transaction flow chart has been movedfrom the Appendix in SECS-II to the RelatedInformation in SECS-I.A1-1.13 Titles  The title of SECS-I has beenchanged from "Data Link" to "Message Transfer." Thisphrase more accurately covers the content of the standard and avoids confusion with other uses of theterm "data link." The title of the "Data Link" section ofSECS-I has been changed to "Block Transfer." The"Data Link Control" portion of the Block TransferProtocol has been retitled "Line Control."A1-1.14 W-Bit  The W-bit is now required to be setconsistently in all blocks.A1-1.15 Documentation  A section has been addedon the documentation required for compliance with thestandard.
+
+</PdfSplitView>

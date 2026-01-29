@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/045.pdf"
   pdfSize="N/A"
   title="E58-0703 - © SEMI 1997, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/045.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/045.pdf">
+
+---
+title: "E58-0703 - © SEMI 1997, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E58-0703 - © SEMI 1997, 2003..."
+sidebar_position: 45
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-045.pdf'
+  chapter: 45
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E58-0703 © SEMI 1997, 2003 30 13.12 Production and Standby Substates  Tran
 &lt;!-- Page 50 --&gt;
 
 SEMI E58-0703 © SEMI 1997, 200331 be improperly or incompletely installed, or it may bedeliberately pushed past its limits.4.1.30 Fault Detection in ENGINEERING  Theequipment may also provide optional capability oftransitioning to UNSCHEDULED DOWNTIME fromENGINEERING (Transition 12) when it detects anexception. Alarm-related variables in this case arehandled in the same way as described above.4.1.31 The user shall be able to enable and disable thiscapability with the user-configurable variableEngInterrupt (Section 11.4.1).13.15 Equipment-Initiated Recovery  Equipment-initiated transitions 6, 8, and 13 from UNSCHEDULEDDOWNTIME are provided to allow equipment torecover from an equipment-detected fault when theoperator intervenes, corrects the fault, and indicates theprocess can be recovered. For Transition 6 to occur, theequipment shall be able to resume processing withoutdegradation of the process or the material. Theequipment is responsible for ensuring the safety ofpersons, material, and for the equipment itself.4.1.32 Transition 13 is required if Transition 12 issupported and is prohibited otherwise.13.15.1 Automatic Recovery  Equipment may alsoprovide optional capabilities to recover automaticallyfrom transient faults that clear spontaneously.Automatic recovery at Transitions 6, 8, and 13 shall beseparately enabled and disabled using the user-configurable variables PrdRecovery (Transition 6),SbyRecovery (Transition 8), and EngRecovery(Transition 13). Equipment is otherwise prohibitedfrom using Transitions 6, 8, or 13 to recover withoutexplicit operator approval.4.1.32.1 Automatic recovery to manufacturing andautomatic recovery to ENGINEERING are regarded astwo separate capabilities.4.1.32.2 If EngInterrupt (Section 11.4.1) is not sup-ported or is disabled, then Transition 13 is prohibited. 14 Requirements for ComplianceThis section summarizes the requirements for com-pliance to ARAMS that are defined in this document.14.1 Fundamental Requirements  Compliance toARAMS requires certain capabilities that are definedby other standards.14.1.1 Event Notification  A standard method fornotifying the host that an event of interest has occurredand for providing specific information related to theevent. 14.1.2 Clock Services  Provision of a real-timedate/time clock with methods for setting and readingthe clock from the host.14.1.3 Read-Only Data Access  A standard methodfor the host to obtain the current values of selectedstatus variables and constants specified in Sections 11.2and 11.3.14.1.4 User-Configurable Data Access  A standardmethod for the host to change the values of selectedvariables defined in Sections 11.4 and 11.5.14.1.5 Alarm/Exception Management  A standardmethod for notifying the host of abnormal events and/orconditions.4.1.32.3 In addition to the requirements defined inother standards, the following, defined by ARAMS, arerequired for compliance to ARAMS:14.1.6 ARAMS State Model  Conformance to thebehavior of the ARAMS state model defined in Section8.3.14.1.7 ARAMS State Transition Notification  Usingstandard event report mechanisms (above), the hostshall be notified of all state transitions as described inSections 12 and 16.1.14.1.8 ARAMS Substate Codes  Support for ARAMSSubstate Code formats, used for equipment variablesand service parameters defined in Section 9.14.1.9 ARAMS Status Data  Support for all statusvariables defined in Section 11.2.14.1.10 ARAMS Constant Data  Support for all dataconstants and for the user-configurable variableEqpName defined in Sections 11.3 and 11.4.14.1.11 ARAMS Event Report Data  Support for therequirements of Section 12 requires either the provisionof pre-defined event reports or provision of theDynamic Event Report Configuration capability thatallows the host to dynamically modify the equipmentevent reporting setup and define the content of reportsfor each event.14.1.12 Host State Change Request  Support for theARAMSStateChange service, defined in Sections 15.1,15.2, and 15.5.14.1.13 Estimation of Powerdown Time  Provisionof a method for maintaining PowerdownTime as anestimate of the time of powerdown to an accuracywithin ± one minute.14.1.14 ARAMS Behavioral Requirements  Con-formance to all requirements in Section 16 except thoseidentified as optional or requiring optional variables.
+
+</PdfSplitView>

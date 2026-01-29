@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/155.pdf"
   pdfSize="N/A"
   title="T9-0200 - © SEMI 1998, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/155.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/155.pdf">
+
+---
+title: "T9-0200 - © SEMI 1998, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "T9-0200 - © SEMI 1998, 2004..."
+sidebar_position: 155
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-155.pdf'
+  chapter: 155
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI T12-0305 © SEMI 2004, 2005 28 10.2.5.5 disown  This service is used to rem
 &lt;!-- Page 50 --&gt;
 
 SEMI T12-0305 © SEMI 2004, 200529 Table 55Operation Description Type Reqdfluctuate Increases or decreases such a historic value as duration or cycle. R YaddEvent Appends event information: may include event of entering exception. R YlistEvents Lists up interesting events. R YshowEvent Inquires event information. R YshowHistory Inquires history in this record. R Ydestruct Destruct a HistoryRecord object. R Y 10.2.6.2 fluctuate  This service is used to make an increment or decrement such a historic value as used period orcycle. Following table defines its parameters.Table 56Parameter Req/Ind Rsp/Conf DescriptionDataName M - Name of historic value.DataValue M - Difference of the value: plus or minus value.ServiceStatus - M Result of service request. 10.2.6.3 addEvent  This service is used to append event information. However an exception may not be an eventbut a state, it occurrence of the exception is an event. To record an exception in history this service is used.Following table defines its parameters.Table 57Parameter Req/Ind Rsp/Conf DescriptionHistory M - Historic information of event in history format.ServiceStatus - M Result of service request. 10.2.6.4 listEvents  This service is used to list up events recorded as history with identification, code andtimestamp. Following table defines its parameters.Table 58 Parameter Req/Ind Rsp/Conf DescriptionEventCaption - M Heading information of each event for list (maybe list).ServiceStatus - M Result of service request. 10.2.6.5 showEvent  This service is used to inquire full information of one of events stored as history. Followingtable defines its parameters.Table 59 Parameter Req/Ind Rsp/Conf DescriptionHistory - M Historic information of event in history format.ServiceStatus - M Result of service request.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/106.pdf"
   pdfSize="N/A"
   title="M41-1101 - © SEMI 2000, 20018..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/106.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/106.pdf">
+
+---
+title: "M41-1101 - © SEMI 2000, 20018..."
+description: "SEMI标准文档"
+sidebar_label: "M41-1101 - © SEMI 2000, 20018..."
+sidebar_position: 106
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-106.pdf'
+  chapter: 106
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M48-1101 © SEMI 20019 R nominal Figure 5Single-Diameter High-Density Measu
 &lt;!-- Page 50 --&gt;
 
 SEMI M48-1101 © SEMI 2001 10 -100 -80 -60 -40 -20 0 20 40 60 80 100 -100 -80 -60 -40 -20 0 20 40 60 80 100 Figure 7Spiral Scan Example - 200 mm Diameter Wafer, 81 Points NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for anyparticular application. The determination of the suitability of the standard is solely the responsibility of the user.Users are cautioned to refer to manufacturer's instructions, product labels, product data sheets, and other relevantliterature, respecting any materials or equipment mentioned herein. These standards are subject to change withoutnotice.By publication of this standard, Semiconductor Equipment and Materials International (SEMI) takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any items mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights are entirely their own responsibility.
+
+</PdfSplitView>

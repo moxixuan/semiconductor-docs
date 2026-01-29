@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/116.pdf"
   pdfSize="N/A"
   title="P19-92 - © SEMI 1992, 19962..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/116.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/116.pdf">
+
+---
+title: "P19-92 - © SEMI 1992, 19962..."
+description: "SEMI标准文档"
+sidebar_label: "P19-92 - © SEMI 1992, 19962..."
+sidebar_position: 116
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-116.pdf'
+  chapter: 116
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P23-0200 © SEMI 1993, 2000 22 50 um 50 um Detail 1 um 1 um 7.0 14.0 3.0 11
 &lt;!-- Page 50 --&gt;
 
 SEMI P23-0200 © SEMI 1993, 200023 50 um 50 um Detail 1 um 1 um 2.0 14.0 8.5 5.5 7.0 3.5 2.03.5 3.5 2.0 2.0 1.5 1.5 2.0 I / J ; Film Pattern; Defect Position Figure 18Sub CellWiring (Type D)
+
+</PdfSplitView>

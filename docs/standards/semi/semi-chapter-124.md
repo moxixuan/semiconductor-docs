@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/124.pdf"
   pdfSize="N/A"
   title="G31-0997 - © SEMI 1986, 19975..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/124.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/124.pdf">
+
+---
+title: "G31-0997 - © SEMI 1986, 19975..."
+description: "SEMI标准文档"
+sidebar_label: "G31-0997 - © SEMI 1986, 19975..."
+sidebar_position: 124
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-124.pdf'
+  chapter: 124
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G42-0996 © SEMI 1986, 2004 2 6 Requirements6.1 General requirements regard
 &lt;!-- Page 50 --&gt;
 
 SEMI G42-0996 © SEMI 1986, 20043 Table 2 Trace Dimension for BGA Package Boards Pad Pitch (mm) Trace Radius, R (mm)Solder Mask OpeningDiameter 1 (mm) Hole Diameter  2 (mm) Number of Pads1.5 0.9 0.6 0.2 33 x 331.27 0.8 0.6 0.35 39 x 391.0 0.6 0.45 0.3 49 x 49 6.1.2.2.6 Equivalent boards for other packages shouldfollow guidelines similar to those described in Sections6.1.2.2.16.1.2.2.5.6.1.2.2.7 Multi-Layer Board  When measuringthermal resistance using a multi-layer board, the layershall be constructed as shown in Figure 9. The innerpattern should have the clearance as shown in Figure 10to isolate with via holes.6.1.3 Mounting Guidelines6.1.3.1 Example of package mounting on the boards isshown in Figures 11 and 12. Packages should bemounted such that the center line of the test board iscoincidental with the center line of the package.6.1.3.2 For DIP and CCP, the longer edge of thepackage should be closest to the long edge of the board.6.1.3.3 For QFP, PGA, and BGA package board, thepackage should be mounted in the center of the board.6.1.3.4 Packages must be mounted such that thestandoff height above the board is as per JEDECguidelines. In the case of a new package without suchinformation available, a minimum of 0.127 mm (5 mil)air gap between the bottom surface of the package andthe thermal test board is acceptable.6.1.4 Mounting the Test Board for Still-Air RJAMeasurement6.1.4.1 The test board should be mounted on a clampas shown in Figure 13 through a suitable edgeconnector clamp.6.1.4.2 The test board and the edge connector clampare placed in a 0.0283 m3 (one cubic foot) enclosure asshown in Figure 13. The edge connector clamp heightmust be adjusted to ensure positioning of the package inthe center of the chamber.6.1.4.3 The electrical wire connections from thepackage are routed out of the one cubic foot enclosure either through an edge connector or through smalldiameter holes in the box.6.1.5 Mounting the Test Board for Forced-Air RJAMeasurement  Forced air RJA measurements areperformed in a wind tunnel whose diameter is 203.2mm (8.00 inches). Details of the wind tunnel are givenin SEMI G38.6.1.5.1 The test board should be mounted inside thewind tunnel on an edge connector clamp as shown inFigure 14.6.1.5.2 The test board is placed in the wind tunnel suchthat the longer edge of the package is in a verticalposition (see Figure 14).6.1.5.3 The longer edge of the package should face thedirection of air flow.6.1.5.4 The longer side of the package must meet theair front first, as shown in Figure 14.6.1.5.5 Air may be forced through the wind tunnel byeither blowing from one end or by suction. (Suctionbeing preferred.)6.1.5.6 The test board and the edge connector clampare placed in the wind tunnel as shown in Figure 14.The edge connector clamp height must be adjusted toensure positioning of the package in the center of thewind tunnel.6.1.6 Thermal Resistance Measurement Methods Methods for measuring RJA (Junction-to-AmbientThermal Resistance) of IC packages using thermal testchips have been described in SEMI G32 and SEMIG38, respectively. These methods or equivalentmethods such as the use of switching techniques, asdescribed in MIL-STD-883C, Method 1021.1, shouldbe used for making thermal resistance measurements ofIC packages using thermal test chips or IC devices.
+
+</PdfSplitView>

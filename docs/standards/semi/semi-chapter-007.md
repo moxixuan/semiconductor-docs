@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/007.pdf"
   pdfSize="N/A"
   title="E48-1101 - © SEMI 1995, 20011..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/007.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/007.pdf">
+
+---
+title: "E48-1101 - © SEMI 1995, 20011..."
+description: "SEMI标准文档"
+sidebar_label: "E48-1101 - © SEMI 1995, 20011..."
+sidebar_position: 7
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-007.pdf'
+  chapter: 7
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E49.7-0304 © SEMI 1995, 2004 8 NOTICE: SEMI makes no warranties orrepresen
 &lt;!-- Page 50 --&gt;
 
 SEMI E49.7-0304 © SEMI 1995, 20049 RELATED INFORMATION 1FLOW CONSIDERATIONS FOR ULTRAPURE WATER SYSTEMS NOTICE: This related information is not an official part of SEMI E49.7 and was derived from North AmericanLiquid Chemicals. This related information was approved for publication by full letter ballot on April 30, 2002. R1-1 Ultrapure Water ConsiderationsR1-1.1 An ultrapure water system may benefit frommaintaining continuous flow with a velocity greaterthan or equal to those listed in the following table:Table R1-1Nom. Size Tube ID(inches)V (ft/s) Tube ID(cm)V (cm/s)  0.125 5.2 0.3175 158.13/8 0.250 2.6 0.6350 79.0 0.375 1.7 0.9525 52.7 0.625 1.0 1.5875 31.61 0.875 0.7 2.2225 22.6 R1-1.2 For reference this information is based on thefollowing equations, using a Reynolds number of 5000and water at a temperature of 20°C. Where:Re is Reynolds number (dimensionless) is density (g/cm3)V is fluid velocity (cm/sec)D is tube diameter (cm) is viscosity (g/cm-s) NOTICE: SEMI makes no warranties orrepresentations as to the suitability of the standards setforth herein for any particular application. Thedetermination of the suitability of the standard is solelythe responsibility of the user. Users are cautioned torefer to manufacturer's instructions, product labels,product data sheets, and other relevant literature,respecting any materials or equipment mentionedherein. These standards are subject to change withoutnotice.By publication of this standard, SemiconductorEquipment and Materials International (SEMI) takes noposition respecting the validity of any patent rights orcopyrights asserted in connection with any itemsmentioned in this standard. Users of this standard areexpressly advised that determination of any such patentrights or copyrights, and the risk of infringement ofsuch rights are entirely their own responsibility. ( ) ( )( ) ( ) 1.1589982.03175.001002.05000V :exampleDReV DVRe == = = Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

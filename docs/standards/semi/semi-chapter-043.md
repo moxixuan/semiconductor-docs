@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/043.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 043"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/043.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/043.pdf">
+
+---
+title: "SEMI Standards - Chapter 043"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 043"
+sidebar_position: 43
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-043.pdf'
+  chapter: 43
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.15-0305 © SEMI 200521 9.3.6 Sensor-AI-Counter  The presentation of the
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.15-0305 © SEMI 2005 22 9.3.9 Assembly-ISPM#3  The presentation of the Assembly #3 In-Situ Particle Monitor (Assembly-ISPM#3)object instance attributes and services are as indicated in Table 35.Table 35 Assembly-ISPM#3 Object Instance Attributes andServicesAssembly-ISPM#3Class ID = 143, Instance ID = 01AttributesID Attribute Name SDM Tag01 Data A1ServicesID Service Name SDM Tag-- No additional services defined -- 9.3.10 Assembly-ISPM#4  The presentation of the Assembly #4 In-Situ Particle Monitor (Assembly-ISPM#4)object instance attributes and services are as indicated in Table 36.Table 36 Assembly-ISPM#4 Object Instance Attributes andServicesAssembly-ISPM#4Class ID = 144, Instance ID = 01AttributesID Attribute Name SDM Tag01 Data A1ServicesID Service Name SDM Tag-- No additional services defined -- 9.3.11 Assembly-ISPM#5  The presentation of the Assembly #5 In-Situ Particle Monitor (Assembly-ISPM#5)object instance attributes and services are as indicated in Table 37.Table 37 Assembly-ISPM#5 Object Instance Attributes andServices Assembly-ISPM#5Class ID = 145, Instance ID = 01AttributesID Attribute Name SDM Tag01 Data A1ServicesID Service Name SDM Tag-- No additional services defined --
+
+</PdfSplitView>

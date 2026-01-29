@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/067.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 067"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/067.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/067.pdf">
+
+---
+title: "SEMI Chapter 067"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 067"
+sidebar_position: 67
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-067.pdf'
+  chapter: 67
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E132-0305 © SEMI 2004, 2005 2 6 Terminology6.1 Definitions6.1.1 administra
 &lt;!-- Page 50 --&gt;
 
 SEMI E132-0305 © SEMI 2004, 20053 7 Conventions7.1 Unified Modeling Language (UML) Notation  All class and sequence diagrams in this standard make use ofthe Unified Modeling Language notation.7.2 Attribute Tables  The table below provides an example of the tables used to list and describe attributes ofclasses defined in this specification.Table 1 Attribute Table Format Attribute Name Definition FormSee list below. 7.2.1 Form  Defines the data type of the attribute. The terms used to describe data types used in this column aredefined in the SEMI Compilation of Terms, or are included as part of the specification. Refer to the compilation ofterms for the definition of SEMI type name meanings.7.2.2 Association Tables  The table below provides an example of the tables used to list and describe associationsbetween classes defined in this specification.Table 2 Association Table Format Association Role Name Definition Comments 7.2.2.1 Association Role Name  The name of the association role being specified.7.2.2.2 Definition  Describes the function or purpose of the association.7.2.2.3 Comments  Any additional comments or notes regarding the association.7.3 Operation Definition Tables  The table below provides an example of the tables used to list and describe theinterface operations defined in this specification.Table 3 Operation DefinitionOperation Description Type Requestor/Sender Responder/ReceiverSee list below. 7.3.1 Operation  Specifies the name of the operation.7.3.2 Type  Specifies the messaging semantics of the operation. Only Request-Response (RR) and Fire-and-Forget (FF) semantics are used in this specification.7.3.3 Requestor/Sender  For RR semantics, identifies the entity that makes the request, for FF semantics,identifies the entity that sends the message. Can be Client, Admin, or Equipment. Client can be any of theapplications communicating to equipment compliant to this specification.7.3.4 Responder/Receiver  For RR semantics, identifies the entity that responds to the request, for FF semantics,identifies the entity that receives the message. Can be Client, Admin, or Equipment.7.4 Operation Argument Definition Table  The table below provides an example of the tables used to list anddescribe arguments for interface operations defined in this specification.Table 4 Operation Argument DefinitionsArgument Description Kind FormSee list below. See list below. 7.4.1 Argument  Specifies the name of the argument.
+
+</PdfSplitView>

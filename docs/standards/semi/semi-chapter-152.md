@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/152.pdf"
   pdfSize="N/A"
   title="T1-95 - © SEMI 1993, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/152.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/152.pdf">
+
+---
+title: "T1-95 - © SEMI 1993, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "T1-95 - © SEMI 1993, 2003..."
+sidebar_position: 152
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-152.pdf'
+  chapter: 152
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI INTERNATIONAL STANDARDS TRACEABILITY Semiconductor Equipment and Materials 
 &lt;!-- Page 50 --&gt;
 
 SEMI T1-95 © SEMI 1993, 20031 SEMI T1-95 (Reapproved 0303)SPECIFICATION FOR BACK SURFACE BAR CODE MARKING OFSILICON WAFERS This specification was technically approved by the Global Traceability Committee and is the directresponsibility of the North American Traceability Committee. Current edition approved by the NorthAmerican Regional Standards Committee on October 25, 2002. Initially available at www.semi.orgDecember 2002; to be published March 2003. Originally published in 1993; previously published in 1995. NOTICE: The users attention is called to thepossibility that compliance with this specification mayrequire use of an invention covered by patent rights.By publication of this specification, SEMI takes noposition respecting the validity of any patent rightsasserted in connection with any item mentioned in thisspecification. Users of this specification are expresslyadvised that determination of any such patent rights,and the risk of the infringement of such rights, areentirely their own responsibility.1 Scope1.1 This specification defines the content and locationof a back surface bar code marking for silicon wafers.The code is variable in length from 7 to 18 characterswhich are user-definable. A character position is heldconstant for the checksum character, but all else isvariable. No other information is encrypted into thecode. This allows the performance requirements ofrelated bar code reading equipment to be simplified. Inaddition, provision is made for an optionalalphanumeric marking of the size specified in SEMIM12 to enable operator identification of wafers. Thisalphanumeric code is not intended to be machinereadable.NOTE 1: The example as described in Table 1 and Figure 1pertains to a hard mark applied by the silicon wafermanufacturer.1.2 This specification applies to flatted or notchedsilicon wafers of nominal diameter 125 mm and larger,as specified in SEMI M1.1.3 The bar code can be read bi-directionally withoutimpairing its decodability.NOTICE: This standard does not purport to addresssafety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establishappropriate safety and health practices and determinethe applicability of regulatory or other limitations priorto use. 2 Referenced Standards2.1 SEMI StandardsSEMI M1  Specifications for PolishedMonocrystalline Silicon WafersSEMI M12  Specification for Serial AlphanumericMarking of the Front Surface of Wafers NOTICE: Unless otherwise indicated, all documentscited shall be the latest published versions. 3 Terminology3.1 Definitions3.1.1 background  of a bar code symbol  theuniform lighter or more reflective region, includingquiet zones, that provides contrast for the darker bars.3.1.2 bar  in a bar code symbol  the darker or lessreflective element of the symbol.3.1.3 bar code density  the number of characters,exclusive of quiet zones, that can be represented in alinear unit of measure.NOTE 2: Bar code density can be expressed in characters perinch (cpi) or characters per millimeter (cpmm).3.1.4 bar code symbol  an array of rectangular barsand spaces that are arranged in a predetermined patternfollowing specific rules to represent elements of datathat are referred to as characters.NOTE 3: The symbol is comprised of message characters andstart/stop characters, check characters, and quiet zones asrequired by a particular symbology to form a completescannable entity.3.1.5 bar code character  a single group of bars andspaces which represent an individual number, letter,punctuation mark, or other symbol.3.1.6 bar height  of a bar code symbol  the bardimension perpendicular to the bar width.3.1.7 bar width  of a bar code symbol  theperpendicular distance across a bar between the pointson opposite edges that have a reflectance that ismidway between the background and bar reflectance.
+
+</PdfSplitView>

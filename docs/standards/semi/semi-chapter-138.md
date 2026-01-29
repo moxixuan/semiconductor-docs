@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/138.pdf"
   pdfSize="N/A"
   title="S2-0703a - E © SEMI 1991,..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/138.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/138.pdf">
+
+---
+title: "S2-0703a - E © SEMI 1991,..."
+description: "SEMI标准文档"
+sidebar_label: "S2-0703a - E © SEMI 1991,..."
+sidebar_position: 138
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-138.pdf'
+  chapter: 138
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S6-93 © SEMI 19939 APPENDIX 2REFERENCED DOCUMENTS A2-1 Industrial Ventilat
 &lt;!-- Page 50 --&gt;
 
 SEMI S6-93 © SEMI 1993, 1996 10 SEMI S6-93 © SEMI 1993, 1996 Copyright by SEMI®(Semiconductor Equipment and Materials International),3081 Zanker Road, San Jose, CA 95134. Reproduction of thecontents in whole or in part is forbidden without express NOTICE: This guideline does not purport to addressall of the safety issues associated with its use. It is theresponsibility of the user of this guideline to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use.SEMI makes no warranties or representations as to thesuitability of the guideline set forth herein for anyparticular application. The determination of thesuitability of the guideline is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materialsmentioned herein. This guideline is subject to changewithout notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility.
+
+</PdfSplitView>

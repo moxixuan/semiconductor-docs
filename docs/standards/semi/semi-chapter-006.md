@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/006.pdf"
   pdfSize="N/A"
   title="E43-0301 - © SEMI 1995, 20011..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/006.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/006.pdf">
+
+---
+title: "E43-0301 - © SEMI 1995, 20011..."
+description: "SEMI标准文档"
+sidebar_label: "E43-0301 - © SEMI 1995, 20011..."
+sidebar_position: 6
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-006.pdf'
+  chapter: 6
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E47.1-0305 © SEMI 1997, 2005 14 SymbolUsed Value Specified DatumMeasured F
 &lt;!-- Page 50 --&gt;
 
 SEMI E47.1-0305 © SEMI 1997, 200515 SymbolUsed Value Specified DatumMeasured From Feature Measured To z316 7.0 mm minimum horizontal datum plane rear conveyor placement volumeupper boundaryz2 2 mm (0.08 in.) maximum horizontal datum plane bottom of carrier sensing pads andinfo pads (when down)z41 0 mm (0 in.) minimum external horizontal datumplanebottom of FOUP z43 2 ± 1 mm (0.08 ± 0.04 in.) external horizontal datumplanebottom conveyor rails z44 11 ± 0 mm(0.43 ± 0 in.)external horizontal datumplaneinternal horizontal datum plane z46 60 ± 1 mm(2.36 ± 0.04 in.)external horizontal datumplanebottom of side fork-lift flanges z47 210 ± 1 mm(8.27 ± 0.04 in.)for 13-wafer FOUP and330 ± 1 mm(12.99 ± 0.04 in.)for 25-wafer FOUP external horizontal datumplanebottom of robotic handling flange z48 15 mm (0.59 in.) minimum bottom of robotichandling flangeencroachment of FOUP topunderneath robotic handling flangez49 8 mm (0.31 in.) maximum bottom of robotichandling flangetop of robotic handling flange andupper door frame volumez50 5 mm (0.20 in.) minimum bottom of robotichandling flangeencroachment of FOUP topunderneath the center hole in the toprobotic handling flangez59 72 mm (0.31 in.) minimum external horizontal datumplanetop of notches in side fork-lift flanges z60 8.0 ± 0.5 mm(0.31 ± 0.02 in.)external horizontal datumplanetop of slot in center retaining feature z61 15 mm (0.59 in.) minimum external horizontal datumplanetop of chamber above slot in centerretaining featurez62 18 mm (0.71 in.) minimum external horizontal datumplanetop of front retaining feature z63 7.5 ± 0.5 mm(0.30 ± 0.02 in.)external horizontal datumplanetop of ramp on front retaining feature z65 7 mm (0.28 in.) minimum horizontal datum plane upper boundary of cylindrical fork-liftpin holes in left and right bottomconveyor railsz66 55.5 mm (2.19 in.) maximum external horizontal datumplaneencroachment of FOUP behindbottom front clamp flangez67 79.5 mm (3.13 in.) minimum external horizontal datumplaneencroachment of FOUP behindbottom front clamp flangez68 133.5 mm (5.26 in.) maximumfor 13-wafer FOUP and253.5 mm (9.98 in.) maximumfor 25-wafer FOUP external horizontal datumplaneencroachment of FOUP behind topfront clamp flange z69 157.5 mm (6.20 in.) minimumfor 13-wafer FOUP and277.5 mm (10.93 in.) minimumfor 25-wafer FOUP external horizontal datumplaneencroachment of FOUP behind topfront clamp flange  These dimensions define optional features.
+
+</PdfSplitView>

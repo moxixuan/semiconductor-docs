@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/099.pdf"
   pdfSize="N/A"
   title="M6-1000 - © SEMI 1981, 20006..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/099.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/099.pdf">
+
+---
+title: "M6-1000 - © SEMI 1981, 20006..."
+description: "SEMI标准文档"
+sidebar_label: "M6-1000 - © SEMI 1981, 20006..."
+sidebar_position: 99
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-099.pdf'
+  chapter: 99
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M11-0704 © SEMI 1988, 2004 6 Figure 4Epitaxial Stacking Fault. Atomic Forc
 &lt;!-- Page 50 --&gt;
 
 SEMI M11-0704 © SEMI 1988, 20047 Figure 5Epitaxial Stacking Fault showing four sides and a deep depression on on side of about 20 nm. Atomic ForceMicroscope Image. Approximate SSIS scattering event size, 0.30 m.
+
+</PdfSplitView>

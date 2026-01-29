@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/158.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 158"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/158.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/158.pdf">
+
+---
+title: "SEMI Chapter 158"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 158"
+sidebar_position: 158
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-158.pdf'
+  chapter: 158
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI T13.2-1104 © SEMI 200419 XML Message Schema Name: T13CatchDTDResponseDtr.x
 &lt;!-- Page 50 --&gt;
 
 SEMI T13.2-1104 © SEMI 2004 20 XML Message Schema Name: T13TakeDTDRequestDtr.xsd for DieTracer Class XML Message Schema Name: T13TakeDTDResponseDtr.xsd for DieTracer Class
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/034.pdf"
   pdfSize="N/A"
   title="E38-1296 - © SEMI 1995, 199640..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/034.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/034.pdf">
+
+---
+title: "E38-1296 - © SEMI 1995, 199640..."
+description: "SEMI标准文档"
+sidebar_label: "E38-1296 - © SEMI 1995, 199640..."
+sidebar_position: 34
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-034.pdf'
+  chapter: 34
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E40-0705 © SEMI 1995, 200511 8.2.3.2 PR Job Abort  The supervisor may comm
 &lt;!-- Page 50 --&gt;
 
 SEMI E40-0705 © SEMI 1995, 2005 12 Figure 3Manual Start Message Flow 8.2.3.10 PR Job Start Acknowledge  The processing resource responds to the supervisor that the requested startprocess is accepted or rejected and, if rejected, supplies errorcodes and textual reasons for failure.8.3 Process Job State Model  The process job is a transient entity. It is created on request of the supervisor,executes, and then is deleted by the processing resource. The job usually spans the time period from shortly beforematerial is physically delivered to the processing resource, through the processing, and until shortly after material istaken away.8.3.1 Process Job State Model Diagram  Figure 4 shows the Process Job State Model diagram.8.3.2 Process Job State Descriptions  The detailed state definitions follow.8.3.2.1 ABORTING (ACTIVE Substate)  While the PR Job is in the ABORTING substate, the processing resourceis performing an abort or an optional error recovery procedure. The abort procedure will cause immediatetermination of the processing. It is the responsibility of the processing resource to cease physical activity as quicklyas possible, having achieved a safe condition.NOTE 1: For processing equipment the termination may have to be followed by an error recovery procedure with whichremaining substrates can be brought to the output destination.8.3.2.2 ACTIVE  ACTIVE is the parent state of all substates where the context of an active process job executionexists.8.3.2.3 EXECUTING (ACTIVE Substate)  EXECUTING is the parent state of those substates that refer to thepreparation and execution of a process job.8.3.2.4 SETTING UP (EXECUTING Substate)  While the PR Job is in the SETTING UP substate, the processingresource performs pre-conditioning, awaits material arrival, and prepares for material processing. Pre-conditioningincludes all operations in the processing resource, which are required by the recipe in advance of material arrival.8.3.2.4.1 In cases where the material is already present, it is simply prepared for processing. If pre-conditioning(without material present) is required to achieve the processing goals specified by the recipe, the job fails andterminates.8.3.2.5 PAUSE (ACTIVE Substate)  While the PR Job is in the PAUSE substate the processing resource issuspending or has suspended activity.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/011.pdf"
   pdfSize="N/A"
   title="E72-0600 - © SEMI 1998, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/011.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/011.pdf">
+
+---
+title: "E72-0600 - © SEMI 1998, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E72-0600 - © SEMI 1998, 2005..."
+sidebar_position: 11
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-011.pdf'
+  chapter: 11
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E78-1102 © SEMI 1998, 20027 additional information to select an appropriat
 &lt;!-- Page 50 --&gt;
 
 SEMI E78-1102 © SEMI 1998, 2002 8 JESD22-C101A  Field-Induced Charged-DeviceModel Test Method for Electrostatic DischargeWithstand Thresholds of Microelectronic Components16.2 Other DocumentsEN 50082  Generic Immunity Standard for CECompliance, CENELEC European UnionBS EN 61000-6-2  Electromagnetic compatibility(EMC) - Generic standards - Immunity for industrialenvironments - British Standards Institution (BSI).3 MIL-STD 883C  Notice 8  Method 3015.7 Electrostatic Discharge Sensitivity Classification 3 BSI, 389 Chiswick High Road, GB - LONDON W4 4AL
+
+</PdfSplitView>

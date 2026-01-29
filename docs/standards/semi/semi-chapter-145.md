@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/145.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 145"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/145.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/145.pdf">
+
+---
+title: "SEMI Standards - Chapter 145"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 145"
+sidebar_position: 145
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-145.pdf'
+  chapter: 145
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF525-0705 © SEMI 2003, 2005 12 andR could be calculated that would apply 
 &lt;!-- Page 50 --&gt;
 
 SEMI MF525-0705 © SEMI 2003, 200513 found with the lower resistivity specimens. It was therefore decided to omit the two highest resistivity specimensfrom further analysis.R1-6 Tests of the distribution of reported values of r andR within each category indicated that they had too muchvariability to be consistent with single underlying values of repeatability and reproducibility in any of thepreparation categories. It is probable that some of this excess variability resulted from the variety of probeconditions and specimen orientations, conductivity types, and surface preparation details. Nevertheless, the effect ofthis excess variability was that overall estimates of r andR could not be obtained from root-mean-square poolingof the respective variances. These overall estimates were obtained instead as percentiles of the distributions of thecontributed values in each category from specimens in the resistivity range from 0.01 to 200 Ωcm.Table R1-3 Summary of Round Robin DataSpecimen IdentificationLab# C D E F G H J K L M N P R TDiamond-Planar Polish#1310 g4.16 kΩ5.1%2.2%18.1 kΩ3.5%2.5%2.09 MΩ26.0%9.7%9.19 MΩ6.6%2.9%1.01 kΩ4.5%2.6%42.1 kΩ2.2%1.4%19.2 kΩ4.1%1.4%74.6 Ω6.8%3.1%12.0 Ω7.5%4.5%55.6 kΩ6.3%2.8%1.98 MΩ6.8%3.0%36.1 Ω0.9%2.2%1.17 kΩ5.0%2.5%745 kΩ3.4%2.5%320 g2.05 kΩ2.2%1.7%10.6 kΩ2.2%1.4%5.79 MΩ25.0%12.0%4.37 MΩ4.6%2.9%587 Ω2.8%1.7%25.2 kΩ2.5%1.8%11.3 kΩ2.6%1.6%49.0 Ω7.1%2.1%6.75 Ω6.6%1.5%28.9 kΩ2.4%2.0%860. kΩ4.7%2.1%24.1 Ω4.9%2.2%779. Ω6.0%2.2%358 kΩ1.4%2.0%5 B 886. Ω1.2%6.05 kΩ0.9%4.36 MΩ20.0%1.59 MΩ6.5%316 Ω2.0%15.4 kΩ2.2%7.14 kΩ0.4%24.0 Ω1.7%3.88 Ω0.8%12.7 kΩ4.5%470. kΩ0.0%12.2 Ω0.7411. Ω2.1%219 kΩ2.9%14 1.69 kΩ0.4%1.6%9.22 kΩ0.3%1.6%1.09 MΩ1.6%1.2%4.16 MΩ5.1%10.9%728 Ω0.8%3.8%15.8 kΩ0.3%1.0%9.51 kΩ0.3%1.3%35.1 Ω0.5%0.9%5.34 Ω0.5%2.3%21.3 kΩ0.8%1.8%487. kΩ0.2%1.1%17.6 Ω1.3%1.1%1.01 kΩ1.1%4.6%215 kΩ2.4%8.5%Diamond-Bevel Polish#11 2.20 kΩ5.6%4.6%10.4 kΩ1.4%3.4%6.15 MΩ1.8%28.0%6.15 MΩ11.8%14.4%744. Ω2.3%3.6%24.5 kΩ1.2%2.0%11.1 kΩ1.9%2.0%54.8 Ω8.1%4.0%9.51 Ω20.0%6.0%27.2 kΩ6.8%5.6%888 kΩ0.9%6.1%26.2 Ω0.6%1.9%726 Ω2.5%4.0%370 kΩ2.5%5.8%310 g3.36 kΩ1.6%3.0%17.9 kΩ2.1%2.7%7.21 MΩ3.5%3.5%15.8 MΩ5.3%4.2%1.22 kΩ1.5%3.6%45.2 kΩ4.2%1.7%21.3 kΩ1.4%3.6%72.4 Ω3.6%3.8%9.89 Ω4.4%4.6%58.2 kΩ3.6%3.6%2.46 MΩ4.0%4.0%42.2 Ω6.2%3.0%1.36 kΩ3.0%2.6%1.01 MΩ2.3%3.5%320 g2.33 kΩ2.5%2.5%10.5 kΩ1.3%1.8%2.48 MΩ6.90%3.9%7.10 MΩ5.5%3.7%698. Ω3.6%3.2%24.0 kΩ1.5%1.7%11.8 kΩ2.4%2.4%49.4 Ω4.6%3.3%6.35 Ω4.9%1.7%11.3 kΩ2.4%2.4%1.04 MΩ5.8%2.9%25.0 Ω3.0%2.3%824 Ω1.8%2.3%424 kΩ2.3%2.2%4 5.43 kΩ1.8%2.9%22.5 kΩ2.4%2.6%20.5 MΩ3.8%4.6%13.6 MΩ18.0%9.8%1.54 kΩ1.7%3.1%67.3 kΩ1.8%2.4%27.6 kΩ1.8%2.4%105 Ω1.4%1.9%14.2 Ω4.5%1.8%70.0 kΩ4.4%4.2%3.03 MΩ8.4%8.0%1.06 MΩ1.6%3.4%6 4.09 kΩ2.2%5.9%17.9 kΩ3.1%4.5%3.24 MΩ2.60%8.0%10.2 MΩ17.9%12.6%1.52 kΩ16.2%10.0%39.1 kΩ0.7%3.4%15.7 kΩ0.8%2.0%108 Ω11.0%8.1%20.4 Ω12.6%19.4%54.4 kΩ7.4%8.7%1.48 MΩ22.0%15.5%58.6 Ω6.9%10.7%1.40 kΩ2.0%8.8%647 kΩ2.5%13.1%922 g2.30 kΩ4.2%4.0%13.2 kΩ4.4%7.6%33.9 MΩ10.7%46.0%3.79 MΩ7.7%9.9%877 Ω5.3%6.3%28.3 kΩ2.4%1.3%15.1 kΩ2.3%5.4%44.6 Ω2.8%2.1%6.48 Ω2.7%3.2%30.9 kΩ2.9%3.8%1.16 MΩ5.2%3.4%27.5 Ω2.2%2.3%1.05 kΩ3.5%5.0%525 kΩ1.8%4.6%95 g7.84 kΩ5.6%9.7%62.6 kΩ9.0%18.4%12.6 MΩ11.0%10.2%16.0 MΩ6.2%5.1%3.96 kΩ1.7%18.7%60.3 kΩ1.4%1.5%35.8 kΩ3.7%5.3%122 Ω21.0%5.3%15.9 Ω9.0%8.0%92.8 kΩ9.7%5.2%6.89 MΩ16.0%8.7%86.5 Ω5.6%8.1%3.36 kΩ9.9%20.0%1.67 MΩ15.0%6.2%12 4.91 kΩ1.8%5.2%14.8 kΩ3.9%8.0%40.7 MΩ6.5%35.0%28.8 MΩ5.1%13.3%830 Ω4.9%3.3%31.1 kΩ1.5%3.6%14.9 kΩ2.8%5.6%47.9 Ω5.4%3.5%8.45 Ω5.1%4.4%41.3 kΩ0.6%8.7%3.39 MΩ6.5%9.9%49.2 Ω3.2%5.1%1.69 kΩ8.5%7.3%1.48 MΩ11.9%6.8%Silica-Bevel Polish#1310 g3.82 kΩ14.0%2.6%65.8 kΩ30.0%4.7%888 kΩ80.0%6.4%616 kΩ3.0%12.3%1.88 kΩ11.3%3.7%38.2 kΩ17.8%2.3%87.8 kΩ17.8%2.3%73.8 Ω6.3%2.0%10.3 Ω5.4%3.3%34.0 kΩ21.6%3.1%468 kΩ14.7%6.0%30.9 Ω3.1%1.7%1.57 kΩ2.0%1.7%573 kΩ33.0%6.3%310 gbaked2.95 kΩ12.5%2.8%31.1 kΩ8.5%2.3%943 kΩ25.0%7.8%723 kΩ23.0%6.7%1.45 kΩ4.1%3.6%30.9 kΩ14.6%2.7%35.4 kΩ7.0%2.2%79.2 Ω3.8%1.9%10.7 Ω0.7%3.2%31.1 kΩ9.2%2.8%610 kΩ49.0%6.1%30.7 Ω1.5%1.3%1.27 kΩ6.6%1.5%365 kΩ29.0%6.4%
+
+</PdfSplitView>

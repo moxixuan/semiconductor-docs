@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/010.pdf"
   pdfSize="N/A"
   title="E64-0600 - © SEMI 1997, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/010.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/010.pdf">
+
+---
+title: "E64-0600 - © SEMI 1997, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E64-0600 - © SEMI 1997, 2005..."
+sidebar_position: 10
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-010.pdf'
+  chapter: 10
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E72-0600 © SEMI 1998, 20051 SEMI E72-0600 (Reapproved 0305)SPECIFICATION A
 &lt;!-- Page 50 --&gt;
 
 SEMI E72-0600 © SEMI 2003 2 4.1.2 depth  the horizontal dimension perpendicular to the load face plane.4.1.3 easement space  the floor space that must remain clear to the rear and sides of the equipment (but not infront of the load face plane). This includes safety aisles, ergonomic maintenance access space, component removalspace, and room for doors to swing out (see Figure 1).4.1.4 load face plane  the furthest physical vertical boundary plane from the cassette centroid or carrier centroidon the side (or sides) of the tool where loading of the tool is intended (as defined in SEMI E15).4.1.5 shadow footprint  the area of the floor space directly under every part of the equipment during its operation(see Figure 1). This includes any temporary projections from the equipment during loading or processing (such ascarriers that stick out from the equipment or equipment load ports that protrude only when the equipment is beingloaded).4.1.6 width  the horizontal dimension parallel to the load face plane. 5 Requirements and RecommendationsNOTE 1: The dimensions cited in the following sections are specified in Table 1.5.1 Sub-Fab vs. Main Fab Footprint5.1.1 Requirements  Both the cost footprint and the shadow footprint of the remote parts of any equipment in thesub-fab must be less than or equal to the cost footprint and the shadow footprint (respectively) of the parts of thatequipment in the main fab (the cleanroom including both bays and chases, if any). Furthermore, the remote parts ofthe equipment in the sub-fab must be capable of being installed so that the rectangle defining the cost footprint in thesub-fab is entirely underneath the rectangle defining the cost footprint in the main fab. In some fab designs (such asslab on grade), there is no sub-fab (or basement). In such cases, these requirements apply to the remote parts of theequipment in whichever equipment support area contains the same remote parts of the equipment as a sub-fab. Also,some fabs have multiple sub-fab levels. In such cases, these requirements apply to the remote parts of the equipmentin all sub-fab levels.5.1.2 Recommendations  Since the sub-fab is likely to have more columns than the main fab, it is recommendedthat the remote parts of the equipment in the sub-fab come in modules that can be arranged to accommodate avariety of layouts.5.2 Equipment Height5.2.1 Requirements  The maximum height of any equipment (other than a stocker) must be less than or equal to Hin the main fab and Hs in the sub-fab. Any connections for utilities and required overhead mainten-ance access mustalso be included within these limits. These limits also apply during installation, so if a part of the equipment must berotated up into place, the diagonal measurement must be less than these limits.5.2.2 Recommendations  Thus, equipment suppliers are advised to not plan on ceilings higher than these limits.5.3 Floor Loading5.3.1 Requirements  The maximum mass of any equipment in the main fab divided by its shadow footprint mustbe less than or equal to M (except when support pedestals are used). Furthermore, the maximum weight on any 0.6m by 0.6 m (2 ft. by 2 ft.) floor tile (in any installation configuration) must be less than or equal to Mt. These limitsalso apply when the equipment is being moved into the fab and installed, unless spreader plates are used.5.3.2 Recommendations  It is recommended that seismic loading also be considered when designing equipmentweight distribution.5.4 Move-In-Size5.4.1 Requirements  To clarify the size of the doors and hallways needed in the fab, this paragraph specifies thesize of the equipment's components after it has been uncrated, while it is being moved into the fab, and before it isinstalled. All parts of the equipment destined for the main fab must come in packages that are no taller than Z andthat are smaller than X by Y in two orthogonal horizontal dimensions. All parts of the equipment destined for thesub-fab must come in packages that are no taller than Zs and that are smaller than Xs by Ys in two orthogonal
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/073.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 073"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/073.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/073.pdf">
+
+---
+title: "SEMI Chapter 073"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 073"
+sidebar_position: 73
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-073.pdf'
+  chapter: 73
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E142-0705 © SEMI 200511 13.4 DeviceIdMap13.4.1 The DeviceIdMap object cont
 &lt;!-- Page 50 --&gt;
 
 SEMI E142-0705 © SEMI 2005 12 Attribute Name Definition Access Reqd FormTY The Y coordinate at which the device was placed on the substrateto which this map applies, according to the values ofSubstrateMap coordinate attributes; SubstrateSide, Orientation,OriginLocation, and AxisDirection. RO Y Integer 14 Services14.1 Table 18 shows the services defined for map data.Table 17 Map Data Services Message Service Name Type DescriptionMapDownload R Download Map DataMapUpload N Upload Map Data 14.2 Map Download Service14.2.1 This service may be used to download MapData for a single substrate.Table 18 Map Download Parameter Dictionary Parameter Name Description Format: Possible valuesSubstrateType The type of substrate to which the MapData applies. TextRestricted to the values:Wafer, Frame, Strip or TraySubstrateId The identifier of the substrate to which the MapData applies. TextMapData The MapData for the specified substrate. TextOther standards that define animplementation of this service andreference this standard will definehow the MapData is represented intext. Table 19 Map Download Service Definition Parameter Req/Ind Rsp/Cnf CommentSubstrateType M - Type of substrate to which download.SubstrateId M - Identifier of substrate to download.MapData - M The MapData for the specified substrate. 14.3 Map Upload Service14.3.1 This service may be used to upload MapData for one ore more substrates.
+
+</PdfSplitView>

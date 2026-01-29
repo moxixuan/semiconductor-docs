@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/087.pdf"
   pdfSize="N/A"
   title="F82-0304 - © SEMI 2004 5..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/087.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/087.pdf">
+
+---
+title: "F82-0304 - © SEMI 2004 5..."
+description: "SEMI标准文档"
+sidebar_label: "F82-0304 - © SEMI 2004 5..."
+sidebar_position: 87
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-087.pdf'
+  chapter: 87
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F90-0304E © SEMI 20043 7 Related Documents7.1 ISO Standards2 ISO 406  Tech
 &lt;!-- Page 50 --&gt;
 
 SEMI F90-0304E © SEMI 2004 4 RELATED INFORMATION 1EXAMPLES OF SEAL DESIGNS FOR 1.5 INCH TYPE SURFACEMOUNT COMPONENTS NOTICE: This related information is not an official part of SEMI F90 and was derived from the work of theoriginating task force. This related information was approved for publication by full ballot procedures.Determination of the suitability of the material is solely the responsibility of the user. R1-1 Design Example 1R1-1.1 Seal Design  See Figure R1-1.R1-1.2 Surface Hardness  The sealing surface (the bottom of the counterbore) has a minimum hardness of 170Vickers. The hardness may be tested per ISO 6507.R1-1.3 Surface Roughness  The sealing surface (the bottom of the counterbore) has a surface roughness of 0.25micrometers Ra max. The surface roughness may be tested per SEMI F37-0299.R1-1.4 Surface Scratches  The sealing surface (the bottom of the counterbore) is without any lateral scratcheswhich are visible to non-magnified normal vision. Figure R1-1Design Example 1
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/142.pdf"
   pdfSize="N/A"
   title="S16-0600 - © SEMI 20003 7..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/142.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/142.pdf">
+
+---
+title: "S16-0600 - © SEMI 20003 7..."
+description: "SEMI标准文档"
+sidebar_label: "S16-0600 - © SEMI 20003 7..."
+sidebar_position: 142
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-142.pdf'
+  chapter: 142
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S20-0303 © SEMI 2003 8 RELATED INFORMATION 2EXAMPLE FLOW FOR HAZARDOUS ENE
 &lt;!-- Page 50 --&gt;
 
 SEMI S20-0303 © SEMI 20039 RELATED INFORMATION 3EXAMPLE OF A LOTO EID DIFFERENTIATION MARKING NOTICE: This Related Information is not an official part of SEMI S20 and was derived from task force activity andindividual task force participants. This related information was approved for publication by inclusion in the ballotand by vote of the SEMI Standards EHS Committee. It is included to assist the user of the document inunderstanding what the graphical representations should provide in the way of information and locationidentification. R3-1 Differentiation MarkingR3-1.1 In addition to a unique identifier, it may be beneficial to differentiate LOTO EIDs from non-LOTO EIDsby using the following symbol. This symbol may be on or adjacent to, or combined with the unique identifiermarking for that specific LOTO EID. R3-1.2 SEMI S8 provides guidance for sizing of this differentiation symbol so it will be readable from the normalviewpoint of a persons access to the LOTO EID.R3-1.3 Where LOTO EIDs are located behind a panel, it is useful to mark the exterior of the panel in order toindicate the path of access to the LOTO EID or approximately where the EID is hidden. NOTICE: SEMI makes no warranties or representations as to the suitability of the guidelines set forth herein forany particular application. The determination of the suitability of the guideline is solely the responsibility of theuser. Users are cautioned to refer to suppliers instructions, product labels, product data sheets, and other relevantliterature respecting any materials mentioned herein. These guidelines are subject to change without notice.By publication of this standard, SEMI takes no position respecting the validity of any patent rights or copyrightsasserted in connection with any item mentioned in this standard. Users of this standard are expressly advised thatdetermination of any such patent rights or copyrights, and the risk of infringement of such rights, are entirely theirown responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

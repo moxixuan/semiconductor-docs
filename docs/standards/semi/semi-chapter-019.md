@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/019.pdf"
   pdfSize="N/A"
   title="E117-1104 - © SEMI 2002, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/019.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/019.pdf">
+
+---
+title: "E117-1104 - © SEMI 2002, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E117-1104 - © SEMI 2002, 2004..."
+sidebar_position: 19
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-019.pdf'
+  chapter: 19
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E124-1103 © SEMI 2003 4 theoretical unit throughput is equal to the recipr
 &lt;!-- Page 50 --&gt;
 
 SEMI E124-1103 © SEMI 20035 availabilityefficiencyfinishedunits outaveragecycle time good unitequivalents out(12) WIPcapacitytheoretical productiontime per unittotaltimescrappedunits out overall factoryefficiency(1) yieldefficiency(3) lineyield(6) testyield(7) volumeefficiency(2) normalizingexponent(9) criticalWIP(10) best-casecycle time(18) best-casethroughput rate(20) averageWIP(15) theoreticalthroughput rate(21) WIPturnover(22) actualthroughput rate(19) theoreticalcycle time(16) bottleneckthroughput rate(17) throughput-rate andcycle-time efficiency(13) operationalefficiency WIPefficiency(14) productionefficiency(8) normalizedproduction efficiency(4) balanceefficiency(5) processcapacity(11) Figure 2Definition Tree for Factory-Level Productivity Metrics
+
+</PdfSplitView>

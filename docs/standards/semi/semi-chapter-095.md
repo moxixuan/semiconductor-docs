@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/095.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 095"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/095.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/095.pdf">
+
+---
+title: "SEMI Standards - Chapter 095"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 095"
+sidebar_position: 95
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-095.pdf'
+  chapter: 95
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C6.5-90 © SEMI 1990, 20023 NOTICE: SEMI makes no warranties or representat
 &lt;!-- Page 50 --&gt;
 
 SEMI C6.5-90 © SEMI 1990, 20021 SEMI C6.6-90 (Reapproved 1102)PARTICLE SPECIFICATION FOR GRADE 10/0.1 NITROGEN (N 2) ANDARGON (Ar) DELIVERED AS PIPELINE GAS This specification was technically approved by the Global Gases Committee and is the direct responsibility ofthe North American Gases Committee. Current edition approved by the North American Regional StandardsCommittee on July 21, 2002. Initially available at www.semi.org October 2002; to be published November2002. Originally published in 1990. 1 Purpose1.1 The purposes of this document are: (1) to set amaximum permissible particle concentration for 10/0.1grade nitrogen and argon bulk supply gases, and (2) todescribe a reference method for its verification. 2 Scope2.1 This document applies only to nitrogen gas andargon gas delivered through pipelines; it is notapplicable to cylinder gases or gases in their liquidstate.2.2 This standard does not purport to address safetyissues, if any, associated with its use. It is theresponsibility of the users of this standard to establishappropriate safety health practices and determine theapplicability or regulatory limitations prior to use. 3 Terminology3.1 Variables VMi = Volume of the ith sample interval of the pipeline gasVBi = Volume of the ith sample interval of thebackgroundXMi = Concentration of particles observed in the ith sampleinterval of the pipeline gasXBi = Concentration of particles observed in the ith sampleinterval of the backgroundNM = Number of sample intervals of the pipeline gasNB= Number of sample intervals of the backgroundMX = Average observed concentration of counts in thepipeline gas sampleBX = Average observed concentration of backgroundcountsCX = Calculated concentration of particles in the pipelinegasSM = Standard deviation of MXSB= Standard deviation of BXSC = Standard deviation of CX 3.2 Particle Size/Particle Diameter  The opticalequivalent diameter as detected by a given light-scattering particle counter. 3.3 Gas Sample Volume (V Mi, VBi )  The volume ofthe sample interval, expressed in standard liters atstandard conditions, 0°C (32°F) and 1.00° atmospherepressure. Standard Cubic Feet (SCF) is defined at21.1°C (70°F) and 1.00° atmosphere pressure.3.4 Average Observed Concentration of Counts( MX , BX )  The average concentration of counts, i.e.: X M = X MiN MX B = XBiN B 3.5 Calculated Concentration of Particles ( CX ) The concentration of particles in the pipeline gasobtained by correcting the observed concentration inthe pipeline gas for the observed concentration in thebackground, i.e.: XC = X M  XB 3.6 Standard Deviation (S M , S B , S C)  A statisticalmeasure of the spread of the concentration of the countsor particles. The first two are obtained from the intervaland average concentrations and the number of intervals,i.e.: S M = XMi  XM( )2 N M  1( )     12S B = X Bi  X B( )2 N B  1( )     12 The third is obtained from the first two, i.e.: SC = S M 2 + S B2( )12 NOTE 1: These expressions are derived from an assumptionof a Gaussian (Normal) distribution. 4 Apparatus4.1 Particle Counter  An instrument suitable forcounting particles in gaseous nitrogen or argon with alower detection limit of 0.1 micrometers or less, basedon calibration with polystyrene latex spheres.
+
+</PdfSplitView>

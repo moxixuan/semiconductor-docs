@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/014.pdf"
   pdfSize="N/A"
   title="E85-0705 - © SEMI 1999, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/014.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/014.pdf">
+
+---
+title: "E85-0705 - © SEMI 1999, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E85-0705 - © SEMI 1999, 2005..."
+sidebar_position: 14
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-014.pdf'
+  chapter: 14
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E92-0302E © SEMI 1999, 2003 2 SEMI E15.1  Specification for 300 mm Tool Lo
 &lt;!-- Page 50 --&gt;
 
 SEMI E92-0302E © SEMI 1999, 20033 5.2.20 seal zone  a surface on the equipment at theBOLTS/Light plane for sealing to the boxopener/loader.5.2.21 side interface feature  an interface means toperform a seal between the mini-environment of theequipment and box opener/loader.5.2.22 wafer carrier  any cassette, box, pod, or boatthat contains wafers (as defined in SEMI E15). 6 Functional Requirements6.1 This standard does not define actualimplementation but requires functional compliance withthe following standards for interchangeability andinteroperability of box opener/loader.6.2 The box opener/loader of this standard should becompliant with related sections of factory interfacestandards such as SEMI E15.1, SEMI E57, SEMI E47.1and SEMI E62.6.3 Outer Dimensions and Physical Factory MaterialDelivery Interface Compatibility  Physicaldimensions, such as clearances and trenches requiredfor factory delivery systems (human or automated),should be compliant with SEMI E15.1.6.3.1 Carrier Registration  The physical alignmentmechanism for the box consists of features (notspecified in this standard) on the box that mate withthree pins underneath as defined in SEMI E57. Primarykinematic coupling pins should be used.6.3.2 Loadport Pitch  The loadport pitch whichconforms to this standard is S ≥ 475 mm (minimumvalue for FOUP without handles as defined in SEMIE15.1).6.4 Carrier ID Reader/Writer Head Exclusion Volume The box opener/loader compliant with this standardshould have a carrier ID reader/writer head exclusionvolume defined in SEMI E15.1 for automated units thatread or write to an ID tag. Regarding the boxopener/loader, the front end of this exclusion volume islimited by y111. And the rear end of this exclusionvolume is defined in SEMI E15.1 D3. The differencebetween y111 and SEMI E15.1 D4 should be suppliedby the equipment.6.5 Carrier Sensing  The box opener/loadercompliant with this standard has to have the followingcapabilities:6.5.1 Carrier Presence Sensor  Carrier sensingcapability which detects carrier presence regardless ofits correct placement. 6.5.2 Carrier Placement Sensor  Carrier sensingcapability which detects correct carrier placement onthe kinematic coupling.6.6 Info-pad Interfaces  Optional info-padsensing/detecting capability as defined in SEMI E1.9and SEMI E15.1.6.6.1 Info-pad A, B Sensors  Optional carrier sensingcapability which detects carrier type as defined in SEMIE1.9 and SEMI E15.1.6.6.2 FEOL/BEOL Lockout Pin  Optional pin thatphysically detects/rejects a misplaced carrier by usinginfo-pads C and D to distinguish a FEOL carrier vs. aBEOL carrier. This pin should be capable of beinginstalled easily after the equipment is delivered.6.7 Box to Equipment Sealing Interface and DoorLock/Unlock Interface  This standard requires a boxto equipment seal interface and door lock/unlockinterface compliant with SEMI E47.1 and SEMI E62.This standard does not specify any of the actual design. 7 Mechanical Requirements7.1 Datum Planes and Dimensioning Rules Dimensions defined in this standard are determinedwith respect to the following datum planes and defaultdimensioning rules.NOTE 2: Unless otherwise stated, perpendicularity andparallelism are implicitly defined in the geometric tolerances. 7.1.1 Three Common Datum Planes  Many of thedimensions of the BOLTS/Light interface aredetermined with respect to the three orthogonal datumplanes defined in SEMI E57: the horizontal datumplane, the facial datum plane, and the bilateral datumplane.7.1.2 Symmetry  All of the dimensions for theinterface are bilaterally symmetric about the bilateraldatum plane unless otherwise noted. These dimensionsare shown in Figures 2 and 3 and specified in Table 1.7.1.3 Inner and Outer Radii  All required concavefeatures may have a radius of up to r100 to allowcleaning and to prevent contaminant build-up. Allrequired convex features may also have a radius of upto r101 to prevent small contact patches with largestresses that might cause wear and particles. Note thatthese limits on the radius of all required features arespecified as a maximum (not a minimum) to ensure thatthe required features are not rounded off too much. Thelower bound on the radius is up to the equipmentsupplier. Note also that this radius applies to everyrequired feature unless another radius is called outspecifically.
+
+</PdfSplitView>

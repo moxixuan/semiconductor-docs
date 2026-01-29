@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/029.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 029"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/029.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/029.pdf">
+
+---
+title: "SEMI Chapter 029"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 029"
+sidebar_position: 29
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-029.pdf'
+  chapter: 29
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI 30.1-0200 © SEMI 1998, 2000 24 11.4 TABLE-DEF Column Header Descriptions a
 &lt;!-- Page 50 --&gt;
 
 SEMI 30.1-0200 © SEMI 1998, 200025 of the method described in this section will reduce thenumber of process programs.12.4 Process Program Variable Pa rameters  Aprocess program parameter specifies a value thattemporarily modifies the value of a process programvariable parameter. A process program variableparameter is formally defined within a process programbody and contains (1) a variable parameter name that isunique in the body (CPNAME), and (2) a parameterdefault value for use when the process program isselected for execution without specification of anoverride value for this variable parameter(CPVAL/CPEVAL).12.4.1 Overriding Process Program V ariableParameters Default Values12.4.1.1 Any process-related informatio n that isnormally requested from the operator console in manualoperation shall have a process program variableparameter identified in the process program and defaultvalues assigned in the body of the process program. Anequipment would run the process program using thedefault values unless those values were overridden.12.4.1.2 These process program variabl e parametersallow a host to tailor a process program for a specificrun of material by temporarily modifying (replacing)the process program default values using a remotecommand of PP-UPDATE. The modification does notpermanently change the process program; themodifications remain in effect only until the next run or until the next PP-UPDATE remote command isreceived.12.4.2 Requirements and Rules12.4.2.1 ISEM equipment is required to supportvariable process program parameters. Additionally,ISEM process programs are required to contain variableprocess program parameters that specify a name foreach of the four previously defined ISEM table types.Specifically, parameters for TABLE-AREA-DEF,TABLE-ALIGN-DEF, TABLE-ANOMALY-DEF,and TABLE-M21-ANOMALY-DEF table names arerequired. Only the names that refer to these TABLE-DEFs are required to be included in the processprogram body. The actual TABLE-DEF data is externalto the process program body. The host may alwaysassume that there are variable process programparameters for these four ISEM tables.12.4.2.2 Before execution of a CARRIE RBLD canbegin, the presence of all the ISEM Tables that itreferences shall be verified by the equipment. If theyare not all present, an error shall be reported. Theequipment shall support data items that may be linkedto the event report that specifies the name of missingISEM Tables. S7,F27 is used for reporting this errorcondition.12.4.2.3 The following table summariz es the variableprocess program parameters that ISEM equipment shallsupport and the remote command parameters that thehost may use to override their values (as defined inSection 13 and Table 9). Table 7 Required Variable Process Program Parameters Variable Process Program Parameter and HostCommand Parameter Name (CPNAME)Description ALIGNLIST A list of location identifiers to be reviewed.ANOMALYLIST A list of location identifiers to be reviewed.AREALIST A list of area identifiers to be inspected or reviewed.ELEMENTLIST A list of array element identifiers to be inspected.SLOTLIST A list of carrier slot numbers with material to be inspected or to be reviewed.SUBSTRATELIST A list of substrate IDs with material to be inspected or to be reviewed.TABLE-ALIGN-DEF A set of alignment site definitions.TABLE-ANOMALY-DEF A set of (SEMI M20) anomaly location and attribute definitions.TABLE-AREA-DEF A set of area definitions.TABLE-M21-ANOMALY-DEF A set of SEMI M21 anomaly location and attribute definitions.
+
+</PdfSplitView>

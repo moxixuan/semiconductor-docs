@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/084.pdf"
   pdfSize="N/A"
   title="F64-0701 - © SEMI 200113 APPENDIX..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/084.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/084.pdf">
+
+---
+title: "F64-0701 - © SEMI 200113 APPENDIX..."
+description: "SEMI标准文档"
+sidebar_label: "F64-0701 - © SEMI 200113 APPENDIX..."
+sidebar_position: 84
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-084.pdf'
+  chapter: 84
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F73-1102 © SEMI 20021 SEMI F73-1102TEST METHOD FOR SCANNING ELECTRON MICRO
 &lt;!-- Page 50 --&gt;
 
 SEMI F73-1102 © SEMI 2002 2 4 Referenced Standards4.1 ASTM Standards1 ASTM E 7  Standard Terminology Relating toMetallographyASTM E 766  Standard Practice for Calibrating theMagnification of a Scanning Electron Microscope4.2 ANSI2/IEEE Standard 3 759 Standard Test Procedures for Semiconductor X-ray Energy SpectrometersNOTE 1: Unless otherwise indicated, all documents citedshall be the latest published versions. 5 Terminology5.1 Abbreviations and Acronyms5.1.1 EDS  Energy Dispersive X-ray spectroscopy,sometimes called EDX.5.1.2 FWHM  abbreviation of Full Width HalfMaximum; the width of an EDS peak measured at halfits maximum height.5.1.3 SEM  Scanning Electron Microscopy.5.2 Definitions5.2.1 defect  any surface feature that is eithercharacteristic of the material, or a result of materialprocessing or product fabrication, that is deemedcapable of generating and/or trapping and releasingparticles, or otherwise be detrimental to the containedfluids. Specific features that may be considered to bedefects, with definitions that relate to the purposes ofthis document and/or obtained from reference sourcesnoted include:5.2.1.1 contamination  three dimensional alienmaterial adhering to a surface. (SEMI Compilation ofTerms)5.2.1.2 grain boundary  an interface separating twograins, where the orientation of the lattice changes fromthat of one grain to that of the other. (ASTM E 7)5.2.1.3 inclusion  indigenous or foreign materialwithin the metal, usually referring to non-metallic 1 American Society for Testing and Materials, 100 Barr HarborDrive, West Conshohocken, Pennsylvania 19428-2959, USA.Telephone: 610.832.9585, Fax: 610.832.9555 Website:www.astm.org2 American National Standards Institute, New York Office: 11 West42nd Street, New York, NY 10036, USA. Telephone: 212.642.4900;Fax: 212.398.0023 Website: www.ansi.org3 Institute of Electrical and Electronics Engineers, IEEE OperationsCenter, 445 Hoes Lane, P.O. Box 1331, Piscataway, New Jersey08855-1331, USA. Telephone: 732.981.0060; Fax: 732.981.1721 compound particles such as oxides, alumina, sulfides orsilicates.5.2.1.4 pit  a surface cavity or crater with a definededge not caused by impact.5.2.1.5 process marks  a surface texture or patternthat is characteristic of the surface finishing processemployed.5.2.1.6 scratch  an elongated mark or groove cut inthe surface by mechanical means, not associated withthe predominant surface texture pattern. (adapted fromSEMI Compilation of Terms)5.2.1.7 stringer  a microstructural configuration ofalloy constituents or foreign nonmetallic material, ortrace thereof, lined up in the direction of working.(adapted from ASTM E 7)5.2.2 wetted surface  surfaces of a componentcontacting the contained fluids. (adapted from SEMICompilation of Terms)5.2.3 working distance  the distance between thesurface of the specimen being examined and the frontsurface of the objective lens. (ASTM E 7) 6 Summary of Method6.1 Obtain a SEM photomicrograph of a representativearea of the wetted surface of the sample at amagnification of 200. Increase the magnification to1000 and take another SEM photomicrograph withinthis area, and another at a pre-selected magnificationwithin the range 3000 to 3600. Obtain 30003600photomicrographs at two additional representativeareas, not necessarily within the 200 magnificationregion.6.2 If inclusions or contaminants are noted on any30003600 magnification photos, EDS spectra ofrepresentative example(s) may be obtained.6.3 Perform grid overlay defect counting on the three30003600 photos. Report results in tabular form;provide photomicrographs and EDS spectra withidentification of elements detected. 7 Interferences7.1 Interferences may be encountered as overlaps inEDS spectral peaks. Specific overlaps that may beencountered include but are not limited to:7.1.1 Molybdenum and Sulfur  Overlap in EDSspectra of Mo L peaks and S K peaks preventsunambiguous determination.7.1.2 Manganese and Chromium/Iron  Overlap inEDS spectra of Mn K peak with Cr K peak, and Mn
+
+</PdfSplitView>

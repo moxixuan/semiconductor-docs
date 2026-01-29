@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/127.pdf"
   pdfSize="N/A"
   title="G61-94 - © SEMI 19941 SEMI..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/127.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/127.pdf">
+
+---
+title: "G61-94 - © SEMI 19941 SEMI..."
+description: "SEMI标准文档"
+sidebar_label: "G61-94 - © SEMI 19941 SEMI..."
+sidebar_position: 127
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-127.pdf'
+  chapter: 127
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G69-0996 © SEMI 1996, 2004 6 Figure 4Measurement of Pre-Crack Length 11.3.
 &lt;!-- Page 50 --&gt;
 
 7 SEMI G69-0996 © SEMI 1996, 2004 12 Calculation12.1 Shear and Pull Method12.1.1 The adhesive strength is calculated as follows:12.1.1.1 Adhesive Strength (N/mm2) = Peak Load (N)/Nominal Adhesive Area (mm 2)12.2 Three-Point Bending Method12.2.1 Apparent Adhesive Strength  Apparent adhesive strength including residual stress, is calculated using thestress intensity factor K i as follows: K i = 4  10 6 cosh( ) G p + 1 p+a + 1a where G = 3 1t p3 p + t p3a t pp + t a akP 2 a 22b 2 k = 4t p t a pa t p + t a( )2+ t p2p + t a2a( )2  = 12 ln  p p+ 1a aa+ 1p       j = 3  4 j (j = p or a) P : Peak load (N)a : Pre - crack length (m)b : Sample width (m)t p : Thickness of molding compound (m)t a : Thickness of leadframe (m)p : Young' s modulus of molding compound (Pa)a : Young' s modulus of leadframe (Pa)p : Shear modulus of molding compound (Pa)a : Shear modulus of leadframe (Pa)p : Poisson' s ratio of molding compounda : Poisson' s ratio of leadframe
+
+</PdfSplitView>

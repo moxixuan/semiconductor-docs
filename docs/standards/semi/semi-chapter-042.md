@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/042.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 042"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/042.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/042.pdf">
+
+---
+title: "SEMI Standards - Chapter 042"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 042"
+sidebar_position: 42
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-042.pdf'
+  chapter: 42
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.12-0701 E © SEMI 20015 9.3.1.2 Additional objects may be defined by th
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.13-0303 © SEMI 20031 SEMI E54.13-0303SPECIFICATION FOR SENSOR/ACTUATOR NETWORKCOMMUNICATIONS FOR ETHERNET/IP™ This specification was technically approved by the Global Information and Control Committee and is thedirect responsibility of the North American Information and Control Committee. Current edition approvedby the North American Regional Standards Committee on November 22, 2002. Initially available atwww.semi.org January 2003; to be published March 2003. 1 Purpose1.1 Introduction1.1.1 This standard defines a communicationspecification based on the EtherNet/IP 1(Ethernet/Industrial Protocol) network to enablecommunications between intelligent devices on asensor/actuator network (SAN) that operate accordingto SEMI specified device models (common and devicespecific) in a semiconductor manufacturing tool.1.2 Motivation1.2.1 EtherNet/IP is a communication system suitablefor use in industrial environments. EtherNet/IP allowsintelligent devices to exchange time-critical applicationinformation. These devices include simple I/O devicessuch as sensors/actuators, as well as complex controldevices such as robots, programmable logic controllers,and process controllers.1.2.2 EtherNet/IP uses CIP (Control and InformationProtocol), the common network, transport andapplication layers also shared by DeviceNet (SEMIE54.4). EtherNet/IP provides: A cost effective solution to bridge factory Ethernet(IEEE 802.3) networks to SEMI E54.4 DeviceNetlow-level device networks, Access to intelligence present in low-level devices,and Producer/Consumer model for Master/Slave andPeer-to-Peer application relationships.1.3 Background1.3.1 EtherNet/IP makes use of standard Ethernet andTCP/IP technology to transport CIP communicationspackets. The result is a common, open applicationlayer on top of open and highly popular Ethernet andTCP/IP protocols.1.3.2 EtherNet/IP provides a producer/consumer modelfor the exchange of time-critical control data. Theproducer/consumer model allows the exchange of 1 EtherNet/IP is a trademark of Open DeviceNet Vendor Association(ODVA) application information between a sending device (e.g.,the producer) and many receiving devices (e.g., theconsumers) without the need to send the data multipletimes to multiple destinations. For EtherNet/IP, this isaccomplished by making use of the CIP network andtransport layers along with IP Multicast technology.Many EtherNet/IP devices can receive the sameproduced piece of application information from a singleproducing device.1.3.3 EtherNet/IP makes use of standard IEEE 802.3technology; there are no non-standard additions thatattempt to improve determinism. Rather, EtherNet/IPrecommends the use of commercial switch technology,with 100 Mbps bandwidth and full-duplex operation, toprovide for more deterministic performance. 2 Scope2.1 Specification  This document specifies aSensor/Actuator Network Communications Standard(NCS) based on the EtherNet/IP specification thatenables communication with SAN devices configuredaccording to SEMI SAN Common Device Model(CDM) and appropriate Specific Device Model (SDM)specifications.2.2 Use  This document is used in conjunction with aSEMI standard SAN CDM specification and one ormore SEMI standard SDM specifications (e.g. for amass flow controller). Together, they describe theexternally visible data structure and behavior of devicesutilizing the EtherNet/IP networking capability in aSEMI compliant SAN system. The generalsensor/actuator network document architecture isdescribed in the SEMI E54.0 Sensor/Actuator NetworkStandard (the root SAN document).2.3 Document Structure The EtherNet/IP networkcommunication standard complies with the SEMI SANNCS template document structure, as described inSEMI E54.0. The standard document is composed oftwo main parts. The first part (Sections 1 through 8)specifies the SAN enabling protocol as well as thepresentation (i.e., mapping) of CDM object structureand behavior onto the network (referred to as theCDM mapping). The second part (Section 9)specifies the presentation (i.e., mapping) of SDM object
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/097.pdf"
   pdfSize="N/A"
   title="C58-0305 - © SEMI 2005 2..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/097.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/097.pdf">
+
+---
+title: "C58-0305 - © SEMI 2005 2..."
+description: "SEMI标准文档"
+sidebar_label: "C58-0305 - © SEMI 2005 2..."
+sidebar_position: 97
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-097.pdf'
+  chapter: 97
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M1-0305 © SEMI 1978, 200525 Table 4 Dimensional Characteristics of 2 in. a
 &lt;!-- Page 50 --&gt;
 
 SEMI M1-0305 © SEMI 1978, 2005 26 Table 5 Dimensional Characteristics of 100 mm and 125 mm Polished Monocrystalline Silicon Wafers withSecondary Flat#1 Previous SEMI Reference: SEMI M1.5 SEMI M1.6 SEMI M1.7Wafer Category: 1.5 1.6 1.7 Property 100 mm Wafers(t=525m) #2100 mm Wafers(t=625m) #2 125 mm Wafers#2 2-6.1 Diameter 100.00 ± 0.50 mm 125.00 ± 0.50 mm2-6.2 Primary Flat Length 32.5 ± 2.5 mm 42.5 ± 2.5 mm2-6.3 Primary Flat Orientation#3 &#123;110&#125; ± 1°2-6.4 Secondary Flat Length 18.0 ± 2.0 mm 27.5 ± 2.5 mm2-6.5 Secondary Flat Location(See Figure 4)&#123;111&#125; p-type&#123;100&#125; p-type&#123;111&#125; n-type&#123;100&#125; n-type No secondary flat90° ± 5° clockwise from primary flat ( = 180° ± 5°)45° ± 5° clockwise from primary flat ( = 225° ± 5°)180° ± 5° from primary flat ( = 90° ± 5°)2-6.6 Edge Profile Coordinate, Cy(T/3 Template, see Table 3)175 m 208 m 208 m 2-6.7 Thickness, Center Point 525 ± 20 m. 625 ± 20 m 625 ± 20 m2-6.8 Total Thickness Variation, Max. 10 m2-6.9 Bow, Max. 40 m2-6.10 Warp, Max. 40 m#1 Note that these specifications were originated in the United States. Care should be taken in applying this configuration to specific applications(see 6.6.3).#2 For referee purposes, metric (SI) units apply. To ensure that product shipped is within specification, any conversion to U.S. Customaryequivalents should be done following the maximum-minimum convention in which the minimum values are rounded-up and the maximum valuesare rounded-down to ensure that the equivalent range is always inside the referee range. If U.S. Customary equivalents are used for incominginspection, minimum values should be rounded-down and maximum values rounded-up to avoid rejection of material that is within thespecification when measured by the referee system of units. CAUTION: The significance of the rightmost digit may vary, depending on thequantity being measured and the precision of the test procedure. Refer to the relevant test method for precision data which can be used toconstruct appropriate guard bands.#3 For )111( wafers, the ),011( ),101( , and )011( planes are the equivalent, allowable (110) planes. For (100) wafers, the allowable equivalent)110( planes are ),101( ),011( ),110( and ).110(
+
+</PdfSplitView>

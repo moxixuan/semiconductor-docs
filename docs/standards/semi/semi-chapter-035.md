@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/035.pdf"
   pdfSize="N/A"
   title="E40-0705 - © SEMI 1995, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/035.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/035.pdf">
+
+---
+title: "E40-0705 - © SEMI 1995, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E40-0705 - © SEMI 1995, 2005..."
+sidebar_position: 35
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-035.pdf'
+  chapter: 35
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E42-0704 © SEMI 1995, 2004 18 Figure 3.3Wire-Bonder Recipe ClassesThe text
 &lt;!-- Page 50 --&gt;
 
 SEMI E42-0704 © SEMI 1995, 200419 3.2.3.3 Version  A recipe may evolve over time andexist in several versions. This allows the user to retain arecipe name over multiple versions and show therecipe's heritage. Different versions are identified bythe version portion of the recipe's identifier. NOTE:More than one version of a recipe may be in use forproduction at the same time, not only within thefactory, but also within a single equipment.A version is a text string consisting of at least onecharacter. A new version is either generatedautomatically by the recipe namespace or is assignedby the user. A user may assign any combination of textcharacters and punctuation marks to the version, exceptfor:  the characters prohibited by the convention for textusage and the object identifier (Section 1.5.1), whitespace characters.It is recommended, but not required, that only uppercase be used.Numeric versions (version numbers) consist only ofthe digits "0" through "9" and one decimal pointcharacter "." and can be translated to a pure number. Toavoid confusion and multiple versions with the samenumeric value, numeric versions are further restrictedas follows:  whole numbers (with no decimal point) may notstart with a zero "0" followed by another digit, and decimal numbers (with a decimal point) may notstart or end with the decimal point or end with azero following the decimal point.For example, version numbers "09", "1.", ".5", and"1.670" are prohibited. The proper forms with the samenumeric values are "9", "1", "0.5", and "1.67". The usermay assign a version of "0" but not of "00".Versions that are assigned automatically have additionalrestrictions:  They shall be numeric versions, excluding thedecimal point and with a minimum value of "1". Versions shall be assigned incrementally. Whenassigning a version for a recipe with a given classand name, if no other recipe exists within thenamespace with that class and name, then a versionof "1" is assigned. Otherwise, the highest existingversion already in use for that class and name isdetermined, and the new version is assigned avalue equal to that value plus 1. For example, if thehighest version in use has a numeric value of 5,then the next version assigned would be "6". To compare two versions, they are converted toupper-case and compared character by character.3.2.3.4 Recipe Identifiers  The recipe identifier isformed from the concatenation of the recipe's class,name, and version, in that order:/CLASS 1/CLASS2//CLASSn/NAME;VERSIONwhere CLASS1 is a primary class and CLASSi+1 is asubclass of CLASS i. The recipe name follows class.Name and version are always separated by a semicolon";" (3B16).Where CLASS n is a unique class name, the formbecomes/CLASS/NAME;VERSION.The recipe identifier is used for the OSS-requiredattribute ObjID and shall conform to restrictionsimposed on ObjID (see SEMI E39). The total length ofObjID may have additional restrictions imposed by theprotocol.NOTE: There is no necessary relationship between arecipe's identifier or name and any file name(s) underwhich the body and attributes may be stored internally.The recipe identifier is a logical reference to the recipethat is independent of specific platforms andimplementations. In particular, file services provided byoperating systems may have naming restrictions, suchas length, that are incompatible with the requirementsof RMS. A recipe may be stored internally in differentways, such as in a single flat file, a set of related files,or a database. Actual storage methods shall be invisibleto RMS.Where suppliers supporting recipes in source form alsorewrite them, as discussed in Section 3.2.2.1.2, amethod based on the recipe identifier (ObjID) isrequired to both distinguish between the two forms andto recognize the relationship between the originalsource form recipe and the derived object form recipe.The method may use any of the three elements of theidentifier for this purpose. For example, recipes inobject form may be placed in a separate subclass called"/OBJ/", or a suffix such as ".obj" might be appended tothe user-defined name of the original recipe. 3.2.3.4.1 Default Recipe Identifiers  It is alwayspossible to reference a recipe by specifying its fullidentifier (class, name, and version number). In certaincases, described in Section 3.2.4.1.1, it may also benecessary to specify the namespace of a recipe.However, it is not always necessary to specify allcomponents of the identifier. Specifically, class and/orversion may be omitted when a recipe is selected forexecution and within an external reference. Namespaceis not normally specified. Rules define default values
+
+</PdfSplitView>

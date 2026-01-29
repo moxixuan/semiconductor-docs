@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/060.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 060"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/060.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/060.pdf">
+
+---
+title: "SEMI Chapter 060"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 060"
+sidebar_position: 60
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-060.pdf'
+  chapter: 60
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E120.1-0705 © SEMI 2004, 200513 ExecutionElement Type Figure 9ModuleType6.
 &lt;!-- Page 50 --&gt;
 
 SEMI E120.1-0705 © SEMI 2004, 2005 14 Table 9 Translation Table For SubsystemAttribute or RoleName UML Type XML Element or Attribute(or Reference) XML Name/Type element (used first time a Subsystem isdefined in the system) Subsystems: SubsystemArrayTypesubsystems aggregation element (references a previouslydefined Subsystem) SubsystemRefs: SubsystemRefArrayTypeelement (used first time an IODevice isdefined in the system) IODevices: IODeviceArrayTypeiodevices aggregation element (references a previouslydefined IODevice) IODeviceNodeArrayType materialLocations composition element MaterialLocations:MaterialLocationArrayType Figure 10SubsystemType6.3.8 IODevice =&gt; IODeviceType6.3.8.1 The IODevice class is mapped to the XML IODeviceType. IODeviceType defines no attributes ornavigable associations, but it does extend EquipmentElementType (see Figure 11). It is included in multipleassociations, but it cannot navigate any of them. Therefore, its translation table is empty.Table 10 Translation Table For IODevice Attribute or Role Name UML Type XML Element or Attribute(or Reference) XML Name/Type none
+
+</PdfSplitView>

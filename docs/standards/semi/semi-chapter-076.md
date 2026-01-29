@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/076.pdf"
   pdfSize="N/A"
   title="F3-94 - © SEMI 1990, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/076.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/076.pdf">
+
+---
+title: "F3-94 - © SEMI 1990, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "F3-94 - © SEMI 1990, 2003..."
+sidebar_position: 76
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-076.pdf'
+  chapter: 76
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F11-0998 © SEMI 1993, 19983 Figure 2Thermal Transition Chart9.4 Lower the 
 &lt;!-- Page 50 --&gt;
 
 SEMI F11-0998 © SEMI 1993, 1998 4 NOTICE: These standards do not purport to addresssafety issues, if any, associated with their use. It is theresponsibility of the user of these standards to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use.SEMI makes no warranties or representations as to thesuitability of the standards set forth herein for anyparticular application. The determination of thesuitability of the standard is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materialsmentioned herein. These standards are subject tochange without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility.
+
+</PdfSplitView>

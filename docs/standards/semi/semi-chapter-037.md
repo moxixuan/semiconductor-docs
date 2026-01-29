@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/037.pdf"
   pdfSize="N/A"
   title="E42-0704 - © SEMI 1995, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/037.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/037.pdf">
+
+---
+title: "E42-0704 - © SEMI 1995, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E42-0704 - © SEMI 1995, 2004..."
+sidebar_position: 37
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-037.pdf'
+  chapter: 37
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E42-0704 © SEMI 1995, 2004 118 programs for vision systems), but this rest
 &lt;!-- Page 50 --&gt;
 
 SEMI E42-0704 © SEMI 1995, 2004119 minimum = 100 secondsmaximum = 300 seconds;orTIME BakeTime  (200,100,300,s) /\* default,min,max,units \*/ that define the process parameter BakeTime, its initial value and restrictions. The BAKE;2.3 recipe may use theBakeTime parameter in further internal statements to determine the length of time a wafer is processed, such as:wait for TIME BakeTime;This parameter may then be set by a parent recipe as in Example (1) below or from the EqpSpec\_PARAM attribute(see 5.3.1.4) or with a Select Recipe command from the host or operator.For example, a recipe BAKE;2.3 may define a variable BakeTime, while a recipe RAMP;1,0 may define avariable RampSetPoint. A parent recipe XYZ might contain external references in the text of the source formsuch as:(1) RUN RAMP;1 // use default for RampSetPointRUN BAKE;2.3 with BakeTime=10 // bake for 10 seconds or (2) set RampSetPoint to 500; /\* ramp up to 500 degC \*/do RAMP(RampSetPoint);set Baketime to 120; /\* 120 sec (2 min.) bake \*/do BAKE;2.3(BakeTime); or (3) RAMP(RampSetPoint:=500)BAKE;2.3(BakeTime:=Time\_A) /\* 1st bake time may vary \*/RAMP(RampSetPoint:=650)BAKE;2.3(BakeTime:=Time\_B) /\* 2nd bake time may vary\*/RAMP(RampSetPoint:=800)BAKE;2.3(BakeTime:=Time\_B+50) /\* 2nd bake plus 50 sec \*/ where Time\_A and Time\_B were both formally defined within XYZ.In example (1), no initial value is specified for RampSetPoint. In this case, when the main recipe is selected, theinitial value specified either in EqpSpec\_LinkParam or in Gen\_LinkParam (that is the same as the definition inRAMP;2.3) is used. However, in this example, the parameter BakeTime is assigned a value by the parent recipe,and this supersedes any value from a recipe attribute or a Select Recipe command from the host or operator. Inthe example given, BakeTime is assigned a value outside of the declared domain. This should create an error whenthe recipe is verified.Examples (2) and (3) illustrate how subrecipes RAMP and BAKE may be referenced multiple times by a parentrecipe, and the parent may provide different values with each reference (Example 2) or may define new parametersto use with different references (Example 3).In the above examples, PARAMETERS (set when each individual recipe is verified) and Gen\_LinkParam (set whenXYZ is linked) will contain parameter definitions as follows:Recipe PARAMETERS n\_LinkParamXYZ;0.8 Time\_A Time\_ATime\_B Time\_BRampSetPointBakeTimeRAMP;1.0 RampSetPoint undefined for unlinked recipe
+
+</PdfSplitView>

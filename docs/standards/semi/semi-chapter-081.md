@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/081.pdf"
   pdfSize="N/A"
   title="F47-0200 - © SEMI 1999, 20002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/081.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/081.pdf">
+
+---
+title: "F47-0200 - © SEMI 1999, 20002..."
+description: "SEMI标准文档"
+sidebar_label: "F47-0200 - © SEMI 1999, 20002..."
+sidebar_position: 81
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-081.pdf'
+  chapter: 81
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F53-0600 © SEMI 2000 6 13.8.3.1 Connect spike generator outpu t betweenneg
 &lt;!-- Page 50 --&gt;
 
 SEMI F53-0600 © SEMI 20007 14.1.7.1 Where reference conditions ar e defined by50% FS flow with the EMI source at zero field strength.14.1.8 Record these values in Table 2 .14.2 Interpretation of Results14.2.1 The changes in flow columns i n Table 2 give anindication of the effect of EM susceptibility, bothradiated and conducted. If the effect is larger than canbe tolerated for the process in the fab, two steps may be necessary. EM field strength and frequencymeasurements should be made at the fab under normaloperating conditions. If EM measurements in the fabmatch areas that cause unacceptable effects on theMFC, shielding may be necessary to reduce the effect.Shielding design is beyond the scope of this testmethod. 15 Illustrations Start Set up TestApply PowerAllow WarmUp Purge With N2 Zero MFC andRecord Data Set Up 50%Flow of N2 andRecord Data InitiateRadiated EMTesting Set Frequencyand RecordData Repeat Until allFrequenciesare Covered Are allFrequenciesTested Set Up for HighFrequency SweepFrequency 50KHz to 20 MHz AnyMalfunctionsLocateFrequency ofMalfunctionand Record Set Up forHigherFrequencies Set Frequencyand RecordData Are allFrequenciesTested SweepFrequency 30MHz to 200MHz AnyMalfunctionsLocateFrequency ofMalfunctionand Record Set Up for HighFrequency Set Frequencyand recordData Are AllFrequenciesTested SweepFrequencu 300MHz to 990MHz Yes No Yes No No Yes Yes No No Yes Figure 1Flow Chart of Test Method
+
+</PdfSplitView>

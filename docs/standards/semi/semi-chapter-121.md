@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/121.pdf"
   pdfSize="N/A"
   title="P43-0304 - © SEMI 2004 10..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/121.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/121.pdf">
+
+---
+title: "P43-0304 - © SEMI 2004 10..."
+description: "SEMI标准文档"
+sidebar_label: "P43-0304 - © SEMI 2004 10..."
+sidebar_position: 121
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-121.pdf'
+  chapter: 121
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G5-87 © SEMI 1980, 19961 SEMI G5-87STANDARD FOR CERAMIC CHIP CARRIERS 1 Sc
 &lt;!-- Page 50 --&gt;
 
 SEMI G5-87 © SEMI 1980, 1996 2 i. Portion of external footprints connected to dieattach area and/or seal ring.j. Terminal #1 position, internal and external.k. Certification (optional).l. Method of test and measurements.m. Electrical, mechanical, environmentalrequirements.3. Reference to this specification4. Any exception to print or specification 5 Dimensions and Permissi ble Variations5.1 The dimensions of ceramic ch ip carriers shallconform to those specified in the customer drawing,and be within the outline of JEDEC Publication No. 95.NOTE: A dimensioning scheme and measurement fixture areunder task force review. 5.2 Critical Material Parameters5.2.1 Ceramic5.2.1.1 Alumina, content 90% minimu m.5.2.1.2 Color  Dark or white.5.2.2 Metallization5.2.2.1 Refractory metallization.5.2.2.2 Plating (if designated) per MIL -M-38510.5.2.2.3 Nickel per QQ-N-2905.2.2.4 Gold per MIL-STD-45204, Ty pe III.5.2.2.5 Gold Plating Quality see SEM I G8.5.2.3 Braze per MIL-STD-7883.5.2.4 Lead per MIL-STD-23011.5.2.4.1 Iron Nickel Cobalt alloy per M IL-M-38510,Type A.5.2.4.2 Iron Nickel alloy per MIL-M-3 8510, Type B. 6 Functional TestingThe following tests are recommended for functionalevaluation of ceramic chip carriers. (The conditions ofacceptance to be negotiated between the customer andthe vendor.) 6.1 Die Attach6.2 Pre-Seal Die Shear  (See Se ction 10.1.6.)6.3 Wire Bond 6.4 Pre-Seal Bond Pull  (See Se ction 10.1.7.)6.5 Seal6.6 Environmental Test  (See Se ctions 10.1.1through 10.1.13.)6.7 Hermeticity  (See Section 10 .1.14) Lid Torqueor Shear (for glass seal parts).6.8 Post-Seal Bond Pull  (See S ection 10.1.7.)6.9 Post-Seal Die Shear  (See S ection 10.1.6.) 7 Incoming Testing7.1 Visual  (See Section 8.)7.2 Dimensions7.3 Functional  (See Section 6.)7.4 Standard Tests7.4.1 Electrical  (See SEMI G25. )7.4.2 Gold Plating Quality  (See S EMI G8.)7.4.3 Trim7.4.4 Lead Integrity (See Section 10.1.15.)7.4.5 Solderability  (See Section 1 0.1.16.) 8 Visual8.1 Applicable Definitionsblister (bubble) ceramic  Any separation within theceramic which does not expose underlying ceramicmaterial.blister (bubble) metal  Any localized separationwithin the metallization or between the metallizationand ceramic which does not expose underlying metal orceramic material.burr  An adherent fragment of excess parent materialat the component edge.chip  A region of ceramic missing from the surface oredge of a package which does not go completelythrough the package. Chip size is given by its length,width, and depth from a projection of the design plan-form (see Figure 2).crack  A cleavage or fracture, internal or external.die attach surface  See Figure 3.discoloration  Any non-uniform color change of thepackage plating.foreign material  An adherent particle other thanparent material of that component.LSI  Large scale integration.
+
+</PdfSplitView>

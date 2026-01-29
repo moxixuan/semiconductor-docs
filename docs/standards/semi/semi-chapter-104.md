@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/104.pdf"
   pdfSize="N/A"
   title="M31-0705 - © SEMI 1998, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/104.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/104.pdf">
+
+---
+title: "M31-0705 - © SEMI 1998, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "M31-0705 - © SEMI 1998, 2005..."
+sidebar_position: 104
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-104.pdf'
+  chapter: 104
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M36-0699 © SEMI 19993 NOTICE: These standards do not purport to addresssaf
 &lt;!-- Page 50 --&gt;
 
 SEMI M37-0699 © SEMI 19991 SEMI M37-0699TEST METHOD FOR MEASURING ETCH PIT DENSITY (EPD) IN LOWDISLOCATION DENSITY INDIUM PHOSPHIDE WAFERS This test method was technically approved by the Global Compound Semiconductor Committee and is thedirect responsibility of the Japanese Compound Semiconductor Materials Committee. Current editionapproved by the Japanese Regional Standards Committee on March 17, 1999. Initially available atwww.semi.org April 1999; to be published June 1999. 1 Purpose1.1 This document provides a met hod to measure etchpit density (EPD) in low dislocation density InP wafers. 2 Scope2.1 This test method describes a p rocedure to measureEPD of 50 mm diameter round InP wafers with an EPDof less than 5000/cm2.2.2 This standard does not purport to address all of thesafety issues. It is the responsibility of the user of thisstandard to establish appropriate safety and healthpractices and to determine the applicability ofregulations prior to use of the test method. 3 Referenced Document3.1 ASTM StandardF 140-92  Test Method for CrystallographicPerfection of Gallium Arsenide by Molten PotassiumHydroxide (KOH) Etch Technique. 4 Apparatus4.1 Microscope  Measuring fiel d should be 1 mm2or larger.NOTE: For accurate EPD measurement, accurate area of themeasuring field should be measured by a standard scale. 5 Procedure5.1 Orient the ingot so that the fro nt surface normaldirection of the sample is parallel to the &lt;100&gt; within5°, and then cut a wafer from the ingot.5.2 Polish the wafer to form a mir ror finish.Afterwards, the wafer must be cleaned and dried. 5.3 Mix phosphoric acid (H3PO 4) and hydrobromicacid (HBr) in a beaker. The ratio of each acid is H3PO 4 :HBr=2:1.5.4 Immerse the wafer in the mixe d acid for 3 minutesat room temperature.5.5 Rinse the wafer with deionized water and then dry.5.6 The counting positions are sho wn in Figure 1. Thecounting points are located in the center of each mesh.The mesh size is 5 mm and the total number ofcounting positions is 69. Position 35 is located at thecenter of the wafer.5.7 Count and record the number o f etch pits forwhich the cores are in the measuring field. If the pitsare crowded and are difficult to count, increase themagnification. After that count the etch pits and recordthe results as well as the microscope magnification.5.8 Repeat Section 5.8 for all othe r positions, 2through 69. 6 Calculations6.1 The EPD in each measuring fi eld is the number ofpits counted divided by the area.EPD = (Number of pits) / AreaFor example, if the size of measuring field is exactly 1mm  1 mm, the area is 0.01 cm2. 7 Report7.1 There are several forms that ar e possible forreporting the EPD, for example the average EPD of allthe positions or the area less than some specified valueor map of EPD for the entire wafer, etc. An appropriatereport form should be decided between the supplier andthe user.
+
+</PdfSplitView>

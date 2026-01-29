@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/111.pdf"
   pdfSize="N/A"
   title="P9-0298 - © SEMI 1988, 19981..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/111.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/111.pdf">
+
+---
+title: "P9-0298 - © SEMI 1988, 19981..."
+description: "SEMI标准文档"
+sidebar_label: "P9-0298 - © SEMI 1988, 19981..."
+sidebar_position: 111
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-111.pdf'
+  chapter: 111
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P10-0705 © SEMI 1990, 2005 44
 &lt;!-- Page 50 --&gt;
 
 SEMI P10-0705 © SEMI 1990, 200545
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/041.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 041"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/041.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/041.pdf">
+
+---
+title: "SEMI Standards - Chapter 041"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 041"
+sidebar_position: 41
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-041.pdf'
+  chapter: 41
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.9-0303 © SEMI 2000, 2003 10 Table 16 Sensor-AI-AT Object Instance Attr
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.9-0303 © SEMI 2000, 200311 Table 22 SISO Object Instance Attributes andServices SISOClass ID = 134, Instance = 01AttributesID Attribute Name SDM Tag128 Input A1129 Output A2130 Data Type A3ServicesID Service Name SDM Tag-- No additional services defined. -- 9.2.9 SISO-Setpoint  The presentation of the SingleInput Single Output Setpoint (SISO-Setpoint) objectinstance attributes and services are as indicated in Table23.Table 23 SISO-Setpoint Object Instance Attributesand ServicesSISO-SetpointClass ID = 135, Instance ID = 01 through rAttributesID Attribute Name SDM Tag161 Ramp Type A33162 Ramp Rate A34163 Ratio A35ServicesID Service Name SDM Tag--- No additional services defined. -- 9.2.10 Assembly-MFC  The presentation of theAssembly Mass Flow Controller (Assembly-MFC)object instance attributes and services are as indicatedin Table 24.Table 24 Assembly-MFC Object Instance Attributesand ServicesAssembly-MFCClass ID = 136, Instance ID = 01 through rAttributesID Attribute Name SDM Tag-- No additional attributes defined. --ServicesID Service Name SDM Tag-- No additional services defined. -- 9.3 Specific Device Model For In-Situ Particle MonitorDevice  These sections detail the network mappingrequired to support the Specific Device Model for In-Situ Particle Monitor (ISPM) Devices. Table 25 summarizes the In-Situ Particle Monitor Device Objecttypes. Subsequent Tables 26 to 40 details the attributesand services associated with each In-Situ ParticleMonitor Device object type.Table 25 In-Situ Particle Monitor Device ObjectTypes SDM ObjectIdentifierObject Name ModbusClass IDISPMD1 (DM) Device Manager 1ISPMD2 (SAC) Sensor Actuator Controller 2ISPMD3 Sensor-AI-LCS 137ISPMD4 Sensor-AI-SLS 138ISPMD5 Sensor-AI-MNS 139ISPM16 Sensor-AI-Counter 140ISPMD17 Assembly-ISPM#1 141ISPMD18 Assembly-ISPM#2 142ISPMD19 Assembly-ISPM#3 143ISPMD20 Assembly-ISPM#4 144ISPMD21 Assembly-ISPM#5 145ISPMD22 Assembly-ISPM#6 146ISPMD23 Assembly-ISPM#7 147ISPMD24 Assembly-ISPM#8 148ISPMD25 Assembly-ISPM#9 149 9.3.1 Device Manager (DM)  The presentation of theextended ISPM Device Manager (DM) object attributesand services are as indicated in Table 26.Table 26 DM Object Instance Attributes andServicesDevice Manager Object (DM)Class ID = 01, Instance ID = 01AttributesID Attribute Name CDM Tag128 Gain DmA33129 Filter Bandwidth DmA34130 Tool State DmA35131 Laser Status DmA36132 Flow Path DmA37133 Volume DmA38134 Volume Units DmA39135 Leak Status DmA40136 Time Stamp DmA41ServicesID Service Name CDM Tag33 Laser On DmS135 Laser Off DmS2
+
+</PdfSplitView>

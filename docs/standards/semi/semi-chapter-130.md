@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/130.pdf"
   pdfSize="N/A"
   title="G76-0299 - © SEMI 1999 7..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/130.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/130.pdf">
+
+---
+title: "G76-0299 - © SEMI 1999 7..."
+description: "SEMI标准文档"
+sidebar_label: "G76-0299 - © SEMI 1999 7..."
+sidebar_position: 130
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-130.pdf'
+  chapter: 130
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G80-0200 © SEMI 20007 single test pattern burst. The following nested loop
 &lt;!-- Page 50 --&gt;
 
 SEMI G80-0200 © SEMI 2000 8 of potentially masked results. The use of externalinstruments facilitates independent observation ofindividual parameters, but requires physical movementof a probe (unless automated with robotics), whichresults in less efficient data collection. ReferenceFigure 4.10.4.1 Drive Input Timing Error Test  Since thedriver input timing error cannot be distinguished fromcompare output timing error with Level 1 tests 9 anexternal instrument must be used to isolate the driverinput timing error from compare output timing error.An external instrument is also required to identify pinto pin skew beyond adjacent pins, since Level 1 onlyuses adjacent pin pairs for analysis. This requiresindependent measurements of representative driverinput timing conditions. The reference formeasurement of driver input timing error is a highbandwidth-digital sampling oscilloscope. Exhaustivetesting of all pins is impractical, so a reduced set ofrepresentative conditions is used. A non-binary pinsampling increment is used to ensure that traditionalbinary architectural boundaries are crossed. Thetolerance for the driver input timing error test is ±20ps10 due to the tester/instrument interaction using ageneric measurement method. The following nestedloop outline describes the test flow:for amplitude = 3Vfor pin = 1 to n by 3for test\_cycle = min, 2\*min, 3\*min, 10\*minfor format\_delay = 50% of test cyclefor format = NR, RTZ, RTO, SBCfor all format transitionsdetect midpoint of drive transition withoscilloscope (averaging = 8)error = (measured\_delay - pro-grammed\_format\_edge\_time -zero\_reference\_measurement)end transitionsend formatend format\_delayend test\_cycleend pinend amplitude 10.4.2 Compare Output Timing Error Test  Sincethe compare output timing error cannot be distinguishedfrom driver input timing error with Level 1 tests, anexternal reference must be used to isolate compareoutput timing error from driver input timing error. Thisrequires independent measurement of representative 9 See APPENDIX 2, Section A2-1.3 and Appendix 2, Examples for anexplanation.10 When recording measurements, data log all measurements as they are takenfrom the measurement equipment and show the associated equipment toleranceas a separate entity. compare timing conditions. Each tester driver is usedto provide a synchronous reference signal by shortingadjacent tester channels together on a performanceboard with minimum, equal length interconnections.The actual delay of the driver signal is verified with ahigh bandwidth-digital sampling oscilloscope. (SeeFigure 4.)NOTE 2: If a signal reflection is present at the midpoint of theobserved signal (due to a long distance from the performanceboard to the tester receiver), then the 25% point of thereference driver waveform should be used, instead of themidpoint - as specified below. 10.4.2.1 Exhaustive testing of all pins i s impractical,so a reduced set of representative conditions are used.A non-binary pin sampling increment is used to ensurethat traditional binary architectural boundaries arecrossed.10.4.2.2 The following nested loop out line describesthe test flow:for amplitude = 3Vfor pin = 1 to n by 3for test\_cycle = min, 2\*min, 3\*min, 10\*minfor format\_delay = 50% of test\_cyclefor format = NRfor edge = rising, fallingdetect midpoint of NR drive signal withoscilloscope (averaging = 8)detect midpoint of drive transition withcomparator (strobe compare mode)error = (measured\_delay - pro-grammed\_compare\_delay -zero\_reference\_measurement)end edgeend formatend format\_delayend test\_cycleend pinend amplitudeNOTE 3: Midpoint detection of the NR drive signal should bedone via a compare edge sweep technique. 10.4.3 Driver Transition Time Test  Since drivertransition time errors can be masked by compare timingerrors and comparator bandwidth limitations, anexternal instrument is required to measure drivertransition time errors. The reference used for drivertransition time measurements is a high bandwidth-digital sampling oscilloscope.10.4.3.1 The tolerance for driver transit ion timemeasurements is ± 150ps11 due to the tester/instrument 11 This 150ps tolerance has been extended beyond 20ps due to levelsensitivities associated with oscilloscopes and typical bandwidthvariations in oscilloscope probes rendering transition time measurementsless accurate.
+
+</PdfSplitView>

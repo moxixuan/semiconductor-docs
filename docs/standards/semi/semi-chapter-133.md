@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/133.pdf"
   pdfSize="N/A"
   title="C1-0705 - © SEMI 1978, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/133.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/133.pdf">
+
+---
+title: "C1-0705 - © SEMI 1978, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "C1-0705 - © SEMI 1978, 2005..."
+sidebar_position: 133
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-133.pdf'
+  chapter: 133
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C26-0699 E © SEMI 1983, 2000 HEXAMETHYLDISILAZANE4 Previous SEMI Reference
 &lt;!-- Page 50 --&gt;
 
 HYDROCHLORIC ACID SEMI C27-0301 © SEMI 1978, 20011 SEMI C27-0301SPECIFICATIONS AND GUIDELINES FOR HYDROCHLORIC ACID These specifications and guidelines were technically approved by the Global Process Chemicals Committeeand are the direct responsibility of the North American Process Chemicals Committee. Current editionapproved by the North American Regional Standards Committee by letter ballot dated October 17, 1999.Initially available at www.semi.org February 2001; to be published March 2001. This document replacesSEMI C1.7, C7.2, C8.2, C11.6, and C12.2 in their entirety. Originally published in 1978, 1990, 1992, 1996,and 1995 respectively; previously published June 2000. 1 Purpose1.1 The purpose of this document is to standardizerequirements for hydrochloric acid used in thesemiconductor industry and testing procedures tosupport those standards. Test methods have been shownto give statistically valid results. This document alsoprovides guidelines for grades of hydrochloric acid forwhich a need has been identified. In the case of theguidelines, the test methods may not have beenstatistically validated yet. 2 Scope2.1 The scope of this document is all grades ofhydrochloric acid used in the semiconductor industry.2.2 The VLSI grade purity level is typically requiredby semiconductor devices with geometries of 0.81.2microns.2.3 These specifications and guide lines do not purportto address safety issues, if any, associated with theiruse. It is the responsibility of the users of thesespecifications and guidelines to establish appropriatesafety and health practices and determine theapplicability of regulatory limitations prior to use. 3 Limitations3.1 None. 4 Referenced Standards4.1 SEMI StandardsSEMI C1  Specifications for Reagents4.2 ASTM Standards1 ASTM D5127  Standard Guide for Ultra Pure WaterUsed in the Electronics and Semiconductor IndustryNOTE 1: As listed or revised, all documents cited shall be thelatest publications of adopted standards. 1 American Society for Testing and Materials, 100 Barr HarborDrive, West Conshohocken, Pennsylvania 19428-2959, USA.Telephone: 610.832.9585, Fax: 610.832.9555. Website:www.astm.org 5 Terminology5.1 None. 6 Physical Property (for info rmation only)Density at 25°C 1.19 g/mL 7 Requirements7.1 The requirements for hydrochl oric acid for Grades1 and 2, VLSI Grade, and Tiers B and C are listed inTable 1. 8 Grade 1 ProceduresNOTE 2: Each laboratory is responsible for verifying thevalidity of the method within its own operation.8.1 Assay  Accurately weigh a g lass-stopperedconical flask containing about 30 mL of water. Deliverfrom a pipet about 3 mL of sample near the watersurface, stopper immediately, and reweigh. Dilute toabout 50 mL with water, add methyl orange indicatorsolution, and titrate with standardized 1 N sodiumhydroxide to a red-to-yellow color change. %Assay = mL  N of NaOH  3.646Weight of sample g( ) 8.2 Color  Dilute 2.0 mL of plat inum-cobalt stocksolution (APHA No. 500) to 100 mL with water.Compare this standard (APHA No. 10) with 100 mL ofsample in Nessler tubes. View vertically over a whitebackground. The sample must be no darker than thestandard.8.3 Extractable Organic Substanc es  Cool 110 mLof sample in an ice bath. Add 5 mL of 2,2,4-trimethylpentane and 100 mL of water to each of two250 mL separatory funnels. To a third funnel add 100mL of water and 5 mL of the standard (see below). Tothe first funnel add 100 mL of the cooled sample, and100 mL of water to each of the remaining two. Stopper,shake well, and allow the layers to separate. Inject 1.0L of each of the 2,2,4-trimethylpentane extracts into agas chromatograph with a flame ionization detector.The following conditions have been found to besatisfactory: Column  20% Carbowax 20 M on
+
+</PdfSplitView>

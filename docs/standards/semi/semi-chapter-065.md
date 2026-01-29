@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/065.pdf"
   pdfSize="N/A"
   title="E127-0705 - © SEMI 2003, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/065.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/065.pdf">
+
+---
+title: "E127-0705 - © SEMI 2003, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E127-0705 - © SEMI 2003, 2005..."
+sidebar_position: 65
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-065.pdf'
+  chapter: 65
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E127-0705 © SEMI 2003, 2005 50 RELATED INFORMATION 1USE CASES AND SCENARIO
 &lt;!-- Page 50 --&gt;
 
 SEMI E127-0705 © SEMI 2003, 200551 Comments Client Dir IMM CommentsObjSpec = object specifier for IMMObjType = DataRow Templatelist of ObjID =(MasterConvertedDataRowTemplate)list of AttrName =(DataInfoIDList) GetAttr.rsplist of ObjSetting = (DataInfoIDList,list of ObjIDs) for the set ofDataInformation Objects\_GetAttr.req All attributes of theData Informationobject are requestedfor all of theseobjects. ObjSpec = object specifier for IMMObjType = DataRow\_Templatelist of ObjID = same as contents ofDataInfoIDListlist of AttrName = (empty list) GetAttr.rsplist of ObjSetting = (((ObjID,LineWidth)(Assurance,assurance value),DataType, F16), :(ObjID, Data Type), (Units,micron)),....(...))) list of lists ofname/value pairsfor each supportedattribute for eachDataInformationObjID. R1-1.3 Table ServicesR1-1.3.1 A client wants to download a Raw Data Table from a previous run for analysis. Table R1-3 illustrates thisscenario.Table R1-3 Sending a TableComments Client Dir IMM Comments1 TableSend.req ObjSpec = object specifier for the IMM,TableType = TableIMM\_RawData,TableID = P19343445-Lot103102#5,TableCmd = Entire table;list of TableAttr = name/value attributepairs;list of ColHdr = list of names of columnheaders; list of values for 50 rows TableSend.rspTableAck = Success:
+
+</PdfSplitView>

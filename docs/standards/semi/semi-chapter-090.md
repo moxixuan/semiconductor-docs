@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/090.pdf"
   pdfSize="N/A"
   title="D12-95 - © SEMI 1995, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/090.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/090.pdf">
+
+---
+title: "D12-95 - © SEMI 1995, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "D12-95 - © SEMI 1995, 2003..."
+sidebar_position: 90
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-090.pdf'
+  chapter: 90
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI D20-1000 © SEMI 1993, 2000 2 Figure 1Image of Defects for FPD Mask NOTICE:
 &lt;!-- Page 50 --&gt;
 
 SEMI D21-1000 © SEMI 1992, 20001 SEMI D21-1000TERMINOLOGY FOR FLAT PANEL DISPLAY MASKS This terminology was technically approved by the Global Flat Panel Display Committee and is the directresponsibility of the Japanese Flat Panel Display Materials and Components Committee. Current editionapproved by the Japanese Regional Standards Committee on July 28, 2000. Initially available on SEMIOnLine September 2000; to be published October 2000. Originally published in 1992. 1 Purpose1.1 This document defines termino logy for FPDmasks. By this standard, it is intended that the conceptsof terms which should be used at the technicalconferences, business discussion, etc are clarified andthat standardization as to masks will be promoted. 2 Scope2.1 These terms apply to photoma sks that areprincipally used in fabricating flat panel display.2.2 These definitions do not purpo rt to address safetyissues, if any, associated with their use. It is theresponsibility of the user of these definitions toestablish appropriate safety and health practices anddetermine the applicability of regulatory limitationsprior to use. SEMI makes no warranties orrepresentations as to the suitability of the definitions setforth herein for any particular application. Thedetermination of the suitability of the definitions issolely the responsibility of the user. Users are cautionedto refer to manufacturers instructions, product labels,product data sheets, and other relevant literaturerespecting any materials mentioned herein. Thesedefinitions are subject to change without notice. 3 Referenced DocumentsNone. 4 Pattern Dimension4.1 Long Dimension Accuracy4.1.1 Long Dimension  The distan ces in the X and Ydirections between the outermost elements of a patternon the mask.4.1.1.1 Long Dimension Error  The difference (D)between the measured value (DM) and designed value(DD) of the long distance.D = DM - DD 4.1.2 Rectangularity  Rectangular ity of arraypattern. Generally, it is indicated as deviation betweenX coordinate 3 and 4 , when Y coordinate of 1 and 2 arecoincident. 3 21 4 Figure 1Rectangularity4.2 Overlay Accuracy  Deviatio n between two ormore masks in the direction of the long dimension X,Y. Generally, the two methods are as follows: Deviation is measured by comparing the twomasks. Deviation is measured by comparing measureddata of each long dimension of the two masks.4.3 Element Dimension Accuracy  Dimensionaccuracy of element (line or space). Figure 2Element Dimension Accuracy 4.4 Repeat Pitch Accuracy  Dev iation of measuredpitch length from designed value.4.5 Stitching Error  Joint accura cy of a patternwhen a pattern is composed in a mask (e.g., pattern
+
+</PdfSplitView>

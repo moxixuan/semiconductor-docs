@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/128.pdf"
   pdfSize="N/A"
   title="G69-0996 - © SEMI 1996, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/128.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/128.pdf">
+
+---
+title: "G69-0996 - © SEMI 1996, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "G69-0996 - © SEMI 1996, 2004..."
+sidebar_position: 128
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-128.pdf'
+  chapter: 128
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G72.2-0997 © SEMI 1997 12 \*5. Thermal enhancement of 6 x 6 solder balls. 
 &lt;!-- Page 50 --&gt;
 
 SEMI G73-0997 (Reapproved 1104)TEST METHOD FOR PULL STRENGTH FOR WIRE BONDING This test method was technically approved by the Global Assembly & Packaging Committee and is the directresponsibility of the Japanese Packaging Committee. Current edition approved by the Japanese RegionalStandards Committee on July 23, 2004. Initially available at www.semi.org September 2004; to be publishedNovember 2004. Originally published in 1997. 1 Purpose1.1 This standard defines the pull strength test methodfor wire bonding. 2 Scope2.1 This standard defines the destructive pull strengthtest method and its criterion for evaluating pull strengthof wire bonds connecting two points, connected byusing ball bonding technique.2.2 This standard can be applied to measure wireswhose diameter is less than 100 microns.NOTICE: This standard does not purport to addresssafety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establishappropriate safety and health practices and determinethe applicability of regulatory or other limitations priorto use. 3 Referenced Standards3.1 Military Standard 1 MIL-STD-883D  Test Methods and Procedures forMicroelectronicsNOTICE: Unless otherwise indicated, all documentscited shall be the latest published versions.4 Terminology4.1 Definitions4.1.1 hook  L or similar-shaped tool for hooking awire for pull test. 5 Apparatus5.1 Pull Tester or equivalent equipment5.1.1 Enough stroke to break a wire.5.1.2 Accuracy  Within ± 0.5% to the full scale ofload cell.5.1.3 Pull Speed  Constant speed.5.1.4 Hooks  Between 25100 microns in diameter. 1 United States Military Standards, Available through the NavalPublications and Forms Center, 5801 Tabor Avenue, Philadelphia,PA 19120-5099, USA. Telephone: 215.697.3321 NOTE 1: Hook must be made of material strong enough tobreak wire while testing but not with a small diameter so as tocut through the wire. Figure 1Hook Diameter 5.1.5 Calibration of equipment must be simple enoughso that users can calibrate it easily. Instructions forcalibration should be described in equipment manual. 6 Sampling6.1 Measure at least 30 points from at least 2 devices.From each side of the devices, select the same numberof wires randomly. 7 Calibration and Standardization7.1 Calibration Method7.1.1 Calibration of equipment should be done usingofficial and traceable weights.7.1.2 Display the weight and verify whether the resultsare within the equipments accuracy.7.1.3 Repeat the measurement using other weights toverify repeatability and linearity of the calibration.7.2 Interval of Calibration7.2.1 Calibrate at regular intervals at least once a year.7.2.2 Calibration must be able to be done just beforetesting when necessary or specifically instructed. 1 SEMI G73-0997 © SEMI 1997, 2004
+
+</PdfSplitView>

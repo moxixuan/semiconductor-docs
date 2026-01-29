@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/117.pdf"
   pdfSize="N/A"
   title="P23-0200 - © SEMI 1993, 200024..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/117.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/117.pdf">
+
+---
+title: "P23-0200 - © SEMI 1993, 200024..."
+description: "SEMI标准文档"
+sidebar_label: "P23-0200 - © SEMI 1993, 200024..."
+sidebar_position: 117
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-117.pdf'
+  chapter: 117
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P33-0998 © SEMI 19983 Table 1 Specifications for Edge Length, Squareness, 
 &lt;!-- Page 50 --&gt;
 
 SEMI P33-0998 © SEMI 1998 4 Table 2 Specifications for Beveled and Rounded Edge Dimensions T A A B B C CNominal Minimum Maximum Minimum Maximum Minimum Maximum Units9.00 0.20 0.60 0.20 0.60 2.00 3.00 mmNOTE: D is radius of curvature of concerns. Figure 3Beveled Edge Dimensions Figure 4Square Quality Area
+
+</PdfSplitView>

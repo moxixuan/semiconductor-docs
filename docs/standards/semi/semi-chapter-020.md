@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/020.pdf"
   pdfSize="N/A"
   title="E124-1103 - © SEMI 2003 6..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/020.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/020.pdf">
+
+---
+title: "E124-1103 - © SEMI 2003 6..."
+description: "SEMI标准文档"
+sidebar_label: "E124-1103 - © SEMI 2003 6..."
+sidebar_position: 20
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-020.pdf'
+  chapter: 20
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E135-0704 © SEMI 2004 4 shall continue until the RF output power has stabi
 &lt;!-- Page 50 --&gt;
 
 SEMI E135-0704 © SEMI 20045 Transient NOTE: These data are for conditions where the requested power went from 3% to 33% of the full power of the RF Generatorbeing tested.Figure 2Example of Digital Oscilloscope Data that Shows the Transient Response of the RF Output Power (LowerTrace) Due to a Change in Set Point Signal (Upper Trace)
+
+</PdfSplitView>

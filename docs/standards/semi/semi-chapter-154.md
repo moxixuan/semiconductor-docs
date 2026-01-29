@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/154.pdf"
   pdfSize="N/A"
   title="T6-0697 - © SEMI 1997, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/154.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/154.pdf">
+
+---
+title: "T6-0697 - © SEMI 1997, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "T6-0697 - © SEMI 1997, 2004..."
+sidebar_position: 154
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-154.pdf'
+  chapter: 154
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI T8-0698 E © SEMI 1998, 2004 8 NOTICE: SEMI makes no warranties or represen
 &lt;!-- Page 50 --&gt;
 
 SEMI T9-0200 © SEMI 1998, 20041 SEMI T9-0200 (Reapproved 1104)SPECIFICATION FOR MARKING OF METAL LEAD-FRAME STRIPSWITH A TWO-DIMENSIONAL DATA MATRIX CODE SYMBOL This specification was technically approved by the Global Traceability Committee and is the directresponsibility of the North American Traceability Committee. Current edition approved by the NorthAmerican Regional Standards Committee on July 11, 2004. Initially available at www.semi.org September2004; to be published November 2004. Originally published in 1998; previously published April 2000. 1 Purpose1.1 This specification provides a marking symbologythat can be used to mark metal lead-frame strips. 2 Scope2.1 This specification defines the geometric and spatialrelationships and content (including the error checkingand correcting code) of rectangular two-dimensional (2-D), machine-readable, binary Data Matrix symbologyfor front-surface marking of metal lead-frame strips(also called strips). It may be used in conjunctionwith the alphanumeric marking codes specified inSEMI M12 and SEMI M13 or the bar code specified inSEMI T1.2.2 This specification defines a 22-character defaultmessage that is included in all marks, and option for upto 50 additional characters, for a total of 72 messagecharacters. An optional shorter message contains 12 to16 message characters; the resulting square field isnarrower but taller than the 22-character rectangularone.2.3 This specification provides a suggested location forthe code symbol. It also provides guidelines forspecifying other code locations when the suggestedlocation is not suitable for an application.2.4 Although this specification does not specify themarking techniques that may be employed whencomplying with its requirements, it is assumed that thesymbol will be obtained by laser scribing individualdots.NOTE 1: A mark survivability experiment is beingconducted by the SEMI North American Traceabilitycommittee. A report is available from SEMI: requestLeadframe Mark Survivability Report dated February,1999.2.5 Data Matrix symbology is applicable to a broadrange of lead-frame materials including copper andAlloy 42 in both bare and plated conditions. The formatand algorithms of this code are based on two-dimensional symbology specified in AIM InternationalSymbology Specification - Data Matrix. 2.6 This specification supports EIA Package MarkingSpecification by enabling individual die tracking in themanufacturing steps between die attach and devicepackaging marking.NOTE 2: Marking of each die, while in wafer form, prior todicing, could also accomplish this end.NOTICE: This standard does not purport to addresssafety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establishappropriate safety and health practices and determinethe applicability of regulatory or other limitations priorto use. 3 Referenced Standards3.1 SEMI StandardsSEMI M12  Specification for Serial AlphanumericMarking of the Front Surface of WafersSEMI M13  Specification for Alphanumeric Markingof Silicon WafersSEMI T1  Specification for Back Surface Bar CodeMarking of Silicon Wafers3.2 AIM International Technical Specifications1 AIM International Symbology Specification  DataMatrix3.3 ANSI Standards 2 ANSI/FACT-1  Data Application Identifier StandardANSI X3.4  American Standard Code forInformation Interchange (ASCII)NOTE 3: This standard is equivalent to ISO 646, InformationProcessing - ISO 7-bit Coded Character Set for InformationExchange3. 1 AIM International, Inc., 125 Warrendale-Bayne Road , Warrendale,PA 15086, Phone: 1 724 934 4470, Fax: 1 724 934 4495,http://www.aimglobal.org/2 American National Standards Institute, Headquarters: 1819 LStreet, NW, Washington, DC 20036, USA. Telephone: 202.293.8020;Fax: 202.293.9287, New York Office: 11 West 42nd Street, NewYork, NY 10036, USA. Telephone: 212.642.4900; Fax:212.398.0023, Website: www.ansi.org
+
+</PdfSplitView>

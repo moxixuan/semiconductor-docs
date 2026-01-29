@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/094.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 094"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/094.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/094.pdf">
+
+---
+title: "SEMI Standards - Chapter 094"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 094"
+sidebar_position: 94
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-094.pdf'
+  chapter: 94
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C3.39-0304 © SEMI 1989, 20045 Figure 1Configuration for the Analysis of CF
 &lt;!-- Page 50 --&gt;
 
 SEMI C3.39-0304 © SEMI 1989, 2004 6 NOTICE: This standard does not purport to address safety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establish appropriate safety and health practices and determine theapplicability of regulatory or other limitations prior to use.SEMI makes no warranties or representations as to the suitability of the standards set forth herein for any particularapplication. The determination of the suitability of the standard is solely the responsibility of the user. Users arecautioned to refer to manufacturers instructions, product labels, product data sheets, and other relevant literaturerespecting any materials mentioned herein. These standards are subject to change without notice.The users attention is called to the possibility that compliance with this standard may require use of copyrightedmaterial or of an invention covered by patent rights. By publication of this standard, SEMI takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any item mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

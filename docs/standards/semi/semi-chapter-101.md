@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/101.pdf"
   pdfSize="N/A"
   title="M13-1103 - © SEMI 1988, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/101.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/101.pdf">
+
+---
+title: "M13-1103 - © SEMI 1988, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "M13-1103 - © SEMI 1988, 2003..."
+sidebar_position: 101
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-101.pdf'
+  chapter: 101
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M19-91 © SEMI 1991, 19961 SEMI M19-91SPECIFICATION FOR ELECTRICAL PROPERTI
 &lt;!-- Page 50 --&gt;
 
 SEMI M19-91 © SEMI 1991, 1996 2 scattering, and other related phenomena. Thus, based onproducer experience, the minimum value was set at3500 cm2/V-s.For n-type materials, the mobility ranges were selectedto represent compensation ratios in the range ofapproximately 0.0 to 0.7 for a given net electronconcentration. P-type material is not yet characterizedsufficiently to warrant a specification. 2 ScopeThis document specifies the characteristics and rangesof electrical properties for bulk GaAs crystals andsubstrate wafers. For high resistivity and n-typeconducting materials, the permissible growth conditionsor impurity species are stated; the electrical propertiescorresponding to the appropriate range(s) are noted.Due to the limited understanding, experience anddemand for p-type materials only guidelines areprovided in this specification at the present writing. 3 Conductivity TypeA. Semi-insulating, n-typeB. Conducting, n-typeC. Conducting, p-type 4 Dopant SpeciesA. 1. Undoped; Grade A12. Undoped; Grade A23. Chromium; Grade A4. Isoelectronic impurity; Grade A Dopantspecified by producer: In, Al, P, Sb5. Undoped; Grade BB. Dopant specified by user: Si, S, Se, Te, SnC. Dopant specified by user: Zn, Cd, Be, Mn, Fe, Co,MgNOTE See Sections 4 and 5 below for grade definition. 5 Resistivity at 300KA. Semi-insulating, n-type\*B. 1. ≥ 1  10 7 Ω-cm, n-type before and after anneal2. ≥ 5  10 6 Ω-cm becoming ≥ 1  10 7 Ω-cm afteranneal n-type before and after anneal3. ≥ 1  10 7 Ω-cm, n-type before anneal4. ≥ 1  10 7 Ω-cm, n-type before and after anneal 5. ≥ 5  10 6 Ω-cm, n-type before and after anneal1  10 7 Ω-cm = 1.6  10 8 Ω/; 5  10 6 Ω-cm = 8  10 7Ω/;\* 1  10 6 Ω-cm = 1.6  10 7 Ω/ based on 625 mwafer thicknessC. Conducting, n-typeD. 1. ≥ 0.0026 Ω-cm (at n  4  10 16 cm-3 ;  = 6000cm2/V-s2. ≤ 0.06 Ω-cm3. ≤ 0.042 Ω-cm4. ≤ 0.012 Ω-cm5. &lt; 5.2 10 -3 Ω-cm6. to be determined between user and producerNOTE Ranges overlap due to the interrelationship of , n,and .E. Ranges to be determined between the user andproducer. 6 Free Carrier or Impurity C oncentrationA. 1. Unspecified impurity concentration2. Unspecified impurity concentration3. Cr concentration range in atomic ppm specifiedby user4. Isoelectronic impurity concentration range inatomic ppm specified by producer5. Unspecified impurity concentration6. To be determined between user and producerB. 1. ≤ 4  10 16 cm-3 2. &gt; 4  10 16  1  10 17 cm-3 3. &gt; 1  10 7 5  10 17 cm-3 4. &gt; 5  10 7  3  10 18 cm-3 5. &gt; 3  10 18 cm-3 C. Carrier concentration agreed upon between user andproducer 7 Electron Mobility, 300K (d etermined by HallEffect)A. 1 ≥ 5000 cm2/V-s2. ≥ 6000 cm2/V-s
+
+</PdfSplitView>

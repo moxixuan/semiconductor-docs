@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/068.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 068"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/068.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/068.pdf">
+
+---
+title: "SEMI Chapter 068"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 068"
+sidebar_position: 68
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-068.pdf'
+  chapter: 68
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E132.1-0305 © SEMI 2005 26 8.2.11.2 WSDL Message(s)8.2.11.2.1 Three messag
 &lt;!-- Page 50 --&gt;
 
 SEMI E132.1-0305 © SEMI 200527 8.2.12.1.3 DeleteACLEntry Response8.2.12.1.3.1 The service response is mapped to the XML Schema element DeleteACLEntryResponse of typeDeleteACLEntryResponse. Table 36 shows how the output parameters are mapped to XML. The XML Schemadiagram for DeleteACLEntryResponse is shown in Figure 24. Errors for this operation are returned using the XMLSchema element Error of type GetACLErrorType. The error type is the same as that defined for theGetDefinedPrivileges operation described in 8.2.9.1.5.Table 36 Translation Table for DeleteACLEntry Output ParametersArgument Name Format XML Element or Attribute XML Name/Typeerror Structured data Element Error: DeleteACLEntryErrorType Figure 24DeleteACLEntryResponse XML Schema Element 8.2.12.2 WSDL Message(s)8.2.12.2.1 Three messages are defined for this operation corresponding to the E132Header, Request and Responsemessages. See the message definitions for E132HeaderMessage, DeleteACLEntryRequestMessage, andDeleteACLEntryResponseMessage in E132-SecurityAdmin-PortType.wsdl. Key information is shown forconvenience in Table 37.Table 37 DeleteACLEntry Messages Message Name SchemaElement NameE132HeaderMessage auth:E132HeaderDeleteACLEntryRequestMessage  auth: DeleteACLEntryRequestDeleteACLEntryResponseMessage  auth: DeleteACLEntryResponse 8.2.12.3 WSDL Operation8.2.12.3.1 See the portType operation definition for DeleteACLEntry in E132-SecurityAdmin-PortType.wsdl.Key information is shown for convenience in Table 38.Table 38 DeleteACLEntry PortType OperationInput Message Name AddACLEntryRequestMessageOutput Message Name AddACLEntryResponseMessage 8.2.12.4 WSDL Operation Binding8.2.12.4.1 See the operation binding for DeleteACLEntry in E132-SecurityAdmin-Binding.wsdl. Keyinformation is shown for convenience in Table 39.Table 39 DeleteACLEntry Operation BindingSOAPAction urn:semi-org:ws.E132-1.V0305.secAdmin-binding:DeleteACLEntryInput Headers (WSDL Message, Required) E132HeaderMessage, requiredOutput Headers (WSDL Message, Required) E132HeaderMessage, required
+
+</PdfSplitView>

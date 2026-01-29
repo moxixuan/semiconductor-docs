@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/024.pdf"
   pdfSize="N/A"
   title="E5-1104 - © SEMI 1982, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/024.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/024.pdf">
+
+---
+title: "E5-1104 - © SEMI 1982, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E5-1104 - © SEMI 1982, 2004..."
+sidebar_position: 24
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-024.pdf'
+  chapter: 24
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E5-1104 © SEMI 1982, 2004141 Stream,Function Name (Mnemonic) DirectionS7,F
 &lt;!-- Page 50 --&gt;
 
 SEMI E5-1104 © SEMI 1982, 2004 142 Stream,Function Name (Mnemonic) DirectionS7,F28 Process Program Verification Acknowledge (PVA) S,H-&gt;EDescriptionReply by host to equipment acknowledging reception of Process Program Verification Send (PVS).StructureHeader onlyExceptionNone Stream,Function Name (Mnemonic) DirectionS7,F29 Process Program Verification Inquire (PVI) S,H&lt;-E,replyDescriptionThis message allows a piece of equipment to ask a host for permission to send a multi-block PVS.StructureExceptionNone Stream,Function Name (Mnemonic) DirectionS7,F30 Process Program Verification Grant (PVG) S,H-&gt;EDescriptionReply by host to equipment providing response to Process Program Verification Inquire (PVI).StructureExceptionNone
+
+</PdfSplitView>

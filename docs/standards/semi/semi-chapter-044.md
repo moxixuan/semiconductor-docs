@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/044.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 044"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/044.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/044.pdf">
+
+---
+title: "SEMI Standards - Chapter 044"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 044"
+sidebar_position: 44
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-044.pdf'
+  chapter: 44
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.16-0705 © SEMI 2005 44 Table 89 Sensor-BI-TH-EP Object Instance Networ
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.16-0705 © SEMI 200545 Table 91 Assembly-EPD#1 Object Instance Network Services Assembly-EPD#1Profile ID = 180.94, Instance ID = 01ServiceRequest CodeService Name SDM Tag Request Parameters Result Parameters -- No Additional Services Defined 9.4.7 Assembly-EPD#2  The presentation of the Assembly #2 Endpoint (Assembly-EPD#2) object instanceattributes is as indicated in Table 92. The presentation of Assembly-EPD#2 object services are indicated in Table 93.Table 92 Assembly-EPD#2 Object Instance Network Variables Assembly-EPD#2Profile ID = 180.95, Instance ID = 01SequenceNumberName Storage Class SDM Tag Standard NV or CP Data Type 1 Data File A1 LonMark file transfer NVs and messaginginterface. Table 93 Assembly-EPD#2 Object Instance Network Services Assembly-EPD#2Profile ID = 180.95, Instance ID = 01ServiceRequest CodeService Name SDM Tag Request Parameters Result Parameters -- No Additional Services Defined 9.4.8 Assembly-EPD#3  The presentation of the Assembly #3 Endpoint (Assembly-EPD#3) object instanceattributes is as indicated in Table 94. The presentation of Assembly-EPD#3 object services are indicated in Table 95.Table 94 Assembly-EPD#3 Object Instance Network Variables Assembly-EPD#3Profile ID = 180.96, Instance ID = 01SequenceNumberName Storage Class SDM Tag Standard NV or CP Data Type 1 Data File A1 LonMark file transfer NVs and messaginginterface. Table 95 Assembly-EPD#3 Object Instance Network Services Assembly-EPD#3Profile ID = 180.96, Instance ID = 01Service Code Service Name SDM Tag Request Parameters Result Parameters-- No Additional Services Defined 9.4.9 Assembly-EPD#4  The presentation of the Assembly #4 Endpoint (Assembly-EPD#4) object instanceattributes is as indicated in Table 96. The presentation of Assembly-EPD#4 object services are indicated in Table 97.
+
+</PdfSplitView>

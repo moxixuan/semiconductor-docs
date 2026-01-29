@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/118.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 118"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/118.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/118.pdf">
+
+---
+title: "SEMI Chapter 118"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 118"
+sidebar_position: 118
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-118.pdf'
+  chapter: 118
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P39-0304E2 © SEMI 2004 2 NOTICE: Unless otherwise indicated, all documents
 &lt;!-- Page 50 --&gt;
 
 SEMI P39-0304E2 © SEMI 20043 6 OASIS Basics6.1 An OASIS file is a sequence of bytes divided into records. The length of a record is discernible from itsstructure and is not explicit (in contrast to GDSII Stream, where all record lengths are explicit).6.2 An OASIS file has the following overall syntax (using the modified BNF notation described in Section 36 onpage 27). Individual record types appear in bold uppercase and are described in more detail in following sections. \-&gt; START &#123; CBLOCK | PAD | PROPERTY | | &#125;\* END -&gt; &#123; CELLNAME | TEXTSTRING | LAYERNAME | PROPNAME | PROPSTRING | XNAME &#125; -&gt; &#123; CELL &#123; CBLOCK | PAD | PROPERTY | XYRELATIVE | XYABSOLUTE | &#125;\* &#125; -&gt; &#123; | PLACEMENT | TEXT | XELEMENT &#125; -&gt; &#123; RECTANGLE | POLYGON | PATH | TRAPEZOID | CTRAPEZOID | CIRCLE | XGEOMETRY &#125; 6.3 An OASIS file may represent a complete layout hierarchy, a portion of a layout hierarchy, or multiple layouthierarchies. These interpretations are not intrinsic to the format and are governed by application semantics only.Each OASIS file must be syntactically completeit must begin with and contain at least a STARTand END record.6.4 The element is a sequence of 13 ASCII characters: %SEMI-OASIS where represents the ASCII hexadecimal sequence 0D 0A. It is provided as a recognition signature to makeOASIS files easily identifiable to the UNIX file utility. (The intent of the carriage return and newline is to helpdetect corruption by FTP programs operating in non-binary mode.)6.5 EXCEPTION HANDLING  OASIS processors should treat any deviation from the syntax presented in thisdocument as a fatal error. OASIS readers are not required to implement syntax-check preprocessing in order to beconsidered compliant with this specification. The sequence in which exceptions are detected and reported is entirelyapplication-dependent. In addition, for access requests which do not require the interpretation of the entire file (suchas retrieval of a single cell or a subset of the cells within the file), this specification does not require OASIS readersto exhaustively check the validity of the entire file. 7 Data Constructs7.1 Bytes7.1.1 A byte is a fixed-length 8-bit value. Bit patterns for bytes are shown with the least significant bit (bit 0) on theright.7.2 Integers7.2.1 An unsigned-integer is an N-byte (N &gt; 0) integer value. The low-order byte appears first in the OASISformat. Integer byte length is variable and integers are represented as byte-continuations where the most significantbit of each byte except the last in the chain is a 1; the remaining seven bits in each byte are concatenated to form theactual integer value itself. There are no restrictions on integer byte length (and hence, magnitude). Figure 1Unsigned-Integer Representation
+
+</PdfSplitView>

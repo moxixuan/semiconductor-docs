@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/096.pdf"
   pdfSize="N/A"
   title="C14-95 - © SEMI 1995, 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/096.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/096.pdf">
+
+---
+title: "C14-95 - © SEMI 1995, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "C14-95 - © SEMI 1995, 2002..."
+sidebar_position: 96
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-096.pdf'
+  chapter: 96
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C57-0305 © SEMI 20055 NOTE 6: The sampling system and hygrometer should be
 &lt;!-- Page 50 --&gt;
 
 SEMI C58-0305 © SEMI 20051 SEMI C58-0305SPECIFICATIONS AND GUIDELINES FOR HYDROGEN This specification was technically approved by the Global Gases Committee and is the direct responsibility ofthe North American Gases Committee. Current edition approved by the North American Regional StandardsCommittee on December 10, 2004. Initially available at www.semi.org February 2005; to be publishedMarch 2005. 1 Purpose1.1 The purpose of this document is to provide a series of specifications for different grades of Hydrogen (H2) thatare used in the semiconductor industry. 2 Scope2.1 This document covers requirements for all grades of hydrogen used in the semiconductor industry.2.2 If analytical methods are not complete, the requirements are presented as a guideline.NOTICE: This standard does not purport to address safety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establish appropriate safety and health practices and determine theapplicability of regulatory or other limitations prior to use. 3 Description3.1 Hydrogen is a colorless gas. Its vapors are highly flammable, colorless, tasteless, and nontoxic. It is the lightestgas known. 4 Limitations4.1 None. 5 Referenced Standards5.1 SEMI StandardsSEMI C1  Specifications for ReagentsSEMI C3  Specifications for GasesNOTICE: Unless otherwise indicated, all documents cited shall be the latest published versions. 6 Terminology6.1 Terminology appropriate to this standard is defined in SEMI C3. 7 Requirements7.1 Purity and other requirements for the various grades of hydrogen are given in Table 1.
+
+</PdfSplitView>

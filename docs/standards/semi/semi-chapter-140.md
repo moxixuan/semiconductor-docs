@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/140.pdf"
   pdfSize="N/A"
   title="S8-0705 - © SEMI 1995, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/140.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/140.pdf">
+
+---
+title: "S8-0705 - © SEMI 1995, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "S8-0705 - © SEMI 1995, 2005..."
+sidebar_position: 140
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-140.pdf'
+  chapter: 140
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S12-0298 © SEMI 19989 RELATED INFORMATION 2EXAMPLE OF METHOD FOR ESTABLISH
 &lt;!-- Page 50 --&gt;
 
 SEMI S12-0298 © SEMI 1998 10 R2-1.3 The equations used in this method to calculate the oral and dermal Health-Based Cleanup Levels(HBCLs) are: HBCL oral = RfD  BWSA O  MF  CE  AFO  EFHBCL dermal = RfD  BW  EDSA d  CE  AFd  EFWhere :RfD = EPA RfD \[mg/kg  day\]BW = Body weight \[70 kg\]ED = Exposure duration \[0.5 days\]SA O = Surface area of exposed hands \[0.084 m2 \]SA d = Surface area of exposed hands, forearms, and head \[0.316 m 2 \]MF = Fraction of exposed dermal are contacted by mouth \[0.5/day\]CE = Skin contact efficiency \[0.5\]AFO = Gastro - intestinal absorption factor \[1.0\] (conservative)AFd = Dermal absorption factor \[0.01\]EF = Exposure factor \[12 hours/24 hours; 250 days/365 days; 40 years/70 years = 0.20\] Body weight and surface area factors are as suggested by EPAs Exposure Factors Handbook (1989). The fractionof skin contaminant that will be ingested orally (MF) is conservatively assumed to be 50%. This is approximatelyequivalent to a person ingesting all of the chemical that contacts the palms of the hands, but not the backs. Contactefficiency (CE) refers to the fraction of chemical that is removed from the contaminated surface through contactwith the skin. It is assumed that no more than 50% of the chemical contamination from equipment will rub off thesurface and adhere to the skin. Oral and dermal absorption factors are chosen as the most conservative numbers dueto limited available data.The exposure factor (EF) represents the fraction of time that a person could be expected to be in contact withchemical contamination from exposed surfaces. Exposure to surfaces is assumed to follow an occupational exposurescenario. This scenario includes the following conservative assumptions: A person works at the facility for 40 years of a 70-year lifetime; Exposure occurs 250 days per year (365 days); The skin is in contact with the chemicals for 12 hours per day. This assumes that the chemicals are not removedfrom the skin until washed, and the skin is washed only once per day.R2-1.4 The final HBCL for each chemical is then the lower of the levels for oral or dermal exposure routes.NOTE: These HBCLs represent levels that are considered to be health-protective for a person who contacts equipment withresidual contamination on a daily basis. These values are based on extremely conservative assumptions and are likely to providean overestimate of a health-protective clean-up level.
+
+</PdfSplitView>

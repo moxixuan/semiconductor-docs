@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/083.pdf"
   pdfSize="N/A"
   title="F59-0302 - © SEMI 2000, 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/083.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/083.pdf">
+
+---
+title: "F59-0302 - © SEMI 2000, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "F59-0302 - © SEMI 2000, 2002..."
+sidebar_position: 83
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-083.pdf'
+  chapter: 83
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F64-0701 © SEMI 200111 Figure 9Method C Flowchart DUTx units GasP P MFMFlo
 &lt;!-- Page 50 --&gt;
 
 SEMI F64-0701 © SEMI 2001 12 Time0 Flow 10X MFC Indicated Flow DUT Indicated Flow DUT Actual Flow Figure 11 PlotsTest Method D Table 1 Data Presentation for Method B (see Appendix 1) PCo = \_\_\_\_\_\_\_\_\_\_% of FS/psi @ 50% FS @ FS PCA (% of reading/psi)
+
+</PdfSplitView>

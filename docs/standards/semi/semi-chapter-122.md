@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/122.pdf"
   pdfSize="N/A"
   title="G5-87 - © SEMI 1980, 19963..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/122.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/122.pdf">
+
+---
+title: "G5-87 - © SEMI 1980, 19963..."
+description: "SEMI标准文档"
+sidebar_label: "G5-87 - © SEMI 1980, 19963..."
+sidebar_position: 122
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-122.pdf'
+  chapter: 122
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G19-0997 © SEMI 1980, 1997 4 tolerances for untaped frames and Table 2 tol
 &lt;!-- Page 50 --&gt;
 
 SEMI G19-0997 © SEMI 1980, 19975 Application Note: There is a question regarding the ability ofmaterial suppliers to meet this specification. Revision of thisspecification is under review. 6.10.2 Die Attach Pad  Functional side inside 0.508mm (0.020") border; nothing greater than 0.127 mm(0.005") diameter  50% metal thickness in depth; notmore than 2 pits.6.10.3 Die Attach Pad  Nonfunctio nal side; nothinggreater than .508 mm (0.020")  50% of metalthickness in depth; not more than 3 pits; cannot affectleadframe strength regardless of size (i.e., pit cannot belocated within 0.127 mm (0.50") of pad support barattachments).6.10.4 Internal leadframe areas where design width is0.635 mm (0.025") or more, must be less than 0.381mm (0.015")  50% metal thickness in depth; if designwidth is less than 0.635 mm (0.025"), area must be 50%of design width. Cannot affect leadframe strengthregardless of size.6.10.5 Major Lead Areas (outside da mbar) Nothing greater than 0.127 mm (0.005")  50% ofmetal thickness in depth; nothing greater than 0.254mm (0.010") on shoulder above taper. Cannot affectleadframe strength regardless of size.6.10.6 Dambar  Pit cannot extend a ll the way acrossthe bar.6.11 Mold Locating Holes  Conv entional molddamage design dictates that gating is opposite pin #1;therefore, the mold locating holes must be in the railadjacent to pin #1. In order to minimize gate flashingbetween the mold and the rail edge, a specific toleranceof ± 0.051 mm (0.002") is required from the centerlineof the mold hole to the opposite rail edge.6.12 Strip Length  Strip length cu t off shall bewithin 0.005", lead tip to lead tip centerline (excludingrails). The rail cut off length shall be within + 0.635mm (0.025") unless otherwise specified by the user. 7 SamplingSampling will be determined between supplier andpurchaser. 8 Packaging and Marking8.1 Packaging  Leadframes mus t be packaged incontainers designed and constructed to prevent damageand/or contamination. Specific protection must beprovided against crushing, exposure to moisture, andmixture gases.8.2 Marking  The outer containe rs shall be clearlymarked to identify the user stock number, user purchaseorder number, drawing number, supplier lot number, and reel numbers within the carton. Additionalinformation required should be specified by the user. NOTICE: These standards do not purport to addresssafety issues, if any, associated with their use. It is theresponsibility of the user of these standards to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use.SEMI makes no warranties or representations as to thesuitability of the standards set forth herein for anyparticular application. The determination of thesuitability of the standard is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materialsmentioned herein. These standards are subject tochange without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

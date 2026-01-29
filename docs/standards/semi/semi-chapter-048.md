@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/048.pdf"
   pdfSize="N/A"
   title="E82-0705 - © SEMI 1999, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/048.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/048.pdf">
+
+---
+title: "E82-0705 - © SEMI 1999, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E82-0705 - © SEMI 1999, 2005..."
+sidebar_position: 48
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-048.pdf'
+  chapter: 48
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E84-0305 © SEMI 1999, 200543 No. Description of Passive Equipment HO\_AVBL
 &lt;!-- Page 50 --&gt;
 
 SEMI E84-0305 © SEMI 1999, 2005 44 Table A1-8 Example Active Equipment Error MessagesNo. Timer Name Equipment Error Message1 TA1 TA1 Timeout  L\_REQ/U\_REQ signal did not turn ON within specified time. (TA1 = xxx)2 TA2 TA2 Timeout  READY signal did not turn ON within specified time. (TA2 = xxx)3 TA3 TA3 Timeout  READY signal did not turn OFF within specified time. (TA3 = xxx)#1 xxx refers to the time in seconds that the specific timer was set to. Table A1-9 Example Passive Equipment Error MessagesNo. Timer Name Equipment Error Message1 TP1 TP1 Timeout  TR\_REQ signal did not turn ON within specified time. (TP1 = xxx)2 TP2 TP2 Timeout  BUSY signal did not turn ON within specified time. (TP2 = xxx)3 TP3 TP3 Timeout  Carrier was not detected/removed within specified time. (TP3 = xxx)4 TP4 TP4 Timeout  BUSY signal did not turn OFF within specified time. (TP4 = xxx)5 TP5 TP5 Timeout  VALID signal did not turn OFF within specified time. (TP5 = xxx)6 TP6 TP6 Timeout  VALID signal did not turn ON within specified time. (TP6 = xxx)#1 xxx refers to the time in seconds that the specific timer was set to. Table A1-10 Example Delay Timer Error MessagesNo. Timer Name Equipment Error Message1 TD0 TD0 Timeout  VALID signal did not turn ON within specified time. (TD0 = xxx)2 TD1 TD1 Timeout  VALID signal did not turn ON within specified time. (TD1 = xxx)#1 xxx refers to the time in seconds that the specific timer was set to. NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for anyparticular application. The determination of the suitability of the standard is solely the responsibility of the user.Users are cautioned to refer to manufacturers instructions, product labels, product data sheets, and other relevantliterature respecting any materials mentioned herein. These standards are subject to change without notice.The users attention is called to the possibility that some implementations of this standard may involve use ofinventions covered by U.S. patents 4,306,292 and other patents issued or pending, held by Texas InstrumentsIncorporated. By publication of this standard, SEMI takes no position respecting either the applicability or thevalidity of these or other patent rights asserted in connection with any item mentioned in this standard. Users of thisstandard are expressly advised that determination of any such patent rights, and the risk of infringement of suchrights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

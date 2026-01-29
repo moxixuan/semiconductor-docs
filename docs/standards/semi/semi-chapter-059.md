@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/059.pdf"
   pdfSize="N/A"
   title="E109-0305 - © SEMI 2001, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/059.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/059.pdf">
+
+---
+title: "E109-0305 - © SEMI 2001, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E109-0305 - © SEMI 2001, 2005..."
+sidebar_position: 59
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-059.pdf'
+  chapter: 59
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E109-0305 © SEMI 2001, 200559 Variable Name Description Type Access Commen
 &lt;!-- Page 50 --&gt;
 
 SEMI E109-0305 © SEMI 2001, 2005 60 Variable Name Description Type Access CommentPortAssociationState i The association state of the ithload port.Enumerated:ASSOCIATED,NOT ASSOCIATED RO PortAssociationState-ListThe current association statefor all load ports.A list of n items1. PortAssociationState 1..n. PortAssociationState n RO This can be used to re-synchronize the host. PortID ID of a load port. Positive integer ROPortID I ID of the load port where thepod transfer is taking place.One PortID exists for eachload port. Positive integer RO PortStateInfo The PortAssociationStatecombined with thePortTransferState. List of 2 itemsPortAssociationStatePortTransferState RO A combination of both portstates. PortStateInfoi The PortAssociationStatecombined with thePortTransferState for the ithload port. List of 2 itemsPortAssociationState iPortTransferState i RO A combination of both portstates. PortStateInfoList List of PortStateInfo for allload ports.List of n items1. PortStateInfo1..n PortStateInfon RO A list of all the port states forall the ports. PortTransferState The current transfer state of aload port.Enumerated:OUT OF SERVICE,TRANSFER BLOCKED,READY TO LOAD, READYTO UNLOAD RO Super states are not included,only sub states. PortTransferState i The current transfer state ofthe i th load port.Enumerated:OUT OF SERVICE,TRANSFER BLOCKED,READY TO LOAD, READYTO UNLOAD RO Super states are not included,only sub states. PortTransferStateList The current Load PortTransfer State for all loadports. A list of n items1. PortTransferState 1..n. PortTransferState n RO This can be used to re-synchronize the host. Reason The reason for transition 15,SLOT MAP NOT READ toWAITING FOR HOST. Enumerated:VERIFICATION NEEDED,VERIFICATION BYEQUIPMENTUNSUCCESSFUL,READ FAIL,IMPROPER WAFERPOSITION RO Information to aid host indeciding appropriate action.
+
+</PdfSplitView>

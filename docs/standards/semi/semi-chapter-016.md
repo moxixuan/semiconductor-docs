@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/016.pdf"
   pdfSize="N/A"
   title="E100-1104 - © SEMI 2000, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/016.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/016.pdf">
+
+---
+title: "E100-1104 - © SEMI 2000, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E100-1104 - © SEMI 2000, 2003..."
+sidebar_position: 16
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-016.pdf'
+  chapter: 16
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E110-1102 © SEMI 2001, 20021 SEMI E110-1102GUIDELINE FOR INDICATOR PLACEME
 &lt;!-- Page 50 --&gt;
 
 SEMI E110-1102 © SEMI 2001, 2002 2 4.1.4 horizontal datum plane  a horizontal plane from which projects the kinematic-coupling pins on which thecarrier sits. On tool load ports, it is at the load height specified in SEMI E15 and might not be physically realized asa surface (as defined in SEMI E57).4.1.5 indicator placement zone  a zone in which load port status indicators are placed.4.1.6 internal buffer equipment  equipment that uses an internal buffer (as defined in SEMI E87).4.1.7 load port operation interface  any indicator (e.g. lamp, LED) to visualize status information of a load portto an operator and/or any switch to be used for manual handoff operation.4.1.8 load port operation switch  any switch to be used for manual handoff operation.4.1.9 load port status indicator  any indicator (e.g. lamp, LED) to visualize status information of a load port to anoperator.4.1.10 switch placement volume  a volume in which load port operation switch is placed. 5 Requirements5.1 Indicator placement zone5.1.1 Indicator Placement Zone for a Load Port per SEMI E15.1 Option 1  It is recommended that load portstatus indicators should be positioned within a zone given by x400, z400, and z401. The exact placement of themwithin this zone is at the direction of the load port supplier. They may be located at or behind (away from theoperator) the equipment boundary. Clearances required by SEMI E15.1 cannot be violated.NOTE 2: The indicator placement zone is not an exclusion zone. No assumption can be made that this zone needs to be keptempty by the load port supplier. Furthermore, no assumption can be made that a load port must have a physical surfacerepresenting the indicator placement zone. x400=237.5 z401=486z400=340 Horizontal Datum Plane CL Bilateral Datum PlaneIndicator placement zone Approximate FOUP envelope Figure 1Indicator Placement Zone for a Load Port Per SEMI E15.1 Option 1
+
+</PdfSplitView>

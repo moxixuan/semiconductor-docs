@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/040.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 040"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/040.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/040.pdf">
+
+---
+title: "SEMI Standards - Chapter 040"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 040"
+sidebar_position: 40
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-040.pdf'
+  chapter: 40
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.6-0997 © SEMI 1997, 20045 some other device, or retrieved by the devic
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.6-0997 © SEMI 1997, 2004 6 transceivers. This document also providesspecifications of wiring types and interconnectiontopologies to be used for guaranteed deviceinteroperability. Note that the LonTalk Protocolsupports heterogeneous networks. Devices withdissimilar transceivers may be interconnected andcommunicate via routers or repeaters. Similarly, routersand repeaters may be used to extend a physical channelbeyond the device count, wire length, or other physicallimitations imposed by the chosen transceiver.Multiple physical layer protocols and data encodingmethods are used in the LonTalk Protocol. DifferentialManchester encoding is used on twisted pair physicallayers.6.2 Link Layer  The device shall comply with theLonTalk protocol link layer specification. This layerincludes the media access control sublayer. For anumber of reasons, including simplicity andcompatibility with the multicast protocol, the LonTalkprotocol supports a simple connectionless service. Itsfunctions are limited to framing, frame encoding, anderror detection, with no error recovery byretransmission.6.2.1 Media Access Control Sublayer  In order todeal with a variety of media in the potential absence ofcollision detection, the MAC (Media Access Control)sublayer employs a collision avoidance algorithm calledPredictive p-persistent CSMA (Carrier Sense, MultipleAccess).6.3 Network Layer  The device shall comply with theLonTalk protocol network layer specification. Thislayer handles packet delivery within a single domain,with no provisions for inter-domain communication.The network service is connection-less,unacknowledged, and supports neither segmentationnor re-assembly of messages. The routing algorithmsemployed by the network layer to learn the topologyassume a tree-like network topology; routers withconfigured tables may operate on topologies withphysical loops, as long as the communication paths arelogically tree-like. In this configuration, a packet maynever appear more than once at the router on the side onwhich the packet originated. The unicast routingalgorithm uses learning for minimal overhead and noadditional routing traffic. Use of configured routingtables is supported for both unicast and multicastaddresses.6.4 Transport Layer  The device shall comply withthe LonTalk protocol transport layer specification. Theheart of the protocol hierarchy is the Transport andSession layers. A common Transaction Controlsublayer handles transaction ordering and duplicatedetection for both layers. The transport layer is connectionless and provides reliable message deliveryto both single and multiple destinations. Authenticationof the message senders identity is provided as anoptional feature. The authentication server requires onlythe Transaction Control sublayer to accomplish itsfunction. The transport and session layer messages maybe authenticated using all of the LonTalk addressingmodes other than broadcast. The transport layersupports end-to-end acknowledged service and anunacknowledged/ repeated service.6.5 Session Layer  The device shall comply with theLonTalk protocol session layer specification. This layerimplements a simple Request-Response mechanism foraccess to remote servers. This mechanism provides aplatform upon which application-specific remoteprocedure calls can be built. The LonTalk networkmanagement protocol, for example, is dependent on theRequest-Response mechanism in the Session layer,even though it accesses the protocol via the applicationlayer interface.6.6 Presentation Layer  The device shall complywith the LonTalk protocol presentation layerspecification. The Presentation layer and theApplication layer taken together form the foundation ofinteroperability for LonTalk devices. The applicationlayer provides all the usual services for sending andreceiving messages, but it also contains the concept ofnetwork variables. The presentation layer providesinformation in the Application Protocol Data Unit(APDU) header for how the APDU is to be interpretedfor network variable updates. This application-independent interpretation of the data allows data to beshared among devices without prior arrangement. Withagreement on which network variables are to be usedfor sensors, actuators, etc., intelligent components fromdifferent manufacturers may work together withoutprior knowledge of each other's characteristics.6.7 Application Layer  At the application layer,interoperability between LonWorks-based devices isfacilitated through the use of LonMark objects andStandard Network Variable Types (SNVTs). LonMarkobjects build upon network variables and provide aconcise application layer interface that incorporatessemantic meaning for specific device functions.LonMark objects not only define which SNVTs to useto convey data, but also provide semantic meaningabout the information being communicated. To aid inthe specification of specific device models with well-defined functional behavior, collections of objects withdefined relations can be aggregated and referenced asfunctional profiles. The Application Layer also includesthe LonTalk file transfer protocol, which providessegmentation and reassembly of arbitrary length files ofdata. This service may be used to get and set object
+
+</PdfSplitView>

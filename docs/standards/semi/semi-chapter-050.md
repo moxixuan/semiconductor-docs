@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/050.pdf"
   pdfSize="N/A"
   title="E87-0705 - © SEMI 1999, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/050.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/050.pdf">
+
+---
+title: "E87-0705 - © SEMI 1999, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E87-0705 - © SEMI 1999, 2005..."
+sidebar_position: 50
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-050.pdf'
+  chapter: 50
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E87.1-0702 © SEMI 2000, 20023 Parameter Name Range SECS-II Data Item..n. L
 &lt;!-- Page 50 --&gt;
 
 SEMI E87.1-0702 © SEMI 2000, 2002 4 6 Variable Data Item Mapping6.1 This section shows the specific SECS-II data classes, and formats needed for SECS-II implementations ofSEMI E87 variable data items.Table 4 Variable Data Item Mapping Table Variable Name Class FormatAccessMode DVVAL 51 (U1)Enumerated:0 = MANUAL1 = AUTOAccessMode i SV 51 (U1)Enumerated:0 = MANUAL1 = AUTOAvailPartitionCapacity DVVAL 51AvailPartitionCapacity i SV 51BufferCapacityList SV L,n1. ..n. BufferPartitionInfo DVVAL L,41. 2\. 3\. 4\. BufferPartitionInfo i SV L,41. 2\. 3\. 4\. CarrierAccessingStatus DVVAL 51 (U1)Enumerated as:0 = NOT ACCESSED1 = IN ACCESS2 = CARRIER COMPLETE3 = CARRIER STOPPEDCarrierID DVVAL A\[1-80\] (Conforms to restrictions of ObjID as specified in SEMI E39.1,Section 6.)CarrierIDi SV A\[1-80\] (Conforms to restrictions of ObjID as specified in SEMI E39.1,Section 6.)CarrierIDStatus DVVAL 51 (U1)Enumerated as:0 = ID NOT READ1 = \[ID\] WAITING FOR HOST2 = ID VERIFICATION OK3 = ID VERIFICATION FAILED
+
+</PdfSplitView>

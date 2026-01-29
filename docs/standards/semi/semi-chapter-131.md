@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/131.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 131"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/131.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/131.pdf">
+
+---
+title: "SEMI Chapter 131"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 131"
+sidebar_position: 131
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-131.pdf'
+  chapter: 131
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G83-0301 © SEMI 20015 Figure A1-2AIM USS-128
 &lt;!-- Page 50 --&gt;
 
 SEMI G83-0301 © SEMI 2001 6 A1-3 Example of Data ContentsA1-3.1 The items shown in Figures A1-3 and A1-4 aredata contents of bar code that comply with thisspecification. ManufacturingDate Sub-Lot No. ProductRecognitionNo. Hexadecimal:#109 Lot No. November 20, 1999 Z DR 1 1 N 9 B K 6 T X 0 2 4 Figure A1-3Example of Data Contents ManufacturingDate Sub-Lot No. ProductRecognitionNo. unused Lot No. November, 1999 Z -R 1 1 N 9 B - - T X 0 2 4 ( Date unused ) Figure A1-4Example of Data Contents NOTICE: SEMI makes no warranties or representa-tions as to the suitability of the standard set forth hereinfor any particular application. The determination of thesuitability of the standard is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materials orequipment mentioned herein. These standards aresubject to change without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

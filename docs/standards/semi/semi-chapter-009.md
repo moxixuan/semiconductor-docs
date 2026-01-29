@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/009.pdf"
   pdfSize="N/A"
   title="E52-0703 - © SEMI 1995, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/009.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/009.pdf">
+
+---
+title: "E52-0703 - © SEMI 1995, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E52-0703 - © SEMI 1995, 2003..."
+sidebar_position: 9
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-009.pdf'
+  chapter: 9
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E64-0600 © SEMI 1997, 2005 4 RELATED INFORMATION 1APPLICATION NOTES NOTICE
 &lt;!-- Page 50 --&gt;
 
 SEMI E64-0600 © SEMI 1997, 20055 Figure R1-1Front Elevation View R1-10 Note that an installed docking interface may cause a potential trip hazard as shown in Figure R1-2.Equipment suppliers and/or docking interface suppliers may be required to eliminate the potential of this hazard(e.g., by adding covers or shields). Figure R1-2Side Elevation View
+
+</PdfSplitView>

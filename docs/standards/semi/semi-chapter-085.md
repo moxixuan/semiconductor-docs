@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/085.pdf"
   pdfSize="N/A"
   title="F73-1102 - © SEMI 2002 3..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/085.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/085.pdf">
+
+---
+title: "F73-1102 - © SEMI 2002 3..."
+description: "SEMI标准文档"
+sidebar_label: "F73-1102 - © SEMI 2002 3..."
+sidebar_position: 85
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-085.pdf'
+  chapter: 85
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F78-0304 © SEMI 2003, 2004 2 A450 (Section 25)  General Requirements forCa
 &lt;!-- Page 50 --&gt;
 
 SEMI F78-0304 © SEMI 2003, 20043 5.1.23 encroachment  non-standard term for IDconvexity.5.1.24 examiner  a person who performsexamination of a particular object, or evaluates anoperation, for compliance to a given standard. Theexaminer performs quality control for the manufacturer,fabricator, or erector.5.1.25 fluid (1)  liquid or gas.5.1.26 gas (1)  the fluid form of a substance in whichit can expand indefinitely and completely fill itscontainer; form that is neither liquid or solid.5.1.27 gas tungsten arc welding (GTAW) (3)  an arcwelding process that uses an arc between a tungstenelectrode (nonconsumable) and the weld pool. Theprocess is used with a shielding gas.5.1.28 halo  non-standard term for discolorationresulting from welding procedure.5.1.29 haze  non-standard term for discolorationresulting from welding procedure.5.1.30 heat-affected zone (HAZ) (2)  the portion ofthe base metal whose mechanical properties ormicrostructure have been altered by the heat ofwelding.5.1.31 heat tint/color  non-standard term fordiscoloration resulting from welding procedure.5.1.32 inclusion (2)  entrapped foreign solidmaterial, such as slag, flux, tungsten, or oxide.5.1.33 inert gas  a gas that normally does notcombine chemically with materials. A protectiveatmosphere.5.1.34 inspector  a person who verifies that allrequired examinations and testing have been completed,and who inspects the assembly to the extent necessaryto be satisfied that it conforms to all applicableexamination requirements. The inspector performsquality assurance for the owner. The inspector isdesignated by the owner and shall be the owner, anemployee of the owner, an employee of an engineeringor scientific organization, or of a recognized insuranceor inspection company acting as the owners agent.5.1.35 lathe welding  automatic or machine weldingof tubes or pipes in which the electrode is stationaryand the weld joint rotates. Lathe welding as definedhere is a fusion process without the addition of filler.5.1.36 liquid (1)  having its molecules moving freelywith respect to each other so as to flow readily, unlike asolid, but because of cohesive forces not expandinginfinitely like a gas. 5.1.37 liquid cylinder  often referred to as a dewar,an insulated and pressure controlled metal cylinder usedto store fluids in their liquid form.5.1.38 meandering (3)  of or pertaining to a weldbead that deviates from side to side across the weldjoint rather than tracking the joint precisely.5.1.39 orbital welding (3)  automatic or machinewelding of tubes or pipes in-place with the electroderotating (or orbiting) around the work. Orbital welding,as it applies to this standard, is a fusion process withoutthe addition of filler.5.1.40 oxidation (3)  the formation of an oxide layeron a metal surface. When excessive oxidation occurs asa result of welding, it is visible as discoloration.5.1.41 oxide island  non-standard term for slag.5.1.42 pressure cylinder  a metal cylinder used tostore gases under pressure.5.1.43 profile defect  any defect or discontinuity thatreduces the wall thickness below that of the parentmetal.5.1.44 pulsed gas tungsten arc welding  a gastungsten arc welding process variation in which thecurrent is varied in regular intervals.5.1.45 purge  the application of an inert gas (or gasmixture) to the OD or ID surface of the weld joint todisplace non-inert atmospheric gases. A block purge isa non-flowing purge with positive pressure.5.1.46 purge gas  an inert gas (or gas mixture) usedto displace the ambient atmosphere from the inside (ID)of the weld joint.5.1.47 root  non-standard term for root surface.5.1.48 root surface (2)  the exposed surface of aweld opposite the side from which the welding wasdone.5.1.49 rotation delay  time delay between when thearc is initiated and the rotor begins to turn.5.1.50 shield gas  inert gas (or gas mixture) thatprotects the electrode and molten puddle fromatmosphere and provides the required arccharacteristics.5.1.51 slag (2)  a non-metallic product resultingfrom the mutual dissolution of non-metallic impuritiesin some welding processes.5.1.52 tack weld (2)  a weld made to hold the partsof a weldment in proper alignment until the final weldsare made.5.1.53 tail-out (2)  non-standard term for automaticarc welding downslope.
+
+</PdfSplitView>

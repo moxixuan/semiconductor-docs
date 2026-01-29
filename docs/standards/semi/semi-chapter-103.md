@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/103.pdf"
   pdfSize="N/A"
   title="M24-1103 - © SEMI 1994, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/103.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/103.pdf">
+
+---
+title: "M24-1103 - © SEMI 1994, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "M24-1103 - © SEMI 1994, 2003..."
+sidebar_position: 103
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-103.pdf'
+  chapter: 103
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M31-0705 © SEMI 1998, 20059 5.9.3 Wafer Pick-Up Volume  If a wafer is plac
 &lt;!-- Page 50 --&gt;
 
 SEMI M31-0705 © SEMI 1998, 2005 10 Value SpecifiedSymbolUsedFigureNumberManual Door Auto-door Datum Measured from Boundary or Feature Measured to z8 3, 4, 7 44 mm (1.73 in) horizontal datum plane bottom nominal wafer seating planez10 5, 6 0 ± 0.5 mm(0.00 ± 0.02 in.)each nominal wafer seatingplaneentire bottom of the wafer z11 5, 6 See Table 1. each nominal wafer seatingplaneencroachment of FOSB side domains onclearance above the waferz12 3, 4, 5, 6, 7 See Table 1. each nominal wafer seatingplaneadjacent nominal wafer seating planes z15 3, 4, 5 13 mm (0.51 in.) minimum top nominal wafer seatingplanebottom of FOSB top domain z23 5 3 mm (0.12 in.) maximum each nominal wafer seatingplanebottom of wafer extraction volume z29 6 0.7 mm (0.028 in.) maximum each nominal wafer seatingplaneencroachment of FOSB side domainsunder wafer extraction volume#1 These dimensions are for optional features. 5.11 External Dimensions  Figures 8 through 12 respectively show the side view, rear view, top view, roboticflange, and bottom view for the front-opening FOSB. Table 3 defines all of the dimensions. If an identification tag isused, it must be located at the bottom rear centered on the bilateral datum plane and must be contained within themaximum outer dimensions of the FOSB.5.12 Human Handles  All handles for use by humans must either be contained within the maximum outerdimensions of the FOSB, be detached when not in use, or be retractable into the maximum outer dimensions whennot in use. Although such handles may extend past x53, they must still be contained within x50, y40, and r67.Handles for use by humans (if present) must follow SEMI S8, and they must require the use of both hands (eachusing a full wrap-around grip, given the minimum clearance requirement in SEMI E15.1). Automation handlingfeatures shall not be considered dual purpose unless they are designed to meet SEMI S8 guidelines.5.13 Automation Handling  On the top of the FOSB, there is an optional robotic handling flange for manipulatingthe FOSB as illustrated in Figure 12. On the bottom of the FOSB, there are optional rails for use with rollerconveyors or forklifts. Although they are only required to extend y58 to the left and right, it is recommended thatthey be as long as possible. Beyond y58, only the lower bound on z43 apply. These optional conveyor rails (definedby x56, x57, and z43) are located on the left and right bottom edges of the front-opening shipping box. Theconveyor rails also have vertical cylindrical pin holes for fork lift centering (defined by d65).
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/072.pdf"
   pdfSize="N/A"
   title="E138-0305 - © SEMI 2005 1..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/072.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/072.pdf">
+
+---
+title: "E138-0305 - © SEMI 2005 1..."
+description: "SEMI标准文档"
+sidebar_label: "E138-0305 - © SEMI 2005 1..."
+sidebar_position: 72
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-072.pdf'
+  chapter: 72
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E139-0705 © SEMI 200523 8.4.2.2.2 The Service Descriptions table has six c
 &lt;!-- Page 50 --&gt;
 
 SEMI E139-0705 © SEMI 2005 24 Parameter Name Form Description Where Used delRspStatError Status response for the deletePDE() service. Thefollowing responses are allowed:OK  Successfully deleted specified PDE.PDEnotFound  PDE was not found on theservice provider.PDElocked  The PDE is present, but cannot bedeleted at this time. For example, the PDE mightbe executing or reserved for a job. The PDE wasnot deleted.Other  A problem occurred that is notdescribed by the other enumerated values. ThePDE was not deleted. delRspInfo parameter dirRspStat Error Status response for the getPDEdirectory() service.The following responses are allowed:OK  Successfully returned requested data.BadFilter  One or more of the PDE filterspecified were not properly specified.BadAttribute  One or more of the PDEattributes requested to be returned do not exist. getPDEdirectory() getRspInfo list of (uid, getRspStat) Contains a list of the status for each specified PDE(as identified by the uid). getPDE(), getPDEheader() getRspStat Error Status response for the getPDE() service. Thefollowing responses are allowed:OK  Successfully returned the PDE (orheader).PDEnotFound  The PDE was not availablefrom the service provider.PDElocked  The PDE exists, but cannot betransferred now (for example, it may be in use).Other  A problem occurred that is notdescribed by the other enumerated values. getRspInfo parameter inputMap list of (pdeRef,resolution) Client provided list of PDE references andcorresponding resolutions. Each inputMap entry isa pair of values: a reference to a PDE and the uidthat is the resolution for that reference. When thepdeRef is a uid, the resolution shall always containthe same value. This list may contain zero entries. resolvePDE(), verifyPDE() operator Enumeration Choice of available operators that relate theattribute value to the specified value. Thefollowing values are allowed:EQ  Equals (numeric or string)GT  Greater Than (numeric)LT  Less Than (numeric)GE  Greater than or equal to (numeric)LE  Less than or equal to (numeric)Like  Contains the substring (string)NotEQ  Not Equal (numeric or string)NotLike  Does not contain the substring(string) PDEFilter parameter outputMap list of (pdeRef,resolution) Service provider generated list of PDE referencesand their resolutions. Each outputMap entry is apair of values: a reference to a PDE and the uidthat is the resolution for that reference. When thepdeRef is a uid, the resolution shall always containthe same value. resolvePDE()
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/141.pdf"
   pdfSize="N/A"
   title="S12-0298 - © SEMI 199811 NOTICE:..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/141.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/141.pdf">
+
+---
+title: "S12-0298 - © SEMI 199811 NOTICE:..."
+description: "SEMI标准文档"
+sidebar_label: "S12-0298 - © SEMI 199811 NOTICE:..."
+sidebar_position: 141
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-141.pdf'
+  chapter: 141
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S16-0600 © SEMI 20001 SEMI S16-0600ENVIRONMENTAL, HEALTH AND SAFETY GUIDEL
 &lt;!-- Page 50 --&gt;
 
 SEMI S16-0600 © SEMI 2000 2 5.1.3 disposal to dispose of equip ment and/orcomponent/material based on legislation orindustry/regional standard practices.5.1.4 disposal party a party who disposes ofequipment and its components.5.1.5 EMAS Eco-Management an d Audit Schemewhich came into force in July, 1993 and operational inthe EU Member States in April, 1995.5.1.6 equipment owner a party w ho surrendersequipment to a disposal party or disposals of potentiallycontaminated materials or components.5.1.7 hazardous energy energy w ith the potential toaffect human health or the environment.5.1.8 hazardous material materia ls includingchemicals (solid, liquid or gas) that pose a threat to theenvironment or human health as defined byinternational, each country and local regulations.5.1.9 Material Safety Data Sheet (M SDS) written orprinted material concerning chemical elements andcompounds, including hazardous materials, prepared inaccordance with applicable standards such as theInternational Labor Convention (ILC) No. 170,provisions of USA government regulation 29 CFR1910,1200, or Canadian WHMIS (WorkplaceHazardous Material Information System). 6 Equipment Design for Dis posal6.1 The equipment design should comply withenvironment section of SEMI S2.6.2 The equipment design should consider thefollowing regarding disassembly prior to wastetreatment:6.2.1 The equipment design should encouragerefurbishing, reuse or recycling.6.2.1.1 The equipment design should enabledisassembly down to the component or subassemblysize to facilitate refurbishing or recycling.6.2.1.2 The equipment design should provide for theability to appropriately decontaminate all components.6.2.2 The equipment design should consider enablingall hazardous energies in/on the equipment to bereduced to a non-hazardous level upon equipmentdisassembly. If a hazardous energy still remains, seeSection 7 of this document.6.2.2.1 This includes the ability to rele ase or removeany trapped materials.6.2.3 The equipment design should avoid mixing ofincompatible chemicals upon equipment disassembly. If this is not feasible, an appropriate hazard alert labelbased on SEMI S1 should be affixed at each applicableposition (see Section 7 of this document).6.2.4 The equipment design should prevent release ofhazardous materials to the environment upon equipmentdisassembly. If this is not feasible, see Section 7 of thisdocument.6.3 Chemicals used to maintain th e equipment orchemicals used in the baseline process should complywith following sub-sections.6.3.1 Materials for which special dis posal proceduresare required, such as batteries (lithium, ni-cad, mercuryand silver), mercury and fluorescent lamps, and otherpotentially hazardous material should be accompaniedby material safety data sheet (MSDS) or otherdocument describing necessary information for disposaland instructions for safe handling and disposal.6.3.2 Additional information on pro per disposal ofmaterials, designed into the equipment with the intentof being contaminated but disposable, but nothazardous themselves until contaminated, such asabsorbents and adsorbents, should also be providedwith disposal procedures which minimizeenvironmental impact and personnel effect.6.3.3 Equipment containing ionizing radiation sourcessubject to licensing by federal or local agencies shouldbe constructed so as to allow the easy removal ofionizing radiation sources. Disposal of ionizingradiation sources must be in compliance with applicableeach country, state and local regulations.6.4 Construction materials and com ponents ofequipment should be selected by considering theirenvironmental impacts based on the suppliersenvironment management program. Environmentmanagement programs should be constructed based onISO14001, EMAS or other environment managementsystem.6.5 The hazardous and primary co nstruction materialsof equipment should be provided in document such asoperation and/or maintenance manuals based on thesuppliers environment management program.6.5.1 Recycling category identificat ion should bemolded as part of the material or labeled on thematerial. This requirement should only be applied tonon-metallic materials which are capable of beingmolded or labeled.6.5.2 Identification and marking of p lastics shouldcomply with ISO11469 unless local regulations differ.This requirement should be applied to only materialswhich are able to be molded or labeled.
+
+</PdfSplitView>

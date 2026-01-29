@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/012.pdf"
   pdfSize="N/A"
   title="E78-1102 - © SEMI 1998, 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/012.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/012.pdf">
+
+---
+title: "E78-1102 - © SEMI 1998, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "E78-1102 - © SEMI 1998, 2002..."
+sidebar_position: 12
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-012.pdf'
+  chapter: 12
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E83-1000 © SEMI 1999, 20001 SEMI E83-1000SPECIFICATION FOR 300 mm PGV MECH
 &lt;!-- Page 50 --&gt;
 
 SEMI E83-1000 © SEMI 1999, 2000 2 Table 1 Dimensional Requirements Symbol Value, mm (in.) Tolerance (mm) Typea11 0 deg. +/- 0.25 deg. angled11 15.0 (.591) +/- 0.2 diameterd12 33.0 (1.299) +/- 0.2 distanced13 39.0 (1.535) +/- 0.2 distanced14 62.0 (2.441) +/- 0.2 distanced15 80.0 (3.150) +/- 0.2 distanced16 237.5 (9.350) +/- 2.5 distanced17 68.0 (2.677) minimum distanceh11 24.0 (.945) +/- 0.2 distanceh12 39.0 (1.535) +/- 0.2 distanceh13 40.0 (1.575) +/-0.2 distanceh14 83.0 (3.268) +/-0.2 distanceh15 20.0 (.787) maximum distancer11 2.0 (.079) +/-0.2 radiusr13 4.0 (.157) +/-0.2 radiusr14 5.0 (.197) +/-0.2 radiusw11 200 (7.874) minimum distance Figure 1Side Elevation View I 6.3 The flange must be installed su ch that the verticalpin (VP) is capable of being aligned with the load portbilateral datum plane (as defined in SEMI E15.1) andsurface A is a distance of d16 from the load port facialdatum plane (as defined in SEMI E15.1). The angle ofincidence between surface A and the facial datum planeshould be capable of adjustment to a11 listed in Table1.6.3.1 The docking flange is to be ph ysically isolatedfrom the equipment and should be mounted such thatthe equipment and equipment load port are protectedfrom the impact incurred during docking. Figure 2Side Elevation View II 6.4 When the flange is removed, n o mountinghardware shall remain protruding from the floor.6.5 Surfaces A, B, B and C show n on Figure 2 mustexist per tolerances listed in Table 1. Figure 3Front Elevation View NOTICE:. SEMI makes no warranties orrepresentations as to the suitability of the standards setforth herein for any particular application. Thedetermination of the suitability of the standard is solelythe responsibility of the user. Users are cautioned torefer to manufacturers instructions, product labels,product data sheets, and other relevant literaturerespecting any materials mentioned herein. Thesestandards are subject to change without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility.
+
+</PdfSplitView>

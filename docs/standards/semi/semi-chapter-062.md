@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/062.pdf"
   pdfSize="N/A"
   title="E123-0703 - © SEMI 2003 1..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/062.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/062.pdf">
+
+---
+title: "E123-0703 - © SEMI 2003 1..."
+description: "SEMI标准文档"
+sidebar_label: "E123-0703 - © SEMI 2003 1..."
+sidebar_position: 62
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-062.pdf'
+  chapter: 62
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E125-0305 © SEMI 2003, 20057 defined by an equipment node, an SEMI E39 Obj
 &lt;!-- Page 50 --&gt;
 
 SEMI E125-0305 © SEMI 2003, 2005 8 GetUnits() : Unit\[\]GetTypeDefinitions() : ParameterTypeDefinition\[\]GetStateMac hines() : StateMachine\[\]GetSEMIObjTy pes() : SEMIObjType\[\]GetExc eptions() : Ex ception\[\]GetEquipmentStructure() : EquipmentElement\[\]GetEquipmentNodeDesc riptions(in equipmentNodeIds : String\[\]) : NodeDesc riptionResuGetLatestRevision() : MetadataRevis ionNotifyOnRevisions(in notification : NotificationRequest) interfaceEquipmentMetadataManager Figure 3Interface for Accessing Equipment Metadata 9.1.2 EquipmentMetadataManager OperationsTable 5 EquipmentMetadataManager Operation DefinitionOperation Description TypeGetUnits Retrieves all unit metadata provided by the equipment. RRGetTypeDefinitions Retrieves all type definitions provided by the equipment. RRGetStateMachines Retrieves all state machine metadata provided by the equipment. RRGetSEMIObjTypes Retrieves all SEMI ObjTypes metadata provided by the equipment. RRGetExceptions Retrieves all exception metadata provided by the equipment. RRGetEquipmentStructure Retrieves all equipment structural metadata provided by the equipment. RRGetEquipmentNodeDescriptions Retrieves all requested equipment node description metadata. RRGetLatestRevision Retrieve the last date and time at which the equipment metadata was revised RRNotifyOnRevisions Request that the equipment notify the requestor when changes to the metadata aremadeRR 9.1.2.1 GetUnits  Upon receiving this request, the equipment shall return all units metadata provided by theequipment.9.1.2.1.1 GetUnits Operation ArgumentsTable 6 GetUnits Argument DefinitionsArgument Description Kind Formunits All units defined for the equipment. out Unordered list of elements of type Unit, described inSection 10.6 . 9.1.2.2 GetTypesDefinitions  Upon receiving this request, the equipment shall return all type definition metadataprovided by the equipment.9.1.2.2.1 GetTypesDefinitions Operation ArgumentsTable 7 GetTypesDefinitions Argument DefinitionsArgument Description Kind FormtypeDefinitions All type definitions provided by theequipment.out Unordered list of elements of typeParameterTypeDefinition, described in Section 10.5 . 9.1.2.3 GetStateMachines  Upon receiving this request, the equipment shall return all state machine metadataprovided by the equipment.
+
+</PdfSplitView>

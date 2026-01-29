@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/126.pdf"
   pdfSize="N/A"
   title="G48-89 - © SEMI 1989, 1996..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/126.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/126.pdf">
+
+---
+title: "G48-89 - © SEMI 1989, 1996..."
+description: "SEMI标准文档"
+sidebar_label: "G48-89 - © SEMI 1989, 1996..."
+sidebar_position: 126
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-126.pdf'
+  chapter: 126
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G60-94 © SEMI 1994, 2002 2 8.7 Three position control switch for connectin
 &lt;!-- Page 50 --&gt;
 
 SEMI G60-94 © SEMI 1994, 20023 13.2 Vendors lot number for the interleaf material,and date of shipment.13.3 Sample conditioning conditions.13.4 Test conditions if different from this test method.13.5 The surface charged.13.6 Results from Section 11 indicating the calculateddecay time for each specimen in the sample for both thepositive and negative charges and the acceptance (orrejection) at incoming inspection. SPC chartingtechniques may be used to monitor results.NOTE 5: Acceptance/rejection limits shall be agreed betweenuser and supplier. Figure 1Electrostatic Test Chamber High Voltage Source Electrometer Recorder Three (3) PositionalControl Switch Electrostatic TestChamber See Figure 1 Electrostatic Test Unit Figure 2Electrostatic Test Arrangement14 Related Documents14.1 The following documents provide additionalinformation for testing electrostatic properties. The test method described in this document is based on FED-STD-101C.14.2 Electronic Industries Association1 EIA-541  Packaging Materials Standards for ESDSensitive Items14.3 Federal Specifications2 FED-STD-101C  Test Procedures for PackagingItems14.4 JIS Specifications3 JIS K6911  Testing Methods for ThermosettingPlasticsJIS L 1094  Testing Methods for ElectrostaticPropensity of Woven and Knitted Fabrics NOTICE: These standards do not purport to addresssafety issues, if any, associated with their use. It is theresponsibility of the user of these standards to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use.SEMI makes no warranties or representations as to thesuitability of the standards set forth herein for anyparticular application. The determination of thesuitability of the standard is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materialsmentioned herein. These standards are subject tochange without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered bypatent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their responsibility. 1 Electronic Industries Alliance, EIA Engineering Department,Standards Sales Office, 2001 Eye Street, NW, Washington, D.C.20006, USA. Website: www.eia.org2 Federal Specifications, GSA Specifications and ConsumerInformation Branch, Bldg. 197, Washington Navy Yard, Washington,DC 204073 Japanese Industrial Standards, Available through the JapaneseStandards Association, 1-24, Akasaka 4-Chome, Minato-ku, Tokyo107-8440, Japan. Telephone: 81.3.3583.8005; Fax: 81.3.3586.2014Website: www.jsa.or.jp Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/153.pdf"
   pdfSize="N/A"
   title="T1-95 - © SEMI 1993, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/153.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/153.pdf">
+
+---
+title: "T1-95 - © SEMI 1993, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "T1-95 - © SEMI 1993, 2003..."
+sidebar_position: 153
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-153.pdf'
+  chapter: 153
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI T6-0697 © SEMI 1997, 2004 2 4.2.5 mapping  the process of identifying thes
 &lt;!-- Page 50 --&gt;
 
 SEMI T6-0697 © SEMI 1997, 20043 7.7 Multiple levels of lot definitions (i.e., Lots andSub-lots) may be handled through nesting within theLIN loop. 8 Listing of Appendices8.1 Appendix 1  EDI Business Model8.2 Appendix 2  EDI Transmission Flowchart8.3 Appendix 3  New EDI Statistics (Definitions)8.4 Appendix 4  EDI Transmission Components (863Report of Test Results)8.5 Appendix 5  Examples of EDI Transmissions
+
+</PdfSplitView>

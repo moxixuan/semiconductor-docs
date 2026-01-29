@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/055.pdf"
   pdfSize="N/A"
   title="E97-0200A - © SEMI 200021 const..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/055.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/055.pdf">
+
+---
+title: "E97-0200A - © SEMI 200021 const..."
+description: "SEMI标准文档"
+sidebar_label: "E97-0200A - © SEMI 200021 const..."
+sidebar_position: 55
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-055.pdf'
+  chapter: 55
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E98-1102 © SEMI 2000, 2002 14 9.5 OBEM Object Requirements  By definition,
 &lt;!-- Page 50 --&gt;
 
 SEMI E98-1102 © SEMI 2000, 200215 AbstractEquipmentElement Equipment AbstractEquipmentModule AbstractEquipment-Subsystem Figure 5Object Interface Hierarchy Concept 9.6.1.1 The physical view shown in Figure 2 isconcerned with the relationships between differentobjects. In that view, the equipment is at the highestlevel and owns (is responsible for) the lower levelobjects of which it is made up. A process chamber isconsidered to be at a higher level than subsystems suchas substrate handlers.9.6.1.2 From the view of the object interface hierarchy,this order is reversed, with AbstractEquipmentElementappearing at the top level as shown in Figure 5. Fromthe view of an object interface  the interface to anobject  the higher the level, the more simple theinterface. This is because of inheritance, where thechild object inherits all of the attributes, behavior,and services of the parent object and at the same timeadds some degree of specialization that will be reflectedin either additional attributes, behavior, or services, orin restrictions on the more general object.9.6.1.3 All objects represent the view as seen by thefactory, not the internal view of equipment control.From this view, the information and services requiredfor an equipment part such as a pod door opener isrelatively simple. The view of a module such as aprocess chamber is more complex but contains all theelements of the view provided for the simpler part(functional description, immutable id, etc.). The viewof the equipment is the most complex and includes allof the attributes and services of the equipment element,equipment subsystem, equipment module, and theequipment itself.9.6.1.4 The object model of equipment presented to thefactory is based on SEMI E39 (OSS). OSS servicesallow the factory to discover the actual physical makeup and aggregation hierarchy of the physical viewof equipment illustrated in Figures 2 and 3.9.6.1.5 Each object is defined in terms of itsrequirements, attributes, behavior (state models), andthe services that it is required to support. Theequipment owns all of the objects that it is made of andis responsible for providing the required behavior.9.6.1.6 All objects in OBEM inherit the attributes andservices defined for the Top Object as specified in theObject Service Standard (OSS). This allows the factoryto use object services to request the equipment todescribe its physical view by reporting which objectsthat it owns.9.6.1.7 Note that equipment support for an OBEMinterface to the factory does not imply or require directaccess from the factory to any equipment element. 10 OBEM Object Definitions10.1 OBEM objects are defined in this section.10.2 AbstractEquipmentElement Object  Thesupertype object of the interface hierarchy isAbstractEquipmentElement, which is an abstraction ofany equipment component that can perform work.AbstractEquipmentElement is an abstract type that isnot implemented directly. There are two subtypes ofAbstractEquipmentElement: AbstractEquipmentSub-system, and EquipmentIODevice. AbstractEquipment-Element is an abstract type, so that implementations areof one of the subtypes.10.2.1 AbstractEquipmentElement Requirements10.2.1.1 Object Exception Management10.2.1.1.1 SEMI E41 defines a model for ExceptionConditions. An Exception Condition may be either anAlarm Condition or an Error Condition. ErrorConditions may, in some cases, have a set of associatedRecovery Actions that can be performed by theAbstractEquipmentElement to attempt to recover fromthe abnormal situation.10.2.1.1.2 An OBEM object shall comply with thefundamental requirements of SEMI E41, Section 10.4.Exception Condition objects shall be provided inconformance with SEMI E41 and shall be accessiblethrough services defined in SEMI E39. TheAbstractEquipmentElement owns all exceptions that itgenerates. Therefore, it shall report all of its ExceptionCondition objects through OSS services.10.2.2 AbstractEquipmentElement Subtypes  TheAbstractEquipmentElement has two subtypes, theEquipmentIODevice and the AbstractEquipment-Subsystem.
+
+</PdfSplitView>

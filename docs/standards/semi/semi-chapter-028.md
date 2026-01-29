@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/028.pdf"
   pdfSize="N/A"
   title="E30-1103 - © SEMI 1992, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/028.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/028.pdf">
+
+---
+title: "E30-1103 - © SEMI 1992, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E30-1103 - © SEMI 1992, 2003..."
+sidebar_position: 28
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-028.pdf'
+  chapter: 28
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E30-1103 © SEMI 1992, 200373 5 Data ItemsThe following sections specify wh
 &lt;!-- Page 50 --&gt;
 
 SEMI E30-1103 © SEMI 1992, 2003 74 Table 6.1 GEM-Defined Collection EventsEvent Designation Typical Variable Data ReferenceControl-Related Events: Section 3.3Equipment OFF-LINE ControlState, Clock ON-LINE-&gt;OFF-LINEControl State LOCAL ControlState, Clock REMOTE-&gt;LOCAL orOFF-LINE-&gt;LOCALControl State REMOTE ControlState, Clock LOCAL-&gt;REMOTE orOFF-LINE-&gt;REMOTEOperator Command Issued OperatorCommand Operator Activity while REMOTE stateis active.Processing-Related Events: Note: Any transition in the implementedprocessing state model must have acorresponding collection event. Section 3.4 Processing Started Clock, PreviousProcessState Entry into EXECUTING state.Processing Completed Clock, PreviousProcessState Normal exit of EXECUTING state.Processing Stopped Clock, PreviousProcessState Result of STOP command from host oroperator.Processing State Change Clock, ProcessState,PreviousProcessStateAny processing state transition. Alarm Management Events: Section 4.3AlarmnDetected Clock, AlarmID, AlarmsSet, Associatedvariable dataALARMnCLEAR-&gt;ALARMnSET AlarmnCleared Clock, AlarmID, AlarmsSet ALARMnSET-&gt;ALARMnCLEAREquipment Constant Events: Section 4.5Operator Equipment Constant Change ECID Operator activityLimits Monitoring: Section 4.2.4Limit Zone Transitionn (separate CEIDper variable)Clock, LimitVariable, EventLimit,Transition TypeEntry into BELOW LIMIT or ABOVELIMIT states.Process Program Management Events: Section 4.6Process Program Change PPChangeName, PPChangeStatus Operator activityProcess Program(s) Selected PPExecName Operator/Host activityMaterial Movement Events: Section 4.7Material Received ClockMaterial Removed ClockSpooling Events: Section 4.11Spooling Activated SpoolStartTime SPOOL INACTIVE-&gt;SPOOL ACTIVESpooling Deactivated SpoolCountTotal SPOOL OUTPUT-&gt;SPOOLINACTIVESpool Transmit Failure Clock, SpoolCountActualSpoolCountTotalTRANSMIT SPOOL-&gt;NO SPOOLOUTPUTTerminal Services Events: Section 4.8Message Recognition Clock OperatorNew Execution Recipe Event RcpChangeName, RcpChangeStatus Section 4.6.2.2Execution Recipe Change Event RcpChangeName, RcpChangeStatus Section 4.6.2.2Successful Upload DataSetName Sections 4.6.5.3, 4.6.6.3Bad Upload DataSetName Sections 4.6.5.3, 4.6.6.3
+
+</PdfSplitView>

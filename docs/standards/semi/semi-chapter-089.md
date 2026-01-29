@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/089.pdf"
   pdfSize="N/A"
   title="F97-0305 - © SEMI 2005 11..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/089.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/089.pdf">
+
+---
+title: "F97-0305 - © SEMI 2005 11..."
+description: "SEMI标准文档"
+sidebar_label: "F97-0305 - © SEMI 2005 11..."
+sidebar_position: 89
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-089.pdf'
+  chapter: 89
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI D11-95 © SEMI 1995, 2003 4 Figure 2 NOTICE: SEMI makes no warranties or re
 &lt;!-- Page 50 --&gt;
 
 SEMI D12-95 © SEMI 1995, 20031 SEMI D12-95 (Reapproved 0703)SPECIFICATION FOR EDGE CONDITION OF FLAT PANEL DISPLAY(FPD) SUBSTRATES This specification was technically approved by the Global Flat Panel Display Committee and is the directresponsibility of the Japanese FPD Materials and Components Committee. Current edition approved by theJapanese Regional Standards Committee on April 28, 2003. Initially available at www.semi.org June 2003 tobe published July 2003. Originally published in 1995.1 Purpose1.1 This document defines various aspects of the edgesof a flat panel display substrate and describes theirrelationships. It assumes the existence of terminologydescribed in other SEMI flat panel display documents.It applies to substrates whose nominal thicknessspecification is 1.1 mm. 2 Scope2.1 Significance  The edges of a flat panel displaysubstrate are important in both the specifications forand uses of the material. They effect the means forproducing, handling, storing, and processing substrates.Defining the terminology and the geometric propertiesof these edges will assist both the producers and usersof substrates and processing/inspection equipment.NOTICE: This standard does not purport to addresssafety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establishappropriate safety and health practices and determinethe applicability of regulatory or other limitations priorto use. 3 Referenced Standards3.1 SEMI StandardsSEMI D3  Quality Area Specification for Flat PanelDisplay SubstratesNOTICE: Unless otherwise indicated, all documentscited shall be the latest published versions. 4 Terminology4.1 Definitions4.1.1 corner  of a substrate, any corner other than theorientation corner.4.1.2 edge length  of a substrate, the nominal lengthof an edge, including that portion at the edge corner(s)from which material may have been removed forfinishing purposes. It is  defined by two dimensionsX and Y, with nominal and tolerance values for each.4.1.3 orientation convention  a means for denotingthe rotational orientation of a substrate. 4.1.4 orientation corner  the corner of a substratewhich identifies the pattern surface and rotationalorientation. 5 Edge Condition5.1 All edges shall be treated for purposes of operatorsafety and to minimize particulate generation. Edgesshall be chamfered per Figure 1; other edge treatmentsare being developed as outlined in Related Information1.5.2 Other edge-related parameters shall be per Table 1.6 Corner Condition6.1 The orientation corner is asymmetrical for allsubstrates, with dimensions per Figure 2.6.2 The edge condition within all corner areas shallmeet the criteria of Section 5.Table 1Parameter Nominal ToleranceLength &lt; 400 mm≥ 400 mm± 0.2 mm± 0.3 mmSquareness ≤ ±1/1000 of longer edge forchamfered edge Figure 1Chamfered Edge
+
+</PdfSplitView>

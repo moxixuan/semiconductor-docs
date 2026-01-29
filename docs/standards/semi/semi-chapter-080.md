@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/080.pdf"
   pdfSize="N/A"
   title="F38-1104 - © SEMI 1999, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/080.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/080.pdf">
+
+---
+title: "F38-1104 - © SEMI 1999, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "F38-1104 - © SEMI 1999, 2004..."
+sidebar_position: 80
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-080.pdf'
+  chapter: 80
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F46-0999 © SEMI 1999 4 8.6 Filtration Options  Recircul ation filtration o
 &lt;!-- Page 50 --&gt;
 
 SEMI F47-0200 © SEMI 1999, 20001 SEMI F47-0200SPECIFICATION FOR SEMICONDUCTOR PROCESSING EQUIPMENTVOLTAGE SAG IMMUNITY This specification was technically approved by the Global Facilities Committee and is the directresponsibility of the North American Facilities Committee. Current edition approved by the North AmericanRegional Standards Committee on December 15, 1999. Initially available on www.semi.org January 2000; tobe published February 2000. Originally published September 1999. 1 Purpose1.1 Semiconductor factories requi re high levels ofpower quality due to the sensitivity of equipment andprocess controls. Semiconductor processing equipmentis especially vulnerable to voltage sags. This documentdefines the voltage sag ride-through capability requiredfor semiconductor processing, metrology, andautomated test equipment.1.2 The requirements in this intern ational standardwere developed to satisfy semiconductor industryneeds. While more stringent than existing genericstandards, this industry-specific specification is not inconflict with known generic equipment regulationsfrom other regions or generic equipment standards fromother organizations (see Related Information section).1.3 It is the intent of this standard to providespecifications for semiconductor processing equipmentthat will lead to improved selection criteria for sub-components and improvements in equipment systemsdesign. While it is recognized that in certain extremecases or for specific functions battery storage devicesmay be appropriate, it is not the intent of this standardto increase the size or use of battery storage devicesprovided with equipment. Focus on improvements inequipment component and system design should lead toa reduction or elimination in the use of battery storagedevices to achieve equipment reliability during voltagesag events. 2 Scope2.1 This document specifies the m inimum voltage sagride-through capability design requirements forequipment used in the semiconductor industry. Theexpected equipment performance capability is showngraphically on a chart representing voltage sag durationand percent deviation of equipment nominal voltage.Standard evaluation test method references are alsoincluded.2.2 The primary focus for this spe cification issemiconductor processing equipment including but notlimited to the following tool types: Etch equipment (Dry & Wet), Film deposition equipment (CVD & PVD),  Thermal equipment, Surface prep and clean, Photolithography equipment (Stepper & Tracks), Chemical Mechanical Polishing equipment, Ion Implant equipment, Metrology equipment, and Automated test equipment.2.3 This specification applies to se miconductorprocessing equipment to include the equipmentmainframe and all subsystems whose electrical power isdirectly affected by the operation of the equipmentsEMO system.2.4 This standard does not purport to address safetyissues, if any, associated with its use. It is theresponsibility of the users of this standard to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use. 3 Limitations3.1 Not included in this standard a re over voltageconditions, voltage sag duration of less than 0.05seconds (50 milliseconds), and voltage sag duration ofgreater than 1.0 seconds. If necessary, the InformationTechnology Industry Council (ITIC) CBEMA-curvecontained in IEEE 446, IEEE 1100, and SEMI E51 canbe used to specify additional requirements outside therange of this document (see Related Information,Section R1-1).3.2 This specification does not add ress wafer qualitywith regard to processing variation caused by voltagesags. It is recommended that each equipment supplierconsider the effects of voltage sags on their equipmentprocesses. If voltage sags above the defined line canresult in known wafer quality problems, then an appro-priate notification-only scheme should be considered inthe equipment design. To be in conformance with thisstandard that notification scheme should not beclassified as an equipment interrupt per SEMI E10.3.3 This standard addresses specif ications forsemiconductor processing equipment voltage sagimmunity. Factory systems voltage sag immunity andelectric utility voltage sag performance are covered in
+
+</PdfSplitView>

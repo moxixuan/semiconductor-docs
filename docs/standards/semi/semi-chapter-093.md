@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/093.pdf"
   pdfSize="N/A"
   title="D36-1103 - © SEMI 2003 1..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/093.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/093.pdf">
+
+---
+title: "D36-1103 - © SEMI 2003 1..."
+description: "SEMI标准文档"
+sidebar_label: "D36-1103 - © SEMI 2003 1..."
+sidebar_position: 93
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-093.pdf'
+  chapter: 93
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C2.27-1102 © SEMI 1984, 2002 2 8.1.1.3 Tygon R tubing, 6 mm (1/4 in).8.1.1
 &lt;!-- Page 50 --&gt;
 
 SEMI C3.27-1102 © SEMI 1984, 20023 8.2.2 Apparatus8.2.2.1 The modified gas collecting tube shown inSection 8.1.1.7, Figure 2.8.2.2.2 Separatory funnel, 2000-mL Pyrex (with 61-cmTygon R tubing and pinch clamp attached to stopcockend).8.2.2.3 Tygon tubing, 1/4 inch.8.2.2.4 Balance, capable of weighing 1000 grams to0.01 gram.8.2.3 Reagents  All reagents used are reagent gradeunless otherwise indicated.8.2.3.1 Water  All water used in the preparation ofreagents and in the procedure is either distilled ordeionized.8.2.3.2 Sodium chloride solution  Dissolve 300 g ofsodium chloride in 1 liter of water.8.2.4 Calibration - Gas Collecting Tube8.2.4.1 Weigh the gas collecting tube to the nearest 0.1g; weight = A, then clamp the tube securely on aringstand with the calibrated stem up.8.2.4.2 Fill the tube with distilled water and allow it tostand with the top stopcock open until it has reachedroom temperature.8.2.4.3 Record the room temperature to the nearest0.01C; temperature = C.8.2.4.4 Close the top stopcock. Drain and dry both ofthe outer stems. Weigh the water-filled collecting tubeto the nearest 0.1 g; weight = B.8.2.4.5 The net weight of the water in the tube (B - A)in grams is equal to the volume of the tube in milliliters,corrected for the density of water at temperature C.Determine this volume as follows: Volume in mL = (B - A)D - Ewhere D = Density (g/mL) of waterat temperature °C (from Table 1). Table 1 Density vs T°C for WaterTemp. °C Density g/mL20 0.9982321 0.9980222 78023 75624 73225 0.99707 Temp. °C Density g/mL26 68127 65428 62629 59730 567 8.2.5 Procedure8.2.5.1 Obtain the sample of BF3 gas in the gascollecting tube. See Section 8.1.3 for sampling details.8.2.5.2 Fill the separatory funnel with sodium chloridesolution. Attach Tygon tubing and a pinch clamp to thefunnel.8.2.5.3 With a small dropper, fill the glass tubingleading to the stopcock opposite the calibrated end ofthe gas collecting tube with the salt solution. (Note: thegas collecting tube is inverted at this point.)8.2.5.4 Open the separatory funnel stopcock and thepinch clamp on the Tygon tubing. Hold the tubingupright and when it completely fills with NaCl solution,slip the tubing onto the end of the gas collecting tubewhich was previously filled in step 8.2.5.3.NOTE 1: There should be no air bubbles in the connectionsbetween the gas collecting tube and the separatory funnel. Atrace of a wetting agent such as Ultrawet (Atlantic RefiningCo.) in the salt solution assists in freeing small air bubblesfrom the walls of connecting tubes.8.2.5.5 Hold the gas collecting tube vertical, with thecalibrated end up and the entire collecting tube belowthe liquid level of the separatory funnel.8.2.5.6 Open the lower stopcock of the gas collectingtube carefully and shake the tube to aid in dissolving ofthe BF 3 gas in the salt solution.8.2.5.7 Bring the liquid level in the gas collecting tubeequal to the liquid level in the separatory funnel.8.2.5.8 Read and record the volume of undissolved gasin the upper calibrated end of the gas collecting tubeand record this volume, to the nearest one-tenth of amilliliter; mL = F. Record the room temperature.8.2.6 Calculations8.2.6.1 F = Total milliliters of undissolved gas (fromSection 8.2.5.8).8.2.6.2 E = Total volume of gas collecting tube in mL;see Calibration - Gas Collecting Tube.
+
+</PdfSplitView>

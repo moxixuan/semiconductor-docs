@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/125.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 125"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/125.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/125.pdf">
+
+---
+title: "SEMI Chapter 125"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 125"
+sidebar_position: 125
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-125.pdf'
+  chapter: 125
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G48-89 © SEMI 1989, 1996 6 5.21.2 Pin Marks (e.g., Pin 1 indicator at end 
 &lt;!-- Page 50 --&gt;
 
 SEMI G48-89 © SEMI 1989, 19967 Figure 1 Figure 2
+
+</PdfSplitView>

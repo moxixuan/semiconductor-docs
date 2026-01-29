@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/049.pdf"
   pdfSize="N/A"
   title="E86-0200 - © SEMI 1999, 20001..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/049.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/049.pdf">
+
+---
+title: "E86-0200 - © SEMI 1999, 20001..."
+description: "SEMI标准文档"
+sidebar_label: "E86-0200 - © SEMI 1999, 20001..."
+sidebar_position: 49
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-049.pdf'
+  chapter: 49
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E87-0705 © SEMI 1999, 2005 18 # Previous State Trigger New State Actions C
 &lt;!-- Page 50 --&gt;
 
 SEMI E87-0705 © SEMI 1999, 200519 # Previous State Trigger New State Actions Comment20 IN ACCESS The equipment finishesaccessing the carrierabnormally. CARRIERSTOPPEDNone. Data required to be available forthis event report:CarrierIDCarrierAccessingStatus21 CARRIER Normal: The carrier isunloaded from the equipment.Abnormal by service:CancelBind orCancelCarrierNotificationservice is received prior to thecarrier load.Abnormal by equipment: Anequipment based verificationfails and the equipmentperforms a self-initiatedCancelBind service. (no state) The equipmentdestroys theinstance of thiscarrier object. Data required to be available forthis event report:CarrierID #1 Only one collection event report is required when entering the Carrier State Model (instantiating a carrier object). This event report shallinclude the entry state of the all the substates of Carrier State Model, (including CARRIER ID STATUS substate and the CARRIER SLOT MAPSTATUS substate). 10.7.5 Slot Map Read Details10.7.5.1 The Slot Map shall be read on all production equipment prior to removal of substrates from the carrier.10.7.6 Carrier Read Failure  A carrier read failure occurs when the carrier ID reader is present, in service, andreports that it is unable to read the ID of a carrier. This represents a transient random failure rather than a steadycondition.10.7.7 Bypass Read ID  A carrier ID reader may be unavailable: either out of service, not installed, or otherwisemalfunctioning and unable to execute a read operation. This represents a steady condition that often is known inadvance. The equipment shall provide a user-configurable variable BypassReadID used to bypass verification of thecarrier ID when the carrier ID reader is unavailable or not installed and the loadport is ASSOCIATED.BypassReadID is not used to bypass the carrier ID reader. In this case, the carrier object is instantiated in the IDNOT READ state, and when the carrier is received, the state model transitions to either WAITING FOR HOST orID VERIFICATION OK, depending upon whether BypassReadID is FALSE (the default value) or TRUE. WhenTRUE, then the Carrier ID received in the Bind is used automatically. Otherwise, the carrier transitions toWAITING FOR HOST and waits for the host to send a ProceedWithCarrier. The ID used will be the ID includedwith the ProceedWithCarrier. 11 Access Mode11.1 Access Mode State Model11.1.1 The Access Mode State Model defines the host view of equipment access mode, as well as the hostinteractions with the equipment necessary to switch the access mode. Each Load Port has its own Access Mode StateModel. There are two access mode states: MANUAL and AUTO. These are defined in 11.3.3.11.1.2 The access mode for a load port may be switched at anytime by the host or the operator, except when theLoad Port Reservation State Model for that Load Port is in the RESERVED state or during carrier transfer. Carriertransfer boundaries, for determining when access mode may be changed, are designated by Table 8, Carrier TransferBoundaries.
+
+</PdfSplitView>

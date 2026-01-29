@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/082.pdf"
   pdfSize="N/A"
   title="F53-0600 - © SEMI 20008 Any..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/082.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/082.pdf">
+
+---
+title: "F53-0600 - © SEMI 20008 Any..."
+description: "SEMI标准文档"
+sidebar_label: "F53-0600 - © SEMI 20008 Any..."
+sidebar_position: 82
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-082.pdf'
+  chapter: 82
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F59-0302 © SEMI 2000, 20025 15 Calculations or Interpretation of Results15
 &lt;!-- Page 50 --&gt;
 
 SEMI F59-0302 © SEMI 2000, 2002 6 D evice U n derTest P A B C D A  At least 16 nominal pipe diameters of straight pipe.B  2 Nominal pipe diameters of straight pipe.C  6 Nominal pipe diameters of straight pipe.D  At least 1 nominal pipe diameters of straight pipe.NOTE 1: Dimension A may be reduced to 8 nominal diameters if straightening vanes are used. Design of straightening vnescan be found in ASME Performance Test Code PTC 19.5-1972, Applications  Part 2 of Fluid Meters, Interim Supplement onInstruments and Apparatus.NOTE 2: If an upstream flow disturbance consists of two elbows in series and they are in different planes, dimension A mustexceed 16 nominal pipe diameters unless straightening vanes are used. Figure 2Piping Requirements  Standard Test Section
+
+</PdfSplitView>

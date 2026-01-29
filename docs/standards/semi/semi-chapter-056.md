@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/056.pdf"
   pdfSize="N/A"
   title="E98-1102 - © SEMI 2000, 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/056.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/056.pdf">
+
+---
+title: "E98-1102 - © SEMI 2000, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "E98-1102 - © SEMI 2000, 2002..."
+sidebar_position: 56
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-056.pdf'
+  chapter: 56
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E102-0600 © SEMI 20007 6.2.3.2 MaterialContainer Interface (s ubset)Module
 &lt;!-- Page 50 --&gt;
 
 SEMI E102-0600 © SEMI 2000 8 Resource (Inherited from E97) Activity Stored InTransit ManualControl Processing OutOfService InService 1 2 3 4 5 6 789 1011 1312 14 15 16 Figure 5MaterialContainer Dynamic Model Table 1 MaterialContainer State DefinitionsState State Definition ExampleInService Inherited from Resource State ModelOutOfService Inherited from Resource State ModelInTransit Container is en route as the subject of a Transport Job. Container is on an OHT transport vehicle.Stored Container is stored in a Storage Machine and notsubject to a Transport Job.Container is on a stocker shelf. ManualControl Container is outside of the control of the MaterialTransport and Storage Component.Container is on a PGV. Processing Container is at process equipment. Container is on a lithography tool. Table 2 MaterialContainer State Transitions# Current State Trigger Next State Action Comment15 NOTE: Transitions 15 are defined in the dynamic model inherited from Resource.6 N/A makeManualControl()ManualControl MaterialContainerinstance is created.Initial state 7 ManualControl makeStored() Stored DurableLocationChangedEvent Publishedby the instance ofMaterialContainer Container is placed oninput port of a StorageMachine without aTransportJob assigned toit.8 Stored makeInTransit() InTransit DurableLocationChangedEvent Publishedby the instance ofMaterialContainer Container has started tomove. TransportJob statetransitions to Executing. 9 InTransit makeStored() Stored DurableLocationChangedEvent PublishedContainer stored.TransportJob state
+
+</PdfSplitView>

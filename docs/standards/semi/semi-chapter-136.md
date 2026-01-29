@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/136.pdf"
   pdfSize="N/A"
   title="C53-0704 - © SEMI 2001, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/136.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/136.pdf">
+
+---
+title: "C53-0704 - © SEMI 2001, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "C53-0704 - © SEMI 2001, 2004..."
+sidebar_position: 136
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-136.pdf'
+  chapter: 136
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S2-0703aE © SEMI 1991, 2004 28 section can be shown by demonstrating ambie
 &lt;!-- Page 50 --&gt;
 
 SEMI S2-0703aE © SEMI 1991, 200429 24.3.2 Non-defeatable safety interlocks should beprovided on barriers preventing maintenance access toradiation fields in excess of 10 microsieverts (Sv) or 1millirem per hour.24.3.3 Administrative Controls  Whenadministrative controls (e.g., distance, time, standardoperating procedures, labeling) are to be used, theequipment supplier should provide detaileddocumentation explaining the use of the administrativecontrols.24.4 Equipment utilizing or producing ionizingradiation should be labeled appropriately.NOTE 117: Label contents are typically controlled byregulation in the country in which the equipment is to be used.24.5 The manufacturer should conduct an assessmentto document conformance to the criteria specified inSections 24.2.1 through 24.2.2 during normalequipment operation, maintenance, and service.24.5.1 A radiation survey should be used to confirmdesign compliance and serve as a baseline survey (seealso Table A4-1 of Appendix 4).24.5.2 Measurements should be taken using recognizedmethods with documented sensitivities and accuracy. Areport documenting the survey methods, equipmentoperating parameters, instrumentation used, calibrationdata, source locations, results, and discussion should bemade available.24.5.3 If supplemental administrative controls arerecommended based on survey results or calculations, adiscussion should be provided in the operations andmaintenance manuals describing the source locations,radiation levels, and recommended control measures.NOTE 118: Ionizing radiation sources must be registered orlicensed according to the regulations of the country ofdestination. These radiation sources must conform to theregulations of central or local government agencies,whichever is stricter.NOTE 119: It is recommended that equipment containingradioactive materials should demonstrate conformance tolicensing with local regulatory agencies prior to shipment.NOTE 120: Equipment that uses particle acceleration in itsprocess has the potential for generating ionizing radiation as aresult of nuclear interactions between the accelerated particlesand various materials. These materials can include materialsof construction of the equipment, accumulated residualprocess materials in the equipment, and the target materials. 25 Non-Ionizing Radiation and Fields25.1 This section covers equipment that produces non-ionizing radiation, except laser sources, in the followingcategories:  static electric and magnetic (0 Hz), sub-radio frequency electric and magnetic fields( &lt; 3 kHz), radio frequency (3 kHz300 GHz), infrared radiation (700 nm1 mm), visible Light (400 nm700 nm), and ultraviolet Light (180400 nm).25.2 Potentially hazardous non-ionizing radiationemissions that are accessible to any personnel should belimited to the lowest practical level. This criterion canbe met by demonstrating conformance to the followingprovisions:EXCEPTION: Emissions of non-ionizing radiationexceeding the cardiac pacemaker limits in Appendix 5but less than the levels in Sections 25.2.1 and 25.2.2should be identified with appropriate labeling. See alsoSection 25.5.1.25.2.1 Accessible levels of non-ionizing radiationduring normal operations are less than the Operator-Accessible Limit (see Appendix 5);25.2.2 Accessible levels of non-ionizing radiationduring maintenance and service procedures are lessthan the Maintenance- and Service-Accessible Limit(see Appendix 5).25.3 Sources of potentially hazardous non-ionizingradiation should be identified in the operation andmaintenance manuals, and appropriate parameterslisted. Parameters include frequency, wavelength,power levels, continuous wave or pulsed (see alsoAppendix 5). If pulsed, parameters also include thepulse repetition rate, pulse duration, and description ofthe pulse waveform.EXCEPTION: Visible sources which are intended to beviewed or which provide illumination (e.g., displaypanels, visible alarm indicators), and are not lasers, donot need to be identified.NOTE 121: It is recommended that UV/IR generators thatare part of fire protection test apparatus, and are providedwith the equipment, be considered as possible sources ofpotentially hazardous non-ionizing radiation.25.4 Equipment should be designed to minimize accessor exposure to non-ionizing radiation during normaloperation, maintenance, and service. Potentialexposures should be controlled in the following order ofpreference:25.4.1 engineering controls (e.g., enclosure, shielding,guarding, grounding, interlocks);
+
+</PdfSplitView>

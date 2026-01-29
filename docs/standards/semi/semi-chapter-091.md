@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/091.pdf"
   pdfSize="N/A"
   title="D21-1000 - © SEMI 1992, 20002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/091.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/091.pdf">
+
+---
+title: "D21-1000 - © SEMI 1992, 20002..."
+description: "SEMI标准文档"
+sidebar_label: "D21-1000 - © SEMI 1992, 20002..."
+sidebar_position: 91
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-091.pdf'
+  chapter: 91
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI D26-1000 © SEMI 2000 8  Outlines constructed with ARC and LINE that donot 
 &lt;!-- Page 50 --&gt;
 
 SEMI D26-1000 © SEMI 20009 7.8.5 Design Rules  A comprehen sive and well-presented set of design rules is an invaluablecommunication tool between the customer and supplier.For the manufacture of large area precision glass andquartz substrate photomasks having geometrys in thelow to sub-micron range, design rules are an essentialcomponent of any successful program designed tominimize the risks of introducing errors and delays intothe process.7.8.5.1 The best match occurs when th ere is acommonality between the customers designcapabilities and vendors requirements.7.8.5.2 Design rule documents are usu ally unique toeach Large Area Mask supplier, and the details dependmainly upon the vendors software repertoire and theirability to process certain types of data.7.8.5.3 The type of Computer Aided D esign softwarepackage used by the customer to design their productmust be capable of either exporting data in a format thatthe vendor can readily use, or the vendor must becapable of using data in the native format of thecustomers design package. 8 Test Methods8.1 Auto Inspection Artifacts  T o perform anyautomated inspection of a photomask, the inspectionequipment and photomask pattern must be preciselylocated. This is done with four alignment targets on thephotomask. The alignment targets are part of thephotomask pattern and are located near each corner ofthe photomask. The target in the upper left corner willalso have a 200 micron border around it with a 10micron space between the target and the border. Whenappropriate, this additional border will also be used as aclosure test by exposing the targets first and then theborder at the end of the plate exposure.8.1.1 4 Alignment targets provide op timum alignmentaccuracy.8.1.2 Greater distance between the t argets providesgreater alignment accuracy.8.1.3 The target locations near the e dge of the glassprovide the maximum product image area.8.1.4 The target pattern can be easily located visuallyon the photomask.8.1.5 The target can be clear on dark or dark on clear. 9 Product Labeling9.1 General  Large Area Masks used in FPDmanufacturing are valuable, fragile and prone tocontamination prior to use. The content of a LAM is difficult to discern unless each unit contains a uniqueID that can be read by various tools. To simplifyAMHS and process/metrology tool operations, this IDneeds to be consistently readable on the bare mask, withand without resist coating; ideally it would be readablethrough the plastic container in which the mask isshipped. See Figures 710.9.2 Summary  The labeling spec ified herein consistsof a rectangular two-dimensional (2-D), machine-readable, binary Data Matrix symbology located on thepattern surface of LAMs, within the edge region andnear the orientation corner. The specification defines a46-character default message that is included in allmark fields, and option for up to 26 additionalcharacters, for a total of 72 message characters (seeSEMI T8).9.3 Field Construction  While t his specificationdoes not specify the marking techniques that may beemployed when complying with its requirements, it isassumed the symbol may be obtained throughlithographic techniques, for instance during the maskexposure sequence.9.4 Shape and Size of the Data Ma trix Code Symbol9.4.1 Data Matrix Code Symbol Dim ensions9.4.1.1 Each rectangular matrix code s ymbol shall becomposed of an array of 16 rows and 36 or 48 columnsas defined in AIM International SymbologySpecification  Data Matrix. It may contain analignment bar.9.4.1.2 Cell spacing shall be 25 m, c enter to center.9.4.1.3 Matrix code symbol nominal d imensions are:a. 4  9 mm, for a 16 row  36 column field, orb. 4  12 mm, for a 16 row  48 column field.9.4.2 Dot Size  The nominal shape of the dotproduced in the matrix may be circular or square. Itsdiameter or edge length shall be 250 ± 10 m.9.4.3 Border Rows and Columns (se e Figure 9)9.4.3.1 One border row and one borde r column shallcontain a dot in each cell. There are identified as theprimary border row and the primary border column.These are used by the code reader to determine theorientation of the matrix.9.4.3.2 The opposing (secondary) bord er row andcolumn shall contain dots in alternating cells.9.4.3.3 For these rectangular matrix co de symbols, thereference point of the symbol shall be the physicalcenter point of the cell common to the primary borderrow and the primary border column.
+
+</PdfSplitView>

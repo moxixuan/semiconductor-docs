@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/114.pdf"
   pdfSize="N/A"
   title="P10-0705 - © SEMI 1990, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/114.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/114.pdf">
+
+---
+title: "P10-0705 - © SEMI 1990, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "P10-0705 - © SEMI 1990, 2005..."
+sidebar_position: 114
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-114.pdf'
+  chapter: 114
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P10-0705 © SEMI 1990, 2005 194 complexType DataFunctionTypediagram complex
 &lt;!-- Page 50 --&gt;
 
 SEMI P10-0705 © SEMI 1990, 2005195 complexType DataTypediagram
+
+</PdfSplitView>

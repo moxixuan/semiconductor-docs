@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/123.pdf"
   pdfSize="N/A"
   title="G20-96 - © SEMI 1980, 19961..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/123.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/123.pdf">
+
+---
+title: "G20-96 - © SEMI 1980, 19961..."
+description: "SEMI标准文档"
+sidebar_label: "G20-96 - © SEMI 1980, 19961..."
+sidebar_position: 123
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-123.pdf'
+  chapter: 123
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G31-0997 © SEMI 1986, 19973 Figure 1Orifice Abrasion Figure 2Orifice Mold
 &lt;!-- Page 50 --&gt;
 
 SEMI G31-0997 © SEMI 1986, 1997 4 Figure 3Top Plate Figure 4Orifice Holder
+
+</PdfSplitView>

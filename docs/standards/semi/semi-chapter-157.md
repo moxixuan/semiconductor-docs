@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/157.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 157"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/157.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/157.pdf">
+
+---
+title: "SEMI Chapter 157"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 157"
+sidebar_position: 157
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-157.pdf'
+  chapter: 157
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI T13-1104 © SEMI 20049 Substrate Die 0..\*BatchLot0..\*OR 1..\*1..\* 1..\* 
 &lt;!-- Page 50 --&gt;
 
 SEMI T13-1104 © SEMI 2004 10 Circuit Module Die MotherSubstrate Dicing FrameWafer Lead Frame PCB Cabinet 0..\* Glass Plate Tray Tape Strip Die Trace Data(DTD) characterizes0..\* referslinks 0..\* Cassette ReusableContainer Figure 7Physical Substrate Model for Die Tracing 9.5.1.1 Circuit Module Class Definition  CircuitModule has such attribute as ID, Type and etc. asdepicted on Figure 8. These attributes cannot bechanged because they are proper for a specific CircuitModule and not all attributes are illustrated on thefigure. Because this document doesnt intend theseattributes to be accessed directly but just for referenceto specify services to access or make use of theseattributes. This class is used to discuss and handlegeneric issues of any subclasses.9.5.1.2 Responsibility of Circuit Module  BecauseCircuit Module class is to be material label or materialproperty sheet, responsibility of this class is to play therole.9.5.1.3 Services of Circuit Module  To complete theresponsibility, this class provides the followingservices.9.5.1.3.1 showProperty  This service returns all or apart of attributes of this object.CircuitModule showPropertyshowDaughter IDTypeProductNameManufacturerPlantLocationProductionStageLatestProcessTimeLot  .. Figure 8Circuit Module Class 9.5.1.3.2 showDaughter  This service is to getsmaller grain Circuit Modules which this CircuitModule has on it.9.5.1.4 Behavior of Circuit Module  Behavior isdefined to complete responsibility of the CircuitModule. The behavior is often specified throughcollaboration with outside of this class and state model.Because this class has services to access internalattributes, it defines no collaboration. Also this classdefines no state model for it is stateless.9.5.2 Die  This class represents a semiconductor diefabricated on wafer. It doesnt matter how it appears: onthe way of fabrication on a wafer, diced and mountedon some substrate or it is packaged. As long as it isfabricated through semiconductor process or equivalentprocess, it must be a die regardless of base material. Diedoesnt aggregate the other Circuit Modules and it isnot aggregated by the other Die. In these senses, dicefor gallium arsenide devices, linear image sensors andflat panel display (FPD) devices are examples of thedie.9.5.2.1 Die Class Definition  Die inherits CircuitModule. Class definition of the Die is almost same asone for Circuit Module except it may not have a serviceshowDaughter. Even if the service is implemented, itreturns error or no daughter Circuit Modules.9.5.3 Mother Substrate  This class is a CircuitModule which may consist of one or more the otherCircuit Modules. Silicon wafers, lead flames, IC traysand print circuit boards (PCBs) are examples of MotherSubstrate. Because it is a derived class of CircuitModule to exclude the Die class, it must be the MotherSubstrate as long as it is used for the purpose, even if it
+
+</PdfSplitView>

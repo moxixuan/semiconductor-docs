@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/039.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 039"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/039.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/039.pdf">
+
+---
+title: "SEMI Standards - Chapter 039"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 039"
+sidebar_position: 39
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-039.pdf'
+  chapter: 39
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E54.3-0698 © SEMI 1998, 2004 6 8.2.2.1 Device Type  An attribute which uni
 &lt;!-- Page 50 --&gt;
 
 SEMI E54.3-0698 © SEMI 1998, 20047 8.4.1 Sensor-AI-MF Object AttributesTable 7 Sensor-AI-MF Object Attributes Attribute Name AttributeIdentifier Access Network Required Form Flow Totalizer A1 RW No REALFlow Hours A2 R No ULINTZero Offset Mode A5 RW No Enumerated ByteZeroing Status A6 R No Enumerated ByteAutorange Status A7 R No Enumerated ByteReserved A8A64   Reserved for future expansionManufacturer-Specified &gt; A64   Manufacturer-Specific attributes 8.4.1.1 Flow Totalizer (Optional)  An attribute that maintains the volume of gas in standard cubic centimeters(SCC) that has flowed through the device since the last time the flow totalizer attribute value was set to zero.8.4.1.2 Flow Hours (Optional)  An attribute which identifies the number of hours that the device has beenflowing gas since the last time the flow hours attribute value was set to zero, as specified by the manufacturer. Theattribute is an unsigned long integer with a resolution of 1 hour.8.4.1.3 Zero Offset Mode (Optional)  An attribute which specifies the zero offset formula to be applied toproduce the value attribute. This attribute is an enumerated byte that can take on one of the following values:0 = Disable1 = Enable Application of Formula2 = Enable Automatic Zeroing363 = Reserved64255 = Manufacturer-Specified8.4.1.4 Zeroing Status (Optional)  An attribute which specifies whether the object is in the ZEROING substate.This attribute is an enumerated byte that can take on one of the following values:0 = Not Zeroing1 = Zeroing8.4.1.5 Autorange Status (Optional)  An attribute which specifies whether the object is in the AUTORANGINGsub-state. This attribute is an enumerated byte that can take on one of the following values:0 = Not Autoranging1 = Autoranging8.4.1.6 Initial and Default ValuesTable 8 Sensor-AI-MF Object Attributes Initial and Default ValuesAttribute Initial Value Default Value CommentFlow Totalizer LVV 0Flow Hours LVV 0Zero Offset Mode LVV DisableZeroing Status Not Zeroing Not ZeroingAutorange Status LVV Not Autoranging 8.4.2 Sensor-AI-MF Object Services  The services provided by the Sensor-AI-MF object instance are defined inSEMI E54.1. The Sensor-AI-MF object supports the additional services listed below.8.4.2.1 All Gas Correction services are optional. Gas correction may be handled within the device as a pre-assignedgas calibration or may not be implemented at all. If these services are available, it is manufacturer-specific as to
+
+</PdfSplitView>

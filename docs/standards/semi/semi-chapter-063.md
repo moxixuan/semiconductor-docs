@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/063.pdf"
   pdfSize="N/A"
   title="E125-0305 - © SEMI 2003, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/063.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/063.pdf">
+
+---
+title: "E125-0305 - © SEMI 2003, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "E125-0305 - © SEMI 2003, 2005..."
+sidebar_position: 63
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-063.pdf'
+  chapter: 63
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E125.1-0305 © SEMI 20053 Table 40 SEMI E125 EnumeratedInteger  EnumeratedI
 &lt;!-- Page 50 --&gt;
 
 SEMI E125.1-0305 © SEMI 2005 4 1 Purpose1.1 SOAP Implementation Mapping1.1.1 The purpose of this specification is to provide an implementation mapping of the SEMI E125 specification tothe SOAP 1.1 protocol. This document provides a description of the XML Schema data types used to support theUML classes defined in SEMI E125, and also describes the WSDL port type and binding definitions used to supportthe operations defined by the interfaces specified in SEMI E125. 2 Scope2.1 Specification Scope2.1.1 The scope of this specification is the representation of the EqSD model in an XML Schema and correspondingWSDL port types and bindings. It will not add new domain information or concepts to the SEMI E125 model. Theonly additions made are those needed to render useful WSDL or XML Schema.2.1.2 This specification requires SEMI E132 authentication, and defines requirements for the application of SEMIE132 concepts to the SEMI E125 specification.NOTICE: This standard does not purport to address safety issues, if any, associated with its use. It is theresponsibility of the users of this standard to establish appropriate safety and health practices and determine theapplicability of regulatory or other limitations prior to use. 3 Limitations3.1 Provisional Specification3.1.1 This specification is provisional pending the approval of the SEMI E138, SEMI E120.1 and SEMI E132.1.This specification relies on XML Schema types defined by each of these specifications, and cannot be fullyimplemented without these types. Finalization of these specifications is a condition for the removal of theprovisional status of this document.3.1.2 This specification is provisional pending approval of the SEMI specification for Units for the SemiconductorIndustry. This specification relies on the unit of measure symbols defined in that specification. Finalization of thisspecification is a condition for the removal of the provisional status of this document. 4 Referenced Standards4.1 SEMI StandardsSEMI E121  Guide for Style & Usage of XML for Semiconductor Manufacturing ApplicationsSEMI E120.1  XML Schema for the Common Equipment ModelSEMI E132.1  Specification for SOAP Binding of Equipment Client Authentication and AuthorizationSEMI E125  Specification for Equipment Self Description (EqSD)4.2 OMG Standards1 Unified Modeling Language (UML) Specification, Version 1.4, OMG Specification 01-09-67,(http://www.omg.org/technology/documents/modeling\_spec\_catalog.htm)4.3 W3C Standards2 Extensible Markup Language (XML) 1.0 (Second Edition)  W3C, 6 October 2000(http://www.w3.org/TR/2000/REC-xml-20001006/) 1 Object Management Group, Inc., 250 First Ave. Suite 100, Needham, MA 02494, USA, Telephone:1.781.444.0404, Fax: 1.781.444.0320,website: www.omg.org.2 World Wide Consortium, Massachusetts Institute of Technology (MIT) Computer Science and Artificial Intelligence Laboratory (CSAIL), 32Vassar Street Room 32-G515, Cambridge, MA 02139, USA Telephone: 1.617.253.2613 Fax: 1.617.258.5999, website: www.w3c.org.
+
+</PdfSplitView>

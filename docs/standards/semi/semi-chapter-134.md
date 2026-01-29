@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/134.pdf"
   pdfSize="N/A"
   title="C27-0301 - © SEMI 1978, 2001HYDROCHLORIC..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/134.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/134.pdf">
+
+---
+title: "C27-0301 - © SEMI 1978, 2001HYDROCHLORIC..."
+description: "SEMI标准文档"
+sidebar_label: "C27-0301 - © SEMI 1978, 2001HYDROCHLORIC..."
+sidebar_position: 134
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-134.pdf'
+  chapter: 134
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C36-0705 © SEMI 1981, 20057 10.5.1.1 Special Reagents10.5.1.1.1 Phosphoric
 &lt;!-- Page 50 --&gt;
 
 SEMI C36-0705 © SEMI 1981, 2005 8 Previous SEMI Reference # C1.13-96, C1.27-96 C7.24-0697Grade 1 Grade 2 Grade 3(Specification) (Specification) (Specification)Arsenic (As) 0.05 ppm max 50 ppb max 50 ppb maxBarium (Ba) -- -- 50 ppb maxBoron (B) -- -- 50 ppb maxCadmium (Cd) -- 450 ppb max 50 ppb maxCalcium (Ca) 1.5 ppm max 1100 ppb max 150 ppb maxChromium (Cr) 0.2 ppm max 200 ppb max 50 ppb maxCobalt (Co) 0.05 ppm max 50 ppb max 50 ppb maxCopper (Cu) 0.05 ppm max 50 ppb max 50 ppb maxGold (Au) 0.3 ppm max 150 ppb max 50 ppb maxIron (Fe) 2.0 ppm max 700 ppb max 100 ppb maxLead (Pb) 0.3 ppm max 300 ppb max 50 ppb maxLithium (Li) 0.1 ppm max 100 ppb max 10 ppb maxMagnesium (Mg) 0.2 ppm max 200 ppb max 50 ppb maxManganese (Mn) 0.1 ppm max 100 ppb max 50 ppb maxNickel (Ni) 0.2 ppm max 200 ppb max 50 ppb maxPotassium (K) 1.5 ppm max 450 ppb max 150 ppb maxSilicon (Si) -- -- 50 ppb maxSodium (Na) 2.5 ppm max 500 ppb max 250 ppb maxStrontium (Sr) 0.1 ppm max 100 ppb max 10 ppb maxTitanium (Ti) 0.3 ppm max 300 ppb max 50 ppb maxZinc (Zn) 2.0 ppm max 400 ppb max 50 ppb maxParticles in bottles:size, #/mL(See #1) (See #1) (See #1)#1 Due to the limitations of current particle counters, particle size and number areto be agreed upon between supplier and user.See SEMI C1, Calibration and Measurement Method for Particles in Liquids. NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for anyparticular application. The determination of the suitability of the standard is solely the responsibility of the user.Users are cautioned to refer to manufacturer's instructions, product labels, product data sheets, and other relevantliterature, respecting any materials or equipment mentioned herein. These standards are subject to change withoutnotice.By publication of this standard, Semiconductor Equipment and Materials International (SEMI) takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any items mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

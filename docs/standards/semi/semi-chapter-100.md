@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/100.pdf"
   pdfSize="N/A"
   title="M11-0704 - © SEMI 1988, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/100.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/100.pdf">
+
+---
+title: "M11-0704 - © SEMI 1988, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "M11-0704 - © SEMI 1988, 2004..."
+sidebar_position: 100
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-100.pdf'
+  chapter: 100
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M13-1103 © SEMI 1988, 200311
 &lt;!-- Page 50 --&gt;
 
 SEMI M13-1103 © SEMI 1988, 2003 12 NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein for anyparticular application. The determination of the suitability of the standard is solely the responsibility of the user.Users are cautioned to refer to manufacturer's instructions, product labels, product data sheets, and other relevantliterature, respecting any materials or equipment mentioned herein. These standards are subject to change withoutnotice.By publication of this standard, Semiconductor Equipment and Materials International (SEMI) takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any items mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights are entirely their own responsibility.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/057.pdf"
   pdfSize="N/A"
   title="E102-0600 - © SEMI 20009 #Current..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/057.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/057.pdf">
+
+---
+title: "E102-0600 - © SEMI 20009 #Current..."
+description: "SEMI标准文档"
+sidebar_label: "E102-0600 - © SEMI 20009 #Current..."
+sidebar_position: 57
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-057.pdf'
+  chapter: 57
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E102-0600 © SEMI 200057 RELATED INFORMATION 2LOGICAL PARTITION STORAGE NOT
 &lt;!-- Page 50 --&gt;
 
 SEMI E105-0701 © SEMI 2000, 20011 SEMI E105-0701PROVISIONAL SPECIFICATION FOR CIM FRAMEWORK SCHEDULINGCOMPONENT This specification was technically approved by the Global Information & Control Committee and is the directresponsibility of the North American Information & Control Committee. Current edition approved by theJapanese Regional Standards Committee on February 1, 2001. Initially available at www.semi.org April2001; to be published July 2001. Originally published October 2000. 1 Purpose1.1 The Scheduling Component su pports FactoryOperations, Material Transport and Storage, ProductionMachine, and Equipment Tracking and Maintenancecomponents by ordering, in time, jobs that processmaterial on equipment, move material, and maintainequipment. The scheduler uses knowledge of productdemand, equipment and material state, process flows,throughput bottlenecks, operational policy andconstraints, and other information to recommend jobsthat maximize effective utilization of factory resourcesto satisfy product demand and planned objectives.1.2 Increased control over operatio ns requires anactive Scheduling Component that can respond tofactory events and changes in state and dynamicallyadjust the schedules for material processing, materialtransport and equipment maintenance. The SchedulingComponent can react to inventory levels of material inthe factory to adjust priorities to minimize queue sizesand ensure that use of bottleneck equipment is opti-mized to keep WIP inventory levels at desired levels.1.3 The Scheduling Component ca n minimize turnaround time (TAT) by coordinating material transport(for substrates and durables) with processing to reduceequipment idle time. The Scheduling Component cansequence activities to minimize setup time. It can alsorespond to scheduled and unscheduled equipmentdown-time to minimize impact on turn around time. Inaddition to minimizing overall TAT, it can react to thepriorities for urgent lots to move them through theprocess flow in the minimum possible time whileadjusting the schedules of lower-priority lots that areimpacted. 2 Scope2.1 The primary run-time responsi bilities of theScheduling Component are to monitor resource andmaterial state and apply scheduling and dispatchingdecision mechanisms to identify the next activity(dispatching) or sequence of activities (scheduling) forfactory resources. The Scheduling Component includesan interface that supports both scheduling anddispatching. Figure 1 illustrates the interactionsbetween the Scheduling Component and other components of the CIM Framework. This illustrationdoes not reflect all of the many inputs to the SchedulingComponent that are required to provide it with thecurrent status of the factory resources.2.2 As described in this standard, the SchedulingComponent produces activity option and activityforecast lists. These lists are produced by combiningthe factory model and status information from othercomponents with scheduling policies in the SchedulingComponent. For example, the Scheduling Componentcombines data from the Specification Component onhow products are made with status data from theEquipment and Product Management Components togive activity options for a machine.2.3 The Factory Operations Comp onent uses theScheduling Component services to orchestrate the man-agement of machines and production of lots. For exam-ple, when a tool becomes available, Factory Operationsuses the Activity Options list to select the next lot toprocess on the tool. Factory Operations then workswith other components to execute the production job forthe lot on the machine. Executing the production jobchanges the state of lot and tool in other components.These status changes are then used by the SchedulingComponent when it produces new activity lists.2.4 The Scheduling Manager supp orts FactoryOperations by providing an answer to questions like,What is next for this material or resource? Theanswer may be based on evaluation of current or futureconstraints and objectives. Although the dispatcher'soutput takes the form of a decision for the next activityfor the target resource, the interface may also supportmanual scenarios by providing a list of prioritizedactivities from which the decision is selected.2.5 The Scheduling Manager inter face also providesforecasts of future activities projected to occur after thenext activity. By simulating anticipated future activitysequencing and execution timing the scheduler cangenerate forecasts that predict future responses from thedispatcher for subsequent requests. These forecasts aresubject to change as factory conditions change, but theyoffer the best current projection of future activitydecisions.
+
+</PdfSplitView>

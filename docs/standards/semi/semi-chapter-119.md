@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/119.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 119"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/119.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/119.pdf">
+
+---
+title: "SEMI Chapter 119"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 119"
+sidebar_position: 119
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-119.pdf'
+  chapter: 119
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P41-0304E © SEMI 20049 InspectionResultSummaryInspectionSummary (beginning
 &lt;!-- Page 50 --&gt;
 
 SEMI P41-0304E © SEMI 2004 10 + Defect (defect\_type,date\_stamp)DefectInformation (origin) DefectPosition\_XDefectPosition\_YDefectSize (unit) DefectSize\_YDefectSize\_X DefectJudgement+ ImageData DefectPosition (unit) + DefectRepair (date\_stamp)RepairRecipe (recipe\_name)RepairConditionRepairResult+ ImageData + DefectEvaluate (date\_stamp)EvaluateRecipe (recipe\_name)EvaluateConditionEvaluateResult+ ImageData subsequent structures are in Figure 7. subsequent structures are in Figure 7. subsequent structures are in Figure 7.Figure 4Structure of Each Defect Section
+
+</PdfSplitView>

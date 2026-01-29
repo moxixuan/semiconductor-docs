@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/107.pdf"
   pdfSize="N/A"
   title="M48-1101 - © SEMI 2001 11..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/107.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/107.pdf">
+
+---
+title: "M48-1101 - © SEMI 2001 11..."
+description: "SEMI标准文档"
+sidebar_label: "M48-1101 - © SEMI 2001 11..."
+sidebar_position: 107
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-107.pdf'
+  chapter: 107
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M52-0703 © SEMI 2002, 200313 Item Recommended Specification Comments Refer
 &lt;!-- Page 50 --&gt;
 
 SEMI M53-1103 © SEMI 20031 SEMI M53-1103PRACTICE FOR CALIBRATING SCANNING SURFACE INSPECTIONSYSTEMS USING DEPOSITIONS OF MONODISPERSE POLYSTYRENELATEX SPHERE ON UNPATTERNED SEMICONDUCTOR WAFERSURFACES This practice was technically approved by the Global Silicon Wafer Committee and is the directresponsibility of the North American Silicon Wafer Committee. Current edition approved by the NorthAmerican Regional Standards Committee on July 25, 2003. Initially available at www.semi.org October2003; to be published November 2003. Originally published March 2003. 1 Purpose1.1 Calibration of a scanning surface inspection system(SSIS) using a deposition of polystyrene latex (PSL)spheres as a known source of scatter signal is anecessary step in matching the responses of SSISs.However, the measured amplitude of the light scattersignal depends on both the characteristics of the SSISand the characteristics of the scatter source. The use ofa deposition of polystyrene latex (PSL) spheres (seeSection 5.3.4) as a known source of scatter signalallows meaningful comparisons to be made betweenscatter signals from PSL spheres as measured by darkfield detection systems of different designs. On theother hand, calibration with PSL spheres alone does notguarantee meaningful performance comparisons to bemade between dark field detection SSISs of the same ordifferent designs when detecting either real particles ofmaterials different from PSL spheres or other surfacedefects.1.2 This practice describes calibration of SSIS darkfield channels so that the SSIS accurately sizes PSLspheres deposited on unpatterned polished, epitaxial, orfilmed semiconductor wafer surfaces (see RelatedInformation 1).1.3 This practice defines the use of latex sphereequivalent (LSE) signals as a means of reporting realsurface defects whose identity and true size areunknown.1.4 This practice provides a basis for quantifying SSISperformance as used in related standards concernedwith parameters such as sensitivity, repeatability andcapture rate. 2 Scope2.1 This practice covers Requirements for the surface and othercharacteristics of the semiconductor substrates onwhich the PSL spheres are deposited to formreference wafers (see Section 8.1),  Selection of appropriate certified depositions ofPSL spheres for SSIS calibration (see Section 8.2), Size distribution requirements to be met by thePSL sphere depositions (but not the depositionmethod), and Multipoint calibration procedures for dark fieldchannels.2.2 Appendix 1 covers a single-point calibrationprocedure that may be used in limited productionapplications.2.3 PSL spheres from 10 m to the smallest size thatcan be detected by the SSIS being calibrated can beused in this practice.NOTE 1: At the time of development of this edition of thepractice, the smallest practical deposited PSL spheres havediameters approaching 30 nm, but as IC technology evolves tosmaller and smaller critical dimensions it is expected thatdepositions of smaller diameter PSL spheres will becomeavailable.2.4 Background information to enable anunderstanding of the need for the various requirementsimposed on the PSL sphere depositions is provided inRelated Information 1.2.5 Both the deposition process and calibrationprocedures must be carried out in a Class 4 or betterenvironment as defined in ISO 14644-1.NOTE 2: ISO class 4 is approximately the same as ClassM2.5 (Class 10) as defined in Federal Standard 209E.2.6 Although it was developed primarily for use inevaluation of SSISs to be used for detection of localizedlight scatterers (LLSs) on polished silicon wafers withgeometrical characteristics as specified in SEMI M1,this practice can be applied to SSISs to be used fordetection of LLSs on other unpatterned semiconductorsurfaces provided that suitable reference wafers areemployed.2.7 This practice does not in any way attempt to definethe manner in which LSE values are used to define the
+
+</PdfSplitView>

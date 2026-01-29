@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/036.pdf"
   pdfSize="N/A"
   title="E42-0704 - © SEMI 1995, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/036.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/036.pdf">
+
+---
+title: "E42-0704 - © SEMI 1995, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E42-0704 - © SEMI 1995, 2004..."
+sidebar_position: 36
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-036.pdf'
+  chapter: 36
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E42-0704 © SEMI 1995, 2004 68 10.2.1.1 Attribute Read/Write  The DRNS dist
 &lt;!-- Page 50 --&gt;
 
 SEMI E42-0704 © SEMI 1995, 200469 The object specifier for an object owned by a DRNSmanager is formed by concatenating the object type andidentifier for either the manager or the namespace,followed by the object type and identifier of eachowned object in the ownership hierarchy. An exampleof the object specifier for a recipe XYZ;3 stored byDRNS segment ABC\_Etch\_Seg within the distributedrecipe namespace WetEtch003 would be:"RNSD:WetEtch003&gt;RNSDSegment:ABC\_Etch\_Seg&gt;MRcp:XYZ;3"If an agent or a DRNS segment is specified, then theDRNS manager shall delegate the operation to the thatsegment. Otherwise, the operation shall be delegated toa master segment.A request to set one or more read-write attributes of arecipe is treated by the DRNS manager as a changerequest. 10.3.2 Delete Distributed Recipe Namespace  Adistributed recipe namespace with attachments may notbe deleted.The delete distributed recipe namespace operation isinvoked by the service RMNDeleteNS defined inSection 9.2.2. 10.3.3 Attach and Detach Supervised Objects  Thissection defines the support required for the authorizeduser to request a DRNS manager to attach or detach oneor more segments or a recorder. The operations andservices are defined in detail in SEMI E39 (OSS).10.3.3.1 Attach Supervised Object  The attachsupervised object operation is invoked by anauthorized user to request the DRNS manager to attacha specified unattached segment or recorder.When a request to attach a supervised object isaccepted, the DRNS manager sends an attach or detachrequest to the specified object.The DRNS manager shall have the capability ofmanaging at least one attached dedicated and oneattached master segment at a time. At most, onerecorder shall be attached to a DRNS manager at anygiven time.Once attached, the segment or recorder becomes aformal part of the namespace and is owned by themanager.When adding attachments to a DRNS manager, therecorder should be added first, so that it may be used torecord the segments as they are subsequently attached.When the distributed recipe namespace managerreceives a request to attach a segment, it sends thatrequest to the specified segment. If the operation issuccessful, and if a recorder is attached, the manager requests the distributed recipe namespace recorder torecord the segment specifier (the object specifier for thesegment). If the agent providing the segment is notalready in the namespace attribute Members, it is addedat this time.The operation of attaching a recorder shall set thedistributed recipe namespace attribute Recorder to thevalue of the recorder's attribute ObjID. The operationof attaching a segment shall add the segment specifierto the Segments attribute of the distributed recipenamespace.When a recorder is attached, all subsequent operationsthat attach and detach segments shall update therecorder through its operations to add and remove arecord of the segment.Specifiers used in the namespace attributes Recorderand Segments, and segment specifiers stored in theDRNS recorder, shall use the form including thespecifier for the agent providing the capability for therecorder or segment. This is required for identificationoutside the scope of the current namespace. Forexample, if it later becomes necessary to rebuild thedistributed recipe namespace, then the segment must belocated through its agent owner rather than through thenamespace. 10.3.3.2 Detach Supervised Object  An attachedsegment or recorder may be detached at any time. Themanager forwards the request to the specified object.When a segment is detached, if a recorder is attached,then the manager requests the recorder to remove thesegment that is being detached.The user may request a DRNS manager to detach anattached recorder or segment at any time. When arecorder is detached, the distributed recipe namespaceattribute Recorder shall be set to a null value. When asegment is detached, its specifier is removed from anyattached recorder and from the Segments attribute ofthe distributed recipe namespace. 10.3.4 Change Request Management  A changerequest occurs whenever the DRNS manager receivesany request, from any source, to change a recipe or thecontents of the distributed recipe namespace as awhole. This includes requests to change the recipeidentifier, a generic attribute, an agent-specificattribute, or the body of an existing recipe. It alsoincludes all changes that affect the set of recipeidentifiers within the distributed recipe namespace.Requests for changes may come from a source that iseither internal or external to the namespace. 10.3.4.1 External Change Requests  The DRNSmanager may receive a request, through recipe
+
+</PdfSplitView>

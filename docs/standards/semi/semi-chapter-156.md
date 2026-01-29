@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/156.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 156"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/156.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/156.pdf">
+
+---
+title: "SEMI Chapter 156"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 156"
+sidebar_position: 156
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-156.pdf'
+  chapter: 156
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI T12.2-0704 © SEMI 2004 28 XML Message Schema Name: T12ShowStateResponseHbf
 &lt;!-- Page 50 --&gt;
 
 SEMI T12.2-0704 © SEMI 200429 XML Message Schema Name: T12UpdateHistoryResponseHbf.xsd for HistoryBuffer Class XML Message Schema Name: T12AdoptRequestHdb.xsd for HistoryDB Class XML Message Schema Name: T12AdoptResponseHdb.xsd for HistoryDB Class
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/147.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 147"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/147.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/147.pdf">
+
+---
+title: "SEMI Standards - Chapter 147"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 147"
+sidebar_position: 147
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-147.pdf'
+  chapter: 147
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF1391-0704 © 20041 SEMI MF1391-0704TEST METHOD FOR SUBSTITUTIONAL ATOMIC 
 &lt;!-- Page 50 --&gt;
 
 SEMI MF1391-0704 © 2004 22 3.3 Spectrophotometer technique is critical to asuccessful carbon determination. The manufacturer'sinstrument instruction manuals should be studied tofamiliarize the operator with the proper use of thespectrometer. Since the transmittance at the carbonpeak can be very low, while the transmittance at thebaseline regions is about 40%, extremely goodphotometric linearity is critical. Wavenumber precisionis also critical because the carbon peak lies on theshoulder of a very intense lattice absorption band.3.4 The FWHM of the carbon absorption band at roomtemperature must be less than 6 cm1 for acceptablemeasurements. At cryogenic temperatures (below 80K), it must be less than 3 cm1 for acceptablemeasurements. Excessive width may be due toimproper thickness matching, to stress, or to the use ofa low resolution setting of the instrument. In dispersiveinstruments, excessive widths can also result fromincorrect instrument balance setting or too fast a scanspeed. In Fourier transform instruments, excessivewidths can result from the use of a source-definingaperture that is too wide.3.5 Specimens that do not exceed the instrument beamsize cause error. Use of apertures at the sample, orpreferably beam condensers to reduce the beam size atthe sample, can correct this problem.3.6 The main two-phonon lattice band of silicon, atabout 610 cm1 (16 m), is very intense; the absorptioncoefficient for this band is about 9 cm1 at roomtemperature, and about 5 cm1 at 78 K.2 This broadband peak is close to the wavelength of the carbon-in-silicon band and so presents a problem in measuring theintensity of the carbon band.3.7 Reference and test slices must be as close aspractically possible to the same temperature to avoidthe effects of temperature on the intensity of the latticeband.3.8 The minimum detection level of this test method islimited by the signal-to-noise ratio of the spectrum.Thus attaining the highest possible sensitivity by thistest method requires long measurement times and stablespectrophotometers.3.9 Free carrier absorption in silicon specimens withresistivities less than 3 Ωcm for p-type, or 1 Ωcm forn-type, reduces the available energy below the levelrequired for satisfactory operation of mostspectrophotometers.3.10 For samples at cryogenic temperatures (below 80K), plane parallel, polished surfaces may causeinterference fringes on the spectrum. Increasing the 2 Johnson, F. A., Proc. Physics Society 73, 265272 (1959). sample thickness or inducing a wedge (non-flatness) inthe sample reduces these interference fringes. 4 Referenced Standards4.1 SEMI StandardSEMI MF1241  Terminology of Silicon Technology4.2 ASTM StandardE 131  Terminology Relating to MolecularSpectroscopy3 NOTICE: Unless otherwise indicated, all documentscited shall be the latest published versions. 5 Terminology5.1 General definitions for terms related to infrared ab-sorption spectroscopy are found in ASTM TerminologyE 131.5.2 Definitions for terms related to silicon materialstechnology are found in SEMI MF1241.5.3 Definitions5.3.1 background spectrum, n  in FT-IR instruments,the single-beam spectrum obtained without a specimenin the infrared light path that is usually obtained withonly nitrogen, dry air, or a vacuum in the beam.5.3.2 baseline, n  a straight line interpolationbetween points on either side of the carbon peak of theabsorbance spectrum, drawn to represent the spectrumthat would have been obtained in the absence of theimpurity.5.3.3 baseline absorbance, n  the value of thebaseline at the wavenumber corresponding to thecarbon peak that is used for evaluating the absorbancepeak height.5.3.4 Fourier transform infrared (FT-IR) spectrometer,n  type of infrared spectrometer in which the data areobtained as an interferogram.5.3.4.1 Discussion  An interferogram is a record ofthe modulated component of the interference signalmeasured by the detector as a function of retardation inthe interferometer. This interferogram is then subjectedto a Fourier transformation to obtain an amplitude-wavenumber (or wavelength) spectrum. FT-IRinstruments are always used in conjunction with acomputer to control the interferometer, collect andmanipulate the data, and for spectral output. 3 Annual Book of ASTM Standards, Vol 03.06, ASTM International,100 Barr Harbor Drive, West Conshohocken, PA 19428. Telephone:610-832-9500, Fax: 610-832-9555, Website: www.astm.org
+
+</PdfSplitView>

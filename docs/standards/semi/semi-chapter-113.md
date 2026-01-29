@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/113.pdf"
   pdfSize="N/A"
   title="P10-0705 - © SEMI 1990, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/113.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/113.pdf">
+
+---
+title: "P10-0705 - © SEMI 1990, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "P10-0705 - © SEMI 1990, 2005..."
+sidebar_position: 113
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-113.pdf'
+  chapter: 113
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P10-0705 © SEMI 1990, 2005 144 8.1.645 SHIP\_FIRST\_POSTPELL\_DIE\_DIE\_MA
 &lt;!-- Page 50 --&gt;
 
 SEMI P10-0705 © SEMI 1990, 2005145 8.1.668 SHIP\_TRAVELER  (T or F) If T, requires delivery of mask traveler document to the customer.8.1.669 SHIPPING\_ADDRESS  Address for delivery of masks.8.1.670 SHIPPING\_CONTACT  Name of person to receive masks.8.1.671 SHIPPING\_EMAIL  Internet address for SHIPPING\_CONTACT.8.1.672 SHIPPING\_FAX  Phone number for facsimile machine of SHIPPING\_CONTACT.8.1.673 SHIPPING\_PHONE  Phone number for SHIPPING\_CONTRACT.8.1.674 SHIPPING\_METHOD  Transportation method for masks, including special arrangements for off-hoursand weekends.8.1.675 SHIPPING\_METHOD\_USED  Transportation method used to deliver masks.8.1.676 SIZING  (n) The amount to increase or decrease the width and height of all geometry within a patternwhile fracturing. (n) is in microns and can be negative, indicating a decrease. Note that (n) results in a one-sidedchange in feature size.8.1.677 SIZING\_BORDER\_RULE  (FIT, INSIDE, OUTSIDE and others on request) Describes methodology forapplying SIZING at the borders of the output file and the effect on the final dimensions of the output file.8.1.678 SIZING\_RULE  (SQUARE, PARAGON, EXTEND, OCTAGON and others on request) Describesmethodology for applying SIZING around corners.8.1.679 SO\_NUMBER  Alphanumeric sales order number.8.1.680 SOFTWARE\_NAME  Name of the software program, not the brand (e.g., MaskRigger or MaskWeaver,not MaskTools). If, for a given function\_purpose, multiple software\_program names appear, then they arealternative software tools to achieve the desired outcome.8.1.681 SOFTWARE\_REVISION  (text, including OR HIGHER) Revision identification, per softwarevendors nomenclature.8.1.682 START\_BARCODE  (text) name of barcode.8.1.683 START\_BILLING\_INFORMATION  (text) name of .8.1.684 START\_CD  Indicates beginning of . Alphanumeric data field identifies the collection toestablish which collections are hierarchically affected by another. The appearance of a at a lowerlevel in the hierarchy supercedes the entire at a higher level in the hierarchy if and only if it has thesame START\_CD data field.8.1.685 START\_CD\_GROUP\_MEASUREMENTS  (text) name of .8.1.686 START\_CD\_ISO\_DENSE  (text) name of .8.1.687 START\_CD\_ISO\_DENSE\_RESULTS  (text) name of .8.1.688 START\_CD\_MEASUREMENT  (text) name of .8.1.689 START\_CD\_SET  Indicates beginning of . Alphanumeric data field identifies the collection toestablish which collections are hierarchically affected by another. The appearance of a at a lower level inthe hierarchy supercedes the entire at a higher level in the hierarchy if and only if it has the sameSTART\_CD data field.8.1.690 START\_CD\_SET\_RESULTS  (text) name of .8.1.691 START\_CD\_XY\_DEFINITION  (text) name of .8.1.692 START\_CD\_XY\_RESULTS  (text) name of .8.1.693 START\_CLOSURE\_MEASUREMENTS  (text) name of 8.1.694 START\_COATING  (text) name of .8.1.695 START\_DATA\_FRACTURE  (text) name of group.
+
+</PdfSplitView>

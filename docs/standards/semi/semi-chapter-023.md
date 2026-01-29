@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/023.pdf"
   pdfSize="N/A"
   title="E5-1104 - © SEMI 1982, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/023.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/023.pdf">
+
+---
+title: "E5-1104 - © SEMI 1982, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E5-1104 - © SEMI 1982, 2004..."
+sidebar_position: 23
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-023.pdf'
+  chapter: 23
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E5-1104 © SEMI 1982, 200491 Stream,Function Name (Mnemonic) DirectionS3,F1
 &lt;!-- Page 50 --&gt;
 
 SEMI E5-1104 © SEMI 1982, 2004 92 Stream,Function Name (Mnemonic) DirectionS3,F22 Port Group Definition Acknowledge S,H&lt;-EDescriptionThis message acknowledges the port group definitionStructureL,21. 2\. L,n1. L,21. 2\. ..n. L,21. 2\. ExceptionIf n = 0, no errors exist. Stream,Function Name (Mnemonic) DirectionS3,F23 Port Group Action Request S,H-&gt;E, replyDescriptionThis message requests an action be performed for a port group. The access mode may be changed or the port group may bedeleted.StructureL,31. 2\. 3\. L,m1. L,21. 2\. ..m. L,21. 2\. ExceptionIf m = 0, then no parameters are provided.
+
+</PdfSplitView>

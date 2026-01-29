@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/046.pdf"
   pdfSize="N/A"
   title="E58-0703 - © SEMI 1997, 2003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/046.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/046.pdf">
+
+---
+title: "E58-0703 - © SEMI 1997, 2003..."
+description: "SEMI标准文档"
+sidebar_label: "E58-0703 - © SEMI 1997, 2003..."
+sidebar_position: 46
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-046.pdf'
+  chapter: 46
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E81-0600 © 1999, 2000 36 B&lt;\&gt;C&lt;\&gt; A&lt;\&gt; Associ atio n C l
 &lt;!-- Page 50 --&gt;
 
 SEMI E81-0600 © 1999, 200037 Bank Customer : B ATM : A 1: requestSession( ) 2: requestIdentification( ) 3: provideIdentificati on(idNum ber) 4: verifyIdentification( ) Figure 24Component Interaction Model Example Sta te NameComposite StateState 1 State 2State 1 State 2s tate transi ti on entry poi nt Figure 25State Diagram 7.4.3.5.3.2 Table 1 provides a detailed description ofeach object state and identifies the query mechanism fordetermining if the object is in that state. Given theexample provided in this section, an entry in the StateDefinitions and Query Table would appear as shown.7.4.3.5.4 Object State Transition Tables7.4.3.5.4.1 Another supplement to the stat e model isthe Object State Transition Table (Table 2).7.4.3.5.4.2 It lists the transition from the s tate diagramidentified by the starting and ending states, and theevent that causes the transition between these states.7.4.3.5.4.3 Within the CIM Framework sp ecification,only those triggers and state changes relevant to external interfacing are shown to help define how anexternal entity (in this case a driver) interoperates withan object (in this example an automobile).7.4.3.5.4.4 While this table defines trigge rs for statetransitions, there is no guarantee that the transition willtake place in response to the trigger. In the aboveexample, if the car is out of gas the engine will not goto the running state; if the light is burned out, it will nottransition to the on state; depressing the acceleratorpedal when the auto is in the off state will have noeffect, etc. In the CIM Framework, object state can bequeried to ensure successful transitioning in response toa triggering message. Events are also used in somecases to inform the client of a transition or change ofstate.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/144.pdf"
   pdfSize="N/A"
   title="S22-1103a - © SEMI 2003, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/144.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/144.pdf">
+
+---
+title: "S22-1103a - © SEMI 2003, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "S22-1103a - © SEMI 2003, 2005..."
+sidebar_position: 144
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-144.pdf'
+  chapter: 144
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI ME1392-0305 © SEMI 2003, 2005 8 7 Procedure7.1 Sample cleanliness can be a
 &lt;!-- Page 50 --&gt;
 
 SEMI ME1392-0305 © SEMI 2003, 20059 9.5 Related Information 3 provides a reporting format suggested for use. This format is general in nature andallows for variation of any sample or system parameters. 10 Precision and Bias10.1 Precision  The precision of the procedure outlined in this guide is inconclusive based on the results of aninterlaboratory round robin conducted in 1988.8 This round robin was conducted at a single wavelength (632.8 m),angle of incidence (10°), polarization state (s incident) and with four specific sample surfaces. It was found thatprecision depends on the BRDF level and scatter angle.9 Additional information on precision was accumulated in a10.6 m round robin conducted in 1989.10 10.1.1 A white diffuse sample with mean BRDF = 0.27/sr gave a fractional deviation (standard deviation of the 18measurement sets divided by the mean BRDF) close to 17% at scatter angles from 15 to 70°. A black diffusesample with mean BRDF = 0.01/sr gave fractional deviations from 24 to 39% depending on scatter angle. Specularmirrors gave fractional deviations from 31 to 134% depending on scatter angle. Variations were larger at largescatter angles where detector noise levels of some instruments and errors ins had a large effect. These variationsare much larger then expected from a typical error analysis.10.2 Bias  There is no bias inherent in this practice. BRDF is a number derived from the ratio of physicalparameters that can be specified in absolute units. However, individual laboratories may have measurement errorsthat lead to systematic offsets, such as an inaccurately measured solid angle. Other possible mechanisms arediscussed in the literature. 9 It is not possible at this time to separate these systematic errors from bias; however,intralaboratory measurements on the same instrument typically repeat within 5%.7 11 Keywordsbidirectional reflectance distribution function (BRDF); diffuse; irradiance; power spectrum; radiance; reflectance;reflectance factor; roughness; scatter; specular; total integrated scatter 8 Leonard, Thomas A. and Pantoliano, Michael, BRDF Round Robin, Proceedings SPIE 967, 226 (1988).9 Leonard, Thomas A., The Art of Optical Scatter Measurement, Proceedings, Laser Induced Damage in Optical Materials: 1988 Symposium,Special Publication 775 (National Institute of Standards and Technology, Gaithersburg, MD, 1988), pp. 4247.10 Leonard, Thomas A., Pantoliano, Michael, and Reilly, James, Results of a CO2 BRDF Round Robin, Proceedings SPIE 1165, 444-449(1989).
+
+</PdfSplitView>

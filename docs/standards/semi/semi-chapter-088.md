@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/088.pdf"
   pdfSize="N/A"
   title="F90-0304 - E © SEMI 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/088.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/088.pdf">
+
+---
+title: "F90-0304 - E © SEMI 2004..."
+description: "SEMI标准文档"
+sidebar_label: "F90-0304 - E © SEMI 2004..."
+sidebar_position: 88
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-088.pdf'
+  chapter: 88
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F97-0305 © SEMI 20059 Table 1 State Transition for Watchdog-ToggleNumber P
 &lt;!-- Page 50 --&gt;
 
 SEMI F97-0305 © SEMI 2005 10 with respect to that particular FPU. On the FPU this control mode may be used to enable or disable remote controlof the FMCS. Local: FPU operates in local mode, i.e. it can be controlled locally. Remote: FPU operates in remote mode, i.e. it can be remotely controlled by the FMCS. Control-Mode Local Remote2 3 C1 Figure 6State Transition Diagram Control-Mode Table 3 State Transition Table Control-ModeNumber Previous State Trigger New State Actions Remark1 (no state) Start up of FPU. Local or Remote FPU disables remotecontrol from FMCS.Dependent on type of FPU. 2 Local Trigger to switch toRemote.Remote FPU enables remotecontrol from FMCS.Trigger may be caused by:manual operator actionor automatic trigger by aprogrammed logic.3 Remote Trigger to switch toLocal.Local FPU disables remotecontrol from FMCS.Trigger may be caused by:manual operator actionor automatic trigger by aprogrammed logic. 9.4.5 Run-Mode9.4.5.1 Run-Mode specifies the different running states of the FPU. It assumes three main values: Down, in Stand-by or Run. The behavior of the FPU with respect to the states of Run-Mode is out of scope. It is dependent on thetype of FPU. The Annex to this Standard (see Related Information 1) provides some examples of the use of Run-Mode. The Run-Mode provides general information of the FPU, whether it is Down, in Stand-by or in Run: Down (the FPU is in a fault situation or it may be switched into Down by a pre scheduled function; this isspecified by an optional flag):o flag set for scheduled downo flag set for unscheduled down Stand-by (the FPU is ready to be switched into Run). Run (the FPU is running).9.4.5.2 The FPU should assume optionally sub states when in Run or Stand-by. These sub states are: Run: sub state Locked (the FPU is locked to hold the Run state) or Not\_Locked and Stand-by: sub state Locked (the FPU is locked to hold the Stand-by state) or Not\_Locked.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/061.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 061"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/061.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/061.pdf">
+
+---
+title: "SEMI Chapter 061"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 061"
+sidebar_position: 61
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-061.pdf'
+  chapter: 61
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E122.1-0703 © SEMI 2003 4 Service SECS-II Field Values Req. DescriptionCPV
 &lt;!-- Page 50 --&gt;
 
 SEMI E122.1-0703 © SEMI 20035 Service SECS-II Field Values Req. DescriptionCPVAL 1 L, n1. U42. U4:n. U4 N Provides single execution override of test-sitesenabled/disabled by remote commandsENABLE-SITE and DISABLE-SITE. CPNAME 2 DATALOGDATASETS N DATALOGDATASETS parameter.CPVAL 2 L, n (n - # of datasets)1. L, 21. A\[80\]2. List, p1. U4p. U4n. L, 21. A\[80\]2. L, q1. U4q. U4 N Datalog output can be directed to separatedatasets on a per-test-site basis. L, n (n - # of datasets)1. L, 21. Dataset Name 12. L, p (Zero-length list = all test-sites)1. SiteID11p. SiteID1pn. L, 21. Dataset Name n2. L, q (Zero-length list = all test-sites)1. SiteIDn1q. SiteIDnq CPNAME 3 DATALOGBYTESTTYPE N DATALOGBYTESTTYPE parameter.CPVAL 3 L, b1. L, 31. U42. U43. U4b. L, 31. U42. U43. U4 N Specifies datalog options by general TestType. L, b (b = # of (TestType, TestStatus) pairsbeing assigned reports.)1. L, 31. TestType 12. TestStatus13. ReportID1 (If omitted, the default reportis assigned.)b. L, 31. TestType b2. TestStatusb3. ReportIDbCPNAME 4 DATALOGBYTESTID N
+
+</PdfSplitView>

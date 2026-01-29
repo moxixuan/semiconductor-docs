@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/058.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 058"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/058.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/058.pdf">
+
+---
+title: "SEMI Chapter 058"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 058"
+sidebar_position: 58
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-058.pdf'
+  chapter: 58
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E109-0305 © SEMI 2001, 20059 9.5.4 Reticle Pod Load Port Transfer State Tr
 &lt;!-- Page 50 --&gt;
 
 SEMI E109-0305 © SEMI 2001, 2005 10 # Previous State Trigger New State Actions Comments6 READY TOLOADManual: The equipmentrecognizes the logical indication ofthe start of a manual load transfer.This trigger is configurable by theuser, examples are included in table8.Automated: The PIO load transferis beginning and the PIO readysignal is activated. TRANSFERBLOCKEDData required to be available for thisevent report:PortID 7 READY TOUNLOADManual: The equipment recognizesa logical indication of the start ofan unload transfer.Automated: The PIO unloadtransfer is beginning and the PIOready signal is activated. TRANSFERBLOCKEDData required to be available for thisevent report:PortID 8 TRANSFERBLOCKEDManual: The reticle pod unloadtransfer has completed, and thereticle load port is now empty andready for load transfer.Automated: The PIO unloadtransfer ends with a PIO completesignal. READY TOLOADData required to be available for thisevent report:PortID 9 TRANSFERBLOCKEDManual: Activities using reticlescontained within the pod havecompleted the reticle pod is readyto be removed.Automated: Handling for reticlesdestined for the reticle pod hascompleted, or a CancelPod/CancelPodAtPort service has beenissued, and the reticle pod is readyto be removed. This is indicatedby a PIO unload request signal. READY TOUNLOADThe reticle pod on the reticle pod loadport can now be unloaded from the reticleload port to an external entity.Data required to be available for thisevent report:PortIDPodID 10 TRANSFERBLOCKEDThe transfer was unsuccessful, andthe reticle pod was not loaded orunloaded. TRANSFERREADYThe sub-state of TRANSFER READY,which is decided by transition #5.Data required to be available for thisevent report:PortID 10 Reticle Pod Object10.1 Information about a reticle pod is encapsulated as an object. This allows the host to exchange informationwith the equipment about one or more specific reticle pods using services defined in SEMI E39, Object ServicesStandard. A reticle pod has properties (attributes) that are defined in Table 6, Pod Attribute Definition.10.2 Object Instantiation10.2.1 The reticle pod object is a software representation of the reticle pod in the equipment. Under normalcircumstances this object is instantiated by the equipment when the host uses the Bind, ReticleTransferJob, orPodNotification service or when the equipment successfully reads the PodID from the reticle pod. A reticle podobject is instantiated by PodID read only if there are no currently existing objects of the same object type with thePodID just read. A reticle pod object can also be instantiated by either the ProceedWithPod or CancelPod Serviceson an UNASSOCIATED port. (This implies a failed PodID read event.) The ContentMap attribute will be an emptylist (a list of zero) when the instantiation is done by PodID read. The SlotMap attribute should be a list consisting ofall slots enumerated as UNDEFINED when the reticle pod object is instantiated by PodID read.
+
+</PdfSplitView>

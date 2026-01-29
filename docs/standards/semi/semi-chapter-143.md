@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/143.pdf"
   pdfSize="N/A"
   title="S21-1103 - © SEMI 2003 1..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/143.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/143.pdf">
+
+---
+title: "S21-1103 - © SEMI 2003 1..."
+description: "SEMI标准文档"
+sidebar_label: "S21-1103 - © SEMI 2003 1..."
+sidebar_position: 143
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-143.pdf'
+  chapter: 143
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S22-1103a © SEMI 2003, 2005 34 22.5.2 Procedure  Measure the input current
 &lt;!-- Page 50 --&gt;
 
 SEMI S22-1103a © SEMI 2003, 200535 use pulleys or other means to adjust the angle of force applied to the strain relief on the equipment. Apply the forcegradually by slowly suspending the weight on the cord and maintain the applied force for a period of one minute.22.7.3.2 Acceptable Results For Procedure Two  No displacement of the tape demonstrates an acceptable result.22.8 Transformer Output Short Circuit Test22.8.1 Test Equipment  Timer with accuracy of ± 5 minutes. A substantial conductor suitable for carrying theshort circuit current.22.8.2 Procedure  With the equipment in its standby condition, short circuit the output of each powertransformer.NOTE 64: If overcurrent protection is connected to the output of the transformer under test, connect the short-circuit jumperafter this protective device.EXCEPTION 1: Where the overcurrent protective devices on the input or output of the transformer are rated at notmore than 125 percent of the rated current of the transformer respectively and the overcurrent protective devices arecertified by an accredited testing laboratory, the transformer need not be subjected to this test.EXCEPTION 2: A thermally-protected or impedance-protected transformer that is certified by an accredited testinglaboratory need not be subjected to this test.22.8.3 Acceptable Results  A hazardous condition (e.g., smoke, fire, or molten material) does not exist within 8hours or before activation of overcurrent protection, thermal protection, or other protective circuit/device, whicheveroccurs first.22.9 Power Supply Output Short Circuit Test22.9.1 Test Equipment  Timer with accuracy of ± 5 minutes. A substantial conductor suitable for carrying theshort circuit current.22.9.2 Procedure  With the equipment in its standby condition, short circuit the output of each power supply, oneat a time.NOTE 65: If overcurrent protection is connected to the output of the power supply under test, connect the short circuit jumperafter this protective device.EXCEPTION: A power supply that is certified by an accredited testing laboratory and used in accordance with itscertification and the manufacturers instructions need not be subjected to this test.22.9.3 Acceptable Results  A hazardous condition (e.g., smoke, fire, or molten material) does not exist within 8hours or before activation of overcurrent protection, thermal protection, or other protective circuit/device, whicheveroccurs first.22.10 Safety Circuit Function Test22.10.1 Test Equipment  Contingent on safety devices being tested.22.10.2 Procedure  Functionally test each safety circuit by actuation and resetting.22.10.3 Acceptable Results  The following sections provide the acceptable results for the applicable safetysystems:a) When the EMO is actuated, all hazardous voltage and all power greater than 240 volt-amps in the equipmentbeyond the main power enclosure should be de-energized, except where permitted by 13.3.3.b) Actuation of the emergency stop and safety interlocks causes the equipment, or relevant parts of theequipment, to be automatically brought to a safe condition.c) Resetting of the safety circuit should not cause the system to resume operation.NOTE 66: This test documents the electrical functionality of the safety circuit(s). It is not intended to determine or documentthe appropriateness of the shutdown actions taken.22.11 Safety Circuit Conductor Disconnection Test
+
+</PdfSplitView>

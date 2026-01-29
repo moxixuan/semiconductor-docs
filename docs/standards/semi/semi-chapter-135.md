@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/135.pdf"
   pdfSize="N/A"
   title="C37-0699 - © SEMI 1981, 19991..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/135.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/135.pdf">
+
+---
+title: "C37-0699 - © SEMI 1981, 19991..."
+description: "SEMI标准文档"
+sidebar_label: "C37-0699 - © SEMI 1981, 19991..."
+sidebar_position: 135
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-135.pdf'
+  chapter: 135
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C51-0699 © SEMI 1978, 1999 XYLENES2 Section 3.3, Determination of Residue 
 &lt;!-- Page 50 --&gt;
 
 XYLENES SEMI C51-0699 © SEMI 1978, 19993 Table 1 Impurity Limits and Other Requirements for XylenesPrevious SEMI Reference # C1.21-92Grade 1(Specification)Color (APHA) 10 maxAcidity 0.3 eq/g maxResidue after Evaporation 5 ppm maxWater (H2O) 0.02% maxChloride (Cl) 3 ppm maxPhosphate (PO 4) 1 ppm maxAluminum (Al) 0.1 ppm maxArsenic and Antimony (as As) 0.01 ppm maxBoron (B) 0.1 ppm maxCalcium (Ca) 0.1 ppm maxChromium (Cr) 0.1 ppm maxCopper (Cu) 0.1 ppm maxGold (Au) 0.1 ppm maxIron (Fe) 0.1 ppm maxLead (Pb) 0.1 ppm maxMagnesium (Mg) 0.1 ppm maxManganese (Mn) 0.1 ppm maxNickel (Hi) 0.1 ppm maxPotassium (K) 0.1 ppm maxSodium (Na) 0.1 ppm maxTin (Sn) 0.1 ppm maxZinc (Zn) 0.1 ppm maxParticles in bottles:size, #/mL≥1.0 m, 10 max NOTICE: These standards do not purport to addresssafety issues, if any, associated with their use. It is theresponsibility of the user of these standards to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use.SEMI makes no warranties or representations as to thesuitability of the standards set forth herein for anyparticular application. The determination of thesuitability of the standard is solely the responsibility ofthe user. Users are cautioned to refer to manufacturersinstructions, product labels, product data sheets, andother relevant literature respecting any materialsmentioned herein. These standards are subject tochange without notice.The users attention is called to the possibility thatcompliance with this standard may require use ofcopyrighted material or of an invention covered by patent rights. By publication of this standard, SEMItakes no position respecting the validity of any patentrights or copyrights asserted in connection with anyitem mentioned in this standard. Users of this standardare expressly advised that determination of any suchpatent rights or copyrights, and the risk of infringementof such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

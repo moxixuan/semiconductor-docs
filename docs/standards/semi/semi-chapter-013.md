@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/013.pdf"
   pdfSize="N/A"
   title="E83-1000 - © SEMI 1999, 20003..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/013.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/013.pdf">
+
+---
+title: "E83-1000 - © SEMI 1999, 20003..."
+description: "SEMI标准文档"
+sidebar_label: "E83-1000 - © SEMI 1999, 20003..."
+sidebar_position: 13
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-013.pdf'
+  chapter: 13
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E85-0705 © SEMI 1999, 20053 6.3.2 If the user specifies Option D, the user
 &lt;!-- Page 50 --&gt;
 
 SEMI E85-0705 © SEMI 1999, 2005 4 7.5.3.1 Option C allows for two different types of interbay transport (6.3.1). The first type is a drive though (DT)interbay transport that will drive through the entire length of the stocker as illustrated in Figure 3. Dimensions A1 istherefore not applicable for this type of Option C interbay transport delivery. The other type of interbay transport isa horizontal transfer (HT) were a section of the track slides or advances into a predefined open volume in the side ofthe stocker as illustrated in Figure 4. Dimensions A1 and S are applicable for this type of Option C interbaytransport delivery.7.5.3.2 Option C prime (C) is different from Option C in that the pins used to transfer the carrier are different. InOption C, the transport vehicle uses the two front secondary, and single rear primary kinematic pins. This enablesthe stocker end-effector to use the two front primary pins and be of a wider configuration (see Figure 3a). Allelevation dimensions for C are the same as for Option C.7.5.4 In Option D, a passive transport presents a carrier to an external stocker position. The passive interbaytransport must maintain the center exclusion volume shown in Figures 5 and 10 to allow for the stocker to use thesecondary kinematic pins or top robotic flange to transfer the carrier. No open volume internal to the stocker isrequired.7.5.4.1 Option D prime (D) is different from Option D in that the pins used to transfer the carrier are different. InOption D, the transport vehicle uses the two front secondary, and single rear primary kinematic pins. This enablesthe stocker end-effector to use the two front primary pins and be of a wider configuration (see Figure 4a). Allelevation dimensions for Option D are the same as for Option D.7.5.5 In Option E, a passive transport presents a carrier to an external stocker position. The passive interbaytransport must maintain the side fork-lift/conveyor rail exclusion volumes shown in Figure 6 to allow the stocker touse the fork-lift/conveyor rails to transfer the carrier. No open volume internal to the stocker is required.7.5.6 In option F and F the carrier is oriented with the front of the carrier perpendicular to the load face plane by apassive transport for pickup by an active stocker. In option F the transport uses the kinematic coupling pins (all 3may be used) and the stocker uses either the secondary kinematic coupling pins (all 3 accessible) or the top roboticflange for pickup. In Option F (F Prime) the transport uses the kinematic coupling pins, the secondary kinematiccoupling pins or the conveyor runners, and the stocker uses the top robotic flange for pickup.7.6 The center exclusion volume below the horizontal datum plane of the stocker for Option A (7.5.1) or interbaytransport system for Options C and D (7.5.3 and 7.5.4), is defined by dimensions H2, A2, and D (Figure 1 and10). For Options C (7.5.3) and D (7.5.4), there are additional requirements that the center exclusion volume,defined by H2 and A2 extend from the facial datum plane a distance D10 (6.3.1 and 6.3.2), increase both in depthde-fined by dimension H4 and in width defined by dimension A3 from the plane defined by dimension D10extending outwards for the rest of the interbay transport system. The conveyor flange exclusion volume below thehorizontal datum plane of the interbay transport system (7.5.4), is defined by dimensions H2, H4, A6, A8, and D10(Figure 6). The center exclusion volume below the horizontal datum plane of the stocker for option F is defined byFigure 10, Exclusion zone detail for option F. No exclusion volumes are required for option F since stockeraccess is with the top robotic flange only. These exclusion volumes need to be open only during the carrier handoffbetween the stocker and the interbay transport system. For example, the stocker can temporarily occupy theseexclusion volumes when transferring the carrier from the interbay load port to an internal shelf location.7.7 Clearance C3 in Option A is defined with respect to the maximum dimensions of the carrier (defined in SEMIE47.1 for a box or in SEMI E1.9 for an open cassette), not to the rectangular wafer carrier envelope (defined inSEMI E15).7.8 Dimension S specifies the required range for spacing between carrier centroids.7.9 For active interbay transports (Option A) and passive interbay transports (Options C, D, and E and F), thecommunication method will be defined by SEMI E84 (same as OHT), and the available SEMI E84 connector areasare defined by the following dimensions, and are illustrated in Figure 9. Dimensions of the SEMI E84 connector zone are as follows: Width (measured from BDP) = 225 mm Depth (measured from Stocker facial plane) = 200 mm Height (measured from HDP) = 300 mm
+
+</PdfSplitView>

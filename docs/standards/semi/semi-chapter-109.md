@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/109.pdf"
   pdfSize="N/A"
   title="M57-0705 - © SEMI 2004, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/109.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/109.pdf">
+
+---
+title: "M57-0705 - © SEMI 2004, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "M57-0705 - © SEMI 2004, 2005..."
+sidebar_position: 109
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-109.pdf'
+  chapter: 109
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M60-0305 © SEMI 200517 -5.00-4.00-3.00-2.00-1.000.001.002.003.00 1.E-02 1.
 &lt;!-- Page 50 --&gt;
 
 SEMI M60-0305 © SEMI 2005 18 J (A/cm 2 ) Failure (%) Qbd (C/cm 2 )at Weibull = 0 0.01 15.4 5.9 0.05 15.0 5.4 0.1 14.7 5.2 -5-4-3-2-10123 1.E-02 1.E-01 1.E+00 1.E+01 1.E+02Qbd (C/cm2) Ln(-Ln(1-F)) 10mA10mA10mA50mA50mA50mA100mA100mA100mA Figure R1-5Current Density Dependence of QBD . 1mm2, 125C -5.00-4.00-3.00-2.00-1.000.001.002.003.00 1.E-02 1.E-01 1.E+00 1.E+01 1.E+02Qbd (C/cm 2) Ln(-Ln(1-F)) R.TR.TR.T85C85C85C125C125C125C Figure R1-6Temperature Dependence of QBD . J=0.1A/cm2, 125C Table R1-2 Current Density Dependence of Q BD. (Area = 1mm2 , Temperature = 125C)
+
+</PdfSplitView>

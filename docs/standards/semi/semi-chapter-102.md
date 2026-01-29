@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/102.pdf"
   pdfSize="N/A"
   title="M19-91 - © SEMI 1991, 19963..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/102.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/102.pdf">
+
+---
+title: "M19-91 - © SEMI 1991, 19963..."
+description: "SEMI标准文档"
+sidebar_label: "M19-91 - © SEMI 1991, 19963..."
+sidebar_position: 102
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-102.pdf'
+  chapter: 102
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M24-1103 © SEMI 1994, 2003 2 F 657  Standard Test Method for Measuring War
 &lt;!-- Page 50 --&gt;
 
 SEMI M24-1103 © SEMI 1994, 20033 50441/1  Determination of the GeometricDimensions of Semiconductor Slices: Measurement ofThickness50441/2  Determination of the GeometricDimensions of Semiconductor Slices: Testing of EdgeRounding50441/4  Determination of the GeometricalDimensions of Semiconductor Slices: Diameter andFlat Depth of Slices50443/1  Recognition of Defects and Inhomogenitiesin Semiconductor Single Crystals by X-RayTopography: Silicon50445  Contactless Determination of the ElectricalResistivity of Semiconductor Wafers with the EddyCurrent Method3.5 JEITA Standards4 JEIDA 18  Determining the Orientation of aSemiconductor Silicon Single CrystalJEIDA 27  Standard Specification for DimensionalProperties of Silicon Wafers with Specular SurfaceJEIDA 43  Terminology of Silicon Wafer FlatnessJEIDA 53  Test Method for Recombination Lifetimein Silicon Wafers by Measurement ofPhotoconductivity Decay by Microwave ReflectanceJEIDA 56  Standard Test Method for SubstitutionalAtomic Carbon Content of Silicon by InfraredAbsorptionJEIDA 61  Standard Test Method for InterstitialAtomic Oxygen Content of Silicon by InfraredAbsorption3.6 JIS Standards5 H 0602  Testing Method of Resistivity for SiliconCrystals and Silicon Wafers with Four-Point ProbeH 0607  Testing Methods for Conductivity Type ofSemiconductor MaterialsH 0609  Test Methods of Crystalline Defects inSilicon by Preferential Etch TechniquesH 0611  Methods of Measurement of Thickness,Taper, and Bow of Silicon Wafers 4 Japanese Electronic and Information Technology IndustriesAssociation, Tokyo Chamber of Commerce and Industry Bldg. 2-2,Marunouchi 3-chome, Chiyoda-ku, Tokyo 100-0005, Japan.,Website: www.jeita.or.jp5 Japanese Industrial Standards, Available through the JapaneseStandards Association, 1-24, Akasaka 4-Chome, Minato-ku, Tokyo107-8440, Japan. Telephone: 81.3.3583.8005; Fax: 81.3.3586.2014,Website: www.jsa.or.jp H 0614  Visual Inspection for Silicon Wafers withSpecular SurfacesZ8741  Method of Measurement for SpecularGlossinessNOTICE: Unless otherwise indicated, all documentscited shall be the latest published versions. 4 Terminology4.1 Definitions of terms related to silicon wafertechnology are given in ASTM Terminology F 1241.4.2 Definitions for some additional terms are given inSEMI M1.4.3 The following definitions apply in the context ofthis specification:4.4 Definitions4.4.1 furnace and thermal processes  wafersintended for use in evaluating metal contamination inthermal process.4.4.2 hand scribe mark  any marking, usually on theback surface of a wafer, scratched manually into thesilicon surface, as with a diamond-tipped scribe, forpurposes of wafer identification.4.4.3 lithography and patterning  wafers intendedfor use in evaluating pattern resolution.4.4.4 particle counting  wafers intended for use inevaluating the particulate contamination added by aprocess tool. LLSs (Localized Light Scatterers) includeparticles and COP (Crystal Originated Pits).4.4.5 premium wafer  a silicon wafer suitable forparticle counting, metal contamination monitoring, andmeasuring pattern resolution in the photolithographyprocess. The premium wafer has tighter specificationvalues in some specific items for the specific usage, andlooser or equal specification values for other items thana prime wafer has. 5 Ordering Information5.1 Purchase orders for silicon premium wafersfurnished to this specification shall include the itemsfrom the appropriate specification groups listed inTable 1.Table 1 Wafer ClassificationsClassification ApplicationParticle Counting Particle countingFurnace and ThermalProcessMetal contamination monitoring Lithography and Patterning Measurement of patternresolution in photolithography
+
+</PdfSplitView>

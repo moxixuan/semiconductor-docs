@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/137.pdf"
   pdfSize="N/A"
   title="S2-0703a - E © SEMI 1991,..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/137.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/137.pdf">
+
+---
+title: "S2-0703a - E © SEMI 1991,..."
+description: "SEMI标准文档"
+sidebar_label: "S2-0703a - E © SEMI 1991,..."
+sidebar_position: 137
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-137.pdf'
+  chapter: 137
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI S2-0703aE © SEMI 1991, 2004 78 RELATED INFORMATION 14RECOMMENDATIONS FOR D
 &lt;!-- Page 50 --&gt;
 
 SEMI S2-0703aE © SEMI 1991, 200479 R14-4.4 Where references to standards have beenincorporated into this Related Information. Thesereferences do not imply applicability of the entirestandards, but only of the sections referenced.R14-4.5 Because of the variety of uses for FECSdescribed in this Related Information, those responsiblefor the application and use of FECS must satisfythemselves that all necessary steps have been taken toassure that each application and use meets allperformance and safety requirements, including anyapplicable laws, regulations, codes and standards. Theillustrations, charts and layout examples shown in thisRelated Information are solely for purposes of example. R14-5 Referenced StandardsR14-5.1 SEMI StandardsSEMI E54  Sensor/Actuator Network StandardSEMI E81  Provisional Specification for CIMFramework Domain ArchitectureSEMI E98  Provisional Standard for the Object-Based Equipment Model (OBEM)SEMI S10  Safety Guideline For Risk AssessmentR14-5.2 IEC Standards18 NOTE 2: International standards bodies are indicated, withthe equivalent national standards shown in parenthesis.IEC 60204-1 (EN 60204-1)  Safety of Machinery Electrical Equipment of Machines - Part 1: GeneralRequirementsIEC 61010-1 (EN 61010-1)  Safety Requirements forElectrical Equipment for Measurement, Control, andLaboratory Use - Part 1: General RequirementsIEC 61508 (EN 61508)  Functional Safety ofElectrical/Electronic/Programmable Electronic Safety-Related SystemsNOTE 3: IEC 61508 consists of 7 parts, IEC 61508-1 throughIEC 61508-7R14-5.3 ISO Standards19 NOTE 4: International standards bodies are indicated, withthe equivalent national standards shown in parenthesis.ISO 10218 (EN 775)  Manipulating IndustrialRobots-Safety 18 International Electrotechnical Commission, 3, rue de Varemb,Case Postale 131, CH-1211 Geneva 20, Switzerland. Telephone:41.22.919.02.11; Fax: 41.22.919.03.00 Website: http://www.iec.ch19 International Organization for Standardization, ISO CentralSecretariat, 1, rue de Varemb, Case postale 56, CH-1211 Geneva 20,Switzerland. Telephone: 41.22.749.01.11; Fax: 41.22.733.34.30Website: http://www.iso.ch ISO (ISO 13849-1 (EN 954-1)-1)  Safety ofMachinery-Safety-Related Parts of Control SystemsISO 13849-2 (EN 954-2)  Safety of Machinery-Safety-Related Parts of Control Systems  Part 2ValidationISO/IEC 13850 (EN 418)  Safety of Machinery Emergency Stop  Principles of DesignISO 14118 (EN 1037)  Safety of Machinery Prevention of Unexpected Start-UpISO 14119 (EN 1088)  Safety of Machinery-Interlocking Devices Associated with Guards Principles for Design & SelectionISO 14121 (EN 1050)  Safety of Machinery-Principles of RiskNOTE 5: National and local Codes and Standards must beapplied as required by the installation location. Examples ofsome that might apply are included below.R14-5.4 ANSI Standards 20 ANSI/IEEE C95.1 (United States)  Standards forSafety Levels with Respect to Human Exposure toRadio Frequency Electromagnetic FieldsANSI/ISA-S84.01-1996  Application of SafetyInstrumented Systems for the Process IndustryANSI/RIA R15.06 (United States)  Industrial Robotsand Robot System  Safety RequirementsR14-5.5 National Fire Protection Association21 NFPA 79 (United States)  Electrical Standard forIndustrial MachineryR14-5.6 VDI Standards22 VDI/VDE 2180 Bl.2 (Germany)  Safety of ProcessControl TechnologyR14-5.7 DIN V VDE Standards23DIN V VDE 0801  Principle for Computers in SafetyRelated SystemsR14-6 TerminologyR14-6.1 Abbreviations and AcronymsR14-6.1.1 ATL  Approved Testing Laboratory 20 American National Standards Institute, New York Office: 11 West42nd Street, New York, NY 10036, USA. Telephone: 212.642.4900;Fax: 212.398.0023 Website: http://www.ansi.org21 National Fire Protection Association, 1 Batterymarch Park, P.O.Box 9101, Quincy, MA 02269-9101, USA, www.nfpa.org22 VDE-Verlag GmbH, Bismarkstrasse 33, 10625 Berlin, Germany,www.vde.de23 VDE-Verlag GmbH, Bismarkstrasse 33, 10625 Berlin, Germany,www.vde.de
+
+</PdfSplitView>

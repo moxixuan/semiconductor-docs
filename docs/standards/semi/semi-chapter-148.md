@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/148.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 148"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/148.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/148.pdf">
+
+---
+title: "SEMI Standards - Chapter 148"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 148"
+sidebar_position: 148
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-148.pdf'
+  chapter: 148
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF1527-1104 © SEMI 2003, 20045 recently issued CRMs are calibrated and cer
 &lt;!-- Page 50 --&gt;
 
 SEMI MF1527-1104 © SEMI 2003, 2004 6 respectively). Further, the procedures for determiningmicro-scale depth profiles are destructive and cannot becarried out on the reference wafer itself. Consequently,for this application crystals should be grown byprocedures that result in the best possible uniformity.These include neutron transmutation doping of veryhigh purity FZ crystals to obtain high resistivity(neutron transmutation doped (NTD)) n-type wafersand magnetic Czochralski (MCz) growth of crystals forboth n- and p-type wafers.8.1.4 Mercury Probes  Similar conditions exist forreference wafers intended for calibration and control ofmercury probe systems that are primarily used fordetermining the net carrier density of epitaxial layersfrom capacitance measurements. Such probes sample alateral area much smaller than the four-point probe anda depth that is only a very tiny fraction of the waferthickness. To ensure that the resistivity in the regionsampled by the mercury probe can be taken as theresistivity measured by the four-point probe, it isnecessary to establish that both the macro- and micro-scale variations in resistivity of the reference wafer arewithin tolerable limits. Thus, it is desirable to usehighly uniform crystal such as NTD FZ or MCz crystalfor resistivity reference wafers for this application (seeSection 8.1.3). It is further required in this case toestablish the net carrier density of the reference waferfrom the resistivity measurement (see Section 9.2.4).8.2 Resistivity  The center-point resistivity of thereference wafer should be chosen to meet therequirements of the measuring instrument to becalibrated or controlled. Most of the test methods citedin Section 1.2 specify the resistivity range of therequired resistivity reference wafers.8.2.1 Four-point Probes  For control ofinstrumentation for making four-point probe resistivitymeasurements in accordance with SEMI MF84, it isrecommended that a minimum of three resistivityreference wafers, with resistivity values in the upper,middle, and lower portions of the resistivity range ofinterest be used (Note 4). It is preferable to use moreclosely spaced resistivity reference wafers to ensureinstrument linearity over the entire measurement range.If only a narrow resistivity range (less than ±25% of thenominal value) needs to be measured, it is sufficient touse two resistivity reference wafers at the extremes ofthis range. Similar considerations apply for control ofinstrumentation for making sheet resistancemeasurements in accordance with SEMI MF1529,except that, in this case, of course, the parameter ofinterest is the sheet resistance rather than the resistivity.NOTE 4: For control of instrumentation for making four-point probe measurements over a narrow resistivity range, it may be appropriate to use only one or two resistivityreference wafers. 8.2.2 EddyCurrent Gages  For calibration of eddycurrent resistivity measuring instruments, SEMI MF673specifies that for calibration by Method I, five referencewafers that span the full resistivity range of theinstrument are required. However, many organizationsprefer to use many more reference wafers for theMethod I calibration. Two resistivity reference wafersat the extremes of a narrow resistivity range (typicallyless than about ±25 % of the nominal value) arerequired for Method II calibration.8.2.3 Spreading Resistance Probes  For calibrationof spreading resistance equipment, SEMI MF672recommends use of at least three resistivity referencewafers per decade over the range of resistivity to bemeasured. Regular spacing is desirable, but it may notbe possible to secure samples with adequate uniformitywith arbitrary nominal resistivity values. Selection ofsamples for micro-scale uniformity should takeprecedence over regular spacing.8.2.4 Mercury Probes  The resistivity of a resistivityreference wafer intended for use in calibrating mercuryprobe systems for making net carrier densitymeasurements in accordance with SEMI MF1392 orSEMI MF1393 is specified to be between one-half andtwo times the resistivity of the specimens to bemeasured. However, there is some benefit to employseveral resistivity reference wafers with a range ofresistivity from very high (net carrier density less thanabout 1  10 14 cm3) to the lowest value to bemeasured.8.3 Wafer Diameter  Resistivity reference wafers donot need to be the same diameter as the wafers to bemeasured by the system; any diameter that fits theinstrumentation and its associated wafer handling is, inprinciple, acceptable. However, advances in crystalgrowing design and control together with certain aspectratio considerations make it likely that superior radialresistivity uniformity in the central region of the wafercan be obtained with larger diameter (≥100 mm) wafersas compared to that of smaller diameter wafers. Inaddition, the diameter correction factor for wafers 100mm in diameter and larger measured with a four-pointprobe with probe-tip spacing of 1.59 mm is within 0.2%of its limiting value of /ln2 ( = 4.5324).Consequently, errors due to small variations in diameteror probe placement at the wafer center are negligiblysmall (see Section R2-3.1), and the second order errorsassociated with the combination of the thickness anddiameter correction factors can also be neglected. Thelatter point is particularly significant when four-pointprobes with small probe-tip spacings are employed onstandard thickness wafers because the thickness
+
+</PdfSplitView>

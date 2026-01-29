@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/115.pdf"
   pdfSize="N/A"
   title="P10-0705 - © SEMI 1990, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/115.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/115.pdf">
+
+---
+title: "P10-0705 - © SEMI 1990, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "P10-0705 - © SEMI 1990, 2005..."
+sidebar_position: 115
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-115.pdf'
+  chapter: 115
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI P18-92 © SEMI 1992, 2004 2 3.1.9 fraction of good field  the overlay capab
 &lt;!-- Page 50 --&gt;
 
 SEMI P19-92 © SEMI 1992, 19961 SEMI P19-92SPECIFICATION FOR METROLOGY PATTERN CELLS FORINTEGRATED CIRCUIT MANUFACTURE PurposeThis document defines several standard test patterns toprovide consistent industrywide evaluation and testingof micropatterning equipment, metrology instruments,and processes used in integrated circuit manufacturing. 1 General Specification1.1 Scope1.1.1 This specification defines the s hape, generalsize, and recommended placement and design rules(where appropriate) of several basic pattern cells forlinewidth metrology, resolution testing, and proximitytesting. These standard patterns include cells that can beused for optical microscopy, electron microscopy, andelectrical probe testing.1.1.2 This document does not attempt to specify themeasurement techniques to be used in verifying criticaldimensions for these test patterns on the reticle.Similarly, this document does not attempt to specifyhow the printed patterns are to be measured on thewafer. This document specifies only what the patternsare supposed to be; it is left to the user to ensure thatthe actual pattern conforms to this specification, subjectto all other applicable SEMI specifications. A separateSEMI document will specify CD measurementconditions (see Section 1.2.1).1.2 Applicable Documents1.2.1 SEMI StandardsSEMI P24  CD Metrology Procedures 1.3 Definitionslinewidth  In semiconductor technology, at a givencross-section of the line, the distance between theairline material boundaries at some specified heightabove the interface between the patterned layer inwhich the line is formed and the underlying layer (seeFigure 1). Figure 1Linewidth (X 0, Z0) = Y 2 - Y 1 NOTE: The physical basis for various methods of measuringlinewidth may result in the measurements being carried out atdiffering heights for the same line at the same cross-section.For this reason, substantial method-dependent differences inmeasurement results may be expected and it is convenient toidentify the method used in expressions such as SEMlinewidth, optical linewidth, or electrical linewidth(ASTM F 127). Furthermore, the height at which themeasurement is taken shall be qualitatively stated, even if itcannot be quantitively determined.feature  areas within a single, continuous boundary(for example, an aggregate image) that have an optical-density value (gray-level range), that is distinct fromthe background area outside the feature (ASTM D3849, D 24) (e.g., the simplest element of a pattern,such as a single line, space, or L-bar).feature group  a small assembly of one or moresimilar features arranged together, such as three nestedL-bars.nominal feature dimension  the linear dimension ofinterest, such as the linewidth or contact hole width.basic cell  an arrangement of features or groups, asdefined by this document, based upon a specific,nominal-feature dimension.composite cell  an arrangement of several basic cells.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/047.pdf"
   pdfSize="N/A"
   title="E81-0600 - © 1999, 200038 Table..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/047.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/047.pdf">
+
+---
+title: "E81-0600 - © 1999, 200038 Table..."
+description: "SEMI标准文档"
+sidebar_label: "E81-0600 - © 1999, 200038 Table..."
+sidebar_position: 47
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-047.pdf'
+  chapter: 47
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E82-0705 © SEMI 1999, 200545 STEP COMMENTS HOST TSC COMMENTS2. Host Comman
 &lt;!-- Page 50 --&gt;
 
 SEMI E82-0705 © SEMI 1999, 2005 46 RELATED INFORMATION 1IBSEM UNIQUE CAPABILITIES NOTICE: This related information is not an official part of SEMI E82, but was approved for publication by fullletter ballot procedures.R1-1 Transfer Command Message Examples (SML Format)R1-1.1 Variable data values specified in the following TRANSFER commands have been chosen arbitrarily for thepurpose of demonstrating message structure/content.R1-1.2 Transfer Command Message Example for a Single Carrier TransferS2,F49 /\* DATAID \*/ /\* OBJSPEC \*/ /\* RCMD \*/ /\* CPNAME 1 \*/ /\* CPNAME \*/ /\* CPVAL \*/&gt; /\* CPNAME \*/ /\* CPVAL \*/&gt; /\* CPNAME \*/ /\* CPVAL \*/&gt;&gt;&gt; /\* CPNAME 2 \*/ /\* CPNAME \*/ /\* CPVAL \*/
+
+</PdfSplitView>

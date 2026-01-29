@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/079.pdf"
   pdfSize="N/A"
   title="F29-0997 - © SEMI 1997, 1103..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/079.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/079.pdf">
+
+---
+title: "F29-0997 - © SEMI 1997, 1103..."
+description: "SEMI标准文档"
+sidebar_label: "F29-0997 - © SEMI 1997, 1103..."
+sidebar_position: 79
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-079.pdf'
+  chapter: 79
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F38-1104 © SEMI 1999, 20041 SEMI F38-0699 (Reapproved 1104)TEST METHOD FOR
 &lt;!-- Page 50 --&gt;
 
 SEMI F38-1104 © SEMI 1999, 2004 2 a background level as specified in Section 7.1.2.6.3 Test Environment  Particle challenge testing doesnot require a clean area. Testing in a Class 100 area isrecommended but not required. Refer to Section 6.7 forinstallation precautions.6.4 Configuration for Efficiency Test  One exampleof the configuration is shown in Figure 1. The setupshown in Figure 1 is intended only as a guideline. Thissystem consists of: an aerosol generation system, aerosol concentration detectors, an air flow measuring system, a filter pressure drop sensor, and the test filters.6.5 Test Flow Rate  Maximum manufacturers ratedflow rate.6.6 Challenge Particle Sizes  Experimentation ofvarious media (e.g., metallic, ceramic, and polymeric)have resulted in most penetrating particle sizes rangingfrom 0.050.11 micron.1 2 3 4 6.6.1 Several monodispersed particle challenge testsshall be done over a range of particle sizes so thattesting at the most penetrating particle size isperformed. An electrostatic classifier must be used toproduce a monodispersed challenge.6.6.2 Due to the effects of particle loading in relationto filtration efficiency, a clean filter should be used foreach particle size challenge. The differential pressureacross the test filter should be continuously monitoredto eliminate the possibility of particle loading. Thefollowing particle increments are a guideline. Smallerincrements are achievable and are desirable.6.6.2.1 Challenge Particle Size In Microns: 1 Rubow, K.L., C.B. Davis (1991) "Particle PenetrationCharacteristics of Porous Metal Filter Media for High Purity GasFiltration", Proceedings of Institute of Environmental SciencesAnnual Technical Meeting2 Rubow, K.L., and Liu, B.Y.H., Evaluation of Ultra-High EfficiencyMembrane Filters, Proceedings of the 30th Annual TechnicalMeeting, Institute of Environmental Sciences, 1984.3 Rubow, K.L., Liu, B.Y.H., and Grant, D.C., Characteristics ofUltra-High Efficiency Membrane Filters in Gas Applications; Journalof Environmental Sciences, May/June, 1988.4 B. Gotlinsky, P. Conner, D. Capitanio, L. Johnson, and S. Tousi,Testing of All-Metal Filters for High Purity Semiconductor ProcessGases, Proceedings of the 37th Annual Technical Meeting, Instituteof Environmentak Sciences, 1991.  0.05 0.07 0.106.7 Sample Installation  Reasonable precautionsshall be taken when installing the test filter to avoidparticle contamination of the system from ambient.These precautions may include, but are not limited to:installation in a Class 100 laminar flow area,installation in a purged glove bag or other controlledambient enclosure, use of a purge flow downstream ofthe sample point so that all parts of the system areunder purge, isolation, or termination of the CNCsample flow, and isolation of the isokinetic samplerexhaust from ambient.6.8 Customary practices shall be employed for thedesign of the sampling system. This includes anyspecialized equipment or procedures recommended bythe CNC manufacturer. Every effort should be taken tominimize differences in the particle concentrations ofthe sampling volume relative to the actual test volume.Care should be taken to provide an adequate exhaustlength so that back diffusion of particles does not affectbackground at 2 times the sampling flow rate. Thislength will depend upon the particle concentration inthe ambient environment and on other factors.6.9 Test Particle  Solid non-volatile particles.Sodium chloride is recommended, but other particlescould be used such as polystyrene latex beads (PSL) ifsufficiently high concentrations can be generated. 7 Procedure7.1 Static Background Test7.1.1 Purge the system at a high velocity flush of 100slm or the maximum flow rate that the systemcomponents will allow.7.1.2 Purge the system at test flow rate (Section 6.5).Measure the particle concentration with clean gas todetermine the background concentration. Thebackground count is established when the counter hassampled a minimum of 3 scf (85 sl), and the arithmeticaverage during the last 3 scf (85 sl) of gas sampled is&lt;2 particles/scf (&lt;0.07 particles/sl). The sampleinterval shall be 1 minute in duration. Ensure that thebackground counts are stable or decreasing. Ifbackground cannot be achieved after 6 scf (170 sl) havebeen sampled, there may be a problem with the counteror test apparatus. Past experience has shown this to bean adequate volume of gas to give a satisfactory lowlevel background particle counts.7.2 Penetration Test
+
+</PdfSplitView>

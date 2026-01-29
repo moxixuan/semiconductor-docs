@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/027.pdf"
   pdfSize="N/A"
   title="E5-1104 - © SEMI 1982, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/027.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/027.pdf">
+
+---
+title: "E5-1104 - © SEMI 1982, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "E5-1104 - © SEMI 1982, 2004..."
+sidebar_position: 27
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-027.pdf'
+  chapter: 27
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E30-1103 © SEMI 1992, 200323 4.2.1.2.5 ScenarioCollection Event Reporting 
 &lt;!-- Page 50 --&gt;
 
 SEMI E30-1103 © SEMI 1992, 2003 24 4.2.2.5 ScenarioHost Requests Report:COMMENT HOST EQUIPMENT COMMENT Host requests data variablescontained in report RPTID S6,F19--&gt;&lt;--S6,F20 Equipment responds with a list ofvariable data for the givenRPTID. 4.2.3 Trace Data Collection4.2.3.1 Purpose  Trace data collection provides amethod of sampling data on a periodic basis. The time-based approach to data collection is useful in trackingtrends or repeated applications within a time window,or monitoring of continuous data.4.2.3.2 DefinitionsData Sample Period (DSPER)  The time delaybetween samples. See SEMI E5 for a full definition ofthis data item.Reporting Group Size (REPGSZ)  The number ofsamples included per trace report transmitted to thehost. See SEMI E5 for a full definition of this data item.Status Variable (SV)  Status data item (included intrace report). See SEMI E5 for a full definition of thisdata item.Status Variable ID (SVID)  A unique identifier of astatus variable. See SEMI E5 for a full definition of thisdata item.Total Samples (TOTSMP)  Number of samples to betaken during a complete trace period. See SEMI E5 fora full definition of this data item.Trace Request ID (TRID)  An identifier associatedwith a trace request definition. See SEMI E5 for a fulldefinition of this data item. 4.2.3.3 Detailed Description  The equipment shallestablish a trace report as instructed by the host(S2,F23). For a trace report (S6,F1), the host shalldesignate a name for the trace report (TRID), a timeinterval for data sampling (DSPER), the total number ofsamples to be taken (TOTSMP), the number of samplesper trace report (REPGSZ), and a listing of which datawill be sent with the report (SVIDs). The number oftrace reports sent to the host is determined by totalsamples divided by reporting group size(TOTSMP/REPGSZ).The equipment shall sample the specified data (SVs) atthe interval designated by the host (DSPER) and shallsend a predefined trace report to the host for the specified reporting group size (REPGSZ). The tracereport definition shall be automatically deleted from theequipment after the last trace report has been sent.The host may modify or re-initiate a trace functioncurrently in progress by specifying the same TRID in atrace request definition, at which point the old traceshall be terminated and the new trace shall be initiated,or the host can instruct the equipment to terminate atrace report prior to its completion by specifyingTOTSMP = 0 for that TRID, at which point the tracereport definition shall be deleted.A detailed example is included as Application NoteA.4. 4.2.3.4 Requirements The equipment must have a local mechanism (e.g.,internal clock) for triggering the periodic samplingand transmission of trace reports to the host. A minimum of four (4) concurrent traces shall besupported by the equipment. The same SVID maybe collected in multiple traces simultaneously. All SVIDs available at the equipment shall besupported for trace data collection. The exception tothis is any SV that will not fit into a single block.NOTE 5: SEMI E5 provides for SVs to be of a list format.Since this may in practice be a variable list, there is apotential problem with such an SV supported by the TraceData Collection capability. This is a problem with the SEMIE5 standard. Care should be exercised in the use of SVsusing the list format.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/051.pdf"
   pdfSize="N/A"
   title="E88-1104 - ..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/051.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/051.pdf">
+
+---
+title: "E88-1104 - ..."
+description: "SEMI标准文档"
+sidebar_label: "E88-1104 - ..."
+sidebar_position: 51
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-051.pdf'
+  chapter: 51
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E88-1104E © SEMI 1999, 2004 46 13.2.3 Carrier ID Errors13.2.3.1 A carrier 
 &lt;!-- Page 50 --&gt;
 
 SEMI E88-1104E © SEMI 1999, 200447 ID Error Error Description Input Port Action Intrabay Output Port Action\*Duplicate The carrier ID read results in an IDthat matches another entry alreadyin the SC database at a differentphysical location. Example at Input  Carrier 123read at ID reader, but there isalready a database entry for acarrier with CarrierID 123. Example at Output  Carrier 456requested to ID reader butCarrierIDRead result is 123, butthere is already a database entry fora carrier with CarrierID 123. DuplicateIDs are a subset ofunkownIDs with the followingformat: UNKNOWNDUP-oldid-Seq. Where Seq is a uniquesequence identifier. 1. CarrierIDRead event sent for123.2. If existing carrier 123 has aTransferCommand, sendTransferCompleted withDuplicate ID ResultCode.3. SC automatically Deletes carrier123 from SC database and sendsCarrierRemovedCompleted.4. SC automatically creates aDuplicateID carrier at previouslocation and sends event accordingto Carrier State Model.5. CarrierWaitIn event for 123 at theport.If IDReadDuplicateOption is RejectEITHER Option 1:6a. Carrier 123 automatically sentto LP of manual output port.7a. IDReadError event sent for123 when carrier arrives at LPof manual output port.8a. Host or manual maintenancerequired to disposition the carrierthat SC thought was 123 that isnow a Duplicate.OR Option 2  manual input portonly:6b. Stocker automatically sendscarrier back to operatoraccessible location of inputport(if necessary).7b. IDReadError event sent.8b. Person picks up carrier frominput port with the PGV.9b. Host or manual maintenancerequired to disposition the carrierthat SC thought was 123 that isnow a Duplicate. If IDReadDuplicateOption isHostControlled:6c. Host responsible for sendingappropriate Transfer Commands forboth carriers. If IfReadDuplicateOption isReject or HostControlled andcarriers previous location is a shelf.1. CarrierWaitOut event for 456.2. CarrierIDRead 123 event sent.3. If carrier ID has aTransferCommand, sendTransferCompleted withDuplicate ID ResultCode.4. SC automatically deletescarrier 123 from SC databaseand sendsCarrierRemoveCompletedevent.5. SC automaically creates aDuplicateID carrier at previouslocation and sends eventaccording to Carrier StateModel.6. SC automatically deletescarrier 456 from SC databaseand sendsCarrierRemoveCompletedevent.7. TransferCompleted for 456with duplicate IDResultCode.8. SC automatically creates ancarrier123 at the portlocation and sendsCarrierWaitOut event.9. Carrier continues to LP of thisoutput port. (CarrierWaitOutfor 123 at each position.)10. IDReadError event sentwhen carrier arrives at theLP of this output port.11. Host or manual maintenancerequired to disposition thecarrier that SC thought was123 (now a duplicate).Note: The TransferCompletedevents may come anywhere fromstep 3 to step 8.
+
+</PdfSplitView>

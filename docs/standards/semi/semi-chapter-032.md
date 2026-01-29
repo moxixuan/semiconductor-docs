@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/032.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 032"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/032.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/032.pdf">
+
+---
+title: "SEMI Chapter 032"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 032"
+sidebar_position: 32
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-032.pdf'
+  chapter: 32
+  page_count: 1
+---
 
 
 
@@ -236,3 +249,5 @@ SEMI E37-0303 © SEM 1995, 200321 Feature SECS-I HSMSHeader Ten-byte header on e
 &lt;!-- Page 50 --&gt;
 
 SEMI E37.1-0702 © SEMI 1995, 20021 SEMI E37.1-0702HIGH-SPEED SECS MESSAGE SERVICE SINGLE SELECTED-SESSION MODE (HSMS-SS or HSMS-SSS) This standard was technically approved by the Global Information and Control Committee and is the directresponsibility of the Japan Information and Control Committee. Current edition approved by the JapanRegional Standards Committee on April 26, 2002. Initially available at www.semi.org June 2002; to bepublished July 2002. Originally published in 1995; previoulsy published in 1996. 1 Purpose1.1 HSMS-SS provides a means for independentmanufacturers to produce implementations which canbe connected without requiring specific knowledge ofone another.1.2 HSMS-SS is intended as an alternative to SEMI E4(SECS-I) for applications where higher speedcommunication is needed.1.3 HSMS-SS is intended as an alternative to SEMIE13 (SECS Message Services) for applications whereTCP/IP is preferred over OSI as a communicationsbasis. 2 Scope2.1 High-Speed SECS Message Services Single-Session Mode (HSMS-SS) is a subsidiary standard toHigh-Speed SECS Message Services (HSMS) GenericServices.2.2 These standards do not purport to address safetyissues, if any, associated with their use. It is theresponsibility of the user of these standards to establishappropriate safety and health practices and determinethe applicability of regulatory limitations prior to use. 3 Reference StandardsNOTE 1: Unless otherwise indicated, all documents citedshall be the latest published versions.3.1 SEMI StandardsSEMI E4  SEMI Equipment CommunicationStandard 1 Message Transfer (SECS-I)SEMI E5  SEMI Equipment CommunicationStandard 2 Message Content (SECS-II)SEMI E37  High-Speed SECS Message Services(HSMS) Generic Services 4 Terminology4.1 Definitions4.1.1 device ID  a 15-bit field in the message headerused to identify a subentity within the equipment. 4.2 In addition, all definitions for HSMS GenericServices apply.4.3 Note that the terms HSMS and HSMS genericservices both refer to the HSMS Generic Servicesstandard definition (SEMI E37). 5 HSMS-SS Overview and State Machine5.1 This definition defines the HSMS-SS-specific useof HSMS Generic Services suitable for applicationsrequiring a simple SECS-I replacement. The purpose ofthis standard is to explicitly limit the capabilities of theHSMS Generic Services to the minimum necessary forthis type of application. Specifically, HSMS imposesthe following limitations:1. HSMS-SS eliminates the use of a number of HSMSprocedures. Deselect is not to be used to end HSMS-SS communications (use Separate instead), and theReject procedure is optional.2. HSMS-SS limits certain other procedures such asSelect to simplify operation for the specific case ofSECS-I replacement. 5.2 The remainder of this document describes theselimitations in more detail.5.3 HSMS-SS State Machine  The HSMS-SSbehavior and state machine differ from that specified inthe HSMS Generic Services in the following ways:1. The SelectionCounter defined in HSMS GenericServices is not required.2. Various transitions are defined differently asillustrated in the HSMS-SS state machine illustratedbelow.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/075.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 075"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/075.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/075.pdf">
+
+---
+title: "SEMI Chapter 075"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 075"
+sidebar_position: 75
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-075.pdf'
+  chapter: 75
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F3-94 © SEMI 1990, 2003 4 APPENDIX 1SAMPLE WELDINGSPECIFICATION NOTE: This
 &lt;!-- Page 50 --&gt;
 
 SEMI F3-94 © SEMI 1990, 20035 A1-4.8 Sub-assemblies, after completion, shall bepurged and covered for subsequent installation in thefield.A1-4.9 A backing shield (purge through the weld head)is required during welding.A1-4.10 Where a weld is found defective, thepreceding two welds should be tested as described inParagraph 7.3.2 of SEMI F3. If either of these weldsshows signs of poor penetration, joint contamination,lack of joint soundness, surface oxidation,discoloration, pitting, cracking, defects of fit-up, ordefects of workmanship, then all welds made since thelast welding procedure was established should beremoved and replaced.A1-4.11 On-site work sample welds shall be madebefore each series of welding operations. On-sitesample welds shall also be made at the start of eachworkday and any time any welding parameter ischanged.A1-4.12 Sample test welds shall be made periodically.These tests shall be compared to the on-site worksample. Deviation from the on-site work sample shallbe cause for rejection. The sample test welds shall bemade at/when:1. The beginning of each shift.2. The end of each shift.3. Any change in welding procedure, materials, tubingsize, equipment, or equipment adjustments aremade.4. Any time a concern or deviation to the weld qualityhas occurred.A1-4.13 If the system becomes contaminated due to afabrication technique, the contaminated sections shallbe re-cleaned.A1-4.14 Welding at the job site shall be enclosed in aclean work area.A1-4.15 When the welding is performed in a cleanenvelope, the envelope shall have openings for the tubeto extend in two directions, a clean polyester filmwindow, and openings for the hands. HEPA-filtered airshall be supplied to the envelope under pressure toensure a clean working environment.A1-4.16 The envelope shall be installed prior toremoval of the tube caps. Full purge through the tube tobe welded shall be completed before removing theclean envelope to attach the weld head.A1-4.17 Final positioning of the weld head and weldprocess shall be performed within the clean envelope.
+
+</PdfSplitView>

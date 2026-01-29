@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/098.pdf"
   pdfSize="N/A"
   title="M1-0305 - © SEMI 1978, 2005..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/098.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/098.pdf">
+
+---
+title: "M1-0305 - © SEMI 1978, 2005..."
+description: "SEMI标准文档"
+sidebar_label: "M1-0305 - © SEMI 1978, 2005..."
+sidebar_position: 98
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-098.pdf'
+  chapter: 98
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M6-1000 © SEMI 1981, 2000 4 6.4 Wafer defect limits  See Tab le 1.Table 1 
 &lt;!-- Page 50 --&gt;
 
 SEMI M6-1000 © SEMI 1981, 20005 8.2 In the interest of controlling in spection costs, thesupplier and the purchaser may agree that the materialshall be certified as capable of meeting certainrequirements. In this context, capable of meeting shallsignify that the supplier is not required to perform theappropriate tests in Section 7. However, if the purchaserperforms the test and the material fails to meet therequirement, the material may be subject to rejection. 9 Packing and Package Lab eling9.1 Special packing requirements shall be subject toagreement between the supplier and the purchaser.Otherwise all wafers shall be handled, inspected, andpacked in such a manner as to avoid chipping,scratches, and contamination, and in accordance withthe best industry practices to provide ample protectionagainst damage during shipment.9.2 The wafers supplied under the se specificationsshall be identified by appropriately labeling the outsideof each box or other container and each subdivisionthereof in which it may reasonably be expected that thewafers will be stored prior to further processing.Identification shall include as a minimum the nominaldiameter, conductivity type, dopant, orientation,resistivity range, and lot number. The lot number, either(1) assigned by the original manufacturer of the wafers,or (2) assigned subsequent to wafer manufacture butproviding reference to the original lot number, shallprovide easy access to information concerning thefabrication history of the particular wafers in that lot.Such information shall be retained on file at themanufacturers facility for at least one year after thatparticular lot has been accepted by the purchaser.
+
+</PdfSplitView>

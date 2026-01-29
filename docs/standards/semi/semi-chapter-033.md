@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/033.pdf"
   pdfSize="N/A"
   title="E38-1296 - © SEMI 1995, 19961..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/033.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/033.pdf">
+
+---
+title: "E38-1296 - © SEMI 1995, 19961..."
+description: "SEMI标准文档"
+sidebar_label: "E38-1296 - © SEMI 1995, 19961..."
+sidebar_position: 33
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-033.pdf'
+  chapter: 33
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E38-1296 © SEMI 1995, 1996 38 The process module then informs the transpor
 &lt;!-- Page 50 --&gt;
 
 SEMI E38-1296 © SEMI 1995, 199639 The cluster controller selects the continue option.CC PM2&gt;&gt;-------------------------------------&gt;&gt;EXRecover.Req(EXID=Error1,EXRecoverySelected= "Continue")CC PM2&lt;&lt;-------------------------------------&lt;\&gt;-------------------------------------&gt;&gt;HORetract.Req(Port=Port1,AmID="PM2")PM2 TM&lt;&lt;-------------------------------------&lt;\&gt;-------------------------------------&gt;&gt;HOVerify.Req(Port=Port1,AmID="PM2")PM2 TM&lt;&lt;-------------------------------------&lt;\&gt;-------------------------------------&gt;&gt;PRJobStart.Req(JobID=PM2Job1)CC PM1&lt;&lt;-------------------------------------&lt;\&gt;-------------------------------------&gt;&gt;Set.Req(EREvent,EventID=Event1,Enabled=TRUE)CC PM2&lt;&lt;-------------------------------------&lt;
+
+</PdfSplitView>

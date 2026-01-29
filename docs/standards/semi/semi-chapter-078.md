@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/078.pdf"
   pdfSize="N/A"
   title="F22-1102 - © SEMI 1997, 2002..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/078.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/078.pdf">
+
+---
+title: "F22-1102 - © SEMI 1997, 2002..."
+description: "SEMI标准文档"
+sidebar_label: "F22-1102 - © SEMI 1997, 2002..."
+sidebar_position: 78
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-078.pdf'
+  chapter: 78
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F29-0997 © SEMI 1997, 1103 2 5.2.7 pigtail bleed  a pigtail bleed is a rev
 &lt;!-- Page 50 --&gt;
 
 SEMI F29-0997 © SEMI 1997, 11033 9.1.5 Record the pressure and peak oxygen concentration in Table 1. It is highly recommended that, in addition tothe peak oxygen concentration, the oxygen concentration readings also be recorded at regular intervals during themeasurement, so that a graph of the oxygen concentration level in the pigtail bleed gas versus time can be drawn ifnecessary.9.1.6 Repeat Sections 9.1.29.1.5 for 2, 5, 25, and 50 purge cycles at the manufacturers recommended pressure,vacuum and dwell times. Additional tests using other purge cycle numbers are encouraged and may provide a morecomplete characterization of the purge performance of the test piece.9.1.7 Plot the peak residual oxygen concentration versus cycles as in Figure 2 for manufacturers recommendedpressure, vacuum, and dwell times.9.2 Purge efficacy determination with non-interactive gas at standard pressure, vacuum and dwell times.9.2.1 Connect the gas source equipment as in Figure 1. Figure 1Test Schematic 9.2.2 To challenge the gas panel with a known contaminant gas, completely fill and pressurize the gas sourcesystem to 207 kPa (g) \[30 psi (g)\] with CDA as measured at the pigtail with the pressure transducer.
+
+</PdfSplitView>

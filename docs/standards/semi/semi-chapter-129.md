@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/129.pdf"
   pdfSize="N/A"
   title="G73-0997 - © SEMI 1997, 2004..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/129.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/129.pdf">
+
+---
+title: "G73-0997 - © SEMI 1997, 2004..."
+description: "SEMI标准文档"
+sidebar_label: "G73-0997 - © SEMI 1997, 2004..."
+sidebar_position: 129
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-129.pdf'
+  chapter: 129
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI G76-0299 © SEMI 19995 8.4 Dimension Test Procedure8.4.1 Thickness(1) Equip
 &lt;!-- Page 50 --&gt;
 
 SEMI G76-0299 © SEMI 1999 6 (3) Measurement  After measuring the samplecover film width, fix the sample in the pulltester. In order to keep the sample at 90°, affixa reinforcement panel with double-sidedadhesive tape. Pull and peel off more than 50mm of cover film at a speed of 50 mm/min -1and an angle of 90 ± 5°. Measure the loadduring this interval.(4) Calculation  Use the same method as Section8.5.1, (4). 8.6 Electrical Efficiency Test8.6.1 Volume Resistivity(1) Equipment  Use high insulation-resistancemeter which conforms to JIS C-1303, orsimilar resistance measuring device (seeFigure 2).(2) Material - Prepare a section of TCPpolyimide adhesive tape with adhesivematerial width of more than 50 mm, laminatewith copper foil and cure according to themethod described in Section 8.2. In addition,etch the main electrode and guard electrodeinto the shapes found in Figure 3. For the counter electrode, melt on a conductivematerial to the opposing polyimide filmsurface, or form it out of conductive paste. Drythese at 80 ± 5°C for 30 minutes. Cut theseinto 50 mm squares for the material.(3) Measurement  Use the following steps tomeasure under normal conditions: Measure thethickness of the samples in units of 0.1 m,and measure the inner diameter of the gap inthe circular upper electrode in units of 0.05mm. Apply direct voltage of 500V ± 5V, andmeasure the resistance value after 1 minute.(4) Calculation  Use the equation below. )/(41 cmtDRvv Ω= Where v is volume resistivity, Rv is resistancevalue, t is sample thickness,  is pi, and D 1 is mainelectrode outer diameter. Figure 2Resistance Measurement Device for Volume Resistivity
+
+</PdfSplitView>

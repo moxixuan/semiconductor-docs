@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/092.pdf"
   pdfSize="N/A"
   title="D26-1000 - © SEMI 200010 9...."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/092.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/092.pdf">
+
+---
+title: "D26-1000 - © SEMI 200010 9...."
+description: "SEMI标准文档"
+sidebar_label: "D26-1000 - © SEMI 200010 9...."
+sidebar_position: 92
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-092.pdf'
+  chapter: 92
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI D35-1103E © SEMI 200311 RELATED INFORMATION 3PRECAUTIONS AGAINST MEASURING
 &lt;!-- Page 50 --&gt;
 
 SEMI D35-1103E © SEMI 2003 12 R3-3.4 On the other hand, when the temperature ishigh, the mercury molecule density goes updramatically, reabsorption of ultraviolet rays bymercury itself takes place, the amount of ultravioletrays that reach the fluorescent substance decreases andso the luminance decreases accordingly. The furtherattention necessary is that the mass (thickness) of glasstube is made as thin as possible because the CCFL hasbeen developed with such top priority as to have thenarrow diameter, space-saving shape and highluminance. For this reason, the heat capacity is verysmall, which means the inside mercury moleculetemperature will be affected greatly by heat transfercaused by interference with surrounding members andcooling effect of convective wind to the glass.R3-3.5 Since the luminance varies due to the impact tothe glass temperature by each parameter such as theinterference of surrounding members, contact of othermaterials and cooling effect of convective wind, it isrecommended that measuring conditions should bespecified and standardized as much as possible. T em p . vs M ercu ry vap or 0.00010.0010.010.11101001000 0 100 200 300 400Temp. ( ) Vaper pressuremmHg  A m bient Tem p.vs Lum inance 020406080100120 -40 -20 0 20 40 60 80 100A m bient Tem p. () L um inance vari ation (%)Luminance(100% at 25 T em p . vs M ercu ry vap or 0.00010.0010.010.11101001000 0 100 200 300 400Temp. ( ) Vaper pressuremmHg  A m bient Tem p.vs Lum inance 020406080100120 -40 -20 0 20 40 60 80 100A m bient Tem p. () L um inance vari ation (%)Luminance(100% at 25 R3-4 Slide-up SpeedR3-4.1 The status where a main discharge starts ismeasured for the measurement of stable dischargevoltage sliding gradually the voltage up from the sufficiently low value. Since the starting point of maindischarge may vary by the slide-up speed, a specialattention should be paid.R3-4.2 When the slide-up speed is so slow that theratio of partial pressure of Ar, Ne and Hg shifts to thecondition where lighting is easily performed becausethe mercury vapor pressure increases by the heatgeneration caused by half-lighting, the main dischargemay begin easily compared to the condition at lowCCFL temperature.R3-4.3 Therefore, when measuring the CCFL, theseconditions should be specified and standardized asmuch as possible. R3-5 Use of Master CCFLR3-5.1 When interrelating the spectroradiometer andcolorimeter, an actual CCFL is used often as a masterCCFL.Precautions for such cases are1) the registration date, production history, lightinghistory and expiring date of the master CCFLshould be specified and attached to it, and2) the master CCFL should be kept such that thereshall be no impact to reproduction ofmeasurement.R3-5.2 Since this document is positioned as a relateddocument to standardized documents, the contents aretreated as just for information.NOTICE: SEMI makes no warranties orrepresentations as to the suitability of the standards setforth herein for any particular application. Thedetermination of the suitability of the standard is solelythe responsibility of the user. Users are cautioned torefer to manufacturer's instructions, product labels,product data sheets, and other relevant literature,respecting any materials or equipment mentionedherein. These standards are subject to change withoutnotice.By publication of this standard, SemiconductorEquipment and Materials International (SEMI) takes noposition respecting the validity of any patent rights orcopyrights asserted in connection with any itemsmentioned in this standard. Users of this standard areexpressly advised that determination of any such patentrights or copyrights, and the risk of infringement ofsuch rights are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

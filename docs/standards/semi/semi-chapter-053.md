@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/053.pdf"
   pdfSize="N/A"
   title="E91-0600 - © SEMI 1999, 20006..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/053.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/053.pdf">
+
+---
+title: "E91-0600 - © SEMI 1999, 20006..."
+description: "SEMI标准文档"
+sidebar_label: "E91-0600 - © SEMI 1999, 20006..."
+sidebar_position: 53
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-053.pdf'
+  chapter: 53
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E95-1101 © SEMI 2000, 2001 4 Dialog Title Information Area Dialog Window C
 &lt;!-- Page 50 --&gt;
 
 SEMI E95-1101 © SEMI 2000, 20015 5.3 Basic Network Navigation Model Mandatory5.3.1 This standard specifies a simple navigation model designed specifically to minimize the number of actionsand the amount of time required of the user.5.3.2 The basic network navigation model is capable of displaying a number of views within a single level ofhierarchy. The user does not have to traverse up and down menu or view trees when exercising control andmonitoring tasks. As shown in the figure below, the basic navigation model is a network, supporting horizontal(lateral) transfer, at any time, between any of the functional areas in the interface. The basic network navigationmodel does not support more than one view in any functional area. Expansion of detail for views is typicallyimplemented using dialog boxes.5.3.3 Note that the diagram is schematic; it shows that user selection of a functional area shall display its associatedinformation panel. Only one information panel shall be displayed at any time. Jobs System Recipes Setup (Future) Alarms Help InformationPanel FunctionalAreas Figure 5Basic Network Navigational Model 5.3.4 Network Navigation Model with Sub-navigation Conditional5.3.4.1 While maintaining the same basic structure, this navigation model supports multiple views within functionalareas on the network. If any functional area has more than one view, all functional areas in the interface shallconsistently use one of the two view sub-navigation methods described below. Lateral transfer between any of theviews within a functional area is supported either by providing a single row of tabs which may be selected to changeviews (Figure 6), or by providing view sub-navigation buttons (Figure 7) in a separate screen area dedicated solelyto sub-navigation. Expansion of detail for each of these views is typically implemented using dialog boxes.5.3.4.2 The grouping of tasks within functional areas reflects the natural flow of information, events, and tasks in away that is familiar to the user and that directly supports the attainment of successful process and equipmentperformance goals. Functional areas are user task oriented, collecting together logically related monitoring andcontrol functions, reducing the need to navigate between views.5.3.4.3 Note that the diagrams are schematic; they show that user selection of a functional area shall display itsassociated information panel. Only one information panel shall be displayed at any time. Similarly, user selection ofa tab or sub-navigation button displays only one of the views available at any time.
+
+</PdfSplitView>

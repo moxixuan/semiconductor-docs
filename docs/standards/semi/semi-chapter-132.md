@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/132.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 132"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/132.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/132.pdf">
+
+---
+title: "SEMI Chapter 132"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 132"
+sidebar_position: 132
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-132.pdf'
+  chapter: 132
+  page_count: 1
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI C1-0705 © SEMI 1978, 200525 Particles therefore have a tendency to become 
 &lt;!-- Page 50 --&gt;
 
 SEMI C1-0705 © SEMI 1978, 2005 26 7.14.9.2 The smallest particle counter threshold should deliver at least 50% particle counting efficiency at thecontrol size limit. The control size limit is the particle size agreed upon between supplier and customer thatrepresents an acceptable size level. In general this size will be between 0.1 and 0.5 m.7.14.9.3 Attach the cap with the gas inlet filter and sample tube to the reagent container to be sampled. Place thereagent container in the canister, and seal the canister so that it may be pressurized. With the sample flow controlvalve open, gradually (&lt; 3 bar/min) pressurize the sample to 3 bar for H2O 2 and NH 4OH or as necessary to obtainthe required flow for other fluids. Allow at least 250 mL of the sample to pass through the sensor before counting.7.14.9.4 For each sample, after 5 aliquots have been measured, perform a chi-squared test to determine if the dataare statistically valid. If the chi-squared test fails, examine the apparatus for defects, such as loose or crackedfittings, repair as necessary, and repeat the counting of 5 aliquots. If the sample fails both the second and third chi-squared tests, it is considered to be immeasurable and should be discarded. If a second sample gives similar results,the apparatus, including the OPC, may be defective and should be checked with a well-characterized sample andrepaired if necessary.7.14.10 Measurement7.14.10.1 Discrete Sampling  Measure multiple aliquots of the same sample. The flow rate must be the same asthat at which the instrument was calibrated. The statistical significance of any count data must be taken intoconsideration. Some OPCs inspect as little as 1/1000 th of the available sample flow, and may require a greaternumber of aliquots and larger sampling volume to ensure good statistics. For example, to obtain a coefficient ofvariation (standard deviation/mean) of 10%, it is necessary that at least 100 particles greater than the control sizelimit be counted.7.14.10.2 Continuous Sampling  If continuous sampling apparatus is being used, adjust the needle valve on therotameter to obtain a flow rate consistent with the instrument manufacturers recommendations. This flow rate mustbe the same as that at which the instrument was calibrated. Correct the indicated value for the effect of the fluiddensity and viscosity on the rotameter reading. Allow the first minutes fluid to flow to drain, then count theparticles in each of five, 15 second intervals. The statistical significance of any count data must be taken intoconsideration. Some OPCs inspect as little as 1/1000 th of the available sample flow, and may require a greaternumber of aliquots and larger sampling volume to ensure good statistics. For example, to obtain a coefficient ofvariation (standard deviation/mean) of 10%, it is necessary that at least 100 particles greater than the control sizelimit be counted.7.14.11 Shutdown  As in all portions of this procedure, appropriate safe liquid chemical handling practices mustbe used. In particular, attention should be paid to the reactions between different reagents and between reagents anddiluents, including water, and to the inherent hazards of these materials.7.14.11.1 After the measurement has been completed, vent the pressure vessel to atmospheric pressure through anappropriate scrubber or exhaust hood, then flush the vessel with nitrogen to remove residual reagent vapors.7.14.11.2 Flush the OPC and sample system with water or an appropriate solvent to remove the remaining fluid.7.14.12 Coincidence and Efficiency Corrections  The determination of coincidence and efficiency correctionfactors for particle counters is not recommended. If an OPCs maximum concentration is exceeded, a different OPCshould be selected, or the sample diluted. However any sample dilution will impose additional error and is notrecommended.7.14.13 Index of Refraction Correction  The determination of an index of refraction correction factor for particlecounters is not recommended, as the refractive index of the contaminating particle is unknown.
+
+</PdfSplitView>

@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/052.pdf"
   pdfSize="N/A"
   title="E88-1104 - E © SEMI 1999,..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/052.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/052.pdf">
+
+---
+title: "E88-1104 - E © SEMI 1999,..."
+description: "SEMI标准文档"
+sidebar_label: "E88-1104 - E © SEMI 1999,..."
+sidebar_position: 52
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-052.pdf'
+  chapter: 52
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E91-0600 © SEMI 1999, 2000 4 5.2.3 Description of Prober Process ing State
 &lt;!-- Page 50 --&gt;
 
 SEMI E91-0600 © SEMI 1999, 20005 5.2.4 PSEM Processing State Trans ition TableTable 1 Processing State Transition Table No. Current State Trigger New State Action Comment1 Undefined After turning the poweron, the operator hascommanded the prober toperform initialization. INIT The prober executesinitialization.None 2 INIT Initialization of allprobers completes withoutan alarm or error. IDLE The prober is waiting fora command by the host orthe operator. None 3 IDLE Prober Job has beencreated, and the proberhas already received aprocess program andmaterials, then hasreceived STARTcommand from the host orthe operator. SETTING UP The prober is set upaccording to the processprogram. None 4 SETTING UP All set-up performancehas completed.EXECUTING The prober executeswafer transfer andmeasuring. None 5 EXECUTING Material processingcompletes.IDLE None None 6 PROCESS The prober receivedSTOP command.STOPPING The prober completes thecurrent wafer or thecurrent die underEXECUTING state andunloads it in accordancewith the setting of ECVStopUnit. The prober starts clearingdata. Whether or notunloading is executed afterthe completion of thecurrent wafer or thecurrent die depends on thespecification.7 PROCESS The prober receivedABORT command fromoperator, host or selfgenerated. ABORTING The prober is placed in asafe state.Wafer data or lot data maybe invalid or not available. 8 PROCESS An alarm occurs. ALARMPAUSEDPROCESS activity issuspended, the prober iswaiting for all alarms tobe cleared, STOP orABORT command. ALARM PAUSED isPAUSE sub-state. 9 PROCESS The prober receivedPAUSE command fromthe host or the operator. PAUSING PROCESS state issuspended when theprocessing can bestopped.All operations required toput the prober in safecondition are performed. PAUSING is PROCESSPAUSE sub-state. 10 CHECKING Parameter checking endsnormally.PreviousPROCESSstate. Processing re-starts fromthe previously suspendedstate. None
+
+</PdfSplitView>

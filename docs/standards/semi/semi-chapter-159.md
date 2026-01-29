@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/159.pdf"
   pdfSize="N/A"
   title="SEMI Chapter 159"
-  description="SEMI标准文档，共1页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/159.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/159.pdf">
+
+---
+title: "SEMI Chapter 159"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Chapter 159"
+sidebar_position: 159
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-159.pdf'
+  chapter: 159
+  page_count: 1
+---
 
 
 
@@ -120,3 +133,5 @@ SEMI T15-0705 © SEMI 20053 A A A Y Y M M S S S S S S S S S NOTE 1: A stands for
 &lt;!-- Page 23 --&gt;
 
 CONTENTS BY TOPIC 300 mm Carriers andPhysical Interfaces300 mm PackagingAutomated MaterialHandling SystemsAutomated Test EquipmentBall Grid ArraysChemical and GasDistribution SystemsChemical and Gas GeneralSpecificationsChemical and Gas TestingChemical HazardsChip CarriersCIM FrameworkCluster ToolsDevice TrackingElectromagneticCompatibilityElectronic Data InterchangeEquipmentCommunicationsEquipment MetricsEquipment ModelsEquipment - FacilitiesInterfaceFacilities - ElectricalFire SafetyFluorocarbon ComponentsFPD Color Filters FPD MasksFPD Polarizing FilmsFPD SubstratesGallium ArsenideGas Particle SpecificationsGas Source EquipmentGases - AtmosphericGases - NobleGases - ProcessGases - SpecialtyHigh Purity Piping SystemsHuman-Machine InterfacesIndium PhosphideLCD Backlight UnitLead FinishesLeadframesMask and Mask EquipmentMass Flow ControllersMinienvironmentsMolding CompoundsPackage and Chip CarrierToolingPackage SpecificationsPackage Test MethodsPhotolithography MetrologyPhotoresistPhysical InterfacesProcess Chemicals - AcidsProcess Chemicals - Bases Process Chemicals -MiscellaneousProcess Chemicals -SolventsReticle Data ManagementSafety GuidelinesScanning SurfaceInspection SystemsSensor Actuator NetworkSiliconSilicon Materials & ProcessControlSilicon on InsulatorSpecialty GasesStainless Steel ComponentsStatistical ControlSubstrate Carriers andPodsSurface Mount GasDistribution SystemsTerminologyTubing, Fittings, and ValvesWafer MarkingWafer ProbersWafer Shipping SystemXML (Extensible MarkupLanguage)Unclassified Semiconductor Equipment and Materials International
+
+</PdfSplitView>

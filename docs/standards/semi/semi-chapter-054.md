@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/054.pdf"
   pdfSize="N/A"
   title="E95-1101 - © SEMI 2000, 20016..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/054.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/054.pdf">
+
+---
+title: "E95-1101 - © SEMI 2000, 20016..."
+description: "SEMI标准文档"
+sidebar_label: "E95-1101 - © SEMI 2000, 20016..."
+sidebar_position: 54
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-054.pdf'
+  chapter: 54
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI E97-0200A © SEMI 200019 void resumeAllJobs ()raises (Global::FrameworkErro
 &lt;!-- Page 50 --&gt;
 
 SEMI E97-0200A © SEMI 2000 20 JobSequence allActiveJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allExecutingJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allPausingJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allPausedJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allStoppingJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allAbortingJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allFinishedJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allStoppedJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allAbortedJobs ( )raises (Global::FrameworkErrorSignal); JobSequence allCompletedJobs ( )raises (Global::FrameworkErrorSignal); &#125;; // JobSupervisorContracted Services: None.Dynamic Model: Inherited. 6.6.3 Job InterfaceModule: AbstractIFInterface: JobInherited Interface: OwnedEntityDescription: The Job interface represents a unit of work requested of an associated JobSupervisor andperformed (or facilitated) by a factory entity. A Job generally results in some change ofthe overall factory state. How the entities that supply the Job and JobSupervisorinterfaces actually perform the work (or delegation of work) is an implementationdecision. A Job is expected (but not required) to take a non-zero time to perform andhave a non-zero chance of refusal or failure. A Job may encapsulate a decomposition intoa sequence of jobs/tasks/activities which are delegated to lower level job supervisors. TheJob exists during the execution timeframe. The more persistent record of the Job shouldbe maintained in a history entry. interface Job : OwnedEntity &#123;Exceptions:Published Events:/\* Any time the Jobs state changes. \*/
+
+</PdfSplitView>

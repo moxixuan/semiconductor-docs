@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/077.pdf"
   pdfSize="N/A"
   title="F11-0998 - © SEMI 1993, 1998..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/077.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/077.pdf">
+
+---
+title: "F11-0998 - © SEMI 1993, 1998..."
+description: "SEMI标准文档"
+sidebar_label: "F11-0998 - © SEMI 1993, 1998..."
+sidebar_position: 77
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-077.pdf'
+  chapter: 77
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI F21-1102 © SEMI 1995, 20023 RELATED INFORMATION 1SPECIFIC CONTAMINANTS TO 
 &lt;!-- Page 50 --&gt;
 
 SEMI F21-1102 © SEMI 1995, 2001 4 RELATED INFORMATION 2EXAMPLE OF AN ANALYSIS REPORT NOTE: This related information is not an official part of SEMI F21 and is not intended to modify or supercede the officialstandard. It has been derived from the work of the originating task force. Publication was authorized by full ballot procedures.Determination of the suitability of the material is solely the responsibility of the user.Analysis for compliance with SEMI Standard Classification MA-10: Site : FAB 3Test date and duration : 18 August 1994, 0800 1700, 9 hoursContaminants measured : Hydrofluoric acid 1 pptmSulfuric acid 1 pptmHydrochloric acid 2 pptmNitric acid 1 pptmPhosphoric acid 2 pptmHydrobromic acid 1 pptmTotal 8 pptmDetection Limits : 1 pptm for each analyteConfidence Level : 95%Assumptions made : All acids determined as anions after water scrubbing;anions can be from other sources but are assumed tobe in the acid form for reporting purposes.Conclusion : This environment meets the MA -10 criterion inSEMI F21. NOTICE: SEMI makes no warranties or representations as to the suitability of the standards set forth herein forany particular application. The determination of the suitability of the standard is solely the responsibility of the user.Users are cautioned to refer to manufacturers instructions, product labels, product data sheets, and other relevantliterature respecting any materials mentioned herein. These standards are subject to change without notice.The users attention is called to the possibility that compliance with this standard may require use of copyrightedmaterial or of an invention covered by patent rights. By publication of this standard, SEMI takes no positionrespecting the validity of any patent rights or copyrights asserted in connection with any item mentioned in thisstandard. Users of this standard are expressly advised that determination of any such patent rights or copyrights, andthe risk of infringement of such rights, are entirely their own responsibility. Copyright by SEMI® (Semiconductor Equipment and MaterialsInternational), 3081 Zanker Road, San Jose, CA 95134. Reproduction ofthe contents in whole or in part is forbidden without express writtenconsent of SEMI.
+
+</PdfSplitView>

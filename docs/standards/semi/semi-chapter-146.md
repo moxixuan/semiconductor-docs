@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/146.pdf"
   pdfSize="N/A"
   title="SEMI Standards - Chapter 146"
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/146.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/146.pdf">
+
+---
+title: "SEMI Standards - Chapter 146"
+description: "SEMI标准文档"
+sidebar_label: "SEMI Standards - Chapter 146"
+sidebar_position: 146
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-146.pdf'
+  chapter: 146
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI MF1049-0304 © SEMI 2003, 20043 add 2 parts hydrofluoric acid (HF) to 1 par
 &lt;!-- Page 50 --&gt;
 
 SEMI MF1049-0304 © SEMI 2003, 2004 4 NOTE 6: The percentage of the wafer covered may bedetermined with the use of the universal wafer grid specifiedin SEMI M17 that divides the wafer into 1000-area elements.If the universal wafer grid is used, record the size of the edgeexclusion or the fixed quality area used. A1.6-mm peripheralring on a 125-mm diameter wafer represents 5% of the waferarea. 12.2 Determine the level of haze present on the surfacefrom Table 2.Table 2 Haze Level ClassificationLevel % of Wafer AreaA 05B 525C 2575D 75100 12.3 Optional Estimation of Shallow Etch Pit Density If it is desired to estimate the shallow etch pitdensity, use the procedure in Related Information 1. 13 Report13.1 Report the following information:13.1.1 Date of test, laboratory and operatoridentification, 13.1.2 Identification of wafer lot,13.1.3 Identification of the test wafer(s) (includingconductivity type, orientation, diameter, growthmethod, and back surface condition),13.1.4 Level of haze for each wafer tested, and13.1.5 A diagram showing the location and distributionof areas of high shallow etch-pit density, and, ifestimates of shallow etch-pit density are made,locations of the count positions.13.2 If the shallow etch-pit density was estimated onone or more wafers, also report the followinginformation of each wafer tested:13.2.1 Magnification used in the test,13.2.2 Average estimated shallow etch-pit density, and13.2.3 Maximum and minimum measured shallowetch-pit density, if more than one count position wasemployed. 14 Keywords14.1 epitaxial; oxidation; preferential etch; saucer pit;shallow etch pit; silicon
+
+</PdfSplitView>

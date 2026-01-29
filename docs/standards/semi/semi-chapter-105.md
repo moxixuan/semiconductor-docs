@@ -12,20 +12,33 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
-import PdfViewer from '@site/src/components/PdfViewer';
+import PdfSplitView from '@site/src/components/PdfSplitView';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/105.pdf"
   pdfSize="N/A"
   title="M37-0699 - © SEMI 19992 Figure..."
-  description="SEMI标准文档，共50页"
+  description="SEMI标准文档"
 />
 
 ---
 
-## 📖 查看PDF原文档（包含完整图表和格式）
+## 📖 并排查看：Markdown文本 + PDF原文档
 
-<PdfViewer pdfPath="/pdfs/semi/105.pdf" />
+<PdfSplitView pdfPath="/pdfs/semi/105.pdf">
+
+---
+title: "M37-0699 - © SEMI 19992 Figure..."
+description: "SEMI标准文档"
+sidebar_label: "M37-0699 - © SEMI 19992 Figure..."
+sidebar_position: 105
+tags: ['SEMI', 'Standard']
+custom_props:
+  source_type: 'pdf'
+  source_file: 'semi-chapter-105.pdf'
+  chapter: 105
+  page_count: 50
+---
 
 
 
@@ -228,3 +241,5 @@ SEMI M41-1101 © SEMI 2000, 2001 6 Parameters (Units) Value ASTM Test Method orM
 &lt;!-- Page 50 --&gt;
 
 SEMI M41-1101 © SEMI2000, 20017 Parameters (Units) Value ASTM Test Method orMeasurement ProcedureAcceptance Oxygen Concentration (/cm3) Note C F1188-93a,F1619-95Note C, or Certified byWafer ManufacturesCarbon Concentration (/cm3) Note C F1391-93 Note C, or Certified byWafer ManufacturesSurface Cleanliness: MetalContamination (/cm2)Note A, C AAS, ICP-MS,TXRF (F1526-95),SIMS (F1617-98) Note A, C Surface Cleanliness: ParticleDensity (/wafer)Note A, C Light ScatteringTomography (F1620-96)(SEMI M34) Note A, C Surface Roughness (nm) Note A, C AFM (SEMI M34) Note A, CCarrier Lifetime (sec) Note C -PCD Method (F1535-94) Note CCrystalline Alignment of TopSilicon Film to BaseWafer (°) Note C X-ray Diffraction(F847-94)Note C Surface Feature(Haze, Scratch, etc)None F154-94, F523-93, F1726-97 Must be measured on eachwaferOSF Density (/cm2) Note C Optical Metrology(F1727-97)Note C, or Certified byWafer ManufacturesBuried Layer Note C F110-88 Note CBuried Oxide (BOX)Thickness (m) 0.52 Ellipsometry (F576-95)orReflective Spectroscopy(SEMI M34) Tolerance is ± 5%;Note C, or Certified byWafer Manufactures Location of Bonded Interface Note C TEM Certified by WaferManufacturesVoid Density (/cm2) None Scanning AcousticTomography, Optical DefectInspection Note C Oxide Defect Density (/cm2) Note C I-V on Capacitor,Cu Decoration(SEMI M34) Note C Dielectric Breakdown Voltage(V)Note C I-V on Capacitor Note C Interface States (/cm2) Note C, H C-V Technique Note CFixed Charge Density (/cm2) Note C, H C-V Technique(F1153-92)Note C Bonding Strength (kg/cm2) Note C Tensile Strength Note C, or Certified byWafer ManufacturesBase Silicon WaferSurface Orientation Note C F26-87a Note CResistivity (ohm-cm) Note C F43-93, F84-93, F1527-94 Note CConductivity Type Note C F42-93 Note CFiducial Axis Orientation(Flat/Notch)Note C F671-90, F1152-93 Note C To-be-bonded SurfaceCleanliness: Metals (/cm2)Note C AAS, ICP-MS,TXRF (F1526-95),SIMS (F1617-98) Note C Back Surface Finish Note C Optical Metrology Note C
+
+</PdfSplitView>

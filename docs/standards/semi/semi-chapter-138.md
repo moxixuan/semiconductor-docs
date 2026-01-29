@@ -12,6 +12,7 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+import PdfViewer from '@site/src/components/PdfViewer';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/138.pdf"
@@ -19,6 +20,12 @@ import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
   title="S2-0703a - E © SEMI 1991,..."
   description="SEMI标准文档，共50页"
 />
+
+---
+
+## 📖 查看PDF原文档（包含完整图表和格式）
+
+<PdfViewer pdfPath="/pdfs/semi/138.pdf" />
 
 
 

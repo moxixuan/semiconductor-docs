@@ -12,6 +12,7 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+import PdfViewer from '@site/src/components/PdfViewer';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/126.pdf"
@@ -19,6 +20,12 @@ import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
   title="G48-89 - © SEMI 1989, 1996..."
   description="SEMI标准文档，共50页"
 />
+
+---
+
+## 📖 查看PDF原文档（包含完整图表和格式）
+
+<PdfViewer pdfPath="/pdfs/semi/126.pdf" />
 
 
 

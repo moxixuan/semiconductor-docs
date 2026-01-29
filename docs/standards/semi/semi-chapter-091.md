@@ -12,6 +12,7 @@ custom_props:
 ---
 
 import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
+import PdfViewer from '@site/src/components/PdfViewer';
 
 <PdfDownloadCard
   pdfLink="/pdfs/semi/091.pdf"
@@ -19,6 +20,12 @@ import PdfDownloadCard from '@site/src/components/PdfDownloadCard';
   title="D21-1000 - © SEMI 1992, 20002..."
   description="SEMI标准文档，共50页"
 />
+
+---
+
+## 📖 查看PDF原文档（包含完整图表和格式）
+
+<PdfViewer pdfPath="/pdfs/semi/091.pdf" />
 
 
 

@@ -27,6 +27,9 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/your-org/semiconductor-docs/tree/main/',
+          themeConfig: {
+            hideTableOfContents: true,
+          },
         },
         blog: {
           showReadingTime: true,
